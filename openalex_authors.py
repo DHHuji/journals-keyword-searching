@@ -60,8 +60,8 @@ def _extract_work_data(item, search_work_ids):
     row['journal_name'] = source.get('display_name', '') if source else ''
 
     authors = item.get('authorships', [])
-    author_names = []
-    author_ids = []
+    author_names = set()
+    author_ids = set()
     all_institutions = set()
     all_countries = set()
     all_affiliations = set()
@@ -69,7 +69,7 @@ def _extract_work_data(item, search_work_ids):
     for authorship in authors:
         raw_name = authorship.get('raw_author_name', '')
         if raw_name:
-            author_names.append(raw_name.strip("'\"ʻʼ'ʽ`´"))
+            author_names.add(raw_name.strip("'\"ʻʼ'ʽ`´"))
 
         author = authorship.get('author', {})
         if author:
@@ -77,7 +77,7 @@ def _extract_work_data(item, search_work_ids):
             if author_id:
                 author_id = author_id.replace(openalex_prefix, '')
                 if author_id:
-                    author_ids.append(author_id)
+                    author_ids.add(author_id)
 
         institutions = authorship.get('institutions', [])
         has_institutions = False
@@ -92,13 +92,13 @@ def _extract_work_data(item, search_work_ids):
                 all_countries.add(country)
 
         if not has_institutions:
-            raw_affiliation_strings = authorship.get('raw_affiliation_strings', [])
+            raw_affiliation_strings = authorship.get('raw_affiliation_strings', []) or []
             for affiliation in raw_affiliation_strings:
                 if affiliation and affiliation != "View further author information":
                     all_affiliations.add(affiliation)
 
-    row['authors'] = ';'.join(author_names)
-    row['author_ids'] = ';'.join(author_ids)
+    row['authors'] = ';'.join(sorted(author_names))
+    row['author_ids'] = ';'.join(sorted(author_ids))
     row['institutions'] = ';'.join(sorted(all_institutions))
     row['countries'] = ';'.join(sorted(all_countries))
     row['affiliations_comment'] = ';'.join(sorted(all_affiliations)) if not all_institutions else ''
