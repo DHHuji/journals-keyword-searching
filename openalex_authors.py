@@ -60,12 +60,17 @@ def _extract_work_data(item, search_work_ids):
     row['journal_name'] = source.get('display_name', '') if source else ''
 
     authors = item.get('authorships', [])
-    author_names = [author.get('raw_author_name', '').strip("'\"ʻʼ'ʽ`´")
-                    for author in authors if author.get('raw_author_name')]
-    row['authors'] = ';'.join(author_names)
-
+    author_names = []
     author_ids = []
+    all_institutions = set()
+    all_countries = set()
+    all_affiliations = set()
+
     for authorship in authors:
+        raw_name = authorship.get('raw_author_name', '')
+        if raw_name:
+            author_names.append(raw_name.strip("'\"ʻʼ'ʽ`´"))
+
         author = authorship.get('author', {})
         if author:
             author_id = author.get('id', '')
@@ -73,8 +78,30 @@ def _extract_work_data(item, search_work_ids):
                 author_id = author_id.replace(openalex_prefix, '')
                 if author_id:
                     author_ids.append(author_id)
-    row['author_ids'] = ';'.join(author_ids)
 
+        institutions = authorship.get('institutions', [])
+        has_institutions = False
+        for inst in institutions:
+            if inst and inst.get('display_name'):
+                all_institutions.add(inst.get('display_name'))
+                has_institutions = True
+
+        countries = authorship.get('countries', [])
+        for country in countries:
+            if country:
+                all_countries.add(country)
+
+        if not has_institutions:
+            raw_affiliation_strings = authorship.get('raw_affiliation_strings', [])
+            for affiliation in raw_affiliation_strings:
+                if affiliation and affiliation != "View further author information":
+                    all_affiliations.add(affiliation)
+
+    row['authors'] = ';'.join(author_names)
+    row['author_ids'] = ';'.join(author_ids)
+    row['institutions'] = ';'.join(sorted(all_institutions))
+    row['countries'] = ';'.join(sorted(all_countries))
+    row['affiliations_comment'] = ';'.join(sorted(all_affiliations)) if not all_institutions else ''
     row['cited_by_count'] = item.get('cited_by_count', 0)
 
     keywords = item.get('keywords', [])
@@ -181,7 +208,8 @@ def main():
             with open(OUTPUT_AUTHORS_FILE, 'w', newline='', encoding='utf-8') as csvfile:
                 fieldnames = [
                     'id', 'doi', 'title', 'publication_date', 'source_id',
-                    'journal_name', 'authors', 'author_ids', 'cited_by_count', 'keywords', 'references_israel'
+                    'journal_name', 'authors', 'author_ids', 'institutions', 'countries',
+                    'affiliations_comment', 'cited_by_count', 'keywords', 'references_israel'
                 ]
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
                 writer.writeheader()
