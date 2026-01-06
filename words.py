@@ -140,7 +140,7 @@ def main():
     nlp = stanza.Pipeline('en', processors='tokenize,pos,lemma,ner', verbose=False)
 
     print("Reading CSV file...")
-    with open('search_results/combined.csv', 'r', encoding='utf-8') as f:
+    with open('works.csv', 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
 
         columns_to_process = ['title', 'keywords', 'abstract']

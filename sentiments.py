@@ -6,7 +6,7 @@ import httpx
 import ollama
 
 MODEL_NAME = "llama3"
-INPUT_CSV = "search_results/combined.csv"
+INPUT_CSV = "works.csv"
 SENTIMENT_SPECIFIC_RESULTS_DIR = "sentiment_specific_results"
 SENTIMENT_THEMES_RESULTS_DIR = "sentiment_themes_results"
 

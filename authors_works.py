@@ -45,7 +45,7 @@ def _extract_author_works(json_data):
     return author_works
 
 
-def _extract_work_data(item, search_work_ids):
+def _extract_work_data_for_author(item, authorship, search_work_ids):
     row = {}
 
     openalex_prefix = 'https://openalex.org/'
@@ -59,46 +59,32 @@ def _extract_work_data(item, search_work_ids):
     row['source_id'] = source.get('id', '').replace(openalex_prefix, '') if source else ''
     row['journal_name'] = source.get('display_name', '') if source else ''
 
-    authors = item.get('authorships', [])
-    author_names = set()
-    author_ids = set()
-    all_institutions = set()
-    all_countries = set()
-    all_affiliations = set()
+    raw_name = authorship.get('raw_author_name', '')
+    row['author_name'] = raw_name.strip("'\"ʻʼ'ʽ`´") if raw_name else ''
 
-    for authorship in authors:
-        raw_name = authorship.get('raw_author_name', '')
-        if raw_name:
-            author_names.add(raw_name.strip("'\"ʻʼ'ʽ`´"))
+    author = authorship.get('author', {})
+    if author:
+        author_id = author.get('id', '')
+        if author_id:
+            author_id = author_id.replace(openalex_prefix, '')
+    row['author_id'] = author_id if author_id else ''
 
-        author = authorship.get('author', {})
-        if author:
-            author_id = author.get('id', '')
-            if author_id:
-                author_id = author_id.replace(openalex_prefix, '')
-                if author_id:
-                    author_ids.add(author_id)
+    institutions = authorship.get('institutions', [])
+    all_institutions = []
+    for inst in institutions:
+        if inst and inst.get('display_name'):
+            all_institutions.append(inst.get('display_name'))
 
-        institutions = authorship.get('institutions', [])
-        has_institutions = False
-        for inst in institutions:
-            if inst and inst.get('display_name'):
-                all_institutions.add(inst.get('display_name'))
-                has_institutions = True
+    countries = authorship.get('countries', [])
+    all_countries = [country for country in countries if country]
 
-        countries = authorship.get('countries', [])
-        for country in countries:
-            if country:
-                all_countries.add(country)
+    all_affiliations = []
+    if not all_institutions:
+        raw_affiliation_strings = authorship.get('raw_affiliation_strings', []) or []
+        for affiliation in raw_affiliation_strings:
+            if affiliation and affiliation != "View further author information":
+                all_affiliations.append(affiliation)
 
-        if not has_institutions:
-            raw_affiliation_strings = authorship.get('raw_affiliation_strings', []) or []
-            for affiliation in raw_affiliation_strings:
-                if affiliation and affiliation != "View further author information":
-                    all_affiliations.add(affiliation)
-
-    row['authors'] = ';'.join(sorted(author_names))
-    row['author_ids'] = ';'.join(sorted(author_ids))
     row['institutions'] = ';'.join(sorted(all_institutions))
     row['countries'] = ';'.join(sorted(all_countries))
     row['affiliations_comment'] = ';'.join(sorted(all_affiliations)) if not all_institutions else ''
@@ -191,31 +177,39 @@ def main():
         print(f"Fetching all works for {len(unique_author_ids)} authors from OpenAlex API...")
         all_author_works = asyncio.run(enrich_authors_with_all_works(unique_author_ids))
 
-        seen_work_ids = set()
+        seen_work_author_pairs = set()
         output_rows = []
 
         for author_id in unique_author_ids:
             if author_id in all_author_works:
                 works = all_author_works[author_id]
                 for work in works:
-                    work_data = _extract_work_data(work, search_work_ids)
+                    work_id = work.get('id', '').replace('https://openalex.org/', '')
+                    if work_id:
+                        for authorship in work.get('authorships', []):
+                            author = authorship.get('author', {})
+                            if author:
+                                current_author_id = author.get('id', '').replace('https://openalex.org/', '')
+                                pair_key = (work_id, current_author_id)
 
-                    if work_data['id'] and work_data['id'] not in seen_work_ids:
-                        seen_work_ids.add(work_data['id'])
-                        output_rows.append(work_data)
+                                if pair_key not in seen_work_author_pairs:
+                                    seen_work_author_pairs.add(pair_key)
+                                    work_data = _extract_work_data_for_author(work, authorship, search_work_ids)
+                                    if work_data['id']:
+                                        output_rows.append(work_data)
 
         if output_rows:
             with open(OUTPUT_AUTHORS_FILE, 'w', newline='', encoding='utf-8') as csvfile:
                 fieldnames = [
                     'id', 'doi', 'title', 'publication_date', 'source_id',
-                    'journal_name', 'authors', 'author_ids', 'institutions', 'countries',
+                    'journal_name', 'author_name', 'author_id', 'institutions', 'countries',
                     'affiliations_comment', 'cited_by_count', 'keywords', 'references_israel'
                 ]
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
                 writer.writeheader()
                 writer.writerows(output_rows)
 
-            print(f"Successfully created {OUTPUT_AUTHORS_FILE} with {len(output_rows)} unique works")
+            print(f"Successfully created {OUTPUT_AUTHORS_FILE} with {len(output_rows)} author-work pairs")
         else:
             print("No works data found to process")
     else:

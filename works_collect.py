@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 RESULTS_DIR = 'search_results'
-OUTPUT_FILE = 'search_results/combined.csv'
+OUTPUT_FILE = 'works.csv'
 JOURNALS_FILE = 'journals.csv'
 
 
