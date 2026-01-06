@@ -81,6 +81,7 @@ def clean_json_result(result, row_id):
 
     if '}' not in cleaned_result:
         cleaned_result += '"}'
+        cleaned_result = cleaned_result.replace('""}', '"}')
     else:
         cleaned_result = cleaned_result[:cleaned_result.rindex('}') + 1]
 
