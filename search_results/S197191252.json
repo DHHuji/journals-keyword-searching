@@ -4,7 +4,7 @@
     "doi": "https://doi.org/10.1093/jiel/jgw056",
     "title": "Mapping the Universe of International Investment Agreements",
     "display_name": "Mapping the Universe of International Investment Agreements",
-    "relevance_score": 17.444689,
+    "relevance_score": 17.538017,
     "publication_year": 2016,
     "publication_date": "2016-08-30",
     "ids": {
@@ -32,9 +32,13 @@
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
-          "https://openalex.org/P4310311648"
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -65,16 +69,6 @@
         },
         "institutions": [
           {
-            "id": "https://openalex.org/I951315",
-            "display_name": "Graduate Institute of International and Development Studies",
-            "ror": "https://ror.org/007ygn379",
-            "country_code": "CH",
-            "type": "education",
-            "lineage": [
-              "https://openalex.org/I951315"
-            ]
-          },
-          {
             "id": "https://openalex.org/I1285402005",
             "display_name": "World Trade Organization",
             "ror": "https://ror.org/03cqs4n40",
@@ -91,15 +85,19 @@
         "is_corresponding": true,
         "raw_author_name": "Wolfgang Alschner",
         "raw_affiliation_strings": [
-          "*Postdoctoral Researcher, The Graduate Institute, Geneva, Switzerland and World Trade Institute, Bern, Switzerland."
+          "* *Postdoctoral Researcher, The Graduate Institute, Geneva, Switzerland and World Trade Institute, Bern, Switzerland. wolfgang.alschner@graduateinstitute.ch",
+          "*Postdoctoral Researcher, The Graduate Institute, Geneva, Switzerland and World Trade Institute, Bern, Switzerland"
         ],
         "affiliations": [
           {
-            "raw_affiliation_string": "*Postdoctoral Researcher, The Graduate Institute, Geneva, Switzerland and World Trade Institute, Bern, Switzerland.",
+            "raw_affiliation_string": "* *Postdoctoral Researcher, The Graduate Institute, Geneva, Switzerland and World Trade Institute, Bern, Switzerland. wolfgang.alschner@graduateinstitute.ch",
             "institution_ids": [
-              "https://openalex.org/I1285402005",
-              "https://openalex.org/I951315"
+              "https://openalex.org/I1285402005"
             ]
+          },
+          {
+            "raw_affiliation_string": "*Postdoctoral Researcher, The Graduate Institute, Geneva, Switzerland and World Trade Institute, Bern, Switzerland",
+            "institution_ids": []
           }
         ]
       },
@@ -112,26 +110,6 @@
         },
         "institutions": [
           {
-            "id": "https://openalex.org/I951315",
-            "display_name": "Graduate Institute of International and Development Studies",
-            "ror": "https://ror.org/007ygn379",
-            "country_code": "CH",
-            "type": "education",
-            "lineage": [
-              "https://openalex.org/I951315"
-            ]
-          },
-          {
-            "id": "https://openalex.org/I1285402005",
-            "display_name": "World Trade Organization",
-            "ror": "https://ror.org/03cqs4n40",
-            "country_code": "CH",
-            "type": "government",
-            "lineage": [
-              "https://openalex.org/I1285402005"
-            ]
-          },
-          {
             "id": "https://openalex.org/I183209874",
             "display_name": "European University at Saint Petersburg",
             "ror": "https://ror.org/04p2rkp70",
@@ -143,16 +121,25 @@
           }
         ],
         "countries": [
-          "CH",
           "RU"
         ],
         "is_corresponding": true,
         "raw_author_name": "Dmitriy Skougarevskiy",
         "raw_affiliation_strings": [
+          "** **Researcher & PhD Candidate, European University, St. Petersburg, Russian Federation; The Graduate Institute, Geneva, Switzerland, and World Trade Institute, Bern, Switzerland. dmitriy.skugarevskiy@graduateinstitute.ch ",
+          "**Researcher & PhD Candidate, European University, St. Petersburg, Russian Federation; The Graduate Institute, Geneva, Switzerland, and World Trade Institute, Bern, Switzerland.  ",
           "**Researcher & PhD Candidate, European University, St. Petersburg, Russian Federation",
-          "The Graduate Institute, Geneva, Switzerland, and World Trade Institute, Bern, Switzerland.  ."
+          "The Graduate Institute, Geneva, Switzerland, and World Trade Institute, Bern, Switzerland.  "
         ],
         "affiliations": [
+          {
+            "raw_affiliation_string": "** **Researcher & PhD Candidate, European University, St. Petersburg, Russian Federation; The Graduate Institute, Geneva, Switzerland, and World Trade Institute, Bern, Switzerland. dmitriy.skugarevskiy@graduateinstitute.ch ",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "**Researcher & PhD Candidate, European University, St. Petersburg, Russian Federation; The Graduate Institute, Geneva, Switzerland, and World Trade Institute, Bern, Switzerland.  ",
+            "institution_ids": []
+          },
           {
             "raw_affiliation_string": "**Researcher & PhD Candidate, European University, St. Petersburg, Russian Federation",
             "institution_ids": [
@@ -160,11 +147,8 @@
             ]
           },
           {
-            "raw_affiliation_string": "The Graduate Institute, Geneva, Switzerland, and World Trade Institute, Bern, Switzerland.  .",
-            "institution_ids": [
-              "https://openalex.org/I1285402005",
-              "https://openalex.org/I951315"
-            ]
+            "raw_affiliation_string": "The Graduate Institute, Geneva, Switzerland, and World Trade Institute, Bern, Switzerland.  ",
+            "institution_ids": []
           }
         ]
       }
@@ -178,8 +162,7 @@
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I1285402005",
-      "https://openalex.org/I183209874",
-      "https://openalex.org/I951315"
+      "https://openalex.org/I183209874"
     ],
     "apc_list": {
       "value": 4153,
@@ -189,9 +172,9 @@
     "apc_paid": null,
     "fwci": 15.59417686,
     "has_fulltext": false,
-    "cited_by_count": 119,
+    "cited_by_count": 120,
     "citation_normalized_percentile": {
-      "value": 0.98864352,
+      "value": 0.98861968,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -457,9 +440,13 @@
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
-            "https://openalex.org/P4310311648"
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -469,20 +456,6 @@
         "is_published": true,
         "raw_source_name": "Journal of International Economic Law",
         "raw_type": "journal-article"
-      },
-      {
-        "id": "pmh:oai:open-archive.highwire.org:jielaw:19/3/561",
-        "is_oa": false,
-        "landing_page_url": "http://jiel.oxfordjournals.org/cgi/content/short/19/3/561",
-        "pdf_url": null,
-        "source": null,
-        "license": null,
-        "license_id": null,
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": "",
-        "raw_type": "TEXT"
       },
       {
         "id": "pmh:oai:RePEc:oup:jieclw:v:19:y:2016:i:3:p:561-588.",
@@ -510,19 +483,32 @@
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
-        "raw_source_name": "",
+        "raw_source_name": null,
         "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:open-archive.highwire.org:jielaw:19/3/561",
+        "is_oa": false,
+        "landing_page_url": "http://jiel.oxfordjournals.org/cgi/content/short/19/3/561",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "TEXT"
       }
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/17",
-        "display_name": "Partnerships for the goals",
-        "score": 0.5600000023841858
+        "score": 0.5600000023841858,
+        "display_name": "Partnerships for the goals"
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -1032,7 +1018,7 @@
     "counts_by_year": [
       {
         "year": 2025,
-        "cited_by_count": 8
+        "cited_by_count": 9
       },
       {
         "year": 2024,
@@ -1071,7 +1057,7 @@
         "cited_by_count": 2
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-01-05T23:09:59.299951",
     "created_date": "2025-10-10T00:00:00"
   }
 ]

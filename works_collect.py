@@ -34,6 +34,16 @@ def _load_journal_mapping():
 
 
 def _extract_data_from_json(json_data, journal_mapping):
+    jstor_sources = {
+        'S157620343', 'S122471516', 'S159327246', 'S173252385', 'S60621485',
+        'S102499938', 'S165709033', 'S65256140', 'S43131466', 'S30381306',
+        'S87435064', 'S184885884', 'S88529193', 'S199726014', 'S38600022',
+        'S184094801', 'S189112142', 'S77333486', 'S22506700', 'S176007004',
+        'S90314269', 'S95650557', 'S143110675', 'S117766065', 'S161895660',
+        'S34110867', 'S161743634', 'S44706263', 'S129275725', 'S160097506',
+        'S156235965', 'S132513827', 'S121755651'
+    }
+
     results = []
 
     for item in json_data:
@@ -50,6 +60,8 @@ def _extract_data_from_json(json_data, journal_mapping):
         row['source_id'] = source.get('id', '').replace(openalex_prefix, '') if source else ''
         row['journal_name'] = journal_mapping.get(row['source_id'], {}).get('Journal Name', '')
         row['journal_category'] = journal_mapping.get(row['source_id'], {}).get('Category', '')
+
+        row['jstor'] = row['source_id'] in jstor_sources
 
         open_access = item.get('open_access', {})
         row['oa_status'] = open_access.get('oa_status', '') if open_access else ''

@@ -4,7 +4,7 @@
     "doi": "https://doi.org/10.1080/14754830601084642",
     "title": "Triangle of Betrayal: Collaborators and Transitional Justice in the Israeli-Palestinian Conflict",
     "display_name": "Triangle of Betrayal: Collaborators and Transitional Justice in the Israeli-Palestinian Conflict",
-    "relevance_score": 231.35155,
+    "relevance_score": 231.35178,
     "publication_year": 2007,
     "publication_date": "2007-02-01",
     "ids": {
@@ -34,7 +34,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -65,6 +67,16 @@
         },
         "institutions": [
           {
+            "id": "https://openalex.org/I4210160447",
+            "display_name": "Universidad de Londres",
+            "ror": "https://ror.org/054v4yq51",
+            "country_code": "MX",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210160447"
+            ]
+          },
+          {
             "id": "https://openalex.org/I31575130",
             "display_name": "SOAS University of London",
             "ror": "https://ror.org/04vrxay34",
@@ -84,33 +96,30 @@
             "lineage": [
               "https://openalex.org/I124357947"
             ]
-          },
-          {
-            "id": "https://openalex.org/I4210160447",
-            "display_name": "Universidad de Londres",
-            "ror": "https://ror.org/054v4yq51",
-            "country_code": "MX",
-            "type": "education",
-            "lineage": [
-              "https://openalex.org/I4210160447"
-            ]
           }
         ],
         "countries": [
           "GB",
           "MX"
         ],
-        "is_corresponding": false,
+        "is_corresponding": true,
         "raw_author_name": "Ron Dudai",
         "raw_affiliation_strings": [
+          "\n                   \n               Hotung Programme in Law, Human Rights, and Peace-building in the Middle East, School of Oriental and African Studies, University of London,",
           "Hotung Programme in Law, Human Rights, and Peace-building in the Middle East, School of Oriental and African Studies , University of London ,"
         ],
         "affiliations": [
           {
+            "raw_affiliation_string": "\n                   \n               Hotung Programme in Law, Human Rights, and Peace-building in the Middle East, School of Oriental and African Studies, University of London,",
+            "institution_ids": [
+              "https://openalex.org/I31575130"
+            ]
+          },
+          {
             "raw_affiliation_string": "Hotung Programme in Law, Human Rights, and Peace-building in the Middle East, School of Oriental and African Studies , University of London ,",
             "institution_ids": [
-              "https://openalex.org/I124357947",
               "https://openalex.org/I31575130",
+              "https://openalex.org/I124357947",
               "https://openalex.org/I4210160447"
             ]
           }
@@ -123,14 +132,34 @@
           "display_name": "Hillel Cohen",
           "orcid": "https://orcid.org/0000-0002-9127-9216"
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I197251160",
+            "display_name": "Hebrew University of Jerusalem",
+            "ror": "https://ror.org/03qxff017",
+            "country_code": "IL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I197251160"
+            ]
+          }
+        ],
+        "countries": [
+          "IL"
+        ],
         "is_corresponding": false,
         "raw_author_name": "Hillel Cohen",
         "raw_affiliation_strings": [
+          "\n                   \n               Middle East Department, Hebrew University, Jerusalem",
           "Middle East Department , Hebrew University , Jerusalem"
         ],
         "affiliations": [
+          {
+            "raw_affiliation_string": "\n                   \n               Middle East Department, Hebrew University, Jerusalem",
+            "institution_ids": [
+              "https://openalex.org/I197251160"
+            ]
+          },
           {
             "raw_affiliation_string": "Middle East Department , Hebrew University , Jerusalem",
             "institution_ids": []
@@ -139,17 +168,23 @@
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 2,
+    "countries_distinct_count": 3,
     "institutions_distinct_count": 2,
-    "corresponding_author_ids": [],
-    "corresponding_institution_ids": [],
+    "corresponding_author_ids": [
+      "https://openalex.org/A5033372807"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210160447",
+      "https://openalex.org/I31575130",
+      "https://openalex.org/I124357947"
+    ],
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 56,
     "citation_normalized_percentile": {
-      "value": 0.2029081,
+      "value": 0.20151155,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -348,7 +383,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -363,12 +400,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.7099999785423279,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.7099999785423279
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -399,33 +435,33 @@
       "https://openalex.org/W2797001447",
       "https://openalex.org/W4388071380",
       "https://openalex.org/W4253614129",
-      "https://openalex.org/W2081307748",
-      "https://openalex.org/W2802892437",
-      "https://openalex.org/W2031989544",
-      "https://openalex.org/W560056435",
-      "https://openalex.org/W654452084",
-      "https://openalex.org/W2586863789",
-      "https://openalex.org/W2495560113",
-      "https://openalex.org/W641331896",
-      "https://openalex.org/W2973149514",
-      "https://openalex.org/W1591994645",
-      "https://openalex.org/W1991633619",
-      "https://openalex.org/W1571143319",
-      "https://openalex.org/W596579313",
-      "https://openalex.org/W2054836751",
-      "https://openalex.org/W2054802800",
-      "https://openalex.org/W1543059698",
-      "https://openalex.org/W2029596981",
-      "https://openalex.org/W2796716420",
-      "https://openalex.org/W2150507253",
-      "https://openalex.org/W648631644",
-      "https://openalex.org/W2090908326",
-      "https://openalex.org/W2030424983",
-      "https://openalex.org/W2004795432",
-      "https://openalex.org/W578483549",
       "https://openalex.org/W2013040204",
+      "https://openalex.org/W654452084",
+      "https://openalex.org/W2030424983",
+      "https://openalex.org/W578483549",
+      "https://openalex.org/W2973149514",
+      "https://openalex.org/W596579313",
+      "https://openalex.org/W2090908326",
+      "https://openalex.org/W1543059698",
+      "https://openalex.org/W2481687874",
+      "https://openalex.org/W1591994645",
+      "https://openalex.org/W2802892437",
+      "https://openalex.org/W648631644",
+      "https://openalex.org/W2029596981",
+      "https://openalex.org/W2004795432",
+      "https://openalex.org/W2081307748",
+      "https://openalex.org/W2150507253",
+      "https://openalex.org/W2495560113",
+      "https://openalex.org/W2054836751",
+      "https://openalex.org/W1571143319",
+      "https://openalex.org/W560056435",
+      "https://openalex.org/W2586863789",
+      "https://openalex.org/W2796716420",
+      "https://openalex.org/W2031989544",
+      "https://openalex.org/W641331896",
+      "https://openalex.org/W1991633619",
       "https://openalex.org/W2889773241",
-      "https://openalex.org/W2481687874"
+      "https://openalex.org/W2054802800"
     ],
     "related_works": [
       "https://openalex.org/W2785847853",
@@ -2361,7 +2397,7 @@
     "doi": "https://doi.org/10.1080/14754830210156562",
     "title": "Outsourcing violations: The Israeli case",
     "display_name": "Outsourcing violations: The Israeli case",
-    "relevance_score": 162.28505,
+    "relevance_score": 161.89658,
     "publication_year": 2002,
     "publication_date": "2002-09-01",
     "ids": {
@@ -2391,7 +2427,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -2441,7 +2479,7 @@
     "has_fulltext": false,
     "cited_by_count": 15,
     "citation_normalized_percentile": {
-      "value": 0.87645359,
+      "value": 0.87783751,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -2664,7 +2702,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -2679,12 +2719,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.7699999809265137,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.7699999809265137
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -2702,22 +2741,22 @@
       "https://openalex.org/W149816874",
       "https://openalex.org/W2065609208",
       "https://openalex.org/W3209236173",
-      "https://openalex.org/W1988171687",
-      "https://openalex.org/W2463470924",
-      "https://openalex.org/W2000535564",
-      "https://openalex.org/W2081178817",
-      "https://openalex.org/W2042989391",
-      "https://openalex.org/W631948074",
-      "https://openalex.org/W3145412213",
-      "https://openalex.org/W2040417509",
-      "https://openalex.org/W585636919",
-      "https://openalex.org/W198359419",
       "https://openalex.org/W608886003",
-      "https://openalex.org/W2000138195",
+      "https://openalex.org/W2040417509",
+      "https://openalex.org/W2042989391",
       "https://openalex.org/W45650184",
+      "https://openalex.org/W2000138195",
+      "https://openalex.org/W198359419",
+      "https://openalex.org/W2081178817",
+      "https://openalex.org/W585636919",
+      "https://openalex.org/W3145412213",
       "https://openalex.org/W595107045",
       "https://openalex.org/W2094398048",
-      "https://openalex.org/W592707898"
+      "https://openalex.org/W631948074",
+      "https://openalex.org/W2463470924",
+      "https://openalex.org/W592707898",
+      "https://openalex.org/W2000535564",
+      "https://openalex.org/W1988171687"
     ],
     "related_works": [
       "https://openalex.org/W2358200898",
@@ -3236,7 +3275,7 @@
     "doi": "https://doi.org/10.1080/14754835.2012.702031",
     "title": "The Geography and Political Context of Human Rights Education: Israel as a Case Study",
     "display_name": "The Geography and Political Context of Human Rights Education: Israel as a Case Study",
-    "relevance_score": 135.5381,
+    "relevance_score": 135.11432,
     "publication_year": 2012,
     "publication_date": "2012-07-01",
     "ids": {
@@ -3266,7 +3305,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -3295,28 +3336,53 @@
           "display_name": "Neve Gordon",
           "orcid": "https://orcid.org/0000-0002-9502-3998"
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210108542",
+            "display_name": "Schlumberger (Ireland)",
+            "ror": "https://ror.org/01mcc7007",
+            "country_code": "IE",
+            "type": "company",
+            "lineage": [
+              "https://openalex.org/I4210092184",
+              "https://openalex.org/I4210108542"
+            ]
+          }
+        ],
+        "countries": [
+          "IE"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Neve Gordon",
-        "raw_affiliation_strings": [],
-        "affiliations": []
+        "raw_affiliation_strings": [
+          "Correspondencengordon@bgu.ac.il"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Correspondencengordon@bgu.ac.il",
+            "institution_ids": [
+              "https://openalex.org/I4210108542"
+            ]
+          }
+        ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5045038446"
     ],
-    "corresponding_institution_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210108542"
+    ],
     "apc_list": null,
     "apc_paid": null,
     "fwci": 2.74034597,
     "has_fulltext": false,
     "cited_by_count": 18,
     "citation_normalized_percentile": {
-      "value": 0.9164231,
+      "value": 0.91677169,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -3627,7 +3693,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -3642,12 +3710,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.7099999785423279,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.7099999785423279
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -3689,23 +3756,23 @@
       "https://openalex.org/W2023768645",
       "https://openalex.org/W2086050009",
       "https://openalex.org/W2089029652",
-      "https://openalex.org/W1522508556",
-      "https://openalex.org/W1509913308",
-      "https://openalex.org/W604226259",
       "https://openalex.org/W2042276094",
+      "https://openalex.org/W1566678405",
+      "https://openalex.org/W597621427",
+      "https://openalex.org/W604226259",
+      "https://openalex.org/W2004017380",
+      "https://openalex.org/W1509913308",
+      "https://openalex.org/W1982083802",
+      "https://openalex.org/W566625860",
+      "https://openalex.org/W4205846332",
+      "https://openalex.org/W1522508556",
+      "https://openalex.org/W4285719527",
+      "https://openalex.org/W1606984349",
       "https://openalex.org/W1573302411",
       "https://openalex.org/W1759865596",
       "https://openalex.org/W2317710216",
-      "https://openalex.org/W4205846332",
-      "https://openalex.org/W1966706208",
-      "https://openalex.org/W1982083802",
-      "https://openalex.org/W1606984349",
-      "https://openalex.org/W1566678405",
       "https://openalex.org/W2034328075",
-      "https://openalex.org/W597621427",
-      "https://openalex.org/W2004017380",
-      "https://openalex.org/W4285719527",
-      "https://openalex.org/W566625860"
+      "https://openalex.org/W1966706208"
     ],
     "related_works": [
       "https://openalex.org/W2606952015",
@@ -4260,7 +4327,7 @@
     "doi": "https://doi.org/10.1080/14754835.2015.1062720",
     "title": "Witnessing as activism: Watching the other at the Israeli checkpoints",
     "display_name": "Witnessing as activism: Watching the other at the Israeli checkpoints",
-    "relevance_score": 120.54613,
+    "relevance_score": 119.779564,
     "publication_year": 2015,
     "publication_date": "2015-06-26",
     "ids": {
@@ -4290,7 +4357,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -4364,7 +4433,7 @@
     "has_fulltext": false,
     "cited_by_count": 9,
     "citation_normalized_percentile": {
-      "value": 0.91544022,
+      "value": 0.91583486,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -4692,7 +4761,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -4707,12 +4778,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.5199999809265137,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.5199999809265137
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -4743,23 +4813,23 @@
       "https://openalex.org/W4239403952",
       "https://openalex.org/W4388250334",
       "https://openalex.org/W1996175246",
-      "https://openalex.org/W1598690677",
-      "https://openalex.org/W1605242533",
-      "https://openalex.org/W1933316608",
-      "https://openalex.org/W2799594107",
-      "https://openalex.org/W1597183254",
-      "https://openalex.org/W1992373299",
-      "https://openalex.org/W1597751708",
-      "https://openalex.org/W607812655",
-      "https://openalex.org/W1827761255",
-      "https://openalex.org/W612538132",
-      "https://openalex.org/W52715174",
-      "https://openalex.org/W4391863486",
-      "https://openalex.org/W1552494050",
-      "https://openalex.org/W2796745097",
       "https://openalex.org/W2002640116",
+      "https://openalex.org/W612538132",
+      "https://openalex.org/W1605242533",
+      "https://openalex.org/W1597751708",
+      "https://openalex.org/W1933316608",
       "https://openalex.org/W1514519655",
-      "https://openalex.org/W4213289882"
+      "https://openalex.org/W1992373299",
+      "https://openalex.org/W2799594107",
+      "https://openalex.org/W1552494050",
+      "https://openalex.org/W1597183254",
+      "https://openalex.org/W1827761255",
+      "https://openalex.org/W2796745097",
+      "https://openalex.org/W607812655",
+      "https://openalex.org/W1598690677",
+      "https://openalex.org/W4391863486",
+      "https://openalex.org/W4213289882",
+      "https://openalex.org/W52715174"
     ],
     "related_works": [
       "https://openalex.org/W2899084033",
@@ -5134,7 +5204,7 @@
     "doi": "https://doi.org/10.1080/14754835.2012.674458",
     "title": "The Adaptation of Human Rights Norms in Local Settings: Intersections of Local and Bureaucratic Knowledge in an Israeli NGO",
     "display_name": "The Adaptation of Human Rights Norms in Local Settings: Intersections of Local and Bureaucratic Knowledge in an Israeli NGO",
-    "relevance_score": 104.723694,
+    "relevance_score": 105.26838,
     "publication_year": 2012,
     "publication_date": "2012-04-01",
     "ids": {
@@ -5164,7 +5234,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -5211,9 +5283,16 @@
         "is_corresponding": true,
         "raw_author_name": "Zvika Orr",
         "raw_affiliation_strings": [
+          "Federmann School of Public Policy & Government , Hebrew University of Jerusalem , Israel",
           "Federmann School of Public Policy and Government Hebrew University of Jerusalem Israel"
         ],
         "affiliations": [
+          {
+            "raw_affiliation_string": "Federmann School of Public Policy & Government , Hebrew University of Jerusalem , Israel",
+            "institution_ids": [
+              "https://openalex.org/I197251160"
+            ]
+          },
           {
             "raw_affiliation_string": "Federmann School of Public Policy and Government Hebrew University of Jerusalem Israel",
             "institution_ids": [
@@ -5238,7 +5317,7 @@
     "has_fulltext": false,
     "cited_by_count": 13,
     "citation_normalized_percentile": {
-      "value": 0.93469805,
+      "value": 0.93497375,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -5535,7 +5614,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -5550,12 +5631,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.800000011920929,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.800000011920929
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -5599,36 +5679,36 @@
       "https://openalex.org/W4207010565",
       "https://openalex.org/W3123349376",
       "https://openalex.org/W3121787131",
-      "https://openalex.org/W1543166800",
-      "https://openalex.org/W2586963126",
-      "https://openalex.org/W1589198638",
-      "https://openalex.org/W619166572",
-      "https://openalex.org/W1575465981",
+      "https://openalex.org/W2114264363",
+      "https://openalex.org/W1557780133",
+      "https://openalex.org/W2057252146",
+      "https://openalex.org/W261456474",
       "https://openalex.org/W2024049570",
-      "https://openalex.org/W1791714557",
       "https://openalex.org/W4299309519",
-      "https://openalex.org/W4230585566",
+      "https://openalex.org/W619166572",
+      "https://openalex.org/W2318104400",
+      "https://openalex.org/W1759105158",
+      "https://openalex.org/W2073506374",
+      "https://openalex.org/W1791714557",
+      "https://openalex.org/W197669098",
       "https://openalex.org/W1532682097",
       "https://openalex.org/W2155722082",
-      "https://openalex.org/W251215111",
-      "https://openalex.org/W1759105158",
-      "https://openalex.org/W1530218722",
-      "https://openalex.org/W2073506374",
-      "https://openalex.org/W2318104400",
-      "https://openalex.org/W197669098",
-      "https://openalex.org/W2057252146",
-      "https://openalex.org/W4245472712",
-      "https://openalex.org/W1503996198",
-      "https://openalex.org/W269934351",
-      "https://openalex.org/W2269776111",
-      "https://openalex.org/W2114264363",
-      "https://openalex.org/W1841468733",
+      "https://openalex.org/W1589198638",
+      "https://openalex.org/W1575465981",
       "https://openalex.org/W1570873924",
-      "https://openalex.org/W1009680239",
-      "https://openalex.org/W1557780133",
-      "https://openalex.org/W261456474",
+      "https://openalex.org/W1530218722",
+      "https://openalex.org/W4230585566",
       "https://openalex.org/W2079643502",
-      "https://openalex.org/W198359419"
+      "https://openalex.org/W1503996198",
+      "https://openalex.org/W2586963126",
+      "https://openalex.org/W2269776111",
+      "https://openalex.org/W1841468733",
+      "https://openalex.org/W198359419",
+      "https://openalex.org/W1009680239",
+      "https://openalex.org/W1543166800",
+      "https://openalex.org/W4245472712",
+      "https://openalex.org/W269934351",
+      "https://openalex.org/W251215111"
     ],
     "related_works": [
       "https://openalex.org/W2748952813",
@@ -5998,7 +6078,7 @@
     "doi": "https://doi.org/10.1080/1475483032000054969",
     "title": "Intolerance and tolerance in the Jewish tradition and contemporary Israel",
     "display_name": "Intolerance and tolerance in the Jewish tradition and contemporary Israel",
-    "relevance_score": 95.74915,
+    "relevance_score": 95.35884,
     "publication_year": 2003,
     "publication_date": "2003-03-01",
     "ids": {
@@ -6028,7 +6108,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -6057,14 +6139,34 @@
           "display_name": "Shlomo Fischer",
           "orcid": "https://orcid.org/0000-0002-9239-0450"
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1324611689",
+            "display_name": "Center for the Study of Democracy",
+            "ror": "https://ror.org/042pns516",
+            "country_code": "BG",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I1324611689"
+            ]
+          }
+        ],
+        "countries": [
+          "BG"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Shlomo Fischer",
         "raw_affiliation_strings": [
+          "\n                   \n               Centre for Torah Research and Democracy, Jerusalem",
           "Centre for Torah Research and Democracy, Jerusalem"
         ],
         "affiliations": [
+          {
+            "raw_affiliation_string": "\n                   \n               Centre for Torah Research and Democracy, Jerusalem",
+            "institution_ids": [
+              "https://openalex.org/I1324611689"
+            ]
+          },
           {
             "raw_affiliation_string": "Centre for Torah Research and Democracy, Jerusalem",
             "institution_ids": []
@@ -6073,19 +6175,21 @@
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5012729991"
     ],
-    "corresponding_institution_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I1324611689"
+    ],
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 5,
     "citation_normalized_percentile": {
-      "value": 0.21871812,
+      "value": 0.21707975,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -6406,7 +6510,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -6421,17 +6527,16 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.41999998688697815,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.41999998688697815
       },
       {
-        "score": 0.4099999964237213,
+        "id": "https://metadata.un.org/sdg/10",
         "display_name": "Reduced inequalities",
-        "id": "https://metadata.un.org/sdg/10"
+        "score": 0.4099999964237213
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -6441,13 +6546,13 @@
     "referenced_works_count": 8,
     "referenced_works": [
       "https://openalex.org/W1593602228",
-      "https://openalex.org/W1977572647",
-      "https://openalex.org/W1487279857",
-      "https://openalex.org/W2312338366",
       "https://openalex.org/W2052746382",
+      "https://openalex.org/W2312338366",
+      "https://openalex.org/W4301252053",
       "https://openalex.org/W2019900762",
+      "https://openalex.org/W1977572647",
       "https://openalex.org/W4297799527",
-      "https://openalex.org/W4301252053"
+      "https://openalex.org/W1487279857"
     ],
     "related_works": [
       "https://openalex.org/W4251394462",
@@ -6764,7 +6869,7 @@
     "doi": "https://doi.org/10.1080/14754830110111571",
     "title": "Introducing human rights into conflict resolution: The relevance for the Israeli-Palestinian peace process",
     "display_name": "Introducing human rights into conflict resolution: The relevance for the Israeli-Palestinian peace process",
-    "relevance_score": 94.19297,
+    "relevance_score": 93.820724,
     "publication_year": 2002,
     "publication_date": "2002-03-01",
     "ids": {
@@ -6794,7 +6899,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -6825,7 +6932,7 @@
         },
         "institutions": [],
         "countries": [],
-        "is_corresponding": false,
+        "is_corresponding": true,
         "raw_author_name": "Edward Kaufman",
         "raw_affiliation_strings": [],
         "affiliations": []
@@ -6848,7 +6955,9 @@
     "institutions": [],
     "countries_distinct_count": 0,
     "institutions_distinct_count": 2,
-    "corresponding_author_ids": [],
+    "corresponding_author_ids": [
+      "https://openalex.org/A5031207338"
+    ],
     "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
@@ -6856,7 +6965,7 @@
     "has_fulltext": false,
     "cited_by_count": 8,
     "citation_normalized_percentile": {
-      "value": 0.24683204,
+      "value": 0.24497499,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -7158,7 +7267,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -7173,12 +7284,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.7900000214576721,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.7900000214576721
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -7198,18 +7308,18 @@
       "https://openalex.org/W4235033893",
       "https://openalex.org/W4235568439",
       "https://openalex.org/W4380741407",
-      "https://openalex.org/W2626186833",
-      "https://openalex.org/W4232573182",
-      "https://openalex.org/W1972387378",
       "https://openalex.org/W4225640132",
+      "https://openalex.org/W638454335",
+      "https://openalex.org/W1927177912",
       "https://openalex.org/W4237590667",
       "https://openalex.org/W4401222557",
-      "https://openalex.org/W638454335",
-      "https://openalex.org/W1967636710",
+      "https://openalex.org/W1972387378",
       "https://openalex.org/W4236323057",
+      "https://openalex.org/W1967636710",
       "https://openalex.org/W3101549865",
-      "https://openalex.org/W3001040437",
-      "https://openalex.org/W1927177912"
+      "https://openalex.org/W2626186833",
+      "https://openalex.org/W4232573182",
+      "https://openalex.org/W3001040437"
     ],
     "related_works": [
       "https://openalex.org/W2748952813",
@@ -7582,7 +7692,7 @@
     "doi": "https://doi.org/10.1080/14754835.2011.546234",
     "title": "Taking Pictures over Soldiers' Shoulders: Reporting on Human Rights Abuse from the Israeli Occupied Territories",
     "display_name": "Taking Pictures over Soldiers' Shoulders: Reporting on Human Rights Abuse from the Israeli Occupied Territories",
-    "relevance_score": 91.77725,
+    "relevance_score": 91.324905,
     "publication_year": 2011,
     "publication_date": "2011-01-01",
     "ids": {
@@ -7612,7 +7722,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -7659,9 +7771,16 @@
         "is_corresponding": true,
         "raw_author_name": "Ruthie Ginsburg",
         "raw_affiliation_strings": [
+          "\n Bar-Ilan University, Israel",
           "Bar=Ilan University, Israel"
         ],
         "affiliations": [
+          {
+            "raw_affiliation_string": "\n Bar-Ilan University, Israel",
+            "institution_ids": [
+              "https://openalex.org/I13955877"
+            ]
+          },
           {
             "raw_affiliation_string": "Bar=Ilan University, Israel",
             "institution_ids": [
@@ -7686,7 +7805,7 @@
     "has_fulltext": false,
     "cited_by_count": 9,
     "citation_normalized_percentile": {
-      "value": 0.97740352,
+      "value": 0.97781181,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -7894,7 +8013,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -7909,12 +8030,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.800000011920929,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.800000011920929
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -7923,27 +8043,27 @@
     },
     "referenced_works_count": 21,
     "referenced_works": [
-      "https://openalex.org/W2038600245",
-      "https://openalex.org/W2044051059",
+      "https://openalex.org/W581552294",
       "https://openalex.org/W1541215049",
-      "https://openalex.org/W1736309286",
-      "https://openalex.org/W632806946",
+      "https://openalex.org/W1664990607",
       "https://openalex.org/W2056479290",
-      "https://openalex.org/W1999086186",
-      "https://openalex.org/W2129851918",
+      "https://openalex.org/W1967541354",
+      "https://openalex.org/W565869318",
+      "https://openalex.org/W2475209970",
+      "https://openalex.org/W2038600245",
+      "https://openalex.org/W2002291693",
+      "https://openalex.org/W607812655",
       "https://openalex.org/W2096831870",
+      "https://openalex.org/W1999086186",
       "https://openalex.org/W2172468982",
       "https://openalex.org/W572173570",
-      "https://openalex.org/W2002291693",
-      "https://openalex.org/W2475209970",
-      "https://openalex.org/W1664990607",
-      "https://openalex.org/W1967541354",
-      "https://openalex.org/W607812655",
+      "https://openalex.org/W2129851918",
       "https://openalex.org/W2059402803",
+      "https://openalex.org/W632806946",
+      "https://openalex.org/W1505038837",
       "https://openalex.org/W2403063330",
-      "https://openalex.org/W581552294",
-      "https://openalex.org/W565869318",
-      "https://openalex.org/W1505038837"
+      "https://openalex.org/W2044051059",
+      "https://openalex.org/W1736309286"
     ],
     "related_works": [
       "https://openalex.org/W2748952813",
@@ -10008,7 +10128,7 @@
     "doi": "https://doi.org/10.1080/14754835.2020.1868292",
     "title": "Cultural brokerage and translation of human rights in the face of cultural opposition: A case of deliberative activism in Israel",
     "display_name": "Cultural brokerage and translation of human rights in the face of cultural opposition: A case of deliberative activism in Israel",
-    "relevance_score": 82.68805,
+    "relevance_score": 83.119385,
     "publication_year": 2021,
     "publication_date": "2021-03-29",
     "ids": {
@@ -10038,7 +10158,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -10112,7 +10234,7 @@
     "has_fulltext": false,
     "cited_by_count": 7,
     "citation_normalized_percentile": {
-      "value": 0.82539413,
+      "value": 0.82750893,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -10383,7 +10505,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -10398,12 +10522,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.7099999785423279,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.7099999785423279
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -10453,13 +10576,13 @@
       "https://openalex.org/W4248337058",
       "https://openalex.org/W1998444851",
       "https://openalex.org/W2028391240",
-      "https://openalex.org/W2057252146",
       "https://openalex.org/W1545862844",
-      "https://openalex.org/W2790789850",
       "https://openalex.org/W2145559783",
+      "https://openalex.org/W2057252146",
       "https://openalex.org/W2277665770",
+      "https://openalex.org/W3119787956",
       "https://openalex.org/W2090727359",
-      "https://openalex.org/W3119787956"
+      "https://openalex.org/W2790789850"
     ],
     "related_works": [
       "https://openalex.org/W2776402699",
@@ -10833,7 +10956,7 @@
     "doi": "https://doi.org/10.1080/14754835.2025.2456833",
     "title": "Democratic backsliding, social media, and surveillance of the Palestinian community in Israel since October 7, 2023",
     "display_name": "Democratic backsliding, social media, and surveillance of the Palestinian community in Israel since October 7, 2023",
-    "relevance_score": 41.855602,
+    "relevance_score": 50.182407,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -10862,7 +10985,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -10932,17 +11057,17 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 10.50550383,
+    "fwci": 21.01100767,
     "has_fulltext": false,
-    "cited_by_count": 1,
+    "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.92392307,
-      "is_in_top_1_percent": false,
+      "value": 0.97010831,
+      "is_in_top_1_percent": true,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 95,
+      "max": 96
     },
     "biblio": {
       "volume": "24",
@@ -11159,7 +11284,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -11174,12 +11301,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.4300000071525574,
+        "id": "https://metadata.un.org/sdg/10",
         "display_name": "Reduced inequalities",
-        "id": "https://metadata.un.org/sdg/10"
+        "score": 0.4300000071525574
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -11255,12 +11381,12 @@
       "https://openalex.org/W3043755470",
       "https://openalex.org/W6879349526",
       "https://openalex.org/W2069997830",
-      "https://openalex.org/W1553187499",
-      "https://openalex.org/W2885582424",
-      "https://openalex.org/W3185997694",
       "https://openalex.org/W1503656438",
+      "https://openalex.org/W4230443522",
+      "https://openalex.org/W2885582424",
+      "https://openalex.org/W1553187499",
       "https://openalex.org/W2083277050",
-      "https://openalex.org/W4230443522"
+      "https://openalex.org/W3185997694"
     ],
     "related_works": [
       "https://openalex.org/W4391375266",
@@ -11278,10 +11404,10 @@
     "counts_by_year": [
       {
         "year": 2025,
-        "cited_by_count": 1
+        "cited_by_count": 2
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2025-12-28T23:10:05.387466",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -11289,7 +11415,7 @@
     "doi": "https://doi.org/10.1080/14754830600812266",
     "title": "The American Jewish Committee and the Birth of the Israeli Human Rights Movement",
     "display_name": "The American Jewish Committee and the Birth of the Israeli Human Rights Movement",
-    "relevance_score": 13.742882,
+    "relevance_score": 13.746643,
     "publication_year": 2006,
     "publication_date": "2006-08-07",
     "ids": {
@@ -11319,7 +11445,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -11369,7 +11497,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.18417673,
+      "value": 0.18287938,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -11605,7 +11733,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -11620,12 +11750,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.5799999833106995,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.5799999833106995
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -11642,33 +11771,33 @@
       "https://openalex.org/W244624115",
       "https://openalex.org/W4390720838",
       "https://openalex.org/W1976659737",
-      "https://openalex.org/W656645081",
-      "https://openalex.org/W2040417509",
-      "https://openalex.org/W2067815130",
       "https://openalex.org/W2329195341",
-      "https://openalex.org/W2081290041",
-      "https://openalex.org/W2795915207",
-      "https://openalex.org/W1966038473",
-      "https://openalex.org/W2045954048",
       "https://openalex.org/W1594561524",
-      "https://openalex.org/W1981213776",
-      "https://openalex.org/W1985725216",
-      "https://openalex.org/W1988171687",
-      "https://openalex.org/W588349360",
-      "https://openalex.org/W4206611061",
-      "https://openalex.org/W2031534240",
+      "https://openalex.org/W596907423",
       "https://openalex.org/W4242353936",
-      "https://openalex.org/W613058007",
-      "https://openalex.org/W651060554",
+      "https://openalex.org/W585636919",
+      "https://openalex.org/W1966038473",
+      "https://openalex.org/W2067815130",
+      "https://openalex.org/W4230010659",
       "https://openalex.org/W2056033757",
+      "https://openalex.org/W2605885603",
+      "https://openalex.org/W2081290041",
+      "https://openalex.org/W2031534240",
+      "https://openalex.org/W2045954048",
+      "https://openalex.org/W613058007",
+      "https://openalex.org/W656645081",
+      "https://openalex.org/W2398832022",
+      "https://openalex.org/W1988171687",
+      "https://openalex.org/W1985725216",
+      "https://openalex.org/W2795915207",
+      "https://openalex.org/W651060554",
+      "https://openalex.org/W2802238459",
       "https://openalex.org/W1548068843",
       "https://openalex.org/W2329236333",
-      "https://openalex.org/W2605885603",
-      "https://openalex.org/W4230010659",
-      "https://openalex.org/W585636919",
-      "https://openalex.org/W2802238459",
-      "https://openalex.org/W596907423",
-      "https://openalex.org/W2398832022"
+      "https://openalex.org/W588349360",
+      "https://openalex.org/W2040417509",
+      "https://openalex.org/W4206611061",
+      "https://openalex.org/W1981213776"
     ],
     "related_works": [
       "https://openalex.org/W2748952813",
@@ -11768,7 +11897,7 @@
     "doi": "https://doi.org/10.1080/14754830500485924",
     "title": "Flying Flags of Fear: The Role of Fear in the Process of Political Transition",
     "display_name": "Flying Flags of Fear: The Role of Fear in the Process of Political Transition",
-    "relevance_score": 13.631579,
+    "relevance_score": 13.658597,
     "publication_year": 2006,
     "publication_date": "2006-01-01",
     "ids": {
@@ -11798,7 +11927,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -11855,7 +11986,7 @@
     "has_fulltext": false,
     "cited_by_count": 30,
     "citation_normalized_percentile": {
-      "value": 0.92265173,
+      "value": 0.92320879,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -12149,7 +12280,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -12164,12 +12297,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.6200000047683716,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.6200000047683716
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -12189,27 +12321,27 @@
       "https://openalex.org/W2036613574",
       "https://openalex.org/W2043673020",
       "https://openalex.org/W1568342723",
-      "https://openalex.org/W2614324623",
-      "https://openalex.org/W4285719527",
-      "https://openalex.org/W1534499804",
-      "https://openalex.org/W1507175056",
-      "https://openalex.org/W2467142938",
-      "https://openalex.org/W131386841",
-      "https://openalex.org/W2977327766",
-      "https://openalex.org/W1602973157",
-      "https://openalex.org/W2798897527",
-      "https://openalex.org/W629581298",
-      "https://openalex.org/W649288803",
-      "https://openalex.org/W1987216448",
-      "https://openalex.org/W190407184",
-      "https://openalex.org/W1976795817",
-      "https://openalex.org/W2345677713",
-      "https://openalex.org/W2068927504",
       "https://openalex.org/W1595035601",
-      "https://openalex.org/W562764151",
-      "https://openalex.org/W614933407",
+      "https://openalex.org/W2798897527",
       "https://openalex.org/W1554285468",
-      "https://openalex.org/W4238130971"
+      "https://openalex.org/W190407184",
+      "https://openalex.org/W562764151",
+      "https://openalex.org/W4285719527",
+      "https://openalex.org/W614933407",
+      "https://openalex.org/W1976795817",
+      "https://openalex.org/W2977327766",
+      "https://openalex.org/W2068927504",
+      "https://openalex.org/W2467142938",
+      "https://openalex.org/W1534499804",
+      "https://openalex.org/W1987216448",
+      "https://openalex.org/W4238130971",
+      "https://openalex.org/W2614324623",
+      "https://openalex.org/W131386841",
+      "https://openalex.org/W2345677713",
+      "https://openalex.org/W629581298",
+      "https://openalex.org/W1602973157",
+      "https://openalex.org/W649288803",
+      "https://openalex.org/W1507175056"
     ],
     "related_works": [
       "https://openalex.org/W2748952813",
@@ -12836,7 +12968,7 @@
     "doi": "https://doi.org/10.1080/14754830210156553",
     "title": "The freedom of conscience and sociological perspectives on dilemmas of collective secular disobedience: The case of Israel",
     "display_name": "The freedom of conscience and sociological perspectives on dilemmas of collective secular disobedience: The case of Israel",
-    "relevance_score": 12.340873,
+    "relevance_score": 12.283618,
     "publication_year": 2002,
     "publication_date": "2002-09-01",
     "ids": {
@@ -12866,7 +12998,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -12940,7 +13074,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.18617403,
+      "value": 0.18485285,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -13186,7 +13320,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -13262,12 +13398,11 @@
     },
     "sustainable_development_goals": [
       {
-        "score": 0.7300000190734863,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.7300000190734863
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -13294,21 +13429,21 @@
       "https://openalex.org/W4388382399",
       "https://openalex.org/W4237574036",
       "https://openalex.org/W4388382408",
-      "https://openalex.org/W1968106836",
-      "https://openalex.org/W2960649719",
-      "https://openalex.org/W2159354274",
-      "https://openalex.org/W2122165510",
-      "https://openalex.org/W2095311334",
-      "https://openalex.org/W419401321",
-      "https://openalex.org/W643275497",
+      "https://openalex.org/W2072300396",
       "https://openalex.org/W3142178200",
-      "https://openalex.org/W581539395",
       "https://openalex.org/W2083201648",
-      "https://openalex.org/W2088816795",
-      "https://openalex.org/W2073410822",
+      "https://openalex.org/W419401321",
+      "https://openalex.org/W1968106836",
       "https://openalex.org/W2089457615",
+      "https://openalex.org/W2088816795",
+      "https://openalex.org/W643275497",
+      "https://openalex.org/W2122165510",
+      "https://openalex.org/W2159354274",
+      "https://openalex.org/W581539395",
+      "https://openalex.org/W2095311334",
       "https://openalex.org/W1733239604",
-      "https://openalex.org/W2072300396"
+      "https://openalex.org/W2073410822",
+      "https://openalex.org/W2960649719"
     ],
     "related_works": [
       "https://openalex.org/W3124974354",
@@ -13676,7 +13811,7 @@
     "doi": "https://doi.org/10.1080/14754830601098410",
     "title": "Human Rights and Politicized Human Rights: A Utilitarian Critique",
     "display_name": "Human Rights and Politicized Human Rights: A Utilitarian Critique",
-    "relevance_score": 10.345662,
+    "relevance_score": 10.394489,
     "publication_year": 2007,
     "publication_date": "2007-02-01",
     "ids": {
@@ -13706,7 +13841,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -13753,11 +13890,18 @@
         "is_corresponding": true,
         "raw_author_name": "Don A. Habibi",
         "raw_affiliation_strings": [
-          " University of North Carolina-Wilmington"
+          "University of North Carolina Wilmington ,",
+          "University of North Carolina-Wilmington"
         ],
         "affiliations": [
           {
-            "raw_affiliation_string": " University of North Carolina-Wilmington",
+            "raw_affiliation_string": "University of North Carolina Wilmington ,",
+            "institution_ids": [
+              "https://openalex.org/I153901656"
+            ]
+          },
+          {
+            "raw_affiliation_string": "University of North Carolina-Wilmington",
             "institution_ids": [
               "https://openalex.org/I153901656"
             ]
@@ -13780,7 +13924,7 @@
     "has_fulltext": false,
     "cited_by_count": 12,
     "citation_normalized_percentile": {
-      "value": 0.94713193,
+      "value": 0.94769388,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -14039,7 +14183,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -14054,12 +14200,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.8199999928474426,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.8199999928474426
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -14098,91 +14243,91 @@
       "https://openalex.org/W2014423698",
       "https://openalex.org/W2283103876",
       "https://openalex.org/W2155541049",
-      "https://openalex.org/W2068694121",
-      "https://openalex.org/W1517781065",
-      "https://openalex.org/W4299571749",
-      "https://openalex.org/W300381662",
-      "https://openalex.org/W2116202838",
-      "https://openalex.org/W2936422616",
-      "https://openalex.org/W2970981083",
-      "https://openalex.org/W4285719527",
-      "https://openalex.org/W4298880748",
-      "https://openalex.org/W2054643175",
-      "https://openalex.org/W93113292",
-      "https://openalex.org/W2010706106",
-      "https://openalex.org/W2605979819",
-      "https://openalex.org/W383648797",
-      "https://openalex.org/W646813102",
-      "https://openalex.org/W3123551207",
-      "https://openalex.org/W2331887259",
-      "https://openalex.org/W4247078723",
-      "https://openalex.org/W649616956",
-      "https://openalex.org/W646208942",
-      "https://openalex.org/W1551209069",
-      "https://openalex.org/W1981952353",
-      "https://openalex.org/W1509913308",
-      "https://openalex.org/W3123007746",
-      "https://openalex.org/W1484257354",
-      "https://openalex.org/W2003387287",
-      "https://openalex.org/W641863540",
-      "https://openalex.org/W338716450",
-      "https://openalex.org/W2952302217",
-      "https://openalex.org/W2334779492",
-      "https://openalex.org/W1492914799",
-      "https://openalex.org/W2161129442",
-      "https://openalex.org/W2095299807",
-      "https://openalex.org/W2081247953",
-      "https://openalex.org/W2106190861",
-      "https://openalex.org/W2475552236",
-      "https://openalex.org/W4302416464",
       "https://openalex.org/W3023599740",
-      "https://openalex.org/W2798384261",
+      "https://openalex.org/W2095299807",
+      "https://openalex.org/W2181757536",
+      "https://openalex.org/W1509913308",
+      "https://openalex.org/W338716450",
       "https://openalex.org/W3014492360",
       "https://openalex.org/W2070687619",
-      "https://openalex.org/W1990773926",
-      "https://openalex.org/W2522075863",
-      "https://openalex.org/W1994700887",
-      "https://openalex.org/W2056479290",
-      "https://openalex.org/W1590369080",
-      "https://openalex.org/W1589960851",
-      "https://openalex.org/W2003021747",
-      "https://openalex.org/W3122898927",
-      "https://openalex.org/W4404819659",
-      "https://openalex.org/W2325355220",
-      "https://openalex.org/W2990383204",
-      "https://openalex.org/W1624171258",
-      "https://openalex.org/W3122414141",
-      "https://openalex.org/W1811616769",
-      "https://openalex.org/W1539642710",
-      "https://openalex.org/W4377849343",
-      "https://openalex.org/W585000793",
-      "https://openalex.org/W1505752775",
-      "https://openalex.org/W1526733202",
-      "https://openalex.org/W2131646234",
-      "https://openalex.org/W573838651",
-      "https://openalex.org/W1979887341",
-      "https://openalex.org/W1502698198",
-      "https://openalex.org/W1547741516",
       "https://openalex.org/W1542000441",
-      "https://openalex.org/W2798661012",
-      "https://openalex.org/W2000679681",
+      "https://openalex.org/W2068694121",
+      "https://openalex.org/W1505752775",
+      "https://openalex.org/W4247078723",
+      "https://openalex.org/W641863540",
+      "https://openalex.org/W1589960851",
+      "https://openalex.org/W2331887259",
+      "https://openalex.org/W1994700887",
+      "https://openalex.org/W4302416464",
+      "https://openalex.org/W1981952353",
+      "https://openalex.org/W649616956",
+      "https://openalex.org/W2003387287",
+      "https://openalex.org/W3122414141",
+      "https://openalex.org/W2970981083",
+      "https://openalex.org/W1624171258",
+      "https://openalex.org/W2314780834",
       "https://openalex.org/W2081290041",
-      "https://openalex.org/W2048989510",
-      "https://openalex.org/W2494792649",
-      "https://openalex.org/W233908987",
-      "https://openalex.org/W1505677400",
-      "https://openalex.org/W2070262439",
+      "https://openalex.org/W2010706106",
+      "https://openalex.org/W2936422616",
+      "https://openalex.org/W2131646234",
+      "https://openalex.org/W1526733202",
+      "https://openalex.org/W585000793",
+      "https://openalex.org/W2116202838",
+      "https://openalex.org/W1990773926",
+      "https://openalex.org/W4377849343",
+      "https://openalex.org/W2952302217",
+      "https://openalex.org/W1811616769",
       "https://openalex.org/W2604731670",
-      "https://openalex.org/W1542731185",
-      "https://openalex.org/W3203091324",
+      "https://openalex.org/W3122898927",
+      "https://openalex.org/W4285719527",
+      "https://openalex.org/W1502698198",
+      "https://openalex.org/W2798661012",
+      "https://openalex.org/W1484257354",
+      "https://openalex.org/W1979887341",
       "https://openalex.org/W1581760131",
+      "https://openalex.org/W2475552236",
       "https://openalex.org/W2081076786",
-      "https://openalex.org/W2799500045",
-      "https://openalex.org/W1506275157",
-      "https://openalex.org/W2181757536",
+      "https://openalex.org/W2003021747",
+      "https://openalex.org/W233908987",
+      "https://openalex.org/W93113292",
+      "https://openalex.org/W1539642710",
+      "https://openalex.org/W1505677400",
+      "https://openalex.org/W4404819659",
       "https://openalex.org/W1498731399",
+      "https://openalex.org/W2605979819",
+      "https://openalex.org/W646208942",
+      "https://openalex.org/W2798384261",
+      "https://openalex.org/W1542731185",
+      "https://openalex.org/W2000679681",
+      "https://openalex.org/W1547741516",
+      "https://openalex.org/W1517781065",
+      "https://openalex.org/W1506275157",
+      "https://openalex.org/W2334779492",
+      "https://openalex.org/W1492914799",
+      "https://openalex.org/W646813102",
+      "https://openalex.org/W2325355220",
+      "https://openalex.org/W3123551207",
+      "https://openalex.org/W383648797",
+      "https://openalex.org/W2106190861",
+      "https://openalex.org/W300381662",
+      "https://openalex.org/W573838651",
+      "https://openalex.org/W2990383204",
+      "https://openalex.org/W2070262439",
+      "https://openalex.org/W2048989510",
+      "https://openalex.org/W2161129442",
+      "https://openalex.org/W4299571749",
       "https://openalex.org/W1936887230",
-      "https://openalex.org/W2314780834"
+      "https://openalex.org/W1551209069",
+      "https://openalex.org/W3203091324",
+      "https://openalex.org/W2056479290",
+      "https://openalex.org/W2081247953",
+      "https://openalex.org/W3123007746",
+      "https://openalex.org/W2494792649",
+      "https://openalex.org/W4298880748",
+      "https://openalex.org/W1590369080",
+      "https://openalex.org/W2522075863",
+      "https://openalex.org/W2799500045",
+      "https://openalex.org/W2054643175"
     ],
     "related_works": [
       "https://openalex.org/W2771997707",
@@ -14649,7 +14794,7 @@
     "doi": "https://doi.org/10.1080/14754830500257695",
     "title": "Christians in Jerusalem: A Minority at Risk",
     "display_name": "Christians in Jerusalem: A Minority at Risk",
-    "relevance_score": 6.8573127,
+    "relevance_score": 6.884117,
     "publication_year": 2005,
     "publication_date": "2005-07-01",
     "ids": {
@@ -14679,7 +14824,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -14729,7 +14876,7 @@
     "has_fulltext": false,
     "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.19110246,
+      "value": 0.19002035,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -14952,7 +15099,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -14966,7 +15115,6 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -15114,7 +15262,7 @@
     "doi": "https://doi.org/10.1080/14754830600653421",
     "title": "Human Rights as a Contingent Foundation: The Case of Physicians for Human Rights<sup>1</sup>",
     "display_name": "Human Rights as a Contingent Foundation: The Case of Physicians for Human Rights<sup>1</sup>",
-    "relevance_score": 6.8117247,
+    "relevance_score": 6.8165836,
     "publication_year": 2006,
     "publication_date": "2006-05-15",
     "ids": {
@@ -15144,7 +15292,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -15194,7 +15344,7 @@
     "has_fulltext": false,
     "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.9499124,
+      "value": 0.95056627,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -15429,7 +15579,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -15444,12 +15596,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.7400000095367432,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.7400000095367432
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -15467,23 +15618,23 @@
       "https://openalex.org/W4244238918",
       "https://openalex.org/W4213439731",
       "https://openalex.org/W2065609208",
-      "https://openalex.org/W624770364",
-      "https://openalex.org/W3033078819",
-      "https://openalex.org/W2316831934",
+      "https://openalex.org/W1899753561",
       "https://openalex.org/W2051799795",
       "https://openalex.org/W585636919",
+      "https://openalex.org/W1992116488",
+      "https://openalex.org/W4243976892",
+      "https://openalex.org/W1828617744",
+      "https://openalex.org/W605087140",
       "https://openalex.org/W1988171687",
+      "https://openalex.org/W3033078819",
+      "https://openalex.org/W2329195341",
+      "https://openalex.org/W2094398048",
       "https://openalex.org/W3173761761",
       "https://openalex.org/W596320557",
-      "https://openalex.org/W1828617744",
-      "https://openalex.org/W2329195341",
-      "https://openalex.org/W1899753561",
-      "https://openalex.org/W2094398048",
-      "https://openalex.org/W1992116488",
-      "https://openalex.org/W66923748",
-      "https://openalex.org/W605087140",
-      "https://openalex.org/W4243976892",
-      "https://openalex.org/W1587914614"
+      "https://openalex.org/W1587914614",
+      "https://openalex.org/W2316831934",
+      "https://openalex.org/W624770364",
+      "https://openalex.org/W66923748"
     ],
     "related_works": [
       "https://openalex.org/W2748952813",
@@ -15599,11 +15750,781 @@
     "created_date": "2025-10-10T00:00:00"
   },
   {
+    "id": "https://openalex.org/W1987049777",
+    "doi": "https://doi.org/10.1080/14754835.2014.988784",
+    "title": "Rising Powers and Human Rights: The India-Brazil-South Africa Dialogue Forum at the UN Human Rights Council",
+    "display_name": "Rising Powers and Human Rights: The India-Brazil-South Africa Dialogue Forum at the UN Human Rights Council",
+    "relevance_score": 6.668728,
+    "publication_year": 2015,
+    "publication_date": "2015-01-06",
+    "ids": {
+      "openalex": "https://openalex.org/W1987049777",
+      "doi": "https://doi.org/10.1080/14754835.2014.988784",
+      "mag": "1987049777"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/14754835.2014.988784",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/14754835.2014.988784",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S65076878",
+        "display_name": "Journal of Human Rights",
+        "issn_l": "1475-4835",
+        "issn": [
+          "1475-4835",
+          "1475-4843"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Human Rights",
+      "raw_type": "journal-article"
+    },
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5062199588",
+          "display_name": "Eduard Jordaan",
+          "orcid": "https://orcid.org/0000-0002-5492-0027"
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210162065",
+            "display_name": "Sudan Meteorological Authority",
+            "ror": "https://ror.org/05550md95",
+            "country_code": "SD",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I4210162065"
+            ]
+          }
+        ],
+        "countries": [
+          "SD"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Eduard Jordaan",
+        "raw_affiliation_strings": [
+          "Correspondenceejordaan@smu.edu.sg"
+        ],
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Correspondenceejordaan@smu.edu.sg",
+            "institution_ids": [
+              "https://openalex.org/I4210162065"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5062199588"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210162065"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 17.80001646,
+    "has_fulltext": false,
+    "cited_by_count": 8,
+    "citation_normalized_percentile": {
+      "value": 0.98784998,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "14",
+      "issue": "4",
+      "first_page": "463",
+      "last_page": "485"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13938",
+      "display_name": "Historical and Contemporary Political Dynamics",
+      "score": 0.9961000084877014,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13938",
+        "display_name": "Historical and Contemporary Political Dynamics",
+        "score": 0.9961000084877014,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12752",
+        "display_name": "Global Peace and Security Dynamics",
+        "score": 0.9936000108718872,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13035",
+        "display_name": "Human Rights and Development",
+        "score": 0.9914000034332275,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/human-rights",
+        "display_name": "Human rights",
+        "score": 0.9050328731536865
+      },
+      {
+        "id": "https://openalex.org/keywords/political-science",
+        "display_name": "Political science",
+        "score": 0.5992565751075745
+      },
+      {
+        "id": "https://openalex.org/keywords/promotion",
+        "display_name": "Promotion (chess)",
+        "score": 0.5505785942077637
+      },
+      {
+        "id": "https://openalex.org/keywords/international-human-rights-law",
+        "display_name": "International human rights law",
+        "score": 0.5181769132614136
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistic-rights",
+        "display_name": "Linguistic rights",
+        "score": 0.4610421359539032
+      },
+      {
+        "id": "https://openalex.org/keywords/law",
+        "display_name": "Law",
+        "score": 0.44439804553985596
+      },
+      {
+        "id": "https://openalex.org/keywords/right-to-property",
+        "display_name": "Right to property",
+        "score": 0.340110719203949
+      },
+      {
+        "id": "https://openalex.org/keywords/politics",
+        "display_name": "Politics",
+        "score": 0.23436984419822693
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C169437150",
+        "wikidata": "https://www.wikidata.org/wiki/Q8458",
+        "display_name": "Human rights",
+        "level": 2,
+        "score": 0.9050328731536865
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.5992565751075745
+      },
+      {
+        "id": "https://openalex.org/C98147612",
+        "wikidata": "https://www.wikidata.org/wiki/Q215599",
+        "display_name": "Promotion (chess)",
+        "level": 3,
+        "score": 0.5505785942077637
+      },
+      {
+        "id": "https://openalex.org/C86615163",
+        "wikidata": "https://www.wikidata.org/wiki/Q1147615",
+        "display_name": "International human rights law",
+        "level": 3,
+        "score": 0.5181769132614136
+      },
+      {
+        "id": "https://openalex.org/C543595228",
+        "wikidata": "https://www.wikidata.org/wiki/Q1667964",
+        "display_name": "Linguistic rights",
+        "level": 5,
+        "score": 0.4610421359539032
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.44439804553985596
+      },
+      {
+        "id": "https://openalex.org/C22299250",
+        "wikidata": "https://www.wikidata.org/wiki/Q11917765",
+        "display_name": "Right to property",
+        "level": 4,
+        "score": 0.340110719203949
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.23436984419822693
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/14754835.2014.988784",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/14754835.2014.988784",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S65076878",
+          "display_name": "Journal of Human Rights",
+          "issn_l": "1475-4835",
+          "issn": [
+            "1475-4835",
+            "1475-4843"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Human Rights",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality",
+        "score": 0.6600000262260437
+      }
+    ],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320300",
+        "display_name": "European Commission",
+        "ror": "https://ror.org/00k4n6c32"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "referenced_works_count": 34,
+    "referenced_works": [
+      "https://openalex.org/W2487072529",
+      "https://openalex.org/W2479549626",
+      "https://openalex.org/W3121346894",
+      "https://openalex.org/W2113507446",
+      "https://openalex.org/W4389375556",
+      "https://openalex.org/W2111190238",
+      "https://openalex.org/W2090662596",
+      "https://openalex.org/W2047748582",
+      "https://openalex.org/W2118418620",
+      "https://openalex.org/W1983066465",
+      "https://openalex.org/W1993174227",
+      "https://openalex.org/W2015332400",
+      "https://openalex.org/W1965573732",
+      "https://openalex.org/W2096304508",
+      "https://openalex.org/W2049361259",
+      "https://openalex.org/W1790662345",
+      "https://openalex.org/W3034811454",
+      "https://openalex.org/W3200380765",
+      "https://openalex.org/W3138530896",
+      "https://openalex.org/W3197271038",
+      "https://openalex.org/W1592681708",
+      "https://openalex.org/W2126526654",
+      "https://openalex.org/W2757497820",
+      "https://openalex.org/W2581876947",
+      "https://openalex.org/W2475474987",
+      "https://openalex.org/W3168543554",
+      "https://openalex.org/W2548108445",
+      "https://openalex.org/W3207127518",
+      "https://openalex.org/W2114786951",
+      "https://openalex.org/W3208689654",
+      "https://openalex.org/W3043052141",
+      "https://openalex.org/W3122474256",
+      "https://openalex.org/W3151549029",
+      "https://openalex.org/W3138930579"
+    ],
+    "related_works": [
+      "https://openalex.org/W2134453491",
+      "https://openalex.org/W2888842452",
+      "https://openalex.org/W3111968179",
+      "https://openalex.org/W2739196720",
+      "https://openalex.org/W3186383433",
+      "https://openalex.org/W2149875746",
+      "https://openalex.org/W151828264",
+      "https://openalex.org/W3091142047",
+      "https://openalex.org/W1571613784",
+      "https://openalex.org/W589404037"
+    ],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "the": [
+        1,
+        5,
+        11,
+        26,
+        43,
+        46,
+        50,
+        58,
+        61,
+        98,
+        104,
+        114,
+        125
+      ],
+      "official": [
+        2
+      ],
+      "declarations": [
+        3
+      ],
+      "of": [
+        4,
+        18,
+        31,
+        42,
+        45,
+        60,
+        90
+      ],
+      "India-Brazil-South": [
+        6
+      ],
+      "Africa": [
+        7,
+        135
+      ],
+      "Dialogue": [
+        8
+      ],
+      "Forum": [
+        9
+      ],
+      "(IBSA),": [
+        10
+      ],
+      "three": [
+        12,
+        99
+      ],
+      "states": [
+        13,
+        48,
+        63,
+        100,
+        116
+      ],
+      "claim": [
+        14
+      ],
+      "a": [
+        15,
+        22
+      ],
+      "shared": [
+        16
+      ],
+      "understanding": [
+        17
+      ],
+      "human": [
+        19,
+        108,
+        143
+      ],
+      "rights": [
+        20,
+        122,
+        144
+      ],
+      "and": [
+        21,
+        29,
+        71,
+        79,
+        81,
+        92,
+        133
+      ],
+      "deep": [
+        23
+      ],
+      "commitment": [
+        24
+      ],
+      "to": [
+        25,
+        140
+      ],
+      "international": [
+        27
+      ],
+      "promotion": [
+        28
+      ],
+      "protection": [
+        30
+      ],
+      "these": [
+        32,
+        37
+      ],
+      "rights.": [
+        33,
+        109
+      ],
+      "This": [
+        34
+      ],
+      "article": [
+        35
+      ],
+      "considers": [
+        36
+      ],
+      "two": [
+        38
+      ],
+      "propositions": [
+        39
+      ],
+      "in": [
+        40,
+        124
+      ],
+      "light": [
+        41
+      ],
+      "actions": [
+        44
+      ],
+      "IBSA": [
+        47,
+        62,
+        115
+      ],
+      "on": [
+        49,
+        64
+      ],
+      "United": [
+        51
+      ],
+      "Nations": [
+        52
+      ],
+      "Human": [
+        53
+      ],
+      "Rights": [
+        54
+      ],
+      "Council.": [
+        55
+      ],
+      "After": [
+        56
+      ],
+      "examining": [
+        57
+      ],
+      "positions": [
+        59
+      ],
+      "seven": [
+        65
+      ],
+      "controversial": [
+        66,
+        83
+      ],
+      "country-specific": [
+        67
+      ],
+      "cases": [
+        68
+      ],
+      "(Belarus,": [
+        69
+      ],
+      "Darfur": [
+        70
+      ],
+      "Sudan,": [
+        72
+      ],
+      "Iran,": [
+        73
+      ],
+      "Israel,": [
+        74
+      ],
+      "North": [
+        75
+      ],
+      "Korea,": [
+        76
+      ],
+      "Sri": [
+        77
+      ],
+      "Lanka,": [
+        78
+      ],
+      "Syria)": [
+        80
+      ],
+      "four": [
+        82
+      ],
+      "thematic": [
+        84
+      ],
+      "domains": [
+        85
+      ],
+      "(economic": [
+        86
+      ],
+      "rights,": [
+        87
+      ],
+      "racism,": [
+        88
+      ],
+      "freedom": [
+        89
+      ],
+      "expression,": [
+        91
+      ],
+      "sexual": [
+        93
+      ],
+      "orientation),": [
+        94
+      ],
+      "I": [
+        95,
+        111
+      ],
+      "conclude": [
+        96
+      ],
+      "that": [
+        97,
+        113
+      ],
+      "do": [
+        101,
+        118
+      ],
+      "not": [
+        102,
+        119
+      ],
+      "have": [
+        103
+      ],
+      "same": [
+        105
+      ],
+      "views": [
+        106
+      ],
+      "about": [
+        107
+      ],
+      "Furthermore,": [
+        110
+      ],
+      "find": [
+        112
+      ],
+      "often": [
+        117
+      ],
+      "support": [
+        120,
+        141
+      ],
+      "pro-human": [
+        121
+      ],
+      "initiatives": [
+        123
+      ],
+      "Council,": [
+        126
+      ],
+      "although": [
+        127
+      ],
+      "Brazil": [
+        128
+      ],
+      "stands": [
+        129
+      ],
+      "apart": [
+        130
+      ],
+      "from": [
+        131
+      ],
+      "India": [
+        132
+      ],
+      "South": [
+        134
+      ],
+      "for": [
+        136
+      ],
+      "its": [
+        137
+      ],
+      "greater": [
+        138
+      ],
+      "willingness": [
+        139
+      ],
+      "stronger": [
+        142
+      ],
+      "positions.": [
+        145
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2025,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 3
+      },
+      {
+        "year": 2018,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2017,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
     "id": "https://openalex.org/W3136037747",
     "doi": "https://doi.org/10.1080/14754835.2020.1868294",
     "title": "The challenges and dilemmas of local translators of human rights: The case of disability rights among Jewish ultra-Orthodox communities",
     "display_name": "The challenges and dilemmas of local translators of human rights: The case of disability rights among Jewish ultra-Orthodox communities",
-    "relevance_score": 6.633614,
+    "relevance_score": 6.6340547,
     "publication_year": 2021,
     "publication_date": "2021-03-19",
     "ids": {
@@ -15633,7 +16554,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -15779,7 +16702,7 @@
     "has_fulltext": false,
     "cited_by_count": 10,
     "citation_normalized_percentile": {
-      "value": 0.93091325,
+      "value": 0.93174449,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -15990,7 +16913,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -16005,12 +16930,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.4099999964237213,
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.4099999964237213
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -16065,16 +16989,16 @@
       "https://openalex.org/W2944878153",
       "https://openalex.org/W2346678917",
       "https://openalex.org/W4236841846",
-      "https://openalex.org/W2038608488",
-      "https://openalex.org/W1615506555",
-      "https://openalex.org/W4250796995",
-      "https://openalex.org/W251215111",
-      "https://openalex.org/W2086675844",
       "https://openalex.org/W261456474",
-      "https://openalex.org/W2175008115",
-      "https://openalex.org/W2399826559",
+      "https://openalex.org/W2086675844",
+      "https://openalex.org/W251215111",
+      "https://openalex.org/W4250796995",
+      "https://openalex.org/W1658908529",
       "https://openalex.org/W2057252146",
-      "https://openalex.org/W1658908529"
+      "https://openalex.org/W1615506555",
+      "https://openalex.org/W2399826559",
+      "https://openalex.org/W2175008115",
+      "https://openalex.org/W2038608488"
     ],
     "related_works": [
       "https://openalex.org/W4391375266",
@@ -16568,754 +17492,11 @@
     "created_date": "2025-10-10T00:00:00"
   },
   {
-    "id": "https://openalex.org/W1987049777",
-    "doi": "https://doi.org/10.1080/14754835.2014.988784",
-    "title": "Rising Powers and Human Rights: The India-Brazil-South Africa Dialogue Forum at the UN Human Rights Council",
-    "display_name": "Rising Powers and Human Rights: The India-Brazil-South Africa Dialogue Forum at the UN Human Rights Council",
-    "relevance_score": 6.338183,
-    "publication_year": 2015,
-    "publication_date": "2015-01-06",
-    "ids": {
-      "openalex": "https://openalex.org/W1987049777",
-      "doi": "https://doi.org/10.1080/14754835.2014.988784",
-      "mag": "1987049777"
-    },
-    "language": "en",
-    "primary_location": {
-      "id": "doi:10.1080/14754835.2014.988784",
-      "is_oa": false,
-      "landing_page_url": "https://doi.org/10.1080/14754835.2014.988784",
-      "pdf_url": null,
-      "source": {
-        "id": "https://openalex.org/S65076878",
-        "display_name": "Journal of Human Rights",
-        "issn_l": "1475-4835",
-        "issn": [
-          "1475-4835",
-          "1475-4843"
-        ],
-        "is_oa": false,
-        "is_in_doaj": false,
-        "is_core": true,
-        "host_organization": "https://openalex.org/P4310320547",
-        "host_organization_name": "Taylor & Francis",
-        "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
-        ],
-        "host_organization_lineage_names": [],
-        "type": "journal"
-      },
-      "license": null,
-      "license_id": null,
-      "version": "publishedVersion",
-      "is_accepted": true,
-      "is_published": true,
-      "raw_source_name": "Journal of Human Rights",
-      "raw_type": "journal-article"
-    },
-    "type": "article",
-    "indexed_in": [
-      "crossref"
-    ],
-    "open_access": {
-      "is_oa": false,
-      "oa_status": "closed",
-      "oa_url": null,
-      "any_repository_has_fulltext": false
-    },
-    "authorships": [
-      {
-        "author_position": "first",
-        "author": {
-          "id": "https://openalex.org/A5062199588",
-          "display_name": "Eduard Jordaan",
-          "orcid": "https://orcid.org/0000-0002-5492-0027"
-        },
-        "institutions": [],
-        "countries": [],
-        "is_corresponding": true,
-        "raw_author_name": "Eduard Jordaan",
-        "raw_affiliation_strings": [],
-        "affiliations": []
-      }
-    ],
-    "institutions": [],
-    "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
-    "corresponding_author_ids": [
-      "https://openalex.org/A5062199588"
-    ],
-    "corresponding_institution_ids": [],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 17.80001646,
-    "has_fulltext": false,
-    "cited_by_count": 7,
-    "citation_normalized_percentile": {
-      "value": 0.98775703,
-      "is_in_top_1_percent": true,
-      "is_in_top_10_percent": true
-    },
-    "cited_by_percentile_year": {
-      "min": 90,
-      "max": 97
-    },
-    "biblio": {
-      "volume": "14",
-      "issue": "4",
-      "first_page": "463",
-      "last_page": "485"
-    },
-    "is_retracted": false,
-    "is_paratext": false,
-    "is_xpac": false,
-    "primary_topic": {
-      "id": "https://openalex.org/T13938",
-      "display_name": "Historical and Contemporary Political Dynamics",
-      "score": 0.9961000084877014,
-      "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    "topics": [
-      {
-        "id": "https://openalex.org/T13938",
-        "display_name": "Historical and Contemporary Political Dynamics",
-        "score": 0.9961000084877014,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12752",
-        "display_name": "Global Peace and Security Dynamics",
-        "score": 0.9936000108718872,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13035",
-        "display_name": "Human Rights and Development",
-        "score": 0.9914000034332275,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      }
-    ],
-    "keywords": [
-      {
-        "id": "https://openalex.org/keywords/human-rights",
-        "display_name": "Human rights",
-        "score": 0.9050328731536865
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5992565751075745
-      },
-      {
-        "id": "https://openalex.org/keywords/promotion",
-        "display_name": "Promotion (chess)",
-        "score": 0.5505785942077637
-      },
-      {
-        "id": "https://openalex.org/keywords/international-human-rights-law",
-        "display_name": "International human rights law",
-        "score": 0.5181769132614136
-      },
-      {
-        "id": "https://openalex.org/keywords/linguistic-rights",
-        "display_name": "Linguistic rights",
-        "score": 0.4610421359539032
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.44439804553985596
-      },
-      {
-        "id": "https://openalex.org/keywords/right-to-property",
-        "display_name": "Right to property",
-        "score": 0.340110719203949
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.23436984419822693
-      }
-    ],
-    "concepts": [
-      {
-        "id": "https://openalex.org/C169437150",
-        "wikidata": "https://www.wikidata.org/wiki/Q8458",
-        "display_name": "Human rights",
-        "level": 2,
-        "score": 0.9050328731536865
-      },
-      {
-        "id": "https://openalex.org/C17744445",
-        "wikidata": "https://www.wikidata.org/wiki/Q36442",
-        "display_name": "Political science",
-        "level": 0,
-        "score": 0.5992565751075745
-      },
-      {
-        "id": "https://openalex.org/C98147612",
-        "wikidata": "https://www.wikidata.org/wiki/Q215599",
-        "display_name": "Promotion (chess)",
-        "level": 3,
-        "score": 0.5505785942077637
-      },
-      {
-        "id": "https://openalex.org/C86615163",
-        "wikidata": "https://www.wikidata.org/wiki/Q1147615",
-        "display_name": "International human rights law",
-        "level": 3,
-        "score": 0.5181769132614136
-      },
-      {
-        "id": "https://openalex.org/C543595228",
-        "wikidata": "https://www.wikidata.org/wiki/Q1667964",
-        "display_name": "Linguistic rights",
-        "level": 5,
-        "score": 0.4610421359539032
-      },
-      {
-        "id": "https://openalex.org/C199539241",
-        "wikidata": "https://www.wikidata.org/wiki/Q7748",
-        "display_name": "Law",
-        "level": 1,
-        "score": 0.44439804553985596
-      },
-      {
-        "id": "https://openalex.org/C22299250",
-        "wikidata": "https://www.wikidata.org/wiki/Q11917765",
-        "display_name": "Right to property",
-        "level": 4,
-        "score": 0.340110719203949
-      },
-      {
-        "id": "https://openalex.org/C94625758",
-        "wikidata": "https://www.wikidata.org/wiki/Q7163",
-        "display_name": "Politics",
-        "level": 2,
-        "score": 0.23436984419822693
-      }
-    ],
-    "mesh": [],
-    "locations_count": 1,
-    "locations": [
-      {
-        "id": "doi:10.1080/14754835.2014.988784",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.1080/14754835.2014.988784",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S65076878",
-          "display_name": "Journal of Human Rights",
-          "issn_l": "1475-4835",
-          "issn": [
-            "1475-4835",
-            "1475-4843"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": true,
-          "host_organization": "https://openalex.org/P4310320547",
-          "host_organization_name": "Taylor & Francis",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "journal"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "Journal of Human Rights",
-        "raw_type": "journal-article"
-      }
-    ],
-    "best_oa_location": null,
-    "sustainable_development_goals": [
-      {
-        "score": 0.6600000262260437,
-        "display_name": "Gender equality",
-        "id": "https://metadata.un.org/sdg/5"
-      }
-    ],
-    "grants": [],
-    "awards": [],
-    "funders": [
-      {
-        "id": "https://openalex.org/F4320320300",
-        "display_name": "European Commission",
-        "ror": "https://ror.org/00k4n6c32"
-      }
-    ],
-    "has_content": {
-      "pdf": false,
-      "grobid_xml": false
-    },
-    "referenced_works_count": 34,
-    "referenced_works": [
-      "https://openalex.org/W2487072529",
-      "https://openalex.org/W2479549626",
-      "https://openalex.org/W3121346894",
-      "https://openalex.org/W2113507446",
-      "https://openalex.org/W4389375556",
-      "https://openalex.org/W2111190238",
-      "https://openalex.org/W2090662596",
-      "https://openalex.org/W2047748582",
-      "https://openalex.org/W2118418620",
-      "https://openalex.org/W1983066465",
-      "https://openalex.org/W1993174227",
-      "https://openalex.org/W2015332400",
-      "https://openalex.org/W1965573732",
-      "https://openalex.org/W2096304508",
-      "https://openalex.org/W2049361259",
-      "https://openalex.org/W1790662345",
-      "https://openalex.org/W3168543554",
-      "https://openalex.org/W3197271038",
-      "https://openalex.org/W3207127518",
-      "https://openalex.org/W2475474987",
-      "https://openalex.org/W2126526654",
-      "https://openalex.org/W3200380765",
-      "https://openalex.org/W2581876947",
-      "https://openalex.org/W1592681708",
-      "https://openalex.org/W3138930579",
-      "https://openalex.org/W3138530896",
-      "https://openalex.org/W3151549029",
-      "https://openalex.org/W2114786951",
-      "https://openalex.org/W3043052141",
-      "https://openalex.org/W3208689654",
-      "https://openalex.org/W3122474256",
-      "https://openalex.org/W3034811454",
-      "https://openalex.org/W2548108445",
-      "https://openalex.org/W2757497820"
-    ],
-    "related_works": [
-      "https://openalex.org/W2134453491",
-      "https://openalex.org/W2888842452",
-      "https://openalex.org/W3111968179",
-      "https://openalex.org/W2739196720",
-      "https://openalex.org/W3186383433",
-      "https://openalex.org/W2149875746",
-      "https://openalex.org/W151828264",
-      "https://openalex.org/W3091142047",
-      "https://openalex.org/W1571613784",
-      "https://openalex.org/W589404037"
-    ],
-    "abstract_inverted_index": {
-      "In": [
-        0
-      ],
-      "the": [
-        1,
-        5,
-        11,
-        26,
-        43,
-        46,
-        50,
-        58,
-        61,
-        98,
-        104,
-        114,
-        125
-      ],
-      "official": [
-        2
-      ],
-      "declarations": [
-        3
-      ],
-      "of": [
-        4,
-        18,
-        31,
-        42,
-        45,
-        60,
-        90
-      ],
-      "India-Brazil-South": [
-        6
-      ],
-      "Africa": [
-        7,
-        135
-      ],
-      "Dialogue": [
-        8
-      ],
-      "Forum": [
-        9
-      ],
-      "(IBSA),": [
-        10
-      ],
-      "three": [
-        12,
-        99
-      ],
-      "states": [
-        13,
-        48,
-        63,
-        100,
-        116
-      ],
-      "claim": [
-        14
-      ],
-      "a": [
-        15,
-        22
-      ],
-      "shared": [
-        16
-      ],
-      "understanding": [
-        17
-      ],
-      "human": [
-        19,
-        108,
-        143
-      ],
-      "rights": [
-        20,
-        122,
-        144
-      ],
-      "and": [
-        21,
-        29,
-        71,
-        79,
-        81,
-        92,
-        133
-      ],
-      "deep": [
-        23
-      ],
-      "commitment": [
-        24
-      ],
-      "to": [
-        25,
-        140
-      ],
-      "international": [
-        27
-      ],
-      "promotion": [
-        28
-      ],
-      "protection": [
-        30
-      ],
-      "these": [
-        32,
-        37
-      ],
-      "rights.": [
-        33,
-        109
-      ],
-      "This": [
-        34
-      ],
-      "article": [
-        35
-      ],
-      "considers": [
-        36
-      ],
-      "two": [
-        38
-      ],
-      "propositions": [
-        39
-      ],
-      "in": [
-        40,
-        124
-      ],
-      "light": [
-        41
-      ],
-      "actions": [
-        44
-      ],
-      "IBSA": [
-        47,
-        62,
-        115
-      ],
-      "on": [
-        49,
-        64
-      ],
-      "United": [
-        51
-      ],
-      "Nations": [
-        52
-      ],
-      "Human": [
-        53
-      ],
-      "Rights": [
-        54
-      ],
-      "Council.": [
-        55
-      ],
-      "After": [
-        56
-      ],
-      "examining": [
-        57
-      ],
-      "positions": [
-        59
-      ],
-      "seven": [
-        65
-      ],
-      "controversial": [
-        66,
-        83
-      ],
-      "country-specific": [
-        67
-      ],
-      "cases": [
-        68
-      ],
-      "(Belarus,": [
-        69
-      ],
-      "Darfur": [
-        70
-      ],
-      "Sudan,": [
-        72
-      ],
-      "Iran,": [
-        73
-      ],
-      "Israel,": [
-        74
-      ],
-      "North": [
-        75
-      ],
-      "Korea,": [
-        76
-      ],
-      "Sri": [
-        77
-      ],
-      "Lanka,": [
-        78
-      ],
-      "Syria)": [
-        80
-      ],
-      "four": [
-        82
-      ],
-      "thematic": [
-        84
-      ],
-      "domains": [
-        85
-      ],
-      "(economic": [
-        86
-      ],
-      "rights,": [
-        87
-      ],
-      "racism,": [
-        88
-      ],
-      "freedom": [
-        89
-      ],
-      "expression,": [
-        91
-      ],
-      "sexual": [
-        93
-      ],
-      "orientation),": [
-        94
-      ],
-      "I": [
-        95,
-        111
-      ],
-      "conclude": [
-        96
-      ],
-      "that": [
-        97,
-        113
-      ],
-      "do": [
-        101,
-        118
-      ],
-      "not": [
-        102,
-        119
-      ],
-      "have": [
-        103
-      ],
-      "same": [
-        105
-      ],
-      "views": [
-        106
-      ],
-      "about": [
-        107
-      ],
-      "Furthermore,": [
-        110
-      ],
-      "find": [
-        112
-      ],
-      "often": [
-        117
-      ],
-      "support": [
-        120,
-        141
-      ],
-      "pro-human": [
-        121
-      ],
-      "initiatives": [
-        123
-      ],
-      "Council,": [
-        126
-      ],
-      "although": [
-        127
-      ],
-      "Brazil": [
-        128
-      ],
-      "stands": [
-        129
-      ],
-      "apart": [
-        130
-      ],
-      "from": [
-        131
-      ],
-      "India": [
-        132
-      ],
-      "South": [
-        134
-      ],
-      "for": [
-        136
-      ],
-      "its": [
-        137
-      ],
-      "greater": [
-        138
-      ],
-      "willingness": [
-        139
-      ],
-      "stronger": [
-        142
-      ],
-      "positions.": [
-        145
-      ]
-    },
-    "counts_by_year": [
-      {
-        "year": 2025,
-        "cited_by_count": 1
-      },
-      {
-        "year": 2019,
-        "cited_by_count": 3
-      },
-      {
-        "year": 2018,
-        "cited_by_count": 1
-      },
-      {
-        "year": 2017,
-        "cited_by_count": 2
-      }
-    ],
-    "updated_date": "2025-11-06T03:46:38.306776",
-    "created_date": "2025-10-10T00:00:00"
-  },
-  {
     "id": "https://openalex.org/W1998238551",
     "doi": "https://doi.org/10.1080/14754835.2014.886948",
     "title": "Aiding Labor: Foreign Aid and the Promotion of Labor Rights in LDCs",
     "display_name": "Aiding Labor: Foreign Aid and the Promotion of Labor Rights in LDCs",
-    "relevance_score": 1.6470037,
+    "relevance_score": 1.6561489,
     "publication_year": 2014,
     "publication_date": "2014-04-03",
     "ids": {
@@ -17345,7 +17526,9 @@
         "host_organization_lineage": [
           "https://openalex.org/P4310320547"
         ],
-        "host_organization_lineage_names": [],
+        "host_organization_lineage_names": [
+          "Taylor & Francis"
+        ],
         "type": "journal"
       },
       "license": null,
@@ -17374,14 +17557,34 @@
           "display_name": "Reed M. Wood",
           "orcid": null
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210161658",
+            "display_name": "Russian State Agrarian Correspondence University",
+            "ror": "https://ror.org/0548hz093",
+            "country_code": "RU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210161658"
+            ]
+          }
+        ],
+        "countries": [
+          "RU"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Reed M. Wood",
         "raw_affiliation_strings": [
+          "Correspondencereed.wood@asu.edu",
           "CLAS-H: Religion and Conflict, Center for the Study of"
         ],
         "affiliations": [
+          {
+            "raw_affiliation_string": "Correspondencereed.wood@asu.edu",
+            "institution_ids": [
+              "https://openalex.org/I4210161658"
+            ]
+          },
           {
             "raw_affiliation_string": "CLAS-H: Religion and Conflict, Center for the Study of",
             "institution_ids": []
@@ -17390,19 +17593,21 @@
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5075589017"
     ],
-    "corresponding_institution_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210161658"
+    ],
     "apc_list": null,
     "apc_paid": null,
     "fwci": 2.508158,
     "has_fulltext": false,
     "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.91332585,
+      "value": 0.91328087,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -17701,7 +17906,9 @@
           "host_organization_lineage": [
             "https://openalex.org/P4310320547"
           ],
-          "host_organization_lineage_names": [],
+          "host_organization_lineage_names": [
+            "Taylor & Francis"
+          ],
           "type": "journal"
         },
         "license": null,
@@ -17716,12 +17923,11 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.5699999928474426,
+        "id": "https://metadata.un.org/sdg/8",
         "display_name": "Decent work and economic growth",
-        "id": "https://metadata.un.org/sdg/8"
+        "score": 0.5699999928474426
       }
     ],
-    "grants": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -17776,36 +17982,36 @@
       "https://openalex.org/W4249151123",
       "https://openalex.org/W1973729110",
       "https://openalex.org/W1970275528",
-      "https://openalex.org/W2120946983",
-      "https://openalex.org/W2155265364",
-      "https://openalex.org/W3201318382",
-      "https://openalex.org/W4206341998",
-      "https://openalex.org/W4233532738",
-      "https://openalex.org/W51246558",
-      "https://openalex.org/W1554331271",
       "https://openalex.org/W3214090406",
+      "https://openalex.org/W2045476765",
+      "https://openalex.org/W2155265364",
+      "https://openalex.org/W2153557264",
+      "https://openalex.org/W2120946983",
+      "https://openalex.org/W1554331271",
+      "https://openalex.org/W2071114359",
+      "https://openalex.org/W51246558",
       "https://openalex.org/W1585837750",
       "https://openalex.org/W1489890689",
-      "https://openalex.org/W1968384196",
+      "https://openalex.org/W1491471703",
+      "https://openalex.org/W4239107312",
       "https://openalex.org/W4232468379",
+      "https://openalex.org/W4233532738",
+      "https://openalex.org/W2952547163",
       "https://openalex.org/W2114172432",
       "https://openalex.org/W1516368360",
-      "https://openalex.org/W3706496",
-      "https://openalex.org/W2070881575",
-      "https://openalex.org/W2971151652",
-      "https://openalex.org/W4205590640",
-      "https://openalex.org/W2160551229",
-      "https://openalex.org/W2153557264",
-      "https://openalex.org/W2045476765",
-      "https://openalex.org/W1491471703",
-      "https://openalex.org/W2071114359",
+      "https://openalex.org/W1968384196",
       "https://openalex.org/W4301308522",
-      "https://openalex.org/W2952547163",
-      "https://openalex.org/W1983524189",
-      "https://openalex.org/W2024914273",
       "https://openalex.org/W1563281257",
-      "https://openalex.org/W4239107312",
+      "https://openalex.org/W2070881575",
+      "https://openalex.org/W1983524189",
+      "https://openalex.org/W3201318382",
+      "https://openalex.org/W4206341998",
       "https://openalex.org/W93423700",
+      "https://openalex.org/W2160551229",
+      "https://openalex.org/W3706496",
+      "https://openalex.org/W2024914273",
+      "https://openalex.org/W4205590640",
+      "https://openalex.org/W2971151652",
       "https://openalex.org/W437877368"
     ],
     "related_works": [
