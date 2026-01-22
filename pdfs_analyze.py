@@ -7,14 +7,16 @@ import sys
 from wordcloud import WordCloud
 from collections import Counter
 
-PDFS_DIR = 'pdfs'
+PDFS_DIR = 'pdfs/works'
 CSV_FILENAME = 'index.csv'
 SEARCH_WORD = 'israel'
 COLUMN_NAME = 'israel_count'
 
 
 def count_israel_in_text(row, base_dir):
-    if 'ID' in row:
+    if "work_id" in row:
+        file_id = row['work_id']
+    elif 'ID' in row:
         file_id = row['ID']
     else:
         url = row.get('url', '')
