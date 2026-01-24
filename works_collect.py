@@ -2,9 +2,13 @@ import csv
 import json
 from pathlib import Path
 
+import requests
+
 RESULTS_DIR = 'search_results'
 OUTPUT_FILE = 'works.csv'
 JOURNALS_FILE = 'journals.csv'
+VERBOSE = True
+FOLLOW_DOIS = True
 
 
 def _parse_abstract_inverted_index(abstract_inverted_index):
@@ -21,6 +25,31 @@ def _parse_abstract_inverted_index(abstract_inverted_index):
     if "An abstract is not available for this content" in abstract:
         return ""
     return abstract
+
+
+def _follow_doi_redirects(doi):
+    if not doi:
+        return ""
+
+    url = doi
+    if not url.startswith('http'):
+        url = f'https://doi.org/{doi.replace("https://doi.org/", "")}'
+
+    try:
+        response = requests.head(url, allow_redirects=True, timeout=(1.5, 1.5))
+        return response.url
+    except requests.exceptions.Timeout:
+        if VERBOSE:
+            print(f"Timeout following DOI {doi}, returning original URL")
+        return url
+    except Exception as e:
+        print(f"Error following DOI {doi}: {e}")
+        raise
+
+
+def _check_pdf_exists(work_id):
+    pdf_path = Path(f'pdfs/works/{work_id}.txt')
+    return pdf_path.exists()
 
 
 def _load_journal_mapping():
@@ -46,12 +75,16 @@ def _extract_data_from_json(json_data, journal_mapping):
 
     results = []
 
-    for item in json_data:
+    for i, item in enumerate(json_data):
+        if VERBOSE:
+            print(f"  Processing item {i+1}/{len(json_data)}")
         row = {}
 
         openalex_prefix = 'https://openalex.org/'
         row['id'] = item.get('id', '').replace(openalex_prefix, '')
         row['doi'] = item.get('doi', '')
+        row['doi_follow'] = _follow_doi_redirects(row['doi']) if FOLLOW_DOIS else ""
+        row['has_pdf'] = _check_pdf_exists(row['id'])
         row['title'] = item.get('title', '')
         row['publication_date'] = item.get('publication_date', '')
 
@@ -93,8 +126,9 @@ def main():
 
     journal_mapping = _load_journal_mapping()
 
-    for json_file in results_dir.glob('*.json'):
-        print(f"Processing {json_file.name}...")
+    json_files = list(results_dir.glob('*.json'))
+    for i, json_file in enumerate(json_files):
+        print(f"Processing {json_file.name} ({i+1}/{len(json_files)})...")
         with open(json_file, 'r', encoding='utf-8') as f:
             json_data = json.load(f)
             data = _extract_data_from_json(json_data, journal_mapping)
