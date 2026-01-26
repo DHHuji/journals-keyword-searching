@@ -67,7 +67,7 @@ def process_csv_and_generate_wordclouds(csv_path):
             if text:
                 output_file = base_dir / f'{file_id}_wordcloud.png'
                 if not output_file.exists():
-                    generate_wordcloud(text, output_file, dir_name_words)
+                    #generate_wordcloud(text, output_file, dir_name_words)
                     regenerate_combined = True
                 all_texts.append(text)
 
@@ -127,11 +127,20 @@ def main():
         print(f"No {CSV_FILENAME} files found")
         sys.exit(1)
 
+    total_files = 0
+    for csv_path in csv_files:
+        with open(csv_path, 'r', encoding='utf-8') as f:
+            total_files += sum(1 for _ in csv.DictReader(f))
+
+    if total_files == 0:
+        print("No rows found in any CSV files")
+        sys.exit(1)
+
     with ProcessPoolExecutor() as executor:
         futures = {executor.submit(process_csv_and_generate_wordclouds, csv_path): csv_path
                    for csv_path in csv_files}
 
-        with tqdm(total=len(csv_files), desc="Processing files and generating wordclouds") as pbar:
+        with tqdm(total=total_files, desc="Processing files and generating wordclouds") as pbar:
             for future in as_completed(futures):
                 csv_path, rows_processed, error = future.result()
 
@@ -140,9 +149,9 @@ def main():
                     executor.shutdown(wait=False, cancel_futures=True)
                     sys.exit(1)
 
-                pbar.update(1)
+                pbar.update(rows_processed)
 
-    print(f"\nSuccessfully processed {len(csv_files)} directories")
+    print(f"\nSuccessfully processed {total_files} files")
 
 
 if __name__ == "__main__":

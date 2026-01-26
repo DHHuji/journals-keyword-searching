@@ -37,7 +37,7 @@ def _follow_doi_redirects(doi):
         url = f'https://doi.org/{doi.replace("https://doi.org/", "")}'
 
     try:
-        response = requests.head(url, allow_redirects=True, timeout=(1.5, 1.5))
+        response = requests.head(url, allow_redirects=True, timeout=(0.2, 0.2))
         return response.url
     except requests.exceptions.Timeout:
         if VERBOSE:
@@ -45,7 +45,7 @@ def _follow_doi_redirects(doi):
         return ""
     except Exception as e:
         print(f"Error following DOI {doi}: {e}")
-        raise
+        return e.args[0].pool.host if e.args else ""
 
 
 def _check_pdf_exists(work_id):
