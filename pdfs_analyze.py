@@ -67,7 +67,7 @@ def process_csv_and_generate_wordclouds(csv_path):
             if text:
                 output_file = base_dir / f'{file_id}_wordcloud.png'
                 if not output_file.exists():
-                    #generate_wordcloud(text, output_file, dir_name_words)
+                    generate_wordcloud(text, output_file, dir_name_words)
                     regenerate_combined = True
                 all_texts.append(text)
 

@@ -8,7 +8,7 @@ RESULTS_DIR = 'search_results'
 OUTPUT_FILE = 'works.csv'
 JOURNALS_FILE = 'journals.csv'
 VERBOSE = True
-FOLLOW_DOIS = True
+FOLLOW_DOIS = False
 
 
 
