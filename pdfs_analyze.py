@@ -1,16 +1,26 @@
 import csv
 from pathlib import Path
 from concurrent.futures import ProcessPoolExecutor, as_completed
+
+from stanza.utils.datasets.conllu_to_text import WORD_RE
 from tqdm import tqdm
 import re
 import sys
 from wordcloud import WordCloud
 from collections import Counter
 
-PDFS_DIR = 'pdfs/works'
+PDFS_DIR = 'pdfs'
 CSV_FILENAME = 'index.csv'
+
 SEARCH_WORD = 'israel'
-COLUMN_NAME = 'israel_count'
+
+SEARCH_WORD_COUNT_COLUMN = 'israel_count'
+LINES_COUNT_COLUMN = 'lines_count'
+WORD_COUNT_COLUMN = 'word_count'
+WORD_COUNT_CENTER_COLUMN = 'israel_count_center'
+
+GEN_WORDCLOUD = False
+CENTER_FRACTION = 0.8
 
 
 def count_israel_in_text(row, base_dir):
@@ -30,7 +40,7 @@ def count_israel_in_text(row, base_dir):
     txt_file = base_dir / f"{file_id}.txt"
 
     if not txt_file.exists():
-        return None, None, None
+        return None, None, None, None, None, None
 
     try:
         with open(txt_file, 'r', encoding='utf-8') as f:
@@ -41,7 +51,21 @@ def count_israel_in_text(row, base_dir):
 
     pattern = re.compile(rf'\b{SEARCH_WORD}\b', re.IGNORECASE)
     matches = pattern.findall(text)
-    return len(matches), text, file_id
+
+    lines_count = sum(1 for line in text.splitlines() if line.strip())
+    words = re.findall(r'\b[a-zA-Z]+\b', text)
+    word_count = len(words)
+
+    text_len = len(text)
+    if text_len:
+        margin = int(text_len * (1 - CENTER_FRACTION) / 2)
+        center_text = text[margin:text_len - margin]
+        center_matches = pattern.findall(center_text)
+        israel_count_center = len(center_matches)
+    else:
+        israel_count_center = 0
+
+    return len(matches), israel_count_center, lines_count, word_count, text, file_id
 
 
 def process_csv_and_generate_wordclouds(csv_path):
@@ -57,18 +81,23 @@ def process_csv_and_generate_wordclouds(csv_path):
             rows = list(reader)
             fieldnames = reader.fieldnames
 
-        if COLUMN_NAME not in fieldnames:
-            fieldnames = list(fieldnames) + [COLUMN_NAME]
+        for column in (LINES_COUNT_COLUMN, WORD_COUNT_COLUMN, SEARCH_WORD_COUNT_COLUMN, WORD_COUNT_CENTER_COLUMN):
+            if column not in fieldnames:
+                fieldnames = list(fieldnames) + [column]
 
         for row in rows:
-            count, text, file_id = count_israel_in_text(row, base_dir)
-            row[COLUMN_NAME] = '' if count is None else str(count)
+            count, count_center, lines_count, word_count, text, file_id = count_israel_in_text(row, base_dir)
+            row[SEARCH_WORD_COUNT_COLUMN] = '' if count is None else str(count)
+            row[WORD_COUNT_CENTER_COLUMN] = '' if count_center is None else str(count_center)
+            row[LINES_COUNT_COLUMN] = '' if lines_count is None else str(lines_count)
+            row[WORD_COUNT_COLUMN] = '' if word_count is None else str(word_count)
 
             if text:
-                output_file = base_dir / f'{file_id}_wordcloud.png'
-                if not output_file.exists():
-                    generate_wordcloud(text, output_file, dir_name_words)
-                    regenerate_combined = True
+                if GEN_WORDCLOUD:
+                    output_file = base_dir / f'{file_id}_wordcloud.png'
+                    if not output_file.exists():
+                        generate_wordcloud(text, output_file, dir_name_words)
+                        regenerate_combined = True
                 all_texts.append(text)
 
         with open(csv_path, 'w', encoding='utf-8', newline='') as f:
@@ -77,7 +106,7 @@ def process_csv_and_generate_wordclouds(csv_path):
             writer.writerows(rows)
 
         combined_output_file = base_dir / 'wordcloud.png'
-        if all_texts and (regenerate_combined or not combined_output_file.exists()):
+        if GEN_WORDCLOUD and all_texts and (regenerate_combined or not combined_output_file.exists()):
             combined_text = ' '.join(all_texts)
             generate_wordcloud(combined_text, combined_output_file, dir_name_words)
 

@@ -4,7 +4,8 @@ import unicodedata
 from collections import defaultdict
 
 INPUT_FILE = 'authors_works.csv'
-OUTPUT_FILE = 'authors_works_aggregated.csv'
+OUTPUT_AUTHOR_FILE = 'authors_works_aggregated_by_author.csv'
+OUTPUT_WORK_FILE = 'authors_works_aggregated_by_work.csv'
 
 
 def normalize_name(name):
@@ -23,7 +24,7 @@ def normalize_name(name):
     return name
 
 
-def aggregate_authors():
+def aggregate_authors_and_works():
     # Group by author_id first, then by normalized name for those without IDs
     author_id_to_group_id = {}
     normalized_name_to_group_id = {}
@@ -41,6 +42,22 @@ def aggregate_authors():
         'institutions': set(),
         'countries': set(),
         'affiliations': set()
+    })
+
+    work_data = defaultdict(lambda: {
+        'doi': '',
+        'title': '',
+        'publication_date': '',
+        'source_id': '',
+        'journal_name': '',
+        'author_names': set(),
+        'author_ids': set(),
+        'institutions': set(),
+        'countries': set(),
+        'affiliations': set(),
+        'cited_by_count': 0,
+        'keywords': set(),
+        'references_israel': False
     })
 
     print("Reading and processing data...")
@@ -113,11 +130,14 @@ def aggregate_authors():
 
             if row.get('references_israel', '').lower() in ['yes', 'true', '1']:
                 data['specific_work_ids'].add(work_id)
+                work_data[work_id]['references_israel'] = True
 
             try:
                 cited_by = int(row.get('cited_by_count', 0))
                 if work_id not in data['cited_by_per_work']:
                     data['cited_by_per_work'][work_id] = cited_by
+                if cited_by > work_data[work_id]['cited_by_count']:
+                    work_data[work_id]['cited_by_count'] = cited_by
             except (ValueError, TypeError):
                 pass
 
@@ -136,6 +156,7 @@ def aggregate_authors():
                     inst = inst.strip()
                     if inst:
                         data['institutions'].add(inst)
+                        work_data[work_id]['institutions'].add(inst)
 
             countries = row.get('countries', '')
             if countries:
@@ -143,6 +164,7 @@ def aggregate_authors():
                     country = country.strip()
                     if country:
                         data['countries'].add(country)
+                        work_data[work_id]['countries'].add(country)
 
             affiliations = row.get('affiliations_comment', '')
             if affiliations:
@@ -150,6 +172,30 @@ def aggregate_authors():
                     aff = aff.strip()
                     if aff:
                         data['affiliations'].add(aff)
+                        work_data[work_id]['affiliations'].add(aff)
+
+            work_row = work_data[work_id]
+            if not work_row['doi']:
+                work_row['doi'] = row.get('doi', '').strip()
+            if not work_row['title']:
+                work_row['title'] = row.get('title', '').strip()
+            if not work_row['publication_date']:
+                work_row['publication_date'] = row.get('publication_date', '').strip()
+            if not work_row['source_id']:
+                work_row['source_id'] = row.get('source_id', '').strip()
+            if not work_row['journal_name']:
+                work_row['journal_name'] = row.get('journal_name', '').strip()
+
+            work_row['author_names'].add(author_name)
+            if author_id:
+                work_row['author_ids'].add(author_id)
+
+            keywords = row.get('keywords', '')
+            if keywords:
+                for kw in keywords.split(';'):
+                    kw = kw.strip()
+                    if kw:
+                        work_row['keywords'].add(kw)
 
     print(f"Total rows processed: {row_count:,}")
     print("Creating output...")
@@ -192,7 +238,7 @@ def aggregate_authors():
 
     output_rows.sort(key=lambda x: x['works_count'], reverse=True)
 
-    with open(OUTPUT_FILE, 'w', newline='', encoding='utf-8') as f:
+    with open(OUTPUT_AUTHOR_FILE, 'w', newline='', encoding='utf-8') as f:
         fieldnames = [
             'author_name', 'author_ids', 'works_count', 'specific_works_count',
             'journals_count', 'cited_by_count', 'min_year', 'max_year', 'institutions',
@@ -205,16 +251,54 @@ def aggregate_authors():
     print(f"Aggregated {len(author_data):,} unique author groups")
     print(f"Filtered out {filtered_count:,} authors with 0 Israel-related works")
     print(f"Final output: {len(output_rows):,} authors")
-    print(f"Output saved to {OUTPUT_FILE}")
+    print(f"Output saved to {OUTPUT_AUTHOR_FILE}")
 
-    return output_rows
+    print("Creating work-level output...")
+
+    work_output_rows = []
+    for work_id, data in work_data.items():
+        row = {
+            'work_id': work_id,
+            'doi': data['doi'],
+            'title': data['title'],
+            'publication_date': data['publication_date'],
+            'source_id': data['source_id'],
+            'journal_name': data['journal_name'],
+            'authors_count': max(len(data['author_ids']), len(data['author_names'])),
+            'author_names': ';'.join(sorted(data['author_names'])),
+            'author_ids': ';'.join(sorted(data['author_ids'])),
+            'institutions': ';'.join(sorted(data['institutions'])),
+            'countries': ';'.join(sorted(data['countries'])),
+            'affiliations_comment': ';'.join(sorted(data['affiliations'])),
+            'cited_by_count': data['cited_by_count'],
+            'keywords': ';'.join(sorted(data['keywords'])),
+            'references_israel': 'Yes' if data['references_israel'] else 'No'
+        }
+        work_output_rows.append(row)
+
+    work_output_rows.sort(key=lambda x: x['cited_by_count'], reverse=True)
+
+    with open(OUTPUT_WORK_FILE, 'w', newline='', encoding='utf-8') as f:
+        fieldnames = [
+            'work_id', 'doi', 'title', 'publication_date', 'source_id', 'journal_name',
+            'authors_count', 'author_names', 'author_ids', 'institutions', 'countries',
+            'affiliations_comment', 'cited_by_count', 'keywords', 'references_israel'
+        ]
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        writer.writeheader()
+        writer.writerows(work_output_rows)
+
+    print(f"Final output: {len(work_output_rows):,} works")
+    print(f"Output saved to {OUTPUT_WORK_FILE}")
+
+    return output_rows, work_output_rows
 
 
 def main():
     print("Aggregating author data...")
     print("Note: This version groups authors by author_id (when available) or normalized name")
     print("Authors with 0 Israel-related works are excluded from output")
-    aggregate_authors()
+    aggregate_authors_and_works()
 
 
 if __name__ == "__main__":
