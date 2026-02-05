@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import os
+import re
 import sys
 from pathlib import Path
 from pdfminer.high_level import extract_text
@@ -26,6 +27,8 @@ def pdf_to_text(pdf_path, output_path):
             i += 1
 
         processed_text = '\n'.join(processed_lines)
+        processed_text = processed_text.replace("(cid:0)", "")
+        processed_text = re.sub(r"\n{2,}", "\n", processed_text)
 
         with open(output_path, 'w', encoding='utf-8') as f:
             f.write(processed_text)
