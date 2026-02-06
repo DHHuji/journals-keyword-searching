@@ -43,8 +43,11 @@ def _load_llm_gen(model_name, gpu_count):
     if model_name == "llama3":
         from vllm_llama3 import build_llm_gen as _build_llm_gen
         return _build_llm_gen(gpu_count)
+    if model_name == "llama4":
+        from vllm_llama4 import build_llm_gen as _build_llm_gen
+        return _build_llm_gen(gpu_count)
     raise ValueError(
-        f"Unknown model '{model_name}'. Expected 'deepseek-r1' or 'llama3'."
+        f"Unknown model '{model_name}'."
     )
 
 
@@ -88,7 +91,7 @@ def _output_exists(work_path):
 def main():
     global MODEL, llm_gen
     parser = argparse.ArgumentParser(description="Run vLLM processing.")
-    parser.add_argument("model", choices=["deepseek-r1", "llama3"])
+    parser.add_argument("model", type=str, required=True)
     parser.add_argument("--gpu-count", type=int, required=True)
     args = parser.parse_args()
 
