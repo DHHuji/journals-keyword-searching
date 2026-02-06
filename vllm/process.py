@@ -6,7 +6,7 @@ from pathlib import Path
 
 MODEL = ""
 
-CONCURRENCY = 8
+BATCH_SIZE = 8
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 WORKS_BASE_DIR = os.path.join(SCRIPT_DIR, "../pdfs")
@@ -49,37 +49,35 @@ def _load_llm_gen(model_name, gpu_count):
     )
 
 
-async def process_work_file(work_path, prompt, themes, semaphore):
-    async with semaphore:
-        print(f"🔄 Processing {work_path}...")
+async def load_work_prompt(work_path, prompt, themes):
+    print(f"🔄 Loading {work_path}...")
+    try:
+        with open(work_path, 'r', encoding='utf-8') as f:
+            work = f.read().strip()
+    except FileNotFoundError:
+        print(f"❌ File not found: {work_path}")
+        raise
 
-        try:
-            with open(work_path, 'r', encoding='utf-8') as f:
-                work = f.read().strip()
-        except FileNotFoundError:
-            print(f"❌ File not found: {work_path}")
-            raise
-
-        full_prompt = f"""{prompt}
+    full_prompt = f"""{prompt}
 
 THEMES:
 {themes}
 
 WORK TO ANALYZE:
 {work}"""
+    return full_prompt
 
-        loop = asyncio.get_event_loop()
-        result = await loop.run_in_executor(None, llm_gen, full_prompt)
 
-        os.makedirs(OUTPUT_DIR, exist_ok=True)
-        work_name = Path(work_path).stem
-        output_path = os.path.join(OUTPUT_DIR, f"{work_name}_{MODEL}.txt")
+def _write_output(work_path, output_text):
+    os.makedirs(OUTPUT_DIR, exist_ok=True)
+    work_name = Path(work_path).stem
+    output_path = os.path.join(OUTPUT_DIR, f"{work_name}_{MODEL}.txt")
 
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(result[0])
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(output_text)
 
-        print(f"✅ Completed {work_path} -> {output_path}")
-        return output_path
+    print(f"✅ Completed {work_path} -> {output_path}")
+    return output_path
 
 
 async def main():
@@ -96,7 +94,7 @@ async def main():
     load_elapsed = time.perf_counter() - load_start
     print(f"Model '{MODEL}' loaded in {load_elapsed:.2f}s")
 
-    print("Starting parallel processing...\n")
+    print("Starting batched processing...\n")
 
     try:
         with open(PROMPT_FILE, 'r', encoding='utf-8') as f:
@@ -107,16 +105,40 @@ async def main():
         print(f"❌ Error: {e}")
         raise
 
-    semaphore = asyncio.Semaphore(CONCURRENCY)
-
-    tasks = [
-        process_work_file(work_path, prompt, themes, semaphore)
+    load_tasks = [
+        load_work_prompt(work_path, prompt, themes)
         for work_path in WORK_FILES
     ]
 
-    task_count = len(tasks)
+    task_count = len(load_tasks)
     start_time = time.perf_counter()
-    results = await asyncio.gather(*tasks, return_exceptions=True)
+    prompts = await asyncio.gather(*load_tasks, return_exceptions=True)
+    results = [None] * len(prompts)
+    loop = asyncio.get_event_loop()
+
+    def chunks(items, size):
+        for i in range(0, len(items), size):
+            yield i, items[i:i + size]
+
+    for start_idx, batch in chunks(prompts, BATCH_SIZE):
+        if any(isinstance(p, Exception) for p in batch):
+            for offset, p in enumerate(batch):
+                if isinstance(p, Exception):
+                    results[start_idx + offset] = p
+            continue
+
+        batch_paths = WORK_FILES[start_idx:start_idx + len(batch)]
+        try:
+            outputs = await loop.run_in_executor(None, llm_gen, batch)
+            for offset, output_text in enumerate(outputs):
+                results[start_idx + offset] = _write_output(
+                    batch_paths[offset],
+                    output_text,
+                )
+        except Exception as e:
+            for offset in range(len(batch)):
+                results[start_idx + offset] = e
+
     end_time = time.perf_counter()
     total_elapsed = end_time - start_time
 
