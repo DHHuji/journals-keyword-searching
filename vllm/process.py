@@ -118,26 +118,35 @@ def main():
         for i in range(0, len(items), size):
             yield i, items[i:i + size]
 
-    for start_idx, batch_paths in chunks(WORK_FILES, BATCH_SIZE):
-        batch = []
-        batch_map = []
-        for offset, work_path in enumerate(batch_paths):
+    def iter_batches():
+        batch_paths = []
+        batch_indices = []
+        for idx, work_path in enumerate(WORK_FILES):
             if _output_exists(work_path):
-                results[start_idx + offset] = "skipped"
+                results[idx] = "skipped"
                 print(f"⏭️  Skipping {work_path} (output exists)")
                 continue
+            batch_paths.append(work_path)
+            batch_indices.append(idx)
+            if len(batch_paths) >= BATCH_SIZE:
+                yield batch_paths, batch_indices
+                batch_paths = []
+                batch_indices = []
+        if batch_paths:
+            yield batch_paths, batch_indices
+
+    for batch_paths, batch_indices in iter_batches():
+        batch = []
+        batch_map = []
+        for work_path, original_idx in zip(batch_paths, batch_indices):
             try:
                 batch.append(load_work_prompt(work_path, prompt, themes))
-                batch_map.append((offset, work_path))
+                batch_map.append((original_idx, work_path))
             except Exception as e:
-                results[start_idx + offset] = e
+                results[original_idx] = e
 
         if not batch:
             continue
-
-        if len(batch) != len(batch_paths):
-            # Some prompts failed to load or were skipped; still process what we have.
-            pass
 
         try:
             outputs = llm_gen(batch)
@@ -148,14 +157,14 @@ def main():
             retry_batch = []
             retry_map = []
             for batch_idx, output_text in enumerate(outputs):
-                original_offset, work_path = batch_map[batch_idx]
+                original_idx, work_path = batch_map[batch_idx]
                 final_text = output_text
                 if not final_text or not final_text.strip():
                     retry_batch.append(batch[batch_idx])
-                    retry_map.append((original_offset, work_path))
+                    retry_map.append((original_idx, work_path))
                     continue
 
-                results[start_idx + original_offset] = _write_output(
+                results[original_idx] = _write_output(
                     work_path,
                     final_text,
                 )
@@ -167,18 +176,18 @@ def main():
                         f"Model returned {len(retry_outputs)} outputs for {len(retry_batch)} retry prompts"
                     )
                 for retry_idx, retry_text in enumerate(retry_outputs):
-                    original_offset, work_path = retry_map[retry_idx]
+                    original_idx, work_path = retry_map[retry_idx]
                     if not retry_text or not retry_text.strip():
-                        results[start_idx + original_offset] = ValueError("Empty model output after retry")
+                        results[original_idx] = ValueError("Empty model output after retry")
                         print(f"❌ Error processing {work_path}: Empty model output after retry")
                         continue
-                    results[start_idx + original_offset] = _write_output(
+                    results[original_idx] = _write_output(
                         work_path,
                         retry_text,
                     )
         except Exception as e:
-            for original_offset, _ in batch_map:
-                results[start_idx + original_offset] = e
+            for original_idx, _ in batch_map:
+                results[original_idx] = e
 
     end_time = time.perf_counter()
     total_elapsed = end_time - start_time
