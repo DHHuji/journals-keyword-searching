@@ -9,4 +9,4 @@
 cd /sci/labs/dh_huji/liri.sokol/vllm-playground
 SRC_DIR="/sci/labs/dh_huji/liri.sokol/journals-keyword-searching/vllm"
 
-PYTHONPATH="${SRC_DIR}" uv run --directory "${SRC_DIR}" process.py
+PYTHONPATH="${SRC_DIR}" uv run "${SRC_DIR}/process.py" deepseek-r1

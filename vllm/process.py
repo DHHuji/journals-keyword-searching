@@ -1,6 +1,7 @@
 import asyncio
 import os
 import sys
+import time
 from pathlib import Path
 
 MODEL = ""
@@ -84,7 +85,11 @@ async def main():
     global MODEL, llm_gen
     if len(sys.argv) > 1:
         MODEL = sys.argv[1]
+    print(f"Loading model '{MODEL}'...")
+    load_start = time.perf_counter()
     llm_gen = _load_llm_gen(MODEL)
+    load_elapsed = time.perf_counter() - load_start
+    print(f"Model '{MODEL}' loaded in {load_elapsed:.2f}s")
 
     print("Starting parallel processing...\n")
 
@@ -104,9 +109,11 @@ async def main():
         for work_path in WORK_FILES
     ]
 
-    start_time = asyncio.get_event_loop().time()
+    task_count = len(tasks)
+    start_time = time.perf_counter()
     results = await asyncio.gather(*tasks, return_exceptions=True)
-    end_time = asyncio.get_event_loop().time()
+    end_time = time.perf_counter()
+    total_elapsed = end_time - start_time
 
     print("\n" + "=" * 60)
     successful = sum(1 for r in results if r and not isinstance(r, Exception))
@@ -114,7 +121,8 @@ async def main():
     print(f"✨ Processing complete!")
     print(f"   Successful: {successful}/{len(results)}")
     print(f"   Failed: {failed}/{len(results)}")
-    print(f"   Total time: {end_time - start_time:.2f}s")
+    print(f"   Total tasks: {task_count}")
+    print(f"   Total time: {total_elapsed:.2f}s")
     print("=" * 60)
 
     for work_path, result in zip(WORK_FILES, results):
