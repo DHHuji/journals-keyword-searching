@@ -1,6 +1,6 @@
 import asyncio
+import argparse
 import os
-import sys
 import time
 from pathlib import Path
 
@@ -36,13 +36,13 @@ THEMES_FILE = f"{WORKS_BASE_DIR}/themes.txt"
 OUTPUT_DIR = f"{WORKS_BASE_DIR}/llm_outputs"
 
 
-def _load_llm_gen(model_name):
+def _load_llm_gen(model_name, gpu_count):
     if model_name == "deepseek-r1":
-        from vllm_deepseek import llm_gen as _llm_gen
-        return _llm_gen
+        from vllm_deepseek import build_llm_gen as _build_llm_gen
+        return _build_llm_gen(gpu_count)
     if model_name == "llama3":
-        from vllm_llama3 import llm_gen as _llm_gen
-        return _llm_gen
+        from vllm_llama3 import build_llm_gen as _build_llm_gen
+        return _build_llm_gen(gpu_count)
     raise ValueError(
         f"Unknown model '{model_name}'. Expected 'deepseek-r1' or 'llama3'."
     )
@@ -83,11 +83,15 @@ WORK TO ANALYZE:
 
 async def main():
     global MODEL, llm_gen
-    if len(sys.argv) > 1:
-        MODEL = sys.argv[1]
+    parser = argparse.ArgumentParser(description="Run vLLM processing.")
+    parser.add_argument("model", choices=["deepseek-r1", "llama3"])
+    parser.add_argument("--gpu-count", type=int, required=True)
+    args = parser.parse_args()
+
+    MODEL = args.model
     print(f"Loading model '{MODEL}'...")
     load_start = time.perf_counter()
-    llm_gen = _load_llm_gen(MODEL)
+    llm_gen = _load_llm_gen(MODEL, args.gpu_count)
     load_elapsed = time.perf_counter() - load_start
     print(f"Model '{MODEL}' loaded in {load_elapsed:.2f}s")
 
