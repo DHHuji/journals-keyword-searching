@@ -79,6 +79,12 @@ def _write_output(work_path, output_text):
     return output_path
 
 
+def _output_exists(work_path):
+    work_name = Path(work_path).stem
+    output_path = os.path.join(OUTPUT_DIR, f"{work_name}_{MODEL}.txt")
+    return os.path.exists(output_path)
+
+
 def main():
     global MODEL, llm_gen
     parser = argparse.ArgumentParser(description="Run vLLM processing.")
@@ -114,9 +120,15 @@ def main():
 
     for start_idx, batch_paths in chunks(WORK_FILES, BATCH_SIZE):
         batch = []
+        batch_map = []
         for offset, work_path in enumerate(batch_paths):
+            if _output_exists(work_path):
+                results[start_idx + offset] = "skipped"
+                print(f"⏭️  Skipping {work_path} (output exists)")
+                continue
             try:
                 batch.append(load_work_prompt(work_path, prompt, themes))
+                batch_map.append((offset, work_path))
             except Exception as e:
                 results[start_idx + offset] = e
 
@@ -124,19 +136,49 @@ def main():
             continue
 
         if len(batch) != len(batch_paths):
-            # Skip generation for this batch if any prompt failed to load.
-            continue
+            # Some prompts failed to load or were skipped; still process what we have.
+            pass
 
         try:
             outputs = llm_gen(batch)
-            for offset, output_text in enumerate(outputs):
-                results[start_idx + offset] = _write_output(
-                    batch_paths[offset],
-                    output_text,
+            if len(outputs) != len(batch):
+                raise RuntimeError(
+                    f"Model returned {len(outputs)} outputs for {len(batch)} prompts"
                 )
+            retry_batch = []
+            retry_map = []
+            for batch_idx, output_text in enumerate(outputs):
+                original_offset, work_path = batch_map[batch_idx]
+                final_text = output_text
+                if not final_text or not final_text.strip():
+                    retry_batch.append(batch[batch_idx])
+                    retry_map.append((original_offset, work_path))
+                    continue
+
+                results[start_idx + original_offset] = _write_output(
+                    work_path,
+                    final_text,
+                )
+
+            if retry_batch:
+                retry_outputs = llm_gen(retry_batch)
+                if len(retry_outputs) != len(retry_batch):
+                    raise RuntimeError(
+                        f"Model returned {len(retry_outputs)} outputs for {len(retry_batch)} retry prompts"
+                    )
+                for retry_idx, retry_text in enumerate(retry_outputs):
+                    original_offset, work_path = retry_map[retry_idx]
+                    if not retry_text or not retry_text.strip():
+                        results[start_idx + original_offset] = ValueError("Empty model output after retry")
+                        print(f"❌ Error processing {work_path}: Empty model output after retry")
+                        continue
+                    results[start_idx + original_offset] = _write_output(
+                        work_path,
+                        retry_text,
+                    )
         except Exception as e:
-            for offset in range(len(batch)):
-                results[start_idx + offset] = e
+            for original_offset, _ in batch_map:
+                results[start_idx + original_offset] = e
 
     end_time = time.perf_counter()
     total_elapsed = end_time - start_time
