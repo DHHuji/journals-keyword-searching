@@ -8,7 +8,8 @@ MODEL = ""
 
 CONCURRENCY = 8
 
-WORKS_BASE_DIR = "../pdfs"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+WORKS_BASE_DIR = os.path.join(SCRIPT_DIR, "../pdfs")
 WORK_FILES = [
     f"{WORKS_BASE_DIR}/Critical Inquiry/26547794.txt",
     f"{WORKS_BASE_DIR}/Critical Inquiry/653411.txt",
