@@ -1,9 +1,9 @@
 import asyncio
 import os
+import sys
 from pathlib import Path
-from vllm_deepseek import llm_gen
 
-MODEL = "deepseek-r1"
+MODEL = ""
 
 CONCURRENCY = 8
 
@@ -33,6 +33,18 @@ WORK_FILES = [
 PROMPT_FILE = f"{WORKS_BASE_DIR}/prompt.txt"
 THEMES_FILE = f"{WORKS_BASE_DIR}/themes.txt"
 OUTPUT_DIR = f"{WORKS_BASE_DIR}/llm_outputs"
+
+
+def _load_llm_gen(model_name):
+    if model_name == "deepseek-r1":
+        from vllm_deepseek import llm_gen as _llm_gen
+        return _llm_gen
+    if model_name == "llama3":
+        from vllm_llama3 import llm_gen as _llm_gen
+        return _llm_gen
+    raise ValueError(
+        f"Unknown model '{model_name}'. Expected 'deepseek-r1' or 'llama3'."
+    )
 
 
 async def process_work_file(work_path, prompt, themes, semaphore):
@@ -69,6 +81,11 @@ WORK TO ANALYZE:
 
 
 async def main():
+    global MODEL, llm_gen
+    if len(sys.argv) > 1:
+        MODEL = sys.argv[1]
+    llm_gen = _load_llm_gen(MODEL)
+
     print("Starting parallel processing...\n")
 
     try:
@@ -91,14 +108,14 @@ async def main():
     results = await asyncio.gather(*tasks, return_exceptions=True)
     end_time = asyncio.get_event_loop().time()
 
-    print("\n" + "="*60)
+    print("\n" + "=" * 60)
     successful = sum(1 for r in results if r and not isinstance(r, Exception))
     failed = len(results) - successful
     print(f"✨ Processing complete!")
     print(f"   Successful: {successful}/{len(results)}")
     print(f"   Failed: {failed}/{len(results)}")
     print(f"   Total time: {end_time - start_time:.2f}s")
-    print("="*60)
+    print("=" * 60)
 
     for work_path, result in zip(WORK_FILES, results):
         if isinstance(result, Exception):
