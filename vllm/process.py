@@ -1,4 +1,3 @@
-import asyncio
 import argparse
 import os
 import time
@@ -49,7 +48,7 @@ def _load_llm_gen(model_name, gpu_count):
     )
 
 
-async def load_work_prompt(work_path, prompt, themes):
+def load_work_prompt(work_path, prompt, themes):
     print(f"🔄 Loading {work_path}...")
     try:
         with open(work_path, 'r', encoding='utf-8') as f:
@@ -80,7 +79,7 @@ def _write_output(work_path, output_text):
     return output_path
 
 
-async def main():
+def main():
     global MODEL, llm_gen
     parser = argparse.ArgumentParser(description="Run vLLM processing.")
     parser.add_argument("model", choices=["deepseek-r1", "llama3"])
@@ -105,31 +104,31 @@ async def main():
         print(f"❌ Error: {e}")
         raise
 
-    load_tasks = [
-        load_work_prompt(work_path, prompt, themes)
-        for work_path in WORK_FILES
-    ]
-
-    task_count = len(load_tasks)
+    task_count = len(WORK_FILES)
     start_time = time.perf_counter()
-    prompts = await asyncio.gather(*load_tasks, return_exceptions=True)
-    results = [None] * len(prompts)
-    loop = asyncio.get_event_loop()
+    results = [None] * len(WORK_FILES)
 
     def chunks(items, size):
         for i in range(0, len(items), size):
             yield i, items[i:i + size]
 
-    for start_idx, batch in chunks(prompts, BATCH_SIZE):
-        if any(isinstance(p, Exception) for p in batch):
-            for offset, p in enumerate(batch):
-                if isinstance(p, Exception):
-                    results[start_idx + offset] = p
+    for start_idx, batch_paths in chunks(WORK_FILES, BATCH_SIZE):
+        batch = []
+        for offset, work_path in enumerate(batch_paths):
+            try:
+                batch.append(load_work_prompt(work_path, prompt, themes))
+            except Exception as e:
+                results[start_idx + offset] = e
+
+        if not batch:
             continue
 
-        batch_paths = WORK_FILES[start_idx:start_idx + len(batch)]
+        if len(batch) != len(batch_paths):
+            # Skip generation for this batch if any prompt failed to load.
+            continue
+
         try:
-            outputs = await loop.run_in_executor(None, llm_gen, batch)
+            outputs = llm_gen(batch)
             for offset, output_text in enumerate(outputs):
                 results[start_idx + offset] = _write_output(
                     batch_paths[offset],
@@ -158,4 +157,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())
+    main()
