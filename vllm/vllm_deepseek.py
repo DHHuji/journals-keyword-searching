@@ -8,6 +8,6 @@ def build_llm_gen(gpu_count):
 
     def llm_gen(prompts):
         outputs = llm.generate(prompts, sampling_params)
-        return [output.outputs[0].txt for output in outputs]
+        return [output.outputs[0].text for output in outputs]
 
     return llm_gen
