@@ -91,7 +91,7 @@ def _output_exists(work_path):
 def main():
     global MODEL, llm_gen
     parser = argparse.ArgumentParser(description="Run vLLM processing.")
-    parser.add_argument("model", type=str, required=True)
+    parser.add_argument("model", type=str)
     parser.add_argument("--gpu-count", type=int, required=True)
     args = parser.parse_args()
 
