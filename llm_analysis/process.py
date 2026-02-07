@@ -31,8 +31,8 @@ WORK_FILES = [
     f"{WORKS_BASE_DIR}/Journal of Genocide Research/89.txt",
 ]
 
-PROMPT_FILE = f"{WORKS_BASE_DIR}/prompt.txt"
-THEMES_FILE = f"{WORKS_BASE_DIR}/themes.txt"
+PROMPT_FILE = f"{SCRIPT_DIR}/prompt.txt"
+THEMES_FILE = f"{SCRIPT_DIR}/themes.txt"
 OUTPUT_DIR = f"{WORKS_BASE_DIR}/llm_outputs"
 
 

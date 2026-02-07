@@ -7,7 +7,7 @@
 #SBATCH --gres=gpu:h200:4
 
 cd /sci/labs/dh_huji/liri.sokol/vllm-playground
-SRC_DIR="/sci/labs/dh_huji/liri.sokol/journals-keyword-searching/vllm"
+SRC_DIR="/sci/labs/dh_huji/liri.sokol/journals-keyword-searching/llm_analysis"
 
 export OMP_NUM_THREADS=8
 

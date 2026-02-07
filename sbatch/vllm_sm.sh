@@ -7,8 +7,10 @@
 #SBATCH --gres=gpu:h200:2
 
 cd /sci/labs/dh_huji/liri.sokol/vllm-playground
-SRC_DIR="/sci/labs/dh_huji/liri.sokol/journals-keyword-searching/vllm"
+SRC_DIR="/sci/labs/dh_huji/liri.sokol/journals-keyword-searching/llm_analysis"
 
 export OMP_NUM_THREADS=8
+
+PYTHONPATH="${SRC_DIR}" uv run "${SRC_DIR}/process.py" llama3 --gpu-count 2
 
 PYTHONPATH="${SRC_DIR}" uv run "${SRC_DIR}/process.py" deepseek-r1 --gpu-count 2
