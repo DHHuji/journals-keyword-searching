@@ -12,3 +12,5 @@ SRC_DIR="/sci/labs/dh_huji/liri.sokol/journals-keyword-searching/vllm"
 export OMP_NUM_THREADS=8
 
 PYTHONPATH="${SRC_DIR}" uv run "${SRC_DIR}/process.py" llama4 --gpu-count 4
+
+PYTHONPATH="${SRC_DIR}" uv run "${SRC_DIR}/process.py" deepseek3 --gpu-count 4

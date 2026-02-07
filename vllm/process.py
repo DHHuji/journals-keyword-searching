@@ -38,13 +38,16 @@ OUTPUT_DIR = f"{WORKS_BASE_DIR}/llm_outputs"
 
 def _load_llm_gen(model_name, gpu_count):
     if model_name == "deepseek-r1":
-        from vllm_deepseek import build_llm_gen as _build_llm_gen
+        from vllm_deepseek_r1 import build_llm_gen as _build_llm_gen
         return _build_llm_gen(gpu_count)
     if model_name == "llama3":
         from vllm_llama3 import build_llm_gen as _build_llm_gen
         return _build_llm_gen(gpu_count)
     if model_name == "llama4":
         from vllm_llama4 import build_llm_gen as _build_llm_gen
+        return _build_llm_gen(gpu_count)
+    if model_name == "deepseek3":
+        from vllm_deepseek_3_2 import build_llm_gen as _build_llm_gen
         return _build_llm_gen(gpu_count)
     raise ValueError(
         f"Unknown model '{model_name}'."
