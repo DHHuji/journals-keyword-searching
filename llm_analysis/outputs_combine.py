@@ -112,7 +112,11 @@ def _row_from_json(obj, source_path):
         "sentiment_classification": sentiment.get("classification", ""),
         "sentiment_explanation": sentiment.get("explanation", ""),
         "sentiment_notes": sentiment.get("notes", ""),
+        "quote_example": quotes[0].get("quote", "") if quotes else "",
         "evidence_quotes_json": json.dumps(quotes, ensure_ascii=True),
+        "themes": ",".join(
+            [t.get("theme_name", "") for t in themes if isinstance(t, dict) and t.get("theme_name")]
+        ),
         "themes_json": json.dumps(themes, ensure_ascii=True),
         "confidence_level": confidence.get("confidence_level", ""),
         "uncertainty_explanation": confidence.get("uncertainty_explanation", ""),
@@ -195,7 +199,9 @@ def main():
         "sentiment_classification",
         "sentiment_explanation",
         "sentiment_notes",
+        "quote_example",
         "evidence_quotes_json",
+        "themes",
         "themes_json",
         "confidence_level",
         "uncertainty_explanation",
