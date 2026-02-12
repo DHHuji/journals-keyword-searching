@@ -105,6 +105,23 @@ def _row_from_json(obj, source_path):
     themes = obj.get("themes", []) if isinstance(obj, dict) else []
     quotes = sentiment.get("evidence_quotes", []) if isinstance(sentiment, dict) else []
 
+    themes_with_details = []
+    for theme in themes:
+        if not isinstance(theme, dict):
+            continue
+        theme_name = theme.get("theme_name", "")
+        explanation = theme.get("explanation", "")
+        page_ref = (
+            theme.get("page_ref")
+            or theme.get("page_reference")
+            or theme.get("page")
+            or theme.get("page_number")
+            or ""
+        )
+        if not theme_name:
+            continue
+        themes_with_details.append(f"{theme_name}: {explanation} ({page_ref})")
+
     return {
         "source_file": source_path.name,
         "work_id": work_id,
@@ -117,6 +134,7 @@ def _row_from_json(obj, source_path):
         "themes": ",".join(
             [t.get("theme_name", "") for t in themes if isinstance(t, dict) and t.get("theme_name")]
         ),
+        "themes_with_details": "\n".join(themes_with_details),
         "themes_json": json.dumps(themes, ensure_ascii=True),
         "confidence_level": confidence.get("confidence_level", ""),
         "uncertainty_explanation": confidence.get("uncertainty_explanation", ""),
@@ -202,6 +220,7 @@ def main():
         "quote_example",
         "evidence_quotes_json",
         "themes",
+        "themes_with_details",
         "themes_json",
         "confidence_level",
         "uncertainty_explanation",
