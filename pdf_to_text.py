@@ -9,6 +9,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from tqdm import tqdm
 
 def pdf_to_text(pdf_path, output_path):
+    if output_path.exists():
+        return True
     try:
         text = extract_text(pdf_path)
 
