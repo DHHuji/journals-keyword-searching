@@ -13,5 +13,5 @@ def get_llm(gpu_count, model, context_len):
         tensor_parallel_size=gpu_count,
         trust_remote_code=True,
         max_model_len=context_len,
-        enforce_eager=True
+        enforce_eager=False
     ), sampling_params
