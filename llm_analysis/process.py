@@ -1,4 +1,5 @@
 import argparse
+import csv
 import os
 import time
 from pathlib import Path
@@ -9,31 +10,15 @@ BATCH_SIZE = 8
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 WORKS_BASE_DIR = os.path.join(SCRIPT_DIR, "../pdfs")
-WORK_FILES = [
-    f"{WORKS_BASE_DIR}/Critical Inquiry/26547794.txt",
-    f"{WORKS_BASE_DIR}/Critical Inquiry/653411.txt",
-    f"{WORKS_BASE_DIR}/International Journal of Middle East Studies/30069608.txt",
-    f"{WORKS_BASE_DIR}/Journal of Genocide Research/52.txt",
-    f"{WORKS_BASE_DIR}/works/W2889885140.txt",
-    f"{WORKS_BASE_DIR}/works/W4200609791.txt",
-    f"{WORKS_BASE_DIR}/International Journal of Middle East Studies/30069652.txt",
-    f"{WORKS_BASE_DIR}/American Sociological Review/2095571.txt",
-    f"{WORKS_BASE_DIR}/American Journal of International Law/2200012.txt",
-    f"{WORKS_BASE_DIR}/Journal of Genocide Research/11.txt",
-    f"{WORKS_BASE_DIR}/works/W2124598117.txt",
-    f"{WORKS_BASE_DIR}/International Journal of Middle East Studies/164535.txt",
-    f"{WORKS_BASE_DIR}/Critical Inquiry/662741.txt",
-    f"{WORKS_BASE_DIR}/Journal of Genocide Research/45.txt",
-    f"{WORKS_BASE_DIR}/American Journal of International Law/2195023.txt",
-    f"{WORKS_BASE_DIR}/Critical Inquiry/664554.txt",
-    f"{WORKS_BASE_DIR}/misc/not-all-who-ascend-remain-afro-asian-jewish-returnees-from-israel.txt",
-    f"{WORKS_BASE_DIR}/works/W4406178509.txt",
-    f"{WORKS_BASE_DIR}/Journal of Genocide Research/89.txt",
-]
 
 PROMPT_FILE = f"{SCRIPT_DIR}/prompt.txt"
 THEMES_FILE = f"{SCRIPT_DIR}/themes.txt"
 OUTPUT_DIR = f"{WORKS_BASE_DIR}/llm_outputs"
+CSV_FILENAME = "index.csv"
+LINES_COUNT_COLUMN = "lines_count"
+ISRAEL_COUNT_CENTER_COLUMN = "israel_count_center"
+LINES_COUNT_MIN = 300
+ISRAEL_COUNT_CENTER_MIN = 5
 
 
 def _load_llm_gen(model_name, gpu_count):
@@ -73,10 +58,15 @@ WORK TO ANALYZE:
     return full_prompt
 
 
+def _output_path(work_path):
+    source_dir = Path(work_path).parent.name
+    work_name = Path(work_path).stem
+    return os.path.join(OUTPUT_DIR, f"{source_dir}_{work_name}_{MODEL}.txt")
+
+
 def _write_output(work_path, output_text):
     os.makedirs(OUTPUT_DIR, exist_ok=True)
-    work_name = Path(work_path).stem
-    output_path = os.path.join(OUTPUT_DIR, f"{work_name}_{MODEL}.txt")
+    output_path = _output_path(work_path)
 
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(output_text)
@@ -86,9 +76,61 @@ def _write_output(work_path, output_text):
 
 
 def _output_exists(work_path):
-    work_name = Path(work_path).stem
-    output_path = os.path.join(OUTPUT_DIR, f"{work_name}_{MODEL}.txt")
-    return os.path.exists(output_path)
+    return os.path.exists(_output_path(work_path))
+
+
+def _extract_file_id(row):
+    if "work_id" in row and row["work_id"]:
+        return row["work_id"]
+    if "ID" in row and row["ID"]:
+        return row["ID"]
+    url = row.get("url", "")
+    if url and "jstor.org/stable/" in url:
+        file_id = url.split("jstor.org/stable/")[-1]
+        if "/" in file_id:
+            file_id = file_id.split("/")[-1]
+        if file_id:
+            return file_id
+    return row.get("citation_key", "")
+
+
+def _to_int(value):
+    if value is None:
+        return None
+    text = str(value).strip()
+    if not text:
+        return None
+    try:
+        return int(float(text))
+    except ValueError:
+        return None
+
+
+def collect_work_files():
+    works_dir = Path(WORKS_BASE_DIR).resolve()
+    work_files = []
+    seen = set()
+    for csv_path in works_dir.rglob(CSV_FILENAME):
+        base_dir = csv_path.parent
+        with open(csv_path, "r", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                lines_count = _to_int(row.get(LINES_COUNT_COLUMN))
+                israel_count_center = _to_int(row.get(ISRAEL_COUNT_CENTER_COLUMN))
+                if lines_count is None or israel_count_center is None:
+                    continue
+                if lines_count < LINES_COUNT_MIN or israel_count_center < ISRAEL_COUNT_CENTER_MIN:
+                    continue
+
+                file_id = _extract_file_id(row)
+                if not file_id:
+                    continue
+                txt_path = (base_dir / f"{file_id}.txt").resolve()
+                if not txt_path.exists():
+                    continue
+                if txt_path not in seen:
+                    seen.add(txt_path)
+                    work_files.append(str(txt_path))
+    return work_files
 
 
 def main():
@@ -97,6 +139,16 @@ def main():
     parser.add_argument("model", type=str)
     parser.add_argument("--gpu-count", type=int, required=True)
     args = parser.parse_args()
+
+    work_files = collect_work_files()
+    if not work_files:
+        print(
+            f"No matching .txt files found in {WORKS_BASE_DIR} "
+            f"from {CSV_FILENAME} where {LINES_COUNT_COLUMN}>={LINES_COUNT_MIN} "
+            f"and {ISRAEL_COUNT_CENTER_COLUMN}>={ISRAEL_COUNT_CENTER_MIN}"
+        )
+        return
+    print(f"Discovered {len(work_files)} work files from CSV filters.")
 
     MODEL = args.model
     print(f"Loading model '{MODEL}'...")
@@ -116,9 +168,9 @@ def main():
         print(f"❌ Error: {e}")
         raise
 
-    task_count = len(WORK_FILES)
+    task_count = len(work_files)
     start_time = time.perf_counter()
-    results = [None] * len(WORK_FILES)
+    results = [None] * len(work_files)
 
     def chunks(items, size):
         for i in range(0, len(items), size):
@@ -127,7 +179,7 @@ def main():
     def iter_batches():
         batch_paths = []
         batch_indices = []
-        for idx, work_path in enumerate(WORK_FILES):
+        for idx, work_path in enumerate(work_files):
             if _output_exists(work_path):
                 results[idx] = "skipped"
                 print(f"⏭️  Skipping {work_path} (output exists)")
@@ -208,7 +260,7 @@ def main():
     print(f"   Total time: {total_elapsed:.2f}s")
     print("=" * 60)
 
-    for work_path, result in zip(WORK_FILES, results):
+    for work_path, result in zip(work_files, results):
         if isinstance(result, Exception):
             print(f"❌ Error processing {work_path}: {result}")
 
