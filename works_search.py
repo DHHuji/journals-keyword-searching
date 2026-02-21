@@ -35,6 +35,8 @@ async def fetch_page(session, source_id, page, rate_limiter):
 
 
 async def process_source_id(session, source_id, semaphore, rate_limiter):
+    if source_id != "S123332067":
+        return 0
     async with semaphore:
         all_results = []
         page = 1
