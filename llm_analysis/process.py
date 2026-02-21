@@ -61,7 +61,7 @@ WORK TO ANALYZE:
 def _output_path(work_path):
     source_dir = Path(work_path).parent.name
     work_name = Path(work_path).stem
-    return os.path.join(OUTPUT_DIR, f"{source_dir}_{work_name}_{MODEL}.txt")
+    return os.path.join(OUTPUT_DIR, f"{source_dir}_{work_name}_{MODEL}.txt".replace(" ", "_"))
 
 
 def _write_output(work_path, output_text):
