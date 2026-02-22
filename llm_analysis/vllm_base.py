@@ -3,7 +3,7 @@ from vllm import LLM, SamplingParams
 sampling_params = SamplingParams(
     temperature=0.3,
     top_p=0.9,
-    max_tokens=4096,
+    max_tokens=4096 * 20,
     repetition_penalty=1.1
 )
 

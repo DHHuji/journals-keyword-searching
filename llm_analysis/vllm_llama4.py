@@ -1,7 +1,7 @@
 from vllm_base import get_llm
 
 MODEL = "meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8"
-CONTEXT_LEN = 131072
+CONTEXT_LEN = 212992
 
 def build_llm_gen(gpu_count):
     llm, sampling_params = get_llm(gpu_count, MODEL, CONTEXT_LEN)
