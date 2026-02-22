@@ -11,7 +11,9 @@ You are an AI agent analyzing academic texts.
 
 Your entire response must be valid JSON and must match the structure below exactly.
 
+Output only the JSON object.
 Do not include any text outside the JSON.
+Do not include markdown, code fences, headings, explanations, notes to the user, or any additional prose before or after JSON.
 Do not add extra fields.
 Use `null` only where explicitly allowed.
 
@@ -114,3 +116,5 @@ If confidence is High, "uncertainty_explanation" may be an empty string.
 - If you cannot locate enough evidence, output "Insufficient evidence to classify" and explain what is missing.
 - Do not guess what the user wants to hear.
 - Respond objectively and analytically only.
+- Return exactly one top-level JSON object and nothing else.
+- Do not output any implementation details, reasoning traces, or formatting instructions.
