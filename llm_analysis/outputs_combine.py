@@ -1,92 +1,10 @@
 import argparse
-import ast
 import csv
 import json
-import re
 import sys
 from pathlib import Path
 
-
-CODE_BLOCK_RE = re.compile(r"```(?:json)?\s*(.*?)```", re.DOTALL | re.IGNORECASE)
-TRAILING_COMMA_RE = re.compile(r",\s*([}\]])")
-
-
-def _strip_fences(text):
-    blocks = CODE_BLOCK_RE.findall(text)
-    if blocks:
-        return blocks
-    return []
-
-
-def _balanced_json_candidates(text):
-    candidates = []
-    start = None
-    depth = 0
-    for idx, ch in enumerate(text):
-        if ch == "{":
-            if depth == 0:
-                start = idx
-            depth += 1
-        elif ch == "}":
-            if depth > 0:
-                depth -= 1
-                if depth == 0 and start is not None:
-                    candidates.append(text[start:idx + 1])
-                    start = None
-    return candidates
-
-
-def _sanitize_json_text(text):
-    cleaned = text.strip()
-    cleaned = cleaned.replace("\u201c", "\"").replace("\u201d", "\"")
-    cleaned = cleaned.replace("\u2018", "'").replace("\u2019", "'")
-    cleaned = TRAILING_COMMA_RE.sub(r"\1", cleaned)
-    return cleaned
-
-
-def _try_parse_json(text):
-    try:
-        return json.loads(text)
-    except json.JSONDecodeError:
-        pass
-
-    sanitized = _sanitize_json_text(text)
-    try:
-        return json.loads(sanitized)
-    except json.JSONDecodeError:
-        pass
-
-    try:
-        parsed = ast.literal_eval(sanitized)
-    except (ValueError, SyntaxError):
-        return None
-
-    if isinstance(parsed, (dict, list)):
-        return parsed
-    return None
-
-
-def extract_json_objects(text):
-    candidates = []
-    candidates.extend(_strip_fences(text))
-    candidates.extend(_balanced_json_candidates(text))
-
-    seen = set()
-    unique_candidates = []
-    for cand in candidates:
-        key = cand.strip()
-        if key and key not in seen:
-            seen.add(key)
-            unique_candidates.append(cand)
-
-    parsed_objects = []
-    for cand in unique_candidates:
-        parsed = _try_parse_json(cand)
-        if parsed is not None:
-            parsed_objects.append(parsed)
-
-    return parsed_objects
-
+from llm_output_json import extract_json_objects
 
 def _extract_file_metadata(path):
     stem = path.stem

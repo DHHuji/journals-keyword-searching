@@ -3,6 +3,7 @@ import csv
 import os
 import time
 from pathlib import Path
+from llm_output_json import has_valid_json_output
 
 MODEL = ""
 
@@ -18,6 +19,7 @@ CSV_FILENAME = "index.csv"
 LINES_COUNT_COLUMN = "lines_count"
 ISRAEL_COUNT_CENTER_COLUMN = "israel_count_center"
 LINES_COUNT_MIN = 300
+OUTPUT_LEN_MIN = 300
 ISRAEL_COUNT_CENTER_MIN = 5
 
 
@@ -172,10 +174,6 @@ def main():
     start_time = time.perf_counter()
     results = [None] * len(work_files)
 
-    def chunks(items, size):
-        for i in range(0, len(items), size):
-            yield i, items[i:i + size]
-
     def iter_batches():
         batch_paths = []
         batch_indices = []
@@ -217,7 +215,7 @@ def main():
             for batch_idx, output_text in enumerate(outputs):
                 original_idx, work_path = batch_map[batch_idx]
                 final_text = output_text
-                if not final_text or not final_text.strip():
+                if not final_text or not final_text.strip() or len(final_text.strip()) <= OUTPUT_LEN_MIN or not has_valid_json_output(final_text):
                     retry_batch.append(batch[batch_idx])
                     retry_map.append((original_idx, work_path))
                     continue
@@ -235,9 +233,13 @@ def main():
                     )
                 for retry_idx, retry_text in enumerate(retry_outputs):
                     original_idx, work_path = retry_map[retry_idx]
-                    if not retry_text or not retry_text.strip():
+                    if not retry_text or not retry_text.strip() or len(retry_text.strip()) <= OUTPUT_LEN_MIN:
                         results[original_idx] = ValueError("Empty model output after retry")
                         print(f"❌ Error processing {work_path}: Empty model output after retry")
+                        continue
+                    if not has_valid_json_output(retry_text):
+                        results[original_idx] = ValueError("Invalid JSON model output after retry")
+                        print(f"❌ Error processing {work_path}: Invalid JSON model output after retry")
                         continue
                     results[original_idx] = _write_output(
                         work_path,
