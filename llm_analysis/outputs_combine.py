@@ -6,17 +6,168 @@ from pathlib import Path
 
 from llm_output_json import extract_json_objects
 
+
 def _extract_file_metadata(path):
     stem = path.stem
     if "_" in stem:
-        work_id, model = stem.rsplit("_", 1)
+        source_with_id, model = stem.rsplit("_", 1)
     else:
-        work_id, model = stem, ""
-    return work_id, model
+        source_with_id, model = stem, ""
+    if "_" in source_with_id:
+        source_key, source_id = source_with_id.rsplit("_", 1)
+    else:
+        source_key, source_id = source_with_id, ""
+    is_works = source_key == "works"
+    return {
+        "source_with_id": source_with_id,
+        "source_key": source_key,
+        "source_id": source_id,
+        "work_id": source_id if is_works else "",
+        "model": model,
+        "is_works": is_works,
+    }
 
 
-def _row_from_json(obj, source_path):
-    work_id, model = _extract_file_metadata(source_path)
+def _extract_file_id(row):
+    if "work_id" in row and row["work_id"]:
+        return row["work_id"]
+    if "ID" in row and row["ID"]:
+        return row["ID"]
+    url = row.get("url", "")
+    if url and "jstor.org/stable/" in url:
+        file_id = url.split("jstor.org/stable/")[-1]
+        if "/" in file_id:
+            file_id = file_id.split("/")[-1]
+        if file_id:
+            return file_id
+    return row.get("citation_key", "")
+
+
+def _csv_rows_by_id(path):
+    if not path.exists():
+        return {}
+    with path.open("r", encoding="utf-8", newline="") as f:
+        rows = list(csv.DictReader(f))
+    out = {}
+    for row in rows:
+        file_id = _extract_file_id(row)
+        if file_id:
+            out[file_id] = row
+    return out
+
+
+def _csv_rows(path):
+    if not path.exists():
+        return []
+    with path.open("r", encoding="utf-8", newline="") as f:
+        return list(csv.DictReader(f))
+
+
+def _year_from_text(text):
+    if not text:
+        return ""
+    text = str(text)
+    for i in range(len(text) - 3):
+        chunk = text[i:i + 4]
+        if chunk.isdigit():
+            return chunk
+    return ""
+
+
+def _canonical_source_key(name):
+    return name.replace(" ", "_")
+
+
+def _load_metadata_tables(input_dir):
+    pdfs_dir = input_dir.parent
+    repo_dir = pdfs_dir.parent
+
+    works_csv_path = repo_dir / "works.csv"
+    works_index_path = pdfs_dir / "works" / "index.csv"
+
+    works_rows = _csv_rows(works_csv_path)
+    works_by_id = {}
+    for row in works_rows:
+        work_id = row.get("id", "")
+        if not work_id:
+            continue
+        works_by_id[work_id] = {
+            "title": row.get("title", ""),
+            "author": row.get("authors", ""),
+            "year": _year_from_text(row.get("publication_date", "")),
+            "journal": row.get("journal_name", ""),
+            "url": row.get("doi_follow", "") or row.get("oa_url", "") or row.get("doi", ""),
+        }
+
+    works_counts = _csv_rows_by_id(works_index_path)
+
+    per_source = {}
+    for child in pdfs_dir.iterdir():
+        if not child.is_dir():
+            continue
+        if child.name in {"llm_outputs", "misc"}:
+            continue
+        source_key = _canonical_source_key(child.name)
+        items_by_id = _csv_rows_by_id(child / "items.csv")
+        index_by_id = _csv_rows_by_id(child / "index.csv")
+        per_source[source_key] = {
+            "dir_name": child.name,
+            "items_by_id": items_by_id,
+            "index_by_id": index_by_id,
+        }
+
+    return {
+        "works_by_id": works_by_id,
+        "works_counts": works_counts,
+        "per_source": per_source,
+    }
+
+
+def _academic_metadata(file_meta, tables):
+    if file_meta["is_works"]:
+        work_id = file_meta["work_id"]
+        work_details = tables["works_by_id"].get(work_id, {})
+        counts = tables["works_counts"].get(work_id, {})
+        return {
+            "work_id": work_id,
+            "title": work_details.get("title", ""),
+            "author": work_details.get("author", ""),
+            "year": work_details.get("year", ""),
+            "journal": work_details.get("journal", ""),
+            "url": work_details.get("url", ""),
+            "israel_count": counts.get("israel_count", ""),
+            "lines_count": counts.get("lines_count", ""),
+            "word_count": counts.get("word_count", ""),
+            "israel_count_center": counts.get("israel_count_center", ""),
+        }
+
+    source_data = tables["per_source"].get(file_meta["source_key"], {})
+    items_row = source_data.get("items_by_id", {}).get(file_meta["source_id"], {})
+    index_row = source_data.get("index_by_id", {}).get(file_meta["source_id"], {})
+    title = items_row.get("title", "") or items_row.get("Article title", "") or index_row.get("title", "") or index_row.get("Article title", "")
+    author = items_row.get("author", "") or items_row.get("Authors", "") or index_row.get("author", "") or index_row.get("Authors", "")
+    year = items_row.get("year", "") or items_row.get("Volume year", "") or index_row.get("year", "") or index_row.get("Volume year", "")
+    if not year:
+        year = _year_from_text(items_row.get("publication_date", "") or index_row.get("publication_date", ""))
+
+    return {
+        "work_id": "",
+        "title": title,
+        "author": author,
+        "year": year,
+        "journal": source_data.get("dir_name", file_meta["source_key"].replace("_", " ")),
+        "url": items_row.get("url", "") or items_row.get("URL", "") or index_row.get("url", "") or index_row.get("URL", ""),
+        "israel_count": index_row.get("israel_count", ""),
+        "lines_count": index_row.get("lines_count", ""),
+        "word_count": index_row.get("word_count", ""),
+        "israel_count_center": index_row.get("israel_count_center", ""),
+    }
+
+
+def _row_from_json(obj, source_path, tables):
+    file_meta = _extract_file_metadata(source_path)
+    model = file_meta["model"]
+    academic = _academic_metadata(file_meta, tables)
 
     sentiment = obj.get("sentiment_toward_israel", {}) if isinstance(obj, dict) else {}
     confidence = obj.get("confidence_and_ambiguity", {}) if isinstance(obj, dict) else {}
@@ -42,7 +193,16 @@ def _row_from_json(obj, source_path):
 
     return {
         "source_file": source_path.name,
-        "work_id": work_id,
+        "work_id": academic["work_id"],
+        "title": academic["title"],
+        "author": academic["author"],
+        "year": academic["year"],
+        "journal": academic["journal"],
+        "url": academic["url"],
+        "israel_count": academic["israel_count"],
+        "lines_count": academic["lines_count"],
+        "word_count": academic["word_count"],
+        "israel_count_center": academic["israel_count_center"],
         "model": model,
         "sentiment_classification": sentiment.get("classification", ""),
         "sentiment_explanation": sentiment.get("explanation", ""),
@@ -87,6 +247,7 @@ def main():
     if not input_dir.exists():
         print(f"ERROR: Input directory not found: {input_dir}", file=sys.stderr)
         return 2
+    tables = _load_metadata_tables(input_dir)
 
     txt_files = sorted(input_dir.glob("*.txt"))
     if not txt_files:
@@ -110,12 +271,22 @@ def main():
                 print(f"ERROR: JSON root is not an object in {path}", file=sys.stderr)
                 errors += 1
                 continue
-            rows.append(_row_from_json(obj, path))
-            work_id, model = _extract_file_metadata(path)
+            row = _row_from_json(obj, path, tables)
+            rows.append(row)
+            file_meta = _extract_file_metadata(path)
             enriched = {
                 "source_file": path.name,
-                "work_id": work_id,
-                "model": model,
+                "work_id": row["work_id"],
+                "title": row["title"],
+                "author": row["author"],
+                "year": row["year"],
+                "journal": row["journal"],
+                "url": row["url"],
+                "israel_count": row["israel_count"],
+                "lines_count": row["lines_count"],
+                "word_count": row["word_count"],
+                "israel_count_center": row["israel_count_center"],
+                "model": file_meta["model"],
             }
             for key, value in obj.items():
                 if key in enriched:
@@ -131,6 +302,15 @@ def main():
     fieldnames = [
         "source_file",
         "work_id",
+        "title",
+        "author",
+        "year",
+        "journal",
+        "url",
+        "israel_count",
+        "lines_count",
+        "word_count",
+        "israel_count_center",
         "model",
         "sentiment_classification",
         "sentiment_explanation",
