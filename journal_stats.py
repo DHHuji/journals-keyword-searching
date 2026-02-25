@@ -10,6 +10,7 @@ OUTPUT_FILE = "journal_stats.csv"
 FROM_YEAR = 1940
 CONCURRENCY = 1
 RATE_LIMIT = 10
+REQUIRE_AUTHORS = False
 SEARCH_PHRASES = [
     None,
     "israel",
@@ -36,7 +37,13 @@ async def fetch_stats(session, source_id, phrase, rate_limiter):
     async with rate_limiter:
         url = f"https://api.openalex.org/works"
 
-        filter_param = f'primary_location.source.id:{source_id},from_publication_date:{FROM_YEAR}-01-01'
+        filter_parts = [
+            f'primary_location.source.id:{source_id}',
+            f'from_publication_date:{FROM_YEAR}-01-01',
+        ]
+        if REQUIRE_AUTHORS:
+            filter_parts.append('authors_count:>0')
+        filter_param = ",".join(filter_parts)
         if phrase:
             filter_param = f'title_and_abstract.search:{phrase},{filter_param}'
 
