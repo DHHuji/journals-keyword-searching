@@ -100,32 +100,46 @@ For collections of downloaded PDFs, additional quantitative analysis was perform
 
 ---
 
-## Step 10: Sentiment & Theme Analysis Using a Local LLM (`sentiments.csv`)
+## Step 10: Advanced LLM Analysis on Full Article Texts (`llm_analysis/`)
 
-Each of the ~5,750 articles was analyzed by a large language model (Llama 3, running locally via Ollama) to determine:
+LLM analysis was done in two layers:
 
-1. **Sentiment toward Israel**: Is the article's framing of Israel positive, negative, neutral, or unclassifiable? The model also provided a brief explanation of its reasoning.
-2. **Themes**: Which themes from a predefined list of 38 are present in the article? Themes include concepts like colonialism, settler colonialism, apartheid, genocide, occupation, resistance, democracy, peace, Zionism, antisemitism, Nakba, and others.
+- **Metadata-level pass (`sentiments.csv`)**: each of the ~5,750 articles was analyzed using title + abstract (or keywords if no abstract) + authors to classify sentiment toward Israel and detect themes from the predefined list of 38.
+- **Full-text pass (`llm_analysis/`)**: for articles where full PDF text was available, a deeper analysis was run using vLLM on GPU servers.
 
-The model analyzed each article's abstract (or keywords if no abstract was available), along with its title and authors. Results were saved as individual JSON files and then combined into `sentiments.csv`.
+Input texts were selected programmatically from `pdfs/**/index.csv` and filtered to include only rows where:
+- `lines_count >= 300`
+- `israel_count_center >= 5` (the count of "Israel" mentions only in the middle 80% of the text lines; the first and last 10% are excluded to reduce header/footer and reference-section noise)
+- a corresponding `{file_id}.txt` full-text file exists
 
-**Tool used:** Ollama running Meta's Llama 3 model locally.
+The pipeline resolves each `file_id` from `work_id`, `ID`, JSTOR URL suffix, or `citation_key`, de-duplicates files, and skips items that already have an output file in `pdfs/llm_outputs/`.
 
----
-
-## Step 11: Advanced LLM Analysis on Full Article Texts (`llm_analysis/`)
-
-For articles where full text was available (from the downloaded PDFs), a more detailed analysis was performed using multiple large language models running on GPU servers via vLLM. Each article was analyzed by up to four different models:
+The models evaluated in this stage included:
 
 - **Meta Llama 3.1 70B** (70 billion parameters) - https://huggingface.co/meta-llama/Llama-3.1-70B
 - **DeepSeek-R1 70B** (70 billion parameters) - https://huggingface.co/deepseek-ai/DeepSeek-R1-Distill-Llama-70B
 - **Meta Llama 4 Maverick 17B** (400 billion parameters) - https://huggingface.co/meta-llama/Llama-4-Maverick-17B-128E-Instruct-FP8
 
-Each model received the full article text along with a structured prompt asking it to:
+In practice, the current production runs use **Llama 4**.
+
+Each selected article text is sent with a structured prompt asking the model to:
 - Classify sentiment toward Israel (with supporting quotes and page numbers)
 - Identify 1–5 themes from the same predefined list of 38
 - Assign a confidence level (High / Medium / Low)
 
-The results from all models were then parsed and consolidated into `llm_outputs.csv` and `llm_outputs.json`.
-
 **Tools used:** vLLM (a high-performance inference engine for large language models), running on multi-GPU servers (H200 GPUs).
+
+---
+
+## Step 11: LLM Outputs Collection (`llm_outputs.csv`, `llm_outputs.json`)
+
+Raw model responses are saved as `.txt` files in `pdfs/llm_outputs/` (one file per article/model). A consolidation step then:
+
+- Extracts valid JSON objects from each output text (including fenced or partially malformed JSON where recoverable)
+- Parses source/model/article IDs from output filenames
+- Enriches each record with metadata from `works.csv`, `pdfs/works/index.csv`, and per-journal `items.csv` / `index.csv` files
+- Normalizes key fields (sentiment, themes, confidence, evidence quotes, article metadata, and text-count stats)
+
+The final unified outputs are written to:
+- `pdfs/llm_outputs/llm_outputs.csv`
+- `pdfs/llm_outputs/llm_outputs.json`
