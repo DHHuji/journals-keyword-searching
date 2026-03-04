@@ -4,8 +4,7 @@ from pathlib import Path
 
 import requests
 
-RESULTS_DIR = 'search_results'
-OUTPUT_FILE = 'works.csv'
+RESULTS_BASE_DIR = Path('search_results')
 JOURNALS_FILE = 'journals.csv'
 VERBOSE = True
 FOLLOW_DOIS = False
@@ -53,10 +52,10 @@ def _check_pdf_exists(work_id):
     return pdf_path.exists()
 
 
-def _load_existing_doi_follows():
+def _load_existing_doi_follows(output_file):
     existing_follows = {}
-    if Path(OUTPUT_FILE).exists():
-        with open(OUTPUT_FILE, 'r', encoding='utf-8') as f:
+    if Path(output_file).exists():
+        with open(output_file, 'r', encoding='utf-8') as f:
             reader = csv.DictReader(f)
             if 'doi_follow' in reader.fieldnames and 'id' in reader.fieldnames and 'doi' in reader.fieldnames:
                 for row in reader:
@@ -134,33 +133,34 @@ def _extract_data_from_json(json_data, journal_mapping, existing_doi_follows):
 
 
 def main():
-    results_dir = Path(RESULTS_DIR)
-    all_data = []
-
     journal_mapping = _load_journal_mapping()
-    existing_doi_follows = _load_existing_doi_follows()
+    keyword_dirs = sorted([path for path in RESULTS_BASE_DIR.iterdir() if path.is_dir()])
 
-    json_files = list(results_dir.glob('*.json'))
-    for i, json_file in enumerate(json_files):
-        print(f"Processing {json_file.name} ({i + 1}/{len(json_files)})...")
-        with open(json_file, 'r', encoding='utf-8') as f:
-            json_data = json.load(f)
-            data = _extract_data_from_json(json_data, journal_mapping, existing_doi_follows)
-            all_data.extend(data)
+    for results_dir in keyword_dirs:
+        normalized_keyword = results_dir.name
+        output_file = f"search_results/works_{normalized_keyword}.csv"
+        all_data = []
+        existing_doi_follows = _load_existing_doi_follows(output_file)
 
-    output_file = OUTPUT_FILE
+        json_files = list(results_dir.glob('*.json'))
+        for i, json_file in enumerate(json_files):
+            print(f"Processing {json_file.name} ({i + 1}/{len(json_files)})...")
+            with open(json_file, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+                data = _extract_data_from_json(json_data, journal_mapping, existing_doi_follows)
+                all_data.extend(data)
 
-    if all_data:
-        fieldnames = all_data[0].keys()
+        if all_data:
+            fieldnames = all_data[0].keys()
 
-        with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
-            writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
-            writer.writeheader()
-            writer.writerows(all_data)
+            with open(output_file, 'w', newline='', encoding='utf-8') as csvfile:
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
+                writer.writeheader()
+                writer.writerows(all_data)
 
-        print(f"Successfully created {output_file} with {len(all_data)} records")
-    else:
-        print("No data found to process")
+            print(f"Successfully created {output_file} with {len(all_data)} records")
+        else:
+            print(f"No data found to process for {normalized_keyword}")
 
 
 if __name__ == "__main__":

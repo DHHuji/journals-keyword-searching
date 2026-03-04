@@ -2,7 +2,6 @@ import asyncio
 import csv
 import json
 import sys
-import urllib.parse
 from pathlib import Path
 
 import aiohttp
@@ -11,18 +10,47 @@ from tqdm.asyncio import tqdm
 JOURNALS_INPUT = "journals.csv"
 CONCURRENCY = 1
 RATE_LIMIT = 10  # per second
-OUTPUT_DIR = Path("search_results")
-KEYWORD = "israel"
+OUTPUT_BASE_DIR = Path("search_results")
+KEYWORDS = [
+    #"israel",
+    #"australia",
+    #"france",
+    #"belgium",
+    #"syria",
+    #"lebanon",
+    #"egypt",
+    #"iraq",
+    "(\"south africa\")",
+    #"germany",
+    #"japan",
+    #"italy",
+    #"(\"united states\" OR usa)",
+    #"spain",
+    #"jordan",
+    #"algeria",
+    #"switzerland",
+]
 
-OUTPUT_DIR.mkdir(exist_ok=True)
+OUTPUT_BASE_DIR.mkdir(exist_ok=True)
 
 
-async def fetch_page(session, source_id, page, rate_limiter):
+def _normalize_keyword(keyword):
+    normalized = keyword.strip().lower()
+    normalized = normalized.replace('"', '')
+    normalized = normalized.replace("(", "").replace(")", "")
+    normalized = normalized.replace(" OR ", "_")
+    normalized = normalized.replace(" ", "_")
+    while "__" in normalized:
+        normalized = normalized.replace("__", "_")
+    return normalized.strip("_")
+
+
+async def fetch_page(session, source_id, keyword, page, rate_limiter):
     async with rate_limiter:
         url = f"https://api.openalex.org/works"
         params = {
             'page': page,
-            'filter': f'title_and_abstract.search:{urllib.parse.quote(KEYWORD)},primary_location.source.id:{source_id}',
+            'filter': f'title_and_abstract.search:{keyword},primary_location.source.id:{source_id}',
             'per_page': 100,
             'mailto': 'reallyliri@gmail.com'
         }
@@ -34,14 +62,14 @@ async def fetch_page(session, source_id, page, rate_limiter):
             return data
 
 
-async def process_source_id(session, source_id, semaphore, rate_limiter):
+async def process_source_id(session, source_id, keyword, output_dir, semaphore, rate_limiter):
     async with semaphore:
         all_results = []
         page = 1
 
         while True:
             try:
-                data = await fetch_page(session, source_id, page, rate_limiter)
+                data = await fetch_page(session, source_id, keyword, page, rate_limiter)
 
                 results = data.get('results', [])
                 if not results:
@@ -58,7 +86,7 @@ async def process_source_id(session, source_id, semaphore, rate_limiter):
             except Exception as e:
                 raise Exception(f"Error processing source {source_id}, page {page}: {str(e)}")
 
-        output_file = f"{OUTPUT_DIR}/{source_id}.json"
+        output_file = f"{output_dir}/{source_id}.json"
         with open(output_file, 'w') as f:
             json.dump(all_results, f, indent=2)
 
@@ -89,11 +117,20 @@ async def main():
         rate_limiter = asyncio.Semaphore(RATE_LIMIT)
 
         async with aiohttp.ClientSession() as session:
-            tasks = [process_source_id(session, source_id, semaphore, rate_limiter) for source_id in source_ids]
+            total_results = 0
 
-            results = await tqdm.gather(*tasks, desc="Processing sources")
+            for keyword in KEYWORDS:
+                normalized_keyword = _normalize_keyword(keyword)
+                output_dir = OUTPUT_BASE_DIR / normalized_keyword
+                output_dir.mkdir(exist_ok=True)
 
-        total_results = sum(results)
+                tasks = [
+                    process_source_id(session, source_id, keyword, output_dir, semaphore, rate_limiter)
+                    for source_id in source_ids
+                ]
+                results = await tqdm.gather(*tasks, desc=f"Processing sources [{normalized_keyword}]")
+                total_results += sum(results)
+
         print(f"Total results fetched: {total_results}")
 
     except Exception as e:
