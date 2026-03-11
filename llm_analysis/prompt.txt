@@ -5,7 +5,7 @@ You are an AI agent analyzing academic texts.
 ## Input you will receive
 
 1. A closed list of theme definitions (you must choose only from this list).
-2. One academic article in plain text (with page numbers preserved where available).
+2. {{TASK_INPUT_DESCRIPTION}}
 
 ## Output format (MANDATORY)
 
@@ -19,7 +19,7 @@ Use `null` only where explicitly allowed.
 
 ```json
 {
-  "sentiment_toward_israel": {
+  "sentiment": {
     "classification": "Positive | Negative | Neutral | Insufficient evidence to classify",
     "explanation": "",
     "evidence_quotes": [
@@ -54,7 +54,7 @@ Positive / Negative / Neutral.
 Base this strictly on the article’s language, framing, evaluations, and conclusions about Israel as a state or nation.
 
 Do not base sentiment on:
-- Israelis as a people
+- The people of Israel
 - Unrelated geopolitical actors
 - Views merely reported or quoted from others
 

@@ -169,7 +169,7 @@ def _row_from_json(obj, source_path, tables):
     model = file_meta["model"]
     academic = _academic_metadata(file_meta, tables)
 
-    sentiment = obj.get("sentiment_toward_israel", {}) if isinstance(obj, dict) else {}
+    sentiment = obj.get("sentiment_toward_israel", obj.get("sentiment", {})) if isinstance(obj, dict) else {}
     confidence = obj.get("confidence_and_ambiguity", {}) if isinstance(obj, dict) else {}
     themes = obj.get("themes", []) if isinstance(obj, dict) else []
     quotes = sentiment.get("evidence_quotes", []) if isinstance(sentiment, dict) else []

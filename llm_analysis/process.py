@@ -8,19 +8,24 @@ from llm_output_json import has_valid_json_output
 MODEL = ""
 
 BATCH_SIZE = 8
+DRY_RUN = False
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
 WORKS_BASE_DIR = os.path.join(SCRIPT_DIR, "../pdfs")
+SEARCH_RESULTS_DIR = os.path.join(SCRIPT_DIR, "../search_results")
 
 PROMPT_FILE = f"{SCRIPT_DIR}/prompt.txt"
 THEMES_FILE = f"{SCRIPT_DIR}/themes.txt"
-OUTPUT_DIR = f"{WORKS_BASE_DIR}/llm_outputs"
-CSV_FILENAME = "index.csv"
-LINES_COUNT_COLUMN = "lines_count"
-ISRAEL_COUNT_CENTER_COLUMN = "israel_count_center"
-LINES_COUNT_MIN = 300
-OUTPUT_LEN_MIN = 300
-ISRAEL_COUNT_CENTER_MIN = 5
+PDFS_OUTPUT_DIR = f"{WORKS_BASE_DIR}/llm_outputs"
+PDFS_INDEX_CSV_FILENAME = "index.csv"
+SEARCH_RESULTS_OUTPUT_DIR = f"{SEARCH_RESULTS_DIR}/llm_outputs"
+SEARCH_RESULTS_CSV_PATTERN = "works_*.csv"
+
+TASK_INPUT_DESCRIPTION_PLACEHOLDER = "{{TASK_INPUT_DESCRIPTION}}"
+TASK_TYPE_PDFS = "pdfs"
+TASK_TYPE_SEARCH_RESULTS = "search_results"
+DEFAULT_TARGET_COUNTRY = "Israel"
 
 
 def _load_llm_gen(model_name, gpu_count):
@@ -41,7 +46,18 @@ def _load_llm_gen(model_name, gpu_count):
     )
 
 
-def load_work_prompt(work_path, prompt, themes):
+def _build_full_prompt(work_text, prompt, themes, task_input_description):
+    prompt_text = prompt.replace(TASK_INPUT_DESCRIPTION_PLACEHOLDER, task_input_description)
+    return f"""{prompt_text}
+
+THEMES:
+{themes}
+
+WORK TO ANALYZE:
+{work_text}"""
+
+
+def load_work_prompt(work_path, prompt, themes, task_input_description):
     print(f"🔄 Loading {work_path}...")
     try:
         with open(work_path, 'r', encoding='utf-8') as f:
@@ -50,35 +66,53 @@ def load_work_prompt(work_path, prompt, themes):
         print(f"❌ File not found: {work_path}")
         raise
 
-    full_prompt = f"""{prompt}
-
-THEMES:
-{themes}
-
-WORK TO ANALYZE:
-{work}"""
-    return full_prompt
+    return _build_full_prompt(work, prompt, themes, task_input_description)
 
 
-def _output_path(work_path):
-    source_dir = Path(work_path).parent.name
-    work_name = Path(work_path).stem
-    return os.path.join(OUTPUT_DIR, f"{source_dir}_{work_name}_{MODEL}.txt".replace(" ", "_"))
+def build_task_prompt(task, prompt, themes):
+    prompt = prompt.replace(DEFAULT_TARGET_COUNTRY, task["target_country"])
+    work_path = task.get("work_path")
+    if work_path:
+        return load_work_prompt(work_path, prompt, themes, task["task_input_description"])
+    return _build_full_prompt(task["raw_text"], prompt, themes, task["task_input_description"])
 
 
-def _write_output(work_path, output_text):
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    output_path = _output_path(work_path)
+def _sanitize_output_name(name):
+    return str(name).replace(" ", "_").replace("/", "_")
+
+
+def _output_path(task):
+    output_dir = task["output_dir"]
+    task_key = task["task_key"]
+    return os.path.join(output_dir, f"{_sanitize_output_name(task_key)}_{MODEL}.txt")
+
+
+def _write_output(task_label, task, output_text):
+    output_path = _output_path(task)
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(output_text)
 
-    print(f"✅ Completed {work_path} -> {output_path}")
+    print(f"✅ Completed {task_label} -> {output_path}")
     return output_path
 
 
-def _output_exists(work_path):
-    return os.path.exists(_output_path(work_path))
+def _output_exists(task):
+    return os.path.exists(_output_path(task))
+
+
+def _print_dry_run_task(task, prompt_text, batch_index, task_index, task_count):
+    output_path = _output_path(task)
+    print(f"[DRY RUN] Task {task_index + 1}/{task_count} in batch {batch_index + 1}")
+    print(f"[DRY RUN] Model: {MODEL}")
+    print(f"[DRY RUN] Label: {task['task_label']}")
+    print(f"[DRY RUN] Output path: {output_path}")
+    print(f"[DRY RUN] Output exists: {_output_exists(task)}")
+    print(f"[DRY RUN] Prompt length: {len(prompt_text)} chars")
+    print("[DRY RUN] Prompt:")
+    print(prompt_text)
+    print("[DRY RUN] End prompt\n")
 
 
 def _extract_file_id(row):
@@ -96,33 +130,20 @@ def _extract_file_id(row):
     return row.get("citation_key", "")
 
 
-def _to_int(value):
-    if value is None:
-        return None
-    text = str(value).strip()
-    if not text:
-        return None
-    try:
-        return int(float(text))
-    except ValueError:
-        return None
+def _extract_country_from_search_results_csv(csv_path):
+    name = csv_path.stem.removeprefix("works_")
+    name = name.split("_or_")[0]
+    return name.replace("_", " ").title()
 
 
 def collect_work_files():
     works_dir = Path(WORKS_BASE_DIR).resolve()
-    work_files = []
+    tasks = []
     seen = set()
-    for csv_path in works_dir.rglob(CSV_FILENAME):
+    for csv_path in works_dir.rglob(PDFS_INDEX_CSV_FILENAME):
         base_dir = csv_path.parent
         with open(csv_path, "r", encoding="utf-8") as f:
             for row in csv.DictReader(f):
-                lines_count = _to_int(row.get(LINES_COUNT_COLUMN))
-                israel_count_center = _to_int(row.get(ISRAEL_COUNT_CENTER_COLUMN))
-                if lines_count is None or israel_count_center is None:
-                    continue
-                if lines_count < LINES_COUNT_MIN or israel_count_center < ISRAEL_COUNT_CENTER_MIN:
-                    continue
-
                 file_id = _extract_file_id(row)
                 if not file_id:
                     continue
@@ -131,77 +152,126 @@ def collect_work_files():
                     continue
                 if txt_path not in seen:
                     seen.add(txt_path)
-                    work_files.append(str(txt_path))
-    return work_files
+                    txt_path_str = str(txt_path)
+                    tasks.append(
+                        {
+                            "task_key": f"{Path(txt_path_str).parent.name}_{Path(txt_path_str).stem}",
+                            "task_label": txt_path_str,
+                            "work_path": txt_path_str,
+                            "output_dir": PDFS_OUTPUT_DIR,
+                            "task_input_description": "One academic article in plain text (with page numbers preserved where available).",
+                            "target_country": DEFAULT_TARGET_COUNTRY,
+                        }
+                    )
+    return tasks
 
 
-def main():
-    global MODEL, llm_gen
-    parser = argparse.ArgumentParser(description="Run vLLM processing.")
-    parser.add_argument("model", type=str)
-    parser.add_argument("--gpu-count", type=int, required=True)
-    args = parser.parse_args()
+def _format_search_result_text(row):
+    title = (row.get("title") or "").strip()
+    abstract = (row.get("abstract") or "").strip() or "N/A"
+    keywords = (row.get("keywords") or "").strip()
+    authors = (row.get("authors") or "").strip() or "N/A"
+    return "\n".join(
+        [
+            f"Title: {title}",
+            f"Abstract: {abstract}",
+            f"Keywords: {keywords}",
+            f"Authors: {authors}",
+        ]
+    )
 
-    work_files = collect_work_files()
-    if not work_files:
-        print(
-            f"No matching .txt files found in {WORKS_BASE_DIR} "
-            f"from {CSV_FILENAME} where {LINES_COUNT_COLUMN}>={LINES_COUNT_MIN} "
-            f"and {ISRAEL_COUNT_CENTER_COLUMN}>={ISRAEL_COUNT_CENTER_MIN}"
-        )
+
+def collect_search_result_works():
+    search_dir = Path(SEARCH_RESULTS_DIR).resolve()
+    tasks = []
+    seen = set()
+    for csv_path in sorted(search_dir.glob(SEARCH_RESULTS_CSV_PATTERN)):
+        target_country = _extract_country_from_search_results_csv(csv_path)
+        with open(csv_path, "r", encoding="utf-8") as f:
+            for row in csv.DictReader(f):
+                work_id = (row.get("id") or "").strip()
+                title = (row.get("title") or "").strip()
+                if not work_id or not title:
+                    continue
+                task_key = f"{csv_path.stem}_{work_id}"
+                if task_key in seen:
+                    continue
+                seen.add(task_key)
+                tasks.append(
+                    {
+                        "task_key": task_key,
+                        "task_label": f"{csv_path.name}:{work_id}",
+                        "raw_text": _format_search_result_text(row),
+                        "output_dir": SEARCH_RESULTS_OUTPUT_DIR,
+                        "task_input_description": "One academic work summary with Title, Abstract, Keywords, and Authors metadata.",
+                        "target_country": target_country,
+                    }
+                )
+    return tasks
+
+
+def collect_tasks(task_type):
+    if task_type == TASK_TYPE_PDFS:
+        return collect_work_files()
+    if task_type == TASK_TYPE_SEARCH_RESULTS:
+        return collect_search_result_works()
+    raise ValueError(f"Unknown task type '{task_type}'")
+
+
+def run_tasks(task_type, prompt, themes, llm_gen):
+    tasks = collect_tasks(task_type)
+    if not tasks:
+        if task_type == TASK_TYPE_PDFS:
+            print(f"No matching .txt files found in {WORKS_BASE_DIR} from {PDFS_INDEX_CSV_FILENAME}")
+        else:
+            print(f"No matching works found in {SEARCH_RESULTS_DIR} from {SEARCH_RESULTS_CSV_PATTERN}")
         return
-    print(f"Discovered {len(work_files)} work files from CSV filters.")
-
-    MODEL = args.model
-    print(f"Loading model '{MODEL}'...")
-    load_start = time.perf_counter()
-    llm_gen = _load_llm_gen(MODEL, args.gpu_count)
-    load_elapsed = time.perf_counter() - load_start
-    print(f"Model '{MODEL}' loaded in {load_elapsed:.2f}s")
+    print(f"Discovered {len(tasks)} tasks for {task_type}.")
 
     print("Starting batched processing...\n")
 
-    try:
-        with open(PROMPT_FILE, 'r', encoding='utf-8') as f:
-            prompt = f.read().strip()
-        with open(THEMES_FILE, 'r', encoding='utf-8') as f:
-            themes = f.read().strip()
-    except FileNotFoundError as e:
-        print(f"❌ Error: {e}")
-        raise
-
-    task_count = len(work_files)
+    task_count = len(tasks)
     start_time = time.perf_counter()
-    results = [None] * len(work_files)
+    results = [None] * len(tasks)
 
     def iter_batches():
-        batch_paths = []
+        batch_tasks = []
         batch_indices = []
-        for idx, work_path in enumerate(work_files):
-            if _output_exists(work_path):
+        for idx, task in enumerate(tasks):
+            if _output_exists(task):
                 results[idx] = "skipped"
-                print(f"⏭️  Skipping {work_path} (output exists)")
+                print(f"⏭️  Skipping {task['task_label']} (output exists)")
                 continue
-            batch_paths.append(work_path)
+            batch_tasks.append(task)
             batch_indices.append(idx)
-            if len(batch_paths) >= BATCH_SIZE:
-                yield batch_paths, batch_indices
-                batch_paths = []
+            if len(batch_tasks) >= BATCH_SIZE:
+                yield batch_tasks, batch_indices
+                batch_tasks = []
                 batch_indices = []
-        if batch_paths:
-            yield batch_paths, batch_indices
+        if batch_tasks:
+            yield batch_tasks, batch_indices
 
-    for batch_paths, batch_indices in iter_batches():
+    processed_batch_count = 0
+    for batch_tasks, batch_indices in iter_batches():
+        processed_batch_count += 1
         batch = []
         batch_map = []
-        for work_path, original_idx in zip(batch_paths, batch_indices):
+        for task, original_idx in zip(batch_tasks, batch_indices):
             try:
-                batch.append(load_work_prompt(work_path, prompt, themes))
-                batch_map.append((original_idx, work_path))
+                prompt_text = build_task_prompt(task, prompt, themes)
+                batch.append(prompt_text)
+                batch_map.append((original_idx, task))
+                if DRY_RUN:
+                    _print_dry_run_task(task, prompt_text, processed_batch_count - 1, original_idx, task_count)
             except Exception as e:
                 results[original_idx] = e
 
         if not batch:
+            continue
+
+        if DRY_RUN:
+            for original_idx, task in batch_map:
+                results[original_idx] = f"dry-run -> {_output_path(task)}"
             continue
 
         try:
@@ -213,15 +283,16 @@ def main():
             retry_batch = []
             retry_map = []
             for batch_idx, output_text in enumerate(outputs):
-                original_idx, work_path = batch_map[batch_idx]
+                original_idx, task = batch_map[batch_idx]
                 final_text = output_text
-                if not final_text or not final_text.strip() or len(final_text.strip()) <= OUTPUT_LEN_MIN or not has_valid_json_output(final_text):
+                if not final_text or not final_text.strip() or not has_valid_json_output(final_text):
                     retry_batch.append(batch[batch_idx])
-                    retry_map.append((original_idx, work_path))
+                    retry_map.append((original_idx, task))
                     continue
 
                 results[original_idx] = _write_output(
-                    work_path,
+                    task["task_label"],
+                    task,
                     final_text,
                 )
 
@@ -232,17 +303,18 @@ def main():
                         f"Model returned {len(retry_outputs)} outputs for {len(retry_batch)} retry prompts"
                     )
                 for retry_idx, retry_text in enumerate(retry_outputs):
-                    original_idx, work_path = retry_map[retry_idx]
-                    if not retry_text or not retry_text.strip() or len(retry_text.strip()) <= OUTPUT_LEN_MIN:
+                    original_idx, task = retry_map[retry_idx]
+                    if not retry_text or not retry_text.strip():
                         results[original_idx] = ValueError("Empty model output after retry")
-                        print(f"❌ Error processing {work_path}: Empty model output after retry")
+                        print(f"❌ Error processing {task['task_label']}: Empty model output after retry")
                         continue
                     if not has_valid_json_output(retry_text):
                         results[original_idx] = ValueError("Invalid JSON model output after retry")
-                        print(f"❌ Error processing {work_path}: Invalid JSON model output after retry")
+                        print(f"❌ Error processing {task['task_label']}: Invalid JSON model output after retry")
                         continue
                     results[original_idx] = _write_output(
-                        work_path,
+                        task["task_label"],
+                        task,
                         retry_text,
                     )
         except Exception as e:
@@ -262,9 +334,40 @@ def main():
     print(f"   Total time: {total_elapsed:.2f}s")
     print("=" * 60)
 
-    for work_path, result in zip(work_files, results):
+    for task, result in zip(tasks, results):
         if isinstance(result, Exception):
-            print(f"❌ Error processing {work_path}: {result}")
+            print(f"❌ Error processing {task['task_label']}: {result}")
+
+
+def main():
+    global MODEL, llm_gen
+    parser = argparse.ArgumentParser(description="Run vLLM processing.")
+    parser.add_argument("model", type=str)
+    parser.add_argument("--gpu-count", type=int, required=True)
+    args = parser.parse_args()
+
+    MODEL = args.model
+    if DRY_RUN:
+        print(f"DRY_RUN enabled. Skipping model load for '{MODEL}'.")
+        llm_gen = None
+    else:
+        print(f"Loading model '{MODEL}'...")
+        load_start = time.perf_counter()
+        llm_gen = _load_llm_gen(MODEL, args.gpu_count)
+        load_elapsed = time.perf_counter() - load_start
+        print(f"Model '{MODEL}' loaded in {load_elapsed:.2f}s")
+
+    try:
+        with open(PROMPT_FILE, 'r', encoding='utf-8') as f:
+            prompt = f.read().strip()
+        with open(THEMES_FILE, 'r', encoding='utf-8') as f:
+            themes = f.read().strip()
+    except FileNotFoundError as e:
+        print(f"❌ Error: {e}")
+        raise
+
+    for task_type in (TASK_TYPE_PDFS, TASK_TYPE_SEARCH_RESULTS):
+        run_tasks(task_type, prompt, themes, llm_gen)
 
 
 if __name__ == "__main__":

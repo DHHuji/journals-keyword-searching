@@ -104,7 +104,7 @@ def _try_parse_json(text):
 def normalize_output_schema(obj):
     if not isinstance(obj, dict):
         return obj
-    sentiment = obj.get("sentiment_toward_israel")
+    sentiment = obj.get("sentiment_toward_israel", obj.get("sentiment", {}))
     if not isinstance(sentiment, dict):
         return obj
 
@@ -113,7 +113,7 @@ def normalize_output_schema(obj):
     for key in ("themes", "confidence_and_ambiguity"):
         if key not in normalized and key in normalized_sentiment:
             normalized[key] = normalized_sentiment.pop(key)
-    normalized["sentiment_toward_israel"] = normalized_sentiment
+    normalized["sentiment"] = normalized_sentiment
     return normalized
 
 
