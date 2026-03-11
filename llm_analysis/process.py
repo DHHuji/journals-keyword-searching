@@ -2,6 +2,7 @@ import argparse
 import csv
 import os
 import time
+import traceback
 from pathlib import Path
 from llm_output_json import has_valid_json_output
 
@@ -26,6 +27,17 @@ TASK_INPUT_DESCRIPTION_PLACEHOLDER = "{{TASK_INPUT_DESCRIPTION}}"
 TASK_TYPE_PDFS = "pdfs"
 TASK_TYPE_SEARCH_RESULTS = "search_results"
 DEFAULT_TARGET_COUNTRY = "Israel"
+
+
+def _print_exception(task_label, exc):
+    print(f"❌ Error processing {task_label}: {exc}")
+    traceback.print_exception(type(exc), exc, exc.__traceback__)
+
+
+def _print_invalid_json_output(task_label, output_text):
+    print(f"❌ Error processing {task_label}: Invalid JSON model output after retry")
+    print("Failed output:")
+    print(output_text)
 
 
 def _load_llm_gen(model_name, gpu_count):
@@ -265,6 +277,7 @@ def run_tasks(task_type, prompt, themes, llm_gen):
                     _print_dry_run_task(task, prompt_text, processed_batch_count - 1, original_idx, task_count)
             except Exception as e:
                 results[original_idx] = e
+                _print_exception(task["task_label"], e)
 
         if not batch:
             continue
@@ -310,7 +323,7 @@ def run_tasks(task_type, prompt, themes, llm_gen):
                         continue
                     if not has_valid_json_output(retry_text):
                         results[original_idx] = ValueError("Invalid JSON model output after retry")
-                        print(f"❌ Error processing {task['task_label']}: Invalid JSON model output after retry")
+                        _print_invalid_json_output(task["task_label"], retry_text)
                         continue
                     results[original_idx] = _write_output(
                         task["task_label"],
@@ -318,6 +331,9 @@ def run_tasks(task_type, prompt, themes, llm_gen):
                         retry_text,
                     )
         except Exception as e:
+            task_labels = [task["task_label"] for _, task in batch_map]
+            joined_task_labels = ", ".join(task_labels)
+            _print_exception(joined_task_labels, e)
             for original_idx, _ in batch_map:
                 results[original_idx] = e
 
@@ -336,7 +352,8 @@ def run_tasks(task_type, prompt, themes, llm_gen):
 
     for task, result in zip(tasks, results):
         if isinstance(result, Exception):
-            print(f"❌ Error processing {task['task_label']}: {result}")
+            if result.__traceback__ is None:
+                print(f"❌ Error processing {task['task_label']}: {result}")
 
 
 def main():
