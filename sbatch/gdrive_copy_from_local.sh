@@ -11,7 +11,7 @@ cd /sci/labs/dh_huji/liri.sokol/journals-keyword-searching
 source_dir="pdfs"
 dest_dir="G-l:"
 log_path=sync_logs/rclone.log
-rclone copy \
+rclone sync \
   --drive-root-folder-id=1iqqwrcwqRxoKyxNuZeVsVMubLMgt864H \
   --fast-list \
   --cache-rps 50 -v --tpslimit 20 --tpslimit-burst 20 \
@@ -21,7 +21,7 @@ rclone copy \
 source_dir="search_results"
 dest_dir="G-l:"
 log_path=sync_logs/rclone.log
-rclone copy \
+rclone sync \
   --drive-root-folder-id=1l6JMQIJ3TCovPncj_aBXbw-K5CILDxux \
   --fast-list \
   --cache-rps 50 -v --tpslimit 20 --tpslimit-burst 20 \
