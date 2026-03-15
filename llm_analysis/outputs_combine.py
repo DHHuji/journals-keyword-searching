@@ -1,10 +1,18 @@
-import argparse
 import csv
 import json
 import sys
 from pathlib import Path
 
 from llm_output_json import extract_json_objects
+
+
+PDFS_INPUT_DIR = Path("pdfs/llm_outputs")
+PDFS_OUTPUT_CSV = Path("pdfs/llm_outputs.csv")
+PDFS_OUTPUT_JSON = Path("pdfs/llm_outputs.json")
+
+SEARCH_RESULTS_INPUT_DIR = Path("search_results/llm_outputs")
+SEARCH_RESULTS_OUTPUT_CSV = Path("search_results.csv")
+SEARCH_RESULTS_OUTPUT_JSON = Path("search_results/llm_outputs/llm_outputs.json")
 
 
 def _extract_file_metadata(path):
@@ -80,6 +88,10 @@ def _year_from_text(text):
 
 def _canonical_source_key(name):
     return name.replace(" ", "_")
+
+
+def _as_dict(value):
+    return value if isinstance(value, dict) else {}
 
 
 def _load_metadata_tables(input_dir):
@@ -204,8 +216,10 @@ def _row_from_json(obj, source_path, tables):
     model = file_meta["model"]
     academic = _academic_metadata(file_meta, tables)
 
-    sentiment = obj.get("sentiment_toward_israel", obj.get("sentiment", {})) if isinstance(obj, dict) else {}
-    confidence = obj.get("confidence_and_ambiguity", {}) if isinstance(obj, dict) else {}
+    sentiment = _as_dict(
+        obj.get("sentiment_toward_israel", obj.get("sentiment", {})) if isinstance(obj, dict) else {}
+    )
+    confidence = _as_dict(obj.get("confidence_and_ambiguity", {}) if isinstance(obj, dict) else {})
     themes = obj.get("themes", []) if isinstance(obj, dict) else []
     quotes = sentiment.get("evidence_quotes", []) if isinstance(sentiment, dict) else []
 
@@ -264,31 +278,7 @@ def _row_from_json(obj, source_path, tables):
     }
 
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="Extract JSON from LLM output TXT files and write a unified CSV."
-    )
-    parser.add_argument(
-        "--input-dir",
-        default="pdfs/llm_outputs",
-        help="Directory containing LLM output .txt files.",
-    )
-    parser.add_argument(
-        "--output-csv",
-        default="pdfs/llm_outputs/llm_outputs.csv",
-        help="Path for the unified CSV output.",
-    )
-    parser.add_argument(
-        "--output-json",
-        default="pdfs/llm_outputs/llm_outputs.json",
-        help="Path for the unified JSON output.",
-    )
-    args = parser.parse_args()
-
-    input_dir = Path(args.input_dir)
-    output_csv = Path(args.output_csv)
-    output_json = Path(args.output_json)
-
+def _combine_outputs(input_dir, output_csv, output_json):
     if not input_dir.exists():
         print(f"ERROR: Input directory not found: {input_dir}", file=sys.stderr)
         return 2
@@ -406,6 +396,18 @@ def main():
     if errors:
         print(f"Completed with {errors} error(s).", file=sys.stderr)
     return 0
+
+
+def main():
+    exit_code = 0
+    for input_dir, output_csv, output_json in (
+        (PDFS_INPUT_DIR, PDFS_OUTPUT_CSV, PDFS_OUTPUT_JSON),
+        (SEARCH_RESULTS_INPUT_DIR, SEARCH_RESULTS_OUTPUT_CSV, SEARCH_RESULTS_OUTPUT_JSON),
+    ):
+        result = _combine_outputs(input_dir, output_csv, output_json)
+        if result != 0:
+            exit_code = result
+    return exit_code
 
 
 if __name__ == "__main__":
