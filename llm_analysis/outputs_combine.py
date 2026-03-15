@@ -14,6 +14,8 @@ SEARCH_RESULTS_INPUT_DIR = Path("search_results/llm_outputs")
 SEARCH_RESULTS_OUTPUT_CSV = Path("search_results.csv")
 SEARCH_RESULTS_OUTPUT_JSON = Path("search_results/llm_outputs/llm_outputs.json")
 
+PROGRESS_EVERY = 250
+
 
 def _extract_file_metadata(path):
     stem = path.stem
@@ -98,6 +100,7 @@ def _load_metadata_tables(input_dir):
     repo_dir = input_dir.parent.parent
     pdfs_dir = repo_dir / "pdfs"
     search_results_dir = repo_dir / "search_results"
+    print(f"Loading metadata tables for {input_dir}...")
 
     works_csv_path = repo_dir / "works.csv"
     works_index_path = pdfs_dir / "works" / "index.csv"
@@ -279,21 +282,31 @@ def _row_from_json(obj, source_path, tables):
 
 
 def _combine_outputs(input_dir, output_csv, output_json):
+    print(f"Starting combine for {input_dir}...")
     if not input_dir.exists():
         print(f"ERROR: Input directory not found: {input_dir}", file=sys.stderr)
         return 2
     tables = _load_metadata_tables(input_dir)
+    print(
+        "Loaded metadata: "
+        f"{len(tables['works_by_id'])} works, "
+        f"{len(tables['per_source'])} pdf sources, "
+        f"{len(tables['search_results_by_source'])} search_results variants"
+    )
 
     txt_files = sorted(input_dir.glob("*.txt"))
     if not txt_files:
         print(f"ERROR: No .txt files found in {input_dir}", file=sys.stderr)
         return 2
+    print(f"Found {len(txt_files)} output text files in {input_dir}")
 
     rows = []
     json_rows = []
     errors = 0
 
-    for path in txt_files:
+    for index, path in enumerate(txt_files, start=1):
+        if index == 1 or index % PROGRESS_EVERY == 0 or index == len(txt_files):
+            print(f"Processed {index}/{len(txt_files)} files...")
         text = path.read_text(encoding="utf-8", errors="replace")
         json_objects = extract_json_objects(text)
         if not json_objects:
@@ -335,6 +348,7 @@ def _combine_outputs(input_dir, output_csv, output_json):
     if not rows:
         print("ERROR: No valid JSON objects were parsed.", file=sys.stderr)
         return 2
+    print(f"Parsed {len(rows)} total row(s) from {len(txt_files)} file(s)")
 
     output_csv.parent.mkdir(parents=True, exist_ok=True)
     llm_fieldnames = [
@@ -395,11 +409,13 @@ def _combine_outputs(input_dir, output_csv, output_json):
     print(f"Wrote {len(json_rows)} JSON entries to {output_json}")
     if errors:
         print(f"Completed with {errors} error(s).", file=sys.stderr)
+    print(f"Finished combine for {input_dir}")
     return 0
 
 
 def main():
     exit_code = 0
+    print("Starting outputs combine...")
     for input_dir, output_csv, output_json in (
         (PDFS_INPUT_DIR, PDFS_OUTPUT_CSV, PDFS_OUTPUT_JSON),
         (SEARCH_RESULTS_INPUT_DIR, SEARCH_RESULTS_OUTPUT_CSV, SEARCH_RESULTS_OUTPUT_JSON),
@@ -407,6 +423,7 @@ def main():
         result = _combine_outputs(input_dir, output_csv, output_json)
         if result != 0:
             exit_code = result
+    print(f"Outputs combine finished with exit code {exit_code}")
     return exit_code
 
 
