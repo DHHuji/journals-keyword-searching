@@ -28,6 +28,10 @@ def _extract_file_metadata(path):
     }
 
 
+def _search_keyword_from_source_key(source_key):
+    return source_key.removeprefix("works_")
+
+
 def _extract_file_id(row):
     if "work_id" in row and row["work_id"]:
         return row["work_id"]
@@ -79,8 +83,9 @@ def _canonical_source_key(name):
 
 
 def _load_metadata_tables(input_dir):
-    pdfs_dir = input_dir.parent
-    repo_dir = pdfs_dir.parent
+    repo_dir = input_dir.parent.parent
+    pdfs_dir = repo_dir / "pdfs"
+    search_results_dir = repo_dir / "search_results"
 
     works_csv_path = repo_dir / "works.csv"
     works_index_path = pdfs_dir / "works" / "index.csv"
@@ -102,24 +107,43 @@ def _load_metadata_tables(input_dir):
     works_counts = _csv_rows_by_id(works_index_path)
 
     per_source = {}
-    for child in pdfs_dir.iterdir():
-        if not child.is_dir():
-            continue
-        if child.name in {"llm_outputs", "misc"}:
-            continue
-        source_key = _canonical_source_key(child.name)
-        items_by_id = _csv_rows_by_id(child / "items.csv")
-        index_by_id = _csv_rows_by_id(child / "index.csv")
-        per_source[source_key] = {
-            "dir_name": child.name,
-            "items_by_id": items_by_id,
-            "index_by_id": index_by_id,
-        }
+    if pdfs_dir.exists():
+        for child in pdfs_dir.iterdir():
+            if not child.is_dir():
+                continue
+            if child.name in {"llm_outputs", "misc"}:
+                continue
+            source_key = _canonical_source_key(child.name)
+            items_by_id = _csv_rows_by_id(child / "items.csv")
+            index_by_id = _csv_rows_by_id(child / "index.csv")
+            per_source[source_key] = {
+                "dir_name": child.name,
+                "items_by_id": items_by_id,
+                "index_by_id": index_by_id,
+            }
+
+    search_results_by_source = {}
+    search_results_fieldnames = []
+    if search_results_dir.exists():
+        for csv_path in sorted(search_results_dir.glob("works_*.csv")):
+            rows = _csv_rows(csv_path)
+            if rows and not search_results_fieldnames:
+                search_results_fieldnames = list(rows[0].keys())
+            search_results_by_source[csv_path.stem] = {
+                "keyword": _search_keyword_from_source_key(csv_path.stem),
+                "rows_by_id": {
+                    (row.get("id") or "").strip(): row
+                    for row in rows
+                    if (row.get("id") or "").strip()
+                },
+            }
 
     return {
         "works_by_id": works_by_id,
         "works_counts": works_counts,
         "per_source": per_source,
+        "search_results_by_source": search_results_by_source,
+        "search_results_fieldnames": search_results_fieldnames,
     }
 
 
@@ -129,6 +153,7 @@ def _academic_metadata(file_meta, tables):
         work_details = tables["works_by_id"].get(work_id, {})
         counts = tables["works_counts"].get(work_id, {})
         return {
+            "record_type": "pdf_work",
             "work_id": work_id,
             "title": work_details.get("title", ""),
             "author": work_details.get("author", ""),
@@ -141,6 +166,15 @@ def _academic_metadata(file_meta, tables):
             "israel_count_center": counts.get("israel_count_center", ""),
         }
 
+    search_data = tables["search_results_by_source"].get(file_meta["source_key"])
+    if search_data:
+        search_row = dict(search_data["rows_by_id"].get(file_meta["source_id"], {}))
+        return {
+            "record_type": "search_result",
+            "keyword": search_data["keyword"],
+            "search_row": search_row,
+        }
+
     source_data = tables["per_source"].get(file_meta["source_key"], {})
     items_row = source_data.get("items_by_id", {}).get(file_meta["source_id"], {})
     index_row = source_data.get("index_by_id", {}).get(file_meta["source_id"], {})
@@ -151,6 +185,7 @@ def _academic_metadata(file_meta, tables):
         year = _year_from_text(items_row.get("publication_date", "") or index_row.get("publication_date", ""))
 
     return {
+        "record_type": "journal_pdf",
         "work_id": "",
         "title": title,
         "author": author,
@@ -191,18 +226,8 @@ def _row_from_json(obj, source_path, tables):
             continue
         themes_with_details.append(f"{theme_name}: {explanation} ({page_ref})")
 
-    return {
+    llm_fields = {
         "source_file": source_path.name,
-        "work_id": academic["work_id"],
-        "title": academic["title"],
-        "author": academic["author"],
-        "year": academic["year"],
-        "journal": academic["journal"],
-        "url": academic["url"],
-        "israel_count": academic["israel_count"],
-        "lines_count": academic["lines_count"],
-        "word_count": academic["word_count"],
-        "israel_count_center": academic["israel_count_center"],
         "model": model,
         "sentiment_classification": sentiment.get("classification", ""),
         "sentiment_explanation": sentiment.get("explanation", ""),
@@ -216,6 +241,26 @@ def _row_from_json(obj, source_path, tables):
         "themes_json": json.dumps(themes, ensure_ascii=True),
         "confidence_level": confidence.get("confidence_level", ""),
         "uncertainty_explanation": confidence.get("uncertainty_explanation", ""),
+    }
+
+    if academic["record_type"] == "search_result":
+        row = dict(academic["search_row"])
+        row["keyword"] = academic["keyword"]
+        row.update(llm_fields)
+        return row
+
+    return {
+        **llm_fields,
+        "work_id": academic["work_id"],
+        "title": academic["title"],
+        "author": academic["author"],
+        "year": academic["year"],
+        "journal": academic["journal"],
+        "url": academic["url"],
+        "israel_count": academic["israel_count"],
+        "lines_count": academic["lines_count"],
+        "word_count": academic["word_count"],
+        "israel_count_center": academic["israel_count_center"],
     }
 
 
@@ -274,20 +319,23 @@ def main():
             row = _row_from_json(obj, path, tables)
             rows.append(row)
             file_meta = _extract_file_metadata(path)
-            enriched = {
-                "source_file": path.name,
-                "work_id": row["work_id"],
-                "title": row["title"],
-                "author": row["author"],
-                "year": row["year"],
-                "journal": row["journal"],
-                "url": row["url"],
-                "israel_count": row["israel_count"],
-                "lines_count": row["lines_count"],
-                "word_count": row["word_count"],
-                "israel_count_center": row["israel_count_center"],
-                "model": file_meta["model"],
-            }
+            if "keyword" in row:
+                enriched = dict(row)
+            else:
+                enriched = {
+                    "source_file": path.name,
+                    "work_id": row["work_id"],
+                    "title": row["title"],
+                    "author": row["author"],
+                    "year": row["year"],
+                    "journal": row["journal"],
+                    "url": row["url"],
+                    "israel_count": row["israel_count"],
+                    "lines_count": row["lines_count"],
+                    "word_count": row["word_count"],
+                    "israel_count_center": row["israel_count_center"],
+                    "model": file_meta["model"],
+                }
             for key, value in obj.items():
                 if key in enriched:
                     continue
@@ -299,7 +347,25 @@ def main():
         return 2
 
     output_csv.parent.mkdir(parents=True, exist_ok=True)
-    fieldnames = [
+    llm_fieldnames = [
+        "source_file",
+        "model",
+        "sentiment_classification",
+        "sentiment_explanation",
+        "sentiment_notes",
+        "quote_example",
+        "evidence_quotes_json",
+        "themes",
+        "themes_with_details",
+        "themes_json",
+        "confidence_level",
+        "uncertainty_explanation",
+    ]
+    search_results_fieldnames = [
+        *tables["search_results_fieldnames"],
+        "keyword",
+    ]
+    default_fieldnames = [
         "source_file",
         "work_id",
         "title",
@@ -323,6 +389,10 @@ def main():
         "confidence_level",
         "uncertainty_explanation",
     ]
+    if all("keyword" in row for row in rows):
+        fieldnames = search_results_fieldnames + llm_fieldnames
+    else:
+        fieldnames = default_fieldnames
     with output_csv.open("w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
