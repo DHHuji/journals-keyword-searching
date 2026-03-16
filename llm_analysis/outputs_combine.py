@@ -96,6 +96,10 @@ def _as_dict(value):
     return value if isinstance(value, dict) else {}
 
 
+def _as_list(value):
+    return value if isinstance(value, list) else []
+
+
 def _load_metadata_tables(input_dir):
     repo_dir = input_dir.parent.parent
     pdfs_dir = repo_dir / "pdfs"
@@ -219,12 +223,18 @@ def _row_from_json(obj, source_path, tables):
     model = file_meta["model"]
     academic = _academic_metadata(file_meta, tables)
 
-    sentiment = _as_dict(
-        obj.get("sentiment_toward_israel", obj.get("sentiment", {})) if isinstance(obj, dict) else {}
-    )
-    confidence = _as_dict(obj.get("confidence_and_ambiguity", {}) if isinstance(obj, dict) else {})
-    themes = obj.get("themes", []) if isinstance(obj, dict) else []
-    quotes = sentiment.get("evidence_quotes", []) if isinstance(sentiment, dict) else []
+    raw_sentiment = {}
+    raw_confidence = {}
+    raw_themes = []
+    if isinstance(obj, dict):
+        raw_sentiment = obj.get("sentiment_toward_israel", obj.get("sentiment", {}))
+        raw_confidence = obj.get("confidence_and_ambiguity", {})
+        raw_themes = obj.get("themes", [])
+
+    sentiment = _as_dict(raw_sentiment)
+    confidence = _as_dict(raw_confidence)
+    themes = _as_list(raw_themes)
+    quotes = _as_list(sentiment.get("evidence_quotes", []))
 
     themes_with_details = []
     for theme in themes:
