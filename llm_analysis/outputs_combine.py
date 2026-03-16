@@ -100,6 +100,10 @@ def _as_list(value):
     return value if isinstance(value, list) else []
 
 
+def _dict_items(values):
+    return [value for value in values if isinstance(value, dict)]
+
+
 def _load_metadata_tables(input_dir):
     repo_dir = input_dir.parent.parent
     pdfs_dir = repo_dir / "pdfs"
@@ -233,13 +237,11 @@ def _row_from_json(obj, source_path, tables):
 
     sentiment = _as_dict(raw_sentiment)
     confidence = _as_dict(raw_confidence)
-    themes = _as_list(raw_themes)
-    quotes = _as_list(sentiment.get("evidence_quotes", []))
+    themes = _dict_items(_as_list(raw_themes))
+    quotes = _dict_items(_as_list(sentiment.get("evidence_quotes", [])))
 
     themes_with_details = []
     for theme in themes:
-        if not isinstance(theme, dict):
-            continue
         theme_name = theme.get("theme_name", "")
         explanation = theme.get("explanation", "")
         page_ref = (
@@ -262,7 +264,7 @@ def _row_from_json(obj, source_path, tables):
         "quote_example": quotes[0].get("quote", "") if quotes else "",
         "evidence_quotes_json": json.dumps(quotes, ensure_ascii=True),
         "themes": ",".join(
-            [t.get("theme_name", "") for t in themes if isinstance(t, dict) and t.get("theme_name")]
+            [t.get("theme_name", "") for t in themes if t.get("theme_name")]
         ),
         "themes_with_details": "\n".join(themes_with_details),
         "themes_json": json.dumps(themes, ensure_ascii=True),
