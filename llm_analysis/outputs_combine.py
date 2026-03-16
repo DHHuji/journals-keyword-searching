@@ -11,8 +11,8 @@ PDFS_OUTPUT_CSV = Path("pdfs/llm_outputs.csv")
 PDFS_OUTPUT_JSON = Path("pdfs/llm_outputs.json")
 
 SEARCH_RESULTS_INPUT_DIR = Path("search_results/llm_outputs")
-SEARCH_RESULTS_OUTPUT_CSV = Path("search_results.csv")
-SEARCH_RESULTS_OUTPUT_JSON = Path("search_results/llm_outputs/llm_outputs.json")
+SEARCH_RESULTS_OUTPUT_CSV = Path("search_results/llm_outputs.csv")
+SEARCH_RESULTS_OUTPUT_JSON = Path("search_results/llm_outputs.json")
 
 PROGRESS_EVERY = 250
 
