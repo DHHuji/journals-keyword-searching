@@ -104,6 +104,18 @@ def _dict_items(values):
     return [value for value in values if isinstance(value, dict)]
 
 
+def _json_safe(value):
+    if value is Ellipsis:
+        return None
+    if isinstance(value, dict):
+        return {key: _json_safe(item) for key, item in value.items()}
+    if isinstance(value, list):
+        return [_json_safe(item) for item in value]
+    if isinstance(value, tuple):
+        return [_json_safe(item) for item in value]
+    return value
+
+
 def _load_metadata_tables(input_dir):
     repo_dir = input_dir.parent.parent
     pdfs_dir = repo_dir / "pdfs"
@@ -354,7 +366,7 @@ def _combine_outputs(input_dir, output_csv, output_json):
             for key, value in obj.items():
                 if key in enriched:
                     continue
-                enriched[key] = value
+                enriched[key] = _json_safe(value)
             json_rows.append(enriched)
 
     if not rows:
