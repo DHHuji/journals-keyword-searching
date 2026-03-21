@@ -113,6 +113,8 @@ def _json_safe(value):
         return [_json_safe(item) for item in value]
     if isinstance(value, tuple):
         return [_json_safe(item) for item in value]
+    if isinstance(value, set):
+        return [_json_safe(item) for item in sorted(value, key=repr)]
     return value
 
 
