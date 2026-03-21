@@ -9,20 +9,20 @@ module load hurcs rclone
 cd /sci/labs/dh_huji/liri.sokol/journals-keyword-searching
 
 source_dir="pdfs"
-dest_dir="G-l:"
+dest_dir="G-huji:"
 log_path=sync_logs/rclone.log
-rclone sync \
-  --drive-root-folder-id=1iqqwrcwqRxoKyxNuZeVsVMubLMgt864H \
+rclone copy \
+  --drive-root-folder-id=19bDiltc1d6UaasEdD35RKAFywMOb1I_i \
   --fast-list \
   --cache-rps 50 -v --tpslimit 20 --tpslimit-burst 20 \
   --checkers 32 --transfers 16 \
   "$source_dir" "$dest_dir" 2>&1 | tee $log_path
 
 source_dir="search_results"
-dest_dir="G-l:"
+dest_dir="G-huji:"
 log_path=sync_logs/rclone.log
-rclone sync \
-  --drive-root-folder-id=1l6JMQIJ3TCovPncj_aBXbw-K5CILDxux \
+rclone copy \
+  --drive-root-folder-id=1DnAMr3cof7sZ-Y6rPgmRL03rjeeWPMXb \
   --fast-list \
   --cache-rps 50 -v --tpslimit 20 --tpslimit-burst 20 \
   --checkers 32 --transfers 16 \
