@@ -184,9 +184,9 @@ def _load_metadata_tables(input_dir):
     }
 
 
-def _academic_metadata(file_meta, tables):
-    if file_meta["is_works"]:
-        work_id = file_meta["work_id"]
+def _academic_metadata(file_meta, tables, explicit_work_id=""):
+    work_id = explicit_work_id or file_meta["work_id"]
+    if work_id and file_meta["is_works"]:
         work_details = tables["works_by_id"].get(work_id, {})
         counts = tables["works_counts"].get(work_id, {})
         return {
@@ -221,7 +221,7 @@ def _academic_metadata(file_meta, tables):
     if not year:
         year = _year_from_text(items_row.get("publication_date", "") or index_row.get("publication_date", ""))
 
-    return {
+    metadata = {
         "record_type": "journal_pdf",
         "work_id": "",
         "title": title,
@@ -234,12 +234,28 @@ def _academic_metadata(file_meta, tables):
         "word_count": index_row.get("word_count", ""),
         "israel_count_center": index_row.get("israel_count_center", ""),
     }
+    if not work_id:
+        return metadata
+
+    work_details = tables["works_by_id"].get(work_id, {})
+    return {
+        **metadata,
+        "work_id": work_id,
+        "title": work_details.get("title", "") or metadata["title"],
+        "author": work_details.get("author", "") or metadata["author"],
+        "year": work_details.get("year", "") or metadata["year"],
+        "journal": work_details.get("journal", "") or metadata["journal"],
+        "url": work_details.get("url", "") or metadata["url"],
+    }
 
 
 def _row_from_json(obj, source_path, tables):
     file_meta = _extract_file_metadata(source_path)
     model = file_meta["model"]
-    academic = _academic_metadata(file_meta, tables)
+    explicit_work_id = ""
+    if isinstance(obj, dict):
+        explicit_work_id = str(obj.get("work_id", "")).strip()
+    academic = _academic_metadata(file_meta, tables, explicit_work_id=explicit_work_id)
 
     raw_sentiment = {}
     raw_confidence = {}
