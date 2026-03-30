@@ -145,6 +145,8 @@ def main():
         json_files = list(results_dir.glob('*.json'))
         for i, json_file in enumerate(json_files):
             print(f"Processing {json_file.name} ({i + 1}/{len(json_files)})...")
+            if json_file.name == "llm_outputs.json":
+                continue
             with open(json_file, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)
                 data = _extract_data_from_json(json_data, journal_mapping, existing_doi_follows)
