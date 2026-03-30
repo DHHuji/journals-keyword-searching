@@ -1,7 +1,7 @@
 #!/bin/bash
 #SBATCH --cpus-per-task=16
 #SBATCH --mem=500G
-#SBATCH --time=1-00:00:00
+#SBATCH --time=7-00:00:00
 #SBATCH -e sync_logs/vllm_%j.err
 #SBATCH -o sync_logs/vllm_%j.out
 #SBATCH --gres=gpu:h200:4
