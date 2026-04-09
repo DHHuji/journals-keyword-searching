@@ -6,6 +6,7 @@ import requests
 
 RESULTS_BASE_DIR = Path('search_results')
 JOURNALS_FILE = 'journals.csv'
+LLM_OUTPUTS_FILE = RESULTS_BASE_DIR / 'llm_outputs.csv'
 VERBOSE = True
 FOLLOW_DOIS = False
 
@@ -52,6 +53,22 @@ def _check_pdf_exists(work_id):
     return pdf_path.exists()
 
 
+def _load_llm_work_ids():
+    llm_work_ids = set()
+    if not LLM_OUTPUTS_FILE.exists():
+        return llm_work_ids
+
+    with open(LLM_OUTPUTS_FILE, 'r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        if 'id' not in reader.fieldnames:
+            return llm_work_ids
+        for row in reader:
+            work_id = row.get('id', '')
+            if work_id:
+                llm_work_ids.add(work_id)
+    return llm_work_ids
+
+
 def _load_existing_doi_follows(output_file):
     existing_follows = {}
     if Path(output_file).exists():
@@ -77,7 +94,7 @@ def _load_journal_mapping():
     return journal_mapping
 
 
-def _extract_data_from_json(json_data, journal_mapping, existing_doi_follows):
+def _extract_data_from_json(json_data, journal_mapping, existing_doi_follows, llm_work_ids):
     results = []
 
     for i, item in enumerate(json_data):
@@ -93,6 +110,7 @@ def _extract_data_from_json(json_data, journal_mapping, existing_doi_follows):
         else:
             row['doi_follow'] = _follow_doi_redirects(row['doi']) if FOLLOW_DOIS else ""
         row['has_pdf'] = _check_pdf_exists(row['id'])
+        row['has_llm'] = row['id'] in llm_work_ids
         row['title'] = item.get('title', '')
         row['publication_date'] = item.get('publication_date', '')
 
@@ -134,6 +152,7 @@ def _extract_data_from_json(json_data, journal_mapping, existing_doi_follows):
 
 def main():
     journal_mapping = _load_journal_mapping()
+    llm_work_ids = _load_llm_work_ids()
     keyword_dirs = sorted([path for path in RESULTS_BASE_DIR.iterdir() if path.is_dir()])
 
     for results_dir in keyword_dirs:
@@ -149,7 +168,7 @@ def main():
                 continue
             with open(json_file, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)
-                data = _extract_data_from_json(json_data, journal_mapping, existing_doi_follows)
+                data = _extract_data_from_json(json_data, journal_mapping, existing_doi_follows, llm_work_ids)
                 all_data.extend(data)
 
         if all_data:
