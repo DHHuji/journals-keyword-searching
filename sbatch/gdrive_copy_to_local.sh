@@ -12,8 +12,10 @@ source_dir="G-l:"
 dest_dir="pdfs"
 log_path=sync_logs/rclone.log
 rclone copy \
-  --drive-root-folder-id=1iqqwrcwqRxoKyxNuZeVsVMubLMgt864H \
+  --drive-root-folder-id=19bDiltc1d6UaasEdD35RKAFywMOb1I_i \
   --fast-list \
   --cache-rps 50 -v --tpslimit 20 --tpslimit-burst 20 \
   --checkers 32 --transfers 16 \
   "$source_dir" "$dest_dir" 2>&1 | tee $log_path
+
+sbatch sbatch/vllm_lg.sh 
