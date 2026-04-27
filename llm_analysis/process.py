@@ -19,7 +19,6 @@ SEARCH_RESULTS_DIR = os.path.join(SCRIPT_DIR, "../search_results")
 PROMPT_FILE = f"{SCRIPT_DIR}/prompt.txt"
 THEMES_FILE = f"{SCRIPT_DIR}/themes.txt"
 PDFS_OUTPUT_DIR = f"{WORKS_BASE_DIR}/llm_outputs"
-PDFS_INDEX_CSV_FILENAME = "index.csv"
 SEARCH_RESULTS_OUTPUT_DIR = f"{SEARCH_RESULTS_DIR}/llm_outputs"
 SEARCH_RESULTS_CSV_PATTERN = "works_*.csv"
 
@@ -114,9 +113,9 @@ def _output_exists(task):
     return os.path.exists(_output_path(task))
 
 
-def _print_dry_run_task(task, prompt_text, batch_index, task_index, task_count):
+def _print_dry_run_task(task, prompt_text, batch_index, task_index):
     output_path = _output_path(task)
-    print(f"[DRY RUN] Task {task_index + 1}/{task_count} in batch {batch_index + 1}")
+    print(f"[DRY RUN] Task {task_index + 1} in batch {batch_index + 1}")
     print(f"[DRY RUN] Model: {MODEL}")
     print(f"[DRY RUN] Label: {task['task_label']}")
     print(f"[DRY RUN] Output path: {output_path}")
@@ -127,21 +126,6 @@ def _print_dry_run_task(task, prompt_text, batch_index, task_index, task_count):
     print("[DRY RUN] End prompt\n")
 
 
-def _extract_file_id(row):
-    if "work_id" in row and row["work_id"]:
-        return row["work_id"]
-    if "ID" in row and row["ID"]:
-        return row["ID"]
-    url = row.get("url", "")
-    if url and "jstor.org/stable/" in url:
-        file_id = url.split("jstor.org/stable/")[-1]
-        if "/" in file_id:
-            file_id = file_id.split("/")[-1]
-        if file_id:
-            return file_id
-    return row.get("citation_key", "")
-
-
 def _extract_country_from_search_results_csv(csv_path):
     name = csv_path.stem.removeprefix("works_")
     name = name.split("_or_")[0]
@@ -150,32 +134,28 @@ def _extract_country_from_search_results_csv(csv_path):
 
 def collect_work_files():
     works_dir = Path(WORKS_BASE_DIR).resolve()
-    tasks = []
     seen = set()
-    for csv_path in works_dir.rglob(PDFS_INDEX_CSV_FILENAME):
-        base_dir = csv_path.parent
-        with open(csv_path, "r", encoding="utf-8") as f:
-            for row in csv.DictReader(f):
-                file_id = _extract_file_id(row)
-                if not file_id:
-                    continue
-                txt_path = (base_dir / f"{file_id}.txt").resolve()
-                if not txt_path.exists():
-                    continue
-                if txt_path not in seen:
-                    seen.add(txt_path)
-                    txt_path_str = str(txt_path)
-                    tasks.append(
-                        {
-                            "task_key": f"{Path(txt_path_str).parent.name}_{Path(txt_path_str).stem}",
-                            "task_label": txt_path_str,
-                            "work_path": txt_path_str,
-                            "output_dir": PDFS_OUTPUT_DIR,
-                            "task_input_description": "One academic article in plain text (with page numbers preserved where available).",
-                            "target_country": DEFAULT_TARGET_COUNTRY,
-                        }
-                    )
-    return tasks
+    pdfs_output_dir = Path(PDFS_OUTPUT_DIR).resolve()
+    for txt_path in works_dir.rglob("*.txt"):
+        if txt_path.parent == works_dir:
+            continue
+        txt_path = txt_path.resolve()
+        if txt_path.is_relative_to(pdfs_output_dir):
+            continue
+        if txt_path in seen:
+            continue
+        seen.add(txt_path)
+        relative_path = txt_path.relative_to(works_dir)
+        task_key = "_".join(relative_path.with_suffix("").parts)
+        txt_path_str = str(txt_path)
+        yield {
+            "task_key": task_key,
+            "task_label": txt_path_str,
+            "work_path": txt_path_str,
+            "output_dir": PDFS_OUTPUT_DIR,
+            "task_input_description": "One academic article in plain text (with page numbers preserved where available).",
+            "target_country": DEFAULT_TARGET_COUNTRY,
+        }
 
 
 def _format_search_result_text(row):
@@ -195,9 +175,8 @@ def _format_search_result_text(row):
 
 def collect_search_result_works():
     search_dir = Path(SEARCH_RESULTS_DIR).resolve()
-    tasks = []
     seen = set()
-    for csv_path in sorted(search_dir.glob(SEARCH_RESULTS_CSV_PATTERN)):
+    for csv_path in search_dir.glob(SEARCH_RESULTS_CSV_PATTERN):
         target_country = _extract_country_from_search_results_csv(csv_path)
         with open(csv_path, "r", encoding="utf-8") as f:
             for row in csv.DictReader(f):
@@ -209,17 +188,14 @@ def collect_search_result_works():
                 if task_key in seen:
                     continue
                 seen.add(task_key)
-                tasks.append(
-                    {
-                        "task_key": task_key,
-                        "task_label": f"{csv_path.name}:{work_id}",
-                        "raw_text": _format_search_result_text(row),
-                        "output_dir": SEARCH_RESULTS_OUTPUT_DIR,
-                        "task_input_description": "One academic work summary with Title, Abstract, Keywords, and Authors metadata.",
-                        "target_country": target_country,
-                    }
-                )
-    return tasks
+                yield {
+                    "task_key": task_key,
+                    "task_label": f"{csv_path.name}:{work_id}",
+                    "raw_text": _format_search_result_text(row),
+                    "output_dir": SEARCH_RESULTS_OUTPUT_DIR,
+                    "task_input_description": "One academic work summary with Title, Abstract, Keywords, and Authors metadata.",
+                    "target_country": target_country,
+                }
 
 
 def collect_tasks(task_type):
@@ -231,60 +207,54 @@ def collect_tasks(task_type):
 
 
 def run_tasks(task_type, prompt, themes, llm_gen):
-    tasks = collect_tasks(task_type)
-    if not tasks:
-        if task_type == TASK_TYPE_PDFS:
-            print(f"No matching .txt files found in {WORKS_BASE_DIR} from {PDFS_INDEX_CSV_FILENAME}")
-        else:
-            print(f"No matching works found in {SEARCH_RESULTS_DIR} from {SEARCH_RESULTS_CSV_PATTERN}")
-        return
-    print(f"Discovered {len(tasks)} tasks for {task_type}.")
-
     print("Starting batched processing...\n")
 
-    task_count = len(tasks)
     start_time = time.perf_counter()
-    results = [None] * len(tasks)
+    task_count = 0
+    successful = 0
+    failed = 0
+    found_any = False
+    failures = []
 
-    def iter_batches():
+    def iter_batches(tasks):
+        nonlocal task_count, successful, found_any
         batch_tasks = []
-        batch_indices = []
-        for idx, task in enumerate(tasks):
+        for task in tasks:
+            found_any = True
+            task_count += 1
             if _output_exists(task):
-                results[idx] = "skipped"
+                successful += 1
                 print(f"⏭️  Skipping {task['task_label']} (output exists)")
                 continue
-            batch_tasks.append(task)
-            batch_indices.append(idx)
+            batch_tasks.append((task_count - 1, task))
             if len(batch_tasks) >= BATCH_SIZE:
-                yield batch_tasks, batch_indices
+                yield batch_tasks
                 batch_tasks = []
-                batch_indices = []
         if batch_tasks:
-            yield batch_tasks, batch_indices
+            yield batch_tasks
 
     processed_batch_count = 0
-    for batch_tasks, batch_indices in iter_batches():
+    for batch_items in iter_batches(collect_tasks(task_type)):
         processed_batch_count += 1
         batch = []
         batch_map = []
-        for task, original_idx in zip(batch_tasks, batch_indices):
+        for original_idx, task in batch_items:
             try:
                 prompt_text = build_task_prompt(task, prompt, themes)
                 batch.append(prompt_text)
                 batch_map.append((original_idx, task))
                 if DRY_RUN:
-                    _print_dry_run_task(task, prompt_text, processed_batch_count - 1, original_idx, task_count)
+                    _print_dry_run_task(task, prompt_text, processed_batch_count - 1, original_idx)
             except Exception as e:
-                results[original_idx] = e
+                failed += 1
+                failures.append((task, e))
                 _print_exception(task["task_label"], e)
 
         if not batch:
             continue
 
         if DRY_RUN:
-            for original_idx, task in batch_map:
-                results[original_idx] = f"dry-run -> {_output_path(task)}"
+            successful += len(batch_map)
             continue
 
         try:
@@ -303,11 +273,12 @@ def run_tasks(task_type, prompt, themes, llm_gen):
                     retry_map.append((original_idx, task))
                     continue
 
-                results[original_idx] = _write_output(
+                _write_output(
                     task["task_label"],
                     task,
                     final_text,
                 )
+                successful += 1
 
             if retry_batch:
                 retry_outputs = llm_gen(retry_batch)
@@ -318,42 +289,52 @@ def run_tasks(task_type, prompt, themes, llm_gen):
                 for retry_idx, retry_text in enumerate(retry_outputs):
                     original_idx, task = retry_map[retry_idx]
                     if not retry_text or not retry_text.strip():
-                        results[original_idx] = ValueError("Empty model output after retry")
+                        error = ValueError("Empty model output after retry")
+                        failed += 1
+                        failures.append((task, error))
                         print(f"❌ Error processing {task['task_label']}: Empty model output after retry")
                         continue
                     if not has_valid_json_output(retry_text):
-                        results[original_idx] = ValueError("Invalid JSON model output after retry")
+                        error = ValueError("Invalid JSON model output after retry")
+                        failed += 1
+                        failures.append((task, error))
                         _print_invalid_json_output(task["task_label"], retry_text)
                         continue
-                    results[original_idx] = _write_output(
+                    _write_output(
                         task["task_label"],
                         task,
                         retry_text,
                     )
+                    successful += 1
         except Exception as e:
             task_labels = [task["task_label"] for _, task in batch_map]
             joined_task_labels = ", ".join(task_labels)
             _print_exception(joined_task_labels, e)
-            for original_idx, _ in batch_map:
-                results[original_idx] = e
+            failed += len(batch_map)
+            for _, task in batch_map:
+                failures.append((task, e))
+
+    if not found_any:
+        if task_type == TASK_TYPE_PDFS:
+            print(f"No matching .txt files found in subdirectories of {WORKS_BASE_DIR}")
+        else:
+            print(f"No matching works found in {SEARCH_RESULTS_DIR} from {SEARCH_RESULTS_CSV_PATTERN}")
+        return
 
     end_time = time.perf_counter()
     total_elapsed = end_time - start_time
 
     print("\n" + "=" * 60)
-    successful = sum(1 for r in results if r and not isinstance(r, Exception))
-    failed = len(results) - successful
     print(f"✨ Processing complete!")
-    print(f"   Successful: {successful}/{len(results)}")
-    print(f"   Failed: {failed}/{len(results)}")
+    print(f"   Successful: {successful}/{task_count}")
+    print(f"   Failed: {failed}/{task_count}")
     print(f"   Total tasks: {task_count}")
     print(f"   Total time: {total_elapsed:.2f}s")
     print("=" * 60)
 
-    for task, result in zip(tasks, results):
-        if isinstance(result, Exception):
-            if result.__traceback__ is None:
-                print(f"❌ Error processing {task['task_label']}: {result}")
+    for task, result in failures:
+        if result.__traceback__ is None:
+            print(f"❌ Error processing {task['task_label']}: {result}")
 
 
 def main():
@@ -389,3 +370,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
