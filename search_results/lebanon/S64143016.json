@@ -4,7 +4,7 @@
     "doi": "https://doi.org/10.1111/1467-8675.12736",
     "title": "Manifesting the revolutionary people: The Yellow Vest Movement and popular sovereignty",
     "display_name": "Manifesting the revolutionary people: The Yellow Vest Movement and popular sovereignty",
-    "relevance_score": 0.34632072,
+    "relevance_score": 0.40282193,
     "publication_year": 2024,
     "publication_date": "2024-01-29",
     "ids": {
@@ -70,7 +70,7 @@
             "display_name": "Centre National de la Recherche Scientifique",
             "ror": "https://ror.org/02feahw73",
             "country_code": "FR",
-            "type": "funder",
+            "type": "government",
             "lineage": [
               "https://openalex.org/I1294671590"
             ]
@@ -97,9 +97,10 @@
         "raw_author_name": "Samuel Hayat",
         "raw_affiliation_strings": [
           "Center for Political Research at Sciences Po (CEVIPOF) National Center for Scientific Research (CNRS)  Paris France",
-          "Center for Political Research at Sciences Po (CEVIPOF), 27 rue Saint-Guillaume, 75007, Paris, France",
-          "Center for Political Research at Sciences Po (CEVIPOF), National Center for Scientific Research (CNRS), Paris, France"
+          "Center for Political Research at Sciences Po (CEVIPOF), National Center for Scientific Research (CNRS), Paris, France",
+          "Center for Political Research at Sciences Po (CEVIPOF), 27 rue Saint-Guillaume, 75007, Paris, France"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Center for Political Research at Sciences Po (CEVIPOF) National Center for Scientific Research (CNRS)  Paris France",
@@ -109,14 +110,16 @@
             ]
           },
           {
-            "raw_affiliation_string": "Center for Political Research at Sciences Po (CEVIPOF), 27 rue Saint-Guillaume, 75007, Paris, France",
-            "institution_ids": []
-          },
-          {
             "raw_affiliation_string": "Center for Political Research at Sciences Po (CEVIPOF), National Center for Scientific Research (CNRS), Paris, France",
             "institution_ids": [
               "https://openalex.org/I4210116867",
               "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Political Research at Sciences Po (CEVIPOF), 27 rue Saint-Guillaume, 75007, Paris, France",
+            "institution_ids": [
+              "https://openalex.org/I4210116867"
             ]
           }
         ]
@@ -142,17 +145,17 @@
       "currency": "USD",
       "value_usd": 2630
     },
-    "fwci": 2.3412,
-    "has_fulltext": false,
-    "cited_by_count": 2,
+    "fwci": 3.1651,
+    "has_fulltext": true,
+    "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.87651621,
+      "value": 0.90986086,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
       "min": 95,
-      "max": 96
+      "max": 98
     },
     "biblio": {
       "volume": "31",
@@ -436,16 +439,18 @@
         "landing_page_url": "https://shs.hal.science/halshs-04448736",
         "pdf_url": "https://shs.hal.science/halshs-04448736v1/document",
         "source": {
-          "id": "https://openalex.org/S4406922466",
-          "display_name": "SPIRE - Sciences Po Institutional REpository",
+          "id": "https://openalex.org/S4306402512",
+          "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
           "issn_l": null,
           "issn": null,
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "host_organization": null,
-          "host_organization_name": null,
-          "host_organization_lineage": [],
+          "host_organization": "https://openalex.org/I1294671590",
+          "host_organization_name": "Centre National de la Recherche Scientifique",
+          "host_organization_lineage": [
+            "https://openalex.org/I1294671590"
+          ],
           "host_organization_lineage_names": [],
           "type": "repository"
         },
@@ -454,8 +459,8 @@
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
-        "raw_source_name": "ISSN: 1351-0487",
-        "raw_type": "info:eu-repo/semantics/article"
+        "raw_source_name": "Constellations, 2024, 31 (4), pp.640-660. &#x27E8;10.1111/1467-8675.12736&#x27E9;",
+        "raw_type": "Journal articles"
       }
     ],
     "best_oa_location": {
@@ -503,10 +508,11 @@
     "funders": [],
     "has_content": {
       "pdf": true,
-      "grobid_xml": false
+      "grobid_xml": true
     },
     "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4391323268.pdf"
+      "pdf": "https://content.openalex.org/works/W4391323268.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4391323268.grobid-xml"
     },
     "referenced_works_count": 124,
     "referenced_works": [
@@ -6193,11 +6199,15 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
         "year": 2025,
         "cited_by_count": 2
       }
     ],
-    "updated_date": "2025-12-30T23:08:21.542490",
+    "updated_date": "2026-05-07T13:39:58.223016",
     "created_date": "2025-10-10T00:00:00"
   }
 ]

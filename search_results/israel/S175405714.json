@@ -4,7 +4,7 @@
     "doi": "https://doi.org/10.1093/oxfordjournals.ejil.a035844",
     "title": "The Israeli-Palestinian Declaration of Principles: A Framework for Future Settlement",
     "display_name": "The Israeli-Palestinian Declaration of Principles: A Framework for Future Settlement",
-    "relevance_score": 275.58078,
+    "relevance_score": 276.30508,
     "publication_year": 1993,
     "publication_date": "1993-01-01",
     "ids": {
@@ -124,16 +124,16 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 9.76770865,
-    "has_fulltext": false,
+    "fwci": 10.8566,
+    "has_fulltext": true,
     "cited_by_count": 77,
     "citation_normalized_percentile": {
-      "value": 0.97779339,
+      "value": 0.97971758,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 89,
+      "min": 90,
       "max": 99
     },
     "biblio": {
@@ -342,7 +342,7 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1093/oxfordjournals.ejil.a035844",
@@ -381,11 +381,51 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:open-archive.highwire.org:ejilaw:4/1/542",
+        "is_oa": false,
+        "landing_page_url": "http://ejil.oxfordjournals.org/cgi/content/short/4/1/542",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4406923041",
+          "display_name": "HighWire Press Open Archive",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "TEXT"
+      },
+      {
         "id": "pmh:oai:open-archive.highwire.org:ejilaw:4/4/542",
         "is_oa": false,
         "landing_page_url": "http://ejil.oxfordjournals.org/cgi/content/short/4/4/542",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4406923041",
+          "display_name": "HighWire Press Open Archive",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
         "license": null,
         "license_id": null,
         "version": "submittedVersion",
@@ -434,15 +474,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.7400000095367432,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.7400000095367432
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2124128083.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2124128083.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -700,7 +744,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-01-15T23:16:33.117629",
+    "updated_date": "2026-04-05T17:49:38.594831",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -708,7 +752,7 @@
     "doi": "https://doi.org/10.1093/ejil/7.4.485",
     "title": "Some Basic Aspects of the Agreements Between Israel and the PLO from the Perspective of International Law",
     "display_name": "Some Basic Aspects of the Agreements Between Israel and the PLO from the Perspective of International Law",
-    "relevance_score": 241.48018,
+    "relevance_score": 244.22806,
     "publication_year": 1996,
     "publication_date": "1996-01-01",
     "ids": {
@@ -771,8 +815,21 @@
           "display_name": "Peter Malanczuk",
           "orcid": null
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210091705",
+            "display_name": "School of International Relations",
+            "ror": "https://ror.org/00hvbx079",
+            "country_code": "IR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210091705"
+            ]
+          }
+        ],
+        "countries": [
+          "IR"
+        ],
         "is_corresponding": true,
         "raw_author_name": "P. Malanczuk",
         "raw_affiliation_strings": [
@@ -781,18 +838,22 @@
         "affiliations": [
           {
             "raw_affiliation_string": "Department of International Relations and Public International Law, Faculty of Political and Socio-Cultural Sciences, University of Amsterdam",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I4210091705"
+            ]
           }
         ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5068077087"
     ],
-    "corresponding_institution_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210091705"
+    ],
     "apc_list": {
       "value": 2673,
       "currency": "GBP",
@@ -803,7 +864,7 @@
     "has_fulltext": false,
     "cited_by_count": 82,
     "citation_normalized_percentile": {
-      "value": 0.17352467,
+      "value": 0.16876986,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -1069,7 +1130,20 @@
         "is_oa": false,
         "landing_page_url": "http://ejil.oxfordjournals.org/cgi/content/short/7/4/485",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4406923041",
+          "display_name": "HighWire Press Open Archive",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
         "license": null,
         "license_id": null,
         "version": "submittedVersion",
@@ -1118,15 +1192,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/17",
-        "score": 0.5,
-        "display_name": "Partnerships for the goals"
+        "display_name": "Partnerships for the goals",
+        "score": 0.5
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W1974710144.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W1974710144.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -1568,7 +1646,7 @@
         "cited_by_count": 19
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-02-24T19:35:01.260952",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -1576,7 +1654,7 @@
     "doi": "https://doi.org/10.1093/oxfordjournals.ejil.a035846",
     "title": "The Israel-PLO Agreement and Self-Determination",
     "display_name": "The Israel-PLO Agreement and Self-Determination",
-    "relevance_score": 241.42723,
+    "relevance_score": 242.61356,
     "publication_year": 1993,
     "publication_date": "1993-01-01",
     "ids": {
@@ -1684,11 +1762,11 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 3.90708346,
+    "fwci": 4.3426,
     "has_fulltext": false,
     "cited_by_count": 45,
     "citation_normalized_percentile": {
-      "value": 0.94508533,
+      "value": 0.94949631,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -1818,7 +1896,7 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1093/oxfordjournals.ejil.a035846",
@@ -1857,11 +1935,51 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:open-archive.highwire.org:ejilaw:4/1/564",
+        "is_oa": false,
+        "landing_page_url": "http://ejil.oxfordjournals.org/cgi/content/short/4/1/564",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4406923041",
+          "display_name": "HighWire Press Open Archive",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "TEXT"
+      },
+      {
         "id": "pmh:oai:open-archive.highwire.org:ejilaw:4/4/564",
         "is_oa": false,
         "landing_page_url": "http://ejil.oxfordjournals.org/cgi/content/short/4/4/564",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4406923041",
+          "display_name": "HighWire Press Open Archive",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
         "license": null,
         "license_id": null,
         "version": "submittedVersion",
@@ -1875,16 +1993,17 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.7799999713897705,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.7799999713897705
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
@@ -2055,7 +2174,7 @@
         "cited_by_count": 2
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-04-05T17:49:38.594831",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -2063,7 +2182,7 @@
     "doi": "https://doi.org/10.1093/ejil/14.3.591",
     "title": "Problems under the EC-Israel Association Agreement: The Export of Goods Produced in the West Bank and the Gaza Strip under the EC-Israel Association Agreement",
     "display_name": "Problems under the EC-Israel Association Agreement: The Export of Goods Produced in the West Bank and the Gaza Strip under the EC-Israel Association Agreement",
-    "relevance_score": 136.53328,
+    "relevance_score": 136.63197,
     "publication_year": 2003,
     "publication_date": "2003-06-01",
     "ids": {
@@ -2147,11 +2266,11 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 4.09401943,
+    "fwci": 4.2957,
     "has_fulltext": false,
     "cited_by_count": 14,
     "citation_normalized_percentile": {
-      "value": 0.95163835,
+      "value": 0.95389333,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -2464,15 +2583,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/17",
-        "score": 0.5299999713897705,
-        "display_name": "Partnerships for the goals"
+        "display_name": "Partnerships for the goals",
+        "score": 0.5299999713897705
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2164938449.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2164938449.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -2904,7 +3027,7 @@
     "doi": "https://doi.org/10.1093/ejil/2.1.97",
     "title": "The Expulsion of Civilians from Areas which came under Israeli Control in 1967: Some Legal Issues",
     "display_name": "The Expulsion of Civilians from Areas which came under Israeli Control in 1967: Some Legal Issues",
-    "relevance_score": 108.074036,
+    "relevance_score": 108.648125,
     "publication_year": 1991,
     "publication_date": "1991-01-01",
     "ids": {
@@ -2992,7 +3115,7 @@
     "has_fulltext": false,
     "cited_by_count": 15,
     "citation_normalized_percentile": {
-      "value": 0.38072928,
+      "value": 0.37748767,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -3194,7 +3317,20 @@
         "is_oa": false,
         "landing_page_url": "http://ejil.oxfordjournals.org/cgi/content/short/2/1/97",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4406923041",
+          "display_name": "HighWire Press Open Archive",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
         "license": null,
         "license_id": null,
         "version": "submittedVersion",
@@ -3208,16 +3344,17 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.8199999928474426,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.8199999928474426
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
@@ -4069,7 +4206,7 @@
     "doi": "https://doi.org/10.1093/ejil/chz044",
     "title": "The Unintended Consequences of the Goldstone Commission of Inquiry on Human Rights Organizations in Israel",
     "display_name": "The Unintended Consequences of the Goldstone Commission of Inquiry on Human Rights Organizations in Israel",
-    "relevance_score": 88.70889,
+    "relevance_score": 89.27182,
     "publication_year": 2019,
     "publication_date": "2019-08-01",
     "ids": {
@@ -4177,11 +4314,11 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 2.20450161,
+    "fwci": 2.0401,
     "has_fulltext": false,
     "cited_by_count": 6,
     "citation_normalized_percentile": {
-      "value": 0.90599905,
+      "value": 0.90655164,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -4481,16 +4618,17 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.800000011920929,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.800000011920929
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
@@ -5137,7 +5275,7 @@
     "doi": "https://doi.org/10.1093/ejil/chac070",
     "title": "Israeli Courts and the Paradox of International Human Rights Law",
     "display_name": "Israeli Courts and the Paradox of International Human Rights Law",
-    "relevance_score": 58.122375,
+    "relevance_score": 58.214664,
     "publication_year": 2022,
     "publication_date": "2022-11-01",
     "ids": {
@@ -5219,6 +5357,7 @@
         "raw_affiliation_strings": [
           "Senior Lecturer, Buchmann Faculty of Law, Tel Aviv University , Israel"
         ],
+        "raw_orcid": "https://orcid.org/0000-0003-0698-5843",
         "affiliations": [
           {
             "raw_affiliation_string": "Senior Lecturer, Buchmann Faculty of Law, Tel Aviv University , Israel",
@@ -5255,6 +5394,7 @@
         "raw_affiliation_strings": [
           "Senior Lecturer, Ono Academic College Faculty of Law , Ono , Israel"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Senior Lecturer, Ono Academic College Faculty of Law , Ono , Israel",
@@ -5280,16 +5420,16 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 0.91974676,
+    "fwci": 0.8375,
     "has_fulltext": false,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.82767495,
+      "value": 0.8345428,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
-      "min": 89,
+      "min": 90,
       "max": 94
     },
     "biblio": {
@@ -5491,16 +5631,17 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/5",
-        "score": 0.7799999713897705,
-        "display_name": "Gender equality"
+        "display_name": "Gender equality",
+        "score": 0.7799999713897705
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
@@ -5829,7 +5970,7 @@
     "doi": "https://doi.org/10.1093/ejil/chr070",
     "title": "Editorial: The Birth of Israel and Palestine - The Ifs of History, Then and Now; Junior Faculty Forum for International Law; The Last Page and Roaming Charges; Eric Stein RIP; In this Issue",
     "display_name": "Editorial: The Birth of Israel and Palestine - The Ifs of History, Then and Now; Junior Faculty Forum for International Law; The Last Page and Roaming Charges; Eric Stein RIP; In this Issue",
-    "relevance_score": 56.00964,
+    "relevance_score": 56.18598,
     "publication_year": 2011,
     "publication_date": "2011-08-01",
     "ids": {
@@ -5915,7 +6056,7 @@
     "has_fulltext": false,
     "cited_by_count": 4,
     "citation_normalized_percentile": {
-      "value": 0.92701165,
+      "value": 0.92803309,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -6200,15 +6341,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.699999988079071,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.699999988079071
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2339093415.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2339093415.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -6915,7 +7060,7 @@
     "doi": "https://doi.org/10.1093/ejil/chq074",
     "title": "Victor Kattan. From Coexistence to Conquest, International Law and the Origins of the Arab-Israeli Conflict, 1891-1949",
     "display_name": "Victor Kattan. From Coexistence to Conquest, International Law and the Origins of the Arab-Israeli Conflict, 1891-1949",
-    "relevance_score": 55.19096,
+    "relevance_score": 55.134422,
     "publication_year": 2010,
     "publication_date": "2010-11-01",
     "ids": {
@@ -7023,11 +7168,11 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 1.85711181,
+    "fwci": 1.8643,
     "has_fulltext": false,
     "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.90617271,
+      "value": 0.90888498,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -7188,16 +7333,17 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.8100000023841858,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.8100000023841858
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
@@ -7925,7 +8071,7 @@
     "doi": "https://doi.org/10.1093/ejil/chi114",
     "title": "Targeted Killing of Suspected Terrorists: Extra-Judicial Executions or Legitimate Means of Defence?",
     "display_name": "Targeted Killing of Suspected Terrorists: Extra-Judicial Executions or Legitimate Means of Defence?",
-    "relevance_score": 27.71995,
+    "relevance_score": 27.416239,
     "publication_year": 2005,
     "publication_date": "2005-04-01",
     "ids": {
@@ -8033,11 +8179,11 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 67.39802238,
+    "fwci": 71.4085,
     "has_fulltext": true,
     "cited_by_count": 267,
     "citation_normalized_percentile": {
-      "value": 0.99897224,
+      "value": 0.99901079,
       "is_in_top_1_percent": true,
       "is_in_top_10_percent": true
     },
@@ -8377,20 +8523,24 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.8100000023841858,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.8100000023841858
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2039699715.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2039699715.grobid-xml"
     },
     "referenced_works_count": 3,
     "referenced_works": [
-      "https://openalex.org/W1998107597",
       "https://openalex.org/W1941272225",
+      "https://openalex.org/W1998107597",
       "https://openalex.org/W2044879745"
     ],
     "related_works": [
@@ -8893,7 +9043,7 @@
     "doi": "https://doi.org/10.1093/ejil/cht045",
     "title": "Apartheid, International Law, and the Occupied Palestinian Territory",
     "display_name": "Apartheid, International Law, and the Occupied Palestinian Territory",
-    "relevance_score": 20.367401,
+    "relevance_score": 21.368155,
     "publication_year": 2013,
     "publication_date": "2013-08-01",
     "ids": {
@@ -9046,8 +9196,8 @@
       "https://openalex.org/A5050481055"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I42934936",
-      "https://openalex.org/I188760350"
+      "https://openalex.org/I188760350",
+      "https://openalex.org/I42934936"
     ],
     "apc_list": {
       "value": 2673,
@@ -9055,16 +9205,16 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 10.24563863,
+    "fwci": 11.174,
     "has_fulltext": false,
-    "cited_by_count": 96,
+    "cited_by_count": 97,
     "citation_normalized_percentile": {
-      "value": 0.97932763,
+      "value": 0.97980568,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 89,
+      "min": 90,
       "max": 100
     },
     "biblio": {
@@ -9187,7 +9337,7 @@
       }
     ],
     "mesh": [],
-    "locations_count": 3,
+    "locations_count": 4,
     "locations": [
       {
         "id": "doi:10.1093/ejil/cht045",
@@ -9224,6 +9374,35 @@
         "is_published": true,
         "raw_source_name": "European Journal of International Law",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:mural.maynoothuniversity.ie:11736",
+        "is_oa": false,
+        "landing_page_url": null,
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4377196372",
+          "display_name": "MURAL - Maynooth University Research Archive Library (National University of Ireland, Maynooth)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I157286207",
+          "host_organization_name": "National University of Ireland, Maynooth",
+          "host_organization_lineage": [
+            "https://openalex.org/I157286207"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "PeerReviewed"
       },
       {
         "id": "pmh:oai:aran.library.nuigalway.ie/:10379/11287",
@@ -9288,23 +9467,24 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.7300000190734863,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.7300000190734863
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
+    "content_urls": null,
     "referenced_works_count": 5,
     "referenced_works": [
       "https://openalex.org/W140504388",
-      "https://openalex.org/W4318057995",
+      "https://openalex.org/W2602775811",
       "https://openalex.org/W2943613236",
       "https://openalex.org/W3114279907",
-      "https://openalex.org/W2602775811"
+      "https://openalex.org/W4318057995"
     ],
     "related_works": [
       "https://openalex.org/W2748952813",
@@ -9589,7 +9769,7 @@
     "counts_by_year": [
       {
         "year": 2025,
-        "cited_by_count": 10
+        "cited_by_count": 11
       },
       {
         "year": 2024,
@@ -9636,7 +9816,7 @@
         "cited_by_count": 6
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-04-04T16:13:02.066488",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -9644,7 +9824,7 @@
     "doi": "https://doi.org/10.1093/oxfordjournals.ejil.a035845",
     "title": "Can the Declaration of Principles Bring About a \u2018Just and Lasting Peace\u2019?",
     "display_name": "Can the Declaration of Principles Bring About a \u2018Just and Lasting Peace\u2019?",
-    "relevance_score": 15.12761,
+    "relevance_score": 15.064296,
     "publication_year": 1993,
     "publication_date": "1993-01-01",
     "ids": {
@@ -9735,16 +9915,16 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 1.95354173,
+    "fwci": 2.1713,
     "has_fulltext": false,
     "cited_by_count": 39,
     "citation_normalized_percentile": {
-      "value": 0.90781372,
+      "value": 0.91414823,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 93,
+      "min": 94,
       "max": 96
     },
     "biblio": {
@@ -9926,7 +10106,7 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1093/oxfordjournals.ejil.a035845",
@@ -9965,11 +10145,51 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:open-archive.highwire.org:ejilaw:4/1/555",
+        "is_oa": false,
+        "landing_page_url": "http://ejil.oxfordjournals.org/cgi/content/short/4/1/555",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4406923041",
+          "display_name": "HighWire Press Open Archive",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "",
+        "raw_type": "TEXT"
+      },
+      {
         "id": "pmh:oai:open-archive.highwire.org:ejilaw:4/4/555",
         "is_oa": false,
         "landing_page_url": "http://ejil.oxfordjournals.org/cgi/content/short/4/4/555",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4406923041",
+          "display_name": "HighWire Press Open Archive",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
         "license": null,
         "license_id": null,
         "version": "submittedVersion",
@@ -9983,16 +10203,17 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.75,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.75
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
@@ -10222,7 +10443,7 @@
         "cited_by_count": 2
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-04-05T17:49:38.594831",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -10230,7 +10451,7 @@
     "doi": "https://doi.org/10.1093/ejil/14.2.241",
     "title": "Speaking Law to Power: The War Against Terrorism and Human Rights",
     "display_name": "Speaking Law to Power: The War Against Terrorism and Human Rights",
-    "relevance_score": 12.57637,
+    "relevance_score": 12.533751,
     "publication_year": 2003,
     "publication_date": "2003-04-01",
     "ids": {
@@ -10338,11 +10559,11 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 17.74075086,
+    "fwci": 19.4893,
     "has_fulltext": false,
-    "cited_by_count": 94,
+    "cited_by_count": 96,
     "citation_normalized_percentile": {
-      "value": 0.98753314,
+      "value": 0.98847422,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -10680,15 +10901,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/10",
-        "score": 0.6899999976158142,
-        "display_name": "Reduced inequalities"
+        "display_name": "Reduced inequalities",
+        "score": 0.6899999976158142
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2061263445.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2061263445.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -11411,6 +11636,10 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 2
+      },
+      {
         "year": 2025,
         "cited_by_count": 1
       },
@@ -11463,7 +11692,7 @@
         "cited_by_count": 6
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-03-17T09:09:15.849793",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -11471,7 +11700,7 @@
     "doi": "https://doi.org/10.1093/ejil/chaa058",
     "title": "Editorial: Gender in Academic Publishing; The Legality of the Israeli Annexation \u2013 Redux; In This Issue",
     "display_name": "Editorial: Gender in Academic Publishing; The Legality of the Israeli Annexation \u2013 Redux; In This Issue",
-    "relevance_score": 11.815091,
+    "relevance_score": 11.926163,
     "publication_year": 2020,
     "publication_date": "2020-09-01",
     "ids": {
@@ -11770,7 +11999,7 @@
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.47707847,
+      "value": 0.47763482,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -11982,30 +12211,34 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/5",
-        "score": 0.7699999809265137,
-        "display_name": "Gender equality"
+        "display_name": "Gender equality",
+        "score": 0.7699999809265137
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4244627021.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4244627021.grobid-xml"
     },
     "referenced_works_count": 12,
     "referenced_works": [
-      "https://openalex.org/W2945105471",
-      "https://openalex.org/W6720170752",
-      "https://openalex.org/W2337002970",
-      "https://openalex.org/W6634951214",
-      "https://openalex.org/W2899230772",
+      "https://openalex.org/W1584542065",
       "https://openalex.org/W2062679799",
-      "https://openalex.org/W6751728895",
+      "https://openalex.org/W2337002970",
       "https://openalex.org/W2593318751",
       "https://openalex.org/W2802278572",
-      "https://openalex.org/W1584542065",
+      "https://openalex.org/W2899230772",
+      "https://openalex.org/W2945105471",
       "https://openalex.org/W3097704947",
-      "https://openalex.org/W3123539112"
+      "https://openalex.org/W3123539112",
+      "https://openalex.org/W6634951214",
+      "https://openalex.org/W6720170752",
+      "https://openalex.org/W6751728895"
     ],
     "related_works": [
       "https://openalex.org/W2748952813",
@@ -12972,7 +13205,7 @@
     "doi": "https://doi.org/10.1093/ejil/cht012",
     "title": "Differentiated Statehood? 'Pre-States'? Palestine@the UN; EJIL and EJIL: Talk!; The Strange Case of Dr. Ivana Radacic; Looking Back at EJIL 2012 - The Stats; Changes in the Masthead - Our Scientific Advisory Board; In this Issue",
     "display_name": "Differentiated Statehood? 'Pre-States'? Palestine@the UN; EJIL and EJIL: Talk!; The Strange Case of Dr. Ivana Radacic; Looking Back at EJIL 2012 - The Stats; Changes in the Masthead - Our Scientific Advisory Board; In this Issue",
-    "relevance_score": 11.154067,
+    "relevance_score": 11.186635,
     "publication_year": 2013,
     "publication_date": "2013-02-01",
     "ids": {
@@ -13039,11 +13272,11 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 4.65710847,
+    "fwci": 4.9411,
     "has_fulltext": false,
     "cited_by_count": 8,
     "citation_normalized_percentile": {
-      "value": 0.94691884,
+      "value": 0.94583469,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -13268,15 +13501,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.7799999713897705,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.7799999713897705
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W294405176.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W294405176.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -14136,7 +14373,7 @@
     "doi": "https://doi.org/10.1093/ejil/chaa055",
     "title": "Negotiating the Illegal: On the United Nations and the Illegal Occupation of Palestine, 1967\u20132020",
     "display_name": "Negotiating the Illegal: On the United Nations and the Illegal Occupation of Palestine, 1967\u20132020",
-    "relevance_score": 10.199206,
+    "relevance_score": 10.255681,
     "publication_year": 2020,
     "publication_date": "2020-08-01",
     "ids": {
@@ -14251,11 +14488,11 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 4.26560128,
+    "fwci": 4.3197,
     "has_fulltext": true,
-    "cited_by_count": 29,
+    "cited_by_count": 30,
     "citation_normalized_percentile": {
-      "value": 0.94959167,
+      "value": 0.9515717,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -14619,30 +14856,34 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.7400000095367432,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.7400000095367432
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W3123895834.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W3123895834.grobid-xml"
     },
     "referenced_works_count": 12,
     "referenced_works": [
-      "https://openalex.org/W6633628746",
-      "https://openalex.org/W4388059432",
-      "https://openalex.org/W6600234630",
-      "https://openalex.org/W2170438529",
-      "https://openalex.org/W4205678686",
-      "https://openalex.org/W2316887777",
-      "https://openalex.org/W4254949309",
       "https://openalex.org/W788455812",
       "https://openalex.org/W1546928793",
       "https://openalex.org/W1557437414",
+      "https://openalex.org/W2170438529",
+      "https://openalex.org/W2316887777",
+      "https://openalex.org/W2893174838",
+      "https://openalex.org/W4205678686",
+      "https://openalex.org/W4254949309",
       "https://openalex.org/W4297962907",
-      "https://openalex.org/W2893174838"
+      "https://openalex.org/W4388059432",
+      "https://openalex.org/W6600234630",
+      "https://openalex.org/W6633628746"
     ],
     "related_works": [
       "https://openalex.org/W2375846091",
@@ -15118,6 +15359,10 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
         "year": 2025,
         "cited_by_count": 9
       },
@@ -15138,7 +15383,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-03-25T14:56:36.534964",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -15146,7 +15391,7 @@
     "doi": "https://doi.org/10.1093/ejil/chad013",
     "title": "Editorial: Israel: Cry, the Beloved Country; Vital Statistics; Book Review EditorS; In This Issue; In This Issue \u2013 Reviews",
     "display_name": "Editorial: Israel: Cry, the Beloved Country; Vital Statistics; Book Review EditorS; In This Issue; In This Issue \u2013 Reviews",
-    "relevance_score": 10.028885,
+    "relevance_score": 10.08182,
     "publication_year": 2023,
     "publication_date": "2023-02-01",
     "ids": {
@@ -15213,10 +15458,10 @@
     },
     "apc_paid": null,
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.11174331,
+      "value": 0.10765418,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -15386,8 +15631,12 @@
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4380152974.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4380152974.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -15405,7 +15654,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2025-12-21T23:12:01.093139",
+    "updated_date": "2026-01-23T23:20:30.427331",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -15413,7 +15662,7 @@
     "doi": "https://doi.org/10.1093/ejil/cht043",
     "title": "Apartheid, International Law, and the Occupied Palestinian Territory: A Reply to John Dugard and John Reynolds",
     "display_name": "Apartheid, International Law, and the Occupied Palestinian Territory: A Reply to John Dugard and John Reynolds",
-    "relevance_score": 7.3461895,
+    "relevance_score": 7.2719984,
     "publication_year": 2013,
     "publication_date": "2013-08-01",
     "ids": {
@@ -15497,11 +15746,11 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": 6.20583232,
+    "fwci": 6.3996,
     "has_fulltext": false,
     "cited_by_count": 14,
     "citation_normalized_percentile": {
-      "value": 0.9603318,
+      "value": 0.96033844,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -15855,15 +16104,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.7699999809265137,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.7699999809265137
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W1967862504.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W1967862504.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -16405,7 +16658,7 @@
     "doi": "https://doi.org/10.1093/oxfordjournals.ejil.a015567",
     "title": "Sir Hersch Lauterpacht: An Appraisal",
     "display_name": "Sir Hersch Lauterpacht: An Appraisal",
-    "relevance_score": 6.258247,
+    "relevance_score": 6.228374,
     "publication_year": 1997,
     "publication_date": "1997-01-01",
     "ids": {
@@ -16524,7 +16777,7 @@
     "has_fulltext": false,
     "cited_by_count": 17,
     "citation_normalized_percentile": {
-      "value": 0.30583769,
+      "value": 0.30043582,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -16788,7 +17041,20 @@
         "is_oa": false,
         "landing_page_url": "http://ejil.oxfordjournals.org/cgi/content/short/8/2/299",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4406923041",
+          "display_name": "HighWire Press Open Archive",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
         "license": null,
         "license_id": null,
         "version": "submittedVersion",
@@ -16837,15 +17103,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.6499999761581421,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.6499999761581421
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2100985450.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2100985450.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -17617,7 +17887,7 @@
     "doi": "https://doi.org/10.1093/oxfordjournals.ejil.a015609",
     "title": "The Role of National Courts in Preventing Torture of Suspected Terrorists",
     "display_name": "The Role of National Courts in Preventing Torture of Suspected Terrorists",
-    "relevance_score": 4.8237295,
+    "relevance_score": 5.0573616,
     "publication_year": 1997,
     "publication_date": "1997-01-01",
     "ids": {
@@ -17727,15 +17997,15 @@
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
-    "cited_by_count": 6,
+    "cited_by_count": 7,
     "citation_normalized_percentile": {
-      "value": 0.2655261,
+      "value": 0.25593507,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
       "min": 89,
-      "max": 94
+      "max": 99
     },
     "biblio": {
       "volume": "8",
@@ -17936,7 +18206,20 @@
         "is_oa": false,
         "landing_page_url": "http://ejil.oxfordjournals.org/cgi/content/short/8/4/596",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4406923041",
+          "display_name": "HighWire Press Open Archive",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
         "license": null,
         "license_id": null,
         "version": "submittedVersion",
@@ -17985,15 +18268,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.8299999833106995,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.8299999833106995
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2081546450.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2081546450.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -18598,6 +18885,10 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
         "year": 2023,
         "cited_by_count": 1
       },
@@ -18622,7 +18913,7 @@
     "doi": "https://doi.org/10.1093/ejil/cht003",
     "title": "Eyal Benvenisti. The International Law of Occupation",
     "display_name": "Eyal Benvenisti. The International Law of Occupation",
-    "relevance_score": 3.6538224,
+    "relevance_score": 3.6369624,
     "publication_year": 2013,
     "publication_date": "2013-02-01",
     "ids": {
@@ -18734,7 +19025,7 @@
     "has_fulltext": false,
     "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.19357361,
+      "value": 0.19423554,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -18923,15 +19214,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.6499999761581421,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.6499999761581421
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W1972955914.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W1972955914.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -19647,7 +19942,7 @@
     "doi": "https://doi.org/10.1093/ejil/cht017",
     "title": "Preface",
     "display_name": "Preface",
-    "relevance_score": 1.9621272,
+    "relevance_score": 1.9321861,
     "publication_year": 2013,
     "publication_date": "2013-02-01",
     "ids": {
@@ -19744,11 +20039,18 @@
       "value_usd": 3278
     },
     "apc_paid": null,
-    "fwci": null,
+    "fwci": 2.4613,
     "has_fulltext": false,
     "cited_by_count": 1,
-    "citation_normalized_percentile": null,
-    "cited_by_percentile_year": null,
+    "citation_normalized_percentile": {
+      "value": 0.93689028,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 94
+    },
     "biblio": {
       "volume": "24",
       "issue": "1",
@@ -19758,8 +20060,76 @@
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
-    "primary_topic": null,
-    "topics": [],
+    "primary_topic": {
+      "id": "https://openalex.org/T12957",
+      "display_name": "War, Ethics, and Justification",
+      "score": 0.6179999709129333,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12957",
+        "display_name": "War, Ethics, and Justification",
+        "score": 0.6179999709129333,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13902",
+        "display_name": "Indian History and Philosophy",
+        "score": 0.02239999920129776,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10883",
+        "display_name": "Ethics and Social Impacts of AI",
+        "score": 0.010099999606609344,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3311",
+          "display_name": "Safety Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
     "keywords": [
       {
         "id": "https://openalex.org/keywords/philosophy",
@@ -19856,8 +20226,12 @@
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4245734953.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4245734953.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -20979,7 +21353,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-03-03T08:47:05.690250",
     "created_date": "2022-05-12T00:00:00"
   },
   {
@@ -20987,7 +21361,7 @@
     "doi": "https://doi.org/10.1093/ejil/cht005",
     "title": "Chantal Meloni and Gianni Tognoni (eds). Is There a Court for Gaza? A Test Bench for International Justice",
     "display_name": "Chantal Meloni and Gianni Tognoni (eds). Is There a Court for Gaza? A Test Bench for International Justice",
-    "relevance_score": 0.9814777,
+    "relevance_score": 0.97537297,
     "publication_year": 2013,
     "publication_date": "2013-02-01",
     "ids": {
@@ -21101,7 +21475,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.19211965,
+      "value": 0.19275157,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -21359,15 +21733,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.8299999833106995,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.8299999833106995
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W1969174354.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W1969174354.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -22049,7 +22427,7 @@
     "doi": "https://doi.org/10.1093/ejil/chae041",
     "title": "Law, War and Letter Writing",
     "display_name": "Law, War and Letter Writing",
-    "relevance_score": 0.78094244,
+    "relevance_score": 0.7695854,
     "publication_year": 2024,
     "publication_date": "2024-08-01",
     "ids": {
@@ -22101,7 +22479,7 @@
       "is_oa": true,
       "oa_status": "hybrid",
       "oa_url": "https://academic.oup.com/ejil/advance-article-pdf/doi/10.1093/ejil/chae041/58914190/chae041.pdf",
-      "any_repository_has_fulltext": false
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -22116,6 +22494,7 @@
         "is_corresponding": true,
         "raw_author_name": "Madelaine Chiam",
         "raw_affiliation_strings": [],
+        "raw_orcid": "https://orcid.org/0000-0002-1792-765X",
         "affiliations": []
       },
       {
@@ -22130,6 +22509,7 @@
         "is_corresponding": false,
         "raw_author_name": "Monique Cormier",
         "raw_affiliation_strings": [],
+        "raw_orcid": "https://orcid.org/0000-0001-9273-1641",
         "affiliations": []
       },
       {
@@ -22144,6 +22524,7 @@
         "is_corresponding": false,
         "raw_author_name": "Anna Hood",
         "raw_affiliation_strings": [],
+        "raw_orcid": "https://orcid.org/0000-0002-9970-5910",
         "affiliations": []
       }
     ],
@@ -22165,10 +22546,10 @@
       "value_usd": 3278
     },
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.22929683,
+      "value": 0.21296351,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -22399,10 +22780,10 @@
         "raw_type": "journal-article"
       },
       {
-        "id": "pmh:oai:monash.edu:openaire/0e90a117-c42e-4d08-9279-4ba148ef7705",
+        "id": "pmh:oai:monash.edu:publications/0e90a117-c42e-4d08-9279-4ba148ef7705",
         "is_oa": true,
         "landing_page_url": "https://research.monash.edu/en/publications/0e90a117-c42e-4d08-9279-4ba148ef7705",
-        "pdf_url": null,
+        "pdf_url": "https://researchmgt.monash.edu/ws/files/685326122/619570724-oa.pdf",
         "source": {
           "id": "https://openalex.org/S4306402625",
           "display_name": "Monash University Research Portal (Monash University)",
@@ -22432,13 +22813,28 @@
         "is_oa": true,
         "landing_page_url": "https://hdl.handle.net/2292/70659",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S7407055463",
+          "display_name": "ResearchSpace (University of Auckland)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/I154130895",
+          "host_organization_name": "University of Auckland",
+          "host_organization_lineage": [
+            "https://openalex.org/I154130895"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
-        "raw_source_name": "",
+        "raw_source_name": null,
         "raw_type": "Journal Article"
       }
     ],
@@ -22481,15 +22877,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.6299999952316284,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.6299999952316284
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4401856209.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4401856209.grobid-xml"
     },
     "referenced_works_count": 3,
     "referenced_works": [
@@ -22955,7 +23355,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2025-12-27T23:08:20.325037",
+    "updated_date": "2026-03-27T05:58:40.876381",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -22963,7 +23363,7 @@
     "doi": "https://doi.org/10.1093/ejil/chv032",
     "title": "Reut Yael Paz. A Gateway between a Distant God and a Cruel World: The Contribution of Jewish German-Speaking Scholars to International Law",
     "display_name": "Reut Yael Paz. A Gateway between a Distant God and a Cruel World: The Contribution of Jewish German-Speaking Scholars to International Law",
-    "relevance_score": 0.7374375,
+    "relevance_score": 0.732368,
     "publication_year": 2015,
     "publication_date": "2015-05-01",
     "ids": {
@@ -23075,9 +23475,9 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.22591483,
+      "value": 0.2374309,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
@@ -23364,15 +23764,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.6100000143051147,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.6100000143051147
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2338597457.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2338597457.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -23969,7 +24373,7 @@
     "doi": "https://doi.org/10.1093/ejil/chs031",
     "title": "Orna Ben-Naftali (ed.). International Humanitarian Law and International Human Rights Law. Oxford: Oxford University Press. 2011. Pp. 424. \u00a060. ISBN: 9780191001604.",
     "display_name": "Orna Ben-Naftali (ed.). International Humanitarian Law and International Human Rights Law. Oxford: Oxford University Press. 2011. Pp. 424. \u00a060. ISBN: 9780191001604.",
-    "relevance_score": 0.66756475,
+    "relevance_score": 0.6648437,
     "publication_year": 2012,
     "publication_date": "2012-05-01",
     "ids": {
@@ -24028,9 +24432,9 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5002880426",
+          "id": "https://openalex.org/A5069409998",
           "display_name": "Marina Mancini",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-4175-8769"
         },
         "institutions": [
           {
@@ -24052,6 +24456,7 @@
         "raw_affiliation_strings": [
           "Senior Lecturer in International Law, Mediterranean University of Reggio Calabria"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Senior Lecturer in International Law, Mediterranean University of Reggio Calabria",
@@ -24066,7 +24471,7 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5002880426"
+      "https://openalex.org/A5069409998"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I26840924"
@@ -24081,7 +24486,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.27291014,
+      "value": 0.26453663,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -24285,7 +24690,20 @@
         "is_oa": false,
         "landing_page_url": "http://ejil.oxfordjournals.org/cgi/content/short/23/2/595",
         "pdf_url": null,
-        "source": null,
+        "source": {
+          "id": "https://openalex.org/S4406923041",
+          "display_name": "HighWire Press Open Archive",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
         "license": null,
         "license_id": null,
         "version": "submittedVersion",
@@ -24299,16 +24717,17 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.8100000023841858,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.8100000023841858
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
@@ -24982,7 +25401,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-05-04T08:30:34.212998",
     "created_date": "2016-06-24T00:00:00"
   },
   {
@@ -24990,7 +25409,7 @@
     "doi": "https://doi.org/10.1093/ejil/chr012",
     "title": "Andrea Carcano. L'occupazione dell'Iraq nel diritto internazionale",
     "display_name": "Andrea Carcano. L'occupazione dell'Iraq nel diritto internazionale",
-    "relevance_score": 0.6671264,
+    "relevance_score": 0.6634202,
     "publication_year": 2011,
     "publication_date": "2011-02-01",
     "ids": {
@@ -25043,7 +25462,7 @@
       "is_oa": true,
       "oa_status": "bronze",
       "oa_url": "https://academic.oup.com/ejil/article-pdf/22/1/288/1199828/chr012.pdf",
-      "any_repository_has_fulltext": false
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -25102,7 +25521,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.26311227,
+      "value": 0.25798299,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -25413,15 +25832,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.7900000214576721,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.7900000214576721
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2084763592.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2084763592.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -26119,7 +26542,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-03-20T23:20:44.827607",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -26127,7 +26550,7 @@
     "doi": "https://doi.org/10.1093/ejil/cht079",
     "title": "Crime and Punishment: The Reification and Deification of the State (A Footnote to the Syria Debate); House-keeping: Anonymity; In this Issue",
     "display_name": "Crime and Punishment: The Reification and Deification of the State (A Footnote to the Syria Debate); House-keeping: Anonymity; In this Issue",
-    "relevance_score": 0.5847399,
+    "relevance_score": 0.57874155,
     "publication_year": 2013,
     "publication_date": "2013-11-01",
     "ids": {
@@ -26213,7 +26636,7 @@
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.31783062,
+      "value": 0.33289782,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -26526,15 +26949,19 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.8299999833106995,
-        "display_name": "Peace, Justice and strong institutions"
+        "display_name": "Peace, Justice and strong institutions",
+        "score": 0.8299999833106995
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W2341668140.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W2341668140.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -26551,874 +26978,905 @@
       "https://openalex.org/W1537687061"
     ],
     "abstract_inverted_index": {
-      "The": [
+      "When": [
         0
       ],
-      "Reification": [
-        1
+      "I": [
+        1,
+        40
       ],
-      "and": [
-        2,
-        84
+      "studied": [
+        2
       ],
-      "Deification": [
+      "international": [
         3
       ],
-      "of": [
-        4,
-        37,
-        58,
-        62,
-        126,
-        153,
-        205,
-        241,
-        245,
-        249,
-        258,
-        276,
-        288,
-        298,
-        330,
-        367,
-        377,
-        379,
-        386
+      "law": [
+        4
       ],
-      "the": [
+      "as": [
         5,
-        10,
+        118,
+        210,
+        274,
+        308
+      ],
+      "a": [
+        6,
+        19,
         35,
-        59,
-        105,
-        127,
-        146,
-        150,
-        156,
-        178,
-        181,
-        191,
-        203,
-        224,
-        239,
-        255,
-        259,
-        295,
-        319,
-        324,
-        334,
-        341,
-        352,
-        360,
-        368,
-        372,
-        382
+        84,
+        119,
+        208,
+        217,
+        275,
+        309
       ],
-      "State": [
-        6
-      ],
-      "(A": [
+      "student": [
         7
       ],
-      "Footnote": [
+      "close": [
         8
       ],
       "to": [
         9,
-        21,
-        142,
-        169,
-        187,
-        218,
-        264,
-        273,
-        310,
-        347
-      ],
-      "Syria": [
-        11
-      ],
-      "Debate)When": [
-        12
-      ],
-      "I": [
-        13
-      ],
-      "studied": [
-        14
-      ],
-      "international": [
-        15
-      ],
-      "law": [
-        16
-      ],
-      "as": [
-        17,
-        123,
-        208,
-        269,
-        301
-      ],
-      "a": [
-        18,
-        31,
-        46,
-        93,
-        124,
-        206,
-        215,
-        270,
-        302
-      ],
-      "student": [
-        19
-      ],
-      "close": [
-        20
-      ],
-      "40": [
-        22
-      ],
-      "years": [
-        23,
-        361
-      ],
-      "ago": [
-        24
-      ],
-      "at": [
-        25,
-        55,
-        68,
-        90,
-        121,
-        333
-      ],
-      "Cambridge": [
-        26
-      ],
-      "(East),": [
-        27
-      ],
-      "Naulilaa": [
-        28,
-        144,
-        283
-      ],
-      "was": [
-        29,
-        139,
-        193,
-        285,
-        287,
-        292,
-        316,
-        322,
-        381
-      ],
-      "still": [
-        30
-      ],
-      "central": [
-        32
-      ],
-      "case": [
-        33,
-        179
-      ],
-      "in": [
-        34,
-        44,
-        92,
-        171,
-        185,
-        238,
-        261,
-        313,
-        351,
-        362
-      ],
-      "study": [
-        36
-      ],
-      "jus": [
-        38
-      ],
-      "ad": [
-        39
-      ],
-      "bellum.It": [
-        40
-      ],
-      "would": [
-        41,
-        167
-      ],
-      "be": [
-        42,
-        66,
-        163
-      ],
-      "found": [
-        43
-      ],
-      "many": [
-        45
-      ],
-      "'casebook'": [
-        47
-      ],
-      "or": [
-        48,
-        119,
-        180,
-        183,
-        278
-      ],
-      "course": [
-        49,
-        85,
-        289
-      ],
-      "pack.I": [
-        50
-      ],
-      "am": [
-        51
-      ],
-      "pretty": [
-        52
-      ],
-      "sure": [
-        53
-      ],
-      "that": [
-        54,
-        97,
-        108,
-        159,
-        223,
-        321,
-        375
-      ],
-      "least": [
-        56
-      ],
-      "some": [
-        57,
-        172
-      ],
-      "younger": [
-        60
-      ],
-      "readers": [
-        61
-      ],
-      "this": [
-        63,
-        69,
-        314
-      ],
-      "Editorial": [
-        64
-      ],
-      "will": [
-        65
-      ],
-      "googling": [
-        67
-      ],
-      "very": [
-        70,
-        140
-      ],
-      "moment": [
-        71
-      ],
-      "-Naulilaa,": [
-        72
-      ],
-      "what's": [
-        73
-      ],
-      "that?This": [
-        74
-      ],
-      "is": [
-        75,
-        107,
-        155,
-        197,
-        222,
-        281
-      ],
-      "significant,": [
-        76
-      ],
-      "for": [
-        77,
-        96,
-        214,
-        306,
-        374
-      ],
-      "it": [
-        78,
-        99,
-        109,
         138,
-        194,
-        227,
-        291
-      ],
-      "has": [
-        79
-      ],
-      "largely": [
-        80
-      ],
-      "vanished": [
-        81
-      ],
-      "from": [
-        82,
-        115,
-        211
-      ],
-      "casebooks": [
-        83
-      ],
-      "packs,": [
-        86
-      ],
-      "only": [
-        87,
-        318
-      ],
-      "appearing,": [
-        88
-      ],
-      "if": [
-        89
-      ],
-      "all,": [
-        91
-      ],
-      "footnote.What": [
-        94
-      ],
-      "accounts": [
-        95
-      ],
-      "demise?Was": [
-        98
-      ],
-      "superseded": [
-        100
-      ],
-      "by": [
-        101
-      ],
-      "other": [
-        102,
-        356,
-        363
-      ],
-      "cases?Not": [
-        103
-      ],
-      "exactly.For": [
-        104
-      ],
-      "truth": [
-        106
-      ],
-      "should": [
-        110
-      ],
-      "really": [
-        111,
-        284
-      ],
-      "have": [
-        112,
         168,
-        354
-      ],
-      "been": [
-        113,
+        186,
+        220,
+        269,
+        278,
+        317,
         355
       ],
-      "expunged": [
-        114
+      "40": [
+        10
       ],
-      "those": [
-        116
+      "years": [
+        11,
+        370
       ],
-      "early": [
-        117
+      "ago": [
+        12
       ],
-      "books,": [
-        118
+      "at": [
+        13,
+        45,
+        58,
+        81,
+        116,
+        341
       ],
-      "appeared": [
-        120
+      "Cambridge": [
+        14
       ],
-      "best": [
-        122
+      "(East),": [
+        15
       ],
-      "relic": [
-        125,
-        131
+      "Naulilaa": [
+        16,
+        140,
+        289,
+        398
       ],
-      "pre-Charter": [
-        128
+      "was": [
+        17,
+        135,
+        193,
+        291,
+        293,
+        299,
+        324,
+        330,
+        391
       ],
-      "era": [
-        129
+      "still": [
+        18
       ],
-      "-a": [
-        130
+      "central": [
+        20
       ],
-      "with": [
-        132,
-        145,
-        190
+      "case": [
+        21,
+        178
       ],
-      "an": [
-        133,
-        229,
+      "in": [
+        22,
+        33,
+        83,
+        170,
+        184,
         242,
-        250
+        266,
+        320,
+        359,
+        371
       ],
-      "unpleasant": [
-        134
+      "the": [
+        23,
+        49,
+        100,
+        122,
+        142,
+        146,
+        153,
+        177,
+        180,
+        190,
+        205,
+        227,
+        243,
+        260,
+        264,
+        302,
+        327,
+        332,
+        342,
+        349,
+        360,
+        369,
+        378,
+        382,
+        392
       ],
-      "colonial": [
-        135
+      "study": [
+        24
       ],
-      "odour.Already": [
-        136
+      "of": [
+        25,
+        48,
+        52,
+        121,
+        149,
+        207,
+        245,
+        249,
+        253,
+        263,
+        282,
+        294,
+        305,
+        338,
+        377,
+        387,
+        389,
+        396
       ],
-      "then": [
-        137
+      "jus": [
+        26
       ],
-      "difficult": [
-        141
+      "ad": [
+        27
       ],
-      "square": [
-        143,
-        188
+      "bellum.": [
+        28
       ],
-      "Charter": [
-        147,
-        182,
-        225
+      "It": [
+        29,
+        203,
+        323
       ],
-      "regime": [
-        148
-      ],
-      "concerning": [
-        149
-      ],
-      "legitimate": [
-        151,
-        271
-      ],
-      "use": [
-        152,
-        244,
-        378
-      ],
-      "force.Where": [
-        154
-      ],
-      "armed": [
-        157,
-        251
-      ],
-      "attack?Could": [
-        158
-      ],
-      "punitive": [
-        160
-      ],
-      "raid": [
-        161
-      ],
-      "plausibly": [
-        162
-      ],
-      "called": [
-        164
-      ],
-      "self": [
-        165
-      ],
-      "defence?One": [
+      "would": [
+        30,
         166
       ],
+      "be": [
+        31,
+        56,
+        161
+      ],
+      "found": [
+        32
+      ],
+      "many": [
+        34
+      ],
+      "'casebook'": [
+        36
+      ],
+      "or": [
+        37,
+        114,
+        179,
+        182,
+        284
+      ],
+      "course": [
+        38,
+        76,
+        295
+      ],
+      "pack.": [
+        39
+      ],
+      "am": [
+        41
+      ],
+      "pretty": [
+        42
+      ],
+      "sure": [
+        43
+      ],
+      "that": [
+        44,
+        89,
+        103,
+        157,
+        226,
+        329,
+        385
+      ],
+      "least": [
+        46
+      ],
+      "some": [
+        47,
+        171
+      ],
+      "younger": [
+        50
+      ],
+      "readers": [
+        51
+      ],
+      "this": [
+        53,
+        59,
+        321
+      ],
+      "Editorial": [
+        54
+      ],
+      "will": [
+        55
+      ],
+      "googling": [
+        57
+      ],
+      "very": [
+        60,
+        136
+      ],
+      "moment": [
+        61
+      ],
+      "-Naulilaa,": [
+        62
+      ],
+      "what's": [
+        63
+      ],
+      "that?": [
+        64
+      ],
+      "This": [
+        65
+      ],
+      "is": [
+        66,
+        102,
+        152,
+        198,
+        225,
+        287
+      ],
+      "significant,": [
+        67
+      ],
+      "for": [
+        68,
+        88,
+        216,
+        313,
+        384
+      ],
+      "it": [
+        69,
+        92,
+        104,
+        134,
+        194,
+        230,
+        298
+      ],
+      "has": [
+        70
+      ],
+      "largely": [
+        71
+      ],
+      "vanished": [
+        72
+      ],
+      "from": [
+        73,
+        110,
+        213
+      ],
+      "casebooks": [
+        74
+      ],
+      "and": [
+        75
+      ],
+      "packs,": [
+        77
+      ],
+      "only": [
+        78,
+        326
+      ],
+      "appearing,": [
+        79
+      ],
+      "if": [
+        80
+      ],
+      "all,": [
+        82
+      ],
+      "footnote.": [
+        85
+      ],
+      "What": [
+        86,
+        238
+      ],
+      "accounts": [
+        87
+      ],
+      "demise?": [
+        90
+      ],
+      "Was": [
+        91
+      ],
+      "superseded": [
+        93
+      ],
+      "by": [
+        94
+      ],
+      "other": [
+        95,
+        365,
+        372
+      ],
+      "cases?": [
+        96
+      ],
+      "Not": [
+        97
+      ],
+      "exactly.": [
+        98
+      ],
+      "For": [
+        99
+      ],
+      "truth": [
+        101
+      ],
+      "should": [
+        105
+      ],
+      "really": [
+        106,
+        290
+      ],
+      "have": [
+        107,
+        167,
+        363
+      ],
+      "been": [
+        108,
+        364
+      ],
+      "expunged": [
+        109
+      ],
+      "those": [
+        111
+      ],
+      "early": [
+        112
+      ],
+      "books,": [
+        113
+      ],
+      "appeared": [
+        115
+      ],
+      "best": [
+        117
+      ],
+      "relic": [
+        120,
+        126
+      ],
+      "pre-Charter": [
+        123
+      ],
+      "era": [
+        124
+      ],
+      "-a": [
+        125
+      ],
+      "with": [
+        127,
+        141,
+        189
+      ],
+      "an": [
+        128,
+        232,
+        246,
+        254
+      ],
+      "unpleasant": [
+        129
+      ],
+      "colonial": [
+        130
+      ],
+      "odour.": [
+        131
+      ],
+      "Already": [
+        132
+      ],
+      "then": [
+        133
+      ],
+      "difficult": [
+        137
+      ],
+      "square": [
+        139,
+        187
+      ],
+      "Charter": [
+        143,
+        181,
+        228
+      ],
+      "regime": [
+        144
+      ],
+      "concerning": [
+        145
+      ],
+      "legitimate": [
+        147,
+        276
+      ],
+      "use": [
+        148,
+        248,
+        388
+      ],
+      "force.": [
+        150
+      ],
+      "Where": [
+        151
+      ],
+      "armed": [
+        154,
+        255
+      ],
+      "attack?": [
+        155,
+        256
+      ],
+      "Could": [
+        156
+      ],
+      "punitive": [
+        158
+      ],
+      "raid": [
+        159
+      ],
+      "plausibly": [
+        160
+      ],
+      "called": [
+        162
+      ],
+      "self": [
+        163
+      ],
+      "defence?": [
+        164
+      ],
+      "One": [
+        165
+      ],
       "engage": [
-        170
+        169
       ],
       "serious": [
-        173
+        172
       ],
       "lexical": [
-        174
+        173
       ],
       "violence": [
-        175
+        174
       ],
       "towards": [
-        176
+        175
       ],
       "either": [
-        177
+        176
       ],
       "both": [
-        184
+        183
       ],
       "order": [
-        186
+        185
       ],
       "one": [
-        189,
-        236,
-        329
+        188,
+        240,
+        337
       ],
-      "other.Why": [
+      "other.": [
+        191
+      ],
+      "Why": [
         192
       ],
       "there": [
         195
       ],
-      "then?Inertia": [
+      "then?": [
         196
       ],
+      "Inertia": [
+        197
+      ],
       "one,": [
-        198
+        199
       ],
       "not": [
-        199,
-        317
-      ],
-      "implausible,": [
-        200
-      ],
-      "possibility.It": [
-        201
-      ],
-      "takes": [
-        202
-      ],
-      "demise": [
-        204
-      ],
-      "generation,": [
-        207
-      ],
-      "we": [
-        209
-      ],
-      "learnt": [
-        210
-      ],
-      "Thomas": [
-        212
-      ],
-      "Kuhn,": [
-        213
-      ],
-      "paradigm": [
-        216
-      ],
-      "truly": [
-        217
-      ],
-      "shift.Another": [
-        219
-      ],
-      "intriguing": [
-        220
-      ],
-      "possibility": [
-        221
-      ],
-      "notwithstanding,": [
-        226
-      ],
-      "reflected": [
-        228
-      ],
-      "occasional": [
-        230
-      ],
-      "but": [
-        231
-      ],
-      "persistent": [
-        232
-      ],
-      "state": [
-        233
-      ],
-      "practice.What": [
-        234
-      ],
-      "does": [
-        235
-      ],
-      "do": [
-        237
-      ],
-      "face": [
-        240
-      ],
-      "illegal": [
-        243
-      ],
-      "force": [
-        246,
-        380
-      ],
-      "falling": [
-        247
-      ],
-      "short": [
-        248
-      ],
-      "attack?We": [
-        252
-      ],
-      "all": [
-        253
-      ],
-      "remember": [
-        254
-      ],
-      "tortured": [
-        256
-      ],
-      "reasoning": [
-        257
-      ],
-      "ICJ": [
-        260,
-        320
-      ],
-      "Nicaragua,": [
-        262
-      ],
-      "trying": [
-        263
-      ],
-      "address": [
-        265
-      ],
-      "what": [
-        266,
-        282
-      ],
-      "might": [
-        267
-      ],
-      "count": [
-        268
-      ],
-      "response": [
-        272
-      ],
-      "such.To": [
-        274
-      ],
-      "talk": [
-        275
-      ],
-      "punishment": [
-        277
-      ],
-      "reprisal,": [
-        279
-      ],
-      "which": [
-        280
-      ],
-      "about,": [
-        286
-      ],
-      "taboo.So": [
-        290
-      ],
-      "squeezed": [
-        293
-      ],
-      "into": [
-        294
-      ],
-      "ill-fitting": [
-        296
-      ],
-      "jacket": [
-        297
-      ],
-      "self-defence,": [
-        299
-      ],
-      "though": [
-        300
-      ],
-      "bastard": [
-        303
-      ],
-      "son": [
-        304
-      ],
-      "with,": [
-        305
-      ],
-      "example,": [
-        307
-      ],
-      "no": [
-        308
-      ],
-      "recourse": [
-        309
-      ],
-      "collective": [
-        311
-      ],
-      "self-defence": [
-        312
-      ],
-      "instance.It": [
-        315
-      ],
-      "discomfited:": [
-        323
-      ],
-      "late": [
+        200,
         325
       ],
-      "Sir": [
-        326
+      "implausible,": [
+        201
       ],
-      "Derek": [
-        327
+      "possibility.": [
+        202
       ],
-      "Bowett,": [
-        328
+      "takes": [
+        204
       ],
-      "my": [
-        331
+      "demise": [
+        206
       ],
-      "teachers": [
-        332
+      "generation,": [
+        209
       ],
-      "time,": [
-        335
+      "we": [
+        211
       ],
-      "spoke": [
-        336
+      "learnt": [
+        212
       ],
-      "(and": [
-        337
+      "Thomas": [
+        214
       ],
-      "wrote)": [
-        338
+      "Kuhn,": [
+        215
       ],
-      "illuminatingly": [
-        339
+      "paradigm": [
+        218
       ],
-      "about": [
-        340
+      "truly": [
+        219
       ],
-      "seemingly": [
-        342
+      "shift.": [
+        221
       ],
-      "contradictory": [
-        343
+      "Another": [
+        222
       ],
-      "Security": [
-        344
+      "intriguing": [
+        223
       ],
-      "Council": [
-        345
+      "possibility": [
+        224
       ],
-      "responses": [
-        346
+      "notwithstanding,": [
+        229
       ],
-      "Israeli": [
-        348
+      "reflected": [
+        231
       ],
-      "reprisal": [
-        349
+      "occasional": [
+        233
       ],
-      "raids": [
-        350
+      "but": [
+        234
       ],
-      "1960s.There": [
-        353
+      "persistent": [
+        235
       ],
-      "similar": [
-        357
+      "state": [
+        236
       ],
-      "uses": [
-        358
+      "practice.": [
+        237
       ],
-      "over": [
-        359,
-        371
+      "does": [
+        239
       ],
-      "arenas.The": [
-        364
+      "do": [
+        241
       ],
-      "surface": [
-        365
+      "face": [
+        244
       ],
-      "language": [
-        366
+      "illegal": [
+        247
       ],
-      "justification": [
-        369
-      ],
-      "offered": [
-        370
-      ],
-      "decades": [
-        373
-      ],
-      "type": [
-        376
-      ],
-      "same": [
-        383
-      ],
-      "rubbery": [
-        384
-      ],
-      "rendition": [
-        385
-      ],
-      "self-defence.Naulilaa": [
-        387
-      ],
-      "represents": [
-        388
-      ],
-      "their": [
-        389
-      ],
-      "real": [
+      "force": [
+        250,
         390
       ],
+      "falling": [
+        251
+      ],
+      "short": [
+        252
+      ],
+      "We": [
+        257
+      ],
+      "all": [
+        258
+      ],
+      "remember": [
+        259
+      ],
+      "tortured": [
+        261
+      ],
+      "reasoning": [
+        262
+      ],
+      "ICJ": [
+        265,
+        328
+      ],
+      "Nicaragua,": [
+        267
+      ],
+      "trying": [
+        268
+      ],
+      "address": [
+        270
+      ],
+      "what": [
+        271,
+        288
+      ],
+      "might": [
+        272
+      ],
+      "count": [
+        273
+      ],
+      "response": [
+        277
+      ],
+      "such.": [
+        279
+      ],
+      "To": [
+        280
+      ],
+      "talk": [
+        281
+      ],
+      "punishment": [
+        283
+      ],
+      "reprisal,": [
+        285
+      ],
+      "which": [
+        286
+      ],
+      "about,": [
+        292
+      ],
+      "taboo.": [
+        296
+      ],
+      "So": [
+        297
+      ],
+      "squeezed": [
+        300
+      ],
+      "into": [
+        301
+      ],
+      "ill-fitting": [
+        303
+      ],
+      "jacket": [
+        304
+      ],
+      "self-defence,": [
+        306
+      ],
+      "though": [
+        307
+      ],
+      "bastard": [
+        310
+      ],
+      "son": [
+        311
+      ],
+      "with,": [
+        312
+      ],
+      "example,": [
+        314
+      ],
+      "no": [
+        315
+      ],
+      "recourse": [
+        316
+      ],
+      "collective": [
+        318
+      ],
+      "self-defence": [
+        319
+      ],
+      "instance.": [
+        322
+      ],
+      "discomfited:": [
+        331
+      ],
+      "late": [
+        333
+      ],
+      "Sir": [
+        334
+      ],
+      "Derek": [
+        335
+      ],
+      "Bowett,": [
+        336
+      ],
+      "my": [
+        339
+      ],
+      "teachers": [
+        340
+      ],
+      "time,": [
+        343
+      ],
+      "spoke": [
+        344
+      ],
+      "(and": [
+        345
+      ],
+      "wrote)": [
+        346
+      ],
+      "illuminatingly": [
+        347
+      ],
+      "about": [
+        348
+      ],
+      "seemingly": [
+        350
+      ],
+      "contradictory": [
+        351
+      ],
+      "Security": [
+        352
+      ],
+      "Council": [
+        353
+      ],
+      "responses": [
+        354
+      ],
+      "Israeli": [
+        356
+      ],
+      "reprisal": [
+        357
+      ],
+      "raids": [
+        358
+      ],
+      "1960s.": [
+        361
+      ],
+      "There": [
+        362
+      ],
+      "similar": [
+        366
+      ],
+      "uses": [
+        367
+      ],
+      "over": [
+        368,
+        381
+      ],
+      "arenas.": [
+        373
+      ],
+      "The": [
+        374
+      ],
+      "surface": [
+        375
+      ],
+      "language": [
+        376
+      ],
+      "justification": [
+        379
+      ],
+      "offered": [
+        380
+      ],
+      "decades": [
+        383
+      ],
+      "type": [
+        386
+      ],
+      "same": [
+        393
+      ],
+      "rubbery": [
+        394
+      ],
+      "rendition": [
+        395
+      ],
+      "self-defence.": [
+        397
+      ],
+      "represents": [
+        399
+      ],
+      "their": [
+        400
+      ],
+      "real": [
+        401
+      ],
       "deep": [
-        391
+        402
       ],
       "structure.": [
-        392
+        403
       ]
     },
     "counts_by_year": [],

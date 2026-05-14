@@ -1,5 +1,7 @@
 import asyncio
 import csv
+import datetime
+import email.utils
 import json
 import sys
 from pathlib import Path
@@ -12,23 +14,23 @@ CONCURRENCY = 1
 RATE_LIMIT = 10  # per second
 OUTPUT_BASE_DIR = Path("search_results")
 KEYWORDS = [
-    #"israel",
-    #"australia",
-    #"france",
-    #"belgium",
-    #"syria",
-    #"lebanon",
-    #"egypt",
-    #"iraq",
+    "israel",
+    "australia",
+    "france",
+    "belgium",
+    "syria",
+    "lebanon",
+    "egypt",
+    "iraq",
     "(\"south africa\")",
-    #"germany",
-    #"japan",
-    #"italy",
-    #"(\"united states\" OR usa)",
-    #"spain",
-    #"jordan",
-    #"algeria",
-    #"switzerland",
+    "germany",
+    "japan",
+    "italy",
+    "(\"united states\" OR usa)",
+    "spain",
+    "jordan",
+    "algeria",
+    "switzerland",
 ]
 
 OUTPUT_BASE_DIR.mkdir(exist_ok=True)
@@ -45,21 +47,60 @@ def _normalize_keyword(keyword):
     return normalized.strip("_")
 
 
-async def fetch_page(session, source_id, keyword, page, rate_limiter):
-    async with rate_limiter:
-        url = f"https://api.openalex.org/works"
-        params = {
-            'page': page,
-            'filter': f'title_and_abstract.search:{keyword},primary_location.source.id:{source_id}',
-            'per_page': 100,
-            'mailto': 'reallyliri@gmail.com'
-        }
+def _parse_retry_after_seconds(retry_after_value):
+    if not retry_after_value:
+        return None
 
-        async with session.get(url, params=params) as response:
-            if response.status != 200:
-                raise Exception(f"HTTP {response.status} for source {source_id}, page {page}")
-            data = await response.json()
-            return data
+    try:
+        return max(0.0, float(retry_after_value))
+    except ValueError:
+        pass
+
+    try:
+        retry_at = email.utils.parsedate_to_datetime(retry_after_value)
+    except (TypeError, ValueError, IndexError, OverflowError):
+        return None
+
+    if retry_at.tzinfo is None:
+        retry_at = retry_at.replace(tzinfo=datetime.timezone.utc)
+
+    now = datetime.datetime.now(datetime.timezone.utc)
+    return max(0.0, (retry_at - now).total_seconds())
+
+
+async def fetch_page(session, source_id, keyword, page, rate_limiter):
+    while True:
+        async with rate_limiter:
+            url = f"https://api.openalex.org/works"
+            params = {
+                'page': page,
+                'filter': f'title_and_abstract.search:{keyword},primary_location.source.id:{source_id}',
+                'per_page': 100,
+                'mailto': 'reallyliri@gmail.com'
+            }
+
+            async with session.get(url, params=params) as response:
+                if response.status == 429:
+                    retry_after_seconds = _parse_retry_after_seconds(
+                        response.headers.get("Retry-After")
+                    )
+                    if retry_after_seconds is None:
+                        raise Exception(
+                            f"HTTP 429 for source {source_id}, page {page} without a valid Retry-After header"
+                        )
+
+                    retry_after_hours = retry_after_seconds / 3600
+                    print(
+                        f"HTTP 429 for source {source_id}, page {page}. "
+                        f"Retry-After: {retry_after_hours:.2f} hours. Waiting..."
+                    )
+                    await asyncio.sleep(retry_after_seconds)
+                    continue
+
+                if response.status != 200:
+                    raise Exception(f"HTTP {response.status} for source {source_id}, page {page}")
+                data = await response.json()
+                return data
 
 
 async def process_source_id(session, source_id, keyword, output_dir, semaphore, rate_limiter):

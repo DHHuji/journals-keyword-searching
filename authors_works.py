@@ -17,7 +17,9 @@ RATE_LIMIT = 10
 def _load_search_results_work_ids():
     work_ids = set()
     results_dir = Path(RESULTS_DIR)
-    for json_file in results_dir.glob('*.json'):
+    for json_file in results_dir.glob('**/*.json'):
+        if json_file.name == 'llm_outputs.json':
+            continue
         with open(json_file, 'r', encoding='utf-8') as f:
             json_data = json.load(f)
             for item in json_data:
@@ -45,7 +47,11 @@ def _extract_author_works(json_data):
     return author_works
 
 
-def _extract_work_data_for_author(item, authorship, search_work_ids):
+def _clean_author_name(name):
+    return name.strip("'\"ʻʼ'ʽ`´") if name else ''
+
+
+def _extract_work_data_for_author(item, authorship, authorship_index, search_work_ids):
     row = {}
 
     openalex_prefix = 'https://openalex.org/'
@@ -60,27 +66,22 @@ def _extract_work_data_for_author(item, authorship, search_work_ids):
     row['journal_name'] = source.get('display_name', '') if source else ''
 
     raw_name = authorship.get('raw_author_name', '')
-    row['author_name'] = raw_name.strip("'\"ʻʼ'ʽ`´") if raw_name else ''
+    row['author_name'] = _clean_author_name(raw_name)
 
+    author_id = ''
     author = authorship.get('author', {})
     if author:
-        author_id = author.get('id', '')
-        if author_id:
-            author_id = author_id.replace(openalex_prefix, '')
-    row['author_id'] = author_id if author_id else ''
+        author_id = (author.get('id', '') or '').replace(openalex_prefix, '')
+    row['author_id'] = author_id
 
-    # Collect other author names from the work
     other_authors = []
-    current_author_id = row['author_id']
-    for other_authorship in item.get('authorships', []):
-        other_author = other_authorship.get('author', {})
-        if other_author:
-            other_id = (other_author.get('id', '') or '').replace(openalex_prefix, '')
-            if other_id != current_author_id:  # Skip current author
-                other_name = other_authorship.get('raw_author_name', '')
-                if other_name:
-                    other_authors.append(other_name.strip("'\"ʻʼ'ʽ`´"))
-    row['additional_author_names'] = ';'.join(other_authors)
+    for other_index, other_authorship in enumerate(item.get('authorships', [])):
+        if other_index == authorship_index:
+            continue
+        other_name = _clean_author_name(other_authorship.get('raw_author_name', ''))
+        if other_name:
+            other_authors.append(other_name)
+    row['others'] = ';'.join(other_authors)
 
     institutions = authorship.get('institutions', [])
     all_institutions = []
@@ -175,27 +176,18 @@ def main():
     search_work_ids = _load_search_results_work_ids()
     print(f"Found {len(search_work_ids)} unique work IDs in search results")
 
-    print("Loading search results author IDs...")
-    search_author_ids = set()
-    for json_file in results_dir.glob('*.json'):
-        print(f"Processing {json_file.name}...")
+    for json_file in results_dir.glob('**/*.json'):
+        if json_file.name == 'llm_outputs.json':
+            continue
+        print(f"Processing {json_file.relative_to(results_dir)}...")
         with open(json_file, 'r', encoding='utf-8') as f:
             json_data = json.load(f)
             all_json_data.extend(json_data)
-            # Extract author IDs from search results
-            for item in json_data:
-                for authorship in item.get('authorships', []):
-                    author = authorship.get('author', {})
-                    if author:
-                        author_id = (author.get('id', '') or '').replace('https://openalex.org/', '')
-                        if author_id:
-                            search_author_ids.add(author_id)
 
     author_works_from_search = _extract_author_works(all_json_data)
     unique_author_ids = list(author_works_from_search.keys())
 
     print(f"Found {len(unique_author_ids)} unique authors in search results")
-    print(f"Found {len(search_author_ids)} total author IDs from search results")
 
     if unique_author_ids:
         print(f"Fetching all works for {len(unique_author_ids)} authors from OpenAlex API...")
@@ -210,25 +202,22 @@ def main():
                 for work in works:
                     work_id = (work.get('id', '') or '').replace('https://openalex.org/', '')
                     if work_id:
-                        for authorship in work.get('authorships', []):
+                        for authorship_index, authorship in enumerate(work.get('authorships', [])):
                             author = authorship.get('author', {})
-                            if author:
-                                current_author_id = (author.get('id', '') or '').replace('https://openalex.org/', '')
-                                # Only include authors that were in the original search results
-                                if current_author_id in search_author_ids:
-                                    pair_key = (work_id, current_author_id)
+                            current_author_id = (author.get('id', '') or '').replace('https://openalex.org/', '')
+                            pair_key = (work_id, current_author_id, authorship_index)
 
-                                    if pair_key not in seen_work_author_pairs:
-                                        seen_work_author_pairs.add(pair_key)
-                                        work_data = _extract_work_data_for_author(work, authorship, search_work_ids)
-                                        if work_data['id']:
-                                            output_rows.append(work_data)
+                            if pair_key not in seen_work_author_pairs:
+                                seen_work_author_pairs.add(pair_key)
+                                work_data = _extract_work_data_for_author(work, authorship, authorship_index, search_work_ids)
+                                if work_data['id'] and work_data['author_name']:
+                                    output_rows.append(work_data)
 
         if output_rows:
             with open(OUTPUT_AUTHORS_FILE, 'w', newline='', encoding='utf-8') as csvfile:
                 fieldnames = [
                     'id', 'doi', 'title', 'publication_date', 'source_id',
-                    'journal_name', 'author_name', 'author_id', 'additional_author_names', 'institutions', 'countries',
+                    'journal_name', 'author_name', 'author_id', 'others', 'institutions', 'countries',
                     'affiliations_comment', 'cited_by_count', 'keywords', 'references_israel'
                 ]
                 writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)

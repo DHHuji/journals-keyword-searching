@@ -4,7 +4,7 @@
     "doi": "https://doi.org/10.1177/0191453710375589",
     "title": "The racialization of Muslim veils: A philosophical analysis",
     "display_name": "The racialization of Muslim veils: A philosophical analysis",
-    "relevance_score": 31.764914,
+    "relevance_score": 31.967836,
     "publication_year": 2010,
     "publication_date": "2010-10-01",
     "ids": {
@@ -52,10 +52,10 @@
       "crossref"
     ],
     "open_access": {
-      "is_oa": false,
-      "oa_status": "closed",
-      "oa_url": null,
-      "any_repository_has_fulltext": false
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://philpapers.org/archive/ALSTRO-2.pdf",
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -85,6 +85,7 @@
         "raw_affiliation_strings": [
           "Department of Philosophy, McGill University, Canada,"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Department of Philosophy, McGill University, Canada,",
@@ -106,16 +107,16 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 106.6508,
-    "has_fulltext": false,
-    "cited_by_count": 243,
+    "fwci": 107.9964,
+    "has_fulltext": true,
+    "cited_by_count": 246,
     "citation_normalized_percentile": {
-      "value": 0.99891267,
+      "value": 0.99888984,
       "is_in_top_1_percent": true,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 97,
+      "min": 98,
       "max": 100
     },
     "biblio": {
@@ -446,7 +447,7 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1177/0191453710375589",
@@ -481,23 +482,106 @@
         "is_published": true,
         "raw_source_name": "Philosophy &amp; Social Criticism",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:philarchive.org/rec/ALSTRO-2",
+        "is_oa": true,
+        "landing_page_url": "https://philarchive.org/rec/ALSTRO-2",
+        "pdf_url": "https://philpapers.org/archive/ALSTRO-2.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402130",
+          "display_name": "PhilPapers (PhilPapers Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:philpapers.org/rec/ALSTRO-2",
+        "is_oa": false,
+        "landing_page_url": "https://philpapers.org/rec/ALSTRO-2",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402131",
+          "display_name": "PhilPapers (PhilPapers Foundation)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/article"
       }
     ],
-    "best_oa_location": null,
+    "best_oa_location": {
+      "id": "pmh:oai:philarchive.org/rec/ALSTRO-2",
+      "is_oa": true,
+      "landing_page_url": "https://philarchive.org/rec/ALSTRO-2",
+      "pdf_url": "https://philpapers.org/archive/ALSTRO-2.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306402130",
+        "display_name": "PhilPapers (PhilPapers Foundation)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "info:eu-repo/semantics/article"
+    },
     "sustainable_development_goals": [
       {
+        "id": "https://metadata.un.org/sdg/5",
         "display_name": "Gender equality",
-        "score": 0.75,
-        "id": "https://metadata.un.org/sdg/5"
+        "score": 0.75
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "pdf": true,
+      "grobid_xml": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W1989270617.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W1989270617.grobid-xml"
+    },
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
@@ -955,11 +1039,11 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 1
+        "cited_by_count": 3
       },
       {
         "year": 2025,
-        "cited_by_count": 11
+        "cited_by_count": 12
       },
       {
         "year": 2024,
@@ -1014,7 +1098,7 @@
         "cited_by_count": 8
       }
     ],
-    "updated_date": "2026-03-03T08:47:05.690250",
+    "updated_date": "2026-05-05T06:06:40.768181",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -1022,7 +1106,7 @@
     "doi": "https://doi.org/10.1177/0191453717723188",
     "title": "Emancipatory advocacy",
     "display_name": "Emancipatory advocacy",
-    "relevance_score": 5.8242526,
+    "relevance_score": 5.8547287,
     "publication_year": 2017,
     "publication_date": "2017-12-12",
     "ids": {
@@ -1103,6 +1187,7 @@
         "raw_affiliation_strings": [
           "Canisius College, NY, USA"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Canisius College, NY, USA",
@@ -1124,11 +1209,11 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 2.5135,
+    "fwci": 2.3859,
     "has_fulltext": false,
     "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.91967787,
+      "value": 0.92065784,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -1423,9 +1508,9 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
+        "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
-        "score": 0.4300000071525574,
-        "id": "https://metadata.un.org/sdg/16"
+        "score": 0.4300000071525574
       }
     ],
     "awards": [],
@@ -1803,7 +1888,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-05-05T06:06:40.768181",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -1811,7 +1896,7 @@
     "doi": "https://doi.org/10.1177/0191453720905329",
     "title": "Human rights amidst despair in the Levant and the West",
     "display_name": "Human rights amidst despair in the Levant and the West",
-    "relevance_score": 1.0023024,
+    "relevance_score": 1.0066621,
     "publication_year": 2020,
     "publication_date": "2020-02-19",
     "ids": {
@@ -1892,6 +1977,7 @@
         "raw_affiliation_strings": [
           "University of Denver, USA"
         ],
+        "raw_orcid": "https://orcid.org/0000-0001-8524-3682",
         "affiliations": [
           {
             "raw_affiliation_string": "University of Denver, USA",
@@ -1917,7 +2003,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.03155471,
+      "value": 0.03169305,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -2178,9 +2264,9 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
+        "id": "https://metadata.un.org/sdg/5",
         "display_name": "Gender equality",
-        "score": 0.7900000214576721,
-        "id": "https://metadata.un.org/sdg/5"
+        "score": 0.7900000214576721
       }
     ],
     "awards": [],
@@ -2562,7 +2648,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-05-05T06:06:40.768181",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -2570,7 +2656,7 @@
     "doi": "https://doi.org/10.1177/01914537241270740",
     "title": "Refusing pathology: Black redaction in Fanon\u2019s <i>The Wretched of the Earth</i>",
     "display_name": "Refusing pathology: Black redaction in Fanon\u2019s <i>The Wretched of the Earth</i>",
-    "relevance_score": 0.76425016,
+    "relevance_score": 0.7763213,
     "publication_year": 2024,
     "publication_date": "2024-08-06",
     "ids": {
@@ -2651,6 +2737,7 @@
           "Newcastle University",
           "Newcastle University, UK"
         ],
+        "raw_orcid": "https://orcid.org/0000-0002-3366-9195",
         "affiliations": [
           {
             "raw_affiliation_string": "Newcastle University",
@@ -2682,7 +2769,7 @@
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.17790766,
+      "value": 0.18755074,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -3055,9 +3142,9 @@
     },
     "sustainable_development_goals": [
       {
+        "id": "https://metadata.un.org/sdg/10",
         "display_name": "Reduced inequalities",
-        "score": 0.7400000095367432,
-        "id": "https://metadata.un.org/sdg/10"
+        "score": 0.7400000095367432
       }
     ],
     "awards": [
