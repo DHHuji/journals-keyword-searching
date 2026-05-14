@@ -14,6 +14,10 @@ CONCURRENCY = 5
 RATE_LIMIT = 10
 
 
+class RateLimitError(Exception):
+    pass
+
+
 def _load_search_results_work_ids():
     work_ids = set()
     results_dir = Path(RESULTS_DIR)
@@ -128,6 +132,18 @@ async def fetch_author_works(session, author_id, rate_limiter):
         while cursor:
             params['cursor'] = cursor
             async with session.get(url, params=params) as response:
+                if response.status == 429:
+                    retry_after = response.headers.get('Retry-After', '')
+                    retry_after_hours = ''
+                    if retry_after:
+                        try:
+                            retry_after_hours = str(float(retry_after) / 3600)
+                        except ValueError:
+                            retry_after_hours = retry_after
+                    raise RateLimitError(
+                        f"OpenAlex rate limit hit for author {author_id}. "
+                        f"Retry-After hours: {retry_after_hours or 'unknown'}"
+                    )
                 if response.status != 200:
                     print(f"Warning: HTTP {response.status} for author {author_id}")
                     break
