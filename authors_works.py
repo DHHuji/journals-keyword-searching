@@ -9,13 +9,73 @@ from tqdm.asyncio import tqdm
 
 RESULTS_DIR = 'search_results'
 OUTPUT_AUTHORS_FILE = 'authors_works.csv'
+STATE_FILE = 'authors_works_state.json'
+STATE_PATH = Path(__file__).resolve().with_name(STATE_FILE)
 
 CONCURRENCY = 5
 RATE_LIMIT = 10
+REQUEST_TIMEOUT_SECONDS = 60
+MAX_RETRIES = 3
 
 
 class RateLimitError(Exception):
     pass
+
+
+def _load_state():
+    if not STATE_PATH.exists():
+        return {
+            'author_ids': [],
+            'author_works': {},
+            'search_work_ids': [],
+            'failed_author_ids': [],
+            'finalized': False,
+        }
+
+    with open(STATE_PATH, 'r', encoding='utf-8') as f:
+        state = json.load(f)
+
+    if not isinstance(state, dict):
+        return {
+            'author_ids': [],
+            'author_works': {},
+            'search_work_ids': [],
+            'failed_author_ids': [],
+            'finalized': False,
+        }
+
+    author_ids = state.get('author_ids', [])
+    author_works = state.get('author_works', {})
+    search_work_ids = state.get('search_work_ids', [])
+    failed_author_ids = state.get('failed_author_ids', [])
+    finalized = state.get('finalized', False)
+
+    return {
+        'author_ids': author_ids if isinstance(author_ids, list) else [],
+        'author_works': author_works if isinstance(author_works, dict) else {},
+        'search_work_ids': search_work_ids if isinstance(search_work_ids, list) else [],
+        'failed_author_ids': failed_author_ids if isinstance(failed_author_ids, list) else [],
+        'finalized': bool(finalized),
+    }
+
+
+def _save_state(author_ids, author_works, search_work_ids, failed_author_ids, finalized=False):
+    with open(STATE_PATH, 'w', encoding='utf-8') as f:
+        json.dump(
+            {
+                'author_ids': author_ids,
+                'author_works': author_works,
+                'search_work_ids': search_work_ids,
+                'failed_author_ids': failed_author_ids,
+                'pending_author_ids': [author_id for author_id in author_ids if author_id not in author_works],
+                'completed_authors_count': len(author_works),
+                'total_authors_count': len(author_ids),
+                'finalized': finalized,
+            },
+            f,
+            ensure_ascii=False,
+            indent=2,
+        )
 
 
 def _load_search_results_work_ids():
@@ -118,130 +178,208 @@ def _extract_work_data_for_author(item, authorship, authorship_index, search_wor
 
 
 async def fetch_author_works(session, author_id, rate_limiter):
-    async with rate_limiter:
-        url = f"https://api.openalex.org/works"
-        params = {
-            'filter': f'author.id:{author_id}',
-            'per-page': 200,
-            'mailto': 'reallyliri@gmail.com'
-        }
+    url = "https://api.openalex.org/works"
+    params = {
+        'filter': f'author.id:{author_id}',
+        'per-page': 200,
+        'mailto': 'reallyliri@gmail.com'
+    }
 
-        all_works = []
-        cursor = '*'
+    all_works = []
+    cursor = '*'
 
-        while cursor:
-            params['cursor'] = cursor
-            async with session.get(url, params=params) as response:
-                if response.status == 429:
-                    retry_after = response.headers.get('Retry-After', '')
-                    retry_after_hours = ''
-                    if retry_after:
-                        try:
-                            retry_after_hours = str(float(retry_after) / 3600)
-                        except ValueError:
-                            retry_after_hours = retry_after
-                    raise RateLimitError(
-                        f"OpenAlex rate limit hit for author {author_id}. "
-                        f"Retry-After hours: {retry_after_hours or 'unknown'}"
-                    )
-                if response.status != 200:
-                    print(f"Warning: HTTP {response.status} for author {author_id}")
-                    break
+    while cursor:
+        params['cursor'] = cursor
+        attempt = 0
 
-                data = await response.json()
-                results = data.get('results', [])
-                all_works.extend(results)
+        while True:
+            attempt += 1
+            try:
+                async with rate_limiter:
+                    async with session.get(url, params=params) as response:
+                        if response.status == 429:
+                            retry_after = response.headers.get('Retry-After', '')
+                            retry_after_hours = ''
+                            if retry_after:
+                                try:
+                                    retry_after_hours = str(float(retry_after) / 3600)
+                                except ValueError:
+                                    retry_after_hours = retry_after
+                            raise RateLimitError(
+                                f"OpenAlex rate limit hit for author {author_id}. "
+                                f"Retry-After hours: {retry_after_hours or 'unknown'}"
+                            )
+                        if response.status != 200:
+                            print(f"Warning: HTTP {response.status} for author {author_id}")
+                            return all_works
 
-                meta = data.get('meta', {})
-                next_cursor = meta.get('next_cursor')
-                cursor = next_cursor if next_cursor else None
+                        data = await response.json()
+                        results = data.get('results', [])
+                        all_works.extend(results)
 
-                if len(results) < 200:
-                    break
+                        meta = data.get('meta', {})
+                        next_cursor = meta.get('next_cursor')
+                        cursor = next_cursor if next_cursor else None
 
-        return all_works
+                        if len(results) < 200:
+                            cursor = None
+
+                        break
+            except RateLimitError:
+                raise
+            except (asyncio.TimeoutError, aiohttp.ClientError) as exc:
+                if attempt >= MAX_RETRIES:
+                    raise RuntimeError(
+                        f"Failed to fetch author {author_id} after {MAX_RETRIES} attempts: {exc}"
+                    ) from exc
+                print(f"Warning: retrying author {author_id} after error: {exc}")
+                await asyncio.sleep(attempt)
+
+    return all_works
 
 
-async def enrich_authors_with_all_works(author_ids):
+async def enrich_authors_with_all_works(author_ids, search_work_ids):
     semaphore = asyncio.Semaphore(CONCURRENCY)
     rate_limiter = asyncio.Semaphore(RATE_LIMIT)
+    state = _load_state()
+    author_works_dict = state['author_works']
+    failed_author_ids = set(state['failed_author_ids'])
+    _save_state(author_ids, author_works_dict, search_work_ids, sorted(failed_author_ids), finalized=False)
+    pending_author_ids = [author_id for author_id in author_ids if author_id not in author_works_dict]
 
     async def fetch_single_author_works(author_id):
         async with semaphore:
-            return await fetch_author_works(session, author_id, rate_limiter)
+            try:
+                works = await fetch_author_works(session, author_id, rate_limiter)
+                return author_id, works, None
+            except Exception as exc:
+                return author_id, None, str(exc)
 
-    async with aiohttp.ClientSession() as session:
-        all_author_works = await tqdm.gather(
-            *[fetch_single_author_works(author_id) for author_id in author_ids],
-            desc="Fetching all works for authors"
-        )
+    if not pending_author_ids:
+        return author_works_dict, failed_author_ids
 
-    author_works_dict = {}
-    for author_id, works in zip(author_ids, all_author_works):
-        if works:
-            author_works_dict[author_id] = works
+    timeout = aiohttp.ClientTimeout(total=None, connect=REQUEST_TIMEOUT_SECONDS, sock_connect=REQUEST_TIMEOUT_SECONDS)
+    async with aiohttp.ClientSession(timeout=timeout) as session:
+        tasks = [
+            asyncio.create_task(fetch_single_author_works(author_id))
+            for author_id in pending_author_ids
+        ]
 
-    return author_works_dict
+        with tqdm(total=len(tasks), desc="Fetching all works for authors") as progress:
+            for task in asyncio.as_completed(tasks):
+                author_id, works, error = await task
+                if error is None:
+                    author_works_dict[author_id] = works
+                    failed_author_ids.discard(author_id)
+                else:
+                    failed_author_ids.add(author_id)
+                    print(f"Warning: skipping author {author_id}: {error}")
+                _save_state(author_ids, author_works_dict, search_work_ids, sorted(failed_author_ids), finalized=False)
+                progress.update(1)
+
+    return author_works_dict, failed_author_ids
+
+
+def _build_output_rows(unique_author_ids, all_author_works, search_work_ids):
+    seen_work_author_pairs = set()
+    output_rows = []
+
+    for author_id in unique_author_ids:
+        if author_id not in all_author_works:
+            continue
+
+        works = all_author_works[author_id]
+        for work in works:
+            work_id = (work.get('id', '') or '').replace('https://openalex.org/', '')
+            if not work_id:
+                continue
+
+            for authorship_index, authorship in enumerate(work.get('authorships', [])):
+                author = authorship.get('author', {})
+                current_author_id = (author.get('id', '') or '').replace('https://openalex.org/', '')
+                pair_key = (work_id, current_author_id, authorship_index)
+
+                if pair_key in seen_work_author_pairs:
+                    continue
+
+                seen_work_author_pairs.add(pair_key)
+                work_data = _extract_work_data_for_author(work, authorship, authorship_index, search_work_ids)
+                if work_data['id'] and work_data['author_name']:
+                    output_rows.append(work_data)
+
+    return output_rows
+
+
+def _write_output_rows(output_rows):
+    with open(OUTPUT_AUTHORS_FILE, 'w', newline='', encoding='utf-8') as csvfile:
+        fieldnames = [
+            'id', 'doi', 'title', 'publication_date', 'source_id',
+            'journal_name', 'author_name', 'author_id', 'others', 'institutions', 'countries',
+            'affiliations_comment', 'cited_by_count', 'keywords', 'references_israel'
+        ]
+        writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
+        writer.writeheader()
+        writer.writerows(output_rows)
 
 
 def main():
-    results_dir = Path(RESULTS_DIR)
-    all_json_data = []
+    state = _load_state()
+    unique_author_ids = state['author_ids']
+    search_work_ids = set(state['search_work_ids'])
 
-    print("Loading search results work IDs...")
-    search_work_ids = _load_search_results_work_ids()
-    print(f"Found {len(search_work_ids)} unique work IDs in search results")
+    if unique_author_ids and search_work_ids:
+        print(f"Loaded {len(search_work_ids)} search result work IDs from {STATE_FILE}")
+        print(f"Loaded {len(unique_author_ids)} author tasks from {STATE_FILE}")
+    else:
+        results_dir = Path(RESULTS_DIR)
+        all_json_data = []
 
-    for json_file in results_dir.glob('**/*.json'):
-        if json_file.name == 'llm_outputs.json':
-            continue
-        print(f"Processing {json_file.relative_to(results_dir)}...")
-        with open(json_file, 'r', encoding='utf-8') as f:
-            json_data = json.load(f)
-            all_json_data.extend(json_data)
+        print("Loading search results work IDs...")
+        search_work_ids = _load_search_results_work_ids()
+        print(f"Found {len(search_work_ids)} unique work IDs in search results")
 
-    author_works_from_search = _extract_author_works(all_json_data)
-    unique_author_ids = list(author_works_from_search.keys())
+        for json_file in results_dir.glob('**/*.json'):
+            if json_file.name == 'llm_outputs.json':
+                continue
+            print(f"Processing {json_file.relative_to(results_dir)}...")
+            with open(json_file, 'r', encoding='utf-8') as f:
+                json_data = json.load(f)
+                all_json_data.extend(json_data)
 
-    print(f"Found {len(unique_author_ids)} unique authors in search results")
+        author_works_from_search = _extract_author_works(all_json_data)
+        unique_author_ids = list(author_works_from_search.keys())
+
+        print(f"Found {len(unique_author_ids)} unique authors in search results")
+        _save_state(
+            unique_author_ids,
+            state['author_works'],
+            sorted(search_work_ids),
+            state['failed_author_ids'],
+            finalized=False,
+        )
 
     if unique_author_ids:
         print(f"Fetching all works for {len(unique_author_ids)} authors from OpenAlex API...")
-        all_author_works = asyncio.run(enrich_authors_with_all_works(unique_author_ids))
+        all_author_works, failed_author_ids = asyncio.run(
+            enrich_authors_with_all_works(unique_author_ids, sorted(search_work_ids))
+        )
+        pending_author_ids = [author_id for author_id in unique_author_ids if author_id not in all_author_works]
 
-        seen_work_author_pairs = set()
-        output_rows = []
+        if pending_author_ids:
+            _save_state(unique_author_ids, all_author_works, sorted(search_work_ids), sorted(failed_author_ids), finalized=False)
+            print(
+                f"Saved partial state to {STATE_FILE}: "
+                f"{len(all_author_works)}/{len(unique_author_ids)} authors collected"
+            )
+            return
 
-        for author_id in unique_author_ids:
-            if author_id in all_author_works:
-                works = all_author_works[author_id]
-                for work in works:
-                    work_id = (work.get('id', '') or '').replace('https://openalex.org/', '')
-                    if work_id:
-                        for authorship_index, authorship in enumerate(work.get('authorships', [])):
-                            author = authorship.get('author', {})
-                            current_author_id = (author.get('id', '') or '').replace('https://openalex.org/', '')
-                            pair_key = (work_id, current_author_id, authorship_index)
-
-                            if pair_key not in seen_work_author_pairs:
-                                seen_work_author_pairs.add(pair_key)
-                                work_data = _extract_work_data_for_author(work, authorship, authorship_index, search_work_ids)
-                                if work_data['id'] and work_data['author_name']:
-                                    output_rows.append(work_data)
-
+        output_rows = _build_output_rows(unique_author_ids, all_author_works, search_work_ids)
         if output_rows:
-            with open(OUTPUT_AUTHORS_FILE, 'w', newline='', encoding='utf-8') as csvfile:
-                fieldnames = [
-                    'id', 'doi', 'title', 'publication_date', 'source_id',
-                    'journal_name', 'author_name', 'author_id', 'others', 'institutions', 'countries',
-                    'affiliations_comment', 'cited_by_count', 'keywords', 'references_israel'
-                ]
-                writer = csv.DictWriter(csvfile, fieldnames=fieldnames, quoting=csv.QUOTE_ALL)
-                writer.writeheader()
-                writer.writerows(output_rows)
-
+            _write_output_rows(output_rows)
+            _save_state(unique_author_ids, all_author_works, sorted(search_work_ids), sorted(failed_author_ids), finalized=True)
             print(f"Successfully created {OUTPUT_AUTHORS_FILE} with {len(output_rows)} author-work pairs")
         else:
+            _save_state(unique_author_ids, all_author_works, sorted(search_work_ids), sorted(failed_author_ids), finalized=True)
             print("No works data found to process")
     else:
         print("No authors data found to process")
