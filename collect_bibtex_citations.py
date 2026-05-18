@@ -9,6 +9,7 @@ from pathlib import Path
 PDFS_DIR = "pdfs"
 CITATIONS_FILENAME = "citations.txt"
 OUTPUT_FILENAME = "index.csv"
+CITATIONS_PATTERN = re.compile(r'^citations(?:\(\d+\))?\.txt$')
 STANDARD_FIELDS = [
     'entry_type', 'citation_key', 'title', 'author', 'year',
     'journal', 'volume', 'number', 'pages', 'publisher',
@@ -92,8 +93,12 @@ def collect_all_fields(all_entries):
 
 
 def process_directory(dir_path):
-    """Process all .txt files in a directory and create a CSV."""
-    txt_files = list(dir_path.glob("*.txt"))
+    """Process citation .txt files in a directory and create a CSV."""
+    txt_files = sorted(
+        file_path
+        for file_path in dir_path.iterdir()
+        if file_path.is_file() and CITATIONS_PATTERN.match(file_path.name)
+    )
 
     if not txt_files:
         return 0
@@ -147,15 +152,21 @@ def main():
 
     for subdir in pdfs_dir.iterdir():
         if subdir.is_dir():
-            citations_file = subdir / CITATIONS_FILENAME
-            if citations_file.exists():
+            if any(
+                file_path.is_file() and CITATIONS_PATTERN.match(file_path.name)
+                for file_path in subdir.iterdir()
+            ):
                 dirs_with_citations.append(subdir)
 
     if not dirs_with_citations:
-        print(f"No directories with {CITATIONS_FILENAME} found in {PDFS_DIR}/")
+        print(
+            f"No directories with {CITATIONS_FILENAME} or citations(<number>).txt found in {PDFS_DIR}/"
+        )
         sys.exit(1)
 
-    print(f"Found {len(dirs_with_citations)} directories with {CITATIONS_FILENAME}")
+    print(
+        f"Found {len(dirs_with_citations)} directories with {CITATIONS_FILENAME} or citations(<number>).txt"
+    )
     print("Processing citations...\n")
 
     total_citations = 0

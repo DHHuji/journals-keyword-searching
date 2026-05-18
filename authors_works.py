@@ -1,6 +1,7 @@
 import asyncio
 import csv
 import json
+import re
 from pathlib import Path
 from collections import defaultdict
 
@@ -8,9 +9,12 @@ import aiohttp
 from tqdm.asyncio import tqdm
 
 RESULTS_DIR = 'search_results'
+ISRAEL_RESULTS_DIR = Path(RESULTS_DIR) / 'israel'
 OUTPUT_AUTHORS_FILE = 'authors_works.csv'
 STATE_FILE = 'authors_works_state.json'
 STATE_PATH = Path(__file__).resolve().with_name(STATE_FILE)
+STATE_DIR = Path(__file__).resolve().with_name('authors_works_state')
+AUTHORS_STATE_DIR = STATE_DIR / 'authors'
 
 CONCURRENCY = 5
 RATE_LIMIT = 10
@@ -22,27 +26,49 @@ class RateLimitError(Exception):
     pass
 
 
-def _load_state():
+def _default_state():
+    return {
+        'author_ids': [],
+        'author_works': {},
+        'search_work_ids': [],
+        'failed_author_ids': [],
+        'finalized': False,
+    }
+
+
+def _safe_state_name(value):
+    safe_value = re.sub(r'[^A-Za-z0-9._-]+', '_', value or '').strip('._')
+    return safe_value or 'unknown'
+
+
+def _author_state_path(author_id):
+    return AUTHORS_STATE_DIR / f'{_safe_state_name(author_id)}.json'
+
+
+def _load_author_works_from_directory():
+    author_works = {}
+    if not AUTHORS_STATE_DIR.exists():
+        return author_works
+
+    for author_file in AUTHORS_STATE_DIR.glob('*.json'):
+        with open(author_file, 'r', encoding='utf-8') as f:
+            works = json.load(f)
+        if not isinstance(works, list):
+            continue
+        author_works[author_file.stem] = works
+
+    return author_works
+
+
+def _load_legacy_state():
     if not STATE_PATH.exists():
-        return {
-            'author_ids': [],
-            'author_works': {},
-            'search_work_ids': [],
-            'failed_author_ids': [],
-            'finalized': False,
-        }
+        return _default_state()
 
     with open(STATE_PATH, 'r', encoding='utf-8') as f:
         state = json.load(f)
 
     if not isinstance(state, dict):
-        return {
-            'author_ids': [],
-            'author_works': {},
-            'search_work_ids': [],
-            'failed_author_ids': [],
-            'finalized': False,
-        }
+        return _default_state()
 
     author_ids = state.get('author_ids', [])
     author_works = state.get('author_works', {})
@@ -59,12 +85,49 @@ def _load_state():
     }
 
 
+def _load_state():
+    if STATE_DIR.exists():
+        metadata_path = STATE_DIR / 'metadata.json'
+        if metadata_path.exists():
+            with open(metadata_path, 'r', encoding='utf-8') as f:
+                metadata = json.load(f)
+            if isinstance(metadata, dict):
+                state = {
+                    'author_ids': metadata.get('author_ids', []),
+                    'author_works': _load_author_works_from_directory(),
+                    'search_work_ids': metadata.get('search_work_ids', []),
+                    'failed_author_ids': metadata.get('failed_author_ids', []),
+                    'finalized': bool(metadata.get('finalized', False)),
+                }
+                return {
+                    'author_ids': state['author_ids'] if isinstance(state['author_ids'], list) else [],
+                    'author_works': state['author_works'] if isinstance(state['author_works'], dict) else {},
+                    'search_work_ids': state['search_work_ids'] if isinstance(state['search_work_ids'], list) else [],
+                    'failed_author_ids': state['failed_author_ids'] if isinstance(state['failed_author_ids'], list) else [],
+                    'finalized': bool(state['finalized']),
+                }
+
+    return _load_legacy_state()
+
+
+def _save_author_works(author_id, works):
+    AUTHORS_STATE_DIR.mkdir(parents=True, exist_ok=True)
+    author_path = _author_state_path(author_id)
+    with open(author_path, 'w', encoding='utf-8') as f:
+        json.dump(works, f, ensure_ascii=False, indent=2)
+
+
 def _save_state(author_ids, author_works, search_work_ids, failed_author_ids, finalized=False):
-    with open(STATE_PATH, 'w', encoding='utf-8') as f:
+    STATE_DIR.mkdir(parents=True, exist_ok=True)
+    AUTHORS_STATE_DIR.mkdir(parents=True, exist_ok=True)
+
+    for author_id, works in author_works.items():
+        _save_author_works(author_id, works)
+
+    with open(STATE_DIR / 'metadata.json', 'w', encoding='utf-8') as f:
         json.dump(
             {
                 'author_ids': author_ids,
-                'author_works': author_works,
                 'search_work_ids': search_work_ids,
                 'failed_author_ids': failed_author_ids,
                 'pending_author_ids': [author_id for author_id in author_ids if author_id not in author_works],
@@ -80,8 +143,7 @@ def _save_state(author_ids, author_works, search_work_ids, failed_author_ids, fi
 
 def _load_search_results_work_ids():
     work_ids = set()
-    results_dir = Path(RESULTS_DIR)
-    for json_file in results_dir.glob('**/*.json'):
+    for json_file in ISRAEL_RESULTS_DIR.glob('*.json'):
         if json_file.name == 'llm_outputs.json':
             continue
         with open(json_file, 'r', encoding='utf-8') as f:
@@ -328,20 +390,19 @@ def main():
     search_work_ids = set(state['search_work_ids'])
 
     if unique_author_ids and search_work_ids:
-        print(f"Loaded {len(search_work_ids)} search result work IDs from {STATE_FILE}")
-        print(f"Loaded {len(unique_author_ids)} author tasks from {STATE_FILE}")
+        print(f"Loaded {len(search_work_ids)} search result work IDs from {STATE_DIR / 'metadata.json'}")
+        print(f"Loaded {len(unique_author_ids)} author tasks from {STATE_DIR}")
     else:
-        results_dir = Path(RESULTS_DIR)
         all_json_data = []
 
         print("Loading search results work IDs...")
         search_work_ids = _load_search_results_work_ids()
         print(f"Found {len(search_work_ids)} unique work IDs in search results")
 
-        for json_file in results_dir.glob('**/*.json'):
+        for json_file in ISRAEL_RESULTS_DIR.glob('*.json'):
             if json_file.name == 'llm_outputs.json':
                 continue
-            print(f"Processing {json_file.relative_to(results_dir)}...")
+            print(f"Processing {json_file.relative_to(ISRAEL_RESULTS_DIR)}...")
             with open(json_file, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)
                 all_json_data.extend(json_data)
@@ -368,7 +429,7 @@ def main():
         if pending_author_ids:
             _save_state(unique_author_ids, all_author_works, sorted(search_work_ids), sorted(failed_author_ids), finalized=False)
             print(
-                f"Saved partial state to {STATE_FILE}: "
+                f"Saved partial state to {STATE_DIR}: "
                 f"{len(all_author_works)}/{len(unique_author_ids)} authors collected"
             )
             return
