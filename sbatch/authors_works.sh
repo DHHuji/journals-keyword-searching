@@ -6,3 +6,4 @@
 #SBATCH -o sync_logs/authors_works.out
 
 PYTHONPATH="${SRC_DIR}" uv run authors_works.py
+
