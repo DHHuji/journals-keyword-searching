@@ -2,6 +2,7 @@ import asyncio
 import csv
 import json
 import re
+import tempfile
 from pathlib import Path
 from collections import defaultdict
 
@@ -45,14 +46,30 @@ def _author_state_path(author_id):
     return AUTHORS_STATE_DIR / f'{_safe_state_name(author_id)}.json'
 
 
+def _write_json_file(path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.NamedTemporaryFile('w', encoding='utf-8', dir=path.parent, delete=False) as tmp_file:
+        json.dump(data, tmp_file, ensure_ascii=False, indent=2)
+        tmp_path = Path(tmp_file.name)
+    tmp_path.replace(path)
+
+
 def _load_author_works_from_directory():
     author_works = {}
     if not AUTHORS_STATE_DIR.exists():
         return author_works
 
     for author_file in AUTHORS_STATE_DIR.glob('*.json'):
-        with open(author_file, 'r', encoding='utf-8') as f:
-            works = json.load(f)
+        try:
+            with open(author_file, 'r', encoding='utf-8') as f:
+                works = json.load(f)
+        except (json.JSONDecodeError, OSError) as exc:
+            print(f"Warning: removing corrupted author state file {author_file}: {exc}")
+            try:
+                author_file.unlink()
+            except OSError as remove_exc:
+                print(f"Warning: failed to remove corrupted author state file {author_file}: {remove_exc}")
+            continue
         if not isinstance(works, list):
             continue
         author_works[author_file.stem] = works
@@ -111,10 +128,8 @@ def _load_state():
 
 
 def _save_author_works(author_id, works):
-    AUTHORS_STATE_DIR.mkdir(parents=True, exist_ok=True)
     author_path = _author_state_path(author_id)
-    with open(author_path, 'w', encoding='utf-8') as f:
-        json.dump(works, f, ensure_ascii=False, indent=2)
+    _write_json_file(author_path, works)
 
 
 def _save_state(author_ids, author_works, search_work_ids, failed_author_ids, finalized=False):
@@ -124,21 +139,18 @@ def _save_state(author_ids, author_works, search_work_ids, failed_author_ids, fi
     for author_id, works in author_works.items():
         _save_author_works(author_id, works)
 
-    with open(STATE_DIR / 'metadata.json', 'w', encoding='utf-8') as f:
-        json.dump(
-            {
-                'author_ids': author_ids,
-                'search_work_ids': search_work_ids,
-                'failed_author_ids': failed_author_ids,
-                'pending_author_ids': [author_id for author_id in author_ids if author_id not in author_works],
-                'completed_authors_count': len(author_works),
-                'total_authors_count': len(author_ids),
-                'finalized': finalized,
-            },
-            f,
-            ensure_ascii=False,
-            indent=2,
-        )
+    _write_json_file(
+        STATE_DIR / 'metadata.json',
+        {
+            'author_ids': author_ids,
+            'search_work_ids': search_work_ids,
+            'failed_author_ids': failed_author_ids,
+            'pending_author_ids': [author_id for author_id in author_ids if author_id not in author_works],
+            'completed_authors_count': len(author_works),
+            'total_authors_count': len(author_ids),
+            'finalized': finalized,
+        },
+    )
 
 
 def _load_search_results_work_ids():
