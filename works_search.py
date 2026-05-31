@@ -14,23 +14,25 @@ CONCURRENCY = 1
 RATE_LIMIT = 10  # per second
 OUTPUT_BASE_DIR = Path("search_results")
 KEYWORDS = [
-    "israel",
-    "australia",
-    "france",
-    "belgium",
-    "syria",
-    "lebanon",
-    "egypt",
-    "iraq",
-    "(\"south africa\")",
-    "germany",
-    "japan",
-    "italy",
-    "(\"united states\" OR usa)",
-    "spain",
-    "jordan",
-    "algeria",
-    "switzerland",
+    #"israel",
+    #"australia",
+    #"france",
+    #"belgium",
+    #"syria",
+    #"lebanon",
+    #"egypt",
+    #"iraq",
+    #"(\"south africa\")",
+    #"germany",
+    #"japan",
+    #"italy",
+    #"(\"united states\" OR usa)",
+    #"spain",
+    #"jordan",
+    #"algeria",
+    #"switzerland",
+    "russia",
+    "turkey"
 ]
 
 OUTPUT_BASE_DIR.mkdir(exist_ok=True)
