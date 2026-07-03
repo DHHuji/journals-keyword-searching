@@ -18,4 +18,3 @@ rclone copy \
   --checkers 32 --transfers 16 \
   "$source_dir" "$dest_dir" 2>&1 | tee $log_path
 
-sbatch sbatch/vllm_lg.sh 
