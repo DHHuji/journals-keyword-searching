@@ -32,7 +32,8 @@ KEYWORDS = [
     "algeria",
     "switzerland",
     "russia",
-    "turkey"
+    "turkey",
+    "iran"
 ]
 
 OUTPUT_BASE_DIR.mkdir(exist_ok=True)
