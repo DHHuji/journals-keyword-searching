@@ -114,6 +114,8 @@ async def main():
                 raise Exception("CSV file must contain 'OpenAlexSourceId' and 'Journal Name' columns")
 
             for row in reader:
+                if row.get('excluded', '').strip() == '1':
+                    continue
                 source_id = row['OpenAlexSourceId']
                 journal_name = row['Journal Name']
                 if source_id and source_id.strip():

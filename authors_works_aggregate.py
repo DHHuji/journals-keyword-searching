@@ -3,6 +3,8 @@ import re
 import unicodedata
 from collections import defaultdict
 
+from excluded_journals import load_excluded_source_ids
+
 INPUT_FILE = 'authors_works.csv'
 OUTPUT_AUTHOR_FILE = 'authors_works_aggregated_by_author.csv'
 OUTPUT_WORK_FILE = 'authors_works_aggregated_by_work.csv'
@@ -72,6 +74,8 @@ def aggregate_authors_and_works():
         'affiliations': set()
     })
 
+    excluded_source_ids = load_excluded_source_ids()
+
     print("Reading and processing data...")
     row_count = 0
 
@@ -91,6 +95,9 @@ def aggregate_authors_and_works():
 
             work_id = row.get('id', '').strip()
             if not work_id:
+                continue
+
+            if row.get('source_id', '').strip() in excluded_source_ids:
                 continue
 
             # Determine group_id based on author_id first, then normalized name

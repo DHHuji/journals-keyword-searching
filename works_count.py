@@ -35,6 +35,8 @@ def _load_journals():
             )
 
         for row in reader:
+            if row.get("excluded", "").strip() == "1":
+                continue
             source_id = row["OpenAlexSourceId"].strip()
             if not source_id:
                 continue

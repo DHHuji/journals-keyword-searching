@@ -4,6 +4,8 @@ from pathlib import Path
 
 import requests
 
+from excluded_journals import load_excluded_source_ids
+
 RESULTS_BASE_DIR = Path('search_results')
 JOURNALS_FILE = 'journals.csv'
 LLM_OUTPUTS_FILE = RESULTS_BASE_DIR / 'llm_outputs.csv'
@@ -152,6 +154,7 @@ def _extract_data_from_json(json_data, journal_mapping, existing_doi_follows, ll
 
 def main():
     journal_mapping = _load_journal_mapping()
+    excluded_source_ids = load_excluded_source_ids()
     llm_work_ids = _load_llm_work_ids()
     keyword_dirs = sorted([path for path in RESULTS_BASE_DIR.iterdir() if path.is_dir()])
 
@@ -165,6 +168,8 @@ def main():
         for i, json_file in enumerate(json_files):
             print(f"Processing {json_file.name} ({i + 1}/{len(json_files)})...")
             if json_file.name == "llm_outputs.json":
+                continue
+            if json_file.stem in excluded_source_ids:
                 continue
             with open(json_file, 'r', encoding='utf-8') as f:
                 json_data = json.load(f)

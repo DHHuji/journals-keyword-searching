@@ -208,6 +208,8 @@ def _academic_metadata(file_meta, tables):
     search_data = tables["search_results_by_source"].get(file_meta["source_key"])
     if search_data:
         search_row = dict(search_data["rows_by_id"].get(file_meta["source_id"], {}))
+        if not search_row:
+            return None
         return {
             "record_type": "search_result",
             "keyword": search_data["keyword"],
@@ -242,6 +244,8 @@ def _row_from_json(obj, source_path, tables):
     file_meta = _extract_file_metadata(source_path)
     model = file_meta["model"]
     academic = _academic_metadata(file_meta, tables)
+    if academic is None:
+        return None
 
     raw_sentiment = {}
     raw_confidence = {}
@@ -348,6 +352,8 @@ def _combine_outputs(input_dir, output_csv, output_json):
                 errors += 1
                 continue
             row = _row_from_json(obj, path, tables)
+            if row is None:
+                continue
             rows.append(row)
             file_meta = _extract_file_metadata(path)
             if "keyword" in row:

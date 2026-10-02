@@ -9,6 +9,8 @@ from collections import defaultdict
 import aiohttp
 from tqdm.asyncio import tqdm
 
+from excluded_journals import load_excluded_source_ids
+
 RESULTS_DIR = 'search_results'
 ISRAEL_RESULTS_DIR = Path(RESULTS_DIR) / 'israel'
 OUTPUT_AUTHORS_FILE = 'authors_works.csv'
@@ -153,10 +155,12 @@ def _save_state(author_ids, author_works, search_work_ids, failed_author_ids, fi
     )
 
 
-def _load_search_results_work_ids():
+def _load_search_results_work_ids(excluded_source_ids):
     work_ids = set()
     for json_file in ISRAEL_RESULTS_DIR.glob('*.json'):
         if json_file.name == 'llm_outputs.json':
+            continue
+        if json_file.stem in excluded_source_ids:
             continue
         with open(json_file, 'r', encoding='utf-8') as f:
             json_data = json.load(f)
@@ -354,7 +358,7 @@ async def enrich_authors_with_all_works(author_ids, search_work_ids):
     return author_works_dict, failed_author_ids
 
 
-def _build_output_rows(unique_author_ids, all_author_works, search_work_ids):
+def _build_output_rows(unique_author_ids, all_author_works, search_work_ids, excluded_source_ids):
     seen_work_author_pairs = set()
     output_rows = []
 
@@ -366,6 +370,11 @@ def _build_output_rows(unique_author_ids, all_author_works, search_work_ids):
         for work in works:
             work_id = (work.get('id', '') or '').replace('https://openalex.org/', '')
             if not work_id:
+                continue
+
+            primary_location = work.get('primary_location', {}) or {}
+            source = primary_location.get('source', {}) or {}
+            if (source.get('id', '') or '').replace('https://openalex.org/', '') in excluded_source_ids:
                 continue
 
             for authorship_index, authorship in enumerate(work.get('authorships', [])):
@@ -397,6 +406,7 @@ def _write_output_rows(output_rows):
 
 
 def main():
+    excluded_source_ids = load_excluded_source_ids()
     state = _load_state()
     unique_author_ids = state['author_ids']
     search_work_ids = set(state['search_work_ids'])
@@ -404,15 +414,26 @@ def main():
     if unique_author_ids and search_work_ids:
         print(f"Loaded {len(search_work_ids)} search result work IDs from {STATE_DIR / 'metadata.json'}")
         print(f"Loaded {len(unique_author_ids)} author tasks from {STATE_DIR}")
+        search_work_ids &= _load_search_results_work_ids(excluded_source_ids)
+        included_author_ids = set()
+        for json_file in ISRAEL_RESULTS_DIR.glob('*.json'):
+            if json_file.name == 'llm_outputs.json' or json_file.stem in excluded_source_ids:
+                continue
+            with open(json_file, 'r', encoding='utf-8') as f:
+                included_author_ids.update(_extract_author_works(json.load(f)).keys())
+        unique_author_ids = [author_id for author_id in unique_author_ids if author_id in included_author_ids]
+        print(f"Kept {len(search_work_ids)} work IDs and {len(unique_author_ids)} authors after excluding journals")
     else:
         all_json_data = []
 
         print("Loading search results work IDs...")
-        search_work_ids = _load_search_results_work_ids()
+        search_work_ids = _load_search_results_work_ids(excluded_source_ids)
         print(f"Found {len(search_work_ids)} unique work IDs in search results")
 
         for json_file in ISRAEL_RESULTS_DIR.glob('*.json'):
             if json_file.name == 'llm_outputs.json':
+                continue
+            if json_file.stem in excluded_source_ids:
                 continue
             print(f"Processing {json_file.relative_to(ISRAEL_RESULTS_DIR)}...")
             with open(json_file, 'r', encoding='utf-8') as f:
@@ -446,7 +467,7 @@ def main():
             )
             return
 
-        output_rows = _build_output_rows(unique_author_ids, all_author_works, search_work_ids)
+        output_rows = _build_output_rows(unique_author_ids, all_author_works, search_work_ids, excluded_source_ids)
         if output_rows:
             _write_output_rows(output_rows)
             _save_state(unique_author_ids, all_author_works, sorted(search_work_ids), sorted(failed_author_ids), finalized=True)
