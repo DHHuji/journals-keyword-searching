@@ -14,6 +14,9 @@ SEARCH_RESULTS_INPUT_DIR = Path("search_results/llm_outputs")
 SEARCH_RESULTS_OUTPUT_CSV = Path("search_results/llm_outputs.csv")
 SEARCH_RESULTS_OUTPUT_JSON = Path("search_results/llm_outputs.json")
 
+ISR_STUDIES_SOURCE_ID = "S76733833"
+ISR_STUDIES_SUFFIX = "_isr_studies"
+
 PROGRESS_EVERY = 250
 
 
@@ -168,13 +171,14 @@ def _load_metadata_tables(input_dir):
             rows = _csv_rows(csv_path)
             if rows and not search_results_fieldnames:
                 search_results_fieldnames = list(rows[0].keys())
+            rows_by_id = {}
+            for row in rows:
+                row_id = (row.get("id") or "").strip()
+                if row_id:
+                    rows_by_id.setdefault(row_id, []).append(row)
             search_results_by_source[csv_path.stem] = {
                 "keyword": _search_keyword_from_source_key(csv_path.stem),
-                "rows_by_id": {
-                    (row.get("id") or "").strip(): row
-                    for row in rows
-                    if (row.get("id") or "").strip()
-                },
+                "rows_by_id": rows_by_id,
             }
 
     return {
@@ -207,13 +211,13 @@ def _academic_metadata(file_meta, tables):
 
     search_data = tables["search_results_by_source"].get(file_meta["source_key"])
     if search_data:
-        search_row = dict(search_data["rows_by_id"].get(file_meta["source_id"], {}))
-        if not search_row:
+        search_rows = [dict(row) for row in search_data["rows_by_id"].get(file_meta["source_id"], [])]
+        if not search_rows:
             return None
         return {
             "record_type": "search_result",
             "keyword": search_data["keyword"],
-            "search_row": search_row,
+            "search_rows": search_rows,
         }
 
     source_data = tables["per_source"].get(file_meta["source_key"], {})
@@ -245,7 +249,7 @@ def _row_from_json(obj, source_path, tables):
     model = file_meta["model"]
     academic = _academic_metadata(file_meta, tables)
     if academic is None:
-        return None
+        return []
 
     raw_sentiment = {}
     raw_confidence = {}
@@ -293,12 +297,15 @@ def _row_from_json(obj, source_path, tables):
     }
 
     if academic["record_type"] == "search_result":
-        row = dict(academic["search_row"])
-        row["keyword"] = academic["keyword"]
-        row.update(llm_fields)
-        return row
+        rows = []
+        for search_row in academic["search_rows"]:
+            row = dict(search_row)
+            row["keyword"] = academic["keyword"]
+            row.update(llm_fields)
+            rows.append(row)
+        return rows
 
-    return {
+    return [{
         **llm_fields,
         "work_id": academic["work_id"],
         "title": academic["title"],
@@ -310,7 +317,7 @@ def _row_from_json(obj, source_path, tables):
         "lines_count": academic["lines_count"],
         "word_count": academic["word_count"],
         "israel_count_center": academic["israel_count_center"],
-    }
+    }]
 
 
 def _combine_outputs(input_dir, output_csv, output_json):
@@ -351,33 +358,31 @@ def _combine_outputs(input_dir, output_csv, output_json):
                 print(f"ERROR: JSON root is not an object in {path}", file=sys.stderr)
                 errors += 1
                 continue
-            row = _row_from_json(obj, path, tables)
-            if row is None:
-                continue
-            rows.append(row)
-            file_meta = _extract_file_metadata(path)
-            if "keyword" in row:
-                enriched = dict(row)
-            else:
-                enriched = {
-                    "source_file": path.name,
-                    "work_id": row["work_id"],
-                    "title": row["title"],
-                    "author": row["author"],
-                    "year": row["year"],
-                    "journal": row["journal"],
-                    "url": row["url"],
-                    "israel_count": row["israel_count"],
-                    "lines_count": row["lines_count"],
-                    "word_count": row["word_count"],
-                    "israel_count_center": row["israel_count_center"],
-                    "model": file_meta["model"],
-                }
-            for key, value in obj.items():
-                if key in enriched:
-                    continue
-                enriched[key] = _json_safe(value)
-            json_rows.append(enriched)
+            for row in _row_from_json(obj, path, tables):
+                rows.append(row)
+                file_meta = _extract_file_metadata(path)
+                if "keyword" in row:
+                    enriched = dict(row)
+                else:
+                    enriched = {
+                        "source_file": path.name,
+                        "work_id": row["work_id"],
+                        "title": row["title"],
+                        "author": row["author"],
+                        "year": row["year"],
+                        "journal": row["journal"],
+                        "url": row["url"],
+                        "israel_count": row["israel_count"],
+                        "lines_count": row["lines_count"],
+                        "word_count": row["word_count"],
+                        "israel_count_center": row["israel_count_center"],
+                        "model": file_meta["model"],
+                    }
+                for key, value in obj.items():
+                    if key in enriched:
+                        continue
+                    enriched[key] = _json_safe(value)
+                json_rows.append(enriched)
 
     if not rows:
         print("ERROR: No valid JSON objects were parsed.", file=sys.stderr)
@@ -431,16 +436,25 @@ def _combine_outputs(input_dir, output_csv, output_json):
         fieldnames = search_results_fieldnames + llm_fieldnames
     else:
         fieldnames = default_fieldnames
-    with output_csv.open("w", encoding="utf-8", newline="") as f:
-        writer = csv.DictWriter(f, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
-
-    print(f"Wrote {len(rows)} rows to {output_csv}")
-    output_json.parent.mkdir(parents=True, exist_ok=True)
-    with output_json.open("w", encoding="utf-8") as f:
-        json.dump(json_rows, f, ensure_ascii=True, indent=2)
-    print(f"Wrote {len(json_rows)} JSON entries to {output_json}")
+    isr_studies_pairs = [(row, json_row) for row, json_row in zip(rows, json_rows) if row.get("source_id") == ISR_STUDIES_SOURCE_ID]
+    other_pairs = [(row, json_row) for row, json_row in zip(rows, json_rows) if row.get("source_id") != ISR_STUDIES_SOURCE_ID]
+    targets = [(output_csv, output_json, other_pairs)]
+    if isr_studies_pairs:
+        targets.append((
+            output_csv.with_name(f"{output_csv.stem}{ISR_STUDIES_SUFFIX}{output_csv.suffix}"),
+            output_json.with_name(f"{output_json.stem}{ISR_STUDIES_SUFFIX}{output_json.suffix}"),
+            isr_studies_pairs,
+        ))
+    for target_csv, target_json, pairs in targets:
+        with target_csv.open("w", encoding="utf-8", newline="") as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+            writer.writerows(row for row, _ in pairs)
+        print(f"Wrote {len(pairs)} rows to {target_csv}")
+        target_json.parent.mkdir(parents=True, exist_ok=True)
+        with target_json.open("w", encoding="utf-8") as f:
+            json.dump([json_row for _, json_row in pairs], f, ensure_ascii=True, indent=2)
+        print(f"Wrote {len(pairs)} JSON entries to {target_json}")
     if errors:
         print(f"Completed with {errors} error(s).", file=sys.stderr)
     print(f"Finished combine for {input_dir}")

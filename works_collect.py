@@ -8,7 +8,7 @@ from excluded_journals import load_excluded_source_ids
 
 RESULTS_BASE_DIR = Path('search_results')
 JOURNALS_FILE = 'journals.csv'
-LLM_OUTPUTS_FILE = RESULTS_BASE_DIR / 'llm_outputs.csv'
+LLM_OUTPUTS_FILES = [RESULTS_BASE_DIR / 'llm_outputs.csv', RESULTS_BASE_DIR / 'llm_outputs_isr_studies.csv']
 VERBOSE = True
 FOLLOW_DOIS = False
 
@@ -57,17 +57,18 @@ def _check_pdf_exists(work_id):
 
 def _load_llm_work_ids():
     llm_work_ids = set()
-    if not LLM_OUTPUTS_FILE.exists():
-        return llm_work_ids
+    for llm_outputs_file in LLM_OUTPUTS_FILES:
+        if not llm_outputs_file.exists():
+            continue
 
-    with open(LLM_OUTPUTS_FILE, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        if 'id' not in reader.fieldnames:
-            return llm_work_ids
-        for row in reader:
-            work_id = row.get('id', '')
-            if work_id:
-                llm_work_ids.add(work_id)
+        with open(llm_outputs_file, 'r', encoding='utf-8') as f:
+            reader = csv.DictReader(f)
+            if 'id' not in reader.fieldnames:
+                continue
+            for row in reader:
+                work_id = row.get('id', '')
+                if work_id:
+                    llm_work_ids.add(work_id)
     return llm_work_ids
 
 
@@ -147,7 +148,8 @@ def _extract_data_from_json(json_data, journal_mapping, existing_doi_follows, ll
         abstract_inverted_index = item.get('abstract_inverted_index')
         row['abstract'] = _parse_abstract_inverted_index(abstract_inverted_index)
 
-        results.append(row)
+        for category in row['journal_category'].split(';'):
+            results.append({**row, 'journal_category': category})
 
     return results
 
