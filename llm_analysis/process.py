@@ -8,24 +8,16 @@ from llm_output_json import has_valid_json_output
 
 MODEL = ""
 
-BATCH_SIZE = 8
+BATCH_SIZE = 32
 DRY_RUN = False
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
-WORKS_BASE_DIR = os.path.join(SCRIPT_DIR, "../pdfs")
 SEARCH_RESULTS_DIR = os.path.join(SCRIPT_DIR, "../search_results")
 
-PROMPT_FILE = f"{SCRIPT_DIR}/prompt.txt"
-THEMES_FILE = f"{SCRIPT_DIR}/themes.txt"
-PDFS_OUTPUT_DIR = f"{WORKS_BASE_DIR}/llm_outputs"
+PROMPT_FILE = f"{SCRIPT_DIR}/prompt-v2/prompt.md"
 SEARCH_RESULTS_OUTPUT_DIR = f"{SEARCH_RESULTS_DIR}/llm_outputs"
 SEARCH_RESULTS_CSV_PATTERN = "works_*.csv"
-
-TASK_INPUT_DESCRIPTION_PLACEHOLDER = "{{TASK_INPUT_DESCRIPTION}}"
-TASK_TYPE_PDFS = "pdfs"
-TASK_TYPE_SEARCH_RESULTS = "search_results"
-DEFAULT_TARGET_COUNTRY = "Israel"
 
 
 def _print_exception(task_label, exc):
@@ -52,40 +44,19 @@ def _load_llm_gen(model_name, gpu_count):
     if model_name == "deepseek3":
         from vllm_deepseek_3_2 import build_llm_gen as _build_llm_gen
         return _build_llm_gen(gpu_count)
+    if model_name == "gptoss":
+        from vllm_gptoss import build_llm_gen as _build_llm_gen
+        return _build_llm_gen(gpu_count)
     raise ValueError(
         f"Unknown model '{model_name}'."
     )
 
 
-def _build_full_prompt(work_text, prompt, themes, task_input_description):
-    prompt_text = prompt.replace(TASK_INPUT_DESCRIPTION_PLACEHOLDER, task_input_description)
-    return f"""{prompt_text}
+def build_task_prompt(task, prompt):
+    return f"""{prompt}
 
-THEMES:
-{themes}
-
-WORK TO ANALYZE:
-{work_text}"""
-
-
-def load_work_prompt(work_path, prompt, themes, task_input_description):
-    print(f"🔄 Loading {work_path}...")
-    try:
-        with open(work_path, 'r', encoding='utf-8') as f:
-            work = f.read().strip()
-    except FileNotFoundError:
-        print(f"❌ File not found: {work_path}")
-        raise
-
-    return _build_full_prompt(work, prompt, themes, task_input_description)
-
-
-def build_task_prompt(task, prompt, themes):
-    prompt = prompt.replace(DEFAULT_TARGET_COUNTRY, task["target_country"])
-    work_path = task.get("work_path")
-    if work_path:
-        return load_work_prompt(work_path, prompt, themes, task["task_input_description"])
-    return _build_full_prompt(task["raw_text"], prompt, themes, task["task_input_description"])
+Input:
+{task["record_text"]}"""
 
 
 def _sanitize_output_name(name):
@@ -126,49 +97,24 @@ def _print_dry_run_task(task, prompt_text, batch_index, task_index):
     print("[DRY RUN] End prompt\n")
 
 
-def _extract_country_from_search_results_csv(csv_path):
-    name = csv_path.stem.removeprefix("works_")
-    name = name.split("_or_")[0]
-    return name.replace("_", " ").title()
+def _keyword_from_search_results_csv(csv_path):
+    return csv_path.stem.removeprefix("works_")
 
 
-def collect_work_files():
-    works_dir = Path(WORKS_BASE_DIR).resolve()
-    seen = set()
-    pdfs_output_dir = Path(PDFS_OUTPUT_DIR).resolve()
-    for txt_path in works_dir.rglob("*.txt"):
-        if txt_path.parent == works_dir:
-            continue
-        txt_path = txt_path.resolve()
-        if txt_path.is_relative_to(pdfs_output_dir):
-            continue
-        if txt_path in seen:
-            continue
-        seen.add(txt_path)
-        relative_path = txt_path.relative_to(works_dir)
-        task_key = "_".join(relative_path.with_suffix("").parts)
-        txt_path_str = str(txt_path)
-        yield {
-            "task_key": task_key,
-            "task_label": txt_path_str,
-            "work_path": txt_path_str,
-            "output_dir": PDFS_OUTPUT_DIR,
-            "task_input_description": "One academic article in plain text (with page numbers preserved where available).",
-            "target_country": DEFAULT_TARGET_COUNTRY,
-        }
-
-
-def _format_search_result_text(row):
+def _format_record_text(row, keyword):
+    work_id = (row.get("id") or "").strip()
     title = (row.get("title") or "").strip()
-    abstract = (row.get("abstract") or "").strip() or "N/A"
+    publication_date = (row.get("publication_date") or "").strip()
     keywords = (row.get("keywords") or "").strip()
-    authors = (row.get("authors") or "").strip() or "N/A"
+    abstract = (row.get("abstract") or "").strip() or "NA"
     return "\n".join(
         [
-            f"Title: {title}",
-            f"Abstract: {abstract}",
-            f"Keywords: {keywords}",
-            f"Authors: {authors}",
+            f"- id: {work_id}",
+            f"- title: {title}",
+            f"- publication_date: {publication_date}",
+            f"- keywords: {keywords}",
+            f"- abstract: {abstract}",
+            f"- keyword: {keyword}",
         ]
     )
 
@@ -177,7 +123,7 @@ def collect_search_result_works():
     search_dir = Path(SEARCH_RESULTS_DIR).resolve()
     seen = set()
     for csv_path in search_dir.glob(SEARCH_RESULTS_CSV_PATTERN):
-        target_country = _extract_country_from_search_results_csv(csv_path)
+        keyword = _keyword_from_search_results_csv(csv_path)
         with open(csv_path, "r", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 work_id = (row.get("id") or "").strip()
@@ -191,22 +137,12 @@ def collect_search_result_works():
                 yield {
                     "task_key": task_key,
                     "task_label": f"{csv_path.name}:{work_id}",
-                    "raw_text": _format_search_result_text(row),
+                    "record_text": _format_record_text(row, keyword),
                     "output_dir": SEARCH_RESULTS_OUTPUT_DIR,
-                    "task_input_description": "One academic work summary with Title, Abstract, Keywords, and Authors metadata.",
-                    "target_country": target_country,
                 }
 
 
-def collect_tasks(task_type):
-    if task_type == TASK_TYPE_PDFS:
-        return collect_work_files()
-    if task_type == TASK_TYPE_SEARCH_RESULTS:
-        return collect_search_result_works()
-    raise ValueError(f"Unknown task type '{task_type}'")
-
-
-def run_tasks(task_type, prompt, themes, llm_gen):
+def run_tasks(prompt, llm_gen):
     print("Starting batched processing...\n")
 
     start_time = time.perf_counter()
@@ -234,13 +170,13 @@ def run_tasks(task_type, prompt, themes, llm_gen):
             yield batch_tasks
 
     processed_batch_count = 0
-    for batch_items in iter_batches(collect_tasks(task_type)):
+    for batch_items in iter_batches(collect_search_result_works()):
         processed_batch_count += 1
         batch = []
         batch_map = []
         for original_idx, task in batch_items:
             try:
-                prompt_text = build_task_prompt(task, prompt, themes)
+                prompt_text = build_task_prompt(task, prompt)
                 batch.append(prompt_text)
                 batch_map.append((original_idx, task))
                 if DRY_RUN:
@@ -315,10 +251,7 @@ def run_tasks(task_type, prompt, themes, llm_gen):
                 failures.append((task, e))
 
     if not found_any:
-        if task_type == TASK_TYPE_PDFS:
-            print(f"No matching .txt files found in subdirectories of {WORKS_BASE_DIR}")
-        else:
-            print(f"No matching works found in {SEARCH_RESULTS_DIR} from {SEARCH_RESULTS_CSV_PATTERN}")
+        print(f"No matching works found in {SEARCH_RESULTS_DIR} from {SEARCH_RESULTS_CSV_PATTERN}")
         return
 
     end_time = time.perf_counter()
@@ -358,14 +291,11 @@ def main():
     try:
         with open(PROMPT_FILE, 'r', encoding='utf-8') as f:
             prompt = f.read().strip()
-        with open(THEMES_FILE, 'r', encoding='utf-8') as f:
-            themes = f.read().strip()
     except FileNotFoundError as e:
         print(f"❌ Error: {e}")
         raise
 
-    for task_type in (TASK_TYPE_PDFS, TASK_TYPE_SEARCH_RESULTS):
-        run_tasks(task_type, prompt, themes, llm_gen)
+    run_tasks(prompt, llm_gen)
 
 
 if __name__ == "__main__":
