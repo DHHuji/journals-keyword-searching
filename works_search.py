@@ -1,3 +1,4 @@
+import argparse
 import asyncio
 import csv
 import datetime
@@ -14,26 +15,28 @@ CONCURRENCY = 1
 RATE_LIMIT = 10  # per second
 OUTPUT_BASE_DIR = Path("search_results")
 KEYWORDS = [
-    "israel",
-    "australia",
-    "france",
-    "belgium",
-    "syria",
-    "lebanon",
-    "egypt",
-    "iraq",
-    "(\"south africa\")",
-    "germany",
-    "japan",
-    "italy",
-    "(\"united states\" OR usa)",
-    "spain",
-    "jordan",
-    "algeria",
-    "switzerland",
-    "russia",
-    "turkey",
-    "iran"
+    #"israel",
+    #"australia",
+    #"france",
+    #"belgium",
+    #"syria",
+    #"lebanon",
+    #"egypt",
+    #"iraq",
+    #"(\"south africa\")",
+    #"germany",
+    #"japan",
+    #"italy",
+    #"(\"united states\" OR usa)",
+    #"spain",
+    #"jordan",
+    #"algeria",
+    #"switzerland",
+    #"russia",
+    #"turkey",
+    #"iran"
+    "palestine",
+    "(\"england\" OR \"united kingdom\" OR \"britain\")",
 ]
 
 OUTPUT_BASE_DIR.mkdir(exist_ok=True)
@@ -138,6 +141,10 @@ async def process_source_id(session, source_id, keyword, output_dir, semaphore, 
 
 
 async def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--force", action="store_true")
+    args = parser.parse_args()
+
     try:
         source_ids = []
 
@@ -173,6 +180,7 @@ async def main():
                 tasks = [
                     process_source_id(session, source_id, keyword, output_dir, semaphore, rate_limiter)
                     for source_id in source_ids
+                    if args.force or not (output_dir / f"{source_id}.json").exists()
                 ]
                 results = await tqdm.gather(*tasks, desc=f"Processing sources [{normalized_keyword}]")
                 total_results += sum(results)
