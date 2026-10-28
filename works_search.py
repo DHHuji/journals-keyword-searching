@@ -177,6 +177,41 @@ def _upsert_results(existing_results, new_results):
     return merged_results
 
 
+def _load_partial_state(state_file, year_range):
+    if not state_file.exists():
+        return []
+
+    with state_file.open('r', encoding='utf-8') as f:
+        lines = [line for line in f if line.strip()]
+
+    if not lines:
+        return []
+
+    header = json.loads(lines[0])
+    expected_year_range = list(year_range) if year_range else None
+    if header.get('year_range') != expected_year_range:
+        return []
+
+    pages = []
+    for line in lines[1:]:
+        try:
+            pages.append(json.loads(line))
+        except json.JSONDecodeError:
+            break
+    return pages
+
+
+def _start_partial_state(state_file, year_range):
+    with state_file.open('w', encoding='utf-8') as f:
+        f.write(json.dumps({'year_range': list(year_range) if year_range else None}) + "\n")
+
+
+def _append_partial_state(state_file, results):
+    with state_file.open('a', encoding='utf-8') as f:
+        f.write(json.dumps(results) + "\n")
+        f.flush()
+
+
 def _write_results(output_file, results):
     temporary_file = output_file.with_suffix('.json.tmp')
     with temporary_file.open('w', encoding='utf-8') as f:
@@ -189,8 +224,15 @@ async def process_source_id(
     year_range=None, upsert=False,
 ):
     async with semaphore:
-        all_results = []
-        page = 1
+        state_file = output_dir / f"{source_id}.partial.jsonl"
+        completed_pages = _load_partial_state(state_file, year_range)
+        _start_partial_state(state_file, year_range)
+        for page_results in completed_pages:
+            _append_partial_state(state_file, page_results)
+        if completed_pages:
+            print(f"Resuming source {source_id} from page {len(completed_pages) + 1}")
+        all_results = [result for page_results in completed_pages for result in page_results]
+        page = len(completed_pages) + 1
 
         while True:
             try:
@@ -203,6 +245,7 @@ async def process_source_id(
                     break
 
                 all_results.extend(results)
+                _append_partial_state(state_file, results)
 
                 meta = data.get('meta', {})
                 if page >= meta.get('count', 0) / 100:
@@ -219,6 +262,7 @@ async def process_source_id(
             existing_results = _load_existing_results(output_file)
             all_results = _upsert_results(existing_results, all_results)
         _write_results(output_file, all_results)
+        state_file.unlink(missing_ok=True)
 
         return fetched_count
 
