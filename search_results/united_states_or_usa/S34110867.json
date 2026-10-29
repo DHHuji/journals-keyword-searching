@@ -24675,17 +24675,19 @@
     "doi": "https://doi.org/10.1093/ojls/gqaf019",
     "title": "The Placebo Effect of Insider Dealing Regulation",
     "display_name": "The Placebo Effect of Insider Dealing Regulation",
-    "relevance_score": 0.41643903,
+    "relevance_score": 0.8237186,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
       "openalex": "https://openalex.org/W4411849218",
       "doi": "https://doi.org/10.1093/ojls/gqaf019",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40896404"
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40896404",
+      "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/12395251"
     },
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/ojls/gqaf019",
+      "doi": "https://doi.org/10.1093/ojls/gqaf019",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/ojls/gqaf019",
       "pdf_url": null,
@@ -24700,6 +24702,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -24720,6 +24731,7 @@
       "raw_source_name": "Oxford Journal of Legal Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -24737,7 +24749,10 @@
         "author": {
           "id": "https://openalex.org/A5040632205",
           "display_name": "Luca Enriques",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-2009-0333",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2009-0333"
+          ]
         },
         "institutions": [
           {
@@ -24774,35 +24789,85 @@
         "author": {
           "id": "https://openalex.org/A5081191597",
           "display_name": "Yoon-Ho Alex Lee",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0009-0230-7173",
+          "observed_orcids": [
+            "https://orcid.org/0009-0009-0230-7173"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I71209653",
+            "display_name": "Bocconi University",
+            "ror": "https://ror.org/05crjpb27",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I71209653"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
         "is_corresponding": false,
         "raw_author_name": "Yoon-Ho Alex Lee",
-        "raw_affiliation_strings": [],
+        "raw_affiliation_strings": [
+          "Bocconi University, ECGI and EBI"
+        ],
         "raw_orcid": null,
-        "affiliations": []
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Bocconi University, ECGI and EBI",
+            "institution_ids": [
+              "https://openalex.org/I71209653"
+            ]
+          }
+        ]
       },
       {
         "author_position": "last",
         "author": {
           "id": "https://openalex.org/A5101157054",
           "display_name": "Alessandro Romano",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0003-5140-8663",
+          "observed_orcids": [
+            "https://orcid.org/0009-0003-5140-8663"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I71209653",
+            "display_name": "Bocconi University",
+            "ror": "https://ror.org/05crjpb27",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I71209653"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
         "is_corresponding": false,
         "raw_author_name": "Alessandro Romano",
-        "raw_affiliation_strings": [],
+        "raw_affiliation_strings": [
+          "Bocconi University, ECGI and EBI"
+        ],
         "raw_orcid": null,
-        "affiliations": []
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Bocconi University, ECGI and EBI",
+            "institution_ids": [
+              "https://openalex.org/I71209653"
+            ]
+          }
+        ]
       }
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 3,
+    "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5040632205"
     ],
@@ -24810,20 +24875,20 @@
       "https://openalex.org/I71209653"
     ],
     "apc_list": {
-      "value": 2768,
+      "value": 3023,
       "currency": "GBP",
-      "value_usd": 3395
+      "value_usd": 3987
     },
     "apc_paid": {
-      "value": 2768,
+      "value": 3023,
       "currency": "GBP",
-      "value_usd": 3395
+      "value_usd": 3987
     },
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.18955893,
+      "value": 0.11224996,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -24840,7 +24905,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T14373",
       "display_name": "Securities Regulation and Market Practices",
-      "score": 0.9883999824523926,
+      "score": 0.6586999893188477,
       "subfield": {
         "id": "https://openalex.org/subfields/1406",
         "display_name": "Marketing"
@@ -24858,7 +24923,7 @@
       {
         "id": "https://openalex.org/T14373",
         "display_name": "Securities Regulation and Market Practices",
-        "score": 0.9883999824523926,
+        "score": 0.6586999893188477,
         "subfield": {
           "id": "https://openalex.org/subfields/1406",
           "display_name": "Marketing"
@@ -24875,7 +24940,7 @@
       {
         "id": "https://openalex.org/T10047",
         "display_name": "Financial Markets and Investment Strategies",
-        "score": 0.9333999752998352,
+        "score": 0.3100999891757965,
         "subfield": {
           "id": "https://openalex.org/subfields/2003",
           "display_name": "Finance"
@@ -24890,16 +24955,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T12394",
-        "display_name": "Insurance and Financial Risk Management",
-        "score": 0.9043999910354614,
+        "id": "https://openalex.org/T10019",
+        "display_name": "Corporate Finance and Governance",
+        "score": 0.026399999856948853,
         "subfield": {
-          "id": "https://openalex.org/subfields/2002",
-          "display_name": "Economics and Econometrics"
+          "id": "https://openalex.org/subfields/1402",
+          "display_name": "Accounting"
         },
         "field": {
-          "id": "https://openalex.org/fields/20",
-          "display_name": "Economics, Econometrics and Finance"
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -24910,63 +24975,48 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/insider-trading",
-        "display_name": "Insider trading",
-        "score": 0.8979601263999939
+        "display_name": "insider trading",
+        "score": 0.8600000143051147
+      },
+      {
+        "id": "https://openalex.org/keywords/material-nonpublic-information",
+        "display_name": "material nonpublic information",
+        "score": 0.8450000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/individual-investors",
+        "display_name": "retail investors",
+        "score": 0.6029999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/investor-protection",
+        "display_name": "investor protection",
+        "score": 0.7210000157356262
       },
       {
         "id": "https://openalex.org/keywords/corporate-governance",
-        "display_name": "Corporate governance",
-        "score": 0.6336531639099121
+        "display_name": "corporate governance",
+        "score": 0.906000018119812
       },
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.6225278973579407
+        "id": "https://openalex.org/keywords/financial-markets",
+        "display_name": "financial markets",
+        "score": 0.7170000076293945
       },
       {
-        "id": "https://openalex.org/keywords/shadow",
-        "display_name": "Shadow (psychology)",
-        "score": 0.5970789194107056
+        "id": "https://openalex.org/keywords/regulatory-efficiency",
+        "display_name": "regulatory efficiency",
+        "score": 0.4230000078678131
       },
       {
-        "id": "https://openalex.org/keywords/insider",
-        "display_name": "Insider",
-        "score": 0.5730538964271545
+        "id": "https://openalex.org/keywords/eu-law",
+        "display_name": "European Union law",
+        "score": 0.5440000295639038
       },
       {
-        "id": "https://openalex.org/keywords/profit",
-        "display_name": "Profit (economics)",
-        "score": 0.5126573443412781
-      },
-      {
-        "id": "https://openalex.org/keywords/accounting",
-        "display_name": "Accounting",
-        "score": 0.33669477701187134
-      },
-      {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.31446775794029236
-      },
-      {
-        "id": "https://openalex.org/keywords/finance",
-        "display_name": "Finance",
-        "score": 0.3062674403190613
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.13241329789161682
-      },
-      {
-        "id": "https://openalex.org/keywords/microeconomics",
-        "display_name": "Microeconomics",
-        "score": 0.11963948607444763
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.08391129970550537
+        "id": "https://openalex.org/keywords/united-states-securities-law",
+        "display_name": "United States securities law",
+        "score": 0.628000020980835
       }
     ],
     "concepts": [
@@ -25070,10 +25120,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 3,
+    "locations_count": 4,
     "locations": [
       {
         "id": "doi:10.1093/ojls/gqaf019",
+        "doi": "https://doi.org/10.1093/ojls/gqaf019",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/ojls/gqaf019",
         "pdf_url": null,
@@ -25088,6 +25139,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -25109,7 +25169,39 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:pubmedcentral.nih.gov:12395251",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12395251",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Oxf J Leg Stud",
+        "raw_type": "Text"
+      },
+      {
         "id": "pmid:40896404",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40896404",
         "pdf_url": null,
@@ -25121,6 +25213,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -25135,40 +25228,41 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "Oxford journal of legal studies",
-        "raw_type": null
+        "raw_type": "Journal Article"
       },
       {
-        "id": "pmh:oai:pubmedcentral.nih.gov:12395251",
+        "id": "pmh:oai:iris.unibocconi.it:11565/4075076",
+        "doi": null,
         "is_oa": true,
-        "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12395251/",
-        "pdf_url": null,
+        "landing_page_url": "https://hdl.handle.net/11565/4075076",
+        "pdf_url": "https://iris.unibocconi.it/bitstream/11565/4075076/1/gqaf019SR.pdf",
         "source": {
-          "id": "https://openalex.org/S2764455111",
-          "display_name": "PubMed Central",
+          "id": "https://openalex.org/S7407055170",
+          "display_name": "Archivio istituzionale della Ricerca - Bocconi",
           "issn_l": null,
           "issn": null,
-          "is_oa": true,
+          "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "host_organization": "https://openalex.org/I1299303238",
-          "host_organization_name": "National Institutes of Health",
-          "host_organization_lineage": [
-            "https://openalex.org/I1299303238"
-          ],
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "repository"
         },
-        "license": "other-oa",
-        "license_id": "https://openalex.org/licenses/other-oa",
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
-        "raw_source_name": "Oxf J Leg Stud",
-        "raw_type": "Text"
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1093/ojls/gqaf019",
+      "doi": "https://doi.org/10.1093/ojls/gqaf019",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/ojls/gqaf019",
       "pdf_url": null,
@@ -25183,6 +25277,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -25205,31 +25308,50 @@
     },
     "sustainable_development_goals": [
       {
-        "id": "https://metadata.un.org/sdg/16",
-        "display_name": "Peace, Justice and strong institutions",
-        "score": 0.44999998807907104
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.666700005531311,
+        "id": "https://metadata.un.org/sdg/16"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.44999998807907104,
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
-    "funders": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320309475",
+        "display_name": "Northwestern University",
+        "ror": "https://ror.org/000e0be47"
+      },
+      {
+        "id": "https://openalex.org/F4320323716",
+        "display_name": "Universit\u00e0 Bocconi",
+        "ror": "https://ror.org/05crjpb27"
+      }
+    ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W653900512",
-      "https://openalex.org/W1559280668",
-      "https://openalex.org/W3123347851",
-      "https://openalex.org/W574801755",
-      "https://openalex.org/W2893218741",
-      "https://openalex.org/W2161718263",
-      "https://openalex.org/W1510863280",
-      "https://openalex.org/W2382215091",
-      "https://openalex.org/W273314610",
-      "https://openalex.org/W133454161"
+      "https://openalex.org/W4241473976",
+      "https://openalex.org/W3175240273",
+      "https://openalex.org/W1552162227",
+      "https://openalex.org/W7098517382",
+      "https://openalex.org/W2156594523",
+      "https://openalex.org/W7098870158",
+      "https://openalex.org/W2754545649",
+      "https://openalex.org/W2950547760",
+      "https://openalex.org/W4415075080",
+      "https://openalex.org/W7095641746"
     ],
     "abstract_inverted_index": {
       "Insiders": [
@@ -25621,7 +25743,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2025-12-22T23:10:17.713674",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-10-10T00:00:00"
   }
 ]

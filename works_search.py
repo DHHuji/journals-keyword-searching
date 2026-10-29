@@ -4,6 +4,7 @@ import csv
 import datetime
 import email.utils
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -14,29 +15,30 @@ JOURNALS_INPUT = "journals.csv"
 CONCURRENCY = 1
 RATE_LIMIT = 10  # per second
 OUTPUT_BASE_DIR = Path("search_results")
+OPENALEX_API_KEY = os.environ.get("OPENALEX_API_KEY")
 KEYWORDS = [
-    #"israel",
-    #"australia",
-    #"france",
-    #"belgium",
-    #"syria",
-    #"lebanon",
-    #"egypt",
-    #"iraq",
-    #"(\"south africa\")",
-    #"germany",
-    #"japan",
-    #"italy",
-    #"(\"united states\" OR usa)",
-    #"spain",
-    #"jordan",
-    #"algeria",
-    #"switzerland",
-    #"russia",
-    #"turkey",
-    #"iran"
-    "palestine",
-    "(\"england\" OR \"united kingdom\" OR \"britain\")",
+    "israel",
+    "australia",
+    "france",
+    "belgium",
+    "syria",
+    "lebanon",
+    "egypt",
+    "iraq",
+    "(\"south africa\")",
+    "germany",
+    "japan",
+    "italy",
+    "(\"united states\" OR usa)",
+    "spain",
+    "jordan",
+    "algeria",
+    "switzerland",
+    "russia",
+    "turkey",
+    "iran",
+    #"palestine",
+    #"(\"england\" OR \"united kingdom\" OR \"britain\")",
 ]
 
 OUTPUT_BASE_DIR.mkdir(exist_ok=True)
@@ -90,16 +92,27 @@ async def _wait_until(deadline):
         await asyncio.sleep(min(remaining_seconds, RETRY_AFTER_CHECK_INTERVAL_SECONDS))
 
 
-async def fetch_page(session, source_id, keyword, page, rate_limiter, year_range=None):
+async def fetch_page(
+    session, source_id, keyword, page_or_cursor, rate_limiter,
+    year_range=None, use_cursor=False, api_key=None,
+):
+    loc = f"cursor {page_or_cursor}" if use_cursor else f"page {page_or_cursor}"
     while True:
         async with rate_limiter:
-            url = f"https://api.openalex.org/works"
+            url = "https://api.openalex.org/works"
             params = {
-                'page': page,
                 'filter': f'title_and_abstract.search:{keyword},primary_location.source.id:{source_id}',
                 'per_page': 100,
-                'mailto': 'reallyliri@gmail.com'
+                'mailto': 'reallyliri@gmail.com',
             }
+            if use_cursor:
+                params['cursor'] = page_or_cursor
+            else:
+                params['page'] = page_or_cursor
+
+            if api_key:
+                params['api_key'] = api_key
+
             if year_range:
                 start_year, end_year = year_range
                 params['filter'] += (
@@ -114,7 +127,7 @@ async def fetch_page(session, source_id, keyword, page, rate_limiter, year_range
                     )
                     if retry_after_deadline is None:
                         raise Exception(
-                            f"HTTP 429 for source {source_id}, page {page} without a valid Retry-After header"
+                            f"HTTP 429 for source {source_id}, {loc} without a valid Retry-After header"
                         )
 
                     retry_after_seconds = max(
@@ -123,14 +136,15 @@ async def fetch_page(session, source_id, keyword, page, rate_limiter, year_range
                     )
                     retry_after_hours = retry_after_seconds / 3600
                     print(
-                        f"HTTP 429 for source {source_id}, page {page}. "
+                        f"HTTP 429 for source {source_id}, {loc}. "
                         f"Retry-After: {retry_after_hours:.2f} hours. Waiting..."
                     )
                     await _wait_until(retry_after_deadline)
                     continue
 
                 if response.status != 200:
-                    raise Exception(f"HTTP {response.status} for source {source_id}, page {page}")
+                    error_body = await response.text()
+                    raise Exception(f"HTTP {response.status} for source {source_id}, {loc}: {error_body}")
                 data = await response.json()
                 return data
 
@@ -177,28 +191,40 @@ def _upsert_results(existing_results, new_results):
     return merged_results
 
 
+MAX_BASIC_PAGES = 100  # OpenAlex basic pagination limit: page * per_page <= 10,000
+
+
 def _load_partial_state(state_file, year_range):
     if not state_file.exists():
-        return []
+        return [], None
 
     with state_file.open('r', encoding='utf-8') as f:
         lines = [line for line in f if line.strip()]
 
     if not lines:
-        return []
+        return [], None
 
     header = json.loads(lines[0])
     expected_year_range = list(year_range) if year_range else None
     if header.get('year_range') != expected_year_range:
-        return []
+        return [], None
 
-    pages = []
+    entries = []
+    last_cursor = None
     for line in lines[1:]:
         try:
-            pages.append(json.loads(line))
+            item = json.loads(line)
+            if isinstance(item, dict) and 'results' in item:
+                cursor = item.get('next_cursor')
+                entries.append((item['results'], cursor))
+                last_cursor = cursor
+            elif isinstance(item, list):
+                entries.append((item, None))
+            else:
+                break
         except json.JSONDecodeError:
             break
-    return pages
+    return entries, last_cursor
 
 
 def _start_partial_state(state_file, year_range):
@@ -206,9 +232,12 @@ def _start_partial_state(state_file, year_range):
         f.write(json.dumps({'year_range': list(year_range) if year_range else None}) + "\n")
 
 
-def _append_partial_state(state_file, results):
+def _append_partial_state(state_file, results, next_cursor=None):
     with state_file.open('a', encoding='utf-8') as f:
-        f.write(json.dumps(results) + "\n")
+        if next_cursor is not None:
+            f.write(json.dumps({'results': results, 'next_cursor': next_cursor}) + "\n")
+        else:
+            f.write(json.dumps(results) + "\n")
         f.flush()
 
 
@@ -221,40 +250,98 @@ def _write_results(output_file, results):
 
 async def process_source_id(
     session, source_id, keyword, output_dir, semaphore, rate_limiter,
-    year_range=None, upsert=False,
+    year_range=None, upsert=False, use_cursor=False, api_key=None,
 ):
     async with semaphore:
         state_file = output_dir / f"{source_id}.partial.jsonl"
-        completed_pages = _load_partial_state(state_file, year_range)
-        _start_partial_state(state_file, year_range)
-        for page_results in completed_pages:
-            _append_partial_state(state_file, page_results)
-        if completed_pages:
-            print(f"Resuming source {source_id} from page {len(completed_pages) + 1}")
-        all_results = [result for page_results in completed_pages for result in page_results]
-        page = len(completed_pages) + 1
+        completed_entries, last_cursor = _load_partial_state(state_file, year_range)
 
-        while True:
-            try:
-                data = await fetch_page(
-                    session, source_id, keyword, page, rate_limiter, year_range
-                )
+        if use_cursor and completed_entries and last_cursor is None:
+            print(
+                f"Notice: Source {source_id} partial state has {len(completed_entries)} pages without cursor tokens. "
+                f"Restarting with cursor pagination."
+            )
+            completed_entries = []
+            all_results = []
+            cursor = '*'
+            _start_partial_state(state_file, year_range)
+        else:
+            _start_partial_state(state_file, year_range)
+            for page_results, page_cursor in completed_entries:
+                _append_partial_state(state_file, page_results, next_cursor=page_cursor)
+            all_results = [result for page_results, _ in completed_entries for result in page_results]
+            cursor = last_cursor if last_cursor else '*'
 
-                results = data.get('results', [])
-                if not results:
+        if use_cursor:
+            if completed_entries:
+                print(f"Resuming source {source_id} with cursor after {len(completed_entries)} pages")
+            while True:
+                try:
+                    data = await fetch_page(
+                        session, source_id, keyword, cursor, rate_limiter,
+                        year_range=year_range, use_cursor=True, api_key=api_key,
+                    )
+                    results = data.get('results', [])
+                    if not results:
+                        break
+
+                    meta = data.get('meta', {})
+                    next_cursor = meta.get('next_cursor')
+
+                    all_results.extend(results)
+                    _append_partial_state(state_file, results, next_cursor=next_cursor)
+
+                    if not next_cursor or next_cursor == cursor:
+                        break
+                    cursor = next_cursor
+                except Exception as e:
+                    raise Exception(f"Error processing source {source_id}, cursor {cursor}: {str(e)}")
+        else:
+            page = len(completed_entries) + 1
+            if completed_entries:
+                print(f"Resuming source {source_id} from page {page}")
+
+            while True:
+                if page > MAX_BASIC_PAGES:
+                    print(
+                        f"Warning: Source {source_id} reached OpenAlex basic pagination limit of "
+                        f"{MAX_BASIC_PAGES * 100} records. Finishing with {len(all_results)} results."
+                    )
                     break
 
-                all_results.extend(results)
-                _append_partial_state(state_file, results)
+                try:
+                    data = await fetch_page(
+                        session, source_id, keyword, page, rate_limiter,
+                        year_range=year_range, use_cursor=False, api_key=api_key,
+                    )
 
-                meta = data.get('meta', {})
-                if page >= meta.get('count', 0) / 100:
-                    break
+                    results = data.get('results', [])
+                    if not results:
+                        break
 
-                page += 1
+                    all_results.extend(results)
+                    _append_partial_state(state_file, results)
 
-            except Exception as e:
-                raise Exception(f"Error processing source {source_id}, page {page}: {str(e)}")
+                    meta = data.get('meta', {})
+                    total_count = meta.get('count', 0)
+
+                    if page >= MAX_BASIC_PAGES:
+                        if total_count > MAX_BASIC_PAGES * 100:
+                            print(
+                                f"Warning: Source {source_id} has {total_count} total results, "
+                                f"but OpenAlex basic pagination is limited to {MAX_BASIC_PAGES * 100} records. "
+                                f"Capping at {len(all_results)} results. "
+                                f"(Provide an OpenAlex API key and --cursor to fetch >10,000 records)."
+                            )
+                        break
+
+                    if page >= total_count / 100:
+                        break
+
+                    page += 1
+
+                except Exception as e:
+                    raise Exception(f"Error processing source {source_id}, page {page}: {str(e)}")
 
         fetched_count = len(all_results)
         output_file = output_dir / f"{source_id}.json"
@@ -286,6 +373,9 @@ async def main():
         ),
     )
     args = parser.parse_args()
+
+    api_key = OPENALEX_API_KEY
+    use_cursor = bool(api_key)
 
     if args.upsert:
         start_year, end_year = args.upsert
@@ -334,6 +424,8 @@ async def main():
                         rate_limiter,
                         year_range=tuple(args.upsert) if args.upsert else None,
                         upsert=bool(args.upsert),
+                        use_cursor=use_cursor,
+                        api_key=api_key,
                     )
                     for source_id in source_ids
                     if args.upsert or args.force or not (output_dir / f"{source_id}.json").exists()

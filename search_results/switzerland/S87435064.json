@@ -4205,7 +4205,7 @@
     "doi": "https://doi.org/10.1017/s0020743825101086",
     "title": "Comparative Modernism and Poetics of Time: Bergson, Tanpinar, Benjamin, Walser. \u00d6zen Nergis Dolcerocca (Cham, Switzerland: Palgrave Macmillan, 2023). Pp. 224. $119.99 hardcover, $119.99 paper. ISBN 9783031352003",
     "display_name": "Comparative Modernism and Poetics of Time: Bergson, Tanpinar, Benjamin, Walser. \u00d6zen Nergis Dolcerocca (Cham, Switzerland: Palgrave Macmillan, 2023). Pp. 224. $119.99 hardcover, $119.99 paper. ISBN 9783031352003",
-    "relevance_score": 6.1844387,
+    "relevance_score": 18.966564,
     "publication_year": 2025,
     "publication_date": "2025-08-01",
     "ids": {
@@ -4215,6 +4215,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0020743825101086",
+      "doi": "https://doi.org/10.1017/s0020743825101086",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1017/s0020743825101086",
       "pdf_url": null,
@@ -4229,6 +4230,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-2",
+          "norway-2",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -4249,7 +4260,8 @@
       "raw_source_name": "International Journal of Middle East Studies",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -4263,12 +4275,28 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5112267790",
-          "display_name": "Kate Sharpe",
-          "orcid": "https://orcid.org/0000-0002-3795-1438"
+          "id": null,
+          "display_name": "Kenan Behzat Sharpe",
+          "orcid": "https://orcid.org/0000-0002-3795-1438",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3795-1438"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I111979921",
+            "display_name": "Northwestern University",
+            "ror": "https://ror.org/000e0be47",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I111979921"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Kenan Behzat Sharpe",
         "raw_affiliation_strings": [
@@ -4278,28 +4306,30 @@
         "affiliations": [
           {
             "raw_affiliation_string": "Northwestern University",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I111979921"
+            ]
           }
         ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
-    "corresponding_author_ids": [
-      "https://openalex.org/A5112267790"
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I111979921"
     ],
-    "corresponding_institution_ids": [],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.24517656,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "57",
@@ -4311,9 +4341,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11893",
-      "display_name": "German Literature and Culture Studies",
-      "score": 0.14900000393390656,
+      "id": "https://openalex.org/T12974",
+      "display_name": "Modernist Literature and Criticism",
+      "score": 0.8726000189781189,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -4329,9 +4359,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11893",
-        "display_name": "German Literature and Culture Studies",
-        "score": 0.14900000393390656,
+        "id": "https://openalex.org/T12974",
+        "display_name": "Modernist Literature and Criticism",
+        "score": 0.8726000189781189,
         "subfield": {
           "id": "https://openalex.org/subfields/1208",
           "display_name": "Literature and Literary Theory"
@@ -4346,29 +4376,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T13264",
-        "display_name": "Walter Benjamin Studies Compilation",
-        "score": 0.09109999984502792,
+        "id": "https://openalex.org/T13466",
+        "display_name": "Comparative Literary Analysis and Criticism",
+        "score": 0.039900001138448715,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1208",
+          "display_name": "Literature and Literary Theory"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13545",
+        "display_name": "Philosophical and Theoretical Analysis",
+        "score": 0.038100000470876694,
         "subfield": {
           "id": "https://openalex.org/subfields/1211",
           "display_name": "Philosophy"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T14193",
-        "display_name": "Literature and Cultural Memory",
-        "score": 0.03790000081062317,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1208",
-          "display_name": "Literature and Literary Theory"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -4382,24 +4412,29 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/poetics",
-        "display_name": "Poetics",
-        "score": 0.8618000149726868
+        "id": "https://openalex.org/keywords/poetics-of-time",
+        "display_name": "poetics of time",
+        "score": 0.996999979019165
       },
       {
-        "id": "https://openalex.org/keywords/modernism",
-        "display_name": "Modernism (music)",
-        "score": 0.7886000275611877
+        "id": "https://openalex.org/keywords/henri-bergson",
+        "display_name": "Henri Bergson",
+        "score": 0.8939999938011169
       },
       {
-        "id": "https://openalex.org/keywords/post-modernism",
-        "display_name": "Post modernism",
-        "score": 0.27799999713897705
+        "id": "https://openalex.org/keywords/walter-benjamin",
+        "display_name": "Walter Benjamin",
+        "score": 0.996999979019165
       },
       {
-        "id": "https://openalex.org/keywords/comparative-literature",
-        "display_name": "Comparative literature",
-        "score": 0.20550000667572021
+        "id": "https://openalex.org/keywords/time-in-literature",
+        "display_name": "time in literature",
+        "score": 0.6970000267028809
+      },
+      {
+        "id": "https://openalex.org/keywords/philosophy-of-time",
+        "display_name": "philosophy of time",
+        "score": 0.4909999966621399
       }
     ],
     "concepts": [
@@ -4479,6 +4514,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s0020743825101086",
+        "doi": "https://doi.org/10.1017/s0020743825101086",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1017/s0020743825101086",
         "pdf_url": null,
@@ -4493,6 +4529,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-2",
+            "norway-2",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -4516,30 +4562,120 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W2899084033",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W2390694497",
-      "https://openalex.org/W2371608489",
-      "https://openalex.org/W2355275318",
-      "https://openalex.org/W2376081078",
-      "https://openalex.org/W2356758940",
-      "https://openalex.org/W2391023838",
-      "https://openalex.org/W2810914515"
+      "https://openalex.org/W7018246201",
+      "https://openalex.org/W4387365225",
+      "https://openalex.org/W4387365114",
+      "https://openalex.org/W2609984585",
+      "https://openalex.org/W113468342",
+      "https://openalex.org/W3011992158",
+      "https://openalex.org/W2750413005",
+      "https://openalex.org/W7217206518",
+      "https://openalex.org/W7043735428",
+      "https://openalex.org/W7046066005"
     ],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "Comparative": [
+        0
+      ],
+      "Modernism": [
+        1
+      ],
+      "and": [
+        2
+      ],
+      "Poetics": [
+        3
+      ],
+      "of": [
+        4
+      ],
+      "Time:": [
+        5
+      ],
+      "Bergson,": [
+        6
+      ],
+      "Tanpinar,": [
+        7
+      ],
+      "Benjamin,": [
+        8
+      ],
+      "Walser.": [
+        9
+      ],
+      "\u00d6zen": [
+        10
+      ],
+      "Nergis": [
+        11
+      ],
+      "Dolcerocca": [
+        12
+      ],
+      "(Cham,": [
+        13
+      ],
+      "Switzerland:": [
+        14
+      ],
+      "Palgrave": [
+        15
+      ],
+      "Macmillan,": [
+        16
+      ],
+      "2023).": [
+        17
+      ],
+      "Pp.": [
+        18
+      ],
+      "224.": [
+        19
+      ],
+      "119.99": [
+        20
+      ],
+      "paper.": [
+        21
+      ],
+      "ISBN": [
+        22
+      ],
+      "9783031352003": [
+        23
+      ],
+      "-": [
+        24
+      ],
+      "Volume": [
+        25
+      ],
+      "57": [
+        26
+      ],
+      "Issue": [
+        27
+      ],
+      "3": [
+        28
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2026-02-06T02:01:19.302388",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-10-10T00:00:00"
   },
   {

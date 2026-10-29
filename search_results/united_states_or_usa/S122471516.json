@@ -262347,9 +262347,9 @@
   {
     "id": "https://openalex.org/W7160166847",
     "doi": "https://doi.org/10.1086/740004",
-    "title": ": <i>The Power of the Badge: Sheriffs and Inequality in the United States</i>",
-    "display_name": ": <i>The Power of the Badge: Sheriffs and Inequality in the United States</i>",
-    "relevance_score": 6.265247,
+    "title": ": The Power of the Badge: Sheriffs and Inequality in the United States",
+    "display_name": ": The Power of the Badge: Sheriffs and Inequality in the United States",
+    "relevance_score": 13.643725,
     "publication_year": 2026,
     "publication_date": "2026-03-01",
     "ids": {
@@ -262359,6 +262359,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/740004",
+      "doi": "https://doi.org/10.1086/740004",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/740004",
       "pdf_url": null,
@@ -262373,6 +262374,18 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "fnege-1",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -262393,7 +262406,8 @@
       "raw_source_name": "American Journal of Sociology",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -262409,34 +262423,55 @@
         "author": {
           "id": "https://openalex.org/A5018778796",
           "display_name": "Andy Clarno",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I39422238",
+            "display_name": "University of Illinois Chicago",
+            "ror": "https://ror.org/02mpq6x41",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I39422238"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Andy Clarno",
-        "raw_affiliation_strings": [],
+        "raw_affiliation_strings": [
+          "University of Illinois Chicago"
+        ],
         "raw_orcid": null,
-        "affiliations": []
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Illinois Chicago",
+            "institution_ids": [
+              "https://openalex.org/I39422238"
+            ]
+          }
+        ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5018778796"
     ],
-    "corresponding_institution_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I39422238"
+    ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.9562555,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "131",
@@ -262450,7 +262485,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11076",
       "display_name": "Policing Practices and Perceptions",
-      "score": 0.03500000014901161,
+      "score": 0.9883000254631042,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -262468,7 +262503,7 @@
       {
         "id": "https://openalex.org/T11076",
         "display_name": "Policing Practices and Perceptions",
-        "score": 0.03500000014901161,
+        "score": 0.9883000254631042,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -262483,12 +262518,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T10239",
-        "display_name": "Urban Planning and Governance",
-        "score": 0.018200000748038292,
+        "id": "https://openalex.org/T10318",
+        "display_name": "Criminal Justice and Corrections Analysis",
+        "score": 0.007799999788403511,
         "subfield": {
-          "id": "https://openalex.org/subfields/3322",
-          "display_name": "Urban Studies"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -262500,12 +262535,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T14107",
-        "display_name": "Appalachian Studies and Mathematics",
-        "score": 0.016200000420212746,
+        "id": "https://openalex.org/T12736",
+        "display_name": "Criminal Justice and Penology",
+        "score": 0.0017000000225380063,
         "subfield": {
-          "id": "https://openalex.org/subfields/3300",
-          "display_name": "General Social Sciences"
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -262519,24 +262554,34 @@
     ],
     "keywords": [
       {
+        "id": "https://openalex.org/keywords/sheriffs",
+        "display_name": "sheriffs",
+        "score": 0.968999981880188
+      },
+      {
+        "id": "https://openalex.org/keywords/police-powers",
+        "display_name": "police powers",
+        "score": 0.4620000123977661
+      },
+      {
         "id": "https://openalex.org/keywords/inequality",
-        "display_name": "Inequality",
-        "score": 0.7648000121116638
+        "display_name": "inequality",
+        "score": 0.7120000123977661
       },
       {
-        "id": "https://openalex.org/keywords/power",
-        "display_name": "Power (physics)",
-        "score": 0.6956999897956848
+        "id": "https://openalex.org/keywords/law-enforcement",
+        "display_name": "law enforcement",
+        "score": 0.5820000171661377
       },
       {
-        "id": "https://openalex.org/keywords/economic-inequality",
-        "display_name": "Economic inequality",
-        "score": 0.33629998564720154
+        "id": "https://openalex.org/keywords/political-inequality",
+        "display_name": "political inequality",
+        "score": 0.3610000014305115
       },
       {
-        "id": "https://openalex.org/keywords/income-inequality-metrics",
-        "display_name": "Income inequality metrics",
-        "score": 0.26820001006126404
+        "id": "https://openalex.org/keywords/local-government",
+        "display_name": "local government",
+        "score": 0.3449999988079071
       }
     ],
     "concepts": [
@@ -262616,6 +262661,7 @@
     "locations": [
       {
         "id": "doi:10.1086/740004",
+        "doi": "https://doi.org/10.1086/740004",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/740004",
         "pdf_url": null,
@@ -262630,6 +262676,18 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "fnege-1",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -262655,15 +262713,28 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7578999996185303,
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.7297000288963318,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
         "score": 0.41713008284568787,
         "display_name": "Reduced inequalities"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -262671,7 +262742,7 @@
     "related_works": [],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-05-05T06:12:25.323381",
+    "updated_date": "2026-10-24T09:50:30.924529",
     "created_date": "2026-05-05T00:00:00"
   },
   {
@@ -299510,9 +299581,9 @@
   {
     "id": "https://openalex.org/W4413751088",
     "doi": "https://doi.org/10.1086/737316",
-    "title": ":<i>The Price of Freedom: Criminalization and the Management of Outsiders in Germany and the United States</i>",
-    "display_name": ":<i>The Price of Freedom: Criminalization and the Management of Outsiders in Germany and the United States</i>",
-    "relevance_score": 5.7110567,
+    "title": ":The Price of Freedom: Criminalization and the Management of Outsiders in Germany and the United States",
+    "display_name": ":The Price of Freedom: Criminalization and the Management of Outsiders in Germany and the United States",
+    "relevance_score": 12.314684,
     "publication_year": 2025,
     "publication_date": "2025-08-26",
     "ids": {
@@ -299522,6 +299593,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/737316",
+      "doi": "https://doi.org/10.1086/737316",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/737316",
       "pdf_url": null,
@@ -299536,6 +299608,18 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "fnege-1",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -299556,7 +299640,8 @@
       "raw_source_name": "American Journal of Sociology",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -299571,8 +299656,11 @@
         "author_position": "first",
         "author": {
           "id": "https://openalex.org/A5072831625",
-          "display_name": "Sandra M. Bucerius",
-          "orcid": "https://orcid.org/0000-0002-7742-3103"
+          "display_name": "Sandra Meike Bucerius",
+          "orcid": "https://orcid.org/0000-0002-7742-3103",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7742-3103"
+          ]
         },
         "institutions": [
           {
@@ -299594,6 +299682,7 @@
         "raw_affiliation_strings": [
           "University of Alberta"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "University of Alberta",
@@ -299615,14 +299704,10 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.3448967,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "131",
@@ -299634,9 +299719,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13376",
-      "display_name": "Criminal Law and Policy",
-      "score": 0.27790001034736633,
+      "id": "https://openalex.org/T10216",
+      "display_name": "Migration, Refugees, and Integration",
+      "score": 0.31859999895095825,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -299652,9 +299737,43 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13376",
-        "display_name": "Criminal Law and Policy",
-        "score": 0.27790001034736633,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.31859999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12736",
+        "display_name": "Criminal Justice and Penology",
+        "score": 0.3034999966621399,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13728",
+        "display_name": "Crime, Deviance, and Social Control",
+        "score": 0.21480000019073486,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -299672,38 +299791,38 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/criminalization",
-        "display_name": "Criminalization",
-        "score": 0.9573502540588379
+        "display_name": "criminalization",
+        "score": 0.9779999852180481
       },
       {
-        "id": "https://openalex.org/keywords/law-and-economics",
-        "display_name": "Law and economics",
-        "score": 0.48496007919311523
+        "id": "https://openalex.org/keywords/outsiders",
+        "display_name": "outsiders",
+        "score": 0.7680000066757202
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.44375884532928467
+        "id": "https://openalex.org/keywords/social-exclusion",
+        "display_name": "social exclusion",
+        "score": 0.5220000147819519
       },
       {
-        "id": "https://openalex.org/keywords/criminology",
-        "display_name": "Criminology",
-        "score": 0.38640499114990234
+        "id": "https://openalex.org/keywords/border-control",
+        "display_name": "border control",
+        "score": 0.3449999988079071
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.35138997435569763
+        "id": "https://openalex.org/keywords/germany",
+        "display_name": "Germany",
+        "score": 0.37299999594688416
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.3302026391029358
+        "id": "https://openalex.org/keywords/united-states",
+        "display_name": "United States",
+        "score": 0.9829999804496765
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.23457017540931702
+        "id": "https://openalex.org/keywords/comparative-criminology",
+        "display_name": "comparative criminology",
+        "score": 0.6039999723434448
       }
     ],
     "concepts": [
@@ -299762,6 +299881,7 @@
     "locations": [
       {
         "id": "doi:10.1086/737316",
+        "doi": "https://doi.org/10.1086/737316",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/737316",
         "pdf_url": null,
@@ -299776,6 +299896,18 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "fnege-1",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -299800,16 +299932,24 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "display_name": "Reduced inequalities",
-        "score": 0.5299999713897705,
-        "id": "https://metadata.un.org/sdg/10"
-      },
-      {
-        "display_name": "Peace, Justice and strong institutions",
-        "score": 0.4699999988079071,
-        "id": "https://metadata.un.org/sdg/16"
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9200000166893005,
+        "display_name": "Peace, justice, and strong institutions"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.5299999713897705,
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.4699999988079071,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -299833,7 +299973,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-03T13:16:28.481748",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -637201,5 +637341,978 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7127644734",
+    "doi": "https://doi.org/10.1086/740798",
+    "title": "The Coupled Dynamics of Neighborhood and School Change",
+    "display_name": "The Coupled Dynamics of Neighborhood and School Change",
+    "relevance_score": 0.79828966,
+    "publication_year": 2026,
+    "publication_date": "2026-02-04",
+    "ids": {
+      "openalex": "https://openalex.org/W7127644734",
+      "doi": "https://doi.org/10.1086/740798",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42433289",
+      "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/13354489"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1086/740798",
+      "doi": "https://doi.org/10.1086/740798",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1086/740798",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S122471516",
+        "display_name": "American Journal of Sociology",
+        "issn_l": "0002-9602",
+        "issn": [
+          "0002-9602",
+          "1537-5390"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "fnege-1",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310315672",
+        "host_organization_name": "University of Chicago Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315672",
+          "https://openalex.org/P4310315690"
+        ],
+        "host_organization_lineage_names": [
+          "University of Chicago Press",
+          "University of Chicago"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "American Journal of Sociology",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13354489/pdf/nihms-2147488.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5065194280",
+          "display_name": "Elly Field",
+          "orcid": "https://orcid.org/0000-0002-6379-2979",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6379-2979"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27804330",
+            "display_name": "Brown University",
+            "ror": "https://ror.org/05gq02987",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27804330"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Elly Field",
+        "raw_affiliation_strings": [
+          "Brown University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Brown University",
+            "institution_ids": [
+              "https://openalex.org/I27804330"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5020761140",
+          "display_name": "Elizabeth\u00a0E. Bruch",
+          "orcid": "https://orcid.org/0009-0008-4145-4048",
+          "observed_orcids": [
+            "https://orcid.org/0009-0008-4145-4048"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27837315",
+            "display_name": "University of Michigan",
+            "ror": "https://ror.org/00jmfr291",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27837315"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Elizabeth Bruch",
+        "raw_affiliation_strings": [
+          "University of Michigan"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Michigan",
+            "institution_ids": [
+              "https://openalex.org/I27837315"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.0529752,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "131",
+      "issue": "6",
+      "first_page": "1314",
+      "last_page": "1344"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11645",
+      "display_name": "Urban, Neighborhood, and Segregation Studies",
+      "score": 0.9696999788284302,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11645",
+        "display_name": "Urban, Neighborhood, and Segregation Studies",
+        "score": 0.9696999788284302,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10674",
+        "display_name": "School Choice and Performance",
+        "score": 0.0284000001847744,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12088",
+        "display_name": "Intergenerational and Educational Inequality Studies",
+        "score": 0.0003000000142492354,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/neighborhood-change",
+        "display_name": "neighborhood change",
+        "score": 0.621999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/school-change",
+        "display_name": "school change",
+        "score": 0.9079999923706055
+      },
+      {
+        "id": "https://openalex.org/keywords/racial-segregation",
+        "display_name": "racial segregation",
+        "score": 0.8500000238418579
+      },
+      {
+        "id": "https://openalex.org/keywords/demographic-change",
+        "display_name": "demographic change",
+        "score": 0.6230000257492065
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C145912823",
+        "wikidata": "https://www.wikidata.org/wiki/Q113558",
+        "display_name": "Dynamics (music)",
+        "level": 2,
+        "score": 0.7044000029563904
+      },
+      {
+        "id": "https://openalex.org/C149782125",
+        "wikidata": "https://www.wikidata.org/wiki/Q160039",
+        "display_name": "Econometrics",
+        "level": 1,
+        "score": 0.37940001487731934
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.29589998722076416
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.2849000096321106
+      },
+      {
+        "id": "https://openalex.org/C121864883",
+        "wikidata": "https://www.wikidata.org/wiki/Q677916",
+        "display_name": "Statistical physics",
+        "level": 1,
+        "score": 0.2775999903678894
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.2531000077724457
+      },
+      {
+        "id": "https://openalex.org/C33923547",
+        "wikidata": "https://www.wikidata.org/wiki/Q395",
+        "display_name": "Mathematics",
+        "level": 0,
+        "score": 0.2498999983072281
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.23440000414848328
+      },
+      {
+        "id": "https://openalex.org/C76969082",
+        "wikidata": "https://www.wikidata.org/wiki/Q486902",
+        "display_name": "Mathematical model",
+        "level": 2,
+        "score": 0.22750000655651093
+      },
+      {
+        "id": "https://openalex.org/C77405623",
+        "wikidata": "https://www.wikidata.org/wiki/Q598451",
+        "display_name": "System dynamics",
+        "level": 2,
+        "score": 0.2249000072479248
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1086/740798",
+        "doi": "https://doi.org/10.1086/740798",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1086/740798",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S122471516",
+          "display_name": "American Journal of Sociology",
+          "issn_l": "0002-9602",
+          "issn": [
+            "0002-9602",
+            "1537-5390"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "fnege-1",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310315672",
+          "host_organization_name": "University of Chicago Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315672",
+            "https://openalex.org/P4310315690"
+          ],
+          "host_organization_lineage_names": [
+            "University of Chicago Press",
+            "University of Chicago"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "American Journal of Sociology",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:42433289",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/42433289",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "AJS; American journal of sociology",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:13354489",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13354489/",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13354489/pdf/nihms-2147488.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "AJS",
+        "raw_type": "Text"
+      }
+    ],
+    "best_oa_location": {
+      "id": "pmh:oai:pubmedcentral.nih.gov:13354489",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13354489/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13354489/pdf/nihms-2147488.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "AJS",
+      "raw_type": "Text"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7578999996185303,
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/11",
+        "score": 0.5142999887466431,
+        "display_name": "Sustainable cities and communities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G6912749656",
+        "display_name": "Graduate Research Fellowship Program (GRFP)",
+        "funder_award_id": "1256260",
+        "funder_id": "https://openalex.org/F4320306076",
+        "funder_display_name": "National Science Foundation"
+      },
+      {
+        "id": "https://openalex.org/G9000884723",
+        "display_name": "Training in Demography",
+        "funder_award_id": "T32HD007338",
+        "funder_id": "https://openalex.org/F4320337611",
+        "funder_display_name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+      },
+      {
+        "id": "https://openalex.org/G9000890875",
+        "display_name": "Brown Population Studies and Training Center",
+        "funder_award_id": "5p2chd041020-25",
+        "funder_id": "https://openalex.org/F4320332161",
+        "funder_display_name": "National Institutes of Health"
+      },
+      {
+        "id": "https://openalex.org/G9000900282",
+        "display_name": "Social Science Training Program in Population Studies",
+        "funder_award_id": "T32HD007339",
+        "funder_id": "https://openalex.org/F4320337611",
+        "funder_display_name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+      },
+      {
+        "id": "https://openalex.org/G9000911906",
+        "display_name": "Michigan Research Infrastructure for Population Sciences",
+        "funder_award_id": "P2CHD041028",
+        "funder_id": "https://openalex.org/F4320337611",
+        "funder_display_name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306076",
+        "display_name": "National Science Foundation",
+        "ror": "https://ror.org/021nxhr62"
+      },
+      {
+        "id": "https://openalex.org/F4320309070",
+        "display_name": "Brown University",
+        "ror": "https://ror.org/05gq02987"
+      },
+      {
+        "id": "https://openalex.org/F4320332161",
+        "display_name": "National Institutes of Health",
+        "ror": "https://ror.org/01cwqze88"
+      },
+      {
+        "id": "https://openalex.org/F4320337611",
+        "display_name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+        "ror": "https://ror.org/04byxyr05"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7127644734.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7127644734.grobid-xml"
+    },
+    "referenced_works_count": 8,
+    "referenced_works": [
+      "https://openalex.org/W1514650280",
+      "https://openalex.org/W1598612182",
+      "https://openalex.org/W1977578104",
+      "https://openalex.org/W2041157860",
+      "https://openalex.org/W2113406973",
+      "https://openalex.org/W2115499712",
+      "https://openalex.org/W2466908408",
+      "https://openalex.org/W4294983074"
+    ],
+    "related_works": [
+      "https://openalex.org/W4402326341",
+      "https://openalex.org/W3003141105",
+      "https://openalex.org/W6964201989",
+      "https://openalex.org/W2998831319",
+      "https://openalex.org/W3135816901",
+      "https://openalex.org/W4288080741",
+      "https://openalex.org/W4205304917",
+      "https://openalex.org/W64026668",
+      "https://openalex.org/W7042930211",
+      "https://openalex.org/W6955129969"
+    ],
+    "abstract_inverted_index": {
+      "A": [
+        0
+      ],
+      "large": [
+        1,
+        130
+      ],
+      "body": [
+        2
+      ],
+      "of": [
+        3,
+        8,
+        28,
+        91,
+        99,
+        144
+      ],
+      "research": [
+        4
+      ],
+      "investigates": [
+        5
+      ],
+      "the": [
+        6,
+        42,
+        45
+      ],
+      "dynamics": [
+        7,
+        146
+      ],
+      "racial": [
+        9
+      ],
+      "segregation": [
+        10,
+        145
+      ],
+      "in": [
+        11,
+        41,
+        75,
+        85,
+        147
+      ],
+      "schools": [
+        12,
+        37,
+        78
+      ],
+      "and": [
+        13,
+        36,
+        77,
+        83,
+        111,
+        114,
+        141
+      ],
+      "neighborhoods,": [
+        14
+      ],
+      "typically": [
+        15
+      ],
+      "treating": [
+        16
+      ],
+      "them": [
+        17
+      ],
+      "as": [
+        18
+      ],
+      "separate": [
+        19
+      ],
+      "contexts.": [
+        20
+      ],
+      "These": [
+        21
+      ],
+      "studies": [
+        22
+      ],
+      "offer": [
+        23
+      ],
+      "insight": [
+        24
+      ],
+      "into": [
+        25
+      ],
+      "local": [
+        26
+      ],
+      "patterns": [
+        27
+      ],
+      "demographic": [
+        29,
+        108
+      ],
+      "change": [
+        30,
+        109
+      ],
+      "but": [
+        31
+      ],
+      "rarely": [
+        32
+      ],
+      "consider": [
+        33
+      ],
+      "how": [
+        34,
+        81,
+        107,
+        112
+      ],
+      "neighborhoods": [
+        35,
+        76
+      ],
+      "evolve": [
+        38
+      ],
+      "together.": [
+        39
+      ],
+      "Yet,": [
+        40
+      ],
+      "United": [
+        43
+      ],
+      "States,": [
+        44
+      ],
+      "two": [
+        46
+      ],
+      "are": [
+        47
+      ],
+      "structurally": [
+        48
+      ],
+      "intertwined:": [
+        49
+      ],
+      "Residence-based": [
+        50
+      ],
+      "school": [
+        51,
+        115,
+        132
+      ],
+      "assignment": [
+        52
+      ],
+      "policies": [
+        53
+      ],
+      "mean": [
+        54
+      ],
+      "that": [
+        55,
+        79,
+        102
+      ],
+      "choosing": [
+        56
+      ],
+      "where": [
+        57
+      ],
+      "to": [
+        58
+      ],
+      "live": [
+        59
+      ],
+      "is": [
+        60
+      ],
+      "often": [
+        61
+      ],
+      "a": [
+        62,
+        69,
+        97
+      ],
+      "choice": [
+        63
+      ],
+      "about": [
+        64,
+        106
+      ],
+      "children's": [
+        65
+      ],
+      "schools.": [
+        66
+      ],
+      "We": [
+        67,
+        120
+      ],
+      "develop": [
+        68
+      ],
+      "framework": [
+        70
+      ],
+      "for": [
+        71
+      ],
+      "studying": [
+        72
+      ],
+      "coupled": [
+        73,
+        100
+      ],
+      "changes": [
+        74
+      ],
+      "articulates": [
+        80
+      ],
+      "choices": [
+        82
+      ],
+      "opportunities": [
+        84
+      ],
+      "both": [
+        86
+      ],
+      "domains": [
+        87
+      ],
+      "imply": [
+        88
+      ],
+      "different": [
+        89
+      ],
+      "degrees": [
+        90
+      ],
+      "linkage.": [
+        92
+      ],
+      "From": [
+        93
+      ],
+      "this,": [
+        94
+      ],
+      "we": [
+        95
+      ],
+      "derive": [
+        96
+      ],
+      "model": [
+        98,
+        140
+      ],
+      "tipping": [
+        101
+      ],
+      "generates": [
+        103
+      ],
+      "testable": [
+        104
+      ],
+      "predictions": [
+        105,
+        123
+      ],
+      "begins": [
+        110
+      ],
+      "neighborhood": [
+        113
+      ],
+      "composition": [
+        116
+      ],
+      "relate": [
+        117
+      ],
+      "over": [
+        118
+      ],
+      "time.": [
+        119
+      ],
+      "evaluate": [
+        121
+      ],
+      "these": [
+        122
+      ],
+      "using": [
+        124
+      ],
+      "original": [
+        125
+      ],
+      "longitudinal": [
+        126
+      ],
+      "data": [
+        127
+      ],
+      "from": [
+        128,
+        134
+      ],
+      "14": [
+        129
+      ],
+      "US": [
+        131
+      ],
+      "districts": [
+        133
+      ],
+      "1990-2010.": [
+        135
+      ],
+      "Our": [
+        136
+      ],
+      "findings": [
+        137
+      ],
+      "support": [
+        138
+      ],
+      "our": [
+        139
+      ],
+      "deepen": [
+        142
+      ],
+      "understanding": [
+        143
+      ],
+      "urban": [
+        148
+      ],
+      "areas.": [
+        149
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2026-02-06T00:00:00"
   }
 ]

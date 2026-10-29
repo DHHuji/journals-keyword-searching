@@ -26037,9 +26037,9 @@
   {
     "id": "https://openalex.org/W4408403732",
     "doi": "https://doi.org/10.1093/ahr/rhae485",
-    "title": "Carla Roth. <i>The Talk of the Town: Information and Community in Sixteenth-Century Switzerland</i>.",
-    "display_name": "Carla Roth. <i>The Talk of the Town: Information and Community in Sixteenth-Century Switzerland</i>.",
-    "relevance_score": 9.568823,
+    "title": "Carla Roth. The Talk of the Town: Information and Community in Sixteenth-Century Switzerland.",
+    "display_name": "Carla Roth. The Talk of the Town: Information and Community in Sixteenth-Century Switzerland.",
+    "relevance_score": 29.434689,
     "publication_year": 2025,
     "publication_date": "2025-03-01",
     "ids": {
@@ -26049,6 +26049,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/ahr/rhae485",
+      "doi": "https://doi.org/10.1093/ahr/rhae485",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1093/ahr/rhae485",
       "pdf_url": null,
@@ -26063,6 +26064,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -26083,6 +26093,7 @@
       "raw_source_name": "The American Historical Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -26099,59 +26110,45 @@
         "author": {
           "id": "https://openalex.org/A5027193140",
           "display_name": "Massimo Rospocher",
-          "orcid": "https://orcid.org/0000-0003-4022-2508"
+          "orcid": "https://orcid.org/0000-0003-4022-2508",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4022-2508"
+          ]
         },
-        "institutions": [
-          {
-            "id": "https://openalex.org/I120402012",
-            "display_name": "Deutsches Historisches Institut Washington",
-            "ror": "https://ror.org/02g01cb27",
-            "country_code": "US",
-            "type": "government",
-            "lineage": [
-              "https://openalex.org/I120402012",
-              "https://openalex.org/I4210114638"
-            ]
-          }
-        ],
-        "countries": [
-          "US"
-        ],
+        "institutions": [],
+        "countries": [],
         "is_corresponding": true,
         "raw_author_name": "Massimo Rospocher",
         "raw_affiliation_strings": [
           "Italian-German Historical Institute, Trento , Trento,"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Italian-German Historical Institute, Trento , Trento,",
-            "institution_ids": [
-              "https://openalex.org/I120402012"
-            ]
+            "institution_ids": []
           }
         ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 1,
-    "institutions_distinct_count": 1,
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5027193140"
     ],
-    "corresponding_institution_ids": [
-      "https://openalex.org/I120402012"
-    ],
+    "corresponding_institution_ids": [],
     "apc_list": {
-      "value": 4400,
+      "value": 4620,
       "currency": "USD",
-      "value_usd": 4400
+      "value_usd": 4620
     },
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.07209438,
+      "value": 0.03020443,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -26166,12 +26163,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13641",
-      "display_name": "Historical Studies and Socio-cultural Analysis",
-      "score": 0.9976000189781189,
+      "id": "https://openalex.org/T14386",
+      "display_name": "Libraries, Manuscripts, and Books",
+      "score": 0.6151999831199646,
       "subfield": {
-        "id": "https://openalex.org/subfields/1207",
-        "display_name": "History and Philosophy of Science"
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -26184,12 +26181,12 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13641",
-        "display_name": "Historical Studies and Socio-cultural Analysis",
-        "score": 0.9976000189781189,
+        "id": "https://openalex.org/T14386",
+        "display_name": "Libraries, Manuscripts, and Books",
+        "score": 0.6151999831199646,
         "subfield": {
-          "id": "https://openalex.org/subfields/1207",
-          "display_name": "History and Philosophy of Science"
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -26201,16 +26198,33 @@
         }
       },
       {
-        "id": "https://openalex.org/T13802",
-        "display_name": "Vietnamese History and Culture Studies",
-        "score": 0.9739999771118164,
+        "id": "https://openalex.org/T12409",
+        "display_name": "Reformation and Early Modern Christianity",
+        "score": 0.1386999934911728,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13766",
+        "display_name": "Media, Journalism, and Communication History",
+        "score": 0.10220000147819519,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -26220,34 +26234,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.5343621969223022
+        "id": "https://openalex.org/keywords/orality",
+        "display_name": "orality",
+        "score": 0.8299999833106995
       },
       {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.3673997223377228
+        "id": "https://openalex.org/keywords/information-flow",
+        "display_name": "information flow",
+        "score": 0.828000009059906
       },
       {
-        "id": "https://openalex.org/keywords/ancient-history",
-        "display_name": "Ancient history",
-        "score": 0.3267529606819153
+        "id": "https://openalex.org/keywords/early-modern-communication",
+        "display_name": "early modern communication",
+        "score": 0.8059999942779541
       },
       {
-        "id": "https://openalex.org/keywords/media-studies",
-        "display_name": "Media studies",
-        "score": 0.3230947256088257
+        "id": "https://openalex.org/keywords/st-gallen",
+        "display_name": "St. Gallen",
+        "score": 0.7039999961853027
       },
       {
-        "id": "https://openalex.org/keywords/genealogy",
-        "display_name": "Genealogy",
-        "score": 0.32268333435058594
+        "id": "https://openalex.org/keywords/urban-communities",
+        "display_name": "urban communities",
+        "score": 0.5799999833106995
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.29861101508140564
+        "id": "https://openalex.org/keywords/printing-press",
+        "display_name": "printing press",
+        "score": 0.4959999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/postal-services",
+        "display_name": "postal services",
+        "score": 0.9610000252723694
+      },
+      {
+        "id": "https://openalex.org/keywords/sociability",
+        "display_name": "sociability",
+        "score": 0.640999972820282
       }
     ],
     "concepts": [
@@ -26299,6 +26323,7 @@
     "locations": [
       {
         "id": "doi:10.1093/ahr/rhae485",
+        "doi": "https://doi.org/10.1093/ahr/rhae485",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1093/ahr/rhae485",
         "pdf_url": null,
@@ -26313,6 +26338,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -26335,13 +26369,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "display_name": "Sustainable cities and communities",
+        "id": "https://metadata.un.org/sdg/11",
         "score": 0.6000000238418579,
-        "id": "https://metadata.un.org/sdg/11"
+        "display_name": "Sustainable cities and communities"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -26352,21 +26388,461 @@
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W794748270",
-      "https://openalex.org/W803288841",
-      "https://openalex.org/W2078569064",
-      "https://openalex.org/W2318272804",
-      "https://openalex.org/W795803523",
-      "https://openalex.org/W2965430211",
-      "https://openalex.org/W1520337225",
-      "https://openalex.org/W784177263",
-      "https://openalex.org/W745655438",
-      "https://openalex.org/W2091674278"
+      "https://openalex.org/W4212813288",
+      "https://openalex.org/W2902260864",
+      "https://openalex.org/W4212780590",
+      "https://openalex.org/W4213328450",
+      "https://openalex.org/W4242028572",
+      "https://openalex.org/W1983796027",
+      "https://openalex.org/W4404249820",
+      "https://openalex.org/W7038758224",
+      "https://openalex.org/W7006074996",
+      "https://openalex.org/W2065782919"
     ],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "Combining": [
+        0
+      ],
+      "a": [
+        1,
+        17,
+        22,
+        36,
+        42,
+        74,
+        88,
+        123,
+        182,
+        195
+      ],
+      "microhistorical": [
+        2
+      ],
+      "approach": [
+        3
+      ],
+      "with": [
+        4,
+        104
+      ],
+      "extensive": [
+        5
+      ],
+      "archival": [
+        6
+      ],
+      "research,": [
+        7
+      ],
+      "The": [
+        8,
+        68
+      ],
+      "Talk": [
+        9
+      ],
+      "of": [
+        10,
+        20,
+        25,
+        41,
+        61,
+        82,
+        107,
+        112,
+        125,
+        133,
+        136,
+        144,
+        151,
+        166,
+        201
+      ],
+      "the": [
+        11,
+        39,
+        53,
+        59,
+        80,
+        85,
+        96,
+        110,
+        115,
+        119,
+        134,
+        142,
+        145,
+        149,
+        164,
+        174,
+        199
+      ],
+      "Town": [
+        12
+      ],
+      "by": [
+        13,
+        56
+      ],
+      "Carla": [
+        14
+      ],
+      "Roth": [
+        15
+      ],
+      "is": [
+        16,
+        35,
+        79,
+        139
+      ],
+      "brilliant": [
+        18
+      ],
+      "example": [
+        19
+      ],
+      "how": [
+        21
+      ],
+      "social": [
+        23,
+        93
+      ],
+      "history": [
+        24,
+        81
+      ],
+      "early": [
+        26,
+        64
+      ],
+      "modern": [
+        27,
+        65
+      ],
+      "communication": [
+        28,
+        153
+      ],
+      "and": [
+        29,
+        98,
+        102,
+        128,
+        155,
+        178,
+        192
+      ],
+      "information": [
+        30,
+        62,
+        83,
+        157
+      ],
+      "should": [
+        31
+      ],
+      "be": [
+        32
+      ],
+      "written.": [
+        33
+      ],
+      "This": [
+        34
+      ],
+      "book": [
+        37,
+        78,
+        138
+      ],
+      "about": [
+        38
+      ],
+      "talk": [
+        40
+      ],
+      "small": [
+        43
+      ],
+      "Protestant": [
+        44
+      ],
+      "town": [
+        45
+      ],
+      "in": [
+        46,
+        58,
+        84,
+        90,
+        130,
+        198
+      ],
+      "sixteenth-century": [
+        47
+      ],
+      "Switzerland,": [
+        48
+      ],
+      "Saint": [
+        49,
+        159
+      ],
+      "Gall,": [
+        50
+      ],
+      "focusing": [
+        51
+      ],
+      "on": [
+        52,
+        148
+      ],
+      "role": [
+        54,
+        197
+      ],
+      "played": [
+        55,
+        194
+      ],
+      "orality": [
+        57
+      ],
+      "circulation": [
+        60,
+        200
+      ],
+      "within": [
+        63
+      ],
+      "urban": [
+        66
+      ],
+      "communities.": [
+        67
+      ],
+      "analytical": [
+        69
+      ],
+      "framework": [
+        70
+      ],
+      "that": [
+        71
+      ],
+      "serves": [
+        72
+      ],
+      "as": [
+        73,
+        169
+      ],
+      "backdrop": [
+        75
+      ],
+      "for": [
+        76
+      ],
+      "this": [
+        77,
+        137,
+        186
+      ],
+      "sixteenth": [
+        86,
+        120
+      ],
+      "century,": [
+        87
+      ],
+      "time": [
+        89,
+        124
+      ],
+      "which": [
+        91
+      ],
+      "new": [
+        92,
+        99,
+        116
+      ],
+      "actors": [
+        94
+      ],
+      "entered": [
+        95
+      ],
+      "scene": [
+        97
+      ],
+      "media": [
+        100
+      ],
+      "coexisted": [
+        101
+      ],
+      "interacted": [
+        103
+      ],
+      "traditional": [
+        105
+      ],
+      "forms": [
+        106
+      ],
+      "communication.": [
+        108,
+        131
+      ],
+      "From": [
+        109
+      ],
+      "impact": [
+        111
+      ],
+      "printing": [
+        113,
+        183
+      ],
+      "to": [
+        114,
+        140
+      ],
+      "postal": [
+        117
+      ],
+      "services,": [
+        118
+      ],
+      "century": [
+        121
+      ],
+      "was": [
+        122,
+        171
+      ],
+      "great": [
+        126
+      ],
+      "innovations": [
+        127
+      ],
+      "revolutions": [
+        129
+      ],
+      "One": [
+        132
+      ],
+      "merits": [
+        135
+      ],
+      "analyze": [
+        141
+      ],
+      "effects": [
+        143,
+        165
+      ],
+      "communications": [
+        146
+      ],
+      "revolution": [
+        147
+      ],
+      "periphery": [
+        150
+      ],
+      "Europe\u2019s": [
+        152
+      ],
+      "system": [
+        154
+      ],
+      "main": [
+        156
+      ],
+      "hubs:": [
+        158
+      ],
+      "Gall": [
+        160
+      ],
+      "did": [
+        161,
+        179
+      ],
+      "not": [
+        162,
+        180
+      ],
+      "enjoy": [
+        163
+      ],
+      "these": [
+        167
+      ],
+      "innovations,": [
+        168
+      ],
+      "it": [
+        170
+      ],
+      "excluded": [
+        172
+      ],
+      "from": [
+        173
+      ],
+      "imperial": [
+        175
+      ],
+      "mail": [
+        176
+      ],
+      "services": [
+        177
+      ],
+      "have": [
+        181
+      ],
+      "press.": [
+        184
+      ],
+      "In": [
+        185
+      ],
+      "peripheral": [
+        187
+      ],
+      "town,": [
+        188
+      ],
+      "face-to-face": [
+        189
+      ],
+      "communication,": [
+        190
+      ],
+      "orality,": [
+        191
+      ],
+      "sociability": [
+        193
+      ],
+      "central": [
+        196
+      ],
+      "news.": [
+        202
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2025-12-28T23:10:05.387466",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-03-14T00:00:00"
   },
   {
     "id": "https://openalex.org/W1565875723",
@@ -29678,9 +30154,9 @@
   {
     "id": "https://openalex.org/W4411224132",
     "doi": "https://doi.org/10.1093/ahr/rhaf156",
-    "title": "Kristine Wirts. <i>A Peddler\u2019s Tale: Religious Exile and Community in Early Modern Switzerland</i>.",
-    "display_name": "Kristine Wirts. <i>A Peddler\u2019s Tale: Religious Exile and Community in Early Modern Switzerland</i>.",
-    "relevance_score": 9.178728,
+    "title": "Kristine Wirts. A Peddler\u2019s Tale: Religious Exile and Community in Early Modern Switzerland.",
+    "display_name": "Kristine Wirts. A Peddler\u2019s Tale: Religious Exile and Community in Early Modern Switzerland.",
+    "relevance_score": 28.655748,
     "publication_year": 2025,
     "publication_date": "2025-06-01",
     "ids": {
@@ -29690,6 +30166,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/ahr/rhaf156",
+      "doi": "https://doi.org/10.1093/ahr/rhaf156",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1093/ahr/rhaf156",
       "pdf_url": null,
@@ -29704,6 +30181,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -29724,7 +30210,8 @@
       "raw_source_name": "The American Historical Review",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -29738,9 +30225,13 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5028066813",
+          "id": "https://openalex.org/A5080722118",
           "display_name": "Amy Nelson Burnett",
-          "orcid": "https://orcid.org/0009-0000-5090-3847"
+          "orcid": "https://orcid.org/0000-0002-3706-6762",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3706-6762",
+            "https://orcid.org/0009-0000-5090-3847"
+          ]
         },
         "institutions": [
           {
@@ -29777,25 +30268,21 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5028066813"
+      "https://openalex.org/A5080722118"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I114395901"
     ],
     "apc_list": {
-      "value": 4400,
+      "value": 4620,
       "currency": "USD",
-      "value_usd": 4400
+      "value_usd": 4620
     },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.18283987,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "130",
@@ -29807,12 +30294,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13641",
-      "display_name": "Historical Studies and Socio-cultural Analysis",
-      "score": 0.9890999794006348,
+      "id": "https://openalex.org/T12409",
+      "display_name": "Reformation and Early Modern Christianity",
+      "score": 0.9911999702453613,
       "subfield": {
-        "id": "https://openalex.org/subfields/1207",
-        "display_name": "History and Philosophy of Science"
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -29825,12 +30312,12 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13641",
-        "display_name": "Historical Studies and Socio-cultural Analysis",
-        "score": 0.9890999794006348,
+        "id": "https://openalex.org/T12409",
+        "display_name": "Reformation and Early Modern Christianity",
+        "score": 0.9911999702453613,
         "subfield": {
-          "id": "https://openalex.org/subfields/1207",
-          "display_name": "History and Philosophy of Science"
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -29842,16 +30329,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13379",
-        "display_name": "Multiculturalism, Politics, Migration, Gender",
-        "score": 0.921500027179718,
+        "id": "https://openalex.org/T12909",
+        "display_name": "French Historical and Cultural Studies",
+        "score": 0.0026000000070780516,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -29859,16 +30346,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13802",
-        "display_name": "Vietnamese History and Culture Studies",
-        "score": 0.9189000129699707,
+        "id": "https://openalex.org/T13495",
+        "display_name": "Biographical and Historical Analysis",
+        "score": 0.0010000000474974513,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -29878,19 +30365,74 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.5979770421981812
+        "id": "https://openalex.org/keywords/huguenots",
+        "display_name": "Huguenots",
+        "score": 0.8949999809265137
       },
       {
-        "id": "https://openalex.org/keywords/genealogy",
-        "display_name": "Genealogy",
-        "score": 0.542921245098114
+        "id": "https://openalex.org/keywords/religious-exiles",
+        "display_name": "religious exiles",
+        "score": 0.8220000267028809
       },
       {
-        "id": "https://openalex.org/keywords/ancient-history",
-        "display_name": "Ancient history",
-        "score": 0.41918349266052246
+        "id": "https://openalex.org/keywords/revocation-of-the-edict-of-nantes",
+        "display_name": "revocation of the Edict of Nantes",
+        "score": 0.9629999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/peddling",
+        "display_name": "peddling",
+        "score": 0.5630000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/dauphine",
+        "display_name": "Dauphin\u00e9",
+        "score": 0.7459999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/persecution-of-huguenots",
+        "display_name": "Huguenot persecution",
+        "score": 0.8709999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/forced-conversion",
+        "display_name": "forced conversion",
+        "score": 0.6389999985694885
+      },
+      {
+        "id": "https://openalex.org/keywords/abjuration",
+        "display_name": "abjuration",
+        "score": 0.7409999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/huguenot-community",
+        "display_name": "Huguenot community",
+        "score": 0.628000020980835
+      },
+      {
+        "id": "https://openalex.org/keywords/early-modern-switzerland",
+        "display_name": "early modern Switzerland",
+        "score": 0.777999997138977
+      },
+      {
+        "id": "https://openalex.org/keywords/geneva",
+        "display_name": "Geneva",
+        "score": 0.49799999594688416
+      },
+      {
+        "id": "https://openalex.org/keywords/family-partnership",
+        "display_name": "family collaboration",
+        "score": 0.44699999690055847
+      },
+      {
+        "id": "https://openalex.org/keywords/marriage-alliances",
+        "display_name": "marriage alliances",
+        "score": 0.8130000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/trade-routes",
+        "display_name": "trade routes",
+        "score": 0.5389999747276306
       }
     ],
     "concepts": [
@@ -29921,6 +30463,7 @@
     "locations": [
       {
         "id": "doi:10.1093/ahr/rhaf156",
+        "doi": "https://doi.org/10.1093/ahr/rhaf156",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1093/ahr/rhaf156",
         "pdf_url": null,
@@ -29935,6 +30478,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -29957,13 +30509,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10",
         "score": 0.5,
-        "id": "https://metadata.un.org/sdg/10"
+        "display_name": "Reduced inequalities"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -29974,20 +30528,543 @@
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W1603503160",
-      "https://openalex.org/W4300446800",
-      "https://openalex.org/W4210361923",
-      "https://openalex.org/W2367644325",
-      "https://openalex.org/W2901977559",
-      "https://openalex.org/W4236341574",
-      "https://openalex.org/W2600458431",
-      "https://openalex.org/W2884522787",
-      "https://openalex.org/W3190435234",
-      "https://openalex.org/W617128006"
+      "https://openalex.org/W2335207862",
+      "https://openalex.org/W3123646488",
+      "https://openalex.org/W2477757819",
+      "https://openalex.org/W6899141447",
+      "https://openalex.org/W647931277",
+      "https://openalex.org/W4243252622",
+      "https://openalex.org/W7038167634",
+      "https://openalex.org/W579145770",
+      "https://openalex.org/W4242558641",
+      "https://openalex.org/W576159924"
     ],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "Jean": [
+        0
+      ],
+      "Giraud": [
+        1,
+        213
+      ],
+      "was": [
+        2
+      ],
+      "a": [
+        3,
+        53,
+        60,
+        73,
+        116,
+        154
+      ],
+      "Huguenot": [
+        4,
+        156
+      ],
+      "merchant-peddler": [
+        5
+      ],
+      "who": [
+        6,
+        211
+      ],
+      "fled": [
+        7
+      ],
+      "from": [
+        8
+      ],
+      "his": [
+        9,
+        56,
+        70,
+        215
+      ],
+      "home": [
+        10,
+        110
+      ],
+      "in": [
+        11,
+        29,
+        41,
+        67,
+        75,
+        82,
+        101,
+        165,
+        233
+      ],
+      "the": [
+        12,
+        16,
+        19,
+        30,
+        63,
+        94,
+        97,
+        105,
+        121,
+        125,
+        169,
+        174,
+        180,
+        186,
+        189,
+        194,
+        209,
+        234
+      ],
+      "French": [
+        13,
+        177
+      ],
+      "Dauphin\u00e9": [
+        14
+      ],
+      "after": [
+        15
+      ],
+      "revocation": [
+        17,
+        187
+      ],
+      "of": [
+        18,
+        21,
+        27,
+        55,
+        62,
+        96,
+        99,
+        107,
+        111,
+        130,
+        176,
+        188,
+        191,
+        236
+      ],
+      "Edict": [
+        20,
+        98,
+        190
+      ],
+      "Nantes.": [
+        22,
+        192
+      ],
+      "Kristine": [
+        23
+      ],
+      "Wirts\u2019s": [
+        24
+      ],
+      "engaging": [
+        25
+      ],
+      "account": [
+        26,
+        49
+      ],
+      "life": [
+        28,
+        90
+      ],
+      "late": [
+        31
+      ],
+      "seventeenth": [
+        32,
+        182
+      ],
+      "century,": [
+        33,
+        183
+      ],
+      "A": [
+        34,
+        77
+      ],
+      "Peddler\u2019s": [
+        35,
+        78
+      ],
+      "Tale:": [
+        36
+      ],
+      "Religious": [
+        37
+      ],
+      "Exile": [
+        38
+      ],
+      "and": [
+        39,
+        69,
+        91,
+        128,
+        163,
+        214,
+        220
+      ],
+      "Community": [
+        40
+      ],
+      "Early": [
+        42
+      ],
+      "Modern": [
+        43
+      ],
+      "Switzerland,": [
+        44
+      ],
+      "is": [
+        45,
+        80
+      ],
+      "based": [
+        46
+      ],
+      "on": [
+        47,
+        88,
+        208
+      ],
+      "Giraud\u2019s": [
+        48,
+        89,
+        109
+      ],
+      "book,": [
+        50
+      ],
+      "which": [
+        51,
+        142,
+        202
+      ],
+      "combines": [
+        52
+      ],
+      "record": [
+        54
+      ],
+      "business": [
+        57,
+        126
+      ],
+      "activities": [
+        58
+      ],
+      "with": [
+        59,
+        158,
+        185
+      ],
+      "description": [
+        61
+      ],
+      "persecution": [
+        64,
+        175
+      ],
+      "he": [
+        65
+      ],
+      "experienced": [
+        66
+      ],
+      "France": [
+        68
+      ],
+      "experiences": [
+        71
+      ],
+      "as": [
+        72,
+        137
+      ],
+      "refugee": [
+        74
+      ],
+      "Switzerland.": [
+        76
+      ],
+      "Tale": [
+        79
+      ],
+      "presented": [
+        81
+      ],
+      "five": [
+        83
+      ],
+      "chapters.": [
+        84
+      ],
+      "The": [
+        85
+      ],
+      "first": [
+        86
+      ],
+      "focuses": [
+        87
+      ],
+      "livelihood": [
+        92
+      ],
+      "before": [
+        93
+      ],
+      "Revocation": [
+        95
+      ],
+      "Nantes": [
+        100
+      ],
+      "1685.": [
+        102
+      ],
+      "Located": [
+        103
+      ],
+      "to": [
+        104,
+        133,
+        206,
+        222,
+        229,
+        231
+      ],
+      "east": [
+        106
+      ],
+      "Grenoble,": [
+        108
+      ],
+      "La": [
+        112,
+        151,
+        166,
+        198
+      ],
+      "Grave": [
+        113,
+        152,
+        199
+      ],
+      "lay": [
+        114
+      ],
+      "along": [
+        115
+      ],
+      "major": [
+        117
+      ],
+      "trade": [
+        118,
+        131
+      ],
+      "route": [
+        119
+      ],
+      "through": [
+        120
+      ],
+      "Alps.": [
+        122
+      ],
+      "Wirts": [
+        123,
+        172
+      ],
+      "describes": [
+        124,
+        173
+      ],
+      "connections": [
+        127
+      ],
+      "types": [
+        129
+      ],
+      "common": [
+        132
+      ],
+      "peddling": [
+        134
+      ],
+      "firms": [
+        135
+      ],
+      "such": [
+        136
+      ],
+      "that": [
+        138
+      ],
+      "headed": [
+        139
+      ],
+      "by": [
+        140,
+        148
+      ],
+      "Giraud,": [
+        141
+      ],
+      "were": [
+        143,
+        217,
+        226
+      ],
+      "often": [
+        144
+      ],
+      "family": [
+        145
+      ],
+      "partnerships": [
+        146
+      ],
+      "cemented": [
+        147
+      ],
+      "marriage": [
+        149
+      ],
+      "alliances.": [
+        150
+      ],
+      "had": [
+        153
+      ],
+      "significant": [
+        155
+      ],
+      "minority,": [
+        157
+      ],
+      "its": [
+        159
+      ],
+      "own": [
+        160
+      ],
+      "church,": [
+        161
+      ],
+      "consistory,": [
+        162
+      ],
+      "hospital": [
+        164
+      ],
+      "Grave.": [
+        167
+      ],
+      "In": [
+        168
+      ],
+      "next": [
+        170
+      ],
+      "chapter,": [
+        171
+      ],
+      "Huguenots": [
+        178,
+        210
+      ],
+      "over": [
+        179
+      ],
+      "later": [
+        181
+      ],
+      "culminating": [
+        184
+      ],
+      "Over": [
+        193
+      ],
+      "following": [
+        195
+      ],
+      "months,": [
+        196
+      ],
+      "many": [
+        197
+      ],
+      "residents": [
+        200
+      ],
+      "fled,": [
+        201
+      ],
+      "only": [
+        203
+      ],
+      "increased": [
+        204
+      ],
+      "pressure": [
+        205
+      ],
+      "convert": [
+        207
+      ],
+      "remained.": [
+        212
+      ],
+      "wife": [
+        216
+      ],
+      "both": [
+        218
+      ],
+      "arrested": [
+        219
+      ],
+      "forced": [
+        221
+      ],
+      "abjure,": [
+        223
+      ],
+      "but": [
+        224
+      ],
+      "they": [
+        225
+      ],
+      "finally": [
+        227
+      ],
+      "able": [
+        228
+      ],
+      "escape": [
+        230
+      ],
+      "Geneva": [
+        232
+      ],
+      "summer": [
+        235
+      ],
+      "1586.": [
+        237
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-27T15:51:10.671819",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -105900,5 +106977,5966 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2018-12-11T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7140532443",
+    "doi": "https://doi.org/10.1093/ahr/rhaf788",
+    "title": "Reflections on Our Times",
+    "display_name": "Reflections on Our Times",
+    "relevance_score": 0.17424715,
+    "publication_year": 2026,
+    "publication_date": "2026-01-02",
+    "ids": {
+      "openalex": "https://openalex.org/W7140532443",
+      "doi": "https://doi.org/10.1093/ahr/rhaf788"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/ahr/rhaf788",
+      "doi": "https://doi.org/10.1093/ahr/rhaf788",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/ahr/rhaf788",
+      "pdf_url": "https://academic.oup.com/ahr/article-pdf/131/1/1/67555288/rhaf788.pdf",
+      "source": {
+        "id": "https://openalex.org/S197437610",
+        "display_name": "The American Historical Review",
+        "issn_l": "0002-8762",
+        "issn": [
+          "0002-8762",
+          "1937-5239"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The American Historical Review",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://academic.oup.com/ahr/article-pdf/131/1/1/67555288/rhaf788.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5095744233",
+          "display_name": "Ben Vinson",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Ben Vinson",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5095744233"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 4620,
+      "currency": "USD",
+      "value_usd": 4620
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.13142315,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "131",
+      "issue": "1",
+      "first_page": "1",
+      "last_page": "26"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13368",
+      "display_name": "University Challenges and Reforms",
+      "score": 0.9726999998092651,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13368",
+        "display_name": "University Challenges and Reforms",
+        "score": 0.9726999998092651,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10546",
+        "display_name": "Higher Education Governance and Development",
+        "score": 0.01720000058412552,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12777",
+        "display_name": "Philosophy, History, and Historiography",
+        "score": 0.002400000113993883,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C120912362",
+        "wikidata": "https://www.wikidata.org/wiki/Q136822",
+        "display_name": "Higher education",
+        "level": 2,
+        "score": 0.5501999855041504
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.3822999894618988
+      },
+      {
+        "id": "https://openalex.org/C39549134",
+        "wikidata": "https://www.wikidata.org/wiki/Q133080",
+        "display_name": "Public relations",
+        "level": 1,
+        "score": 0.3723999857902527
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.3580999970436096
+      },
+      {
+        "id": "https://openalex.org/C169900460",
+        "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+        "display_name": "Cognition",
+        "level": 2,
+        "score": 0.3328000009059906
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.32429999113082886
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.3034999966621399
+      },
+      {
+        "id": "https://openalex.org/C190253527",
+        "wikidata": "https://www.wikidata.org/wiki/Q295354",
+        "display_name": "Law and economics",
+        "level": 1,
+        "score": 0.2728999853134155
+      },
+      {
+        "id": "https://openalex.org/C187736073",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+        "display_name": "Management",
+        "level": 1,
+        "score": 0.26589998602867126
+      },
+      {
+        "id": "https://openalex.org/C2779680435",
+        "wikidata": "https://www.wikidata.org/wiki/Q4697206",
+        "display_name": "Ain't",
+        "level": 2,
+        "score": 0.24040000140666962
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1093/ahr/rhaf788",
+        "doi": "https://doi.org/10.1093/ahr/rhaf788",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1093/ahr/rhaf788",
+        "pdf_url": "https://academic.oup.com/ahr/article-pdf/131/1/1/67555288/rhaf788.pdf",
+        "source": {
+          "id": "https://openalex.org/S197437610",
+          "display_name": "The American Historical Review",
+          "issn_l": "0002-8762",
+          "issn": [
+            "0002-8762",
+            "1937-5239"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The American Historical Review",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1093/ahr/rhaf788",
+      "doi": "https://doi.org/10.1093/ahr/rhaf788",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/ahr/rhaf788",
+      "pdf_url": "https://academic.oup.com/ahr/article-pdf/131/1/1/67555288/rhaf788.pdf",
+      "source": {
+        "id": "https://openalex.org/S197437610",
+        "display_name": "The American Historical Review",
+        "issn_l": "0002-8762",
+        "issn": [
+          "0002-8762",
+          "1937-5239"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The American Historical Review",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/4",
+        "score": 0.6164000034332275,
+        "display_name": "Quality education"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7140532443.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7140532443.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2045849194",
+      "https://openalex.org/W2464612762",
+      "https://openalex.org/W2000916162",
+      "https://openalex.org/W2895445433",
+      "https://openalex.org/W2415617969",
+      "https://openalex.org/W1201556817",
+      "https://openalex.org/W572953847",
+      "https://openalex.org/W2474722303",
+      "https://openalex.org/W7038242271",
+      "https://openalex.org/W2916140952"
+    ],
+    "abstract_inverted_index": {
+      "Tonight,": [
+        0
+      ],
+      "as": [
+        1,
+        87,
+        98,
+        100,
+        147,
+        205,
+        207,
+        280,
+        637,
+        804,
+        943,
+        954,
+        961,
+        1152,
+        1221,
+        1356,
+        1372,
+        1417,
+        1839,
+        1855,
+        1959,
+        2428,
+        2691,
+        2834,
+        2836,
+        2933,
+        3471,
+        3569,
+        4291,
+        4530,
+        4702,
+        4727,
+        4795,
+        4878,
+        5110,
+        5375,
+        5926,
+        6259,
+        6522,
+        6528,
+        6689,
+        6774,
+        6783,
+        6785,
+        6817,
+        6879,
+        6917,
+        6960,
+        6993,
+        7502,
+        7511,
+        7578,
+        7608,
+        7758,
+        7892,
+        8043,
+        8061,
+        8063,
+        8071,
+        8389,
+        8404,
+        8473,
+        8476
+      ],
+      "I": [
+        2,
+        6,
+        13,
+        31,
+        33,
+        49,
+        70,
+        76,
+        118,
+        124,
+        135,
+        167,
+        237,
+        259,
+        269,
+        302,
+        331,
+        632,
+        1063,
+        1534,
+        2166,
+        4317,
+        4582,
+        4905,
+        5000,
+        5035,
+        5040,
+        5406,
+        5502,
+        5556,
+        5600,
+        5609,
+        5994,
+        6008,
+        6765,
+        6806,
+        6989,
+        7131,
+        7149,
+        7189,
+        7495,
+        8109,
+        8159,
+        8196,
+        8273,
+        8290,
+        8300,
+        8500
+      ],
+      "begin": [
+        3,
+        150,
+        4074,
+        8240
+      ],
+      "my": [
+        4,
+        85,
+        297,
+        940,
+        6002,
+        8497
+      ],
+      "address,": [
+        5
+      ],
+      "am": [
+        7,
+        14,
+        34,
+        168,
+        5503
+      ],
+      "mindful": [
+        8
+      ],
+      "of": [
+        9,
+        16,
+        20,
+        41,
+        185,
+        216,
+        224,
+        265,
+        275,
+        361,
+        390,
+        417,
+        432,
+        444,
+        469,
+        502,
+        512,
+        604,
+        679,
+        684,
+        701,
+        763,
+        767,
+        774,
+        828,
+        842,
+        851,
+        872,
+        906,
+        912,
+        951,
+        957,
+        1006,
+        1047,
+        1074,
+        1085,
+        1141,
+        1149,
+        1185,
+        1203,
+        1254,
+        1286,
+        1302,
+        1391,
+        1399,
+        1419,
+        1425,
+        1433,
+        1468,
+        1494,
+        1562,
+        1568,
+        1580,
+        1586,
+        1617,
+        1625,
+        1689,
+        1743,
+        1752,
+        1783,
+        1789,
+        1798,
+        1814,
+        1821,
+        1829,
+        1907,
+        1926,
+        1981,
+        2013,
+        2019,
+        2043,
+        2085,
+        2095,
+        2105,
+        2112,
+        2122,
+        2130,
+        2137,
+        2154,
+        2163,
+        2191,
+        2203,
+        2259,
+        2274,
+        2308,
+        2343,
+        2368,
+        2371,
+        2377,
+        2386,
+        2412,
+        2418,
+        2463,
+        2495,
+        2498,
+        2567,
+        2577,
+        2609,
+        2643,
+        2739,
+        2752,
+        2799,
+        2840,
+        2848,
+        2894,
+        3062,
+        3086,
+        3117,
+        3129,
+        3142,
+        3155,
+        3170,
+        3189,
+        3206,
+        3231,
+        3249,
+        3260,
+        3308,
+        3313,
+        3323,
+        3331,
+        3345,
+        3402,
+        3440,
+        3455,
+        3481,
+        3516,
+        3536,
+        3543,
+        3595,
+        3604,
+        3642,
+        3655,
+        3661,
+        3676,
+        3716,
+        3738,
+        3790,
+        3810,
+        3857,
+        3919,
+        3947,
+        4000,
+        4020,
+        4130,
+        4139,
+        4172,
+        4224,
+        4230,
+        4297,
+        4344,
+        4351,
+        4392,
+        4404,
+        4415,
+        4422,
+        4467,
+        4485,
+        4513,
+        4545,
+        4618,
+        4643,
+        4660,
+        4693,
+        4730,
+        4740,
+        4764,
+        4789,
+        4803,
+        4811,
+        4831,
+        4838,
+        4873,
+        4880,
+        4883,
+        4973,
+        4998,
+        5038,
+        5082,
+        5093,
+        5163,
+        5167,
+        5248,
+        5273,
+        5294,
+        5305,
+        5312,
+        5340,
+        5354,
+        5437,
+        5442,
+        5461,
+        5621,
+        5628,
+        5647,
+        5654,
+        5693,
+        5748,
+        5756,
+        5783,
+        5807,
+        5828,
+        5852,
+        5861,
+        5876,
+        5891,
+        5902,
+        5909,
+        5931,
+        5952,
+        5957,
+        5980,
+        5983,
+        6066,
+        6071,
+        6105,
+        6128,
+        6137,
+        6166,
+        6265,
+        6281,
+        6289,
+        6292,
+        6297,
+        6300,
+        6312,
+        6340,
+        6375,
+        6391,
+        6404,
+        6420,
+        6487,
+        6513,
+        6516,
+        6552,
+        6566,
+        6666,
+        6692,
+        6699,
+        6703,
+        6802,
+        6822,
+        6842,
+        6845,
+        6869,
+        6884,
+        6923,
+        6934,
+        6953,
+        7004,
+        7126,
+        7219,
+        7228,
+        7238,
+        7262,
+        7270,
+        7409,
+        7422,
+        7439,
+        7471,
+        7484,
+        7567,
+        7571,
+        7584,
+        7662,
+        7672,
+        7689,
+        7714,
+        7750,
+        7775,
+        7808,
+        7836,
+        7882,
+        7914,
+        8034,
+        8045,
+        8065,
+        8106,
+        8141,
+        8156,
+        8186,
+        8191,
+        8236,
+        8252,
+        8257,
+        8266,
+        8287,
+        8310,
+        8317,
+        8327,
+        8340,
+        8514,
+        8586
+      ],
+      "two": [
+        10,
+        884,
+        1100,
+        3085,
+        4633
+      ],
+      "things.": [
+        11,
+        4608
+      ],
+      "First,": [
+        12,
+        117,
+        427,
+        5053
+      ],
+      "one": [
+        15,
+        678,
+        1418,
+        1788,
+        2622,
+        3014,
+        5803,
+        6841,
+        7735,
+        8050,
+        8339
+      ],
+      "the": [
+        17,
+        21,
+        35,
+        109,
+        151,
+        183,
+        235,
+        276,
+        335,
+        354,
+        366,
+        381,
+        404,
+        409,
+        418,
+        429,
+        442,
+        472,
+        525,
+        618,
+        628,
+        680,
+        705,
+        728,
+        738,
+        759,
+        768,
+        772,
+        805,
+        810,
+        826,
+        837,
+        843,
+        849,
+        853,
+        870,
+        882,
+        896,
+        913,
+        919,
+        944,
+        949,
+        955,
+        982,
+        1022,
+        1034,
+        1045,
+        1070,
+        1088,
+        1091,
+        1098,
+        1142,
+        1283,
+        1297,
+        1333,
+        1367,
+        1380,
+        1389,
+        1405,
+        1434,
+        1437,
+        1471,
+        1474,
+        1492,
+        1495,
+        1503,
+        1539,
+        1553,
+        1566,
+        1578,
+        1581,
+        1584,
+        1596,
+        1635,
+        1640,
+        1653,
+        1687,
+        1740,
+        1750,
+        1763,
+        1796,
+        1827,
+        1840,
+        1856,
+        1900,
+        1905,
+        1923,
+        1956,
+        1976,
+        1996,
+        2016,
+        2020,
+        2025,
+        2033,
+        2041,
+        2086,
+        2103,
+        2120,
+        2128,
+        2131,
+        2135,
+        2151,
+        2161,
+        2189,
+        2201,
+        2209,
+        2222,
+        2250,
+        2272,
+        2304,
+        2309,
+        2348,
+        2366,
+        2369,
+        2375,
+        2384,
+        2393,
+        2397,
+        2403,
+        2441,
+        2453,
+        2479,
+        2493,
+        2496,
+        2499,
+        2518,
+        2526,
+        2543,
+        2553,
+        2555,
+        2564,
+        2568,
+        2571,
+        2575,
+        2613,
+        2684,
+        2699,
+        2734,
+        2761,
+        2765,
+        2775,
+        2809,
+        2842,
+        2884,
+        2953,
+        2970,
+        3003,
+        3043,
+        3047,
+        3058,
+        3087,
+        3115,
+        3127,
+        3140,
+        3152,
+        3166,
+        3185,
+        3203,
+        3214,
+        3250,
+        3275,
+        3294,
+        3306,
+        3311,
+        3329,
+        3396,
+        3400,
+        3417,
+        3432,
+        3435,
+        3511,
+        3525,
+        3534,
+        3541,
+        3550,
+        3556,
+        3559,
+        3575,
+        3585,
+        3589,
+        3602,
+        3610,
+        3612,
+        3640,
+        3643,
+        3650,
+        3672,
+        3677,
+        3681,
+        3717,
+        3735,
+        3779,
+        3800,
+        3808,
+        3813,
+        3831,
+        3847,
+        3892,
+        3904,
+        3915,
+        3925,
+        3933,
+        3941,
+        3948,
+        3964,
+        3991,
+        3993,
+        4008,
+        4015,
+        4021,
+        4030,
+        4044,
+        4060,
+        4087,
+        4093,
+        4097,
+        4128,
+        4135,
+        4155,
+        4170,
+        4173,
+        4186,
+        4195,
+        4228,
+        4277,
+        4301,
+        4338,
+        4342,
+        4349,
+        4360,
+        4389,
+        4401,
+        4407,
+        4420,
+        4425,
+        4431,
+        4434,
+        4464,
+        4483,
+        4503,
+        4511,
+        4556,
+        4560,
+        4567,
+        4570,
+        4615,
+        4619,
+        4658,
+        4663,
+        4679,
+        4683,
+        4691,
+        4695,
+        4735,
+        4755,
+        4801,
+        4809,
+        4812,
+        4815,
+        4836,
+        4862,
+        4891,
+        4895,
+        4902,
+        4915,
+        4957,
+        5080,
+        5091,
+        5123,
+        5226,
+        5246,
+        5289,
+        5292,
+        5306,
+        5316,
+        5345,
+        5402,
+        5424,
+        5430,
+        5482,
+        5517,
+        5551,
+        5583,
+        5603,
+        5624,
+        5629,
+        5640,
+        5644,
+        5675,
+        5691,
+        5746,
+        5749,
+        5754,
+        5769,
+        5780,
+        5784,
+        5793,
+        5800,
+        5850,
+        5853,
+        5859,
+        5900,
+        5906,
+        5929,
+        5950,
+        5955,
+        5958,
+        5981,
+        6021,
+        6027,
+        6095,
+        6126,
+        6134,
+        6148,
+        6154,
+        6198,
+        6210,
+        6222,
+        6235,
+        6251,
+        6260,
+        6279,
+        6287,
+        6298,
+        6310,
+        6402,
+        6405,
+        6418,
+        6444,
+        6448,
+        6485,
+        6514,
+        6560,
+        6564,
+        6586,
+        6613,
+        6664,
+        6677,
+        6690,
+        6697,
+        6745,
+        6753,
+        6761,
+        6777,
+        6800,
+        6812,
+        6834,
+        6843,
+        6867,
+        6927,
+        6986,
+        7002,
+        7059,
+        7079,
+        7120,
+        7158,
+        7172,
+        7180,
+        7210,
+        7236,
+        7249,
+        7259,
+        7263,
+        7268,
+        7275,
+        7280,
+        7317,
+        7328,
+        7341,
+        7382,
+        7399,
+        7407,
+        7465,
+        7480,
+        7493,
+        7640,
+        7659,
+        7663,
+        7673,
+        7687,
+        7703,
+        7748,
+        7773,
+        7784,
+        7806,
+        7822,
+        7831,
+        7848,
+        7858,
+        7880,
+        7883,
+        7912,
+        7928,
+        7949,
+        7971,
+        7977,
+        8002,
+        8032,
+        8078,
+        8115,
+        8154,
+        8184,
+        8216,
+        8249,
+        8255,
+        8258,
+        8264,
+        8304,
+        8307,
+        8321,
+        8328,
+        8355,
+        8373,
+        8381,
+        8384,
+        8424,
+        8427,
+        8433,
+        8448,
+        8459,
+        8466,
+        8515,
+        8523,
+        8529,
+        8535,
+        8540,
+        8550,
+        8560
+      ],
+      "few": [
+        18,
+        1520,
+        5404,
+        5614
+      ],
+      "presidents": [
+        19
+      ],
+      "AHA": [
+        22,
+        4568
+      ],
+      "to": [
+        23,
+        37,
+        84,
+        90,
+        95,
+        107,
+        143,
+        149,
+        170,
+        261,
+        285,
+        307,
+        309,
+        341,
+        348,
+        440,
+        582,
+        655,
+        671,
+        724,
+        753,
+        799,
+        817,
+        890,
+        1078,
+        1125,
+        1164,
+        1177,
+        1199,
+        1213,
+        1234,
+        1239,
+        1262,
+        1275,
+        1290,
+        1317,
+        1328,
+        1350,
+        1375,
+        1385,
+        1522,
+        1538,
+        1736,
+        1745,
+        1767,
+        1800,
+        1843,
+        1870,
+        1936,
+        1962,
+        2059,
+        2133,
+        2220,
+        2255,
+        2262,
+        2299,
+        2327,
+        2336,
+        2365,
+        2395,
+        2401,
+        2423,
+        2435,
+        2447,
+        2455,
+        2562,
+        2573,
+        2585,
+        2617,
+        2624,
+        2637,
+        2653,
+        2658,
+        2682,
+        2725,
+        2774,
+        2787,
+        2975,
+        3025,
+        3035,
+        3050,
+        3054,
+        3070,
+        3079,
+        3107,
+        3109,
+        3335,
+        3341,
+        3361,
+        3371,
+        3478,
+        3523,
+        3538,
+        3558,
+        3572,
+        3614,
+        3633,
+        3689,
+        3733,
+        3768,
+        3799,
+        3866,
+        3896,
+        3913,
+        3924,
+        3939,
+        3956,
+        3969,
+        4004,
+        4162,
+        4185,
+        4237,
+        4255,
+        4273,
+        4285,
+        4308,
+        4322,
+        4359,
+        4400,
+        4433,
+        4447,
+        4462,
+        4475,
+        4492,
+        4495,
+        4526,
+        4535,
+        4652,
+        4681,
+        4707,
+        4745,
+        4748,
+        4753,
+        4770,
+        4808,
+        4824,
+        4846,
+        4850,
+        4857,
+        4893,
+        4899,
+        4936,
+        4939,
+        4949,
+        4951,
+        4979,
+        4992,
+        5009,
+        5050,
+        5106,
+        5122,
+        5155,
+        5175,
+        5190,
+        5199,
+        5205,
+        5218,
+        5231,
+        5235,
+        5263,
+        5349,
+        5377,
+        5385,
+        5399,
+        5505,
+        5511,
+        5563,
+        5566,
+        5572,
+        5581,
+        5590,
+        5593,
+        5602,
+        5611,
+        5616,
+        5686,
+        5705,
+        5791,
+        5834,
+        5856,
+        5999,
+        6078,
+        6094,
+        6100,
+        6201,
+        6240,
+        6334,
+        6417,
+        6474,
+        6476,
+        6480,
+        6489,
+        6537,
+        6541,
+        6562,
+        6590,
+        6605,
+        6618,
+        6624,
+        6652,
+        6670,
+        6723,
+        6744,
+        6751,
+        6779,
+        6786,
+        6836,
+        6851,
+        6856,
+        6876,
+        6905,
+        6942,
+        6997,
+        7012,
+        7029,
+        7043,
+        7061,
+        7122,
+        7155,
+        7170,
+        7174,
+        7194,
+        7242,
+        7254,
+        7266,
+        7300,
+        7304,
+        7339,
+        7345,
+        7377,
+        7384,
+        7415,
+        7446,
+        7454,
+        7461,
+        7476,
+        7505,
+        7526,
+        7615,
+        7684,
+        7734,
+        7746,
+        7755,
+        7789,
+        7827,
+        7829,
+        7840,
+        7844,
+        7856,
+        7872,
+        7898,
+        7951,
+        7974,
+        7986,
+        7989,
+        7997,
+        8010,
+        8016,
+        8037,
+        8049,
+        8068,
+        8077,
+        8123,
+        8129,
+        8188,
+        8218,
+        8241,
+        8248,
+        8293,
+        8481,
+        8496,
+        8506,
+        8521,
+        8555
+      ],
+      "have": [
+        24,
+        38,
+        58,
+        345,
+        560,
+        574,
+        607,
+        1102,
+        1135,
+        1342,
+        1403,
+        1458,
+        1514,
+        1556,
+        1693,
+        1712,
+        1893,
+        2550,
+        2859,
+        2938,
+        2994,
+        3138,
+        3208,
+        3291,
+        3317,
+        3467,
+        3564,
+        3622,
+        3686,
+        3727,
+        4033,
+        4049,
+        4110,
+        4181,
+        4280,
+        4336,
+        4411,
+        4442,
+        4453,
+        4491,
+        4547,
+        4604,
+        4612,
+        4622,
+        4629,
+        4646,
+        4678,
+        4690,
+        4818,
+        4989,
+        5407,
+        5485,
+        5670,
+        5683,
+        5699,
+        5817,
+        5872,
+        5884,
+        5995,
+        6197,
+        6451,
+        6766,
+        7305,
+        7606,
+        7628,
+        7868,
+        8007
+      ],
+      "simultaneously": [
+        25,
+        2144,
+        4293
+      ],
+      "been": [
+        26,
+        39,
+        59,
+        64,
+        483,
+        539,
+        608,
+        1136,
+        1459,
+        1499,
+        1515,
+        1557,
+        1659,
+        1674,
+        1724,
+        2194,
+        2214,
+        2511,
+        2581,
+        2713,
+        2719,
+        2783,
+        2825,
+        2904,
+        3077,
+        3209,
+        3256,
+        3327,
+        3408,
+        3580,
+        3687,
+        3728,
+        3794,
+        3976,
+        4111,
+        4192,
+        4369,
+        4396,
+        4549,
+        4909,
+        4918,
+        4928,
+        4934,
+        4962,
+        5486,
+        5536,
+        5885,
+        5975,
+        7629
+      ],
+      "a": [
+        27,
+        42,
+        88,
+        121,
+        158,
+        194,
+        217,
+        242,
+        282,
+        399,
+        412,
+        497,
+        563,
+        638,
+        659,
+        859,
+        997,
+        1107,
+        1126,
+        1226,
+        1300,
+        1396,
+        1466,
+        1484,
+        1527,
+        1610,
+        1644,
+        1660,
+        1675,
+        1806,
+        2123,
+        2149,
+        2184,
+        2215,
+        2341,
+        2410,
+        2450,
+        2467,
+        2606,
+        2627,
+        2662,
+        2714,
+        2720,
+        2784,
+        2826,
+        2837,
+        2950,
+        3171,
+        3257,
+        3386,
+        3438,
+        3514,
+        3624,
+        3710,
+        4035,
+        4133,
+        4183,
+        4206,
+        4352,
+        4370,
+        4413,
+        4473,
+        4522,
+        4728,
+        5006,
+        5132,
+        5160,
+        5170,
+        5222,
+        5282,
+        5309,
+        5351,
+        5409,
+        5498,
+        5538,
+        5596,
+        5613,
+        5714,
+        5728,
+        5826,
+        5934,
+        5961,
+        5985,
+        5996,
+        6109,
+        6119,
+        6270,
+        6282,
+        6290,
+        6294,
+        6303,
+        6322,
+        6342,
+        6458,
+        6523,
+        6921,
+        7129,
+        7138,
+        7145,
+        7217,
+        7244,
+        7284,
+        7313,
+        7437,
+        7682,
+        7726,
+        7737,
+        7741,
+        7816,
+        7869,
+        8046,
+        8090,
+        8126,
+        8281,
+        8294,
+        8314,
+        8396,
+        8401,
+        8483,
+        8487
+      ],
+      "university": [
+        28,
+        47,
+        520,
+        674,
+        1222,
+        1529,
+        1548,
+        1638,
+        2260,
+        2322,
+        2419,
+        2473,
+        3951,
+        4251,
+        5737,
+        6721,
+        7065,
+        7093,
+        7141,
+        7245,
+        8047
+      ],
+      "president.": [
+        29
+      ],
+      "Second,": [
+        30,
+        3670
+      ],
+      "believe": [
+        32,
+        171,
+        271,
+        372,
+        4318,
+        4906,
+        5036,
+        5506,
+        6807,
+        6990,
+        7192,
+        8110,
+        8197,
+        8274,
+        8501
+      ],
+      "first": [
+        36,
+        2305,
+        5579
+      ],
+      "president": [
+        40,
+        3848,
+        4872,
+        6136,
+        6551,
+        8513
+      ],
+      "historically": [
+        43,
+        6968
+      ],
+      "Black": [
+        44,
+        5892,
+        5896,
+        5987
+      ],
+      "college": [
+        45,
+        782,
+        844,
+        1837,
+        7139
+      ],
+      "or": [
+        46,
+        1899,
+        2267,
+        3693,
+        3921,
+        4127,
+        5087,
+        5241,
+        5388,
+        6174,
+        6179,
+        6184,
+        6274,
+        6354,
+        7016,
+        7140,
+        7308
+      ],
+      "(HBCU).": [
+        48
+      ],
+      "think": [
+        50,
+        4583,
+        6012,
+        7496,
+        7527,
+        8160,
+        8301
+      ],
+      "we": [
+        51,
+        104,
+        173,
+        179,
+        323,
+        975,
+        1055,
+        1352,
+        1373,
+        1383,
+        1804,
+        1934,
+        1960,
+        2062,
+        2099,
+        2115,
+        2598,
+        4283,
+        4292,
+        4320,
+        4335,
+        4410,
+        4441,
+        4490,
+        4590,
+        4603,
+        4611,
+        4628,
+        4645,
+        4689,
+        4742,
+        4760,
+        4768,
+        4798,
+        4817,
+        4897,
+        4945,
+        4988,
+        5057,
+        5096,
+        5103,
+        5111,
+        5136,
+        5144,
+        5214,
+        5243,
+        5357,
+        5365,
+        5382,
+        5394,
+        5446,
+        5523,
+        5560,
+        5578,
+        5831,
+        6380,
+        6423,
+        6472,
+        6498,
+        6509,
+        6532,
+        6570,
+        6615,
+        6642,
+        6662,
+        6668,
+        6730,
+        6992,
+        7252,
+        7277,
+        7292,
+        7360,
+        7443,
+        7497,
+        7521,
+        7524,
+        7655,
+        7696,
+        7787,
+        7852,
+        7867,
+        7900,
+        7954,
+        8054,
+        8083,
+        8096,
+        8119,
+        8450,
+        8478
+      ],
+      "can": [
+        52,
+        251,
+        976,
+        1056,
+        1353,
+        1535,
+        1919,
+        2484,
+        2547,
+        2680,
+        3667,
+        4725,
+        4799,
+        4946,
+        5215,
+        5269,
+        5588,
+        5832,
+        6122,
+        6381,
+        6611,
+        6643,
+        6731,
+        6909,
+        6940,
+        6962,
+        6975,
+        6983,
+        7082,
+        7105,
+        7222,
+        7293,
+        7333,
+        7679,
+        7697,
+        7761,
+        8074,
+        8239
+      ],
+      "all": [
+        53,
+        603,
+        910,
+        1546,
+        3072,
+        4082,
+        4575,
+        4766,
+        4961,
+        5339,
+        5880,
+        6060,
+        7566,
+        7853
+      ],
+      "acknowledge": [
+        54
+      ],
+      "that": [
+        55,
+        75,
+        172,
+        178,
+        210,
+        250,
+        272,
+        301,
+        322,
+        352,
+        356,
+        477,
+        651,
+        661,
+        667,
+        791,
+        836,
+        869,
+        979,
+        1069,
+        1355,
+        1457,
+        1803,
+        1922,
+        1933,
+        1989,
+        2000,
+        2061,
+        2114,
+        2169,
+        2478,
+        2539,
+        2545,
+        2604,
+        2722,
+        2740,
+        2883,
+        2915,
+        2920,
+        2923,
+        3198,
+        3248,
+        3315,
+        3376,
+        3561,
+        4068,
+        4084,
+        4108,
+        4205,
+        4219,
+        4250,
+        4258,
+        4282,
+        4319,
+        4383,
+        4593,
+        4724,
+        4767,
+        4794,
+        4931,
+        4944,
+        4955,
+        4959,
+        5125,
+        5129,
+        5213,
+        5343,
+        5455,
+        5493,
+        5507,
+        5516,
+        5558,
+        5586,
+        5830,
+        5973,
+        6053,
+        6083,
+        6117,
+        6140,
+        6152,
+        6160,
+        6188,
+        6325,
+        6328,
+        6379,
+        6450,
+        6497,
+        6508,
+        6569,
+        6628,
+        6681,
+        6769,
+        6808,
+        6890,
+        6908,
+        6974,
+        6991,
+        7134,
+        7151,
+        7221,
+        7282,
+        7449,
+        7507,
+        7625,
+        7654,
+        7709,
+        7732,
+        7851,
+        7918,
+        7946,
+        8103,
+        8111,
+        8118,
+        8149,
+        8275,
+        8299,
+        8380,
+        8447,
+        8461,
+        8472
+      ],
+      "recent": [
+        56,
+        1819,
+        2480,
+        4339,
+        7410
+      ],
+      "times": [
+        57,
+        94,
+        1134,
+        1820,
+        2182,
+        4312,
+        5415,
+        5454,
+        5467
+      ],
+      "hard.": [
+        60
+      ],
+      "Given": [
+        61,
+        4510,
+        7183
+      ],
+      "what": [
+        62,
+        930,
+        935,
+        981,
+        2597,
+        3465,
+        3755,
+        4775,
+        4869,
+        5039,
+        5150,
+        6014,
+        6026,
+        6167,
+        6214,
+        7239,
+        7391,
+        7472
+      ],
+      "we\u2019ve": [
+        63,
+        662,
+        1049,
+        1773,
+        4917,
+        4960,
+        5535
+      ],
+      "enduring": [
+        65
+      ],
+      "in": [
+        66,
+        82,
+        132,
+        175,
+        192,
+        290,
+        325,
+        357,
+        380,
+        392,
+        456,
+        479,
+        542,
+        565,
+        580,
+        588,
+        599,
+        613,
+        699,
+        710,
+        732,
+        781,
+        822,
+        862,
+        923,
+        1031,
+        1087,
+        1109,
+        1119,
+        1129,
+        1189,
+        1194,
+        1230,
+        1269,
+        1332,
+        1366,
+        1379,
+        1423,
+        1436,
+        1639,
+        1648,
+        1664,
+        1679,
+        1795,
+        1825,
+        1836,
+        1930,
+        1995,
+        2146,
+        2183,
+        2228,
+        2381,
+        2389,
+        2449,
+        2470,
+        2525,
+        2612,
+        2688,
+        2708,
+        2733,
+        2795,
+        2801,
+        2806,
+        2808,
+        2819,
+        2906,
+        2911,
+        2926,
+        2945,
+        2998,
+        3114,
+        3126,
+        3151,
+        3187,
+        3220,
+        3233,
+        3263,
+        3277,
+        3431,
+        3488,
+        3555,
+        3607,
+        3671,
+        3819,
+        3827,
+        3842,
+        3845,
+        3937,
+        4092,
+        4154,
+        4194,
+        4300,
+        4330,
+        4337,
+        4373,
+        4458,
+        4482,
+        4497,
+        4578,
+        4657,
+        4685,
+        4697,
+        4758,
+        4774,
+        4848,
+        4914,
+        4986,
+        5017,
+        5054,
+        5090,
+        5202,
+        5233,
+        5271,
+        5363,
+        5390,
+        5416,
+        5521,
+        5537,
+        5623,
+        5690,
+        5745,
+        5835,
+        5840,
+        5849,
+        5888,
+        5928,
+        6043,
+        6087,
+        6141,
+        6204,
+        6228,
+        6232,
+        6321,
+        6338,
+        6362,
+        6501,
+        6555,
+        6781,
+        6811,
+        6825,
+        6926,
+        6930,
+        7001,
+        7032,
+        7040,
+        7157,
+        7273,
+        7347,
+        7419,
+        7436,
+        7631,
+        7693,
+        7753,
+        7780,
+        7810,
+        7846,
+        7861,
+        7994,
+        8019,
+        8136,
+        8180,
+        8245,
+        8269,
+        8468
+      ],
+      "higher": [
+        67,
+        133,
+        186,
+        375,
+        611,
+        685,
+        702,
+        952,
+        1144,
+        1392,
+        1477,
+        1785,
+        2002,
+        2229,
+        2245,
+        2645,
+        3985,
+        4179,
+        4214,
+        4303,
+        4315,
+        4365,
+        4376,
+        4921,
+        5083,
+        5116,
+        5295,
+        5417,
+        5569,
+        5648,
+        5680,
+        6031,
+        6142,
+        6682,
+        6700,
+        6740,
+        6762,
+        6846,
+        6977,
+        7184,
+        7468
+      ],
+      "education": [
+        68,
+        376,
+        754,
+        1145,
+        1478,
+        1786,
+        1983,
+        2003,
+        2313,
+        3986,
+        4180,
+        4304,
+        5084,
+        5117,
+        5296,
+        5649,
+        5681,
+        6032,
+        6683,
+        6763,
+        6978,
+        7185
+      ],
+      "lately,": [
+        69
+      ],
+      "thought": [
+        71,
+        8399
+      ],
+      "it": [
+        72,
+        642,
+        785,
+        833,
+        937,
+        1918,
+        2055,
+        2717,
+        3195,
+        4932,
+        5089,
+        5126,
+        5188,
+        6023,
+        6144,
+        6543,
+        6717,
+        7240,
+        7825,
+        8276,
+        8502
+      ],
+      "appropriate": [
+        73
+      ],
+      "tonight": [
+        74,
+        299,
+        8441
+      ],
+      "should": [
+        77,
+        4056,
+        5135,
+        5299,
+        6168,
+        6950
+      ],
+      "lean": [
+        78
+      ],
+      "on": [
+        79,
+        92,
+        572,
+        1760,
+        1914,
+        2070,
+        2278,
+        2286,
+        2330,
+        2661,
+        2768,
+        2854,
+        2913,
+        3348,
+        3498,
+        3530,
+        3658,
+        3699,
+        3713,
+        3753,
+        4006,
+        4064,
+        4675,
+        5165,
+        5545,
+        5568,
+        5595,
+        5618,
+        6108,
+        6156,
+        6573,
+        6577,
+        6708,
+        6725,
+        7316,
+        7390,
+        7430,
+        7517,
+        7847,
+        7894,
+        8352,
+        8372,
+        8583
+      ],
+      "these": [
+        80,
+        605,
+        749,
+        1543,
+        1964,
+        2106,
+        2301,
+        3136,
+        4311,
+        4579,
+        5018,
+        5168,
+        5819,
+        6106,
+        6266,
+        6906,
+        7574,
+        7990,
+        8112,
+        8469,
+        8557
+      ],
+      "roles,": [
+        81
+      ],
+      "addition": [
+        83
+      ],
+      "experience": [
+        86
+      ],
+      "historian,": [
+        89
+      ],
+      "reflect": [
+        91,
+        128,
+        5617,
+        6009
+      ],
+      "our": [
+        93,
+        305,
+        312,
+        342,
+        714,
+        993,
+        1060,
+        1400,
+        1455,
+        1891,
+        1931,
+        2052,
+        2096,
+        2170,
+        2638,
+        2727,
+        2753,
+        3659,
+        4324,
+        4595,
+        4599,
+        4625,
+        4632,
+        4637,
+        4640,
+        4649,
+        4686,
+        4698,
+        4705,
+        4746,
+        4790,
+        4822,
+        4844,
+        4965,
+        4982,
+        5113,
+        5153,
+        5179,
+        5183,
+        5203,
+        5210,
+        5256,
+        5542,
+        5546,
+        5591,
+        5838,
+        6056,
+        6072,
+        6103,
+        6129,
+        6385,
+        6421,
+        6427,
+        6478,
+        6491,
+        6502,
+        6511,
+        6546,
+        6626,
+        6637,
+        6658,
+        6704,
+        6735,
+        6771,
+        6809,
+        6815,
+        6954,
+        6972,
+        7005,
+        7033,
+        7297,
+        7386,
+        7396,
+        7508,
+        7590,
+        7712,
+        7751,
+        7764,
+        7767,
+        7776,
+        7842,
+        7862,
+        7873,
+        7903,
+        7907,
+        8012,
+        8035,
+        8041,
+        8056,
+        8066,
+        8085,
+        8107,
+        8131,
+        8311,
+        8437,
+        8504
+      ],
+      "offer": [
+        96,
+        120,
+        668,
+        4827,
+        5041,
+        5350,
+        6373
+      ],
+      "hope,": [
+        97
+      ],
+      "well": [
+        99,
+        206,
+        2835,
+        4427,
+        5526,
+        6623,
+        6784,
+        8062,
+        8202,
+        8279
+      ],
+      "some": [
+        101,
+        264,
+        422,
+        1197,
+        1323,
+        1402,
+        1462,
+        1623,
+        2058,
+        2084,
+        2174,
+        2497,
+        2779,
+        2940,
+        3030,
+        3466,
+        3562,
+        3714,
+        4052,
+        5845,
+        6390,
+        6519
+      ],
+      "possible": [
+        102
+      ],
+      "paths": [
+        103
+      ],
+      "may": [
+        105,
+        652,
+        984,
+        5042,
+        5071,
+        5484,
+        6216,
+        6534,
+        7575,
+        7592,
+        7626,
+        7638,
+        7656,
+        8277
+      ],
+      "take": [
+        106,
+        415,
+        5612
+      ],
+      "improve": [
+        108,
+        4266
+      ],
+      "road": [
+        110,
+        1368
+      ],
+      "ahead.": [
+        111,
+        8490
+      ],
+      "My": [
+        112
+      ],
+      "talk": [
+        113,
+        262
+      ],
+      "has": [
+        114,
+        482,
+        495,
+        516,
+        538,
+        596,
+        621,
+        856,
+        879,
+        1175,
+        1444,
+        1479,
+        1498,
+        1658,
+        1673,
+        1705,
+        1717,
+        1723,
+        2173,
+        2193,
+        2213,
+        2241,
+        2252,
+        2292,
+        2465,
+        2510,
+        2579,
+        2656,
+        2712,
+        2718,
+        2723,
+        2782,
+        2812,
+        2822,
+        2896,
+        2903,
+        2959,
+        3255,
+        3302,
+        3325,
+        3406,
+        3421,
+        3579,
+        3745,
+        3761,
+        3793,
+        3975,
+        4191,
+        4368,
+        4388,
+        4876,
+        4908,
+        4927,
+        4933,
+        5549,
+        5739,
+        5974,
+        6018,
+        6442,
+        6470,
+        6557,
+        6888,
+        7371,
+        7889,
+        7896
+      ],
+      "three": [
+        115
+      ],
+      "parts.": [
+        116
+      ],
+      "will": [
+        119,
+        125,
+        136,
+        200,
+        238,
+        815,
+        995,
+        1013,
+        1025,
+        1361,
+        4147,
+        4385,
+        5001,
+        5115,
+        8211,
+        8228
+      ],
+      "proposal.": [
+        122
+      ],
+      "Next,": [
+        123
+      ],
+      "examine": [
+        126,
+        421,
+        2540
+      ],
+      "and": [
+        127,
+        145,
+        196,
+        244,
+        254,
+        278,
+        292,
+        339,
+        420,
+        490,
+        500,
+        545,
+        585,
+        645,
+        666,
+        903,
+        927,
+        934,
+        960,
+        1008,
+        1042,
+        1058,
+        1094,
+        1159,
+        1172,
+        1207,
+        1271,
+        1314,
+        1335,
+        1369,
+        1428,
+        1441,
+        1491,
+        1509,
+        1532,
+        1577,
+        1592,
+        1601,
+        1606,
+        1619,
+        1631,
+        1669,
+        1698,
+        1701,
+        1719,
+        1731,
+        1776,
+        1793,
+        1808,
+        1816,
+        1884,
+        1951,
+        1972,
+        1979,
+        2011,
+        2048,
+        2066,
+        2078,
+        2092,
+        2145,
+        2197,
+        2225,
+        2233,
+        2289,
+        2324,
+        2339,
+        2350,
+        2357,
+        2392,
+        2416,
+        2440,
+        2460,
+        2482,
+        2488,
+        2508,
+        2537,
+        2541,
+        2583,
+        2593,
+        2619,
+        2632,
+        2673,
+        2701,
+        2746,
+        2771,
+        2792,
+        2830,
+        2857,
+        2866,
+        2880,
+        2919,
+        2947,
+        2985,
+        2992,
+        3006,
+        3020,
+        3064,
+        3083,
+        3095,
+        3119,
+        3157,
+        3202,
+        3217,
+        3226,
+        3237,
+        3269,
+        3283,
+        3288,
+        3310,
+        3350,
+        3364,
+        3381,
+        3410,
+        3427,
+        3494,
+        3507,
+        3533,
+        3552,
+        3629,
+        3637,
+        3684,
+        3696,
+        3701,
+        3772,
+        3782,
+        3807,
+        3824,
+        3834,
+        3871,
+        3887,
+        3900,
+        3981,
+        3988,
+        4002,
+        4018,
+        4026,
+        4047,
+        4100,
+        4118,
+        4213,
+        4243,
+        4265,
+        4313,
+        4328,
+        4355,
+        4538,
+        4564,
+        4566,
+        4597,
+        4601,
+        4627,
+        4639,
+        4666,
+        4688,
+        4713,
+        4787,
+        4806,
+        4826,
+        4835,
+        4853,
+        4856,
+        4859,
+        4885,
+        4971,
+        4994,
+        5027,
+        5033,
+        5067,
+        5178,
+        5186,
+        5192,
+        5220,
+        5252,
+        5261,
+        5298,
+        5328,
+        5369,
+        5458,
+        5472,
+        5478,
+        5529,
+        5576,
+        5633,
+        5660,
+        5667,
+        5679,
+        5688,
+        5695,
+        5702,
+        5723,
+        5731,
+        5743,
+        5815,
+        5863,
+        5879,
+        5894,
+        5905,
+        5946,
+        5971,
+        6011,
+        6025,
+        6047,
+        6049,
+        6062,
+        6081,
+        6091,
+        6121,
+        6230,
+        6242,
+        6244,
+        6302,
+        6316,
+        6330,
+        6370,
+        6377,
+        6394,
+        6399,
+        6412,
+        6430,
+        6434,
+        6455,
+        6462,
+        6484,
+        6505,
+        6507,
+        6531,
+        6579,
+        6607,
+        6630,
+        6650,
+        6696,
+        6713,
+        6720,
+        6728,
+        6789,
+        6814,
+        6820,
+        6829,
+        6859,
+        6899,
+        6913,
+        6938,
+        6979,
+        7069,
+        7088,
+        7094,
+        7113,
+        7162,
+        7167,
+        7202,
+        7209,
+        7234,
+        7265,
+        7287,
+        7311,
+        7321,
+        7331,
+        7353,
+        7367,
+        7394,
+        7404,
+        7442,
+        7451,
+        7487,
+        7504,
+        7514,
+        7545,
+        7547,
+        7550,
+        7554,
+        7599,
+        7622,
+        7717,
+        7736,
+        7771,
+        7834,
+        7891,
+        7905,
+        7923,
+        7933,
+        7937,
+        7959,
+        7967,
+        8004,
+        8014,
+        8027,
+        8059,
+        8087,
+        8100,
+        8172,
+        8193,
+        8226,
+        8260,
+        8263,
+        8306,
+        8324,
+        8361,
+        8369,
+        8412,
+        8423,
+        8471,
+        8475,
+        8528,
+        8539,
+        8553,
+        8577
+      ],
+      "upon": [
+        129
+      ],
+      "last": [
+        130,
+        894,
+        4031,
+        5286
+      ],
+      "year": [
+        131,
+        1614,
+        1650,
+        4032,
+        4279
+      ],
+      "education.": [
+        134,
+        187,
+        4215,
+        4377,
+        6701,
+        7469
+      ],
+      "end": [
+        137,
+        3809
+      ],
+      "with": [
+        138,
+        157,
+        247,
+        353,
+        454,
+        758,
+        1003,
+        1264,
+        1483,
+        1519,
+        1575,
+        1754,
+        1775,
+        1993,
+        2015,
+        2282,
+        2409,
+        2452,
+        2514,
+        2969,
+        2979,
+        3013,
+        3123,
+        3304,
+        3366,
+        3521,
+        3902,
+        3979,
+        4364,
+        4717,
+        4887,
+        4956,
+        5060,
+        5652,
+        5844,
+        6346,
+        6833,
+        7038,
+        7064,
+        7076,
+        7086,
+        7091,
+        7215,
+        7258,
+        7448,
+        7658,
+        7783,
+        7970,
+        8021,
+        8222,
+        8233,
+        8333,
+        8357,
+        8442,
+        8458
+      ],
+      "nine": [
+        139
+      ],
+      "recommendations": [
+        140
+      ],
+      "for": [
+        141,
+        398,
+        648,
+        939,
+        1021,
+        1039,
+        1139,
+        1225,
+        1246,
+        1461,
+        1517,
+        1524,
+        1667,
+        1845,
+        1881,
+        2027,
+        2057,
+        2432,
+        2445,
+        2615,
+        2832,
+        2935,
+        3039,
+        3090,
+        3412,
+        3453,
+        3567,
+        3627,
+        3725,
+        3730,
+        3757,
+        4114,
+        4160,
+        4232,
+        4478,
+        4517,
+        4524,
+        4541,
+        4709,
+        4722,
+        4732,
+        4751,
+        4937,
+        5028,
+        5139,
+        5148,
+        5229,
+        5258,
+        5338,
+        5530,
+        5639,
+        6029,
+        6305,
+        6384,
+        6446,
+        6603,
+        6635,
+        6657,
+        6757,
+        6866,
+        6966,
+        7467,
+        7538,
+        7595,
+        7612,
+        7645,
+        7931,
+        7984,
+        8183,
+        8387,
+        8392,
+        8400,
+        8465,
+        8486,
+        8547
+      ],
+      "us": [
+        142,
+        4307,
+        4752,
+        4779,
+        4938,
+        5230,
+        5341,
+        5441,
+        6124,
+        6285,
+        6828,
+        6832,
+        7463,
+        7917,
+        7985,
+        8148
+      ],
+      "consider": [
+        144
+      ],
+      "adopt": [
+        146
+      ],
+      "historians,": [
+        148,
+        5013,
+        6641,
+        6961,
+        8477
+      ],
+      "New": [
+        152,
+        924,
+        1272
+      ],
+      "Year.": [
+        153
+      ],
+      "Let": [
+        154,
+        401,
+        7053
+      ],
+      "me": [
+        155,
+        402,
+        7054
+      ],
+      "start": [
+        156,
+        7294
+      ],
+      "modest": [
+        159
+      ],
+      "proposal\u2014no": [
+        160
+      ],
+      "satire": [
+        161
+      ],
+      "intended.": [
+        162
+      ],
+      "Don\u2019t": [
+        163
+      ],
+      "look": [
+        164,
+        407,
+        985,
+        4554,
+        7522
+      ],
+      "now,": [
+        165,
+        2654,
+        3300
+      ],
+      "but": [
+        166,
+        2074,
+        2249,
+        5445,
+        5911,
+        6286,
+        6576,
+        6855,
+        7035,
+        7996,
+        8432
+      ],
+      "inclined": [
+        169
+      ],
+      "live": [
+        174,
+        6241
+      ],
+      "an": [
+        176,
+        190,
+        222,
+        327,
+        1040,
+        1559,
+        1834,
+        2294,
+        2730,
+        3067,
+        3355,
+        3393,
+        3907,
+        4295,
+        4515,
+        4719,
+        4910,
+        4990,
+        6016,
+        6088,
+        6114,
+        6164,
+        6529,
+        7115,
+        7420,
+        8008
+      ],
+      "age": [
+        177,
+        223,
+        328,
+        511,
+        773,
+        850
+      ],
+      "might": [
+        180,
+        1738
+      ],
+      "properly": [
+        181
+      ],
+      "call": [
+        182,
+        304
+      ],
+      "massification": [
+        184,
+        434,
+        687,
+        932,
+        1075,
+        1357,
+        1394
+      ],
+      "This": [
+        188,
+        220,
+        1613,
+        2521,
+        6407,
+        7048,
+        8164
+      ],
+      "is": [
+        189,
+        221,
+        241,
+        300,
+        378,
+        435,
+        475,
+        522,
+        532,
+        688,
+        770,
+        786,
+        834,
+        1787,
+        1888,
+        2102,
+        2157,
+        2522,
+        2557,
+        2559,
+        2596,
+        2634,
+        3196,
+        3246,
+        3592,
+        3708,
+        4085,
+        4380,
+        4471,
+        4521,
+        4780,
+        5064,
+        5088,
+        5151,
+        5159,
+        5174,
+        5187,
+        5342,
+        5509,
+        5637,
+        5650,
+        6145,
+        6162,
+        6226,
+        6268,
+        6277,
+        6408,
+        6495,
+        6593,
+        6596,
+        6706,
+        6748,
+        6776,
+        6849,
+        7058,
+        7118,
+        7142,
+        7351,
+        7381,
+        7536,
+        7730,
+        7796,
+        7948,
+        8031,
+        8040,
+        8153,
+        8200,
+        8429,
+        8463,
+        8503,
+        8512
+      ],
+      "era": [
+        191,
+        289,
+        1390,
+        2469,
+        4296,
+        7421
+      ],
+      "which": [
+        193,
+        736,
+        1048,
+        2298,
+        2352,
+        2574,
+        4189,
+        5776,
+        7110
+      ],
+      "new": [
+        195,
+        1337,
+        2468,
+        2603,
+        2636,
+        2982,
+        3418,
+        3526,
+        3656,
+        7459,
+        7560
+      ],
+      "emerging": [
+        197,
+        457,
+        629,
+        1487,
+        3153
+      ],
+      "skills": [
+        198,
+        5765,
+        8102
+      ],
+      "economy": [
+        199
+      ],
+      "necessitate": [
+        201
+      ],
+      "more": [
+        202,
+        225,
+        227,
+        229,
+        231,
+        999,
+        1015,
+        1029,
+        1364,
+        1370,
+        1481,
+        1726,
+        2021,
+        3147,
+        3244,
+        4168,
+        4331,
+        4498,
+        5427,
+        5487,
+        6459,
+        6999,
+        7021,
+        7072,
+        7198,
+        7357,
+        7539,
+        8430
+      ],
+      "higher-order": [
+        203
+      ],
+      "thinking,": [
+        204
+      ],
+      "cognitive": [
+        208
+      ],
+      "abilities": [
+        209,
+        8088
+      ],
+      "are": [
+        211,
+        324,
+        466,
+        722,
+        966,
+        969,
+        1036,
+        1067,
+        1076,
+        1081,
+        1450,
+        1805,
+        2178,
+        2476,
+        2502,
+        2675,
+        2742,
+        2759,
+        2853,
+        2924,
+        2965,
+        2989,
+        3008,
+        3022,
+        3097,
+        3105,
+        3162,
+        3616,
+        4574,
+        4656,
+        5024,
+        5104,
+        5145,
+        5182,
+        5383,
+        5561,
+        5635,
+        5825,
+        6248,
+        6319,
+        6350,
+        6360,
+        6401,
+        6616,
+        6795,
+        6863,
+        6903,
+        7075,
+        7205,
+        7213,
+        7290,
+        7402,
+        7435,
+        7558,
+        7651,
+        7720,
+        7981,
+        8104,
+        8113,
+        8452,
+        8479
+      ],
+      "best": [
+        212,
+        4837,
+        6441,
+        7177,
+        7250
+      ],
+      "achieved": [
+        213
+      ],
+      "by": [
+        214,
+        365,
+        450,
+        493,
+        524,
+        610,
+        734,
+        809,
+        1542,
+        1728,
+        2531,
+        2588,
+        2698,
+        2816,
+        3031,
+        3240,
+        3266,
+        3339,
+        3392,
+        3448,
+        3574,
+        3588,
+        3830,
+        3998,
+        4103,
+        4559,
+        5004,
+        5469,
+        5866,
+        6356,
+        6388,
+        7295,
+        7406,
+        7705,
+        7821,
+        8174,
+        8407
+      ],
+      "pursuit": [
+        215,
+        6339
+      ],
+      "postsecondary": [
+        218,
+        1412,
+        1982,
+        4518
+      ],
+      "degree.": [
+        219,
+        7728,
+        7743
+      ],
+      "research,": [
+        226,
+        4226,
+        7598,
+        7833
+      ],
+      "investment,": [
+        228
+      ],
+      "students,": [
+        230,
+        918,
+        1875,
+        3057,
+        4233,
+        5026,
+        8067
+      ],
+      "impact.": [
+        232,
+        3759
+      ],
+      "But": [
+        233,
+        268,
+        394,
+        485,
+        535,
+        784,
+        2651,
+        2868,
+        2928,
+        4166,
+        4581,
+        4757,
+        6365,
+        7779,
+        8231,
+        8454
+      ],
+      "at": [
+        234,
+        329,
+        408,
+        658,
+        718,
+        1305,
+        1550,
+        2032,
+        2117,
+        2127,
+        2517,
+        2764,
+        3135,
+        3145,
+        3510,
+        3872,
+        4077,
+        4178,
+        4502,
+        4555,
+        5209,
+        5238,
+        5278,
+        5531,
+        6005,
+        6059,
+        6218,
+        6439,
+        6798,
+        6886,
+        6971,
+        7137,
+        7179,
+        7186,
+        7225,
+        7805,
+        8023,
+        8338,
+        8367,
+        8532,
+        8543
+      ],
+      "moment,": [
+        236,
+        1033,
+        5056,
+        7188,
+        7866
+      ],
+      "confess,": [
+        239
+      ],
+      "this": [
+        240,
+        266,
+        287,
+        310,
+        510,
+        635,
+        864,
+        1032,
+        1684,
+        2464,
+        2625,
+        2710,
+        2895,
+        3747,
+        3765,
+        3973,
+        4274,
+        4345,
+        4384,
+        4439,
+        4520,
+        4976,
+        4985,
+        5055,
+        5607,
+        6161,
+        6258,
+        6645,
+        7077,
+        7187,
+        7193,
+        7477,
+        7694,
+        7865,
+        7999,
+        8243,
+        8587
+      ],
+      "fragile": [
+        243
+      ],
+      "delicate": [
+        245
+      ],
+      "age,": [
+        246
+      ],
+      "many": [
+        248,
+        1306,
+        1915
+      ],
+      "pitfalls": [
+        249
+      ],
+      "both": [
+        252,
+        2143,
+        2744,
+        2864,
+        3093,
+        3316,
+        5255,
+        5574,
+        7283,
+        8303
+      ],
+      "endanger": [
+        253
+      ],
+      "radically": [
+        255
+      ],
+      "alter": [
+        256
+      ],
+      "its": [
+        257,
+        1863,
+        2155,
+        2164,
+        3911,
+        4287,
+        5763,
+        5864,
+        6246,
+        6440,
+        6914,
+        7095
+      ],
+      "course.": [
+        258,
+        1061
+      ],
+      "hope": [
+        260,
+        5829,
+        6376
+      ],
+      "about": [
+        263,
+        4783,
+        4920,
+        5412,
+        6013,
+        6559,
+        7084,
+        7529,
+        7956
+      ],
+      "tonight.": [
+        267
+      ],
+      "also": [
+        270,
+        517,
+        561,
+        1451,
+        2823,
+        4057,
+        4819,
+        6671,
+        6732,
+        6796,
+        7036,
+        7119,
+        7680,
+        8169
+      ],
+      "we\u2014being": [
+        273
+      ],
+      "members": [
+        274,
+        8044
+      ],
+      "academy,": [
+        277,
+        2569,
+        4816
+      ],
+      "particularly": [
+        279,
+        2523,
+        3219,
+        3520,
+        5804,
+        6864
+      ],
+      "historians\u2014have": [
+        281
+      ],
+      "unique": [
+        283,
+        644,
+        2185
+      ],
+      "opportunity": [
+        284,
+        4680,
+        4991,
+        8009
+      ],
+      "shape": [
+        286
+      ],
+      "special": [
+        288,
+        1397,
+        6772,
+        7302
+      ],
+      "profound": [
+        291,
+        7870
+      ],
+      "meaningful": [
+        293
+      ],
+      "ways.": [
+        294
+      ],
+      "In": [
+        295,
+        509,
+        590,
+        691,
+        1112,
+        1279,
+        1321,
+        1345,
+        2303,
+        2949,
+        3042,
+        3081,
+        3149,
+        3179,
+        3352,
+        3384,
+        3609,
+        4013,
+        4398,
+        4814,
+        5712,
+        5752,
+        5772,
+        5799,
+        5869,
+        5949,
+        7323,
+        7864,
+        8134,
+        8313,
+        8491
+      ],
+      "fact,": [
+        296,
+        614,
+        3150,
+        8492
+      ],
+      "proposal": [
+        298
+      ],
+      "dare": [
+        303
+      ],
+      "need": [
+        306,
+        4284,
+        4321,
+        4898,
+        5198,
+        5456,
+        5571,
+        5580,
+        6099,
+        6473,
+        6561,
+        6669,
+        6996,
+        7253,
+        7361,
+        7458,
+        7498,
+        7525,
+        7745,
+        7788,
+        7839
+      ],
+      "rise": [
+        308,
+        1128,
+        1585,
+        2042,
+        3259
+      ],
+      "occasion": [
+        311
+      ],
+      "collective": [
+        313,
+        2152,
+        4486,
+        8079
+      ],
+      "obligation.": [
+        314
+      ],
+      "I\u2019ll": [
+        315
+      ],
+      "understand": [
+        316,
+        7267,
+        7830
+      ],
+      "if": [
+        317,
+        988,
+        1053,
+        4038,
+        4144,
+        5046,
+        5102,
+        5143,
+        5559,
+        8405
+      ],
+      "you": [
+        318,
+        344,
+        5992,
+        6189,
+        6196,
+        6333,
+        6982,
+        7074,
+        7081,
+        8378
+      ],
+      "don\u2019t": [
+        319,
+        633,
+        5524
+      ],
+      "agree,": [
+        320
+      ],
+      "first,": [
+        321
+      ],
+      "such": [
+        326,
+        803,
+        1151,
+        2932,
+        3377,
+        3665,
+        4479,
+        4514,
+        5099,
+        5371,
+        6688,
+        7324,
+        7349,
+        7585
+      ],
+      "all.": [
+        330
+      ],
+      "get": [
+        332,
+        3479
+      ],
+      "it.": [
+        333
+      ],
+      "From": [
+        334,
+        438
+      ],
+      "current": [
+        336,
+        673,
+        1133,
+        2754,
+        2954,
+        3742,
+        4140,
+        5841
+      ],
+      "policies,": [
+        337,
+        1171,
+        2458
+      ],
+      "assaults,": [
+        338
+      ],
+      "challenges": [
+        340,
+        1730,
+        3518,
+        3983,
+        4405,
+        4534,
+        5669,
+        5694,
+        6416,
+        6892,
+        8449
+      ],
+      "enterprise,": [
+        343,
+        1598
+      ],
+      "good": [
+        346,
+        2686,
+        5171,
+        5796,
+        7135
+      ],
+      "reason": [
+        347
+      ],
+      "be": [
+        349,
+        653,
+        746,
+        977,
+        1014,
+        1026,
+        1329,
+        1363,
+        1386,
+        1920,
+        2659,
+        3668,
+        3897,
+        4235,
+        4476,
+        5043,
+        5072,
+        5131,
+        5137,
+        5200,
+        5216,
+        5232,
+        5236,
+        5301,
+        5360,
+        5564,
+        5573,
+        6079,
+        6169,
+        6535,
+        6998,
+        7013,
+        7020,
+        7055,
+        7195,
+        7223,
+        7243,
+        7255,
+        7334,
+        7576,
+        8280
+      ],
+      "skeptical.": [
+        350
+      ],
+      "Compound": [
+        351,
+        4954
+      ],
+      "fact": [
+        355,
+        2629,
+        4958
+      ],
+      "September,": [
+        358
+      ],
+      "seven": [
+        359
+      ],
+      "out": [
+        360,
+        389,
+        2012,
+        4786,
+        5979
+      ],
+      "ten": [
+        362,
+        391
+      ],
+      "Americans": [
+        363,
+        7723
+      ],
+      "surveyed": [
+        364
+      ],
+      "Pew": [
+        367
+      ],
+      "Research": [
+        368,
+        8526
+      ],
+      "Center": [
+        369,
+        8531
+      ],
+      "reported": [
+        370,
+        1103,
+        1116,
+        1621
+      ],
+      "they": [
+        371,
+        2692,
+        3570,
+        4145,
+        4452,
+        4528,
+        4715,
+        4796,
+        5883,
+        6372,
+        7793,
+        8390
+      ],
+      "\u201cthe": [
+        373
+      ],
+      "U.S.": [
+        374
+      ],
+      "system": [
+        377,
+        1414,
+        1456,
+        2729,
+        5718,
+        5738
+      ],
+      "headed": [
+        379
+      ],
+      "wrong": [
+        382
+      ],
+      "direction,\u201d": [
+        383
+      ],
+      "up": [
+        384,
+        2513,
+        7475,
+        7733,
+        8366
+      ],
+      "from": [
+        385,
+        411,
+        576,
+        617,
+        707,
+        887,
+        1447,
+        1470,
+        1762,
+        1896,
+        2200,
+        2319,
+        2695,
+        3175,
+        3424,
+        3776,
+        3953,
+        3984,
+        4419,
+        5452,
+        5810,
+        6383,
+        6601,
+        6676,
+        6985,
+        7798,
+        7911,
+        7941
+      ],
+      "just": [
+        386,
+        4553,
+        7993
+      ],
+      "over": [
+        387,
+        462,
+        727,
+        881,
+        1097,
+        1106,
+        1643,
+        1708,
+        1859,
+        1969,
+        2045,
+        2208,
+        2796,
+        3788,
+        3816,
+        4029,
+        4276,
+        4569,
+        5954,
+        6804
+      ],
+      "five": [
+        388
+      ],
+      "2020.1": [
+        393
+      ],
+      "let\u2019s": [
+        395,
+        7428,
+        8455
+      ],
+      "pull": [
+        396,
+        1523
+      ],
+      "back": [
+        397,
+        5121,
+        6010,
+        8494
+      ],
+      "minute.": [
+        400
+      ],
+      "make": [
+        403,
+        2908,
+        7301,
+        7464,
+        8482
+      ],
+      "case.": [
+        405
+      ],
+      "Let\u2019s": [
+        406,
+        8439,
+        8444
+      ],
+      "sector": [
+        410,
+        2026,
+        2556
+      ],
+      "global": [
+        413,
+        566,
+        593,
+        840,
+        1023,
+        1127,
+        1143,
+        1319,
+        1348,
+        2925,
+        3167,
+        3719,
+        4298,
+        5645,
+        6714
+      ],
+      "perspective,": [
+        414,
+        2918
+      ],
+      "stock": [
+        416
+      ],
+      "numbers,": [
+        419
+      ],
+      "interesting": [
+        423
+      ],
+      "international": [
+        424,
+        750,
+        1166,
+        2769,
+        2917,
+        2942,
+        3073,
+        3091,
+        3133,
+        3278,
+        3673,
+        4156,
+        7561,
+        7572,
+        7636
+      ],
+      "trend": [
+        425
+      ],
+      "lines.": [
+        426
+      ],
+      "among": [
+        428,
+        3836,
+        5707,
+        6770,
+        7541,
+        7548,
+        8114
+      ],
+      "strongest": [
+        430
+      ],
+      "indicators": [
+        431,
+        683,
+        3856
+      ],
+      "education\u2019s": [
+        433,
+        686,
+        2246,
+        2646,
+        4922,
+        5570,
+        6847
+      ],
+      "research": [
+        436,
+        445,
+        567,
+        616,
+        630,
+        657,
+        958,
+        1339,
+        1439,
+        1597,
+        1715,
+        2090,
+        2231,
+        2420,
+        2490,
+        2912,
+        2983,
+        3450,
+        3615,
+        3635,
+        3652,
+        3720,
+        3801,
+        3867,
+        3928,
+        4045,
+        4066,
+        4098,
+        4141,
+        4157,
+        4190,
+        4252,
+        4465,
+        6438,
+        7624
+      ],
+      "productivity.": [
+        437
+      ],
+      "2012": [
+        439
+      ],
+      "2022,": [
+        441
+      ],
+      "number": [
+        443,
+        871,
+        1688,
+        3128,
+        3230,
+        6922
+      ],
+      "articles": [
+        446,
+        465
+      ],
+      "produced": [
+        447,
+        467,
+        3239,
+        5913
+      ],
+      "worldwide": [
+        448
+      ],
+      "increased": [
+        449,
+        1156,
+        1500,
+        2995
+      ],
+      "nearly": [
+        451,
+        529,
+        597,
+        1183,
+        2817
+      ],
+      "60": [
+        452
+      ],
+      "percent,": [
+        453
+      ],
+      "output": [
+        455,
+        1440
+      ],
+      "economies": [
+        458,
+        7668
+      ],
+      "growing": [
+        459,
+        1104,
+        1485,
+        1595
+      ],
+      "feverishly.": [
+        460
+      ],
+      "Well": [
+        461
+      ],
+      "3.3": [
+        463
+      ],
+      "million": [
+        464,
+        696,
+        709,
+        889,
+        905,
+        1646,
+        7722,
+        7739
+      ],
+      "annually\u2014tilted": [
+        468
+      ],
+      "course": [
+        470,
+        5956
+      ],
+      "toward": [
+        471,
+        6052,
+        6739
+      ],
+      "sciences.2": [
+        473
+      ],
+      "It": [
+        474,
+        1887,
+        3959,
+        4202,
+        4216,
+        4246,
+        6112,
+        6276,
+        6494,
+        7729
+      ],
+      "true": [
+        476,
+        2565,
+        5195,
+        6409,
+        8157
+      ],
+      "growth": [
+        478,
+        1435,
+        3125,
+        4299,
+        5964
+      ],
+      "scholarly": [
+        480,
+        503,
+        2088
+      ],
+      "monographs": [
+        481
+      ],
+      "slower.": [
+        484
+      ],
+      "even": [
+        486,
+        830,
+        2082,
+        4889,
+        5097,
+        5130,
+        5494,
+        6600,
+        8015
+      ],
+      "there,": [
+        487
+      ],
+      "greater": [
+        488,
+        1004,
+        2159,
+        2843,
+        3258,
+        3796,
+        5069,
+        5794,
+        6306,
+        7045,
+        7489,
+        7499,
+        8484
+      ],
+      "discoverability": [
+        489
+      ],
+      "access,": [
+        491,
+        824
+      ],
+      "enabled": [
+        492
+      ],
+      "technology,": [
+        494
+      ],
+      "created": [
+        496,
+        3587
+      ],
+      "broader": [
+        498,
+        989,
+        3172,
+        4302,
+        5625,
+        6758,
+        7785
+      ],
+      "awareness": [
+        499
+      ],
+      "incorporation": [
+        501
+      ],
+      "findings": [
+        504
+      ],
+      "across": [
+        505,
+        3990,
+        4861,
+        5656,
+        6309,
+        6410,
+        7207,
+        7976,
+        8001
+      ],
+      "multiple": [
+        506,
+        4071,
+        5877
+      ],
+      "academic": [
+        507,
+        1110,
+        1121,
+        1755,
+        2486,
+        2489,
+        3028,
+        3177,
+        3191,
+        3279,
+        3296,
+        3531,
+        3702,
+        4101,
+        7800
+      ],
+      "fields.3": [
+        508
+      ],
+      "massification,": [
+        513,
+        852
+      ],
+      "higher-ed": [
+        514,
+        1178
+      ],
+      "philanthropy": [
+        515,
+        521
+      ],
+      "leaped.": [
+        518
+      ],
+      "Currently,": [
+        519,
+        2492
+      ],
+      "dominated": [
+        523
+      ],
+      "United": [
+        526,
+        854,
+        897,
+        914,
+        1381,
+        2776,
+        2810,
+        2971,
+        3251,
+        3678,
+        4196,
+        5641,
+        5801
+      ],
+      "States,": [
+        527,
+        1382,
+        2972,
+        3679,
+        5802
+      ],
+      "where": [
+        528,
+        549,
+        2188,
+        5662,
+        5812,
+        5915,
+        6234,
+        6245,
+        7792
+      ],
+      "$60": [
+        530
+      ],
+      "billion": [
+        531,
+        556,
+        1861,
+        2380,
+        2798,
+        3370,
+        3818,
+        5936
+      ],
+      "collected": [
+        533
+      ],
+      "annually.4": [
+        534
+      ],
+      "lately": [
+        536
+      ],
+      "there": [
+        537,
+        693,
+        968,
+        1066,
+        1360,
+        1449,
+        1657,
+        1672,
+        2655,
+        4367,
+        4379,
+        4470,
+        4907,
+        5158,
+        5323,
+        5508,
+        7535,
+        7814
+      ],
+      "notable": [
+        540
+      ],
+      "swelling": [
+        541
+      ],
+      "Canada,": [
+        543,
+        3017,
+        3685
+      ],
+      "Britain/Ireland,": [
+        544
+      ],
+      "Australia": [
+        546
+      ],
+      "/New": [
+        547
+      ],
+      "Zealand,": [
+        548
+      ],
+      "annual": [
+        550
+      ],
+      "contributions": [
+        551
+      ],
+      "now": [
+        552,
+        2101,
+        3164,
+        3273,
+        7947,
+        8495
+      ],
+      "hover": [
+        553
+      ],
+      "around": [
+        554,
+        704
+      ],
+      "$1": [
+        555,
+        578,
+        3369
+      ],
+      "per": [
+        557,
+        741
+      ],
+      "region.5": [
+        558
+      ],
+      "We": [
+        559,
+        2177,
+        4621,
+        4655,
+        4677,
+        4841,
+        5074,
+        5197,
+        6620,
+        6794,
+        7009,
+        7018,
+        7025,
+        7230,
+        7373,
+        7401,
+        7412,
+        7434,
+        7457,
+        7563,
+        7744,
+        7838,
+        7875,
+        8006
+      ],
+      "witnessed": [
+        562,
+        4412
+      ],
+      "surge": [
+        564,
+        827
+      ],
+      "investment.": [
+        568
+      ],
+      "Gross": [
+        569
+      ],
+      "domestic": [
+        570,
+        2956
+      ],
+      "expenditures": [
+        571,
+        606
+      ],
+      "R&D": [
+        573,
+        594
+      ],
+      "risen": [
+        575
+      ],
+      "roughly": [
+        577
+      ],
+      "trillion": [
+        579,
+        587,
+        2388
+      ],
+      "2000": [
+        581
+      ],
+      "between": [
+        583,
+        901,
+        1488,
+        4211,
+        5941,
+        5967,
+        6284,
+        7543
+      ],
+      "$2.75": [
+        584
+      ],
+      "$3.1": [
+        586
+      ],
+      "2022\u201323.": [
+        589
+      ],
+      "other": [
+        591,
+        779,
+        1991,
+        3970,
+        7041,
+        8024
+      ],
+      "words,": [
+        592
+      ],
+      "spending": [
+        595
+      ],
+      "tripled": [
+        598,
+        880
+      ],
+      "twenty": [
+        600
+      ],
+      "years.6": [
+        601
+      ],
+      "Not": [
+        602
+      ],
+      "driven": [
+        609
+      ],
+      "education;": [
+        612
+      ],
+      "industry-driven": [
+        615
+      ],
+      "business": [
+        619,
+        4659
+      ],
+      "world": [
+        620,
+        945,
+        983,
+        3186,
+        3276,
+        5716,
+        6492
+      ],
+      "become": [
+        622,
+        1480,
+        2005,
+        4868,
+        5706,
+        6951
+      ],
+      "increasingly": [
+        623,
+        946,
+        3098
+      ],
+      "prominent,": [
+        624
+      ],
+      "greatly": [
+        625
+      ],
+      "figuring": [
+        626
+      ],
+      "into": [
+        627,
+        948,
+        964,
+        1236,
+        1984,
+        3639,
+        3764,
+        5759,
+        6647,
+        8089
+      ],
+      "landscape.": [
+        631
+      ],
+      "see": [
+        634,
+        6520
+      ],
+      "necessarily": [
+        636,
+        4548,
+        8212
+      ],
+      "confrontational": [
+        639
+      ],
+      "challenge.": [
+        640
+      ],
+      "Rather,": [
+        641,
+        6916
+      ],
+      "opens": [
+        643
+      ],
+      "urgent": [
+        646,
+        6674
+      ],
+      "opportunities": [
+        647,
+        4159,
+        7644,
+        7983,
+        8217
+      ],
+      "cross-sectoral": [
+        649,
+        7531
+      ],
+      "partnerships": [
+        650,
+        4888,
+        7204,
+        7586
+      ],
+      "able": [
+        654,
+        5105,
+        5565,
+        6536
+      ],
+      "deliver": [
+        656
+      ],
+      "scale": [
+        660
+      ],
+      "never": [
+        663,
+        7580
+      ],
+      "before": [
+        664,
+        3963
+      ],
+      "imagined,": [
+        665
+      ],
+      "viable": [
+        669
+      ],
+      "alternatives": [
+        670
+      ],
+      "enhancing": [
+        672,
+        7589
+      ],
+      "financial": [
+        675,
+        1265,
+        1303,
+        1442,
+        1626,
+        1741,
+        1924,
+        6726
+      ],
+      "models.": [
+        676
+      ],
+      "Probably": [
+        677
+      ],
+      "most": [
+        681,
+        1636,
+        2223,
+        2858,
+        4634,
+        7432
+      ],
+      "crucial": [
+        682,
+        2785,
+        3625,
+        4105,
+        5887
+      ],
+      "enrollment": [
+        689,
+        1167,
+        1608
+      ],
+      "growth.": [
+        690,
+        865
+      ],
+      "2023,": [
+        692
+      ],
+      "were": [
+        694,
+        1188,
+        1326,
+        1818,
+        2063,
+        2315,
+        2334,
+        3445,
+        3840,
+        3932,
+        4041,
+        5331,
+        5426,
+        5465,
+        5519,
+        5777,
+        5847
+      ],
+      "264": [
+        695
+      ],
+      "people": [
+        697,
+        6215,
+        7791
+      ],
+      "studying": [
+        698,
+        2807
+      ],
+      "institutions": [
+        700,
+        1198,
+        1268,
+        1490,
+        1753,
+        1872,
+        1892,
+        2434,
+        2616,
+        3161,
+        3426,
+        3473,
+        3537,
+        4444,
+        4866,
+        5211,
+        5655,
+        5678,
+        5820,
+        5970,
+        6233,
+        6939,
+        6973,
+        7326,
+        7397,
+        7614
+      ],
+      "learning": [
+        703
+      ],
+      "world\u2014up": [
+        706
+      ],
+      "100": [
+        708,
+        3889
+      ],
+      "2000.": [
+        711
+      ],
+      "Moreover,": [
+        712,
+        1734,
+        2981,
+        3271,
+        3430
+      ],
+      "despite": [
+        713,
+        980
+      ],
+      "own": [
+        715,
+        4966,
+        4968,
+        5547,
+        6206,
+        7387
+      ],
+      "demographic": [
+        716,
+        1161,
+        1611
+      ],
+      "cliff": [
+        717
+      ],
+      "home,": [
+        719
+      ],
+      "those": [
+        720,
+        907,
+        2934,
+        3646,
+        5021,
+        5029,
+        7671,
+        8064
+      ],
+      "numbers": [
+        721
+      ],
+      "slated": [
+        723,
+        1327
+      ],
+      "grow": [
+        725
+      ],
+      "substantially": [
+        726
+      ],
+      "next": [
+        729,
+        4664
+      ],
+      "decade,": [
+        730
+      ],
+      "led": [
+        731,
+        1176,
+        3184,
+        3265
+      ],
+      "part": [
+        733,
+        3169,
+        6952
+      ],
+      "Asia,": [
+        735,
+        3218,
+        5661
+      ],
+      "possesses": [
+        737
+      ],
+      "world\u2019s": [
+        739,
+        760,
+        1420,
+        1438,
+        2735
+      ],
+      "largest": [
+        740,
+        761,
+        3088
+      ],
+      "capita": [
+        742
+      ],
+      "youth": [
+        743,
+        764
+      ],
+      "population.7": [
+        744
+      ],
+      "To": [
+        745,
+        5674,
+        7247,
+        7279,
+        7691
+      ],
+      "sure,": [
+        747
+      ],
+      "amid": [
+        748,
+        1583,
+        1609,
+        2083,
+        4081,
+        5727,
+        6039,
+        6792
+      ],
+      "surges,": [
+        751
+      ],
+      "access": [
+        752,
+        1316
+      ],
+      "remains": [
+        755
+      ],
+      "unequal.": [
+        756
+      ],
+      "Africa,": [
+        757,
+        3002,
+        3264,
+        5659,
+        5774
+      ],
+      "percentage": [
+        762
+      ],
+      "(70": [
+        765
+      ],
+      "percent": [
+        766,
+        1662,
+        1677,
+        2363,
+        2847
+      ],
+      "population": [
+        769
+      ],
+      "under": [
+        771,
+        2438,
+        4188,
+        5779
+      ],
+      "thirty),": [
+        775
+      ],
+      "lags": [
+        776
+      ],
+      "woefully": [
+        777
+      ],
+      "behind": [
+        778,
+        5919,
+        8426
+      ],
+      "regions": [
+        780,
+        7661
+      ],
+      "enrollments.": [
+        783,
+        908
+      ],
+      "precisely": [
+        787
+      ],
+      "places": [
+        788,
+        6353
+      ],
+      "like": [
+        789,
+        986,
+        2533,
+        2591,
+        2671,
+        3778,
+        7144,
+        7327,
+        8210,
+        8520
+      ],
+      "Africa": [
+        790,
+        2946,
+        3268
+      ],
+      "present": [
+        792
+      ],
+      "long-term,": [
+        793
+      ],
+      "strategic": [
+        794,
+        3200,
+        4124,
+        6679,
+        7649
+      ],
+      "future": [
+        795,
+        994,
+        1846,
+        4684,
+        4696,
+        4711,
+        8489
+      ],
+      "opportunities.": [
+        796,
+        7070
+      ],
+      "Through": [
+        797,
+        2704
+      ],
+      "investments": [
+        798,
+        963,
+        3201
+      ],
+      "address": [
+        800,
+        1937,
+        3342
+      ],
+      "educational": [
+        801,
+        823,
+        1157,
+        1413,
+        2728,
+        2755,
+        3261,
+        5717,
+        5760,
+        8028
+      ],
+      "disparities,": [
+        802
+      ],
+      "billions": [
+        806
+      ],
+      "being": [
+        807,
+        1037,
+        2503,
+        2586,
+        2743,
+        2887,
+        5332,
+        6068,
+        7879
+      ],
+      "spent": [
+        808
+      ],
+      "Mastercard": [
+        811
+      ],
+      "Foundation,": [
+        812
+      ],
+      "aggressive": [
+        813,
+        3199
+      ],
+      "pushes": [
+        814
+      ],
+      "help": [
+        816,
+        1871,
+        2788,
+        4238,
+        4771,
+        4900,
+        5010,
+        5857,
+        6123,
+        6335,
+        6490,
+        6538,
+        6733,
+        7395,
+        7462,
+        7685,
+        7762,
+        8124
+      ],
+      "gradually": [
+        818
+      ],
+      "close": [
+        819
+      ],
+      "existing": [
+        820,
+        4009,
+        4393
+      ],
+      "gaps": [
+        821
+      ],
+      "increasing": [
+        825
+      ],
+      "enrollments": [
+        829,
+        1838
+      ],
+      "more.8": [
+        831
+      ],
+      "While": [
+        832,
+        3399,
+        3972,
+        4451,
+        5157,
+        5481,
+        6518,
+        6716
+      ],
+      "likely": [
+        835,
+        1362,
+        3163,
+        4454,
+        7731
+      ],
+      "vastly": [
+        838,
+        998
+      ],
+      "expanding": [
+        839,
+        4668
+      ],
+      "reach": [
+        841
+      ],
+      "degree": [
+        845
+      ],
+      "helps": [
+        846,
+        7926
+      ],
+      "singularly": [
+        847
+      ],
+      "define": [
+        848,
+        6193,
+        6202
+      ],
+      "States": [
+        855,
+        898,
+        915,
+        2811,
+        4197
+      ],
+      "undoubtedly": [
+        857,
+        1445
+      ],
+      "played": [
+        858
+      ],
+      "central": [
+        860
+      ],
+      "role": [
+        861
+      ],
+      "facilitating": [
+        863
+      ],
+      "UNESCO": [
+        866
+      ],
+      "data": [
+        867,
+        2399
+      ],
+      "shows": [
+        868,
+        5492
+      ],
+      "students": [
+        873,
+        2065,
+        2852,
+        3074,
+        3094,
+        3632,
+        4638,
+        4703,
+        4747,
+        7969,
+        8036
+      ],
+      "educated": [
+        874,
+        5874
+      ],
+      "outside": [
+        875,
+        4890,
+        5031
+      ],
+      "their": [
+        876,
+        1095,
+        1120,
+        1237,
+        1291,
+        1769,
+        1874,
+        2967,
+        2977,
+        2996,
+        3033,
+        3110,
+        3501,
+        3544,
+        3739,
+        4710,
+        5194,
+        5813,
+        5920,
+        5947,
+        6367,
+        6392,
+        7176,
+        7306,
+        7632,
+        8261,
+        8270
+      ],
+      "home": [
+        877,
+        3146,
+        7633,
+        7845
+      ],
+      "countries": [
+        878,
+        1115
+      ],
+      "past": [
+        883,
+        1099,
+        1654,
+        2210,
+        2614,
+        4278,
+        4408,
+        4571,
+        5403
+      ],
+      "decades,": [
+        885
+      ],
+      "rising": [
+        886,
+        2881,
+        7660
+      ],
+      "2.1": [
+        888
+      ],
+      "6.9": [
+        891
+      ],
+      "million.": [
+        892
+      ],
+      "Until": [
+        893
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-01T08:54:57.152042",
+    "created_date": "2026-03-27T00:00:00"
   }
 ]

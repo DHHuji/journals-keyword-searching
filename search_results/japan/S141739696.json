@@ -3394,7 +3394,7 @@
     "doi": "https://doi.org/10.1080/0031322x.2025.2547480",
     "title": "From Howard to Hokkaido: Professor Reginald Gates\u2019s \u2018race crossing\u2019 research in Japan and transnational insurgencies against racial equality after 1945",
     "display_name": "From Howard to Hokkaido: Professor Reginald Gates\u2019s \u2018race crossing\u2019 research in Japan and transnational insurgencies against racial equality after 1945",
-    "relevance_score": 6.8148937,
+    "relevance_score": 19.84492,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -3404,6 +3404,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/0031322x.2025.2547480",
+      "doi": "https://doi.org/10.1080/0031322x.2025.2547480",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1080/0031322x.2025.2547480",
       "pdf_url": null,
@@ -3418,13 +3419,24 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
@@ -3436,6 +3448,7 @@
       "raw_source_name": "Patterns of Prejudice",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -3451,8 +3464,11 @@
         "author_position": "first",
         "author": {
           "id": "https://openalex.org/A5100567714",
-          "display_name": "Robert Brown",
-          "orcid": "https://orcid.org/0000-0003-2885-4350"
+          "display_name": "Robert M. Brown",
+          "orcid": "https://orcid.org/0000-0003-2885-4350",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2885-4350"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -3465,7 +3481,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5100567714"
     ],
@@ -3476,7 +3492,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.40644244,
+      "value": 0.20324096,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -3491,16 +3507,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12323",
-      "display_name": "Asian American and Pacific Histories",
-      "score": 0.2150000035762787,
+      "id": "https://openalex.org/T12575",
+      "display_name": "Medical History and Research",
+      "score": 0.5541999936103821,
       "subfield": {
-        "id": "https://openalex.org/subfields/3316",
-        "display_name": "Cultural Studies"
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -3509,46 +3525,46 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12323",
-        "display_name": "Asian American and Pacific Histories",
-        "score": 0.2150000035762787,
+        "id": "https://openalex.org/T12575",
+        "display_name": "Medical History and Research",
+        "score": 0.5541999936103821,
         "subfield": {
-          "id": "https://openalex.org/subfields/3316",
-          "display_name": "Cultural Studies"
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12749",
+        "display_name": "Race, Genetics, and Society",
+        "score": 0.3756999969482422,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1311",
+          "display_name": "Genetics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/13",
+          "display_name": "Biochemistry, Genetics and Molecular Biology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
         }
       },
       {
         "id": "https://openalex.org/T11198",
         "display_name": "Japanese History and Culture",
-        "score": 0.14550000429153442,
+        "score": 0.01940000057220459,
         "subfield": {
           "id": "https://openalex.org/subfields/3316",
           "display_name": "Cultural Studies"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T14141",
-        "display_name": "Colonial History and Postcolonial Studies",
-        "score": 0.1453000009059906,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -3562,24 +3578,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/racial-equality",
-        "display_name": "Racial equality",
-        "score": 0.8996999859809875
+        "id": "https://openalex.org/keywords/biometrics",
+        "display_name": "biometrics",
+        "score": 0.6299999952316284
       },
       {
-        "id": "https://openalex.org/keywords/gender-equality",
-        "display_name": "Gender equality",
-        "score": 0.4668999910354614
+        "id": "https://openalex.org/keywords/scientific-racism",
+        "display_name": "scientific racism",
+        "score": 0.7490000128746033
       },
       {
-        "id": "https://openalex.org/keywords/racism",
-        "display_name": "Racism",
-        "score": 0.39649999141693115
+        "id": "https://openalex.org/keywords/ainu-people",
+        "display_name": "Ainu",
+        "score": 0.746999979019165
       },
       {
-        "id": "https://openalex.org/keywords/islamophobia",
-        "display_name": "Islamophobia",
-        "score": 0.24809999763965607
+        "id": "https://openalex.org/keywords/war-children",
+        "display_name": "war children",
+        "score": 0.8100000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/interracial-marriage",
+        "display_name": "interracial marriage",
+        "score": 0.6119999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/racial-hierarchy",
+        "display_name": "racial hierarchy",
+        "score": 0.8159999847412109
+      },
+      {
+        "id": "https://openalex.org/keywords/normal-distribution",
+        "display_name": "normal distribution",
+        "score": 0.5419999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/transnational-scientific-networks",
+        "display_name": "transnational scientific networks",
+        "score": 0.6740000247955322
+      },
+      {
+        "id": "https://openalex.org/keywords/japanese-scientists",
+        "display_name": "Japanese scientists",
+        "score": 0.5049999952316284
       }
     ],
     "concepts": [
@@ -3659,6 +3700,7 @@
     "locations": [
       {
         "id": "doi:10.1080/0031322x.2025.2547480",
+        "doi": "https://doi.org/10.1080/0031322x.2025.2547480",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1080/0031322x.2025.2547480",
         "pdf_url": null,
@@ -3673,13 +3715,24 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
@@ -3693,20 +3746,524 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.7578999996185303,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "1954,": [
+        1
+      ],
+      "the": [
+        2,
+        18,
+        26,
+        55,
+        63,
+        79,
+        94,
+        121,
+        129,
+        138,
+        149,
+        157,
+        190,
+        201,
+        207
+      ],
+      "biologist": [
+        3
+      ],
+      "Professor": [
+        4
+      ],
+      "Reginald": [
+        5
+      ],
+      "Gates": [
+        6,
+        34,
+        67,
+        83,
+        101,
+        163
+      ],
+      "conducted": [
+        7
+      ],
+      "biometric": [
+        8
+      ],
+      "\u2018race": [
+        9,
+        109
+      ],
+      "crossing\u2019": [
+        10,
+        110
+      ],
+      "research": [
+        11,
+        70,
+        111
+      ],
+      "throughout": [
+        12
+      ],
+      "Japan.": [
+        13
+      ],
+      "Among": [
+        14
+      ],
+      "his": [
+        15,
+        69,
+        108,
+        116
+      ],
+      "\u2018subjects\u2019": [
+        16
+      ],
+      "were": [
+        17,
+        140,
+        178
+      ],
+      "Ainu": [
+        19
+      ],
+      "tribes": [
+        20
+      ],
+      "of": [
+        21,
+        28,
+        93,
+        96,
+        128,
+        167,
+        206
+      ],
+      "Hokkaido": [
+        22
+      ],
+      "and": [
+        23,
+        31,
+        47,
+        68,
+        84,
+        88,
+        118,
+        164,
+        200
+      ],
+      "\u2018war": [
+        24
+      ],
+      "children\u2019,": [
+        25
+      ],
+      "offspring": [
+        27
+      ],
+      "Japanese": [
+        29,
+        74,
+        85
+      ],
+      "women": [
+        30
+      ],
+      "US": [
+        32
+      ],
+      "servicemen.": [
+        33
+      ],
+      "is": [
+        35
+      ],
+      "largely": [
+        36
+      ],
+      "remembered": [
+        37
+      ],
+      "as": [
+        38
+      ],
+      "an": [
+        39
+      ],
+      "anachronistic": [
+        40
+      ],
+      "conservative": [
+        41
+      ],
+      "whose": [
+        42
+      ],
+      "opposition": [
+        43
+      ],
+      "to": [
+        44,
+        106,
+        185
+      ],
+      "interracial": [
+        45
+      ],
+      "marriage": [
+        46
+      ],
+      "belief": [
+        48
+      ],
+      "in": [
+        49,
+        133,
+        142,
+        174
+      ],
+      "race": [
+        50
+      ],
+      "theory": [
+        51
+      ],
+      "ostracized": [
+        52
+      ],
+      "him": [
+        53
+      ],
+      "from": [
+        54,
+        73
+      ],
+      "post-war": [
+        56
+      ],
+      "Anglo-American": [
+        57,
+        91
+      ],
+      "scientific": [
+        58,
+        123,
+        146,
+        158
+      ],
+      "mainstream.": [
+        59
+      ],
+      "The": [
+        60
+      ],
+      "article": [
+        61,
+        114
+      ],
+      "examines": [
+        62
+      ],
+      "positive": [
+        64
+      ],
+      "responses": [
+        65
+      ],
+      "that": [
+        66,
+        78,
+        137
+      ],
+      "paradoxically": [
+        71
+      ],
+      "received": [
+        72
+      ],
+      "scientists.": [
+        75
+      ],
+      "It": [
+        76,
+        135
+      ],
+      "argues": [
+        77,
+        136
+      ],
+      "methodological": [
+        80
+      ],
+      "overlap": [
+        81
+      ],
+      "between": [
+        82
+      ],
+      "anthropologists": [
+        86
+      ],
+      "complicates": [
+        87
+      ],
+      "decentres": [
+        89
+      ],
+      "dominant": [
+        90
+      ],
+      "understandings": [
+        92
+      ],
+      "decline": [
+        95
+      ],
+      "racial": [
+        97,
+        153,
+        172
+      ],
+      "thinking": [
+        98
+      ],
+      "after": [
+        99
+      ],
+      "1945.": [
+        100
+      ],
+      "bypassed": [
+        102
+      ],
+      "mainstream": [
+        103
+      ],
+      "academic": [
+        104
+      ],
+      "channels": [
+        105
+      ],
+      "get": [
+        107
+      ],
+      "published.": [
+        112
+      ],
+      "Brown\u2019s": [
+        113
+      ],
+      "explores": [
+        115
+      ],
+      "correspondence": [
+        117
+      ],
+      "collaboration": [
+        119
+      ],
+      "with": [
+        120,
+        180
+      ],
+      "Italian": [
+        122
+      ],
+      "racist": [
+        124,
+        159
+      ],
+      "Luigi": [
+        125
+      ],
+      "Gedda,": [
+        126
+      ],
+      "head": [
+        127
+      ],
+      "Gregorio": [
+        130
+      ],
+      "Mendel": [
+        131
+      ],
+      "Institute": [
+        132
+      ],
+      "Rome.": [
+        134
+      ],
+      "two": [
+        139
+      ],
+      "nodes": [
+        141
+      ],
+      "a": [
+        143,
+        165
+      ],
+      "wider": [
+        144
+      ],
+      "transnational": [
+        145
+      ],
+      "insurgency": [
+        147
+      ],
+      "against": [
+        148
+      ],
+      "UNESCO": [
+        150
+      ],
+      "statements": [
+        151
+      ],
+      "on": [
+        152,
+        197
+      ],
+      "equality": [
+        154
+      ],
+      "(1950).": [
+        155
+      ],
+      "Through": [
+        156
+      ],
+      "Mankind": [
+        160
+      ],
+      "Quarterly": [
+        161
+      ],
+      "journal,": [
+        162
+      ],
+      "cluster": [
+        166
+      ],
+      "other": [
+        168,
+        186
+      ],
+      "marginal": [
+        169
+      ],
+      "academics": [
+        170
+      ],
+      "constructed": [
+        171
+      ],
+      "hierarchies": [
+        173
+      ],
+      "which": [
+        175
+      ],
+      "\u2018East": [
+        176
+      ],
+      "Asians\u2019": [
+        177
+      ],
+      "attributed": [
+        179
+      ],
+      "supposedly": [
+        181
+      ],
+      "superior": [
+        182
+      ],
+      "characteristics": [
+        183
+      ],
+      "relative": [
+        184
+      ],
+      "racialized": [
+        187
+      ],
+      "groups,": [
+        188
+      ],
+      "setting": [
+        189
+      ],
+      "scene": [
+        191
+      ],
+      "for": [
+        192
+      ],
+      "psychologist": [
+        193
+      ],
+      "Richard": [
+        194
+      ],
+      "Lynn\u2019s": [
+        195
+      ],
+      "theses": [
+        196
+      ],
+      "\u2018Mongoloid\u2019": [
+        198
+      ],
+      "IQ,": [
+        199
+      ],
+      "controversial": [
+        202
+      ],
+      "\u2018bell": [
+        203
+      ],
+      "curve\u2019": [
+        204
+      ],
+      "debates": [
+        205
+      ],
+      "1990s.": [
+        208
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2025-11-28T21:57:10.069023",
+    "updated_date": "2026-09-22T06:50:58.402377",
     "created_date": "2025-11-28T00:00:00"
   },
   {

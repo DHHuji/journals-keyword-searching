@@ -21097,20 +21097,22 @@
     "doi": "https://doi.org/10.1177/13684302251319689",
     "title": "Examining the impact of learning about a resolved conflict on attitudes in an ongoing conflict: Evidence from the Israeli\u2013Palestinian context",
     "display_name": "Examining the impact of learning about a resolved conflict on attitudes in an ongoing conflict: Evidence from the Israeli\u2013Palestinian context",
-    "relevance_score": 10.940548,
+    "relevance_score": 28.094837,
     "publication_year": 2025,
     "publication_date": "2025-03-13",
     "ids": {
       "openalex": "https://openalex.org/W4408387505",
       "doi": "https://doi.org/10.1177/13684302251319689",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40785778"
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40785778",
+      "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/12334085"
     },
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/13684302251319689",
+      "doi": "https://doi.org/10.1177/13684302251319689",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/13684302251319689",
-      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/13684302251319689",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S81071032",
         "display_name": "Group Processes & Intergroup Relations",
@@ -21122,6 +21124,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -21140,6 +21155,7 @@
       "raw_source_name": "Group Processes &amp; Intergroup Relations",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -21148,7 +21164,7 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/13684302251319689",
+      "oa_url": "https://doi.org/10.1177/13684302251319689",
       "any_repository_has_fulltext": true
     },
     "authorships": [
@@ -21157,7 +21173,10 @@
         "author": {
           "id": "https://openalex.org/A5070357476",
           "display_name": "Deborah Shulman",
-          "orcid": "https://orcid.org/0000-0002-1347-7962"
+          "orcid": "https://orcid.org/0000-0002-1347-7962",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1347-7962"
+          ]
         },
         "institutions": [
           {
@@ -21194,10 +21213,26 @@
         "author": {
           "id": "https://openalex.org/A5059362054",
           "display_name": "Michal Reifen\u2010Tagar",
-          "orcid": "https://orcid.org/0000-0003-0960-9114"
+          "orcid": "https://orcid.org/0000-0003-0960-9114",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0960-9114"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138898306",
+            "display_name": "Reichman University",
+            "ror": "https://ror.org/01px5cv07",
+            "country_code": "IL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138898306"
+            ]
+          }
+        ],
+        "countries": [
+          "IL"
+        ],
         "is_corresponding": false,
         "raw_author_name": "Michal Reifen-Tagar",
         "raw_affiliation_strings": [
@@ -21207,16 +21242,19 @@
         "affiliations": [
           {
             "raw_affiliation_string": "Reichman University, Israel",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I138898306"
+            ]
           }
         ]
       },
       {
         "author_position": "middle",
         "author": {
-          "id": "https://openalex.org/A5111602762",
-          "display_name": "N. El Omri",
-          "orcid": null
+          "id": null,
+          "display_name": "Noa Omri",
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -21251,9 +21289,14 @@
       {
         "author_position": "last",
         "author": {
-          "id": "https://openalex.org/A5107999727",
+          "id": "https://openalex.org/A5042631896",
           "display_name": "Eran Halperin",
-          "orcid": "https://orcid.org/0000-0002-4454-9201"
+          "orcid": "https://orcid.org/0000-0002-3379-2935",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3379-2935",
+            "https://orcid.org/0000-0002-4454-9201",
+            "https://orcid.org/0000-0002-2373-3691"
+          ]
         },
         "institutions": [
           {
@@ -21288,24 +21331,35 @@
     ],
     "institutions": [],
     "countries_distinct_count": 2,
-    "institutions_distinct_count": 4,
+    "institutions_distinct_count": 3,
     "corresponding_author_ids": [
       "https://openalex.org/A5070357476"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I1118541"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
+    "apc_list": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "apc_paid": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "fwci": 1.7424,
     "has_fulltext": true,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.05657635,
+      "value": 0.83151951,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": "28",
       "issue": "6",
@@ -21318,7 +21372,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T10314",
       "display_name": "Social and Intergroup Psychology",
-      "score": 0.9994000196456909,
+      "score": 0.9970999956130981,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -21336,7 +21390,7 @@
       {
         "id": "https://openalex.org/T10314",
         "display_name": "Social and Intergroup Psychology",
-        "score": 0.9994000196456909,
+        "score": 0.9970999956130981,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -21351,16 +21405,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T11454",
-        "display_name": "Cultural Differences and Values",
-        "score": 0.9771999716758728,
+        "id": "https://openalex.org/T13620",
+        "display_name": "Education for Peace and Conflict Resolution",
+        "score": 0.0007999999797903001,
         "subfield": {
-          "id": "https://openalex.org/subfields/3207",
-          "display_name": "Social Psychology"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -21368,9 +21422,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T10994",
-        "display_name": "Terrorism, Counterterrorism, and Political Violence",
-        "score": 0.9696999788284302,
+        "id": "https://openalex.org/T11203",
+        "display_name": "Jewish and Middle Eastern Studies",
+        "score": 0.00039999998989515007,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -21388,73 +21442,43 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/conflict-resolution",
-        "display_name": "Conflict resolution",
-        "score": 0.7180200815200806
+        "display_name": "conflict resolution",
+        "score": 0.45500001311302185
       },
       {
-        "id": "https://openalex.org/keywords/context",
-        "display_name": "Context (archaeology)",
-        "score": 0.6360509395599365
+        "id": "https://openalex.org/keywords/intergroup-conflict",
+        "display_name": "intergroup conflict",
+        "score": 0.7789999842643738
       },
       {
-        "id": "https://openalex.org/keywords/social-psychology",
-        "display_name": "Social psychology",
-        "score": 0.6098148822784424
+        "id": "https://openalex.org/keywords/israeli-palestinian-conflict",
+        "display_name": "Israeli-Palestinian conflict",
+        "score": 0.7950000166893005
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.5968565940856934
+        "id": "https://openalex.org/keywords/the-troubles",
+        "display_name": "Northern Ireland conflict",
+        "score": 0.8510000109672546
       },
       {
-        "id": "https://openalex.org/keywords/tourism",
-        "display_name": "Tourism",
-        "score": 0.4471759498119354
+        "id": "https://openalex.org/keywords/peace-process",
+        "display_name": "peace process",
+        "score": 0.652999997138977
       },
       {
-        "id": "https://openalex.org/keywords/conflict-resolution-research",
-        "display_name": "Conflict resolution research",
-        "score": 0.44193124771118164
+        "id": "https://openalex.org/keywords/political-ideology",
+        "display_name": "political ideology",
+        "score": 0.5400000214576721
       },
       {
-        "id": "https://openalex.org/keywords/cultural-conflict",
-        "display_name": "Cultural conflict",
-        "score": 0.4210788905620575
+        "id": "https://openalex.org/keywords/conciliation",
+        "display_name": "conciliation",
+        "score": 0.6119999885559082
       },
       {
-        "id": "https://openalex.org/keywords/left-wing-politics",
-        "display_name": "Left-wing politics",
-        "score": 0.41292890906333923
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.2927194833755493
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.28201889991760254
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.17409491539001465
-      },
-      {
-        "id": "https://openalex.org/keywords/social-science",
-        "display_name": "Social science",
-        "score": 0.1276072859764099
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.11855950951576233
-      },
-      {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.0772530734539032
+        "id": "https://openalex.org/keywords/hope",
+        "display_name": "hope",
+        "score": 0.5600000023841858
       }
     ],
     "concepts": [
@@ -21569,9 +21593,10 @@
     "locations": [
       {
         "id": "doi:10.1177/13684302251319689",
+        "doi": "https://doi.org/10.1177/13684302251319689",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/13684302251319689",
-        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/13684302251319689",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S81071032",
           "display_name": "Group Processes & Intergroup Relations",
@@ -21583,6 +21608,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-b",
+            "cwts-core",
+            "dongbi-a",
+            "erih-plus",
+            "fnege-3",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -21602,7 +21640,39 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:pubmedcentral.nih.gov:12334085",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12334085",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Group Process Intergroup Relat",
+        "raw_type": "Text"
+      },
+      {
         "id": "pmid:40785778",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40785778",
         "pdf_url": null,
@@ -21614,6 +21684,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -21628,12 +21699,13 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "Group processes & intergroup relations : GPIR",
-        "raw_type": null
+        "raw_type": "Journal Article"
       },
       {
         "id": "pmh:oai:ueaeprints.uea.ac.uk:99138",
+        "doi": null,
         "is_oa": true,
-        "landing_page_url": null,
+        "landing_page_url": "https://ueaeprints.uea.ac.uk/id/eprint/99138/1/Shulman_etal_2025_GPIR.pdf",
         "pdf_url": "https://ueaeprints.uea.ac.uk/id/eprint/99138/1/Shulman_etal_2025_GPIR.pdf",
         "source": {
           "id": "https://openalex.org/S4306400384",
@@ -21643,6 +21715,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1118541",
           "host_organization_name": "University of East Anglia",
           "host_organization_lineage": [
@@ -21657,43 +21730,15 @@
         "is_accepted": true,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "PeerReviewed"
-      },
-      {
-        "id": "pmh:oai:pubmedcentral.nih.gov:12334085",
-        "is_oa": true,
-        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12334085",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S2764455111",
-          "display_name": "PubMed Central",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": true,
-          "is_in_doaj": false,
-          "is_core": false,
-          "host_organization": "https://openalex.org/I1299303238",
-          "host_organization_name": "National Institutes of Health",
-          "host_organization_lineage": [
-            "https://openalex.org/I1299303238"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": "cc-by",
-        "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": "Group Process Intergroup Relat",
-        "raw_type": "Text"
+        "raw_type": "Article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1177/13684302251319689",
+      "doi": "https://doi.org/10.1177/13684302251319689",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/13684302251319689",
-      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/13684302251319689",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S81071032",
         "display_name": "Group Processes & Intergroup Relations",
@@ -21705,6 +21750,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -21725,11 +21783,19 @@
     },
     "sustainable_development_goals": [
       {
-        "id": "https://metadata.un.org/sdg/8",
-        "display_name": "Decent work and economic growth",
-        "score": 0.4099999964237213
+        "score": 0.9595999717712402,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.4099999964237213,
+        "display_name": "Decent work and economic growth",
+        "id": "https://metadata.un.org/sdg/8"
+      }
+    ],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G2834171600",
@@ -21744,6 +21810,13 @@
         "funder_award_id": "864347",
         "funder_id": "https://openalex.org/F4320334678",
         "funder_display_name": "European Research Council"
+      },
+      {
+        "id": "https://openalex.org/G6878940199",
+        "display_name": "Personalized Interventions to Improve Intergroup Relations and Promote Peace",
+        "funder_award_id": "864347",
+        "funder_id": "https://openalex.org/F4320338335",
+        "funder_display_name": "H2020 European Research Council"
       }
     ],
     "funders": [
@@ -21756,16 +21829,19 @@
         "id": "https://openalex.org/F4320334678",
         "display_name": "European Research Council",
         "ror": "https://ror.org/0472cxd90"
+      },
+      {
+        "id": "https://openalex.org/F4320338335",
+        "display_name": "H2020 European Research Council",
+        "ror": "https://ror.org/0472cxd90"
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": true
+      "pdf": false,
+      "grobid_xml": false
     },
-    "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4408387505.pdf"
-    },
-    "referenced_works_count": 94,
+    "content_urls": null,
+    "referenced_works_count": 93,
     "referenced_works": [
       "https://openalex.org/W29053031",
       "https://openalex.org/W159416375",
@@ -21777,6 +21853,7 @@
       "https://openalex.org/W1965568540",
       "https://openalex.org/W1975217554",
       "https://openalex.org/W1977621325",
+      "https://openalex.org/W1993700418",
       "https://openalex.org/W1993766669",
       "https://openalex.org/W1994925058",
       "https://openalex.org/W2000007082",
@@ -21795,6 +21872,7 @@
       "https://openalex.org/W2072500831",
       "https://openalex.org/W2081070885",
       "https://openalex.org/W2081087834",
+      "https://openalex.org/W2088661631",
       "https://openalex.org/W2096229231",
       "https://openalex.org/W2098583280",
       "https://openalex.org/W2099697766",
@@ -21811,6 +21889,8 @@
       "https://openalex.org/W2213921538",
       "https://openalex.org/W2314146724",
       "https://openalex.org/W2328744732",
+      "https://openalex.org/W2342869116",
+      "https://openalex.org/W2417129720",
       "https://openalex.org/W2473346138",
       "https://openalex.org/W2482316024",
       "https://openalex.org/W2528234586",
@@ -21841,12 +21921,9 @@
       "https://openalex.org/W3160879747",
       "https://openalex.org/W4200541643",
       "https://openalex.org/W4236182082",
-      "https://openalex.org/W4236779383",
       "https://openalex.org/W4240276702",
-      "https://openalex.org/W4242267158",
       "https://openalex.org/W4242317606",
       "https://openalex.org/W4243420394",
-      "https://openalex.org/W4250487835",
       "https://openalex.org/W4282959508",
       "https://openalex.org/W4283311776",
       "https://openalex.org/W4287831418",
@@ -21858,21 +21935,19 @@
       "https://openalex.org/W4391957353",
       "https://openalex.org/W4401926053",
       "https://openalex.org/W4403003338",
-      "https://openalex.org/W4403140125",
-      "https://openalex.org/W6704741292",
-      "https://openalex.org/W6716493115"
+      "https://openalex.org/W4403140125"
     ],
     "related_works": [
-      "https://openalex.org/W605434451",
-      "https://openalex.org/W2754770574",
-      "https://openalex.org/W3135390833",
-      "https://openalex.org/W2603100771",
-      "https://openalex.org/W3153366358",
-      "https://openalex.org/W3133644419",
-      "https://openalex.org/W2184120981",
-      "https://openalex.org/W2005554238",
-      "https://openalex.org/W2484360798",
-      "https://openalex.org/W2609723170"
+      "https://openalex.org/W4291674529",
+      "https://openalex.org/W7112134293",
+      "https://openalex.org/W6921374871",
+      "https://openalex.org/W6962688349",
+      "https://openalex.org/W2271787674",
+      "https://openalex.org/W1523135116",
+      "https://openalex.org/W2783997909",
+      "https://openalex.org/W4253924511",
+      "https://openalex.org/W7098437385",
+      "https://openalex.org/W1787789038"
     ],
     "abstract_inverted_index": {
       "A": [
@@ -22229,9 +22304,14 @@
         148
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2025-12-21T23:12:01.093139",
-    "created_date": "2025-10-10T00:00:00"
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2025-03-13T00:00:00"
   },
   {
     "id": "https://openalex.org/W2604427633",
@@ -27762,7 +27842,7 @@
     "doi": "https://doi.org/10.1177/13684302241312677",
     "title": "Powerful victims: A dynamic approach to competitive victimhood between high- and low-power groups",
     "display_name": "Powerful victims: A dynamic approach to competitive victimhood between high- and low-power groups",
-    "relevance_score": 6.4022355,
+    "relevance_score": 3.1568606,
     "publication_year": 2025,
     "publication_date": "2025-02-02",
     "ids": {
@@ -27772,9 +27852,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/13684302241312677",
+      "doi": "https://doi.org/10.1177/13684302241312677",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/13684302241312677",
-      "pdf_url": null,
+      "pdf_url": "https://journals.sagepub.com/history/0352a162-f3ce-4af5-921e-96a98a731bdc/13684302241312677.17935946.pdf",
       "source": {
         "id": "https://openalex.org/S81071032",
         "display_name": "Group Processes & Intergroup Relations",
@@ -27786,6 +27867,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -27804,6 +27898,7 @@
       "raw_source_name": "Group Processes &amp; Intergroup Relations",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -27811,7 +27906,7 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1177/13684302241312677",
+      "oa_url": "https://journals.sagepub.com/history/0352a162-f3ce-4af5-921e-96a98a731bdc/13684302241312677.17935946.pdf",
       "any_repository_has_fulltext": false
     },
     "authorships": [
@@ -27820,7 +27915,10 @@
         "author": {
           "id": "https://openalex.org/A5116137883",
           "display_name": "Leah Bloy",
-          "orcid": "https://orcid.org/0000-0002-2645-716X"
+          "orcid": "https://orcid.org/0000-0002-2645-716X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2645-716X"
+          ]
         },
         "institutions": [
           {
@@ -27857,7 +27955,12 @@
         "author": {
           "id": "https://openalex.org/A5042631896",
           "display_name": "Eran Halperin",
-          "orcid": "https://orcid.org/0000-0002-3379-2935"
+          "orcid": "https://orcid.org/0000-0002-3379-2935",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3379-2935",
+            "https://orcid.org/0000-0002-4454-9201",
+            "https://orcid.org/0000-0002-2373-3691"
+          ]
         },
         "institutions": [
           {
@@ -27894,7 +27997,10 @@
         "author": {
           "id": "https://openalex.org/A5048123996",
           "display_name": "Nimrod Nir",
-          "orcid": "https://orcid.org/0000-0002-7313-6836"
+          "orcid": "https://orcid.org/0000-0002-7313-6836",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7313-6836"
+          ]
         },
         "institutions": [
           {
@@ -27931,7 +28037,10 @@
         "author": {
           "id": "https://openalex.org/A5006110904",
           "display_name": "Nechumi Malovicki-Yaffe",
-          "orcid": "https://orcid.org/0000-0003-3423-5302"
+          "orcid": "https://orcid.org/0000-0003-3423-5302",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3423-5302"
+          ]
         },
         "institutions": [
           {
@@ -27966,26 +28075,34 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 4,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
       "https://openalex.org/A5006110904"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I16391192"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 14.8926,
-    "has_fulltext": false,
-    "cited_by_count": 4,
+    "apc_list": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "apc_paid": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "fwci": 19.4163,
+    "has_fulltext": true,
+    "cited_by_count": 11,
     "citation_normalized_percentile": {
-      "value": 0.98308177,
-      "is_in_top_1_percent": false,
+      "value": 0.99177971,
+      "is_in_top_1_percent": true,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 97,
-      "max": 98
+      "min": 98,
+      "max": 99
     },
     "biblio": {
       "volume": "28",
@@ -27997,9 +28114,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10994",
-      "display_name": "Terrorism, Counterterrorism, and Political Violence",
-      "score": 0.9969000220298767,
+      "id": "https://openalex.org/T10314",
+      "display_name": "Social and Intergroup Psychology",
+      "score": 0.9945999979972839,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -28015,26 +28132,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10994",
-        "display_name": "Terrorism, Counterterrorism, and Political Violence",
-        "score": 0.9969000220298767,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T10314",
         "display_name": "Social and Intergroup Psychology",
-        "score": 0.9830999970436096,
+        "score": 0.9945999979972839,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -28049,9 +28149,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T10070",
-        "display_name": "Political Conflict and Governance",
-        "score": 0.9819999933242798,
+        "id": "https://openalex.org/T12892",
+        "display_name": "Social Power and Status Dynamics",
+        "score": 0.002199999988079071,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -28059,6 +28159,23 @@
         "field": {
           "id": "https://openalex.org/fields/33",
           "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12521",
+        "display_name": "Death Anxiety and Social Exclusion",
+        "score": 0.00139999995008111,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -28068,19 +28185,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.7077233791351318
+        "id": "https://openalex.org/keywords/competitive-victimhood",
+        "display_name": "competitive victimhood",
+        "score": 1.0
       },
       {
-        "id": "https://openalex.org/keywords/power",
-        "display_name": "Power (physics)",
-        "score": 0.5848054885864258
+        "id": "https://openalex.org/keywords/group-power",
+        "display_name": "group power",
+        "score": 0.7269999980926514
       },
       {
-        "id": "https://openalex.org/keywords/social-psychology",
-        "display_name": "Social psychology",
-        "score": 0.5642638206481934
+        "id": "https://openalex.org/keywords/intergroup-threat",
+        "display_name": "intergroup threat",
+        "score": 0.8090000152587891
+      },
+      {
+        "id": "https://openalex.org/keywords/covid-19",
+        "display_name": "COVID-19 pandemic",
+        "score": 0.7310000061988831
+      },
+      {
+        "id": "https://openalex.org/keywords/ultra-orthodox-jews",
+        "display_name": "ultra-Orthodox Jews",
+        "score": 0.824999988079071
+      },
+      {
+        "id": "https://openalex.org/keywords/secular-jews",
+        "display_name": "secular Jews",
+        "score": 0.7620000243186951
+      },
+      {
+        "id": "https://openalex.org/keywords/intergroup-attitudes",
+        "display_name": "intergroup attitudes",
+        "score": 0.5640000104904175
+      },
+      {
+        "id": "https://openalex.org/keywords/discrimination",
+        "display_name": "discrimination",
+        "score": 0.8610000014305115
+      },
+      {
+        "id": "https://openalex.org/keywords/hostility",
+        "display_name": "hostility",
+        "score": 0.6959999799728394
       }
     ],
     "concepts": [
@@ -28125,9 +28272,10 @@
     "locations": [
       {
         "id": "doi:10.1177/13684302241312677",
+        "doi": "https://doi.org/10.1177/13684302241312677",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/13684302241312677",
-        "pdf_url": null,
+        "pdf_url": "https://journals.sagepub.com/history/0352a162-f3ce-4af5-921e-96a98a731bdc/13684302241312677.17935946.pdf",
         "source": {
           "id": "https://openalex.org/S81071032",
           "display_name": "Group Processes & Intergroup Relations",
@@ -28139,6 +28287,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-b",
+            "cwts-core",
+            "dongbi-a",
+            "erih-plus",
+            "fnege-3",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -28160,9 +28321,10 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1177/13684302241312677",
+      "doi": "https://doi.org/10.1177/13684302241312677",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/13684302241312677",
-      "pdf_url": null,
+      "pdf_url": "https://journals.sagepub.com/history/0352a162-f3ce-4af5-921e-96a98a731bdc/13684302241312677.17935946.pdf",
       "source": {
         "id": "https://openalex.org/S81071032",
         "display_name": "Group Processes & Intergroup Relations",
@@ -28174,6 +28336,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -28192,14 +28367,35 @@
       "raw_source_name": "Group Processes &amp; Intergroup Relations",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.8999999761581421,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      },
+      {
+        "score": 0.504800021648407,
+        "display_name": "Good health and well-being",
+        "id": "https://metadata.un.org/sdg/3"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "display_name": "Observational Study",
+        "id": "https://openalex.org/study-designs/observational-study"
+      }
+    ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": true,
+      "grobid_xml": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4407112900.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4407112900.grobid-xml"
+    },
     "referenced_works_count": 63,
     "referenced_works": [
       "https://openalex.org/W574862180",
@@ -28218,6 +28414,7 @@
       "https://openalex.org/W2063245982",
       "https://openalex.org/W2073164347",
       "https://openalex.org/W2086450916",
+      "https://openalex.org/W2098486530",
       "https://openalex.org/W2116720724",
       "https://openalex.org/W2137902394",
       "https://openalex.org/W2142463672",
@@ -28248,7 +28445,6 @@
       "https://openalex.org/W3085241744",
       "https://openalex.org/W3086097992",
       "https://openalex.org/W3092789731",
-      "https://openalex.org/W3122383732",
       "https://openalex.org/W3130081012",
       "https://openalex.org/W3132388983",
       "https://openalex.org/W3135857781",
@@ -28707,11 +28903,15 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 6
+      },
+      {
         "year": 2025,
-        "cited_by_count": 4
+        "cited_by_count": 5
       }
     ],
-    "updated_date": "2026-03-27T05:58:40.876381",
+    "updated_date": "2026-10-20T09:52:01.089006",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -28719,7 +28919,7 @@
     "doi": "https://doi.org/10.1177/13684302251320358",
     "title": "The underpinnings of gendered parenting: The role of social dominance orientation, gender essentialism, and gender ideology",
     "display_name": "The underpinnings of gendered parenting: The role of social dominance orientation, gender essentialism, and gender ideology",
-    "relevance_score": 5.036216,
+    "relevance_score": 2.4877539,
     "publication_year": 2025,
     "publication_date": "2025-03-26",
     "ids": {
@@ -28729,6 +28929,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/13684302251320358",
+      "doi": "https://doi.org/10.1177/13684302251320358",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/13684302251320358",
       "pdf_url": null,
@@ -28743,6 +28944,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -28761,6 +28975,7 @@
       "raw_source_name": "Group Processes &amp; Intergroup Relations",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -28777,10 +28992,26 @@
         "author": {
           "id": "https://openalex.org/A5116803205",
           "display_name": "Noya Kislev",
-          "orcid": "https://orcid.org/0009-0007-5158-9985"
+          "orcid": "https://orcid.org/0009-0007-5158-9985",
+          "observed_orcids": [
+            "https://orcid.org/0009-0007-5158-9985"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138898306",
+            "display_name": "Reichman University",
+            "ror": "https://ror.org/01px5cv07",
+            "country_code": "IL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138898306"
+            ]
+          }
+        ],
+        "countries": [
+          "IL"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Noya Kislev",
         "raw_affiliation_strings": [
@@ -28790,7 +29021,9 @@
         "affiliations": [
           {
             "raw_affiliation_string": "Reichman University, Israel",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I138898306"
+            ]
           }
         ]
       },
@@ -28799,10 +29032,26 @@
         "author": {
           "id": "https://openalex.org/A5059362054",
           "display_name": "Michal Reifen\u2010Tagar",
-          "orcid": "https://orcid.org/0000-0003-0960-9114"
+          "orcid": "https://orcid.org/0000-0003-0960-9114",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0960-9114"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138898306",
+            "display_name": "Reichman University",
+            "ror": "https://ror.org/01px5cv07",
+            "country_code": "IL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138898306"
+            ]
+          }
+        ],
+        "countries": [
+          "IL"
+        ],
         "is_corresponding": false,
         "raw_author_name": "Michal Reifen-Tagar",
         "raw_affiliation_strings": [
@@ -28812,7 +29061,9 @@
         "affiliations": [
           {
             "raw_affiliation_string": "Reichman University, Israel",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I138898306"
+            ]
           }
         ]
       },
@@ -28821,7 +29072,10 @@
         "author": {
           "id": "https://openalex.org/A5002516027",
           "display_name": "Daphna Joel",
-          "orcid": "https://orcid.org/0000-0002-2003-4190"
+          "orcid": "https://orcid.org/0000-0002-2003-4190",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2003-4190"
+          ]
         },
         "institutions": [
           {
@@ -28858,10 +29112,26 @@
         "author": {
           "id": "https://openalex.org/A5076627572",
           "display_name": "Tamar Saguy",
-          "orcid": "https://orcid.org/0000-0002-0989-0615"
+          "orcid": "https://orcid.org/0000-0002-0989-0615",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0989-0615"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138898306",
+            "display_name": "Reichman University",
+            "ror": "https://ror.org/01px5cv07",
+            "country_code": "IL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138898306"
+            ]
+          }
+        ],
+        "countries": [
+          "IL"
+        ],
         "is_corresponding": false,
         "raw_author_name": "Tamar Saguy",
         "raw_affiliation_strings": [
@@ -28871,31 +29141,39 @@
         "affiliations": [
           {
             "raw_affiliation_string": "Reichman University, Israel",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I138898306"
+            ]
           }
         ]
       }
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 4,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
       "https://openalex.org/A5116803205"
     ],
-    "corresponding_institution_ids": [],
-    "apc_list": null,
+    "corresponding_institution_ids": [
+      "https://openalex.org/I138898306"
+    ],
+    "apc_list": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
     "apc_paid": null,
-    "fwci": 12.9366,
+    "fwci": 9.2692,
     "has_fulltext": false,
-    "cited_by_count": 4,
+    "cited_by_count": 5,
     "citation_normalized_percentile": {
-      "value": 0.98375508,
+      "value": 0.97530481,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
       "min": 96,
-      "max": 98
+      "max": 97
     },
     "biblio": {
       "volume": "28",
@@ -28909,7 +29187,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11888",
       "display_name": "Gender Roles and Identity Studies",
-      "score": 0.9987000226974487,
+      "score": 0.5121999979019165,
       "subfield": {
         "id": "https://openalex.org/subfields/3318",
         "display_name": "Gender Studies"
@@ -28927,7 +29205,7 @@
       {
         "id": "https://openalex.org/T11888",
         "display_name": "Gender Roles and Identity Studies",
-        "score": 0.9987000226974487,
+        "score": 0.5121999979019165,
         "subfield": {
           "id": "https://openalex.org/subfields/3318",
           "display_name": "Gender Studies"
@@ -28942,12 +29220,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T10589",
-        "display_name": "Early Childhood Education and Development",
-        "score": 0.9950000047683716,
+        "id": "https://openalex.org/T10314",
+        "display_name": "Social and Intergroup Psychology",
+        "score": 0.2904999852180481,
         "subfield": {
-          "id": "https://openalex.org/subfields/3304",
-          "display_name": "Education"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -28959,12 +29237,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T10314",
-        "display_name": "Social and Intergroup Psychology",
-        "score": 0.9842000007629395,
+        "id": "https://openalex.org/T12275",
+        "display_name": "Gender and Feminist Studies",
+        "score": 0.08829999715089798,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -28978,64 +29256,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/essentialism",
-        "display_name": "Essentialism",
-        "score": 0.897314190864563
-      },
-      {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.7782509326934814
-      },
-      {
-        "id": "https://openalex.org/keywords/ideology",
-        "display_name": "Ideology",
-        "score": 0.7588133811950684
-      },
-      {
-        "id": "https://openalex.org/keywords/developmental-psychology",
-        "display_name": "Developmental psychology",
-        "score": 0.6293097734451294
-      },
-      {
-        "id": "https://openalex.org/keywords/dominance",
-        "display_name": "Dominance (genetics)",
-        "score": 0.6226117014884949
-      },
-      {
-        "id": "https://openalex.org/keywords/gender-psychology",
-        "display_name": "Gender psychology",
-        "score": 0.5790654420852661
-      },
-      {
-        "id": "https://openalex.org/keywords/social-psychology",
-        "display_name": "Social psychology",
-        "score": 0.5702577233314514
+        "id": "https://openalex.org/keywords/gendered-parenting",
+        "display_name": "gendered parenting",
+        "score": 1.0
       },
       {
         "id": "https://openalex.org/keywords/social-dominance-orientation",
-        "display_name": "Social dominance orientation",
-        "score": 0.553320050239563
+        "display_name": "social dominance orientation",
+        "score": 0.9599999785423279
       },
       {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.3990743160247803
+        "id": "https://openalex.org/keywords/gender-essentialism",
+        "display_name": "gender essentialism",
+        "score": 1.0
       },
       {
-        "id": "https://openalex.org/keywords/gender-identity",
-        "display_name": "Gender identity",
-        "score": 0.267397940158844
+        "id": "https://openalex.org/keywords/gender-ideology",
+        "display_name": "gender ideology",
+        "score": 0.9860000014305115
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.22066980600357056
+        "id": "https://openalex.org/keywords/gender-stereotypes",
+        "display_name": "gender stereotypes",
+        "score": 0.8510000109672546
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.10667470097541809
+        "id": "https://openalex.org/keywords/social-hierarchy",
+        "display_name": "social hierarchy",
+        "score": 0.7609999775886536
+      },
+      {
+        "id": "https://openalex.org/keywords/parental-beliefs",
+        "display_name": "parental beliefs",
+        "score": 0.35600000619888306
+      },
+      {
+        "id": "https://openalex.org/keywords/preschool-children",
+        "display_name": "preschool children",
+        "score": 0.6129999756813049
+      },
+      {
+        "id": "https://openalex.org/keywords/gender-egalitarianism",
+        "display_name": "gender egalitarianism",
+        "score": 0.4729999899864197
       }
     ],
     "concepts": [
@@ -29178,6 +29441,7 @@
     "locations": [
       {
         "id": "doi:10.1177/13684302251320358",
+        "doi": "https://doi.org/10.1177/13684302251320358",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/13684302251320358",
         "pdf_url": null,
@@ -29192,6 +29456,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-b",
+            "cwts-core",
+            "dongbi-a",
+            "erih-plus",
+            "fnege-3",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -29214,19 +29491,37 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "id": "https://metadata.un.org/sdg/5",
+        "score": 0.7578999996185303,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      },
+      {
+        "score": 0.7307999730110168,
         "display_name": "Gender equality",
-        "score": 0.5099999904632568
+        "id": "https://metadata.un.org/sdg/5"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.5099999904632568,
+        "display_name": "Gender equality",
+        "id": "https://metadata.un.org/sdg/5"
+      }
+    ],
+    "study_designs": [
+      {
+        "display_name": "Observational Study",
+        "id": "https://openalex.org/study-designs/observational-study"
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
-    "referenced_works_count": 111,
+    "referenced_works_count": 108,
     "referenced_works": [
       "https://openalex.org/W601479585",
       "https://openalex.org/W1610612296",
@@ -29236,6 +29531,7 @@
       "https://openalex.org/W1966070386",
       "https://openalex.org/W1970207483",
       "https://openalex.org/W1971347583",
+      "https://openalex.org/W1982747789",
       "https://openalex.org/W1993450186",
       "https://openalex.org/W1996112476",
       "https://openalex.org/W2007713087",
@@ -29243,6 +29539,7 @@
       "https://openalex.org/W2020771830",
       "https://openalex.org/W2021210910",
       "https://openalex.org/W2027692142",
+      "https://openalex.org/W2029643882",
       "https://openalex.org/W2030858856",
       "https://openalex.org/W2032228855",
       "https://openalex.org/W2041994231",
@@ -29252,8 +29549,10 @@
       "https://openalex.org/W2055078283",
       "https://openalex.org/W2055879489",
       "https://openalex.org/W2057335317",
+      "https://openalex.org/W2058656653",
       "https://openalex.org/W2060779518",
       "https://openalex.org/W2063116254",
+      "https://openalex.org/W2068860288",
       "https://openalex.org/W2073384728",
       "https://openalex.org/W2077528056",
       "https://openalex.org/W2077797583",
@@ -29264,17 +29563,21 @@
       "https://openalex.org/W2092086918",
       "https://openalex.org/W2095970386",
       "https://openalex.org/W2103375828",
+      "https://openalex.org/W2106871020",
       "https://openalex.org/W2110698467",
       "https://openalex.org/W2110871451",
       "https://openalex.org/W2124109620",
       "https://openalex.org/W2125910526",
       "https://openalex.org/W2128106636",
+      "https://openalex.org/W2133189557",
       "https://openalex.org/W2134013145",
       "https://openalex.org/W2136275341",
       "https://openalex.org/W2152002244",
       "https://openalex.org/W2152618569",
       "https://openalex.org/W2154372402",
       "https://openalex.org/W2156234742",
+      "https://openalex.org/W2161345470",
+      "https://openalex.org/W2162831287",
       "https://openalex.org/W2167855604",
       "https://openalex.org/W2169627183",
       "https://openalex.org/W2171137184",
@@ -29289,12 +29592,12 @@
       "https://openalex.org/W2474488683",
       "https://openalex.org/W2491723121",
       "https://openalex.org/W2507253894",
+      "https://openalex.org/W2564003181",
       "https://openalex.org/W2567543019",
       "https://openalex.org/W2606540748",
       "https://openalex.org/W2617261898",
       "https://openalex.org/W2736995548",
       "https://openalex.org/W2751400041",
-      "https://openalex.org/W2755722584",
       "https://openalex.org/W2783146194",
       "https://openalex.org/W2792939651",
       "https://openalex.org/W2797805027",
@@ -29320,24 +29623,13 @@
       "https://openalex.org/W3157308553",
       "https://openalex.org/W3179569068",
       "https://openalex.org/W4205293688",
-      "https://openalex.org/W4234466645",
       "https://openalex.org/W4236699471",
-      "https://openalex.org/W4244595415",
       "https://openalex.org/W4245025362",
-      "https://openalex.org/W4246082566",
-      "https://openalex.org/W4248455358",
-      "https://openalex.org/W4249026927",
-      "https://openalex.org/W4251753167",
-      "https://openalex.org/W4251938073",
-      "https://openalex.org/W4255495268",
       "https://openalex.org/W4299946577",
       "https://openalex.org/W4315490716",
       "https://openalex.org/W4378651727",
       "https://openalex.org/W4387843497",
       "https://openalex.org/W4407391671",
-      "https://openalex.org/W6636325157",
-      "https://openalex.org/W6723228388",
-      "https://openalex.org/W6754114851",
       "https://openalex.org/W6830575575"
     ],
     "related_works": [
@@ -29720,14 +30012,14 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 1
+        "cited_by_count": 2
       },
       {
         "year": 2025,
         "cited_by_count": 3
       }
     ],
-    "updated_date": "2026-05-10T08:33:47.465468",
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -31024,7 +31316,7 @@
     "doi": "https://doi.org/10.1177/13684302251324892",
     "title": "Virtual regulation: Can immersive virtual reality be used to assist intergroup interventions? The moderating effect of political ideology",
     "display_name": "Virtual regulation: Can immersive virtual reality be used to assist intergroup interventions? The moderating effect of political ideology",
-    "relevance_score": 3.7296293,
+    "relevance_score": 2.204098,
     "publication_year": 2025,
     "publication_date": "2025-04-12",
     "ids": {
@@ -31034,6 +31326,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/13684302251324892",
+      "doi": "https://doi.org/10.1177/13684302251324892",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/13684302251324892",
       "pdf_url": null,
@@ -31048,6 +31341,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -31066,6 +31372,7 @@
       "raw_source_name": "Group Processes &amp; Intergroup Relations",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -31074,7 +31381,7 @@
       "is_oa": true,
       "oa_status": "hybrid",
       "oa_url": "https://doi.org/10.1177/13684302251324892",
-      "any_repository_has_fulltext": false
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -31082,7 +31389,10 @@
         "author": {
           "id": "https://openalex.org/A5001948534",
           "display_name": "Eli Adler",
-          "orcid": "https://orcid.org/0000-0002-9005-5536"
+          "orcid": "https://orcid.org/0000-0002-9005-5536",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9005-5536"
+          ]
         },
         "institutions": [
           {
@@ -31144,17 +31454,20 @@
         "author": {
           "id": "https://openalex.org/A5000307946",
           "display_name": "B\u00e9atrice S. Hasler",
-          "orcid": "https://orcid.org/0000-0002-3251-4677"
+          "orcid": "https://orcid.org/0000-0002-3251-4677",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3251-4677"
+          ]
         },
         "institutions": [
           {
-            "id": "https://openalex.org/I4210093787",
-            "display_name": "Herzliya Medical Center",
-            "ror": "https://ror.org/00m6hsp80",
+            "id": "https://openalex.org/I138898306",
+            "display_name": "Reichman University",
+            "ror": "https://ror.org/01px5cv07",
             "country_code": "IL",
-            "type": "healthcare",
+            "type": "education",
             "lineage": [
-              "https://openalex.org/I4210093787"
+              "https://openalex.org/I138898306"
             ]
           }
         ],
@@ -31171,7 +31484,7 @@
           {
             "raw_affiliation_string": "Reichman University, Herzliya, Israel",
             "institution_ids": [
-              "https://openalex.org/I4210093787"
+              "https://openalex.org/I138898306"
             ]
           }
         ]
@@ -31181,7 +31494,10 @@
         "author": {
           "id": "https://openalex.org/A5001756452",
           "display_name": "Yossi Hasson",
-          "orcid": "https://orcid.org/0000-0003-4127-0034"
+          "orcid": "https://orcid.org/0000-0003-4127-0034",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4127-0034"
+          ]
         },
         "institutions": [
           {
@@ -31218,17 +31534,18 @@
         "author": {
           "id": "https://openalex.org/A5012013602",
           "display_name": "Daniel H. Landau",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
-            "id": "https://openalex.org/I4210093787",
-            "display_name": "Herzliya Medical Center",
-            "ror": "https://ror.org/00m6hsp80",
+            "id": "https://openalex.org/I138898306",
+            "display_name": "Reichman University",
+            "ror": "https://ror.org/01px5cv07",
             "country_code": "IL",
-            "type": "healthcare",
+            "type": "education",
             "lineage": [
-              "https://openalex.org/I4210093787"
+              "https://openalex.org/I138898306"
             ]
           }
         ],
@@ -31245,7 +31562,7 @@
           {
             "raw_affiliation_string": "Reichman University, Herzliya, Israel",
             "institution_ids": [
-              "https://openalex.org/I4210093787"
+              "https://openalex.org/I138898306"
             ]
           }
         ]
@@ -31255,7 +31572,10 @@
         "author": {
           "id": "https://openalex.org/A5049438206",
           "display_name": "Guy Baratz",
-          "orcid": "https://orcid.org/0000-0002-4622-5921"
+          "orcid": "https://orcid.org/0000-0002-4622-5921",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4622-5921"
+          ]
         },
         "institutions": [
           {
@@ -31292,7 +31612,12 @@
         "author": {
           "id": "https://openalex.org/A5042631896",
           "display_name": "Eran Halperin",
-          "orcid": "https://orcid.org/0000-0002-3379-2935"
+          "orcid": "https://orcid.org/0000-0002-3379-2935",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3379-2935",
+            "https://orcid.org/0000-0002-4454-9201",
+            "https://orcid.org/0000-0002-2373-3691"
+          ]
         },
         "institutions": [
           {
@@ -31329,7 +31654,10 @@
         "author": {
           "id": "https://openalex.org/A5102002137",
           "display_name": "Jonathan L\u00e9vy",
-          "orcid": "https://orcid.org/0000-0003-1007-2393"
+          "orcid": "https://orcid.org/0000-0003-1007-2393",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1007-2393"
+          ]
         },
         "institutions": [
           {
@@ -31364,7 +31692,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 2,
-    "institutions_distinct_count": 7,
+    "institutions_distinct_count": 5,
     "corresponding_author_ids": [
       "https://openalex.org/A5001948534"
     ],
@@ -31372,19 +31700,27 @@
       "https://openalex.org/I197251160",
       "https://openalex.org/I9927081"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 6.9808,
+    "apc_list": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "apc_paid": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "fwci": 5.3884,
     "has_fulltext": false,
-    "cited_by_count": 2,
+    "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.95564951,
+      "value": 0.94465077,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 98,
-      "max": 99
+      "min": 97,
+      "max": 98
     },
     "biblio": {
       "volume": "28",
@@ -31398,7 +31734,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T10314",
       "display_name": "Social and Intergroup Psychology",
-      "score": 0.9397000074386597,
+      "score": 0.9731000065803528,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -31416,7 +31752,7 @@
       {
         "id": "https://openalex.org/T10314",
         "display_name": "Social and Intergroup Psychology",
-        "score": 0.9397000074386597,
+        "score": 0.9731000065803528,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -31433,7 +31769,7 @@
       {
         "id": "https://openalex.org/T10648",
         "display_name": "Virtual Reality Applications and Impacts",
-        "score": 0.9391000270843506,
+        "score": 0.023399999365210533,
         "subfield": {
           "id": "https://openalex.org/subfields/1709",
           "display_name": "Human-Computer Interaction"
@@ -31446,53 +31782,60 @@
           "id": "https://openalex.org/domains/3",
           "display_name": "Physical Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T11696",
+        "display_name": "Conflict Management and Negotiation",
+        "score": 0.00019999999494757503,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/ideology",
-        "display_name": "Ideology",
-        "score": 0.7083321809768677
+        "id": "https://openalex.org/keywords/immersive-virtual-reality",
+        "display_name": "immersive virtual reality",
+        "score": 0.9549999833106995
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.7051620483398438
+        "id": "https://openalex.org/keywords/intergroup-conflict",
+        "display_name": "intergroup conflict",
+        "score": 0.9359999895095825
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.6747658252716064
+        "id": "https://openalex.org/keywords/political-ideology",
+        "display_name": "political ideology",
+        "score": 0.6079999804496765
       },
       {
-        "id": "https://openalex.org/keywords/psychological-intervention",
-        "display_name": "Psychological intervention",
-        "score": 0.652428925037384
+        "id": "https://openalex.org/keywords/empathy",
+        "display_name": "empathy",
+        "score": 0.6959999799728394
       },
       {
-        "id": "https://openalex.org/keywords/virtual-reality",
-        "display_name": "Virtual reality",
-        "score": 0.6206981539726257
+        "id": "https://openalex.org/keywords/cognitive-reappraisal",
+        "display_name": "cognitive reappraisal",
+        "score": 0.8930000066757202
       },
       {
-        "id": "https://openalex.org/keywords/social-psychology",
-        "display_name": "Social psychology",
-        "score": 0.5877249836921692
+        "id": "https://openalex.org/keywords/perspective-taking",
+        "display_name": "perspective taking",
+        "score": 0.9700000286102295
       },
       {
-        "id": "https://openalex.org/keywords/human\u2013computer-interaction",
-        "display_name": "Human\u2013computer interaction",
-        "score": 0.20679420232772827
-      },
-      {
-        "id": "https://openalex.org/keywords/computer-science",
-        "display_name": "Computer science",
-        "score": 0.138889878988266
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.13100627064704895
+        "id": "https://openalex.org/keywords/emotion-regulation",
+        "display_name": "emotion regulation",
+        "score": 0.7429999709129333
       }
     ],
     "concepts": [
@@ -31575,10 +31918,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 2,
     "locations": [
       {
         "id": "doi:10.1177/13684302251324892",
+        "doi": "https://doi.org/10.1177/13684302251324892",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/13684302251324892",
         "pdf_url": null,
@@ -31593,6 +31937,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-b",
+            "cwts-core",
+            "dongbi-a",
+            "erih-plus",
+            "fnege-3",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -31610,10 +31967,42 @@
         "is_published": true,
         "raw_source_name": "Group Processes &amp; Intergroup Relations",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:aaltodoc.aalto.fi:123456789/139946",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1177/13684302251324892",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401662",
+          "display_name": "Aaltodoc (Aalto University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I9927081",
+          "host_organization_name": "Aalto University",
+          "host_organization_lineage": [
+            "https://openalex.org/I9927081"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1177/13684302251324892",
+      "doi": "https://doi.org/10.1177/13684302251324892",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/13684302251324892",
       "pdf_url": null,
@@ -31628,6 +32017,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -31646,7 +32048,15 @@
       "raw_source_name": "Group Processes &amp; Intergroup Relations",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.5473999977111816,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -31656,8 +32066,8 @@
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 78,
@@ -31667,7 +32077,6 @@
       "https://openalex.org/W1497798198",
       "https://openalex.org/W1519848460",
       "https://openalex.org/W1531661480",
-      "https://openalex.org/W1975338042",
       "https://openalex.org/W1977215847",
       "https://openalex.org/W1991384496",
       "https://openalex.org/W1996077504",
@@ -31709,6 +32118,7 @@
       "https://openalex.org/W2883021663",
       "https://openalex.org/W2895722044",
       "https://openalex.org/W2895844696",
+      "https://openalex.org/W2910116249",
       "https://openalex.org/W2916538243",
       "https://openalex.org/W2953820563",
       "https://openalex.org/W2972336590",
@@ -31724,11 +32134,11 @@
       "https://openalex.org/W3084826248",
       "https://openalex.org/W3085414015",
       "https://openalex.org/W3113397980",
-      "https://openalex.org/W3125339607",
       "https://openalex.org/W3160544682",
       "https://openalex.org/W3175125592",
       "https://openalex.org/W3217309393",
       "https://openalex.org/W4213102988",
+      "https://openalex.org/W4230172633",
       "https://openalex.org/W4248126616",
       "https://openalex.org/W4285495310",
       "https://openalex.org/W4291327394",
@@ -32212,10 +32622,10 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 2
+        "cited_by_count": 3
       }
     ],
-    "updated_date": "2026-05-12T08:28:47.272897",
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -33063,7 +33473,7 @@
     "doi": "https://doi.org/10.1177/13684302261422654",
     "title": "Seeking or receiving help: Implications for recipient sense of control, evaluations of the helper and of the helper\u2019s group",
     "display_name": "Seeking or receiving help: Implications for recipient sense of control, evaluations of the helper and of the helper\u2019s group",
-    "relevance_score": 1.6280096,
+    "relevance_score": 4.60115,
     "publication_year": 2026,
     "publication_date": "2026-03-11",
     "ids": {
@@ -33073,6 +33483,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/13684302261422654",
+      "doi": "https://doi.org/10.1177/13684302261422654",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/13684302261422654",
       "pdf_url": null,
@@ -33087,6 +33498,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -33105,6 +33529,7 @@
       "raw_source_name": "Group Processes &amp; Intergroup Relations",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -33121,7 +33546,10 @@
         "author": {
           "id": "https://openalex.org/A5006151855",
           "display_name": "Samer Halabi",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1338-9444",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1338-9444"
+          ]
         },
         "institutions": [
           {
@@ -33158,7 +33586,10 @@
         "author": {
           "id": "https://openalex.org/A5057904875",
           "display_name": "John F. Dovidio",
-          "orcid": "https://orcid.org/0000-0002-6110-8344"
+          "orcid": "https://orcid.org/0000-0002-6110-8344",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6110-8344"
+          ]
         },
         "institutions": [
           {
@@ -33195,7 +33626,10 @@
         "author": {
           "id": "https://openalex.org/A5039453977",
           "display_name": "Lysann Zander",
-          "orcid": "https://orcid.org/0000-0001-7075-3436"
+          "orcid": "https://orcid.org/0000-0001-7075-3436",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7075-3436"
+          ]
         },
         "institutions": [
           {
@@ -33232,7 +33666,10 @@
         "author": {
           "id": "https://openalex.org/A5058159897",
           "display_name": "Arie Nadler",
-          "orcid": "https://orcid.org/0000-0002-7411-2887"
+          "orcid": "https://orcid.org/0000-0002-7411-2887",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7411-2887"
+          ]
         },
         "institutions": [
           {
@@ -33274,22 +33711,33 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I4210141777"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
-    "has_fulltext": false,
-    "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.44184892,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+    "apc_list": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
     },
-    "cited_by_percentile_year": null,
+    "apc_paid": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "fwci": 12.4817,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.96474823,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "29",
+      "issue": "5",
+      "first_page": "709",
+      "last_page": "730"
     },
     "is_retracted": false,
     "is_paratext": false,
@@ -33297,7 +33745,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T10314",
       "display_name": "Social and Intergroup Psychology",
-      "score": 0.6646999716758728,
+      "score": 0.9980000257492065,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -33315,7 +33763,7 @@
       {
         "id": "https://openalex.org/T10314",
         "display_name": "Social and Intergroup Psychology",
-        "score": 0.6646999716758728,
+        "score": 0.9980000257492065,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -33332,7 +33780,7 @@
       {
         "id": "https://openalex.org/T13841",
         "display_name": "Psychology of Social Influence",
-        "score": 0.2087000012397766,
+        "score": 0.00039999998989515007,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -33347,16 +33795,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T11454",
-        "display_name": "Cultural Differences and Values",
-        "score": 0.031700000166893005,
+        "id": "https://openalex.org/T12892",
+        "display_name": "Social Power and Status Dynamics",
+        "score": 0.00039999998989515007,
         "subfield": {
-          "id": "https://openalex.org/subfields/3207",
-          "display_name": "Social Psychology"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -33366,39 +33814,19 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/outgroup",
-        "display_name": "Outgroup",
-        "score": 0.9635000228881836
+        "id": "https://openalex.org/keywords/intergroup-helping",
+        "display_name": "intergroup helping",
+        "score": 0.9940000176429749
       },
       {
-        "id": "https://openalex.org/keywords/ingroups-and-outgroups",
-        "display_name": "Ingroups and outgroups",
-        "score": 0.8560000061988831
+        "id": "https://openalex.org/keywords/arab-israeli-relations",
+        "display_name": "Arab-Israeli relations",
+        "score": 0.6629999876022339
       },
       {
-        "id": "https://openalex.org/keywords/context",
-        "display_name": "Context (archaeology)",
-        "score": 0.6140000224113464
-      },
-      {
-        "id": "https://openalex.org/keywords/perception",
-        "display_name": "Perception",
-        "score": 0.5515000224113464
-      },
-      {
-        "id": "https://openalex.org/keywords/helping-behavior",
-        "display_name": "Helping behavior",
-        "score": 0.4867999851703644
-      },
-      {
-        "id": "https://openalex.org/keywords/control",
-        "display_name": "Control (management)",
-        "score": 0.43290001153945923
-      },
-      {
-        "id": "https://openalex.org/keywords/prosocial-behavior",
-        "display_name": "Prosocial behavior",
-        "score": 0.430400013923645
+        "id": "https://openalex.org/keywords/intergroup-relations",
+        "display_name": "intergroup relations",
+        "score": 0.4230000078678131
       }
     ],
     "concepts": [
@@ -33534,6 +33962,7 @@
     "locations": [
       {
         "id": "doi:10.1177/13684302261422654",
+        "doi": "https://doi.org/10.1177/13684302261422654",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/13684302261422654",
         "pdf_url": null,
@@ -33548,6 +33977,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-b",
+            "cwts-core",
+            "dongbi-a",
+            "erih-plus",
+            "fnege-3",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -33569,6 +34011,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1177/13684302261422654",
+      "doi": "https://doi.org/10.1177/13684302261422654",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/13684302261422654",
       "pdf_url": null,
@@ -33583,6 +34026,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -33602,11 +34058,13 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 55,
@@ -33615,9 +34073,11 @@
       "https://openalex.org/W942347808",
       "https://openalex.org/W1944918835",
       "https://openalex.org/W1974354249",
+      "https://openalex.org/W1984536789",
       "https://openalex.org/W1996036110",
       "https://openalex.org/W2000827054",
       "https://openalex.org/W2001574528",
+      "https://openalex.org/W2010012061",
       "https://openalex.org/W2032716193",
       "https://openalex.org/W2061200712",
       "https://openalex.org/W2072500831",
@@ -33660,8 +34120,6 @@
       "https://openalex.org/W3207160955",
       "https://openalex.org/W4211022696",
       "https://openalex.org/W4239557303",
-      "https://openalex.org/W4243516881",
-      "https://openalex.org/W4250262599",
       "https://openalex.org/W4283512868",
       "https://openalex.org/W4300170559",
       "https://openalex.org/W4386851549",
@@ -34123,8 +34581,13 @@
         230
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-05-03T08:25:01.440150",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2026-03-13T00:00:00"
   },
   {
@@ -34132,7 +34595,7 @@
     "doi": "https://doi.org/10.1177/13684302251394642",
     "title": "Intergroup relations after being ostracized and included by one\u2019s own two in-groups",
     "display_name": "Intergroup relations after being ostracized and included by one\u2019s own two in-groups",
-    "relevance_score": 0.81580675,
+    "relevance_score": 2.2928622,
     "publication_year": 2025,
     "publication_date": "2025-12-11",
     "ids": {
@@ -34142,6 +34605,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/13684302251394642",
+      "doi": "https://doi.org/10.1177/13684302251394642",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/13684302251394642",
       "pdf_url": null,
@@ -34156,6 +34620,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -34174,6 +34651,7 @@
       "raw_source_name": "Group Processes &amp; Intergroup Relations",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -34190,7 +34668,10 @@
         "author": {
           "id": null,
           "display_name": "Erez Yaakobi",
-          "orcid": "https://orcid.org/0000-0001-5330-4022"
+          "orcid": "https://orcid.org/0000-0001-5330-4022",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5330-4022"
+          ]
         },
         "institutions": [
           {
@@ -34227,7 +34708,8 @@
         "author": {
           "id": null,
           "display_name": "Idit Shalev",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -34264,7 +34746,8 @@
         "author": {
           "id": null,
           "display_name": "Shenhav Malul",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -34299,18 +34782,22 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 3,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [],
     "corresponding_institution_ids": [
       "https://openalex.org/I207073550"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.66511137,
+      "value": 0.50170267,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -34327,7 +34814,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12521",
       "display_name": "Death Anxiety and Social Exclusion",
-      "score": 0.9901000261306763,
+      "score": 0.8877000212669373,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -34345,7 +34832,7 @@
       {
         "id": "https://openalex.org/T12521",
         "display_name": "Death Anxiety and Social Exclusion",
-        "score": 0.9901000261306763,
+        "score": 0.8877000212669373,
         "subfield": {
           "id": "https://openalex.org/subfields/3207",
           "display_name": "Social Psychology"
@@ -34362,7 +34849,7 @@
       {
         "id": "https://openalex.org/T10314",
         "display_name": "Social and Intergroup Psychology",
-        "score": 0.0012000000569969416,
+        "score": 0.1014999970793724,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -34377,16 +34864,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T10509",
-        "display_name": "Religion, Spirituality, and Psychology",
-        "score": 0.0010999999940395355,
+        "id": "https://openalex.org/T10485",
+        "display_name": "Bullying, Victimization, and Aggression",
+        "score": 0.003700000001117587,
         "subfield": {
-          "id": "https://openalex.org/subfields/3306",
-          "display_name": "Health"
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -34396,39 +34883,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/psychological-intervention",
-        "display_name": "Psychological intervention",
-        "score": 0.4991999864578247
+        "id": "https://openalex.org/keywords/intergroup-relations",
+        "display_name": "intergroup relations",
+        "score": 0.8130000233650208
       },
       {
-        "id": "https://openalex.org/keywords/context",
-        "display_name": "Context (archaeology)",
-        "score": 0.4603999853134155
-      },
-      {
-        "id": "https://openalex.org/keywords/judaism",
-        "display_name": "Judaism",
-        "score": 0.44339999556541443
-      },
-      {
-        "id": "https://openalex.org/keywords/social-identity-theory",
-        "display_name": "Social identity theory",
-        "score": 0.4350999891757965
-      },
-      {
-        "id": "https://openalex.org/keywords/social-relation",
-        "display_name": "Social relation",
-        "score": 0.382999986410141
+        "id": "https://openalex.org/keywords/ostracism",
+        "display_name": "ostracism",
+        "score": 0.8690000176429749
       },
       {
         "id": "https://openalex.org/keywords/social-exclusion",
-        "display_name": "Social exclusion",
-        "score": 0.3781999945640564
+        "display_name": "social exclusion",
+        "score": 0.8330000042915344
       },
       {
-        "id": "https://openalex.org/keywords/identity",
-        "display_name": "Identity (music)",
-        "score": 0.3610000014305115
+        "id": "https://openalex.org/keywords/social-inclusion",
+        "display_name": "social inclusion",
+        "score": 0.5690000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/exogamous-marriage",
+        "display_name": "exogamous marriage",
+        "score": 0.6819999814033508
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-identity",
+        "display_name": "religious identity",
+        "score": 0.5289999842643738
+      },
+      {
+        "id": "https://openalex.org/keywords/cyberball",
+        "display_name": "Cyberball",
+        "score": 0.5799999833106995
+      },
+      {
+        "id": "https://openalex.org/keywords/need-satisfaction",
+        "display_name": "need satisfaction",
+        "score": 0.6980000138282776
+      },
+      {
+        "id": "https://openalex.org/keywords/identity-development",
+        "display_name": "identity construction",
+        "score": 0.7839999794960022
+      },
+      {
+        "id": "https://openalex.org/keywords/social-environment",
+        "display_name": "social environment",
+        "score": 0.6430000066757202
       }
     ],
     "concepts": [
@@ -34557,6 +35059,7 @@
     "locations": [
       {
         "id": "doi:10.1177/13684302251394642",
+        "doi": "https://doi.org/10.1177/13684302251394642",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/13684302251394642",
         "pdf_url": null,
@@ -34571,6 +35074,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-b",
+            "cwts-core",
+            "dongbi-a",
+            "erih-plus",
+            "fnege-3",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -34593,16 +35109,29 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7307999730110168,
         "display_name": "Reduced inequalities",
-        "score": 0.8360716104507446
+        "id": "https://metadata.un.org/sdg/10"
+      },
+      {
+        "score": 0.6207000017166138,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.8360716104507446,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 48,
@@ -34621,6 +35150,7 @@
       "https://openalex.org/W2057659248",
       "https://openalex.org/W2072678120",
       "https://openalex.org/W2087484885",
+      "https://openalex.org/W2087608601",
       "https://openalex.org/W2091061728",
       "https://openalex.org/W2098875817",
       "https://openalex.org/W2100598077",
@@ -34647,7 +35177,6 @@
       "https://openalex.org/W3134777384",
       "https://openalex.org/W3167829394",
       "https://openalex.org/W4200451665",
-      "https://openalex.org/W4230486386",
       "https://openalex.org/W4235016080",
       "https://openalex.org/W4292024172",
       "https://openalex.org/W4319831767",
@@ -35027,7 +35556,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-03-22T06:25:25.174409",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2025-12-11T00:00:00"
   },
   {
@@ -36101,5 +36630,1053 @@
     "counts_by_year": [],
     "updated_date": "2026-05-02T06:04:40.494371",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7165674947",
+    "doi": "https://doi.org/10.1177/13684302261451125",
+    "title": "Emotions, Emotional Labor, and Intercultural Sensitivity: Lecturers Facing Wartime Challenges",
+    "display_name": "Emotions, Emotional Labor, and Intercultural Sensitivity: Lecturers Facing Wartime Challenges",
+    "relevance_score": 3.3115711,
+    "publication_year": 2026,
+    "publication_date": "2026-06-23",
+    "ids": {
+      "openalex": "https://openalex.org/W7165674947",
+      "doi": "https://doi.org/10.1177/13684302261451125"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1177/13684302261451125",
+      "doi": "https://doi.org/10.1177/13684302261451125",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/13684302261451125",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S81071032",
+        "display_name": "Group Processes & Intergroup Relations",
+        "issn_l": "1368-4302",
+        "issn": [
+          "1368-4302",
+          "1461-7188"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Group Processes &amp; Intergroup Relations",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1177/13684302261451125",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5091907525",
+          "display_name": "Niva Dolev",
+          "orcid": "https://orcid.org/0000-0002-7646-5723",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7646-5723"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4387153753",
+            "display_name": "Kinneret College on the Sea of Galilee",
+            "ror": "https://ror.org/05402ng93",
+            "country_code": "IL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4387153753"
+            ]
+          }
+        ],
+        "countries": [
+          "IL"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Niva Dolev",
+        "raw_affiliation_strings": [
+          "Kinneret College on the Sea of Galilee, Israel"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7646-5723",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Kinneret College on the Sea of Galilee, Israel",
+            "institution_ids": [
+              "https://openalex.org/I4387153753"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5078927722",
+          "display_name": "Noa Shapira",
+          "orcid": "https://orcid.org/0000-0002-9237-2623",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9237-2623"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4387153753",
+            "display_name": "Kinneret College on the Sea of Galilee",
+            "ror": "https://ror.org/05402ng93",
+            "country_code": "IL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4387153753"
+            ]
+          }
+        ],
+        "countries": [
+          "IL"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Noa Shapira",
+        "raw_affiliation_strings": [
+          "Kinneret College on the Sea of Galilee, Israel"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-9237-2623",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Kinneret College on the Sea of Galilee, Israel",
+            "institution_ids": [
+              "https://openalex.org/I4387153753"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4387153753"
+    ],
+    "apc_list": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "apc_paid": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.47467049,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12284",
+      "display_name": "Emotional Labor in Professions",
+      "score": 0.9951000213623047,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12284",
+        "display_name": "Emotional Labor in Professions",
+        "score": 0.9951000213623047,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10907",
+        "display_name": "International Student and Expatriate Challenges",
+        "score": 0.001500000013038516,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3315",
+          "display_name": "Communication"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10314",
+        "display_name": "Social and Intergroup Psychology",
+        "score": 0.0005000000237487257,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/emotional-labor",
+        "display_name": "emotional labor",
+        "score": 0.9929999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/intercultural-sensitivity",
+        "display_name": "intercultural sensitivity",
+        "score": 0.9509999752044678
+      },
+      {
+        "id": "https://openalex.org/keywords/deep-acting",
+        "display_name": "deep acting",
+        "score": 0.890999972820282
+      },
+      {
+        "id": "https://openalex.org/keywords/emotions",
+        "display_name": "emotions",
+        "score": 0.44600000977516174
+      },
+      {
+        "id": "https://openalex.org/keywords/university-faculty",
+        "display_name": "university faculty",
+        "score": 0.7400000095367432
+      },
+      {
+        "id": "https://openalex.org/keywords/2023-israel-hamas-war",
+        "display_name": "2023 Israel-Hamas war",
+        "score": 0.9200000166893005
+      },
+      {
+        "id": "https://openalex.org/keywords/culturally-diverse-students",
+        "display_name": "culturally diverse students",
+        "score": 0.671999990940094
+      },
+      {
+        "id": "https://openalex.org/keywords/intergroup-conflict",
+        "display_name": "intergroup conflict",
+        "score": 0.6930000185966492
+      },
+      {
+        "id": "https://openalex.org/keywords/inclusive-learning-environment",
+        "display_name": "inclusive learning environment",
+        "score": 0.7680000066757202
+      },
+      {
+        "id": "https://openalex.org/keywords/classroom-dynamics",
+        "display_name": "classroom dynamics",
+        "score": 0.656000018119812
+      },
+      {
+        "id": "https://openalex.org/keywords/social-polarization",
+        "display_name": "social polarization",
+        "score": 0.3149999976158142
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.7111999988555908
+      },
+      {
+        "id": "https://openalex.org/C2780409804",
+        "wikidata": "https://www.wikidata.org/wiki/Q621701",
+        "display_name": "Apprehension",
+        "level": 2,
+        "score": 0.6650000214576721
+      },
+      {
+        "id": "https://openalex.org/C51271553",
+        "wikidata": "https://www.wikidata.org/wiki/Q842917",
+        "display_name": "Outgroup",
+        "level": 2,
+        "score": 0.6096000075340271
+      },
+      {
+        "id": "https://openalex.org/C77805123",
+        "wikidata": "https://www.wikidata.org/wiki/Q161272",
+        "display_name": "Social psychology",
+        "level": 1,
+        "score": 0.5598999857902527
+      },
+      {
+        "id": "https://openalex.org/C125209646",
+        "wikidata": "https://www.wikidata.org/wiki/Q1338878",
+        "display_name": "Cultural diversity",
+        "level": 2,
+        "score": 0.4074000120162964
+      },
+      {
+        "id": "https://openalex.org/C120912362",
+        "wikidata": "https://www.wikidata.org/wiki/Q136822",
+        "display_name": "Higher education",
+        "level": 2,
+        "score": 0.39169999957084656
+      },
+      {
+        "id": "https://openalex.org/C2776423180",
+        "wikidata": "https://www.wikidata.org/wiki/Q1205196",
+        "display_name": "Intercultural communication",
+        "level": 2,
+        "score": 0.38929998874664307
+      },
+      {
+        "id": "https://openalex.org/C2780036436",
+        "wikidata": "https://www.wikidata.org/wiki/Q337326",
+        "display_name": "Intercultural learning",
+        "level": 2,
+        "score": 0.38179999589920044
+      },
+      {
+        "id": "https://openalex.org/C190248442",
+        "wikidata": "https://www.wikidata.org/wiki/Q839486",
+        "display_name": "Qualitative research",
+        "level": 2,
+        "score": 0.36059999465942383
+      },
+      {
+        "id": "https://openalex.org/C2781240336",
+        "wikidata": "https://www.wikidata.org/wiki/Q5439398",
+        "display_name": "Fear of negative evaluation",
+        "level": 4,
+        "score": 0.349700003862381
+      },
+      {
+        "id": "https://openalex.org/C138496976",
+        "wikidata": "https://www.wikidata.org/wiki/Q175002",
+        "display_name": "Developmental psychology",
+        "level": 1,
+        "score": 0.33480000495910645
+      },
+      {
+        "id": "https://openalex.org/C19417346",
+        "wikidata": "https://www.wikidata.org/wiki/Q7922",
+        "display_name": "Pedagogy",
+        "level": 1,
+        "score": 0.33239999413490295
+      },
+      {
+        "id": "https://openalex.org/C169536714",
+        "wikidata": "https://www.wikidata.org/wiki/Q1666159",
+        "display_name": "Cultural competence",
+        "level": 2,
+        "score": 0.33079999685287476
+      },
+      {
+        "id": "https://openalex.org/C2779743720",
+        "wikidata": "https://www.wikidata.org/wiki/Q5154128",
+        "display_name": "Communication apprehension",
+        "level": 3,
+        "score": 0.32919999957084656
+      },
+      {
+        "id": "https://openalex.org/C2992397558",
+        "wikidata": "https://www.wikidata.org/wiki/Q5188450",
+        "display_name": "Cultural sensitivity",
+        "level": 2,
+        "score": 0.3208000063896179
+      },
+      {
+        "id": "https://openalex.org/C3018587665",
+        "wikidata": "https://www.wikidata.org/wiki/Q7268696",
+        "display_name": "Qualitative analysis",
+        "level": 3,
+        "score": 0.2892000079154968
+      },
+      {
+        "id": "https://openalex.org/C87156501",
+        "wikidata": "https://www.wikidata.org/wiki/Q7268708",
+        "display_name": "Qualitative property",
+        "level": 2,
+        "score": 0.28060001134872437
+      },
+      {
+        "id": "https://openalex.org/C143916079",
+        "wikidata": "https://www.wikidata.org/wiki/Q2629248",
+        "display_name": "Burnout",
+        "level": 2,
+        "score": 0.28029999136924744
+      },
+      {
+        "id": "https://openalex.org/C3019807043",
+        "wikidata": "https://www.wikidata.org/wiki/Q581921",
+        "display_name": "Mexican americans",
+        "level": 3,
+        "score": 0.2727000117301941
+      },
+      {
+        "id": "https://openalex.org/C163007329",
+        "wikidata": "https://www.wikidata.org/wiki/Q106679114",
+        "display_name": "Social emotional learning",
+        "level": 2,
+        "score": 0.25360000133514404
+      },
+      {
+        "id": "https://openalex.org/C2776060345",
+        "wikidata": "https://www.wikidata.org/wiki/Q1411912",
+        "display_name": "Rumination",
+        "level": 3,
+        "score": 0.2533000111579895
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1177/13684302261451125",
+        "doi": "https://doi.org/10.1177/13684302261451125",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1177/13684302261451125",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S81071032",
+          "display_name": "Group Processes & Intergroup Relations",
+          "issn_l": "1368-4302",
+          "issn": [
+            "1368-4302",
+            "1461-7188"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-b",
+            "cwts-core",
+            "dongbi-a",
+            "erih-plus",
+            "fnege-3",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Group Processes &amp; Intergroup Relations",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1177/13684302261451125",
+      "doi": "https://doi.org/10.1177/13684302261451125",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/13684302261451125",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S81071032",
+        "display_name": "Group Processes & Intergroup Relations",
+        "issn_l": "1368-4302",
+        "issn": [
+          "1368-4302",
+          "1461-7188"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "dongbi-a",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Group Processes &amp; Intergroup Relations",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.8278999924659729,
+        "display_name": "Quality education",
+        "id": "https://metadata.un.org/sdg/4"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "display_name": "Observational Study",
+        "id": "https://openalex.org/study-designs/observational-study"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 89,
+    "referenced_works": [
+      "https://openalex.org/W96123121",
+      "https://openalex.org/W642807183",
+      "https://openalex.org/W794687140",
+      "https://openalex.org/W833676907",
+      "https://openalex.org/W1530268852",
+      "https://openalex.org/W1570445326",
+      "https://openalex.org/W1701364829",
+      "https://openalex.org/W1963494921",
+      "https://openalex.org/W1987154081",
+      "https://openalex.org/W2001126447",
+      "https://openalex.org/W2008071119",
+      "https://openalex.org/W2011247185",
+      "https://openalex.org/W2014647012",
+      "https://openalex.org/W2016364797",
+      "https://openalex.org/W2030877519",
+      "https://openalex.org/W2032497511",
+      "https://openalex.org/W2044501798",
+      "https://openalex.org/W2047358923",
+      "https://openalex.org/W2050562235",
+      "https://openalex.org/W2073403520",
+      "https://openalex.org/W2081689394",
+      "https://openalex.org/W2086604324",
+      "https://openalex.org/W2108846476",
+      "https://openalex.org/W2108945092",
+      "https://openalex.org/W2111700583",
+      "https://openalex.org/W2128991778",
+      "https://openalex.org/W2137699562",
+      "https://openalex.org/W2145759567",
+      "https://openalex.org/W2149811969",
+      "https://openalex.org/W2152037762",
+      "https://openalex.org/W2152899684",
+      "https://openalex.org/W2167935816",
+      "https://openalex.org/W2197158819",
+      "https://openalex.org/W2216494959",
+      "https://openalex.org/W2330458643",
+      "https://openalex.org/W2394558051",
+      "https://openalex.org/W2503777324",
+      "https://openalex.org/W2510571372",
+      "https://openalex.org/W2521939705",
+      "https://openalex.org/W2564420394",
+      "https://openalex.org/W2567360001",
+      "https://openalex.org/W2748454491",
+      "https://openalex.org/W2767956150",
+      "https://openalex.org/W2792130939",
+      "https://openalex.org/W2792485938",
+      "https://openalex.org/W2914818182",
+      "https://openalex.org/W2924601068",
+      "https://openalex.org/W2949622524",
+      "https://openalex.org/W2976250040",
+      "https://openalex.org/W2994807299",
+      "https://openalex.org/W2995583691",
+      "https://openalex.org/W2998012759",
+      "https://openalex.org/W3004566784",
+      "https://openalex.org/W3082325574",
+      "https://openalex.org/W3089266021",
+      "https://openalex.org/W3094858016",
+      "https://openalex.org/W3121089807",
+      "https://openalex.org/W3131571228",
+      "https://openalex.org/W3133272004",
+      "https://openalex.org/W3134435086",
+      "https://openalex.org/W3155268034",
+      "https://openalex.org/W3204091633",
+      "https://openalex.org/W4213292716",
+      "https://openalex.org/W4236706062",
+      "https://openalex.org/W4248042887",
+      "https://openalex.org/W4280618669",
+      "https://openalex.org/W4284993178",
+      "https://openalex.org/W4285168217",
+      "https://openalex.org/W4285726560",
+      "https://openalex.org/W4292994367",
+      "https://openalex.org/W4294591045",
+      "https://openalex.org/W4321327293",
+      "https://openalex.org/W4383375567",
+      "https://openalex.org/W4384934179",
+      "https://openalex.org/W4386350232",
+      "https://openalex.org/W4387448862",
+      "https://openalex.org/W4388866454",
+      "https://openalex.org/W4389121120",
+      "https://openalex.org/W4399291970",
+      "https://openalex.org/W4400931077",
+      "https://openalex.org/W4401277725",
+      "https://openalex.org/W4401388262",
+      "https://openalex.org/W4402541646",
+      "https://openalex.org/W4402576236",
+      "https://openalex.org/W4403973460",
+      "https://openalex.org/W4406927391",
+      "https://openalex.org/W4414111607",
+      "https://openalex.org/W4414783131",
+      "https://openalex.org/W4416767699"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "mixed-methods": [
+        1
+      ],
+      "study": [
+        2
+      ],
+      "examines": [
+        3
+      ],
+      "the": [
+        4,
+        20,
+        23,
+        50,
+        132,
+        142
+      ],
+      "emotional": [
+        5,
+        37,
+        51
+      ],
+      "and": [
+        6,
+        34,
+        40,
+        72,
+        98,
+        120,
+        141,
+        149
+      ],
+      "professional": [
+        7
+      ],
+      "experiences": [
+        8
+      ],
+      "of": [
+        9,
+        22,
+        53,
+        117,
+        134,
+        145
+      ],
+      "faculty": [
+        10
+      ],
+      "in": [
+        11,
+        17,
+        127,
+        138
+      ],
+      "culturally": [
+        12
+      ],
+      "diverse": [
+        13,
+        136
+      ],
+      "higher": [
+        14
+      ],
+      "education": [
+        15
+      ],
+      "institutions": [
+        16
+      ],
+      "Israel": [
+        18
+      ],
+      "after": [
+        19
+      ],
+      "outbreak": [
+        21
+      ],
+      "2023": [
+        24
+      ],
+      "Israel-Hamas": [
+        25
+      ],
+      "War.": [
+        26
+      ],
+      "It": [
+        27
+      ],
+      "explores": [
+        28
+      ],
+      "how,": [
+        29
+      ],
+      "amid": [
+        30
+      ],
+      "heightened": [
+        31
+      ],
+      "societal": [
+        32
+      ],
+      "tensions": [
+        33
+      ],
+      "intergroup": [
+        35
+      ],
+      "conflicts,": [
+        36
+      ],
+      "labor": [
+        38
+      ],
+      "(EL)": [
+        39
+      ],
+      "intercultural": [
+        41
+      ],
+      "sensitivity": [
+        42
+      ],
+      "(IS)": [
+        43
+      ],
+      "interacted": [
+        44
+      ],
+      "regarding": [
+        45
+      ],
+      "faculty\u2019s": [
+        46,
+        105
+      ],
+      "abilities": [
+        47
+      ],
+      "to": [
+        48,
+        111,
+        122
+      ],
+      "navigate": [
+        49
+      ],
+      "challenges": [
+        52
+      ],
+      "teaching": [
+        54,
+        135
+      ],
+      "outgroup": [
+        55
+      ],
+      "students.": [
+        56
+      ],
+      "Quantitative": [
+        57
+      ],
+      "analyses": [
+        58
+      ],
+      "revealed": [
+        59,
+        87
+      ],
+      "that": [
+        60,
+        88
+      ],
+      "EL,": [
+        61,
+        119
+      ],
+      "mainly": [
+        62
+      ],
+      "deep": [
+        63,
+        94,
+        146
+      ],
+      "acting,": [
+        64
+      ],
+      "was": [
+        65,
+        90
+      ],
+      "positively": [
+        66,
+        91
+      ],
+      "associated": [
+        67,
+        92
+      ],
+      "with": [
+        68,
+        75,
+        81,
+        93
+      ],
+      "participants\u2019": [
+        69
+      ],
+      "positive": [
+        70
+      ],
+      "emotions": [
+        71
+      ],
+      "negatively": [
+        73,
+        79
+      ],
+      "correlated": [
+        74,
+        80
+      ],
+      "negative": [
+        76,
+        83
+      ],
+      "emotions.": [
+        77,
+        84
+      ],
+      "IS": [
+        78,
+        89
+      ],
+      "retrospective": [
+        82
+      ],
+      "Regression": [
+        85
+      ],
+      "analysis": [
+        86
+      ],
+      "acting": [
+        95,
+        147
+      ],
+      "EL": [
+        96,
+        148
+      ],
+      "above": [
+        97
+      ],
+      "beyond": [
+        99
+      ],
+      "other": [
+        100
+      ],
+      "factors.": [
+        101
+      ],
+      "Qualitative": [
+        102
+      ],
+      "findings": [
+        103
+      ],
+      "highlighted": [
+        104
+      ],
+      "apprehension": [
+        106
+      ],
+      "about": [
+        107
+      ],
+      "classroom": [
+        108
+      ],
+      "dynamics,": [
+        109
+      ],
+      "efforts": [
+        110
+      ],
+      "manage": [
+        112
+      ],
+      "sensitive": [
+        113
+      ],
+      "interactions": [
+        114
+      ],
+      "as": [
+        115
+      ],
+      "part": [
+        116
+      ],
+      "their": [
+        118
+      ],
+      "strategies": [
+        121
+      ],
+      "foster": [
+        123
+      ],
+      "inclusive": [
+        124
+      ],
+      "learning": [
+        125
+      ],
+      "environments": [
+        126
+      ],
+      "challenging": [
+        128
+      ],
+      "times.": [
+        129
+      ],
+      "Findings": [
+        130
+      ],
+      "underscore": [
+        131
+      ],
+      "complexity": [
+        133
+      ],
+      "students": [
+        137
+      ],
+      "polarized": [
+        139
+      ],
+      "settings": [
+        140
+      ],
+      "critical": [
+        143
+      ],
+      "role": [
+        144
+      ],
+      "IS.": [
+        150
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2026-06-24T00:00:00"
   }
 ]

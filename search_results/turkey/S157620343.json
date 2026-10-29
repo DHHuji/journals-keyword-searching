@@ -6102,7 +6102,7 @@
     "doi": "https://doi.org/10.1177/00031224251324504",
     "title": "Making Sense of Honor Killings",
     "display_name": "Making Sense of Honor Killings",
-    "relevance_score": 4.482835,
+    "relevance_score": 2.2951748,
     "publication_year": 2025,
     "publication_date": "2025-04-11",
     "ids": {
@@ -6112,6 +6112,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00031224251324504",
+      "doi": "https://doi.org/10.1177/00031224251324504",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00031224251324504",
       "pdf_url": null,
@@ -6126,6 +6127,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-1",
+          "ft50",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -6144,6 +6159,7 @@
       "raw_source_name": "American Sociological Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -6152,7 +6168,7 @@
       "is_oa": true,
       "oa_status": "hybrid",
       "oa_url": "https://doi.org/10.1177/00031224251324504",
-      "any_repository_has_fulltext": false
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -6160,7 +6176,10 @@
         "author": {
           "id": "https://openalex.org/A5009691165",
           "display_name": "Ozan Aksoy",
-          "orcid": "https://orcid.org/0000-0003-2170-6099"
+          "orcid": "https://orcid.org/0000-0003-2170-6099",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2170-6099"
+          ]
         },
         "institutions": [
           {
@@ -6198,7 +6217,10 @@
         "author": {
           "id": "https://openalex.org/A5038403510",
           "display_name": "\u00c1ron Sz\u00e9kely",
-          "orcid": "https://orcid.org/0000-0001-5651-4711"
+          "orcid": "https://orcid.org/0000-0001-5651-4711",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5651-4711"
+          ]
         },
         "institutions": [
           {
@@ -6212,19 +6234,18 @@
             ]
           },
           {
-            "id": "https://openalex.org/I197604219",
-            "display_name": "National Academies of Sciences, Engineering, and Medicine",
-            "ror": "https://ror.org/02eq2w707",
-            "country_code": "US",
-            "type": "government",
+            "id": "https://openalex.org/I4210155236",
+            "display_name": "National Research Council",
+            "ror": "https://ror.org/04zaypm56",
+            "country_code": "IT",
+            "type": "nonprofit",
             "lineage": [
-              "https://openalex.org/I197604219"
+              "https://openalex.org/I4210155236"
             ]
           }
         ],
         "countries": [
-          "IT",
-          "US"
+          "IT"
         ],
         "is_corresponding": false,
         "raw_author_name": "Aron Szekely",
@@ -6237,34 +6258,42 @@
             "raw_affiliation_string": "Collegio Carlo Alberto and Italian National Research Council",
             "institution_ids": [
               "https://openalex.org/I1330701686",
-              "https://openalex.org/I197604219"
+              "https://openalex.org/I4210155236"
             ]
           }
         ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 3,
-    "institutions_distinct_count": 2,
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
     "corresponding_author_ids": [
       "https://openalex.org/A5009691165"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I45129253"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 16.5245,
+    "apc_list": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "apc_paid": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "fwci": 10.172,
     "has_fulltext": false,
-    "cited_by_count": 5,
+    "cited_by_count": 23,
     "citation_normalized_percentile": {
-      "value": 0.98751938,
+      "value": 0.98474638,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 97,
-      "max": 98
+      "min": 98,
+      "max": 99
     },
     "biblio": {
       "volume": "90",
@@ -6276,12 +6305,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10314",
-      "display_name": "Social and Intergroup Psychology",
-      "score": 0.9929999709129333,
+      "id": "https://openalex.org/T10380",
+      "display_name": "Intimate Partner and Family Violence",
+      "score": 0.9437999725341797,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -6294,9 +6323,26 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10314",
-        "display_name": "Social and Intergroup Psychology",
-        "score": 0.9929999709129333,
+        "id": "https://openalex.org/T10380",
+        "display_name": "Intimate Partner and Family Violence",
+        "score": 0.9437999725341797,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3306",
+          "display_name": "Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13605",
+        "display_name": "Homicide, Infanticide, and Child Abuse",
+        "score": 0.04010000079870224,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -6311,26 +6357,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T11454",
-        "display_name": "Cultural Differences and Values",
-        "score": 0.9886999726295471,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3207",
-          "display_name": "Social Psychology"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10994",
-        "display_name": "Terrorism, Counterterrorism, and Political Violence",
-        "score": 0.9879000186920166,
+        "id": "https://openalex.org/T14142",
+        "display_name": "Multicultural Socio-Legal Studies",
+        "score": 0.00139999995008111,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -6347,49 +6376,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/honor",
-        "display_name": "Honor",
-        "score": 0.9274584650993347
+        "id": "https://openalex.org/keywords/honor-killings",
+        "display_name": "honor killings",
+        "score": 0.9980000257492065
       },
       {
-        "id": "https://openalex.org/keywords/criminology",
-        "display_name": "Criminology",
-        "score": 0.5658203363418579
+        "id": "https://openalex.org/keywords/domestic-violence",
+        "display_name": "domestic violence",
+        "score": 0.45899999141693115
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.45212817192077637
+        "id": "https://openalex.org/keywords/norm-enforcement",
+        "display_name": "norm enforcement",
+        "score": 0.8669999837875366
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.4315717816352844
+        "id": "https://openalex.org/keywords/norm-violation",
+        "display_name": "norm violation",
+        "score": 0.6809999942779541
       },
       {
-        "id": "https://openalex.org/keywords/sense",
-        "display_name": "Sense (electronics)",
-        "score": 0.41946494579315186
+        "id": "https://openalex.org/keywords/family-reputation",
+        "display_name": "family reputation",
+        "score": 0.5989999771118164
       },
       {
-        "id": "https://openalex.org/keywords/psychoanalysis",
-        "display_name": "Psychoanalysis",
-        "score": 0.33641111850738525
+        "id": "https://openalex.org/keywords/community-cohesion",
+        "display_name": "community cohesion",
+        "score": 0.9440000057220459
       },
       {
-        "id": "https://openalex.org/keywords/computer-science",
-        "display_name": "Computer science",
-        "score": 0.10503026843070984
+        "id": "https://openalex.org/keywords/women-s-honor",
+        "display_name": "women's honor",
+        "score": 0.45399999618530273
       },
       {
-        "id": "https://openalex.org/keywords/engineering",
-        "display_name": "Engineering",
-        "score": 0.0951763391494751
-      },
-      {
-        "id": "https://openalex.org/keywords/internet-privacy",
-        "display_name": "Internet privacy",
-        "score": 0.06599658727645874
+        "id": "https://openalex.org/keywords/turkey",
+        "display_name": "Turkey",
+        "score": 0.3149999976158142
       }
     ],
     "concepts": [
@@ -6465,10 +6489,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 5,
     "locations": [
       {
         "id": "doi:10.1177/00031224251324504",
+        "doi": "https://doi.org/10.1177/00031224251324504",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/00031224251324504",
         "pdf_url": null,
@@ -6483,6 +6508,20 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-1",
+            "ft50",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -6502,7 +6541,23 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "doi:10.31235/osf.io/j63k9",
+        "doi": "https://doi.org/10.31235/osf.io/j63k9",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.31235/osf.io/j63k9",
+        "pdf_url": "https://osf.io/j63k9/download",
+        "source": null,
+        "license": "cc-by-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nd",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      },
+      {
         "id": "pmh:oai:RePEc:sae:amsocr:v:90:y:2025:i:3:p:427-454",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://journals.sagepub.com/doi/10.1177/00031224251324504",
         "pdf_url": null,
@@ -6514,6 +6569,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I77793887",
           "host_organization_name": "Federal Reserve Bank of St. Louis",
           "host_organization_lineage": [
@@ -6529,10 +6585,73 @@
         "is_published": false,
         "raw_source_name": null,
         "raw_type": "article"
+      },
+      {
+        "id": "pmh:oai:eprints.ucl.ac.uk.OAI2:10203638",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://discovery.ucl.ac.uk/id/eprint/10203638/",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400024",
+          "display_name": "UCL Discovery (University College London)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I45129253",
+          "host_organization_name": "University College London",
+          "host_organization_lineage": [
+            "https://openalex.org/I45129253"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "American Sociological Review , 90 (3) pp. 427-454. (2025)",
+        "raw_type": "Article"
+      },
+      {
+        "id": "pmh:oai:share.osf.io:b9c8a07a-6922-46f5-a012-86b1f62179cc",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://osf.io/j63k9",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401238",
+          "display_name": "SocArXiv (OSF Preprints)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I2799848540",
+          "host_organization_name": "Center for Open Science",
+          "host_organization_lineage": [
+            "https://openalex.org/I2799848540"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1177/00031224251324504",
+      "doi": "https://doi.org/10.1177/00031224251324504",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00031224251324504",
       "pdf_url": null,
@@ -6547,6 +6666,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-1",
+          "ft50",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -6565,7 +6698,25 @@
       "raw_source_name": "American Sociological Review",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402,
+        "display_name": "Peace, justice, and strong institutions"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/5",
+        "score": 0.6025999784469604,
+        "display_name": "Gender equality"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "id": "https://openalex.org/study-designs/observational-study",
+        "display_name": "Observational Study"
+      }
+    ],
     "awards": [
       {
         "id": "https://openalex.org/G7988294675",
@@ -6580,22 +6731,31 @@
         "id": "https://openalex.org/F4320320004",
         "display_name": "British Academy",
         "ror": "https://ror.org/0302b4677"
+      },
+      {
+        "id": "https://openalex.org/F4320321576",
+        "display_name": "Collegio Carlo Alberto",
+        "ror": "https://ror.org/0397knh37"
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
-    "referenced_works_count": 51,
+    "referenced_works_count": 54,
     "referenced_works": [
+      "https://openalex.org/W92844404",
       "https://openalex.org/W131261927",
       "https://openalex.org/W216054197",
       "https://openalex.org/W571221800",
       "https://openalex.org/W1572209855",
+      "https://openalex.org/W1600031569",
       "https://openalex.org/W1979293976",
       "https://openalex.org/W1986649962",
       "https://openalex.org/W1998618227",
+      "https://openalex.org/W1999478073",
+      "https://openalex.org/W2026003563",
       "https://openalex.org/W2033492032",
       "https://openalex.org/W2049812561",
       "https://openalex.org/W2062767238",
@@ -6622,8 +6782,7 @@
       "https://openalex.org/W3085661493",
       "https://openalex.org/W3093475626",
       "https://openalex.org/W3094426253",
-      "https://openalex.org/W3121915329",
-      "https://openalex.org/W3125244926",
+      "https://openalex.org/W3123265974",
       "https://openalex.org/W3125258780",
       "https://openalex.org/W3134934442",
       "https://openalex.org/W3152686726",
@@ -6635,23 +6794,23 @@
       "https://openalex.org/W4239110480",
       "https://openalex.org/W4239159854",
       "https://openalex.org/W4243498739",
-      "https://openalex.org/W4245594639",
       "https://openalex.org/W4256011517",
       "https://openalex.org/W4383907516",
       "https://openalex.org/W4401894335",
-      "https://openalex.org/W6605367177"
+      "https://openalex.org/W6812238480",
+      "https://openalex.org/W7052736325"
     ],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W2476169496",
-      "https://openalex.org/W4244591268",
-      "https://openalex.org/W4205253569",
-      "https://openalex.org/W1687359194",
-      "https://openalex.org/W2360048061",
-      "https://openalex.org/W2483767897",
-      "https://openalex.org/W4233800182",
-      "https://openalex.org/W2592404050"
+      "https://openalex.org/W4242733586",
+      "https://openalex.org/W4403096050",
+      "https://openalex.org/W2920828650",
+      "https://openalex.org/W3175023837",
+      "https://openalex.org/W3162768000",
+      "https://openalex.org/W3010761079",
+      "https://openalex.org/W7222153308",
+      "https://openalex.org/W4382703224",
+      "https://openalex.org/W1156253724",
+      "https://openalex.org/W2974725958"
     ],
     "abstract_inverted_index": {
       "Honor": [
@@ -7118,11 +7277,19 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 4
+      },
+      {
         "year": 2025,
         "cited_by_count": 5
+      },
+      {
+        "year": 2024,
+        "cited_by_count": 14
       }
     ],
-    "updated_date": "2026-05-21T06:26:12.895304",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2025-04-12T00:00:00"
   }
 ]

@@ -12625,7 +12625,7 @@
     "doi": "https://doi.org/10.1111/1467-8675.12778",
     "title": "The First Theorists of Liberal Democracy",
     "display_name": "The First Theorists of Liberal Democracy",
-    "relevance_score": 3.5398145,
+    "relevance_score": 2.4419343,
     "publication_year": 2025,
     "publication_date": "2025-03-06",
     "ids": {
@@ -12635,9 +12635,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1467-8675.12778",
-      "is_oa": true,
+      "doi": "https://doi.org/10.1111/1467-8675.12778",
+      "is_oa": false,
       "landing_page_url": "https://doi.org/10.1111/1467-8675.12778",
-      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-8675.12778",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S64143016",
         "display_name": "Constellations",
@@ -12649,6 +12650,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -12667,14 +12678,15 @@
       "raw_source_name": "Constellations",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
-      "is_oa": true,
-      "oa_status": "bronze",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-8675.12778",
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
       "any_repository_has_fulltext": false
     },
     "authorships": [
@@ -12683,7 +12695,10 @@
         "author": {
           "id": "https://openalex.org/A5041748917",
           "display_name": "Arthur Ghins",
-          "orcid": "https://orcid.org/0000-0002-2937-7093"
+          "orcid": "https://orcid.org/0000-0002-2937-7093",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2937-7093"
+          ]
         },
         "institutions": [
           {
@@ -12705,6 +12720,7 @@
         "raw_affiliation_strings": [
           "Charg\u00e9 de recherches FNRS, Universit\u00e9 Libre de Bruxelles, Centre de Th\u00e9orie Politique  Bruxelles Belgium"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Charg\u00e9 de recherches FNRS, Universit\u00e9 Libre de Bruxelles, Centre de Th\u00e9orie Politique  Bruxelles Belgium",
@@ -12725,22 +12741,22 @@
       "https://openalex.org/I132053463"
     ],
     "apc_list": {
-      "value": 2630,
+      "value": 2900,
       "currency": "USD",
-      "value_usd": 2630
+      "value_usd": 2900
     },
     "apc_paid": null,
-    "fwci": 9.08,
+    "fwci": 7.8532,
     "has_fulltext": false,
-    "cited_by_count": 1,
+    "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.95072003,
+      "value": 0.95867051,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 96
     },
     "biblio": {
       "volume": "32",
@@ -12754,7 +12770,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T13196",
       "display_name": "Political Theory and Influence",
-      "score": 0.9995999932289124,
+      "score": 0.7235999703407288,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -12772,7 +12788,24 @@
       {
         "id": "https://openalex.org/T13196",
         "display_name": "Political Theory and Influence",
-        "score": 0.9995999932289124,
+        "score": 0.7235999703407288,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13291",
+        "display_name": "Political Theory and Democracy",
+        "score": 0.27469998598098755,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -12789,7 +12822,7 @@
       {
         "id": "https://openalex.org/T12454",
         "display_name": "European Political History Analysis",
-        "score": 0.9955000281333923,
+        "score": 0.0006000000284984708,
         "subfield": {
           "id": "https://openalex.org/subfields/1202",
           "display_name": "History"
@@ -12802,65 +12835,38 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
-      },
-      {
-        "id": "https://openalex.org/T13445",
-        "display_name": "American Constitutional Law and Politics",
-        "score": 0.9761999845504761,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/democracy",
-        "display_name": "Democracy",
-        "score": 0.7455787658691406
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.554904580116272
-      },
-      {
         "id": "https://openalex.org/keywords/liberal-democracy",
-        "display_name": "Liberal democracy",
-        "score": 0.495842307806015
+        "display_name": "liberal democracy",
+        "score": 0.9980000257492065
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.36779701709747314
+        "id": "https://openalex.org/keywords/history-of-political-thought",
+        "display_name": "history of political thought",
+        "score": 0.6700000166893005
       },
       {
-        "id": "https://openalex.org/keywords/law-and-economics",
-        "display_name": "Law and economics",
-        "score": 0.34768766164779663
+        "id": "https://openalex.org/keywords/public-opinion",
+        "display_name": "public opinion",
+        "score": 0.6470000147819519
       },
       {
-        "id": "https://openalex.org/keywords/political-economy",
-        "display_name": "Political economy",
-        "score": 0.34762880206108093
+        "id": "https://openalex.org/keywords/liberalism",
+        "display_name": "liberalism",
+        "score": 0.37700000405311584
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.28259414434432983
+        "id": "https://openalex.org/keywords/french-liberalism",
+        "display_name": "French liberalism",
+        "score": 0.4410000145435333
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.12107416987419128
+        "id": "https://openalex.org/keywords/definition-of-democracy",
+        "display_name": "definition of democracy",
+        "score": 0.593999981880188
       }
     ],
     "concepts": [
@@ -12926,9 +12932,10 @@
     "locations": [
       {
         "id": "doi:10.1111/1467-8675.12778",
-        "is_oa": true,
+        "doi": "https://doi.org/10.1111/1467-8675.12778",
+        "is_oa": false,
         "landing_page_url": "https://doi.org/10.1111/1467-8675.12778",
-        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-8675.12778",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S64143016",
           "display_name": "Constellations",
@@ -12940,6 +12947,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -12959,41 +12976,16 @@
         "raw_type": "journal-article"
       }
     ],
-    "best_oa_location": {
-      "id": "doi:10.1111/1467-8675.12778",
-      "is_oa": true,
-      "landing_page_url": "https://doi.org/10.1111/1467-8675.12778",
-      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-8675.12778",
-      "source": {
-        "id": "https://openalex.org/S64143016",
-        "display_name": "Constellations",
-        "issn_l": "1351-0487",
-        "issn": [
-          "1351-0487",
-          "1467-8675"
-        ],
-        "is_oa": false,
-        "is_in_doaj": false,
-        "is_core": true,
-        "host_organization": "https://openalex.org/P4310320595",
-        "host_organization_name": "Wiley",
-        "host_organization_lineage": [
-          "https://openalex.org/P4310320595"
-        ],
-        "host_organization_lineage_names": [
-          "Wiley"
-        ],
-        "type": "journal"
-      },
-      "license": null,
-      "license_id": null,
-      "version": "publishedVersion",
-      "is_accepted": true,
-      "is_published": true,
-      "raw_source_name": "Constellations",
-      "raw_type": "journal-article"
-    },
-    "sustainable_development_goals": [],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.47620001435279846,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -13003,12 +12995,10 @@
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": true
+      "pdf": false,
+      "grobid_xml": false
     },
-    "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4408377784.pdf"
-    },
+    "content_urls": null,
     "referenced_works_count": 55,
     "referenced_works": [
       "https://openalex.org/W26030092",
@@ -13019,6 +13009,7 @@
       "https://openalex.org/W1548439188",
       "https://openalex.org/W1569289524",
       "https://openalex.org/W1575387458",
+      "https://openalex.org/W1977905103",
       "https://openalex.org/W1979592868",
       "https://openalex.org/W2041204732",
       "https://openalex.org/W2063440799",
@@ -13031,6 +13022,7 @@
       "https://openalex.org/W2331104407",
       "https://openalex.org/W2343896207",
       "https://openalex.org/W2735587992",
+      "https://openalex.org/W2753221422",
       "https://openalex.org/W2773054784",
       "https://openalex.org/W2793637475",
       "https://openalex.org/W2795397911",
@@ -13049,10 +13041,8 @@
       "https://openalex.org/W4241538133",
       "https://openalex.org/W4242720302",
       "https://openalex.org/W4242854034",
-      "https://openalex.org/W4243746573",
       "https://openalex.org/W4244799621",
       "https://openalex.org/W4246845302",
-      "https://openalex.org/W4247276202",
       "https://openalex.org/W4248420358",
       "https://openalex.org/W4248952300",
       "https://openalex.org/W4250814516",
@@ -13424,11 +13414,15 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
         "year": 2025,
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2025-12-23T23:11:35.936235",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -261199,7 +261193,7 @@
     "doi": "https://doi.org/10.1111/1467-8675.70056",
     "title": "Beyond the Populist Moment: Nationalism and the Democratic Chain of Conflict",
     "display_name": "Beyond the Populist Moment: Nationalism and the Democratic Chain of Conflict",
-    "relevance_score": 0.055597544,
+    "relevance_score": 0.15361035,
     "publication_year": 2026,
     "publication_date": "2026-04-16",
     "ids": {
@@ -261209,6 +261203,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1467-8675.70056",
+      "doi": "https://doi.org/10.1111/1467-8675.70056",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1467-8675.70056",
       "pdf_url": null,
@@ -261223,6 +261218,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -261241,6 +261246,7 @@
       "raw_source_name": "Constellations",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -261257,7 +261263,10 @@
         "author": {
           "id": "https://openalex.org/A5060397553",
           "display_name": "Michaelangelo Anastasiou",
-          "orcid": "https://orcid.org/0000-0002-4932-188X"
+          "orcid": "https://orcid.org/0000-0002-4932-188X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4932-188X"
+          ]
         },
         "institutions": [
           {
@@ -261300,29 +261309,29 @@
       "https://openalex.org/I17389662"
     ],
     "apc_list": {
-      "value": 2630,
+      "value": 2900,
       "currency": "USD",
-      "value_usd": 2630
+      "value_usd": 2900
     },
     "apc_paid": {
-      "value": 2630,
+      "value": 2900,
       "currency": "USD",
-      "value_usd": 2630
+      "value_usd": 2900
     },
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.91209389,
+      "value": 0.22753744,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "33",
+      "issue": "3",
+      "first_page": "402",
+      "last_page": "413"
     },
     "is_retracted": false,
     "is_paratext": false,
@@ -261330,7 +261339,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11397",
       "display_name": "Populism, Right-Wing Movements",
-      "score": 0.8974000215530396,
+      "score": 0.9970999956130981,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -261348,7 +261357,7 @@
       {
         "id": "https://openalex.org/T11397",
         "display_name": "Populism, Right-Wing Movements",
-        "score": 0.8974000215530396,
+        "score": 0.9970999956130981,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -261363,12 +261372,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T13537",
-        "display_name": "German legal, social, and political studies",
-        "score": 0.018400000408291817,
+        "id": "https://openalex.org/T13291",
+        "display_name": "Political Theory and Democracy",
+        "score": 0.0024999999441206455,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -261380,12 +261389,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T12686",
-        "display_name": "Central European national history",
-        "score": 0.007499999832361937,
+        "id": "https://openalex.org/T13814",
+        "display_name": "Cultural and political discourse analysis",
+        "score": 9.999999747378752e-05,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3310",
+          "display_name": "Linguistics and Language"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -261400,43 +261409,28 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/populism",
-        "display_name": "Populism",
-        "score": 0.975600004196167
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.5910000205039978
-      },
-      {
-        "id": "https://openalex.org/keywords/democracy",
-        "display_name": "Democracy",
-        "score": 0.5849000215530396
-      },
-      {
-        "id": "https://openalex.org/keywords/mainstream",
-        "display_name": "Mainstream",
-        "score": 0.4178999960422516
+        "display_name": "populism",
+        "score": 0.8880000114440918
       },
       {
         "id": "https://openalex.org/keywords/nationalism",
-        "display_name": "Nationalism",
-        "score": 0.364300012588501
+        "display_name": "nationalism",
+        "score": 0.828000009059906
       },
       {
-        "id": "https://openalex.org/keywords/ambiguity",
-        "display_name": "Ambiguity",
-        "score": 0.3587000072002411
+        "id": "https://openalex.org/keywords/democracy",
+        "display_name": "democracy",
+        "score": 0.7940000295639038
       },
       {
-        "id": "https://openalex.org/keywords/scholarship",
-        "display_name": "Scholarship",
-        "score": 0.35030001401901245
+        "id": "https://openalex.org/keywords/the-people",
+        "display_name": "the people",
+        "score": 0.7080000042915344
       },
       {
-        "id": "https://openalex.org/keywords/intelligentsia",
-        "display_name": "Intelligentsia",
-        "score": 0.29319998621940613
+        "id": "https://openalex.org/keywords/identity-politics",
+        "display_name": "identity politics",
+        "score": 0.3109999895095825
       }
     ],
     "concepts": [
@@ -261621,6 +261615,7 @@
     "locations": [
       {
         "id": "doi:10.1111/1467-8675.70056",
+        "doi": "https://doi.org/10.1111/1467-8675.70056",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/1467-8675.70056",
         "pdf_url": null,
@@ -261635,6 +261630,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -261656,6 +261661,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1111/1467-8675.70056",
+      "doi": "https://doi.org/10.1111/1467-8675.70056",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1467-8675.70056",
       "pdf_url": null,
@@ -261670,6 +261676,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -261688,12 +261704,20 @@
       "raw_source_name": "Constellations",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.6601999998092651,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 39,
@@ -267238,7 +267262,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-04-17T06:04:52.305304",
+    "updated_date": "2026-09-10T07:47:47.112893",
     "created_date": "2026-04-17T00:00:00"
   },
   {
@@ -322086,5 +322110,607 @@
     "counts_by_year": [],
     "updated_date": "2026-01-20T23:28:44.954186",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7128677856",
+    "doi": "https://doi.org/10.1111/1467-8675.70036",
+    "title": "Deliberating the End of the World: The Rise of the Climate Citizen Assembly and the Transformation of Government",
+    "display_name": "Deliberating the End of the World: The Rise of the Climate Citizen Assembly and the Transformation of Government",
+    "relevance_score": 2.4413676,
+    "publication_year": 2026,
+    "publication_date": "2026-02-12",
+    "ids": {
+      "openalex": "https://openalex.org/W7128677856",
+      "doi": "https://doi.org/10.1111/1467-8675.70036"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1111/1467-8675.70036",
+      "doi": "https://doi.org/10.1111/1467-8675.70036",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/1467-8675.70036",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-8675.70036",
+      "source": {
+        "id": "https://openalex.org/S64143016",
+        "display_name": "Constellations",
+        "issn_l": "1351-0487",
+        "issn": [
+          "1351-0487",
+          "1467-8675"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Constellations",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-8675.70036",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5005243606",
+          "display_name": "Amnon Lev",
+          "orcid": "https://orcid.org/0000-0002-2708-5986",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2708-5986"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I124055696",
+            "display_name": "University of Copenhagen",
+            "ror": "https://ror.org/035b05819",
+            "country_code": "DK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I124055696"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Amnon Lev",
+        "raw_affiliation_strings": [
+          "Faculty of Law University of Copenhagen  Copenhagen Denmark"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-2708-5986",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Law University of Copenhagen  Copenhagen Denmark",
+            "institution_ids": [
+              "https://openalex.org/I124055696"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5005243606"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I124055696"
+    ],
+    "apc_list": {
+      "value": 2900,
+      "currency": "USD",
+      "value_usd": 2900
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.07207962,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "33",
+      "issue": "1",
+      "first_page": "54",
+      "last_page": "61"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13291",
+      "display_name": "Political Theory and Democracy",
+      "score": 0.9965999722480774,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13291",
+        "display_name": "Political Theory and Democracy",
+        "score": 0.9965999722480774,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10119",
+        "display_name": "Sustainability and Climate Change Governance",
+        "score": 0.0003000000142492354,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2306",
+          "display_name": "Global and Planetary Change"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12895",
+        "display_name": "Environmental law and policy",
+        "score": 0.00019999999494757503,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/deliberative-democracy",
+        "display_name": "deliberative democracy",
+        "score": 0.9559999704360962
+      },
+      {
+        "id": "https://openalex.org/keywords/climate-governance",
+        "display_name": "climate governance",
+        "score": 0.7760000228881836
+      },
+      {
+        "id": "https://openalex.org/keywords/citizen-participation",
+        "display_name": "citizen participation",
+        "score": 0.5289999842643738
+      },
+      {
+        "id": "https://openalex.org/keywords/climate-activism",
+        "display_name": "climate activism",
+        "score": 0.625
+      },
+      {
+        "id": "https://openalex.org/keywords/european-climate-policy",
+        "display_name": "European climate policy",
+        "score": 0.4020000100135803
+      },
+      {
+        "id": "https://openalex.org/keywords/public-deliberation",
+        "display_name": "public deliberation",
+        "score": 0.6269999742507935
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2778137410",
+        "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+        "display_name": "Government (linguistics)",
+        "level": 2,
+        "score": 0.761900007724762
+      },
+      {
+        "id": "https://openalex.org/C204241405",
+        "wikidata": "https://www.wikidata.org/wiki/Q461499",
+        "display_name": "Transformation (genetics)",
+        "level": 3,
+        "score": 0.6898999810218811
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.6365000009536743
+      },
+      {
+        "id": "https://openalex.org/C3116431",
+        "wikidata": "https://www.wikidata.org/wiki/Q31728",
+        "display_name": "Public administration",
+        "level": 1,
+        "score": 0.5177000164985657
+      },
+      {
+        "id": "https://openalex.org/C138921699",
+        "wikidata": "https://www.wikidata.org/wiki/Q47555",
+        "display_name": "Political economy",
+        "level": 1,
+        "score": 0.49410000443458557
+      },
+      {
+        "id": "https://openalex.org/C132651083",
+        "wikidata": "https://www.wikidata.org/wiki/Q7942",
+        "display_name": "Climate change",
+        "level": 2,
+        "score": 0.4050999879837036
+      },
+      {
+        "id": "https://openalex.org/C74363100",
+        "wikidata": "https://www.wikidata.org/wiki/Q273005",
+        "display_name": "Economic system",
+        "level": 1,
+        "score": 0.28949999809265137
+      },
+      {
+        "id": "https://openalex.org/C190253527",
+        "wikidata": "https://www.wikidata.org/wiki/Q295354",
+        "display_name": "Law and economics",
+        "level": 1,
+        "score": 0.28600001335144043
+      },
+      {
+        "id": "https://openalex.org/C2987945947",
+        "wikidata": "https://www.wikidata.org/wiki/Q1774427",
+        "display_name": "Climate policy",
+        "level": 3,
+        "score": 0.24459999799728394
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.21559999883174896
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1111/1467-8675.70036",
+        "doi": "https://doi.org/10.1111/1467-8675.70036",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/1467-8675.70036",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-8675.70036",
+        "source": {
+          "id": "https://openalex.org/S64143016",
+          "display_name": "Constellations",
+          "issn_l": "1351-0487",
+          "issn": [
+            "1351-0487",
+            "1467-8675"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Constellations",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:pure.atira.dk:openaire_cris_publications/49c38c89-65ae-4229-9959-f776f0a70099",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://researchprofiles.ku.dk/da/publications/49c38c89-65ae-4229-9959-f776f0a70099",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401983",
+          "display_name": "Research at the University of Copenhagen (University of Copenhagen)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I124055696",
+          "host_organization_name": "University of Copenhagen",
+          "host_organization_lineage": [
+            "https://openalex.org/I124055696"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Lev, A 2026, 'Deliberating the End of the World : The Rise of the Climate Citizen Assembly and the Transformation of Government', Constellations: an international journal of critical and democratic theory, vol. 33, no. 1, pp. 54-61. https://doi.org/10.1111/1467-8675.70036",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1111/1467-8675.70036",
+      "doi": "https://doi.org/10.1111/1467-8675.70036",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/1467-8675.70036",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-8675.70036",
+      "source": {
+        "id": "https://openalex.org/S64143016",
+        "display_name": "Constellations",
+        "issn_l": "1351-0487",
+        "issn": [
+          "1351-0487",
+          "1467-8675"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Constellations",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 1.0,
+        "id": "https://metadata.un.org/sdg/13",
+        "display_name": "Climate action"
+      },
+      {
+        "score": 0.8046000003814697,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.8417676091194153,
+        "id": "https://metadata.un.org/sdg/13",
+        "display_name": "Climate action"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7128677856.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7128677856.grobid-xml"
+    },
+    "referenced_works_count": 13,
+    "referenced_works": [
+      "https://openalex.org/W2754249537",
+      "https://openalex.org/W2921815814",
+      "https://openalex.org/W2937000374",
+      "https://openalex.org/W2966430463",
+      "https://openalex.org/W2970121495",
+      "https://openalex.org/W2991370504",
+      "https://openalex.org/W3039295994",
+      "https://openalex.org/W3143580710",
+      "https://openalex.org/W4200092322",
+      "https://openalex.org/W4213439731",
+      "https://openalex.org/W4236076161",
+      "https://openalex.org/W4239071453",
+      "https://openalex.org/W4323355568"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Since": [
+        0
+      ],
+      "2016,": [
+        1
+      ],
+      "a": [
+        2
+      ],
+      "number": [
+        3
+      ],
+      "of": [
+        4,
+        36
+      ],
+      "European": [
+        5
+      ],
+      "countries": [
+        6
+      ],
+      "have": [
+        7
+      ],
+      "convened": [
+        8
+      ],
+      "citizens": [
+        9
+      ],
+      "to": [
+        10,
+        16
+      ],
+      "deliberate": [
+        11
+      ],
+      "how": [
+        12
+      ],
+      "society": [
+        13
+      ],
+      "should": [
+        14
+      ],
+      "respond": [
+        15
+      ],
+      "climate": [
+        17
+      ],
+      "change:": [
+        18
+      ],
+      "Austria,": [
+        19
+      ],
+      "Denmark,": [
+        20
+      ],
+      "Finland,": [
+        21
+      ],
+      "France,": [
+        22
+      ],
+      "Germany,": [
+        23
+      ],
+      "Ireland,": [
+        24
+      ],
+      "Luxembourg,": [
+        25
+      ],
+      "Spain,": [
+        26
+      ],
+      "and": [
+        27,
+        30
+      ],
+      "Sweden.The": [
+        28
+      ],
+      "activists": [
+        29
+      ],
+      "scholars": [
+        31
+      ],
+      "that": [
+        32
+      ],
+      "followed": [
+        33
+      ],
+      "the": [
+        34,
+        37
+      ],
+      "work": [
+        35
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-15T10:00:46.086208",
+    "created_date": "2026-02-13T00:00:00"
   }
 ]

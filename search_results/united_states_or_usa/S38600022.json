@@ -162789,7 +162789,7 @@
     "doi": "https://doi.org/10.1353/hrq.2025.a958148",
     "title": "Grounds of Affirmative Action",
     "display_name": "Grounds of Affirmative Action",
-    "relevance_score": 0.41787013,
+    "relevance_score": 0.82615924,
     "publication_year": 2025,
     "publication_date": "2025-04-25",
     "ids": {
@@ -162799,6 +162799,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1353/hrq.2025.a958148",
+      "doi": "https://doi.org/10.1353/hrq.2025.a958148",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1353/hrq.2025.a958148",
       "pdf_url": null,
@@ -162813,6 +162814,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315678",
         "host_organization_name": "Johns Hopkins University Press",
         "host_organization_lineage": [
@@ -162833,6 +162844,7 @@
       "raw_source_name": "Human Rights Quarterly",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -162849,19 +162861,23 @@
         "author": {
           "id": "https://openalex.org/A5029960632",
           "display_name": "Shreya Atrey",
-          "orcid": "https://orcid.org/0000-0001-7982-2266"
+          "orcid": "https://orcid.org/0000-0001-7982-2266",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7982-2266"
+          ]
         },
         "institutions": [],
         "countries": [],
         "is_corresponding": true,
         "raw_author_name": "Shreya Atrey",
         "raw_affiliation_strings": [],
+        "raw_orcid": null,
         "affiliations": []
       }
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5029960632"
     ],
@@ -162872,7 +162888,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.09861257,
+      "value": 0.08890301,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -162887,12 +162903,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13445",
-      "display_name": "American Constitutional Law and Politics",
-      "score": 0.04809999838471413,
+      "id": "https://openalex.org/T13170",
+      "display_name": "Discrimination and Equality Law",
+      "score": 0.9984999895095825,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -162905,12 +162921,46 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13445",
-        "display_name": "American Constitutional Law and Politics",
-        "score": 0.04809999838471413,
+        "id": "https://openalex.org/T13170",
+        "display_name": "Discrimination and Equality Law",
+        "score": 0.9984999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12332",
+        "display_name": "Comparative constitutional jurisprudence studies",
+        "score": 0.000699999975040555,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14288",
+        "display_name": "Law, Rights, and Freedoms",
+        "score": 0.00019999999494757503,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -162925,38 +162975,58 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/affirmative-action",
-        "display_name": "Affirmative action",
-        "score": 0.9520477056503296
+        "display_name": "affirmative action",
+        "score": 0.9919999837875366
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.502671480178833
+        "id": "https://openalex.org/keywords/grounds-of-discrimination",
+        "display_name": "grounds of discrimination",
+        "score": 0.9390000104904175
       },
       {
-        "id": "https://openalex.org/keywords/action",
-        "display_name": "Action (physics)",
-        "score": 0.4727925956249237
+        "id": "https://openalex.org/keywords/caste",
+        "display_name": "caste",
+        "score": 0.7549999952316284
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.3596230745315552
+        "id": "https://openalex.org/keywords/race",
+        "display_name": "race",
+        "score": 0.9580000042915344
       },
       {
-        "id": "https://openalex.org/keywords/law-and-economics",
-        "display_name": "Law and economics",
-        "score": 0.3224692940711975
+        "id": "https://openalex.org/keywords/economic-status",
+        "display_name": "economic status",
+        "score": 0.7699999809265137
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.26828640699386597
+        "id": "https://openalex.org/keywords/material-deprivation",
+        "display_name": "material deprivation",
+        "score": 0.765999972820282
       },
       {
-        "id": "https://openalex.org/keywords/physics",
-        "display_name": "Physics",
-        "score": 0.06767633557319641
+        "id": "https://openalex.org/keywords/social-status",
+        "display_name": "social status",
+        "score": 0.7129999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/supreme-court-of-india",
+        "display_name": "Supreme Court of India",
+        "score": 0.7870000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/united-states-supreme-court",
+        "display_name": "United States Supreme Court",
+        "score": 0.9010000228881836
+      },
+      {
+        "id": "https://openalex.org/keywords/discrimination-law",
+        "display_name": "discrimination law",
+        "score": 0.4129999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/transformative-justice",
+        "display_name": "transformative justice",
+        "score": 0.7319999933242798
       }
     ],
     "concepts": [
@@ -163018,10 +163088,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 1,
     "locations": [
       {
         "id": "doi:10.1353/hrq.2025.a958148",
+        "doi": "https://doi.org/10.1353/hrq.2025.a958148",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1353/hrq.2025.a958148",
         "pdf_url": null,
@@ -163036,6 +163107,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315678",
           "host_organization_name": "Johns Hopkins University Press",
           "host_organization_lineage": [
@@ -163055,59 +163136,43 @@
         "is_published": true,
         "raw_source_name": "Human Rights Quarterly",
         "raw_type": "journal-article"
-      },
-      {
-        "id": "pmh:oai:ora.ox.ac.uk:uuid:003c9eab-bef5-42c4-bb6e-9f4acaa5d54d",
-        "is_oa": false,
-        "landing_page_url": null,
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4306402636",
-          "display_name": "Oxford University Research Archive (ORA) (University of Oxford)",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "host_organization": "https://openalex.org/I40120149",
-          "host_organization_name": "University of Oxford",
-          "host_organization_lineage": [
-            "https://openalex.org/I40120149"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": "Symplectic Elements",
-        "raw_type": "Journal article"
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.8974000215530396,
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "score": 0.5473999977111816,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W2899084033",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W1568702712",
-      "https://openalex.org/W640333583",
-      "https://openalex.org/W2914285022",
-      "https://openalex.org/W2124542705",
-      "https://openalex.org/W2336282899",
-      "https://openalex.org/W3119593500",
-      "https://openalex.org/W1412540370"
+      "https://openalex.org/W4312457998",
+      "https://openalex.org/W198637455",
+      "https://openalex.org/W2268709008",
+      "https://openalex.org/W4307006098",
+      "https://openalex.org/W2223274620",
+      "https://openalex.org/W1002665693",
+      "https://openalex.org/W4293757433",
+      "https://openalex.org/W4386713680",
+      "https://openalex.org/W38164383",
+      "https://openalex.org/W4255663159"
     ],
     "abstract_inverted_index": {
       "ABSTRACT:": [
@@ -163486,8 +163551,8 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-04-04T16:13:02.066488",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-09-06T09:10:53.072986",
+    "created_date": "2025-04-26T00:00:00"
   },
   {
     "id": "https://openalex.org/W4403986215",

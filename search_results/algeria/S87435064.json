@@ -61246,7 +61246,7 @@
     "doi": "https://doi.org/10.1017/s0020743825100731",
     "title": "\u201cThe Trees POV\u201d: Refugee Landscapes in Postrevolutionary Tunisian Cinema",
     "display_name": "\u201cThe Trees POV\u201d: Refugee Landscapes in Postrevolutionary Tunisian Cinema",
-    "relevance_score": 0.9853741,
+    "relevance_score": 2.837675,
     "publication_year": 2025,
     "publication_date": "2025-02-01",
     "ids": {
@@ -61256,6 +61256,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0020743825100731",
+      "doi": "https://doi.org/10.1017/s0020743825100731",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0020743825100731",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/584717EE205881B6F8315E0932E93523/S0020743825100731a.pdf/div-class-title-the-trees-pov-refugee-landscapes-in-postrevolutionary-tunisian-cinema-div.pdf",
@@ -61270,6 +61271,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-2",
+          "norway-2",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -61290,6 +61301,7 @@
       "raw_source_name": "International Journal of Middle East Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -61306,7 +61318,10 @@
         "author": {
           "id": "https://openalex.org/A5078476350",
           "display_name": "Anna Levett",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-6139-294X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6139-294X"
+          ]
         },
         "institutions": [
           {
@@ -61328,6 +61343,7 @@
         "raw_affiliation_strings": [
           "Oberlin College"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Oberlin College",
@@ -61347,13 +61363,21 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I70571728"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.28695998,
+      "value": 0.21160957,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -61368,16 +61392,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T14402",
-      "display_name": "Political and Social Issues",
-      "score": 0.9883000254631042,
+      "id": "https://openalex.org/T12803",
+      "display_name": "Cinema History and Criticism",
+      "score": 0.763700008392334,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/1213",
+        "display_name": "Visual Arts and Performing Arts"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -61386,9 +61410,43 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T12803",
+        "display_name": "Cinema History and Criticism",
+        "score": 0.763700008392334,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1213",
+          "display_name": "Visual Arts and Performing Arts"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14062",
+        "display_name": "Migration and Exile Studies",
+        "score": 0.06970000267028809,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T14402",
         "display_name": "Political and Social Issues",
-        "score": 0.9883000254631042,
+        "score": 0.02850000001490116,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -61401,72 +61459,23 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
-      },
-      {
-        "id": "https://openalex.org/T12585",
-        "display_name": "North African History and Literature",
-        "score": 0.9656999707221985,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12909",
-        "display_name": "French Historical and Cultural Studies",
-        "score": 0.9581000208854675,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/movie-theater",
-        "display_name": "Movie theater",
-        "score": 0.8760542273521423
+        "id": "https://openalex.org/keywords/arab-spring",
+        "display_name": "Arab Spring",
+        "score": 0.8629999756813049
       },
       {
-        "id": "https://openalex.org/keywords/refugee",
-        "display_name": "Refugee",
-        "score": 0.6149932146072388
+        "id": "https://openalex.org/keywords/third-country-nationals",
+        "display_name": "third-country nationals",
+        "score": 0.5379999876022339
       },
       {
-        "id": "https://openalex.org/keywords/art",
-        "display_name": "Art",
-        "score": 0.44358181953430176
-      },
-      {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.32096803188323975
-      },
-      {
-        "id": "https://openalex.org/keywords/art-history",
-        "display_name": "Art history",
-        "score": 0.2860375642776489
-      },
-      {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.24044647812843323
+        "id": "https://openalex.org/keywords/migration-in-film",
+        "display_name": "migration in film",
+        "score": 0.3089999854564667
       }
     ],
     "concepts": [
@@ -61518,6 +61527,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s0020743825100731",
+        "doi": "https://doi.org/10.1017/s0020743825100731",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0020743825100731",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/584717EE205881B6F8315E0932E93523/S0020743825100731a.pdf/div-class-title-the-trees-pov-refugee-landscapes-in-postrevolutionary-tunisian-cinema-div.pdf",
@@ -61532,6 +61542,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-2",
+            "norway-2",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -61555,6 +61575,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0020743825100731",
+      "doi": "https://doi.org/10.1017/s0020743825100731",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0020743825100731",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/584717EE205881B6F8315E0932E93523/S0020743825100731a.pdf/div-class-title-the-trees-pov-refugee-landscapes-in-postrevolutionary-tunisian-cinema-div.pdf",
@@ -61569,6 +61590,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-2",
+          "norway-2",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -61589,12 +61620,20 @@
       "raw_source_name": "International Journal of Middle East Studies",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.6601999998092651,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4413436546.pdf",
@@ -61603,16 +61642,16 @@
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W4387497383",
-      "https://openalex.org/W3183948672",
-      "https://openalex.org/W3173606202",
-      "https://openalex.org/W3110381201",
-      "https://openalex.org/W2948807893",
-      "https://openalex.org/W2899084033",
-      "https://openalex.org/W2778153218",
-      "https://openalex.org/W2758277628",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W1531601525"
+      "https://openalex.org/W2085143338",
+      "https://openalex.org/W3006451532",
+      "https://openalex.org/W4206564040",
+      "https://openalex.org/W156023835",
+      "https://openalex.org/W2520241171",
+      "https://openalex.org/W2167792657",
+      "https://openalex.org/W7020995537",
+      "https://openalex.org/W2938309022",
+      "https://openalex.org/W2556262974",
+      "https://openalex.org/W7112779576"
     ],
     "abstract_inverted_index": {
       "In": [
@@ -61962,7 +62001,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-09-21T07:43:02.447757",
     "created_date": "2025-10-10T00:00:00"
   },
   {

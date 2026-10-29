@@ -1401,7 +1401,7 @@
     "doi": "https://doi.org/10.64590/ifg",
     "title": "Iran Under Fire",
     "display_name": "Iran Under Fire",
-    "relevance_score": 19.704155,
+    "relevance_score": 41.542133,
     "publication_year": 2026,
     "publication_date": "2026-01-31",
     "ids": {
@@ -1411,6 +1411,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.64590/ifg",
+      "doi": "https://doi.org/10.64590/ifg",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.64590/ifg",
       "pdf_url": null,
@@ -1425,6 +1426,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
@@ -1445,6 +1454,7 @@
       "raw_source_name": "New Left Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -1459,9 +1469,10 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5127911281",
+          "id": "https://openalex.org/A5081175671",
           "display_name": "Ervand Abrahamian",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
@@ -1476,7 +1487,7 @@
     "countries_distinct_count": 0,
     "institutions_distinct_count": 0,
     "corresponding_author_ids": [
-      "https://openalex.org/A5127911281"
+      "https://openalex.org/A5081175671"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
@@ -1485,7 +1496,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.17194656,
+      "value": 0.09962189,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -1500,12 +1511,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10794",
-      "display_name": "Islamic Studies and History",
-      "score": 0.13330000638961792,
+      "id": "https://openalex.org/T13103",
+      "display_name": "Middle East Politics and Society",
+      "score": 0.9258000254631042,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -1518,9 +1529,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.9258000254631042,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T10794",
         "display_name": "Islamic Studies and History",
-        "score": 0.13330000638961792,
+        "score": 0.039799999445676804,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -1537,27 +1565,10 @@
       {
         "id": "https://openalex.org/T12550",
         "display_name": "Politics and Conflicts in Afghanistan, Pakistan, and Middle East",
-        "score": 0.05270000174641609,
+        "score": 0.01979999989271164,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13103",
-        "display_name": "Middle East Politics and Society",
-        "score": 0.026799999177455902,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -1571,24 +1582,19 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/denunciation",
-        "display_name": "Denunciation",
-        "score": 0.9168999791145325
+        "id": "https://openalex.org/keywords/islamic-republic-of-iran",
+        "display_name": "Islamic Republic of Iran",
+        "score": 0.8690000176429749
       },
       {
-        "id": "https://openalex.org/keywords/islam",
-        "display_name": "Islam",
-        "score": 0.613099992275238
+        "id": "https://openalex.org/keywords/power-structures",
+        "display_name": "power structures",
+        "score": 0.7200000286102295
       },
       {
-        "id": "https://openalex.org/keywords/power",
-        "display_name": "Power (physics)",
-        "score": 0.544700026512146
-      },
-      {
-        "id": "https://openalex.org/keywords/spanish-civil-war",
-        "display_name": "Spanish Civil War",
-        "score": 0.24459999799728394
+        "id": "https://openalex.org/keywords/us-iran-relations",
+        "display_name": "US-Iran relations",
+        "score": 0.5189999938011169
       }
     ],
     "concepts": [
@@ -1668,6 +1674,7 @@
     "locations": [
       {
         "id": "doi:10.64590/ifg",
+        "doi": "https://doi.org/10.64590/ifg",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.64590/ifg",
         "pdf_url": null,
@@ -1682,6 +1689,14 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-2",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
@@ -1704,7 +1719,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.9559999704360962,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -1714,7 +1737,18 @@
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W3205005215",
+      "https://openalex.org/W7221749400",
+      "https://openalex.org/W7212124641",
+      "https://openalex.org/W4415870530",
+      "https://openalex.org/W2772608235",
+      "https://openalex.org/W1460312080",
+      "https://openalex.org/W3037417973",
+      "https://openalex.org/W2013427328",
+      "https://openalex.org/W7149998352",
+      "https://openalex.org/W2406651443"
+    ],
     "abstract_inverted_index": {
       "One": [
         0
@@ -1827,7 +1861,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-08-15T07:11:24.734988",
+    "updated_date": "2026-10-12T09:40:04.860316",
     "created_date": "2026-03-04T00:00:00"
   },
   {
@@ -2743,7 +2777,7 @@
     "doi": "https://doi.org/10.64590/psv",
     "title": "Trump Abroad",
     "display_name": "Trump Abroad",
-    "relevance_score": 1.5583755,
+    "relevance_score": 3.0954313,
     "publication_year": 2026,
     "publication_date": "2026-01-31",
     "ids": {
@@ -2753,6 +2787,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.64590/psv",
+      "doi": "https://doi.org/10.64590/psv",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.64590/psv",
       "pdf_url": null,
@@ -2767,6 +2802,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
@@ -2787,6 +2830,7 @@
       "raw_source_name": "New Left Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -2801,9 +2845,10 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5127953647",
+          "id": "https://openalex.org/A5119612749",
           "display_name": "Susan Watkins",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
@@ -2818,7 +2863,7 @@
     "countries_distinct_count": 0,
     "institutions_distinct_count": 0,
     "corresponding_author_ids": [
-      "https://openalex.org/A5127953647"
+      "https://openalex.org/A5119612749"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
@@ -2827,7 +2872,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.1706295,
+      "value": 0.10564736,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -2842,9 +2887,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13995",
-      "display_name": "Globalization and political ideologies",
-      "score": 0.01889999955892563,
+      "id": "https://openalex.org/T10053",
+      "display_name": "International Relations and Foreign Policy",
+      "score": 0.9218999743461609,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -2860,9 +2905,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13995",
-        "display_name": "Globalization and political ideologies",
-        "score": 0.01889999955892563,
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.9218999743461609,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -2877,12 +2922,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T13655",
-        "display_name": "Canadian Policy and Governance",
-        "score": 0.010400000028312206,
+        "id": "https://openalex.org/T10994",
+        "display_name": "Terrorism, Counterterrorism, and Political Violence",
+        "score": 0.010900000110268593,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -2894,9 +2939,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T14176",
-        "display_name": "Interdisciplinary Cultural and Social Studies",
-        "score": 0.010200000368058681,
+        "id": "https://openalex.org/T11743",
+        "display_name": "Political Economy and Marxism",
+        "score": 0.00570000009611249,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -2913,24 +2958,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/covert",
-        "display_name": "Covert",
-        "score": 0.786899983882904
+        "id": "https://openalex.org/keywords/donald-trump",
+        "display_name": "Donald Trump",
+        "score": 0.7739999890327454
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.6295999884605408
+        "id": "https://openalex.org/keywords/us-foreign-policy",
+        "display_name": "US foreign policy",
+        "score": 0.9819999933242798
       },
       {
-        "id": "https://openalex.org/keywords/attrition",
-        "display_name": "Attrition",
-        "score": 0.45579999685287476
+        "id": "https://openalex.org/keywords/assassination",
+        "display_name": "assassination",
+        "score": 0.4189999997615814
       },
       {
-        "id": "https://openalex.org/keywords/political-activism",
-        "display_name": "Political activism",
-        "score": 0.25130000710487366
+        "id": "https://openalex.org/keywords/covert-operations",
+        "display_name": "covert operations",
+        "score": 0.7879999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/counter-revolution",
+        "display_name": "counter-revolution",
+        "score": 0.5230000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/iran",
+        "display_name": "Iran",
+        "score": 0.49000000953674316
+      },
+      {
+        "id": "https://openalex.org/keywords/china",
+        "display_name": "China",
+        "score": 0.8769999742507935
+      },
+      {
+        "id": "https://openalex.org/keywords/caribbean",
+        "display_name": "Caribbean",
+        "score": 0.6990000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/political-logic",
+        "display_name": "political logic",
+        "score": 0.36399999260902405
       }
     ],
     "concepts": [
@@ -3017,6 +3087,7 @@
     "locations": [
       {
         "id": "doi:10.64590/psv",
+        "doi": "https://doi.org/10.64590/psv",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.64590/psv",
         "pdf_url": null,
@@ -3031,6 +3102,14 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-2",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
@@ -3053,7 +3132,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.7297000288963318,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -3063,7 +3150,18 @@
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W2626398657",
+      "https://openalex.org/W7161828981",
+      "https://openalex.org/W4234520438",
+      "https://openalex.org/W2795243233",
+      "https://openalex.org/W4413483583",
+      "https://openalex.org/W7071778981",
+      "https://openalex.org/W2990876576",
+      "https://openalex.org/W4230948494",
+      "https://openalex.org/W6925574555",
+      "https://openalex.org/W6902390841"
+    ],
     "abstract_inverted_index": {
       "In": [
         0
@@ -3191,7 +3289,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-08-15T07:11:24.734988",
+    "updated_date": "2026-09-24T07:57:37.273135",
     "created_date": "2026-03-04T00:00:00"
   },
   {
@@ -3199,7 +3297,7 @@
     "doi": "https://doi.org/10.64590/sbo",
     "title": "Israel after Fordow",
     "display_name": "Israel after Fordow",
-    "relevance_score": 1.530919,
+    "relevance_score": 3.0503194,
     "publication_year": 2025,
     "publication_date": "2025-07-31",
     "ids": {
@@ -3209,6 +3307,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.64590/sbo",
+      "doi": "https://doi.org/10.64590/sbo",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.64590/sbo",
       "pdf_url": "https://newleftreview.org/issues/ii154/articles/susan-watkins-israel-after-fordow.pdf",
@@ -3223,6 +3322,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
@@ -3243,6 +3350,7 @@
       "raw_source_name": "New Left Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -3259,7 +3367,8 @@
         "author": {
           "id": "https://openalex.org/A5119612749",
           "display_name": "Susan Watkins",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
@@ -3283,7 +3392,7 @@
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.26982156,
+      "value": 0.2233678,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -3300,7 +3409,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11203",
       "display_name": "Jewish and Middle Eastern Studies",
-      "score": 0.9412999749183655,
+      "score": 0.6582000255584717,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -3318,10 +3427,44 @@
       {
         "id": "https://openalex.org/T11203",
         "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.9412999749183655,
+        "score": 0.6582000255584717,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.2937000095844269,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.0272000003606081,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -3335,29 +3478,34 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/offensive",
-        "display_name": "Offensive",
-        "score": 0.9182999730110168
+        "id": "https://openalex.org/keywords/benjamin-netanyahu",
+        "display_name": "Benjamin Netanyahu",
+        "score": 0.7559999823570251
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.6054999828338623
+        "id": "https://openalex.org/keywords/lebanon",
+        "display_name": "Lebanon",
+        "score": 0.5630000233650208
       },
       {
-        "id": "https://openalex.org/keywords/investment",
-        "display_name": "Investment (military)",
-        "score": 0.5716999769210815
+        "id": "https://openalex.org/keywords/syria",
+        "display_name": "Syria",
+        "score": 0.9660000205039978
       },
       {
-        "id": "https://openalex.org/keywords/middle-east",
-        "display_name": "Middle East",
-        "score": 0.5648999810218811
+        "id": "https://openalex.org/keywords/middle-east-conflict",
+        "display_name": "Middle East conflict",
+        "score": 0.5519999861717224
       },
       {
-        "id": "https://openalex.org/keywords/state",
-        "display_name": "State (computer science)",
-        "score": 0.4810999929904938
+        "id": "https://openalex.org/keywords/western-foreign-policy",
+        "display_name": "Western foreign policy",
+        "score": 0.5580000281333923
+      },
+      {
+        "id": "https://openalex.org/keywords/israeli-palestinian-conflict",
+        "display_name": "Israeli-Palestinian conflict",
+        "score": 0.5479999780654907
       }
     ],
     "concepts": [
@@ -3451,6 +3599,7 @@
     "locations": [
       {
         "id": "doi:10.64590/sbo",
+        "doi": "https://doi.org/10.64590/sbo",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.64590/sbo",
         "pdf_url": "https://newleftreview.org/issues/ii154/articles/susan-watkins-israel-after-fordow.pdf",
@@ -3465,6 +3614,14 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-2",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
@@ -3488,6 +3645,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.64590/sbo",
+      "doi": "https://doi.org/10.64590/sbo",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.64590/sbo",
       "pdf_url": "https://newleftreview.org/issues/ii154/articles/susan-watkins-israel-after-fordow.pdf",
@@ -3502,6 +3660,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
@@ -3522,7 +3688,15 @@
       "raw_source_name": "New Left Review",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.6601999998092651,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -3535,7 +3709,18 @@
     },
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W1436723340",
+      "https://openalex.org/W4403475449",
+      "https://openalex.org/W7150883122",
+      "https://openalex.org/W3109495047",
+      "https://openalex.org/W4238940438",
+      "https://openalex.org/W7213855636",
+      "https://openalex.org/W6922504292",
+      "https://openalex.org/W7213829160",
+      "https://openalex.org/W2503568184",
+      "https://openalex.org/W3038909520"
+    ],
     "abstract_inverted_index": {
       "Netanyahu": [
         0
@@ -4214,5 +4399,517 @@
     "counts_by_year": [],
     "updated_date": "2026-08-15T07:11:24.734988",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7160202227",
+    "doi": "https://doi.org/10.64590/plc",
+    "title": "Trump\u2019s Gulf War",
+    "display_name": "Trump\u2019s Gulf War",
+    "relevance_score": 3.3196435,
+    "publication_year": 2026,
+    "publication_date": "2026-03-31",
+    "ids": {
+      "openalex": "https://openalex.org/W7160202227",
+      "doi": "https://doi.org/10.64590/plc"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.64590/plc",
+      "doi": "https://doi.org/10.64590/plc",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.64590/plc",
+      "pdf_url": "https://newleftreview.org/issues/ii158/articles/alexander-zevin-trump-s-gulf-war.pdf",
+      "source": {
+        "id": "https://openalex.org/S83938913",
+        "display_name": "New Left Review",
+        "issn_l": "0028-6060",
+        "issn": [
+          "0028-6060",
+          "2044-0480"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "New Left Review",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://newleftreview.org/issues/ii158/articles/alexander-zevin-trump-s-gulf-war.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5119612907",
+          "display_name": "Alexander Zevin",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Alexander Zevin",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5119612907"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 19.7428,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.98265927,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "2",
+      "issue": "158",
+      "first_page": "5",
+      "last_page": "22"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10053",
+      "display_name": "International Relations and Foreign Policy",
+      "score": 0.28049999475479126,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.28049999475479126,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13634",
+        "display_name": "Middle East and Rwanda Conflicts",
+        "score": 0.15000000596046448,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12825",
+        "display_name": "Defense, Military, and Policy Studies",
+        "score": 0.09839999675750732,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/donald-trump",
+        "display_name": "Donald Trump",
+        "score": 0.9139999747276306
+      },
+      {
+        "id": "https://openalex.org/keywords/gulf-war",
+        "display_name": "Gulf War",
+        "score": 0.8840000033378601
+      },
+      {
+        "id": "https://openalex.org/keywords/iraq-war",
+        "display_name": "Iraq War",
+        "score": 0.7570000290870667
+      },
+      {
+        "id": "https://openalex.org/keywords/us-foreign-policy",
+        "display_name": "US foreign policy",
+        "score": 0.8880000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/middle-east-wars",
+        "display_name": "war in the Middle East",
+        "score": 0.5419999957084656
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2780048507",
+        "wikidata": "https://www.wikidata.org/wiki/Q1409574",
+        "display_name": "Firepower",
+        "level": 2,
+        "score": 0.9229999780654907
+      },
+      {
+        "id": "https://openalex.org/C2994199513",
+        "wikidata": "https://www.wikidata.org/wiki/Q37643",
+        "display_name": "Gulf war",
+        "level": 2,
+        "score": 0.6061999797821045
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.44830000400543213
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.44510000944137573
+      },
+      {
+        "id": "https://openalex.org/C168031717",
+        "wikidata": "https://www.wikidata.org/wiki/Q1530280",
+        "display_name": "Balance (ability)",
+        "level": 2,
+        "score": 0.44209998846054077
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.3479999899864197
+      },
+      {
+        "id": "https://openalex.org/C2779400597",
+        "wikidata": "https://www.wikidata.org/wiki/Q1132870",
+        "display_name": "Tourniquet",
+        "level": 2,
+        "score": 0.2896000146865845
+      },
+      {
+        "id": "https://openalex.org/C2991833021",
+        "wikidata": "https://www.wikidata.org/wiki/Q361",
+        "display_name": "First world war",
+        "level": 2,
+        "score": 0.25049999356269836
+      },
+      {
+        "id": "https://openalex.org/C137355542",
+        "wikidata": "https://www.wikidata.org/wiki/Q362",
+        "display_name": "World War II",
+        "level": 2,
+        "score": 0.24500000476837158
+      },
+      {
+        "id": "https://openalex.org/C81631423",
+        "wikidata": "https://www.wikidata.org/wiki/Q10859",
+        "display_name": "Spanish Civil War",
+        "level": 2,
+        "score": 0.2134999930858612
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.64590/plc",
+        "doi": "https://doi.org/10.64590/plc",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.64590/plc",
+        "pdf_url": "https://newleftreview.org/issues/ii158/articles/alexander-zevin-trump-s-gulf-war.pdf",
+        "source": {
+          "id": "https://openalex.org/S83938913",
+          "display_name": "New Left Review",
+          "issn_l": "0028-6060",
+          "issn": [
+            "0028-6060",
+            "2044-0480"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-2",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "New Left Review",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.64590/plc",
+      "doi": "https://doi.org/10.64590/plc",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.64590/plc",
+      "pdf_url": "https://newleftreview.org/issues/ii158/articles/alexander-zevin-trump-s-gulf-war.pdf",
+      "source": {
+        "id": "https://openalex.org/S83938913",
+        "display_name": "New Left Review",
+        "issn_l": "0028-6060",
+        "issn": [
+          "0028-6060",
+          "2044-0480"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "New Left Review",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.6601999998092651,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7160202227.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7160202227.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W7167497295",
+      "https://openalex.org/W7099588643",
+      "https://openalex.org/W3186151018",
+      "https://openalex.org/W7171131592",
+      "https://openalex.org/W583342873",
+      "https://openalex.org/W4400797766",
+      "https://openalex.org/W7166685562",
+      "https://openalex.org/W7134041337",
+      "https://openalex.org/W7214931925",
+      "https://openalex.org/W3045245005"
+    ],
+    "abstract_inverted_index": {
+      "Asymmetries": [
+        0
+      ],
+      "of": [
+        1,
+        18,
+        26,
+        32
+      ],
+      "the": [
+        2,
+        16,
+        20,
+        23,
+        27,
+        30,
+        33
+      ],
+      "US-Israeli": [
+        3
+      ],
+      "assault": [
+        4
+      ],
+      "on": [
+        5,
+        15
+      ],
+      "Iran,": [
+        6
+      ],
+      "as": [
+        7
+      ],
+      "an": [
+        8
+      ],
+      "uneasy": [
+        9
+      ],
+      "balance": [
+        10
+      ],
+      "holds": [
+        11
+      ],
+      "between": [
+        12
+      ],
+      "Tehran\u2019s": [
+        13
+      ],
+      "tourniquet": [
+        14
+      ],
+      "Strait": [
+        17
+      ],
+      "Hormuz\u2014and": [
+        19
+      ],
+      "world": [
+        21
+      ],
+      "economy\u2014and": [
+        22
+      ],
+      "enormous": [
+        24
+      ],
+      "firepower": [
+        25
+      ],
+      "aggressors,": [
+        28
+      ],
+      "at": [
+        29
+      ],
+      "end": [
+        31
+      ],
+      "first": [
+        34
+      ],
+      "round.": [
+        35
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2026-05-05T00:00:00"
   }
 ]

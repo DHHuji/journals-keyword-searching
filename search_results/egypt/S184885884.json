@@ -87397,7 +87397,7 @@
     "doi": "https://doi.org/10.3751/79.1.303",
     "title": "Egypt",
     "display_name": "Egypt",
-    "relevance_score": 18.023735,
+    "relevance_score": 47.29313,
     "publication_year": 2026,
     "publication_date": "2026-01-01",
     "ids": {
@@ -87407,6 +87407,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.3751/79.1.303",
+      "doi": "https://doi.org/10.3751/79.1.303",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.3751/79.1.303",
       "pdf_url": null,
@@ -87421,6 +87422,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310316716",
         "host_organization_name": "Middle East Institute",
         "host_organization_lineage": [
@@ -87439,6 +87450,7 @@
       "raw_source_name": "The Middle East Journal",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -87455,7 +87467,10 @@
         "author": {
           "id": "https://openalex.org/A5024084373",
           "display_name": "Joas Wagemakers",
-          "orcid": "https://orcid.org/0000-0003-0400-0262"
+          "orcid": "https://orcid.org/0000-0003-0400-0262",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0400-0262"
+          ]
         },
         "institutions": [
           {
@@ -87477,6 +87492,7 @@
         "raw_affiliation_strings": [
           "Joas Wagemakers, Utrecht University"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Joas Wagemakers, Utrecht University",
@@ -87498,10 +87514,14 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": null,
+    "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": null,
+    "citation_normalized_percentile": {
+      "value": 0.07080759,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "79",
@@ -87512,15 +87532,90 @@
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
-    "primary_topic": null,
-    "topics": [],
-    "keywords": [],
+    "primary_topic": {
+      "id": "https://openalex.org/T13103",
+      "display_name": "Middle East Politics and Society",
+      "score": 0.961899995803833,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.961899995803833,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12555",
+        "display_name": "Ancient Egypt and Archaeology",
+        "score": 0.023900000378489494,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1204",
+          "display_name": "Archeology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13634",
+        "display_name": "Middle East and Rwanda Conflicts",
+        "score": 0.006399999838322401,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/egypt",
+        "display_name": "Egypt",
+        "score": 0.9570000171661377
+      }
+    ],
     "concepts": [],
     "mesh": [],
     "locations_count": 1,
     "locations": [
       {
         "id": "doi:10.3751/79.1.303",
+        "doi": "https://doi.org/10.3751/79.1.303",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.3751/79.1.303",
         "pdf_url": null,
@@ -87535,6 +87630,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310316716",
           "host_organization_name": "Middle East Institute",
           "host_organization_lineage": [
@@ -87556,11 +87661,13 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -196521,9 +196628,9 @@
   {
     "id": "https://openalex.org/W4411868510",
     "doi": "https://doi.org/10.3751/78.23.304",
-    "title": "Egypt: <i>Sacred Places Tell Tales: Jewish Life and Heritage in Modern Cairo</i> , by Yoram Meital (book review)",
-    "display_name": "Egypt: <i>Sacred Places Tell Tales: Jewish Life and Heritage in Modern Cairo</i> , by Yoram Meital (book review)",
-    "relevance_score": 8.725004,
+    "title": "Egypt: Sacred Places Tell Tales: Jewish Life and Heritage in Modern Cairo , by Yoram Meital (book review)",
+    "display_name": "Egypt: Sacred Places Tell Tales: Jewish Life and Heritage in Modern Cairo , by Yoram Meital (book review)",
+    "relevance_score": 24.727646,
     "publication_year": 2025,
     "publication_date": "2025-07-02",
     "ids": {
@@ -196533,6 +196640,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.3751/78.23.304",
+      "doi": "https://doi.org/10.3751/78.23.304",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.3751/78.23.304",
       "pdf_url": null,
@@ -196547,6 +196655,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310316716",
         "host_organization_name": "Middle East Institute",
         "host_organization_lineage": [
@@ -196565,7 +196683,8 @@
       "raw_source_name": "The Middle East Journal",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -196581,7 +196700,10 @@
         "author": {
           "id": "https://openalex.org/A5031663901",
           "display_name": "Joel Gordon",
-          "orcid": "https://orcid.org/0000-0002-4348-9411"
+          "orcid": "https://orcid.org/0000-0002-4348-9411",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4348-9411"
+          ]
         },
         "institutions": [
           {
@@ -196603,6 +196725,7 @@
         "raw_affiliation_strings": [
           "University of Arkansas, Fayetteville"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "University of Arkansas, Fayetteville",
@@ -196624,14 +196747,10 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.21128505,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "78",
@@ -196643,12 +196762,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11203",
-      "display_name": "Jewish and Middle Eastern Studies",
-      "score": 0.9907000064849854,
+      "id": "https://openalex.org/T13784",
+      "display_name": "Jewish Identity and Society",
+      "score": 0.34060001373291016,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -196661,9 +196780,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T13784",
+        "display_name": "Jewish Identity and Society",
+        "score": 0.34060001373291016,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11203",
         "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.9907000064849854,
+        "score": 0.29249998927116394,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -196678,29 +196814,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T10794",
-        "display_name": "Islamic Studies and History",
-        "score": 0.963699996471405,
+        "id": "https://openalex.org/T12798",
+        "display_name": "Religious Tourism and Spaces",
+        "score": 0.11379999667406082,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13504",
-        "display_name": "African history and culture analysis",
-        "score": 0.9487000107765198,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3305",
+          "display_name": "Geography, Planning and Development"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -196714,44 +196833,29 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/judaism",
-        "display_name": "Judaism",
-        "score": 0.7239712476730347
+        "id": "https://openalex.org/keywords/jewish-heritage",
+        "display_name": "Jewish heritage",
+        "score": 0.8859999775886536
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.4849867820739746
+        "id": "https://openalex.org/keywords/cairo",
+        "display_name": "Cairo",
+        "score": 0.5350000262260437
       },
       {
-        "id": "https://openalex.org/keywords/cultural-heritage",
-        "display_name": "Cultural heritage",
-        "score": 0.4120347201824188
+        "id": "https://openalex.org/keywords/jewish-history",
+        "display_name": "Jewish history",
+        "score": 0.4620000123977661
       },
       {
-        "id": "https://openalex.org/keywords/ancient-history",
-        "display_name": "Ancient history",
-        "score": 0.3709399104118347
+        "id": "https://openalex.org/keywords/sacred-sites",
+        "display_name": "sacred sites",
+        "score": 0.6159999966621399
       },
       {
-        "id": "https://openalex.org/keywords/environmental-ethics",
-        "display_name": "Environmental ethics",
-        "score": 0.3544822037220001
-      },
-      {
-        "id": "https://openalex.org/keywords/art",
-        "display_name": "Art",
-        "score": 0.3493480682373047
-      },
-      {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.27757835388183594
-      },
-      {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.23021256923675537
+        "id": "https://openalex.org/keywords/jewish-community",
+        "display_name": "Jewish community",
+        "score": 0.35100001096725464
       }
     ],
     "concepts": [
@@ -196817,6 +196921,7 @@
     "locations": [
       {
         "id": "doi:10.3751/78.23.304",
+        "doi": "https://doi.org/10.3751/78.23.304",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.3751/78.23.304",
         "pdf_url": null,
@@ -196831,6 +196936,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310316716",
           "host_organization_name": "Middle East Institute",
           "host_organization_lineage": [
@@ -196852,11 +196967,13 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -196875,7 +196992,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-03-25T13:04:00.132906",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -474050,5 +474167,1051 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2016-06-24T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7206184859",
+    "doi": "https://doi.org/10.3751/79.3.301",
+    "title": "EGYPT: Twilight of the Saints: The History and Politics of Salafism in Contemporary Egypt",
+    "display_name": "EGYPT: Twilight of the Saints: The History and Politics of Salafism in Contemporary Egypt",
+    "relevance_score": 42.99775,
+    "publication_year": 2026,
+    "publication_date": "2026-07-01",
+    "ids": {
+      "openalex": "https://openalex.org/W7206184859",
+      "doi": "https://doi.org/10.3751/79.3.301"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3751/79.3.301",
+      "doi": "https://doi.org/10.3751/79.3.301",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.3751/79.3.301",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S184885884",
+        "display_name": "The Middle East Journal",
+        "issn_l": "0026-3141",
+        "issn": [
+          "0026-3141",
+          "1940-3461"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310316716",
+        "host_organization_name": "Middle East Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316716"
+        ],
+        "host_organization_lineage_names": [
+          "Middle East Institute"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Middle East Journal",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "book-review",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5043906850",
+          "display_name": "Richard Gauvain",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I154023281",
+            "display_name": "British University in Egypt",
+            "ror": "https://ror.org/0066fxv63",
+            "country_code": "EG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I154023281"
+            ]
+          }
+        ],
+        "countries": [
+          "EG"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Richard Gauvain",
+        "raw_affiliation_strings": [
+          "Richard Gauvain is the author of Salafi Ritual Purity: In the Presence of God (Routledge, 2013) and Associate Professor of Political Science at the British University in Egypt"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Richard Gauvain is the author of Salafi Ritual Purity: In the Presence of God (Routledge, 2013) and Associate Professor of Political Science at the British University in Egypt",
+            "institution_ids": [
+              "https://openalex.org/I154023281"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5043906850"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I154023281"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "79",
+      "issue": "3",
+      "first_page": "mej",
+      "last_page": "7903"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10794",
+      "display_name": "Islamic Studies and History",
+      "score": 0.5898000001907349,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10794",
+        "display_name": "Islamic Studies and History",
+        "score": 0.5898000001907349,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.3005000054836273,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13379",
+        "display_name": "Multiculturalism, Politics, Migration, Gender",
+        "score": 0.06599999964237213,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/salafism",
+        "display_name": "Salafism",
+        "score": 0.9959999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/islamic-revival",
+        "display_name": "Islamic revivalism",
+        "score": 0.5009999871253967
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-politics",
+        "display_name": "religious politics",
+        "score": 0.5320000052452087
+      },
+      {
+        "id": "https://openalex.org/keywords/egyptian-politics",
+        "display_name": "Egyptian politics",
+        "score": 0.42399999499320984
+      },
+      {
+        "id": "https://openalex.org/keywords/islam-and-the-state",
+        "display_name": "Islam and the state",
+        "score": 0.453000009059906
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-movements",
+        "display_name": "religious movements",
+        "score": 0.4300000071525574
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2777298776",
+        "wikidata": "https://www.wikidata.org/wiki/Q164160",
+        "display_name": "Twilight",
+        "level": 2,
+        "score": 0.7473999857902527
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.6848000288009644
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.5370000004768372
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.5263000130653381
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.3001999855041504
+      },
+      {
+        "id": "https://openalex.org/C2549261",
+        "wikidata": "https://www.wikidata.org/wiki/Q43455",
+        "display_name": "Ethnology",
+        "level": 1,
+        "score": 0.2574000060558319
+      },
+      {
+        "id": "https://openalex.org/C2778137410",
+        "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+        "display_name": "Government (linguistics)",
+        "level": 2,
+        "score": 0.2434999942779541
+      },
+      {
+        "id": "https://openalex.org/C152192407",
+        "wikidata": "https://www.wikidata.org/wiki/Q1147507",
+        "display_name": "Political history",
+        "level": 3,
+        "score": 0.22550000250339508
+      },
+      {
+        "id": "https://openalex.org/C156804271",
+        "wikidata": "https://www.wikidata.org/wiki/Q186075",
+        "display_name": "Contemporary history",
+        "level": 3,
+        "score": 0.21950000524520874
+      },
+      {
+        "id": "https://openalex.org/C206554765",
+        "wikidata": "https://www.wikidata.org/wiki/Q83301",
+        "display_name": "Thunder",
+        "level": 2,
+        "score": 0.20669999718666077
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.3751/79.3.301",
+        "doi": "https://doi.org/10.3751/79.3.301",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.3751/79.3.301",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S184885884",
+          "display_name": "The Middle East Journal",
+          "issn_l": "0026-3141",
+          "issn": [
+            "0026-3141",
+            "1940-3461"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310316716",
+          "host_organization_name": "Middle East Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316716"
+          ],
+          "host_organization_lineage_names": [
+            "Middle East Institute"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Middle East Journal",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.46149998903274536
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": null,
+    "counts_by_year": [],
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2026-09-03T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7206163218",
+    "doi": "https://doi.org/10.3751/79.3.16",
+    "title": "The Myth of a Transnational Muslim Brotherhood: The Case of Bahrain",
+    "display_name": "The Myth of a Transnational Muslim Brotherhood: The Case of Bahrain",
+    "relevance_score": 3.5459404,
+    "publication_year": 2026,
+    "publication_date": "2026-07-01",
+    "ids": {
+      "openalex": "https://openalex.org/W7206163218",
+      "doi": "https://doi.org/10.3751/79.3.16"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3751/79.3.16",
+      "doi": "https://doi.org/10.3751/79.3.16",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.3751/79.3.16",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S184885884",
+        "display_name": "The Middle East Journal",
+        "issn_l": "0026-3141",
+        "issn": [
+          "0026-3141",
+          "1940-3461"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310316716",
+        "host_organization_name": "Middle East Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316716"
+        ],
+        "host_organization_lineage_names": [
+          "Middle East Institute"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Middle East Journal",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5074165998",
+          "display_name": "Courtney Freer",
+          "orcid": "https://orcid.org/0000-0001-9724-8763",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9724-8763"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I150468666",
+            "display_name": "Emory University",
+            "ror": "https://ror.org/03czfpz43",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I150468666"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Courtney Freer",
+        "raw_affiliation_strings": [
+          "Courtney Freer is an Assistant Professor in the Department of Middle Eastern and South Asian Studies at Emory University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Courtney Freer is an Assistant Professor in the Department of Middle Eastern and South Asian Studies at Emory University",
+            "institution_ids": [
+              "https://openalex.org/I150468666"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5074165998"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I150468666"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.707665,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "79",
+      "issue": "3",
+      "first_page": "mej",
+      "last_page": "7903"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13103",
+      "display_name": "Middle East Politics and Society",
+      "score": 0.34940001368522644,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.34940001368522644,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13379",
+        "display_name": "Multiculturalism, Politics, Migration, Gender",
+        "score": 0.34769999980926514,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10794",
+        "display_name": "Islamic Studies and History",
+        "score": 0.20309999585151672,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/muslim-brotherhood",
+        "display_name": "Muslim Brotherhood",
+        "score": 0.9259999990463257
+      },
+      {
+        "id": "https://openalex.org/keywords/egyptian-muslim-brotherhood",
+        "display_name": "Egyptian Muslim Brotherhood",
+        "score": 0.890999972820282
+      },
+      {
+        "id": "https://openalex.org/keywords/transnationalism",
+        "display_name": "transnationalism",
+        "score": 0.6880000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/islamist-movements",
+        "display_name": "Islamist movements",
+        "score": 0.45100000500679016
+      },
+      {
+        "id": "https://openalex.org/keywords/political-ideology",
+        "display_name": "political ideology",
+        "score": 0.36000001430511475
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C519517224",
+        "wikidata": "https://www.wikidata.org/wiki/Q12827256",
+        "display_name": "Mythology",
+        "level": 2,
+        "score": 0.484499990940094
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.44670000672340393
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.38580000400543213
+      },
+      {
+        "id": "https://openalex.org/C4445939",
+        "wikidata": "https://www.wikidata.org/wiki/Q432",
+        "display_name": "Islam",
+        "level": 2,
+        "score": 0.3804999887943268
+      },
+      {
+        "id": "https://openalex.org/C2778137410",
+        "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+        "display_name": "Government (linguistics)",
+        "level": 2,
+        "score": 0.31700000166893005
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.2736000120639801
+      },
+      {
+        "id": "https://openalex.org/C9652623",
+        "wikidata": "https://www.wikidata.org/wiki/Q190109",
+        "display_name": "Field (mathematics)",
+        "level": 2,
+        "score": 0.2728999853134155
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.26030001044273376
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.24869999289512634
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.2442999929189682
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.3751/79.3.16",
+        "doi": "https://doi.org/10.3751/79.3.16",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.3751/79.3.16",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S184885884",
+          "display_name": "The Middle East Journal",
+          "issn_l": "0026-3141",
+          "issn": [
+            "0026-3141",
+            "1940-3461"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310316716",
+          "host_organization_name": "Middle East Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316716"
+          ],
+          "host_organization_lineage_names": [
+            "Middle East Institute"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Middle East Journal",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.5473999977111816
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality",
+        "score": 0.4151550829410553
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "The": [
+        0
+      ],
+      "Egyptian": [
+        1,
+        84
+      ],
+      "Muslim": [
+        2,
+        23,
+        62,
+        74,
+        89,
+        100
+      ],
+      "Brotherhood": [
+        3,
+        24,
+        75,
+        101
+      ],
+      "has": [
+        4
+      ],
+      "long": [
+        5
+      ],
+      "been": [
+        6
+      ],
+      "considered": [
+        7
+      ],
+      "the": [
+        8,
+        21,
+        32,
+        53,
+        60,
+        67,
+        73,
+        83,
+        87,
+        91,
+        94
+      ],
+      "archetypal": [
+        9
+      ],
+      "case": [
+        10,
+        85
+      ],
+      "through": [
+        11
+      ],
+      "which": [
+        12
+      ],
+      "scholars": [
+        13
+      ],
+      "study": [
+        14
+      ],
+      "Sunni": [
+        15
+      ],
+      "Islamism.": [
+        16
+      ],
+      "This": [
+        17,
+        35
+      ],
+      "article": [
+        18,
+        92
+      ],
+      "instead": [
+        19
+      ],
+      "uses": [
+        20
+      ],
+      "Bahraini": [
+        22,
+        61,
+        88
+      ],
+      "as": [
+        25,
+        76
+      ],
+      "a": [
+        26,
+        77
+      ],
+      "starting": [
+        27
+      ],
+      "point": [
+        28
+      ],
+      "for": [
+        29,
+        79
+      ],
+      "analysis": [
+        30
+      ],
+      "of": [
+        31,
+        48,
+        59,
+        69,
+        72
+      ],
+      "organization": [
+        33
+      ],
+      "regionally.": [
+        34
+      ],
+      "methodology": [
+        36
+      ],
+      "allows": [
+        37
+      ],
+      "us": [
+        38
+      ],
+      "to": [
+        39,
+        86
+      ],
+      "cover": [
+        40
+      ],
+      "two": [
+        41
+      ],
+      "gaps": [
+        42
+      ],
+      "in": [
+        43,
+        46,
+        50
+      ],
+      "literature:": [
+        44
+      ],
+      "empirically": [
+        45
+      ],
+      "terms": [
+        47
+      ],
+      "literature": [
+        49
+      ],
+      "English": [
+        51
+      ],
+      "on": [
+        52,
+        113
+      ],
+      "history,": [
+        54
+      ],
+      "ideology,": [
+        55
+      ],
+      "and": [
+        56,
+        64,
+        104
+      ],
+      "political": [
+        57
+      ],
+      "stances": [
+        58
+      ],
+      "Brotherhood,": [
+        63,
+        90
+      ],
+      "theoretically": [
+        65
+      ],
+      "regarding": [
+        66
+      ],
+      "use": [
+        68
+      ],
+      "different": [
+        70,
+        107
+      ],
+      "branches": [
+        71
+      ],
+      "basis": [
+        78
+      ],
+      "analysis.": [
+        80
+      ],
+      "In": [
+        81
+      ],
+      "comparing": [
+        82
+      ],
+      "challenges": [
+        93
+      ],
+      "notion": [
+        95
+      ],
+      "that": [
+        96,
+        106
+      ],
+      "one": [
+        97
+      ],
+      "single": [
+        98
+      ],
+      "transnational": [
+        99
+      ],
+      "still": [
+        102
+      ],
+      "exists": [
+        103
+      ],
+      "demonstrates": [
+        105
+      ],
+      "groups": [
+        108
+      ],
+      "determine": [
+        109
+      ],
+      "their": [
+        110
+      ],
+      "actions": [
+        111
+      ],
+      "based": [
+        112
+      ],
+      "ties": [
+        114
+      ],
+      "with": [
+        115
+      ],
+      "local": [
+        116
+      ],
+      "regimes.": [
+        117
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-12T09:40:04.860316",
+    "created_date": "2026-09-03T00:00:00"
   }
 ]

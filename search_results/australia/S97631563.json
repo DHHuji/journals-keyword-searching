@@ -2826,7 +2826,7 @@
     "doi": "https://doi.org/10.3817/0625211101",
     "title": "The Need for Academic Freedom as an Enforceable Legal Right in Australia",
     "display_name": "The Need for Academic Freedom as an Enforceable Legal Right in Australia",
-    "relevance_score": 6.950509,
+    "relevance_score": 18.784925,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -2836,6 +2836,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.3817/0625211101",
+      "doi": "https://doi.org/10.3817/0625211101",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.3817/0625211101",
       "pdf_url": null,
@@ -2850,6 +2851,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-scientific",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-3",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4320800767",
         "host_organization_name": "Telos",
         "host_organization_lineage": [
@@ -2868,6 +2877,7 @@
       "raw_source_name": "Telos",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -2884,7 +2894,10 @@
         "author": {
           "id": "https://openalex.org/A5019626020",
           "display_name": "Katy Barnett",
-          "orcid": "https://orcid.org/0000-0001-6080-8296"
+          "orcid": "https://orcid.org/0000-0001-6080-8296",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6080-8296"
+          ]
         },
         "institutions": [
           {
@@ -2901,11 +2914,12 @@
         "countries": [
           "AU"
         ],
-        "is_corresponding": true,
+        "is_corresponding": false,
         "raw_author_name": "Katy Barnett",
         "raw_affiliation_strings": [
           "Katy Barnett is a Professor at Melbourne Law School, University of Melbourne, Melbourne, Australia"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Katy Barnett is a Professor at Melbourne Law School, University of Melbourne, Melbourne, Australia",
@@ -2920,7 +2934,10 @@
         "author": {
           "id": "https://openalex.org/A5102976829",
           "display_name": "Bill Swannie",
-          "orcid": "https://orcid.org/0000-0002-5540-8105"
+          "orcid": "https://orcid.org/0000-0002-5540-8105",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5540-8105"
+          ]
         },
         "institutions": [
           {
@@ -2942,6 +2959,7 @@
         "raw_affiliation_strings": [
           "Bill Swannie is a Senior Lecturer, Thomas More Law School, Australian Catholic University, Melbourne, Australia"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Bill Swannie is a Senior Lecturer, Thomas More Law School, Australian Catholic University, Melbourne, Australia",
@@ -2955,19 +2973,15 @@
     "institutions": [],
     "countries_distinct_count": 1,
     "institutions_distinct_count": 2,
-    "corresponding_author_ids": [
-      "https://openalex.org/A5019626020"
-    ],
-    "corresponding_institution_ids": [
-      "https://openalex.org/I165779595"
-    ],
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.31955681,
+      "value": 0.17310173,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -2982,12 +2996,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12755",
-      "display_name": "Legal Education and Practice Innovations",
-      "score": 0.9710000157356262,
+      "id": "https://openalex.org/T14181",
+      "display_name": "Academic Freedom and Politics",
+      "score": 0.9785000085830688,
       "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -3000,9 +3014,43 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12755",
-        "display_name": "Legal Education and Practice Innovations",
-        "score": 0.9710000157356262,
+        "id": "https://openalex.org/T14181",
+        "display_name": "Academic Freedom and Politics",
+        "score": 0.9785000085830688,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14288",
+        "display_name": "Law, Rights, and Freedoms",
+        "score": 0.01080000028014183,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14432",
+        "display_name": "Freedom of Expression and Defamation",
+        "score": 0.005499999970197678,
         "subfield": {
           "id": "https://openalex.org/subfields/3308",
           "display_name": "Law"
@@ -3020,38 +3068,28 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/academic-freedom",
-        "display_name": "Academic freedom",
-        "score": 0.6920205354690552
+        "display_name": "academic freedom",
+        "score": 1.0
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.47406548261642456
+        "id": "https://openalex.org/keywords/legal-rights",
+        "display_name": "legal rights",
+        "score": 0.7360000014305115
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.4716448187828064
+        "id": "https://openalex.org/keywords/enforceable-rights",
+        "display_name": "enforceable rights",
+        "score": 0.8159999847412109
       },
       {
-        "id": "https://openalex.org/keywords/law-and-economics",
-        "display_name": "Law and economics",
-        "score": 0.44567301869392395
+        "id": "https://openalex.org/keywords/higher-education-law",
+        "display_name": "higher education law",
+        "score": 0.7300000190734863
       },
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.3452768921852112
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.25065869092941284
-      },
-      {
-        "id": "https://openalex.org/keywords/higher-education",
-        "display_name": "Higher education",
-        "score": 0.04062327742576599
+        "id": "https://openalex.org/keywords/australia",
+        "display_name": "Australia",
+        "score": 0.38100001215934753
       }
     ],
     "concepts": [
@@ -3110,6 +3148,7 @@
     "locations": [
       {
         "id": "doi:10.3817/0625211101",
+        "doi": "https://doi.org/10.3817/0625211101",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.3817/0625211101",
         "pdf_url": null,
@@ -3124,6 +3163,14 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-scientific",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-3",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4320800767",
           "host_organization_name": "Telos",
           "host_organization_lineage": [
@@ -3146,16 +3193,24 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "display_name": "Peace, Justice and strong institutions",
-        "score": 0.6600000262260437,
-        "id": "https://metadata.un.org/sdg/16"
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.8046000003814697
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.6600000262260437
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -3174,7 +3229,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-02-24T19:35:01.260952",
+    "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -3182,7 +3237,7 @@
     "doi": "https://doi.org/10.3817/0625211069",
     "title": "Academic Freedom in the Absence of Tenure: Global Lessons from the Australian Experience",
     "display_name": "Academic Freedom in the Absence of Tenure: Global Lessons from the Australian Experience",
-    "relevance_score": 6.295231,
+    "relevance_score": 17.094213,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -3192,6 +3247,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.3817/0625211069",
+      "doi": "https://doi.org/10.3817/0625211069",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.3817/0625211069",
       "pdf_url": null,
@@ -3206,6 +3262,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-scientific",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-3",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4320800767",
         "host_organization_name": "Telos",
         "host_organization_lineage": [
@@ -3224,6 +3288,7 @@
       "raw_source_name": "Telos",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -3240,33 +3305,37 @@
         "author": {
           "id": "https://openalex.org/A5066841429",
           "display_name": "Salvatore Babones",
-          "orcid": "https://orcid.org/0000-0002-8777-5727"
+          "orcid": "https://orcid.org/0000-0002-8777-5727",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8777-5727"
+          ]
         },
         "institutions": [
           {
-            "id": "https://openalex.org/I4210156608",
-            "display_name": "Backbones",
-            "ror": "https://ror.org/05an4ky72",
-            "country_code": "US",
-            "type": "nonprofit",
+            "id": "https://openalex.org/I129604602",
+            "display_name": "The University of Sydney",
+            "ror": "https://ror.org/0384j8v12",
+            "country_code": "AU",
+            "type": "education",
             "lineage": [
-              "https://openalex.org/I4210156608"
+              "https://openalex.org/I129604602"
             ]
           }
         ],
         "countries": [
-          "US"
+          "AU"
         ],
         "is_corresponding": true,
         "raw_author_name": "Salvatore Babones",
         "raw_affiliation_strings": [
           "Salvatore Babones is an Associate Professor of Sociology at the University of Sydney"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Salvatore Babones is an Associate Professor of Sociology at the University of Sydney",
             "institution_ids": [
-              "https://openalex.org/I4210156608"
+              "https://openalex.org/I129604602"
             ]
           }
         ]
@@ -3279,7 +3348,7 @@
       "https://openalex.org/A5066841429"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I4210156608"
+      "https://openalex.org/I129604602"
     ],
     "apc_list": null,
     "apc_paid": null,
@@ -3287,7 +3356,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.20859977,
+      "value": 0.17311042,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -3302,12 +3371,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11806",
-      "display_name": "Service-Learning and Community Engagement",
-      "score": 0.8774999976158142,
+      "id": "https://openalex.org/T14181",
+      "display_name": "Academic Freedom and Politics",
+      "score": 0.9970999956130981,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -3320,26 +3389,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11806",
-        "display_name": "Service-Learning and Community Engagement",
-        "score": 0.8774999976158142,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3304",
-          "display_name": "Education"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T14181",
         "display_name": "Academic Freedom and Politics",
-        "score": 0.8762999773025513,
+        "score": 0.9970999956130981,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -3354,9 +3406,26 @@
         }
       },
       {
-        "id": "https://openalex.org/T14207",
-        "display_name": "Higher Education Practises and Engagement",
-        "score": 0.8154000043869019,
+        "id": "https://openalex.org/T10546",
+        "display_name": "Higher Education Governance and Development",
+        "score": 0.0017000000225380063,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13368",
+        "display_name": "University Challenges and Reforms",
+        "score": 0.000699999975040555,
         "subfield": {
           "id": "https://openalex.org/subfields/3304",
           "display_name": "Education"
@@ -3374,33 +3443,28 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/academic-freedom",
-        "display_name": "Academic freedom",
-        "score": 0.7561336159706116
+        "display_name": "academic freedom",
+        "score": 0.9990000128746033
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.49042078852653503
+        "id": "https://openalex.org/keywords/tenure",
+        "display_name": "tenure",
+        "score": 0.843999981880188
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.3363340497016907
+        "id": "https://openalex.org/keywords/australian-universities",
+        "display_name": "Australian universities",
+        "score": 0.5270000100135803
       },
       {
-        "id": "https://openalex.org/keywords/public-administration",
-        "display_name": "Public administration",
-        "score": 0.3269163966178894
+        "id": "https://openalex.org/keywords/higher-education-policy",
+        "display_name": "higher education policy",
+        "score": 0.6830000281333923
       },
       {
-        "id": "https://openalex.org/keywords/higher-education",
-        "display_name": "Higher education",
-        "score": 0.18071472644805908
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.16126447916030884
+        "id": "https://openalex.org/keywords/academic-employment",
+        "display_name": "academic employment",
+        "score": 0.4880000054836273
       }
     ],
     "concepts": [
@@ -3452,6 +3516,7 @@
     "locations": [
       {
         "id": "doi:10.3817/0625211069",
+        "doi": "https://doi.org/10.3817/0625211069",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.3817/0625211069",
         "pdf_url": null,
@@ -3466,6 +3531,14 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-scientific",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-3",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4320800767",
           "host_organization_name": "Telos",
           "host_organization_lineage": [
@@ -3486,18 +3559,20 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "display_name": "Peace, Justice and strong institutions",
-        "score": 0.41999998688697815,
-        "id": "https://metadata.un.org/sdg/16"
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.41999998688697815
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -3516,7 +3591,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-09-23T05:00:35.095934",
     "created_date": "2025-10-10T00:00:00"
   },
   {

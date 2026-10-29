@@ -74843,7 +74843,7 @@
     "doi": "https://doi.org/10.1080/00263206.2025.2473990",
     "title": "Israel\u2019s 2005 Disengagement from Gaza: a multilateral move under unilateral fa\u00e7ade",
     "display_name": "Israel\u2019s 2005 Disengagement from Gaza: a multilateral move under unilateral fa\u00e7ade",
-    "relevance_score": 4.9875298,
+    "relevance_score": 2.4991152,
     "publication_year": 2025,
     "publication_date": "2025-03-11",
     "ids": {
@@ -74853,9 +74853,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/00263206.2025.2473990",
+      "doi": "https://doi.org/10.1080/00263206.2025.2473990",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/00263206.2025.2473990",
-      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00263206.2025.2473990?needAccess=true",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S164505828",
         "display_name": "Middle Eastern Studies",
@@ -74867,32 +74868,45 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Middle Eastern Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
       "is_oa": true,
-      "oa_status": "bronze",
-      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/00263206.2025.2473990?needAccess=true",
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1080/00263206.2025.2473990",
       "any_repository_has_fulltext": false
     },
     "authorships": [
@@ -74901,7 +74915,8 @@
         "author": {
           "id": "https://openalex.org/A5014725646",
           "display_name": "Elie Podeh",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -74945,17 +74960,17 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 6.1052,
+    "fwci": 3.4847,
     "has_fulltext": false,
-    "cited_by_count": 1,
+    "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.93060392,
+      "value": 0.90856107,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 96
     },
     "biblio": {
       "volume": "61",
@@ -74967,12 +74982,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12752",
-      "display_name": "Global Peace and Security Dynamics",
-      "score": 0.9595999717712402,
+      "id": "https://openalex.org/T11203",
+      "display_name": "Jewish and Middle Eastern Studies",
+      "score": 0.9940999746322632,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -74985,9 +75000,43 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12752",
-        "display_name": "Global Peace and Security Dynamics",
-        "score": 0.9595999717712402,
+        "id": "https://openalex.org/T11203",
+        "display_name": "Jewish and Middle Eastern Studies",
+        "score": 0.9940999746322632,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.003800000064074993,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.0006000000284984708,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -75004,59 +75053,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/disengagement-theory",
-        "display_name": "Disengagement theory",
-        "score": 0.7895471453666687
+        "id": "https://openalex.org/keywords/israeli-withdrawal-from-gaza",
+        "display_name": "Israeli withdrawal from Gaza",
+        "score": 0.7009999752044678
       },
       {
-        "id": "https://openalex.org/keywords/gaza-strip",
-        "display_name": "Gaza strip",
-        "score": 0.735998272895813
+        "id": "https://openalex.org/keywords/multilateral-coordination",
+        "display_name": "multilateral coordination",
+        "score": 0.625
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.4823407828807831
+        "id": "https://openalex.org/keywords/palestinian-authority",
+        "display_name": "Palestinian Authority",
+        "score": 0.8019999861717224
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.382449746131897
+        "id": "https://openalex.org/keywords/mahmoud-abbas",
+        "display_name": "Mahmoud Abbas",
+        "score": 0.746999979019165
       },
       {
-        "id": "https://openalex.org/keywords/political-economy",
-        "display_name": "Political economy",
-        "score": 0.35950952768325806
+        "id": "https://openalex.org/keywords/ariel-sharon",
+        "display_name": "Ariel Sharon",
+        "score": 0.7099999785423279
       },
       {
-        "id": "https://openalex.org/keywords/ancient-history",
-        "display_name": "Ancient history",
-        "score": 0.34925419092178345
+        "id": "https://openalex.org/keywords/quartets",
+        "display_name": "quartets",
+        "score": 0.9350000023841858
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.2624638080596924
+        "id": "https://openalex.org/keywords/hamas",
+        "display_name": "Hamas",
+        "score": 0.5540000200271606
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.22479096055030823
+        "id": "https://openalex.org/keywords/islamic-jihad",
+        "display_name": "Islamic Jihad",
+        "score": 0.9900000095367432
       },
       {
-        "id": "https://openalex.org/keywords/palestine",
-        "display_name": "Palestine",
-        "score": 0.206221342086792
+        "id": "https://openalex.org/keywords/israeli-settlements",
+        "display_name": "Israeli settlements",
+        "score": 0.5879999995231628
       },
       {
-        "id": "https://openalex.org/keywords/medicine",
-        "display_name": "Medicine",
-        "score": 0.16917279362678528
+        "id": "https://openalex.org/keywords/peace-process",
+        "display_name": "peace process",
+        "score": 0.492000013589859
       },
       {
-        "id": "https://openalex.org/keywords/gerontology",
-        "display_name": "Gerontology",
-        "score": 0.07127541303634644
+        "id": "https://openalex.org/keywords/israeli-palestinian-conflict",
+        "display_name": "Israeli-Palestinian conflict",
+        "score": 0.7730000019073486
       }
     ],
     "concepts": [
@@ -75143,9 +75192,10 @@
     "locations": [
       {
         "id": "doi:10.1080/00263206.2025.2473990",
+        "doi": "https://doi.org/10.1080/00263206.2025.2473990",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/00263206.2025.2473990",
-        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00263206.2025.2473990?needAccess=true",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S164505828",
           "display_name": "Middle Eastern Studies",
@@ -75157,18 +75207,30 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -75178,9 +75240,10 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1080/00263206.2025.2473990",
+      "doi": "https://doi.org/10.1080/00263206.2025.2473990",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/00263206.2025.2473990",
-      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00263206.2025.2473990?needAccess=true",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S164505828",
         "display_name": "Middle Eastern Studies",
@@ -75192,45 +75255,65 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Middle Eastern Studies",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W1972460078",
-      "https://openalex.org/W3111546938",
-      "https://openalex.org/W2079720905",
-      "https://openalex.org/W2742980973",
-      "https://openalex.org/W2979654362",
-      "https://openalex.org/W1985909264",
-      "https://openalex.org/W74969632",
-      "https://openalex.org/W2013401711",
-      "https://openalex.org/W3123877635",
-      "https://openalex.org/W2115903314"
+      "https://openalex.org/W4236078925",
+      "https://openalex.org/W3143987508",
+      "https://openalex.org/W4240638847",
+      "https://openalex.org/W2141336893",
+      "https://openalex.org/W7095095332",
+      "https://openalex.org/W4366505251",
+      "https://openalex.org/W7083700305",
+      "https://openalex.org/W4306746292",
+      "https://openalex.org/W2608138221",
+      "https://openalex.org/W1709479903"
     ],
     "abstract_inverted_index": {
       "Israel\u2019s": [
@@ -75674,12 +75757,16 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
         "year": 2025,
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-06-14T06:11:07.267592",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-09-09T07:26:56.047234",
+    "created_date": "2025-03-12T00:00:00"
   },
   {
     "id": "https://openalex.org/W2052586905",
@@ -115315,7 +115402,7 @@
     "doi": "https://doi.org/10.1080/00263206.2026.2623421",
     "title": "State-building and settlement in Ottoman Transjordan: the birth of Amman as a frontier city (1878\u20131908)",
     "display_name": "State-building and settlement in Ottoman Transjordan: the birth of Amman as a frontier city (1878\u20131908)",
-    "relevance_score": 1.9094648,
+    "relevance_score": 3.8124278,
     "publication_year": 2026,
     "publication_date": "2026-02-10",
     "ids": {
@@ -115325,6 +115412,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/00263206.2026.2623421",
+      "doi": "https://doi.org/10.1080/00263206.2026.2623421",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1080/00263206.2026.2623421",
       "pdf_url": null,
@@ -115339,13 +115427,25 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
@@ -115357,6 +115457,7 @@
       "raw_source_name": "Middle Eastern Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -115371,9 +115472,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5125506729",
+          "id": "https://openalex.org/A5006939389",
           "display_name": "Habibe Polat",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3501-6515",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3501-6515"
+          ]
         },
         "institutions": [
           {
@@ -115419,9 +115523,9 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
-      "https://openalex.org/A5125506729"
+      "https://openalex.org/A5006939389"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I4210110665",
@@ -115433,7 +115537,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.15642861,
+      "value": 0.06301269,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -115448,12 +115552,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10794",
-      "display_name": "Islamic Studies and History",
-      "score": 0.3919000029563904,
+      "id": "https://openalex.org/T13441",
+      "display_name": "Ottoman Empire History and Society",
+      "score": 0.885699987411499,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -115466,26 +115570,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10794",
-        "display_name": "Islamic Studies and History",
-        "score": 0.3919000029563904,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T11203",
-        "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.10400000214576721,
+        "id": "https://openalex.org/T13441",
+        "display_name": "Ottoman Empire History and Society",
+        "score": 0.885699987411499,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -115500,12 +115587,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T13215",
-        "display_name": "Global Maritime and Colonial Histories",
-        "score": 0.07029999792575836,
+        "id": "https://openalex.org/T13210",
+        "display_name": "Historical Turkish Studies",
+        "score": 0.08380000293254852,
         "subfield": {
-          "id": "https://openalex.org/subfields/3314",
-          "display_name": "Anthropology"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10794",
+        "display_name": "Islamic Studies and History",
+        "score": 0.008500000461935997,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -115519,29 +115623,29 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/frontier",
-        "display_name": "Frontier",
-        "score": 0.8787999749183655
+        "id": "https://openalex.org/keywords/amman",
+        "display_name": "Amman",
+        "score": 0.824999988079071
       },
       {
-        "id": "https://openalex.org/keywords/settlement",
-        "display_name": "Settlement (finance)",
-        "score": 0.795799970626831
+        "id": "https://openalex.org/keywords/state-building",
+        "display_name": "state building",
+        "score": 0.8579999804496765
       },
       {
-        "id": "https://openalex.org/keywords/middle-eastern-studies",
-        "display_name": "Middle Eastern studies",
-        "score": 0.3328999876976013
+        "id": "https://openalex.org/keywords/border-towns",
+        "display_name": "border cities",
+        "score": 0.7879999876022339
       },
       {
-        "id": "https://openalex.org/keywords/ottoman-empire",
-        "display_name": "Ottoman empire",
-        "score": 0.30149999260902405
+        "id": "https://openalex.org/keywords/urban-settlement",
+        "display_name": "urban settlement",
+        "score": 0.7350000143051147
       },
       {
-        "id": "https://openalex.org/keywords/human-settlement",
-        "display_name": "Human settlement",
-        "score": 0.29750001430511475
+        "id": "https://openalex.org/keywords/ottoman-provincial-administration",
+        "display_name": "Ottoman provincial administration",
+        "score": 0.6930000185966492
       }
     ],
     "concepts": [
@@ -115624,10 +115728,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 2,
     "locations": [
       {
         "id": "doi:10.1080/00263206.2026.2623421",
+        "doi": "https://doi.org/10.1080/00263206.2026.2623421",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1080/00263206.2026.2623421",
         "pdf_url": null,
@@ -115642,13 +115747,25 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
@@ -115659,26 +115776,74 @@
         "is_published": true,
         "raw_source_name": "Middle Eastern Studies",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:acikerisim.ozal.edu.tr:20.500.12899/5671",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/00263206.2026.2623421",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407055283",
+          "display_name": "Malatya Turgut \u00d6zal University Institutional Repository",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
       }
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.6951088309288025,
-        "display_name": "Sustainable cities and communities",
-        "id": "https://metadata.un.org/sdg/11"
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.6601999998092651
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Sustainable cities and communities",
+        "id": "https://metadata.un.org/sdg/11",
+        "score": 0.6951088309288025
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W3081127813",
+      "https://openalex.org/W3003877199",
+      "https://openalex.org/W6991247653",
+      "https://openalex.org/W2898667755",
+      "https://openalex.org/W4205284345",
+      "https://openalex.org/W4404796116",
+      "https://openalex.org/W160284920",
+      "https://openalex.org/W7070382053",
+      "https://openalex.org/W2242009582",
+      "https://openalex.org/W372324335"
+    ],
     "abstract_inverted_index": {
       "The": [
         0
@@ -115769,7 +115934,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-06-20T20:08:15.867695",
+    "updated_date": "2026-10-03T13:16:28.481748",
     "created_date": "2026-02-11T00:00:00"
   },
   {

@@ -102143,9 +102143,9 @@
   {
     "id": "https://openalex.org/W4411868548",
     "doi": "https://doi.org/10.3751/78.23.312",
-    "title": "Turkey: <i>Memory, Patriarchy and Economy in Turkey: Narratives of Political Power</i> , by Meral U\u011fur-\u00c7\u0131nar (book review)",
-    "display_name": "Turkey: <i>Memory, Patriarchy and Economy in Turkey: Narratives of Political Power</i> , by Meral U\u011fur-\u00c7\u0131nar (book review)",
-    "relevance_score": 12.421134,
+    "title": "Turkey: Memory, Patriarchy and Economy in Turkey: Narratives of Political Power , by Meral U\u011fur-\u00c7\u0131nar (book review)",
+    "display_name": "Turkey: Memory, Patriarchy and Economy in Turkey: Narratives of Political Power , by Meral U\u011fur-\u00c7\u0131nar (book review)",
+    "relevance_score": 34.612453,
     "publication_year": 2025,
     "publication_date": "2025-07-02",
     "ids": {
@@ -102155,6 +102155,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.3751/78.23.312",
+      "doi": "https://doi.org/10.3751/78.23.312",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.3751/78.23.312",
       "pdf_url": null,
@@ -102169,6 +102170,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310316716",
         "host_organization_name": "Middle East Institute",
         "host_organization_lineage": [
@@ -102187,7 +102198,8 @@
       "raw_source_name": "The Middle East Journal",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -102203,7 +102215,10 @@
         "author": {
           "id": "https://openalex.org/A5027791306",
           "display_name": "Gizem Zencirci",
-          "orcid": "https://orcid.org/0000-0002-6500-1683"
+          "orcid": "https://orcid.org/0000-0002-6500-1683",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6500-1683"
+          ]
         },
         "institutions": [
           {
@@ -102225,6 +102240,7 @@
         "raw_affiliation_strings": [
           "Providence College"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Providence College",
@@ -102246,14 +102262,10 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.18806673,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "78",
@@ -102267,7 +102279,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11783",
       "display_name": "Turkey's Politics and Society",
-      "score": 0.8521999716758728,
+      "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -102285,7 +102297,7 @@
       {
         "id": "https://openalex.org/T11783",
         "display_name": "Turkey's Politics and Society",
-        "score": 0.8521999716758728,
+        "score": 0.9994999766349792,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -102298,63 +102310,72 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T13210",
+        "display_name": "Historical Turkish Studies",
+        "score": 0.00039999998989515007,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12493",
+        "display_name": "Memory, violence, and history",
+        "score": 9.999999747378752e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
+        "id": "https://openalex.org/keywords/political-power",
+        "display_name": "political power",
+        "score": 0.5979999899864197
+      },
+      {
+        "id": "https://openalex.org/keywords/memory",
+        "display_name": "memory",
+        "score": 0.6029999852180481
+      },
+      {
         "id": "https://openalex.org/keywords/patriarchy",
-        "display_name": "Patriarchy",
-        "score": 0.8974844813346863
+        "display_name": "patriarchy",
+        "score": 0.996999979019165
       },
       {
-        "id": "https://openalex.org/keywords/narrative",
-        "display_name": "Narrative",
-        "score": 0.7171411514282227
+        "id": "https://openalex.org/keywords/economy",
+        "display_name": "economy",
+        "score": 0.718999981880188
       },
       {
-        "id": "https://openalex.org/keywords/power",
-        "display_name": "Power (physics)",
-        "score": 0.6282432675361633
+        "id": "https://openalex.org/keywords/political-narratives",
+        "display_name": "political narratives",
+        "score": 0.6460000276565552
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.4962623715400696
-      },
-      {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.4330645799636841
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.416413277387619
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.34547629952430725
-      },
-      {
-        "id": "https://openalex.org/keywords/art",
-        "display_name": "Art",
-        "score": 0.15129023790359497
-      },
-      {
-        "id": "https://openalex.org/keywords/literature",
-        "display_name": "Literature",
-        "score": 0.14846929907798767
-      },
-      {
-        "id": "https://openalex.org/keywords/physics",
-        "display_name": "Physics",
-        "score": 0.05617547035217285
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.05422109365463257
+        "id": "https://openalex.org/keywords/turkey",
+        "display_name": "Turkey",
+        "score": 0.3700000047683716
       }
     ],
     "concepts": [
@@ -102448,6 +102469,7 @@
     "locations": [
       {
         "id": "doi:10.3751/78.23.312",
+        "doi": "https://doi.org/10.3751/78.23.312",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.3751/78.23.312",
         "pdf_url": null,
@@ -102462,6 +102484,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310316716",
           "host_organization_name": "Middle East Institute",
           "host_organization_lineage": [
@@ -102482,7 +102514,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.46149998903274536,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -102493,20 +102533,20 @@
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W3015493264",
-      "https://openalex.org/W3137428374",
-      "https://openalex.org/W2114097281",
-      "https://openalex.org/W4401177598",
-      "https://openalex.org/W4316653420",
-      "https://openalex.org/W2364660711",
-      "https://openalex.org/W2947325321",
-      "https://openalex.org/W19677740",
-      "https://openalex.org/W4381738215",
-      "https://openalex.org/W656166520"
+      "https://openalex.org/W4403188396",
+      "https://openalex.org/W4393025651",
+      "https://openalex.org/W2810346608",
+      "https://openalex.org/W209288760",
+      "https://openalex.org/W2602521758",
+      "https://openalex.org/W6983399687",
+      "https://openalex.org/W4248331819",
+      "https://openalex.org/W2733518569",
+      "https://openalex.org/W7207851461",
+      "https://openalex.org/W4404494500"
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-03-25T13:04:00.132906",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2025-07-02T00:00:00"
   },
   {
@@ -112052,7 +112092,7 @@
     "doi": "https://doi.org/10.3751/79.2.310",
     "title": "T\u00fcrkiye: The Transformation of Turkish Foreign Policy: Islamism and Nationalism",
     "display_name": "T\u00fcrkiye: The Transformation of Turkish Foreign Policy: Islamism and Nationalism",
-    "relevance_score": 11.758309,
+    "relevance_score": 31.078485,
     "publication_year": 2026,
     "publication_date": "2026-01-01",
     "ids": {
@@ -112062,6 +112102,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.3751/79.2.310",
+      "doi": "https://doi.org/10.3751/79.2.310",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.3751/79.2.310",
       "pdf_url": null,
@@ -112076,6 +112117,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310316716",
         "host_organization_name": "Middle East Institute",
         "host_organization_lineage": [
@@ -112094,6 +112145,7 @@
       "raw_source_name": "The Middle East Journal",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -112110,7 +112162,10 @@
         "author": {
           "id": "https://openalex.org/A5074679891",
           "display_name": "Ahmet Erdi \u00d6zt\u00fcrk",
-          "orcid": "https://orcid.org/0000-0003-1749-6682"
+          "orcid": "https://orcid.org/0000-0003-1749-6682",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1749-6682"
+          ]
         },
         "institutions": [
           {
@@ -112158,9 +112213,9 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.9729672,
+      "value": 0.27451985,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
@@ -112175,7 +112230,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11783",
       "display_name": "Turkey's Politics and Society",
-      "score": 0.8996000289916992,
+      "score": 0.9980000257492065,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -112193,7 +112248,7 @@
       {
         "id": "https://openalex.org/T11783",
         "display_name": "Turkey's Politics and Society",
-        "score": 0.8996000289916992,
+        "score": 0.9980000257492065,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -112208,9 +112263,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T14282",
-        "display_name": "Security, Politics, and Digital Transformation",
-        "score": 0.008100000210106373,
+        "id": "https://openalex.org/T13210",
+        "display_name": "Historical Turkish Studies",
+        "score": 0.0012000000569969416,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -112225,9 +112280,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T13576",
-        "display_name": "Cyprus History, Politics, Society",
-        "score": 0.006099999882280827,
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.0003000000142492354,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -112244,29 +112299,29 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/turkish",
-        "display_name": "Turkish",
-        "score": 0.6919000148773193
+        "id": "https://openalex.org/keywords/turkish-foreign-policy",
+        "display_name": "Turkish foreign policy",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/political-islam",
+        "display_name": "political Islam",
+        "score": 0.921999990940094
       },
       {
         "id": "https://openalex.org/keywords/nationalism",
-        "display_name": "Nationalism",
-        "score": 0.5724999904632568
+        "display_name": "nationalism",
+        "score": 0.9909999966621399
       },
       {
-        "id": "https://openalex.org/keywords/transformation",
-        "display_name": "Transformation (genetics)",
-        "score": 0.48330000042915344
+        "id": "https://openalex.org/keywords/foreign-policy-change",
+        "display_name": "foreign policy change",
+        "score": 0.7089999914169312
       },
       {
-        "id": "https://openalex.org/keywords/foreign-policy",
-        "display_name": "Foreign policy",
-        "score": 0.4296000003814697
-      },
-      {
-        "id": "https://openalex.org/keywords/turkish-republic",
-        "display_name": "Turkish republic",
-        "score": 0.25060001015663147
+        "id": "https://openalex.org/keywords/turkey",
+        "display_name": "Turkey",
+        "score": 0.37599998712539673
       }
     ],
     "concepts": [
@@ -112346,6 +112401,7 @@
     "locations": [
       {
         "id": "doi:10.3751/79.2.310",
+        "doi": "https://doi.org/10.3751/79.2.310",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.3751/79.2.310",
         "pdf_url": null,
@@ -112360,6 +112416,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310316716",
           "host_organization_name": "Middle East Institute",
           "host_organization_lineage": [
@@ -112380,17 +112446,36 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.5473999977111816,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W2887499671",
+      "https://openalex.org/W4235090563",
+      "https://openalex.org/W6983622485",
+      "https://openalex.org/W181663378",
+      "https://openalex.org/W4415062809",
+      "https://openalex.org/W7132621420",
+      "https://openalex.org/W2280652530",
+      "https://openalex.org/W3048004694",
+      "https://openalex.org/W6929770348",
+      "https://openalex.org/W7037462857"
+    ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
     "updated_date": "2026-05-08T13:18:25.657630",
@@ -122710,7 +122795,7 @@
     "doi": "https://doi.org/10.3751/78.2.16",
     "title": "Local Governments in a Competitive Authoritarian Regime: Opposition-Run Metropolitan Municipalities in Turkey",
     "display_name": "Local Governments in a Competitive Authoritarian Regime: Opposition-Run Metropolitan Municipalities in Turkey",
-    "relevance_score": 11.285787,
+    "relevance_score": 29.186935,
     "publication_year": 2025,
     "publication_date": "2025-03-20",
     "ids": {
@@ -122720,6 +122805,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.3751/78.2.16",
+      "doi": "https://doi.org/10.3751/78.2.16",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.3751/78.2.16",
       "pdf_url": null,
@@ -122734,6 +122820,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310316716",
         "host_organization_name": "Middle East Institute",
         "host_organization_lineage": [
@@ -122752,6 +122848,7 @@
       "raw_source_name": "The Middle East Journal",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -122768,7 +122865,10 @@
         "author": {
           "id": "https://openalex.org/A5039411560",
           "display_name": "Nihat \u00c7elik",
-          "orcid": "https://orcid.org/0000-0003-2355-6055"
+          "orcid": "https://orcid.org/0000-0003-2355-6055",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2355-6055"
+          ]
         },
         "institutions": [
           {
@@ -122816,7 +122916,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.17741969,
+      "value": 0.15359966,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -122833,7 +122933,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11783",
       "display_name": "Turkey's Politics and Society",
-      "score": 0.9406999945640564,
+      "score": 0.9609000086784363,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -122851,7 +122951,41 @@
       {
         "id": "https://openalex.org/T11783",
         "display_name": "Turkey's Politics and Society",
-        "score": 0.9406999945640564,
+        "score": 0.9609000086784363,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13343",
+        "display_name": "Turkish Urban and Social Issues",
+        "score": 0.023600000888109207,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3322",
+          "display_name": "Urban Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13210",
+        "display_name": "Historical Turkish Studies",
+        "score": 0.00570000009611249,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -122868,59 +123002,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/opposition",
-        "display_name": "Opposition (politics)",
-        "score": 0.8753999471664429
+        "id": "https://openalex.org/keywords/local-government",
+        "display_name": "local government",
+        "score": 0.5839999914169312
       },
       {
-        "id": "https://openalex.org/keywords/authoritarianism",
-        "display_name": "Authoritarianism",
-        "score": 0.8678127527236938
+        "id": "https://openalex.org/keywords/competitive-authoritarianism",
+        "display_name": "competitive authoritarianism",
+        "score": 0.8880000114440918
       },
       {
-        "id": "https://openalex.org/keywords/metropolitan-area",
-        "display_name": "Metropolitan area",
-        "score": 0.7840333580970764
+        "id": "https://openalex.org/keywords/metropolitan-municipalities",
+        "display_name": "metropolitan municipalities",
+        "score": 0.925000011920929
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5449090003967285
+        "id": "https://openalex.org/keywords/istanbul",
+        "display_name": "Istanbul",
+        "score": 0.6430000066757202
       },
       {
-        "id": "https://openalex.org/keywords/political-economy",
-        "display_name": "Political economy",
-        "score": 0.36187291145324707
+        "id": "https://openalex.org/keywords/ankara",
+        "display_name": "Ankara",
+        "score": 0.9990000128746033
       },
       {
-        "id": "https://openalex.org/keywords/development-economics",
-        "display_name": "Development economics",
-        "score": 0.33745935559272766
+        "id": "https://openalex.org/keywords/2019-local-elections",
+        "display_name": "2019 local elections",
+        "score": 0.8180000185966492
       },
       {
-        "id": "https://openalex.org/keywords/economic-system",
-        "display_name": "Economic system",
-        "score": 0.3354954123497009
+        "id": "https://openalex.org/keywords/akp",
+        "display_name": "AKP",
+        "score": 0.8489999771118164
       },
       {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.24911460280418396
+        "id": "https://openalex.org/keywords/central-local-government-conflict",
+        "display_name": "central-local government conflict",
+        "score": 0.7710000276565552
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.2438182234764099
+        "id": "https://openalex.org/keywords/municipal-finance",
+        "display_name": "local government finance",
+        "score": 0.718999981880188
       },
       {
-        "id": "https://openalex.org/keywords/democracy",
-        "display_name": "Democracy",
-        "score": 0.20522993803024292
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.12586653232574463
+        "id": "https://openalex.org/keywords/turkey",
+        "display_name": "Turkey",
+        "score": 0.40700000524520874
       }
     ],
     "concepts": [
@@ -123017,10 +123146,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 2,
     "locations": [
       {
         "id": "doi:10.3751/78.2.16",
+        "doi": "https://doi.org/10.3751/78.2.16",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.3751/78.2.16",
         "pdf_url": null,
@@ -123035,6 +123165,61 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310316716",
+          "host_organization_name": "Middle East Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316716"
+          ],
+          "host_organization_lineage_names": [
+            "Middle East Institute"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Middle East Journal",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "doi:10.3751/78.23.16",
+        "doi": "https://doi.org/10.3751/78.23.16",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.3751/78.23.16",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S184885884",
+          "display_name": "The Middle East Journal",
+          "issn_l": "0026-3141",
+          "issn": [
+            "0026-3141",
+            "1940-3461"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310316716",
           "host_organization_name": "Middle East Institute",
           "host_organization_lineage": [
@@ -123055,27 +123240,40 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 1.0,
+        "display_name": "Peace, justice, and strong institutions"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/11",
+        "score": 0.761900007724762,
+        "display_name": "Sustainable cities and communities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W4212929323",
-      "https://openalex.org/W2045046253",
-      "https://openalex.org/W2000995042",
-      "https://openalex.org/W2494740635",
-      "https://openalex.org/W1632599465",
-      "https://openalex.org/W4391985229",
-      "https://openalex.org/W1563545158",
-      "https://openalex.org/W2115206115",
-      "https://openalex.org/W2091545482",
-      "https://openalex.org/W3177269507"
+      "https://openalex.org/W2990828299",
+      "https://openalex.org/W2892037051",
+      "https://openalex.org/W4404471363",
+      "https://openalex.org/W4248910832",
+      "https://openalex.org/W3209878808",
+      "https://openalex.org/W4293166797",
+      "https://openalex.org/W7152060091",
+      "https://openalex.org/W4321370602",
+      "https://openalex.org/W4313293965",
+      "https://openalex.org/W4230045633"
     ],
     "abstract_inverted_index": {
       "The": [
@@ -123250,7 +123448,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-10-12T09:40:04.860316",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -325305,5 +325503,1571 @@
     "counts_by_year": [],
     "updated_date": "2025-10-10T17:16:08.811792",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7206176615",
+    "doi": "https://doi.org/10.3751/79.3.11",
+    "title": "T\u00fcrkiye, HTS, and the New Spirit of Islamism",
+    "display_name": "T\u00fcrkiye, HTS, and the New Spirit of Islamism",
+    "relevance_score": 2.682485,
+    "publication_year": 2026,
+    "publication_date": "2026-07-01",
+    "ids": {
+      "openalex": "https://openalex.org/W7206176615",
+      "doi": "https://doi.org/10.3751/79.3.11"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.3751/79.3.11",
+      "doi": "https://doi.org/10.3751/79.3.11",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3751/79.3.11",
+      "pdf_url": "https://mej.mei.edu/content/mej/79/3/mej-7903-1.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S184885884",
+        "display_name": "The Middle East Journal",
+        "issn_l": "0026-3141",
+        "issn": [
+          "0026-3141",
+          "1940-3461"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310316716",
+        "host_organization_name": "Middle East Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316716"
+        ],
+        "host_organization_lineage_names": [
+          "Middle East Institute"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Middle East Journal",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://mej.mei.edu/content/mej/79/3/mej-7903-1.full.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5095882612",
+          "display_name": "Ezgi Ba\u015faran",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Ezgi Ba\u015faran",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5095882612"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.65052171,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "79",
+      "issue": "3",
+      "first_page": "mej",
+      "last_page": "7903"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11783",
+      "display_name": "Turkey's Politics and Society",
+      "score": 0.9429000020027161,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11783",
+        "display_name": "Turkey's Politics and Society",
+        "score": 0.9429000020027161,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.02669999934732914,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10994",
+        "display_name": "Terrorism, Counterterrorism, and Political Violence",
+        "score": 0.011500000022351742,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/hayat-tahrir-al-sham",
+        "display_name": "Hayat Tahrir al-Sham",
+        "score": 0.8859999775886536
+      },
+      {
+        "id": "https://openalex.org/keywords/political-islam",
+        "display_name": "political Islam",
+        "score": 0.5049999952316284
+      },
+      {
+        "id": "https://openalex.org/keywords/turkish-foreign-policy",
+        "display_name": "Turkish foreign policy",
+        "score": 0.7269999980926514
+      },
+      {
+        "id": "https://openalex.org/keywords/recep-tayyip-erdogan",
+        "display_name": "Recep Tayyip Erdo\u011fan",
+        "score": 0.8820000290870667
+      },
+      {
+        "id": "https://openalex.org/keywords/idlib",
+        "display_name": "Idlib",
+        "score": 0.5669999718666077
+      },
+      {
+        "id": "https://openalex.org/keywords/syrian-civil-war",
+        "display_name": "Syrian civil war",
+        "score": 0.49000000953674316
+      },
+      {
+        "id": "https://openalex.org/keywords/turkey-syria-relations",
+        "display_name": "Turkey\u2013Syria relations",
+        "score": 0.546999990940094
+      },
+      {
+        "id": "https://openalex.org/keywords/gulf-cooperation-council",
+        "display_name": "Gulf Cooperation Council",
+        "score": 0.38499999046325684
+      },
+      {
+        "id": "https://openalex.org/keywords/muslim-brotherhood",
+        "display_name": "Muslim Brotherhood",
+        "score": 0.3779999911785126
+      },
+      {
+        "id": "https://openalex.org/keywords/statecraft",
+        "display_name": "statecraft",
+        "score": 0.34599998593330383
+      },
+      {
+        "id": "https://openalex.org/keywords/turkey-egypt-relations",
+        "display_name": "Turkey\u2013Egypt relations",
+        "score": 0.4959999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/turkey-saudi-arabia-relations",
+        "display_name": "Turkey\u2013Saudi Arabia relations",
+        "score": 0.44600000977516174
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2781121862",
+        "wikidata": "https://www.wikidata.org/wiki/Q256",
+        "display_name": "Turkish",
+        "level": 2,
+        "score": 0.6460000276565552
+      },
+      {
+        "id": "https://openalex.org/C197487636",
+        "wikidata": "https://www.wikidata.org/wiki/Q49892",
+        "display_name": "Presidential system",
+        "level": 3,
+        "score": 0.6161999702453613
+      },
+      {
+        "id": "https://openalex.org/C93377909",
+        "wikidata": "https://www.wikidata.org/wiki/Q181648",
+        "display_name": "Foreign policy",
+        "level": 3,
+        "score": 0.5648999810218811
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.544700026512146
+      },
+      {
+        "id": "https://openalex.org/C158071213",
+        "wikidata": "https://www.wikidata.org/wiki/Q7257",
+        "display_name": "Ideology",
+        "level": 3,
+        "score": 0.47290000319480896
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.4212000072002411
+      },
+      {
+        "id": "https://openalex.org/C44394981",
+        "wikidata": "https://www.wikidata.org/wiki/Q181648",
+        "display_name": "Foreign relations",
+        "level": 4,
+        "score": 0.39579999446868896
+      },
+      {
+        "id": "https://openalex.org/C2780708138",
+        "wikidata": "https://www.wikidata.org/wiki/Q1182102",
+        "display_name": "Decorum",
+        "level": 2,
+        "score": 0.3939000070095062
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.3659000098705292
+      },
+      {
+        "id": "https://openalex.org/C2778137410",
+        "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+        "display_name": "Government (linguistics)",
+        "level": 2,
+        "score": 0.3625999987125397
+      },
+      {
+        "id": "https://openalex.org/C24667770",
+        "wikidata": "https://www.wikidata.org/wiki/Q34187",
+        "display_name": "Religious studies",
+        "level": 1,
+        "score": 0.3393000066280365
+      },
+      {
+        "id": "https://openalex.org/C2780587734",
+        "wikidata": "https://www.wikidata.org/wiki/Q383030",
+        "display_name": "Afghan",
+        "level": 2,
+        "score": 0.3068999946117401
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.2955999970436096
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.25279998779296875
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.3751/79.3.11",
+        "doi": "https://doi.org/10.3751/79.3.11",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3751/79.3.11",
+        "pdf_url": "https://mej.mei.edu/content/mej/79/3/mej-7903-1.full.pdf",
+        "source": {
+          "id": "https://openalex.org/S184885884",
+          "display_name": "The Middle East Journal",
+          "issn_l": "0026-3141",
+          "issn": [
+            "0026-3141",
+            "1940-3461"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310316716",
+          "host_organization_name": "Middle East Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316716"
+          ],
+          "host_organization_lineage_names": [
+            "Middle East Institute"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Middle East Journal",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.3751/79.3.11",
+      "doi": "https://doi.org/10.3751/79.3.11",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3751/79.3.11",
+      "pdf_url": "https://mej.mei.edu/content/mej/79/3/mej-7903-1.full.pdf",
+      "source": {
+        "id": "https://openalex.org/S184885884",
+        "display_name": "The Middle East Journal",
+        "issn_l": "0026-3141",
+        "issn": [
+          "0026-3141",
+          "1940-3461"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310316716",
+        "host_organization_name": "Middle East Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316716"
+        ],
+        "host_organization_lineage_names": [
+          "Middle East Institute"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Middle East Journal",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7206176615.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7206176615.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W7025021902",
+      "https://openalex.org/W4390995319",
+      "https://openalex.org/W4280619509",
+      "https://openalex.org/W4405573085",
+      "https://openalex.org/W7139676276",
+      "https://openalex.org/W7043379431",
+      "https://openalex.org/W7135531524",
+      "https://openalex.org/W2792030906",
+      "https://openalex.org/W2980132519",
+      "https://openalex.org/W2956628880"
+    ],
+    "abstract_inverted_index": {
+      "When": [
+        0
+      ],
+      "Ahmed": [
+        1
+      ],
+      "al-Sharaa,": [
+        2
+      ],
+      "formally": [
+        3
+      ],
+      "known": [
+        4
+      ],
+      "by": [
+        5,
+        311
+      ],
+      "the": [
+        6,
+        15,
+        42,
+        52,
+        75,
+        99,
+        114,
+        127,
+        146,
+        158,
+        167,
+        180,
+        184,
+        190,
+        197,
+        204,
+        208,
+        236,
+        264,
+        267,
+        271,
+        292,
+        300,
+        307,
+        343,
+        463,
+        475,
+        478
+      ],
+      "nom": [
+        7
+      ],
+      "de": [
+        8
+      ],
+      "guerre": [
+        9
+      ],
+      "Mohammad": [
+        10
+      ],
+      "al-Jolani": [
+        11
+      ],
+      "and": [
+        12,
+        55,
+        70,
+        111,
+        143,
+        222,
+        244,
+        261,
+        270,
+        315,
+        345,
+        369,
+        406,
+        416,
+        429,
+        437,
+        470
+      ],
+      "leader": [
+        13
+      ],
+      "of": [
+        14,
+        44,
+        61,
+        92,
+        101,
+        160,
+        169,
+        179,
+        199,
+        207,
+        235,
+        249,
+        266,
+        433,
+        458,
+        477
+      ],
+      "jihadist": [
+        16,
+        302
+      ],
+      "group": [
+        17
+      ],
+      "Hayat": [
+        18
+      ],
+      "Tahrir": [
+        19
+      ],
+      "al-Sham": [
+        20
+      ],
+      "(HTS),": [
+        21
+      ],
+      "entered": [
+        22
+      ],
+      "Damascus": [
+        23,
+        110,
+        409
+      ],
+      "in": [
+        24,
+        47,
+        137,
+        157,
+        183,
+        228,
+        240,
+        291,
+        356,
+        404,
+        423,
+        427,
+        474
+      ],
+      "December": [
+        25
+      ],
+      "2024,": [
+        26
+      ],
+      "few": [
+        27,
+        40
+      ],
+      "expected": [
+        28
+      ],
+      "him": [
+        29
+      ],
+      "to": [
+        30,
+        78,
+        98,
+        108,
+        124,
+        176,
+        189,
+        274,
+        320,
+        340,
+        360,
+        365,
+        374,
+        394,
+        408
+      ],
+      "transform": [
+        31
+      ],
+      "into": [
+        32,
+        388
+      ],
+      "a": [
+        33,
+        86,
+        96,
+        102,
+        214,
+        247,
+        305,
+        312,
+        322,
+        371,
+        413
+      ],
+      "statesman": [
+        34
+      ],
+      "within": [
+        35
+      ],
+      "months.That": [
+        36
+      ],
+      "was": [
+        37,
+        64,
+        85,
+        117,
+        130,
+        386
+      ],
+      "partly": [
+        38
+      ],
+      "because": [
+        39
+      ],
+      "knew": [
+        41
+      ],
+      "details": [
+        43
+      ],
+      "his": [
+        45,
+        231
+      ],
+      "rule": [
+        46
+      ],
+      "Syria's": [
+        48
+      ],
+      "Idlib": [
+        49
+      ],
+      "governorate,": [
+        50
+      ],
+      "or": [
+        51
+      ],
+      "relationships": [
+        53,
+        63
+      ],
+      "he": [
+        54,
+        193
+      ],
+      "HTS": [
+        56
+      ],
+      "had": [
+        57,
+        135,
+        325,
+        352
+      ],
+      "forged": [
+        58
+      ],
+      "since": [
+        59,
+        141
+      ],
+      "2019.One": [
+        60
+      ],
+      "those": [
+        62
+      ],
+      "with": [
+        65,
+        139,
+        196,
+        257
+      ],
+      "T\u00fcrkiye": [
+        66
+      ],
+      "via": [
+        67
+      ],
+      "its": [
+        68
+      ],
+      "military": [
+        69
+      ],
+      "intelligence": [
+        71,
+        106,
+        226
+      ],
+      "presence": [
+        72
+      ],
+      "near": [
+        73
+      ],
+      "Idlib.Among": [
+        74
+      ],
+      "first": [
+        76,
+        105,
+        121,
+        337,
+        439
+      ],
+      "gifts": [
+        77
+      ],
+      "arrive": [
+        79,
+        125
+      ],
+      "upon": [
+        80
+      ],
+      "al-Sharaa's": [
+        81,
+        276
+      ],
+      "inauguration": [
+        82
+      ],
+      "as": [
+        83,
+        166,
+        216,
+        233,
+        304
+      ],
+      "president": [
+        84,
+        392
+      ],
+      "finely": [
+        87
+      ],
+      "crafted": [
+        88
+      ],
+      "suit": [
+        89,
+        279
+      ],
+      "from": [
+        90,
+        174,
+        280,
+        419
+      ],
+      "one": [
+        91,
+        178,
+        234
+      ],
+      "Istanbul's": [
+        93,
+        282
+      ],
+      "high-end": [
+        94
+      ],
+      "brands,": [
+        95
+      ],
+      "nod": [
+        97
+      ],
+      "decorum": [
+        100
+      ],
+      "presidential": [
+        103,
+        128
+      ],
+      "office.The": [
+        104
+      ],
+      "chief": [
+        107,
+        218,
+        227
+      ],
+      "visit": [
+        109,
+        339
+      ],
+      "pray": [
+        112
+      ],
+      "at": [
+        113,
+        126
+      ],
+      "Umayyad": [
+        115
+      ],
+      "Mosque": [
+        116
+      ],
+      "T\u00fcrkiye's": [
+        118,
+        131,
+        170,
+        447,
+        466
+      ],
+      "\u0130brahim": [
+        119
+      ],
+      "Kal\u0131n.The": [
+        120
+      ],
+      "foreign": [
+        122,
+        155,
+        219,
+        338
+      ],
+      "minister": [
+        123
+      ],
+      "palace": [
+        129
+      ],
+      "Hakan": [
+        132
+      ],
+      "Fidan,": [
+        133
+      ],
+      "who": [
+        134,
+        149,
+        201,
+        252
+      ],
+      "been": [
+        136
+      ],
+      "contact": [
+        138
+      ],
+      "al-Sharaa": [
+        140,
+        319
+      ],
+      "2019.Fidan": [
+        142
+      ],
+      "Kal\u0131n": [
+        144,
+        245,
+        260
+      ],
+      "are": [
+        145
+      ],
+      "two": [
+        147
+      ],
+      "figures": [
+        148,
+        239
+      ],
+      "have": [
+        150,
+        253
+      ],
+      "most": [
+        151,
+        237,
+        283
+      ],
+      "significantly": [
+        152
+      ],
+      "shaped": [
+        153
+      ],
+      "Turkish": [
+        154,
+        209,
+        241
+      ],
+      "policy": [
+        156,
+        220
+      ],
+      "era": [
+        159
+      ],
+      "President": [
+        161
+      ],
+      "Recep": [
+        162
+      ],
+      "Tayyip": [
+        163
+      ],
+      "Erdo\u011fan.Fidan": [
+        164
+      ],
+      "served": [
+        165,
+        211
+      ],
+      "head": [
+        168
+      ],
+      "National": [
+        171
+      ],
+      "Intelligence": [
+        172
+      ],
+      "Organization": [
+        173
+      ],
+      "2010": [
+        175
+      ],
+      "2023,": [
+        177,
+        229
+      ],
+      "longest": [
+        181
+      ],
+      "tenures": [
+        182
+      ],
+      "institution's": [
+        185
+      ],
+      "history,": [
+        186
+      ],
+      "before": [
+        187,
+        224,
+        349
+      ],
+      "moving": [
+        188
+      ],
+      "Foreign": [
+        191
+      ],
+      "Ministry.There,": [
+        192
+      ],
+      "has": [
+        194
+      ],
+      "operated": [
+        195
+      ],
+      "authority": [
+        198
+      ],
+      "someone": [
+        200
+      ],
+      "already": [
+        202
+      ],
+      "knows": [
+        203
+      ],
+      "inner": [
+        205
+      ],
+      "workings": [
+        206
+      ],
+      "state.Kal\u0131n": [
+        210
+      ],
+      "for": [
+        212,
+        329,
+        390
+      ],
+      "over": [
+        213
+      ],
+      "decade": [
+        215
+      ],
+      "Erdo\u011fan's": [
+        217
+      ],
+      "adviser": [
+        221
+      ],
+      "spokesperson": [
+        223
+      ],
+      "becoming": [
+        225
+      ],
+      "confirming": [
+        230
+      ],
+      "role": [
+        232
+      ],
+      "consequential": [
+        238
+      ],
+      "statecraft.Together,": [
+        242
+      ],
+      "Fidan": [
+        243,
+        262
+      ],
+      "represent": [
+        246
+      ],
+      "generation": [
+        248
+      ],
+      "Erdo\u011fan": [
+        250
+      ],
+      "loyalists": [
+        251
+      ],
+      "combined": [
+        254
+      ],
+      "ideological": [
+        255
+      ],
+      "commitment": [
+        256
+      ],
+      "genuine": [
+        258
+      ],
+      "competence.Both": [
+        259
+      ],
+      "understood": [
+        263
+      ],
+      "demands": [
+        265
+      ],
+      "Western": [
+        268
+      ],
+      "gaze": [
+        269
+      ],
+      "immediate": [
+        272
+      ],
+      "need": [
+        273
+      ],
+      "redefine": [
+        275
+      ],
+      "public": [
+        277
+      ],
+      "image.The": [
+        278
+      ],
+      "Vakko,": [
+        281
+      ],
+      "established": [
+        284
+      ],
+      "luxury": [
+        285
+      ],
+      "brand,": [
+        286
+      ],
+      "initiated": [
+        287
+      ],
+      "Sharaa's": [
+        288
+      ],
+      "transformation,": [
+        289
+      ],
+      "captured": [
+        290
+      ],
+      "before-andafter": [
+        293
+      ],
+      "photographs": [
+        294
+      ],
+      "circulating": [
+        295
+      ],
+      "social": [
+        296
+      ],
+      "media": [
+        297
+      ],
+      "ever": [
+        298
+      ],
+      "since:": [
+        299
+      ],
+      "former": [
+        301,
+        331,
+        414
+      ],
+      "recast": [
+        303
+      ],
+      "statesman,": [
+        306
+      ],
+      "combat": [
+        308
+      ],
+      "uniform": [
+        309
+      ],
+      "replaced": [
+        310
+      ],
+      "well-cut": [
+        313
+      ],
+      "jacket.Fidan": [
+        314
+      ],
+      "Kal\u0131n's": [
+        316
+      ],
+      "teams": [
+        317
+      ],
+      "advised": [
+        318
+      ],
+      "follow": [
+        321
+      ],
+      "script": [
+        323
+      ],
+      "they": [
+        324
+      ],
+      "once": [
+        326
+      ],
+      "laid": [
+        327
+      ],
+      "out": [
+        328
+      ],
+      "Egypt's": [
+        330,
+        471
+      ],
+      "president,": [
+        332
+      ],
+      "Mohamed": [
+        333
+      ],
+      "Morsi:": [
+        334
+      ],
+      "make": [
+        335
+      ],
+      "your": [
+        336
+      ],
+      "Riyadh,": [
+        341,
+        395
+      ],
+      "reassure": [
+        342
+      ],
+      "Gulf,": [
+        344
+      ],
+      "signal": [
+        346
+      ],
+      "regional": [
+        347
+      ],
+      "coherence": [
+        348
+      ],
+      "anything": [
+        350
+      ],
+      "else.Morsi": [
+        351
+      ],
+      "done": [
+        353
+      ],
+      "exactly": [
+        354
+      ],
+      "this": [
+        355
+      ],
+      "July": [
+        357
+      ],
+      "2012,": [
+        358
+      ],
+      "flying": [
+        359
+      ],
+      "meet": [
+        361
+      ],
+      "Saudi": [
+        362
+      ],
+      "King": [
+        363
+      ],
+      "Abdullah": [
+        364
+      ],
+      "discuss": [
+        366
+      ],
+      "economic": [
+        367
+      ],
+      "cooperation": [
+        368
+      ],
+      "security,": [
+        370
+      ],
+      "trip": [
+        372
+      ],
+      "designed": [
+        373
+      ],
+      "calm": [
+        375
+      ],
+      "Gulf": [
+        376
+      ],
+      "fears": [
+        377
+      ],
+      "about": [
+        378
+      ],
+      "Muslim": [
+        379,
+        472
+      ],
+      "Brotherhood": [
+        380,
+        473
+      ],
+      "governance.": [
+        381
+      ],
+      "1": [
+        382
+      ],
+      "The": [
+        383,
+        455
+      ],
+      "same": [
+        384
+      ],
+      "approach": [
+        385
+      ],
+      "put": [
+        387
+      ],
+      "effect": [
+        389
+      ],
+      "al-Sharaa.The": [
+        391
+      ],
+      "travelled": [
+        393
+      ],
+      "met": [
+        396
+      ],
+      "Crown": [
+        397
+      ],
+      "Prince": [
+        398
+      ],
+      "Mohammed": [
+        399
+      ],
+      "bin": [
+        400
+      ],
+      "Salman,": [
+        401
+      ],
+      "performed": [
+        402
+      ],
+      "Umrah": [
+        403
+      ],
+      "Mecca,": [
+        405
+      ],
+      "returned": [
+        407
+      ],
+      "Ezgi": [
+        410
+      ],
+      "Ba\u015faran": [
+        411
+      ],
+      "is": [
+        412,
+        425
+      ],
+      "journalist": [
+        415
+      ],
+      "political": [
+        417,
+        428
+      ],
+      "scientist": [
+        418
+      ],
+      "Istanbul,": [
+        420
+      ],
+      "now": [
+        421
+      ],
+      "based": [
+        422
+      ],
+      "Oxford.She": [
+        424
+      ],
+      "interested": [
+        426
+      ],
+      "historical": [
+        430
+      ],
+      "confluences,": [
+        431
+      ],
+      "points": [
+        432
+      ],
+      "interaction": [
+        434
+      ],
+      "between": [
+        435
+      ],
+      "institutions": [
+        436
+      ],
+      "peoples.Her": [
+        438
+      ],
+      "book,": [
+        440,
+        454
+      ],
+      "Frontline": [
+        441
+      ],
+      "Turkey": [
+        442
+      ],
+      "(I.B.Taurus,": [
+        443,
+        460
+      ],
+      "2018),": [
+        444
+      ],
+      "focuses": [
+        445
+      ],
+      "on": [
+        446
+      ],
+      "unresolved": [
+        448
+      ],
+      "Kurdish": [
+        449
+      ],
+      "issue,": [
+        450
+      ],
+      "while": [
+        451
+      ],
+      "her": [
+        452
+      ],
+      "second": [
+        453
+      ],
+      "New": [
+        456
+      ],
+      "Spirit": [
+        457
+      ],
+      "Islamism": [
+        459
+      ],
+      "2024),": [
+        461
+      ],
+      "explores": [
+        462
+      ],
+      "interplay": [
+        464
+      ],
+      "among": [
+        465
+      ],
+      "AKP,": [
+        467
+      ],
+      "Tunisia's": [
+        468
+      ],
+      "Ennahda,": [
+        469
+      ],
+      "aftermath": [
+        476
+      ],
+      "Arab": [
+        479
+      ],
+      "Uprisings.": [
+        480
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-24T07:57:37.273135",
+    "created_date": "2026-09-03T00:00:00"
   }
 ]

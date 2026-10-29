@@ -5708,7 +5708,7 @@
     "doi": "https://doi.org/10.1177/17506980261425561",
     "title": "Remembering the Chilean solidarity campaign in Australia: Convivial and conflicting memories of activism",
     "display_name": "Remembering the Chilean solidarity campaign in Australia: Convivial and conflicting memories of activism",
-    "relevance_score": 29.477123,
+    "relevance_score": 19.27602,
     "publication_year": 2026,
     "publication_date": "2026-02-26",
     "ids": {
@@ -5718,6 +5718,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/17506980261425561",
+      "doi": "https://doi.org/10.1177/17506980261425561",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/17506980261425561",
       "pdf_url": null,
@@ -5732,6 +5733,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -5750,6 +5761,7 @@
       "raw_source_name": "Memory Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -5764,9 +5776,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5126941857",
+          "id": "https://openalex.org/A5085780032",
           "display_name": "Nicol\u00e1s Villarroel",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-3514-8430",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3514-8430"
+          ]
         },
         "institutions": [
           {
@@ -5819,48 +5834,56 @@
     ],
     "institutions": [],
     "countries_distinct_count": 2,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
-      "https://openalex.org/A5126941857"
+      "https://openalex.org/A5085780032"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I118347636",
       "https://openalex.org/I84884186"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 42.1088,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 12.4817,
     "has_fulltext": false,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.99361927,
-      "is_in_top_1_percent": true,
+      "value": 0.96231593,
+      "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 96,
-      "max": 98
+      "min": 93,
+      "max": 96
     },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "19",
+      "issue": "3",
+      "first_page": "802",
+      "last_page": "818"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11104",
-      "display_name": "Memory, Trauma, and Commemoration",
-      "score": 0.24639999866485596,
+      "id": "https://openalex.org/T13078",
+      "display_name": "Political and Social Dynamics in Chile and Latin America",
+      "score": 0.7285000085830688,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -5869,26 +5892,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11104",
-        "display_name": "Memory, Trauma, and Commemoration",
-        "score": 0.24639999866485596,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3207",
-          "display_name": "Social Psychology"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T13078",
         "display_name": "Political and Social Dynamics in Chile and Latin America",
-        "score": 0.23909999430179596,
+        "score": 0.7285000085830688,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -5903,9 +5909,26 @@
         }
       },
       {
+        "id": "https://openalex.org/T12927",
+        "display_name": "Memory, History, Trauma, Identity",
+        "score": 0.147599995136261,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T12493",
         "display_name": "Memory, violence, and history",
-        "score": 0.08030000329017639,
+        "score": 0.08760000020265579,
         "subfield": {
           "id": "https://openalex.org/subfields/3207",
           "display_name": "Social Psychology"
@@ -5922,44 +5945,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/solidarity",
-        "display_name": "Solidarity",
-        "score": 0.7885000109672546
+        "id": "https://openalex.org/keywords/solidarity-campaign",
+        "display_name": "solidarity campaign",
+        "score": 0.8920000195503235
       },
       {
-        "id": "https://openalex.org/keywords/dialogical-self",
-        "display_name": "Dialogical self",
-        "score": 0.7861999869346619
+        "id": "https://openalex.org/keywords/chilean-exile",
+        "display_name": "Chilean exile",
+        "score": 0.8569999933242798
       },
       {
-        "id": "https://openalex.org/keywords/dialogic",
-        "display_name": "Dialogic",
-        "score": 0.7301999926567078
+        "id": "https://openalex.org/keywords/pinochet-regime",
+        "display_name": "Pinochet dictatorship",
+        "score": 0.7260000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/collective-memory",
+        "display_name": "collective memory",
+        "score": 0.7689999938011169
       },
       {
         "id": "https://openalex.org/keywords/polyphony",
-        "display_name": "Polyphony",
-        "score": 0.695900022983551
+        "display_name": "polyphony",
+        "score": 0.6790000200271606
       },
       {
-        "id": "https://openalex.org/keywords/dictatorship",
-        "display_name": "Dictatorship",
-        "score": 0.5947999954223633
+        "id": "https://openalex.org/keywords/political-activism",
+        "display_name": "political activism",
+        "score": 0.6639999747276306
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.5626999735832214
+        "id": "https://openalex.org/keywords/exile-identity",
+        "display_name": "exile identity",
+        "score": 0.36000001430511475
       },
       {
-        "id": "https://openalex.org/keywords/identity",
-        "display_name": "Identity (music)",
-        "score": 0.5339999794960022
+        "id": "https://openalex.org/keywords/solidarity",
+        "display_name": "solidarity",
+        "score": 0.5569999814033508
       },
       {
-        "id": "https://openalex.org/keywords/reflexivity",
-        "display_name": "Reflexivity",
-        "score": 0.510699987411499
+        "id": "https://openalex.org/keywords/political-conflict",
+        "display_name": "political conflict",
+        "score": 0.47200000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/migration-to-australia",
+        "display_name": "migration to Australia",
+        "score": 0.4169999957084656
       }
     ],
     "concepts": [
@@ -6144,6 +6177,7 @@
     "locations": [
       {
         "id": "doi:10.1177/17506980261425561",
+        "doi": "https://doi.org/10.1177/17506980261425561",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/17506980261425561",
         "pdf_url": null,
@@ -6158,6 +6192,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -6179,6 +6223,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1177/17506980261425561",
+      "doi": "https://doi.org/10.1177/17506980261425561",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/17506980261425561",
       "pdf_url": null,
@@ -6193,6 +6238,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -6211,13 +6266,15 @@
       "raw_source_name": "Memory Studies",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "id": "https://metadata.un.org/sdg/10",
         "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10",
         "score": 0.8123878240585327
       }
     ],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G4094134861",
@@ -6231,16 +6288,17 @@
       {
         "id": "https://openalex.org/F4320331146",
         "display_name": "Agencia Nacional de Investigaci\u00f3n y Desarrollo",
-        "ror": null
+        "ror": "https://ror.org/05btm5233"
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 50,
     "referenced_works": [
+      "https://openalex.org/W216756370",
       "https://openalex.org/W1519717714",
       "https://openalex.org/W1948359988",
       "https://openalex.org/W1979290264",
@@ -6268,6 +6326,8 @@
       "https://openalex.org/W2911967120",
       "https://openalex.org/W2913432057",
       "https://openalex.org/W2921475953",
+      "https://openalex.org/W2922742940",
+      "https://openalex.org/W2990383449",
       "https://openalex.org/W2990544795",
       "https://openalex.org/W3008948831",
       "https://openalex.org/W3045280820",
@@ -6277,7 +6337,6 @@
       "https://openalex.org/W3173371173",
       "https://openalex.org/W4205144645",
       "https://openalex.org/W4229967840",
-      "https://openalex.org/W4250082029",
       "https://openalex.org/W4250965456",
       "https://openalex.org/W4256617204",
       "https://openalex.org/W4300406128",
@@ -6285,10 +6344,8 @@
       "https://openalex.org/W4322390133",
       "https://openalex.org/W4379791962",
       "https://openalex.org/W4391499554",
-      "https://openalex.org/W4401142516",
       "https://openalex.org/W4408331173",
       "https://openalex.org/W4408495643",
-      "https://openalex.org/W4409493130",
       "https://openalex.org/W4414159290",
       "https://openalex.org/W4415784501"
     ],
@@ -6640,7 +6697,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-02-27T06:22:10.598206",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2026-02-27T00:00:00"
   },
   {
@@ -13575,7 +13632,7 @@
     "doi": "https://doi.org/10.1177/17506980261447382",
     "title": "When necronarratives travel: Latin American post-violence migration to Australia",
     "display_name": "When necronarratives travel: Latin American post-violence migration to Australia",
-    "relevance_score": 7.206841,
+    "relevance_score": 18.8752,
     "publication_year": 2026,
     "publication_date": "2026-05-07",
     "ids": {
@@ -13585,7 +13642,8 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/17506980261447382",
-      "is_oa": false,
+      "doi": "https://doi.org/10.1177/17506980261447382",
+      "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/17506980261447382",
       "pdf_url": null,
       "source": {
@@ -13599,6 +13657,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -13609,31 +13677,35 @@
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Memory Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
-      "is_oa": false,
-      "oa_status": "closed",
-      "oa_url": null,
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1177/17506980261447382",
       "any_repository_has_fulltext": false
     },
     "authorships": [
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5135613934",
-          "display_name": "Laura Rodriguez Castro",
-          "orcid": "https://orcid.org/0000-0002-8431-5215"
+          "id": "https://openalex.org/A5022745140",
+          "display_name": "Laura Rodr\u00edguez Castro",
+          "orcid": "https://orcid.org/0000-0002-8431-5215",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8431-5215"
+          ]
         },
         "institutions": [
           {
@@ -13670,7 +13742,10 @@
         "author": {
           "id": "https://openalex.org/A5087538734",
           "display_name": "Bronte Alexander",
-          "orcid": "https://orcid.org/0000-0002-7452-3926"
+          "orcid": "https://orcid.org/0000-0002-7452-3926",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7452-3926"
+          ]
         },
         "institutions": [
           {
@@ -13707,35 +13782,43 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 2,
     "corresponding_author_ids": [
-      "https://openalex.org/A5135613934"
+      "https://openalex.org/A5022745140"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I66809481"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.95842007,
+      "value": 0.31671395,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "19",
+      "issue": "4",
+      "first_page": "969",
+      "last_page": "985"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11104",
-      "display_name": "Memory, Trauma, and Commemoration",
-      "score": 0.7174999713897705,
+      "id": "https://openalex.org/T12493",
+      "display_name": "Memory, violence, and history",
+      "score": 0.9258000254631042,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -13751,9 +13834,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11104",
-        "display_name": "Memory, Trauma, and Commemoration",
-        "score": 0.7174999713897705,
+        "id": "https://openalex.org/T12493",
+        "display_name": "Memory, violence, and history",
+        "score": 0.9258000254631042,
         "subfield": {
           "id": "https://openalex.org/subfields/3207",
           "display_name": "Social Psychology"
@@ -13768,12 +13851,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T13590",
-        "display_name": "Oral History, Memory, Narrative Analysis",
-        "score": 0.015599999576807022,
+        "id": "https://openalex.org/T12927",
+        "display_name": "Memory, History, Trauma, Identity",
+        "score": 0.053300000727176666,
         "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -13785,9 +13868,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T12493",
-        "display_name": "Memory, violence, and history",
-        "score": 0.010499999858438969,
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 0.009499999694526196,
         "subfield": {
           "id": "https://openalex.org/subfields/3207",
           "display_name": "Social Psychology"
@@ -13804,39 +13887,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/latin-americans",
-        "display_name": "Latin Americans",
-        "score": 0.8312000036239624
+        "id": "https://openalex.org/keywords/necropolitics",
+        "display_name": "necropolitics",
+        "score": 0.9440000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/collective-memory",
+        "display_name": "collective memory",
+        "score": 0.6439999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/memory-work",
+        "display_name": "memory work",
+        "score": 0.5350000262260437
+      },
+      {
+        "id": "https://openalex.org/keywords/diasporic-memory",
+        "display_name": "diasporic memory",
+        "score": 0.7149999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/trauma",
+        "display_name": "trauma",
+        "score": 0.43700000643730164
+      },
+      {
+        "id": "https://openalex.org/keywords/dictatorship",
+        "display_name": "dictatorship",
+        "score": 0.6460000276565552
+      },
+      {
+        "id": "https://openalex.org/keywords/post-conflict-memory",
+        "display_name": "post-conflict memory",
+        "score": 0.6269999742507935
       },
       {
         "id": "https://openalex.org/keywords/forgetting",
-        "display_name": "Forgetting",
-        "score": 0.7878999710083008
+        "display_name": "forgetting",
+        "score": 0.42899999022483826
       },
       {
-        "id": "https://openalex.org/keywords/narrative",
-        "display_name": "Narrative",
-        "score": 0.6685000061988831
+        "id": "https://openalex.org/keywords/healing",
+        "display_name": "healing",
+        "score": 0.45500001311302185
       },
       {
-        "id": "https://openalex.org/keywords/mnemonic",
-        "display_name": "Mnemonic",
-        "score": 0.6654000282287598
+        "id": "https://openalex.org/keywords/activism",
+        "display_name": "activism",
+        "score": 0.6940000057220459
       },
       {
-        "id": "https://openalex.org/keywords/recall",
-        "display_name": "Recall",
-        "score": 0.5555999875068665
-      },
-      {
-        "id": "https://openalex.org/keywords/latin-american-studies",
-        "display_name": "Latin American studies",
-        "score": 0.3912000060081482
-      },
-      {
-        "id": "https://openalex.org/keywords/refugee",
-        "display_name": "Refugee",
-        "score": 0.34139999747276306
+        "id": "https://openalex.org/keywords/migration-narratives",
+        "display_name": "migration narratives",
+        "score": 0.375
       }
     ],
     "concepts": [
@@ -13982,11 +14085,12 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 2,
     "locations": [
       {
         "id": "doi:10.1177/17506980261447382",
-        "is_oa": false,
+        "doi": "https://doi.org/10.1177/17506980261447382",
+        "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/17506980261447382",
         "pdf_url": null,
         "source": {
@@ -14000,6 +14104,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -14010,28 +14124,116 @@
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "Memory Studies",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:alma.61SCU_INST:11149118350002368",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://researchportal.scu.edu.au/esploro/outputs/journalArticle/When-necronarratives-travel-Latin-American-post-violence/991013376481302368",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400270",
+          "display_name": "Cross Connect (Southern Cross University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I66809481",
+          "host_organization_name": "Southern Cross University",
+          "host_organization_lineage": [
+            "https://openalex.org/I66809481"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
       }
     ],
-    "best_oa_location": null,
+    "best_oa_location": {
+      "id": "doi:10.1177/17506980261447382",
+      "doi": "https://doi.org/10.1177/17506980261447382",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/17506980261447382",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S144836642",
+        "display_name": "Memory Studies",
+        "issn_l": "1750-6980",
+        "issn": [
+          "1750-6980",
+          "1750-6999"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Memory Studies",
+      "raw_type": "journal-article"
+    },
     "sustainable_development_goals": [
       {
-        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.7297000288963318
+      },
+      {
+        "display_name": "Good health and well-being",
+        "id": "https://metadata.un.org/sdg/3",
+        "score": 0.504800021648407
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
         "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10",
         "score": 0.7059540152549744
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 33,
@@ -14421,7 +14623,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-08T13:18:25.657630",
+    "updated_date": "2026-09-29T14:09:16.559479",
     "created_date": "2026-05-08T00:00:00"
   },
   {
@@ -34844,5 +35046,1346 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7223548545",
+    "doi": "https://doi.org/10.1177/17506980261474125",
+    "title": "Decolonial memory frictions: Tracking the tent in activism, art and memory from Indigenous Australia to Palestine",
+    "display_name": "Decolonial memory frictions: Tracking the tent in activism, art and memory from Indigenous Australia to Palestine",
+    "relevance_score": 16.016504,
+    "publication_year": 2026,
+    "publication_date": "2026-10-01",
+    "ids": {
+      "openalex": "https://openalex.org/W7223548545",
+      "doi": "https://doi.org/10.1177/17506980261474125"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1177/17506980261474125",
+      "doi": "https://doi.org/10.1177/17506980261474125",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/17506980261474125",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S144836642",
+        "display_name": "Memory Studies",
+        "issn_l": "1750-6980",
+        "issn": [
+          "1750-6980",
+          "1750-6999"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Memory Studies",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1177/17506980261474125",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5035937812",
+          "display_name": "Rosanne Kennedy",
+          "orcid": "https://orcid.org/0000-0001-5687-272X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5687-272X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I118347636",
+            "display_name": "Australian National University",
+            "ror": "https://ror.org/019wvm592",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I118347636"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Rosanne Kennedy",
+        "raw_affiliation_strings": [
+          "School of Literature, Languages and Linguistics, College of Arts and Social Sciences, Australian National University, Canberra, ACT, Australia"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-5687-272X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Literature, Languages and Linguistics, College of Arts and Social Sciences, Australian National University, Canberra, ACT, Australia",
+            "institution_ids": [
+              "https://openalex.org/I118347636"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5035937812"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I118347636"
+    ],
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.92062008,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "19",
+      "issue": "5",
+      "first_page": "1500",
+      "last_page": "1524"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11104",
+      "display_name": "Memory, Trauma, and Commemoration",
+      "score": 0.7645999789237976,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 0.7645999789237976,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13211",
+        "display_name": "Memory, Trauma, and Testimony",
+        "score": 0.048700001090765,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3205",
+          "display_name": "Experimental and Cognitive Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12493",
+        "display_name": "Memory, violence, and history",
+        "score": 0.04179999977350235,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/decolonial-memory",
+        "display_name": "decolonial memory",
+        "score": 0.8510000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/settler-colonialism",
+        "display_name": "settler colonialism",
+        "score": 0.8759999871253967
+      },
+      {
+        "id": "https://openalex.org/keywords/documenta-fifteen",
+        "display_name": "documenta fifteen",
+        "score": 0.6779999732971191
+      },
+      {
+        "id": "https://openalex.org/keywords/antisemitism",
+        "display_name": "antisemitism",
+        "score": 0.7850000262260437
+      },
+      {
+        "id": "https://openalex.org/keywords/holocaust-memory",
+        "display_name": "Holocaust memory",
+        "score": 0.7979999780654907
+      },
+      {
+        "id": "https://openalex.org/keywords/dispossession",
+        "display_name": "dispossession",
+        "score": 0.75
+      },
+      {
+        "id": "https://openalex.org/keywords/resistance",
+        "display_name": "resistance",
+        "score": 0.6140000224113464
+      },
+      {
+        "id": "https://openalex.org/keywords/aboriginal-art",
+        "display_name": "Aboriginal art",
+        "score": 0.5950000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/richard-bell",
+        "display_name": "Richard Bell",
+        "score": 0.7450000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/palestinian-memory",
+        "display_name": "Palestinian memory",
+        "score": 0.6039999723434448
+      },
+      {
+        "id": "https://openalex.org/keywords/emily-jacir",
+        "display_name": "Emily Jacir",
+        "score": 0.7870000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/global-south",
+        "display_name": "Global South",
+        "score": 0.33000001311302185
+      },
+      {
+        "id": "https://openalex.org/keywords/commemoration",
+        "display_name": "commemoration",
+        "score": 0.5609999895095825
+      },
+      {
+        "id": "https://openalex.org/keywords/arts-festivals",
+        "display_name": "art festivals",
+        "score": 0.34700000286102295
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C531593650",
+        "wikidata": "https://www.wikidata.org/wiki/Q7167",
+        "display_name": "Colonialism",
+        "level": 2,
+        "score": 0.7889000177383423
+      },
+      {
+        "id": "https://openalex.org/C110361221",
+        "wikidata": "https://www.wikidata.org/wiki/Q2763",
+        "display_name": "The Holocaust",
+        "level": 2,
+        "score": 0.7781999707221985
+      },
+      {
+        "id": "https://openalex.org/C55958113",
+        "wikidata": "https://www.wikidata.org/wiki/Q169480",
+        "display_name": "Indigenous",
+        "level": 2,
+        "score": 0.7214000225067139
+      },
+      {
+        "id": "https://openalex.org/C57473165",
+        "wikidata": "https://www.wikidata.org/wiki/Q7315604",
+        "display_name": "Resistance (ecology)",
+        "level": 2,
+        "score": 0.7105000019073486
+      },
+      {
+        "id": "https://openalex.org/C154775046",
+        "wikidata": "https://www.wikidata.org/wiki/Q188",
+        "display_name": "German",
+        "level": 2,
+        "score": 0.5558000206947327
+      },
+      {
+        "id": "https://openalex.org/C2776786462",
+        "wikidata": "https://www.wikidata.org/wiki/Q574613",
+        "display_name": "Cultural memory",
+        "level": 2,
+        "score": 0.5181000232696533
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.5138000249862671
+      },
+      {
+        "id": "https://openalex.org/C134400042",
+        "wikidata": "https://www.wikidata.org/wiki/Q2372244",
+        "display_name": "Symbol (formal)",
+        "level": 2,
+        "score": 0.5051000118255615
+      },
+      {
+        "id": "https://openalex.org/C114362828",
+        "wikidata": "https://www.wikidata.org/wiki/Q23792",
+        "display_name": "Palestine",
+        "level": 2,
+        "score": 0.4426000118255615
+      },
+      {
+        "id": "https://openalex.org/C67448173",
+        "wikidata": "https://www.wikidata.org/wiki/Q254217",
+        "display_name": "Collective memory",
+        "level": 2,
+        "score": 0.4205000102519989
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.41339999437332153
+      },
+      {
+        "id": "https://openalex.org/C81631423",
+        "wikidata": "https://www.wikidata.org/wiki/Q10859",
+        "display_name": "Spanish Civil War",
+        "level": 2,
+        "score": 0.3847000002861023
+      },
+      {
+        "id": "https://openalex.org/C123728058",
+        "wikidata": "https://www.wikidata.org/wiki/Q7835831",
+        "display_name": "Traumatic memories",
+        "level": 2,
+        "score": 0.36489999294281006
+      },
+      {
+        "id": "https://openalex.org/C135544838",
+        "wikidata": "https://www.wikidata.org/wiki/Q230533",
+        "display_name": "Decolonization",
+        "level": 3,
+        "score": 0.36070001125335693
+      },
+      {
+        "id": "https://openalex.org/C2775992745",
+        "wikidata": "https://www.wikidata.org/wiki/Q6815763",
+        "display_name": "Memory work",
+        "level": 2,
+        "score": 0.3531999886035919
+      },
+      {
+        "id": "https://openalex.org/C137355542",
+        "wikidata": "https://www.wikidata.org/wiki/Q362",
+        "display_name": "World War II",
+        "level": 2,
+        "score": 0.3416999876499176
+      },
+      {
+        "id": "https://openalex.org/C9652623",
+        "wikidata": "https://www.wikidata.org/wiki/Q190109",
+        "display_name": "Field (mathematics)",
+        "level": 2,
+        "score": 0.32030001282691956
+      },
+      {
+        "id": "https://openalex.org/C19165224",
+        "wikidata": "https://www.wikidata.org/wiki/Q23404",
+        "display_name": "Anthropology",
+        "level": 1,
+        "score": 0.31279999017715454
+      },
+      {
+        "id": "https://openalex.org/C2549261",
+        "wikidata": "https://www.wikidata.org/wiki/Q43455",
+        "display_name": "Ethnology",
+        "level": 1,
+        "score": 0.3091999888420105
+      },
+      {
+        "id": "https://openalex.org/C56273599",
+        "wikidata": "https://www.wikidata.org/wiki/Q3122841",
+        "display_name": "White (mutation)",
+        "level": 3,
+        "score": 0.30720001459121704
+      },
+      {
+        "id": "https://openalex.org/C2780301185",
+        "wikidata": "https://www.wikidata.org/wiki/Q7234129",
+        "display_name": "Postcolonialism (international relations)",
+        "level": 2,
+        "score": 0.3043999969959259
+      },
+      {
+        "id": "https://openalex.org/C2777700719",
+        "wikidata": "https://www.wikidata.org/wiki/Q1422907",
+        "display_name": "Politics of memory",
+        "level": 3,
+        "score": 0.29980000853538513
+      },
+      {
+        "id": "https://openalex.org/C29595303",
+        "wikidata": "https://www.wikidata.org/wiki/Q165650",
+        "display_name": "Media studies",
+        "level": 1,
+        "score": 0.2996000051498413
+      },
+      {
+        "id": "https://openalex.org/C179454799",
+        "wikidata": "https://www.wikidata.org/wiki/Q132151",
+        "display_name": "Ethnography",
+        "level": 2,
+        "score": 0.28439998626708984
+      },
+      {
+        "id": "https://openalex.org/C204342414",
+        "wikidata": "https://www.wikidata.org/wiki/Q41397",
+        "display_name": "Genocide",
+        "level": 2,
+        "score": 0.2768000066280365
+      },
+      {
+        "id": "https://openalex.org/C2778355321",
+        "wikidata": "https://www.wikidata.org/wiki/Q17079427",
+        "display_name": "Identity (music)",
+        "level": 2,
+        "score": 0.26589998602867126
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.2639000117778778
+      },
+      {
+        "id": "https://openalex.org/C52119013",
+        "wikidata": "https://www.wikidata.org/wiki/Q50637",
+        "display_name": "Art history",
+        "level": 1,
+        "score": 0.26159998774528503
+      },
+      {
+        "id": "https://openalex.org/C11903924",
+        "wikidata": "https://www.wikidata.org/wiki/Q7168264",
+        "display_name": "Performance studies",
+        "level": 2,
+        "score": 0.2565000057220459
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.25200000405311584
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1177/17506980261474125",
+        "doi": "https://doi.org/10.1177/17506980261474125",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1177/17506980261474125",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S144836642",
+          "display_name": "Memory Studies",
+          "issn_l": "1750-6980",
+          "issn": [
+            "1750-6980",
+            "1750-6999"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Memory Studies",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1177/17506980261474125",
+      "doi": "https://doi.org/10.1177/17506980261474125",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/17506980261474125",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S144836642",
+        "display_name": "Memory Studies",
+        "issn_l": "1750-6980",
+        "issn": [
+          "1750-6980",
+          "1750-6999"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Memory Studies",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.8046000003814697
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 37,
+    "referenced_works": [
+      "https://openalex.org/W59210132",
+      "https://openalex.org/W1983758629",
+      "https://openalex.org/W1989184548",
+      "https://openalex.org/W2018276495",
+      "https://openalex.org/W2048440909",
+      "https://openalex.org/W2100322839",
+      "https://openalex.org/W2503618870",
+      "https://openalex.org/W2877105569",
+      "https://openalex.org/W2966209867",
+      "https://openalex.org/W3005678728",
+      "https://openalex.org/W4229967840",
+      "https://openalex.org/W4235261988",
+      "https://openalex.org/W4238465847",
+      "https://openalex.org/W4241347380",
+      "https://openalex.org/W4242325658",
+      "https://openalex.org/W4242654976",
+      "https://openalex.org/W4245528892",
+      "https://openalex.org/W4251826652",
+      "https://openalex.org/W4293159636",
+      "https://openalex.org/W4319020040",
+      "https://openalex.org/W4327701931",
+      "https://openalex.org/W4377248512",
+      "https://openalex.org/W4377248590",
+      "https://openalex.org/W4377248766",
+      "https://openalex.org/W4377248778",
+      "https://openalex.org/W4377248791",
+      "https://openalex.org/W4386038435",
+      "https://openalex.org/W4388846015",
+      "https://openalex.org/W4399645133",
+      "https://openalex.org/W4401354249",
+      "https://openalex.org/W4402014846",
+      "https://openalex.org/W4402146845",
+      "https://openalex.org/W4402627685",
+      "https://openalex.org/W4409976641",
+      "https://openalex.org/W4413598927",
+      "https://openalex.org/W4415448649",
+      "https://openalex.org/W7115582853"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "To": [
+        0,
+        180
+      ],
+      "explore": [
+        1
+      ],
+      "the": [
+        2,
+        21,
+        47,
+        51,
+        77,
+        96,
+        149,
+        152,
+        162,
+        205,
+        275,
+        303
+      ],
+      "frictions": [
+        3
+      ],
+      "of": [
+        4,
+        23,
+        79,
+        93,
+        141,
+        151,
+        168,
+        218,
+        234,
+        289
+      ],
+      "decolonising": [
+        5,
+        129
+      ],
+      "Memory": [
+        6
+      ],
+      "Studies,": [
+        7
+      ],
+      "a": [
+        8,
+        31,
+        44,
+        56,
+        124,
+        156,
+        165,
+        171,
+        201,
+        237,
+        278
+      ],
+      "field": [
+        9
+      ],
+      "which": [
+        10,
+        199,
+        253
+      ],
+      "originated": [
+        11
+      ],
+      "in": [
+        12,
+        18,
+        37,
+        39,
+        46,
+        115,
+        174,
+        240,
+        261,
+        269
+      ],
+      "Europe": [
+        13
+      ],
+      "and": [
+        14,
+        103,
+        109,
+        139,
+        143,
+        170,
+        178,
+        220,
+        243,
+        257,
+        264,
+        291
+      ],
+      "has": [
+        15
+      ],
+      "been": [
+        16
+      ],
+      "driven,": [
+        17
+      ],
+      "part,": [
+        19
+      ],
+      "by": [
+        20,
+        55,
+        66,
+        259
+      ],
+      "study": [
+        22,
+        78
+      ],
+      "Holocaust": [
+        24,
+        107
+      ],
+      "memory,": [
+        25
+      ],
+      "I": [
+        26,
+        73,
+        86,
+        118,
+        160,
+        184,
+        225,
+        272
+      ],
+      "turn": [
+        27
+      ],
+      "to": [
+        28,
+        75,
+        134,
+        222,
+        249,
+        293
+      ],
+      "Documenta": [
+        29
+      ],
+      ",": [
+        30,
+        198,
+        263
+      ],
+      "prestigious": [
+        32
+      ],
+      "German": [
+        33
+      ],
+      "art": [
+        34
+      ],
+      "festival.": [
+        35
+      ],
+      "Held": [
+        36
+      ],
+      "Kassel": [
+        38
+      ],
+      "2022,": [
+        40
+      ],
+      "documenta": [
+        41,
+        101,
+        196
+      ],
+      "fifteen": [
+        42,
+        102,
+        197
+      ],
+      "marked": [
+        43
+      ],
+      "transition": [
+        45
+      ],
+      "festival\u2019s": [
+        48
+      ],
+      "history,": [
+        49
+      ],
+      "for": [
+        50,
+        128,
+        214
+      ],
+      "first": [
+        52
+      ],
+      "time": [
+        53
+      ],
+      "curated": [
+        54
+      ],
+      "Global": [
+        57,
+        304
+      ],
+      "South": [
+        58
+      ],
+      "artist": [
+        59,
+        189
+      ],
+      "collective.": [
+        60
+      ],
+      "The": [
+        61
+      ],
+      "festival,": [
+        62
+      ],
+      "however,": [
+        63
+      ],
+      "was": [
+        64
+      ],
+      "derailed": [
+        65
+      ],
+      "controversies": [
+        67
+      ],
+      "over": [
+        68
+      ],
+      "antisemitism.": [
+        69
+      ],
+      "In": [
+        70
+      ],
+      "this": [
+        71
+      ],
+      "article,": [
+        72
+      ],
+      "contribute": [
+        74
+      ],
+      "decolonialising": [
+        76
+      ],
+      "memory": [
+        80,
+        108,
+        130,
+        176
+      ],
+      "through": [
+        81
+      ],
+      "three": [
+        82
+      ],
+      "interconnected": [
+        83
+      ],
+      "arguments.": [
+        84
+      ],
+      "First,": [
+        85
+      ],
+      "argue": [
+        87,
+        119,
+        273
+      ],
+      "that": [
+        88,
+        120,
+        145,
+        274,
+        296
+      ],
+      "Germany\u2019s": [
+        89
+      ],
+      "overly": [
+        90
+      ],
+      "broad": [
+        91
+      ],
+      "understanding": [
+        92
+      ],
+      "antisemitism": [
+        94
+      ],
+      "trivialised": [
+        95
+      ],
+      "decolonial": [
+        97
+      ],
+      "initiatives": [
+        98
+      ],
+      "pioneered": [
+        99
+      ],
+      "at": [
+        100,
+        195
+      ],
+      "instead": [
+        104
+      ],
+      "recentred": [
+        105
+      ],
+      "European": [
+        106
+      ],
+      "protected": [
+        110
+      ],
+      "Israel\u2019s": [
+        111
+      ],
+      "settler": [
+        112,
+        121,
+        157,
+        223,
+        294
+      ],
+      "colonial": [
+        113,
+        158
+      ],
+      "practices": [
+        114
+      ],
+      "Palestine.": [
+        116
+      ],
+      "Second,": [
+        117
+      ],
+      "colonialism": [
+        122,
+        295
+      ],
+      "offers": [
+        123
+      ],
+      "productive": [
+        125
+      ],
+      "analytic": [
+        126
+      ],
+      "frame": [
+        127
+      ],
+      "studies,": [
+        131
+      ],
+      "enabling": [
+        132
+      ],
+      "researchers": [
+        133
+      ],
+      "identify": [
+        135,
+        161
+      ],
+      "connections": [
+        136,
+        230,
+        286
+      ],
+      "between": [
+        137,
+        287
+      ],
+      "histories": [
+        138
+      ],
+      "memories": [
+        140,
+        217,
+        233,
+        288
+      ],
+      "dispossession": [
+        142,
+        169,
+        219,
+        290
+      ],
+      "resistance": [
+        144,
+        221,
+        292
+      ],
+      "are": [
+        146
+      ],
+      "often": [
+        147
+      ],
+      "on": [
+        148
+      ],
+      "periphery": [
+        150
+      ],
+      "field.": [
+        153
+      ],
+      "Third,": [
+        154
+      ],
+      "using": [
+        155
+      ],
+      "analytic,": [
+        159
+      ],
+      "tent": [
+        163,
+        203
+      ],
+      "as": [
+        164,
+        210,
+        277
+      ],
+      "recurrent": [
+        166
+      ],
+      "symbol": [
+        167
+      ],
+      "commemorative": [
+        172,
+        280
+      ],
+      "form": [
+        173
+      ],
+      "anticolonial": [
+        175
+      ],
+      "activism": [
+        177
+      ],
+      "art.": [
+        179
+      ],
+      "ground": [
+        181
+      ],
+      "these": [
+        182
+      ],
+      "arguments,": [
+        183
+      ],
+      "take": [
+        185
+      ],
+      "First": [
+        186
+      ],
+      "Nations": [
+        187
+      ],
+      "Australian": [
+        188
+      ],
+      "Richard": [
+        190
+      ],
+      "Bell\u2019s": [
+        191
+      ],
+      "Embassy": [
+        192
+      ],
+      "(2013\u2013)": [
+        193,
+        229
+      ],
+      "installation": [
+        194
+      ],
+      "features": [
+        200
+      ],
+      "canvas": [
+        202
+      ],
+      "commemorating": [
+        204
+      ],
+      "Aboriginal": [
+        206
+      ],
+      "land": [
+        207
+      ],
+      "rights": [
+        208
+      ],
+      "movement,": [
+        209
+      ],
+      "an": [
+        211
+      ],
+      "entry": [
+        212
+      ],
+      "point": [
+        213
+      ],
+      "analysing": [
+        215
+      ],
+      "cultural": [
+        216
+      ],
+      "colonialism.": [
+        224
+      ],
+      "then": [
+        226
+      ],
+      "track": [
+        227
+      ],
+      "Embassy\u2019s": [
+        228
+      ],
+      "with": [
+        231,
+        244
+      ],
+      "Palestinian": [
+        232,
+        238,
+        251
+      ],
+      "dispossession,": [
+        235
+      ],
+      "including": [
+        236
+      ],
+      "festival": [
+        239
+      ],
+      "Jerusalem": [
+        241
+      ],
+      "(2016),": [
+        242
+      ],
+      "Emily": [
+        245
+      ],
+      "Jacir\u2019s": [
+        246
+      ],
+      "(2001)": [
+        247
+      ],
+      "Memorial": [
+        248
+      ],
+      "418": [
+        250
+      ],
+      "Villages": [
+        252
+      ],
+      "were": [
+        254
+      ],
+      "Destroyed,": [
+        255
+      ],
+      "Depopulated": [
+        256
+      ],
+      "Occupied": [
+        258
+      ],
+      "Israel": [
+        260
+      ],
+      "1948": [
+        262
+      ],
+      "Dina": [
+        265
+      ],
+      "Mattar\u2019s": [
+        266
+      ],
+      "Summer": [
+        267
+      ],
+      "Day": [
+        268
+      ],
+      "Gaza": [
+        270
+      ],
+      "(2017).": [
+        271
+      ],
+      "tent,": [
+        276
+      ],
+      "portable": [
+        279
+      ],
+      "form,": [
+        281
+      ],
+      "brings": [
+        282
+      ],
+      "into": [
+        283
+      ],
+      "view": [
+        284
+      ],
+      "surprising": [
+        285
+      ],
+      "we": [
+        297,
+        300
+      ],
+      "miss": [
+        298
+      ],
+      "if": [
+        299
+      ],
+      "start": [
+        301
+      ],
+      "from": [
+        302
+      ],
+      "North.": [
+        305
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2026-10-26T00:00:00"
   }
 ]

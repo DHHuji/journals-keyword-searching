@@ -20328,7 +20328,7 @@
     "doi": "https://doi.org/10.1093/esr/jcaf031",
     "title": "Nationalist focal events and anti-minority violence\u2013how soldier funerals spark ethnic riots in Turkey",
     "display_name": "Nationalist focal events and anti-minority violence\u2013how soldier funerals spark ethnic riots in Turkey",
-    "relevance_score": 10.272124,
+    "relevance_score": 26.41185,
     "publication_year": 2025,
     "publication_date": "2025-05-27",
     "ids": {
@@ -20338,6 +20338,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/esr/jcaf031",
+      "doi": "https://doi.org/10.1093/esr/jcaf031",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1093/esr/jcaf031",
       "pdf_url": null,
@@ -20352,6 +20353,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -20372,6 +20384,7 @@
       "raw_source_name": "European Sociological Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -20388,7 +20401,10 @@
         "author": {
           "id": "https://openalex.org/A5006090800",
           "display_name": "Felix Schulte",
-          "orcid": "https://orcid.org/0000-0003-4183-0214"
+          "orcid": "https://orcid.org/0000-0003-4183-0214",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4183-0214"
+          ]
         },
         "institutions": [
           {
@@ -20425,7 +20441,10 @@
         "author": {
           "id": "https://openalex.org/A5073425554",
           "display_name": "Do\u011fukan Cans\u0131n Karaku\u015f",
-          "orcid": "https://orcid.org/0000-0001-5441-8750"
+          "orcid": "https://orcid.org/0000-0001-5441-8750",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5441-8750"
+          ]
         },
         "institutions": [
           {
@@ -20462,7 +20481,8 @@
         "author": {
           "id": "https://openalex.org/A5114443441",
           "display_name": "Ibrahim G\u00f6kburun",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -20497,7 +20517,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 2,
-    "institutions_distinct_count": 3,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
       "https://openalex.org/A5006090800"
     ],
@@ -20505,16 +20525,16 @@
       "https://openalex.org/I158579660"
     ],
     "apc_list": {
-      "value": 4313,
+      "value": 4710,
       "currency": "EUR",
-      "value_usd": 4651
+      "value_usd": 5323
     },
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.23184178,
+      "value": 0.19048913,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -20529,12 +20549,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11783",
-      "display_name": "Turkey's Politics and Society",
-      "score": 0.9952999949455261,
+      "id": "https://openalex.org/T10070",
+      "display_name": "Political Conflict and Governance",
+      "score": 0.5580999851226807,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -20547,46 +20567,46 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T10070",
+        "display_name": "Political Conflict and Governance",
+        "score": 0.5580999851226807,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10994",
+        "display_name": "Terrorism, Counterterrorism, and Political Violence",
+        "score": 0.16189999878406525,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11783",
         "display_name": "Turkey's Politics and Society",
-        "score": 0.9952999949455261,
+        "score": 0.15770000219345093,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10070",
-        "display_name": "Political Conflict and Governance",
-        "score": 0.98580002784729,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10216",
-        "display_name": "Migration, Refugees, and Integration",
-        "score": 0.9837999939918518,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -20600,64 +20620,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/ethnic-group",
-        "display_name": "Ethnic group",
-        "score": 0.740098237991333
+        "id": "https://openalex.org/keywords/ethnic-riots",
+        "display_name": "ethnic riots",
+        "score": 0.8100000023841858
       },
       {
         "id": "https://openalex.org/keywords/nationalism",
-        "display_name": "Nationalism",
-        "score": 0.6770264506340027
+        "display_name": "nationalism",
+        "score": 0.6639999747276306
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5174953937530518
+        "id": "https://openalex.org/keywords/mourning-rituals",
+        "display_name": "mourning rituals",
+        "score": 0.718999981880188
       },
       {
-        "id": "https://openalex.org/keywords/spark",
-        "display_name": "SPARK (programming language)",
-        "score": 0.4756443202495575
+        "id": "https://openalex.org/keywords/collective-punishment",
+        "display_name": "collective punishment",
+        "score": 0.5889999866485596
       },
       {
-        "id": "https://openalex.org/keywords/criminology",
-        "display_name": "Criminology",
-        "score": 0.46510180830955505
+        "id": "https://openalex.org/keywords/trigger-events",
+        "display_name": "triggering events",
+        "score": 0.6610000133514404
       },
       {
-        "id": "https://openalex.org/keywords/ethnic-conflict",
-        "display_name": "Ethnic conflict",
-        "score": 0.45297354459762573
+        "id": "https://openalex.org/keywords/syrian-refugees",
+        "display_name": "Syrian refugees",
+        "score": 0.41999998688697815
       },
       {
-        "id": "https://openalex.org/keywords/ethnic-violence",
-        "display_name": "Ethnic violence",
-        "score": 0.4509153962135315
-      },
-      {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.3843740224838257
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.3440309762954712
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.13056707382202148
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.08372730016708374
-      },
-      {
-        "id": "https://openalex.org/keywords/computer-science",
-        "display_name": "Computer science",
-        "score": 0.04129183292388916
+        "id": "https://openalex.org/keywords/outgroup-hostility",
+        "display_name": "outgroup hostility",
+        "score": 0.9290000200271606
       }
     ],
     "concepts": [
@@ -20758,6 +20753,7 @@
     "locations": [
       {
         "id": "doi:10.1093/esr/jcaf031",
+        "doi": "https://doi.org/10.1093/esr/jcaf031",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1093/esr/jcaf031",
         "pdf_url": null,
@@ -20772,6 +20768,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -20794,22 +20801,22 @@
       },
       {
         "id": "pmh:oai:DiVA.org:uu-564904",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-564904",
         "pdf_url": null,
         "source": {
-          "id": "https://openalex.org/S4306402043",
-          "display_name": "Uppsala University Publications (Uppsala University)",
+          "id": "https://openalex.org/S4306400653",
+          "display_name": "Diva portal (Dalarna University Library)",
           "issn_l": null,
           "issn": null,
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "host_organization": "https://openalex.org/I123387679",
-          "host_organization_name": "Uppsala University",
-          "host_organization_lineage": [
-            "https://openalex.org/I123387679"
-          ],
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "repository"
         },
@@ -20819,27 +20826,27 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "text"
+        "raw_type": "info:eu-repo/semantics/article"
       }
     ],
     "best_oa_location": {
       "id": "pmh:oai:DiVA.org:uu-564904",
+      "doi": null,
       "is_oa": true,
       "landing_page_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-564904",
       "pdf_url": null,
       "source": {
-        "id": "https://openalex.org/S4306402043",
-        "display_name": "Uppsala University Publications (Uppsala University)",
+        "id": "https://openalex.org/S4306400653",
+        "display_name": "Diva portal (Dalarna University Library)",
         "issn_l": null,
         "issn": null,
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
-        "host_organization": "https://openalex.org/I123387679",
-        "host_organization_name": "Uppsala University",
-        "host_organization_lineage": [
-          "https://openalex.org/I123387679"
-        ],
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
         "host_organization_lineage_names": [],
         "type": "repository"
       },
@@ -20849,13 +20856,21 @@
       "is_accepted": false,
       "is_published": false,
       "raw_source_name": null,
-      "raw_type": "text"
+      "raw_type": "info:eu-repo/semantics/article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G6126476074",
-        "display_name": null,
+        "display_name": "TriggerEreignisse, emotionale Klimata und Kaskaden kultureller Identit\u00e4tskonflikte",
         "funder_award_id": "493809260",
         "funder_id": "https://openalex.org/F4320320879",
         "funder_display_name": "Deutsche Forschungsgemeinschaft"
@@ -20869,11 +20884,11 @@
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
-    "referenced_works_count": 85,
+    "referenced_works_count": 84,
     "referenced_works": [
       "https://openalex.org/W596544485",
       "https://openalex.org/W620917160",
@@ -20890,6 +20905,7 @@
       "https://openalex.org/W2017582372",
       "https://openalex.org/W2028444148",
       "https://openalex.org/W2033739544",
+      "https://openalex.org/W2035510997",
       "https://openalex.org/W2037008208",
       "https://openalex.org/W2040457650",
       "https://openalex.org/W2047060383",
@@ -20941,7 +20957,6 @@
       "https://openalex.org/W3196572816",
       "https://openalex.org/W4200492929",
       "https://openalex.org/W4205523774",
-      "https://openalex.org/W4233104312",
       "https://openalex.org/W4236548426",
       "https://openalex.org/W4247009836",
       "https://openalex.org/W4280536763",
@@ -20958,20 +20973,19 @@
       "https://openalex.org/W4408546876",
       "https://openalex.org/W6690905559",
       "https://openalex.org/W6758511108",
-      "https://openalex.org/W6789375251",
-      "https://openalex.org/W6850897437"
+      "https://openalex.org/W6789375251"
     ],
     "related_works": [
-      "https://openalex.org/W2070975815",
-      "https://openalex.org/W2116859479",
-      "https://openalex.org/W2561929231",
-      "https://openalex.org/W2042718045",
-      "https://openalex.org/W3112658677",
-      "https://openalex.org/W1692895028",
-      "https://openalex.org/W30792490",
-      "https://openalex.org/W2239182917",
-      "https://openalex.org/W2114354996",
-      "https://openalex.org/W3153058193"
+      "https://openalex.org/W2026696657",
+      "https://openalex.org/W4390055784",
+      "https://openalex.org/W7214887237",
+      "https://openalex.org/W2319381222",
+      "https://openalex.org/W1545053744",
+      "https://openalex.org/W1981183640",
+      "https://openalex.org/W2089937810",
+      "https://openalex.org/W2802466349",
+      "https://openalex.org/W7134132519",
+      "https://openalex.org/W7033978590"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -21357,7 +21371,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-10-27T15:51:10.671819",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -27568,7 +27582,7 @@
     "doi": "https://doi.org/10.1093/esr/jcaf017",
     "title": "Antisemitism among Muslims in Germany",
     "display_name": "Antisemitism among Muslims in Germany",
-    "relevance_score": 4.852884,
+    "relevance_score": 2.152721,
     "publication_year": 2025,
     "publication_date": "2025-03-18",
     "ids": {
@@ -27578,6 +27592,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/esr/jcaf017",
+      "doi": "https://doi.org/10.1093/esr/jcaf017",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1093/esr/jcaf017",
       "pdf_url": null,
@@ -27592,6 +27607,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -27612,6 +27638,7 @@
       "raw_source_name": "European Sociological Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -27628,7 +27655,10 @@
         "author": {
           "id": "https://openalex.org/A5003546846",
           "display_name": "Christian S. Czymara",
-          "orcid": "https://orcid.org/0000-0002-9535-3559"
+          "orcid": "https://orcid.org/0000-0002-9535-3559",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9535-3559"
+          ]
         },
         "institutions": [
           {
@@ -27650,21 +27680,9 @@
             "lineage": [
               "https://openalex.org/I16391192"
             ]
-          },
-          {
-            "id": "https://openalex.org/I4210100529",
-            "display_name": "Czech Academy of Sciences, Institute of Sociology",
-            "ror": "https://ror.org/018hy5194",
-            "country_code": "CZ",
-            "type": "facility",
-            "lineage": [
-              "https://openalex.org/I202391551",
-              "https://openalex.org/I4210100529"
-            ]
           }
         ],
         "countries": [
-          "CZ",
           "DE",
           "IL"
         ],
@@ -27685,7 +27703,6 @@
           {
             "raw_affiliation_string": "Institute of Sociology, Goethe University Frankfurt , Theodor-W.-Adorno-Platz 6, Frankfurt am Main ,",
             "institution_ids": [
-              "https://openalex.org/I4210100529",
               "https://openalex.org/I114090438"
             ]
           }
@@ -27696,7 +27713,10 @@
         "author": {
           "id": "https://openalex.org/A5031448902",
           "display_name": "Marcus Eisentraut",
-          "orcid": "https://orcid.org/0000-0002-5620-9933"
+          "orcid": "https://orcid.org/0000-0002-5620-9933",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5620-9933"
+          ]
         },
         "institutions": [
           {
@@ -27733,12 +27753,15 @@
         "author": {
           "id": "https://openalex.org/A5033824807",
           "display_name": "Pascal Anst\u00f6tz",
-          "orcid": "https://orcid.org/0009-0003-8967-8554"
+          "orcid": "https://orcid.org/0009-0003-8967-8554",
+          "observed_orcids": [
+            "https://orcid.org/0009-0003-8967-8554"
+          ]
         },
         "institutions": [
           {
             "id": "https://openalex.org/I4210101898",
-            "display_name": "GESIS - Leibniz-Institute for the Social Sciences",
+            "display_name": "GESIS - Leibniz Institute for the Social Sciences",
             "ror": "https://ror.org/018afyw53",
             "country_code": "DE",
             "type": "facility",
@@ -27771,7 +27794,10 @@
         "author": {
           "id": "https://openalex.org/A5061221966",
           "display_name": "Eldad Davidov",
-          "orcid": "https://orcid.org/0000-0002-3396-969X"
+          "orcid": "https://orcid.org/0000-0002-3396-969X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3396-969X"
+          ]
         },
         "institutions": [
           {
@@ -27808,7 +27834,10 @@
         "author": {
           "id": "https://openalex.org/A5103053418",
           "display_name": "Peter Schmidt",
-          "orcid": "https://orcid.org/0000-0002-6645-9856"
+          "orcid": "https://orcid.org/0000-0002-6645-9856",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6645-9856"
+          ]
         },
         "institutions": [
           {
@@ -27819,16 +27848,6 @@
             "type": "education",
             "lineage": [
               "https://openalex.org/I200763008"
-            ]
-          },
-          {
-            "id": "https://openalex.org/I4210131615",
-            "display_name": "Universities of Giessen and Marburg Lung Center",
-            "ror": "https://ror.org/045f0ws19",
-            "country_code": "DE",
-            "type": "education",
-            "lineage": [
-              "https://openalex.org/I4210131615"
             ]
           }
         ],
@@ -27846,7 +27865,7 @@
           {
             "raw_affiliation_string": "Department of Political Science, University of Giessen , Karl-Gl\u00f6ckner-Stra\u00dfe 21E, Gie\u00dfen ,",
             "institution_ids": [
-              "https://openalex.org/I4210131615"
+              "https://openalex.org/I200763008"
             ]
           },
           {
@@ -27859,33 +27878,32 @@
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 3,
+    "countries_distinct_count": 2,
     "institutions_distinct_count": 5,
     "corresponding_author_ids": [
       "https://openalex.org/A5003546846"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I114090438",
-      "https://openalex.org/I16391192",
-      "https://openalex.org/I4210100529"
+      "https://openalex.org/I16391192"
     ],
     "apc_list": {
-      "value": 4313,
+      "value": 4710,
       "currency": "EUR",
-      "value_usd": 4651
+      "value_usd": 5323
     },
     "apc_paid": null,
-    "fwci": 16.5245,
+    "fwci": 10.4542,
     "has_fulltext": false,
-    "cited_by_count": 5,
+    "cited_by_count": 6,
     "citation_normalized_percentile": {
-      "value": 0.98783624,
+      "value": 0.97796871,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
       "min": 96,
-      "max": 99
+      "max": 98
     },
     "biblio": {
       "volume": "41",
@@ -27899,7 +27917,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T13537",
       "display_name": "German legal, social, and political studies",
-      "score": 0.49880000948905945,
+      "score": 0.6820999979972839,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -27917,7 +27935,7 @@
       {
         "id": "https://openalex.org/T13537",
         "display_name": "German legal, social, and political studies",
-        "score": 0.49880000948905945,
+        "score": 0.6820999979972839,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -27932,16 +27950,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T14321",
-        "display_name": "Religion, Theology, and Education",
-        "score": 0.09239999949932098,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.19359999895095825,
         "subfield": {
-          "id": "https://openalex.org/subfields/1212",
-          "display_name": "Religious studies"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -27949,12 +27967,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T11397",
-        "display_name": "Populism, Right-Wing Movements",
-        "score": 0.04969999939203262,
+        "id": "https://openalex.org/T10314",
+        "display_name": "Social and Intergroup Psychology",
+        "score": 0.032999999821186066,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -27969,68 +27987,33 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/antisemitism",
-        "display_name": "Antisemitism",
-        "score": 0.9974667429924011
+        "display_name": "antisemitism",
+        "score": 0.921999990940094
       },
       {
-        "id": "https://openalex.org/keywords/immigration",
-        "display_name": "Immigration",
-        "score": 0.5708975195884705
+        "id": "https://openalex.org/keywords/muslims",
+        "display_name": "Muslims",
+        "score": 0.7689999938011169
       },
       {
-        "id": "https://openalex.org/keywords/german",
-        "display_name": "German",
-        "score": 0.5372962951660156
+        "id": "https://openalex.org/keywords/muslims-in-germany",
+        "display_name": "Muslims in Germany",
+        "score": 0.6700000166893005
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.5217441320419312
+        "id": "https://openalex.org/keywords/religiosity",
+        "display_name": "religiosity",
+        "score": 0.7160000205039978
       },
       {
-        "id": "https://openalex.org/keywords/judaism",
-        "display_name": "Judaism",
-        "score": 0.464490681886673
+        "id": "https://openalex.org/keywords/educational-attainment",
+        "display_name": "educational attainment",
+        "score": 0.8240000009536743
       },
       {
-        "id": "https://openalex.org/keywords/anti-zionism",
-        "display_name": "Anti-Zionism",
-        "score": 0.42271408438682556
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.42038974165916443
-      },
-      {
-        "id": "https://openalex.org/keywords/religious-studies",
-        "display_name": "Religious studies",
-        "score": 0.4159781038761139
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.37478357553482056
-      },
-      {
-        "id": "https://openalex.org/keywords/theology",
-        "display_name": "Theology",
-        "score": 0.24681547284126282
-      },
-      {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.22916576266288757
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.19567027688026428
-      },
-      {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.1323850154876709
+        "id": "https://openalex.org/keywords/social-cohesion",
+        "display_name": "social cohesion",
+        "score": 0.492000013589859
       }
     ],
     "concepts": [
@@ -28141,10 +28124,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 6,
+    "locations_count": 5,
     "locations": [
       {
         "id": "doi:10.1093/esr/jcaf017",
+        "doi": "https://doi.org/10.1093/esr/jcaf017",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1093/esr/jcaf017",
         "pdf_url": null,
@@ -28159,6 +28143,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -28180,18 +28175,20 @@
         "raw_type": "journal-article"
       },
       {
-        "id": "pmh:oai:pure.knaw.nl:openaire_cris_publications/236eaed9-0e0b-4a90-927f-fbb06b63a160",
+        "id": "pmh:oai:pure.knaw.nl:publications/236eaed9-0e0b-4a90-927f-fbb06b63a160",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pure.knaw.nl/portal/en/publications/236eaed9-0e0b-4a90-927f-fbb06b63a160",
         "pdf_url": null,
         "source": {
-          "id": "https://openalex.org/S4306401286",
-          "display_name": "KNAW research portal (Royal Academy of Art and Sciences (KNAW))",
+          "id": "https://openalex.org/S4306400439",
+          "display_name": "KNAW Research Portal (The Royal Netherlands Academy of Arts and Sciences)",
           "issn_l": null,
           "issn": null,
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1322597698",
           "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
           "host_organization_lineage": [
@@ -28206,39 +28203,11 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "Czymara, C S, Eisentraut, M, Kolkwitz-Anst\u00f6tz, P, Davidov, E & Schmidt, P 2025, 'Antisemitism among Muslims in Germany', European Sociological Review, vol. 41, no. 4, pp. 607-625. https://doi.org/10.1093/esr/jcaf017",
-        "raw_type": "info:eu-repo/semantics/publishedVersion"
-      },
-      {
-        "id": "pmh:oai:pure.knaw.nl:publications/90dfbc15-1ddb-47e3-8c5d-fc54327d48e6",
-        "is_oa": false,
-        "landing_page_url": "https://pure.knaw.nl/portal/en/publications/90dfbc15-1ddb-47e3-8c5d-fc54327d48e6",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4306401286",
-          "display_name": "KNAW research portal (Royal Academy of Art and Sciences (KNAW))",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "host_organization": "https://openalex.org/I1322597698",
-          "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
-          "host_organization_lineage": [
-            "https://openalex.org/I1322597698"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "Czymara, C S, Eisentraut, M, Kolkwitz-Anst\u00f6tz, P, Davidov, E & Schmidt, P 2025, 'Antisemitism among Muslims in Germany', European Sociological Review, vol. 41, no. 4, pp. 607-625. https://doi.org/10.1093/esr/jcaf017",
-        "raw_type": "info:eu-repo/semantics/publishedVersion"
+        "raw_type": "info:eu-repo/semantics/article"
       },
       {
         "id": "pmh:oai:gesis.izsoz.de:document/102196",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://www.ssoar.info/ssoar/handle/document/102196",
         "pdf_url": null,
@@ -28250,8 +28219,9 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I4210101898",
-          "host_organization_name": "GESIS - Leibniz-Institute for the Social Sciences",
+          "host_organization_name": "GESIS - Leibniz Institute for the Social Sciences",
           "host_organization_lineage": [
             "https://openalex.org/I4210101898"
           ],
@@ -28264,21 +28234,54 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": "1-19",
-        "raw_type": "journal article"
+        "raw_type": "Zeitschriftenartikel"
+      },
+      {
+        "id": "pmh:oai:pure.knaw.nl:openaire_cris_publications/236eaed9-0e0b-4a90-927f-fbb06b63a160",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pure.knaw.nl/portal/en/publications/236eaed9-0e0b-4a90-927f-fbb06b63a160",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401286",
+          "display_name": "KNAW research portal (Royal Academy of Art and Sciences (KNAW))",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1322597698",
+          "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+          "host_organization_lineage": [
+            "https://openalex.org/I1322597698"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Czymara, C S, Eisentraut, M, Kolkwitz-Anst\u00f6tz, P, Davidov, E & Schmidt, P 2025, 'Antisemitism among Muslims in Germany', European Sociological Review, vol. 41, no. 4, pp. 607-625. https://doi.org/10.1093/esr/jcaf017",
+        "raw_type": "info:eu-repo/semantics/article"
       },
       {
         "id": "pmh:oai:pure.knaw.nl:openaire_cris_publications/90dfbc15-1ddb-47e3-8c5d-fc54327d48e6",
+        "doi": null,
         "is_oa": false,
-        "landing_page_url": "https://hdl.handle.net/20.500.11755/90dfbc15-1ddb-47e3-8c5d-fc54327d48e6",
+        "landing_page_url": "https://pure.knaw.nl/portal/en/publications/90dfbc15-1ddb-47e3-8c5d-fc54327d48e6",
         "pdf_url": null,
         "source": {
-          "id": "https://openalex.org/S4306401286",
-          "display_name": "KNAW research portal (Royal Academy of Art and Sciences (KNAW))",
+          "id": "https://openalex.org/S4306400439",
+          "display_name": "KNAW Research Portal (The Royal Netherlands Academy of Arts and Sciences)",
           "issn_l": null,
           "issn": null,
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1322597698",
           "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
           "host_organization_lineage": [
@@ -28293,51 +28296,29 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": "Czymara, C S, Eisentraut, M, Kolkwitz-Anst\u00f6tz, P, Davidov, E & Schmidt, P 2025, 'Antisemitism among Muslims in Germany', European Sociological Review, vol. 41, no. 4, pp. 607-625. https://doi.org/10.1093/esr/jcaf017",
-        "raw_type": "info:eu-repo/semantics/publishedVersion"
-      },
-      {
-        "id": "pmh:oai:pure.knaw.nl:publications/236eaed9-0e0b-4a90-927f-fbb06b63a160",
-        "is_oa": false,
-        "landing_page_url": "https://hdl.handle.net/20.500.11755/236eaed9-0e0b-4a90-927f-fbb06b63a160",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4306401286",
-          "display_name": "KNAW research portal (Royal Academy of Art and Sciences (KNAW))",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "host_organization": "https://openalex.org/I1322597698",
-          "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
-          "host_organization_lineage": [
-            "https://openalex.org/I1322597698"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": "Czymara, C S, Eisentraut, M, Kolkwitz-Anst\u00f6tz, P, Davidov, E & Schmidt, P 2025, 'Antisemitism among Muslims in Germany', European Sociological Review, vol. 41, no. 4, pp. 607-625. https://doi.org/10.1093/esr/jcaf017",
-        "raw_type": "info:eu-repo/semantics/publishedVersion"
+        "raw_type": "info:eu-repo/semantics/article"
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "display_name": "Reduced inequalities",
         "id": "https://metadata.un.org/sdg/10",
-        "score": 0.75
+        "score": 0.75,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "study_designs": [
+      {
+        "id": "https://openalex.org/study-designs/observational-study",
+        "display_name": "Observational Study"
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 49,
@@ -28359,6 +28340,7 @@
       "https://openalex.org/W2464974193",
       "https://openalex.org/W2493475859",
       "https://openalex.org/W2520705778",
+      "https://openalex.org/W2582743722",
       "https://openalex.org/W2592022633",
       "https://openalex.org/W2766470022",
       "https://openalex.org/W2788274287",
@@ -28373,6 +28355,7 @@
       "https://openalex.org/W3202409386",
       "https://openalex.org/W4210864558",
       "https://openalex.org/W4221111835",
+      "https://openalex.org/W4232733380",
       "https://openalex.org/W4241231043",
       "https://openalex.org/W4307382992",
       "https://openalex.org/W4307909805",
@@ -28384,25 +28367,23 @@
       "https://openalex.org/W4399636597",
       "https://openalex.org/W4399734615",
       "https://openalex.org/W4403432489",
-      "https://openalex.org/W4411392672",
       "https://openalex.org/W6684085556",
       "https://openalex.org/W6750934069",
-      "https://openalex.org/W6813746815",
       "https://openalex.org/W6898704820",
       "https://openalex.org/W6958957241",
       "https://openalex.org/W6967096183"
     ],
     "related_works": [
-      "https://openalex.org/W2013378996",
-      "https://openalex.org/W4229014285",
-      "https://openalex.org/W4221043194",
-      "https://openalex.org/W2998131060",
-      "https://openalex.org/W2485794049",
-      "https://openalex.org/W3198628314",
-      "https://openalex.org/W2765985239",
-      "https://openalex.org/W2182099620",
-      "https://openalex.org/W1464686515",
-      "https://openalex.org/W2890177875"
+      "https://openalex.org/W7080009403",
+      "https://openalex.org/W6964307516",
+      "https://openalex.org/W6888023582",
+      "https://openalex.org/W6945942114",
+      "https://openalex.org/W4405075815",
+      "https://openalex.org/W4417273666",
+      "https://openalex.org/W4378695433",
+      "https://openalex.org/W7114780639",
+      "https://openalex.org/W4393875023",
+      "https://openalex.org/W3202409386"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -28649,7 +28630,7 @@
       "East": [
         77
       ],
-      "&amp;": [
+      "&": [
         78
       ],
       "North": [
@@ -28832,14 +28813,14 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 2
+        "cited_by_count": 3
       },
       {
         "year": 2025,
         "cited_by_count": 3
       }
     ],
-    "updated_date": "2026-05-21T06:26:12.895304",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2025-05-01T00:00:00"
   }
 ]

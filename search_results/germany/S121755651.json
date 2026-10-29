@@ -18515,7 +18515,7 @@
     "doi": "https://doi.org/10.1086/735653",
     "title": "Libraries as \u201cAcademic Traffic Facilities\u201d: Interlibrary Loan Imaginations after 1945",
     "display_name": "Libraries as \u201cAcademic Traffic Facilities\u201d: Interlibrary Loan Imaginations after 1945",
-    "relevance_score": 2.2006629,
+    "relevance_score": 1.5511566,
     "publication_year": 2025,
     "publication_date": "2025-06-01",
     "ids": {
@@ -18525,6 +18525,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/735653",
+      "doi": "https://doi.org/10.1086/735653",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/735653",
       "pdf_url": null,
@@ -18539,6 +18540,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -18559,6 +18569,7 @@
       "raw_source_name": "Critical Inquiry",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -18573,9 +18584,10 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5092296973",
+          "id": "https://openalex.org/A5099730384",
           "display_name": "Hannah Wiemer",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
@@ -18584,6 +18596,7 @@
         "raw_affiliation_strings": [
           ""
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "",
@@ -18594,24 +18607,24 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
-      "https://openalex.org/A5092296973"
+      "https://openalex.org/A5099730384"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 9.1751,
+    "fwci": 1.0888,
     "has_fulltext": false,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.9656696,
+      "value": 0.83317693,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 94
     },
     "biblio": {
       "volume": "51",
@@ -18623,81 +18636,125 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12248",
-      "display_name": "Water Governance and Infrastructure",
-      "score": 0.9782999753952026,
+      "id": "https://openalex.org/T13673",
+      "display_name": "Library Science and Information",
+      "score": 0.7304999828338623,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/1710",
+        "display_name": "Information Systems"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12248",
-        "display_name": "Water Governance and Infrastructure",
-        "score": 0.9782999753952026,
+        "id": "https://openalex.org/T13673",
+        "display_name": "Library Science and Information",
+        "score": 0.7304999828338623,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14386",
+        "display_name": "Libraries, Manuscripts, and Books",
+        "score": 0.19480000436306,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13166",
+        "display_name": "Information Science and Libraries",
+        "score": 0.01549999974668026,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
         }
       }
     ],
     "keywords": [
       {
         "id": "https://openalex.org/keywords/interlibrary-loan",
-        "display_name": "Interlibrary loan",
-        "score": 0.9686956405639648
+        "display_name": "interlibrary loan",
+        "score": 1.0
+      },
+      {
+        "id": "https://openalex.org/keywords/union-catalog",
+        "display_name": "union catalog",
+        "score": 0.7639999985694885
+      },
+      {
+        "id": "https://openalex.org/keywords/postwar-reconstruction",
+        "display_name": "postwar reconstruction",
+        "score": 0.7360000014305115
+      },
+      {
+        "id": "https://openalex.org/keywords/german-libraries",
+        "display_name": "German libraries",
+        "score": 0.925000011920929
+      },
+      {
+        "id": "https://openalex.org/keywords/library-networks",
+        "display_name": "library networks",
+        "score": 0.734000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/media-infrastructure",
+        "display_name": "media infrastructure",
+        "score": 0.699999988079071
+      },
+      {
+        "id": "https://openalex.org/keywords/copying-machines",
+        "display_name": "copy machines",
+        "score": 0.7300000190734863
+      },
+      {
+        "id": "https://openalex.org/keywords/information-sharing",
+        "display_name": "information sharing",
+        "score": 0.6079999804496765
       },
       {
         "id": "https://openalex.org/keywords/library-science",
-        "display_name": "Library science",
-        "score": 0.4436129033565521
+        "display_name": "librarianship",
+        "score": 0.5299999713897705
       },
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.44123023748397827
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.3443189859390259
-      },
-      {
-        "id": "https://openalex.org/keywords/media-studies",
-        "display_name": "Media studies",
-        "score": 0.34163743257522583
-      },
-      {
-        "id": "https://openalex.org/keywords/world-wide-web",
-        "display_name": "World Wide Web",
-        "score": 0.33949223160743713
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.29837894439697266
-      },
-      {
-        "id": "https://openalex.org/keywords/computer-science",
-        "display_name": "Computer science",
-        "score": 0.24903878569602966
+        "id": "https://openalex.org/keywords/library-history",
+        "display_name": "library history",
+        "score": 0.5590000152587891
       }
     ],
     "concepts": [
@@ -18763,6 +18820,7 @@
     "locations": [
       {
         "id": "doi:10.1086/735653",
+        "doi": "https://doi.org/10.1086/735653",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/735653",
         "pdf_url": null,
@@ -18777,6 +18835,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -18800,11 +18867,13 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 15,
@@ -19391,7 +19460,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-01T08:54:57.152042",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -58768,5 +58837,289 @@
     ],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7204836965",
+    "doi": "https://doi.org/10.1086/742375",
+    "title": "Homo Temporalis: German Jewish Thinkers on Time",
+    "display_name": "Homo Temporalis: German Jewish Thinkers on Time",
+    "relevance_score": 29.695011,
+    "publication_year": 2026,
+    "publication_date": "2026-08-31",
+    "ids": {
+      "openalex": "https://openalex.org/W7204836965",
+      "doi": "https://doi.org/10.1086/742375"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1086/742375",
+      "doi": "https://doi.org/10.1086/742375",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1086/742375",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S121755651",
+        "display_name": "Critical Inquiry",
+        "issn_l": "0093-1896",
+        "issn": [
+          "0093-1896",
+          "1539-7858"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310315672",
+        "host_organization_name": "University of Chicago Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315672",
+          "https://openalex.org/P4310315690"
+        ],
+        "host_organization_lineage_names": [
+          "University of Chicago Press",
+          "University of Chicago"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Critical Inquiry",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "book-review",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5119157866",
+          "display_name": "Tsiona Lida",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Tsiona Lida",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5119157866"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "53",
+      "issue": "1",
+      "first_page": "197",
+      "last_page": "198"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12777",
+      "display_name": "Philosophy, History, and Historiography",
+      "score": 0.46459999680519104,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12777",
+        "display_name": "Philosophy, History, and Historiography",
+        "score": 0.46459999680519104,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13724",
+        "display_name": "Humanities and Social Sciences",
+        "score": 0.14390000700950623,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12366",
+        "display_name": "Philosophy, Ethics, and Existentialism",
+        "score": 0.10249999910593033,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/time",
+        "display_name": "time",
+        "score": 0.6610000133514404
+      },
+      {
+        "id": "https://openalex.org/keywords/german-jewish-thinkers",
+        "display_name": "German-Jewish thinkers",
+        "score": 0.6930000185966492
+      },
+      {
+        "id": "https://openalex.org/keywords/temporality",
+        "display_name": "temporality",
+        "score": 0.7889999747276306
+      },
+      {
+        "id": "https://openalex.org/keywords/jewish-philosophy",
+        "display_name": "Jewish philosophy",
+        "score": 0.6449999809265137
+      }
+    ],
+    "concepts": [],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1086/742375",
+        "doi": "https://doi.org/10.1086/742375",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1086/742375",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S121755651",
+          "display_name": "Critical Inquiry",
+          "issn_l": "0093-1896",
+          "issn": [
+            "0093-1896",
+            "1539-7858"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310315672",
+          "host_organization_name": "University of Chicago Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315672",
+            "https://openalex.org/P4310315690"
+          ],
+          "host_organization_lineage_names": [
+            "University of Chicago Press",
+            "University of Chicago"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Critical Inquiry",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W4406481295",
+      "https://openalex.org/W4400906961",
+      "https://openalex.org/W7047592406",
+      "https://openalex.org/W7006440553",
+      "https://openalex.org/W7053628187",
+      "https://openalex.org/W6962927839",
+      "https://openalex.org/W7015725394",
+      "https://openalex.org/W7009160416",
+      "https://openalex.org/W4300435139",
+      "https://openalex.org/W7044330419"
+    ],
+    "abstract_inverted_index": null,
+    "counts_by_year": [],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2026-09-01T00:00:00"
   }
 ]

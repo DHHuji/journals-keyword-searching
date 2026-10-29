@@ -11482,17 +11482,19 @@
     "doi": "https://doi.org/10.1177/01461672251370785",
     "title": "National Identity and Voting in a Stateless Region: Evidence From Kurdistan",
     "display_name": "National Identity and Voting in a Stateless Region: Evidence From Kurdistan",
-    "relevance_score": 1.1488378,
+    "relevance_score": 4.013453,
     "publication_year": 2025,
     "publication_date": "2025-09-28",
     "ids": {
       "openalex": "https://openalex.org/W4414578146",
       "doi": "https://doi.org/10.1177/01461672251370785",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/41015892"
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/41015892",
+      "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/13646393"
     },
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/01461672251370785",
+      "doi": "https://doi.org/10.1177/01461672251370785",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/01461672251370785",
       "pdf_url": null,
@@ -11507,6 +11509,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-2",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -11525,6 +11540,7 @@
       "raw_source_name": "Personality and Social Psychology Bulletin",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -11534,7 +11550,7 @@
       "is_oa": true,
       "oa_status": "hybrid",
       "oa_url": "https://doi.org/10.1177/01461672251370785",
-      "any_repository_has_fulltext": false
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -11542,7 +11558,10 @@
         "author": {
           "id": "https://openalex.org/A5005651609",
           "display_name": "Lewend Mayiwar",
-          "orcid": "https://orcid.org/0000-0003-1404-4779"
+          "orcid": "https://orcid.org/0000-0003-1404-4779",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1404-4779"
+          ]
         },
         "institutions": [
           {
@@ -11578,8 +11597,12 @@
         "author_position": "last",
         "author": {
           "id": "https://openalex.org/A5048029157",
-          "display_name": "Narin Akrawi",
-          "orcid": null
+          "display_name": "Narin Khalida Akrawi",
+          "orcid": "https://orcid.org/0009-0004-7054-0659",
+          "observed_orcids": [
+            "https://orcid.org/0009-0004-7054-0659",
+            "https://orcid.org/0009-0006-0506-921X"
+          ]
         },
         "institutions": [
           {
@@ -11621,30 +11644,38 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I181046868"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "apc_paid": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.29675167,
+      "value": 0.24553639,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": "1461672251370785",
-      "last_page": "1461672251370785"
+      "volume": "52",
+      "issue": "11",
+      "first_page": "3547",
+      "last_page": "3563"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11783",
-      "display_name": "Turkey's Politics and Society",
-      "score": 0.987500011920929,
+      "id": "https://openalex.org/T10108",
+      "display_name": "Electoral Systems and Political Participation",
+      "score": 0.9520999789237976,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -11660,9 +11691,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11783",
-        "display_name": "Turkey's Politics and Society",
-        "score": 0.987500011920929,
+        "id": "https://openalex.org/T10108",
+        "display_name": "Electoral Systems and Political Participation",
+        "score": 0.9520999789237976,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -11677,12 +11708,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T12550",
-        "display_name": "Politics and Conflicts in Afghanistan, Pakistan, and Middle East",
-        "score": 0.9657999873161316,
+        "id": "https://openalex.org/T10314",
+        "display_name": "Social and Intergroup Psychology",
+        "score": 0.03420000150799751,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -11694,9 +11725,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T10070",
-        "display_name": "Political Conflict and Governance",
-        "score": 0.9616000056266785,
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.0024999999441206455,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -11713,49 +11744,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/voting",
-        "display_name": "Voting",
-        "score": 0.6654999852180481
-      },
-      {
         "id": "https://openalex.org/keywords/national-identity",
-        "display_name": "National identity",
-        "score": 0.6644999980926514
-      },
-      {
-        "id": "https://openalex.org/keywords/ethnic-group",
-        "display_name": "Ethnic group",
-        "score": 0.6103000044822693
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.5687999725341797
-      },
-      {
-        "id": "https://openalex.org/keywords/turnout",
-        "display_name": "Turnout",
-        "score": 0.5343999862670898
-      },
-      {
-        "id": "https://openalex.org/keywords/stateless-protocol",
-        "display_name": "Stateless protocol",
-        "score": 0.5289000272750854
-      },
-      {
-        "id": "https://openalex.org/keywords/government",
-        "display_name": "Government (linguistics)",
-        "score": 0.5232999920845032
+        "display_name": "national identity",
+        "score": 1.0
       },
       {
         "id": "https://openalex.org/keywords/voting-behavior",
-        "display_name": "Voting behavior",
-        "score": 0.512499988079071
+        "display_name": "voting behavior",
+        "score": 0.8939999938011169
       },
       {
-        "id": "https://openalex.org/keywords/identity",
-        "display_name": "Identity (music)",
-        "score": 0.44020000100135803
+        "id": "https://openalex.org/keywords/voter-turnout",
+        "display_name": "voter turnout",
+        "score": 0.9100000262260437
+      },
+      {
+        "id": "https://openalex.org/keywords/kurds",
+        "display_name": "Kurds",
+        "score": 0.7590000033378601
+      },
+      {
+        "id": "https://openalex.org/keywords/kurdistan-region",
+        "display_name": "Iraqi Kurdistan",
+        "score": 0.9380000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/political-distrust",
+        "display_name": "political distrust",
+        "score": 0.38499999046325684
+      },
+      {
+        "id": "https://openalex.org/keywords/life-satisfaction",
+        "display_name": "life satisfaction",
+        "score": 0.8510000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/citizen-participation",
+        "display_name": "citizen participation",
+        "score": 0.9120000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/ethnic-persecution",
+        "display_name": "ethnic persecution",
+        "score": 0.6069999933242798
+      },
+      {
+        "id": "https://openalex.org/keywords/political-instability",
+        "display_name": "political instability",
+        "score": 0.44999998807907104
       }
     ],
     "concepts": [
@@ -11956,11 +11992,90 @@
         "score": 0.25540000200271606
       }
     ],
-    "mesh": [],
-    "locations_count": 2,
+    "mesh": [
+      {
+        "descriptor_ui": "D000092882",
+        "descriptor_name": "Social Group",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000096264",
+        "descriptor_name": "Voting",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D000328",
+        "descriptor_name": "Adult",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D007493",
+        "descriptor_name": "Iraq",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D010549",
+        "descriptor_name": "Personal Satisfaction",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D011057",
+        "descriptor_name": "Politics",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D012933",
+        "descriptor_name": "Social Identification",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D035502",
+        "descriptor_name": "Trust",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      }
+    ],
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1177/01461672251370785",
+        "doi": "https://doi.org/10.1177/01461672251370785",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/01461672251370785",
         "pdf_url": null,
@@ -11975,6 +12090,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "cwts-core",
+            "dongbi-b",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-2",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -11995,6 +12123,7 @@
       },
       {
         "id": "pmid:41015892",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41015892",
         "pdf_url": null,
@@ -12006,6 +12135,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -12020,11 +12150,43 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "Personality & social psychology bulletin",
-        "raw_type": null
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:13646393",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646393/",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13646393/pdf/10.1177_01461672251370785.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Pers Soc Psychol Bull",
+        "raw_type": "Text"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1177/01461672251370785",
+      "doi": "https://doi.org/10.1177/01461672251370785",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/01461672251370785",
       "pdf_url": null,
@@ -12039,6 +12201,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-2",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -12057,7 +12232,20 @@
       "raw_source_name": "Personality and Social Psychology Bulletin",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.921999990940094
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "id": "https://openalex.org/study-designs/observational-study",
+        "display_name": "Observational Study"
+      }
+    ],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -12098,17 +12286,17 @@
       "https://openalex.org/W2796934196",
       "https://openalex.org/W2800278158",
       "https://openalex.org/W2888243788",
+      "https://openalex.org/W2890816858",
       "https://openalex.org/W2929402399",
       "https://openalex.org/W2938480555",
+      "https://openalex.org/W2949392115",
       "https://openalex.org/W3005265508",
       "https://openalex.org/W3006850757",
       "https://openalex.org/W3088600990",
       "https://openalex.org/W3094943228",
       "https://openalex.org/W3098584826",
       "https://openalex.org/W3111256653",
-      "https://openalex.org/W3124410800",
       "https://openalex.org/W3124690401",
-      "https://openalex.org/W3125017641",
       "https://openalex.org/W3125204018",
       "https://openalex.org/W3198595948",
       "https://openalex.org/W3200115330",
@@ -12139,201 +12327,397 @@
       "https://openalex.org/W4406430894",
       "https://openalex.org/W4410218235"
     ],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W6925317366",
+      "https://openalex.org/W4321344231",
+      "https://openalex.org/W2800106657",
+      "https://openalex.org/W3210137685",
+      "https://openalex.org/W1490121362",
+      "https://openalex.org/W2888471022",
+      "https://openalex.org/W2936695631",
+      "https://openalex.org/W2590490243",
+      "https://openalex.org/W2762548371",
+      "https://openalex.org/W4404511466"
+    ],
     "abstract_inverted_index": {
-      "=": [
+      "Voting": [
         0
       ],
-      "1,072),": [
+      "is": [
         1
       ],
-      "we": [
-        2
+      "a": [
+        2,
+        30,
+        37,
+        60,
+        71,
+        127
       ],
-      "found": [
+      "pillar": [
         3
       ],
-      "that": [
+      "of": [
         4,
-        49
-      ],
-      "national": [
-        5,
-        52
-      ],
-      "identity": [
-        6,
-        53
-      ],
-      "predicted": [
-        7
-      ],
-      "both": [
-        8
-      ],
-      "intended": [
-        9
-      ],
-      "voting": [
-        10
-      ],
-      "in": [
-        11,
-        19,
-        31
-      ],
-      "the": [
-        12,
-        20,
-        69
-      ],
-      "then-upcoming": [
-        13
-      ],
-      "Kurdish": [
-        14
-      ],
-      "elections": [
-        15
-      ],
-      "and": [
-        16,
-        33,
-        36,
-        43,
-        63,
-        66
-      ],
-      "actual": [
-        17
-      ],
-      "participation": [
-        18
-      ],
-      "2021": [
-        21
-      ],
-      "Iraqi": [
-        22
-      ],
-      "elections.": [
-        23
-      ],
-      "These": [
-        24,
-        46
-      ],
-      "associations": [
-        25
-      ],
-      "also": [
-        26
-      ],
-      "occurred": [
-        27
-      ],
-      "indirectly": [
-        28
-      ],
-      "via": [
-        29
-      ],
-      "trust": [
-        30
-      ],
-      "government": [
-        32
-      ],
-      "life": [
-        34
-      ],
-      "satisfaction": [
-        35
-      ],
-      "held": [
-        37
-      ],
-      "after": [
-        38
-      ],
-      "controlling": [
-        39
-      ],
-      "for": [
+        28,
         40
       ],
-      "various": [
-        41
+      "democracy,": [
+        5
+      ],
+      "yet": [
+        6,
+        33
+      ],
+      "its": [
+        7
       ],
       "psychological": [
+        8,
+        119
+      ],
+      "correlates": [
+        9
+      ],
+      "remain": [
+        10
+      ],
+      "understudied": [
+        11
+      ],
+      "outside": [
+        12
+      ],
+      "the": [
+        13,
+        25,
+        89,
+        97,
+        146
+      ],
+      "West.": [
+        14
+      ],
+      "We": [
+        15
+      ],
+      "examine": [
+        16
+      ],
+      "how": [
+        17
+      ],
+      "national": [
+        18,
+        82,
+        129
+      ],
+      "identity": [
+        19,
+        83,
+        130
+      ],
+      "predicts": [
+        20
+      ],
+      "voting": [
+        21,
+        87
+      ],
+      "among": [
+        22
+      ],
+      "Kurds": [
+        23
+      ],
+      "in": [
+        24,
+        52,
+        63,
+        88,
+        96,
+        108
+      ],
+      "Kurdistan": [
+        26
+      ],
+      "Region": [
+        27
+      ],
+      "Iraq,": [
+        29
+      ],
+      "politically": [
+        31
+      ],
+      "autonomous": [
+        32
+      ],
+      "stateless": [
+        34
+      ],
+      "region": [
+        35
+      ],
+      "with": [
+        36
+      ],
+      "long": [
+        38
+      ],
+      "history": [
+        39
+      ],
+      "ethnic": [
+        41
+      ],
+      "persecution": [
         42
       ],
-      "sociodemographic": [
+      "and": [
+        43,
+        93,
+        110,
+        113,
+        120,
+        140,
+        143
+      ],
+      "struggles": [
         44
       ],
-      "variables.": [
-        45
+      "for": [
+        45,
+        117
       ],
-      "findings": [
+      "recognition.": [
+        46
+      ],
+      "Voter": [
         47
       ],
-      "suggest": [
+      "turnout": [
         48
       ],
-      "a": [
-        50
-      ],
-      "strong": [
-        51
-      ],
-      "may": [
-        54
-      ],
-      "help": [
-        55
-      ],
-      "sustain": [
-        56
-      ],
-      "civic": [
+      "has": [
+        49,
         57
       ],
-      "engagement": [
+      "remained": [
+        50
+      ],
+      "high": [
+        51
+      ],
+      "regional": [
+        53
+      ],
+      "Kurdish": [
+        54,
+        91
+      ],
+      "elections": [
+        55,
+        92
+      ],
+      "but": [
+        56
+      ],
+      "dropped": [
         58
       ],
-      "even": [
+      "to": [
         59
       ],
-      "amid": [
-        60
-      ],
-      "ongoing": [
+      "historical": [
         61
       ],
-      "political": [
+      "low": [
         62
       ],
-      "economic": [
-        64
+      "Iraqi": [
+        64,
+        99
       ],
-      "instability,": [
+      "parliamentary": [
         65
       ],
-      "uncertainty": [
+      "elections,": [
+        66
+      ],
+      "reflecting": [
         67
       ],
-      "over": [
+      "public": [
         68
       ],
-      "region's": [
+      "disillusionment.": [
+        69
+      ],
+      "Using": [
         70
       ],
+      "large,": [
+        72
+      ],
+      "representative": [
+        73
+      ],
+      "sample": [
+        74
+      ],
+      "(": [
+        75
+      ],
+      "N": [
+        76
+      ],
+      "=": [
+        77
+      ],
+      "1,072),": [
+        78
+      ],
+      "we": [
+        79
+      ],
+      "found": [
+        80
+      ],
+      "that": [
+        81,
+        126
+      ],
+      "predicted": [
+        84
+      ],
+      "both": [
+        85
+      ],
+      "intended": [
+        86
+      ],
+      "then-upcoming": [
+        90
+      ],
+      "actual": [
+        94
+      ],
+      "participation": [
+        95
+      ],
+      "2021": [
+        98
+      ],
+      "elections.": [
+        100
+      ],
+      "These": [
+        101,
+        123
+      ],
+      "associations": [
+        102
+      ],
+      "also": [
+        103
+      ],
+      "occurred": [
+        104
+      ],
+      "indirectly": [
+        105
+      ],
+      "via": [
+        106
+      ],
+      "trust": [
+        107
+      ],
+      "government": [
+        109
+      ],
+      "life": [
+        111
+      ],
+      "satisfaction": [
+        112
+      ],
+      "held": [
+        114
+      ],
+      "after": [
+        115
+      ],
+      "controlling": [
+        116
+      ],
+      "various": [
+        118
+      ],
+      "sociodemographic": [
+        121
+      ],
+      "variables.": [
+        122
+      ],
+      "findings": [
+        124
+      ],
+      "suggest": [
+        125
+      ],
+      "strong": [
+        128
+      ],
+      "may": [
+        131
+      ],
+      "help": [
+        132
+      ],
+      "sustain": [
+        133
+      ],
+      "civic": [
+        134
+      ],
+      "engagement": [
+        135
+      ],
+      "even": [
+        136
+      ],
+      "amid": [
+        137
+      ],
+      "ongoing": [
+        138
+      ],
+      "political": [
+        139
+      ],
+      "economic": [
+        141
+      ],
+      "instability,": [
+        142
+      ],
+      "uncertainty": [
+        144
+      ],
+      "over": [
+        145
+      ],
+      "region\u2019s": [
+        147
+      ],
       "future.": [
-        71
+        148
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-05T06:06:40.768181",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-10-10T00:00:00"
   }
 ]

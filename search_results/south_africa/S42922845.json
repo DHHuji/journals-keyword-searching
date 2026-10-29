@@ -6874,7 +6874,7 @@
     "doi": "https://doi.org/10.1093/pastj/gtaf004",
     "title": "(Un)Remembering Sexual Violence in South African History",
     "display_name": "(Un)Remembering Sexual Violence in South African History",
-    "relevance_score": 6.90486,
+    "relevance_score": 12.975227,
     "publication_year": 2025,
     "publication_date": "2025-02-06",
     "ids": {
@@ -6884,6 +6884,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/pastj/gtaf004",
+      "doi": "https://doi.org/10.1093/pastj/gtaf004",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/pastj/gtaf004",
       "pdf_url": null,
@@ -6898,6 +6899,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "fnege-4",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -6918,6 +6930,7 @@
       "raw_source_name": "Past &amp; Present",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -6934,7 +6947,10 @@
         "author": {
           "id": "https://openalex.org/A5046449663",
           "display_name": "Emily Bridger",
-          "orcid": "https://orcid.org/0000-0002-9583-0853"
+          "orcid": "https://orcid.org/0000-0002-9583-0853",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9583-0853"
+          ]
         },
         "institutions": [
           {
@@ -6984,20 +7000,20 @@
       "https://openalex.org/I23923803"
     ],
     "apc_list": {
-      "value": 3057,
+      "value": 3338,
       "currency": "GBP",
-      "value_usd": 3749
+      "value_usd": 4402
     },
     "apc_paid": {
-      "value": 3057,
+      "value": 3338,
       "currency": "GBP",
-      "value_usd": 3749
+      "value_usd": 4402
     },
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.03055179,
+      "value": 0.02030489,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -7012,12 +7028,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11863",
-      "display_name": "Gender, Security, and Conflict",
-      "score": 0.977400004863739,
+      "id": "https://openalex.org/T11695",
+      "display_name": "South African History and Culture",
+      "score": 0.9761000275611877,
       "subfield": {
-        "id": "https://openalex.org/subfields/3318",
-        "display_name": "Gender Studies"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -7030,26 +7046,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11863",
-        "display_name": "Gender, Security, and Conflict",
-        "score": 0.977400004863739,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3318",
-          "display_name": "Gender Studies"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T11695",
         "display_name": "South African History and Culture",
-        "score": 0.9764000177383423,
+        "score": 0.9761000275611877,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -7064,16 +7063,33 @@
         }
       },
       {
-        "id": "https://openalex.org/T13938",
-        "display_name": "Historical and Contemporary Political Dynamics",
-        "score": 0.932699978351593,
+        "id": "https://openalex.org/T12493",
+        "display_name": "Memory, violence, and history",
+        "score": 0.017500000074505806,
         "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11863",
+        "display_name": "Gender, Security, and Conflict",
+        "score": 0.0020000000949949026,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -7083,79 +7099,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.5963062047958374
-      },
-      {
-        "id": "https://openalex.org/keywords/narrative",
-        "display_name": "Narrative",
-        "score": 0.5863329172134399
-      },
-      {
-        "id": "https://openalex.org/keywords/colonialism",
-        "display_name": "Colonialism",
-        "score": 0.5861132144927979
-      },
-      {
         "id": "https://openalex.org/keywords/sexual-violence",
-        "display_name": "Sexual violence",
-        "score": 0.5796525478363037
+        "display_name": "sexual violence",
+        "score": 0.8960000276565552
       },
       {
-        "id": "https://openalex.org/keywords/criminology",
-        "display_name": "Criminology",
-        "score": 0.5524989366531372
+        "id": "https://openalex.org/keywords/rape",
+        "display_name": "rape",
+        "score": 0.5759999752044678
       },
       {
-        "id": "https://openalex.org/keywords/subject",
-        "display_name": "Subject (documents)",
-        "score": 0.47991999983787537
+        "id": "https://openalex.org/keywords/apartheid",
+        "display_name": "apartheid",
+        "score": 0.628000020980835
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.47232693433761597
+        "id": "https://openalex.org/keywords/collective-memory",
+        "display_name": "collective memory",
+        "score": 0.5180000066757202
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.4643784761428833
+        "id": "https://openalex.org/keywords/historical-amnesia",
+        "display_name": "historical amnesia",
+        "score": 0.7440000176429749
       },
       {
-        "id": "https://openalex.org/keywords/happening",
-        "display_name": "Happening",
-        "score": 0.4344734847545624
+        "id": "https://openalex.org/keywords/black-women",
+        "display_name": "Black women",
+        "score": 0.6060000061988831
       },
       {
-        "id": "https://openalex.org/keywords/period",
-        "display_name": "Period (music)",
-        "score": 0.4179009795188904
+        "id": "https://openalex.org/keywords/oral-history",
+        "display_name": "oral history",
+        "score": 0.7570000290870667
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.3856247663497925
+        "id": "https://openalex.org/keywords/historical-silence",
+        "display_name": "historical silence",
+        "score": 0.4359999895095825
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.3682439625263214
+        "id": "https://openalex.org/keywords/gender-based-violence",
+        "display_name": "gender-based violence",
+        "score": 0.7599999904632568
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.17075636982917786
+        "id": "https://openalex.org/keywords/colonial-history",
+        "display_name": "colonial history",
+        "score": 0.43299999833106995
       },
       {
-        "id": "https://openalex.org/keywords/aesthetics",
-        "display_name": "Aesthetics",
-        "score": 0.07796376943588257
-      },
-      {
-        "id": "https://openalex.org/keywords/art",
-        "display_name": "Art",
-        "score": 0.06461527943611145
+        "id": "https://openalex.org/keywords/historical-narratives",
+        "display_name": "historical narratives",
+        "score": 0.3569999933242798
       }
     ],
     "concepts": [
@@ -7305,6 +7301,7 @@
     "locations": [
       {
         "id": "doi:10.1093/pastj/gtaf004",
+        "doi": "https://doi.org/10.1093/pastj/gtaf004",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/pastj/gtaf004",
         "pdf_url": null,
@@ -7319,6 +7316,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "fnege-4",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -7342,6 +7350,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1093/pastj/gtaf004",
+      "doi": "https://doi.org/10.1093/pastj/gtaf004",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/pastj/gtaf004",
       "pdf_url": null,
@@ -7356,6 +7365,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "fnege-4",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -7378,11 +7398,24 @@
     },
     "sustainable_development_goals": [
       {
+        "score": 0.8046000003814697,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      },
+      {
+        "score": 0.7307999730110168,
         "id": "https://metadata.un.org/sdg/5",
-        "display_name": "Gender equality",
-        "score": 0.7900000214576721
+        "display_name": "Gender equality"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.7900000214576721,
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality"
+      }
+    ],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G8976547361",
@@ -7880,7 +7913,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-02-14T06:23:00.392402",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -9869,9 +9902,9 @@
   {
     "id": "https://openalex.org/W7160660590",
     "doi": "https://doi.org/10.1093/pastj/gtag018",
-    "title": "Indentured Indian\u00a0workers and the politics of race, caste, and sanitation at sea and in colonial South Africa, <i>c</i> .1860\u20131911",
-    "display_name": "Indentured Indian\u00a0workers and the politics of race, caste, and sanitation at sea and in colonial South Africa, <i>c</i> .1860\u20131911",
-    "relevance_score": 4.8616047,
+    "title": "Indentured Indian workers and the politics of race, caste, and sanitation at sea and in colonial South Africa, c .1860\u20131911",
+    "display_name": "Indentured Indian workers and the politics of race, caste, and sanitation at sea and in colonial South Africa, c .1860\u20131911",
+    "relevance_score": 9.644171,
     "publication_year": 2026,
     "publication_date": "2026-04-10",
     "ids": {
@@ -9881,6 +9914,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/pastj/gtag018",
+      "doi": "https://doi.org/10.1093/pastj/gtag018",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/pastj/gtag018",
       "pdf_url": null,
@@ -9895,6 +9929,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "fnege-4",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -9915,6 +9960,7 @@
       "raw_source_name": "Past &amp; Present",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -9923,7 +9969,7 @@
       "is_oa": true,
       "oa_status": "hybrid",
       "oa_url": "https://doi.org/10.1093/pastj/gtag018",
-      "any_repository_has_fulltext": false
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -9931,7 +9977,11 @@
         "author": {
           "id": "https://openalex.org/A5040602790",
           "display_name": "Pritam Singh",
-          "orcid": "https://orcid.org/0000-0001-7706-0915"
+          "orcid": "https://orcid.org/0000-0001-7706-0915",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7706-0915",
+            "https://orcid.org/0000-0003-1293-5543"
+          ]
         },
         "institutions": [
           {
@@ -9975,22 +10025,22 @@
       "https://openalex.org/I909854389"
     ],
     "apc_list": {
-      "value": 3057,
+      "value": 3338,
       "currency": "GBP",
-      "value_usd": 3749
+      "value_usd": 4402
     },
     "apc_paid": {
-      "value": 3057,
+      "value": 3338,
       "currency": "GBP",
-      "value_usd": 3749
+      "value_usd": 4402
     },
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.97835097,
+      "value": 0.31851229,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
@@ -10003,12 +10053,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13222",
-      "display_name": "Caribbean history, culture, and politics",
-      "score": 0.16290000081062317,
+      "id": "https://openalex.org/T14141",
+      "display_name": "Colonial History and Postcolonial Studies",
+      "score": 0.9839000105857849,
       "subfield": {
-        "id": "https://openalex.org/subfields/3316",
-        "display_name": "Cultural Studies"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -10021,12 +10071,12 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13222",
-        "display_name": "Caribbean history, culture, and politics",
-        "score": 0.16290000081062317,
+        "id": "https://openalex.org/T14141",
+        "display_name": "Colonial History and Postcolonial Studies",
+        "score": 0.9839000105857849,
         "subfield": {
-          "id": "https://openalex.org/subfields/3316",
-          "display_name": "Cultural Studies"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -10038,9 +10088,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T13215",
-        "display_name": "Global Maritime and Colonial Histories",
-        "score": 0.1046999990940094,
+        "id": "https://openalex.org/T14395",
+        "display_name": "African history and culture studies",
+        "score": 0.00419999985024333,
         "subfield": {
           "id": "https://openalex.org/subfields/3314",
           "display_name": "Anthropology"
@@ -10055,16 +10105,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T11695",
-        "display_name": "South African History and Culture",
-        "score": 0.09539999812841415,
+        "id": "https://openalex.org/T12949",
+        "display_name": "South Asian Studies and Diaspora",
+        "score": 0.003800000064074993,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -10074,44 +10124,69 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/sanitation",
-        "display_name": "Sanitation",
-        "score": 0.8474000096321106
+        "id": "https://openalex.org/keywords/indian-indentured-labour",
+        "display_name": "Indian indentured labour",
+        "score": 0.8640000224113464
       },
       {
-        "id": "https://openalex.org/keywords/colonialism",
-        "display_name": "Colonialism",
-        "score": 0.7210000157356262
+        "id": "https://openalex.org/keywords/sanitation",
+        "display_name": "sanitation",
+        "score": 0.7990000247955322
       },
       {
         "id": "https://openalex.org/keywords/caste",
-        "display_name": "Caste",
-        "score": 0.6373999714851379
+        "display_name": "caste",
+        "score": 0.5210000276565552
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.5900999903678894
+        "id": "https://openalex.org/keywords/race",
+        "display_name": "race",
+        "score": 0.7770000100135803
+      },
+      {
+        "id": "https://openalex.org/keywords/colonial-south-africa",
+        "display_name": "colonial South Africa",
+        "score": 0.6650000214576721
+      },
+      {
+        "id": "https://openalex.org/keywords/natal",
+        "display_name": "Natal",
+        "score": 0.9620000123977661
       },
       {
         "id": "https://openalex.org/keywords/british-empire",
         "display_name": "British Empire",
-        "score": 0.5350000262260437
+        "score": 0.5199999809265137
       },
       {
-        "id": "https://openalex.org/keywords/workforce",
-        "display_name": "Workforce",
-        "score": 0.4878000020980835
+        "id": "https://openalex.org/keywords/labor-shortage",
+        "display_name": "labor shortage",
+        "score": 0.5950000286102295
       },
       {
-        "id": "https://openalex.org/keywords/government",
-        "display_name": "Government (linguistics)",
-        "score": 0.39809998869895935
+        "id": "https://openalex.org/keywords/sailors",
+        "display_name": "sailors",
+        "score": 0.5490000247955322
       },
       {
-        "id": "https://openalex.org/keywords/euphemism",
-        "display_name": "Euphemism",
-        "score": 0.3849000036716461
+        "id": "https://openalex.org/keywords/sugar-plantations",
+        "display_name": "sugar plantations",
+        "score": 0.781000018119812
+      },
+      {
+        "id": "https://openalex.org/keywords/occupational-segregation",
+        "display_name": "occupational segregation",
+        "score": 0.44699999690055847
+      },
+      {
+        "id": "https://openalex.org/keywords/epidemics",
+        "display_name": "epidemics",
+        "score": 0.38600000739097595
+      },
+      {
+        "id": "https://openalex.org/keywords/sanitation-facilities",
+        "display_name": "sanitation facilities",
+        "score": 0.33799999952316284
       }
     ],
     "concepts": [
@@ -10306,10 +10381,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 2,
     "locations": [
       {
         "id": "doi:10.1093/pastj/gtag018",
+        "doi": "https://doi.org/10.1093/pastj/gtag018",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/pastj/gtag018",
         "pdf_url": null,
@@ -10324,6 +10400,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "fnege-4",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -10343,10 +10430,42 @@
         "is_published": true,
         "raw_source_name": "Past &amp; Present",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:researchonline.lse.ac.uk:137991",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1093/pastj/gtag018",
+        "pdf_url": "https://researchonline.lse.ac.uk/id/eprint/137991/1/gtag018.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306401593",
+          "display_name": "London School of Economics and Political Science Research Online (London School of Economics and Political Science)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I909854389",
+          "host_organization_name": "London School of Economics and Political Science",
+          "host_organization_lineage": [
+            "https://openalex.org/I909854389"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1093/pastj/gtag018",
+      "doi": "https://doi.org/10.1093/pastj/gtag018",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/pastj/gtag018",
       "pdf_url": null,
@@ -10361,6 +10480,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "fnege-4",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -10381,7 +10511,20 @@
       "raw_source_name": "Past &amp; Present",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.7257999777793884,
+        "id": "https://metadata.un.org/sdg/8",
+        "display_name": "Decent work and economic growth"
+      },
+      {
+        "score": 0.4000000059604645,
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -10871,7 +11014,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-09T06:16:02.287421",
+    "updated_date": "2026-10-27T15:51:10.671819",
     "created_date": "2026-05-09T00:00:00"
   },
   {

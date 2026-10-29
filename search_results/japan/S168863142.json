@@ -15698,7 +15698,7 @@
     "doi": "https://doi.org/10.1111/josi.70026",
     "title": "T\u014djisha\u2010Kenky\u016b on Autism in Japan: Against Epistemic Injustices and Tokenism",
     "display_name": "T\u014djisha\u2010Kenky\u016b on Autism in Japan: Against Epistemic Injustices and Tokenism",
-    "relevance_score": 51.77771,
+    "relevance_score": 28.270174,
     "publication_year": 2025,
     "publication_date": "2025-10-10",
     "ids": {
@@ -15708,6 +15708,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/josi.70026",
+      "doi": "https://doi.org/10.1111/josi.70026",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/josi.70026",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70026",
@@ -15722,6 +15723,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -15740,6 +15755,7 @@
       "raw_source_name": "Journal of Social Issues",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -15756,9 +15772,23 @@
         "author": {
           "id": "https://openalex.org/A5058290843",
           "display_name": "Satsuki Ayaya",
-          "orcid": "https://orcid.org/0000-0003-4843-5102"
+          "orcid": "https://orcid.org/0000-0003-4843-5102",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4843-5102"
+          ]
         },
         "institutions": [
+          {
+            "id": "https://openalex.org/I4405287038",
+            "display_name": "Research Center for Advanced Science and Technology, The University of Tokyo",
+            "ror": "https://ror.org/03xzehp18",
+            "country_code": "JP",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4405287038",
+              "https://openalex.org/I74801974"
+            ]
+          },
           {
             "id": "https://openalex.org/I74801974",
             "display_name": "The University of Tokyo",
@@ -15784,12 +15814,13 @@
           {
             "raw_affiliation_string": "Research Center for Advanced Science and Technology The University of Tokyo  Tokyo Japan",
             "institution_ids": [
-              "https://openalex.org/I74801974"
+              "https://openalex.org/I4405287038"
             ]
           },
           {
             "raw_affiliation_string": "Research Center for Advanced Science and Technology, The University of Tokyo, Tokyo, Japan",
             "institution_ids": [
+              "https://openalex.org/I4405287038",
               "https://openalex.org/I74801974"
             ]
           }
@@ -15798,34 +15829,35 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
       "https://openalex.org/A5058290843"
     ],
     "corresponding_institution_ids": [
+      "https://openalex.org/I4405287038",
       "https://openalex.org/I74801974"
     ],
     "apc_list": {
-      "value": 3240,
+      "value": 3570,
       "currency": "USD",
-      "value_usd": 3240
+      "value_usd": 3570
     },
     "apc_paid": {
-      "value": 3240,
+      "value": 3570,
       "currency": "USD",
-      "value_usd": 3240
+      "value_usd": 3570
     },
-    "fwci": 2.5363,
+    "fwci": 8.1472,
     "has_fulltext": true,
-    "cited_by_count": 2,
+    "cited_by_count": 8,
     "citation_normalized_percentile": {
-      "value": 0.90630972,
+      "value": 0.97584609,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 95,
-      "max": 96
+      "min": 94,
+      "max": 99
     },
     "biblio": {
       "volume": "81",
@@ -15837,44 +15869,44 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10106",
-      "display_name": "Autism Spectrum Disorder Research",
-      "score": 0.9704999923706055,
+      "id": "https://openalex.org/T11003",
+      "display_name": "Disability Rights and Representation",
+      "score": 0.9452999830245972,
       "subfield": {
-        "id": "https://openalex.org/subfields/2805",
-        "display_name": "Cognitive Neuroscience"
+        "id": "https://openalex.org/subfields/3311",
+        "display_name": "Safety Research"
       },
       "field": {
-        "id": "https://openalex.org/fields/28",
-        "display_name": "Neuroscience"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10106",
-        "display_name": "Autism Spectrum Disorder Research",
-        "score": 0.9704999923706055,
+        "id": "https://openalex.org/T11003",
+        "display_name": "Disability Rights and Representation",
+        "score": 0.9452999830245972,
         "subfield": {
-          "id": "https://openalex.org/subfields/2805",
-          "display_name": "Cognitive Neuroscience"
+          "id": "https://openalex.org/subfields/3311",
+          "display_name": "Safety Research"
         },
         "field": {
-          "id": "https://openalex.org/fields/28",
-          "display_name": "Neuroscience"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
-          "id": "https://openalex.org/domains/1",
-          "display_name": "Life Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       },
       {
-        "id": "https://openalex.org/T11506",
-        "display_name": "Children's Rights and Participation",
-        "score": 0.9606999754905701,
+        "id": "https://openalex.org/T12320",
+        "display_name": "Feminist Epistemology and Gender Studies",
+        "score": 0.050599999725818634,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -15889,16 +15921,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T14437",
-        "display_name": "Ethics and Legal Issues in Pediatric Healthcare",
-        "score": 0.9577000141143799,
+        "id": "https://openalex.org/T11639",
+        "display_name": "Mental Health and Patient Involvement",
+        "score": 0.002899999963119626,
         "subfield": {
-          "id": "https://openalex.org/subfields/2735",
-          "display_name": "Pediatrics, Perinatology and Child Health"
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
         },
         "field": {
-          "id": "https://openalex.org/fields/27",
-          "display_name": "Medicine"
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
         },
         "domain": {
           "id": "https://openalex.org/domains/4",
@@ -15908,49 +15940,39 @@
     ],
     "keywords": [
       {
+        "id": "https://openalex.org/keywords/autism-spectrum-disorder",
+        "display_name": "autism spectrum disorder",
+        "score": 0.7250000238418579
+      },
+      {
+        "id": "https://openalex.org/keywords/epistemic-injustice",
+        "display_name": "epistemic injustice",
+        "score": 0.9470000267028809
+      },
+      {
+        "id": "https://openalex.org/keywords/testimonial-injustice",
+        "display_name": "testimonial injustice",
+        "score": 0.9269999861717224
+      },
+      {
         "id": "https://openalex.org/keywords/tokenism",
-        "display_name": "Tokenism",
-        "score": 0.8776000142097473
+        "display_name": "tokenism",
+        "score": 0.9750000238418579
       },
       {
-        "id": "https://openalex.org/keywords/autism",
-        "display_name": "Autism",
-        "score": 0.65420001745224
+        "id": "https://openalex.org/keywords/social-model-of-disability",
+        "display_name": "social model of disability",
+        "score": 0.7770000100135803
       },
       {
-        "id": "https://openalex.org/keywords/narrative",
-        "display_name": "Narrative",
-        "score": 0.5315999984741211
+        "id": "https://openalex.org/keywords/disability-rights",
+        "display_name": "disability rights",
+        "score": 0.8629999756813049
       },
       {
-        "id": "https://openalex.org/keywords/prejudice",
-        "display_name": "Prejudice (legal term)",
-        "score": 0.4643999934196472
-      },
-      {
-        "id": "https://openalex.org/keywords/testimonial",
-        "display_name": "Testimonial",
-        "score": 0.43810001015663147
-      },
-      {
-        "id": "https://openalex.org/keywords/narrative-inquiry",
-        "display_name": "Narrative inquiry",
-        "score": 0.4187999963760376
-      },
-      {
-        "id": "https://openalex.org/keywords/equity",
-        "display_name": "Equity (law)",
-        "score": 0.39590001106262207
-      },
-      {
-        "id": "https://openalex.org/keywords/isolation",
-        "display_name": "Isolation (microbiology)",
-        "score": 0.38109999895095825
-      },
-      {
-        "id": "https://openalex.org/keywords/multiculturalism",
-        "display_name": "Multiculturalism",
-        "score": 0.3808000087738037
+        "id": "https://openalex.org/keywords/inclusive-education",
+        "display_name": "inclusive education",
+        "score": 0.6060000061988831
       }
     ],
     "concepts": [
@@ -16177,6 +16199,7 @@
     "locations": [
       {
         "id": "doi:10.1111/josi.70026",
+        "doi": "https://doi.org/10.1111/josi.70026",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/josi.70026",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70026",
@@ -16191,6 +16214,20 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-b",
+            "erih-plus",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -16212,6 +16249,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1111/josi.70026",
+      "doi": "https://doi.org/10.1111/josi.70026",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/josi.70026",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70026",
@@ -16226,6 +16264,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -16244,7 +16296,15 @@
       "raw_source_name": "Journal of Social Issues",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.9629999995231628,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G2298969343",
@@ -16715,11 +16775,15 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 6
+      },
+      {
         "year": 2025,
         "cited_by_count": 2
       }
     ],
-    "updated_date": "2026-03-10T14:07:55.174380",
+    "updated_date": "2026-10-24T09:50:30.924529",
     "created_date": "2025-10-11T00:00:00"
   },
   {
@@ -16727,7 +16791,7 @@
     "doi": "https://doi.org/10.1111/josi.70025",
     "title": "Geopolitics in Language: A Psychological View of Sino\u2010Japanese Relations Over Time",
     "display_name": "Geopolitics in Language: A Psychological View of Sino\u2010Japanese Relations Over Time",
-    "relevance_score": 41.68229,
+    "relevance_score": 26.826832,
     "publication_year": 2025,
     "publication_date": "2025-10-10",
     "ids": {
@@ -16737,6 +16801,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/josi.70025",
+      "doi": "https://doi.org/10.1111/josi.70025",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/josi.70025",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70025",
@@ -16751,6 +16816,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -16761,21 +16840,22 @@
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Journal of Social Issues",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
       "is_oa": true,
-      "oa_status": "bronze",
+      "oa_status": "hybrid",
       "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70025",
       "any_repository_has_fulltext": false
     },
@@ -16785,7 +16865,10 @@
         "author": {
           "id": "https://openalex.org/A5021808424",
           "display_name": "Takeshi Hamamura",
-          "orcid": "https://orcid.org/0000-0003-2122-6300"
+          "orcid": "https://orcid.org/0000-0003-2122-6300",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2122-6300"
+          ]
         },
         "institutions": [
           {
@@ -16808,6 +16891,7 @@
           "Curtin University  Perth Australia",
           "Curtin University, Perth, Australia"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Curtin University  Perth Australia",
@@ -16828,7 +16912,8 @@
         "author": {
           "id": "https://openalex.org/A5041778179",
           "display_name": "Tetsuro Kobayashi",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -16851,6 +16936,7 @@
           "Waseda University  Tokyo Japan",
           "Waseda University, Tokyo, Japan"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Waseda University  Tokyo Japan",
@@ -16871,7 +16957,10 @@
         "author": {
           "id": "https://openalex.org/A5086834191",
           "display_name": "Zhicong Chen",
-          "orcid": "https://orcid.org/0000-0003-0334-9454"
+          "orcid": "https://orcid.org/0000-0003-0334-9454",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0334-9454"
+          ]
         },
         "institutions": [
           {
@@ -16893,6 +16982,7 @@
         "raw_affiliation_strings": [
           "National University of Singapore, Singapore"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "National University of Singapore, Singapore",
@@ -16907,7 +16997,10 @@
         "author": {
           "id": "https://openalex.org/A5083926267",
           "display_name": "Sylvia Xiaohua Chen",
-          "orcid": "https://orcid.org/0000-0001-7237-6523"
+          "orcid": "https://orcid.org/0000-0001-7237-6523",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7237-6523"
+          ]
         },
         "institutions": [
           {
@@ -16929,6 +17022,7 @@
         "raw_affiliation_strings": [
           "The Hong Kong Polytechnic University, Hong Kong"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "The Hong Kong Polytechnic University, Hong Kong",
@@ -16942,8 +17036,11 @@
         "author_position": "last",
         "author": {
           "id": "https://openalex.org/A5041403193",
-          "display_name": "Christian S. Chan",
-          "orcid": "https://orcid.org/0000-0003-2616-5199"
+          "display_name": "Christian Shaunlyn Chan",
+          "orcid": "https://orcid.org/0000-0003-2616-5199",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2616-5199"
+          ]
         },
         "institutions": [
           {
@@ -16966,6 +17063,7 @@
           "International Christian University  Tokyo Japan",
           "International Christian University, Tokyo, Japan"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "International Christian University  Tokyo Japan",
@@ -16992,22 +17090,26 @@
       "https://openalex.org/I205640436"
     ],
     "apc_list": {
-      "value": 3240,
+      "value": 3570,
       "currency": "USD",
-      "value_usd": 3240
+      "value_usd": 3570
     },
-    "apc_paid": null,
-    "fwci": 2.3022,
+    "apc_paid": {
+      "value": 3570,
+      "currency": "USD",
+      "value_usd": 3570
+    },
+    "fwci": 5.3884,
     "has_fulltext": true,
-    "cited_by_count": 1,
+    "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.90326741,
+      "value": 0.9538846,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 97
     },
     "biblio": {
       "volume": "81",
@@ -17019,16 +17121,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11148",
-      "display_name": "Language, Metaphor, and Cognition",
-      "score": 0.9819999933242798,
+      "id": "https://openalex.org/T10314",
+      "display_name": "Social and Intergroup Psychology",
+      "score": 0.5468999743461609,
       "subfield": {
-        "id": "https://openalex.org/subfields/3205",
-        "display_name": "Experimental and Cognitive Psychology"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -17037,16 +17139,16 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11148",
-        "display_name": "Language, Metaphor, and Cognition",
-        "score": 0.9819999933242798,
+        "id": "https://openalex.org/T10314",
+        "display_name": "Social and Intergroup Psychology",
+        "score": 0.5468999743461609,
         "subfield": {
-          "id": "https://openalex.org/subfields/3205",
-          "display_name": "Experimental and Cognitive Psychology"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -17054,16 +17156,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T11454",
-        "display_name": "Cultural Differences and Values",
-        "score": 0.9793999791145325,
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.22050000727176666,
         "subfield": {
-          "id": "https://openalex.org/subfields/3207",
-          "display_name": "Social Psychology"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -17071,12 +17173,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T10907",
-        "display_name": "International Student and Expatriate Challenges",
-        "score": 0.9578999876976013,
+        "id": "https://openalex.org/T11198",
+        "display_name": "Japanese History and Culture",
+        "score": 0.05739999935030937,
         "subfield": {
-          "id": "https://openalex.org/subfields/3315",
-          "display_name": "Communication"
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -17090,34 +17192,74 @@
     ],
     "keywords": [
       {
+        "id": "https://openalex.org/keywords/sino-japanese-relations",
+        "display_name": "Japan-China relations",
+        "score": 1.0
+      },
+      {
         "id": "https://openalex.org/keywords/geopolitics",
-        "display_name": "Geopolitics",
-        "score": 0.9352999925613403
+        "display_name": "geopolitics",
+        "score": 0.7699999809265137
       },
       {
-        "id": "https://openalex.org/keywords/parallels",
-        "display_name": "Parallels",
-        "score": 0.7771000266075134
+        "id": "https://openalex.org/keywords/collective-psychology",
+        "display_name": "collective psychology",
+        "score": 0.9890000224113464
       },
       {
-        "id": "https://openalex.org/keywords/china",
-        "display_name": "China",
-        "score": 0.6829000115394592
+        "id": "https://openalex.org/keywords/political-discourse",
+        "display_name": "political discourse",
+        "score": 0.7720000147819519
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.5407999753952026
+        "id": "https://openalex.org/keywords/word-embeddings",
+        "display_name": "word embeddings",
+        "score": 0.5730000138282776
       },
       {
-        "id": "https://openalex.org/keywords/socioeconomic-status",
-        "display_name": "Socioeconomic status",
-        "score": 0.4943000078201294
+        "id": "https://openalex.org/keywords/parliamentary-records",
+        "display_name": "parliamentary records",
+        "score": 0.671999990940094
       },
       {
         "id": "https://openalex.org/keywords/historical-memory",
-        "display_name": "Historical memory",
-        "score": 0.4927000105381012
+        "display_name": "historical memory",
+        "score": 0.8349999785423279
+      },
+      {
+        "id": "https://openalex.org/keywords/war-memory",
+        "display_name": "war memory",
+        "score": 0.8690000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/territorial-disputes",
+        "display_name": "territorial disputes",
+        "score": 0.8399999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/stereotypes",
+        "display_name": "stereotypes",
+        "score": 0.47600001096725464
+      },
+      {
+        "id": "https://openalex.org/keywords/reconciliation",
+        "display_name": "reconciliation",
+        "score": 0.8339999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/chinese-students-in-japan",
+        "display_name": "Chinese students in Japan",
+        "score": 0.765999972820282
+      },
+      {
+        "id": "https://openalex.org/keywords/border-crossing",
+        "display_name": "border crossing",
+        "score": 0.949999988079071
+      },
+      {
+        "id": "https://openalex.org/keywords/business-relationships",
+        "display_name": "business relationships",
+        "score": 0.6579999923706055
       }
     ],
     "concepts": [
@@ -17253,6 +17395,7 @@
     "locations": [
       {
         "id": "doi:10.1111/josi.70025",
+        "doi": "https://doi.org/10.1111/josi.70025",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/josi.70025",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70025",
@@ -17267,6 +17410,20 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-b",
+            "erih-plus",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -17277,8 +17434,8 @@
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -17288,6 +17445,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1111/josi.70025",
+      "doi": "https://doi.org/10.1111/josi.70025",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/josi.70025",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70025",
@@ -17302,6 +17460,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -17312,8 +17484,8 @@
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
@@ -17321,6 +17493,8 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -17331,7 +17505,7 @@
       "pdf": "https://content.openalex.org/works/W4415042720.pdf",
       "grobid_xml": "https://content.openalex.org/works/W4415042720.grobid-xml"
     },
-    "referenced_works_count": 52,
+    "referenced_works_count": 51,
     "referenced_works": [
       "https://openalex.org/W1480207767",
       "https://openalex.org/W1557326007",
@@ -17348,6 +17522,7 @@
       "https://openalex.org/W2058756664",
       "https://openalex.org/W2082195007",
       "https://openalex.org/W2131604952",
+      "https://openalex.org/W2151373442",
       "https://openalex.org/W2183828496",
       "https://openalex.org/W2223092947",
       "https://openalex.org/W2242589141",
@@ -17375,13 +17550,11 @@
       "https://openalex.org/W3021205292",
       "https://openalex.org/W3045825772",
       "https://openalex.org/W3082258115",
-      "https://openalex.org/W3103365499",
       "https://openalex.org/W3104147942",
       "https://openalex.org/W3111278950",
       "https://openalex.org/W3176783405",
       "https://openalex.org/W3195903054",
       "https://openalex.org/W4221000927",
-      "https://openalex.org/W4231510805",
       "https://openalex.org/W4361280975",
       "https://openalex.org/W4378194344",
       "https://openalex.org/W4399549663"
@@ -17811,11 +17984,15 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 2
+      },
+      {
         "year": 2025,
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-03-13T14:20:09.374765",
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2025-10-11T00:00:00"
   },
   {
@@ -24518,5 +24695,3823 @@
     ],
     "updated_date": "2026-02-27T16:54:17.756197",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7223467736",
+    "doi": "https://doi.org/10.1111/josi.70088",
+    "title": "Disability and Healthy Time Use Among Asian Americans in Middle and Later Life",
+    "display_name": "Disability and Healthy Time Use Among Asian Americans in Middle and Later Life",
+    "relevance_score": 2.4553652,
+    "publication_year": 2026,
+    "publication_date": "2026-10-24",
+    "ids": {
+      "openalex": "https://openalex.org/W7223467736",
+      "doi": "https://doi.org/10.1111/josi.70088"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1111/josi.70088",
+      "doi": "https://doi.org/10.1111/josi.70088",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/josi.70088",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70088",
+      "source": {
+        "id": "https://openalex.org/S168863142",
+        "display_name": "Journal of Social Issues",
+        "issn_l": "0022-4537",
+        "issn": [
+          "0022-4537",
+          "1540-4560"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Social Issues",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70088",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101851004",
+          "display_name": "Jen-Hao Chen",
+          "orcid": "https://orcid.org/0000-0002-1522-3616",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1522-3616"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I87354575",
+            "display_name": "National Chengchi University",
+            "ror": "https://ror.org/03rqk8h36",
+            "country_code": "TW",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I87354575"
+            ]
+          }
+        ],
+        "countries": [
+          "TW"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jen\u2010Hao Chen",
+        "raw_affiliation_strings": [
+          "Department of Sociology and Department of Psychology National Chengchi University  Taipei Taiwan"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-1522-3616",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Sociology and Department of Psychology National Chengchi University  Taipei Taiwan",
+            "institution_ids": [
+              "https://openalex.org/I87354575"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5101851004"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I87354575"
+    ],
+    "apc_list": {
+      "value": 3570,
+      "currency": "USD",
+      "value_usd": 3570
+    },
+    "apc_paid": {
+      "value": 3570,
+      "currency": "USD",
+      "value_usd": 3570
+    },
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.89668592,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "82",
+      "issue": "4",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12811",
+      "display_name": "Aging, Health, and Disability",
+      "score": 0.9672999978065491,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12811",
+        "display_name": "Aging, Health, and Disability",
+        "score": 0.9672999978065491,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10235",
+        "display_name": "Health disparities and outcomes",
+        "score": 0.026599999517202377,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3306",
+          "display_name": "Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11631",
+        "display_name": "Retirement, Disability, and Employment",
+        "score": 0.0013000000035390258,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/disability",
+        "display_name": "disability",
+        "score": 0.7789999842643738
+      },
+      {
+        "id": "https://openalex.org/keywords/functional-limitations",
+        "display_name": "functional limitations",
+        "score": 0.7770000100135803
+      },
+      {
+        "id": "https://openalex.org/keywords/asian-americans",
+        "display_name": "Asian Americans",
+        "score": 0.9779999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/older-adults",
+        "display_name": "older adults",
+        "score": 0.7440000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/midlife",
+        "display_name": "midlife",
+        "score": 0.6919999718666077
+      },
+      {
+        "id": "https://openalex.org/keywords/sleep",
+        "display_name": "sleep",
+        "score": 0.5099999904632568
+      },
+      {
+        "id": "https://openalex.org/keywords/time-alone",
+        "display_name": "time alone",
+        "score": 0.6150000095367432
+      },
+      {
+        "id": "https://openalex.org/keywords/social-ties",
+        "display_name": "social ties",
+        "score": 0.5870000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/leisure",
+        "display_name": "leisure",
+        "score": 0.5899999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/exercise",
+        "display_name": "physical activity",
+        "score": 0.8289999961853027
+      },
+      {
+        "id": "https://openalex.org/keywords/filipino-americans",
+        "display_name": "Filipino Americans",
+        "score": 0.5379999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/vietnamese-americans",
+        "display_name": "Vietnamese Americans",
+        "score": 0.9789999723434448
+      },
+      {
+        "id": "https://openalex.org/keywords/korean-americans",
+        "display_name": "Korean Americans",
+        "score": 0.9350000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/japanese-americans",
+        "display_name": "Japanese Americans",
+        "score": 0.7720000147819519
+      },
+      {
+        "id": "https://openalex.org/keywords/chinese-americans",
+        "display_name": "Chinese Americans",
+        "score": 0.9380000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/indian-americans",
+        "display_name": "Indian Americans",
+        "score": 0.8330000042915344
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C103621254",
+        "wikidata": "https://www.wikidata.org/wiki/Q9199",
+        "display_name": "Vietnamese",
+        "level": 2,
+        "score": 0.9478999972343445
+      },
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.6388000249862671
+      },
+      {
+        "id": "https://openalex.org/C149923435",
+        "wikidata": "https://www.wikidata.org/wiki/Q37732",
+        "display_name": "Demography",
+        "level": 1,
+        "score": 0.6276999711990356
+      },
+      {
+        "id": "https://openalex.org/C2780274812",
+        "wikidata": "https://www.wikidata.org/wiki/Q7048763",
+        "display_name": "Non-Hispanic whites",
+        "level": 4,
+        "score": 0.6233999729156494
+      },
+      {
+        "id": "https://openalex.org/C74909509",
+        "wikidata": "https://www.wikidata.org/wiki/Q10387",
+        "display_name": "Gerontology",
+        "level": 1,
+        "score": 0.583899974822998
+      },
+      {
+        "id": "https://openalex.org/C3019166669",
+        "wikidata": "https://www.wikidata.org/wiki/Q727928",
+        "display_name": "Asian americans",
+        "level": 3,
+        "score": 0.5817999839782715
+      },
+      {
+        "id": "https://openalex.org/C2909145594",
+        "wikidata": "https://www.wikidata.org/wiki/Q2643509",
+        "display_name": "Asian Indian",
+        "level": 3,
+        "score": 0.5493999719619751
+      },
+      {
+        "id": "https://openalex.org/C70036468",
+        "wikidata": "https://www.wikidata.org/wiki/Q131288",
+        "display_name": "Immigration",
+        "level": 2,
+        "score": 0.44179999828338623
+      },
+      {
+        "id": "https://openalex.org/C76775654",
+        "wikidata": "https://www.wikidata.org/wiki/Q27231",
+        "display_name": "East Asia",
+        "level": 3,
+        "score": 0.40470001101493835
+      },
+      {
+        "id": "https://openalex.org/C2780176501",
+        "wikidata": "https://www.wikidata.org/wiki/Q5690755",
+        "display_name": "Health and Retirement Study",
+        "level": 2,
+        "score": 0.38589999079704285
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.38199999928474426
+      },
+      {
+        "id": "https://openalex.org/C3017937568",
+        "wikidata": "https://www.wikidata.org/wiki/Q1146100",
+        "display_name": "Chinese americans",
+        "level": 3,
+        "score": 0.3727000057697296
+      },
+      {
+        "id": "https://openalex.org/C90048612",
+        "wikidata": "https://www.wikidata.org/wiki/Q192989",
+        "display_name": "Acculturation",
+        "level": 3,
+        "score": 0.3718999922275543
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.3614000082015991
+      },
+      {
+        "id": "https://openalex.org/C2778087770",
+        "wikidata": "https://www.wikidata.org/wiki/Q2297111",
+        "display_name": "Social support",
+        "level": 2,
+        "score": 0.32580000162124634
+      },
+      {
+        "id": "https://openalex.org/C3017819807",
+        "wikidata": "https://www.wikidata.org/wiki/Q332154",
+        "display_name": "Healthy aging",
+        "level": 2,
+        "score": 0.30630001425743103
+      },
+      {
+        "id": "https://openalex.org/C138816342",
+        "wikidata": "https://www.wikidata.org/wiki/Q189603",
+        "display_name": "Public health",
+        "level": 2,
+        "score": 0.2849000096321106
+      },
+      {
+        "id": "https://openalex.org/C2779726417",
+        "wikidata": "https://www.wikidata.org/wiki/Q207912",
+        "display_name": "Mongoloid",
+        "level": 3,
+        "score": 0.27970001101493835
+      },
+      {
+        "id": "https://openalex.org/C206440729",
+        "wikidata": "https://www.wikidata.org/wiki/Q4806809",
+        "display_name": "Asian studies",
+        "level": 3,
+        "score": 0.27790001034736633
+      },
+      {
+        "id": "https://openalex.org/C110379092",
+        "wikidata": "https://www.wikidata.org/wiki/Q1571836",
+        "display_name": "Social environment",
+        "level": 2,
+        "score": 0.25859999656677246
+      },
+      {
+        "id": "https://openalex.org/C2991746682",
+        "wikidata": "https://www.wikidata.org/wiki/Q180910",
+        "display_name": "Leisure time",
+        "level": 3,
+        "score": 0.25600001215934753
+      },
+      {
+        "id": "https://openalex.org/C3019281177",
+        "wikidata": "https://www.wikidata.org/wiki/Q771405",
+        "display_name": "South asia",
+        "level": 2,
+        "score": 0.2540000081062317
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1111/josi.70088",
+        "doi": "https://doi.org/10.1111/josi.70088",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/josi.70088",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70088",
+        "source": {
+          "id": "https://openalex.org/S168863142",
+          "display_name": "Journal of Social Issues",
+          "issn_l": "0022-4537",
+          "issn": [
+            "0022-4537",
+            "1540-4560"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-b",
+            "erih-plus",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Social Issues",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1111/josi.70088",
+      "doi": "https://doi.org/10.1111/josi.70088",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/josi.70088",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70088",
+      "source": {
+        "id": "https://openalex.org/S168863142",
+        "display_name": "Journal of Social Issues",
+        "issn_l": "0022-4537",
+        "issn": [
+          "0022-4537",
+          "1540-4560"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Social Issues",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.9763000011444092,
+        "display_name": "Good health and well-being",
+        "id": "https://metadata.un.org/sdg/3"
+      },
+      {
+        "score": 0.7578999996185303,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "display_name": "Observational Study",
+        "id": "https://openalex.org/study-designs/observational-study"
+      }
+    ],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320322724",
+        "display_name": "Ministry of Education, India",
+        "ror": "https://ror.org/048xjjh50"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7223467736.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7223467736.grobid-xml"
+    },
+    "referenced_works_count": 42,
+    "referenced_works": [
+      "https://openalex.org/W1953654720",
+      "https://openalex.org/W1975761609",
+      "https://openalex.org/W1979051942",
+      "https://openalex.org/W1988439327",
+      "https://openalex.org/W1997220153",
+      "https://openalex.org/W2021586954",
+      "https://openalex.org/W2026989988",
+      "https://openalex.org/W2042142095",
+      "https://openalex.org/W2055127413",
+      "https://openalex.org/W2081316769",
+      "https://openalex.org/W2082974731",
+      "https://openalex.org/W2101027616",
+      "https://openalex.org/W2106002803",
+      "https://openalex.org/W2111225505",
+      "https://openalex.org/W2139600111",
+      "https://openalex.org/W2144811313",
+      "https://openalex.org/W2145622148",
+      "https://openalex.org/W2152481376",
+      "https://openalex.org/W2153019931",
+      "https://openalex.org/W2155739196",
+      "https://openalex.org/W2307564446",
+      "https://openalex.org/W2335443189",
+      "https://openalex.org/W2623461588",
+      "https://openalex.org/W2726838455",
+      "https://openalex.org/W2765412733",
+      "https://openalex.org/W2806022317",
+      "https://openalex.org/W2886764016",
+      "https://openalex.org/W2947633978",
+      "https://openalex.org/W2998335966",
+      "https://openalex.org/W3123652177",
+      "https://openalex.org/W3164978989",
+      "https://openalex.org/W3193750462",
+      "https://openalex.org/W3213254527",
+      "https://openalex.org/W3216722504",
+      "https://openalex.org/W4285801128",
+      "https://openalex.org/W4307157284",
+      "https://openalex.org/W4368359622",
+      "https://openalex.org/W4383599142",
+      "https://openalex.org/W4387728855",
+      "https://openalex.org/W4394930868",
+      "https://openalex.org/W4401070244",
+      "https://openalex.org/W4410707005"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Disability": [
+        1
+      ],
+      "is": [
+        2,
+        15,
+        22
+      ],
+      "not": [
+        3
+      ],
+      "uncommon": [
+        4
+      ],
+      "among": [
+        5,
+        51,
+        292
+      ],
+      "older": [
+        6,
+        57,
+        81
+      ],
+      "Asian": [
+        7,
+        58,
+        76,
+        119,
+        139,
+        166,
+        190,
+        251,
+        288
+      ],
+      "Americans": [
+        8,
+        77,
+        120,
+        140
+      ],
+      "and": [
+        9,
+        33,
+        49,
+        56,
+        80,
+        101,
+        153,
+        158,
+        168,
+        178,
+        189,
+        223,
+        244,
+        250,
+        262,
+        269,
+        291,
+        316,
+        333
+      ],
+      "varies": [
+        10,
+        44,
+        325
+      ],
+      "across": [
+        11,
+        287,
+        330
+      ],
+      "subgroups,": [
+        12,
+        290
+      ],
+      "yet": [
+        13
+      ],
+      "little": [
+        14
+      ],
+      "known": [
+        16
+      ],
+      "about": [
+        17
+      ],
+      "how": [
+        18,
+        40,
+        321
+      ],
+      "functional": [
+        19,
+        46,
+        127,
+        142,
+        279,
+        295,
+        327
+      ],
+      "limitation": [
+        20,
+        47,
+        328
+      ],
+      "status": [
+        21,
+        48,
+        329
+      ],
+      "associated": [
+        23,
+        130,
+        282
+      ],
+      "with": [
+        24,
+        98,
+        110,
+        132,
+        141,
+        215,
+        220,
+        229,
+        283,
+        294
+      ],
+      "healthy": [
+        25,
+        41,
+        88
+      ],
+      "time": [
+        26,
+        42,
+        89,
+        96,
+        150,
+        155,
+        163,
+        184,
+        204,
+        214,
+        228,
+        246,
+        258,
+        267,
+        284,
+        300,
+        323
+      ],
+      "use.": [
+        27,
+        156
+      ],
+      "Drawing": [
+        28
+      ],
+      "on": [
+        29
+      ],
+      "the": [
+        30,
+        34,
+        64,
+        311
+      ],
+      "disablement": [
+        31
+      ],
+      "process": [
+        32
+      ],
+      "disability\u2010as\u2010inequality": [
+        35
+      ],
+      "framework,": [
+        36
+      ],
+      "this": [
+        37
+      ],
+      "study": [
+        38
+      ],
+      "examines": [
+        39
+      ],
+      "use": [
+        43,
+        90,
+        268,
+        285,
+        301,
+        324
+      ],
+      "by": [
+        45,
+        326
+      ],
+      "ethnicity": [
+        50
+      ],
+      "six": [
+        52,
+        73
+      ],
+      "subgroups": [
+        53
+      ],
+      "of": [
+        54,
+        75,
+        87,
+        138
+      ],
+      "midlife": [
+        55
+      ],
+      "Americans.": [
+        59
+      ],
+      "Pooled": [
+        60
+      ],
+      "cross\u2010sectional": [
+        61
+      ],
+      "data": [
+        62
+      ],
+      "from": [
+        63,
+        93
+      ],
+      "2013\u20132023": [
+        65
+      ],
+      "American": [
+        66,
+        289
+      ],
+      "Time": [
+        67
+      ],
+      "Use": [
+        68
+      ],
+      "Survey": [
+        69
+      ],
+      "were": [
+        70,
+        91,
+        108,
+        121,
+        129,
+        173,
+        273,
+        281,
+        302
+      ],
+      "analyzed": [
+        71,
+        122
+      ],
+      "for": [
+        72,
+        115,
+        313
+      ],
+      "groups": [
+        74
+      ],
+      "aged": [
+        78
+      ],
+      "45": [
+        79
+      ],
+      "(": [
+        82
+      ],
+      "N": [
+        83
+      ],
+      "=": [
+        84
+      ],
+      "2515).": [
+        85
+      ],
+      "Measures": [
+        86
+      ],
+      "constructed": [
+        92
+      ],
+      "health\u2010promoting": [
+        94
+      ],
+      "activities,": [
+        95,
+        331
+      ],
+      "spent": [
+        97,
+        151,
+        161,
+        182,
+        202,
+        241,
+        256
+      ],
+      "social": [
+        99,
+        243
+      ],
+      "ties,": [
+        100
+      ],
+      "activity": [
+        102
+      ],
+      "locations.": [
+        103,
+        334
+      ],
+      "Ordinary": [
+        104
+      ],
+      "least": [
+        105
+      ],
+      "squares": [
+        106
+      ],
+      "models": [
+        107
+      ],
+      "estimated": [
+        109
+      ],
+      "heteroskedasticity\u2010robust": [
+        111
+      ],
+      "standard": [
+        112
+      ],
+      "errors,": [
+        113
+      ],
+      "adjusting": [
+        114
+      ],
+      "sociodemographic": [
+        116
+      ],
+      "characteristics.": [
+        117
+      ],
+      "When": [
+        118
+      ],
+      "as": [
+        123
+      ],
+      "a": [
+        124,
+        197
+      ],
+      "single": [
+        125
+      ],
+      "group,": [
+        126
+      ],
+      "limitations": [
+        128,
+        143,
+        280
+      ],
+      "only": [
+        131,
+        221
+      ],
+      "more": [
+        133,
+        162,
+        183,
+        218,
+        227,
+        257,
+        303
+      ],
+      "sleep.": [
+        134
+      ],
+      "However,": [
+        135
+      ],
+      "disaggregated": [
+        136
+      ],
+      "analyses": [
+        137
+      ],
+      "found": [
+        144
+      ],
+      "subgroup": [
+        145,
+        276,
+        297
+      ],
+      "heterogeneity,": [
+        146
+      ],
+      "most": [
+        147
+      ],
+      "clearly": [
+        148
+      ],
+      "in": [
+        149,
+        205,
+        213,
+        299,
+        305
+      ],
+      "alone": [
+        152,
+        164
+      ],
+      "place\u2010based": [
+        154
+      ],
+      "Filipino": [
+        157,
+        200
+      ],
+      "Vietnamese": [
+        159,
+        179,
+        194,
+        232,
+        239,
+        263
+      ],
+      "individuals": [
+        160,
+        180,
+        201,
+        225,
+        240
+      ],
+      "than": [
+        165,
+        187,
+        208,
+        231,
+        247,
+        260
+      ],
+      "Indian": [
+        167,
+        191,
+        252
+      ],
+      "Japanese": [
+        169,
+        224,
+        261
+      ],
+      "individuals.": [
+        170,
+        233,
+        264
+      ],
+      "Place\u2010based": [
+        171
+      ],
+      "differences": [
+        172,
+        298
+      ],
+      "especially": [
+        174
+      ],
+      "pronounced:": [
+        175
+      ],
+      "Korean,": [
+        176
+      ],
+      "Filipino,": [
+        177,
+        249
+      ],
+      "generally": [
+        181
+      ],
+      "at": [
+        185
+      ],
+      "home": [
+        186
+      ],
+      "Chinese": [
+        188
+      ],
+      "individuals,": [
+        192,
+        253
+      ],
+      "whereas": [
+        193
+      ],
+      "and,": [
+        195
+      ],
+      "to": [
+        196
+      ],
+      "lesser": [
+        198
+      ],
+      "extent,": [
+        199
+      ],
+      "less": [
+        203,
+        242
+      ],
+      "public": [
+        206
+      ],
+      "places": [
+        207
+      ],
+      "several": [
+        209
+      ],
+      "other": [
+        210
+      ],
+      "groups.": [
+        211
+      ],
+      "Heterogeneity": [
+        212
+      ],
+      "kin": [
+        216,
+        230
+      ],
+      "was": [
+        217,
+        236
+      ],
+      "limited,": [
+        219
+      ],
+      "Korean": [
+        222
+      ],
+      "spending": [
+        226
+      ],
+      "Activity\u2010based": [
+        234
+      ],
+      "heterogeneity": [
+        235
+      ],
+      "also": [
+        237
+      ],
+      "selective:": [
+        238
+      ],
+      "leisure": [
+        245
+      ],
+      "Japanese,": [
+        248
+      ],
+      "while": [
+        254
+      ],
+      "Koreans": [
+        255
+      ],
+      "exercising": [
+        259
+      ],
+      "For": [
+        265
+      ],
+      "routine": [
+        266
+      ],
+      "sleep": [
+        270
+      ],
+      "time,": [
+        271
+      ],
+      "there": [
+        272
+      ],
+      "no": [
+        274
+      ],
+      "clear": [
+        275
+      ],
+      "differences.": [
+        277
+      ],
+      "Thus,": [
+        278
+      ],
+      "differently": [
+        286
+      ],
+      "those": [
+        293
+      ],
+      "limitations,": [
+        296
+      ],
+      "visible": [
+        304
+      ],
+      "some": [
+        306
+      ],
+      "domains.": [
+        307
+      ],
+      "The": [
+        308
+      ],
+      "findings": [
+        309
+      ],
+      "highlight": [
+        310
+      ],
+      "need": [
+        312
+      ],
+      "group\u2010specific": [
+        314
+      ],
+      "aging": [
+        315
+      ],
+      "disability": [
+        317
+      ],
+      "supports": [
+        318
+      ],
+      "that": [
+        319
+      ],
+      "consider": [
+        320
+      ],
+      "daily": [
+        322
+      ],
+      "relationships,": [
+        332
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-26T11:51:55.731654",
+    "created_date": "2026-10-25T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7223033600",
+    "doi": "https://doi.org/10.1111/josi.70089",
+    "title": "Trends and patterns of Asian American grandparents living with and raising grandchildren",
+    "display_name": "Trends and patterns of Asian American grandparents living with and raising grandchildren",
+    "relevance_score": 2.3357882,
+    "publication_year": 2026,
+    "publication_date": "2026-10-19",
+    "ids": {
+      "openalex": "https://openalex.org/W7223033600",
+      "doi": "https://doi.org/10.1111/josi.70089"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1111/josi.70089",
+      "doi": "https://doi.org/10.1111/josi.70089",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/josi.70089",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70089",
+      "source": {
+        "id": "https://openalex.org/S168863142",
+        "display_name": "Journal of Social Issues",
+        "issn_l": "0022-4537",
+        "issn": [
+          "0022-4537",
+          "1540-4560"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Social Issues",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70089",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5061719012",
+          "display_name": "Hongwei Xu",
+          "orcid": "https://orcid.org/0000-0001-9227-8904",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9227-8904"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I111455621",
+            "display_name": "Queens College, CUNY",
+            "ror": "https://ror.org/03v8adn41",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I111455621"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Hongwei Xu",
+        "raw_affiliation_strings": [
+          "Department of Sociology The City University of New York \u2013 Queens College  Queens New York USA"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-9227-8904",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Sociology The City University of New York \u2013 Queens College  Queens New York USA",
+            "institution_ids": [
+              "https://openalex.org/I111455621"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5159134239",
+          "display_name": "Elaine Wu",
+          "orcid": "https://orcid.org/0009-0006-4495-7666",
+          "observed_orcids": [
+            "https://orcid.org/0009-0006-4495-7666"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I121847817",
+            "display_name": "The Graduate Center, CUNY",
+            "ror": "https://ror.org/00awd9g61",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I121847817"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I174216632",
+            "display_name": "City University of New York",
+            "ror": "https://ror.org/00453a208",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I174216632"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Elaine Wu",
+        "raw_affiliation_strings": [
+          "Department of Quantitative Methods in the Social Sciences The City University of New York \u2013 The Graduate Center  New York USA"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0006-4495-7666",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Quantitative Methods in the Social Sciences The City University of New York \u2013 The Graduate Center  New York USA",
+            "institution_ids": [
+              "https://openalex.org/I121847817",
+              "https://openalex.org/I174216632"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 3,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5061719012"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I111455621"
+    ],
+    "apc_list": {
+      "value": 3570,
+      "currency": "USD",
+      "value_usd": 3570
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.94311599,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "82",
+      "issue": "4",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11712",
+      "display_name": "Intergenerational Family Dynamics and Caregiving",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11712",
+        "display_name": "Intergenerational Family Dynamics and Caregiving",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10585",
+        "display_name": "Family Dynamics and Relationships",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13695",
+        "display_name": "Aging, Elder Care, and Social Issues",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/grandparenting",
+        "display_name": "grandparenting",
+        "score": 0.6800000071525574
+      },
+      {
+        "id": "https://openalex.org/keywords/custodial-grandparents",
+        "display_name": "custodial grandparents",
+        "score": 0.9829999804496765
+      },
+      {
+        "id": "https://openalex.org/keywords/intergenerational-caregiving",
+        "display_name": "intergenerational caregiving",
+        "score": 0.9049999713897705
+      },
+      {
+        "id": "https://openalex.org/keywords/ethnic-differences",
+        "display_name": "ethnic differences",
+        "score": 0.6039999723434448
+      },
+      {
+        "id": "https://openalex.org/keywords/chinese-americans",
+        "display_name": "Chinese Americans",
+        "score": 0.9010000228881836
+      },
+      {
+        "id": "https://openalex.org/keywords/japanese-americans",
+        "display_name": "Japanese Americans",
+        "score": 0.9760000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/korean-americans",
+        "display_name": "Korean Americans",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/indian-americans",
+        "display_name": "Indian Americans",
+        "score": 0.9940000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/filipino-americans",
+        "display_name": "Filipino Americans",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/vietnamese-americans",
+        "display_name": "Vietnamese Americans",
+        "score": 1.0
+      },
+      {
+        "id": "https://openalex.org/keywords/acculturation",
+        "display_name": "acculturation",
+        "score": 0.8299999833106995
+      },
+      {
+        "id": "https://openalex.org/keywords/nativity",
+        "display_name": "nativity",
+        "score": 0.9679999947547913
+      },
+      {
+        "id": "https://openalex.org/keywords/disability",
+        "display_name": "disability",
+        "score": 0.8270000219345093
+      },
+      {
+        "id": "https://openalex.org/keywords/socioeconomic-status",
+        "display_name": "socioeconomic status",
+        "score": 0.8550000190734863
+      },
+      {
+        "id": "https://openalex.org/keywords/cultural-policy",
+        "display_name": "cultural policy",
+        "score": 0.37400001287460327
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C116190364",
+        "wikidata": "https://www.wikidata.org/wiki/Q167918",
+        "display_name": "Grandparent",
+        "level": 2,
+        "score": 0.9731000065803528
+      },
+      {
+        "id": "https://openalex.org/C103621254",
+        "wikidata": "https://www.wikidata.org/wiki/Q9199",
+        "display_name": "Vietnamese",
+        "level": 2,
+        "score": 0.8105999827384949
+      },
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.7649999856948853
+      },
+      {
+        "id": "https://openalex.org/C147077947",
+        "wikidata": "https://www.wikidata.org/wiki/Q1515895",
+        "display_name": "Socioeconomic status",
+        "level": 3,
+        "score": 0.7210000157356262
+      },
+      {
+        "id": "https://openalex.org/C149923435",
+        "wikidata": "https://www.wikidata.org/wiki/Q37732",
+        "display_name": "Demography",
+        "level": 1,
+        "score": 0.6247000098228455
+      },
+      {
+        "id": "https://openalex.org/C3019166669",
+        "wikidata": "https://www.wikidata.org/wiki/Q727928",
+        "display_name": "Asian americans",
+        "level": 3,
+        "score": 0.5235000252723694
+      },
+      {
+        "id": "https://openalex.org/C2909145594",
+        "wikidata": "https://www.wikidata.org/wiki/Q2643509",
+        "display_name": "Asian Indian",
+        "level": 3,
+        "score": 0.43650001287460327
+      },
+      {
+        "id": "https://openalex.org/C117568660",
+        "wikidata": "https://www.wikidata.org/wiki/Q1650843",
+        "display_name": "Multinomial logistic regression",
+        "level": 2,
+        "score": 0.43380001187324524
+      },
+      {
+        "id": "https://openalex.org/C90048612",
+        "wikidata": "https://www.wikidata.org/wiki/Q192989",
+        "display_name": "Acculturation",
+        "level": 3,
+        "score": 0.4325999915599823
+      },
+      {
+        "id": "https://openalex.org/C74909509",
+        "wikidata": "https://www.wikidata.org/wiki/Q10387",
+        "display_name": "Gerontology",
+        "level": 1,
+        "score": 0.42669999599456787
+      },
+      {
+        "id": "https://openalex.org/C52130261",
+        "wikidata": "https://www.wikidata.org/wiki/Q39825",
+        "display_name": "Census",
+        "level": 3,
+        "score": 0.4000999927520752
+      },
+      {
+        "id": "https://openalex.org/C87227347",
+        "wikidata": "https://www.wikidata.org/wiki/Q7100713",
+        "display_name": "Ordered logit",
+        "level": 2,
+        "score": 0.37630000710487366
+      },
+      {
+        "id": "https://openalex.org/C143095724",
+        "wikidata": "https://www.wikidata.org/wiki/Q515895",
+        "display_name": "Odds",
+        "level": 3,
+        "score": 0.35670000314712524
+      },
+      {
+        "id": "https://openalex.org/C2780589192",
+        "wikidata": "https://www.wikidata.org/wiki/Q7285140",
+        "display_name": "Raising (metalworking)",
+        "level": 2,
+        "score": 0.33869999647140503
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.3327000141143799
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.31619998812675476
+      },
+      {
+        "id": "https://openalex.org/C3019807043",
+        "wikidata": "https://www.wikidata.org/wiki/Q581921",
+        "display_name": "Mexican americans",
+        "level": 3,
+        "score": 0.298799991607666
+      },
+      {
+        "id": "https://openalex.org/C189326681",
+        "wikidata": "https://www.wikidata.org/wiki/Q10294",
+        "display_name": "Poverty",
+        "level": 2,
+        "score": 0.29249998927116394
+      },
+      {
+        "id": "https://openalex.org/C125209646",
+        "wikidata": "https://www.wikidata.org/wiki/Q1338878",
+        "display_name": "Cultural diversity",
+        "level": 2,
+        "score": 0.27900001406669617
+      },
+      {
+        "id": "https://openalex.org/C70036468",
+        "wikidata": "https://www.wikidata.org/wiki/Q131288",
+        "display_name": "Immigration",
+        "level": 2,
+        "score": 0.27869999408721924
+      },
+      {
+        "id": "https://openalex.org/C76775654",
+        "wikidata": "https://www.wikidata.org/wiki/Q27231",
+        "display_name": "East Asia",
+        "level": 3,
+        "score": 0.27480000257492065
+      },
+      {
+        "id": "https://openalex.org/C151956035",
+        "wikidata": "https://www.wikidata.org/wiki/Q1132755",
+        "display_name": "Logistic regression",
+        "level": 2,
+        "score": 0.25780001282691956
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1111/josi.70089",
+        "doi": "https://doi.org/10.1111/josi.70089",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/josi.70089",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70089",
+        "source": {
+          "id": "https://openalex.org/S168863142",
+          "display_name": "Journal of Social Issues",
+          "issn_l": "0022-4537",
+          "issn": [
+            "0022-4537",
+            "1540-4560"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-b",
+            "erih-plus",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Social Issues",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1111/josi.70089",
+      "doi": "https://doi.org/10.1111/josi.70089",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/josi.70089",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70089",
+      "source": {
+        "id": "https://openalex.org/S168863142",
+        "display_name": "Journal of Social Issues",
+        "issn_l": "0022-4537",
+        "issn": [
+          "0022-4537",
+          "1540-4560"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Social Issues",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.7307999730110168,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "display_name": "Observational Study",
+        "id": "https://openalex.org/study-designs/observational-study"
+      }
+    ],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F439001488",
+        "display_name": "Professional Staff Congress and City University of New York",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7223033600.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7223033600.grobid-xml"
+    },
+    "referenced_works_count": 18,
+    "referenced_works": [
+      "https://openalex.org/W1504937082",
+      "https://openalex.org/W1971559684",
+      "https://openalex.org/W2054453172",
+      "https://openalex.org/W2062337042",
+      "https://openalex.org/W2064010216",
+      "https://openalex.org/W2096280888",
+      "https://openalex.org/W2098764628",
+      "https://openalex.org/W2110547385",
+      "https://openalex.org/W2128870681",
+      "https://openalex.org/W2153033432",
+      "https://openalex.org/W2163060409",
+      "https://openalex.org/W2164700494",
+      "https://openalex.org/W2164898233",
+      "https://openalex.org/W2330846354",
+      "https://openalex.org/W2621070052",
+      "https://openalex.org/W2730881007",
+      "https://openalex.org/W2779776068",
+      "https://openalex.org/W2793710923"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Drawing": [
+        1
+      ],
+      "on": [
+        2
+      ],
+      "nationally": [
+        3
+      ],
+      "representative": [
+        4
+      ],
+      "data": [
+        5
+      ],
+      "from": [
+        6,
+        67
+      ],
+      "the": [
+        7,
+        11,
+        18,
+        36,
+        42,
+        54,
+        75,
+        108,
+        119,
+        134,
+        146,
+        163,
+        178,
+        184
+      ],
+      "decennial": [
+        8
+      ],
+      "census": [
+        9
+      ],
+      "and": [
+        10,
+        20,
+        28,
+        33,
+        51,
+        84,
+        88,
+        104,
+        124,
+        142,
+        169,
+        177
+      ],
+      "American": [
+        12,
+        24,
+        44,
+        157,
+        189
+      ],
+      "Community": [
+        13
+      ],
+      "Survey,": [
+        14
+      ],
+      "this": [
+        15
+      ],
+      "study": [
+        16
+      ],
+      "documents": [
+        17
+      ],
+      "trends": [
+        19
+      ],
+      "patterns": [
+        21
+      ],
+      "of": [
+        22,
+        41,
+        56,
+        77,
+        111,
+        136,
+        148,
+        187
+      ],
+      "Asian": [
+        23,
+        43,
+        156,
+        188
+      ],
+      "grandparents": [
+        25,
+        65,
+        79,
+        100,
+        153,
+        190
+      ],
+      "living": [
+        26
+      ],
+      "with": [
+        27,
+        145
+      ],
+      "raising": [
+        29
+      ],
+      "grandchildren": [
+        30
+      ],
+      "between": [
+        31,
+        82
+      ],
+      "2000": [
+        32
+      ],
+      "2023": [
+        34
+      ],
+      "for": [
+        35,
+        165
+      ],
+      "six": [
+        37
+      ],
+      "largest": [
+        38
+      ],
+      "ethnic": [
+        39,
+        131,
+        158
+      ],
+      "groups": [
+        40
+      ],
+      "population:": [
+        45
+      ],
+      "Chinese,": [
+        46
+      ],
+      "Japanese,": [
+        47
+      ],
+      "Korean,": [
+        48
+      ],
+      "Indian,": [
+        49,
+        86
+      ],
+      "Filipino,": [
+        50,
+        87
+      ],
+      "Vietnamese.": [
+        52
+      ],
+      "Overall,": [
+        53
+      ],
+      "percentage": [
+        55
+      ],
+      "people": [
+        57
+      ],
+      "aged": [
+        58
+      ],
+      "50": [
+        59
+      ],
+      "or": [
+        60,
+        98,
+        151
+      ],
+      "older": [
+        61
+      ],
+      "who": [
+        62
+      ],
+      "were": [
+        63,
+        91,
+        116
+      ],
+      "coresident": [
+        64,
+        97,
+        150
+      ],
+      "ranged": [
+        66
+      ],
+      "about": [
+        68
+      ],
+      "3%": [
+        69
+      ],
+      "to": [
+        70,
+        95
+      ],
+      "15%": [
+        71
+      ],
+      "over": [
+        72
+      ],
+      "time,": [
+        73
+      ],
+      "but": [
+        74
+      ],
+      "prevalence": [
+        76
+      ],
+      "custodial": [
+        78,
+        99,
+        152
+      ],
+      "varied": [
+        80
+      ],
+      "approximately": [
+        81
+      ],
+      "0.5%": [
+        83
+      ],
+      "3.5%.": [
+        85
+      ],
+      "Vietnamese": [
+        89
+      ],
+      "Americans": [
+        90,
+        115
+      ],
+      "much": [
+        92
+      ],
+      "more": [
+        93
+      ],
+      "likely": [
+        94
+      ],
+      "be": [
+        96
+      ],
+      "than": [
+        101
+      ],
+      "their": [
+        102
+      ],
+      "Japanese": [
+        103
+      ],
+      "Korean": [
+        105
+      ],
+      "counterparts": [
+        106
+      ],
+      "throughout": [
+        107
+      ],
+      "entire": [
+        109
+      ],
+      "period": [
+        110
+      ],
+      "2000\u20132023,": [
+        112
+      ],
+      "while": [
+        113
+      ],
+      "Chinese": [
+        114
+      ],
+      "ranked": [
+        117
+      ],
+      "in": [
+        118,
+        133
+      ],
+      "middle.": [
+        120
+      ],
+      "Multinomial": [
+        121
+      ],
+      "logit": [
+        122
+      ],
+      "models": [
+        123
+      ],
+      "seemingly": [
+        125
+      ],
+      "unrelated": [
+        126
+      ],
+      "regression": [
+        127
+      ],
+      "analyses": [
+        128
+      ],
+      "showed": [
+        129
+      ],
+      "substantial": [
+        130
+      ],
+      "differences": [
+        132
+      ],
+      "associations": [
+        135
+      ],
+      "demographic,": [
+        137
+      ],
+      "socioeconomic": [
+        138
+      ],
+      "status,": [
+        139
+      ],
+      "nativity,": [
+        140
+      ],
+      "acculturation,": [
+        141
+      ],
+      "disability": [
+        143
+      ],
+      "characteristics": [
+        144
+      ],
+      "likelihood": [
+        147
+      ],
+      "being": [
+        149
+      ],
+      "across": [
+        154
+      ],
+      "different": [
+        155
+      ],
+      "groups.": [
+        159
+      ],
+      "These": [
+        160
+      ],
+      "findings": [
+        161
+      ],
+      "underscore": [
+        162
+      ],
+      "need": [
+        164
+      ],
+      "culturally": [
+        166
+      ],
+      "informed": [
+        167
+      ],
+      "policies": [
+        168
+      ],
+      "programs": [
+        170
+      ],
+      "that": [
+        171,
+        182
+      ],
+      "address": [
+        172
+      ],
+      "both": [
+        173
+      ],
+      "ethnic\u2010specific": [
+        174
+      ],
+      "caregiving": [
+        175,
+        185
+      ],
+      "contexts": [
+        176
+      ],
+      "shared": [
+        179
+      ],
+      "structural": [
+        180
+      ],
+      "barriers": [
+        181
+      ],
+      "shape": [
+        183
+      ],
+      "realities": [
+        186
+      ],
+      "today.": [
+        191
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-22T09:42:04.148104",
+    "created_date": "2026-10-21T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7221077499",
+    "doi": "https://doi.org/10.1111/josi.70082",
+    "title": "Widening Health Disparities: Diabetes and Prediabetes Prevalence from 2001 to 2022 Among Six Asian American Subgroups and Other Racial and Ethnic Groups in California",
+    "display_name": "Widening Health Disparities: Diabetes and Prediabetes Prevalence from 2001 to 2022 Among Six Asian American Subgroups and Other Racial and Ethnic Groups in California",
+    "relevance_score": 1.3574724,
+    "publication_year": 2026,
+    "publication_date": "2026-10-08",
+    "ids": {
+      "openalex": "https://openalex.org/W7221077499",
+      "doi": "https://doi.org/10.1111/josi.70082"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1111/josi.70082",
+      "doi": "https://doi.org/10.1111/josi.70082",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/josi.70082",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70082",
+      "source": {
+        "id": "https://openalex.org/S168863142",
+        "display_name": "Journal of Social Issues",
+        "issn_l": "0022-4537",
+        "issn": [
+          "0022-4537",
+          "1540-4560"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Social Issues",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70082",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5033341338",
+          "display_name": "Xiang Qi",
+          "orcid": "https://orcid.org/0000-0003-3958-8609",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3958-8609"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I57206974",
+            "display_name": "New York University",
+            "ror": "https://ror.org/0190ak572",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I57206974"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Xiang Qi",
+        "raw_affiliation_strings": [
+          "Rory Meyers College of Nursing New York University  New York New York USA"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-3958-8609",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Rory Meyers College of Nursing New York University  New York New York USA",
+            "institution_ids": [
+              "https://openalex.org/I57206974"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5070516166",
+          "display_name": "Bei Wu",
+          "orcid": "https://orcid.org/0000-0002-6891-244X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6891-244X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I258800397",
+            "display_name": "New York University Shanghai",
+            "ror": "https://ror.org/02vpsdb40",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I258800397",
+              "https://openalex.org/I57206974"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Bei Wu",
+        "raw_affiliation_strings": [
+          "Global Institute for Longevity and Resilience NYU Shanghai Shanghai China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6891-244X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Global Institute for Longevity and Resilience NYU Shanghai Shanghai China",
+            "institution_ids": [
+              "https://openalex.org/I258800397"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5033341338"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I57206974"
+    ],
+    "apc_list": {
+      "value": 3570,
+      "currency": "USD",
+      "value_usd": 3570
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.82982527,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "82",
+      "issue": "4",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10235",
+      "display_name": "Health disparities and outcomes",
+      "score": 0.5356000065803528,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3306",
+        "display_name": "Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10235",
+        "display_name": "Health disparities and outcomes",
+        "score": 0.5356000065803528,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3306",
+          "display_name": "Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10027",
+        "display_name": "Diabetes, Cardiovascular Risks, and Lipoproteins",
+        "score": 0.382099986076355,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2712",
+          "display_name": "Endocrinology, Diabetes and Metabolism"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10652",
+        "display_name": "Racial and Ethnic Identity Research",
+        "score": 0.02969999983906746,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/diabetes-prevalence",
+        "display_name": "diabetes prevalence",
+        "score": 0.9300000071525574
+      },
+      {
+        "id": "https://openalex.org/keywords/prediabetes",
+        "display_name": "prediabetes",
+        "score": 0.9559999704360962
+      },
+      {
+        "id": "https://openalex.org/keywords/health-disparities",
+        "display_name": "health disparities",
+        "score": 0.8970000147819519
+      },
+      {
+        "id": "https://openalex.org/keywords/asian-american-subgroups",
+        "display_name": "Asian American subgroups",
+        "score": 0.8880000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/racial-and-ethnic-disparities",
+        "display_name": "racial and ethnic disparities",
+        "score": 0.7089999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/older-adults",
+        "display_name": "older adults",
+        "score": 0.7289999723434448
+      },
+      {
+        "id": "https://openalex.org/keywords/fundamental-cause-theory",
+        "display_name": "fundamental cause theory",
+        "score": 0.7450000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/life-course-perspective",
+        "display_name": "life course perspective",
+        "score": 0.7879999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/social-determinants-of-health",
+        "display_name": "social determinants of health",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/body-mass-index",
+        "display_name": "body mass index",
+        "score": 0.781000018119812
+      },
+      {
+        "id": "https://openalex.org/keywords/filipino-americans",
+        "display_name": "Filipino Americans",
+        "score": 0.6119999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/south-asian-americans",
+        "display_name": "South Asian Americans",
+        "score": 0.9629999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/korean-americans",
+        "display_name": "Korean Americans",
+        "score": 0.7099999785423279
+      },
+      {
+        "id": "https://openalex.org/keywords/vietnamese-americans",
+        "display_name": "Vietnamese Americans",
+        "score": 0.8980000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/california",
+        "display_name": "California",
+        "score": 0.6690000295639038
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2779668308",
+        "wikidata": "https://www.wikidata.org/wiki/Q2087205",
+        "display_name": "Prediabetes",
+        "level": 4,
+        "score": 0.9197999835014343
+      },
+      {
+        "id": "https://openalex.org/C103621254",
+        "wikidata": "https://www.wikidata.org/wiki/Q9199",
+        "display_name": "Vietnamese",
+        "level": 2,
+        "score": 0.8357999920845032
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.7168999910354614
+      },
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.6610000133514404
+      },
+      {
+        "id": "https://openalex.org/C149923435",
+        "wikidata": "https://www.wikidata.org/wiki/Q37732",
+        "display_name": "Demography",
+        "level": 1,
+        "score": 0.6310999989509583
+      },
+      {
+        "id": "https://openalex.org/C555293320",
+        "wikidata": "https://www.wikidata.org/wiki/Q12206",
+        "display_name": "Diabetes mellitus",
+        "level": 2,
+        "score": 0.5906999707221985
+      },
+      {
+        "id": "https://openalex.org/C74909509",
+        "wikidata": "https://www.wikidata.org/wiki/Q10387",
+        "display_name": "Gerontology",
+        "level": 1,
+        "score": 0.5748999714851379
+      },
+      {
+        "id": "https://openalex.org/C2780221984",
+        "wikidata": "https://www.wikidata.org/wiki/Q131191",
+        "display_name": "Body mass index",
+        "level": 2,
+        "score": 0.5109999775886536
+      },
+      {
+        "id": "https://openalex.org/C44249647",
+        "wikidata": "https://www.wikidata.org/wiki/Q208498",
+        "display_name": "Confidence interval",
+        "level": 2,
+        "score": 0.4763000011444092
+      },
+      {
+        "id": "https://openalex.org/C2909145594",
+        "wikidata": "https://www.wikidata.org/wiki/Q2643509",
+        "display_name": "Asian Indian",
+        "level": 3,
+        "score": 0.4553000032901764
+      },
+      {
+        "id": "https://openalex.org/C2250968",
+        "wikidata": "https://www.wikidata.org/wiki/Q1512929",
+        "display_name": "Health equity",
+        "level": 3,
+        "score": 0.43130001425743103
+      },
+      {
+        "id": "https://openalex.org/C107130276",
+        "wikidata": "https://www.wikidata.org/wiki/Q133805",
+        "display_name": "Epidemiology",
+        "level": 2,
+        "score": 0.375
+      },
+      {
+        "id": "https://openalex.org/C3019166669",
+        "wikidata": "https://www.wikidata.org/wiki/Q727928",
+        "display_name": "Asian americans",
+        "level": 3,
+        "score": 0.35089999437332153
+      },
+      {
+        "id": "https://openalex.org/C205545832",
+        "wikidata": "https://www.wikidata.org/wiki/Q17156455",
+        "display_name": "Young adult",
+        "level": 2,
+        "score": 0.3425000011920929
+      },
+      {
+        "id": "https://openalex.org/C78491826",
+        "wikidata": "https://www.wikidata.org/wiki/Q3045352",
+        "display_name": "Social determinants of health",
+        "level": 3,
+        "score": 0.3357999920845032
+      },
+      {
+        "id": "https://openalex.org/C2780128664",
+        "wikidata": "https://www.wikidata.org/wiki/Q6973004",
+        "display_name": "National Health Interview Survey",
+        "level": 3,
+        "score": 0.322299987077713
+      },
+      {
+        "id": "https://openalex.org/C2777185836",
+        "wikidata": "https://www.wikidata.org/wiki/Q3306264",
+        "display_name": "Impaired fasting glucose",
+        "level": 5,
+        "score": 0.31940001249313354
+      },
+      {
+        "id": "https://openalex.org/C3017937568",
+        "wikidata": "https://www.wikidata.org/wiki/Q1146100",
+        "display_name": "Chinese americans",
+        "level": 3,
+        "score": 0.3075000047683716
+      },
+      {
+        "id": "https://openalex.org/C2780176501",
+        "wikidata": "https://www.wikidata.org/wiki/Q5690755",
+        "display_name": "Health and Retirement Study",
+        "level": 2,
+        "score": 0.30570000410079956
+      },
+      {
+        "id": "https://openalex.org/C2777180221",
+        "wikidata": "https://www.wikidata.org/wiki/Q3025883",
+        "display_name": "Type 2 diabetes",
+        "level": 3,
+        "score": 0.3021000027656555
+      },
+      {
+        "id": "https://openalex.org/C138816342",
+        "wikidata": "https://www.wikidata.org/wiki/Q189603",
+        "display_name": "Public health",
+        "level": 2,
+        "score": 0.29100000858306885
+      },
+      {
+        "id": "https://openalex.org/C2780609358",
+        "wikidata": "https://www.wikidata.org/wiki/Q2087205",
+        "display_name": "Impaired glucose tolerance",
+        "level": 4,
+        "score": 0.287200003862381
+      },
+      {
+        "id": "https://openalex.org/C142052008",
+        "wikidata": "https://www.wikidata.org/wiki/Q954027",
+        "display_name": "Cross-sectional study",
+        "level": 2,
+        "score": 0.2791999876499176
+      },
+      {
+        "id": "https://openalex.org/C56273599",
+        "wikidata": "https://www.wikidata.org/wiki/Q3122841",
+        "display_name": "White (mutation)",
+        "level": 3,
+        "score": 0.273499995470047
+      },
+      {
+        "id": "https://openalex.org/C3020641676",
+        "wikidata": "https://www.wikidata.org/wiki/Q2065556",
+        "display_name": "Pacific islanders",
+        "level": 3,
+        "score": 0.2700999975204468
+      },
+      {
+        "id": "https://openalex.org/C99454951",
+        "wikidata": "https://www.wikidata.org/wiki/Q932068",
+        "display_name": "Environmental health",
+        "level": 1,
+        "score": 0.26930001378059387
+      },
+      {
+        "id": "https://openalex.org/C156957248",
+        "wikidata": "https://www.wikidata.org/wiki/Q1862216",
+        "display_name": "Odds ratio",
+        "level": 2,
+        "score": 0.26829999685287476
+      },
+      {
+        "id": "https://openalex.org/C2779874844",
+        "wikidata": "https://www.wikidata.org/wiki/Q1967281",
+        "display_name": "National Health and Nutrition Examination Survey",
+        "level": 3,
+        "score": 0.2662000060081482
+      },
+      {
+        "id": "https://openalex.org/C76509639",
+        "wikidata": "https://www.wikidata.org/wiki/Q918036",
+        "display_name": "Race (biology)",
+        "level": 2,
+        "score": 0.265500009059906
+      },
+      {
+        "id": "https://openalex.org/C2777402240",
+        "wikidata": "https://www.wikidata.org/wiki/Q6783436",
+        "display_name": "Masking (illustration)",
+        "level": 2,
+        "score": 0.2635999917984009
+      },
+      {
+        "id": "https://openalex.org/C82789193",
+        "wikidata": "https://www.wikidata.org/wiki/Q2142611",
+        "display_name": "Relative risk",
+        "level": 3,
+        "score": 0.25429999828338623
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1111/josi.70082",
+        "doi": "https://doi.org/10.1111/josi.70082",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/josi.70082",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70082",
+        "source": {
+          "id": "https://openalex.org/S168863142",
+          "display_name": "Journal of Social Issues",
+          "issn_l": "0022-4537",
+          "issn": [
+            "0022-4537",
+            "1540-4560"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "dongbi-b",
+            "erih-plus",
+            "jufo-2",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Social Issues",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1111/josi.70082",
+      "doi": "https://doi.org/10.1111/josi.70082",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/josi.70082",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/josi.70082",
+      "source": {
+        "id": "https://openalex.org/S168863142",
+        "display_name": "Journal of Social Issues",
+        "issn_l": "0022-4537",
+        "issn": [
+          "0022-4537",
+          "1540-4560"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "dongbi-b",
+          "erih-plus",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Social Issues",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 1.0,
+        "display_name": "Good health and well-being",
+        "id": "https://metadata.un.org/sdg/3"
+      },
+      {
+        "score": 0.8974000215530396,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "display_name": "Observational Study",
+        "id": "https://openalex.org/study-designs/observational-study"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G744913063",
+        "display_name": null,
+        "funder_award_id": "P50MD017356",
+        "funder_id": "https://openalex.org/F4320337534",
+        "funder_display_name": "National Institute on Minority Health and Health Disparities"
+      },
+      {
+        "id": "https://openalex.org/G9000889278",
+        "display_name": "Resource Center for Alzheimer's and Dementia Research in Asian and Pacific Americans",
+        "funder_award_id": "P30AG083257",
+        "funder_id": "https://openalex.org/F4320337337",
+        "funder_display_name": "National Institute on Aging"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320337337",
+        "display_name": "National Institute on Aging",
+        "ror": "https://ror.org/049v75w11"
+      },
+      {
+        "id": "https://openalex.org/F4320337534",
+        "display_name": "National Institute on Minority Health and Health Disparities",
+        "ror": "https://ror.org/0493hgw16"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7221077499.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7221077499.grobid-xml"
+    },
+    "referenced_works_count": 37,
+    "referenced_works": [
+      "https://openalex.org/W1982948406",
+      "https://openalex.org/W2008191721",
+      "https://openalex.org/W2112669742",
+      "https://openalex.org/W2114596436",
+      "https://openalex.org/W2116688989",
+      "https://openalex.org/W2118969328",
+      "https://openalex.org/W2139220191",
+      "https://openalex.org/W2157815126",
+      "https://openalex.org/W2204404491",
+      "https://openalex.org/W2772604744",
+      "https://openalex.org/W2887738738",
+      "https://openalex.org/W2922697231",
+      "https://openalex.org/W2963474362",
+      "https://openalex.org/W2969157946",
+      "https://openalex.org/W2995605526",
+      "https://openalex.org/W3008898131",
+      "https://openalex.org/W3011294897",
+      "https://openalex.org/W3013944209",
+      "https://openalex.org/W3023255039",
+      "https://openalex.org/W3047598693",
+      "https://openalex.org/W3127639137",
+      "https://openalex.org/W3193665095",
+      "https://openalex.org/W3215100548",
+      "https://openalex.org/W4210914606",
+      "https://openalex.org/W4214773617",
+      "https://openalex.org/W4214918687",
+      "https://openalex.org/W4245198606",
+      "https://openalex.org/W4285388412",
+      "https://openalex.org/W4285801128",
+      "https://openalex.org/W4375862653",
+      "https://openalex.org/W4385356663",
+      "https://openalex.org/W4401949798",
+      "https://openalex.org/W4402555546",
+      "https://openalex.org/W4404116601",
+      "https://openalex.org/W4405039910",
+      "https://openalex.org/W4408070226",
+      "https://openalex.org/W4416309248"
+    ],
+    "related_works": [
+      "https://openalex.org/W2009084190",
+      "https://openalex.org/W2178097490",
+      "https://openalex.org/W2808985147",
+      "https://openalex.org/W1986346747",
+      "https://openalex.org/W4380793652",
+      "https://openalex.org/W2995605526",
+      "https://openalex.org/W3172895612",
+      "https://openalex.org/W4307135837",
+      "https://openalex.org/W3201050037",
+      "https://openalex.org/W2916545508"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Asian": [
+        1,
+        118,
+        179,
+        202,
+        210
+      ],
+      "Americans,": [
+        2
+      ],
+      "the": [
+        3,
+        8,
+        39,
+        50,
+        125,
+        147,
+        184,
+        187
+      ],
+      "fastest\u2010growing": [
+        4
+      ],
+      "racial": [
+        5,
+        73
+      ],
+      "group": [
+        6
+      ],
+      "in": [
+        7,
+        18,
+        24,
+        59,
+        109,
+        132,
+        220
+      ],
+      "United": [
+        9
+      ],
+      "States,": [
+        10
+      ],
+      "are": [
+        11
+      ],
+      "frequently": [
+        12
+      ],
+      "aggregated": [
+        13
+      ],
+      "into": [
+        14,
+        212
+      ],
+      "a": [
+        15,
+        34,
+        213
+      ],
+      "single": [
+        16,
+        214
+      ],
+      "category": [
+        17,
+        215
+      ],
+      "national": [
+        19
+      ],
+      "surveillance,": [
+        20
+      ],
+      "masking": [
+        21
+      ],
+      "substantial": [
+        22
+      ],
+      "heterogeneity": [
+        23,
+        219
+      ],
+      "diabetes": [
+        25,
+        60,
+        107,
+        133,
+        156,
+        221
+      ],
+      "risk": [
+        26
+      ],
+      "across": [
+        27,
+        71
+      ],
+      "subgroups.": [
+        28,
+        204
+      ],
+      "Drawing": [
+        29
+      ],
+      "on": [
+        30
+      ],
+      "fundamental": [
+        31
+      ],
+      "cause": [
+        32
+      ],
+      "theory,": [
+        33
+      ],
+      "life": [
+        35
+      ],
+      "course": [
+        36
+      ],
+      "perspective,": [
+        37
+      ],
+      "and": [
+        38,
+        61,
+        69,
+        74,
+        91,
+        103,
+        116,
+        140,
+        171,
+        186,
+        227,
+        236,
+        245
+      ],
+      "social": [
+        40
+      ],
+      "determinants": [
+        41
+      ],
+      "of": [
+        42,
+        49
+      ],
+      "health": [
+        43,
+        104
+      ],
+      "framework,": [
+        44
+      ],
+      "this": [
+        45
+      ],
+      "repeated": [
+        46
+      ],
+      "cross\u2010sectional": [
+        47
+      ],
+      "analysis": [
+        48
+      ],
+      "California": [
+        51
+      ],
+      "Health": [
+        52
+      ],
+      "Interview": [
+        53
+      ],
+      "Survey": [
+        54
+      ],
+      "(2001\u20132022)": [
+        55
+      ],
+      "examined": [
+        56
+      ],
+      "21\u2010year": [
+        57
+      ],
+      "trends": [
+        58
+      ],
+      "prediabetes": [
+        62,
+        149
+      ],
+      "prevalence": [
+        63,
+        108,
+        134,
+        153,
+        199
+      ],
+      "among": [
+        64,
+        113
+      ],
+      "320,098": [
+        65
+      ],
+      "adults": [
+        66,
+        123,
+        145,
+        160
+      ],
+      "aged": [
+        67
+      ],
+      "50": [
+        68
+      ],
+      "older": [
+        70,
+        122,
+        144,
+        180
+      ],
+      "nine": [
+        72
+      ],
+      "ethnic": [
+        75
+      ],
+      "groups,": [
+        76
+      ],
+      "including": [
+        77
+      ],
+      "non\u2010Hispanic": [
+        78,
+        81
+      ],
+      "White": [
+        79
+      ],
+      "(NHW),": [
+        80
+      ],
+      "Black": [
+        82
+      ],
+      "(NHB),": [
+        83
+      ],
+      "Hispanic,": [
+        84
+      ],
+      "Chinese,": [
+        85
+      ],
+      "Filipino,": [
+        86
+      ],
+      "Japanese,": [
+        87
+      ],
+      "Korean,": [
+        88
+      ],
+      "South": [
+        89,
+        117,
+        178
+      ],
+      "Asian,": [
+        90
+      ],
+      "Vietnamese.": [
+        92
+      ],
+      "After": [
+        93
+      ],
+      "adjustment": [
+        94
+      ],
+      "for": [
+        95,
+        155,
+        169,
+        177,
+        191,
+        201,
+        239
+      ],
+      "age,": [
+        96
+      ],
+      "sex,": [
+        97
+      ],
+      "nativity,": [
+        98
+      ],
+      "education,": [
+        99
+      ],
+      "income,": [
+        100
+      ],
+      "English": [
+        101
+      ],
+      "proficiency,": [
+        102
+      ],
+      "insurance": [
+        105
+      ],
+      "coverage,": [
+        106
+      ],
+      "2021\u20132022": [
+        110
+      ],
+      "was": [
+        111
+      ],
+      "highest": [
+        112
+      ],
+      "Filipino": [
+        114,
+        138,
+        170
+      ],
+      "(32.8%)": [
+        115
+      ],
+      "(28.3%)": [
+        119
+      ],
+      "adults.": [
+        120
+      ],
+      "Korean": [
+        121
+      ],
+      "had": [
+        124
+      ],
+      "fastest": [
+        126
+      ],
+      "adjusted": [
+        127
+      ],
+      "annual": [
+        128
+      ],
+      "percentage": [
+        129
+      ],
+      "change": [
+        130
+      ],
+      "(APC)": [
+        131
+      ],
+      "(3.98%/year),": [
+        135
+      ],
+      "followed": [
+        136
+      ],
+      "by": [
+        137
+      ],
+      "(3.74%/year)": [
+        139
+      ],
+      "Vietnamese": [
+        141,
+        143
+      ],
+      "(3.15%/year).": [
+        142
+      ],
+      "showed": [
+        146
+      ],
+      "steepest": [
+        148
+      ],
+      "increase": [
+        150
+      ],
+      "(16.25%/year).": [
+        151
+      ],
+      "Adjusted": [
+        152
+      ],
+      "ratios": [
+        154
+      ],
+      "relative": [
+        157
+      ],
+      "to": [
+        158,
+        233
+      ],
+      "NHW": [
+        159
+      ],
+      "were": [
+        161
+      ],
+      "2.13": [
+        162
+      ],
+      "(95%": [
+        163,
+        173
+      ],
+      "confidence": [
+        164
+      ],
+      "interval": [
+        165
+      ],
+      "[CI],": [
+        166
+      ],
+      "1.92,": [
+        167
+      ],
+      "2.37)": [
+        168
+      ],
+      "2.03": [
+        172
+      ],
+      "CI,": [
+        174
+      ],
+      "1.76,": [
+        175
+      ],
+      "2.34)": [
+        176
+      ],
+      "adults,": [
+        181
+      ],
+      "exceeding": [
+        182
+      ],
+      "both": [
+        183
+      ],
+      "NHB\u2010to\u2010NHW": [
+        185
+      ],
+      "Hispanic\u2010to\u2010NHW": [
+        188
+      ],
+      "disparities.": [
+        189
+      ],
+      "Adjusting": [
+        190
+      ],
+      "body": [
+        192
+      ],
+      "mass": [
+        193
+      ],
+      "index": [
+        194
+      ],
+      "amplified": [
+        195
+      ],
+      "rather": [
+        196
+      ],
+      "than": [
+        197
+      ],
+      "attenuated": [
+        198
+      ],
+      "estimates": [
+        200
+      ],
+      "American": [
+        203
+      ],
+      "These": [
+        205
+      ],
+      "findings": [
+        206
+      ],
+      "show": [
+        207
+      ],
+      "that": [
+        208,
+        230
+      ],
+      "aggregating": [
+        209
+      ],
+      "Americans": [
+        211
+      ],
+      "obscures": [
+        216
+      ],
+      "clinically": [
+        217
+      ],
+      "important": [
+        218
+      ],
+      "burden.": [
+        222
+      ],
+      "We": [
+        223
+      ],
+      "discuss": [
+        224
+      ],
+      "structural,": [
+        225
+      ],
+      "social,": [
+        226
+      ],
+      "cultural": [
+        228
+      ],
+      "factors": [
+        229
+      ],
+      "may": [
+        231
+      ],
+      "contribute": [
+        232
+      ],
+      "these": [
+        234
+      ],
+      "disparities": [
+        235
+      ],
+      "their": [
+        237
+      ],
+      "implications": [
+        238
+      ],
+      "ethnicity\u2010specific": [
+        240
+      ],
+      "screening,": [
+        241
+      ],
+      "culturally": [
+        242
+      ],
+      "tailored": [
+        243
+      ],
+      "prevention,": [
+        244
+      ],
+      "disaggregated": [
+        246
+      ],
+      "data": [
+        247
+      ],
+      "collection": [
+        248
+      ],
+      "policy.": [
+        249
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2026-10-10T00:00:00"
   }
 ]

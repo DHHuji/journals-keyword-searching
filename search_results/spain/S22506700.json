@@ -5106,7 +5106,7 @@
     "doi": "https://doi.org/10.14506/ca40.3.04",
     "title": "Touched by Deep Time",
     "display_name": "Touched by Deep Time",
-    "relevance_score": 3.105925,
+    "relevance_score": 1.0650406,
     "publication_year": 2025,
     "publication_date": "2025-08-14",
     "ids": {
@@ -5116,6 +5116,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.14506/ca40.3.04",
+      "doi": "https://doi.org/10.14506/ca40.3.04",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.14506/ca40.3.04",
       "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5818/1022",
@@ -5130,6 +5131,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -5148,6 +5161,7 @@
       "raw_source_name": "Cultural Anthropology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -5165,7 +5179,10 @@
         "author": {
           "id": "https://openalex.org/A5079837197",
           "display_name": "Lachlan Summers",
-          "orcid": "https://orcid.org/0000-0002-0737-3868"
+          "orcid": "https://orcid.org/0000-0002-0737-3868",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0737-3868"
+          ]
         },
         "institutions": [
           {
@@ -5210,12 +5227,12 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 23.93,
+    "fwci": 8.1206,
     "has_fulltext": true,
-    "cited_by_count": 11,
+    "cited_by_count": 12,
     "citation_normalized_percentile": {
-      "value": 0.99694818,
-      "is_in_top_1_percent": true,
+      "value": 0.98294096,
+      "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
@@ -5232,16 +5249,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11430",
-      "display_name": "Disaster Response and Management",
-      "score": 0.7013000249862671,
+      "id": "https://openalex.org/T11334",
+      "display_name": "Psychosomatic Disorders and Their Treatments",
+      "score": 0.30790001153945923,
       "subfield": {
-        "id": "https://openalex.org/subfields/3604",
-        "display_name": "Emergency Medical Services"
+        "id": "https://openalex.org/subfields/2738",
+        "display_name": "Psychiatry and Mental health"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
       },
       "domain": {
         "id": "https://openalex.org/domains/4",
@@ -5250,16 +5267,16 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11430",
-        "display_name": "Disaster Response and Management",
-        "score": 0.7013000249862671,
+        "id": "https://openalex.org/T11334",
+        "display_name": "Psychosomatic Disorders and Their Treatments",
+        "score": 0.30790001153945923,
         "subfield": {
-          "id": "https://openalex.org/subfields/3604",
-          "display_name": "Emergency Medical Services"
+          "id": "https://openalex.org/subfields/2738",
+          "display_name": "Psychiatry and Mental health"
         },
         "field": {
-          "id": "https://openalex.org/fields/36",
-          "display_name": "Health Professions"
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
         },
         "domain": {
           "id": "https://openalex.org/domains/4",
@@ -5267,48 +5284,85 @@
         }
       },
       {
-        "id": "https://openalex.org/T10747",
-        "display_name": "Disaster Management and Resilience",
-        "score": 0.6579999923706055,
+        "id": "https://openalex.org/T12927",
+        "display_name": "Memory, History, Trauma, Identity",
+        "score": 0.06379999965429306,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T14511",
+        "display_name": "Medicine, History, and Philosophy",
+        "score": 0.06319999694824219,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2738",
+          "display_name": "Psychiatry and Mental health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/humanities",
-        "display_name": "Humanities",
-        "score": 0.5306041836738586
+        "id": "https://openalex.org/keywords/susto",
+        "display_name": "susto",
+        "score": 0.7599999904632568
       },
       {
-        "id": "https://openalex.org/keywords/apprehension",
-        "display_name": "Apprehension",
-        "score": 0.42811688780784607
+        "id": "https://openalex.org/keywords/culture-bound-syndromes",
+        "display_name": "culture-bound syndromes",
+        "score": 0.7870000004768372
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.3649159073829651
+        "id": "https://openalex.org/keywords/deep-time",
+        "display_name": "deep time",
+        "score": 0.5870000123977661
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.330959677696228
+        "id": "https://openalex.org/keywords/geophysics",
+        "display_name": "geophysics",
+        "score": 0.5770000219345093
       },
       {
-        "id": "https://openalex.org/keywords/art",
-        "display_name": "Art",
-        "score": 0.22681325674057007
+        "id": "https://openalex.org/keywords/seismic-risk",
+        "display_name": "seismic risk",
+        "score": 0.5720000267028809
+      },
+      {
+        "id": "https://openalex.org/keywords/fear",
+        "display_name": "fear",
+        "score": 0.45500001311302185
+      },
+      {
+        "id": "https://openalex.org/keywords/time-perception",
+        "display_name": "time perception",
+        "score": 0.44600000977516174
+      },
+      {
+        "id": "https://openalex.org/keywords/mexico-city-earthquake",
+        "display_name": "Mexico City earthquake",
+        "score": 0.628000020980835
+      },
+      {
+        "id": "https://openalex.org/keywords/urban-subsidence",
+        "display_name": "urban subsidence",
+        "score": 0.3199999928474426
       }
     ],
     "concepts": [
@@ -5360,6 +5414,7 @@
     "locations": [
       {
         "id": "doi:10.14506/ca40.3.04",
+        "doi": "https://doi.org/10.14506/ca40.3.04",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.14506/ca40.3.04",
         "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5818/1022",
@@ -5374,6 +5429,18 @@
           "is_oa": true,
           "is_in_doaj": true,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -5395,6 +5462,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.14506/ca40.3.04",
+      "doi": "https://doi.org/10.14506/ca40.3.04",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.14506/ca40.3.04",
       "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5818/1022",
@@ -5409,6 +5477,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -5429,33 +5509,42 @@
     },
     "sustainable_development_goals": [
       {
+        "id": "https://metadata.un.org/sdg/3",
+        "score": 0.428600013256073,
+        "display_name": "Good health and well-being"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
         "id": "https://metadata.un.org/sdg/11",
         "score": 0.5400000214576721,
         "display_name": "Sustainable cities and communities"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
+      "grobid_xml": true,
       "pdf": true
     },
     "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4413467493.pdf"
+      "pdf": "https://content.openalex.org/works/W4413467493.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4413467493.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W2388875075",
-      "https://openalex.org/W2087674105",
-      "https://openalex.org/W650157718",
-      "https://openalex.org/W2996506151",
-      "https://openalex.org/W3036336197",
-      "https://openalex.org/W2074067474",
-      "https://openalex.org/W3198461688",
-      "https://openalex.org/W3125314142"
+      "https://openalex.org/W3188440482",
+      "https://openalex.org/W2779435085",
+      "https://openalex.org/W2789682940",
+      "https://openalex.org/W626082955",
+      "https://openalex.org/W3193400691",
+      "https://openalex.org/W2061613817",
+      "https://openalex.org/W2563554533",
+      "https://openalex.org/W7220592765",
+      "https://openalex.org/W2996749247",
+      "https://openalex.org/W2588234140"
     ],
     "abstract_inverted_index": {
       "In": [
@@ -6461,10 +6550,10 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 11
+        "cited_by_count": 12
       }
     ],
-    "updated_date": "2026-03-11T06:11:40.159057",
+    "updated_date": "2026-10-09T09:14:12.587421",
     "created_date": "2025-10-10T00:00:00"
   }
 ]

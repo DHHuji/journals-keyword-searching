@@ -4461,7 +4461,7 @@
     "doi": "https://doi.org/10.1080/13530194.2025.2548145",
     "title": "Wars of Ambition: the United States, Iran, and the Struggle for the Middle East",
     "display_name": "Wars of Ambition: the United States, Iran, and the Struggle for the Middle East",
-    "relevance_score": 6.2400694,
+    "relevance_score": 12.298676,
     "publication_year": 2025,
     "publication_date": "2025-08-24",
     "ids": {
@@ -4471,6 +4471,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/13530194.2025.2548145",
+      "doi": "https://doi.org/10.1080/13530194.2025.2548145",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1080/13530194.2025.2548145",
       "pdf_url": null,
@@ -4485,13 +4486,25 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-2",
+          "norway-2",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -4503,7 +4516,8 @@
       "raw_source_name": "British Journal of Middle Eastern Studies",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -4519,7 +4533,10 @@
         "author": {
           "id": "https://openalex.org/A5119410284",
           "display_name": "Zahra Bashy",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0007-2990-6008",
+          "observed_orcids": [
+            "https://orcid.org/0009-0007-2990-6008"
+          ]
         },
         "institutions": [
           {
@@ -4563,14 +4580,10 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.25555964,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": null,
@@ -4582,12 +4595,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10794",
-      "display_name": "Islamic Studies and History",
-      "score": 0.8136000037193298,
+      "id": "https://openalex.org/T13103",
+      "display_name": "Middle East Politics and Society",
+      "score": 0.7714999914169312,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -4600,26 +4613,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10794",
-        "display_name": "Islamic Studies and History",
-        "score": 0.8136000037193298,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13634",
-        "display_name": "Middle East and Rwanda Conflicts",
-        "score": 0.8113999962806702,
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.7714999914169312,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -4634,9 +4630,26 @@
         }
       },
       {
-        "id": "https://openalex.org/T12550",
-        "display_name": "Politics and Conflicts in Afghanistan, Pakistan, and Middle East",
-        "score": 0.703000009059906,
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.1931000053882599,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10794",
+        "display_name": "Islamic Studies and History",
+        "score": 0.010700000450015068,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -4653,49 +4666,34 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/middle-east",
-        "display_name": "Middle East",
-        "score": 0.7997305393218994
+        "id": "https://openalex.org/keywords/us-iran-relations",
+        "display_name": "US-Iran relations",
+        "score": 0.8029999732971191
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5919755101203918
+        "id": "https://openalex.org/keywords/us-foreign-policy",
+        "display_name": "US foreign policy",
+        "score": 0.6970000267028809
       },
       {
-        "id": "https://openalex.org/keywords/middle-eastern-studies",
-        "display_name": "Middle Eastern studies",
-        "score": 0.5681399703025818
+        "id": "https://openalex.org/keywords/iranian-foreign-policy",
+        "display_name": "Iranian foreign policy",
+        "score": 0.9869999885559082
       },
       {
-        "id": "https://openalex.org/keywords/ancient-history",
-        "display_name": "Ancient history",
-        "score": 0.49940919876098633
+        "id": "https://openalex.org/keywords/middle-east-geopolitics",
+        "display_name": "Middle East geopolitics",
+        "score": 0.7570000290870667
       },
       {
-        "id": "https://openalex.org/keywords/political-economy",
-        "display_name": "Political economy",
-        "score": 0.39507174491882324
+        "id": "https://openalex.org/keywords/regional-rivalry",
+        "display_name": "regional rivalry",
+        "score": 0.527999997138977
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.3825502395629883
-      },
-      {
-        "id": "https://openalex.org/keywords/economic-history",
-        "display_name": "Economic history",
-        "score": 0.3346794843673706
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.2191886007785797
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.17298075556755066
+        "id": "https://openalex.org/keywords/great-power-competition",
+        "display_name": "great power competition",
+        "score": 0.6660000085830688
       }
     ],
     "concepts": [
@@ -4768,6 +4766,7 @@
     "locations": [
       {
         "id": "doi:10.1080/13530194.2025.2548145",
+        "doi": "https://doi.org/10.1080/13530194.2025.2548145",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1080/13530194.2025.2548145",
         "pdf_url": null,
@@ -4782,13 +4781,25 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-2",
+            "norway-2",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -4803,6 +4814,8 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -4824,9 +4837,97 @@
       "https://openalex.org/W1634222340",
       "https://openalex.org/W2587467559"
     ],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "book": [
+        1
+      ],
+      "explores": [
+        2
+      ],
+      "the": [
+        3,
+        7,
+        14,
+        20,
+        26
+      ],
+      "conflicting": [
+        4
+      ],
+      "struggles": [
+        5
+      ],
+      "of": [
+        6,
+        25
+      ],
+      "United": [
+        8
+      ],
+      "States": [
+        9
+      ],
+      "and": [
+        10,
+        17
+      ],
+      "Iran": [
+        11
+      ],
+      "to": [
+        12
+      ],
+      "reshape": [
+        13
+      ],
+      "Middle": [
+        15
+      ],
+      "East,": [
+        16
+      ],
+      "more": [
+        18
+      ],
+      "broadly,": [
+        19
+      ],
+      "two": [
+        21
+      ],
+      "countries\u2019": [
+        22
+      ],
+      "divergent": [
+        23
+      ],
+      "visions": [
+        24
+      ],
+      "future,": [
+        27
+      ],
+      "which": [
+        28
+      ],
+      "are": [
+        29
+      ],
+      "both": [
+        30
+      ],
+      "rooted": [
+        31
+      ],
+      "in...": [
+        32
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-20T09:52:01.089006",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -5704,7 +5805,7 @@
     "doi": "https://doi.org/10.1080/13530194.2025.2451260",
     "title": "Crisis between Britain and the United States over the Sinai multinational force",
     "display_name": "Crisis between Britain and the United States over the Sinai multinational force",
-    "relevance_score": 5.973738,
+    "relevance_score": 11.761516,
     "publication_year": 2025,
     "publication_date": "2025-01-16",
     "ids": {
@@ -5714,6 +5815,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/13530194.2025.2451260",
+      "doi": "https://doi.org/10.1080/13530194.2025.2451260",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1080/13530194.2025.2451260",
       "pdf_url": null,
@@ -5728,13 +5830,25 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-2",
+          "norway-2",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -5746,6 +5860,7 @@
       "raw_source_name": "British Journal of Middle Eastern Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -5762,7 +5877,10 @@
         "author": {
           "id": "https://openalex.org/A5008750979",
           "display_name": "Azriel Bermant",
-          "orcid": "https://orcid.org/0000-0002-5710-1676"
+          "orcid": "https://orcid.org/0000-0002-5710-1676",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5710-1676"
+          ]
         },
         "institutions": [
           {
@@ -5817,7 +5935,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.01013054,
+      "value": 0.00723646,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -5832,12 +5950,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11203",
-      "display_name": "Jewish and Middle Eastern Studies",
-      "score": 0.9404000043869019,
+      "id": "https://openalex.org/T14032",
+      "display_name": "History and International Relations",
+      "score": 0.3488999903202057,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -5850,12 +5968,46 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11203",
-        "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.9404000043869019,
+        "id": "https://openalex.org/T14032",
+        "display_name": "History and International Relations",
+        "score": 0.3488999903202057,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.2476000040769577,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13993",
+        "display_name": "Historical Geopolitical and Social Dynamics",
+        "score": 0.1776999980211258,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -5869,59 +6021,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/multinational-corporation",
-        "display_name": "Multinational corporation",
-        "score": 0.7769546508789062
+        "id": "https://openalex.org/keywords/anglo-american-relations",
+        "display_name": "Anglo-American relations",
+        "score": 0.8700000047683716
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5365868210792542
+        "id": "https://openalex.org/keywords/reagan-administration",
+        "display_name": "Reagan administration",
+        "score": 0.6299999952316284
       },
       {
-        "id": "https://openalex.org/keywords/state",
-        "display_name": "State (computer science)",
-        "score": 0.4741593897342682
+        "id": "https://openalex.org/keywords/british-foreign-policy",
+        "display_name": "British foreign policy",
+        "score": 0.7129999995231628
       },
       {
-        "id": "https://openalex.org/keywords/political-economy",
-        "display_name": "Political economy",
-        "score": 0.4180900454521179
+        "id": "https://openalex.org/keywords/israeli-withdrawal-from-sinai",
+        "display_name": "Israeli withdrawal from Sinai",
+        "score": 0.8870000243186951
       },
       {
-        "id": "https://openalex.org/keywords/economic-history",
-        "display_name": "Economic history",
-        "score": 0.3832956850528717
+        "id": "https://openalex.org/keywords/arab-israeli-conflict",
+        "display_name": "Arab-Israeli conflict",
+        "score": 0.8109999895095825
       },
       {
-        "id": "https://openalex.org/keywords/economic-geography",
-        "display_name": "Economic geography",
-        "score": 0.33666276931762695
+        "id": "https://openalex.org/keywords/european-economic-community",
+        "display_name": "European Economic Community",
+        "score": 0.7480000257492065
       },
       {
-        "id": "https://openalex.org/keywords/economy",
-        "display_name": "Economy",
-        "score": 0.32727304100990295
-      },
-      {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.3187226355075836
-      },
-      {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.29685288667678833
-      },
-      {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.21765029430389404
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.1584380567073822
+        "id": "https://openalex.org/keywords/palestine-liberation-organization",
+        "display_name": "Palestine Liberation Organization",
+        "score": 0.628000020980835
       }
     ],
     "concepts": [
@@ -6022,6 +6154,7 @@
     "locations": [
       {
         "id": "doi:10.1080/13530194.2025.2451260",
+        "doi": "https://doi.org/10.1080/13530194.2025.2451260",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1080/13530194.2025.2451260",
         "pdf_url": null,
@@ -6036,13 +6169,25 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-2",
+            "norway-2",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -6056,7 +6201,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.8046000003814697,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -6078,9 +6231,476 @@
       "https://openalex.org/W2118831152",
       "https://openalex.org/W2389041154"
     ],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "paper": [
+        1
+      ],
+      "draws": [
+        2
+      ],
+      "on": [
+        3,
+        18
+      ],
+      "recently": [
+        4
+      ],
+      "released": [
+        5
+      ],
+      "papers": [
+        6,
+        30
+      ],
+      "in": [
+        7,
+        21,
+        36,
+        65,
+        70,
+        109,
+        119,
+        153
+      ],
+      "Israel,": [
+        8
+      ],
+      "Britain": [
+        9,
+        147
+      ],
+      "and": [
+        10,
+        26,
+        136,
+        182
+      ],
+      "the": [
+        11,
+        33,
+        48,
+        53,
+        66,
+        74,
+        80,
+        94,
+        97,
+        110,
+        120,
+        141,
+        154,
+        166,
+        174,
+        185,
+        192,
+        197
+      ],
+      "United": [
+        12
+      ],
+      "States": [
+        13
+      ],
+      "which": [
+        14,
+        130
+      ],
+      "shed": [
+        15
+      ],
+      "new": [
+        16
+      ],
+      "light": [
+        17
+      ],
+      "a": [
+        19,
+        158,
+        178
+      ],
+      "crisis": [
+        20
+      ],
+      "US-UK": [
+        22
+      ],
+      "relations": [
+        23
+      ],
+      "between": [
+        24,
+        180
+      ],
+      "September": [
+        25
+      ],
+      "November": [
+        27
+      ],
+      "1981.": [
+        28
+      ],
+      "The": [
+        29,
+        82,
+        171
+      ],
+      "go": [
+        31
+      ],
+      "beyond": [
+        32
+      ],
+      "published": [
+        34
+      ],
+      "literature": [
+        35
+      ],
+      "demonstrating": [
+        37
+      ],
+      "how": [
+        38
+      ],
+      "determined": [
+        39
+      ],
+      "London": [
+        40,
+        181
+      ],
+      "was": [
+        41,
+        103
+      ],
+      "to": [
+        42,
+        72,
+        92,
+        105,
+        149,
+        151
+      ],
+      "pursue": [
+        43
+      ],
+      "an": [
+        44,
+        116,
+        137,
+        161
+      ],
+      "independent": [
+        45
+      ],
+      "policy": [
+        46
+      ],
+      "towards": [
+        47,
+        140
+      ],
+      "Arab-Israel": [
+        49
+      ],
+      "conflict,": [
+        50
+      ],
+      "even": [
+        51
+      ],
+      "at": [
+        52
+      ],
+      "cost": [
+        54
+      ],
+      "of": [
+        55,
+        76,
+        127
+      ],
+      "confrontation": [
+        56
+      ],
+      "with": [
+        57
+      ],
+      "Washington.": [
+        58
+      ],
+      "President": [
+        59
+      ],
+      "Reagan": [
+        60,
+        83
+      ],
+      "urgently": [
+        61
+      ],
+      "requested": [
+        62
+      ],
+      "British": [
+        63
+      ],
+      "participation": [
+        64,
+        152
+      ],
+      "Sinai": [
+        67,
+        155,
+        175,
+        198
+      ],
+      "Multinational": [
+        68
+      ],
+      "Force,": [
+        69,
+        156
+      ],
+      "order": [
+        71
+      ],
+      "facilitate": [
+        73
+      ],
+      "withdrawal": [
+        75,
+        195
+      ],
+      "Israeli": [
+        77,
+        194
+      ],
+      "troops": [
+        78
+      ],
+      "from": [
+        79,
+        160,
+        196
+      ],
+      "Sinai.": [
+        81
+      ],
+      "administration": [
+        84
+      ],
+      "perceived": [
+        85
+      ],
+      "Britain\u2019s": [
+        86,
+        107
+      ],
+      "involvement": [
+        87,
+        108
+      ],
+      "as": [
+        88
+      ],
+      "essential": [
+        89
+      ],
+      "for": [
+        90,
+        133
+      ],
+      "efforts": [
+        91
+      ],
+      "establish": [
+        93
+      ],
+      "Force.": [
+        95
+      ],
+      "However,": [
+        96
+      ],
+      "Americans": [
+        98
+      ],
+      "faced": [
+        99
+      ],
+      "two": [
+        100
+      ],
+      "difficulties:": [
+        101
+      ],
+      "Israel": [
+        102
+      ],
+      "reluctant": [
+        104
+      ],
+      "accept": [
+        106
+      ],
+      "Force": [
+        111,
+        176
+      ],
+      "because": [
+        112
+      ],
+      "it": [
+        113,
+        189
+      ],
+      "had": [
+        114,
+        131
+      ],
+      "played": [
+        115
+      ],
+      "active": [
+        117
+      ],
+      "role": [
+        118
+      ],
+      "much-reviled": [
+        121
+      ],
+      "European": [
+        122
+      ],
+      "Economic": [
+        123
+      ],
+      "Community": [
+        124
+      ],
+      "Venice": [
+        125
+      ],
+      "Declaration": [
+        126
+      ],
+      "June": [
+        128
+      ],
+      "1980": [
+        129
+      ],
+      "called": [
+        132
+      ],
+      "Palestinian": [
+        134,
+        142
+      ],
+      "self-determination": [
+        135
+      ],
+      "accommodating": [
+        138
+      ],
+      "approach": [
+        139
+      ],
+      "Liberation": [
+        143
+      ],
+      "Organization.": [
+        144
+      ],
+      "In": [
+        145
+      ],
+      "addition,": [
+        146
+      ],
+      "refused": [
+        148
+      ],
+      "commit": [
+        150
+      ],
+      "fearing": [
+        157
+      ],
+      "backlash": [
+        159
+      ],
+      "Arab": [
+        162
+      ],
+      "world": [
+        163
+      ],
+      "that": [
+        164,
+        188
+      ],
+      "rejected": [
+        165
+      ],
+      "1979": [
+        167
+      ],
+      "Israel\u2013Egypt": [
+        168
+      ],
+      "Peace": [
+        169
+      ],
+      "Treaty.": [
+        170
+      ],
+      "impasse": [
+        172
+      ],
+      "over": [
+        173
+      ],
+      "provoked": [
+        177
+      ],
+      "row": [
+        179
+      ],
+      "Washington,": [
+        183
+      ],
+      "amid": [
+        184
+      ],
+      "US": [
+        186
+      ],
+      "fears": [
+        187
+      ],
+      "would": [
+        190
+      ],
+      "scuttle": [
+        191
+      ],
+      "planned": [
+        193
+      ],
+      "Peninsula.": [
+        199
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2026-04-21T06:05:55.347736",
+    "updated_date": "2026-08-15T07:11:24.734988",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -59989,5 +60609,2339 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4409764771",
+    "doi": "https://doi.org/10.1080/13530194.2025.2497162",
+    "title": "Frequencies of deceit: how global propaganda wars shaped the Middle East",
+    "display_name": "Frequencies of deceit: how global propaganda wars shaped the Middle East",
+    "relevance_score": 1.1983463,
+    "publication_year": 2025,
+    "publication_date": "2025-04-24",
+    "ids": {
+      "openalex": "https://openalex.org/W4409764771",
+      "doi": "https://doi.org/10.1080/13530194.2025.2497162"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/13530194.2025.2497162",
+      "doi": "https://doi.org/10.1080/13530194.2025.2497162",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/13530194.2025.2497162",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S199726014",
+        "display_name": "British Journal of Middle Eastern Studies",
+        "issn_l": "1353-0194",
+        "issn": [
+          "1353-0194",
+          "1469-3542"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-2",
+          "norway-2",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "British Journal of Middle Eastern Studies",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "book-review",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5117292992",
+          "display_name": "Guan Kiong Teh",
+          "orcid": "https://orcid.org/0009-0001-5659-2792",
+          "observed_orcids": [
+            "https://orcid.org/0009-0001-5659-2792"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I16835326",
+            "display_name": "University of St Andrews",
+            "ror": "https://ror.org/02wn5qz54",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I16835326"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Guan Kiong Teh",
+        "raw_affiliation_strings": [
+          "University of St Andrews"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0001-5659-2792",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of St Andrews",
+            "institution_ids": [
+              "https://openalex.org/I16835326"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5117292992"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I16835326"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "2"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13766",
+      "display_name": "Media, Journalism, and Communication History",
+      "score": 0.9175000190734863,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13766",
+        "display_name": "Media, Journalism, and Communication History",
+        "score": 0.9175000190734863,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14032",
+        "display_name": "History and International Relations",
+        "score": 0.025100000202655792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11971",
+        "display_name": "World Wars: History, Literature, and Impact",
+        "score": 0.016100000590085983,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/propaganda",
+        "display_name": "propaganda",
+        "score": 0.5740000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/radio-broadcasting",
+        "display_name": "radio broadcasting",
+        "score": 0.8980000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/cold-war",
+        "display_name": "Cold War",
+        "score": 0.7630000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/middle-east",
+        "display_name": "Middle East",
+        "score": 0.746999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/soviet-propaganda",
+        "display_name": "Soviet propaganda",
+        "score": 0.3479999899864197
+      },
+      {
+        "id": "https://openalex.org/keywords/british-propaganda",
+        "display_name": "British propaganda",
+        "score": 0.7379999756813049
+      },
+      {
+        "id": "https://openalex.org/keywords/propaganda-war",
+        "display_name": "propaganda war",
+        "score": 0.35499998927116394
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C3651065",
+        "wikidata": "https://www.wikidata.org/wiki/Q7204",
+        "display_name": "Middle East",
+        "level": 2,
+        "score": 0.6480816602706909
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.48509132862091064
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.44488978385925293
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.39174631237983704
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.2679009437561035
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/13530194.2025.2497162",
+        "doi": "https://doi.org/10.1080/13530194.2025.2497162",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/13530194.2025.2497162",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S199726014",
+          "display_name": "British Journal of Middle Eastern Studies",
+          "issn_l": "1353-0194",
+          "issn": [
+            "1353-0194",
+            "1469-3542"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-2",
+            "norway-2",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "British Journal of Middle Eastern Studies",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.6601999998092651,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W3103145491",
+      "https://openalex.org/W2363060447",
+      "https://openalex.org/W2378710006",
+      "https://openalex.org/W1199545132",
+      "https://openalex.org/W2509596431",
+      "https://openalex.org/W2347794813",
+      "https://openalex.org/W2372961272"
+    ],
+    "abstract_inverted_index": {
+      "Margaret": [
+        0
+      ],
+      "Peacock\u2019s": [
+        1
+      ],
+      "Frequencies": [
+        2
+      ],
+      "of": [
+        3
+      ],
+      "Deceit": [
+        4
+      ],
+      "accounts": [
+        5
+      ],
+      "for": [
+        6
+      ],
+      "the": [
+        7,
+        14,
+        19,
+        27
+      ],
+      "competition": [
+        8
+      ],
+      "between": [
+        9
+      ],
+      "radio": [
+        10
+      ],
+      "channels": [
+        11
+      ],
+      "produced": [
+        12
+      ],
+      "by": [
+        13
+      ],
+      "United": [
+        15,
+        17
+      ],
+      "Kingdom,": [
+        16
+      ],
+      "States,": [
+        18
+      ],
+      "Soviet": [
+        20
+      ],
+      "Union,": [
+        21
+      ],
+      "Egypt": [
+        22
+      ],
+      "and": [
+        23
+      ],
+      "Syria.": [
+        24
+      ],
+      "Peacock": [
+        25
+      ],
+      "traces": [
+        26
+      ],
+      "evo...": [
+        28
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-21T07:43:02.447757",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4406251828",
+    "doi": "https://doi.org/10.1080/13530194.2025.2451258",
+    "title": "China and the transfer of military technology to the Middle East: dimensions, developments, and challenges",
+    "display_name": "China and the transfer of military technology to the Middle East: dimensions, developments, and challenges",
+    "relevance_score": 0.7639726,
+    "publication_year": 2025,
+    "publication_date": "2025-01-09",
+    "ids": {
+      "openalex": "https://openalex.org/W4406251828",
+      "doi": "https://doi.org/10.1080/13530194.2025.2451258"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/13530194.2025.2451258",
+      "doi": "https://doi.org/10.1080/13530194.2025.2451258",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/13530194.2025.2451258",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S199726014",
+        "display_name": "British Journal of Middle Eastern Studies",
+        "issn_l": "1353-0194",
+        "issn": [
+          "1353-0194",
+          "1469-3542"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-2",
+          "norway-2",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "British Journal of Middle Eastern Studies",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5007793606",
+          "display_name": "Shabnam Dadparvar",
+          "orcid": "https://orcid.org/0000-0001-8598-5213",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8598-5213"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210163834",
+            "display_name": "Tianshui Normal University",
+            "ror": "https://ror.org/05kc6dc21",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I4210163834"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shabnam Dadparvar",
+        "raw_affiliation_strings": [
+          "Tianshui Normal University",
+          "History and Culture Department, Tianshui Normal University, Tianshui city, Gansu, China"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-8598-5213",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Tianshui Normal University",
+            "institution_ids": [
+              "https://openalex.org/I4210163834"
+            ]
+          },
+          {
+            "raw_affiliation_string": "History and Culture Department, Tianshui Normal University, Tianshui city, Gansu, China",
+            "institution_ids": [
+              "https://openalex.org/I4210163834"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5114439493",
+          "display_name": "Amin Parto",
+          "orcid": "https://orcid.org/0000-0002-0876-7586",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0876-7586"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I23946033",
+            "display_name": "University of Tehran",
+            "ror": "https://ror.org/05vf56z40",
+            "country_code": "IR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I23946033"
+            ]
+          }
+        ],
+        "countries": [
+          "IR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Amin Parto",
+        "raw_affiliation_strings": [
+          "Political Science from the University of Tehran",
+          "Center for Middle East Strategic Studies, Political Science from the University of Tehran, Tehran, Iran"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Political Science from the University of Tehran",
+            "institution_ids": [
+              "https://openalex.org/I23946033"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Center for Middle East Strategic Studies, Political Science from the University of Tehran, Tehran, Iran",
+            "institution_ids": [
+              "https://openalex.org/I23946033"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5114439493"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I23946033"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 2.8572,
+    "has_fulltext": false,
+    "cited_by_count": 3,
+    "citation_normalized_percentile": {
+      "value": 0.8949022,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 97
+    },
+    "biblio": {
+      "volume": "53",
+      "issue": "2",
+      "first_page": "277",
+      "last_page": "296"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12825",
+      "display_name": "Defense, Military, and Policy Studies",
+      "score": 0.5526999831199646,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12825",
+        "display_name": "Defense, Military, and Policy Studies",
+        "score": 0.5526999831199646,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14443",
+        "display_name": "COVID-19, Geopolitics, Technology, Migration",
+        "score": 0.2524000108242035,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.07259999960660934,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/military-technology-transfer",
+        "display_name": "military technology transfer",
+        "score": 0.8970000147819519
+      },
+      {
+        "id": "https://openalex.org/keywords/china-middle-east-relations",
+        "display_name": "China\u2013Middle East relations",
+        "score": 0.8870000243186951
+      },
+      {
+        "id": "https://openalex.org/keywords/turkey",
+        "display_name": "Turkey",
+        "score": 0.6869999766349792
+      },
+      {
+        "id": "https://openalex.org/keywords/saudi-arabia",
+        "display_name": "Saudi Arabia",
+        "score": 1.0
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "artificial intelligence",
+        "score": 0.8600000143051147
+      },
+      {
+        "id": "https://openalex.org/keywords/clean-energy",
+        "display_name": "clean energy",
+        "score": 0.9739999771118164
+      },
+      {
+        "id": "https://openalex.org/keywords/next-generation-internet",
+        "display_name": "next generation Internet",
+        "score": 0.8429999947547913
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C3651065",
+        "wikidata": "https://www.wikidata.org/wiki/Q7204",
+        "display_name": "Middle East",
+        "level": 2,
+        "score": 0.7421621084213257
+      },
+      {
+        "id": "https://openalex.org/C191935318",
+        "wikidata": "https://www.wikidata.org/wiki/Q148",
+        "display_name": "China",
+        "level": 2,
+        "score": 0.6428197026252747
+      },
+      {
+        "id": "https://openalex.org/C2985879086",
+        "wikidata": "https://www.wikidata.org/wiki/Q1061910",
+        "display_name": "Technology transfer",
+        "level": 2,
+        "score": 0.5999436974525452
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.5032252669334412
+      },
+      {
+        "id": "https://openalex.org/C26271046",
+        "wikidata": "https://www.wikidata.org/wiki/Q187097",
+        "display_name": "Economic geography",
+        "level": 1,
+        "score": 0.3850264251232147
+      },
+      {
+        "id": "https://openalex.org/C148383697",
+        "wikidata": "https://www.wikidata.org/wiki/Q1781695",
+        "display_name": "Regional science",
+        "level": 1,
+        "score": 0.3655714988708496
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.33762848377227783
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.3261964023113251
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.2922762632369995
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.1841355860233307
+      },
+      {
+        "id": "https://openalex.org/C155202549",
+        "wikidata": "https://www.wikidata.org/wiki/Q178803",
+        "display_name": "International trade",
+        "level": 1,
+        "score": 0.16193950176239014
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.1085616946220398
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/13530194.2025.2451258",
+        "doi": "https://doi.org/10.1080/13530194.2025.2451258",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/13530194.2025.2451258",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S199726014",
+          "display_name": "British Journal of Middle Eastern Studies",
+          "issn_l": "1353-0194",
+          "issn": [
+            "1353-0194",
+            "1469-3542"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-2",
+            "norway-2",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "British Journal of Middle Eastern Studies",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W3103145491",
+      "https://openalex.org/W2363060447",
+      "https://openalex.org/W2378710006",
+      "https://openalex.org/W1199545132",
+      "https://openalex.org/W2509596431",
+      "https://openalex.org/W2347794813",
+      "https://openalex.org/W2024479787",
+      "https://openalex.org/W2612361796",
+      "https://openalex.org/W3148037394",
+      "https://openalex.org/W1550931451"
+    ],
+    "abstract_inverted_index": {
+      "For": [
+        0
+      ],
+      "decades,": [
+        1
+      ],
+      "China": [
+        2,
+        69
+      ],
+      "has": [
+        3
+      ],
+      "engaged": [
+        4
+      ],
+      "in": [
+        5,
+        38,
+        78,
+        135,
+        157
+      ],
+      "transferring": [
+        6
+      ],
+      "military": [
+        7,
+        51,
+        72,
+        109,
+        143,
+        165
+      ],
+      "technology": [
+        8,
+        52,
+        62,
+        73,
+        110,
+        144,
+        166
+      ],
+      "to": [
+        9,
+        58,
+        74,
+        92,
+        113,
+        170
+      ],
+      "Middle": [
+        10,
+        137
+      ],
+      "Eastern": [
+        11
+      ],
+      "countries,": [
+        12
+      ],
+      "a": [
+        13
+      ],
+      "key": [
+        14
+      ],
+      "element": [
+        15
+      ],
+      "of": [
+        16,
+        31,
+        49,
+        107
+      ],
+      "its": [
+        17,
+        90,
+        114,
+        164
+      ],
+      "strategic": [
+        18,
+        174
+      ],
+      "competition": [
+        19
+      ],
+      "with": [
+        20,
+        41
+      ],
+      "the": [
+        21,
+        27,
+        42,
+        46,
+        79,
+        87,
+        97,
+        105,
+        136,
+        158,
+        173
+      ],
+      "United": [
+        22
+      ],
+      "States.": [
+        23
+      ],
+      "This": [
+        24
+      ],
+      "article": [
+        25,
+        98
+      ],
+      "examines": [
+        26
+      ],
+      "goals": [
+        28
+      ],
+      "and": [
+        29,
+        61,
+        86,
+        124
+      ],
+      "consequences": [
+        30
+      ],
+      "these": [
+        32
+      ],
+      "transfers,": [
+        33
+      ],
+      "focusing": [
+        34
+      ],
+      "on": [
+        35,
+        141
+      ],
+      "their": [
+        36
+      ],
+      "role": [
+        37
+      ],
+      "China\u2019s": [
+        39,
+        50,
+        108,
+        155
+      ],
+      "rivalry": [
+        40
+      ],
+      "U.S.": [
+        43,
+        76,
+        94,
+        146
+      ],
+      "It": [
+        44
+      ],
+      "explores": [
+        45
+      ],
+      "historical": [
+        47
+      ],
+      "evolution": [
+        48
+      ],
+      "strategy,": [
+        53
+      ],
+      "shifting": [
+        54
+      ],
+      "from": [
+        55
+      ],
+      "ideological": [
+        56
+      ],
+      "motives": [
+        57
+      ],
+      "economic": [
+        59
+      ],
+      "profit": [
+        60
+      ],
+      "exchange.": [
+        63
+      ],
+      "A": [
+        64
+      ],
+      "turning": [
+        65
+      ],
+      "point": [
+        66
+      ],
+      "emerged": [
+        67
+      ],
+      "when": [
+        68
+      ],
+      "began": [
+        70
+      ],
+      "supplying": [
+        71
+      ],
+      "traditional": [
+        75
+      ],
+      "allies": [
+        77,
+        147
+      ],
+      "region,": [
+        80
+      ],
+      "such": [
+        81
+      ],
+      "as": [
+        82
+      ],
+      "T\u00fcrkiye,": [
+        83
+      ],
+      "Saudi": [
+        84
+      ],
+      "Arabia,": [
+        85
+      ],
+      "UAE,": [
+        88
+      ],
+      "signalling": [
+        89
+      ],
+      "intent": [
+        91
+      ],
+      "challenge": [
+        93
+      ],
+      "dominance.": [
+        95
+      ],
+      "However,": [
+        96
+      ],
+      "argues": [
+        99
+      ],
+      "that": [
+        100,
+        153
+      ],
+      "various": [
+        101
+      ],
+      "challenges": [
+        102
+      ],
+      "have": [
+        103,
+        131
+      ],
+      "limited": [
+        104
+      ],
+      "effectiveness": [
+        106
+      ],
+      "transfers": [
+        111,
+        167
+      ],
+      "compared": [
+        112
+      ],
+      "more": [
+        115
+      ],
+      "impactful": [
+        116
+      ],
+      "non-military": [
+        117,
+        129,
+        162
+      ],
+      "technologies,": [
+        118
+      ],
+      "including": [
+        119
+      ],
+      "artificial": [
+        120
+      ],
+      "intelligence,": [
+        121
+      ],
+      "clean": [
+        122
+      ],
+      "energy,": [
+        123
+      ],
+      "next-generation": [
+        125
+      ],
+      "internet": [
+        126
+      ],
+      "innovations.": [
+        127
+      ],
+      "These": [
+        128
+      ],
+      "technologies": [
+        130
+      ],
+      "seen": [
+        132
+      ],
+      "significant": [
+        133
+      ],
+      "adoption": [
+        134
+      ],
+      "East,": [
+        138
+      ],
+      "while": [
+        139,
+        154
+      ],
+      "reliance": [
+        140
+      ],
+      "Chinese": [
+        142
+      ],
+      "among": [
+        145
+      ],
+      "remains": [
+        148
+      ],
+      "limited.": [
+        149
+      ],
+      "The": [
+        150
+      ],
+      "findings": [
+        151
+      ],
+      "suggest": [
+        152
+      ],
+      "influence": [
+        156
+      ],
+      "region": [
+        159
+      ],
+      "grows": [
+        160
+      ],
+      "through": [
+        161
+      ],
+      "avenues,": [
+        163
+      ],
+      "are": [
+        168
+      ],
+      "unlikely": [
+        169
+      ],
+      "significantly": [
+        171
+      ],
+      "alter": [
+        172
+      ],
+      "balance.": [
+        175
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 2
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-15T07:11:24.734988",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7167056338",
+    "doi": "https://doi.org/10.1080/13530194.2026.2691714",
+    "title": "Iran\u2019s policy towards Nagorno-Karabakh crisis within the framework of ontological security approach",
+    "display_name": "Iran\u2019s policy towards Nagorno-Karabakh crisis within the framework of ontological security approach",
+    "relevance_score": 0.7328764,
+    "publication_year": 2026,
+    "publication_date": "2026-07-02",
+    "ids": {
+      "openalex": "https://openalex.org/W7167056338",
+      "doi": "https://doi.org/10.1080/13530194.2026.2691714"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/13530194.2026.2691714",
+      "doi": "https://doi.org/10.1080/13530194.2026.2691714",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/13530194.2026.2691714",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S199726014",
+        "display_name": "British Journal of Middle Eastern Studies",
+        "issn_l": "1353-0194",
+        "issn": [
+          "1353-0194",
+          "1469-3542"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-2",
+          "norway-2",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "British Journal of Middle Eastern Studies",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5071877251",
+          "display_name": "Murat Cing\u00f6z",
+          "orcid": "https://orcid.org/0000-0001-5995-8713",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5995-8713"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I50379099",
+            "display_name": "Adana Science and Technology University",
+            "ror": "https://ror.org/013z3yn41",
+            "country_code": "TR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I50379099"
+            ]
+          }
+        ],
+        "countries": [
+          "TR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Murat Cing\u00f6z",
+        "raw_affiliation_strings": [
+          "Adana Alparslan Turkes Bilim ve Teknoloji Universitesi"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Adana Alparslan Turkes Bilim ve Teknoloji Universitesi",
+            "institution_ids": [
+              "https://openalex.org/I50379099"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5056879162",
+          "display_name": "Mehmet Emin Erendor",
+          "orcid": "https://orcid.org/0000-0002-8467-0743",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8467-0743"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I50379099",
+            "display_name": "Adana Science and Technology University",
+            "ror": "https://ror.org/013z3yn41",
+            "country_code": "TR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I50379099"
+            ]
+          }
+        ],
+        "countries": [
+          "TR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Mehmet Erendor",
+        "raw_affiliation_strings": [
+          "Adana Alparslan Turkes Bilim ve Teknoloji Universitesi"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Adana Alparslan Turkes Bilim ve Teknoloji Universitesi",
+            "institution_ids": [
+              "https://openalex.org/I50379099"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5056879162"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I50379099"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.48865861,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "15"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10053",
+      "display_name": "International Relations and Foreign Policy",
+      "score": 0.7148000001907349,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.7148000001907349,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13086",
+        "display_name": "Post-Soviet Geopolitical Dynamics",
+        "score": 0.19779999554157257,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.03200000151991844,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/iranian-foreign-policy",
+        "display_name": "Iranian foreign policy",
+        "score": 0.8029999732971191
+      },
+      {
+        "id": "https://openalex.org/keywords/ontological-security",
+        "display_name": "ontological security",
+        "score": 0.9750000238418579
+      },
+      {
+        "id": "https://openalex.org/keywords/regime-legitimacy",
+        "display_name": "regime legitimacy",
+        "score": 0.7450000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/life-stories",
+        "display_name": "life stories",
+        "score": 0.7739999890327454
+      },
+      {
+        "id": "https://openalex.org/keywords/iranian-newspapers",
+        "display_name": "Iranian newspapers",
+        "score": 0.6690000295639038
+      },
+      {
+        "id": "https://openalex.org/keywords/soft-war",
+        "display_name": "soft war",
+        "score": 0.8240000009536743
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2776764481",
+        "wikidata": "https://www.wikidata.org/wiki/Q4299048",
+        "display_name": "Ontological security",
+        "level": 3,
+        "score": 0.6134999990463257
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.49079999327659607
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.4797999858856201
+      },
+      {
+        "id": "https://openalex.org/C25810664",
+        "wikidata": "https://www.wikidata.org/wiki/Q44325",
+        "display_name": "Ontology",
+        "level": 2,
+        "score": 0.38260000944137573
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.3668999969959259
+      },
+      {
+        "id": "https://openalex.org/C2778137410",
+        "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+        "display_name": "Government (linguistics)",
+        "level": 2,
+        "score": 0.3257000148296356
+      },
+      {
+        "id": "https://openalex.org/C154908896",
+        "wikidata": "https://www.wikidata.org/wiki/Q2167404",
+        "display_name": "Security policy",
+        "level": 2,
+        "score": 0.3073999881744385
+      },
+      {
+        "id": "https://openalex.org/C138921699",
+        "wikidata": "https://www.wikidata.org/wiki/Q47555",
+        "display_name": "Political economy",
+        "level": 1,
+        "score": 0.3009999990463257
+      },
+      {
+        "id": "https://openalex.org/C190253527",
+        "wikidata": "https://www.wikidata.org/wiki/Q295354",
+        "display_name": "Law and economics",
+        "level": 1,
+        "score": 0.2992999851703644
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.29789999127388
+      },
+      {
+        "id": "https://openalex.org/C118084267",
+        "wikidata": "https://www.wikidata.org/wiki/Q26110",
+        "display_name": "Positive economics",
+        "level": 1,
+        "score": 0.29600000381469727
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.29249998927116394
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.2888999879360199
+      },
+      {
+        "id": "https://openalex.org/C26517878",
+        "wikidata": "https://www.wikidata.org/wiki/Q228039",
+        "display_name": "Key (lock)",
+        "level": 2,
+        "score": 0.26910001039505005
+      },
+      {
+        "id": "https://openalex.org/C3116431",
+        "wikidata": "https://www.wikidata.org/wiki/Q31728",
+        "display_name": "Public administration",
+        "level": 1,
+        "score": 0.2678999900817871
+      },
+      {
+        "id": "https://openalex.org/C74363100",
+        "wikidata": "https://www.wikidata.org/wiki/Q273005",
+        "display_name": "Economic system",
+        "level": 1,
+        "score": 0.2669000029563904
+      },
+      {
+        "id": "https://openalex.org/C505623098",
+        "wikidata": "https://www.wikidata.org/wiki/Q3002932",
+        "display_name": "Critical security studies",
+        "level": 5,
+        "score": 0.2669000029563904
+      },
+      {
+        "id": "https://openalex.org/C9652623",
+        "wikidata": "https://www.wikidata.org/wiki/Q190109",
+        "display_name": "Field (mathematics)",
+        "level": 2,
+        "score": 0.2572000026702881
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.2556999921798706
+      },
+      {
+        "id": "https://openalex.org/C2777152325",
+        "wikidata": "https://www.wikidata.org/wiki/Q108163",
+        "display_name": "Proposition",
+        "level": 2,
+        "score": 0.25519999861717224
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/13530194.2026.2691714",
+        "doi": "https://doi.org/10.1080/13530194.2026.2691714",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/13530194.2026.2691714",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S199726014",
+          "display_name": "British Journal of Middle Eastern Studies",
+          "issn_l": "1353-0194",
+          "issn": [
+            "1353-0194",
+            "1469-3542"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-2",
+            "norway-2",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "British Journal of Middle Eastern Studies",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.8999999761581421,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "study": [
+        1,
+        19,
+        159
+      ],
+      "examines": [
+        2
+      ],
+      "Iran\u2019s": [
+        3,
+        35
+      ],
+      "policy": [
+        4
+      ],
+      "towards": [
+        5
+      ],
+      "the": [
+        6,
+        11,
+        38,
+        43,
+        50,
+        89,
+        93,
+        101,
+        108,
+        111,
+        124,
+        137,
+        162,
+        178,
+        190
+      ],
+      "second": [
+        7
+      ],
+      "Nagorno-Karabakh": [
+        8
+      ],
+      "Crisis": [
+        9
+      ],
+      "within": [
+        10,
+        177
+      ],
+      "framework": [
+        12
+      ],
+      "of": [
+        13,
+        32,
+        88,
+        127,
+        133,
+        164,
+        194
+      ],
+      "an": [
+        14,
+        119
+      ],
+      "ontological": [
+        15,
+        52,
+        105,
+        120,
+        155,
+        165
+      ],
+      "security": [
+        16,
+        29,
+        53,
+        166
+      ],
+      "approach.": [
+        17
+      ],
+      "The": [
+        18,
+        86
+      ],
+      "argues": [
+        20
+      ],
+      "that": [
+        21,
+        42,
+        92,
+        161
+      ],
+      "explanations": [
+        22
+      ],
+      "focused": [
+        23
+      ],
+      "solely": [
+        24
+      ],
+      "on": [
+        25,
+        37,
+        146
+      ],
+      "geopolitics": [
+        26
+      ],
+      "or": [
+        27,
+        175
+      ],
+      "physical": [
+        28
+      ],
+      "fall": [
+        30
+      ],
+      "short": [
+        31
+      ],
+      "fully": [
+        33
+      ],
+      "grasping": [
+        34
+      ],
+      "stance": [
+        36
+      ],
+      "crisis;": [
+        39
+      ],
+      "it": [
+        40
+      ],
+      "contends": [
+        41
+      ],
+      "process": [
+        44
+      ],
+      "can": [
+        45
+      ],
+      "only": [
+        46
+      ],
+      "be": [
+        47
+      ],
+      "understood": [
+        48
+      ],
+      "through": [
+        49,
+        110
+      ],
+      "regime\u2019s": [
+        51,
+        102
+      ],
+      "codes,": [
+        54
+      ],
+      "biographical": [
+        55
+      ],
+      "narratives": [
+        56
+      ],
+      "and": [
+        57,
+        81,
+        96,
+        104,
+        114,
+        130,
+        149,
+        186,
+        192
+      ],
+      "legitimacy": [
+        58,
+        103
+      ],
+      "seeking.": [
+        59
+      ],
+      "To": [
+        60
+      ],
+      "test": [
+        61
+      ],
+      "this": [
+        62,
+        158
+      ],
+      "argument,": [
+        63
+      ],
+      "leading": [
+        64
+      ],
+      "Iranian": [
+        65
+      ],
+      "newspapers": [
+        66
+      ],
+      "representing": [
+        67
+      ],
+      "three": [
+        68
+      ],
+      "distinct": [
+        69
+      ],
+      "political": [
+        70
+      ],
+      "orientations": [
+        71
+      ],
+      "(Javan,": [
+        72
+      ],
+      "Kayhan,": [
+        73
+      ],
+      "Etemad)": [
+        74
+      ],
+      "were": [
+        75
+      ],
+      "analysed": [
+        76
+      ],
+      "using": [
+        77
+      ],
+      "systematic": [
+        78
+      ],
+      "deductive": [
+        79
+      ],
+      "coding": [
+        80
+      ],
+      "critical": [
+        82
+      ],
+      "discourse": [
+        83,
+        144
+      ],
+      "analysis": [
+        84,
+        90
+      ],
+      "techniques.": [
+        85
+      ],
+      "results": [
+        87
+      ],
+      "indicate": [
+        91
+      ],
+      "conservative": [
+        94
+      ],
+      "Javan": [
+        95
+      ],
+      "Kayhan": [
+        97
+      ],
+      "newspapers,": [
+        98
+      ],
+      "which": [
+        99
+      ],
+      "prioritize": [
+        100
+      ],
+      "security,": [
+        106
+      ],
+      "interpret": [
+        107
+      ],
+      "crisis": [
+        109
+      ],
+      "\u2018Resistance": [
+        112
+      ],
+      "paradigm\u2019": [
+        113
+      ],
+      "frame": [
+        115
+      ],
+      "Azerbaijan\u2019s": [
+        116
+      ],
+      "gains": [
+        117
+      ],
+      "as": [
+        118
+      ],
+      "threat": [
+        121
+      ],
+      "supported": [
+        122
+      ],
+      "by": [
+        123
+      ],
+      "United": [
+        125
+      ],
+      "States": [
+        126
+      ],
+      "America,": [
+        128
+      ],
+      "Israel": [
+        129
+      ],
+      "T\u00fcrkiye\u2014a": [
+        131
+      ],
+      "sort": [
+        132
+      ],
+      "\u2018soft": [
+        134
+      ],
+      "war\u2019.": [
+        135
+      ],
+      "Conversely,": [
+        136
+      ],
+      "reformist": [
+        138
+      ],
+      "Etemad": [
+        139
+      ],
+      "newspaper,": [
+        140
+      ],
+      "has": [
+        141
+      ],
+      "adopted": [
+        142
+      ],
+      "a": [
+        143,
+        169
+      ],
+      "based": [
+        145
+      ],
+      "realistic,": [
+        147
+      ],
+      "rational": [
+        148
+      ],
+      "systemic": [
+        150
+      ],
+      "power": [
+        151
+      ],
+      "calculations": [
+        152
+      ],
+      "rather": [
+        153
+      ],
+      "than": [
+        154
+      ],
+      "concerns.": [
+        156
+      ],
+      "Ultimately,": [
+        157
+      ],
+      "demonstrates": [
+        160
+      ],
+      "pursuit": [
+        163
+      ],
+      "is": [
+        167
+      ],
+      "not": [
+        168
+      ],
+      "homogeneous": [
+        170
+      ],
+      "state": [
+        171
+      ],
+      "policy;": [
+        172
+      ],
+      "different": [
+        173
+      ],
+      "institutions": [
+        174
+      ],
+      "actors": [
+        176
+      ],
+      "same": [
+        179
+      ],
+      "regime": [
+        180
+      ],
+      "may": [
+        181
+      ],
+      "perceive": [
+        182
+      ],
+      "external": [
+        183
+      ],
+      "crises": [
+        184
+      ],
+      "differently": [
+        185
+      ],
+      "link": [
+        187
+      ],
+      "them": [
+        188
+      ],
+      "to": [
+        189
+      ],
+      "establishment": [
+        191
+      ],
+      "continuity": [
+        193
+      ],
+      "their": [
+        195
+      ],
+      "own": [
+        196
+      ],
+      "internal": [
+        197
+      ],
+      "legitimacy.": [
+        198
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-24T07:57:37.273135",
+    "created_date": "2026-07-03T00:00:00"
   }
 ]

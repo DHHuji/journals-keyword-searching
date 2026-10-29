@@ -11819,7 +11819,7 @@
     "doi": "https://doi.org/10.1177/14687968251327836",
     "title": "Institutional bias and Islamic burial space in France and the Netherlands",
     "display_name": "Institutional bias and Islamic burial space in France and the Netherlands",
-    "relevance_score": 10.867658,
+    "relevance_score": 27.467909,
     "publication_year": 2025,
     "publication_date": "2025-03-23",
     "ids": {
@@ -11829,9 +11829,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/14687968251327836",
+      "doi": "https://doi.org/10.1177/14687968251327836",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251327836",
-      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251327836",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S189112142",
         "display_name": "Ethnicities",
@@ -11843,6 +11844,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -11861,6 +11873,7 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -11868,7 +11881,7 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251327836",
+      "oa_url": "https://doi.org/10.1177/14687968251327836",
       "any_repository_has_fulltext": true
     },
     "authorships": [
@@ -11877,7 +11890,10 @@
         "author": {
           "id": "https://openalex.org/A5078709468",
           "display_name": "Rosemarie van den Breemer",
-          "orcid": "https://orcid.org/0009-0001-3477-7526"
+          "orcid": "https://orcid.org/0009-0001-3477-7526",
+          "observed_orcids": [
+            "https://orcid.org/0009-0001-3477-7526"
+          ]
         },
         "institutions": [
           {
@@ -11921,7 +11937,10 @@
         "author": {
           "id": "https://openalex.org/A5080841165",
           "display_name": "Marcel Maussen",
-          "orcid": "https://orcid.org/0000-0002-4175-0081"
+          "orcid": "https://orcid.org/0000-0002-4175-0081",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4175-0081"
+          ]
         },
         "institutions": [
           {
@@ -11970,13 +11989,21 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I887064364"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.05937928,
+      "value": 0.04773991,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -11991,12 +12018,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13379",
-      "display_name": "Multiculturalism, Politics, Migration, Gender",
-      "score": 0.9362999796867371,
+      "id": "https://openalex.org/T10216",
+      "display_name": "Migration, Refugees, and Integration",
+      "score": 0.6904000043869019,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -12009,26 +12036,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13379",
-        "display_name": "Multiculturalism, Politics, Migration, Gender",
-        "score": 0.9362999796867371,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13456",
-        "display_name": "Religion, Society, and Development",
-        "score": 0.9041000008583069,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.6904000043869019,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -12043,12 +12053,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T12956",
-        "display_name": "Asian Geopolitics and Ethnography",
-        "score": 0.9009000062942505,
+        "id": "https://openalex.org/T13336",
+        "display_name": "Religious Freedom and Discrimination",
+        "score": 0.19210000336170197,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14208",
+        "display_name": "Death, Funerary Practices, and Mourning",
+        "score": 0.043800000101327896,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -12062,39 +12089,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/islam",
-        "display_name": "Islam",
-        "score": 0.7873877286911011
+        "id": "https://openalex.org/keywords/islamic-burial",
+        "display_name": "Islamic burial",
+        "score": 0.9769999980926514
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.4898364245891571
+        "id": "https://openalex.org/keywords/institutional-bias",
+        "display_name": "institutional bias",
+        "score": 0.8410000205039978
       },
       {
-        "id": "https://openalex.org/keywords/space",
-        "display_name": "Space (punctuation)",
-        "score": 0.4311259388923645
+        "id": "https://openalex.org/keywords/muslim-cemetery",
+        "display_name": "Islamic cemetery",
+        "score": 0.9200000166893005
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.4117836058139801
+        "id": "https://openalex.org/keywords/burial-space",
+        "display_name": "burial space",
+        "score": 0.46700000762939453
       },
       {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.32103288173675537
+        "id": "https://openalex.org/keywords/secularism",
+        "display_name": "secularism",
+        "score": 0.5680000185966492
       },
       {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.16240066289901733
+        "id": "https://openalex.org/keywords/france",
+        "display_name": "France",
+        "score": 0.41600000858306885
       },
       {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.10484340786933899
+        "id": "https://openalex.org/keywords/netherlands",
+        "display_name": "Netherlands",
+        "score": 0.8130000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/immigration",
+        "display_name": "immigration",
+        "score": 0.6449999809265137
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-diversity",
+        "display_name": "religious diversity",
+        "score": 0.7129999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/religion-and-ethnicity",
+        "display_name": "religion and ethnicity",
+        "score": 0.5809999704360962
       }
     ],
     "concepts": [
@@ -12160,9 +12202,10 @@
     "locations": [
       {
         "id": "doi:10.1177/14687968251327836",
+        "doi": "https://doi.org/10.1177/14687968251327836",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/14687968251327836",
-        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251327836",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S189112142",
           "display_name": "Ethnicities",
@@ -12174,6 +12217,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -12193,10 +12247,11 @@
         "raw_type": "journal-article"
       },
       {
-        "id": "pmh:oai:dare.uva.nl:publications/8e7d747d-8b9b-464a-a4cf-da3ec68ce767",
+        "id": "pmh:oai:dare.uva.nl:openaire/8e7d747d-8b9b-464a-a4cf-da3ec68ce767",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://handle.uba.uva.nl/personal/pure/en/publications/institutional-bias-and-islamic-burial-space-in-france-and-the-netherlands(8e7d747d-8b9b-464a-a4cf-da3ec68ce767).html",
-        "pdf_url": "https://pure.uva.nl/ws/files/247434693/Institutional_bias_and_Islamic_burial_space_in_France_and_the_Netherlands.pdf",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S4306400088",
           "display_name": "UvA-DARE (University of Amsterdam)",
@@ -12205,6 +12260,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I887064364",
           "host_organization_name": "University of Amsterdam",
           "host_organization_lineage": [
@@ -12215,18 +12271,19 @@
         },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
         "raw_source_name": "van den Breemer, R & Maussen, M 2025, 'Institutional bias and Islamic burial space in France and the Netherlands', Ethnicities, vol. 25, no. 4, pp. 578-599. https://doi.org/10.1177/14687968251327836",
-        "raw_type": "info:eu-repo/semantics/publishedVersion"
+        "raw_type": "info:eu-repo/semantics/article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1177/14687968251327836",
+      "doi": "https://doi.org/10.1177/14687968251327836",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251327836",
-      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251327836",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S189112142",
         "display_name": "Ethnicities",
@@ -12238,6 +12295,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -12256,16 +12324,27 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.7578999996185303,
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "score": 0.5473999977111816,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": true
+      "pdf": false,
+      "grobid_xml": false
     },
-    "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4408758277.pdf"
-    },
+    "content_urls": null,
     "referenced_works_count": 20,
     "referenced_works": [
       "https://openalex.org/W1515810707",
@@ -12832,7 +12911,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-01-08T20:05:33.558190",
+    "updated_date": "2026-09-12T09:15:50.089291",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -33011,7 +33090,7 @@
     "doi": "https://doi.org/10.1177/14687968251327284",
     "title": "Muslim bodies in secular European cemeteries",
     "display_name": "Muslim bodies in secular European cemeteries",
-    "relevance_score": 2.809329,
+    "relevance_score": 1.6162062,
     "publication_year": 2025,
     "publication_date": "2025-03-17",
     "ids": {
@@ -33021,9 +33100,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/14687968251327284",
+      "doi": "https://doi.org/10.1177/14687968251327284",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251327284",
-      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251327284",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S189112142",
         "display_name": "Ethnicities",
@@ -33035,6 +33115,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -33053,6 +33144,7 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -33060,7 +33152,7 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251327284",
+      "oa_url": "https://doi.org/10.1177/14687968251327284",
       "any_repository_has_fulltext": false
     },
     "authorships": [
@@ -33069,7 +33161,10 @@
         "author": {
           "id": "https://openalex.org/A5039847642",
           "display_name": "Nur Yasemin Ural",
-          "orcid": "https://orcid.org/0000-0001-5101-1170"
+          "orcid": "https://orcid.org/0000-0001-5101-1170",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5101-1170"
+          ]
         },
         "institutions": [
           {
@@ -33118,19 +33213,27 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I926574661"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 14.0139,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 9.6509,
     "has_fulltext": false,
     "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.97635037,
+      "value": 0.96732782,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 98
+      "min": 90,
+      "max": 96
     },
     "biblio": {
       "volume": "25",
@@ -33142,16 +33245,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13372",
-      "display_name": "Archaeology and Historical Studies",
-      "score": 0.9897000193595886,
+      "id": "https://openalex.org/T14208",
+      "display_name": "Death, Funerary Practices, and Mourning",
+      "score": 0.8359000086784363,
       "subfield": {
-        "id": "https://openalex.org/subfields/1204",
-        "display_name": "Archeology"
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -33160,16 +33263,16 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13372",
-        "display_name": "Archaeology and Historical Studies",
-        "score": 0.9897000193595886,
+        "id": "https://openalex.org/T14208",
+        "display_name": "Death, Funerary Practices, and Mourning",
+        "score": 0.8359000086784363,
         "subfield": {
-          "id": "https://openalex.org/subfields/1204",
-          "display_name": "Archeology"
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -33177,33 +33280,33 @@
         }
       },
       {
-        "id": "https://openalex.org/T12364",
-        "display_name": "Archaeological Research and Protection",
-        "score": 0.984499990940094,
+        "id": "https://openalex.org/T11507",
+        "display_name": "Religion and Society Interactions",
+        "score": 0.07660000026226044,
         "subfield": {
-          "id": "https://openalex.org/subfields/1912",
-          "display_name": "Space and Planetary Science"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/19",
-          "display_name": "Earth and Planetary Sciences"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       },
       {
-        "id": "https://openalex.org/T14506",
-        "display_name": "Historical and Architectural Studies",
-        "score": 0.9771999716758728,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.03830000013113022,
         "subfield": {
-          "id": "https://openalex.org/subfields/1204",
-          "display_name": "Archeology"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -33213,24 +33316,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.4233390688896179
+        "id": "https://openalex.org/keywords/muslim-burials",
+        "display_name": "Muslim burials",
+        "score": 0.6830000281333923
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.37136146426200867
+        "id": "https://openalex.org/keywords/secularization",
+        "display_name": "secularization",
+        "score": 0.8299999833106995
       },
       {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.35735023021698
+        "id": "https://openalex.org/keywords/religionization",
+        "display_name": "religionization",
+        "score": 0.5789999961853027
       },
       {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.35720548033714294
+        "id": "https://openalex.org/keywords/islamic-funeral-customs",
+        "display_name": "Islamic funeral rites",
+        "score": 0.6060000061988831
+      },
+      {
+        "id": "https://openalex.org/keywords/municipal-cemetery",
+        "display_name": "municipal cemetery",
+        "score": 0.8420000076293945
+      },
+      {
+        "id": "https://openalex.org/keywords/deathscapes",
+        "display_name": "deathscapes",
+        "score": 0.6629999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/acts-of-citizenship",
+        "display_name": "acts of citizenship",
+        "score": 0.8519999980926514
+      },
+      {
+        "id": "https://openalex.org/keywords/muslim-rights",
+        "display_name": "Muslim rights",
+        "score": 0.36500000953674316
+      },
+      {
+        "id": "https://openalex.org/keywords/france",
+        "display_name": "France",
+        "score": 0.5680000185966492
+      },
+      {
+        "id": "https://openalex.org/keywords/germany",
+        "display_name": "Germany",
+        "score": 0.9929999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/public-space",
+        "display_name": "public space",
+        "score": 0.36800000071525574
       }
     ],
     "concepts": [
@@ -33268,9 +33406,10 @@
     "locations": [
       {
         "id": "doi:10.1177/14687968251327284",
+        "doi": "https://doi.org/10.1177/14687968251327284",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/14687968251327284",
-        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251327284",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S189112142",
           "display_name": "Ethnicities",
@@ -33282,6 +33421,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -33302,21 +33452,23 @@
       },
       {
         "id": "pmh:oai:HAL:halshs-05575171v1",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://shs.hal.science/halshs-05575171",
         "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S4306402512",
-          "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+          "display_name": "HAL",
           "issn_l": null,
           "issn": null,
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "host_organization": "https://openalex.org/I1294671590",
-          "host_organization_name": "Centre National de la Recherche Scientifique",
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I4405252976",
+          "host_organization_name": "Centre pour la Communication Scientifique Directe",
           "host_organization_lineage": [
-            "https://openalex.org/I1294671590"
+            "https://openalex.org/I4405252976"
           ],
           "host_organization_lineage_names": [],
           "type": "repository"
@@ -33327,14 +33479,15 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": "Ethnicities, 2025, 25 (4), pp.600-617. &#x27E8;10.1177/14687968251327284&#x27E9;",
-        "raw_type": "Journal articles"
+        "raw_type": "info:eu-repo/semantics/article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1177/14687968251327284",
+      "doi": "https://doi.org/10.1177/14687968251327284",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251327284",
-      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251327284",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S189112142",
         "display_name": "Ethnicities",
@@ -33346,6 +33499,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -33364,19 +33528,27 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.47620001435279846,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": true
+      "pdf": false,
+      "grobid_xml": false
     },
-    "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4408505528.pdf"
-    },
+    "content_urls": null,
     "referenced_works_count": 28,
     "referenced_works": [
+      "https://openalex.org/W209148624",
       "https://openalex.org/W625052418",
+      "https://openalex.org/W1479734240",
       "https://openalex.org/W1565841233",
       "https://openalex.org/W1990819327",
       "https://openalex.org/W2011969081",
@@ -33397,13 +33569,11 @@
       "https://openalex.org/W3140937604",
       "https://openalex.org/W3205757747",
       "https://openalex.org/W4238943211",
-      "https://openalex.org/W4242181374",
       "https://openalex.org/W4250331816",
       "https://openalex.org/W4256067926",
       "https://openalex.org/W4301480259",
       "https://openalex.org/W4408505984",
-      "https://openalex.org/W4409352119",
-      "https://openalex.org/W6608369840"
+      "https://openalex.org/W4409352119"
     ],
     "related_works": [
       "https://openalex.org/W4391375266",
@@ -33909,7 +34079,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-05-08T15:41:06.802602",
+    "updated_date": "2026-10-25T09:29:13.331239",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -33917,7 +34087,7 @@
     "doi": "https://doi.org/10.1177/14687968251331961",
     "title": "Roma housing deprivation and segregation in Italy: An intersectional analysis of social navigation strategies of Romanian Roma migrant women and men",
     "display_name": "Roma housing deprivation and segregation in Italy: An intersectional analysis of social navigation strategies of Romanian Roma migrant women and men",
-    "relevance_score": 2.7867272,
+    "relevance_score": 1.3131744,
     "publication_year": 2025,
     "publication_date": "2025-04-13",
     "ids": {
@@ -33927,6 +34097,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/14687968251331961",
+      "doi": "https://doi.org/10.1177/14687968251331961",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251331961",
       "pdf_url": null,
@@ -33941,6 +34112,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -33959,6 +34141,7 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -33975,7 +34158,10 @@
         "author": {
           "id": "https://openalex.org/A5059702541",
           "display_name": "Gaja Maestri",
-          "orcid": "https://orcid.org/0000-0002-7935-0358"
+          "orcid": "https://orcid.org/0000-0002-7935-0358",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7935-0358"
+          ]
         },
         "institutions": [
           {
@@ -34012,7 +34198,10 @@
         "author": {
           "id": "https://openalex.org/A5023886407",
           "display_name": "Claudia Mantovan",
-          "orcid": "https://orcid.org/0000-0003-1482-8936"
+          "orcid": "https://orcid.org/0000-0003-1482-8936",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1482-8936"
+          ]
         },
         "institutions": [
           {
@@ -34054,19 +34243,27 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I169199633"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 9.9015,
-    "has_fulltext": false,
-    "cited_by_count": 4,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 6.8576,
+    "has_fulltext": true,
+    "cited_by_count": 6,
     "citation_normalized_percentile": {
-      "value": 0.97738009,
+      "value": 0.96636618,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 99,
-      "max": 100
+      "min": 98,
+      "max": 99
     },
     "biblio": {
       "volume": "25",
@@ -34080,7 +34277,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12595",
       "display_name": "Romani and Gypsy Studies",
-      "score": 0.9998000264167786,
+      "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -34098,7 +34295,41 @@
       {
         "id": "https://openalex.org/T12595",
         "display_name": "Romani and Gypsy Studies",
-        "score": 0.9998000264167786,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11645",
+        "display_name": "Urban, Neighborhood, and Segregation Studies",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11464",
+        "display_name": "Homelessness and Social Issues",
+        "score": 0.0,
         "subfield": {
           "id": "https://openalex.org/subfields/3600",
           "display_name": "General Health Professions"
@@ -34115,54 +34346,69 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/romanian",
-        "display_name": "Romanian",
-        "score": 0.7545529007911682
+        "id": "https://openalex.org/keywords/roma-migrants",
+        "display_name": "Roma migrants",
+        "score": 0.9049999713897705
       },
       {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.6396169066429138
+        "id": "https://openalex.org/keywords/housing-deprivation",
+        "display_name": "housing deprivation",
+        "score": 0.9660000205039978
+      },
+      {
+        "id": "https://openalex.org/keywords/residential-segregation",
+        "display_name": "residential segregation",
+        "score": 0.7200000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/social-navigation",
+        "display_name": "social navigation",
+        "score": 0.843999981880188
       },
       {
         "id": "https://openalex.org/keywords/intersectionality",
-        "display_name": "Intersectionality",
-        "score": 0.6198526620864868
+        "display_name": "intersectionality",
+        "score": 0.9919999837875366
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.5460240840911865
+        "id": "https://openalex.org/keywords/gender",
+        "display_name": "gender",
+        "score": 0.5460000038146973
       },
       {
-        "id": "https://openalex.org/keywords/social-exclusion",
-        "display_name": "Social exclusion",
-        "score": 0.4935716390609741
+        "id": "https://openalex.org/keywords/informal-settlements",
+        "display_name": "informal settlements",
+        "score": 0.7139999866485596
       },
       {
-        "id": "https://openalex.org/keywords/migrant-workers",
-        "display_name": "Migrant workers",
-        "score": 0.422426700592041
+        "id": "https://openalex.org/keywords/forced-eviction",
+        "display_name": "forced eviction",
+        "score": 0.8740000128746033
       },
       {
-        "id": "https://openalex.org/keywords/social-deprivation",
-        "display_name": "Social deprivation",
-        "score": 0.4208762049674988
+        "id": "https://openalex.org/keywords/roma-women",
+        "display_name": "Roma women",
+        "score": 0.7039999961853027
       },
       {
-        "id": "https://openalex.org/keywords/demographic-economics",
-        "display_name": "Demographic economics",
-        "score": 0.3988172709941864
+        "id": "https://openalex.org/keywords/domesticity",
+        "display_name": "domesticity",
+        "score": 0.5659999847412109
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.36633777618408203
+        "id": "https://openalex.org/keywords/parental-responsibility",
+        "display_name": "parental responsibility",
+        "score": 0.6119999885559082
       },
       {
-        "id": "https://openalex.org/keywords/economic-growth",
-        "display_name": "Economic growth",
-        "score": 0.19489562511444092
+        "id": "https://openalex.org/keywords/informal-economy",
+        "display_name": "informal economy",
+        "score": 0.4560000002384186
+      },
+      {
+        "id": "https://openalex.org/keywords/labour-market-exclusion",
+        "display_name": "labour market exclusion",
+        "score": 0.5600000023841858
       }
     ],
     "concepts": [
@@ -34266,10 +34512,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1177/14687968251331961",
+        "doi": "https://doi.org/10.1177/14687968251331961",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/14687968251331961",
         "pdf_url": null,
@@ -34284,6 +34531,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -34303,7 +34561,39 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:publications.aston.ac.uk:47472",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://publications.aston.ac.uk/view/author/0a8c0d9658e24796277992764c9a72e1.html>",
+        "pdf_url": "https://publications.aston.ac.uk/id/eprint/47472/1/maestri-mantovan-2025-roma-housing-deprivation-and-segregation-in-italy-an-intersectional-analysis-of-social-navigation.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306400483",
+          "display_name": "Aston Publications Explorer (Aston University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I169199633",
+          "host_organization_name": "Aston University",
+          "host_organization_lineage": [
+            "https://openalex.org/I169199633"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      },
+      {
         "id": "pmh:oai:www.research.unipd.it:11577/3562463",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://journals.sagepub.com/doi/10.1177/14687968251331961?int.sj-full-text.similar-articles.10",
         "pdf_url": null,
@@ -34315,6 +34605,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I138689650",
           "host_organization_name": "University of Padua",
           "host_organization_lineage": [
@@ -34334,6 +34625,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1177/14687968251331961",
+      "doi": "https://doi.org/10.1177/14687968251331961",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251331961",
       "pdf_url": null,
@@ -34348,6 +34640,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -34366,11 +34669,34 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 1.0,
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "score": 0.875,
+        "id": "https://metadata.un.org/sdg/11",
+        "display_name": "Sustainable cities and communities"
+      },
+      {
+        "score": 0.6025999784469604,
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality"
+      },
+      {
+        "score": 0.41670000553131104,
+        "id": "https://metadata.un.org/sdg/1",
+        "display_name": "No poverty"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G7806573431",
-        "display_name": null,
+        "display_name": "Marginalization/Inclusion : Regulatory Policies Effects in the Long Run. The Case of Romanian Roma Migrants",
         "funder_award_id": "ANR-15-CE28-0006",
         "funder_id": "https://openalex.org/F4320320883",
         "funder_display_name": "Agence Nationale de la Recherche"
@@ -34384,8 +34710,8 @@
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 88,
@@ -34394,6 +34720,7 @@
       "https://openalex.org/W229251135",
       "https://openalex.org/W658606382",
       "https://openalex.org/W800002343",
+      "https://openalex.org/W1569122236",
       "https://openalex.org/W1833933400",
       "https://openalex.org/W1977034411",
       "https://openalex.org/W1977815027",
@@ -34467,7 +34794,6 @@
       "https://openalex.org/W3211976147",
       "https://openalex.org/W4220961544",
       "https://openalex.org/W4235450986",
-      "https://openalex.org/W4240061616",
       "https://openalex.org/W4249292692",
       "https://openalex.org/W4251994401",
       "https://openalex.org/W4254076060",
@@ -35171,10 +35497,10 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 4
+        "cited_by_count": 6
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-24T09:50:30.924529",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -37816,7 +38142,7 @@
     "doi": "https://doi.org/10.1177/14687968251409439",
     "title": "Does multiculturalism neglect cultural majorities?",
     "display_name": "Does multiculturalism neglect cultural majorities?",
-    "relevance_score": 0.5352833,
+    "relevance_score": 1.7939082,
     "publication_year": 2025,
     "publication_date": "2025-12-30",
     "ids": {
@@ -37826,6 +38152,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/14687968251409439",
+      "doi": "https://doi.org/10.1177/14687968251409439",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251409439",
       "pdf_url": null,
@@ -37840,6 +38167,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -37858,7 +38196,8 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "editorial",
     "indexed_in": [
       "crossref"
     ],
@@ -37874,7 +38213,10 @@
         "author": {
           "id": "https://openalex.org/A5070973943",
           "display_name": "Varun Uberoi",
-          "orcid": "https://orcid.org/0000-0002-1396-3135"
+          "orcid": "https://orcid.org/0000-0002-1396-3135",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1396-3135"
+          ]
         },
         "institutions": [
           {
@@ -37916,16 +38258,20 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I143804889"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.70811581,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "26",
@@ -37937,16 +38283,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11454",
-      "display_name": "Cultural Differences and Values",
-      "score": 0.0714000016450882,
+      "id": "https://openalex.org/T10718",
+      "display_name": "Political Philosophy and Ethics",
+      "score": 0.4413999915122986,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -37955,29 +38301,12 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11454",
-        "display_name": "Cultural Differences and Values",
-        "score": 0.0714000016450882,
+        "id": "https://openalex.org/T10718",
+        "display_name": "Political Philosophy and Ethics",
+        "score": 0.4413999915122986,
         "subfield": {
-          "id": "https://openalex.org/subfields/3207",
-          "display_name": "Social Psychology"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12312",
-        "display_name": "Culture, Economy, and Development Studies",
-        "score": 0.03959999978542328,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3317",
-          "display_name": "Demography"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -37989,12 +38318,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T10907",
-        "display_name": "International Student and Expatriate Challenges",
-        "score": 0.03550000116229057,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.29249998927116394,
         "subfield": {
-          "id": "https://openalex.org/subfields/3315",
-          "display_name": "Communication"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14142",
+        "display_name": "Multicultural Socio-Legal Studies",
+        "score": 0.2433999925851822,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -38009,33 +38355,33 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/multiculturalism",
-        "display_name": "Multiculturalism",
-        "score": 0.9301000237464905
+        "display_name": "multiculturalism",
+        "score": 0.9729999899864197
       },
       {
-        "id": "https://openalex.org/keywords/neglect",
-        "display_name": "Neglect",
-        "score": 0.6912000179290771
+        "id": "https://openalex.org/keywords/cultural-minorities",
+        "display_name": "cultural minorities",
+        "score": 0.7590000033378601
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.6355000138282776
+        "id": "https://openalex.org/keywords/multiculturalism-policy",
+        "display_name": "multicultural policy",
+        "score": 0.6169999837875366
       },
       {
-        "id": "https://openalex.org/keywords/cultural-diversity",
-        "display_name": "Cultural diversity",
-        "score": 0.4124000072479248
+        "id": "https://openalex.org/keywords/cultural-identity",
+        "display_name": "cultural identity",
+        "score": 0.5979999899864197
       },
       {
-        "id": "https://openalex.org/keywords/cultural-group-selection",
-        "display_name": "Cultural group selection",
-        "score": 0.3783000111579895
+        "id": "https://openalex.org/keywords/britain",
+        "display_name": "Great Britain",
+        "score": 0.335999995470047
       },
       {
-        "id": "https://openalex.org/keywords/political-philosophy",
-        "display_name": "Political philosophy",
-        "score": 0.2802000045776367
+        "id": "https://openalex.org/keywords/france",
+        "display_name": "France",
+        "score": 1.0
       }
     ],
     "concepts": [
@@ -38164,6 +38510,7 @@
     "locations": [
       {
         "id": "doi:10.1177/14687968251409439",
+        "doi": "https://doi.org/10.1177/14687968251409439",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/14687968251409439",
         "pdf_url": null,
@@ -38178,6 +38525,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -38198,8 +38556,9 @@
       },
       {
         "id": "pmh:oai:figshare.com:article/30988102",
+        "doi": null,
         "is_oa": true,
-        "landing_page_url": null,
+        "landing_page_url": "https://figshare.com/articles/journal_contribution/Does_multiculturalism_neglect_cultural_majorities_/30988102",
         "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S4306402585",
@@ -38209,6 +38568,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I143804889",
           "host_organization_name": "Loughborough University",
           "host_organization_lineage": [
@@ -38223,11 +38583,12 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "Journal contribution"
+        "raw_type": "Text"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1177/14687968251409439",
+      "doi": "https://doi.org/10.1177/14687968251409439",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251409439",
       "pdf_url": null,
@@ -38242,6 +38603,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -38260,18 +38632,20 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "display_name": "Reduced inequalities",
+        "score": 0.7570228576660156,
         "id": "https://metadata.un.org/sdg/10",
-        "score": 0.7570228576660156
+        "display_name": "Reduced inequalities"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 10,
@@ -38279,9 +38653,9 @@
       "https://openalex.org/W2001322293",
       "https://openalex.org/W2415663700",
       "https://openalex.org/W2501779374",
+      "https://openalex.org/W2766200550",
       "https://openalex.org/W3004852497",
       "https://openalex.org/W4213065870",
-      "https://openalex.org/W4213095690",
       "https://openalex.org/W4241305505",
       "https://openalex.org/W4244892100",
       "https://openalex.org/W4399599716",
@@ -38289,336 +38663,2751 @@
     ],
     "related_works": [],
     "abstract_inverted_index": {
-      "<p": [
+      "Over": [
         0
       ],
-      "dir=\"ltr\">Over": [
+      "the": [
         1
       ],
-      "the": [
+      "last": [
         2
       ],
-      "last": [
+      "25": [
         3
       ],
-      "25": [
+      "years,": [
         4
       ],
-      "years,": [
+      "debates": [
         5
       ],
-      "debates": [
-        6
-      ],
       "about": [
-        7,
-        94,
-        110,
-        126
+        6,
+        81,
+        97,
+        113
       ],
       "multiculturalism": [
-        8,
-        28,
-        48,
-        100
-      ],
-      "have": [
-        9
-      ],
-      "moved": [
-        10
-      ],
-      "from": [
-        11
-      ],
-      "focusing": [
-        12
-      ],
-      "on": [
-        13
-      ],
-      "minorities": [
-        14
-      ],
-      "to": [
-        15
-      ],
-      "also": [
-        16
-      ],
-      "discussing": [
-        17
-      ],
-      "majorities": [
-        18,
-        31
-      ],
-      "in": [
-        19,
-        114
-      ],
-      "three": [
-        20
-      ],
-      "significant": [
-        21
-      ],
-      "ways.": [
-        22
-      ],
-      "First,": [
-        23
-      ],
-      "some": [
-        24,
-        43,
-        66
-      ],
-      "claim": [
-        25,
-        44
-      ],
-      "policies": [
-        26,
-        98
-      ],
-      "of": [
+        7,
         27,
-        47,
-        99
-      ],
-      "neglect": [
-        29
-      ],
-      "cultural": [
-        30,
-        51,
-        112
-      ],
-      "(<a": [
-        32,
-        53,
-        79
-      ],
-      "href=\"https://journals.sagepub.com/doi/10.1177/14687968251409439#bibr3-14687968251409439\"": [
-        33
-      ],
-      "target=\"_blank\">Bouchard,": [
-        34
-      ],
-      "2015</a>:": [
-        35,
-        40
-      ],
-      "61;": [
-        36
-      ],
-      "<a": [
-        37,
-        58,
-        84
-      ],
-      "href=\"https://journals.sagepub.com/doi/10.1177/14687968251409439#bibr24-14687968251409439\"": [
-        38
-      ],
-      "target=\"_blank\">Taylor,": [
-        39,
-        55
-      ],
-      "336).": [
-        41
-      ],
-      "Second,": [
-        42
-      ],
-      "political": [
-        45,
-        95
-      ],
-      "theories": [
-        46,
-        96
-      ],
-      "ignore": [
-        49
-      ],
-      "majority": [
-        50,
-        113,
-        133
-      ],
-      "rights": [
-        52
-      ],
-      "href=\"https://journals.sagepub.com/doi/10.1177/14687968251409439#bibr25-14687968251409439\"": [
-        54
-      ],
-      "2023</a>:": [
-        56,
-        63,
-        82
-      ],
-      "ix;": [
-        57
-      ],
-      "href=\"https://journals.sagepub.com/doi/10.1177/14687968251409439#bibr7-14687968251409439\"": [
-        59
-      ],
-      "target=\"_blank\">Koopmans": [
-        60
-      ],
-      "and": [
-        61,
-        97,
-        108,
-        117,
-        120
-      ],
-      "Orgad,": [
-        62
-      ],
-      "4).": [
-        64
-      ],
-      "Third,": [
-        65
-      ],
-      "ask": [
-        67
-      ],
-      "if": [
-        68
-      ],
-      "there": [
-        69,
-        121
-      ],
-      "really": [
-        70
-      ],
-      "are": [
-        71,
-        101,
-        122
-      ],
-      "goups": [
-        72
-      ],
-      "who": [
-        73
-      ],
-      "we": [
-        74,
-        104
-      ],
-      "can": [
-        75,
-        105
-      ],
-      "call": [
-        76
-      ],
-      "\u2018cultural": [
-        77
-      ],
-      "majorities'": [
-        78
-      ],
-      "href=\"https://journals.sagepub.com/doi/10.1177/14687968251409439#bibr2-14687968251409439\"": [
-        80
-      ],
-      "target=\"_blank\">Baub\u00f6ck,": [
-        81
-      ],
-      "40;": [
-        83
-      ],
-      "href=\"https://journals.sagepub.com/doi/10.1177/14687968251409439#bibr23-14687968251409439\"": [
-        85
-      ],
-      "target=\"_blank\">Patten,": [
-        86
-      ],
-      "2020</a>:": [
+        43,
         87
       ],
-      "543).": [
-        88
+      "have": [
+        8
       ],
-      "I": [
-        89
+      "moved": [
+        9
       ],
-      "show": [
-        90
+      "from": [
+        10
       ],
-      "why": [
-        91
+      "focusing": [
+        11
       ],
-      "such": [
-        92,
-        131
+      "on": [
+        12
       ],
-      "claims": [
-        93
+      "minorities": [
+        13
       ],
-      "questionable,": [
-        102
+      "to": [
+        14
       ],
-      "but": [
-        103
+      "also": [
+        15
       ],
-      "plausibly": [
-        106
+      "discussing": [
+        16
       ],
-      "think": [
+      "majorities": [
+        17,
+        30
+      ],
+      "in": [
+        18,
+        101
+      ],
+      "three": [
+        19
+      ],
+      "significant": [
+        20
+      ],
+      "ways.": [
+        21
+      ],
+      "First,": [
+        22
+      ],
+      "some": [
+        23,
+        38,
+        57
+      ],
+      "claim": [
+        24,
+        39
+      ],
+      "policies": [
+        25,
+        85
+      ],
+      "of": [
+        26,
+        42,
+        86
+      ],
+      "neglect": [
+        28
+      ],
+      "cultural": [
+        29,
+        46,
+        99
+      ],
+      "(Bouchard,": [
+        31
+      ],
+      "2015:": [
+        32,
+        35
+      ],
+      "61;": [
+        33
+      ],
+      "Taylor,": [
+        34
+      ],
+      "336).": [
+        36
+      ],
+      "Second,": [
+        37
+      ],
+      "political": [
+        40,
+        82
+      ],
+      "theories": [
+        41,
+        83
+      ],
+      "ignore": [
+        44
+      ],
+      "majority": [
+        45,
+        100,
+        120
+      ],
+      "rights": [
+        47
+      ],
+      "(Taylor,": [
+        48
+      ],
+      "2023:": [
+        49,
+        54,
+        71
+      ],
+      "ix;": [
+        50
+      ],
+      "Koopmans": [
+        51
+      ],
+      "and": [
+        52,
+        84,
+        95,
+        104,
         107
       ],
-      "talk": [
+      "Orgad,": [
+        53
+      ],
+      "4).": [
+        55
+      ],
+      "Third,": [
+        56
+      ],
+      "ask": [
+        58
+      ],
+      "if": [
+        59
+      ],
+      "there": [
+        60,
+        108
+      ],
+      "really": [
+        61
+      ],
+      "are": [
+        62,
+        88,
         109
       ],
-      "a": [
-        111,
-        132
+      "goups": [
+        63
       ],
-      "Britain,": [
-        115
+      "who": [
+        64
       ],
-      "France": [
-        116
+      "we": [
+        65,
+        91
       ],
-      "so": [
+      "can": [
+        66,
+        92
+      ],
+      "call": [
+        67
+      ],
+      "\u2018cultural": [
+        68
+      ],
+      "majorities'": [
+        69
+      ],
+      "(Baub\u00f6ck,": [
+        70
+      ],
+      "40;": [
+        72
+      ],
+      "Patten,": [
+        73
+      ],
+      "2020:": [
+        74
+      ],
+      "543).": [
+        75
+      ],
+      "I": [
+        76
+      ],
+      "show": [
+        77
+      ],
+      "why": [
+        78
+      ],
+      "such": [
+        79,
         118
       ],
-      "on,": [
+      "claims": [
+        80
+      ],
+      "questionable,": [
+        89
+      ],
+      "but": [
+        90
+      ],
+      "plausibly": [
+        93
+      ],
+      "think": [
+        94
+      ],
+      "talk": [
+        96
+      ],
+      "a": [
+        98,
         119
       ],
+      "Britain,": [
+        102
+      ],
+      "France": [
+        103
+      ],
+      "so": [
+        105
+      ],
+      "on,": [
+        106
+      ],
       "important": [
-        123
+        110
       ],
       "neglected": [
-        124
+        111
       ],
       "questions": [
-        125
+        112
       ],
       "majorities.": [
-        127
+        114
       ],
       "Consider": [
-        128
+        115
       ],
       "first": [
-        129
+        116
       ],
       "what": [
-        130
+        117
       ],
       "is.": [
-        134
+        121
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-02-09T05:59:30.833894",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2025-12-30T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4411745830",
+    "doi": "https://doi.org/10.1177/14687968251353688",
+    "title": "What about anti-secularism?",
+    "display_name": "What about anti-secularism?",
+    "relevance_score": 1.2257006,
+    "publication_year": 2025,
+    "publication_date": "2025-06-28",
+    "ids": {
+      "openalex": "https://openalex.org/W4411745830",
+      "doi": "https://doi.org/10.1177/14687968251353688"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1177/14687968251353688",
+      "doi": "https://doi.org/10.1177/14687968251353688",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/14687968251353688",
+      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251353688?download=true",
+      "source": {
+        "id": "https://openalex.org/S189112142",
+        "display_name": "Ethnicities",
+        "issn_l": "1468-7968",
+        "issn": [
+          "1468-7968",
+          "1741-2706"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnicities",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251353688?download=true",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5054951679",
+          "display_name": "Nomi Maya Stolzenberg",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1174212",
+            "display_name": "University of Southern California",
+            "ror": "https://ror.org/03taz7m60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1174212"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Nomi Maya Stolzenberg",
+        "raw_affiliation_strings": [
+          "University of Southern California Gould School of Law, Los Angeles, CA, USA"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Southern California Gould School of Law, Los Angeles, CA, USA",
+            "institution_ids": [
+              "https://openalex.org/I1174212"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5054951679"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I1174212"
+    ],
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.13935246,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "25",
+      "issue": "5",
+      "first_page": "775",
+      "last_page": "780"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11507",
+      "display_name": "Religion and Society Interactions",
+      "score": 0.8773999810218811,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11507",
+        "display_name": "Religion and Society Interactions",
+        "score": 0.8773999810218811,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13336",
+        "display_name": "Religious Freedom and Discrimination",
+        "score": 0.10599999874830246,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13445",
+        "display_name": "American Constitutional Law and Politics",
+        "score": 0.010200000368058681,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/anti-secularism",
+        "display_name": "anti-secularism",
+        "score": 0.9459999799728394
+      },
+      {
+        "id": "https://openalex.org/keywords/political-secularism",
+        "display_name": "political secularism",
+        "score": 0.7950000166893005
+      },
+      {
+        "id": "https://openalex.org/keywords/liberal-secularism",
+        "display_name": "liberal secularism",
+        "score": 0.9480000138282776
+      },
+      {
+        "id": "https://openalex.org/keywords/separation-of-church-and-state",
+        "display_name": "separation of church and state",
+        "score": 0.746999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-diversity",
+        "display_name": "religious diversity",
+        "score": 0.6589999794960022
+      },
+      {
+        "id": "https://openalex.org/keywords/tariq-modood",
+        "display_name": "Tariq Modood",
+        "score": 0.8069999814033508
+      },
+      {
+        "id": "https://openalex.org/keywords/united-states",
+        "display_name": "United States",
+        "score": 0.7059999704360962
+      },
+      {
+        "id": "https://openalex.org/keywords/laicite",
+        "display_name": "la\u00efcit\u00e9",
+        "score": 0.640999972820282
+      },
+      {
+        "id": "https://openalex.org/keywords/state-religion-relations",
+        "display_name": "state-religion relations",
+        "score": 0.7319999933242798
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C11293438",
+        "wikidata": "https://www.wikidata.org/wiki/Q216920",
+        "display_name": "Secularism",
+        "level": 3,
+        "score": 0.886972963809967
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.46691468358039856
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.44217798113822937
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.3563659191131592
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.33465421199798584
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.3083854913711548
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1177/14687968251353688",
+        "doi": "https://doi.org/10.1177/14687968251353688",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1177/14687968251353688",
+        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251353688?download=true",
+        "source": {
+          "id": "https://openalex.org/S189112142",
+          "display_name": "Ethnicities",
+          "issn_l": "1468-7968",
+          "issn": [
+            "1468-7968",
+            "1741-2706"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Ethnicities",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1177/14687968251353688",
+      "doi": "https://doi.org/10.1177/14687968251353688",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/14687968251353688",
+      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/14687968251353688?download=true",
+      "source": {
+        "id": "https://openalex.org/S189112142",
+        "display_name": "Ethnicities",
+        "issn_l": "1468-7968",
+        "issn": [
+          "1468-7968",
+          "1741-2706"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnicities",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.6601999998092651,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4411745830.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4411745830.grobid-xml"
+    },
+    "referenced_works_count": 3,
+    "referenced_works": [
+      "https://openalex.org/W2084036858",
+      "https://openalex.org/W4253374133",
+      "https://openalex.org/W4409895187"
+    ],
+    "related_works": [
+      "https://openalex.org/W2253472981",
+      "https://openalex.org/W2725530025",
+      "https://openalex.org/W2904637421",
+      "https://openalex.org/W7115892366",
+      "https://openalex.org/W2785182298",
+      "https://openalex.org/W2125990447",
+      "https://openalex.org/W2992329448",
+      "https://openalex.org/W2187108469",
+      "https://openalex.org/W4313455517",
+      "https://openalex.org/W2904278195"
+    ],
+    "abstract_inverted_index": {
+      "Secularism,": [
+        0
+      ],
+      "Tariq": [
+        1
+      ],
+      "Modood": [
+        2,
+        68
+      ],
+      "and": [
+        3,
+        69,
+        115,
+        186,
+        190,
+        222,
+        247,
+        290,
+        298,
+        305,
+        309
+      ],
+      "Thomas": [
+        4
+      ],
+      "Sealy": [
+        5,
+        70,
+        191
+      ],
+      "convincingly": [
+        6
+      ],
+      "argue,": [
+        7
+      ],
+      "comes": [
+        8
+      ],
+      "in": [
+        9,
+        36,
+        46,
+        132,
+        144,
+        152,
+        175,
+        199,
+        237,
+        320
+      ],
+      "many": [
+        10
+      ],
+      "varieties.Is": [
+        11
+      ],
+      "the": [
+        12,
+        19,
+        57,
+        136,
+        157,
+        165,
+        176,
+        200,
+        215,
+        232,
+        238,
+        243,
+        252,
+        272,
+        315
+      ],
+      "same": [
+        13
+      ],
+      "true": [
+        14
+      ],
+      "of": [
+        15,
+        32,
+        48,
+        62,
+        64,
+        84,
+        96,
+        138,
+        142,
+        150,
+        160,
+        173,
+        208,
+        218,
+        229,
+        235,
+        255,
+        267,
+        287,
+        295,
+        300
+      ],
+      "anti-secularism?Or": [
+        16
+      ],
+      "is": [
+        17,
+        34,
+        107,
+        182,
+        224,
+        317
+      ],
+      "it": [
+        18,
+        204
+      ],
+      "case": [
+        20,
+        44
+      ],
+      "that,": [
+        21
+      ],
+      "to": [
+        22,
+        73,
+        128,
+        164
+      ],
+      "paraphrase": [
+        23
+      ],
+      "Tolstoy,": [
+        24
+      ],
+      "all": [
+        25
+      ],
+      "anti-secularisms": [
+        26
+      ],
+      "are": [
+        27
+      ],
+      "alike,": [
+        28
+      ],
+      "while": [
+        29
+      ],
+      "each": [
+        30,
+        75,
+        145
+      ],
+      "formation": [
+        31
+      ],
+      "secularism": [
+        33,
+        49,
+        65,
+        83,
+        151,
+        174,
+        184,
+        256
+      ],
+      "secularist": [
+        35
+      ],
+      "its": [
+        37,
+        102
+      ],
+      "own": [
+        38
+      ],
+      "way?The": [
+        39
+      ],
+      "United": [
+        40
+      ],
+      "States": [
+        41
+      ],
+      "offers": [
+        42
+      ],
+      "a": [
+        43,
+        52,
+        60
+      ],
+      "study": [
+        45
+      ],
+      "varieties": [
+        47,
+        63
+      ],
+      "confronted": [
+        50
+      ],
+      "with": [
+        51,
+        77,
+        303
+      ],
+      "seemingly": [
+        53
+      ],
+      "homogenous": [
+        54
+      ],
+      "anti-secularism.I": [
+        55
+      ],
+      "describe": [
+        56
+      ],
+      "U.S.": [
+        58,
+        201,
+        253,
+        316
+      ],
+      "as": [
+        59,
+        81,
+        240,
+        242
+      ],
+      "site": [
+        61
+      ],
+      "even": [
+        66
+      ],
+      "though": [
+        67
+      ],
+      "invite": [
+        71
+      ],
+      "us": [
+        72
+      ],
+      "see": [
+        74
+      ],
+      "country": [
+        76
+      ],
+      "secular": [
+        78
+      ],
+      "political": [
+        79,
+        134,
+        161,
+        209
+      ],
+      "institutions": [
+        80
+      ],
+      "exhibiting": [
+        82
+      ],
+      "one,": [
+        85
+      ],
+      "dominant,": [
+        86
+      ],
+      "type.To": [
+        87
+      ],
+      "be": [
+        88,
+        123
+      ],
+      "sure,": [
+        89
+      ],
+      "they": [
+        90,
+        169,
+        178,
+        212
+      ],
+      "emphasize": [
+        91
+      ],
+      "that": [
+        92,
+        154,
+        168,
+        202,
+        214,
+        278
+      ],
+      "every": [
+        93
+      ],
+      "dominant": [
+        94,
+        140,
+        148,
+        171
+      ],
+      "mode": [
+        95,
+        141
+      ],
+      "governing": [
+        97,
+        129
+      ],
+      "religious": [
+        98,
+        130
+      ],
+      "diversity,": [
+        99
+      ],
+      "defined": [
+        100
+      ],
+      "by": [
+        101,
+        109
+      ],
+      "'\"dominant": [
+        103
+      ],
+      "operative": [
+        104,
+        111
+      ],
+      "norms": [
+        105
+      ],
+      "(DONs),\"": [
+        106
+      ],
+      "accompanied": [
+        108
+      ],
+      "\"qualifying": [
+        110
+      ],
+      "norms\"": [
+        112
+      ],
+      "(QONs)'": [
+        113
+      ],
+      "(Modood": [
+        114,
+        185,
+        246,
+        308
+      ],
+      "Sealy,": [
+        116,
+        187,
+        248,
+        310
+      ],
+      "2024:": [
+        117,
+        188,
+        249,
+        311
+      ],
+      "40-41),": [
+        118
+      ],
+      "meaning": [
+        119
+      ],
+      "there": [
+        120
+      ],
+      "will": [
+        121
+      ],
+      "always": [
+        122
+      ],
+      "at": [
+        124
+      ],
+      "least": [
+        125
+      ],
+      "two": [
+        126
+      ],
+      "approaches": [
+        127
+      ],
+      "diversity": [
+        131
+      ],
+      "any": [
+        133
+      ],
+      "society.But": [
+        135
+      ],
+      "existence": [
+        137
+      ],
+      "one": [
+        139,
+        147
+      ],
+      "governance": [
+        143
+      ],
+      "country-and": [
+        146
+      ],
+      "type": [
+        149,
+        172
+      ],
+      "those": [
+        153
+      ],
+      "fall": [
+        155
+      ],
+      "within": [
+        156
+      ],
+      "broad": [
+        158
+      ],
+      "umbrella": [
+        159
+      ],
+      "secularism-is": [
+        162
+      ],
+      "central": [
+        163
+      ],
+      "comparative": [
+        166
+      ],
+      "typology": [
+        167
+      ],
+      "offer.The": [
+        170
+      ],
+      "U.S.,": [
+        177
+      ],
+      "tell": [
+        179
+      ],
+      "us,": [
+        180
+      ],
+      "uncontroversially,": [
+        181
+      ],
+      "liberal": [
+        183,
+        196
+      ],
+      "27).Modood": [
+        189
+      ],
+      "offer": [
+        192
+      ],
+      "some": [
+        193
+      ],
+      "observations": [
+        194
+      ],
+      "about": [
+        195
+      ],
+      "secularism's": [
+        197
+      ],
+      "features": [
+        198
+      ],
+      "differentiate": [
+        203
+      ],
+      "from": [
+        205,
+        259,
+        271,
+        291
+      ],
+      "other": [
+        206
+      ],
+      "forms": [
+        207,
+        294
+      ],
+      "secularism.In": [
+        210
+      ],
+      "particular,": [
+        211
+      ],
+      "note": [
+        213
+      ],
+      "American": [
+        216
+      ],
+      "principle": [
+        217
+      ],
+      "separation": [
+        219
+      ],
+      "between": [
+        220
+      ],
+      "religion": [
+        221,
+        236
+      ],
+      "state": [
+        223
+      ],
+      "intended": [
+        225
+      ],
+      "'to": [
+        226
+      ],
+      "ensure": [
+        227
+      ],
+      "freedom": [
+        228
+      ],
+      "religion',": [
+        230
+      ],
+      "including": [
+        231
+      ],
+      "free": [
+        233
+      ],
+      "expression": [
+        234
+      ],
+      "public": [
+        239,
+        265
+      ],
+      "well": [
+        241
+      ],
+      "private": [
+        244
+      ],
+      "sphere": [
+        245
+      ],
+      "26).This": [
+        250
+      ],
+      "differentiates": [
+        251
+      ],
+      "model": [
+        254
+      ],
+      "not": [
+        257,
+        318
+      ],
+      "only": [
+        258
+      ],
+      "French-style": [
+        260
+      ],
+      "la\u00efcit\u00e9,": [
+        261
+      ],
+      "which": [
+        262,
+        283
+      ],
+      "frowns": [
+        263
+      ],
+      "upon": [
+        264
+      ],
+      "expressions": [
+        266
+      ],
+      "religion,": [
+        268
+      ],
+      "but": [
+        269
+      ],
+      "also": [
+        270
+      ],
+      "'more": [
+        273
+      ],
+      "moderate": [
+        274
+      ],
+      "form": [
+        275
+      ],
+      "[of": [
+        276
+      ],
+      "secularism]": [
+        277
+      ],
+      "retain[s]": [
+        279
+      ],
+      "positive": [
+        280
+      ],
+      "state-religion": [
+        281
+      ],
+      "connections',": [
+        282
+      ],
+      "prevails": [
+        284
+      ],
+      "'in": [
+        285
+      ],
+      "much": [
+        286
+      ],
+      "Western": [
+        288
+      ],
+      "Europe',": [
+        289
+      ],
+      "more": [
+        292
+      ],
+      "extreme": [
+        293
+      ],
+      "'state": [
+        296,
+        306
+      ],
+      "control": [
+        297
+      ],
+      "suppression": [
+        299
+      ],
+      "religion'": [
+        301
+      ],
+      "associated": [
+        302
+      ],
+      "'Marxism-Leninism'": [
+        304
+      ],
+      "socialism'": [
+        307
+      ],
+      "27-28).Beyond": [
+        312
+      ],
+      "these": [
+        313
+      ],
+      "remarks,": [
+        314
+      ],
+      "discussed": [
+        319
+      ],
+      "their": [
+        321
+      ],
+      "book.": [
+        322
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7222914602",
+    "doi": "https://doi.org/10.1177/14687968261493364",
+    "title": "Enumerating race and ethnicity in post-colonial Africa, 1955\u20132024",
+    "display_name": "Enumerating race and ethnicity in post-colonial Africa, 1955\u20132024",
+    "relevance_score": 1.2248731,
+    "publication_year": 2026,
+    "publication_date": "2026-10-18",
+    "ids": {
+      "openalex": "https://openalex.org/W7222914602",
+      "doi": "https://doi.org/10.1177/14687968261493364"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1177/14687968261493364",
+      "doi": "https://doi.org/10.1177/14687968261493364",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/14687968261493364",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S189112142",
+        "display_name": "Ethnicities",
+        "issn_l": "1468-7968",
+        "issn": [
+          "1468-7968",
+          "1741-2706"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnicities",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1177/14687968261493364",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5101472453",
+          "display_name": "Yao Lu",
+          "orcid": "https://orcid.org/0000-0003-3011-9996",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3011-9996"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I20089843",
+            "display_name": "Princeton University",
+            "ror": "https://ror.org/00hx57361",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20089843"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yao Lu",
+        "raw_affiliation_strings": [
+          "Princeton University"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-3011-9996",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Princeton University",
+            "institution_ids": [
+              "https://openalex.org/I20089843"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5101472453"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I20089843"
+    ],
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.96404102,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T14395",
+      "display_name": "African history and culture studies",
+      "score": 0.490200012922287,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T14395",
+        "display_name": "African history and culture studies",
+        "score": 0.490200012922287,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13162",
+        "display_name": "African Studies and Ethnography",
+        "score": 0.31839999556541443,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14466",
+        "display_name": "Migration, Health, Geopolitics, Historical Geography",
+        "score": 0.03220000118017197,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/race",
+        "display_name": "race",
+        "score": 0.5419999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/ethnicity",
+        "display_name": "ethnicity",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/tribes",
+        "display_name": "tribes",
+        "score": 0.6990000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/census-classification",
+        "display_name": "census classification",
+        "score": 0.949999988079071
+      },
+      {
+        "id": "https://openalex.org/keywords/postcolonial-africa",
+        "display_name": "postcolonial Africa",
+        "score": 0.8339999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/colonial-legacy",
+        "display_name": "colonial legacy",
+        "score": 0.8870000243186951
+      },
+      {
+        "id": "https://openalex.org/keywords/racial-and-ethnic-classification",
+        "display_name": "racial and ethnic classification",
+        "score": 0.5759999752044678
+      },
+      {
+        "id": "https://openalex.org/keywords/former-british-colonies",
+        "display_name": "former British colonies",
+        "score": 0.8330000042915344
+      },
+      {
+        "id": "https://openalex.org/keywords/former-french-colonies",
+        "display_name": "former French colonies",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/ethnic-identity",
+        "display_name": "ethnic identity",
+        "score": 0.3240000009536743
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C52130261",
+        "wikidata": "https://www.wikidata.org/wiki/Q39825",
+        "display_name": "Census",
+        "level": 3,
+        "score": 0.9041000008583069
+      },
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.7351999878883362
+      },
+      {
+        "id": "https://openalex.org/C531593650",
+        "wikidata": "https://www.wikidata.org/wiki/Q7167",
+        "display_name": "Colonialism",
+        "level": 2,
+        "score": 0.6575000286102295
+      },
+      {
+        "id": "https://openalex.org/C76509639",
+        "wikidata": "https://www.wikidata.org/wiki/Q918036",
+        "display_name": "Race (biology)",
+        "level": 2,
+        "score": 0.6521000266075134
+      },
+      {
+        "id": "https://openalex.org/C2781316041",
+        "wikidata": "https://www.wikidata.org/wiki/Q1230584",
+        "display_name": "Diversity (politics)",
+        "level": 2,
+        "score": 0.5350000262260437
+      },
+      {
+        "id": "https://openalex.org/C2778495208",
+        "wikidata": "https://www.wikidata.org/wiki/Q48349",
+        "display_name": "Empire",
+        "level": 2,
+        "score": 0.4361000061035156
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.41850000619888306
+      },
+      {
+        "id": "https://openalex.org/C53553401",
+        "wikidata": "https://www.wikidata.org/wiki/Q47307",
+        "display_name": "Genealogy",
+        "level": 1,
+        "score": 0.40380001068115234
+      },
+      {
+        "id": "https://openalex.org/C2778572836",
+        "wikidata": "https://www.wikidata.org/wiki/Q380933",
+        "display_name": "Space (punctuation)",
+        "level": 2,
+        "score": 0.4002000093460083
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.3937000036239624
+      },
+      {
+        "id": "https://openalex.org/C149923435",
+        "wikidata": "https://www.wikidata.org/wiki/Q37732",
+        "display_name": "Demography",
+        "level": 1,
+        "score": 0.3547999858856201
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.3513000011444092
+      },
+      {
+        "id": "https://openalex.org/C179518139",
+        "wikidata": "https://www.wikidata.org/wiki/Q5140297",
+        "display_name": "Coding (social sciences)",
+        "level": 2,
+        "score": 0.33880001306533813
+      },
+      {
+        "id": "https://openalex.org/C45555294",
+        "wikidata": "https://www.wikidata.org/wiki/Q28113351",
+        "display_name": "Inequality",
+        "level": 2,
+        "score": 0.33809998631477356
+      },
+      {
+        "id": "https://openalex.org/C75291252",
+        "wikidata": "https://www.wikidata.org/wiki/Q1315756",
+        "display_name": "TRACE (psycholinguistics)",
+        "level": 2,
+        "score": 0.3192000091075897
+      },
+      {
+        "id": "https://openalex.org/C139838865",
+        "wikidata": "https://www.wikidata.org/wiki/Q8461",
+        "display_name": "Racism",
+        "level": 2,
+        "score": 0.31279999017715454
+      },
+      {
+        "id": "https://openalex.org/C125209646",
+        "wikidata": "https://www.wikidata.org/wiki/Q1338878",
+        "display_name": "Cultural diversity",
+        "level": 2,
+        "score": 0.30970001220703125
+      },
+      {
+        "id": "https://openalex.org/C2778334786",
+        "wikidata": "https://www.wikidata.org/wiki/Q1586270",
+        "display_name": "Variation (astronomy)",
+        "level": 2,
+        "score": 0.29589998722076416
+      },
+      {
+        "id": "https://openalex.org/C12725497",
+        "wikidata": "https://www.wikidata.org/wiki/Q810247",
+        "display_name": "Baseline (sea)",
+        "level": 2,
+        "score": 0.2930000126361847
+      },
+      {
+        "id": "https://openalex.org/C2776401178",
+        "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+        "display_name": "Feature (linguistics)",
+        "level": 2,
+        "score": 0.27619999647140503
+      },
+      {
+        "id": "https://openalex.org/C2549261",
+        "wikidata": "https://www.wikidata.org/wiki/Q43455",
+        "display_name": "Ethnology",
+        "level": 1,
+        "score": 0.26899999380111694
+      },
+      {
+        "id": "https://openalex.org/C2775936607",
+        "wikidata": "https://www.wikidata.org/wiki/Q466845",
+        "display_name": "Tracking (education)",
+        "level": 2,
+        "score": 0.26579999923706055
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.2606000006198883
+      },
+      {
+        "id": "https://openalex.org/C2777895361",
+        "wikidata": "https://www.wikidata.org/wiki/Q1758614",
+        "display_name": "Longitudinal study",
+        "level": 2,
+        "score": 0.2524999976158142
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1177/14687968261493364",
+        "doi": "https://doi.org/10.1177/14687968261493364",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1177/14687968261493364",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S189112142",
+          "display_name": "Ethnicities",
+          "issn_l": "1468-7968",
+          "issn": [
+            "1468-7968",
+            "1741-2706"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Ethnicities",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1177/14687968261493364",
+      "doi": "https://doi.org/10.1177/14687968261493364",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/14687968261493364",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S189112142",
+        "display_name": "Ethnicities",
+        "issn_l": "1468-7968",
+        "issn": [
+          "1468-7968",
+          "1741-2706"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnicities",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.7307999730110168,
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320308457",
+        "display_name": "American Sociological Association",
+        "ror": "https://ror.org/045r8zm03"
+      },
+      {
+        "id": "https://openalex.org/F4320332564",
+        "display_name": "University of California, Davis",
+        "ror": "https://ror.org/05rrcem69"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 33,
+    "referenced_works": [
+      "https://openalex.org/W595647127",
+      "https://openalex.org/W604715291",
+      "https://openalex.org/W1566043626",
+      "https://openalex.org/W1988182558",
+      "https://openalex.org/W2011153493",
+      "https://openalex.org/W2120935714",
+      "https://openalex.org/W2158877204",
+      "https://openalex.org/W2506692694",
+      "https://openalex.org/W2763788556",
+      "https://openalex.org/W2764209940",
+      "https://openalex.org/W2792589249",
+      "https://openalex.org/W2948408005",
+      "https://openalex.org/W2997174656",
+      "https://openalex.org/W2998468127",
+      "https://openalex.org/W2998543244",
+      "https://openalex.org/W3080294315",
+      "https://openalex.org/W3115380661",
+      "https://openalex.org/W3176997086",
+      "https://openalex.org/W3182317868",
+      "https://openalex.org/W3202804001",
+      "https://openalex.org/W3213911509",
+      "https://openalex.org/W4207035178",
+      "https://openalex.org/W4221041950",
+      "https://openalex.org/W4230414750",
+      "https://openalex.org/W4239536705",
+      "https://openalex.org/W4240214998",
+      "https://openalex.org/W4247974262",
+      "https://openalex.org/W4248138912",
+      "https://openalex.org/W4285669579",
+      "https://openalex.org/W4285709113",
+      "https://openalex.org/W4318191608",
+      "https://openalex.org/W4399774262",
+      "https://openalex.org/W4406525559"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "How": [
+        0
+      ],
+      "have": [
+        1,
+        252
+      ],
+      "African": [
+        2,
+        36,
+        76,
+        250
+      ],
+      "states": [
+        3,
+        148,
+        251
+      ],
+      "classified": [
+        4
+      ],
+      "their": [
+        5
+      ],
+      "populations": [
+        6
+      ],
+      "after": [
+        7,
+        160
+      ],
+      "independence,": [
+        8
+      ],
+      "and": [
+        9,
+        19,
+        38,
+        57,
+        80,
+        95,
+        100,
+        108,
+        117,
+        168,
+        179,
+        215,
+        220,
+        225,
+        229,
+        258,
+        284,
+        287
+      ],
+      "what": [
+        10
+      ],
+      "became": [
+        11
+      ],
+      "of": [
+        12,
+        31,
+        41,
+        54,
+        70,
+        92,
+        97,
+        105,
+        133,
+        142,
+        198,
+        256,
+        290
+      ],
+      "the": [
+        13,
+        93,
+        134,
+        143,
+        151,
+        161,
+        171,
+        195,
+        238,
+        241,
+        288
+      ],
+      "colonial": [
+        14,
+        115,
+        254,
+        291
+      ],
+      "census": [
+        15,
+        32,
+        45,
+        72
+      ],
+      "categories": [
+        16
+      ],
+      "\u2018race,\u2019": [
+        17,
+        98
+      ],
+      "\u2018ethnicity,\u2019": [
+        18,
+        99
+      ],
+      "\u2018tribe,\u2019": [
+        20
+      ],
+      "through": [
+        21
+      ],
+      "which": [
+        22
+      ],
+      "empire": [
+        23
+      ],
+      "organized": [
+        24
+      ],
+      "populations?": [
+        25
+      ],
+      "Existing": [
+        26
+      ],
+      "research": [
+        27,
+        279
+      ],
+      "provides": [
+        28,
+        84,
+        240
+      ],
+      "rich": [
+        29
+      ],
+      "accounts": [
+        30
+      ],
+      "classification": [
+        33,
+        59
+      ],
+      "in": [
+        34,
+        217
+      ],
+      "individual": [
+        35
+      ],
+      "countries": [
+        37,
+        77,
+        178
+      ],
+      "cross-national": [
+        39,
+        118
+      ],
+      "analysis": [
+        40,
+        104,
+        211
+      ],
+      "\u2018ethnicity\u2019": [
+        42,
+        169
+      ],
+      "during": [
+        43
+      ],
+      "particular": [
+        44
+      ],
+      "rounds,": [
+        46
+      ],
+      "but": [
+        47,
+        174,
+        185
+      ],
+      "we": [
+        48
+      ],
+      "lack": [
+        49
+      ],
+      "a": [
+        50,
+        139
+      ],
+      "continent-wide,": [
+        51
+      ],
+      "longitudinal": [
+        52,
+        243
+      ],
+      "account": [
+        53
+      ],
+      "how": [
+        55,
+        218,
+        248
+      ],
+      "racial": [
+        56,
+        257,
+        283
+      ],
+      "ethnic": [
+        58,
+        259,
+        285
+      ],
+      "has": [
+        60
+      ],
+      "changed": [
+        61
+      ],
+      "across": [
+        62,
+        177,
+        227,
+        235
+      ],
+      "post-colonial": [
+        63,
+        126,
+        249
+      ],
+      "Africa.": [
+        64
+      ],
+      "Drawing": [
+        65
+      ],
+      "on": [
+        66,
+        208,
+        280
+      ],
+      "an": [
+        67,
+        86,
+        274
+      ],
+      "original": [
+        68
+      ],
+      "dataset": [
+        69
+      ],
+      "211": [
+        71
+      ],
+      "questionnaires": [
+        73
+      ],
+      "from": [
+        74
+      ],
+      "53": [
+        75
+      ],
+      "between": [
+        78
+      ],
+      "1955": [
+        79
+      ],
+      "2024,": [
+        81
+      ],
+      "this": [
+        82
+      ],
+      "paper": [
+        83,
+        239
+      ],
+      "such": [
+        85
+      ],
+      "account.": [
+        87
+      ],
+      "I": [
+        88
+      ],
+      "combine": [
+        89
+      ],
+      "systematic": [
+        90
+      ],
+      "coding": [
+        91
+      ],
+      "presence": [
+        94
+      ],
+      "absence": [
+        96
+      ],
+      "\u2018tribe\u2019": [
+        101,
+        165
+      ],
+      "with": [
+        102
+      ],
+      "case-by-case": [
+        103
+      ],
+      "questionnaire": [
+        106
+      ],
+      "wording": [
+        107
+      ],
+      "category": [
+        109
+      ],
+      "schemes": [
+        110
+      ],
+      "to": [
+        111
+      ],
+      "trace": [
+        112
+      ],
+      "historical": [
+        113
+      ],
+      "trends,": [
+        114
+      ],
+      "legacies,": [
+        116
+      ],
+      "variation.": [
+        119
+      ],
+      "Three": [
+        120
+      ],
+      "findings": [
+        121
+      ],
+      "stand": [
+        122
+      ],
+      "out.": [
+        123
+      ],
+      "First,": [
+        124
+      ],
+      "most": [
+        125,
+        172
+      ],
+      "censuses": [
+        127
+      ],
+      "do": [
+        128,
+        186,
+        267
+      ],
+      "not": [
+        129,
+        187,
+        268
+      ],
+      "explicitly": [
+        130
+      ],
+      "enumerate": [
+        131,
+        149
+      ],
+      "any": [
+        132
+      ],
+      "three": [
+        135
+      ],
+      "concepts,": [
+        136
+      ],
+      "making": [
+        137
+      ],
+      "non-naming": [
+        138
+      ],
+      "central": [
+        140
+      ],
+      "feature": [
+        141
+      ],
+      "classificatory": [
+        144,
+        199
+      ],
+      "landscape.": [
+        145
+      ],
+      "Second,": [
+        146
+      ],
+      "where": [
+        147
+      ],
+      "them,": [
+        150
+      ],
+      "concepts": [
+        152
+      ],
+      "follow": [
+        153
+      ],
+      "divergent": [
+        154
+      ],
+      "trajectories:": [
+        155
+      ],
+      "\u2018race\u2019": [
+        156
+      ],
+      "becomes": [
+        157,
+        170
+      ],
+      "increasingly": [
+        158
+      ],
+      "rare": [
+        159
+      ],
+      "early": [
+        162
+      ],
+      "post-independence": [
+        163
+      ],
+      "period,": [
+        164
+      ],
+      "declines": [
+        166
+      ],
+      "substantially,": [
+        167
+      ],
+      "prevalent": [
+        173
+      ],
+      "remains": [
+        175
+      ],
+      "uneven": [
+        176
+      ],
+      "over": [
+        180
+      ],
+      "time.": [
+        181,
+        230
+      ],
+      "Third,": [
+        182
+      ],
+      "empires": [
+        183
+      ],
+      "structure": [
+        184
+      ],
+      "determine": [
+        188
+      ],
+      "these": [
+        189,
+        233
+      ],
+      "trajectories.": [
+        190
+      ],
+      "Former": [
+        191
+      ],
+      "British": [
+        192
+      ],
+      "colonies": [
+        193,
+        204
+      ],
+      "exhibit": [
+        194
+      ],
+      "greatest": [
+        196
+      ],
+      "plurality": [
+        197
+      ],
+      "terms,": [
+        200
+      ],
+      "while": [
+        201
+      ],
+      "former": [
+        202
+      ],
+      "French": [
+        203
+      ],
+      "rely": [
+        205
+      ],
+      "almost": [
+        206
+      ],
+      "exclusively": [
+        207
+      ],
+      "\u2018ethnicity.\u2019": [
+        209
+      ],
+      "Case-by-case": [
+        210
+      ],
+      "reveals": [
+        212,
+        262
+      ],
+      "striking": [
+        213
+      ],
+      "diversity": [
+        214
+      ],
+      "fluidity": [
+        216
+      ],
+      "race": [
+        219
+      ],
+      "ethnicity": [
+        221
+      ],
+      "are": [
+        222
+      ],
+      "defined,": [
+        223
+      ],
+      "overlapped,": [
+        224
+      ],
+      "transformed": [
+        226
+      ],
+      "space": [
+        228
+      ],
+      "By": [
+        231
+      ],
+      "mapping": [
+        232
+      ],
+      "trajectories": [
+        234
+      ],
+      "seven": [
+        236
+      ],
+      "decades,": [
+        237
+      ],
+      "first": [
+        242
+      ],
+      "empirical": [
+        244
+      ],
+      "baseline": [
+        245
+      ],
+      "for": [
+        246,
+        277
+      ],
+      "understanding": [
+        247
+      ],
+      "remade": [
+        253
+      ],
+      "forms": [
+        255
+      ],
+      "difference.": [
+        260
+      ],
+      "It": [
+        261
+      ],
+      "patterns": [
+        263
+      ],
+      "that": [
+        264
+      ],
+      "existing": [
+        265
+      ],
+      "theories": [
+        266
+      ],
+      "fully": [
+        269
+      ],
+      "explain,": [
+        270
+      ],
+      "positioning": [
+        271
+      ],
+      "Africa": [
+        272
+      ],
+      "as": [
+        273
+      ],
+      "important": [
+        275
+      ],
+      "site": [
+        276
+      ],
+      "advancing": [
+        278
+      ],
+      "state": [
+        281
+      ],
+      "classification,": [
+        282
+      ],
+      "formation,": [
+        286
+      ],
+      "transformation": [
+        289
+      ],
+      "legacies.": [
+        292
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-21T09:56:26.102985",
+    "created_date": "2026-10-20T00:00:00"
   }
 ]

@@ -3373,7 +3373,7 @@
     "doi": "https://doi.org/10.1111/ajps.12966",
     "title": "How the State Discourages Vigilantism\u2014Evidence From a Field Experiment in South Africa",
     "display_name": "How the State Discourages Vigilantism\u2014Evidence From a Field Experiment in South Africa",
-    "relevance_score": 24.380316,
+    "relevance_score": 11.500236,
     "publication_year": 2025,
     "publication_date": "2025-04-06",
     "ids": {
@@ -3383,6 +3383,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/ajps.12966",
+      "doi": "https://doi.org/10.1111/ajps.12966",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/ajps.12966",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ajps.12966",
@@ -3397,6 +3398,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -3415,6 +3427,7 @@
       "raw_source_name": "American Journal of Political Science",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -3431,7 +3444,10 @@
         "author": {
           "id": "https://openalex.org/A5009086419",
           "display_name": "Anna M. Wilke",
-          "orcid": "https://orcid.org/0000-0001-5004-1589"
+          "orcid": "https://orcid.org/0000-0001-5004-1589",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5004-1589"
+          ]
         },
         "institutions": [
           {
@@ -3453,6 +3469,7 @@
         "raw_affiliation_strings": [
           "Wilf Family Department of Politics New York University  New York New York USA"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Wilf Family Department of Politics New York University  New York New York USA",
@@ -3473,22 +3490,22 @@
       "https://openalex.org/I57206974"
     ],
     "apc_list": {
-      "value": 3860,
+      "value": 4100,
       "currency": "USD",
-      "value_usd": 3860
+      "value_usd": 4100
     },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": 3.5566,
     "has_fulltext": true,
-    "cited_by_count": 1,
+    "cited_by_count": 4,
     "citation_normalized_percentile": {
-      "value": 0.09000687,
+      "value": 0.91336766,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 90,
-      "max": 94
+      "min": 94,
+      "max": 97
     },
     "biblio": {
       "volume": "70",
@@ -3500,9 +3517,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12263",
-      "display_name": "Peacebuilding and International Security",
-      "score": 0.995199978351593,
+      "id": "https://openalex.org/T10070",
+      "display_name": "Political Conflict and Governance",
+      "score": 0.322299987077713,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -3518,9 +3535,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12263",
-        "display_name": "Peacebuilding and International Security",
-        "score": 0.995199978351593,
+        "id": "https://openalex.org/T10070",
+        "display_name": "Political Conflict and Governance",
+        "score": 0.322299987077713,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -3537,7 +3554,7 @@
       {
         "id": "https://openalex.org/T11076",
         "display_name": "Policing Practices and Perceptions",
-        "score": 0.9901000261306763,
+        "score": 0.27709999680519104,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -3552,9 +3569,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T10070",
-        "display_name": "Political Conflict and Governance",
-        "score": 0.9897000193595886,
+        "id": "https://openalex.org/T11838",
+        "display_name": "Crime, Illicit Activities, and Governance",
+        "score": 0.13940000534057617,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -3571,29 +3588,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/state",
-        "display_name": "State (computer science)",
-        "score": 0.6600425243377686
+        "id": "https://openalex.org/keywords/vigilantism",
+        "display_name": "vigilantism",
+        "score": 0.7929999828338623
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5817790627479553
+        "id": "https://openalex.org/keywords/mob-justice",
+        "display_name": "mob justice",
+        "score": 0.8220000267028809
       },
       {
-        "id": "https://openalex.org/keywords/field",
-        "display_name": "Field (mathematics)",
-        "score": 0.5297219157218933
+        "id": "https://openalex.org/keywords/state-capacity",
+        "display_name": "state capacity",
+        "score": 0.9340000152587891
       },
       {
-        "id": "https://openalex.org/keywords/computer-science",
-        "display_name": "Computer science",
-        "score": 0.07644027471542358
+        "id": "https://openalex.org/keywords/police-service-quality",
+        "display_name": "police service quality",
+        "score": 0.8019999861717224
       },
       {
-        "id": "https://openalex.org/keywords/mathematics",
-        "display_name": "Mathematics",
-        "score": 0.040045738220214844
+        "id": "https://openalex.org/keywords/informal-justice",
+        "display_name": "informal justice",
+        "score": 0.5839999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/state-citizen-relations",
+        "display_name": "state-citizen relations",
+        "score": 0.48500001430511475
+      },
+      {
+        "id": "https://openalex.org/keywords/south-africa",
+        "display_name": "South Africa",
+        "score": 0.7680000066757202
       }
     ],
     "concepts": [
@@ -3652,6 +3679,7 @@
     "locations": [
       {
         "id": "doi:10.1111/ajps.12966",
+        "doi": "https://doi.org/10.1111/ajps.12966",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/ajps.12966",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ajps.12966",
@@ -3666,6 +3694,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -3687,6 +3726,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1111/ajps.12966",
+      "doi": "https://doi.org/10.1111/ajps.12966",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/ajps.12966",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ajps.12966",
@@ -3701,6 +3741,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -3719,12 +3770,25 @@
       "raw_source_name": "American Journal of Political Science",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 1.0,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "id": "https://openalex.org/study-designs/clinical-trial",
+        "display_name": "Clinical Trial"
+      }
+    ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4409211770.pdf",
@@ -4145,11 +4209,15 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 2
+      },
+      {
         "year": 2024,
-        "cited_by_count": 1
+        "cited_by_count": 2
       }
     ],
-    "updated_date": "2026-03-11T06:11:40.159057",
+    "updated_date": "2026-10-17T09:40:24.721904",
     "created_date": "2025-10-10T00:00:00"
   },
   {

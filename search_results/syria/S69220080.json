@@ -1050,7 +1050,7 @@
     "doi": "https://doi.org/10.1177/17499755251386598",
     "title": "Persecution Capital: Legitimacy, Trauma, and Political Authority",
     "display_name": "Persecution Capital: Legitimacy, Trauma, and Political Authority",
-    "relevance_score": 1.2062657,
+    "relevance_score": 3.4826343,
     "publication_year": 2025,
     "publication_date": "2025-11-30",
     "ids": {
@@ -1060,6 +1060,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/17499755251386598",
+      "doi": "https://doi.org/10.1177/17499755251386598",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/17499755251386598",
       "pdf_url": null,
@@ -1074,6 +1075,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -1092,6 +1103,7 @@
       "raw_source_name": "Cultural Sociology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -1108,7 +1120,10 @@
         "author": {
           "id": "https://openalex.org/A5067954073",
           "display_name": "Zeina Al Azmeh",
-          "orcid": "https://orcid.org/0000-0002-5856-6694"
+          "orcid": "https://orcid.org/0000-0002-5856-6694",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5856-6694"
+          ]
         },
         "institutions": [
           {
@@ -1150,17 +1165,28 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I241749"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
-    "has_fulltext": false,
-    "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.45344654,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
     },
-    "cited_by_percentile_year": null,
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 3.611,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.93553767,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 97
+    },
     "biblio": {
       "volume": null,
       "issue": null,
@@ -1171,9 +1197,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10070",
-      "display_name": "Political Conflict and Governance",
-      "score": 0.4316999912261963,
+      "id": "https://openalex.org/T11895",
+      "display_name": "Social and Cultural Dynamics",
+      "score": 0.8866999745368958,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -1189,46 +1215,46 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T11895",
+        "display_name": "Social and Cultural Dynamics",
+        "score": 0.8866999745368958,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.04089999943971634,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T10070",
         "display_name": "Political Conflict and Governance",
-        "score": 0.4316999912261963,
+        "score": 0.0340999998152256,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10994",
-        "display_name": "Terrorism, Counterterrorism, and Political Violence",
-        "score": 0.062300000339746475,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T11397",
-        "display_name": "Populism, Right-Wing Movements",
-        "score": 0.048500001430511475,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -1242,39 +1268,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/persecution",
-        "display_name": "Persecution",
-        "score": 0.9416000247001648
-      },
-      {
-        "id": "https://openalex.org/keywords/legitimacy",
-        "display_name": "Legitimacy",
-        "score": 0.7804999947547913
-      },
-      {
         "id": "https://openalex.org/keywords/symbolic-capital",
-        "display_name": "Symbolic capital",
-        "score": 0.6470000147819519
+        "display_name": "symbolic capital",
+        "score": 0.9729999899864197
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.503600001335144
+        "id": "https://openalex.org/keywords/political-legitimacy",
+        "display_name": "political legitimacy",
+        "score": 0.7900000214576721
+      },
+      {
+        "id": "https://openalex.org/keywords/political-suffering",
+        "display_name": "political suffering",
+        "score": 0.5849999785423279
       },
       {
         "id": "https://openalex.org/keywords/symbolic-power",
-        "display_name": "Symbolic power",
-        "score": 0.49970000982284546
+        "display_name": "symbolic power",
+        "score": 0.6019999980926514
       },
       {
-        "id": "https://openalex.org/keywords/the-symbolic",
-        "display_name": "The Symbolic",
-        "score": 0.4864000082015991
+        "id": "https://openalex.org/keywords/bourdieu-s-field-theory",
+        "display_name": "Bourdieu's field theory",
+        "score": 0.8330000042915344
       },
       {
-        "id": "https://openalex.org/keywords/capital",
-        "display_name": "Capital (architecture)",
-        "score": 0.44749999046325684
+        "id": "https://openalex.org/keywords/syrian-opposition",
+        "display_name": "Syrian opposition",
+        "score": 0.5410000085830688
+      },
+      {
+        "id": "https://openalex.org/keywords/competitive-victimhood",
+        "display_name": "competitive victimhood",
+        "score": 0.9369999766349792
+      },
+      {
+        "id": "https://openalex.org/keywords/revolutionary-rupture",
+        "display_name": "revolutionary rupture",
+        "score": 0.546999990940094
+      },
+      {
+        "id": "https://openalex.org/keywords/post-authoritarianism",
+        "display_name": "post-authoritarianism",
+        "score": 0.6629999876022339
       }
     ],
     "concepts": [
@@ -1431,6 +1467,7 @@
     "locations": [
       {
         "id": "doi:10.1177/17499755251386598",
+        "doi": "https://doi.org/10.1177/17499755251386598",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/17499755251386598",
         "pdf_url": null,
@@ -1445,6 +1482,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -1466,6 +1513,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1177/17499755251386598",
+      "doi": "https://doi.org/10.1177/17499755251386598",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/17499755251386598",
       "pdf_url": null,
@@ -1480,6 +1528,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -1498,7 +1556,15 @@
       "raw_source_name": "Cultural Sociology",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9810000061988831
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -1517,6 +1583,7 @@
       "https://openalex.org/W2477244370",
       "https://openalex.org/W2794377515",
       "https://openalex.org/W3114116358",
+      "https://openalex.org/W3183484395",
       "https://openalex.org/W4207009882",
       "https://openalex.org/W4211262296",
       "https://openalex.org/W4226378623",
@@ -1525,7 +1592,6 @@
       "https://openalex.org/W4235955618",
       "https://openalex.org/W4248811913",
       "https://openalex.org/W4249107117",
-      "https://openalex.org/W4254961713",
       "https://openalex.org/W4400838746"
     ],
     "related_works": [],
@@ -1989,8 +2055,13 @@
         197
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2025-12-01T21:07:22.586516",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2025-12-01T00:00:00"
   }
 ]

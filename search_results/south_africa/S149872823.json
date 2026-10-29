@@ -8750,7 +8750,7 @@
     "doi": "https://doi.org/10.1080/1369183x.2025.2595823",
     "title": "Race, railways, and the long-term legacy effects of concentration camps: evidence from South Africa",
     "display_name": "Race, railways, and the long-term legacy effects of concentration camps: evidence from South Africa",
-    "relevance_score": 28.300716,
+    "relevance_score": 10.555418,
     "publication_year": 2026,
     "publication_date": "2026-02-09",
     "ids": {
@@ -8760,6 +8760,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/1369183x.2025.2595823",
+      "doi": "https://doi.org/10.1080/1369183x.2025.2595823",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1080/1369183x.2025.2595823",
       "pdf_url": null,
@@ -8774,13 +8775,27 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
@@ -8792,6 +8807,7 @@
       "raw_source_name": "Journal of Ethnic and Migration Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -8806,9 +8822,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5024265280",
+          "id": "https://openalex.org/A5048428398",
           "display_name": "Rachel D. Van Nostrand",
-          "orcid": "https://orcid.org/0000-0002-1299-0377"
+          "orcid": "https://orcid.org/0000-0002-1299-0377",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1299-0377"
+          ]
         },
         "institutions": [
           {
@@ -8830,6 +8849,7 @@
         "raw_affiliation_strings": [
           "Louisiana State University"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Louisiana State University",
@@ -8844,7 +8864,10 @@
         "author": {
           "id": "https://openalex.org/A5085001910",
           "display_name": "Alex Braithwaite",
-          "orcid": "https://orcid.org/0000-0002-7945-2223"
+          "orcid": "https://orcid.org/0000-0002-7945-2223",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7945-2223"
+          ]
         },
         "institutions": [
           {
@@ -8866,6 +8889,7 @@
         "raw_affiliation_strings": [
           "University of Arizona"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "University of Arizona",
@@ -8880,24 +8904,24 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 2,
     "corresponding_author_ids": [
-      "https://openalex.org/A5024265280"
+      "https://openalex.org/A5048428398"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I121820613"
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 133.728,
+    "fwci": 37.4451,
     "has_fulltext": false,
     "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.99694848,
+      "value": 0.99483549,
       "is_in_top_1_percent": true,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 99,
-      "max": 100
+      "min": 97,
+      "max": 98
     },
     "biblio": {
       "volume": "52",
@@ -8909,12 +8933,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12312",
-      "display_name": "Culture, Economy, and Development Studies",
-      "score": 0.6859999895095825,
+      "id": "https://openalex.org/T10070",
+      "display_name": "Political Conflict and Governance",
+      "score": 0.3407999873161316,
       "subfield": {
-        "id": "https://openalex.org/subfields/3317",
-        "display_name": "Demography"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -8927,26 +8951,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12312",
-        "display_name": "Culture, Economy, and Development Studies",
-        "score": 0.6859999895095825,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3317",
-          "display_name": "Demography"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12635",
-        "display_name": "African studies and sociopolitical issues",
-        "score": 0.024399999529123306,
+        "id": "https://openalex.org/T10070",
+        "display_name": "Political Conflict and Governance",
+        "score": 0.3407999873161316,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -8961,9 +8968,26 @@
         }
       },
       {
-        "id": "https://openalex.org/T10349",
-        "display_name": "Migration and Labor Dynamics",
-        "score": 0.017999999225139618,
+        "id": "https://openalex.org/T11695",
+        "display_name": "South African History and Culture",
+        "score": 0.22789999842643738,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10314",
+        "display_name": "Social and Intergroup Psychology",
+        "score": 0.14429999887943268,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -8980,14 +9004,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/ethnic-group",
-        "display_name": "Ethnic group",
-        "score": 0.2996000051498413
+        "id": "https://openalex.org/keywords/concentration-camps",
+        "display_name": "concentration camps",
+        "score": 0.7699999809265137
       },
       {
-        "id": "https://openalex.org/keywords/immigration",
-        "display_name": "Immigration",
-        "score": 0.2815999984741211
+        "id": "https://openalex.org/keywords/second-boer-war",
+        "display_name": "Second Boer War",
+        "score": 0.984000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/racial-attitudes",
+        "display_name": "racial attitudes",
+        "score": 0.5170000195503235
+      },
+      {
+        "id": "https://openalex.org/keywords/political-mobilization",
+        "display_name": "political mobilization",
+        "score": 0.5989999771118164
+      },
+      {
+        "id": "https://openalex.org/keywords/colonial-railways",
+        "display_name": "colonial railways",
+        "score": 0.7559999823570251
+      },
+      {
+        "id": "https://openalex.org/keywords/state-repression",
+        "display_name": "state repression",
+        "score": 0.7260000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/afrikaners",
+        "display_name": "Afrikaners",
+        "score": 0.6439999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/black-african-population",
+        "display_name": "Black African population",
+        "score": 0.5490000247955322
+      },
+      {
+        "id": "https://openalex.org/keywords/south-africa",
+        "display_name": "South Africa",
+        "score": 0.4790000021457672
+      },
+      {
+        "id": "https://openalex.org/keywords/historical-trauma",
+        "display_name": "historical trauma",
+        "score": 0.4099999964237213
       }
     ],
     "concepts": [
@@ -9067,6 +9131,7 @@
     "locations": [
       {
         "id": "doi:10.1080/1369183x.2025.2595823",
+        "doi": "https://doi.org/10.1080/1369183x.2025.2595823",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1080/1369183x.2025.2595823",
         "pdf_url": null,
@@ -9081,13 +9146,27 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
@@ -9101,12 +9180,25 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.7297000288963318,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "id": "https://openalex.org/study-designs/observational-study",
+        "display_name": "Observational Study"
+      }
+    ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 41,
@@ -9154,14 +9246,446 @@
       "https://openalex.org/W7128438750"
     ],
     "related_works": [],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "Drawing": [
+        0
+      ],
+      "upon": [
+        1
+      ],
+      "detailed": [
+        2
+      ],
+      "data": [
+        3
+      ],
+      "on": [
+        4,
+        31,
+        165,
+        172
+      ],
+      "more": [
+        5,
+        137,
+        148
+      ],
+      "than": [
+        6
+      ],
+      "120": [
+        7
+      ],
+      "concentration": [
+        8,
+        58
+      ],
+      "camps": [
+        9,
+        30,
+        63,
+        94,
+        109
+      ],
+      "employed": [
+        10
+      ],
+      "by": [
+        11
+      ],
+      "the": [
+        12,
+        18,
+        25,
+        65,
+        90,
+        113,
+        156,
+        166
+      ],
+      "British": [
+        13,
+        57,
+        66
+      ],
+      "in": [
+        14,
+        35,
+        122,
+        144,
+        152
+      ],
+      "southern": [
+        15
+      ],
+      "Africa": [
+        16
+      ],
+      "during": [
+        17
+      ],
+      "Second": [
+        19
+      ],
+      "Boer": [
+        20
+      ],
+      "War": [
+        21
+      ],
+      "(1899\u20131902),": [
+        22
+      ],
+      "we": [
+        23,
+        44,
+        103
+      ],
+      "examine": [
+        24
+      ],
+      "long-term": [
+        26,
+        167
+      ],
+      "legacies": [
+        27
+      ],
+      "of": [
+        28,
+        93,
+        139,
+        169
+      ],
+      "these": [
+        29,
+        145
+      ],
+      "trust": [
+        32
+      ],
+      "and": [
+        33,
+        84,
+        98,
+        135,
+        174
+      ],
+      "mobilisation": [
+        34
+      ],
+      "modern-day": [
+        36
+      ],
+      "South": [
+        37
+      ],
+      "Africa.": [
+        38
+      ],
+      "Using": [
+        39
+      ],
+      "geocoded": [
+        40
+      ],
+      "Afrobarometer": [
+        41
+      ],
+      "survey": [
+        42
+      ],
+      "data,": [
+        43
+      ],
+      "assess": [
+        45
+      ],
+      "whether": [
+        46
+      ],
+      "contemporary": [
+        47
+      ],
+      "attitudes": [
+        48,
+        81
+      ],
+      "vary": [
+        49
+      ],
+      "relative": [
+        50
+      ],
+      "to": [
+        51,
+        55,
+        76,
+        131,
+        150,
+        161
+      ],
+      "individual": [
+        52
+      ],
+      "respondents\u2019": [
+        53
+      ],
+      "proximity": [
+        54
+      ],
+      "historical": [
+        56
+      ],
+      "camps.": [
+        59
+      ],
+      "We": [
+        60,
+        118
+      ],
+      "distinguish": [
+        61
+      ],
+      "between": [
+        62
+      ],
+      "where": [
+        64
+      ],
+      "detained": [
+        67
+      ],
+      "white": [
+        68
+      ],
+      "Boer/Afrikaner": [
+        69
+      ],
+      "populations,": [
+        70,
+        73
+      ],
+      "Black": [
+        71
+      ],
+      "African": [
+        72
+      ],
+      "or": [
+        74
+      ],
+      "both,": [
+        75
+      ],
+      "trace": [
+        77
+      ],
+      "motivations": [
+        78
+      ],
+      "for": [
+        79,
+        89
+      ],
+      "modern": [
+        80
+      ],
+      "across": [
+        82
+      ],
+      "race": [
+        83
+      ],
+      "ethnic": [
+        85
+      ],
+      "dimensions.": [
+        86
+      ],
+      "To": [
+        87
+      ],
+      "account": [
+        88
+      ],
+      "non-random": [
+        91
+      ],
+      "placement": [
+        92
+      ],
+      "along": [
+        95,
+        112
+      ],
+      "newly": [
+        96
+      ],
+      "built": [
+        97
+      ],
+      "developing": [
+        99
+      ],
+      "colonial": [
+        100
+      ],
+      "railway": [
+        101,
+        114
+      ],
+      "lines,": [
+        102
+      ],
+      "compare": [
+        104
+      ],
+      "locations": [
+        105
+      ],
+      "that": [
+        106,
+        115,
+        121
+      ],
+      "historically": [
+        107
+      ],
+      "housed": [
+        108
+      ],
+      "with": [
+        110
+      ],
+      "those": [
+        111
+      ],
+      "did": [
+        116
+      ],
+      "not.": [
+        117
+      ],
+      "find": [
+        119
+      ],
+      "evidence": [
+        120
+      ],
+      "areas": [
+        123,
+        146
+      ],
+      "which": [
+        124
+      ],
+      "previously": [
+        125
+      ],
+      "hosted": [
+        126
+      ],
+      "camps,": [
+        127
+      ],
+      "populations": [
+        128
+      ],
+      "remain": [
+        129
+      ],
+      "subject": [
+        130
+      ],
+      "heightened": [
+        132
+      ],
+      "in-group/out-group": [
+        133
+      ],
+      "dynamics": [
+        134
+      ],
+      "are": [
+        136,
+        147
+      ],
+      "distrustful": [
+        138
+      ],
+      "one": [
+        140
+      ],
+      "another.": [
+        141
+      ],
+      "Additionally,": [
+        142
+      ],
+      "residents": [
+        143
+      ],
+      "likely": [
+        149
+      ],
+      "participate": [
+        151
+      ],
+      "political": [
+        153,
+        175
+      ],
+      "activities": [
+        154
+      ],
+      "benefiting": [
+        155
+      ],
+      "in-group.": [
+        157
+      ],
+      "This": [
+        158
+      ],
+      "work": [
+        159
+      ],
+      "contributes": [
+        160
+      ],
+      "a": [
+        162
+      ],
+      "growing": [
+        163
+      ],
+      "literature": [
+        164
+      ],
+      "effects": [
+        168
+      ],
+      "state": [
+        170
+      ],
+      "repression": [
+        171
+      ],
+      "social": [
+        173
+      ],
+      "dynamics.": [
+        176
+      ]
+    },
     "counts_by_year": [
       {
         "year": 2026,
         "cited_by_count": 3
       }
     ],
-    "updated_date": "2026-03-06T06:45:51.903784",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2026-02-10T00:00:00"
   },
   {
@@ -20091,7 +20615,7 @@
     "doi": "https://doi.org/10.1080/1369183x.2026.2656497",
     "title": "Unbecoming Indian: the contestation and negotiation of the category \u2018Indian\u2019 by South African migrants of Indian descent living in Australia",
     "display_name": "Unbecoming Indian: the contestation and negotiation of the category \u2018Indian\u2019 by South African migrants of Indian descent living in Australia",
-    "relevance_score": 4.9717383,
+    "relevance_score": 10.00561,
     "publication_year": 2026,
     "publication_date": "2026-04-18",
     "ids": {
@@ -20101,9 +20625,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/1369183x.2026.2656497",
-      "is_oa": false,
+      "doi": "https://doi.org/10.1080/1369183x.2026.2656497",
+      "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/1369183x.2026.2656497",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2026.2656497?needAccess=true",
       "source": {
         "id": "https://openalex.org/S149872823",
         "display_name": "Journal of Ethnic and Migration Studies",
@@ -20115,32 +20640,47 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Journal of Ethnic and Migration Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
-      "is_oa": false,
-      "oa_status": "closed",
-      "oa_url": null,
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2026.2656497?needAccess=true",
       "any_repository_has_fulltext": false
     },
     "authorships": [
@@ -20149,7 +20689,8 @@
         "author": {
           "id": "https://openalex.org/A5034030727",
           "display_name": "Subashini Gordon",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -20171,6 +20712,7 @@
         "raw_affiliation_strings": [
           "University of KwaZulu-Natal"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "University of KwaZulu-Natal",
@@ -20185,7 +20727,10 @@
         "author": {
           "id": "https://openalex.org/A5005038348",
           "display_name": "Kathryn Pillay",
-          "orcid": "https://orcid.org/0000-0002-5977-2764"
+          "orcid": "https://orcid.org/0000-0002-5977-2764",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5977-2764"
+          ]
         },
         "institutions": [
           {
@@ -20207,6 +20752,7 @@
         "raw_affiliation_strings": [
           "University of KwaZulu-Natal"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "University of KwaZulu-Natal",
@@ -20219,7 +20765,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 2,
+    "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5005038348"
     ],
@@ -20229,12 +20775,12 @@
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.97175877,
+      "value": 0.25695466,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
@@ -20249,7 +20795,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11648",
       "display_name": "Diaspora, migration, transnational identity",
-      "score": 0.26350000500679016,
+      "score": 0.9848999977111816,
       "subfield": {
         "id": "https://openalex.org/subfields/3317",
         "display_name": "Demography"
@@ -20267,7 +20813,7 @@
       {
         "id": "https://openalex.org/T11648",
         "display_name": "Diaspora, migration, transnational identity",
-        "score": 0.26350000500679016,
+        "score": 0.9848999977111816,
         "subfield": {
           "id": "https://openalex.org/subfields/3317",
           "display_name": "Demography"
@@ -20282,9 +20828,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T11695",
-        "display_name": "South African History and Culture",
-        "score": 0.05350000038743019,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.010700000450015068,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -20299,16 +20845,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T12972",
-        "display_name": "German Colonialism and Identity Studies",
-        "score": 0.018699999898672104,
+        "id": "https://openalex.org/T13669",
+        "display_name": "China's Global Influence and Migration",
+        "score": 0.0013000000035390258,
         "subfield": {
-          "id": "https://openalex.org/subfields/1208",
-          "display_name": "Literature and Literary Theory"
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -20318,24 +20864,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/negotiation",
-        "display_name": "Negotiation",
-        "score": 0.7616000175476074
+        "id": "https://openalex.org/keywords/racial-classification",
+        "display_name": "racial classification",
+        "score": 0.6980000138282776
       },
       {
-        "id": "https://openalex.org/keywords/african-descent",
-        "display_name": "African descent",
-        "score": 0.5234000086784363
+        "id": "https://openalex.org/keywords/identity-negotiation",
+        "display_name": "identity negotiation",
+        "score": 0.6539999842643738
       },
       {
-        "id": "https://openalex.org/keywords/ethnic-group",
-        "display_name": "Ethnic group",
-        "score": 0.42080000042915344
+        "id": "https://openalex.org/keywords/migration-to-australia",
+        "display_name": "migration to Australia",
+        "score": 0.7379999756813049
       },
       {
-        "id": "https://openalex.org/keywords/descent",
-        "display_name": "Descent (aeronautics)",
-        "score": 0.4059999883174896
+        "id": "https://openalex.org/keywords/transnational-identity",
+        "display_name": "transnational identity",
+        "score": 0.6880000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/otherness",
+        "display_name": "otherness",
+        "score": 0.6759999990463257
+      },
+      {
+        "id": "https://openalex.org/keywords/legacy-of-apartheid",
+        "display_name": "apartheid legacy",
+        "score": 0.5889999866485596
+      },
+      {
+        "id": "https://openalex.org/keywords/multiculturalism",
+        "display_name": "multiculturalism",
+        "score": 0.6610000133514404
+      },
+      {
+        "id": "https://openalex.org/keywords/indian-subcontinent-migrants",
+        "display_name": "Indian subcontinent migrants",
+        "score": 0.5830000042915344
       }
     ],
     "concepts": [
@@ -20429,9 +20995,10 @@
     "locations": [
       {
         "id": "doi:10.1080/1369183x.2026.2656497",
-        "is_oa": false,
+        "doi": "https://doi.org/10.1080/1369183x.2026.2656497",
+        "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/1369183x.2026.2656497",
-        "pdf_url": null,
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2026.2656497?needAccess=true",
         "source": {
           "id": "https://openalex.org/S149872823",
           "display_name": "Journal of Ethnic and Migration Studies",
@@ -20443,18 +21010,32 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -20462,23 +21043,83 @@
         "raw_type": "journal-article"
       }
     ],
-    "best_oa_location": null,
+    "best_oa_location": {
+      "id": "doi:10.1080/1369183x.2026.2656497",
+      "doi": "https://doi.org/10.1080/1369183x.2026.2656497",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/1369183x.2026.2656497",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2026.2656497?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S149872823",
+        "display_name": "Journal of Ethnic and Migration Studies",
+        "issn_l": "1369-183X",
+        "issn": [
+          "1369-183X",
+          "1469-9451"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Ethnic and Migration Studies",
+      "raw_type": "journal-article"
+    },
     "sustainable_development_goals": [
       {
-        "display_name": "Reduced inequalities",
+        "score": 0.5676000118255615,
         "id": "https://metadata.un.org/sdg/10",
-        "score": 0.8252726793289185
+        "display_name": "Reduced inequalities"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.8252726793289185,
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": true,
+      "grobid_xml": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7154837073.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7154837073.grobid-xml"
+    },
     "referenced_works_count": 45,
     "referenced_works": [
+      "https://openalex.org/W54101659",
       "https://openalex.org/W920123921",
       "https://openalex.org/W1504298540",
       "https://openalex.org/W1642311304",
@@ -20505,11 +21146,10 @@
       "https://openalex.org/W3020834689",
       "https://openalex.org/W3081835032",
       "https://openalex.org/W3112206082",
+      "https://openalex.org/W3128258481",
       "https://openalex.org/W3159218334",
       "https://openalex.org/W4200550562",
       "https://openalex.org/W4205607846",
-      "https://openalex.org/W4206785875",
-      "https://openalex.org/W4235994204",
       "https://openalex.org/W4243381230",
       "https://openalex.org/W4244021162",
       "https://openalex.org/W4245207209",
@@ -20526,9 +21166,379 @@
       "https://openalex.org/W4405334302"
     ],
     "related_works": [],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "This": [
+        0,
+        105
+      ],
+      "paper": [
+        1,
+        106,
+        147
+      ],
+      "examines": [
+        2,
+        125
+      ],
+      "how": [
+        3,
+        108,
+        149
+      ],
+      "South": [
+        4,
+        12,
+        35,
+        48,
+        71,
+        98,
+        109
+      ],
+      "Africans": [
+        5,
+        49,
+        99,
+        110
+      ],
+      "who": [
+        6
+      ],
+      "are": [
+        7,
+        80
+      ],
+      "racialised": [
+        8,
+        60
+      ],
+      "as": [
+        9,
+        19,
+        30,
+        100
+      ],
+      "\u2018Indian\u2019": [
+        10,
+        101,
+        154
+      ],
+      "in": [
+        11,
+        25,
+        76,
+        83,
+        117,
+        159
+      ],
+      "Africa": [
+        13,
+        72
+      ],
+      "negotiate": [
+        14,
+        114
+      ],
+      "and": [
+        15,
+        23,
+        55,
+        87,
+        102,
+        130,
+        155
+      ],
+      "contest": [
+        16
+      ],
+      "this": [
+        17,
+        44,
+        95,
+        118,
+        146,
+        160
+      ],
+      "categorisation": [
+        18,
+        153
+      ],
+      "they": [
+        20
+      ],
+      "migrate": [
+        21
+      ],
+      "to": [
+        22,
+        43,
+        59,
+        140
+      ],
+      "settle": [
+        24
+      ],
+      "Australia.": [
+        26,
+        123
+      ],
+      "Australia": [
+        27
+      ],
+      "has": [
+        28
+      ],
+      "emerged": [
+        29
+      ],
+      "a": [
+        31,
+        74
+      ],
+      "key": [
+        32
+      ],
+      "destination": [
+        33,
+        45
+      ],
+      "for": [
+        34
+      ],
+      "African": [
+        36
+      ],
+      "migrants,": [
+        37,
+        132
+      ],
+      "with": [
+        38
+      ],
+      "evidence": [
+        39
+      ],
+      "indicating": [
+        40
+      ],
+      "sustained": [
+        41
+      ],
+      "movement": [
+        42
+      ],
+      "over": [
+        46
+      ],
+      "time.": [
+        47
+      ],
+      "of": [
+        50,
+        66,
+        94,
+        97,
+        111,
+        122
+      ],
+      "Indian": [
+        51,
+        112,
+        137
+      ],
+      "descent,": [
+        52
+      ],
+      "during": [
+        53
+      ],
+      "colonialism": [
+        54
+      ],
+      "apartheid,": [
+        56
+      ],
+      "were": [
+        57
+      ],
+      "subjected": [
+        58
+      ],
+      "laws": [
+        61
+      ],
+      "which": [
+        62
+      ],
+      "controlled": [
+        63
+      ],
+      "every": [
+        64
+      ],
+      "aspect": [
+        65
+      ],
+      "their": [
+        67,
+        115,
+        157
+      ],
+      "daily": [
+        68
+      ],
+      "lives.": [
+        69
+      ],
+      "Although": [
+        70
+      ],
+      "became": [
+        73
+      ],
+      "democracy": [
+        75
+      ],
+      "1994,": [
+        77
+      ],
+      "racial": [
+        78
+      ],
+      "categories": [
+        79
+      ],
+      "still": [
+        81
+      ],
+      "used": [
+        82
+      ],
+      "legislation,": [
+        84
+      ],
+      "policies,": [
+        85
+      ],
+      "statistics": [
+        86
+      ],
+      "everyday": [
+        88
+      ],
+      "discourse": [
+        89
+      ],
+      "thus": [
+        90
+      ],
+      "perpetuating": [
+        91
+      ],
+      "the": [
+        92,
+        126,
+        136,
+        152
+      ],
+      "notion": [
+        93
+      ],
+      "group": [
+        96
+      ],
+      "ultimately": [
+        103
+      ],
+      "\u2018other\u2019.": [
+        104
+      ],
+      "explores": [
+        107
+      ],
+      "descent": [
+        113
+      ],
+      "identities": [
+        116
+      ],
+      "new": [
+        119
+      ],
+      "\u2018multicultural\u2019": [
+        120
+      ],
+      "context": [
+        121
+      ],
+      "It": [
+        124
+      ],
+      "way": [
+        127
+      ],
+      "that": [
+        128
+      ],
+      "Australians": [
+        129
+      ],
+      "other": [
+        131
+      ],
+      "especially": [
+        133
+      ],
+      "those": [
+        134
+      ],
+      "from": [
+        135
+      ],
+      "subcontinent,": [
+        138
+      ],
+      "come": [
+        139
+      ],
+      "perceive": [
+        141
+      ],
+      "them.": [
+        142
+      ],
+      "In": [
+        143
+      ],
+      "so": [
+        144
+      ],
+      "doing,": [
+        145
+      ],
+      "reveals": [
+        148
+      ],
+      "participants": [
+        150
+      ],
+      "resist": [
+        151
+      ],
+      "redefine": [
+        156
+      ],
+      "identity": [
+        158
+      ],
+      "transnational": [
+        161
+      ],
+      "context.": [
+        162
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2026-04-19T06:13:49.729154",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2026-04-19T00:00:00"
   },
   {

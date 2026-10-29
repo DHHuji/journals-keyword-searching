@@ -39030,7 +39030,7 @@
     "doi": "https://doi.org/10.1086/739758",
     "title": "Literature as Soft Power",
     "display_name": "Literature as Soft Power",
-    "relevance_score": 0.6108383,
+    "relevance_score": 1.1992958,
     "publication_year": 2026,
     "publication_date": "2026-03-01",
     "ids": {
@@ -39040,6 +39040,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/739758",
+      "doi": "https://doi.org/10.1086/739758",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/739758",
       "pdf_url": null,
@@ -39054,6 +39055,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -39074,6 +39084,7 @@
       "raw_source_name": "Critical Inquiry",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -39088,17 +39099,21 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5130238223",
+          "id": "https://openalex.org/A5022213846",
           "display_name": "Alexandre Gefen",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0001-6751-6747",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6751-6747"
+          ]
         },
         "institutions": [],
         "countries": [],
-        "is_corresponding": true,
+        "is_corresponding": false,
         "raw_author_name": "Alexandre Gefen",
         "raw_affiliation_strings": [
           ""
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "",
@@ -39109,24 +39124,26 @@
       {
         "author_position": "last",
         "author": {
-          "id": "https://openalex.org/A5130247256",
+          "id": "https://openalex.org/A5007745706",
           "display_name": "Despina Jderu",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-5531-8433",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5531-8433"
+          ]
         },
         "institutions": [],
         "countries": [],
         "is_corresponding": false,
         "raw_author_name": "Despina Jderu",
         "raw_affiliation_strings": [],
+        "raw_orcid": null,
         "affiliations": []
       }
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 2,
-    "corresponding_author_ids": [
-      "https://openalex.org/A5130238223"
-    ],
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [],
     "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
@@ -39134,9 +39151,9 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.95807222,
+      "value": 0.16570454,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
@@ -39151,7 +39168,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T13778",
       "display_name": "Comparative and World Literature",
-      "score": 0.05640000104904175,
+      "score": 0.5576000213623047,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -39169,7 +39186,7 @@
       {
         "id": "https://openalex.org/T13778",
         "display_name": "Comparative and World Literature",
-        "score": 0.05640000104904175,
+        "score": 0.5576000213623047,
         "subfield": {
           "id": "https://openalex.org/subfields/1208",
           "display_name": "Literature and Literary Theory"
@@ -39186,7 +39203,7 @@
       {
         "id": "https://openalex.org/T11717",
         "display_name": "Postcolonial and Cultural Literary Studies",
-        "score": 0.040800001472234726,
+        "score": 0.2249000072479248,
         "subfield": {
           "id": "https://openalex.org/subfields/1208",
           "display_name": "Literature and Literary Theory"
@@ -39201,16 +39218,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13245",
-        "display_name": "Samuel Beckett and Modernism",
-        "score": 0.032999999821186066,
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.16110000014305115,
         "subfield": {
-          "id": "https://openalex.org/subfields/1208",
-          "display_name": "Literature and Literary Theory"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -39220,34 +39237,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/geopolitics",
-        "display_name": "Geopolitics",
-        "score": 0.9257000088691711
-      },
-      {
         "id": "https://openalex.org/keywords/soft-power",
-        "display_name": "Soft power",
-        "score": 0.7379000186920166
+        "display_name": "soft power",
+        "score": 0.8410000205039978
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.7089999914169312
+        "id": "https://openalex.org/keywords/world-literature",
+        "display_name": "world literature",
+        "score": 0.9620000123977661
       },
       {
-        "id": "https://openalex.org/keywords/falling",
-        "display_name": "Falling (accident)",
-        "score": 0.6146000027656555
+        "id": "https://openalex.org/keywords/literature-and-politics",
+        "display_name": "literature and politics",
+        "score": 0.7599999904632568
       },
       {
-        "id": "https://openalex.org/keywords/power",
-        "display_name": "Power (physics)",
-        "score": 0.6036999821662903
+        "id": "https://openalex.org/keywords/geopolitics",
+        "display_name": "geopolitics",
+        "score": 0.6230000257492065
       },
       {
-        "id": "https://openalex.org/keywords/lens",
-        "display_name": "Lens (geology)",
-        "score": 0.4505999982357025
+        "id": "https://openalex.org/keywords/american-isolationism",
+        "display_name": "American isolationism",
+        "score": 0.7200000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/neo-imperialism",
+        "display_name": "neo-imperialism",
+        "score": 0.9399999976158142
+      },
+      {
+        "id": "https://openalex.org/keywords/us-foreign-policy",
+        "display_name": "US foreign policy",
+        "score": 0.625
       }
     ],
     "concepts": [
@@ -39369,6 +39391,7 @@
     "locations": [
       {
         "id": "doi:10.1086/739758",
+        "doi": "https://doi.org/10.1086/739758",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/739758",
         "pdf_url": null,
@@ -39383,6 +39406,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -39405,13 +39437,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "display_name": "Reduced inequalities",
         "score": 0.544194221496582,
-        "id": "https://metadata.un.org/sdg/10"
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -39422,8 +39456,8 @@
     "referenced_works_count": 3,
     "referenced_works": [
       "https://openalex.org/W2329578460",
-      "https://openalex.org/W4241252602",
-      "https://openalex.org/W4248433497"
+      "https://openalex.org/W2344967523",
+      "https://openalex.org/W4241252602"
     ],
     "related_works": [],
     "abstract_inverted_index": {
@@ -39516,7 +39550,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-03-22T06:25:25.174409",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2026-03-21T00:00:00"
   },
   {
@@ -51439,5 +51473,1035 @@
     ],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7204836535",
+    "doi": "https://doi.org/10.1086/742476",
+    "title": "Memory Machines",
+    "display_name": "Memory Machines",
+    "relevance_score": 0.66150796,
+    "publication_year": 2026,
+    "publication_date": "2026-08-31",
+    "ids": {
+      "openalex": "https://openalex.org/W7204836535",
+      "doi": "https://doi.org/10.1086/742476"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1086/742476",
+      "doi": "https://doi.org/10.1086/742476",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1086/742476",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S121755651",
+        "display_name": "Critical Inquiry",
+        "issn_l": "0093-1896",
+        "issn": [
+          "0093-1896",
+          "1539-7858"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310315672",
+        "host_organization_name": "University of Chicago Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315672",
+          "https://openalex.org/P4310315690"
+        ],
+        "host_organization_lineage_names": [
+          "University of Chicago Press",
+          "University of Chicago"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Critical Inquiry",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5148773953",
+          "display_name": "Jessica Sherrill",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Jessica Sherrill",
+        "raw_affiliation_strings": [],
+        "raw_orcid": null,
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5148773953"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.73674504,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "53",
+      "issue": "1",
+      "first_page": "49",
+      "last_page": "76"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13308",
+      "display_name": "Cybernetics and Technology in Society",
+      "score": 0.948199987411499,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1207",
+        "display_name": "History and Philosophy of Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13308",
+        "display_name": "Cybernetics and Technology in Society",
+        "score": 0.948199987411499,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1207",
+          "display_name": "History and Philosophy of Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12377",
+        "display_name": "Digital Humanities and Scholarship",
+        "score": 0.015699999406933784,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1208",
+          "display_name": "Literature and Literary Theory"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12797",
+        "display_name": "History of Computing Technologies",
+        "score": 0.01360000018030405,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1706",
+          "display_name": "Computer Science Applications"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/artificial-memory",
+        "display_name": "artificial memory",
+        "score": 0.6729999780654907
+      },
+      {
+        "id": "https://openalex.org/keywords/mnemonics",
+        "display_name": "mnemonics",
+        "score": 0.9729999899864197
+      },
+      {
+        "id": "https://openalex.org/keywords/samuel-taylor-coleridge",
+        "display_name": "Samuel Taylor Coleridge",
+        "score": 0.8560000061988831
+      },
+      {
+        "id": "https://openalex.org/keywords/biographia-literaria",
+        "display_name": "Biographia Literaria",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/random-access-memory",
+        "display_name": "random access memory",
+        "score": 0.7979999780654907
+      },
+      {
+        "id": "https://openalex.org/keywords/history-of-computing",
+        "display_name": "history of computing",
+        "score": 0.7450000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/chartism",
+        "display_name": "Chartism",
+        "score": 0.7450000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/abolitionism",
+        "display_name": "abolitionism",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/democratization-of-knowledge",
+        "display_name": "democratization of knowledge",
+        "score": 0.9120000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/19th-century-technology",
+        "display_name": "19th-century technology",
+        "score": 0.4779999852180481
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C197792726",
+        "wikidata": "https://www.wikidata.org/wiki/Q191062",
+        "display_name": "Mnemonic",
+        "level": 2,
+        "score": 0.9437000155448914
+      },
+      {
+        "id": "https://openalex.org/C100660578",
+        "wikidata": "https://www.wikidata.org/wiki/Q18733",
+        "display_name": "Recall",
+        "level": 2,
+        "score": 0.47350001335144043
+      },
+      {
+        "id": "https://openalex.org/C188147891",
+        "wikidata": "https://www.wikidata.org/wiki/Q147638",
+        "display_name": "Cognitive science",
+        "level": 1,
+        "score": 0.45010000467300415
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.42969998717308044
+      },
+      {
+        "id": "https://openalex.org/C90734943",
+        "wikidata": "https://www.wikidata.org/wiki/Q17008777",
+        "display_name": "Conceptualization",
+        "level": 2,
+        "score": 0.37389999628067017
+      },
+      {
+        "id": "https://openalex.org/C2775992745",
+        "wikidata": "https://www.wikidata.org/wiki/Q6815763",
+        "display_name": "Memory work",
+        "level": 2,
+        "score": 0.34769999980926514
+      },
+      {
+        "id": "https://openalex.org/C53442348",
+        "wikidata": "https://www.wikidata.org/wiki/Q745101",
+        "display_name": "Content-addressable memory",
+        "level": 3,
+        "score": 0.31029999256134033
+      },
+      {
+        "id": "https://openalex.org/C154945302",
+        "wikidata": "https://www.wikidata.org/wiki/Q11660",
+        "display_name": "Artificial intelligence",
+        "level": 1,
+        "score": 0.3041999936103821
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.30410000681877136
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.2937999963760376
+      },
+      {
+        "id": "https://openalex.org/C67448173",
+        "wikidata": "https://www.wikidata.org/wiki/Q254217",
+        "display_name": "Collective memory",
+        "level": 2,
+        "score": 0.28130000829696655
+      },
+      {
+        "id": "https://openalex.org/C12186640",
+        "wikidata": "https://www.wikidata.org/wiki/Q6815743",
+        "display_name": "Memory model",
+        "level": 3,
+        "score": 0.2766999900341034
+      },
+      {
+        "id": "https://openalex.org/C2185349",
+        "wikidata": "https://www.wikidata.org/wiki/Q190558",
+        "display_name": "Negation",
+        "level": 2,
+        "score": 0.27309998869895935
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.2709999978542328
+      },
+      {
+        "id": "https://openalex.org/C33676613",
+        "wikidata": "https://www.wikidata.org/wiki/Q13415176",
+        "display_name": "Dimension (graph theory)",
+        "level": 2,
+        "score": 0.26669999957084656
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.2572999894618988
+      },
+      {
+        "id": "https://openalex.org/C156737912",
+        "wikidata": "https://www.wikidata.org/wiki/Q7302799",
+        "display_name": "Reconstructive memory",
+        "level": 5,
+        "score": 0.25609999895095825
+      },
+      {
+        "id": "https://openalex.org/C2780138299",
+        "wikidata": "https://www.wikidata.org/wiki/Q3404265",
+        "display_name": "Privilege (computing)",
+        "level": 2,
+        "score": 0.25290000438690186
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1086/742476",
+        "doi": "https://doi.org/10.1086/742476",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1086/742476",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S121755651",
+          "display_name": "Critical Inquiry",
+          "issn_l": "0093-1896",
+          "issn": [
+            "0093-1896",
+            "1539-7858"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310315672",
+          "host_organization_name": "University of Chicago Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315672",
+            "https://openalex.org/P4310315690"
+          ],
+          "host_organization_lineage_names": [
+            "University of Chicago Press",
+            "University of Chicago"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Critical Inquiry",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.6397521495819092,
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 6,
+    "referenced_works": [
+      "https://openalex.org/W1967702536",
+      "https://openalex.org/W1978252960",
+      "https://openalex.org/W1984337085",
+      "https://openalex.org/W1994728723",
+      "https://openalex.org/W2479382276",
+      "https://openalex.org/W4243754800"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "This": [
+        0,
+        201
+      ],
+      "essay": [
+        1
+      ],
+      "tells": [
+        2
+      ],
+      "the": [
+        3,
+        25,
+        60,
+        75,
+        85,
+        109,
+        129,
+        137,
+        179,
+        213,
+        220,
+        244
+      ],
+      "story": [
+        4
+      ],
+      "of": [
+        5,
+        28,
+        43,
+        64,
+        96,
+        133,
+        139,
+        151,
+        191,
+        216,
+        223
+      ],
+      "how": [
+        6,
+        24
+      ],
+      "nineteenth-century": [
+        7
+      ],
+      "artificial": [
+        8,
+        86,
+        144,
+        184,
+        229
+      ],
+      "memory": [
+        9,
+        68,
+        77,
+        87,
+        119,
+        145,
+        185
+      ],
+      "systems": [
+        10,
+        146,
+        186
+      ],
+      "came": [
+        11
+      ],
+      "to": [
+        12,
+        194,
+        243
+      ],
+      "be": [
+        13
+      ],
+      "understood": [
+        14,
+        116
+      ],
+      "as": [
+        15,
+        73,
+        92,
+        118,
+        206,
+        238
+      ],
+      "autonomous": [
+        16,
+        122
+      ],
+      "machines": [
+        17,
+        120
+      ],
+      "that": [
+        18,
+        52,
+        98,
+        125,
+        153
+      ],
+      "produced": [
+        19
+      ],
+      "random-access": [
+        20,
+        67
+      ],
+      "memory.": [
+        21
+      ],
+      "It": [
+        22
+      ],
+      "examines": [
+        23
+      ],
+      "1730": [
+        26
+      ],
+      "creation": [
+        27
+      ],
+      "a": [
+        29,
+        35,
+        82,
+        94,
+        148,
+        188
+      ],
+      "new": [
+        30,
+        149,
+        164,
+        202,
+        209
+      ],
+      "hexametric": [
+        31
+      ],
+      "mnemonic": [
+        32,
+        165
+      ],
+      "system": [
+        33
+      ],
+      "sparked": [
+        34
+      ],
+      "philosophical": [
+        36
+      ],
+      "crisis": [
+        37
+      ],
+      "by": [
+        38,
+        169
+      ],
+      "popularizing": [
+        39
+      ],
+      "an": [
+        40,
+        207
+      ],
+      "alternative": [
+        41
+      ],
+      "means": [
+        42,
+        190
+      ],
+      "remembering": [
+        44
+      ],
+      "via": [
+        45
+      ],
+      "nonsense": [
+        46
+      ],
+      "associations.": [
+        47
+      ],
+      "Tracing": [
+        48
+      ],
+      "this": [
+        49,
+        163
+      ],
+      "discourse": [
+        50
+      ],
+      "reveals": [
+        51
+      ],
+      "Samuel": [
+        53
+      ],
+      "Taylor": [
+        54
+      ],
+      "Coleridge\u2019s": [
+        55
+      ],
+      "Biographia": [
+        56
+      ],
+      "Literaria": [
+        57
+      ],
+      "(1817)": [
+        58
+      ],
+      "offers": [
+        59
+      ],
+      "first": [
+        61
+      ],
+      "modern": [
+        62
+      ],
+      "conceptualization": [
+        63
+      ],
+      "external": [
+        65
+      ],
+      "mechanical": [
+        66
+      ],
+      "(RAM).": [
+        69
+      ],
+      "Coleridge": [
+        70
+      ],
+      "represents": [
+        71
+      ],
+      "mnemonics": [
+        72,
+        91,
+        117,
+        205
+      ],
+      "destroying": [
+        74
+      ],
+      "innate": [
+        76
+      ],
+      "and": [
+        78,
+        113,
+        158,
+        176,
+        198
+      ],
+      "replacing": [
+        79
+      ],
+      "it": [
+        80
+      ],
+      "with": [
+        81,
+        227
+      ],
+      "separate": [
+        83
+      ],
+      "machine,": [
+        84
+      ],
+      "system.": [
+        88
+      ],
+      "He": [
+        89
+      ],
+      "describes": [
+        90
+      ],
+      "enacting": [
+        93
+      ],
+      "form": [
+        95,
+        150
+      ],
+      "recall": [
+        97,
+        123,
+        152
+      ],
+      "1950s": [
+        99
+      ],
+      "computer": [
+        100
+      ],
+      "scientists": [
+        101
+      ],
+      "would": [
+        102
+      ],
+      "later": [
+        103
+      ],
+      "term": [
+        104
+      ],
+      "random": [
+        105
+      ],
+      "access": [
+        106
+      ],
+      ".": [
+        107,
+        218
+      ],
+      "By": [
+        108
+      ],
+      "1840s,": [
+        110
+      ],
+      "Victorian": [
+        111
+      ],
+      "proponents": [
+        112
+      ],
+      "critics": [
+        114
+      ],
+      "universally": [
+        115
+      ],
+      ":": [
+        121
+      ],
+      "technologies": [
+        124,
+        230
+      ],
+      "were": [
+        126
+      ],
+      "embedded": [
+        127
+      ],
+      "in": [
+        128,
+        174,
+        178,
+        212
+      ],
+      "mind": [
+        130
+      ],
+      "but": [
+        131
+      ],
+      "not": [
+        132
+      ],
+      "it.": [
+        134
+      ],
+      "Freed": [
+        135
+      ],
+      "from": [
+        136
+      ],
+      "constraints": [
+        138
+      ],
+      "logical": [
+        140
+      ],
+      "relations": [
+        141
+      ],
+      "between": [
+        142
+      ],
+      "ideas,": [
+        143
+      ],
+      "created": [
+        147
+      ],
+      "was": [
+        154,
+        167
+      ],
+      "instantaneous,": [
+        155
+      ],
+      "virtually": [
+        156
+      ],
+      "infinite,": [
+        157
+      ],
+      "readily": [
+        159
+      ],
+      "purchasable.": [
+        160
+      ],
+      "Yet": [
+        161
+      ],
+      "surprisingly,": [
+        162
+      ],
+      "technology": [
+        166
+      ],
+      "lauded": [
+        168
+      ],
+      "radical": [
+        170
+      ],
+      "working-class": [
+        171
+      ],
+      "liberation": [
+        172
+      ],
+      "movements\u2014Chartism": [
+        173
+      ],
+      "Britain": [
+        175
+      ],
+      "abolitionism": [
+        177
+      ],
+      "United": [
+        180
+      ],
+      "States.": [
+        181
+      ],
+      "For": [
+        182
+      ],
+      "them,": [
+        183
+      ],
+      "offered": [
+        187
+      ],
+      "revolutionary": [
+        189
+      ],
+      "democratizing": [
+        192
+      ],
+      "knowledge": [
+        193
+      ],
+      "produce": [
+        195
+      ],
+      "greater": [
+        196
+      ],
+      "socioeconomic": [
+        197
+      ],
+      "racial": [
+        199
+      ],
+      "equity.": [
+        200
+      ],
+      "picture": [
+        203
+      ],
+      "positions": [
+        204
+      ],
+      "exciting": [
+        208
+      ],
+      "literary": [
+        210
+      ],
+      "dimension": [
+        211
+      ],
+      "expanded": [
+        214
+      ],
+      "histories": [
+        215
+      ],
+      "computing(s)": [
+        217
+      ],
+      "Recovering": [
+        219
+      ],
+      "historical": [
+        221
+      ],
+      "existence": [
+        222
+      ],
+      "more": [
+        224
+      ],
+      "democratic": [
+        225
+      ],
+      "alignments": [
+        226
+      ],
+      "emerging": [
+        228
+      ],
+      "also": [
+        231
+      ],
+      "provides": [
+        232
+      ],
+      "valuable": [
+        233
+      ],
+      "strategies": [
+        234
+      ],
+      "for": [
+        235
+      ],
+      "today\u2019s": [
+        236
+      ],
+      "humanists": [
+        237
+      ],
+      "they": [
+        239
+      ],
+      "formulate": [
+        240
+      ],
+      "critical": [
+        241
+      ],
+      "responses": [
+        242
+      ],
+      "contemporary": [
+        245
+      ],
+      "AI": [
+        246
+      ],
+      "boom.": [
+        247
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-02T07:38:04.252551",
+    "created_date": "2026-09-01T00:00:00"
   }
 ]

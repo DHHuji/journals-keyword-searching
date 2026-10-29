@@ -9507,7 +9507,7 @@
     "doi": "https://doi.org/10.1215/0094033x-12158789",
     "title": "Gaza, Ukraine, and the Lessons of the Nazi Past",
     "display_name": "Gaza, Ukraine, and the Lessons of the Nazi Past",
-    "relevance_score": 0.9951956,
+    "relevance_score": 2.8080082,
     "publication_year": 2026,
     "publication_date": "2026-02-01",
     "ids": {
@@ -9517,6 +9517,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1215/0094033x-12158789",
+      "doi": "https://doi.org/10.1215/0094033x-12158789",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1215/0094033x-12158789",
       "pdf_url": null,
@@ -9531,6 +9532,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315698",
         "host_organization_name": "Duke University Press",
         "host_organization_lineage": [
@@ -9551,6 +9561,7 @@
       "raw_source_name": "New German Critique",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -9567,7 +9578,10 @@
         "author": {
           "id": "https://openalex.org/A5081068367",
           "display_name": "Hans Kundnani",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0007-1559-0364",
+          "observed_orcids": [
+            "https://orcid.org/0009-0007-1559-0364"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -9580,22 +9594,25 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5081068367"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": 11.6742,
     "has_fulltext": false,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.2710382,
+      "value": 0.95945351,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "is_in_top_10_percent": true
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": "53",
       "issue": "1",
@@ -9608,7 +9625,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T13537",
       "display_name": "German legal, social, and political studies",
-      "score": 0.2168000042438507,
+      "score": 0.899399995803833,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -9626,7 +9643,7 @@
       {
         "id": "https://openalex.org/T13537",
         "display_name": "German legal, social, and political studies",
-        "score": 0.2168000042438507,
+        "score": 0.899399995803833,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -9641,26 +9658,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T14441",
-        "display_name": "Religion, Theology, History, Judaism, Christianity",
-        "score": 0.09470000118017197,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T13484",
         "display_name": "German History and Society",
-        "score": 0.048700001090765,
+        "score": 0.046300001442432404,
         "subfield": {
           "id": "https://openalex.org/subfields/1202",
           "display_name": "History"
@@ -9673,33 +9673,65 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 0.021700000390410423,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/nazism",
-        "display_name": "Nazism",
-        "score": 0.9398999810218811
+        "id": "https://openalex.org/keywords/german-foreign-policy",
+        "display_name": "German foreign policy",
+        "score": 0.6520000100135803
       },
       {
-        "id": "https://openalex.org/keywords/german",
-        "display_name": "German",
-        "score": 0.8082000017166138
+        "id": "https://openalex.org/keywords/nazi-past",
+        "display_name": "Nazi past",
+        "score": 0.6740000247955322
       },
       {
-        "id": "https://openalex.org/keywords/relation",
-        "display_name": "Relation (database)",
-        "score": 0.7376999855041504
+        "id": "https://openalex.org/keywords/historikerstreit",
+        "display_name": "Historikerstreit",
+        "score": 0.8659999966621399
       },
       {
-        "id": "https://openalex.org/keywords/nazi-germany",
-        "display_name": "Nazi Germany",
-        "score": 0.5953999757766724
+        "id": "https://openalex.org/keywords/russia-ukraine-war",
+        "display_name": "Russian invasion of Ukraine",
+        "score": 0.6840000152587891
       },
       {
-        "id": "https://openalex.org/keywords/foreign-policy",
-        "display_name": "Foreign policy",
-        "score": 0.42089998722076416
+        "id": "https://openalex.org/keywords/german-israeli-relations",
+        "display_name": "German-Israeli relations",
+        "score": 0.6600000262260437
+      },
+      {
+        "id": "https://openalex.org/keywords/singularities",
+        "display_name": "singularities",
+        "score": 0.47600001096725464
+      },
+      {
+        "id": "https://openalex.org/keywords/peace",
+        "display_name": "peace",
+        "score": 0.4269999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/national-identity",
+        "display_name": "national identity",
+        "score": 0.6340000033378601
       }
     ],
     "concepts": [
@@ -9814,6 +9846,7 @@
     "locations": [
       {
         "id": "doi:10.1215/0094033x-12158789",
+        "doi": "https://doi.org/10.1215/0094033x-12158789",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1215/0094033x-12158789",
         "pdf_url": null,
@@ -9828,6 +9861,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315698",
           "host_organization_name": "Duke University Press",
           "host_organization_lineage": [
@@ -9850,12 +9892,20 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.8999999761581421,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 4,
@@ -9863,9 +9913,20 @@
       "https://openalex.org/W2323541426",
       "https://openalex.org/W2506318594",
       "https://openalex.org/W2968544002",
-      "https://openalex.org/W4407238654"
+      "https://openalex.org/W6925408111"
     ],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W6904128512",
+      "https://openalex.org/W1597870009",
+      "https://openalex.org/W6925408111",
+      "https://openalex.org/W7117567923",
+      "https://openalex.org/W4386636743",
+      "https://openalex.org/W4302616814",
+      "https://openalex.org/W483075141",
+      "https://openalex.org/W4414655120",
+      "https://openalex.org/W7131640065",
+      "https://openalex.org/W2737480107"
+    ],
     "abstract_inverted_index": {
       "This": [
         0
@@ -10169,8 +10230,13 @@
         126
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2026-02-27T00:00:00"
   },
   {

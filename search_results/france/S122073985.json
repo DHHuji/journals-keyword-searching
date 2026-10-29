@@ -119099,7 +119099,7 @@
     "doi": "https://doi.org/10.1017/s0022050725101034",
     "title": "Eligibility to the Central Bank in Times of Crises: Evidence from France, 1863\u20131890",
     "display_name": "Eligibility to the Central Bank in Times of Crises: Evidence from France, 1863\u20131890",
-    "relevance_score": 9.518083,
+    "relevance_score": 23.981052,
     "publication_year": 2026,
     "publication_date": "2026-04-30",
     "ids": {
@@ -119109,9 +119109,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0022050725101034",
+      "doi": "https://doi.org/10.1017/s0022050725101034",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725101034",
-      "pdf_url": null,
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7A75D90284060E888679B42349946755/S0022050725101034a.pdf/div-class-title-eligibility-to-the-central-bank-in-times-of-crises-evidence-from-france-1863-1890-div.pdf",
       "source": {
         "id": "https://openalex.org/S122073985",
         "display_name": "The Journal of Economic History",
@@ -119123,6 +119124,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -119143,6 +119157,7 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -119150,7 +119165,7 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1017/s0022050725101034",
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7A75D90284060E888679B42349946755/S0022050725101034a.pdf/div-class-title-eligibility-to-the-central-bank-in-times-of-crises-evidence-from-france-1863-1890-div.pdf",
       "any_repository_has_fulltext": false
     },
     "authorships": [
@@ -119159,7 +119174,8 @@
         "author": {
           "id": "https://openalex.org/A5058822367",
           "display_name": "Vincent Bignon",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -119176,7 +119192,7 @@
         "countries": [
           "FR"
         ],
-        "is_corresponding": true,
+        "is_corresponding": false,
         "raw_author_name": "Vincent Bignon",
         "raw_affiliation_strings": [
           "Aix-Marseille University"
@@ -119196,7 +119212,10 @@
         "author": {
           "id": "https://openalex.org/A5043814451",
           "display_name": "Clemens Jobst",
-          "orcid": "https://orcid.org/0000-0001-5858-588X"
+          "orcid": "https://orcid.org/0000-0001-5858-588X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5858-588X"
+          ]
         },
         "institutions": [
           {
@@ -119213,7 +119232,7 @@
         "countries": [
           "AT"
         ],
-        "is_corresponding": false,
+        "is_corresponding": true,
         "raw_author_name": "Clemens Jobst",
         "raw_affiliation_strings": [
           "Universit\u00e4t Wien"
@@ -119233,38 +119252,46 @@
     "countries_distinct_count": 2,
     "institutions_distinct_count": 2,
     "corresponding_author_ids": [
-      "https://openalex.org/A5058822367"
+      "https://openalex.org/A5043814451"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I21491767"
+      "https://openalex.org/I129774422"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.94449997,
+      "value": 0.27073643,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": "1",
-      "last_page": "34"
+      "volume": "86",
+      "issue": "2",
+      "first_page": "537",
+      "last_page": "570"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10605",
-      "display_name": "Historical Economic and Social Studies",
-      "score": 0.26739999651908875,
+      "id": "https://openalex.org/T10127",
+      "display_name": "Banking stability, regulation, efficiency",
+      "score": 0.4603999853134155,
       "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
+        "id": "https://openalex.org/subfields/2003",
+        "display_name": "Finance"
       },
       "field": {
         "id": "https://openalex.org/fields/20",
@@ -119277,9 +119304,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T10127",
+        "display_name": "Banking stability, regulation, efficiency",
+        "score": 0.4603999853134155,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2003",
+          "display_name": "Finance"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T10605",
         "display_name": "Historical Economic and Social Studies",
-        "score": 0.26739999651908875,
+        "score": 0.3686999976634979,
         "subfield": {
           "id": "https://openalex.org/subfields/2002",
           "display_name": "Economics and Econometrics"
@@ -119294,33 +119338,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T14094",
-        "display_name": "Italy: Economic History and Contemporary Issues",
-        "score": 0.13169999420642853,
+        "id": "https://openalex.org/T10007",
+        "display_name": "Monetary Policy and Economic Impact",
+        "score": 0.15379999577999115,
         "subfield": {
-          "id": "https://openalex.org/subfields/2002",
-          "display_name": "Economics and Econometrics"
+          "id": "https://openalex.org/subfields/2000",
+          "display_name": "General Economics, Econometrics and Finance"
         },
         "field": {
           "id": "https://openalex.org/fields/20",
           "display_name": "Economics, Econometrics and Finance"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12312",
-        "display_name": "Culture, Economy, and Development Studies",
-        "score": 0.11909999698400497,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3317",
-          "display_name": "Demography"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -119330,34 +119357,34 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/default",
-        "display_name": "Default",
-        "score": 0.8335999846458435
+        "id": "https://openalex.org/keywords/discount-window",
+        "display_name": "discount window",
+        "score": 0.9100000262260437
       },
       {
-        "id": "https://openalex.org/keywords/central-bank",
-        "display_name": "Central bank",
-        "score": 0.6771000027656555
+        "id": "https://openalex.org/keywords/economic-crisis",
+        "display_name": "economic crisis",
+        "score": 0.7570000290870667
       },
       {
-        "id": "https://openalex.org/keywords/asset",
-        "display_name": "Asset (computer security)",
-        "score": 0.6158000230789185
+        "id": "https://openalex.org/keywords/bank-default",
+        "display_name": "bank default",
+        "score": 0.46700000762939453
       },
       {
-        "id": "https://openalex.org/keywords/shock",
-        "display_name": "Shock (circulatory)",
-        "score": 0.4941999912261963
+        "id": "https://openalex.org/keywords/safe-assets",
+        "display_name": "safe assets",
+        "score": 0.5289999842643738
       },
       {
-        "id": "https://openalex.org/keywords/empirical-evidence",
-        "display_name": "Empirical evidence",
-        "score": 0.4823000133037567
+        "id": "https://openalex.org/keywords/19th-century-france",
+        "display_name": "19th-century France",
+        "score": 0.7459999918937683
       },
       {
-        "id": "https://openalex.org/keywords/exploit",
-        "display_name": "Exploit",
-        "score": 0.4521999955177307
+        "id": "https://openalex.org/keywords/monetary-policy",
+        "display_name": "monetary policy",
+        "score": 0.39800000190734863
       }
     ],
     "concepts": [
@@ -119472,9 +119499,10 @@
     "locations": [
       {
         "id": "doi:10.1017/s0022050725101034",
+        "doi": "https://doi.org/10.1017/s0022050725101034",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0022050725101034",
-        "pdf_url": null,
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7A75D90284060E888679B42349946755/S0022050725101034a.pdf/div-class-title-eligibility-to-the-central-bank-in-times-of-crises-evidence-from-france-1863-1890-div.pdf",
         "source": {
           "id": "https://openalex.org/S122073985",
           "display_name": "The Journal of Economic History",
@@ -119486,6 +119514,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -119509,9 +119550,10 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0022050725101034",
+      "doi": "https://doi.org/10.1017/s0022050725101034",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725101034",
-      "pdf_url": null,
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7A75D90284060E888679B42349946755/S0022050725101034a.pdf/div-class-title-eligibility-to-the-central-bank-in-times-of-crises-evidence-from-france-1863-1890-div.pdf",
       "source": {
         "id": "https://openalex.org/S122073985",
         "display_name": "The Journal of Economic History",
@@ -119523,6 +119565,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -119543,22 +119598,28 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "id": "https://metadata.un.org/sdg/2",
+        "display_name": "Zero hunger",
         "score": 0.6184797883033752,
-        "display_name": "Zero hunger"
+        "id": "https://metadata.un.org/sdg/2"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "pdf": true,
+      "grobid_xml": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7160137409.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7160137409.grobid-xml"
+    },
     "referenced_works_count": 20,
     "referenced_works": [
+      "https://openalex.org/W1485157279",
       "https://openalex.org/W1553694021",
       "https://openalex.org/W1988711947",
       "https://openalex.org/W2024846750",
@@ -119572,13 +119633,12 @@
       "https://openalex.org/W2618379012",
       "https://openalex.org/W2908362916",
       "https://openalex.org/W3121486081",
-      "https://openalex.org/W3122474982",
-      "https://openalex.org/W3123748143",
+      "https://openalex.org/W3123709804",
       "https://openalex.org/W3125472679",
       "https://openalex.org/W3150456531",
       "https://openalex.org/W3168661866",
       "https://openalex.org/W4251969860",
-      "https://openalex.org/W7139079391"
+      "https://openalex.org/W7138883165"
     ],
     "related_works": [],
     "abstract_inverted_index": {
@@ -119842,7 +119902,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-05T06:12:25.323381",
+    "updated_date": "2026-10-27T15:51:10.671819",
     "created_date": "2026-05-05T00:00:00"
   },
   {
@@ -189071,7 +189131,7 @@
     "doi": "https://doi.org/10.1017/s0022050725000208",
     "title": "Tropical Despotisms: Enlightened Reform in the French Caribbean. By David Allen Harvey . Ithaca, NY: Cornell University Press, 2024. Pp. 306. $64.95, hardcover.",
     "display_name": "Tropical Despotisms: Enlightened Reform in the French Caribbean. By David Allen Harvey . Ithaca, NY: Cornell University Press, 2024. Pp. 306. $64.95, hardcover.",
-    "relevance_score": 6.3264065,
+    "relevance_score": 16.298681,
     "publication_year": 2025,
     "publication_date": "2025-06-01",
     "ids": {
@@ -189081,6 +189141,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0022050725000208",
+      "doi": "https://doi.org/10.1017/s0022050725000208",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1017/s0022050725000208",
       "pdf_url": null,
@@ -189095,6 +189156,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -189115,7 +189189,8 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -189131,7 +189206,10 @@
         "author": {
           "id": "https://openalex.org/A5085688284",
           "display_name": "Craig Palsson",
-          "orcid": "https://orcid.org/0000-0002-0330-9973"
+          "orcid": "https://orcid.org/0000-0002-0330-9973",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0330-9973"
+          ]
         },
         "institutions": [
           {
@@ -189153,6 +189231,7 @@
         "raw_affiliation_strings": [
           "Utah State University"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Utah State University",
@@ -189172,16 +189251,16 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I121980950"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.2246313,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "85",
@@ -189195,7 +189274,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12144",
       "display_name": "Colonialism, slavery, and trade",
-      "score": 0.9952999949455261,
+      "score": 0.7782999873161316,
       "subfield": {
         "id": "https://openalex.org/subfields/3314",
         "display_name": "Anthropology"
@@ -189213,7 +189292,7 @@
       {
         "id": "https://openalex.org/T12144",
         "display_name": "Colonialism, slavery, and trade",
-        "score": 0.9952999949455261,
+        "score": 0.7782999873161316,
         "subfield": {
           "id": "https://openalex.org/subfields/3314",
           "display_name": "Anthropology"
@@ -189228,12 +189307,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T13641",
-        "display_name": "Historical Studies and Socio-cultural Analysis",
-        "score": 0.9739999771118164,
+        "id": "https://openalex.org/T13222",
+        "display_name": "Caribbean history, culture, and politics",
+        "score": 0.1462000012397766,
         "subfield": {
-          "id": "https://openalex.org/subfields/1207",
-          "display_name": "History and Philosophy of Science"
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12454",
+        "display_name": "European Political History Analysis",
+        "score": 0.011500000022351742,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -189243,55 +189339,38 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
-      },
-      {
-        "id": "https://openalex.org/T13215",
-        "display_name": "Global Maritime and Colonial Histories",
-        "score": 0.967199981212616,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3314",
-          "display_name": "Anthropology"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/economic-history",
-        "display_name": "Economic history",
-        "score": 0.4982340335845947
+        "id": "https://openalex.org/keywords/enlightened-reform",
+        "display_name": "enlightened reform",
+        "score": 0.7450000047683716
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.4729618430137634
+        "id": "https://openalex.org/keywords/french-antilles",
+        "display_name": "French West Indies",
+        "score": 0.8700000047683716
       },
       {
-        "id": "https://openalex.org/keywords/humanities",
-        "display_name": "Humanities",
-        "score": 0.3268676996231079
+        "id": "https://openalex.org/keywords/colonial-administration",
+        "display_name": "colonial administration",
+        "score": 0.4580000042915344
       },
       {
-        "id": "https://openalex.org/keywords/environmental-ethics",
-        "display_name": "Environmental ethics",
-        "score": 0.32255059480667114
+        "id": "https://openalex.org/keywords/french-colonialism",
+        "display_name": "French colonialism",
+        "score": 0.39100000262260437
       },
       {
-        "id": "https://openalex.org/keywords/art",
-        "display_name": "Art",
-        "score": 0.22060257196426392
+        "id": "https://openalex.org/keywords/caribbean-history",
+        "display_name": "Caribbean history",
+        "score": 0.375
       },
       {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.1638588309288025
+        "id": "https://openalex.org/keywords/colonial-reform",
+        "display_name": "colonial reform",
+        "score": 0.30300000309944153
       }
     ],
     "concepts": [
@@ -189343,6 +189422,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s0022050725000208",
+        "doi": "https://doi.org/10.1017/s0022050725000208",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1017/s0022050725000208",
         "pdf_url": null,
@@ -189357,6 +189437,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -189379,7 +189472,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.7297000288963318,
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -189403,7 +189504,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -284555,7 +284656,7 @@
     "doi": "https://doi.org/10.1017/s0022050725100880",
     "title": "Cross-Cultural Trade and the Slave Ship the Bonne Soci\u00e9t\u00e9: Baskets of Goods, Diverse Sellers, and Time Pressure on the African Coast",
     "display_name": "Cross-Cultural Trade and the Slave Ship the Bonne Soci\u00e9t\u00e9: Baskets of Goods, Diverse Sellers, and Time Pressure on the African Coast",
-    "relevance_score": 0.73610795,
+    "relevance_score": 2.0488966,
     "publication_year": 2025,
     "publication_date": "2025-08-26",
     "ids": {
@@ -284566,6 +284667,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0022050725100880",
+      "doi": "https://doi.org/10.1017/s0022050725100880",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725100880",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F16DD839707AE3537DB363A008E2C0F8/S0022050725100880a.pdf/div-class-title-cross-cultural-trade-and-the-slave-ship-the-bonne-societe-baskets-of-goods-diverse-sellers-and-time-pressure-on-the-african-coast-div.pdf",
@@ -284580,6 +284682,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -284600,6 +284715,7 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -284616,7 +284732,10 @@
         "author": {
           "id": "https://openalex.org/A5068688918",
           "display_name": "Amanda Gregg",
-          "orcid": "https://orcid.org/0000-0002-0456-3455"
+          "orcid": "https://orcid.org/0000-0002-0456-3455",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0456-3455"
+          ]
         },
         "institutions": [
           {
@@ -284638,6 +284757,7 @@
         "raw_affiliation_strings": [
           "Middlebury College"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Middlebury College",
@@ -284650,9 +284770,12 @@
       {
         "author_position": "last",
         "author": {
-          "id": "https://openalex.org/A5021412406",
-          "display_name": "A. Peter Ruderman",
-          "orcid": null
+          "id": "https://openalex.org/A5072413486",
+          "display_name": "Anne Ruderman",
+          "orcid": "https://orcid.org/0000-0001-5799-3806",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5799-3806"
+          ]
         },
         "institutions": [
           {
@@ -284675,6 +284798,7 @@
         "raw_affiliation_strings": [
           "London School of Economics"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "London School of Economics",
@@ -284689,18 +284813,26 @@
     "countries_distinct_count": 2,
     "institutions_distinct_count": 2,
     "corresponding_author_ids": [
-      "https://openalex.org/A5021412406"
+      "https://openalex.org/A5072413486"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I909854389"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.00365843,
+      "value": 0.00571817,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -284717,7 +284849,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12144",
       "display_name": "Colonialism, slavery, and trade",
-      "score": 0.9976999759674072,
+      "score": 0.9473000168800354,
       "subfield": {
         "id": "https://openalex.org/subfields/3314",
         "display_name": "Anthropology"
@@ -284735,7 +284867,7 @@
       {
         "id": "https://openalex.org/T12144",
         "display_name": "Colonialism, slavery, and trade",
-        "score": 0.9976999759674072,
+        "score": 0.9473000168800354,
         "subfield": {
           "id": "https://openalex.org/subfields/3314",
           "display_name": "Anthropology"
@@ -284743,6 +284875,23 @@
         "field": {
           "id": "https://openalex.org/fields/33",
           "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10605",
+        "display_name": "Historical Economic and Social Studies",
+        "score": 0.03779999911785126,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -284752,24 +284901,7 @@
       {
         "id": "https://openalex.org/T13215",
         "display_name": "Global Maritime and Colonial Histories",
-        "score": 0.9890000224113464,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3314",
-          "display_name": "Anthropology"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T14395",
-        "display_name": "African history and culture studies",
-        "score": 0.9869999885559082,
+        "score": 0.00930000003427267,
         "subfield": {
           "id": "https://openalex.org/subfields/3314",
           "display_name": "Anthropology"
@@ -284786,34 +284918,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/social-pressure",
-        "display_name": "Social pressure",
-        "score": 0.44455960392951965
+        "id": "https://openalex.org/keywords/slave-trade",
+        "display_name": "slave trade",
+        "score": 0.8790000081062317
       },
       {
-        "id": "https://openalex.org/keywords/economy",
-        "display_name": "Economy",
-        "score": 0.3515593111515045
+        "id": "https://openalex.org/keywords/loango",
+        "display_name": "Loango",
+        "score": 0.7889999747276306
       },
       {
-        "id": "https://openalex.org/keywords/commerce",
-        "display_name": "Commerce",
-        "score": 0.3429732918739319
+        "id": "https://openalex.org/keywords/cross-cultural-trade",
+        "display_name": "cross-cultural trade",
+        "score": 0.7749999761581421
       },
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.30347350239753723
+        "id": "https://openalex.org/keywords/price-increases",
+        "display_name": "price increases",
+        "score": 0.3019999861717224
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.2607003450393677
+        "id": "https://openalex.org/keywords/european-merchants",
+        "display_name": "European merchants",
+        "score": 0.4950000047683716
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.0737307071685791
+        "id": "https://openalex.org/keywords/african-merchants",
+        "display_name": "African merchants",
+        "score": 0.9369999766349792
+      },
+      {
+        "id": "https://openalex.org/keywords/time-pressure",
+        "display_name": "time pressure",
+        "score": 0.6240000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/18th-century",
+        "display_name": "18th century",
+        "score": 0.7639999985694885
+      },
+      {
+        "id": "https://openalex.org/keywords/french-west-africa",
+        "display_name": "French West Africa",
+        "score": 0.37700000405311584
       }
     ],
     "concepts": [
@@ -284868,10 +285015,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 3,
+    "locations_count": 7,
     "locations": [
       {
         "id": "doi:10.1017/s0022050725100880",
+        "doi": "https://doi.org/10.1017/s0022050725100880",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0022050725100880",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F16DD839707AE3537DB363A008E2C0F8/S0022050725100880a.pdf/div-class-title-cross-cultural-trade-and-the-slave-ship-the-bonne-societe-baskets-of-goods-diverse-sellers-and-time-pressure-on-the-african-coast-div.pdf",
@@ -284886,6 +285034,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -284907,7 +285068,101 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:researchonline.lse.ac.uk:112507",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://orcid.org/0000-0001-5799-3806>",
+        "pdf_url": "https://researchonline.lse.ac.uk/id/eprint/112507/1/WP_333.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306400050",
+          "display_name": "London School of Economics and Political Science Theses Online (London School of Economics and Political Science)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I909854389",
+          "host_organization_name": "London School of Economics and Political Science",
+          "host_organization_lineage": [
+            "https://openalex.org/I909854389"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Working paper"
+      },
+      {
+        "id": "pmh:oai:researchonline.lse.ac.uk:129101",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://orcid.org/0000-0001-5799-3806>",
+        "pdf_url": "https://researchonline.lse.ac.uk/id/eprint/129101/1/cross-cultural-trade-and-the-slave-ship-the-bonne-societe-baskets-of-goods-diverse-sellers-and-time-pressure-on-the-african-coast.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306401593",
+          "display_name": "London School of Economics and Political Science Research Online (London School of Economics and Political Science)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I909854389",
+          "host_organization_name": "London School of Economics and Political Science",
+          "host_organization_lineage": [
+            "https://openalex.org/I909854389"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      },
+      {
+        "id": "pmh:oai:eprints.lse.ac.uk:112507",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://orcid.org/0000-0001-5799-3806>",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401593",
+          "display_name": "London School of Economics and Political Science Research Online (London School of Economics and Political Science)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I909854389",
+          "host_organization_name": "London School of Economics and Political Science",
+          "host_organization_lineage": [
+            "https://openalex.org/I909854389"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Monograph"
+      },
+      {
         "id": "pmh:oai:eprints.lse.ac.uk:129101",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://orcid.org/0000-0001-5799-3806>",
         "pdf_url": "http://eprints.lse.ac.uk/129101/1/cross-cultural-trade-and-the-slave-ship-the-bonne-societe-baskets-of-goods-diverse-sellers-and-time-pressure-on-the-african-coast.pdf",
@@ -284919,6 +285174,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I909854389",
           "host_organization_name": "London School of Economics and Political Science",
           "host_organization_lineage": [
@@ -284933,10 +285189,11 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "PeerReviewed"
+        "raw_type": "Article"
       },
       {
         "id": "pmh:oai:RePEc:ehl:lserod:112507",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "http://eprints.lse.ac.uk/112507/",
         "pdf_url": null,
@@ -284948,6 +285205,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I77793887",
           "host_organization_name": "Federal Reserve Bank of St. Louis",
           "host_organization_lineage": [
@@ -284963,10 +285221,26 @@
         "is_published": false,
         "raw_source_name": null,
         "raw_type": "preprint"
+      },
+      {
+        "id": "mag:3208726988",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://eprints.lse.ac.uk/112507/",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": null
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0022050725100880",
+      "doi": "https://doi.org/10.1017/s0022050725100880",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725100880",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F16DD839707AE3537DB363A008E2C0F8/S0022050725100880a.pdf/div-class-title-cross-cultural-trade-and-the-slave-ship-the-bonne-societe-baskets-of-goods-diverse-sellers-and-time-pressure-on-the-african-coast-div.pdf",
@@ -284981,6 +285255,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -285002,6 +285289,8 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -285017,6 +285306,7 @@
       "https://openalex.org/W146859035",
       "https://openalex.org/W215580305",
       "https://openalex.org/W615445935",
+      "https://openalex.org/W1498611851",
       "https://openalex.org/W1504255927",
       "https://openalex.org/W1510634279",
       "https://openalex.org/W1533423298",
@@ -285064,10 +285354,9 @@
       "https://openalex.org/W2900486121",
       "https://openalex.org/W2970711934",
       "https://openalex.org/W2977955280",
-      "https://openalex.org/W3021200048",
+      "https://openalex.org/W3016751728",
       "https://openalex.org/W3124166904",
       "https://openalex.org/W3124418879",
-      "https://openalex.org/W3145371140",
       "https://openalex.org/W4206961360",
       "https://openalex.org/W4210622223",
       "https://openalex.org/W4224795193",
@@ -285342,8 +285631,8 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-04-05T17:49:38.594831",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2021-11-08T00:00:00"
   },
   {
     "id": "https://openalex.org/W2170010763",
@@ -299226,5 +299515,1093 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7168235566",
+    "doi": "https://doi.org/10.1017/s0022050726101533",
+    "title": "Colonialism on the Cheap: The French Empire 1830\u20131962",
+    "display_name": "Colonialism on the Cheap: The French Empire 1830\u20131962",
+    "relevance_score": 29.940422,
+    "publication_year": 2026,
+    "publication_date": "2026-07-14",
+    "ids": {
+      "openalex": "https://openalex.org/W7168235566",
+      "doi": "https://doi.org/10.1017/s0022050726101533"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s0022050726101533",
+      "doi": "https://doi.org/10.1017/s0022050726101533",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1017/s0022050726101533",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S122073985",
+        "display_name": "The Journal of Economic History",
+        "issn_l": "0022-0507",
+        "issn": [
+          "0022-0507",
+          "1471-6372"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Journal of Economic History",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5042885998",
+          "display_name": "Denis Cogneau",
+          "orcid": "https://orcid.org/0000-0002-4355-2150",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4355-2150"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210166444",
+            "display_name": "Institut de Recherche pour le D\u00e9veloppement",
+            "ror": "https://ror.org/05q3vnk25",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I2802818602",
+              "https://openalex.org/I4210090127",
+              "https://openalex.org/I4210131494",
+              "https://openalex.org/I4210166444"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I57995698",
+            "display_name": "Paris School of Economics",
+            "ror": "https://ror.org/01qtp1053",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I142631665",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I29607241",
+              "https://openalex.org/I4210088668",
+              "https://openalex.org/I4210145102",
+              "https://openalex.org/I51101395",
+              "https://openalex.org/I57995698",
+              "https://openalex.org/I90669466"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I90669466",
+            "display_name": "\u00c9cole des hautes \u00e9tudes en sciences sociales",
+            "ror": "https://ror.org/02d9dg697",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I90669466"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Denis Cogneau",
+        "raw_affiliation_strings": [
+          "Paris School of Economics, IRD, and EHESS"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4355-2150",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Paris School of Economics, IRD, and EHESS",
+            "institution_ids": [
+              "https://openalex.org/I4210166444",
+              "https://openalex.org/I57995698",
+              "https://openalex.org/I90669466"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5043733640",
+          "display_name": "Yannick Dupraz",
+          "orcid": "https://orcid.org/0000-0002-1243-5779",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1243-5779"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2746051580",
+            "display_name": "Universit\u00e9 Paris Sciences et Lettres",
+            "ror": "https://ror.org/013cjyk83",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2746051580"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210166444",
+            "display_name": "Institut de Recherche pour le D\u00e9veloppement",
+            "ror": "https://ror.org/05q3vnk25",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I2802818602",
+              "https://openalex.org/I4210090127",
+              "https://openalex.org/I4210131494",
+              "https://openalex.org/I4210166444"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I56435720",
+            "display_name": "Universit\u00e9 Paris Dauphine-PSL",
+            "ror": "https://ror.org/052bz7812",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I56435720"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Yannick Dupraz",
+        "raw_affiliation_strings": [
+          "CNRS, Universit\u00e9 Paris-Dauphine, PSL Research University, IRD, UMR LEDa, and DIAL"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-1243-5779",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "CNRS, Universit\u00e9 Paris-Dauphine, PSL Research University, IRD, UMR LEDa, and DIAL",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I4210166444",
+              "https://openalex.org/I56435720"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5020926812",
+          "display_name": "\u00c9lise Huillery",
+          "orcid": "https://orcid.org/0000-0002-9931-4610",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9931-4610"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I2746051580",
+            "display_name": "Universit\u00e9 Paris Sciences et Lettres",
+            "ror": "https://ror.org/013cjyk83",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2746051580"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I29607241",
+            "display_name": "\u00c9cole Normale Sup\u00e9rieure - PSL",
+            "ror": "https://ror.org/05a0dhs15",
+            "country_code": "FR",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I29607241"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210166444",
+            "display_name": "Institut de Recherche pour le D\u00e9veloppement",
+            "ror": "https://ror.org/05q3vnk25",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I2802818602",
+              "https://openalex.org/I4210090127",
+              "https://openalex.org/I4210131494",
+              "https://openalex.org/I4210166444"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I56435720",
+            "display_name": "Universit\u00e9 Paris Dauphine-PSL",
+            "ror": "https://ror.org/052bz7812",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I56435720"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Elise Huillery",
+        "raw_affiliation_strings": [
+          "Ecole normale sup\u00e9rieure & Universit\u00e9 Paris-Dauphine, PSL Research University, IRD"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-9931-4610",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Ecole normale sup\u00e9rieure & Universit\u00e9 Paris-Dauphine, PSL Research University, IRD",
+            "institution_ids": [
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I29607241",
+              "https://openalex.org/I4210166444",
+              "https://openalex.org/I56435720"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5018365353",
+          "display_name": "Sandrine Mespl\u00e9\u2010Somps",
+          "orcid": "https://orcid.org/0000-0002-0795-7871",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0795-7871"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I1294671590",
+            "display_name": "Centre National de la Recherche Scientifique",
+            "ror": "https://ror.org/02feahw73",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I1294671590"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I2746051580",
+            "display_name": "Universit\u00e9 Paris Sciences et Lettres",
+            "ror": "https://ror.org/013cjyk83",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2746051580"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210114292",
+            "display_name": "Laboratoire d\u2019Economie de Dauphine",
+            "ror": "https://ror.org/026exgg05",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I2802818602",
+              "https://openalex.org/I4210090127",
+              "https://openalex.org/I4210114292",
+              "https://openalex.org/I4210131494",
+              "https://openalex.org/I4210166444",
+              "https://openalex.org/I56435720"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4210166444",
+            "display_name": "Institut de Recherche pour le D\u00e9veloppement",
+            "ror": "https://ror.org/05q3vnk25",
+            "country_code": "FR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I2802818602",
+              "https://openalex.org/I4210090127",
+              "https://openalex.org/I4210131494",
+              "https://openalex.org/I4210166444"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I56435720",
+            "display_name": "Universit\u00e9 Paris Dauphine-PSL",
+            "ror": "https://ror.org/052bz7812",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I56435720"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Sandrine Mespl\u00e9-Somps",
+        "raw_affiliation_strings": [
+          "IRD, Universit\u00e9 Paris-Dauphine, PSL Research University, CNRS, UMR LEDa, and DIAL"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "IRD, Universit\u00e9 Paris-Dauphine, PSL Research University, CNRS, UMR LEDa, and DIAL",
+            "institution_ids": [
+              "https://openalex.org/I1294671590",
+              "https://openalex.org/I2746051580",
+              "https://openalex.org/I4210114292",
+              "https://openalex.org/I4210166444",
+              "https://openalex.org/I56435720"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 8,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5043733640"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I1294671590",
+      "https://openalex.org/I2746051580",
+      "https://openalex.org/I4210166444",
+      "https://openalex.org/I56435720"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.53359533,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 88,
+      "max": 94
+    },
+    "biblio": {
+      "volume": "86",
+      "issue": "3",
+      "first_page": "726",
+      "last_page": "763"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10605",
+      "display_name": "Historical Economic and Social Studies",
+      "score": 0.9063000082969666,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10605",
+        "display_name": "Historical Economic and Social Studies",
+        "score": 0.9063000082969666,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14141",
+        "display_name": "Colonial History and Postcolonial Studies",
+        "score": 0.04500000178813934,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14395",
+        "display_name": "African history and culture studies",
+        "score": 0.010999999940395355,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/french-colonial-empire",
+        "display_name": "French colonial empire",
+        "score": 0.9279999732971191
+      },
+      {
+        "id": "https://openalex.org/keywords/capital-transfers",
+        "display_name": "capital transfers",
+        "score": 0.49399998784065247
+      },
+      {
+        "id": "https://openalex.org/keywords/private-investment",
+        "display_name": "private investment",
+        "score": 0.7059999704360962
+      },
+      {
+        "id": "https://openalex.org/keywords/defense-spending",
+        "display_name": "defense spending",
+        "score": 0.734000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/trade-deficit",
+        "display_name": "trade deficit",
+        "score": 0.871999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/fiscal-transfers",
+        "display_name": "fiscal transfers",
+        "score": 0.33899998664855957
+      },
+      {
+        "id": "https://openalex.org/keywords/french-colonies",
+        "display_name": "French colonies",
+        "score": 0.3070000112056732
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C531593650",
+        "wikidata": "https://www.wikidata.org/wiki/Q7167",
+        "display_name": "Colonialism",
+        "level": 2,
+        "score": 0.9064000248908997
+      },
+      {
+        "id": "https://openalex.org/C2778495208",
+        "wikidata": "https://www.wikidata.org/wiki/Q48349",
+        "display_name": "Empire",
+        "level": 2,
+        "score": 0.8364999890327454
+      },
+      {
+        "id": "https://openalex.org/C83646750",
+        "wikidata": "https://www.wikidata.org/wiki/Q193893",
+        "display_name": "Capital (architecture)",
+        "level": 2,
+        "score": 0.5266000032424927
+      },
+      {
+        "id": "https://openalex.org/C2777764128",
+        "wikidata": "https://www.wikidata.org/wiki/Q189539",
+        "display_name": "Loan",
+        "level": 2,
+        "score": 0.49559998512268066
+      },
+      {
+        "id": "https://openalex.org/C6303427",
+        "wikidata": "https://www.wikidata.org/wiki/Q47398",
+        "display_name": "Economic history",
+        "level": 1,
+        "score": 0.47189998626708984
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.45019999146461487
+      },
+      {
+        "id": "https://openalex.org/C168031717",
+        "wikidata": "https://www.wikidata.org/wiki/Q1530280",
+        "display_name": "Balance (ability)",
+        "level": 2,
+        "score": 0.3903000056743622
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.3377000093460083
+      },
+      {
+        "id": "https://openalex.org/C136264566",
+        "wikidata": "https://www.wikidata.org/wiki/Q159810",
+        "display_name": "Economy",
+        "level": 1,
+        "score": 0.3334999978542328
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.30959999561309814
+      },
+      {
+        "id": "https://openalex.org/C178283979",
+        "wikidata": "https://www.wikidata.org/wiki/Q274490",
+        "display_name": "Public finance",
+        "level": 2,
+        "score": 0.30559998750686646
+      },
+      {
+        "id": "https://openalex.org/C2777234743",
+        "wikidata": "https://www.wikidata.org/wiki/Q7257739",
+        "display_name": "Public expenditure",
+        "level": 3,
+        "score": 0.30059999227523804
+      },
+      {
+        "id": "https://openalex.org/C2993232446",
+        "wikidata": "https://www.wikidata.org/wiki/Q8137",
+        "display_name": "Private capital",
+        "level": 3,
+        "score": 0.2971999943256378
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.29510000348091125
+      },
+      {
+        "id": "https://openalex.org/C109948328",
+        "wikidata": "https://www.wikidata.org/wiki/Q140845",
+        "display_name": "Balance of payments",
+        "level": 2,
+        "score": 0.29440000653266907
+      },
+      {
+        "id": "https://openalex.org/C188678523",
+        "wikidata": "https://www.wikidata.org/wiki/Q641227",
+        "display_name": "Imperial unit system",
+        "level": 3,
+        "score": 0.2574999928474426
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1017/s0022050726101533",
+        "doi": "https://doi.org/10.1017/s0022050726101533",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1017/s0022050726101533",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S122073985",
+          "display_name": "The Journal of Economic History",
+          "issn_l": "0022-0507",
+          "issn": [
+            "0022-0507",
+            "1471-6372"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Journal of Economic History",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Decent work and economic growth",
+        "score": 0.5279539823532104,
+        "id": "https://metadata.un.org/sdg/8"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 24,
+    "referenced_works": [
+      "https://openalex.org/W1558673978",
+      "https://openalex.org/W1790596214",
+      "https://openalex.org/W1974431176",
+      "https://openalex.org/W1985293862",
+      "https://openalex.org/W2007308227",
+      "https://openalex.org/W2040504493",
+      "https://openalex.org/W2084120293",
+      "https://openalex.org/W2109151829",
+      "https://openalex.org/W2116874924",
+      "https://openalex.org/W2124637814",
+      "https://openalex.org/W2125985470",
+      "https://openalex.org/W2163141826",
+      "https://openalex.org/W2608072511",
+      "https://openalex.org/W2737629814",
+      "https://openalex.org/W2775122450",
+      "https://openalex.org/W2790811161",
+      "https://openalex.org/W2913151716",
+      "https://openalex.org/W2946308966",
+      "https://openalex.org/W3011784553",
+      "https://openalex.org/W3080609614",
+      "https://openalex.org/W3088653053",
+      "https://openalex.org/W3103113178",
+      "https://openalex.org/W4210411943",
+      "https://openalex.org/W4213005893"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "How": [
+        0
+      ],
+      "much": [
+        1
+      ],
+      "did": [
+        2
+      ],
+      "France": [
+        3,
+        46,
+        58,
+        93
+      ],
+      "pay": [
+        4
+      ],
+      "for": [
+        5,
+        73
+      ],
+      "its": [
+        6,
+        67
+      ],
+      "colonial": [
+        7,
+        126
+      ],
+      "empire?": [
+        8
+      ],
+      "Did": [
+        9
+      ],
+      "colonies": [
+        10,
+        49,
+        81,
+        113,
+        130
+      ],
+      "benefit": [
+        11
+      ],
+      "from": [
+        12,
+        15,
+        92,
+        101,
+        111
+      ],
+      "large": [
+        13,
+        86,
+        105
+      ],
+      "transfers": [
+        14,
+        91
+      ],
+      "French": [
+        16,
+        80,
+        129
+      ],
+      "taxpayers": [
+        17
+      ],
+      "and": [
+        18,
+        38,
+        47,
+        52
+      ],
+      "private": [
+        19,
+        36,
+        89
+      ],
+      "investors,": [
+        20
+      ],
+      "or": [
+        21,
+        88
+      ],
+      "were": [
+        22,
+        82,
+        109
+      ],
+      "they,": [
+        23
+      ],
+      "on": [
+        24,
+        59
+      ],
+      "the": [
+        25,
+        48,
+        60,
+        74,
+        95,
+        102,
+        112,
+        115,
+        136
+      ],
+      "contrary,": [
+        26
+      ],
+      "drained": [
+        27
+      ],
+      "of": [
+        28,
+        66,
+        69,
+        79,
+        107,
+        122,
+        125
+      ],
+      "their": [
+        29
+      ],
+      "capital?": [
+        30
+      ],
+      "This": [
+        31
+      ],
+      "paper": [
+        32
+      ],
+      "uses": [
+        33
+      ],
+      "novel": [
+        34
+      ],
+      "budgetary,": [
+        35
+      ],
+      "investment,": [
+        37
+      ],
+      "loan": [
+        39
+      ],
+      "data": [
+        40
+      ],
+      "to": [
+        41,
+        94,
+        114,
+        132
+      ],
+      "compute": [
+        42
+      ],
+      "monetary": [
+        43
+      ],
+      "flows": [
+        44
+      ],
+      "between": [
+        45,
+        50
+      ],
+      "1833": [
+        51
+      ],
+      "1962.": [
+        53
+      ],
+      "Public": [
+        54
+      ],
+      "expenditure": [
+        55,
+        100
+      ],
+      "spent": [
+        56
+      ],
+      "by": [
+        57,
+        85,
+        98
+      ],
+      "empire": [
+        61
+      ],
+      "represented": [
+        62
+      ],
+      "only": [
+        63
+      ],
+      "1.3": [
+        64
+      ],
+      "percent": [
+        65
+      ],
+      "GDP,": [
+        68,
+        127
+      ],
+      "which": [
+        70
+      ],
+      "four-fifths": [
+        71
+      ],
+      "was": [
+        72
+      ],
+      "military.": [
+        75
+      ],
+      "Trade": [
+        76
+      ],
+      "balance": [
+        77
+      ],
+      "deficits": [
+        78
+      ],
+      "not": [
+        83
+      ],
+      "counterbalanced": [
+        84
+      ],
+      "public": [
+        87
+      ],
+      "capital": [
+        90
+      ],
+      "colonies,": [
+        96
+      ],
+      "but": [
+        97
+      ],
+      "military": [
+        99
+      ],
+      "metropole.": [
+        103
+      ],
+      "Overall,": [
+        104
+      ],
+      "sums": [
+        106
+      ],
+      "money": [
+        108
+      ],
+      "flowing": [
+        110
+      ],
+      "metropole,": [
+        116
+      ],
+      "a": [
+        117,
+        120
+      ],
+      "\u201cdrain\u201d": [
+        118
+      ],
+      "representing": [
+        119
+      ],
+      "couple": [
+        121
+      ],
+      "percentage": [
+        123
+      ],
+      "points": [
+        124
+      ],
+      "making": [
+        128
+      ],
+      "comparable": [
+        131
+      ],
+      "British": [
+        133
+      ],
+      "India": [
+        134
+      ],
+      "in": [
+        135
+      ],
+      "twentieth": [
+        137
+      ],
+      "century.": [
+        138
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2022,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2019,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2026-07-15T00:00:00"
   }
 ]

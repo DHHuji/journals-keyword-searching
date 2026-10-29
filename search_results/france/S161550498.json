@@ -144932,9 +144932,9 @@
   {
     "id": "https://openalex.org/W4407264781",
     "doi": "https://doi.org/10.1177/00220094241307428a",
-    "title": "Book Review: <i>Sport and Physical Culture in Occupied France: Authoritarianism, Agency, and Everyday Life</i> by Keith Rathbone",
-    "display_name": "Book Review: <i>Sport and Physical Culture in Occupied France: Authoritarianism, Agency, and Everyday Life</i> by Keith Rathbone",
-    "relevance_score": 9.522138,
+    "title": "Book Review: Sport and Physical Culture in Occupied France: Authoritarianism, Agency, and Everyday Life by Keith Rathbone",
+    "display_name": "Book Review: Sport and Physical Culture in Occupied France: Authoritarianism, Agency, and Everyday Life by Keith Rathbone",
+    "relevance_score": 20.03545,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -144944,6 +144944,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00220094241307428a",
+      "doi": "https://doi.org/10.1177/00220094241307428a",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/00220094241307428a",
       "pdf_url": null,
@@ -144958,6 +144959,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -144976,7 +144987,8 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -144992,7 +145004,10 @@
         "author": {
           "id": "https://openalex.org/A5030614050",
           "display_name": "Heather L. Dichter",
-          "orcid": "https://orcid.org/0000-0002-6538-7109"
+          "orcid": "https://orcid.org/0000-0002-6538-7109",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6538-7109"
+          ]
         },
         "institutions": [
           {
@@ -145034,16 +145049,16 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I66943878"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.02548853,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "60",
@@ -145057,7 +145072,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12909",
       "display_name": "French Historical and Cultural Studies",
-      "score": 0.9710000157356262,
+      "score": 0.42989999055862427,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -145075,7 +145090,7 @@
       {
         "id": "https://openalex.org/T12909",
         "display_name": "French Historical and Cultural Studies",
-        "score": 0.9710000157356262,
+        "score": 0.42989999055862427,
         "subfield": {
           "id": "https://openalex.org/subfields/1202",
           "display_name": "History"
@@ -145090,16 +145105,33 @@
         }
       },
       {
-        "id": "https://openalex.org/T13641",
-        "display_name": "Historical Studies and Socio-cultural Analysis",
-        "score": 0.9539999961853027,
+        "id": "https://openalex.org/T12645",
+        "display_name": "European history and politics",
+        "score": 0.3156999945640564,
         "subfield": {
-          "id": "https://openalex.org/subfields/1207",
-          "display_name": "History and Philosophy of Science"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13296",
+        "display_name": "Physical Education and Sports Studies",
+        "score": 0.24879999458789825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -145109,59 +145141,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/agency",
-        "display_name": "Agency (philosophy)",
-        "score": 0.7249953746795654
+        "id": "https://openalex.org/keywords/sport",
+        "display_name": "sport",
+        "score": 0.8659999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/physical-culture",
+        "display_name": "physical culture",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/vichy-france",
+        "display_name": "Vichy France",
+        "score": 0.6759999990463257
       },
       {
         "id": "https://openalex.org/keywords/authoritarianism",
-        "display_name": "Authoritarianism",
-        "score": 0.5571359395980835
+        "display_name": "authoritarianism",
+        "score": 0.6859999895095825
+      },
+      {
+        "id": "https://openalex.org/keywords/agency",
+        "display_name": "agency",
+        "score": 0.7820000052452087
       },
       {
         "id": "https://openalex.org/keywords/everyday-life",
-        "display_name": "Everyday life",
-        "score": 0.4881907105445862
+        "display_name": "everyday life",
+        "score": 0.9940000176429749
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.3896873891353607
+        "id": "https://openalex.org/keywords/nazi-occupation",
+        "display_name": "Nazi occupation",
+        "score": 0.4959999918937683
       },
       {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.35476526618003845
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.3313358724117279
-      },
-      {
-        "id": "https://openalex.org/keywords/psychoanalysis",
-        "display_name": "Psychoanalysis",
-        "score": 0.3234183192253113
-      },
-      {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.2922624349594116
-      },
-      {
-        "id": "https://openalex.org/keywords/social-science",
-        "display_name": "Social science",
-        "score": 0.17551499605178833
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.14450028538703918
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.13772284984588623
+        "id": "https://openalex.org/keywords/french-resistance",
+        "display_name": "French Resistance",
+        "score": 0.31299999356269836
       }
     ],
     "concepts": [
@@ -145255,6 +145272,7 @@
     "locations": [
       {
         "id": "doi:10.1177/00220094241307428a",
+        "doi": "https://doi.org/10.1177/00220094241307428a",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/00220094241307428a",
         "pdf_url": null,
@@ -145269,6 +145287,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -145291,16 +145319,24 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "display_name": "Reduced inequalities",
-        "score": 0.5799999833106995,
-        "id": "https://metadata.un.org/sdg/10"
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.6207000017166138
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities",
+        "score": 0.5799999833106995
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -145319,7 +145355,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-05-04T06:00:05.808912",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -146356,9 +146392,9 @@
   {
     "id": "https://openalex.org/W4416103506",
     "doi": "https://doi.org/10.1177/00220094251376414b",
-    "title": "Book Review: <i>Hostages of Empire: Colonial Prisoners of War in Vichy France</i> by Sarah Ann Frank FrankSarah Ann, Hostages of Empire: Colonial Prisoners of War in Vichy France, Lincoln, Nebraska University Press, 2021; xiii+354 pp.; US$65.00hbk; ISBN 9781496207777",
-    "display_name": "Book Review: <i>Hostages of Empire: Colonial Prisoners of War in Vichy France</i> by Sarah Ann Frank FrankSarah Ann, Hostages of Empire: Colonial Prisoners of War in Vichy France, Lincoln, Nebraska University Press, 2021; xiii+354 pp.; US$65.00hbk; ISBN 9781496207777",
-    "relevance_score": 9.284416,
+    "title": "Book Review: Hostages of Empire: Colonial Prisoners of War in Vichy France by Sarah Ann Frank FrankSarah Ann, Hostages of Empire: Colonial Prisoners of War in Vichy France, Lincoln, Nebraska University Press, 2021; xiii+354 pp.; US$65.00hbk; ISBN 9781496207777",
+    "display_name": "Book Review: Hostages of Empire: Colonial Prisoners of War in Vichy France by Sarah Ann Frank FrankSarah Ann, Hostages of Empire: Colonial Prisoners of War in Vichy France, Lincoln, Nebraska University Press, 2021; xiii+354 pp.; US$65.00hbk; ISBN 9781496207777",
+    "relevance_score": 18.651926,
     "publication_year": 2025,
     "publication_date": "2025-10-01",
     "ids": {
@@ -146368,6 +146404,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00220094251376414b",
+      "doi": "https://doi.org/10.1177/00220094251376414b",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094251376414b",
       "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251376414b?download=true",
@@ -146382,6 +146419,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -146400,7 +146447,8 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -146414,9 +146462,10 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5120340793",
-          "display_name": "Suzan Van Den Broek",
-          "orcid": null
+          "id": "https://openalex.org/A5115518766",
+          "display_name": "Suzan van den Broek",
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -146453,21 +146502,21 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5120340793"
+      "https://openalex.org/A5115518766"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I126307644"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": true,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.25514,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "60",
@@ -146481,7 +146530,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12909",
       "display_name": "French Historical and Cultural Studies",
-      "score": 0.34529998898506165,
+      "score": 0.7207000255584717,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -146499,7 +146548,7 @@
       {
         "id": "https://openalex.org/T12909",
         "display_name": "French Historical and Cultural Studies",
-        "score": 0.34529998898506165,
+        "score": 0.7207000255584717,
         "subfield": {
           "id": "https://openalex.org/subfields/1202",
           "display_name": "History"
@@ -146514,12 +146563,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T14395",
-        "display_name": "African history and culture studies",
-        "score": 0.17790000140666962,
+        "id": "https://openalex.org/T11971",
+        "display_name": "World Wars: History, Literature, and Impact",
+        "score": 0.2434999942779541,
         "subfield": {
-          "id": "https://openalex.org/subfields/3314",
-          "display_name": "Anthropology"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -146533,7 +146582,7 @@
       {
         "id": "https://openalex.org/T12585",
         "display_name": "North African History and Literature",
-        "score": 0.16949999332427979,
+        "score": 0.008100000210106373,
         "subfield": {
           "id": "https://openalex.org/subfields/1202",
           "display_name": "History"
@@ -146550,24 +146599,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/colonialism",
-        "display_name": "Colonialism",
-        "score": 0.9126999974250793
-      },
-      {
-        "id": "https://openalex.org/keywords/prisoners-of-war",
-        "display_name": "Prisoners of war",
-        "score": 0.8812000155448914
+        "id": "https://openalex.org/keywords/vichy-france",
+        "display_name": "Vichy France",
+        "score": 0.9810000061988831
       },
       {
         "id": "https://openalex.org/keywords/world-war-ii",
         "display_name": "World War II",
-        "score": 0.3878999948501587
+        "score": 0.7710000276565552
       },
       {
-        "id": "https://openalex.org/keywords/first-world-war",
-        "display_name": "First world war",
-        "score": 0.30869999527931213
+        "id": "https://openalex.org/keywords/french-colonial-empire",
+        "display_name": "French colonial empire",
+        "score": 0.6209999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/prisoners-of-war",
+        "display_name": "prisoners of war",
+        "score": 0.4560000002384186
+      },
+      {
+        "id": "https://openalex.org/keywords/history-of-emotions",
+        "display_name": "history of emotions",
+        "score": 0.5519999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/survivor-testimony",
+        "display_name": "survivor testimony",
+        "score": 0.7200000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/memoirs",
+        "display_name": "memoirs",
+        "score": 0.5600000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/historiography",
+        "display_name": "historiography",
+        "score": 0.5630000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/primary-sources",
+        "display_name": "primary sources",
+        "score": 0.5139999985694885
       }
     ],
     "concepts": [
@@ -146647,6 +146721,7 @@
     "locations": [
       {
         "id": "doi:10.1177/00220094251376414b",
+        "doi": "https://doi.org/10.1177/00220094251376414b",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/00220094251376414b",
         "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251376414b?download=true",
@@ -146661,6 +146736,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -146682,6 +146767,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1177/00220094251376414b",
+      "doi": "https://doi.org/10.1177/00220094251376414b",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094251376414b",
       "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251376414b?download=true",
@@ -146696,6 +146782,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -146715,11 +146811,13 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": true
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4416103506.pdf",
@@ -147323,7 +147421,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-06-14T06:11:07.267592",
+    "updated_date": "2026-10-27T15:51:10.671819",
     "created_date": "2025-11-11T00:00:00"
   },
   {
@@ -149885,9 +149983,9 @@
   {
     "id": "https://openalex.org/W4412122498",
     "doi": "https://doi.org/10.1177/00220094251324700d",
-    "title": "Book Review: <i>Soundscapes of Liberation: African American Music in Postwar France</i> by Celeste Day Moore MooreCeleste Day, Soundscapes of Liberation: African American Music in Postwar France, Durham, NC, Duke University Press, 2021; xiv + 294 pp.; $27.95 pbk; ISBN 9781478014690",
-    "display_name": "Book Review: <i>Soundscapes of Liberation: African American Music in Postwar France</i> by Celeste Day Moore MooreCeleste Day, Soundscapes of Liberation: African American Music in Postwar France, Durham, NC, Duke University Press, 2021; xiv + 294 pp.; $27.95 pbk; ISBN 9781478014690",
-    "relevance_score": 9.034417,
+    "title": "Book Review: Soundscapes of Liberation: African American Music in Postwar France by Celeste Day Moore MooreCeleste Day, Soundscapes of Liberation: African American Music in Postwar France, Durham, NC, Duke University Press, 2021; xiv + 294 pp.; $27.95 pbk; ISBN 9781478014690",
+    "display_name": "Book Review: Soundscapes of Liberation: African American Music in Postwar France by Celeste Day Moore MooreCeleste Day, Soundscapes of Liberation: African American Music in Postwar France, Durham, NC, Duke University Press, 2021; xiv + 294 pp.; $27.95 pbk; ISBN 9781478014690",
+    "relevance_score": 18.303257,
     "publication_year": 2025,
     "publication_date": "2025-07-01",
     "ids": {
@@ -149897,6 +149995,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00220094251324700d",
+      "doi": "https://doi.org/10.1177/00220094251324700d",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/00220094251324700d",
       "pdf_url": null,
@@ -149911,6 +150010,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -149929,7 +150038,8 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -149945,19 +150055,12 @@
         "author": {
           "id": "https://openalex.org/A5079017761",
           "display_name": "Jonathyne Briggs",
-          "orcid": "https://orcid.org/0000-0002-6789-1536"
+          "orcid": "https://orcid.org/0000-0002-6789-1536",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6789-1536"
+          ]
         },
         "institutions": [
-          {
-            "id": "https://openalex.org/I36819085",
-            "display_name": "Northwest University",
-            "ror": "https://ror.org/00y7snj24",
-            "country_code": "US",
-            "type": "education",
-            "lineage": [
-              "https://openalex.org/I36819085"
-            ]
-          },
           {
             "id": "https://openalex.org/I4210093298",
             "display_name": "Indiana University Northwest",
@@ -149983,7 +150086,6 @@
           {
             "raw_affiliation_string": "Indiana University Northwest",
             "institution_ids": [
-              "https://openalex.org/I36819085",
               "https://openalex.org/I4210093298"
             ]
           }
@@ -149997,19 +150099,18 @@
       "https://openalex.org/A5079017761"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I36819085",
       "https://openalex.org/I4210093298"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.22539773,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "60",
@@ -150021,12 +150122,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13641",
-      "display_name": "Historical Studies and Socio-cultural Analysis",
-      "score": 0.9840999841690063,
+      "id": "https://openalex.org/T11113",
+      "display_name": "Music History and Culture",
+      "score": 0.8798999786376953,
       "subfield": {
-        "id": "https://openalex.org/subfields/1207",
-        "display_name": "History and Philosophy of Science"
+        "id": "https://openalex.org/subfields/1210",
+        "display_name": "Music"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -150039,12 +150140,12 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13641",
-        "display_name": "Historical Studies and Socio-cultural Analysis",
-        "score": 0.9840999841690063,
+        "id": "https://openalex.org/T11113",
+        "display_name": "Music History and Culture",
+        "score": 0.8798999786376953,
         "subfield": {
-          "id": "https://openalex.org/subfields/1207",
-          "display_name": "History and Philosophy of Science"
+          "id": "https://openalex.org/subfields/1210",
+          "display_name": "Music"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -150054,58 +150155,72 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T10941",
+        "display_name": "Musicology and Musical Analysis",
+        "score": 0.07010000199079514,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1210",
+          "display_name": "Music"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12765",
+        "display_name": "Race, History, and American Society",
+        "score": 0.018300000578165054,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
+        "id": "https://openalex.org/keywords/african-american-music",
+        "display_name": "African American music",
+        "score": 0.996999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/postwar-france",
+        "display_name": "postwar France",
+        "score": 0.8289999961853027
+      },
+      {
+        "id": "https://openalex.org/keywords/black-diaspora",
+        "display_name": "Black diaspora",
+        "score": 0.3880000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/transnational-music",
+        "display_name": "transnational music",
+        "score": 0.45399999618530273
+      },
+      {
         "id": "https://openalex.org/keywords/soundscape",
-        "display_name": "Soundscape",
-        "score": 0.7738324999809265
+        "display_name": "soundscape",
+        "score": 0.6150000095367432
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.4808388650417328
-      },
-      {
-        "id": "https://openalex.org/keywords/musical",
-        "display_name": "Musical",
-        "score": 0.46795737743377686
-      },
-      {
-        "id": "https://openalex.org/keywords/art",
-        "display_name": "Art",
-        "score": 0.43513673543930054
-      },
-      {
-        "id": "https://openalex.org/keywords/african-american",
-        "display_name": "African american",
-        "score": 0.42081040143966675
-      },
-      {
-        "id": "https://openalex.org/keywords/art-history",
-        "display_name": "Art history",
-        "score": 0.36156705021858215
-      },
-      {
-        "id": "https://openalex.org/keywords/literature",
-        "display_name": "Literature",
-        "score": 0.22697484493255615
-      },
-      {
-        "id": "https://openalex.org/keywords/sound",
-        "display_name": "Sound (geography)",
-        "score": 0.18193161487579346
-      },
-      {
-        "id": "https://openalex.org/keywords/ethnology",
-        "display_name": "Ethnology",
-        "score": 0.1215827465057373
-      },
-      {
-        "id": "https://openalex.org/keywords/acoustics",
-        "display_name": "Acoustics",
-        "score": 0.060162097215652466
+        "id": "https://openalex.org/keywords/decolonization",
+        "display_name": "decolonization",
+        "score": 0.6320000290870667
       }
     ],
     "concepts": [
@@ -150192,6 +150307,7 @@
     "locations": [
       {
         "id": "doi:10.1177/00220094251324700d",
+        "doi": "https://doi.org/10.1177/00220094251324700d",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/00220094251324700d",
         "pdf_url": null,
@@ -150206,6 +150322,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -150227,11 +150353,13 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -150250,7 +150378,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-05-04T06:00:05.808912",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -158029,9 +158157,9 @@
   {
     "id": "https://openalex.org/W4412122315",
     "doi": "https://doi.org/10.1177/00220094251324700b",
-    "title": "Book Review: <i>When France Fell: The Vichy Crisis and the Fate of the Anglo-American Alliance</i> by Michael S. Neiberg NeibergMichael S., When France Fell: The Vichy Crisis and the Fate of the Anglo-American Alliance, Boston, MA, Harvard University Press, 2021; 312 pp.; US$29.95 hbk; ISBN 9780674258563",
-    "display_name": "Book Review: <i>When France Fell: The Vichy Crisis and the Fate of the Anglo-American Alliance</i> by Michael S. Neiberg NeibergMichael S., When France Fell: The Vichy Crisis and the Fate of the Anglo-American Alliance, Boston, MA, Harvard University Press, 2021; 312 pp.; US$29.95 hbk; ISBN 9780674258563",
-    "relevance_score": 8.505194,
+    "title": "Book Review: When France Fell: The Vichy Crisis and the Fate of the Anglo-American Alliance by Michael S. Neiberg NeibergMichael S., When France Fell: The Vichy Crisis and the Fate of the Anglo-American Alliance, Boston, MA, Harvard University Press, 2021; 312 pp.; US$29.95 hbk; ISBN 9780674258563",
+    "display_name": "Book Review: When France Fell: The Vichy Crisis and the Fate of the Anglo-American Alliance by Michael S. Neiberg NeibergMichael S., When France Fell: The Vichy Crisis and the Fate of the Anglo-American Alliance, Boston, MA, Harvard University Press, 2021; 312 pp.; US$29.95 hbk; ISBN 9780674258563",
+    "relevance_score": 17.056229,
     "publication_year": 2025,
     "publication_date": "2025-07-01",
     "ids": {
@@ -158041,6 +158169,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00220094251324700b",
+      "doi": "https://doi.org/10.1177/00220094251324700b",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/00220094251324700b",
       "pdf_url": null,
@@ -158055,6 +158184,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -158073,7 +158212,8 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -158089,7 +158229,10 @@
         "author": {
           "id": "https://openalex.org/A5033945908",
           "display_name": "Andrew Williams",
-          "orcid": "https://orcid.org/0000-0001-8724-0856"
+          "orcid": "https://orcid.org/0000-0001-8724-0856",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8724-0856"
+          ]
         },
         "institutions": [
           {
@@ -158131,16 +158274,16 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I16835326"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.15142504,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "60",
@@ -158152,16 +158295,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12909",
-      "display_name": "French Historical and Cultural Studies",
-      "score": 0.9635000228881836,
+      "id": "https://openalex.org/T11971",
+      "display_name": "World Wars: History, Literature, and Impact",
+      "score": 0.736299991607666,
       "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -158170,9 +158313,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T11971",
+        "display_name": "World Wars: History, Literature, and Impact",
+        "score": 0.736299991607666,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T12909",
         "display_name": "French Historical and Cultural Studies",
-        "score": 0.9635000228881836,
+        "score": 0.25459998846054077,
         "subfield": {
           "id": "https://openalex.org/subfields/1202",
           "display_name": "History"
@@ -158187,16 +158347,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13641",
-        "display_name": "Historical Studies and Socio-cultural Analysis",
-        "score": 0.9451000094413757,
+        "id": "https://openalex.org/T14032",
+        "display_name": "History and International Relations",
+        "score": 0.0052999998442828655,
         "subfield": {
-          "id": "https://openalex.org/subfields/1207",
-          "display_name": "History and Philosophy of Science"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -158206,44 +158366,29 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/fell",
-        "display_name": "Fell",
-        "score": 0.9930628538131714
+        "id": "https://openalex.org/keywords/vichy-france",
+        "display_name": "Vichy France",
+        "score": 0.8960000276565552
       },
       {
-        "id": "https://openalex.org/keywords/alliance",
-        "display_name": "Alliance",
-        "score": 0.8660961389541626
+        "id": "https://openalex.org/keywords/anglo-american-alliance",
+        "display_name": "Anglo-American alliance",
+        "score": 0.9190000295639038
       },
       {
-        "id": "https://openalex.org/keywords/economic-history",
-        "display_name": "Economic history",
-        "score": 0.5853868126869202
+        "id": "https://openalex.org/keywords/world-war-ii",
+        "display_name": "World War II",
+        "score": 0.6499999761581421
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.4972060024738312
+        "id": "https://openalex.org/keywords/french-collaboration",
+        "display_name": "French collaboration",
+        "score": 0.3050000071525574
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.47336193919181824
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.1790391504764557
-      },
-      {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.12296938896179199
-      },
-      {
-        "id": "https://openalex.org/keywords/cartography",
-        "display_name": "Cartography",
-        "score": 0.09245890378952026
+        "id": "https://openalex.org/keywords/allied-diplomacy",
+        "display_name": "Allied diplomacy",
+        "score": 0.3959999978542328
       }
     ],
     "concepts": [
@@ -158309,6 +158454,7 @@
     "locations": [
       {
         "id": "doi:10.1177/00220094251324700b",
+        "doi": "https://doi.org/10.1177/00220094251324700b",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/00220094251324700b",
         "pdf_url": null,
@@ -158323,6 +158469,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -158344,11 +158500,13 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -158367,7 +158525,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-05-04T06:00:05.808912",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -240923,9 +241081,9 @@
   {
     "id": "https://openalex.org/W4412122395",
     "doi": "https://doi.org/10.1177/00220094251324700c",
-    "title": "Book Review: <i>Working Class Homosexuality in South African History: Voices from the Archive</i> by Iain Edwards and Marc Epprecht EdwardsIain and EpprechtMarc, Working Class Homosexuality in South African History: Voices from the Archive, Cape Town, HSRC Press, 2020; xxii + 257 pp.; US$35.00 pbk; ISBN 9780796925831",
-    "display_name": "Book Review: <i>Working Class Homosexuality in South African History: Voices from the Archive</i> by Iain Edwards and Marc Epprecht EdwardsIain and EpprechtMarc, Working Class Homosexuality in South African History: Voices from the Archive, Cape Town, HSRC Press, 2020; xxii + 257 pp.; US$35.00 pbk; ISBN 9780796925831",
-    "relevance_score": 1.3570764,
+    "title": "Book Review: Working Class Homosexuality in South African History: Voices from the Archive by Iain Edwards and Marc Epprecht EdwardsIain and EpprechtMarc, Working Class Homosexuality in South African History: Voices from the Archive, Cape Town, HSRC Press, 2020; xxii + 257 pp.; US$35.00 pbk; ISBN 9780796925831",
+    "display_name": "Book Review: Working Class Homosexuality in South African History: Voices from the Archive by Iain Edwards and Marc Epprecht EdwardsIain and EpprechtMarc, Working Class Homosexuality in South African History: Voices from the Archive, Cape Town, HSRC Press, 2020; xxii + 257 pp.; US$35.00 pbk; ISBN 9780796925831",
+    "relevance_score": 2.6232953,
     "publication_year": 2025,
     "publication_date": "2025-07-01",
     "ids": {
@@ -240935,9 +241093,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00220094251324700c",
-      "is_oa": true,
+      "doi": "https://doi.org/10.1177/00220094251324700c",
+      "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/00220094251324700c",
-      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251324700c?download=true",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S161550498",
         "display_name": "Journal of Contemporary History",
@@ -240949,6 +241108,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -240967,14 +241136,15 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
-      "is_oa": true,
-      "oa_status": "bronze",
-      "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251324700c?download=true",
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
       "any_repository_has_fulltext": false
     },
     "authorships": [
@@ -240983,7 +241153,8 @@
         "author": {
           "id": "https://openalex.org/A5034227333",
           "display_name": "T.J. Tallie",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -241025,16 +241196,16 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I160856358"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": true,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.2065388,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "60",
@@ -241048,7 +241219,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T13843",
       "display_name": "African Sexualities and LGBTQ+ Issues",
-      "score": 0.9901999831199646,
+      "score": 0.9779999852180481,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -241066,7 +241237,7 @@
       {
         "id": "https://openalex.org/T13843",
         "display_name": "African Sexualities and LGBTQ+ Issues",
-        "score": 0.9901999831199646,
+        "score": 0.9779999852180481,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -241083,7 +241254,7 @@
       {
         "id": "https://openalex.org/T11695",
         "display_name": "South African History and Culture",
-        "score": 0.9768000245094299,
+        "score": 0.0142000000923872,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -241098,12 +241269,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T12775",
-        "display_name": "Legal Issues in South Africa",
-        "score": 0.9110999703407288,
+        "id": "https://openalex.org/T12275",
+        "display_name": "Gender and Feminist Studies",
+        "score": 0.004600000102072954,
         "subfield": {
-          "id": "https://openalex.org/subfields/3308",
-          "display_name": "Law"
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -241117,64 +241288,19 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/homosexuality",
-        "display_name": "Homosexuality",
-        "score": 0.6112214922904968
+        "id": "https://openalex.org/keywords/south-african-history",
+        "display_name": "South African history",
+        "score": 0.8130000233650208
       },
       {
-        "id": "https://openalex.org/keywords/class",
-        "display_name": "Class (philosophy)",
-        "score": 0.5532594323158264
+        "id": "https://openalex.org/keywords/archival-sources",
+        "display_name": "archival sources",
+        "score": 0.5799999833106995
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.5310690402984619
-      },
-      {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.5101450085639954
-      },
-      {
-        "id": "https://openalex.org/keywords/working-class",
-        "display_name": "Working class",
-        "score": 0.5018799304962158
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.3895297646522522
-      },
-      {
-        "id": "https://openalex.org/keywords/genealogy",
-        "display_name": "Genealogy",
-        "score": 0.33511030673980713
-      },
-      {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.14876797795295715
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.12467542290687561
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.12297061085700989
-      },
-      {
-        "id": "https://openalex.org/keywords/epistemology",
-        "display_name": "Epistemology",
-        "score": 0.09603515267372131
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.06018915772438049
+        "id": "https://openalex.org/keywords/history-of-homosexuality",
+        "display_name": "gay history",
+        "score": 0.48899999260902405
       }
     ],
     "concepts": [
@@ -241268,9 +241394,10 @@
     "locations": [
       {
         "id": "doi:10.1177/00220094251324700c",
-        "is_oa": true,
+        "doi": "https://doi.org/10.1177/00220094251324700c",
+        "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/00220094251324700c",
-        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251324700c?download=true",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S161550498",
           "display_name": "Journal of Contemporary History",
@@ -241282,6 +241409,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -241301,70 +241438,36 @@
         "raw_type": "journal-article"
       }
     ],
-    "best_oa_location": {
-      "id": "doi:10.1177/00220094251324700c",
-      "is_oa": true,
-      "landing_page_url": "https://doi.org/10.1177/00220094251324700c",
-      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251324700c?download=true",
-      "source": {
-        "id": "https://openalex.org/S161550498",
-        "display_name": "Journal of Contemporary History",
-        "issn_l": "0022-0094",
-        "issn": [
-          "0022-0094",
-          "1461-7250"
-        ],
-        "is_oa": false,
-        "is_in_doaj": false,
-        "is_core": false,
-        "host_organization": "https://openalex.org/P4310320017",
-        "host_organization_name": "SAGE Publishing",
-        "host_organization_lineage": [
-          "https://openalex.org/P4310320017"
-        ],
-        "host_organization_lineage_names": [
-          "SAGE Publishing"
-        ],
-        "type": "journal"
-      },
-      "license": null,
-      "license_id": null,
-      "version": "publishedVersion",
-      "is_accepted": true,
-      "is_published": true,
-      "raw_source_name": "Journal of Contemporary History",
-      "raw_type": "journal-article"
-    },
-    "sustainable_development_goals": [
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
         "id": "https://metadata.un.org/sdg/5",
-        "score": 0.5899999737739563,
-        "display_name": "Gender equality"
+        "display_name": "Gender equality",
+        "score": 0.5899999737739563
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "grobid_xml": false,
+      "pdf": false
     },
-    "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4412122395.pdf",
-      "grobid_xml": "https://content.openalex.org/works/W4412122395.grobid-xml"
-    },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W2475602114",
-      "https://openalex.org/W2774490220",
-      "https://openalex.org/W2371739693",
-      "https://openalex.org/W2027493509",
-      "https://openalex.org/W2224925533",
-      "https://openalex.org/W2089368606",
-      "https://openalex.org/W2090435912",
-      "https://openalex.org/W1769321423",
-      "https://openalex.org/W112340635",
-      "https://openalex.org/W2318989781"
+      "https://openalex.org/W2478039229",
+      "https://openalex.org/W2061224067",
+      "https://openalex.org/W2610671686",
+      "https://openalex.org/W7207599603",
+      "https://openalex.org/W2560254760",
+      "https://openalex.org/W4297951196",
+      "https://openalex.org/W2074969537",
+      "https://openalex.org/W2499208042",
+      "https://openalex.org/W38171601",
+      "https://openalex.org/W7128004944"
     ],
     "abstract_inverted_index": {
       "In": [
@@ -241834,7 +241937,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-06-14T06:11:07.267592",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -252962,5 +253065,827 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7202279197",
+    "doi": "https://doi.org/10.1177/00220094261473231",
+    "title": "Rumours, Prophecies, and Fake News: Everyday Communication Under German Occupation in France, 1940\u201344",
+    "display_name": "Rumours, Prophecies, and Fake News: Everyday Communication Under German Occupation in France, 1940\u201344",
+    "relevance_score": 22.833254,
+    "publication_year": 2026,
+    "publication_date": "2026-08-12",
+    "ids": {
+      "openalex": "https://openalex.org/W7202279197",
+      "doi": "https://doi.org/10.1177/00220094261473231"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1177/00220094261473231",
+      "doi": "https://doi.org/10.1177/00220094261473231",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/00220094261473231",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S161550498",
+        "display_name": "Journal of Contemporary History",
+        "issn_l": "0022-0094",
+        "issn": [
+          "0022-0094",
+          "1461-7250"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Contemporary History",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1177/00220094261473231",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5084981163",
+          "display_name": "Manuel Mork",
+          "orcid": "https://orcid.org/0009-0008-7570-1086",
+          "observed_orcids": [
+            "https://orcid.org/0009-0008-7570-1086"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4210089995",
+            "display_name": "Institut f\u00fcr Zeitgeschichte M\u00fcnchen\u2013Berlin",
+            "ror": "https://ror.org/008pp7a77",
+            "country_code": "DE",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I315704651",
+              "https://openalex.org/I4210089995"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I8204097",
+            "display_name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+            "ror": "https://ror.org/05591te55",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8204097"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Manuel Mork",
+        "raw_affiliation_strings": [
+          "Institut f\u00fcr Zeitgeschichte (IfZ), M\u00fcnchen, Germany",
+          "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0008-7570-1086",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut f\u00fcr Zeitgeschichte (IfZ), M\u00fcnchen, Germany",
+            "institution_ids": [
+              "https://openalex.org/I4210089995"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+            "institution_ids": [
+              "https://openalex.org/I8204097"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5084981163"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4210089995",
+      "https://openalex.org/I8204097"
+    ],
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.54397304,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12909",
+      "display_name": "French Historical and Cultural Studies",
+      "score": 0.9502000212669373,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1202",
+        "display_name": "History"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12909",
+        "display_name": "French Historical and Cultural Studies",
+        "score": 0.9502000212669373,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12645",
+        "display_name": "European history and politics",
+        "score": 0.04529999941587448,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11971",
+        "display_name": "World Wars: History, Literature, and Impact",
+        "score": 0.004000000189989805,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/german-occupation-of-france",
+        "display_name": "German occupation of France",
+        "score": 0.9330000281333923
+      },
+      {
+        "id": "https://openalex.org/keywords/vichy-france",
+        "display_name": "Vichy France",
+        "score": 0.7680000066757202
+      },
+      {
+        "id": "https://openalex.org/keywords/everyday-communication",
+        "display_name": "everyday communication",
+        "score": 0.7020000219345093
+      },
+      {
+        "id": "https://openalex.org/keywords/rumors",
+        "display_name": "rumors",
+        "score": 0.871999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/prophecy",
+        "display_name": "prophecy",
+        "score": 0.9760000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/fake-news",
+        "display_name": "fake news",
+        "score": 0.9649999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/historical-analogies",
+        "display_name": "historical parallels",
+        "score": 0.7730000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/subversion",
+        "display_name": "subversion",
+        "score": 0.5989999771118164
+      },
+      {
+        "id": "https://openalex.org/keywords/sensemaking",
+        "display_name": "sensemaking",
+        "score": 0.6669999957084656
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C154775046",
+        "wikidata": "https://www.wikidata.org/wiki/Q188",
+        "display_name": "German",
+        "level": 2,
+        "score": 0.9379000067710876
+      },
+      {
+        "id": "https://openalex.org/C2779018934",
+        "wikidata": "https://www.wikidata.org/wiki/Q1129653",
+        "display_name": "Everyday life",
+        "level": 2,
+        "score": 0.6169000267982483
+      },
+      {
+        "id": "https://openalex.org/C157660682",
+        "wikidata": "https://www.wikidata.org/wiki/Q419793",
+        "display_name": "Accommodation",
+        "level": 2,
+        "score": 0.5799999833106995
+      },
+      {
+        "id": "https://openalex.org/C199033989",
+        "wikidata": "https://www.wikidata.org/wiki/Q1318295",
+        "display_name": "Narrative",
+        "level": 2,
+        "score": 0.5755000114440918
+      },
+      {
+        "id": "https://openalex.org/C29595303",
+        "wikidata": "https://www.wikidata.org/wiki/Q165650",
+        "display_name": "Media studies",
+        "level": 1,
+        "score": 0.47609999775886536
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.47429999709129333
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.3921000063419342
+      },
+      {
+        "id": "https://openalex.org/C2992884035",
+        "wikidata": "https://www.wikidata.org/wiki/Q7551229",
+        "display_name": "Social life",
+        "level": 2,
+        "score": 0.37860000133514404
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.37630000710487366
+      },
+      {
+        "id": "https://openalex.org/C178895491",
+        "wikidata": "https://www.wikidata.org/wiki/Q211606",
+        "display_name": "Social structure",
+        "level": 3,
+        "score": 0.2759999930858612
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.2754000127315521
+      },
+      {
+        "id": "https://openalex.org/C36289849",
+        "wikidata": "https://www.wikidata.org/wiki/Q34749",
+        "display_name": "Social science",
+        "level": 1,
+        "score": 0.2662999927997589
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1177/00220094261473231",
+        "doi": "https://doi.org/10.1177/00220094261473231",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1177/00220094261473231",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S161550498",
+          "display_name": "Journal of Contemporary History",
+          "issn_l": "0022-0094",
+          "issn": [
+            "0022-0094",
+            "1461-7250"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Contemporary History",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1177/00220094261473231",
+      "doi": "https://doi.org/10.1177/00220094261473231",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/00220094261473231",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S161550498",
+        "display_name": "Journal of Contemporary History",
+        "issn_l": "0022-0094",
+        "issn": [
+          "0022-0094",
+          "1461-7250"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Contemporary History",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/4",
+        "display_name": "Quality education",
+        "score": 0.4158455729484558
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320875",
+        "display_name": "Deutscher Akademischer Austauschdienst",
+        "ror": "https://ror.org/039djdh30"
+      },
+      {
+        "id": "https://openalex.org/F4320328047",
+        "display_name": "Deutsches Historisches Institut Paris",
+        "ror": "https://ror.org/02f1mqt91"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "this": [
+        1
+      ],
+      "paper,": [
+        2
+      ],
+      "I": [
+        3
+      ],
+      "argue": [
+        4
+      ],
+      "that": [
+        5
+      ],
+      "the": [
+        6,
+        40,
+        71
+      ],
+      "problem": [
+        7
+      ],
+      "of": [
+        8,
+        27,
+        42,
+        58,
+        88,
+        95,
+        104
+      ],
+      "majority": [
+        9
+      ],
+      "behaviour": [
+        10
+      ],
+      "under": [
+        11,
+        61,
+        107
+      ],
+      "German": [
+        12,
+        108
+      ],
+      "occupation": [
+        13
+      ],
+      "between": [
+        14
+      ],
+      "1940": [
+        15
+      ],
+      "and": [
+        16,
+        48,
+        70,
+        79,
+        97,
+        116,
+        121
+      ],
+      "1944": [
+        17
+      ],
+      "has": [
+        18
+      ],
+      "not": [
+        19,
+        99
+      ],
+      "been": [
+        20
+      ],
+      "discussed": [
+        21
+      ],
+      "with": [
+        22
+      ],
+      "sufficient": [
+        23
+      ],
+      "nuance.": [
+        24
+      ],
+      "Whereas": [
+        25
+      ],
+      "claims": [
+        26
+      ],
+      "a": [
+        28,
+        85
+      ],
+      "far-spread": [
+        29
+      ],
+      "accommodation": [
+        30
+      ],
+      "certainly": [
+        31
+      ],
+      "hold": [
+        32
+      ],
+      "true,": [
+        33
+      ],
+      "other": [
+        34
+      ],
+      "common": [
+        35
+      ],
+      "behavioural": [
+        36
+      ],
+      "patterns": [
+        37
+      ],
+      "such": [
+        38,
+        68
+      ],
+      "as": [
+        39,
+        82,
+        84
+      ],
+      "dissemination": [
+        41
+      ],
+      "foreign": [
+        43
+      ],
+      "radio": [
+        44
+      ],
+      "news,": [
+        45
+      ],
+      "rumours,": [
+        46
+      ],
+      "prophecies,": [
+        47
+      ],
+      "historical": [
+        49,
+        122
+      ],
+      "analogies": [
+        50
+      ],
+      "hint": [
+        51
+      ],
+      "at": [
+        52
+      ],
+      "more": [
+        53
+      ],
+      "critical": [
+        54
+      ],
+      "or": [
+        55
+      ],
+      "subversive": [
+        56
+      ],
+      "facets": [
+        57
+      ],
+      "daily": [
+        59
+      ],
+      "life": [
+        60
+      ],
+      "occupation.": [
+        62
+      ],
+      "The": [
+        63
+      ],
+      "article": [
+        64
+      ],
+      "attempts": [
+        65
+      ],
+      "to": [
+        66
+      ],
+      "analyse": [
+        67
+      ],
+      "narratives": [
+        69
+      ],
+      "ensuing": [
+        72
+      ],
+      "social": [
+        73
+      ],
+      "practices": [
+        74
+      ],
+      "by": [
+        75
+      ],
+      "cross-reading": [
+        76
+      ],
+      "German,": [
+        77
+      ],
+      "British,": [
+        78
+      ],
+      "French": [
+        80,
+        89,
+        105
+      ],
+      "archives": [
+        81
+      ],
+      "well": [
+        83
+      ],
+      "broad": [
+        86
+      ],
+      "range": [
+        87
+      ],
+      "diaries.": [
+        90
+      ],
+      "Analysing": [
+        91
+      ],
+      "these": [
+        92
+      ],
+      "informal": [
+        93
+      ],
+      "modes": [
+        94
+      ],
+      "communication": [
+        96
+      ],
+      "sense-making": [
+        98
+      ],
+      "only": [
+        100
+      ],
+      "deepens": [
+        101
+      ],
+      "our": [
+        102
+      ],
+      "understanding": [
+        103
+      ],
+      "society": [
+        106
+      ],
+      "occupation,": [
+        109
+      ],
+      "but": [
+        110
+      ],
+      "can": [
+        111
+      ],
+      "also": [
+        112
+      ],
+      "help": [
+        113
+      ],
+      "explain": [
+        114
+      ],
+      "disagreements": [
+        115
+      ],
+      "tensions": [
+        117
+      ],
+      "in": [
+        118
+      ],
+      "postwar": [
+        119
+      ],
+      "memorial": [
+        120
+      ],
+      "debates.": [
+        123
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-21T07:43:02.447757",
+    "created_date": "2026-08-13T00:00:00"
   }
 ]

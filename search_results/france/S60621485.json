@@ -22460,7 +22460,7 @@
     "doi": "https://doi.org/10.1177/07352751251332274",
     "title": "Discovering Society, Inventing Sociology: Siey\u00e8s and the Revolutionary Origins of the Sciences of Society",
     "display_name": "Discovering Society, Inventing Sociology: Siey\u00e8s and the Revolutionary Origins of the Sciences of Society",
-    "relevance_score": 3.5386,
+    "relevance_score": 2.5012643,
     "publication_year": 2025,
     "publication_date": "2025-04-22",
     "ids": {
@@ -22470,6 +22470,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/07352751251332274",
+      "doi": "https://doi.org/10.1177/07352751251332274",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/07352751251332274",
       "pdf_url": null,
@@ -22484,6 +22485,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -22502,6 +22514,7 @@
       "raw_source_name": "Sociological Theory",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -22518,9 +22531,22 @@
         "author": {
           "id": "https://openalex.org/A5082358844",
           "display_name": "Laurence Kaufmann",
-          "orcid": "https://orcid.org/0000-0003-4286-3683"
+          "orcid": "https://orcid.org/0000-0003-4286-3683",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4286-3683"
+          ]
         },
         "institutions": [
+          {
+            "id": "https://openalex.org/I90669466",
+            "display_name": "\u00c9cole des hautes \u00e9tudes en sciences sociales",
+            "ror": "https://ror.org/02d9dg697",
+            "country_code": "FR",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I90669466"
+            ]
+          },
           {
             "id": "https://openalex.org/I97565354",
             "display_name": "University of Lausanne",
@@ -22533,7 +22559,8 @@
           }
         ],
         "countries": [
-          "CH"
+          "CH",
+          "FR"
         ],
         "is_corresponding": true,
         "raw_author_name": "Laurence Kaufmann",
@@ -22545,7 +22572,9 @@
         "affiliations": [
           {
             "raw_affiliation_string": "Center for the Study of Social Movements, School of Advanced Studies in Social Sciences, Paris, France",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I90669466"
+            ]
           },
           {
             "raw_affiliation_string": "Institute of Social Sciences, University of Lausanne, Lausanne, Switzerland",
@@ -22557,27 +22586,32 @@
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 1,
-    "institutions_distinct_count": 1,
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
       "https://openalex.org/A5082358844"
     ],
     "corresponding_institution_ids": [
+      "https://openalex.org/I90669466",
       "https://openalex.org/I97565354"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
     "apc_paid": null,
-    "fwci": 3.7232,
+    "fwci": 3.611,
     "has_fulltext": false,
-    "cited_by_count": 1,
+    "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.90768913,
+      "value": 0.9160113,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 94,
+      "max": 96
     },
     "biblio": {
       "volume": "43",
@@ -22589,9 +22623,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12839",
-      "display_name": "Emile Durkheim and Sociology",
-      "score": 0.9916999936103821,
+      "id": "https://openalex.org/T14300",
+      "display_name": "Legal and Social Philosophy",
+      "score": 0.8339999914169312,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -22607,9 +22641,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12839",
-        "display_name": "Emile Durkheim and Sociology",
-        "score": 0.9916999936103821,
+        "id": "https://openalex.org/T14300",
+        "display_name": "Legal and Social Philosophy",
+        "score": 0.8339999914169312,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -22624,12 +22658,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T13196",
-        "display_name": "Political Theory and Influence",
-        "score": 0.9883999824523926,
+        "id": "https://openalex.org/T12231",
+        "display_name": "Contemporary Sociological Theory and Practice",
+        "score": 0.04190000146627426,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -22641,12 +22675,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T12454",
-        "display_name": "European Political History Analysis",
-        "score": 0.9865000247955322,
+        "id": "https://openalex.org/T13153",
+        "display_name": "Rousseau and Enlightenment Thought",
+        "score": 0.03759999945759773,
         "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -22660,24 +22694,34 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.6960378289222717
+        "id": "https://openalex.org/keywords/emmanuel-joseph-sieyes",
+        "display_name": "Emmanuel Siey\u00e8s",
+        "score": 0.9490000009536743
       },
       {
-        "id": "https://openalex.org/keywords/epistemology",
-        "display_name": "Epistemology",
-        "score": 0.5182535648345947
+        "id": "https://openalex.org/keywords/origins-of-sociology",
+        "display_name": "origins of sociology",
+        "score": 0.6669999957084656
       },
       {
-        "id": "https://openalex.org/keywords/social-science",
-        "display_name": "Social science",
-        "score": 0.5098540186882019
+        "id": "https://openalex.org/keywords/concept-of-society",
+        "display_name": "concept of society",
+        "score": 0.8479999899864197
       },
       {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.16597318649291992
+        "id": "https://openalex.org/keywords/french-revolution",
+        "display_name": "French Revolution",
+        "score": 0.9940000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/individual-and-society",
+        "display_name": "individual and society",
+        "score": 0.6629999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/social-construction-of-reality",
+        "display_name": "social construction of reality",
+        "score": 0.8769999742507935
       }
     ],
     "concepts": [
@@ -22715,6 +22759,7 @@
     "locations": [
       {
         "id": "doi:10.1177/07352751251332274",
+        "doi": "https://doi.org/10.1177/07352751251332274",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/07352751251332274",
         "pdf_url": null,
@@ -22729,6 +22774,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -22749,6 +22805,7 @@
       },
       {
         "id": "pmh:oai:iris.unil.ch:iris/278967",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://iris.unil.ch/handle/iris/278967",
         "pdf_url": null,
@@ -22760,6 +22817,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -22777,6 +22835,8 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -22794,7 +22854,6 @@
       "https://openalex.org/W1535459913",
       "https://openalex.org/W1935758939",
       "https://openalex.org/W1968623732",
-      "https://openalex.org/W1979432418",
       "https://openalex.org/W1979592868",
       "https://openalex.org/W2005499769",
       "https://openalex.org/W2011867971",
@@ -22821,6 +22880,7 @@
       "https://openalex.org/W4229856950",
       "https://openalex.org/W4239590795",
       "https://openalex.org/W4254444181",
+      "https://openalex.org/W4254555714",
       "https://openalex.org/W4292309245",
       "https://openalex.org/W4299476741",
       "https://openalex.org/W4388335059",
@@ -23198,10 +23258,10 @@
     "counts_by_year": [
       {
         "year": 2025,
-        "cited_by_count": 1
+        "cited_by_count": 2
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -23209,7 +23269,7 @@
     "doi": "https://doi.org/10.1177/07352751261434594",
     "title": "Theorizing the Monogamous State: Intersections of Race, Coloniality, and Sexuality",
     "display_name": "Theorizing the Monogamous State: Intersections of Race, Coloniality, and Sexuality",
-    "relevance_score": 0.65395755,
+    "relevance_score": 1.8566494,
     "publication_year": 2026,
     "publication_date": "2026-04-07",
     "ids": {
@@ -23219,7 +23279,8 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/07352751261434594",
-      "is_oa": false,
+      "doi": "https://doi.org/10.1177/07352751261434594",
+      "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/07352751261434594",
       "pdf_url": null,
       "source": {
@@ -23233,6 +23294,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -23243,22 +23315,23 @@
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Sociological Theory",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
-      "is_oa": false,
-      "oa_status": "closed",
-      "oa_url": null,
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1177/07352751261434594",
       "any_repository_has_fulltext": false
     },
     "authorships": [
@@ -23267,7 +23340,10 @@
         "author": {
           "id": "https://openalex.org/A5024674435",
           "display_name": "Melanie Heath",
-          "orcid": "https://orcid.org/0000-0001-7945-7895"
+          "orcid": "https://orcid.org/0000-0001-7945-7895",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7945-7895"
+          ]
         },
         "institutions": [
           {
@@ -23309,33 +23385,41 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I98251732"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
+    "apc_paid": {
+      "value": 3900,
+      "currency": "USD",
+      "value_usd": 3900
+    },
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.85035866,
+      "value": 0.21462949,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "44",
+      "issue": "3",
+      "first_page": "275",
+      "last_page": "298"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13632",
-      "display_name": "Marriage and Sexual Relationships",
-      "score": 0.3262999951839447,
+      "id": "https://openalex.org/T12275",
+      "display_name": "Gender and Feminist Studies",
+      "score": 0.8604000210762024,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3318",
+        "display_name": "Gender Studies"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -23348,9 +23432,26 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13632",
-        "display_name": "Marriage and Sexual Relationships",
-        "score": 0.3262999951839447,
+        "id": "https://openalex.org/T12275",
+        "display_name": "Gender and Feminist Studies",
+        "score": 0.8604000210762024,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12295",
+        "display_name": "Foucault, Power, and Ethics",
+        "score": 0.01720000058412552,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -23365,29 +23466,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T14426",
-        "display_name": "Religion, Gender, and Enlightenment",
-        "score": 0.08259999752044678,
+        "id": "https://openalex.org/T10149",
+        "display_name": "Anthropological Studies and Insights",
+        "score": 0.015200000256299973,
         "subfield": {
-          "id": "https://openalex.org/subfields/1212",
-          "display_name": "Religious studies"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13926",
-        "display_name": "Feminism, Gender, and Sexuality Studies",
-        "score": 0.03819999843835831,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3318",
-          "display_name": "Gender Studies"
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -23401,29 +23485,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/human-sexuality",
-        "display_name": "Human sexuality",
-        "score": 0.8377000093460083
+        "id": "https://openalex.org/keywords/monogamy",
+        "display_name": "monogamy",
+        "score": 0.972000002861023
+      },
+      {
+        "id": "https://openalex.org/keywords/state-regulation-of-sexuality",
+        "display_name": "state regulation of sexuality",
+        "score": 0.6579999923706055
+      },
+      {
+        "id": "https://openalex.org/keywords/coloniality",
+        "display_name": "coloniality",
+        "score": 0.9520000219345093
+      },
+      {
+        "id": "https://openalex.org/keywords/race",
+        "display_name": "race",
+        "score": 0.9179999828338623
+      },
+      {
+        "id": "https://openalex.org/keywords/polygamy",
+        "display_name": "polygamy",
+        "score": 0.875
       },
       {
         "id": "https://openalex.org/keywords/polygyny",
-        "display_name": "Polygyny",
-        "score": 0.6679999828338623
+        "display_name": "polygyny",
+        "score": 0.8610000014305115
       },
       {
-        "id": "https://openalex.org/keywords/state",
-        "display_name": "State (computer science)",
-        "score": 0.5386999845504761
+        "id": "https://openalex.org/keywords/civilizing-mission",
+        "display_name": "civilizing mission",
+        "score": 0.949999988079071
       },
       {
         "id": "https://openalex.org/keywords/citizenship",
-        "display_name": "Citizenship",
-        "score": 0.48669999837875366
+        "display_name": "citizenship",
+        "score": 0.9139999747276306
       },
       {
-        "id": "https://openalex.org/keywords/colonialism",
-        "display_name": "Colonialism",
-        "score": 0.4293999969959259
+        "id": "https://openalex.org/keywords/public-order",
+        "display_name": "public order",
+        "score": 0.8949999809265137
+      },
+      {
+        "id": "https://openalex.org/keywords/france",
+        "display_name": "France",
+        "score": 0.6179999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/colonial-history",
+        "display_name": "colonial history",
+        "score": 0.5149999856948853
       }
     ],
     "concepts": [
@@ -23510,7 +23624,8 @@
     "locations": [
       {
         "id": "doi:10.1177/07352751261434594",
-        "is_oa": false,
+        "doi": "https://doi.org/10.1177/07352751261434594",
+        "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/07352751261434594",
         "pdf_url": null,
         "source": {
@@ -23524,6 +23639,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -23534,8 +23660,8 @@
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -23543,14 +23669,67 @@
         "raw_type": "journal-article"
       }
     ],
-    "best_oa_location": null,
+    "best_oa_location": {
+      "id": "doi:10.1177/07352751261434594",
+      "doi": "https://doi.org/10.1177/07352751261434594",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/07352751261434594",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S60621485",
+        "display_name": "Sociological Theory",
+        "issn_l": "0735-2751",
+        "issn": [
+          "0735-2751",
+          "1467-9558"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Sociological Theory",
+      "raw_type": "journal-article"
+    },
     "sustainable_development_goals": [
       {
-        "score": 0.7825136184692383,
-        "id": "https://metadata.un.org/sdg/5",
-        "display_name": "Gender equality"
+        "score": 0.5473999977111816,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.7825136184692383,
+        "display_name": "Gender equality",
+        "id": "https://metadata.un.org/sdg/5"
+      }
+    ],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G7341459474",
@@ -23939,7 +24118,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-04-09T06:13:59.934233",
+    "updated_date": "2026-09-09T07:26:56.047234",
     "created_date": "2026-04-09T00:00:00"
   }
 ]

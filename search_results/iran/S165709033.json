@@ -22064,7 +22064,7 @@
     "doi": "https://doi.org/10.1086/740964",
     "title": "Closeted Labor",
     "display_name": "Closeted Labor",
-    "relevance_score": 1.4007983,
+    "relevance_score": 2.7885232,
     "publication_year": 2026,
     "publication_date": "2026-04-01",
     "ids": {
@@ -22074,6 +22074,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/740964",
+      "doi": "https://doi.org/10.1086/740964",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/740964",
       "pdf_url": null,
@@ -22088,6 +22089,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -22108,6 +22120,7 @@
       "raw_source_name": "Current Anthropology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -22122,9 +22135,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5133252828",
+          "id": "https://openalex.org/A5039104704",
           "display_name": "Elif Sar\u0131",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-8781-2612",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8781-2612"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -22144,9 +22160,9 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
-      "https://openalex.org/A5133252828"
+      "https://openalex.org/A5039104704"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
@@ -22155,7 +22171,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.7022655,
+      "value": 0.24229364,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -22170,9 +22186,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10216",
-      "display_name": "Migration, Refugees, and Integration",
-      "score": 0.5467000007629395,
+      "id": "https://openalex.org/T14062",
+      "display_name": "Migration and Exile Studies",
+      "score": 0.6571999788284302,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -22188,9 +22204,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T14062",
+        "display_name": "Migration and Exile Studies",
+        "score": 0.6571999788284302,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T10216",
         "display_name": "Migration, Refugees, and Integration",
-        "score": 0.5467000007629395,
+        "score": 0.19179999828338623,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -22205,29 +22238,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T11648",
-        "display_name": "Diaspora, migration, transnational identity",
-        "score": 0.05090000107884407,
+        "id": "https://openalex.org/T14226",
+        "display_name": "Migration, Racism, and Human Rights",
+        "score": 0.08829999715089798,
         "subfield": {
-          "id": "https://openalex.org/subfields/3317",
-          "display_name": "Demography"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13103",
-        "display_name": "Middle East Politics and Society",
-        "score": 0.04450000077486038,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3306",
+          "display_name": "Health"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -22241,29 +22257,64 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/refugee",
-        "display_name": "Refugee",
-        "score": 0.9452000260353088
+        "id": "https://openalex.org/keywords/asylum-regime",
+        "display_name": "asylum regime",
+        "score": 0.6729999780654907
       },
       {
-        "id": "https://openalex.org/keywords/neglect",
-        "display_name": "Neglect",
-        "score": 0.5572999715805054
+        "id": "https://openalex.org/keywords/refugee-resettlement",
+        "display_name": "refugee resettlement",
+        "score": 0.7739999890327454
       },
       {
-        "id": "https://openalex.org/keywords/human-sexuality",
-        "display_name": "Human sexuality",
-        "score": 0.5095000267028809
+        "id": "https://openalex.org/keywords/deportation",
+        "display_name": "deportation",
+        "score": 0.3709999918937683
       },
       {
-        "id": "https://openalex.org/keywords/labor-relations",
-        "display_name": "Labor relations",
-        "score": 0.38609999418258667
+        "id": "https://openalex.org/keywords/carceral-logics",
+        "display_name": "carceral logics",
+        "score": 0.5929999947547913
       },
       {
-        "id": "https://openalex.org/keywords/human-rights",
-        "display_name": "Human rights",
-        "score": 0.3084999918937683
+        "id": "https://openalex.org/keywords/coercion",
+        "display_name": "coercion",
+        "score": 0.4339999854564667
+      },
+      {
+        "id": "https://openalex.org/keywords/containment",
+        "display_name": "containment",
+        "score": 0.9850000143051147
+      },
+      {
+        "id": "https://openalex.org/keywords/concealment",
+        "display_name": "concealment",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/informal-employment",
+        "display_name": "informal employment",
+        "score": 0.8960000276565552
+      },
+      {
+        "id": "https://openalex.org/keywords/labor-exploitation",
+        "display_name": "labor exploitation",
+        "score": 0.5260000228881836
+      },
+      {
+        "id": "https://openalex.org/keywords/border-closures",
+        "display_name": "border closures",
+        "score": 0.5239999890327454
+      },
+      {
+        "id": "https://openalex.org/keywords/anti-immigration-policy",
+        "display_name": "anti-immigrant policy",
+        "score": 0.703000009059906
+      },
+      {
+        "id": "https://openalex.org/keywords/survival-strategies",
+        "display_name": "survival strategies",
+        "score": 0.4399999976158142
       }
     ],
     "concepts": [
@@ -22378,6 +22429,7 @@
     "locations": [
       {
         "id": "doi:10.1086/740964",
+        "doi": "https://doi.org/10.1086/740964",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/740964",
         "pdf_url": null,
@@ -22392,6 +22444,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -22416,16 +22479,34 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.5580474734306335,
-        "id": "https://metadata.un.org/sdg/5",
-        "display_name": "Gender equality"
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities",
+        "score": 0.7578999996185303
+      },
+      {
+        "id": "https://metadata.un.org/sdg/8",
+        "display_name": "Decent work and economic growth",
+        "score": 0.7257999777793884
+      },
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.666700005531311
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality",
+        "score": 0.5580474734306335
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 56,
@@ -22437,6 +22518,7 @@
       "https://openalex.org/W1969111735",
       "https://openalex.org/W1975475457",
       "https://openalex.org/W1979623874",
+      "https://openalex.org/W1981902743",
       "https://openalex.org/W2022261675",
       "https://openalex.org/W2063038816",
       "https://openalex.org/W2068345285",
@@ -22448,6 +22530,7 @@
       "https://openalex.org/W2135184189",
       "https://openalex.org/W2144778963",
       "https://openalex.org/W2220616166",
+      "https://openalex.org/W2252178064",
       "https://openalex.org/W2548806223",
       "https://openalex.org/W2622336764",
       "https://openalex.org/W2726661946",
@@ -22473,11 +22556,9 @@
       "https://openalex.org/W4232738856",
       "https://openalex.org/W4233527311",
       "https://openalex.org/W4234003348",
-      "https://openalex.org/W4236519808",
       "https://openalex.org/W4246237714",
       "https://openalex.org/W4255168181",
       "https://openalex.org/W4281702771",
-      "https://openalex.org/W4285670952",
       "https://openalex.org/W4293826157",
       "https://openalex.org/W4309691619",
       "https://openalex.org/W4322487081",
@@ -22487,7 +22568,18 @@
       "https://openalex.org/W4410647138",
       "https://openalex.org/W7138950951"
     ],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W3095788547",
+      "https://openalex.org/W4283751382",
+      "https://openalex.org/W4411765471",
+      "https://openalex.org/W6940180720",
+      "https://openalex.org/W2952666988",
+      "https://openalex.org/W7172399625",
+      "https://openalex.org/W3003391989",
+      "https://openalex.org/W4387663076",
+      "https://openalex.org/W2817920646",
+      "https://openalex.org/W4400932700"
+    ],
     "abstract_inverted_index": {
       "Examining": [
         0
@@ -22953,7 +23045,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-16T06:04:12.930555",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2026-04-10T00:00:00"
   },
   {
@@ -22961,7 +23053,7 @@
     "doi": "https://doi.org/10.1086/738978",
     "title": "Political Incarnation as Living Archive",
     "display_name": "Political Incarnation as Living Archive",
-    "relevance_score": 1.3689948,
+    "relevance_score": 2.7119846,
     "publication_year": 2026,
     "publication_date": "2026-02-04",
     "ids": {
@@ -22971,6 +23063,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/738978",
+      "doi": "https://doi.org/10.1086/738978",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/738978",
       "pdf_url": null,
@@ -22985,6 +23078,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -23005,6 +23109,7 @@
       "raw_source_name": "Current Anthropology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -23019,9 +23124,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5125050388",
+          "id": "https://openalex.org/A5033287340",
           "display_name": "William Mazzarella",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-2500-6316",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2500-6316"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -23030,6 +23138,7 @@
         "raw_affiliation_strings": [
           ""
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "",
@@ -23040,9 +23149,9 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
-      "https://openalex.org/A5125050388"
+      "https://openalex.org/A5033287340"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
@@ -23051,7 +23160,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.26172762,
+      "value": 0.05599089,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -23066,12 +23175,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13351",
-      "display_name": "Critical Theory and Political Philosophy",
-      "score": 0.1039000004529953,
+      "id": "https://openalex.org/T13291",
+      "display_name": "Political Theory and Democracy",
+      "score": 0.6528000235557556,
       "subfield": {
-        "id": "https://openalex.org/subfields/3304",
-        "display_name": "Education"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -23084,12 +23193,12 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13351",
-        "display_name": "Critical Theory and Political Philosophy",
-        "score": 0.1039000004529953,
+        "id": "https://openalex.org/T13291",
+        "display_name": "Political Theory and Democracy",
+        "score": 0.6528000235557556,
         "subfield": {
-          "id": "https://openalex.org/subfields/3304",
-          "display_name": "Education"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -23103,7 +23212,7 @@
       {
         "id": "https://openalex.org/T12311",
         "display_name": "Political Theology and Sovereignty",
-        "score": 0.07039999961853027,
+        "score": 0.1754000037908554,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -23118,16 +23227,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T12366",
-        "display_name": "Philosophy, Ethics, and Existentialism",
-        "score": 0.04540000110864639,
+        "id": "https://openalex.org/T11397",
+        "display_name": "Populism, Right-Wing Movements",
+        "score": 0.12290000170469284,
         "subfield": {
-          "id": "https://openalex.org/subfields/1211",
-          "display_name": "Philosophy"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -23137,29 +23246,29 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/incarnation",
-        "display_name": "Incarnation",
-        "score": 0.9868000149726868
+        "id": "https://openalex.org/keywords/democratic-sovereignty",
+        "display_name": "democratic sovereignty",
+        "score": 0.7329999804496765
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.7702999711036682
+        "id": "https://openalex.org/keywords/global-populism",
+        "display_name": "global populism",
+        "score": 0.8379999995231628
       },
       {
-        "id": "https://openalex.org/keywords/democracy",
-        "display_name": "Democracy",
-        "score": 0.5964000225067139
+        "id": "https://openalex.org/keywords/political-theology",
+        "display_name": "political theology",
+        "score": 0.734000027179718
       },
       {
-        "id": "https://openalex.org/keywords/authoritarianism",
-        "display_name": "Authoritarianism",
-        "score": 0.49959999322891235
+        "id": "https://openalex.org/keywords/iranian-protests",
+        "display_name": "Iranian protests",
+        "score": 0.38100001215934753
       },
       {
-        "id": "https://openalex.org/keywords/political-philosophy",
-        "display_name": "Political philosophy",
-        "score": 0.2903999984264374
+        "id": "https://openalex.org/keywords/living-archive",
+        "display_name": "living archive",
+        "score": 0.5770000219345093
       }
     ],
     "concepts": [
@@ -23246,6 +23355,7 @@
     "locations": [
       {
         "id": "doi:10.1086/738978",
+        "doi": "https://doi.org/10.1086/738978",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/738978",
         "pdf_url": null,
@@ -23260,6 +23370,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -23284,22 +23405,31 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.7956622242927551,
-        "id": "https://metadata.un.org/sdg/5",
-        "display_name": "Gender equality"
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.8046000003814697
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality",
+        "score": 0.7956622242927551
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 14,
     "referenced_works": [
       "https://openalex.org/W1968078708",
       "https://openalex.org/W1969306278",
+      "https://openalex.org/W1986174033",
       "https://openalex.org/W1998561491",
       "https://openalex.org/W2007187194",
       "https://openalex.org/W2011152119",
@@ -23310,10 +23440,20 @@
       "https://openalex.org/W4206245856",
       "https://openalex.org/W4231847762",
       "https://openalex.org/W4243541653",
-      "https://openalex.org/W4249045793",
       "https://openalex.org/W4403036639"
     ],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W4403685345",
+      "https://openalex.org/W3127267697",
+      "https://openalex.org/W4321509412",
+      "https://openalex.org/W6921440652",
+      "https://openalex.org/W4243281192",
+      "https://openalex.org/W4295350509",
+      "https://openalex.org/W6981194246",
+      "https://openalex.org/W2011152119",
+      "https://openalex.org/W3175815621",
+      "https://openalex.org/W4400650625"
+    ],
     "abstract_inverted_index": {
       "I": [
         0,
@@ -23536,7 +23676,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-04-08T06:01:36.053099",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2026-02-06T00:00:00"
   },
   {
@@ -23544,7 +23684,7 @@
     "doi": "https://doi.org/10.1086/741120",
     "title": "Conversion as Refusal",
     "display_name": "Conversion as Refusal",
-    "relevance_score": 1.1370486,
+    "relevance_score": 2.2618918,
     "publication_year": 2026,
     "publication_date": "2026-04-28",
     "ids": {
@@ -23554,6 +23694,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/741120",
+      "doi": "https://doi.org/10.1086/741120",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/741120",
       "pdf_url": null,
@@ -23568,6 +23709,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -23588,6 +23740,7 @@
       "raw_source_name": "Current Anthropology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -23604,7 +23757,10 @@
         "author": {
           "id": "https://openalex.org/A5053763247",
           "display_name": "Aghil Daghagheleh",
-          "orcid": "https://orcid.org/0000-0002-0253-9662"
+          "orcid": "https://orcid.org/0000-0002-0253-9662",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0253-9662"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -23624,7 +23780,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5053763247"
     ],
@@ -23635,7 +23791,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.77243071,
+      "value": 0.24543986,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -23650,16 +23806,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13144",
-      "display_name": "Theology and Philosophy of Evil",
-      "score": 0.07010000199079514,
+      "id": "https://openalex.org/T10794",
+      "display_name": "Islamic Studies and History",
+      "score": 0.6820999979972839,
       "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -23668,16 +23824,16 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13144",
-        "display_name": "Theology and Philosophy of Evil",
-        "score": 0.07010000199079514,
+        "id": "https://openalex.org/T10794",
+        "display_name": "Islamic Studies and History",
+        "score": 0.6820999979972839,
         "subfield": {
-          "id": "https://openalex.org/subfields/1211",
-          "display_name": "Philosophy"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -23685,16 +23841,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T11477",
-        "display_name": "Epistemology, Ethics, and Metaphysics",
-        "score": 0.041200000792741776,
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.2199999988079071,
         "subfield": {
-          "id": "https://openalex.org/subfields/1211",
-          "display_name": "Philosophy"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -23702,12 +23858,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T12440",
-        "display_name": "Karl Barth and Christian Theology",
-        "score": 0.03970000147819519,
+        "id": "https://openalex.org/T13815",
+        "display_name": "Islamic Thought and Society Studies",
+        "score": 0.03449999913573265,
         "subfield": {
-          "id": "https://openalex.org/subfields/1211",
-          "display_name": "Philosophy"
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -23721,34 +23877,74 @@
     ],
     "keywords": [
       {
+        "id": "https://openalex.org/keywords/religious-conversion",
+        "display_name": "religious conversion",
+        "score": 0.9390000104904175
+      },
+      {
+        "id": "https://openalex.org/keywords/arab-minority",
+        "display_name": "Arab minority",
+        "score": 0.7630000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/khuzestan",
+        "display_name": "Khuzestan",
+        "score": 0.9929999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/refusal",
+        "display_name": "refusal",
+        "score": 0.8019999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/ethnic-minorities",
+        "display_name": "ethnic minorities",
+        "score": 0.5849999785423279
+      },
+      {
+        "id": "https://openalex.org/keywords/majority-minority-relations",
+        "display_name": "majority-minority relations",
+        "score": 0.7599999904632568
+      },
+      {
+        "id": "https://openalex.org/keywords/citizenship",
+        "display_name": "citizenship",
+        "score": 0.3919999897480011
+      },
+      {
+        "id": "https://openalex.org/keywords/sense-of-belonging",
+        "display_name": "sense of belonging",
+        "score": 0.8690000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/political-incorporation",
+        "display_name": "political incorporation",
+        "score": 0.8259999752044678
+      },
+      {
+        "id": "https://openalex.org/keywords/salafism",
+        "display_name": "Salafism",
+        "score": 0.6890000104904175
+      },
+      {
         "id": "https://openalex.org/keywords/sectarianism",
-        "display_name": "Sectarianism",
-        "score": 0.8483999967575073
+        "display_name": "sectarianism",
+        "score": 0.7440000176429749
       },
       {
-        "id": "https://openalex.org/keywords/ethnic-group",
-        "display_name": "Ethnic group",
-        "score": 0.7936000227928162
+        "id": "https://openalex.org/keywords/securitization",
+        "display_name": "securitization",
+        "score": 0.671999990940094
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.6917999982833862
+        "id": "https://openalex.org/keywords/healing",
+        "display_name": "healing",
+        "score": 0.4449999928474426
       },
       {
-        "id": "https://openalex.org/keywords/modalities",
-        "display_name": "Modalities",
-        "score": 0.6624000072479248
-      },
-      {
-        "id": "https://openalex.org/keywords/islam",
-        "display_name": "Islam",
-        "score": 0.6593999862670898
-      },
-      {
-        "id": "https://openalex.org/keywords/ethnography",
-        "display_name": "Ethnography",
-        "score": 0.6284999847412109
+        "id": "https://openalex.org/keywords/intellectual-conversion",
+        "display_name": "intellectual conversion",
+        "score": 0.8080000281333923
       }
     ],
     "concepts": [
@@ -23863,6 +24059,7 @@
     "locations": [
       {
         "id": "doi:10.1086/741120",
+        "doi": "https://doi.org/10.1086/741120",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/741120",
         "pdf_url": null,
@@ -23877,6 +24074,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -23901,20 +24109,29 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "score": 0.6208354830741882,
-        "id": "https://metadata.un.org/sdg/10",
-        "display_name": "Reduced inequalities"
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.666700005531311
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities",
+        "score": 0.6208354830741882
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 32,
     "referenced_works": [
+      "https://openalex.org/W620695143",
       "https://openalex.org/W1516991633",
       "https://openalex.org/W1990059411",
       "https://openalex.org/W2019379858",
@@ -23931,24 +24148,34 @@
       "https://openalex.org/W2518210869",
       "https://openalex.org/W2740217572",
       "https://openalex.org/W2742458646",
+      "https://openalex.org/W2798712508",
       "https://openalex.org/W2944611778",
       "https://openalex.org/W2999777730",
       "https://openalex.org/W3017107040",
       "https://openalex.org/W3135765363",
       "https://openalex.org/W3165466117",
-      "https://openalex.org/W4213211130",
       "https://openalex.org/W4230836975",
       "https://openalex.org/W4234003348",
       "https://openalex.org/W4238312905",
       "https://openalex.org/W4241356111",
       "https://openalex.org/W4252228957",
       "https://openalex.org/W4253623768",
-      "https://openalex.org/W4255617698",
       "https://openalex.org/W4289783300",
       "https://openalex.org/W4310759332",
       "https://openalex.org/W4386054722"
     ],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W6906413793",
+      "https://openalex.org/W83189635",
+      "https://openalex.org/W2259663794",
+      "https://openalex.org/W2078745731",
+      "https://openalex.org/W2203000480",
+      "https://openalex.org/W4281731405",
+      "https://openalex.org/W4399292903",
+      "https://openalex.org/W3177202567",
+      "https://openalex.org/W4245758951",
+      "https://openalex.org/W2522075789"
+    ],
     "abstract_inverted_index": {
       "This": [
         0,
@@ -24356,7 +24583,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-30T06:14:24.967023",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2026-04-30T00:00:00"
   },
   {

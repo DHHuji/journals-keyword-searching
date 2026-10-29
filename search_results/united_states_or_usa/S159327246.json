@@ -83919,7 +83919,7 @@
     "doi": "https://doi.org/10.1093/esr/jcaf019",
     "title": "The political consequences of the mental load",
     "display_name": "The political consequences of the mental load",
-    "relevance_score": 2.695021,
+    "relevance_score": 0.792427,
     "publication_year": 2025,
     "publication_date": "2025-04-08",
     "ids": {
@@ -83929,6 +83929,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/esr/jcaf019",
+      "doi": "https://doi.org/10.1093/esr/jcaf019",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/esr/jcaf019",
       "pdf_url": "https://academic.oup.com/esr/advance-article-pdf/doi/10.1093/esr/jcaf019/64054968/jcaf019.pdf",
@@ -83943,6 +83944,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -83963,6 +83975,7 @@
       "raw_source_name": "European Sociological Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -83979,7 +83992,10 @@
         "author": {
           "id": "https://openalex.org/A5018848009",
           "display_name": "Ana Catalano Weeks",
-          "orcid": "https://orcid.org/0000-0003-1394-8223"
+          "orcid": "https://orcid.org/0000-0003-1394-8223",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1394-8223"
+          ]
         },
         "institutions": [
           {
@@ -84002,6 +84018,7 @@
           "Department of Politics, Languages & International Studies at the University of Bath , Bath, BA2 7AY ,",
           "Department of Politics, Languages & International Studies at the University of Bath, Bath, BA2 7AY, UK"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Department of Politics, Languages & International Studies at the University of Bath , Bath, BA2 7AY ,",
@@ -84028,43 +84045,43 @@
       "https://openalex.org/I51601045"
     ],
     "apc_list": {
-      "value": 4313,
+      "value": 4710,
       "currency": "EUR",
-      "value_usd": 4651
+      "value_usd": 5323
     },
     "apc_paid": {
-      "value": 4313,
+      "value": 4710,
       "currency": "EUR",
-      "value_usd": 4651
+      "value_usd": 5323
     },
-    "fwci": 44.3288,
+    "fwci": 43.0458,
     "has_fulltext": true,
-    "cited_by_count": 8,
+    "cited_by_count": 28,
     "citation_normalized_percentile": {
-      "value": 0.99733502,
+      "value": 0.99890634,
       "is_in_top_1_percent": true,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 96,
-      "max": 99
+      "min": 88,
+      "max": 100
     },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "42",
+      "issue": "3",
+      "first_page": "372",
+      "last_page": "386"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10443",
-      "display_name": "Social Policy and Reform Studies",
-      "score": 0.993399977684021,
+      "id": "https://openalex.org/T11432",
+      "display_name": "Gender Politics and Representation",
+      "score": 0.7074999809265137,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3318",
+        "display_name": "Gender Studies"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -84077,12 +84094,12 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10443",
-        "display_name": "Social Policy and Reform Studies",
-        "score": 0.993399977684021,
+        "id": "https://openalex.org/T11432",
+        "display_name": "Gender Politics and Representation",
+        "score": 0.7074999809265137,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -84094,9 +84111,26 @@
         }
       },
       {
-        "id": "https://openalex.org/T12714",
-        "display_name": "Youth Education and Societal Dynamics",
-        "score": 0.9724000096321106,
+        "id": "https://openalex.org/T11544",
+        "display_name": "Gender, Labor, and Family Dynamics",
+        "score": 0.14419999718666077,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10722",
+        "display_name": "Work-Family Balance Challenges",
+        "score": 0.07029999792575836,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -84109,55 +84143,48 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
-      },
-      {
-        "id": "https://openalex.org/T11959",
-        "display_name": "Employment and Welfare Studies",
-        "score": 0.9620000123977661,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3600",
-          "display_name": "General Health Professions"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/36",
-          "display_name": "Health Professions"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/4",
-          "display_name": "Health Sciences"
-        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.6682739853858948
+        "id": "https://openalex.org/keywords/mental-workload",
+        "display_name": "mental workload",
+        "score": 0.949999988079071
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.46337074041366577
+        "id": "https://openalex.org/keywords/political-interest",
+        "display_name": "political interest",
+        "score": 0.9639999866485596
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.38369882106781006
+        "id": "https://openalex.org/keywords/gender-gap",
+        "display_name": "gender gap",
+        "score": 0.7419999837875366
       },
       {
-        "id": "https://openalex.org/keywords/social-psychology",
-        "display_name": "Social psychology",
-        "score": 0.3652961254119873
+        "id": "https://openalex.org/keywords/mothers",
+        "display_name": "mothers",
+        "score": 0.3889999985694885
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.25922417640686035
+        "id": "https://openalex.org/keywords/fathers",
+        "display_name": "fathers",
+        "score": 0.8930000066757202
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.0800308883190155
+        "id": "https://openalex.org/keywords/division-of-household-labor",
+        "display_name": "division of household labor",
+        "score": 0.6190000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/political-participation",
+        "display_name": "political participation",
+        "score": 0.32600000500679016
+      },
+      {
+        "id": "https://openalex.org/keywords/inflation-concerns",
+        "display_name": "inflation concerns",
+        "score": 0.4350000023841858
       }
     ],
     "concepts": [
@@ -84209,6 +84236,7 @@
     "locations": [
       {
         "id": "doi:10.1093/esr/jcaf019",
+        "doi": "https://doi.org/10.1093/esr/jcaf019",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/esr/jcaf019",
         "pdf_url": "https://academic.oup.com/esr/advance-article-pdf/doi/10.1093/esr/jcaf019/64054968/jcaf019.pdf",
@@ -84223,6 +84251,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -84246,6 +84285,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1093/esr/jcaf019",
+      "doi": "https://doi.org/10.1093/esr/jcaf019",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/esr/jcaf019",
       "pdf_url": "https://academic.oup.com/esr/advance-article-pdf/doi/10.1093/esr/jcaf019/64054968/jcaf019.pdf",
@@ -84260,6 +84300,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -84280,7 +84331,25 @@
       "raw_source_name": "European Sociological Review",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/5",
+        "score": 0.6025999784469604,
+        "display_name": "Gender equality"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.4074000120162964,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "id": "https://openalex.org/study-designs/observational-study",
+        "display_name": "Observational Study"
+      }
+    ],
     "awards": [],
     "funders": [
       {
@@ -84342,7 +84411,7 @@
       "pdf": "https://content.openalex.org/works/W4413381841.pdf",
       "grobid_xml": "https://content.openalex.org/works/W4413381841.grobid-xml"
     },
-    "referenced_works_count": 81,
+    "referenced_works_count": 79,
     "referenced_works": [
       "https://openalex.org/W70761519",
       "https://openalex.org/W652609841",
@@ -84362,6 +84431,7 @@
       "https://openalex.org/W2092945616",
       "https://openalex.org/W2100799546",
       "https://openalex.org/W2116193322",
+      "https://openalex.org/W2118537917",
       "https://openalex.org/W2121960994",
       "https://openalex.org/W2134525107",
       "https://openalex.org/W2161224527",
@@ -84381,6 +84451,7 @@
       "https://openalex.org/W2594866898",
       "https://openalex.org/W2737038698",
       "https://openalex.org/W2792688912",
+      "https://openalex.org/W2912858299",
       "https://openalex.org/W2920965327",
       "https://openalex.org/W2923761906",
       "https://openalex.org/W2936860072",
@@ -84395,10 +84466,10 @@
       "https://openalex.org/W3089249281",
       "https://openalex.org/W3101221275",
       "https://openalex.org/W3121591253",
-      "https://openalex.org/W3123053713",
       "https://openalex.org/W3125554979",
       "https://openalex.org/W3138354970",
       "https://openalex.org/W3194366596",
+      "https://openalex.org/W3202877647",
       "https://openalex.org/W3204680185",
       "https://openalex.org/W3211196535",
       "https://openalex.org/W3215678813",
@@ -84420,11 +84491,7 @@
       "https://openalex.org/W4405336308",
       "https://openalex.org/W4406373307",
       "https://openalex.org/W4407427392",
-      "https://openalex.org/W4407816249",
-      "https://openalex.org/W6703336438",
-      "https://openalex.org/W6759045814",
-      "https://openalex.org/W6761121412",
-      "https://openalex.org/W6801849440"
+      "https://openalex.org/W4407816249"
     ],
     "related_works": [
       "https://openalex.org/W2748952813",
@@ -84899,18 +84966,22 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 1
+        "cited_by_count": 3
       },
       {
         "year": 2025,
-        "cited_by_count": 4
+        "cited_by_count": 21
       },
       {
         "year": 2024,
         "cited_by_count": 3
+      },
+      {
+        "year": 2022,
+        "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-03-20T23:20:44.827607",
+    "updated_date": "2026-10-25T09:29:13.331239",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -98032,7 +98103,7 @@
     "doi": "https://doi.org/10.1093/esr/jcaf045",
     "title": "Educational outcomes of UK LGB and heterosexual adolescents: exploring gendered differences and mechanisms",
     "display_name": "Educational outcomes of UK LGB and heterosexual adolescents: exploring gendered differences and mechanisms",
-    "relevance_score": 0.36126614,
+    "relevance_score": 0.717436,
     "publication_year": 2025,
     "publication_date": "2025-11-10",
     "ids": {
@@ -98042,6 +98113,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/esr/jcaf045",
+      "doi": "https://doi.org/10.1093/esr/jcaf045",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/esr/jcaf045",
       "pdf_url": null,
@@ -98056,6 +98128,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -98076,6 +98159,7 @@
       "raw_source_name": "European Sociological Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -98092,7 +98176,10 @@
         "author": {
           "id": "https://openalex.org/A5092935301",
           "display_name": "Anna Caprinali",
-          "orcid": "https://orcid.org/0009-0003-6506-7265"
+          "orcid": "https://orcid.org/0009-0003-6506-7265",
+          "observed_orcids": [
+            "https://orcid.org/0009-0003-6506-7265"
+          ]
         },
         "institutions": [
           {
@@ -98136,7 +98223,10 @@
         "author": {
           "id": "https://openalex.org/A5050321033",
           "display_name": "Agnese Vitali",
-          "orcid": "https://orcid.org/0000-0003-0029-9447"
+          "orcid": "https://orcid.org/0000-0003-0029-9447",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0029-9447"
+          ]
         },
         "institutions": [
           {
@@ -98178,7 +98268,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 2,
+    "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5092935301"
     ],
@@ -98186,24 +98276,27 @@
       "https://openalex.org/I193223587"
     ],
     "apc_list": {
-      "value": 4313,
+      "value": 4710,
       "currency": "EUR",
-      "value_usd": 4651
+      "value_usd": 5323
     },
     "apc_paid": {
-      "value": 4313,
+      "value": 4710,
       "currency": "EUR",
-      "value_usd": 4651
+      "value_usd": 5323
     },
-    "fwci": 0.0,
+    "fwci": 1.8262,
     "has_fulltext": false,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.3706711,
+      "value": 0.87808372,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 92,
+      "max": 96
+    },
     "biblio": {
       "volume": "42",
       "issue": "2",
@@ -98214,16 +98307,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10156",
-      "display_name": "LGBTQ Health, Identity, and Policy",
-      "score": 0.9848999977111816,
+      "id": "https://openalex.org/T11906",
+      "display_name": "Gender, Sexuality, and Education",
+      "score": 0.6596999764442444,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/3318",
+        "display_name": "Gender Studies"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -98232,9 +98325,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T11906",
+        "display_name": "Gender, Sexuality, and Education",
+        "score": 0.6596999764442444,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T10156",
         "display_name": "LGBTQ Health, Identity, and Policy",
-        "score": 0.9848999977111816,
+        "score": 0.336899995803833,
         "subfield": {
           "id": "https://openalex.org/subfields/3207",
           "display_name": "Social Psychology"
@@ -98249,29 +98359,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T13843",
-        "display_name": "African Sexualities and LGBTQ+ Issues",
-        "score": 0.0017999999690800905,
+        "id": "https://openalex.org/T12275",
+        "display_name": "Gender and Feminist Studies",
+        "score": 0.0019000000320374966,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13632",
-        "display_name": "Marriage and Sexual Relationships",
-        "score": 0.0008999999845400453,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -98285,44 +98378,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/lesbian",
-        "display_name": "Lesbian",
-        "score": 0.8723999857902527
+        "id": "https://openalex.org/keywords/sexual-identity",
+        "display_name": "sexual identity",
+        "score": 0.8149999976158142
       },
       {
-        "id": "https://openalex.org/keywords/sexual-identity",
-        "display_name": "Sexual identity",
-        "score": 0.626800000667572
+        "id": "https://openalex.org/keywords/educational-outcomes",
+        "display_name": "educational outcomes",
+        "score": 0.7620000243186951
+      },
+      {
+        "id": "https://openalex.org/keywords/adolescents",
+        "display_name": "adolescents",
+        "score": 0.7710000276565552
+      },
+      {
+        "id": "https://openalex.org/keywords/gender-differences",
+        "display_name": "gender differences",
+        "score": 0.6520000100135803
+      },
+      {
+        "id": "https://openalex.org/keywords/bisexual-students",
+        "display_name": "bisexual students",
+        "score": 0.6140000224113464
+      },
+      {
+        "id": "https://openalex.org/keywords/gay-students",
+        "display_name": "gay students",
+        "score": 0.7440000176429749
       },
       {
         "id": "https://openalex.org/keywords/educational-attainment",
-        "display_name": "Educational attainment",
-        "score": 0.5885000228881836
+        "display_name": "educational attainment",
+        "score": 0.6370000243186951
       },
       {
-        "id": "https://openalex.org/keywords/identity",
-        "display_name": "Identity (music)",
-        "score": 0.454800009727478
+        "id": "https://openalex.org/keywords/educational-expectations",
+        "display_name": "educational expectations",
+        "score": 0.6669999957084656
       },
       {
-        "id": "https://openalex.org/keywords/longitudinal-study",
-        "display_name": "Longitudinal study",
-        "score": 0.4302000105381012
+        "id": "https://openalex.org/keywords/subject-choice",
+        "display_name": "participant selection",
+        "score": 0.7480000257492065
       },
       {
-        "id": "https://openalex.org/keywords/sexual-orientation",
-        "display_name": "Sexual orientation",
-        "score": 0.4050999879837036
+        "id": "https://openalex.org/keywords/millennium-cohort-study",
+        "display_name": "Millennium Cohort Study",
+        "score": 0.7210000157356262
       },
       {
-        "id": "https://openalex.org/keywords/cohort",
-        "display_name": "Cohort",
-        "score": 0.3930000066757202
-      },
-      {
-        "id": "https://openalex.org/keywords/sexual-minority",
-        "display_name": "Sexual minority",
-        "score": 0.3799000084400177
+        "id": "https://openalex.org/keywords/united-kingdom",
+        "display_name": "United Kingdom",
+        "score": 0.5270000100135803
       }
     ],
     "concepts": [
@@ -98479,6 +98587,7 @@
     "locations": [
       {
         "id": "doi:10.1093/esr/jcaf045",
+        "doi": "https://doi.org/10.1093/esr/jcaf045",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/esr/jcaf045",
         "pdf_url": null,
@@ -98493,6 +98602,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -98515,6 +98635,7 @@
       },
       {
         "id": "pmh:oai:iris.unitn.it:11572/466970",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://academic.oup.com/esr/advance-article/doi/10.1093/esr/jcaf045/8317978",
         "pdf_url": null,
@@ -98526,6 +98647,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I193223587",
           "host_organization_name": "University of Trento",
           "host_organization_lineage": [
@@ -98545,6 +98667,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1093/esr/jcaf045",
+      "doi": "https://doi.org/10.1093/esr/jcaf045",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/esr/jcaf045",
       "pdf_url": null,
@@ -98559,6 +98682,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -98579,7 +98713,25 @@
       "raw_source_name": "European Sociological Review",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 1.0,
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/4",
+        "score": 0.9235000014305115,
+        "display_name": "Quality education"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/5",
+        "score": 0.7307999730110168,
+        "display_name": "Gender equality"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -99091,8 +99243,13 @@
         200
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-04-23T06:14:38.165362",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-27T15:51:10.671819",
     "created_date": "2025-11-10T00:00:00"
   },
   {

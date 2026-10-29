@@ -3441,7 +3441,7 @@
     "doi": "https://doi.org/10.1080/01419870.2026.2635134",
     "title": "Afterlives of decolonisation: the racialisation of West and Central African migrants in contemporary Algeria",
     "display_name": "Afterlives of decolonisation: the racialisation of West and Central African migrants in contemporary Algeria",
-    "relevance_score": 13.345957,
+    "relevance_score": 38.91203,
     "publication_year": 2026,
     "publication_date": "2026-03-06",
     "ids": {
@@ -3451,9 +3451,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/01419870.2026.2635134",
+      "doi": "https://doi.org/10.1080/01419870.2026.2635134",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/01419870.2026.2635134",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/01419870.2026.2635134?needAccess=true",
       "source": {
         "id": "https://openalex.org/S96629499",
         "display_name": "Ethnic and Racial Studies",
@@ -3465,13 +3466,26 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -3483,6 +3497,7 @@
       "raw_source_name": "Ethnic and Racial Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -3490,7 +3505,7 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1080/01419870.2026.2635134",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/01419870.2026.2635134?needAccess=true",
       "any_repository_has_fulltext": false
     },
     "authorships": [
@@ -3499,7 +3514,10 @@
         "author": {
           "id": "https://openalex.org/A5117520322",
           "display_name": "Kheira Arrouche",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-7226-8503",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7226-8503"
+          ]
         },
         "institutions": [
           {
@@ -3543,15 +3561,18 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
-    "has_fulltext": false,
-    "cited_by_count": 0,
+    "fwci": 120.0599,
+    "has_fulltext": true,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.47028468,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "value": 0.99574856,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": null,
       "issue": null,
@@ -3564,7 +3585,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12585",
       "display_name": "North African History and Literature",
-      "score": 0.35030001401901245,
+      "score": 0.6815999746322632,
       "subfield": {
         "id": "https://openalex.org/subfields/1202",
         "display_name": "History"
@@ -3582,7 +3603,7 @@
       {
         "id": "https://openalex.org/T12585",
         "display_name": "North African History and Literature",
-        "score": 0.35030001401901245,
+        "score": 0.6815999746322632,
         "subfield": {
           "id": "https://openalex.org/subfields/1202",
           "display_name": "History"
@@ -3597,9 +3618,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T13019",
-        "display_name": "African Studies and Geopolitics",
-        "score": 0.04450000077486038,
+        "id": "https://openalex.org/T14123",
+        "display_name": "Decolonial Thought and Epistemologies",
+        "score": 0.09279999881982803,
         "subfield": {
           "id": "https://openalex.org/subfields/3314",
           "display_name": "Anthropology"
@@ -3614,9 +3635,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T14395",
-        "display_name": "African history and culture studies",
-        "score": 0.03310000151395798,
+        "id": "https://openalex.org/T13019",
+        "display_name": "African Studies and Geopolitics",
+        "score": 0.0364999994635582,
         "subfield": {
           "id": "https://openalex.org/subfields/3314",
           "display_name": "Anthropology"
@@ -3633,24 +3654,79 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/ethnic-group",
-        "display_name": "Ethnic group",
-        "score": 0.3346000015735626
+        "id": "https://openalex.org/keywords/racialization",
+        "display_name": "racialization",
+        "score": 0.9789999723434448
       },
       {
-        "id": "https://openalex.org/keywords/ethnography",
-        "display_name": "Ethnography",
-        "score": 0.3345000147819519
+        "id": "https://openalex.org/keywords/west-african-migrants",
+        "display_name": "West African migrants",
+        "score": 0.8460000157356262
       },
       {
-        "id": "https://openalex.org/keywords/immigration",
-        "display_name": "Immigration",
-        "score": 0.3203999996185303
+        "id": "https://openalex.org/keywords/algeria",
+        "display_name": "Algeria",
+        "score": 0.5559999942779541
       },
       {
-        "id": "https://openalex.org/keywords/identity",
-        "display_name": "Identity (music)",
-        "score": 0.29490000009536743
+        "id": "https://openalex.org/keywords/anti-blackness",
+        "display_name": "anti-Blackness",
+        "score": 0.7680000066757202
+      },
+      {
+        "id": "https://openalex.org/keywords/decolonization",
+        "display_name": "decolonization",
+        "score": 0.7929999828338623
+      },
+      {
+        "id": "https://openalex.org/keywords/everyday-racism",
+        "display_name": "everyday racism",
+        "score": 0.8700000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/dehumanization",
+        "display_name": "dehumanization",
+        "score": 0.9240000247955322
+      },
+      {
+        "id": "https://openalex.org/keywords/blackness",
+        "display_name": "Blackness",
+        "score": 0.8790000081062317
+      },
+      {
+        "id": "https://openalex.org/keywords/legacy-of-slavery",
+        "display_name": "slavery legacy",
+        "score": 0.734000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/french-colonialism",
+        "display_name": "French colonialism",
+        "score": 0.9269999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-hierarchy",
+        "display_name": "religious hierarchy",
+        "score": 0.8899999856948853
+      },
+      {
+        "id": "https://openalex.org/keywords/postcolonial-identity",
+        "display_name": "postcolonial identity",
+        "score": 0.5979999899864197
+      },
+      {
+        "id": "https://openalex.org/keywords/immigrant-exclusion",
+        "display_name": "migrant exclusion",
+        "score": 0.3720000088214874
+      },
+      {
+        "id": "https://openalex.org/keywords/oran",
+        "display_name": "Oran",
+        "score": 0.6830000281333923
+      },
+      {
+        "id": "https://openalex.org/keywords/algiers",
+        "display_name": "Algiers",
+        "score": 0.9769999980926514
       }
     ],
     "concepts": [
@@ -3751,9 +3827,10 @@
     "locations": [
       {
         "id": "doi:10.1080/01419870.2026.2635134",
+        "doi": "https://doi.org/10.1080/01419870.2026.2635134",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/01419870.2026.2635134",
-        "pdf_url": null,
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/01419870.2026.2635134?needAccess=true",
         "source": {
           "id": "https://openalex.org/S96629499",
           "display_name": "Ethnic and Racial Studies",
@@ -3765,13 +3842,26 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -3786,9 +3876,10 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1080/01419870.2026.2635134",
+      "doi": "https://doi.org/10.1080/01419870.2026.2635134",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/01419870.2026.2635134",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/01419870.2026.2635134?needAccess=true",
       "source": {
         "id": "https://openalex.org/S96629499",
         "display_name": "Ethnic and Racial Studies",
@@ -3800,13 +3891,26 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -3821,17 +3925,33 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7578999996185303,
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.47620001435279846,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
         "score": 0.8315179944038391,
         "display_name": "Reduced inequalities"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "pdf": true,
+      "grobid_xml": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7134033139.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7134033139.grobid-xml"
+    },
     "referenced_works_count": 32,
     "referenced_works": [
       "https://openalex.org/W1579940650",
@@ -3867,10 +3987,372 @@
       "https://openalex.org/W4410347019",
       "https://openalex.org/W4416464652"
     ],
-    "related_works": [],
-    "abstract_inverted_index": null,
-    "counts_by_year": [],
-    "updated_date": "2026-03-08T06:56:09.383167",
+    "related_works": [
+      "https://openalex.org/W6986766087",
+      "https://openalex.org/W6980934113",
+      "https://openalex.org/W7008978281",
+      "https://openalex.org/W4321441080",
+      "https://openalex.org/W4406092652",
+      "https://openalex.org/W4319453116",
+      "https://openalex.org/W7052169133",
+      "https://openalex.org/W7160680619",
+      "https://openalex.org/W6922227813",
+      "https://openalex.org/W4282840305"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "article": [
+        1,
+        66
+      ],
+      "investigates": [
+        2
+      ],
+      "the": [
+        3,
+        30,
+        74,
+        80,
+        110
+      ],
+      "racialisation": [
+        4
+      ],
+      "of": [
+        5,
+        39,
+        76,
+        82,
+        123
+      ],
+      "West": [
+        6
+      ],
+      "and": [
+        7,
+        26,
+        42,
+        86,
+        98,
+        102
+      ],
+      "Central": [
+        8
+      ],
+      "African": [
+        9
+      ],
+      "migrants": [
+        10
+      ],
+      "in": [
+        11,
+        24,
+        94
+      ],
+      "Algeria;": [
+        12
+      ],
+      "a": [
+        13,
+        36,
+        114,
+        128
+      ],
+      "state": [
+        14,
+        115
+      ],
+      "historically": [
+        15
+      ],
+      "celebrated": [
+        16
+      ],
+      "for": [
+        17
+      ],
+      "its": [
+        18
+      ],
+      "anti-colonial": [
+        19
+      ],
+      "solidarity.": [
+        20
+      ],
+      "Through": [
+        21
+      ],
+      "ethnographic": [
+        22
+      ],
+      "fieldwork": [
+        23
+      ],
+      "Oran": [
+        25
+      ],
+      "Algiers,": [
+        27
+      ],
+      "it": [
+        28
+      ],
+      "centers": [
+        29
+      ],
+      "migrants\u2019": [
+        31
+      ],
+      "lived": [
+        32
+      ],
+      "experiences": [
+        33
+      ],
+      "to": [
+        34,
+        70,
+        90
+      ],
+      "reveal": [
+        35
+      ],
+      "pervasive": [
+        37
+      ],
+      "landscape": [
+        38
+      ],
+      "everyday": [
+        40
+      ],
+      "racism": [
+        41
+      ],
+      "dehumanisation.": [
+        43
+      ],
+      "The": [
+        44,
+        65
+      ],
+      "analysis": [
+        45
+      ],
+      "argues": [
+        46
+      ],
+      "that": [
+        47,
+        58
+      ],
+      "Algerian": [
+        48,
+        133
+      ],
+      "racial": [
+        49,
+        92
+      ],
+      "formations": [
+        50,
+        93
+      ],
+      "exceed": [
+        51
+      ],
+      "Euro-American": [
+        52
+      ],
+      "binaries,": [
+        53
+      ],
+      "operating": [
+        54
+      ],
+      "through": [
+        55,
+        78,
+        117
+      ],
+      "context-specific": [
+        56
+      ],
+      "logics": [
+        57
+      ],
+      "render": [
+        59
+      ],
+      "Blackness": [
+        60,
+        126
+      ],
+      "hyper-visible": [
+        61
+      ],
+      "yet": [
+        62
+      ],
+      "structurally": [
+        63
+      ],
+      "excluded.": [
+        64
+      ],
+      "traces": [
+        67
+      ],
+      "contemporary": [
+        68
+      ],
+      "anti-Blackness": [
+        69
+      ],
+      "what": [
+        71
+      ],
+      "I": [
+        72
+      ],
+      "term": [
+        73
+      ],
+      "afterlives": [
+        75
+      ],
+      "decolonisation,": [
+        77
+      ],
+      "which": [
+        79
+      ],
+      "legacies": [
+        81
+      ],
+      "slavery,": [
+        83
+      ],
+      "French": [
+        84
+      ],
+      "colonisation,": [
+        85
+      ],
+      "religious": [
+        87
+      ],
+      "hierarchies": [
+        88
+      ],
+      "continue": [
+        89
+      ],
+      "shape": [
+        91
+      ],
+      "postcolonial": [
+        95
+      ],
+      "Algeria,": [
+        96
+      ],
+      "marginalising": [
+        97
+      ],
+      "erasing": [
+        99
+      ],
+      "Black": [
+        100
+      ],
+      "histories": [
+        101
+      ],
+      "presence": [
+        103
+      ],
+      "within": [
+        104
+      ],
+      "dominant": [
+        105
+      ],
+      "Arab-Islamic": [
+        106
+      ],
+      "national": [
+        107
+      ],
+      "imaginaries.": [
+        108
+      ],
+      "Ultimately,": [
+        109
+      ],
+      "study": [
+        111
+      ],
+      "reveals": [
+        112
+      ],
+      "how": [
+        113
+      ],
+      "forged": [
+        116
+      ],
+      "liberation": [
+        118
+      ],
+      "struggle": [
+        119
+      ],
+      "reproduces": [
+        120
+      ],
+      "colonial": [
+        121
+      ],
+      "structures": [
+        122
+      ],
+      "negation,": [
+        124
+      ],
+      "casting": [
+        125
+      ],
+      "as": [
+        127
+      ],
+      "threatening": [
+        129
+      ],
+      "\u201cother\u201d": [
+        130
+      ],
+      "incompatible": [
+        131
+      ],
+      "with": [
+        132
+      ],
+      "identity.": [
+        134
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-09-21T07:43:02.447757",
     "created_date": "2026-03-07T00:00:00"
   },
   {
@@ -3878,7 +4360,7 @@
     "doi": "https://doi.org/10.1080/01419870.2025.2612005",
     "title": "Secular sensibilities: romance, marriage, and contemporary Algerian immigration to France and Qu\u00e9bec",
     "display_name": "Secular sensibilities: romance, marriage, and contemporary Algerian immigration to France and Qu\u00e9bec",
-    "relevance_score": 13.316828,
+    "relevance_score": 38.320152,
     "publication_year": 2026,
     "publication_date": "2026-01-06",
     "ids": {
@@ -3888,6 +4370,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/01419870.2025.2612005",
+      "doi": "https://doi.org/10.1080/01419870.2025.2612005",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1080/01419870.2025.2612005",
       "pdf_url": null,
@@ -3902,13 +4385,26 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -3920,7 +4416,8 @@
       "raw_source_name": "Ethnic and Racial Studies",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -3936,7 +4433,10 @@
         "author": {
           "id": "https://openalex.org/A5000210827",
           "display_name": "Noa Achouche",
-          "orcid": "https://orcid.org/0000-0001-8073-4706"
+          "orcid": "https://orcid.org/0000-0001-8073-4706",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8073-4706"
+          ]
         },
         "institutions": [
           {
@@ -3958,6 +4458,7 @@
         "raw_affiliation_strings": [
           "Universit\u00e9 Paris Nanterre"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Universit\u00e9 Paris Nanterre",
@@ -3979,14 +4480,10 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.0805821,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": null,
@@ -3998,16 +4495,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12585",
-      "display_name": "North African History and Literature",
-      "score": 0.1770000010728836,
+      "id": "https://openalex.org/T11648",
+      "display_name": "Diaspora, migration, transnational identity",
+      "score": 0.4431000053882599,
       "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -4016,26 +4513,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12585",
-        "display_name": "North African History and Literature",
-        "score": 0.1770000010728836,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T11648",
         "display_name": "Diaspora, migration, transnational identity",
-        "score": 0.035599999129772186,
+        "score": 0.4431000053882599,
         "subfield": {
           "id": "https://openalex.org/subfields/3317",
           "display_name": "Demography"
@@ -4052,10 +4532,27 @@
       {
         "id": "https://openalex.org/T10216",
         "display_name": "Migration, Refugees, and Integration",
-        "score": 0.032099999487400055,
+        "score": 0.3928000032901764,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13379",
+        "display_name": "Multiculturalism, Politics, Migration, Gender",
+        "score": 0.10930000245571136,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -4069,19 +4566,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/immigration",
-        "display_name": "Immigration",
-        "score": 0.8306000232696533
+        "id": "https://openalex.org/keywords/algerian-immigration",
+        "display_name": "Algerian immigration",
+        "score": 0.8550000190734863
       },
       {
-        "id": "https://openalex.org/keywords/ethnic-group",
-        "display_name": "Ethnic group",
-        "score": 0.32100000977516174
+        "id": "https://openalex.org/keywords/romance",
+        "display_name": "romance",
+        "score": 0.4869999885559082
       },
       {
-        "id": "https://openalex.org/keywords/secular-variation",
-        "display_name": "Secular variation",
-        "score": 0.25429999828338623
+        "id": "https://openalex.org/keywords/marriage",
+        "display_name": "marriage",
+        "score": 0.9950000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/secularism",
+        "display_name": "secularism",
+        "score": 0.7870000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/islam-and-secularism",
+        "display_name": "Islam and secularism",
+        "score": 0.4490000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/muslim-women",
+        "display_name": "Muslim women",
+        "score": 0.37700000405311584
+      },
+      {
+        "id": "https://openalex.org/keywords/interethnic-relations",
+        "display_name": "interethnic relations",
+        "score": 0.38600000739097595
+      },
+      {
+        "id": "https://openalex.org/keywords/france",
+        "display_name": "France",
+        "score": 0.39500001072883606
+      },
+      {
+        "id": "https://openalex.org/keywords/quebec",
+        "display_name": "Quebec",
+        "score": 0.9539999961853027
+      },
+      {
+        "id": "https://openalex.org/keywords/algerian-diaspora",
+        "display_name": "Algerian diaspora",
+        "score": 0.5600000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/religion-and-gender",
+        "display_name": "gender and religion",
+        "score": 0.45500001311302185
       }
     ],
     "concepts": [
@@ -4161,6 +4698,7 @@
     "locations": [
       {
         "id": "doi:10.1080/01419870.2025.2612005",
+        "doi": "https://doi.org/10.1080/01419870.2025.2612005",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1080/01419870.2025.2612005",
         "pdf_url": null,
@@ -4175,13 +4713,26 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -4195,13 +4746,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
         "id": "https://metadata.un.org/sdg/5",
         "score": 0.692418098449707,
         "display_name": "Gender equality"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -4211,10 +4764,96 @@
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
-    "abstract_inverted_index": null,
+    "related_works": [
+      "https://openalex.org/W7223005600",
+      "https://openalex.org/W2949556279",
+      "https://openalex.org/W604150538",
+      "https://openalex.org/W1037190968",
+      "https://openalex.org/W2868946869",
+      "https://openalex.org/W1521225694",
+      "https://openalex.org/W7104449994",
+      "https://openalex.org/W2845698344",
+      "https://openalex.org/W867404517",
+      "https://openalex.org/W4387991234"
+    ],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "Secular": [
+        1
+      ],
+      "Sensibilities:": [
+        2
+      ],
+      "Romance,": [
+        3
+      ],
+      "Marriage,": [
+        4
+      ],
+      "and": [
+        5,
+        11,
+        19
+      ],
+      "Contemporary": [
+        6
+      ],
+      "Algerian": [
+        7
+      ],
+      "Immigration": [
+        8
+      ],
+      "to": [
+        9
+      ],
+      "France": [
+        10
+      ],
+      "Qu\u00e9bec,": [
+        12
+      ],
+      "Jennifer": [
+        13
+      ],
+      "Selby": [
+        14
+      ],
+      "offers": [
+        15
+      ],
+      "a": [
+        16
+      ],
+      "theoretically": [
+        17
+      ],
+      "ambitious": [
+        18
+      ],
+      "ethnographically": [
+        20
+      ],
+      "rich": [
+        21
+      ],
+      "account": [
+        22
+      ],
+      "of": [
+        23
+      ],
+      "how": [
+        24
+      ],
+      "Alg...": [
+        25
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2026-01-08T20:10:11.968330",
+    "updated_date": "2026-10-27T15:51:10.671819",
     "created_date": "2026-01-08T00:00:00"
   },
   {
@@ -15763,5 +16402,1579 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2022-05-12T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7165839476",
+    "doi": "https://doi.org/10.1080/01419870.2026.2690617",
+    "title": "The police, activists, and knowledge: the struggle against racialized policing in France",
+    "display_name": "The police, activists, and knowledge: the struggle against racialized policing in France",
+    "relevance_score": 4.1073275,
+    "publication_year": 2026,
+    "publication_date": "2026-06-25",
+    "ids": {
+      "openalex": "https://openalex.org/W7165839476",
+      "doi": "https://doi.org/10.1080/01419870.2026.2690617"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/01419870.2026.2690617",
+      "doi": "https://doi.org/10.1080/01419870.2026.2690617",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/01419870.2026.2690617",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S96629499",
+        "display_name": "Ethnic and Racial Studies",
+        "issn_l": "0141-9870",
+        "issn": [
+          "0141-9870",
+          "1466-4356"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnic and Racial Studies",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "book-review",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5037031183",
+          "display_name": "Jean Beaman",
+          "orcid": "https://orcid.org/0000-0002-1645-0968",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1645-0968"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I121847817",
+            "display_name": "The Graduate Center, CUNY",
+            "ror": "https://ror.org/00awd9g61",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I121847817"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jean Beaman",
+        "raw_affiliation_strings": [
+          "CUNY Graduate Center"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-1645-0968",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "CUNY Graduate Center",
+            "institution_ids": [
+              "https://openalex.org/I121847817"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5037031183"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I121847817"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "3"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11076",
+      "display_name": "Policing Practices and Perceptions",
+      "score": 0.9901999831199646,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11076",
+        "display_name": "Policing Practices and Perceptions",
+        "score": 0.9901999831199646,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12736",
+        "display_name": "Criminal Justice and Penology",
+        "score": 0.0031999999191612005,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12765",
+        "display_name": "Race, History, and American Society",
+        "score": 0.0007999999797903001,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/racialized-policing",
+        "display_name": "racialized policing",
+        "score": 0.9710000157356262
+      },
+      {
+        "id": "https://openalex.org/keywords/police-violence",
+        "display_name": "police brutality",
+        "score": 0.7369999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/banlieues",
+        "display_name": "banlieues",
+        "score": 0.7829999923706055
+      },
+      {
+        "id": "https://openalex.org/keywords/algerian-immigrants",
+        "display_name": "Algerian immigrants",
+        "score": 0.49399998784065247
+      },
+      {
+        "id": "https://openalex.org/keywords/police-community-relations",
+        "display_name": "police-community relations",
+        "score": 0.46399998664855957
+      },
+      {
+        "id": "https://openalex.org/keywords/activism",
+        "display_name": "activism",
+        "score": 0.5410000085830688
+      },
+      {
+        "id": "https://openalex.org/keywords/knowledge-production",
+        "display_name": "knowledge production",
+        "score": 0.6589999794960022
+      },
+      {
+        "id": "https://openalex.org/keywords/racial-discrimination-in-law-enforcement",
+        "display_name": "racial discrimination in law enforcement",
+        "score": 0.5090000033378601
+      },
+      {
+        "id": "https://openalex.org/keywords/france",
+        "display_name": "France",
+        "score": 0.5009999871253967
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2777189325",
+        "wikidata": "https://www.wikidata.org/wiki/Q61022630",
+        "display_name": "Officer",
+        "level": 2,
+        "score": 0.6488999724388123
+      },
+      {
+        "id": "https://openalex.org/C73484699",
+        "wikidata": "https://www.wikidata.org/wiki/Q161733",
+        "display_name": "Criminology",
+        "level": 1,
+        "score": 0.5940999984741211
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.48539999127388
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.45489999651908875
+      },
+      {
+        "id": "https://openalex.org/C76509639",
+        "wikidata": "https://www.wikidata.org/wiki/Q918036",
+        "display_name": "Race (biology)",
+        "level": 2,
+        "score": 0.43540000915527344
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.4332999885082245
+      },
+      {
+        "id": "https://openalex.org/C139838865",
+        "wikidata": "https://www.wikidata.org/wiki/Q8461",
+        "display_name": "Racism",
+        "level": 2,
+        "score": 0.38440001010894775
+      },
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.30559998750686646
+      },
+      {
+        "id": "https://openalex.org/C2780077968",
+        "wikidata": "https://www.wikidata.org/wiki/Q1996993",
+        "display_name": "Police brutality",
+        "level": 2,
+        "score": 0.2890999913215637
+      },
+      {
+        "id": "https://openalex.org/C179454799",
+        "wikidata": "https://www.wikidata.org/wiki/Q132151",
+        "display_name": "Ethnography",
+        "level": 2,
+        "score": 0.28540000319480896
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.26739999651908875
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/01419870.2026.2690617",
+        "doi": "https://doi.org/10.1080/01419870.2026.2690617",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/01419870.2026.2690617",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S96629499",
+          "display_name": "Ethnic and Racial Studies",
+          "issn_l": "0141-9870",
+          "issn": [
+            "0141-9870",
+            "1466-4356"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Ethnic and Racial Studies",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402,
+        "display_name": "Peace, justice, and strong institutions"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7307999730110168,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/5",
+        "score": 0.5484341382980347,
+        "display_name": "Gender equality"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W4407186691",
+      "https://openalex.org/W2065467576",
+      "https://openalex.org/W7046227575",
+      "https://openalex.org/W4388915589",
+      "https://openalex.org/W2794984600",
+      "https://openalex.org/W6995394681",
+      "https://openalex.org/W4297806877",
+      "https://openalex.org/W4400185803",
+      "https://openalex.org/W2793119699",
+      "https://openalex.org/W2159814648"
+    ],
+    "abstract_inverted_index": {
+      "On": [
+        0
+      ],
+      "June": [
+        1
+      ],
+      "27,": [
+        2
+      ],
+      "2023,": [
+        3
+      ],
+      "a": [
+        4,
+        13
+      ],
+      "French": [
+        5
+      ],
+      "police": [
+        6
+      ],
+      "officer": [
+        7
+      ],
+      "shot": [
+        8
+      ],
+      "and": [
+        9
+      ],
+      "killed": [
+        10
+      ],
+      "Nahel": [
+        11
+      ],
+      "Merzouk,": [
+        12
+      ],
+      "17": [
+        14
+      ],
+      "year": [
+        15
+      ],
+      "old": [
+        16
+      ],
+      "of": [
+        17,
+        27
+      ],
+      "Algerian": [
+        18
+      ],
+      "origin,": [
+        19
+      ],
+      "in": [
+        20
+      ],
+      "the": [
+        21
+      ],
+      "Parisian": [
+        22
+      ],
+      "banlieue,": [
+        23
+      ],
+      "or": [
+        24
+      ],
+      "suburban": [
+        25
+      ],
+      "outskirt,": [
+        26
+      ],
+      "Nanterre,": [
+        28
+      ],
+      "as": [
+        29
+      ],
+      "he": [
+        30
+      ],
+      "was": [
+        31
+      ],
+      "driving.": [
+        32
+      ],
+      "He": [
+        33
+      ],
+      "alleged...": [
+        34
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2026-06-26T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7213356154",
+    "doi": "https://doi.org/10.1080/01419870.2026.2724583",
+    "title": "Bourdieu and migration studies: strengthening the connection",
+    "display_name": "Bourdieu and migration studies: strengthening the connection",
+    "relevance_score": 2.6240168,
+    "publication_year": 2026,
+    "publication_date": "2026-09-16",
+    "ids": {
+      "openalex": "https://openalex.org/W7213356154",
+      "doi": "https://doi.org/10.1080/01419870.2026.2724583"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/01419870.2026.2724583",
+      "doi": "https://doi.org/10.1080/01419870.2026.2724583",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/01419870.2026.2724583",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/01419870.2026.2724583?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S96629499",
+        "display_name": "Ethnic and Racial Studies",
+        "issn_l": "0141-9870",
+        "issn": [
+          "0141-9870",
+          "1466-4356"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnic and Racial Studies",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/01419870.2026.2724583?needAccess=true",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5017527019",
+          "display_name": "Andrea Calabretta",
+          "orcid": "https://orcid.org/0000-0002-6770-6724",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6770-6724"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I138689650",
+            "display_name": "University of Padua",
+            "ror": "https://ror.org/00240q980",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I138689650"
+            ]
+          }
+        ],
+        "countries": [
+          "IT"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Andrea Calabretta",
+        "raw_affiliation_strings": [
+          "University of Padua"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6770-6724",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Padua",
+            "institution_ids": [
+              "https://openalex.org/I138689650"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5067558576",
+          "display_name": "Steven Loyal",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I100930933",
+            "display_name": "University College Dublin",
+            "ror": "https://ror.org/05m7pjf47",
+            "country_code": "IE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I100930933"
+            ]
+          }
+        ],
+        "countries": [
+          "IE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Steven Loyal",
+        "raw_affiliation_strings": [
+          "University College Dublin"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University College Dublin",
+            "institution_ids": [
+              "https://openalex.org/I100930933"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5017527019"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I138689650"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 81.7196,
+    "has_fulltext": true,
+    "cited_by_count": 7,
+    "citation_normalized_percentile": {
+      "value": 0.99935914,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 98,
+      "max": 99
+    },
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "13"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11895",
+      "display_name": "Social and Cultural Dynamics",
+      "score": 0.5268999934196472,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11895",
+        "display_name": "Social and Cultural Dynamics",
+        "score": 0.5268999934196472,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.2667999863624573,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11648",
+        "display_name": "Diaspora, migration, transnational identity",
+        "score": 0.11879999935626984,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/pierre-bourdieu",
+        "display_name": "Pierre Bourdieu",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/migration-studies",
+        "display_name": "migration studies",
+        "score": 0.9819999933242798
+      },
+      {
+        "id": "https://openalex.org/keywords/cultural-capital",
+        "display_name": "cultural capital",
+        "score": 0.546999990940094
+      },
+      {
+        "id": "https://openalex.org/keywords/social-reproduction",
+        "display_name": "social reproduction",
+        "score": 0.5230000019073486
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C13355873",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920850",
+        "display_name": "Connection (principal bundle)",
+        "level": 2,
+        "score": 0.6690999865531921
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.588100016117096
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.43619999289512634
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.34880000352859497
+      },
+      {
+        "id": "https://openalex.org/C9652623",
+        "wikidata": "https://www.wikidata.org/wiki/Q190109",
+        "display_name": "Field (mathematics)",
+        "level": 2,
+        "score": 0.34779998660087585
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.31540000438690186
+      },
+      {
+        "id": "https://openalex.org/C411171",
+        "wikidata": "https://www.wikidata.org/wiki/Q13222181",
+        "display_name": "Habitus",
+        "level": 3,
+        "score": 0.2953000068664551
+      },
+      {
+        "id": "https://openalex.org/C190253527",
+        "wikidata": "https://www.wikidata.org/wiki/Q295354",
+        "display_name": "Law and economics",
+        "level": 1,
+        "score": 0.2854999899864197
+      },
+      {
+        "id": "https://openalex.org/C138921699",
+        "wikidata": "https://www.wikidata.org/wiki/Q47555",
+        "display_name": "Political economy",
+        "level": 1,
+        "score": 0.2791999876499176
+      },
+      {
+        "id": "https://openalex.org/C179454799",
+        "wikidata": "https://www.wikidata.org/wiki/Q132151",
+        "display_name": "Ethnography",
+        "level": 2,
+        "score": 0.272599995136261
+      },
+      {
+        "id": "https://openalex.org/C45555294",
+        "wikidata": "https://www.wikidata.org/wiki/Q28113351",
+        "display_name": "Inequality",
+        "level": 2,
+        "score": 0.26159998774528503
+      },
+      {
+        "id": "https://openalex.org/C26271046",
+        "wikidata": "https://www.wikidata.org/wiki/Q187097",
+        "display_name": "Economic geography",
+        "level": 1,
+        "score": 0.2605000138282776
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/01419870.2026.2724583",
+        "doi": "https://doi.org/10.1080/01419870.2026.2724583",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1080/01419870.2026.2724583",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/01419870.2026.2724583?needAccess=true",
+        "source": {
+          "id": "https://openalex.org/S96629499",
+          "display_name": "Ethnic and Racial Studies",
+          "issn_l": "0141-9870",
+          "issn": [
+            "0141-9870",
+            "1466-4356"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Ethnic and Racial Studies",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1080/01419870.2026.2724583",
+      "doi": "https://doi.org/10.1080/01419870.2026.2724583",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/01419870.2026.2724583",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/01419870.2026.2724583?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S96629499",
+        "display_name": "Ethnic and Racial Studies",
+        "issn_l": "0141-9870",
+        "issn": [
+          "0141-9870",
+          "1466-4356"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnic and Racial Studies",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7937610149383545,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7213356154.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7213356154.grobid-xml"
+    },
+    "referenced_works_count": 49,
+    "referenced_works": [
+      "https://openalex.org/W1501490936",
+      "https://openalex.org/W1511894498",
+      "https://openalex.org/W1580582423",
+      "https://openalex.org/W1876125381",
+      "https://openalex.org/W1968663428",
+      "https://openalex.org/W1980957486",
+      "https://openalex.org/W1982038826",
+      "https://openalex.org/W1984718607",
+      "https://openalex.org/W1996724386",
+      "https://openalex.org/W2003464602",
+      "https://openalex.org/W2008664820",
+      "https://openalex.org/W2027935766",
+      "https://openalex.org/W2030935828",
+      "https://openalex.org/W2078969969",
+      "https://openalex.org/W2097580416",
+      "https://openalex.org/W2121057268",
+      "https://openalex.org/W2131712395",
+      "https://openalex.org/W2133954578",
+      "https://openalex.org/W2161978251",
+      "https://openalex.org/W2169440324",
+      "https://openalex.org/W2313395727",
+      "https://openalex.org/W2321524838",
+      "https://openalex.org/W2600550641",
+      "https://openalex.org/W2622738931",
+      "https://openalex.org/W2722844037",
+      "https://openalex.org/W2767997296",
+      "https://openalex.org/W2768739725",
+      "https://openalex.org/W2794491791",
+      "https://openalex.org/W2888963135",
+      "https://openalex.org/W2891840666",
+      "https://openalex.org/W2897051552",
+      "https://openalex.org/W3035349631",
+      "https://openalex.org/W3085740936",
+      "https://openalex.org/W3089392079",
+      "https://openalex.org/W4231937187",
+      "https://openalex.org/W4237582435",
+      "https://openalex.org/W4240195466",
+      "https://openalex.org/W4301056702",
+      "https://openalex.org/W4361946357",
+      "https://openalex.org/W4381855900",
+      "https://openalex.org/W6904715483",
+      "https://openalex.org/W6904784565",
+      "https://openalex.org/W7213236559",
+      "https://openalex.org/W7213251161",
+      "https://openalex.org/W7213284050",
+      "https://openalex.org/W7213311832",
+      "https://openalex.org/W7213556250",
+      "https://openalex.org/W7214277790",
+      "https://openalex.org/W7214708401"
+    ],
+    "related_works": [
+      "https://openalex.org/W2774016483",
+      "https://openalex.org/W2557710414",
+      "https://openalex.org/W2020613333",
+      "https://openalex.org/W2480889050",
+      "https://openalex.org/W4211225479",
+      "https://openalex.org/W4402757377",
+      "https://openalex.org/W7097079485",
+      "https://openalex.org/W3027654240",
+      "https://openalex.org/W2900743044",
+      "https://openalex.org/W3085740936"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "introductory": [
+        1
+      ],
+      "article": [
+        2,
+        65
+      ],
+      "reassesses": [
+        3
+      ],
+      "the": [
+        4,
+        22,
+        37,
+        44,
+        64,
+        76,
+        83,
+        175,
+        178,
+        186
+      ],
+      "relevance": [
+        5
+      ],
+      "of": [
+        6,
+        24,
+        56,
+        78,
+        113,
+        181,
+        188
+      ],
+      "Pierre": [
+        7
+      ],
+      "Bourdieu": [
+        8
+      ],
+      "for": [
+        9
+      ],
+      "migration": [
+        10,
+        93,
+        141,
+        146,
+        202
+      ],
+      "studies,": [
+        11
+      ],
+      "challenging": [
+        12
+      ],
+      "assumptions": [
+        13
+      ],
+      "that": [
+        14,
+        29,
+        49,
+        107
+      ],
+      "his": [
+        15,
+        54,
+        68,
+        199
+      ],
+      "sociology": [
+        16,
+        183
+      ],
+      "has": [
+        17
+      ],
+      "little": [
+        18
+      ],
+      "to": [
+        19,
+        21,
+        35,
+        72,
+        170,
+        184
+      ],
+      "contribute": [
+        20
+      ],
+      "analysis": [
+        23
+      ],
+      "human": [
+        25
+      ],
+      "mobility.": [
+        26
+      ],
+      "It": [
+        27,
+        91
+      ],
+      "shows": [
+        28
+      ],
+      "Bourdieu\u2019s": [
+        30,
+        182
+      ],
+      "work": [
+        31
+      ],
+      "offers": [
+        32
+      ],
+      "conceptual": [
+        33
+      ],
+      "tools": [
+        34
+      ],
+      "examine": [
+        36
+      ],
+      "interplay": [
+        38
+      ],
+      "between": [
+        39,
+        159,
+        198
+      ],
+      "migrants\u2019": [
+        40,
+        74
+      ],
+      "subjective": [
+        41
+      ],
+      "experiences": [
+        42
+      ],
+      "and": [
+        43,
+        46,
+        61,
+        82,
+        89,
+        115,
+        120,
+        153,
+        162,
+        191,
+        201
+      ],
+      "structural": [
+        45
+      ],
+      "symbolic": [
+        47,
+        62,
+        118
+      ],
+      "hierarchies": [
+        48
+      ],
+      "shape": [
+        50
+      ],
+      "them.": [
+        51
+      ],
+      "Drawing": [
+        52
+      ],
+      "on": [
+        53,
+        129
+      ],
+      "analyses": [
+        55
+      ],
+      "habitus,": [
+        57
+      ],
+      "social": [
+        58,
+        80,
+        109,
+        148
+      ],
+      "space,": [
+        59
+      ],
+      "capital,": [
+        60,
+        114
+      ],
+      "power,": [
+        63,
+        193
+      ],
+      "highlights": [
+        66
+      ],
+      "how": [
+        67,
+        145
+      ],
+      "approach": [
+        69
+      ],
+      "allows": [
+        70
+      ],
+      "us": [
+        71
+      ],
+      "understand": [
+        73
+      ],
+      "trajectories,": [
+        75
+      ],
+      "transformation": [
+        77
+      ],
+      "their": [
+        79
+      ],
+      "positions,": [
+        81
+      ],
+      "classification": [
+        84
+      ],
+      "processes": [
+        85
+      ],
+      "enacted": [
+        86
+      ],
+      "by": [
+        87
+      ],
+      "states": [
+        88
+      ],
+      "institutions.": [
+        90
+      ],
+      "situates": [
+        92
+      ],
+      "not": [
+        94
+      ],
+      "merely": [
+        95
+      ],
+      "as": [
+        96,
+        103
+      ],
+      "a": [
+        97,
+        104,
+        195
+      ],
+      "demographic": [
+        98
+      ],
+      "or": [
+        99
+      ],
+      "economic": [
+        100
+      ],
+      "phenomenon": [
+        101
+      ],
+      "but": [
+        102
+      ],
+      "complex": [
+        105
+      ],
+      "process": [
+        106
+      ],
+      "reconfigures": [
+        108,
+        147
+      ],
+      "relations,": [
+        110
+      ],
+      "redistributes": [
+        111
+      ],
+      "forms": [
+        112
+      ],
+      "produces": [
+        116
+      ],
+      "new": [
+        117,
+        155
+      ],
+      "dominations": [
+        119
+      ],
+      "resistances.": [
+        121
+      ],
+      "The": [
+        122
+      ],
+      "contributions": [
+        123
+      ],
+      "in": [
+        124,
+        139
+      ],
+      "this": [
+        125,
+        130
+      ],
+      "Special": [
+        126
+      ],
+      "Issue": [
+        127,
+        176
+      ],
+      "build": [
+        128
+      ],
+      "revisionist": [
+        131
+      ],
+      "impulse": [
+        132
+      ],
+      "while": [
+        133
+      ],
+      "warning": [
+        134
+      ],
+      "against": [
+        135
+      ],
+      "superficial": [
+        136
+      ],
+      "\u201cconcept": [
+        137
+      ],
+      "shopping\u201d": [
+        138
+      ],
+      "Bourdieusian": [
+        140
+      ],
+      "research.": [
+        142
+      ],
+      "They": [
+        143
+      ],
+      "explore": [
+        144
+      ],
+      "spaces,": [
+        149
+      ],
+      "disrupts": [
+        150
+      ],
+      "established": [
+        151
+      ],
+      "stratifications": [
+        152
+      ],
+      "generates": [
+        154
+      ],
+      "transnational": [
+        156
+      ],
+      "habitus.": [
+        157
+      ],
+      "Moving": [
+        158
+      ],
+      "theoretical": [
+        160
+      ],
+      "reflection": [
+        161
+      ],
+      "empirical": [
+        163
+      ],
+      "inquiry": [
+        164
+      ],
+      "\u2013": [
+        165,
+        174
+      ],
+      "from": [
+        166
+      ],
+      "Algerian": [
+        167
+      ],
+      "colonial": [
+        168
+      ],
+      "legacies": [
+        169
+      ],
+      "contemporary": [
+        171
+      ],
+      "student": [
+        172
+      ],
+      "mobilities": [
+        173
+      ],
+      "demonstrates": [
+        177
+      ],
+      "continuing": [
+        179
+      ],
+      "power": [
+        180
+      ],
+      "illuminate": [
+        185
+      ],
+      "entanglement": [
+        187
+      ],
+      "mobility,": [
+        189
+      ],
+      "inequality": [
+        190
+      ],
+      "state": [
+        192
+      ],
+      "advancing": [
+        194
+      ],
+      "reflexive": [
+        196
+      ],
+      "dialogue": [
+        197
+      ],
+      "theory": [
+        200
+      ],
+      "scholarship.": [
+        203
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 7
+      }
+    ],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2026-09-16T00:00:00"
   }
 ]

@@ -126720,7 +126720,7 @@
     "doi": "https://doi.org/10.1080/00263206.2025.2468340",
     "title": "Passwords in the Ottoman military in the nineteenth century: a political and social analysis",
     "display_name": "Passwords in the Ottoman military in the nineteenth century: a political and social analysis",
-    "relevance_score": 1.0198786,
+    "relevance_score": 2.0266466,
     "publication_year": 2025,
     "publication_date": "2025-02-24",
     "ids": {
@@ -126730,6 +126730,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/00263206.2025.2468340",
+      "doi": "https://doi.org/10.1080/00263206.2025.2468340",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1080/00263206.2025.2468340",
       "pdf_url": null,
@@ -126744,13 +126745,25 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
@@ -126762,6 +126775,7 @@
       "raw_source_name": "Middle Eastern Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -126776,9 +126790,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5057819402",
-          "display_name": "Mustafa Mesut \u00d6ZEKMEK\u00c7\u0130",
-          "orcid": "https://orcid.org/0000-0001-7613-9939"
+          "id": "https://openalex.org/A5126992484",
+          "display_name": "MUSTAFA MESUT \u00d6ZEKMEK\u00c7\u0130",
+          "orcid": "https://orcid.org/0000-0001-7613-9939",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7613-9939"
+          ]
         },
         "institutions": [
           {
@@ -126815,7 +126832,7 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5057819402"
+      "https://openalex.org/A5126992484"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I115953327"
@@ -126826,7 +126843,7 @@
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.03843056,
+      "value": 0.02812925,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -126841,12 +126858,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13947",
-      "display_name": "Media Discourse and Social  Analysis",
-      "score": 0.9024999737739563,
+      "id": "https://openalex.org/T13210",
+      "display_name": "Historical Turkish Studies",
+      "score": 0.8438000082969666,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -126859,12 +126876,46 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13947",
-        "display_name": "Media Discourse and Social  Analysis",
-        "score": 0.9024999737739563,
+        "id": "https://openalex.org/T13210",
+        "display_name": "Historical Turkish Studies",
+        "score": 0.8438000082969666,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13441",
+        "display_name": "Ottoman Empire History and Society",
+        "score": 0.14869999885559082,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14190",
+        "display_name": "Military history and social perspectives",
+        "score": 0.0017000000225380063,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -126878,29 +126929,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.7526833415031433
+        "id": "https://openalex.org/keywords/passwords",
+        "display_name": "passwords",
+        "score": 0.8199999928474426
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5033356547355652
+        "id": "https://openalex.org/keywords/ottoman-army",
+        "display_name": "Ottoman army",
+        "score": 0.8399999737739563
       },
       {
-        "id": "https://openalex.org/keywords/ancient-history",
-        "display_name": "Ancient history",
-        "score": 0.4067420959472656
+        "id": "https://openalex.org/keywords/military-security",
+        "display_name": "military security",
+        "score": 0.8299999833106995
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.38910213112831116
+        "id": "https://openalex.org/keywords/military-discipline",
+        "display_name": "military discipline",
+        "score": 0.47099998593330383
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.3161655366420746
+        "id": "https://openalex.org/keywords/19th-century",
+        "display_name": "19th century",
+        "score": 0.6850000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/secret-societies",
+        "display_name": "secret societies",
+        "score": 0.5920000076293945
+      },
+      {
+        "id": "https://openalex.org/keywords/military-history",
+        "display_name": "military history",
+        "score": 0.4169999957084656
       }
     ],
     "concepts": [
@@ -126941,10 +127002,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1080/00263206.2025.2468340",
+        "doi": "https://doi.org/10.1080/00263206.2025.2468340",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1080/00263206.2025.2468340",
         "pdf_url": null,
@@ -126959,13 +127021,25 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
@@ -126979,6 +127053,7 @@
       },
       {
         "id": "pmh:31f411a5-c02c-4bad-9a35-00465f67dc2d",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://avesis.comu.edu.tr/publication/details/31f411a5-c02c-4bad-9a35-00465f67dc2d/oai",
         "pdf_url": "https://avesis.comu.edu.tr/publication/details/31f411a5-c02c-4bad-9a35-00465f67dc2d/oai/document.pdf",
@@ -126990,6 +127065,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -127003,10 +127079,42 @@
         "is_published": false,
         "raw_source_name": null,
         "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:acikerisim.comu.edu.tr:20.500.12428/30179",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://acikerisim.comu.edu.tr/bitstreams/f91ca0ad-1378-4b7d-9bd4-a34f631ae763/download",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407064138",
+          "display_name": "\u00c7anakkale Onsekiz Mart University Institutional Repository",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I115953327",
+          "host_organization_name": "\u00c7anakkale Onsekiz Mart \u00dcniversitesi",
+          "host_organization_lineage": [
+            "https://openalex.org/I115953327"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
       }
     ],
     "best_oa_location": {
       "id": "pmh:31f411a5-c02c-4bad-9a35-00465f67dc2d",
+      "doi": null,
       "is_oa": true,
       "landing_page_url": "https://avesis.comu.edu.tr/publication/details/31f411a5-c02c-4bad-9a35-00465f67dc2d/oai",
       "pdf_url": "https://avesis.comu.edu.tr/publication/details/31f411a5-c02c-4bad-9a35-00465f67dc2d/oai/document.pdf",
@@ -127018,6 +127126,7 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [],
         "host_organization": null,
         "host_organization_name": null,
         "host_organization_lineage": [],
@@ -127033,14 +127142,17 @@
       "raw_type": "info:eu-repo/semantics/article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": false
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4407884383.pdf"
+      "pdf": "https://content.openalex.org/works/W4407884383.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4407884383.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
@@ -127401,7 +127513,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-06-15T08:34:33.830935",
+    "updated_date": "2026-09-26T08:19:03.415552",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -176874,5 +176986,800 @@
     ],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7204567072",
+    "doi": "https://doi.org/10.1080/00263206.2026.2724883",
+    "title": "The repatriation of Ottoman prisoners of war from Siberia via the steamship \u00dcmit (1921\u20131922)",
+    "display_name": "The repatriation of Ottoman prisoners of war from Siberia via the steamship \u00dcmit (1921\u20131922)",
+    "relevance_score": 2.0137663,
+    "publication_year": 2026,
+    "publication_date": "2026-08-28",
+    "ids": {
+      "openalex": "https://openalex.org/W7204567072",
+      "doi": "https://doi.org/10.1080/00263206.2026.2724883"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/00263206.2026.2724883",
+      "doi": "https://doi.org/10.1080/00263206.2026.2724883",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/00263206.2026.2724883",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S164505828",
+        "display_name": "Middle Eastern Studies",
+        "issn_l": "0026-3206",
+        "issn": [
+          "0026-3206",
+          "1743-7881"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Middle Eastern Studies",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5030218041",
+          "display_name": "Eralp Ya\u015far AZAP",
+          "orcid": "https://orcid.org/0000-0002-8113-294X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8113-294X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I4403928353",
+            "display_name": "Presidency of the Republic of T\u00fcrkiye, Directorate of State Archives",
+            "ror": "https://ror.org/026ksq202",
+            "country_code": "TR",
+            "type": "archive",
+            "lineage": [
+              "https://openalex.org/I4403928353"
+            ]
+          }
+        ],
+        "countries": [
+          "TR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Eralp Ya\u015far Azap",
+        "raw_affiliation_strings": [
+          "T.C. Cumhurba\u015fkanl\u0131\u011f\u0131 Devlet Ar\u015fivleri Ba\u015fkanl\u0131\u011f\u0131 Osmanl\u0131 Ar\u015fivi"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-8113-294X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "T.C. Cumhurba\u015fkanl\u0131\u011f\u0131 Devlet Ar\u015fivleri Ba\u015fkanl\u0131\u011f\u0131 Osmanl\u0131 Ar\u015fivi",
+            "institution_ids": [
+              "https://openalex.org/I4403928353"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5030218041"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I4403928353"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.66854263,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "15"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11971",
+      "display_name": "World Wars: History, Literature, and Impact",
+      "score": 0.6567000150680542,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11971",
+        "display_name": "World Wars: History, Literature, and Impact",
+        "score": 0.6567000150680542,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13210",
+        "display_name": "Historical Turkish Studies",
+        "score": 0.33980000019073486,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14032",
+        "display_name": "History and International Relations",
+        "score": 0.0013000000035390258,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/prisoner-repatriation",
+        "display_name": "prisoner repatriation",
+        "score": 0.8059999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/world-war-i",
+        "display_name": "World War I",
+        "score": 0.8190000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/asinara-island",
+        "display_name": "Asinara Island",
+        "score": 0.9679999947547913
+      },
+      {
+        "id": "https://openalex.org/keywords/league-of-nations",
+        "display_name": "League of Nations",
+        "score": 0.7279999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/red-crescent",
+        "display_name": "Red Crescent",
+        "score": 0.8980000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/humanitarian-aid",
+        "display_name": "humanitarian aid",
+        "score": 0.6330000162124634
+      },
+      {
+        "id": "https://openalex.org/keywords/british-diplomacy",
+        "display_name": "British diplomacy",
+        "score": 0.4869999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/japanese-foreign-policy",
+        "display_name": "Japanese foreign policy",
+        "score": 0.8679999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/greek-diplomacy",
+        "display_name": "Greek diplomacy",
+        "score": 0.628000020980835
+      },
+      {
+        "id": "https://openalex.org/keywords/italian-diplomacy",
+        "display_name": "Italian diplomacy",
+        "score": 0.9739999771118164
+      },
+      {
+        "id": "https://openalex.org/keywords/unknown-soldier",
+        "display_name": "unknown soldier",
+        "score": 0.7519999742507935
+      },
+      {
+        "id": "https://openalex.org/keywords/ottoman-empire",
+        "display_name": "Ottoman Empire",
+        "score": 0.3720000088214874
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2779306362",
+        "wikidata": "https://www.wikidata.org/wiki/Q1331684",
+        "display_name": "Repatriation",
+        "level": 2,
+        "score": 0.9175999760627747
+      },
+      {
+        "id": "https://openalex.org/C3018496412",
+        "wikidata": "https://www.wikidata.org/wiki/Q179637",
+        "display_name": "Prisoners of war",
+        "level": 3,
+        "score": 0.7294999957084656
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.5587999820709229
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.4706000089645386
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.4674000144004822
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.4325999915599823
+      },
+      {
+        "id": "https://openalex.org/C81631423",
+        "wikidata": "https://www.wikidata.org/wiki/Q10859",
+        "display_name": "Spanish Civil War",
+        "level": 2,
+        "score": 0.35929998755455017
+      },
+      {
+        "id": "https://openalex.org/C73484699",
+        "wikidata": "https://www.wikidata.org/wiki/Q161733",
+        "display_name": "Criminology",
+        "level": 1,
+        "score": 0.29429998993873596
+      },
+      {
+        "id": "https://openalex.org/C60961049",
+        "wikidata": "https://www.wikidata.org/wiki/Q379693",
+        "display_name": "Deportation",
+        "level": 3,
+        "score": 0.28760001063346863
+      },
+      {
+        "id": "https://openalex.org/C195064531",
+        "wikidata": "https://www.wikidata.org/wiki/Q135010",
+        "display_name": "War crime",
+        "level": 3,
+        "score": 0.27219998836517334
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/00263206.2026.2724883",
+        "doi": "https://doi.org/10.1080/00263206.2026.2724883",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/00263206.2026.2724883",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S164505828",
+          "display_name": "Middle Eastern Studies",
+          "issn_l": "0026-3206",
+          "issn": [
+            "0026-3206",
+            "1743-7881"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Middle Eastern Studies",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.47620001435279846,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "study": [
+        1
+      ],
+      "explores": [
+        2
+      ],
+      "one": [
+        3
+      ],
+      "of": [
+        4,
+        11,
+        20,
+        23,
+        30,
+        74,
+        77,
+        108,
+        113,
+        137
+      ],
+      "the": [
+        5,
+        12,
+        16,
+        27,
+        40,
+        43,
+        59,
+        71,
+        75,
+        80,
+        89,
+        111,
+        114,
+        135,
+        149
+      ],
+      "most": [
+        6
+      ],
+      "tragic": [
+        7
+      ],
+      "and": [
+        8,
+        34,
+        68,
+        79,
+        92,
+        106,
+        117
+      ],
+      "under-researched": [
+        9
+      ],
+      "episodes": [
+        10
+      ],
+      "First": [
+        13
+      ],
+      "World": [
+        14
+      ],
+      "War:": [
+        15
+      ],
+      "seven-year": [
+        17
+      ],
+      "epic": [
+        18
+      ],
+      "repatriation": [
+        19
+      ],
+      "Ottoman": [
+        21
+      ],
+      "prisoners": [
+        22
+      ],
+      "war,": [
+        24
+      ],
+      "stretching": [
+        25
+      ],
+      "from": [
+        26,
+        88,
+        103
+      ],
+      "frozen": [
+        28
+      ],
+      "camps": [
+        29
+      ],
+      "Siberia": [
+        31
+      ],
+      "to": [
+        32,
+        36,
+        98,
+        110,
+        143
+      ],
+      "Vladivostok,": [
+        33
+      ],
+      "eventually": [
+        35
+      ],
+      "Asinara": [
+        37
+      ],
+      "Island": [
+        38
+      ],
+      "in": [
+        39,
+        134,
+        148
+      ],
+      "Mediterranean": [
+        41
+      ],
+      "via": [
+        42
+      ],
+      "Japanese": [
+        44
+      ],
+      "vessel": [
+        45
+      ],
+      "Heimei": [
+        46
+      ],
+      "Maru.": [
+        47
+      ],
+      "The": [
+        48
+      ],
+      "article": [
+        49
+      ],
+      "analyses": [
+        50
+      ],
+      "more": [
+        51
+      ],
+      "than": [
+        52
+      ],
+      "a": [
+        53,
+        130,
+        145
+      ],
+      "mere": [
+        54
+      ],
+      "military": [
+        55
+      ],
+      "evacuation;": [
+        56
+      ],
+      "it": [
+        57,
+        96
+      ],
+      "examines": [
+        58
+      ],
+      "complex": [
+        60
+      ],
+      "diplomatic": [
+        61,
+        118
+      ],
+      "\u2018chess": [
+        62
+      ],
+      "game\u2019": [
+        63
+      ],
+      "involving": [
+        64
+      ],
+      "Britain,": [
+        65
+      ],
+      "Japan,": [
+        66
+      ],
+      "Greece": [
+        67
+      ],
+      "Italy,": [
+        69
+      ],
+      "alongside": [
+        70
+      ],
+      "humanitarian": [
+        72
+      ],
+      "interventions": [
+        73
+      ],
+      "League": [
+        76
+      ],
+      "Nations": [
+        78
+      ],
+      "Red": [
+        81,
+        93
+      ],
+      "Crescent.": [
+        82
+      ],
+      "Drawing": [
+        83
+      ],
+      "on": [
+        84
+      ],
+      "previously": [
+        85
+      ],
+      "untapped": [
+        86
+      ],
+      "documents": [
+        87
+      ],
+      "ATASE,": [
+        90
+      ],
+      "Ottoman,": [
+        91
+      ],
+      "Crescent": [
+        94
+      ],
+      "archives,": [
+        95
+      ],
+      "brings": [
+        97
+      ],
+      "light": [
+        99
+      ],
+      "striking": [
+        100
+      ],
+      "details": [
+        101
+      ],
+      "\u2013": [
+        102
+      ],
+      "vermin-infested": [
+        104
+      ],
+      "ships": [
+        105
+      ],
+      "cases": [
+        107
+      ],
+      "insanity": [
+        109
+      ],
+      "mystery": [
+        112
+      ],
+      "\u2018Unknown": [
+        115
+      ],
+      "Soldier\u2019": [
+        116
+      ],
+      "blockades.": [
+        119
+      ],
+      "By": [
+        120
+      ],
+      "demonstrating": [
+        121
+      ],
+      "that": [
+        122
+      ],
+      "captivity": [
+        123
+      ],
+      "was": [
+        124
+      ],
+      "not": [
+        125
+      ],
+      "only": [
+        126
+      ],
+      "physical": [
+        127
+      ],
+      "confinement": [
+        128
+      ],
+      "but": [
+        129
+      ],
+      "struggle": [
+        131
+      ],
+      "for": [
+        132
+      ],
+      "survival": [
+        133
+      ],
+      "shadow": [
+        136
+      ],
+      "global": [
+        138
+      ],
+      "politics,": [
+        139
+      ],
+      "this": [
+        140
+      ],
+      "work": [
+        141
+      ],
+      "aims": [
+        142
+      ],
+      "fill": [
+        144
+      ],
+      "significant": [
+        146
+      ],
+      "void": [
+        147
+      ],
+      "existing": [
+        150
+      ],
+      "literature.": [
+        151
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-30T07:30:35.949966",
+    "created_date": "2026-08-29T00:00:00"
   }
 ]

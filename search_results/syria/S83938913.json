@@ -1633,7 +1633,7 @@
     "doi": "https://doi.org/10.64590/ifg",
     "title": "Iran Under Fire",
     "display_name": "Iran Under Fire",
-    "relevance_score": 1.366205,
+    "relevance_score": 3.7927392,
     "publication_year": 2026,
     "publication_date": "2026-01-31",
     "ids": {
@@ -1643,26 +1643,38 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.64590/ifg",
+      "doi": "https://doi.org/10.64590/ifg",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.64590/ifg",
       "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S83938913",
-        "display_name": "New left review",
+        "display_name": "New Left Review",
         "issn_l": "0028-6060",
         "issn": [
-          "0028-6060"
+          "0028-6060",
+          "2044-0480"
         ],
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -1674,6 +1686,7 @@
       "raw_source_name": "New Left Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -1688,23 +1701,25 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5127911281",
+          "id": "https://openalex.org/A5081175671",
           "display_name": "Ervand Abrahamian",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
         "is_corresponding": true,
         "raw_author_name": "Ervand Abrahamian",
         "raw_affiliation_strings": [],
+        "raw_orcid": null,
         "affiliations": []
       }
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
-      "https://openalex.org/A5127911281"
+      "https://openalex.org/A5081175671"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
@@ -1713,9 +1728,9 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.92105838,
+      "value": 0.10601006,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
@@ -1728,12 +1743,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10794",
-      "display_name": "Islamic Studies and History",
-      "score": 0.13330000638961792,
+      "id": "https://openalex.org/T13103",
+      "display_name": "Middle East Politics and Society",
+      "score": 0.9258000254631042,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -1746,9 +1761,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.9258000254631042,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T10794",
         "display_name": "Islamic Studies and History",
-        "score": 0.13330000638961792,
+        "score": 0.039799999445676804,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -1765,27 +1797,10 @@
       {
         "id": "https://openalex.org/T12550",
         "display_name": "Politics and Conflicts in Afghanistan, Pakistan, and Middle East",
-        "score": 0.05270000174641609,
+        "score": 0.01979999989271164,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13103",
-        "display_name": "Middle East Politics and Society",
-        "score": 0.026799999177455902,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -1799,24 +1814,19 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/denunciation",
-        "display_name": "Denunciation",
-        "score": 0.9168999791145325
+        "id": "https://openalex.org/keywords/islamic-republic-of-iran",
+        "display_name": "Islamic Republic of Iran",
+        "score": 0.8690000176429749
       },
       {
-        "id": "https://openalex.org/keywords/islam",
-        "display_name": "Islam",
-        "score": 0.613099992275238
+        "id": "https://openalex.org/keywords/power-structures",
+        "display_name": "power structures",
+        "score": 0.7200000286102295
       },
       {
-        "id": "https://openalex.org/keywords/power",
-        "display_name": "Power (physics)",
-        "score": 0.544700026512146
-      },
-      {
-        "id": "https://openalex.org/keywords/spanish-civil-war",
-        "display_name": "Spanish Civil War",
-        "score": 0.24459999799728394
+        "id": "https://openalex.org/keywords/us-iran-relations",
+        "display_name": "US-Iran relations",
+        "score": 0.5189999938011169
       }
     ],
     "concepts": [
@@ -1896,26 +1906,38 @@
     "locations": [
       {
         "id": "doi:10.64590/ifg",
+        "doi": "https://doi.org/10.64590/ifg",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.64590/ifg",
         "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S83938913",
-          "display_name": "New left review",
+          "display_name": "New Left Review",
           "issn_l": "0028-6060",
           "issn": [
-            "0028-6060"
+            "0028-6060",
+            "2044-0480"
           ],
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-2",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -1929,7 +1951,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.9559999704360962,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -2052,7 +2082,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-03-05T07:30:30.508283",
+    "updated_date": "2026-10-12T09:40:04.860316",
     "created_date": "2026-03-04T00:00:00"
   },
   {
@@ -2060,7 +2090,7 @@
     "doi": "https://doi.org/10.64590/sbo",
     "title": "Israel after Fordow",
     "display_name": "Israel after Fordow",
-    "relevance_score": 1.3190305,
+    "relevance_score": 3.6799164,
     "publication_year": 2025,
     "publication_date": "2025-07-31",
     "ids": {
@@ -2070,26 +2100,38 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.64590/sbo",
+      "doi": "https://doi.org/10.64590/sbo",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.64590/sbo",
       "pdf_url": "https://newleftreview.org/issues/ii154/articles/susan-watkins-israel-after-fordow.pdf",
       "source": {
         "id": "https://openalex.org/S83938913",
-        "display_name": "New left review",
+        "display_name": "New Left Review",
         "issn_l": "0028-6060",
         "issn": [
-          "0028-6060"
+          "0028-6060",
+          "2044-0480"
         ],
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -2101,6 +2143,7 @@
       "raw_source_name": "New Left Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -2117,19 +2160,21 @@
         "author": {
           "id": "https://openalex.org/A5119612749",
           "display_name": "Susan Watkins",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
         "is_corresponding": true,
         "raw_author_name": "Susan Watkins",
         "raw_affiliation_strings": [],
+        "raw_orcid": null,
         "affiliations": []
       }
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5119612749"
     ],
@@ -2140,7 +2185,7 @@
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.3338237,
+      "value": 0.22805024,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -2157,7 +2202,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11203",
       "display_name": "Jewish and Middle Eastern Studies",
-      "score": 0.9412999749183655,
+      "score": 0.6582000255584717,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -2175,10 +2220,44 @@
       {
         "id": "https://openalex.org/T11203",
         "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.9412999749183655,
+        "score": 0.6582000255584717,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.2937000095844269,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.0272000003606081,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -2192,29 +2271,34 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/offensive",
-        "display_name": "Offensive",
-        "score": 0.9182999730110168
+        "id": "https://openalex.org/keywords/benjamin-netanyahu",
+        "display_name": "Benjamin Netanyahu",
+        "score": 0.7559999823570251
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.6054999828338623
+        "id": "https://openalex.org/keywords/lebanon",
+        "display_name": "Lebanon",
+        "score": 0.5630000233650208
       },
       {
-        "id": "https://openalex.org/keywords/investment",
-        "display_name": "Investment (military)",
-        "score": 0.5716999769210815
+        "id": "https://openalex.org/keywords/syria",
+        "display_name": "Syria",
+        "score": 0.9660000205039978
       },
       {
-        "id": "https://openalex.org/keywords/middle-east",
-        "display_name": "Middle East",
-        "score": 0.5648999810218811
+        "id": "https://openalex.org/keywords/middle-east-conflict",
+        "display_name": "Middle East conflict",
+        "score": 0.5519999861717224
       },
       {
-        "id": "https://openalex.org/keywords/state",
-        "display_name": "State (computer science)",
-        "score": 0.4810999929904938
+        "id": "https://openalex.org/keywords/western-foreign-policy",
+        "display_name": "Western foreign policy",
+        "score": 0.5580000281333923
+      },
+      {
+        "id": "https://openalex.org/keywords/israeli-palestinian-conflict",
+        "display_name": "Israeli-Palestinian conflict",
+        "score": 0.5479999780654907
       }
     ],
     "concepts": [
@@ -2308,26 +2392,38 @@
     "locations": [
       {
         "id": "doi:10.64590/sbo",
+        "doi": "https://doi.org/10.64590/sbo",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.64590/sbo",
         "pdf_url": "https://newleftreview.org/issues/ii154/articles/susan-watkins-israel-after-fordow.pdf",
         "source": {
           "id": "https://openalex.org/S83938913",
-          "display_name": "New left review",
+          "display_name": "New Left Review",
           "issn_l": "0028-6060",
           "issn": [
-            "0028-6060"
+            "0028-6060",
+            "2044-0480"
           ],
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-2",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -2342,26 +2438,38 @@
     ],
     "best_oa_location": {
       "id": "doi:10.64590/sbo",
+      "doi": "https://doi.org/10.64590/sbo",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.64590/sbo",
       "pdf_url": "https://newleftreview.org/issues/ii154/articles/susan-watkins-israel-after-fordow.pdf",
       "source": {
         "id": "https://openalex.org/S83938913",
-        "display_name": "New left review",
+        "display_name": "New Left Review",
         "issn_l": "0028-6060",
         "issn": [
-          "0028-6060"
+          "0028-6060",
+          "2044-0480"
         ],
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -2373,7 +2481,15 @@
       "raw_source_name": "New Left Review",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.6601999998092651,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -2528,7 +2644,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-03-13T14:20:09.374765",
+    "updated_date": "2026-08-23T07:36:19.812096",
     "created_date": "2025-10-10T00:00:00"
   }
 ]

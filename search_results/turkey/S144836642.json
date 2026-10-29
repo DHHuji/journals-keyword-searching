@@ -8707,7 +8707,7 @@
     "doi": "https://doi.org/10.1177/17506980251334972",
     "title": "Turkey\u2019s 12 September coup: From trauma to nostalgia",
     "display_name": "Turkey\u2019s 12 September coup: From trauma to nostalgia",
-    "relevance_score": 2.6912184,
+    "relevance_score": 32.713028,
     "publication_year": 2025,
     "publication_date": "2025-05-02",
     "ids": {
@@ -8717,6 +8717,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/17506980251334972",
+      "doi": "https://doi.org/10.1177/17506980251334972",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/17506980251334972",
       "pdf_url": null,
@@ -8731,6 +8732,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -8749,6 +8760,7 @@
       "raw_source_name": "Memory Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -8763,9 +8775,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5005766428",
+          "id": "https://openalex.org/A5109587635",
           "display_name": "G\u00f6ze Orhon",
-          "orcid": "https://orcid.org/0000-0003-4785-5068"
+          "orcid": "https://orcid.org/0000-0003-4785-5068",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4785-5068"
+          ]
         },
         "institutions": [
           {
@@ -8802,24 +8817,28 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5005766428"
+      "https://openalex.org/A5109587635"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I66514158"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
-    "fwci": 6.7059,
+    "fwci": 2.2159,
     "has_fulltext": false,
-    "cited_by_count": 1,
+    "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.94314981,
+      "value": 0.86836182,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 96
     },
     "biblio": {
       "volume": "19",
@@ -8831,16 +8850,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11783",
-      "display_name": "Turkey's Politics and Society",
-      "score": 0.9987000226974487,
+      "id": "https://openalex.org/T12493",
+      "display_name": "Memory, violence, and history",
+      "score": 0.5913000106811523,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -8849,46 +8868,46 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T12493",
+        "display_name": "Memory, violence, and history",
+        "score": 0.5913000106811523,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12927",
+        "display_name": "Memory, History, Trauma, Identity",
+        "score": 0.3806000053882599,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11783",
         "display_name": "Turkey's Politics and Society",
-        "score": 0.9987000226974487,
+        "score": 0.010499999858438969,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13576",
-        "display_name": "Cyprus History, Politics, Society",
-        "score": 0.9940000176429749,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13103",
-        "display_name": "Middle East Politics and Society",
-        "score": 0.9909999966621399,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -8902,24 +8921,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.4655134677886963
+        "id": "https://openalex.org/keywords/12-september-1980-coup",
+        "display_name": "12 September 1980 coup",
+        "score": 0.9210000038146973
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.38172227144241333
+        "id": "https://openalex.org/keywords/military-coups",
+        "display_name": "military coups",
+        "score": 0.5809999704360962
       },
       {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.36330798268318176
+        "id": "https://openalex.org/keywords/trauma",
+        "display_name": "trauma",
+        "score": 0.8100000023841858
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.2943914532661438
+        "id": "https://openalex.org/keywords/nostalgia",
+        "display_name": "nostalgia",
+        "score": 0.9919999837875366
+      },
+      {
+        "id": "https://openalex.org/keywords/collective-memory",
+        "display_name": "collective memory",
+        "score": 0.6700000166893005
+      },
+      {
+        "id": "https://openalex.org/keywords/left-wing-movements",
+        "display_name": "left-wing movements",
+        "score": 0.6669999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/political-guilt",
+        "display_name": "political guilt",
+        "score": 0.531000018119812
+      },
+      {
+        "id": "https://openalex.org/keywords/political-imaginary",
+        "display_name": "political imaginary",
+        "score": 0.7080000042915344
+      },
+      {
+        "id": "https://openalex.org/keywords/1970s",
+        "display_name": "1970s",
+        "score": 0.6850000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/turkish-politics",
+        "display_name": "Turkish politics",
+        "score": 0.4339999854564667
+      },
+      {
+        "id": "https://openalex.org/keywords/intergenerational-transmission-of-memory",
+        "display_name": "intergenerational memory",
+        "score": 0.7099999785423279
       }
     ],
     "concepts": [
@@ -8957,6 +9011,7 @@
     "locations": [
       {
         "id": "doi:10.1177/17506980251334972",
+        "doi": "https://doi.org/10.1177/17506980251334972",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/17506980251334972",
         "pdf_url": null,
@@ -8971,6 +9026,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -8991,7 +9056,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.8999999761581421,
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -8999,8 +9072,9 @@
       "pdf": false
     },
     "content_urls": null,
-    "referenced_works_count": 42,
+    "referenced_works_count": 41,
     "referenced_works": [
+      "https://openalex.org/W47849384",
       "https://openalex.org/W88798260",
       "https://openalex.org/W383427750",
       "https://openalex.org/W1581479057",
@@ -9025,7 +9099,6 @@
       "https://openalex.org/W2857564023",
       "https://openalex.org/W3112924511",
       "https://openalex.org/W3194951718",
-      "https://openalex.org/W4211153026",
       "https://openalex.org/W4213442861",
       "https://openalex.org/W4238542385",
       "https://openalex.org/W4239367313",
@@ -9041,20 +9114,19 @@
       "https://openalex.org/W4293150657",
       "https://openalex.org/W4391876092",
       "https://openalex.org/W4391876100",
-      "https://openalex.org/W4391876129",
-      "https://openalex.org/W6700542633"
+      "https://openalex.org/W4391876129"
     ],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W2899084033",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W2949263084",
-      "https://openalex.org/W2743539335",
-      "https://openalex.org/W594353338",
-      "https://openalex.org/W2922049016",
-      "https://openalex.org/W4390697879",
-      "https://openalex.org/W2070214669",
-      "https://openalex.org/W2724734218"
+      "https://openalex.org/W4327884519",
+      "https://openalex.org/W2778374512",
+      "https://openalex.org/W4322629053",
+      "https://openalex.org/W2158159059",
+      "https://openalex.org/W4362610966",
+      "https://openalex.org/W4292431617",
+      "https://openalex.org/W3185809569",
+      "https://openalex.org/W2977856433",
+      "https://openalex.org/W2544043898",
+      "https://openalex.org/W2766566707"
     ],
     "abstract_inverted_index": {
       "The": [
@@ -9591,12 +9663,16 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
         "year": 2025,
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-05-21T06:26:12.895304",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-16T09:59:22.235173",
+    "created_date": "2025-05-04T00:00:00"
   },
   {
     "id": "https://openalex.org/W2586654988",
@@ -13967,7 +14043,7 @@
     "doi": "https://doi.org/10.1177/17506980251397883",
     "title": "The duty to remember \u201cit\u201d: How Germans with and without a migration history discuss the role of the Holocaust",
     "display_name": "The duty to remember \u201cit\u201d: How Germans with and without a migration history discuss the role of the Holocaust",
-    "relevance_score": 0.81833106,
+    "relevance_score": 2.2984006,
     "publication_year": 2025,
     "publication_date": "2025-12-01",
     "ids": {
@@ -13977,6 +14053,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/17506980251397883",
+      "doi": "https://doi.org/10.1177/17506980251397883",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/17506980251397883",
       "pdf_url": null,
@@ -13991,6 +14068,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -14009,6 +14096,7 @@
       "raw_source_name": "Memory Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -14025,7 +14113,10 @@
         "author": {
           "id": "https://openalex.org/A5039750316",
           "display_name": "Eunike Piwoni",
-          "orcid": "https://orcid.org/0000-0002-4567-3175"
+          "orcid": "https://orcid.org/0000-0002-4567-3175",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4567-3175"
+          ]
         },
         "institutions": [
           {
@@ -14062,7 +14153,10 @@
         "author": {
           "id": "https://openalex.org/A5051195366",
           "display_name": "Marlene Mu\u00dfotter",
-          "orcid": "https://orcid.org/0000-0002-6091-7326"
+          "orcid": "https://orcid.org/0000-0002-6091-7326",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6091-7326"
+          ]
         },
         "institutions": [
           {
@@ -14104,22 +14198,33 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I186354981"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 1.108,
     "has_fulltext": true,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.39238807,
+      "value": 0.83604591,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "19",
+      "issue": "4",
+      "first_page": "895",
+      "last_page": "911"
     },
     "is_retracted": false,
     "is_paratext": false,
@@ -14127,7 +14232,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11104",
       "display_name": "Memory, Trauma, and Commemoration",
-      "score": 0.5340999960899353,
+      "score": 0.9878000020980835,
       "subfield": {
         "id": "https://openalex.org/subfields/3207",
         "display_name": "Social Psychology"
@@ -14145,7 +14250,7 @@
       {
         "id": "https://openalex.org/T11104",
         "display_name": "Memory, Trauma, and Commemoration",
-        "score": 0.5340999960899353,
+        "score": 0.9878000020980835,
         "subfield": {
           "id": "https://openalex.org/subfields/3207",
           "display_name": "Social Psychology"
@@ -14160,16 +14265,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13708",
-        "display_name": "History of Emotions Research",
-        "score": 0.03449999913573265,
+        "id": "https://openalex.org/T13537",
+        "display_name": "German legal, social, and political studies",
+        "score": 0.00559999980032444,
         "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -14179,7 +14284,7 @@
       {
         "id": "https://openalex.org/T12927",
         "display_name": "Memory, History, Trauma, Identity",
-        "score": 0.025599999353289604,
+        "score": 0.0024999999441206455,
         "subfield": {
           "id": "https://openalex.org/subfields/1211",
           "display_name": "Philosophy"
@@ -14196,49 +14301,64 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/the-holocaust",
-        "display_name": "The Holocaust",
-        "score": 0.9143000245094299
+        "id": "https://openalex.org/keywords/holocaust-memory",
+        "display_name": "Holocaust memory",
+        "score": 0.828000009059906
       },
       {
-        "id": "https://openalex.org/keywords/immigration",
-        "display_name": "Immigration",
-        "score": 0.6366000175476074
+        "id": "https://openalex.org/keywords/duty-to-remember",
+        "display_name": "duty to remember",
+        "score": 0.9100000262260437
       },
       {
-        "id": "https://openalex.org/keywords/duty",
-        "display_name": "Duty",
-        "score": 0.5579000115394592
-      },
-      {
-        "id": "https://openalex.org/keywords/hegemony",
-        "display_name": "Hegemony",
-        "score": 0.5414999723434448
-      },
-      {
-        "id": "https://openalex.org/keywords/holocaust-survivors",
-        "display_name": "Holocaust survivors",
-        "score": 0.45489999651908875
-      },
-      {
-        "id": "https://openalex.org/keywords/world-history",
-        "display_name": "World history",
-        "score": 0.38199999928474426
-      },
-      {
-        "id": "https://openalex.org/keywords/genocide",
-        "display_name": "Genocide",
-        "score": 0.3330000042915344
+        "id": "https://openalex.org/keywords/migration-history",
+        "display_name": "migration history",
+        "score": 0.7860000133514404
       },
       {
         "id": "https://openalex.org/keywords/collective-memory",
-        "display_name": "Collective memory",
-        "score": 0.3278999924659729
+        "display_name": "collective memory",
+        "score": 0.5210000276565552
       },
       {
-        "id": "https://openalex.org/keywords/oral-history",
-        "display_name": "Oral history",
-        "score": 0.32280001044273376
+        "id": "https://openalex.org/keywords/memory-culture",
+        "display_name": "memory culture",
+        "score": 0.5400000214576721
+      },
+      {
+        "id": "https://openalex.org/keywords/right-wing-movements",
+        "display_name": "right-wing movements",
+        "score": 0.5920000076293945
+      },
+      {
+        "id": "https://openalex.org/keywords/holocaust-comparison",
+        "display_name": "Holocaust comparison",
+        "score": 0.492000013589859
+      },
+      {
+        "id": "https://openalex.org/keywords/former-soviet-union-immigrants",
+        "display_name": "former Soviet Union immigrants",
+        "score": 0.5490000247955322
+      },
+      {
+        "id": "https://openalex.org/keywords/polish-immigrants",
+        "display_name": "Polish immigrants",
+        "score": 0.8510000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/turkish-migrants",
+        "display_name": "Turkish immigrants",
+        "score": 0.9779999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/german-national-identity",
+        "display_name": "German national identity",
+        "score": 0.3619999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/emotions-and-attitudes",
+        "display_name": "emotions and attitudes",
+        "score": 0.44999998807907104
       }
     ],
     "concepts": [
@@ -14437,6 +14557,7 @@
     "locations": [
       {
         "id": "doi:10.1177/17506980251397883",
+        "doi": "https://doi.org/10.1177/17506980251397883",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/17506980251397883",
         "pdf_url": null,
@@ -14451,6 +14572,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -14471,8 +14602,9 @@
       },
       {
         "id": "pmh:oai:ub-madoc.bib.uni-mannheim.de:71371",
+        "doi": null,
         "is_oa": true,
-        "landing_page_url": null,
+        "landing_page_url": "https://madoc.bib.uni-mannheim.de/71371/1/piwoni-mu%C3%9Fotter-2025-the-duty-to-remember-it-how-germans-with-and-without-a-migration-history-discuss-the-role-of-the.pdf",
         "pdf_url": "https://madoc.bib.uni-mannheim.de/71371/1/piwoni-mu%C3%9Fotter-2025-the-duty-to-remember-it-how-germans-with-and-without-a-migration-history-discuss-the-role-of-the.pdf",
         "source": {
           "id": "https://openalex.org/S4377196315",
@@ -14482,6 +14614,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I177802217",
           "host_organization_name": "University of Mannheim",
           "host_organization_lineage": [
@@ -14496,11 +14629,12 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "NonPeerReviewed"
+        "raw_type": "Zeitschriftenartikel"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1177/17506980251397883",
+      "doi": "https://doi.org/10.1177/17506980251397883",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/17506980251397883",
       "pdf_url": null,
@@ -14515,6 +14649,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -14534,10 +14678,12 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G1105509600",
-        "display_name": null,
+        "display_name": "Affektive und emotionale Dimensionen und Dynamiken von (Nicht) Zugeh\u00f6rigkeit und dem Erfahren ethnorassischer ExklusionEin Vergleich von drei Gruppen von Deutschen mit Migrationshintergrund",
         "funder_award_id": "467462804",
         "funder_id": "https://openalex.org/F4320320879",
         "funder_display_name": "Deutsche Forschungsgemeinschaft"
@@ -14546,13 +14692,6 @@
         "id": "https://openalex.org/G4226201061",
         "display_name": null,
         "funder_award_id": "PI 1148/3-1",
-        "funder_id": "https://openalex.org/F4320320879",
-        "funder_display_name": "Deutsche Forschungsgemeinschaft"
-      },
-      {
-        "id": "https://openalex.org/G8552432393",
-        "display_name": null,
-        "funder_award_id": "PI 1148/3-1 (Project Number 467462804)",
         "funder_id": "https://openalex.org/F4320320879",
         "funder_display_name": "Deutsche Forschungsgemeinschaft"
       }
@@ -14598,7 +14737,18 @@
       "https://openalex.org/W4412184655",
       "https://openalex.org/W4414794218"
     ],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W6917873056",
+      "https://openalex.org/W4251508442",
+      "https://openalex.org/W2923084831",
+      "https://openalex.org/W7056771017",
+      "https://openalex.org/W2990143581",
+      "https://openalex.org/W202183526",
+      "https://openalex.org/W4403610018",
+      "https://openalex.org/W2061718207",
+      "https://openalex.org/W2140023953",
+      "https://openalex.org/W7215460085"
+    ],
     "abstract_inverted_index": {
       "Contributing": [
         0
@@ -14956,8 +15106,13 @@
         152
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-09-30T09:27:27.532063",
     "created_date": "2025-12-01T00:00:00"
   },
   {
@@ -16591,7 +16746,7 @@
     "doi": "https://doi.org/10.1177/17506980251397873",
     "title": "\u201cI kept it, so it wouldn\u2019t vanish with me\u201d: Audio letters as ambivalent sites of conflicting memory",
     "display_name": "\u201cI kept it, so it wouldn\u2019t vanish with me\u201d: Audio letters as ambivalent sites of conflicting memory",
-    "relevance_score": 0.79751265,
+    "relevance_score": 2.2215433,
     "publication_year": 2025,
     "publication_date": "2025-12-26",
     "ids": {
@@ -16601,6 +16756,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/17506980251397873",
+      "doi": "https://doi.org/10.1177/17506980251397873",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/17506980251397873",
       "pdf_url": null,
@@ -16615,6 +16771,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -16633,6 +16799,7 @@
       "raw_source_name": "Memory Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -16647,9 +16814,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5067093127",
+          "id": "https://openalex.org/A5017970762",
           "display_name": "Faime Alpagu",
-          "orcid": "https://orcid.org/0000-0002-2879-8515"
+          "orcid": "https://orcid.org/0000-0002-2879-8515",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2879-8515"
+          ]
         },
         "institutions": [
           {
@@ -16686,18 +16856,22 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5067093127"
+      "https://openalex.org/A5017970762"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I78577930"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.76334063,
+      "value": 0.65729968,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -16712,12 +16886,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13708",
-      "display_name": "History of Emotions Research",
-      "score": 0.19470000267028809,
+      "id": "https://openalex.org/T12927",
+      "display_name": "Memory, History, Trauma, Identity",
+      "score": 0.8208000063896179,
       "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -16730,12 +16904,12 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13708",
-        "display_name": "History of Emotions Research",
-        "score": 0.19470000267028809,
+        "id": "https://openalex.org/T12927",
+        "display_name": "Memory, History, Trauma, Identity",
+        "score": 0.8208000063896179,
         "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -16747,16 +16921,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13474",
-        "display_name": "Autobiographical and Biographical Writing",
-        "score": 0.19179999828338623,
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 0.06639999896287918,
         "subfield": {
-          "id": "https://openalex.org/subfields/1208",
-          "display_name": "Literature and Literary Theory"
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -16764,16 +16938,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13590",
-        "display_name": "Oral History, Memory, Narrative Analysis",
-        "score": 0.10279999673366547,
+        "id": "https://openalex.org/T11648",
+        "display_name": "Diaspora, migration, transnational identity",
+        "score": 0.029400000348687172,
         "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -16783,39 +16957,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/ambivalence",
-        "display_name": "Ambivalence",
-        "score": 0.8364999890327454
+        "id": "https://openalex.org/keywords/memory",
+        "display_name": "memory",
+        "score": 0.5099999904632568
       },
       {
-        "id": "https://openalex.org/keywords/active-listening",
-        "display_name": "Active listening",
-        "score": 0.6211000084877014
+        "id": "https://openalex.org/keywords/migration",
+        "display_name": "migration",
+        "score": 0.9509999752044678
       },
       {
-        "id": "https://openalex.org/keywords/vernacular",
-        "display_name": "Vernacular",
-        "score": 0.44020000100135803
+        "id": "https://openalex.org/keywords/family-papers",
+        "display_name": "family archives",
+        "score": 0.8560000061988831
       },
       {
-        "id": "https://openalex.org/keywords/dual",
-        "display_name": "Dual (grammatical number)",
-        "score": 0.4133000075817108
+        "id": "https://openalex.org/keywords/emotional-communication",
+        "display_name": "emotional communication",
+        "score": 0.8190000057220459
       },
       {
-        "id": "https://openalex.org/keywords/dynamics",
-        "display_name": "Dynamics (music)",
-        "score": 0.35269999504089355
+        "id": "https://openalex.org/keywords/melancholia",
+        "display_name": "melancholia",
+        "score": 0.9010000228881836
       },
       {
-        "id": "https://openalex.org/keywords/coining",
-        "display_name": "Coining (mint)",
-        "score": 0.3190999925136566
+        "id": "https://openalex.org/keywords/family-conflict",
+        "display_name": "family conflict",
+        "score": 0.7739999890327454
       },
       {
-        "id": "https://openalex.org/keywords/mythology",
-        "display_name": "Mythology",
-        "score": 0.30709999799728394
+        "id": "https://openalex.org/keywords/transmedia",
+        "display_name": "transmedia",
+        "score": 0.42800000309944153
+      },
+      {
+        "id": "https://openalex.org/keywords/voice-recording",
+        "display_name": "voice recording",
+        "score": 0.47999998927116394
+      },
+      {
+        "id": "https://openalex.org/keywords/collective-memory",
+        "display_name": "collective memory",
+        "score": 0.5379999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/1980s-migration",
+        "display_name": "1980s migration",
+        "score": 0.7409999966621399
       }
     ],
     "concepts": [
@@ -16951,6 +17140,7 @@
     "locations": [
       {
         "id": "doi:10.1177/17506980251397873",
+        "doi": "https://doi.org/10.1177/17506980251397873",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/17506980251397873",
         "pdf_url": null,
@@ -16965,6 +17155,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -16985,13 +17185,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
         "display_name": "Reduced inequalities",
-        "id": "https://metadata.un.org/sdg/10",
-        "score": 0.6663789749145508
+        "score": 0.6663789749145508,
+        "id": "https://metadata.un.org/sdg/10"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -17009,7 +17211,18 @@
       "https://openalex.org/W4322390217",
       "https://openalex.org/W4400040172"
     ],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W3003935647",
+      "https://openalex.org/W2547281374",
+      "https://openalex.org/W6983308635",
+      "https://openalex.org/W7133081637",
+      "https://openalex.org/W4408782876",
+      "https://openalex.org/W4417325562",
+      "https://openalex.org/W2255328803",
+      "https://openalex.org/W2312207732",
+      "https://openalex.org/W2045122279",
+      "https://openalex.org/W4393220941"
+    ],
     "abstract_inverted_index": {
       "This": [
         0,
@@ -17377,7 +17590,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-09-26T08:19:03.415552",
     "created_date": "2025-12-26T00:00:00"
   }
 ]

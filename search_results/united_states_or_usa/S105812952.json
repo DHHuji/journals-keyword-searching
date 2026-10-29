@@ -132069,7 +132069,7 @@
     "doi": "https://doi.org/10.1017/s1742058x25000049",
     "title": "To Agitate a Southern Audience",
     "display_name": "To Agitate a Southern Audience",
-    "relevance_score": 0.505661,
+    "relevance_score": 1.0007008,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -132079,6 +132079,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s1742058x25000049",
+      "doi": "https://doi.org/10.1017/s1742058x25000049",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s1742058x25000049",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D7A576900121C77A51EB8EA5E614383D/S1742058X25000049a.pdf/div-class-title-to-agitate-a-southern-audience-div.pdf",
@@ -132093,6 +132094,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -132113,6 +132122,7 @@
       "raw_source_name": "Du Bois Review: Social Science Research on Race",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -132121,7 +132131,7 @@
       "is_oa": true,
       "oa_status": "hybrid",
       "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D7A576900121C77A51EB8EA5E614383D/S1742058X25000049a.pdf/div-class-title-to-agitate-a-southern-audience-div.pdf",
-      "any_repository_has_fulltext": false
+      "any_repository_has_fulltext": null
     },
     "authorships": [
       {
@@ -132129,7 +132139,10 @@
         "author": {
           "id": "https://openalex.org/A5025304375",
           "display_name": "Demar F. Lewis",
-          "orcid": "https://orcid.org/0000-0003-3475-9712"
+          "orcid": "https://orcid.org/0000-0003-3475-9712",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3475-9712"
+          ]
         },
         "institutions": [
           {
@@ -132178,17 +132191,28 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I66946132"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 1.7424,
     "has_fulltext": true,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.13620355,
+      "value": 0.84674854,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": "22",
       "issue": "2",
@@ -132199,16 +132223,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13025",
-      "display_name": "American History and Culture",
-      "score": 0.9811000227928162,
+      "id": "https://openalex.org/T12765",
+      "display_name": "Race, History, and American Society",
+      "score": 0.9970999956130981,
       "subfield": {
-        "id": "https://openalex.org/subfields/1406",
-        "display_name": "Marketing"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -132217,26 +132241,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13025",
-        "display_name": "American History and Culture",
-        "score": 0.9811000227928162,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1406",
-          "display_name": "Marketing"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/14",
-          "display_name": "Business, Management and Accounting"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T12765",
         "display_name": "Race, History, and American Society",
-        "score": 0.9722999930381775,
+        "score": 0.9970999956130981,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -132251,16 +132258,33 @@
         }
       },
       {
-        "id": "https://openalex.org/T13333",
-        "display_name": "American Political and Social Dynamics",
-        "score": 0.9666000008583069,
+        "id": "https://openalex.org/T12144",
+        "display_name": "Colonialism, slavery, and trade",
+        "score": 0.0017000000225380063,
         "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12231",
+        "display_name": "Contemporary Sociological Theory and Practice",
+        "score": 0.00019999999494757503,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -132270,19 +132294,64 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/advertising",
-        "display_name": "Advertising",
-        "score": 0.3925098776817322
+        "id": "https://openalex.org/keywords/tuskegee-university",
+        "display_name": "Tuskegee Institute",
+        "score": 1.0
       },
       {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.33786141872406006
+        "id": "https://openalex.org/keywords/lynching",
+        "display_name": "lynching",
+        "score": 0.5770000219345093
       },
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.255997896194458
+        "id": "https://openalex.org/keywords/abolitionism",
+        "display_name": "abolitionism",
+        "score": 0.7170000076293945
+      },
+      {
+        "id": "https://openalex.org/keywords/booker-t-washington",
+        "display_name": "Booker T. Washington",
+        "score": 0.7490000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/poverty-reduction-strategies",
+        "display_name": "poverty reduction strategies",
+        "score": 0.7210000157356262
+      },
+      {
+        "id": "https://openalex.org/keywords/structural-racism",
+        "display_name": "structural racism",
+        "score": 0.7639999985694885
+      },
+      {
+        "id": "https://openalex.org/keywords/research-activism",
+        "display_name": "research activism",
+        "score": 0.652999997138977
+      },
+      {
+        "id": "https://openalex.org/keywords/research-dissemination",
+        "display_name": "research dissemination",
+        "score": 0.6019999980926514
+      },
+      {
+        "id": "https://openalex.org/keywords/southern-whites",
+        "display_name": "Southern whites",
+        "score": 0.3659999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/white-supremacy",
+        "display_name": "white supremacy",
+        "score": 0.414000004529953
+      },
+      {
+        "id": "https://openalex.org/keywords/southern-united-states",
+        "display_name": "Southern United States",
+        "score": 0.44999998807907104
+      },
+      {
+        "id": "https://openalex.org/keywords/history-of-sociology",
+        "display_name": "history of sociology",
+        "score": 0.5379999876022339
       }
     ],
     "concepts": [
@@ -132309,10 +132378,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 2,
     "locations": [
       {
         "id": "doi:10.1017/s1742058x25000049",
+        "doi": "https://doi.org/10.1017/s1742058x25000049",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s1742058x25000049",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D7A576900121C77A51EB8EA5E614383D/S1742058X25000049a.pdf/div-class-title-to-agitate-a-southern-audience-div.pdf",
@@ -132327,6 +132397,14 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -132346,10 +132424,26 @@
         "is_published": true,
         "raw_source_name": "Du Bois Review: Social Science Research on Race",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "doi:10.31235/osf.io/tw8a3_v1",
+        "doi": "https://doi.org/10.31235/osf.io/tw8a3_v1",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.31235/osf.io/tw8a3_v1",
+        "pdf_url": null,
+        "source": null,
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s1742058x25000049",
+      "doi": "https://doi.org/10.1017/s1742058x25000049",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s1742058x25000049",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D7A576900121C77A51EB8EA5E614383D/S1742058X25000049a.pdf/div-class-title-to-agitate-a-southern-audience-div.pdf",
@@ -132364,6 +132458,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -132384,7 +132486,15 @@
       "raw_source_name": "Du Bois Review: Social Science Research on Race",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.47620001435279846,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -132401,7 +132511,7 @@
       "pdf": "https://content.openalex.org/works/W4410722350.pdf",
       "grobid_xml": "https://content.openalex.org/works/W4410722350.grobid-xml"
     },
-    "referenced_works_count": 115,
+    "referenced_works_count": 110,
     "referenced_works": [
       "https://openalex.org/W643635398",
       "https://openalex.org/W1487205272",
@@ -132512,24 +132622,19 @@
       "https://openalex.org/W4390822169",
       "https://openalex.org/W4394963852",
       "https://openalex.org/W4399176647",
-      "https://openalex.org/W4410681125",
-      "https://openalex.org/W6630359682",
-      "https://openalex.org/W6717802115",
-      "https://openalex.org/W6762934363",
-      "https://openalex.org/W6783271790",
-      "https://openalex.org/W6791147586"
+      "https://openalex.org/W4410681125"
     ],
     "related_works": [
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W2908364646",
-      "https://openalex.org/W2275271759",
-      "https://openalex.org/W2014532210",
-      "https://openalex.org/W1992760298",
-      "https://openalex.org/W2767629806",
-      "https://openalex.org/W2319899002",
-      "https://openalex.org/W2953463546",
-      "https://openalex.org/W2187359640",
-      "https://openalex.org/W2354585676"
+      "https://openalex.org/W4401429707",
+      "https://openalex.org/W2807113388",
+      "https://openalex.org/W4414173496",
+      "https://openalex.org/W47862704",
+      "https://openalex.org/W4400921022",
+      "https://openalex.org/W7033804811",
+      "https://openalex.org/W2418701034",
+      "https://openalex.org/W4415982493",
+      "https://openalex.org/W4392037046",
+      "https://openalex.org/W2910907253"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -133022,9 +133127,14 @@
         212
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
-    "created_date": "2025-10-10T00:00:00"
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2025-05-26T00:00:00"
   },
   {
     "id": "https://openalex.org/W2800707081",
@@ -142412,11 +142522,11 @@
   {
     "id": "https://openalex.org/W7154122656",
     "doi": "https://doi.org/10.1017/s1742058x26100113",
-    "title": "Confronting Culture and Caste in the American Bah\u00e1\u2019\u00ed Magazine <i>World Order</i> , 1935\u20131949",
-    "display_name": "Confronting Culture and Caste in the American Bah\u00e1\u2019\u00ed Magazine <i>World Order</i> , 1935\u20131949",
-    "relevance_score": 0.35187525,
+    "title": "Confronting Culture and Caste in the American Bah\u00e1\u2019\u00ed Magazine World Order , 1935\u20131949",
+    "display_name": "Confronting Culture and Caste in the American Bah\u00e1\u2019\u00ed Magazine World Order , 1935\u20131949",
+    "relevance_score": 0.69599783,
     "publication_year": 2026,
-    "publication_date": "2026-04-13",
+    "publication_date": "2026-01-01",
     "ids": {
       "openalex": "https://openalex.org/W7154122656",
       "doi": "https://doi.org/10.1017/s1742058x26100113"
@@ -142424,6 +142534,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s1742058x26100113",
+      "doi": "https://doi.org/10.1017/s1742058x26100113",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s1742058x26100113",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/14275C3DCB24674ED13F311766849562/S1742058X26100113a.pdf/div-class-title-confronting-culture-and-caste-in-the-american-baha-i-magazine-span-class-italic-world-order-span-1935-1949-div.pdf",
@@ -142438,6 +142549,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -142458,6 +142577,7 @@
       "raw_source_name": "Du Bois Review: Social Science Research on Race",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -142474,10 +142594,26 @@
         "author": {
           "id": "https://openalex.org/A5000498666",
           "display_name": "Matthew W. Hughey",
-          "orcid": "https://orcid.org/0000-0002-6456-5663"
+          "orcid": "https://orcid.org/0000-0002-6456-5663",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6456-5663"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I140172145",
+            "display_name": "University of Connecticut",
+            "ror": "https://ror.org/02der9h97",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I140172145"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Matthew Hughey",
         "raw_affiliation_strings": [
@@ -142487,49 +142623,61 @@
         "affiliations": [
           {
             "raw_affiliation_string": "University of Connecticut",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I140172145"
+            ]
           }
         ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5000498666"
     ],
-    "corresponding_institution_ids": [],
-    "apc_list": null,
-    "apc_paid": null,
+    "corresponding_institution_ids": [
+      "https://openalex.org/I140172145"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.91434386,
+      "value": 0.26740813,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": "1",
-      "last_page": "18"
+      "volume": "23",
+      "issue": "1",
+      "first_page": "136",
+      "last_page": "153"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13005",
-      "display_name": "Religious Studies and Spiritual Practices",
-      "score": 0.08150000125169754,
+      "id": "https://openalex.org/T12765",
+      "display_name": "Race, History, and American Society",
+      "score": 0.5443999767303467,
       "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -142538,9 +142686,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T12765",
+        "display_name": "Race, History, and American Society",
+        "score": 0.5443999767303467,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T13005",
         "display_name": "Religious Studies and Spiritual Practices",
-        "score": 0.08150000125169754,
+        "score": 0.19789999723434448,
         "subfield": {
           "id": "https://openalex.org/subfields/1211",
           "display_name": "Philosophy"
@@ -142555,29 +142720,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T11563",
-        "display_name": "Indian and Buddhist Studies",
-        "score": 0.06289999932050705,
+        "id": "https://openalex.org/T13750",
+        "display_name": "Mormonism, Religion, and History",
+        "score": 0.0625,
         "subfield": {
-          "id": "https://openalex.org/subfields/1212",
-          "display_name": "Religious studies"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13902",
-        "display_name": "Indian History and Philosophy",
-        "score": 0.03200000151991844,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1211",
-          "display_name": "Philosophy"
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -142591,44 +142739,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/eugenics",
-        "display_name": "Eugenics",
-        "score": 0.6769999861717224
-      },
-      {
-        "id": "https://openalex.org/keywords/caste",
-        "display_name": "Caste",
-        "score": 0.5680000185966492
-      },
-      {
-        "id": "https://openalex.org/keywords/faith",
-        "display_name": "Faith",
-        "score": 0.5327000021934509
+        "id": "https://openalex.org/keywords/baha-i-faith",
+        "display_name": "Bah\u00e1'\u00ed Faith",
+        "score": 0.9240000247955322
       },
       {
         "id": "https://openalex.org/keywords/race",
-        "display_name": "Race (biology)",
-        "score": 0.5162000060081482
+        "display_name": "race",
+        "score": 0.4819999933242798
       },
       {
-        "id": "https://openalex.org/keywords/articulation",
-        "display_name": "Articulation (sociology)",
-        "score": 0.5012999773025513
+        "id": "https://openalex.org/keywords/caste",
+        "display_name": "caste",
+        "score": 0.9919999837875366
       },
       {
-        "id": "https://openalex.org/keywords/representation",
-        "display_name": "Representation (politics)",
-        "score": 0.38989999890327454
+        "id": "https://openalex.org/keywords/racial-prejudice",
+        "display_name": "racial prejudice",
+        "score": 0.6179999709129333
       },
       {
-        "id": "https://openalex.org/keywords/technocracy",
-        "display_name": "Technocracy",
-        "score": 0.33410000801086426
+        "id": "https://openalex.org/keywords/racial-equality",
+        "display_name": "racial equality",
+        "score": 0.628000020980835
       },
       {
-        "id": "https://openalex.org/keywords/cognitive-reframing",
-        "display_name": "Cognitive reframing",
-        "score": 0.3327000141143799
+        "id": "https://openalex.org/keywords/great-depression",
+        "display_name": "Great Depression",
+        "score": 0.6359999775886536
+      },
+      {
+        "id": "https://openalex.org/keywords/eugenics",
+        "display_name": "eugenics",
+        "score": 0.9580000042915344
+      },
+      {
+        "id": "https://openalex.org/keywords/aryanism",
+        "display_name": "Aryanism",
+        "score": 0.8240000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/jim-crow",
+        "display_name": "Jim Crow",
+        "score": 0.8939999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/scientific-racism",
+        "display_name": "scientific racism",
+        "score": 0.4519999921321869
+      },
+      {
+        "id": "https://openalex.org/keywords/race-and-religion",
+        "display_name": "race and religion",
+        "score": 0.6449999809265137
       }
     ],
     "concepts": [
@@ -142813,6 +142976,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s1742058x26100113",
+        "doi": "https://doi.org/10.1017/s1742058x26100113",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s1742058x26100113",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/14275C3DCB24674ED13F311766849562/S1742058X26100113a.pdf/div-class-title-confronting-culture-and-caste-in-the-american-baha-i-magazine-span-class-italic-world-order-span-1935-1949-div.pdf",
@@ -142827,6 +142991,14 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -142850,6 +143022,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s1742058x26100113",
+      "doi": "https://doi.org/10.1017/s1742058x26100113",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s1742058x26100113",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/14275C3DCB24674ED13F311766849562/S1742058X26100113a.pdf/div-class-title-confronting-culture-and-caste-in-the-american-baha-i-magazine-span-class-italic-world-order-span-1935-1949-div.pdf",
@@ -142864,6 +143037,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -142887,10 +143068,18 @@
     "sustainable_development_goals": [
       {
         "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7307999730110168,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
         "score": 0.6673576235771179,
         "display_name": "Reduced inequalities"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -143465,7 +143654,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-04-15T05:59:14.812645",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2026-04-14T00:00:00"
   },
   {
@@ -143473,9 +143662,9 @@
     "doi": "https://doi.org/10.1017/s1742058x26100071",
     "title": "\u201cI\u2019m 70% Nigerian, 30% American\u201d",
     "display_name": "\u201cI\u2019m 70% Nigerian, 30% American\u201d",
-    "relevance_score": 0.3342685,
+    "relevance_score": 0.66549474,
     "publication_year": 2026,
-    "publication_date": "2026-02-24",
+    "publication_date": "2026-01-01",
     "ids": {
       "openalex": "https://openalex.org/W7131268904",
       "doi": "https://doi.org/10.1017/s1742058x26100071"
@@ -143483,9 +143672,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s1742058x26100071",
+      "doi": "https://doi.org/10.1017/s1742058x26100071",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s1742058x26100071",
-      "pdf_url": null,
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2C345340B0FD5081BC3DC3E2C4EA06B6/S1742058X26100071a.pdf/div-class-title-i-m-70-nigerian-30-american-div.pdf",
       "source": {
         "id": "https://openalex.org/S105812952",
         "display_name": "Du Bois Review Social Science Research on Race",
@@ -143497,6 +143687,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -143517,6 +143715,7 @@
       "raw_source_name": "Du Bois Review: Social Science Research on Race",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -143524,16 +143723,19 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1017/s1742058x26100071",
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2C345340B0FD5081BC3DC3E2C4EA06B6/S1742058X26100071a.pdf/div-class-title-i-m-70-nigerian-30-american-div.pdf",
       "any_repository_has_fulltext": false
     },
     "authorships": [
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5126694794",
-          "display_name": "Tunde A. Alabi",
-          "orcid": null
+          "id": "https://openalex.org/A5042799638",
+          "display_name": "Tunde Adeyemo Alabi",
+          "orcid": "https://orcid.org/0000-0002-3261-714X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3261-714X"
+          ]
         },
         "institutions": [
           {
@@ -143570,38 +143772,49 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5126694794"
+      "https://openalex.org/A5042799638"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I197610006"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
-    "has_fulltext": false,
-    "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.3453209,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
     },
-    "cited_by_percentile_year": null,
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 12.4817,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.96183934,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": "1",
-      "last_page": "19"
+      "volume": "23",
+      "issue": "1",
+      "first_page": "58",
+      "last_page": "76"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11648",
-      "display_name": "Diaspora, migration, transnational identity",
-      "score": 0.42899999022483826,
+      "id": "https://openalex.org/T10216",
+      "display_name": "Migration, Refugees, and Integration",
+      "score": 0.7886000275611877,
       "subfield": {
-        "id": "https://openalex.org/subfields/3317",
-        "display_name": "Demography"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -143614,26 +143827,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11648",
-        "display_name": "Diaspora, migration, transnational identity",
-        "score": 0.42899999022483826,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3317",
-          "display_name": "Demography"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10349",
-        "display_name": "Migration and Labor Dynamics",
-        "score": 0.026799999177455902,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.7886000275611877,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -143648,9 +143844,26 @@
         }
       },
       {
-        "id": "https://openalex.org/T10216",
-        "display_name": "Migration, Refugees, and Integration",
-        "score": 0.026599999517202377,
+        "id": "https://openalex.org/T11648",
+        "display_name": "Diaspora, migration, transnational identity",
+        "score": 0.20499999821186066,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10652",
+        "display_name": "Racial and Ethnic Identity Research",
+        "score": 0.0015999999595806003,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -143667,44 +143880,64 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/allegiance",
-        "display_name": "Allegiance",
-        "score": 0.7405999898910522
+        "id": "https://openalex.org/keywords/nigerian-migrants",
+        "display_name": "Nigerian immigrants",
+        "score": 0.8920000195503235
       },
       {
-        "id": "https://openalex.org/keywords/immigration",
-        "display_name": "Immigration",
-        "score": 0.6679999828338623
+        "id": "https://openalex.org/keywords/self-identification",
+        "display_name": "self-identification",
+        "score": 0.847000002861023
       },
       {
-        "id": "https://openalex.org/keywords/emigration",
-        "display_name": "Emigration",
-        "score": 0.5964000225067139
+        "id": "https://openalex.org/keywords/immigrant-integration",
+        "display_name": "immigrant integration",
+        "score": 0.9660000205039978
       },
       {
-        "id": "https://openalex.org/keywords/qualitative-research",
-        "display_name": "Qualitative research",
-        "score": 0.5741000175476074
+        "id": "https://openalex.org/keywords/assimilation",
+        "display_name": "assimilation",
+        "score": 0.8700000047683716
       },
       {
-        "id": "https://openalex.org/keywords/framing",
-        "display_name": "Framing (construction)",
-        "score": 0.5619000196456909
+        "id": "https://openalex.org/keywords/double-consciousness",
+        "display_name": "double consciousness",
+        "score": 0.9079999923706055
       },
       {
-        "id": "https://openalex.org/keywords/thematic-analysis",
-        "display_name": "Thematic analysis",
-        "score": 0.5597000122070312
+        "id": "https://openalex.org/keywords/w-e-b-du-bois",
+        "display_name": "W. E. B. Du Bois",
+        "score": 0.9070000052452087
       },
       {
-        "id": "https://openalex.org/keywords/identity",
-        "display_name": "Identity (music)",
-        "score": 0.4203000068664551
+        "id": "https://openalex.org/keywords/cultural-identity",
+        "display_name": "cultural identity",
+        "score": 0.6200000047683716
       },
       {
-        "id": "https://openalex.org/keywords/host",
-        "display_name": "Host (biology)",
-        "score": 0.3887999951839447
+        "id": "https://openalex.org/keywords/host-country-culture",
+        "display_name": "host country culture",
+        "score": 0.38999998569488525
+      },
+      {
+        "id": "https://openalex.org/keywords/citizenship",
+        "display_name": "citizenship",
+        "score": 0.7039999961853027
+      },
+      {
+        "id": "https://openalex.org/keywords/migration-experience",
+        "display_name": "migration experience",
+        "score": 0.5320000052452087
+      },
+      {
+        "id": "https://openalex.org/keywords/united-states",
+        "display_name": "United States",
+        "score": 0.7289999723434448
+      },
+      {
+        "id": "https://openalex.org/keywords/united-kingdom",
+        "display_name": "United Kingdom",
+        "score": 0.9980000257492065
       }
     ],
     "concepts": [
@@ -143868,9 +144101,10 @@
     "locations": [
       {
         "id": "doi:10.1017/s1742058x26100071",
+        "doi": "https://doi.org/10.1017/s1742058x26100071",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s1742058x26100071",
-        "pdf_url": null,
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2C345340B0FD5081BC3DC3E2C4EA06B6/S1742058X26100071a.pdf/div-class-title-i-m-70-nigerian-30-american-div.pdf",
         "source": {
           "id": "https://openalex.org/S105812952",
           "display_name": "Du Bois Review Social Science Research on Race",
@@ -143882,6 +144116,14 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -143905,9 +144147,10 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s1742058x26100071",
+      "doi": "https://doi.org/10.1017/s1742058x26100071",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s1742058x26100071",
-      "pdf_url": null,
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2C345340B0FD5081BC3DC3E2C4EA06B6/S1742058X26100071a.pdf/div-class-title-i-m-70-nigerian-30-american-div.pdf",
       "source": {
         "id": "https://openalex.org/S105812952",
         "display_name": "Du Bois Review Social Science Research on Race",
@@ -143919,6 +144162,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -143939,20 +144190,25 @@
       "raw_source_name": "Du Bois Review: Social Science Research on Race",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
         "id": "https://metadata.un.org/sdg/10",
         "score": 0.8123937249183655,
         "display_name": "Reduced inequalities"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "grobid_xml": true,
+      "pdf": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7131268904.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7131268904.grobid-xml"
+    },
     "referenced_works_count": 48,
     "referenced_works": [
       "https://openalex.org/W1969550852",
@@ -143969,6 +144225,7 @@
       "https://openalex.org/W2589974835",
       "https://openalex.org/W2795794608",
       "https://openalex.org/W2807939496",
+      "https://openalex.org/W2892570753",
       "https://openalex.org/W2894119811",
       "https://openalex.org/W2917145622",
       "https://openalex.org/W2947367788",
@@ -143980,7 +144237,6 @@
       "https://openalex.org/W3005747603",
       "https://openalex.org/W3049581252",
       "https://openalex.org/W3086906782",
-      "https://openalex.org/W3092094117",
       "https://openalex.org/W3184577674",
       "https://openalex.org/W3184708588",
       "https://openalex.org/W3207602067",
@@ -144568,8 +144824,13 @@
         252
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-03-27T05:58:40.876381",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-15T10:00:46.086208",
     "created_date": "2026-02-25T00:00:00"
   },
   {
@@ -146716,5 +146977,905 @@
     "counts_by_year": [],
     "updated_date": "2025-12-21T23:12:01.093139",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7166100067",
+    "doi": "https://doi.org/10.1017/s1742058x26100174",
+    "title": "Policing Black Youth",
+    "display_name": "Policing Black Youth",
+    "relevance_score": 0.82245237,
+    "publication_year": 2026,
+    "publication_date": "2026-06-26",
+    "ids": {
+      "openalex": "https://openalex.org/W7166100067",
+      "doi": "https://doi.org/10.1017/s1742058x26100174"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s1742058x26100174",
+      "doi": "https://doi.org/10.1017/s1742058x26100174",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1017/s1742058x26100174",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S105812952",
+        "display_name": "Du Bois Review Social Science Research on Race",
+        "issn_l": "1742-058X",
+        "issn": [
+          "1742-058X",
+          "1742-0598"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Du Bois Review: Social Science Research on Race",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5072542220",
+          "display_name": "Kaneesha R. Johnson",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I114027177",
+            "display_name": "University of North Carolina at Chapel Hill",
+            "ror": "https://ror.org/0130frc33",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I114027177"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Kaneesha Johnson",
+        "raw_affiliation_strings": [
+          "University of North Carolina at Chapel Hill"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of North Carolina at Chapel Hill",
+            "institution_ids": [
+              "https://openalex.org/I114027177"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5139415380",
+          "display_name": "Tyler Whittenberg",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Tyler Whittenberg",
+        "raw_affiliation_strings": [
+          "Advancement Project"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Advancement Project",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5072542220"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I114027177"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.45750954,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "31"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11076",
+      "display_name": "Policing Practices and Perceptions",
+      "score": 0.6704000234603882,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11076",
+        "display_name": "Policing Practices and Perceptions",
+        "score": 0.6704000234603882,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12474",
+        "display_name": "Education Discipline and Inequality",
+        "score": 0.3206000030040741,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11384",
+        "display_name": "Critical Race Theory in Education",
+        "score": 0.0031999999191612005,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/school-policing",
+        "display_name": "school policing",
+        "score": 0.968999981880188
+      },
+      {
+        "id": "https://openalex.org/keywords/black-youth",
+        "display_name": "Black youth",
+        "score": 0.8040000200271606
+      },
+      {
+        "id": "https://openalex.org/keywords/k-12-schools",
+        "display_name": "K-12 schools",
+        "score": 0.7739999890327454
+      },
+      {
+        "id": "https://openalex.org/keywords/racialized-policing",
+        "display_name": "racialized policing",
+        "score": 0.4429999887943268
+      },
+      {
+        "id": "https://openalex.org/keywords/educational-equity",
+        "display_name": "educational equity",
+        "score": 0.7300000190734863
+      },
+      {
+        "id": "https://openalex.org/keywords/urban-violence",
+        "display_name": "urban violence",
+        "score": 0.3540000021457672
+      },
+      {
+        "id": "https://openalex.org/keywords/punitive-state",
+        "display_name": "punitive state",
+        "score": 0.5690000057220459
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C83645499",
+        "wikidata": "https://www.wikidata.org/wiki/Q285466",
+        "display_name": "Punitive damages",
+        "level": 2,
+        "score": 0.8177000284194946
+      },
+      {
+        "id": "https://openalex.org/C73484699",
+        "wikidata": "https://www.wikidata.org/wiki/Q161733",
+        "display_name": "Criminology",
+        "level": 1,
+        "score": 0.5669000148773193
+      },
+      {
+        "id": "https://openalex.org/C56273599",
+        "wikidata": "https://www.wikidata.org/wiki/Q3122841",
+        "display_name": "White (mutation)",
+        "level": 3,
+        "score": 0.5436000227928162
+      },
+      {
+        "id": "https://openalex.org/C2780077968",
+        "wikidata": "https://www.wikidata.org/wiki/Q1996993",
+        "display_name": "Police brutality",
+        "level": 2,
+        "score": 0.5110999941825867
+      },
+      {
+        "id": "https://openalex.org/C48103436",
+        "wikidata": "https://www.wikidata.org/wiki/Q599031",
+        "display_name": "State (computer science)",
+        "level": 2,
+        "score": 0.49570000171661377
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.46470001339912415
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.44290000200271606
+      },
+      {
+        "id": "https://openalex.org/C199728807",
+        "wikidata": "https://www.wikidata.org/wiki/Q2578557",
+        "display_name": "Equity (law)",
+        "level": 2,
+        "score": 0.4320000112056732
+      },
+      {
+        "id": "https://openalex.org/C8795937",
+        "wikidata": "https://www.wikidata.org/wiki/Q11862829",
+        "display_name": "Discipline",
+        "level": 2,
+        "score": 0.3824999928474426
+      },
+      {
+        "id": "https://openalex.org/C139838865",
+        "wikidata": "https://www.wikidata.org/wiki/Q8461",
+        "display_name": "Racism",
+        "level": 2,
+        "score": 0.37380000948905945
+      },
+      {
+        "id": "https://openalex.org/C2776748549",
+        "wikidata": "https://www.wikidata.org/wiki/Q201610",
+        "display_name": "Status quo",
+        "level": 2,
+        "score": 0.364300012588501
+      },
+      {
+        "id": "https://openalex.org/C2780262311",
+        "wikidata": "https://www.wikidata.org/wiki/Q2256171",
+        "display_name": "Community policing",
+        "level": 2,
+        "score": 0.3273000121116638
+      },
+      {
+        "id": "https://openalex.org/C2987028688",
+        "wikidata": "https://www.wikidata.org/wiki/Q49085",
+        "display_name": "African american",
+        "level": 2,
+        "score": 0.29499998688697815
+      },
+      {
+        "id": "https://openalex.org/C2992459599",
+        "wikidata": "https://www.wikidata.org/wiki/Q2072081",
+        "display_name": "People of color",
+        "level": 3,
+        "score": 0.2879999876022339
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.2815999984741211
+      },
+      {
+        "id": "https://openalex.org/C2992814624",
+        "wikidata": "https://www.wikidata.org/wiki/Q817393",
+        "display_name": "Black male",
+        "level": 2,
+        "score": 0.2653999924659729
+      },
+      {
+        "id": "https://openalex.org/C53001019",
+        "wikidata": "https://www.wikidata.org/wiki/Q1920219",
+        "display_name": "Social issues",
+        "level": 2,
+        "score": 0.26460000872612
+      },
+      {
+        "id": "https://openalex.org/C2778605646",
+        "wikidata": "https://www.wikidata.org/wiki/Q223729",
+        "display_name": "White paper",
+        "level": 2,
+        "score": 0.2623000144958496
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1017/s1742058x26100174",
+        "doi": "https://doi.org/10.1017/s1742058x26100174",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1017/s1742058x26100174",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S105812952",
+          "display_name": "Du Bois Review Social Science Research on Race",
+          "issn_l": "1742-058X",
+          "issn": [
+            "1742-058X",
+            "1742-0598"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Du Bois Review: Social Science Research on Race",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402,
+        "display_name": "Peace, justice, and strong institutions"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7307999730110168,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.5233597159385681,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 34,
+    "referenced_works": [
+      "https://openalex.org/W1523243239",
+      "https://openalex.org/W1969187871",
+      "https://openalex.org/W1969527901",
+      "https://openalex.org/W1986347615",
+      "https://openalex.org/W1994881431",
+      "https://openalex.org/W2008515441",
+      "https://openalex.org/W2010145499",
+      "https://openalex.org/W2018935765",
+      "https://openalex.org/W2033220942",
+      "https://openalex.org/W2059776865",
+      "https://openalex.org/W2070939565",
+      "https://openalex.org/W2071023709",
+      "https://openalex.org/W2103390258",
+      "https://openalex.org/W2136796718",
+      "https://openalex.org/W2141253699",
+      "https://openalex.org/W2149049086",
+      "https://openalex.org/W2162267964",
+      "https://openalex.org/W2323345987",
+      "https://openalex.org/W2325094776",
+      "https://openalex.org/W2889674624",
+      "https://openalex.org/W2896889613",
+      "https://openalex.org/W2911767807",
+      "https://openalex.org/W2914379139",
+      "https://openalex.org/W2942275439",
+      "https://openalex.org/W2944796136",
+      "https://openalex.org/W3002332517",
+      "https://openalex.org/W3139459161",
+      "https://openalex.org/W4205587617",
+      "https://openalex.org/W4213207562",
+      "https://openalex.org/W4239068155",
+      "https://openalex.org/W4247368825",
+      "https://openalex.org/W4409785998",
+      "https://openalex.org/W4410722350",
+      "https://openalex.org/W4416308544"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Policing": [
+        1
+      ],
+      "has": [
+        2,
+        18
+      ],
+      "become": [
+        3
+      ],
+      "a": [
+        4,
+        71,
+        77
+      ],
+      "popular": [
+        5
+      ],
+      "topic": [
+        6
+      ],
+      "of": [
+        7,
+        15,
+        24,
+        37,
+        50,
+        65,
+        79,
+        98,
+        114,
+        138,
+        151
+      ],
+      "inquiry": [
+        8
+      ],
+      "in": [
+        9,
+        34,
+        86,
+        88,
+        148,
+        155
+      ],
+      "social": [
+        10
+      ],
+      "science": [
+        11
+      ],
+      "literature,": [
+        12
+      ],
+      "but": [
+        13
+      ],
+      "much": [
+        14
+      ],
+      "this": [
+        16
+      ],
+      "attention": [
+        17,
+        61
+      ],
+      "been": [
+        19
+      ],
+      "confined": [
+        20
+      ],
+      "to": [
+        21,
+        46
+      ],
+      "traditional": [
+        22
+      ],
+      "forms": [
+        23
+      ],
+      "policing,": [
+        25
+      ],
+      "focusing": [
+        26
+      ],
+      "on": [
+        27,
+        41,
+        62,
+        95
+      ],
+      "state": [
+        28,
+        133,
+        146
+      ],
+      "and": [
+        29,
+        81,
+        122,
+        143
+      ],
+      "municipal": [
+        30
+      ],
+      "police": [
+        31,
+        83,
+        153
+      ],
+      "departments": [
+        32
+      ],
+      "or,": [
+        33
+      ],
+      "the": [
+        35,
+        48,
+        52,
+        63,
+        91,
+        96,
+        104,
+        112,
+        132,
+        149
+      ],
+      "case": [
+        36
+      ],
+      "schools,": [
+        38
+      ],
+      "have": [
+        39
+      ],
+      "focused": [
+        40
+      ],
+      "disciplinary": [
+        42
+      ],
+      "policies.": [
+        43
+      ],
+      "In": [
+        44
+      ],
+      "seeking": [
+        45
+      ],
+      "expand": [
+        47
+      ],
+      "contours": [
+        49
+      ],
+      "what": [
+        51
+      ],
+      "scholarly": [
+        53
+      ],
+      "community": [
+        54
+      ],
+      "defines": [
+        55
+      ],
+      "as": [
+        56
+      ],
+      "police,": [
+        57
+      ],
+      "we": [
+        58,
+        75,
+        100
+      ],
+      "focus": [
+        59
+      ],
+      "our": [
+        60
+      ],
+      "origins": [
+        64
+      ],
+      "K-12": [
+        66
+      ],
+      "school": [
+        67
+      ],
+      "policing.": [
+        68
+      ],
+      "Specifically,": [
+        69
+      ],
+      "using": [
+        70
+      ],
+      "multi-modal": [
+        72
+      ],
+      "historical": [
+        73
+      ],
+      "approach,": [
+        74
+      ],
+      "provide": [
+        76
+      ],
+      "history": [
+        78
+      ],
+      "when": [
+        80,
+        103
+      ],
+      "why": [
+        82
+      ],
+      "were": [
+        84
+      ],
+      "stationed": [
+        85
+      ],
+      "schools": [
+        87
+      ],
+      "cities": [
+        89
+      ],
+      "throughout": [
+        90
+      ],
+      "United": [
+        92
+      ],
+      "States.": [
+        93
+      ],
+      "Focusing": [
+        94
+      ],
+      "sequencing": [
+        97
+      ],
+      "events,": [
+        99
+      ],
+      "show": [
+        101
+      ],
+      "that": [
+        102
+      ],
+      "dominant": [
+        105
+      ],
+      "White": [
+        106,
+        119
+      ],
+      "status": [
+        107
+      ],
+      "quo": [
+        108
+      ],
+      "is": [
+        109
+      ],
+      "challenged": [
+        110
+      ],
+      "by": [
+        111,
+        135
+      ],
+      "movement": [
+        113
+      ],
+      "Black": [
+        115,
+        141
+      ],
+      "people": [
+        116
+      ],
+      "into": [
+        117
+      ],
+      "formerly": [
+        118
+      ],
+      "dominated": [
+        120
+      ],
+      "areas": [
+        121
+      ],
+      "demands": [
+        123
+      ],
+      "are": [
+        124
+      ],
+      "made": [
+        125
+      ],
+      "for": [
+        126
+      ],
+      "education": [
+        127
+      ],
+      "equity": [
+        128
+      ],
+      "from": [
+        129,
+        140
+      ],
+      "those": [
+        130
+      ],
+      "groups,": [
+        131
+      ],
+      "responds": [
+        134
+      ],
+      "bolstering": [
+        136
+      ],
+      "fears": [
+        137
+      ],
+      "violence": [
+        139
+      ],
+      "youth": [
+        142
+      ],
+      "implementing": [
+        144
+      ],
+      "punitive": [
+        145
+      ],
+      "structures": [
+        147
+      ],
+      "form": [
+        150
+      ],
+      "placing": [
+        152
+      ],
+      "officers": [
+        154
+      ],
+      "schools.": [
+        156
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2026-06-27T00:00:00"
   }
 ]

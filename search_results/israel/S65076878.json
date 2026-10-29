@@ -10994,7 +10994,7 @@
     "doi": "https://doi.org/10.1080/14754835.2025.2456833",
     "title": "Democratic backsliding, social media, and surveillance of the Palestinian community in Israel since October 7, 2023",
     "display_name": "Democratic backsliding, social media, and surveillance of the Palestinian community in Israel since October 7, 2023",
-    "relevance_score": 50.807667,
+    "relevance_score": 31.292404,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -11004,6 +11004,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/14754835.2025.2456833",
+      "doi": "https://doi.org/10.1080/14754835.2025.2456833",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1080/14754835.2025.2456833",
       "pdf_url": null,
@@ -11018,13 +11019,25 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
@@ -11036,6 +11049,7 @@
       "raw_source_name": "Journal of Human Rights",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -11052,7 +11066,10 @@
         "author": {
           "id": "https://openalex.org/A5075382118",
           "display_name": "Anwar Mhajne",
-          "orcid": "https://orcid.org/0000-0003-3490-4334"
+          "orcid": "https://orcid.org/0000-0003-3490-4334",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3490-4334"
+          ]
         },
         "institutions": [
           {
@@ -11074,6 +11091,7 @@
         "raw_affiliation_strings": [
           "Stonehill College"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Stonehill College",
@@ -11095,17 +11113,17 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 8.8715,
+    "fwci": 14.369,
     "has_fulltext": false,
-    "cited_by_count": 2,
+    "cited_by_count": 8,
     "citation_normalized_percentile": {
-      "value": 0.96233487,
+      "value": 0.98591674,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 95,
-      "max": 96
+      "min": 94,
+      "max": 99
     },
     "biblio": {
       "volume": "24",
@@ -11117,9 +11135,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11203",
-      "display_name": "Jewish and Middle Eastern Studies",
-      "score": 0.9944000244140625,
+      "id": "https://openalex.org/T14288",
+      "display_name": "Law, Rights, and Freedoms",
+      "score": 0.7070000171661377,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -11135,9 +11153,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T14288",
+        "display_name": "Law, Rights, and Freedoms",
+        "score": 0.7070000171661377,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11203",
         "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.9944000244140625,
+        "score": 0.1598999947309494,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -11152,29 +11187,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T13055",
-        "display_name": "Global Security and Public Health",
-        "score": 0.9901999831199646,
+        "id": "https://openalex.org/T14432",
+        "display_name": "Freedom of Expression and Defamation",
+        "score": 0.03370000049471855,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10070",
-        "display_name": "Political Conflict and Governance",
-        "score": 0.9876999855041504,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -11188,49 +11206,69 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/democracy",
-        "display_name": "Democracy",
-        "score": 0.7222219705581665
+        "id": "https://openalex.org/keywords/democratic-backsliding",
+        "display_name": "democratic backsliding",
+        "score": 1.0
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.6243720054626465
+        "id": "https://openalex.org/keywords/social-media-surveillance",
+        "display_name": "social media surveillance",
+        "score": 0.9290000200271606
       },
       {
-        "id": "https://openalex.org/keywords/political-economy",
-        "display_name": "Political economy",
-        "score": 0.4600164592266083
+        "id": "https://openalex.org/keywords/state-of-emergency",
+        "display_name": "state of emergency",
+        "score": 0.8019999861717224
       },
       {
-        "id": "https://openalex.org/keywords/criminology",
-        "display_name": "Criminology",
-        "score": 0.35102009773254395
+        "id": "https://openalex.org/keywords/repression-of-dissent",
+        "display_name": "suppression of dissent",
+        "score": 0.7409999966621399
       },
       {
-        "id": "https://openalex.org/keywords/development-economics",
-        "display_name": "Development economics",
-        "score": 0.33471792936325073
+        "id": "https://openalex.org/keywords/freedom-of-expression",
+        "display_name": "freedom of expression",
+        "score": 0.9990000128746033
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.2963029742240906
+        "id": "https://openalex.org/keywords/access-to-information",
+        "display_name": "access to information",
+        "score": 0.7599999904632568
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.255509614944458
+        "id": "https://openalex.org/keywords/privacy",
+        "display_name": "privacy",
+        "score": 0.8389999866485596
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.18656933307647705
+        "id": "https://openalex.org/keywords/minority-rights",
+        "display_name": "minority rights",
+        "score": 0.9879999756813049
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.09080275893211365
+        "id": "https://openalex.org/keywords/police-powers",
+        "display_name": "police powers",
+        "score": 0.6790000200271606
+      },
+      {
+        "id": "https://openalex.org/keywords/terrorist-suspects",
+        "display_name": "terrorism suspects",
+        "score": 0.3230000138282776
+      },
+      {
+        "id": "https://openalex.org/keywords/gaza-war",
+        "display_name": "Gaza war",
+        "score": 0.6899999976158142
+      },
+      {
+        "id": "https://openalex.org/keywords/higher-education-institutions",
+        "display_name": "higher education institutions",
+        "score": 0.5789999961853027
+      },
+      {
+        "id": "https://openalex.org/keywords/arab-citizens-of-israel",
+        "display_name": "Arab citizens of Israel",
+        "score": 0.492000013589859
       }
     ],
     "concepts": [
@@ -11303,6 +11341,7 @@
     "locations": [
       {
         "id": "doi:10.1080/14754835.2025.2456833",
+        "doi": "https://doi.org/10.1080/14754835.2025.2456833",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1080/14754835.2025.2456833",
         "pdf_url": null,
@@ -11317,13 +11356,25 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
@@ -11339,11 +11390,24 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
+        "score": 1.0,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      },
+      {
+        "score": 0.4000000059604645,
         "display_name": "Reduced inequalities",
-        "score": 0.4300000071525574,
         "id": "https://metadata.un.org/sdg/10"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.4300000071525574,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -11353,6 +11417,7 @@
     "content_urls": null,
     "referenced_works_count": 73,
     "referenced_works": [
+      "https://openalex.org/W215352665",
       "https://openalex.org/W620579372",
       "https://openalex.org/W1503656438",
       "https://openalex.org/W1526482065",
@@ -11392,6 +11457,7 @@
       "https://openalex.org/W3005965422",
       "https://openalex.org/W3039716155",
       "https://openalex.org/W3043755470",
+      "https://openalex.org/W3049318161",
       "https://openalex.org/W3081604865",
       "https://openalex.org/W3092686996",
       "https://openalex.org/W3101607101",
@@ -11407,7 +11473,6 @@
       "https://openalex.org/W4229892163",
       "https://openalex.org/W4230443522",
       "https://openalex.org/W4231654610",
-      "https://openalex.org/W4236954185",
       "https://openalex.org/W4237758813",
       "https://openalex.org/W4242244113",
       "https://openalex.org/W4254125016",
@@ -11420,10 +11485,9 @@
       "https://openalex.org/W4388205330",
       "https://openalex.org/W4389239238",
       "https://openalex.org/W4396685320",
-      "https://openalex.org/W6608601313",
+      "https://openalex.org/W4409280501",
       "https://openalex.org/W6630341974",
       "https://openalex.org/W6748652495",
-      "https://openalex.org/W6879349526",
       "https://openalex.org/W7033192573",
       "https://openalex.org/W7067578296"
     ],
@@ -11439,14 +11503,478 @@
       "https://openalex.org/W2076539161",
       "https://openalex.org/W2913287701"
     ],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "Since": [
+        0
+      ],
+      "October": [
+        1
+      ],
+      "7,": [
+        2
+      ],
+      "2023,": [
+        3
+      ],
+      "the": [
+        4,
+        15,
+        19,
+        63,
+        75,
+        123,
+        162,
+        166
+      ],
+      "Israeli": [
+        5
+      ],
+      "government": [
+        6,
+        95
+      ],
+      "has": [
+        7,
+        96
+      ],
+      "implemented": [
+        8
+      ],
+      "measures": [
+        9
+      ],
+      "to": [
+        10,
+        43,
+        74,
+        85,
+        102,
+        130
+      ],
+      "suppress": [
+        11
+      ],
+      "dissent,": [
+        12
+      ],
+      "particularly": [
+        13
+      ],
+      "within": [
+        14
+      ],
+      "Palestinian": [
+        16
+      ],
+      "community,": [
+        17
+      ],
+      "amid": [
+        18
+      ],
+      "ongoing": [
+        20,
+        64
+      ],
+      "war": [
+        21
+      ],
+      "in": [
+        22,
+        62,
+        69,
+        91,
+        135,
+        156,
+        175,
+        186
+      ],
+      "Gaza.": [
+        23
+      ],
+      "Integrating": [
+        24
+      ],
+      "insights": [
+        25
+      ],
+      "from": [
+        26,
+        148,
+        161
+      ],
+      "multiple": [
+        27
+      ],
+      "theoretical": [
+        28
+      ],
+      "frameworks": [
+        29
+      ],
+      "on": [
+        30,
+        140
+      ],
+      "democratic": [
+        31,
+        67
+      ],
+      "backsliding,": [
+        32,
+        68
+      ],
+      "this": [
+        33,
+        71
+      ],
+      "article": [
+        34
+      ],
+      "argues": [
+        35
+      ],
+      "that": [
+        36
+      ],
+      "Israel": [
+        37
+      ],
+      "uses": [
+        38
+      ],
+      "a": [
+        39,
+        60
+      ],
+      "state": [
+        40,
+        111,
+        178
+      ],
+      "of": [
+        41,
+        54,
+        66,
+        77,
+        79,
+        82,
+        137,
+        191
+      ],
+      "emergency": [
+        42
+      ],
+      "justify": [
+        44
+      ],
+      "and": [
+        45,
+        48,
+        88,
+        104,
+        128,
+        164,
+        183,
+        188
+      ],
+      "create": [
+        46
+      ],
+      "consent": [
+        47
+      ],
+      "support": [
+        49,
+        107
+      ],
+      "for": [
+        50,
+        108,
+        118
+      ],
+      "its": [
+        51
+      ],
+      "multilayered": [
+        52
+      ],
+      "surveillance": [
+        53,
+        72,
+        172
+      ],
+      "minority": [
+        55,
+        89
+      ],
+      "groups.": [
+        56
+      ],
+      "Social": [
+        57
+      ],
+      "media": [
+        58,
+        143,
+        150,
+        163,
+        171
+      ],
+      "became": [
+        59
+      ],
+      "catalyst": [
+        61
+      ],
+      "process": [
+        65
+      ],
+      "which": [
+        70
+      ],
+      "contributes": [
+        73
+      ],
+      "erosion": [
+        76
+      ],
+      "rights": [
+        78,
+        90
+      ],
+      "assembly,": [
+        80
+      ],
+      "freedom": [
+        81
+      ],
+      "expression,": [
+        83
+      ],
+      "access": [
+        84
+      ],
+      "information,": [
+        86
+      ],
+      "privacy,": [
+        87
+      ],
+      "general.": [
+        92
+      ],
+      "Benjamin": [
+        93
+      ],
+      "Netanyahu\u2019s": [
+        94
+      ],
+      "expanded": [
+        97
+      ],
+      "police": [
+        98,
+        124
+      ],
+      "powers,": [
+        99
+      ],
+      "allowing": [
+        100
+      ],
+      "members": [
+        101
+      ],
+      "identify": [
+        103
+      ],
+      "target": [
+        105
+      ],
+      "perceived": [
+        106
+      ],
+      "terrorism": [
+        109
+      ],
+      "without": [
+        110
+      ],
+      "prosecutors\u2019": [
+        112
+      ],
+      "involvement,": [
+        113
+      ],
+      "thereby": [
+        114
+      ],
+      "diminishing": [
+        115
+      ],
+      "legal": [
+        116
+      ],
+      "protections": [
+        117
+      ],
+      "individual": [
+        119
+      ],
+      "free": [
+        120
+      ],
+      "speech.": [
+        121
+      ],
+      "Additionally,": [
+        122
+      ],
+      "have": [
+        125
+      ],
+      "encouraged": [
+        126
+      ],
+      "individuals": [
+        127
+      ],
+      "institutions": [
+        129
+      ],
+      "report": [
+        131
+      ],
+      "suspicious": [
+        132
+      ],
+      "posts,": [
+        133
+      ],
+      "resulting": [
+        134
+      ],
+      "hundreds": [
+        136
+      ],
+      "arrests": [
+        138
+      ],
+      "based": [
+        139
+      ],
+      "reported": [
+        141
+      ],
+      "social": [
+        142,
+        149,
+        170
+      ],
+      "content.": [
+        144
+      ],
+      "Using": [
+        145
+      ],
+      "data": [
+        146
+      ],
+      "collected": [
+        147
+      ],
+      "posts": [
+        151
+      ],
+      "by": [
+        152
+      ],
+      "prominent": [
+        153
+      ],
+      "Arab": [
+        154
+      ],
+      "influencers": [
+        155
+      ],
+      "Israel,": [
+        157
+      ],
+      "coupled": [
+        158
+      ],
+      "with": [
+        159
+      ],
+      "reports": [
+        160
+      ],
+      "NGOs,": [
+        165
+      ],
+      "research": [
+        167
+      ],
+      "examines": [
+        168
+      ],
+      "how": [
+        169
+      ],
+      "is": [
+        173
+      ],
+      "done": [
+        174
+      ],
+      "collaboration": [
+        176
+      ],
+      "between": [
+        177
+      ],
+      "institutions,": [
+        179,
+        182
+      ],
+      "higher": [
+        180
+      ],
+      "education": [
+        181
+      ],
+      "private": [
+        184
+      ],
+      "citizens": [
+        185
+      ],
+      "monitoring": [
+        187
+      ],
+      "penalizing": [
+        189
+      ],
+      "expressions": [
+        190
+      ],
+      "dissent.": [
+        192
+      ]
+    },
     "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 6
+      },
       {
         "year": 2025,
         "cited_by_count": 2
       }
     ],
-    "updated_date": "2025-12-28T23:10:05.387466",
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -17597,6 +18125,1086 @@
       }
     ],
     "updated_date": "2026-04-04T16:13:02.066488",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4414909773",
+    "doi": "https://doi.org/10.1080/14754835.2025.2561603",
+    "title": "Advantageous comparison: Israel\u2019s response to allegations of human rights violations",
+    "display_name": "Advantageous comparison: Israel\u2019s response to allegations of human rights violations",
+    "relevance_score": 4.0453076,
+    "publication_year": 2025,
+    "publication_date": "2025-10-07",
+    "ids": {
+      "openalex": "https://openalex.org/W4414909773",
+      "doi": "https://doi.org/10.1080/14754835.2025.2561603"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/14754835.2025.2561603",
+      "doi": "https://doi.org/10.1080/14754835.2025.2561603",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/14754835.2025.2561603",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S65076878",
+        "display_name": "Journal of Human Rights",
+        "issn_l": "1475-4835",
+        "issn": [
+          "1475-4835",
+          "1475-4843"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Human Rights",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5051471899",
+          "display_name": "Jeremy Pressman",
+          "orcid": "https://orcid.org/0000-0001-9752-756X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9752-756X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I140172145",
+            "display_name": "University of Connecticut",
+            "ror": "https://ror.org/02der9h97",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I140172145"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jeremy Pressman",
+        "raw_affiliation_strings": [
+          "University of Connecticut"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Connecticut",
+            "institution_ids": [
+              "https://openalex.org/I140172145"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5103613972",
+          "display_name": "David L. Richards",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I140172145",
+            "display_name": "University of Connecticut",
+            "ror": "https://ror.org/02der9h97",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I140172145"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "David L. Richards",
+        "raw_affiliation_strings": [
+          "University of Connecticut"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Connecticut",
+            "institution_ids": [
+              "https://openalex.org/I140172145"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5015986618",
+          "display_name": "Spencer Hayes",
+          "orcid": "https://orcid.org/0009-0001-0072-3706",
+          "observed_orcids": [
+            "https://orcid.org/0009-0001-0072-3706"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I140172145",
+            "display_name": "University of Connecticut",
+            "ror": "https://ror.org/02der9h97",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I140172145"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Spencer Hayes",
+        "raw_affiliation_strings": [
+          "University of Connecticut"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Connecticut",
+            "institution_ids": [
+              "https://openalex.org/I140172145"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5036364949",
+          "display_name": "Minju Lee",
+          "orcid": "https://orcid.org/0000-0002-2133-9092",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2133-9092",
+            "https://orcid.org/0009-0002-0417-3489"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I140172145",
+            "display_name": "University of Connecticut",
+            "ror": "https://ror.org/02der9h97",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I140172145"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Minju Lee",
+        "raw_affiliation_strings": [
+          "University of Connecticut"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Connecticut",
+            "institution_ids": [
+              "https://openalex.org/I140172145"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5051471899"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I140172145"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 1.8055,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.88125943,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "24",
+      "issue": "5",
+      "first_page": "568",
+      "last_page": "590"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11203",
+      "display_name": "Jewish and Middle Eastern Studies",
+      "score": 0.5698000192642212,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11203",
+        "display_name": "Jewish and Middle Eastern Studies",
+        "score": 0.5698000192642212,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.32499998807907104,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13814",
+        "display_name": "Cultural and political discourse analysis",
+        "score": 0.031300000846385956,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3310",
+          "display_name": "Linguistics and Language"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/public-diplomacy",
+        "display_name": "public diplomacy",
+        "score": 0.7570000290870667
+      },
+      {
+        "id": "https://openalex.org/keywords/israel",
+        "display_name": "Israel",
+        "score": 0.6639999747276306
+      },
+      {
+        "id": "https://openalex.org/keywords/human-rights-violations",
+        "display_name": "human rights violations",
+        "score": 0.9509999752044678
+      },
+      {
+        "id": "https://openalex.org/keywords/military-occupation",
+        "display_name": "military occupation",
+        "score": 0.5870000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/west-bank",
+        "display_name": "West Bank",
+        "score": 0.6650000214576721
+      },
+      {
+        "id": "https://openalex.org/keywords/gaza-strip",
+        "display_name": "Gaza Strip",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/palestinians",
+        "display_name": "Palestinians",
+        "score": 0.6570000052452087
+      },
+      {
+        "id": "https://openalex.org/keywords/moral-boundaries",
+        "display_name": "moral boundaries",
+        "score": 0.7120000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/twitter",
+        "display_name": "Twitter",
+        "score": 0.3009999990463257
+      },
+      {
+        "id": "https://openalex.org/keywords/human-rights-reports",
+        "display_name": "human rights reports",
+        "score": 0.722000002861023
+      },
+      {
+        "id": "https://openalex.org/keywords/blame-attribution",
+        "display_name": "blame attribution",
+        "score": 0.48399999737739563
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C169437150",
+        "wikidata": "https://www.wikidata.org/wiki/Q8458",
+        "display_name": "Human rights",
+        "level": 2,
+        "score": 0.6711000204086304
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.501800000667572
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.4683000147342682
+      },
+      {
+        "id": "https://openalex.org/C190253527",
+        "wikidata": "https://www.wikidata.org/wiki/Q295354",
+        "display_name": "Law and economics",
+        "level": 1,
+        "score": 0.39750000834465027
+      },
+      {
+        "id": "https://openalex.org/C73484699",
+        "wikidata": "https://www.wikidata.org/wiki/Q161733",
+        "display_name": "Criminology",
+        "level": 1,
+        "score": 0.350600004196167
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.32120001316070557
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.2842000126838684
+      },
+      {
+        "id": "https://openalex.org/C108827166",
+        "wikidata": "https://www.wikidata.org/wiki/Q175975",
+        "display_name": "Internet privacy",
+        "level": 1,
+        "score": 0.25200000405311584
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.2410999983549118
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.23589999973773956
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/14754835.2025.2561603",
+        "doi": "https://doi.org/10.1080/14754835.2025.2561603",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/14754835.2025.2561603",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S65076878",
+          "display_name": "Journal of Human Rights",
+          "issn_l": "1475-4835",
+          "issn": [
+            "1475-4835",
+            "1475-4843"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Human Rights",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.9595999717712402,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 55,
+    "referenced_works": [
+      "https://openalex.org/W644586395",
+      "https://openalex.org/W1499369246",
+      "https://openalex.org/W1515072056",
+      "https://openalex.org/W1623352756",
+      "https://openalex.org/W1825118899",
+      "https://openalex.org/W1987216756",
+      "https://openalex.org/W1987882003",
+      "https://openalex.org/W2017903079",
+      "https://openalex.org/W2023102534",
+      "https://openalex.org/W2033381213",
+      "https://openalex.org/W2043650170",
+      "https://openalex.org/W2054091306",
+      "https://openalex.org/W2072075073",
+      "https://openalex.org/W2095218045",
+      "https://openalex.org/W2099724396",
+      "https://openalex.org/W2105717202",
+      "https://openalex.org/W2106976851",
+      "https://openalex.org/W2109223572",
+      "https://openalex.org/W2110128242",
+      "https://openalex.org/W2115069225",
+      "https://openalex.org/W2123359946",
+      "https://openalex.org/W2139704625",
+      "https://openalex.org/W2164252499",
+      "https://openalex.org/W2168505796",
+      "https://openalex.org/W2416748203",
+      "https://openalex.org/W2460611436",
+      "https://openalex.org/W2566185363",
+      "https://openalex.org/W2568563803",
+      "https://openalex.org/W2582930679",
+      "https://openalex.org/W2591893433",
+      "https://openalex.org/W2777897141",
+      "https://openalex.org/W2800994094",
+      "https://openalex.org/W2807633371",
+      "https://openalex.org/W2884603939",
+      "https://openalex.org/W2904928582",
+      "https://openalex.org/W2956760696",
+      "https://openalex.org/W2971185185",
+      "https://openalex.org/W3029388247",
+      "https://openalex.org/W3039742151",
+      "https://openalex.org/W3122373604",
+      "https://openalex.org/W3125658560",
+      "https://openalex.org/W3148042440",
+      "https://openalex.org/W4200586190",
+      "https://openalex.org/W4211096816",
+      "https://openalex.org/W4220792678",
+      "https://openalex.org/W4226236253",
+      "https://openalex.org/W4240739295",
+      "https://openalex.org/W4283165796",
+      "https://openalex.org/W4299878825",
+      "https://openalex.org/W4308967326",
+      "https://openalex.org/W4310987541",
+      "https://openalex.org/W4313312511",
+      "https://openalex.org/W4323316885",
+      "https://openalex.org/W4389124869",
+      "https://openalex.org/W4396706224"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Human": [
+        0
+      ],
+      "rights": [
+        1,
+        113,
+        192
+      ],
+      "NGOs,": [
+        2
+      ],
+      "UN": [
+        3
+      ],
+      "bodies,": [
+        4
+      ],
+      "and": [
+        5,
+        18,
+        21,
+        182
+      ],
+      "governments": [
+        6
+      ],
+      "often": [
+        7
+      ],
+      "criticize": [
+        8
+      ],
+      "Israel": [
+        9,
+        151,
+        170
+      ],
+      "for": [
+        10
+      ],
+      "its": [
+        11,
+        22,
+        104
+      ],
+      "military": [
+        12
+      ],
+      "occupation": [
+        13
+      ],
+      "of": [
+        14,
+        24,
+        42,
+        45,
+        50,
+        84,
+        96,
+        106,
+        123,
+        144,
+        147,
+        158,
+        177
+      ],
+      "the": [
+        15,
+        25,
+        43,
+        116,
+        173
+      ],
+      "West": [
+        16
+      ],
+      "Bank": [
+        17
+      ],
+      "Gaza": [
+        19
+      ],
+      "Strip": [
+        20
+      ],
+      "treatment": [
+        23
+      ],
+      "Palestinian": [
+        26
+      ],
+      "people.": [
+        27
+      ],
+      "This": [
+        28
+      ],
+      "article": [
+        29
+      ],
+      "examines": [
+        30
+      ],
+      "Israel\u2019s": [
+        31,
+        93
+      ],
+      "public": [
+        32,
+        134
+      ],
+      "diplomacy": [
+        33,
+        135
+      ],
+      "used": [
+        34,
+        152
+      ],
+      "in": [
+        35,
+        40,
+        132
+      ],
+      "defense": [
+        36
+      ],
+      "against": [
+        37,
+        58
+      ],
+      "these": [
+        38
+      ],
+      "charges,": [
+        39
+      ],
+      "light": [
+        41
+      ],
+      "technique": [
+        44
+      ],
+      "advantageous": [
+        46,
+        148,
+        159
+      ],
+      "comparison,": [
+        47
+      ],
+      "a": [
+        48,
+        69,
+        82,
+        121,
+        175,
+        183,
+        190
+      ],
+      "form": [
+        49,
+        176
+      ],
+      "implicatory": [
+        51
+      ],
+      "denial": [
+        52
+      ],
+      "whereby": [
+        53
+      ],
+      "an": [
+        54,
+        73
+      ],
+      "actor": [
+        55,
+        164
+      ],
+      "defends": [
+        56
+      ],
+      "itself": [
+        57
+      ],
+      "criticism": [
+        59,
+        98
+      ],
+      "by": [
+        60,
+        66
+      ],
+      "claiming": [
+        61
+      ],
+      "others": [
+        62
+      ],
+      "are": [
+        63
+      ],
+      "worse": [
+        64,
+        70,
+        167
+      ],
+      "or": [
+        65
+      ],
+      "arguing": [
+        67
+      ],
+      "that": [
+        68,
+        92,
+        189
+      ],
+      "actor,": [
+        71
+      ],
+      "usually": [
+        72
+      ],
+      "adversary,": [
+        74
+      ],
+      "left": [
+        75
+      ],
+      "them": [
+        76
+      ],
+      "with": [
+        77
+      ],
+      "no": [
+        78
+      ],
+      "choice.": [
+        79
+      ],
+      "It": [
+        80
+      ],
+      "is": [
+        81,
+        108
+      ],
+      "way": [
+        83
+      ],
+      "disengaging": [
+        85
+      ],
+      "from": [
+        86,
+        129,
+        136
+      ],
+      "moral": [
+        87
+      ],
+      "boundaries.": [
+        88
+      ],
+      "We": [
+        89,
+        186
+      ],
+      "first": [
+        90
+      ],
+      "find": [
+        91,
+        141,
+        188
+      ],
+      "core": [
+        94
+      ],
+      "assumption": [
+        95
+      ],
+      "unfair": [
+        97
+      ],
+      "does": [
+        99
+      ],
+      "not": [
+        100
+      ],
+      "fare": [
+        101
+      ],
+      "well": [
+        102
+      ],
+      "when": [
+        103
+      ],
+      "record": [
+        105
+      ],
+      "respect": [
+        107
+      ],
+      "assessed": [
+        109
+      ],
+      "using": [
+        110,
+        120
+      ],
+      "systematic": [
+        111
+      ],
+      "human": [
+        112,
+        191
+      ],
+      "data": [
+        114
+      ],
+      "covering": [
+        115
+      ],
+      "1981\u20132018": [
+        117
+      ],
+      "period.": [
+        118
+      ],
+      "Further,": [
+        119
+      ],
+      "corpus": [
+        122
+      ],
+      "over": [
+        124
+      ],
+      "two": [
+        125
+      ],
+      "million": [
+        126
+      ],
+      "tweets": [
+        127
+      ],
+      "scraped": [
+        128
+      ],
+      "accounts": [
+        130
+      ],
+      "involved": [
+        131
+      ],
+      "Israeli": [
+        133,
+        145
+      ],
+      "2007": [
+        137
+      ],
+      "to": [
+        138
+      ],
+      "2023,": [
+        139
+      ],
+      "we": [
+        140
+      ],
+      "reliable": [
+        142
+      ],
+      "evidence": [
+        143
+      ],
+      "use": [
+        146
+      ],
+      "comparison.": [
+        149
+      ],
+      "Indeed,": [
+        150
+      ],
+      "at": [
+        153
+      ],
+      "least": [
+        154
+      ],
+      "three": [
+        155
+      ],
+      "different": [
+        156
+      ],
+      "forms": [
+        157
+      ],
+      "comparisons:": [
+        160
+      ],
+      "framing": [
+        161
+      ],
+      "what": [
+        162,
+        169
+      ],
+      "another": [
+        163
+      ],
+      "did": [
+        165
+      ],
+      "as": [
+        166
+      ],
+      "than": [
+        168
+      ],
+      "did;": [
+        171
+      ],
+      "blaming": [
+        172
+      ],
+      "blamer,": [
+        174
+      ],
+      "attacking": [
+        178
+      ],
+      "those": [
+        179
+      ],
+      "making": [
+        180
+      ],
+      "allegations;": [
+        181
+      ],
+      "utilitarian": [
+        184
+      ],
+      "calculus.": [
+        185
+      ],
+      "also": [
+        187
+      ],
+      "report\u2019s": [
+        193
+      ],
+      "release": [
+        194
+      ],
+      "may": [
+        195
+      ],
+      "trigger": [
+        196
+      ],
+      "such": [
+        197
+      ],
+      "tweets.": [
+        198
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2025-10-10T00:00:00"
   }
 ]

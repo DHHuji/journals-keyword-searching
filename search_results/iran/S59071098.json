@@ -1731,7 +1731,7 @@
     "doi": "https://doi.org/10.1080/14623528.2025.2566533",
     "title": "Clerical Sovereignty and its Absolute Others: Religious Genocide in Iran",
     "display_name": "Clerical Sovereignty and its Absolute Others: Religious Genocide in Iran",
-    "relevance_score": 64.08353,
+    "relevance_score": 32.376545,
     "publication_year": 2025,
     "publication_date": "2025-09-25",
     "ids": {
@@ -1741,6 +1741,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/14623528.2025.2566533",
+      "doi": "https://doi.org/10.1080/14623528.2025.2566533",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/14623528.2025.2566533",
       "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/14623528.2025.2566533?needAccess=true",
@@ -1755,6 +1756,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
@@ -1767,21 +1777,22 @@
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Journal of Genocide Research",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
       "is_oa": true,
-      "oa_status": "bronze",
+      "oa_status": "hybrid",
       "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/14623528.2025.2566533?needAccess=true",
       "any_repository_has_fulltext": true
     },
@@ -1791,7 +1802,10 @@
         "author": {
           "id": "https://openalex.org/A5078921738",
           "display_name": "Shahin Nasiri",
-          "orcid": "https://orcid.org/0000-0002-9371-3135"
+          "orcid": "https://orcid.org/0000-0002-9371-3135",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9371-3135"
+          ]
         },
         "institutions": [
           {
@@ -1835,17 +1849,17 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 4.5265,
+    "fwci": 1.108,
     "has_fulltext": true,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.94239569,
+      "value": 0.81701254,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
-      "min": 94,
-      "max": 97
+      "min": 93,
+      "max": 96
     },
     "biblio": {
       "volume": null,
@@ -1857,16 +1871,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10794",
-      "display_name": "Islamic Studies and History",
-      "score": 0.9412000179290771,
+      "id": "https://openalex.org/T12493",
+      "display_name": "Memory, violence, and history",
+      "score": 0.8457000255584717,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -1875,12 +1889,46 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10794",
-        "display_name": "Islamic Studies and History",
-        "score": 0.9412000179290771,
+        "id": "https://openalex.org/T12493",
+        "display_name": "Memory, violence, and history",
+        "score": 0.8457000255584717,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10994",
+        "display_name": "Terrorism, Counterterrorism, and Political Violence",
+        "score": 0.07109999656677246,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.03359999880194664,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -1894,29 +1942,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/absolute",
-        "display_name": "Absolute (philosophy)",
-        "score": 0.7670999765396118
+        "id": "https://openalex.org/keywords/islamic-republic-of-iran",
+        "display_name": "Islamic Republic of Iran",
+        "score": 0.949999988079071
       },
       {
-        "id": "https://openalex.org/keywords/sovereignty",
-        "display_name": "Sovereignty",
-        "score": 0.70169997215271
+        "id": "https://openalex.org/keywords/religious-dissidents",
+        "display_name": "religious dissidents",
+        "score": 0.6110000014305115
       },
       {
-        "id": "https://openalex.org/keywords/genocide",
-        "display_name": "Genocide",
-        "score": 0.6633999943733215
+        "id": "https://openalex.org/keywords/religious-otherness",
+        "display_name": "religious otherness",
+        "score": 0.49399998784065247
       },
       {
-        "id": "https://openalex.org/keywords/poison-control",
-        "display_name": "Poison control",
-        "score": 0.3571999967098236
+        "id": "https://openalex.org/keywords/mass-atrocities",
+        "display_name": "mass atrocities",
+        "score": 0.5590000152587891
       },
       {
-        "id": "https://openalex.org/keywords/human-factors-and-ergonomics",
-        "display_name": "Human factors and ergonomics",
-        "score": 0.34049999713897705
+        "id": "https://openalex.org/keywords/torture",
+        "display_name": "torture",
+        "score": 0.5059999823570251
+      },
+      {
+        "id": "https://openalex.org/keywords/apostasy",
+        "display_name": "apostasy",
+        "score": 0.49300000071525574
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-conversion",
+        "display_name": "religious conversion",
+        "score": 0.6000000238418579
+      },
+      {
+        "id": "https://openalex.org/keywords/political-repression",
+        "display_name": "political repression",
+        "score": 0.4320000112056732
+      },
+      {
+        "id": "https://openalex.org/keywords/prison-memoirs",
+        "display_name": "prison memoirs",
+        "score": 0.5400000214576721
       }
     ],
     "concepts": [
@@ -2017,6 +2085,7 @@
     "locations": [
       {
         "id": "doi:10.1080/14623528.2025.2566533",
+        "doi": "https://doi.org/10.1080/14623528.2025.2566533",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/14623528.2025.2566533",
         "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/14623528.2025.2566533?needAccess=true",
@@ -2031,6 +2100,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
@@ -2043,8 +2121,8 @@
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -2052,9 +2130,10 @@
         "raw_type": "journal-article"
       },
       {
-        "id": "pmh:oai:philarchive.org/rec/NASCSA-3",
+        "id": "pmh:oai:philpapers.org/rec/NASCSA-3",
+        "doi": null,
         "is_oa": true,
-        "landing_page_url": "https://philarchive.org/rec/NASCSA-3",
+        "landing_page_url": "https://philpapers.org/rec/NASCSA-3",
         "pdf_url": "https://philpapers.org/archive/NASCSA-3.pdf",
         "source": {
           "id": "https://openalex.org/S4306402130",
@@ -2064,6 +2143,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -2079,9 +2159,10 @@
         "raw_type": "info:eu-repo/semantics/article"
       },
       {
-        "id": "pmh:oai:philpapers.org/rec/NASCSA-3",
+        "id": "pmh:oai:philarchive.org/rec/NASCSA-3",
+        "doi": null,
         "is_oa": false,
-        "landing_page_url": "https://philpapers.org/rec/NASCSA-3",
+        "landing_page_url": "https://philarchive.org/rec/NASCSA-3",
         "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S4306402130",
@@ -2091,6 +2172,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -2108,6 +2190,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1080/14623528.2025.2566533",
+      "doi": "https://doi.org/10.1080/14623528.2025.2566533",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/14623528.2025.2566533",
       "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/14623528.2025.2566533?needAccess=true",
@@ -2122,6 +2205,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
@@ -2134,15 +2226,23 @@
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Journal of Genocide Research",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.9595999717712402,
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -2155,7 +2255,18 @@
     },
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W7103748536",
+      "https://openalex.org/W7204740621",
+      "https://openalex.org/W3136421459",
+      "https://openalex.org/W4220809635",
+      "https://openalex.org/W4288443605",
+      "https://openalex.org/W2902484435",
+      "https://openalex.org/W2764195882",
+      "https://openalex.org/W4402128896",
+      "https://openalex.org/W3146960294",
+      "https://openalex.org/W4403234711"
+    ],
     "abstract_inverted_index": {
       "During": [
         0
@@ -2777,7 +2888,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-08-23T07:36:19.812096",
+    "updated_date": "2026-09-09T07:26:56.047234",
     "created_date": "2025-10-10T00:00:00"
   },
   {

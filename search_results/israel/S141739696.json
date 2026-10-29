@@ -32868,7 +32868,7 @@
     "doi": "https://doi.org/10.1080/0031322x.2025.2577042",
     "title": "What dialogue after Gaza?",
     "display_name": "What dialogue after Gaza?",
-    "relevance_score": 5.139879,
+    "relevance_score": 3.619115,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -32878,6 +32878,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/0031322x.2025.2577042",
+      "doi": "https://doi.org/10.1080/0031322x.2025.2577042",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1080/0031322x.2025.2577042",
       "pdf_url": null,
@@ -32892,13 +32893,24 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
@@ -32910,6 +32922,7 @@
       "raw_source_name": "Patterns of Prejudice",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -32926,61 +32939,40 @@
         "author": {
           "id": "https://openalex.org/A5060358041",
           "display_name": "Bryan Cheyette",
-          "orcid": "https://orcid.org/0000-0003-0099-0190"
+          "orcid": "https://orcid.org/0000-0003-0099-0190",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0099-0190"
+          ]
         },
-        "institutions": [
-          {
-            "id": "https://openalex.org/I113979032",
-            "display_name": "Twitter (United States)",
-            "ror": "https://ror.org/04wt43v05",
-            "country_code": "US",
-            "type": "company",
-            "lineage": [
-              "https://openalex.org/I113979032"
-            ]
-          }
-        ],
-        "countries": [
-          "US"
-        ],
+        "institutions": [],
+        "countries": [],
         "is_corresponding": true,
         "raw_author_name": "Bryan Cheyette",
-        "raw_affiliation_strings": [
-          "https://orcid.org/0000-0003-0099-0190"
-        ],
+        "raw_affiliation_strings": [],
         "raw_orcid": "https://orcid.org/0000-0003-0099-0190",
-        "affiliations": [
-          {
-            "raw_affiliation_string": "https://orcid.org/0000-0003-0099-0190",
-            "institution_ids": [
-              "https://openalex.org/I113979032"
-            ]
-          }
-        ]
+        "affiliations": []
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 1,
-    "institutions_distinct_count": 1,
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5060358041"
     ],
-    "corresponding_institution_ids": [
-      "https://openalex.org/I113979032"
-    ],
+    "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 2.4452,
+    "fwci": 1.8055,
     "has_fulltext": false,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.91879031,
+      "value": 0.89128529,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
-      "min": 96,
-      "max": 98
+      "min": 93,
+      "max": 96
     },
     "biblio": {
       "volume": "59",
@@ -32992,44 +32984,27 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T14090",
-      "display_name": "Health and Conflict Studies",
-      "score": 0.6294000148773193,
+      "id": "https://openalex.org/T11203",
+      "display_name": "Jewish and Middle Eastern Studies",
+      "score": 0.9984999895095825,
       "subfield": {
-        "id": "https://openalex.org/subfields/3600",
-        "display_name": "General Health Professions"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/36",
-        "display_name": "Health Professions"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     "topics": [
       {
-        "id": "https://openalex.org/T14090",
-        "display_name": "Health and Conflict Studies",
-        "score": 0.6294000148773193,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3600",
-          "display_name": "General Health Professions"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/36",
-          "display_name": "Health Professions"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/4",
-          "display_name": "Health Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T11203",
         "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.05469999834895134,
+        "score": 0.9984999895095825,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -33044,12 +33019,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T12752",
-        "display_name": "Global Peace and Security Dynamics",
-        "score": 0.015399999916553497,
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 9.999999747378752e-05,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -33059,43 +33034,90 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 9.999999747378752e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/the-holocaust",
-        "display_name": "The Holocaust",
-        "score": 0.76910001039505
+        "id": "https://openalex.org/keywords/gaza-war",
+        "display_name": "Gaza war",
+        "score": 0.6299999952316284
+      },
+      {
+        "id": "https://openalex.org/keywords/israeli-palestinian-conflict",
+        "display_name": "Israeli-Palestinian conflict",
+        "score": 0.8960000276565552
+      },
+      {
+        "id": "https://openalex.org/keywords/dialogue",
+        "display_name": "dialogue",
+        "score": 0.44699999690055847
       },
       {
         "id": "https://openalex.org/keywords/genocide",
-        "display_name": "Genocide",
-        "score": 0.7038999795913696
+        "display_name": "genocide",
+        "score": 0.5
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.541700005531311
+        "id": "https://openalex.org/keywords/edward-said",
+        "display_name": "Edward Said",
+        "score": 0.7350000143051147
       },
       {
-        "id": "https://openalex.org/keywords/order",
-        "display_name": "Order (exchange)",
-        "score": 0.4169999957084656
+        "id": "https://openalex.org/keywords/settler-colonialism",
+        "display_name": "settler colonialism",
+        "score": 0.8180000185966492
       },
       {
-        "id": "https://openalex.org/keywords/war-crime",
-        "display_name": "War crime",
-        "score": 0.3783000111579895
+        "id": "https://openalex.org/keywords/nakba",
+        "display_name": "Nakba",
+        "score": 0.7609999775886536
       },
       {
-        "id": "https://openalex.org/keywords/spanish-civil-war",
-        "display_name": "Spanish Civil War",
-        "score": 0.3587999939918518
+        "id": "https://openalex.org/keywords/holocaust-memory",
+        "display_name": "Holocaust memory",
+        "score": 0.9810000061988831
       },
       {
-        "id": "https://openalex.org/keywords/nazism",
-        "display_name": "Nazism",
-        "score": 0.3393000066280365
+        "id": "https://openalex.org/keywords/gaza-ceasefire",
+        "display_name": "Gaza ceasefire",
+        "score": 0.4050000011920929
+      },
+      {
+        "id": "https://openalex.org/keywords/hamas",
+        "display_name": "Hamas",
+        "score": 0.4350000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/hostage-taking",
+        "display_name": "hostage-taking",
+        "score": 0.40400001406669617
+      },
+      {
+        "id": "https://openalex.org/keywords/civilian-casualties",
+        "display_name": "civilian casualties",
+        "score": 0.47099998593330383
+      },
+      {
+        "id": "https://openalex.org/keywords/peace-process",
+        "display_name": "peace process",
+        "score": 0.5220000147819519
       }
     ],
     "concepts": [
@@ -33224,6 +33246,7 @@
     "locations": [
       {
         "id": "doi:10.1080/0031322x.2025.2577042",
+        "doi": "https://doi.org/10.1080/0031322x.2025.2577042",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1080/0031322x.2025.2577042",
         "pdf_url": null,
@@ -33238,13 +33261,24 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
@@ -33258,6 +33292,7 @@
       },
       {
         "id": "pmh:oai:centaur.reading.ac.uk:125568",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://centaur.reading.ac.uk/view/creators/90001790.html>",
         "pdf_url": null,
@@ -33269,6 +33304,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I71052956",
           "host_organization_name": "University of Reading",
           "host_organization_lineage": [
@@ -33283,11 +33319,19 @@
         "is_accepted": true,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "PeerReviewed"
+        "raw_type": "Article"
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.9595999717712402,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -33301,37 +33345,42 @@
     "abstract_inverted_index": {
       "The": [
         0,
-        73
+        74
       ],
       "fifth": [
         1
       ],
-      "Gaza": [
+      "war": [
         2
       ],
-      "War": [
-        3
+      "in": [
+        3,
+        35,
+        124,
+        205
+      ],
+      "Gaza": [
+        4
       ],
       "this": [
-        4,
-        39,
+        5,
         52
       ],
       "century": [
-        5
-      ],
-      "is,": [
         6
       ],
-      "at": [
+      "is,": [
         7
       ],
+      "at": [
+        8
+      ],
       "the": [
-        8,
-        26,
+        9,
+        27,
         50,
         56,
-        78,
+        79,
         91,
         108,
         120,
@@ -33345,14 +33394,14 @@
         202
       ],
       "time": [
-        9,
+        10,
         51
       ],
       "of": [
-        10,
-        19,
-        28,
-        30,
+        11,
+        20,
+        29,
+        31,
         82,
         93,
         119,
@@ -33361,55 +33410,56 @@
         198
       ],
       "writing,": [
-        11
-      ],
-      "two": [
         12
       ],
-      "years": [
+      "two": [
         13
       ],
-      "old": [
+      "years": [
         14
       ],
+      "old": [
+        15
+      ],
       "with": [
-        15,
+        16,
         194,
         210
       ],
       "a": [
-        16,
+        17,
         42,
-        65,
+        66,
         140,
         163,
         172,
         206
       ],
       "massive": [
-        17
-      ],
-      "loss": [
         18
       ],
-      "civilian": [
-        20
+      "loss": [
+        19
       ],
-      "life,": [
+      "civilian": [
         21
       ],
+      "life,": [
+        22
+      ],
       "including": [
-        22,
-        69
+        23,
+        70
       ],
       "20,000": [
-        23
-      ],
-      "children,": [
         24
       ],
+      "children,": [
+        25
+      ],
       "and": [
-        25,
+        26,
+        62,
         85,
         90,
         116,
@@ -33420,40 +33470,35 @@
         201
       ],
       "obliteration": [
-        27
+        28
       ],
       "most": [
-        29
+        30
       ],
       "Gaza\u2019s": [
-        31
-      ],
-      "infrastructure.": [
         32
       ],
-      "Specialists": [
+      "infrastructure.": [
         33
       ],
-      "in": [
-        34,
-        124,
-        205
+      "Specialists": [
+        34
       ],
-      "genocide": [
-        35
-      ],
-      "studies": [
+      "Genocide": [
         36
       ],
-      "have": [
+      "Studies": [
         37
       ],
-      "described": [
+      "have": [
         38
       ],
-      "war": [
+      "described": [
+        39
+      ],
+      "it": [
         40,
-        74
+        162
       ],
       "as": [
         41,
@@ -33484,8 +33529,8 @@
       ],
       "by": [
         49,
-        64,
-        77,
+        65,
+        78,
         150
       ],
       "Commentary": [
@@ -33499,58 +33544,59 @@
       "published,": [
         55
       ],
-      "cease": [
+      "ceasefire": [
         57
       ],
-      "fire": [
+      "will": [
         58
       ],
-      "will": [
+      "continue": [
         59
       ],
-      "continue": [
-        60
-      ],
       "to": [
-        61,
+        60,
         189,
         208
       ],
       "hold": [
-        62
+        61
+      ],
+      "be": [
+        63,
+        148
       ],
       "followed": [
-        63
+        64
       ],
       "comprehensive": [
-        66
-      ],
-      "peace": [
         67
       ],
-      "plan": [
+      "peace": [
         68
       ],
+      "plan": [
+        69
+      ],
       "Palestinian": [
-        70,
+        71,
         109
       ],
       "national": [
-        71
-      ],
-      "rights.": [
         72
       ],
-      "was": [
+      "rights.": [
+        73
+      ],
+      "violence": [
         75
       ],
-      "precipitated": [
+      "was": [
         76
       ],
-      "Hamas": [
-        79
+      "precipitated": [
+        77
       ],
-      "instigated": [
+      "Hamas-instigated": [
         80
       ],
       "massacre": [
@@ -33632,7 +33678,8 @@
         113
       ],
       "that": [
-        114
+        114,
+        166
       ],
       "discussion": [
         115,
@@ -33698,11 +33745,7 @@
         144
       ],
       "which": [
-        145,
-        166
-      ],
-      "be": [
-        148
+        145
       ],
       "ended": [
         149
@@ -33721,9 +33764,6 @@
       ],
       "Or": [
         160
-      ],
-      "it": [
-        162
       ],
       "settler-colonial": [
         164
@@ -33807,7 +33847,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-05-10T08:33:47.465468",
+    "updated_date": "2026-08-15T07:11:24.734988",
     "created_date": "2025-11-28T00:00:00"
   },
   {

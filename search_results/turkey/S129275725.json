@@ -2748,7 +2748,7 @@
     "doi": "https://doi.org/10.1017/lsi.2025.22",
     "title": "Professional Liquidation in the Context of Autocratic Legalism: Lawyers, Class, and Status in Turkey, 2002\u2013?",
     "display_name": "Professional Liquidation in the Context of Autocratic Legalism: Lawyers, Class, and Status in Turkey, 2002\u2013?",
-    "relevance_score": 45.211773,
+    "relevance_score": 29.305403,
     "publication_year": 2025,
     "publication_date": "2025-05-05",
     "ids": {
@@ -2758,6 +2758,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/lsi.2025.22",
+      "doi": "https://doi.org/10.1017/lsi.2025.22",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1017/lsi.2025.22",
       "pdf_url": null,
@@ -2772,6 +2773,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -2792,6 +2802,7 @@
       "raw_source_name": "Law &amp; Social Inquiry",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -2808,7 +2819,10 @@
         "author": {
           "id": "https://openalex.org/A5000862946",
           "display_name": "Z. Umut T\u00fcrem",
-          "orcid": "https://orcid.org/0000-0002-9271-2405"
+          "orcid": "https://orcid.org/0000-0002-9271-2405",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9271-2405"
+          ]
         },
         "institutions": [
           {
@@ -2850,19 +2864,23 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I129774422"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "apc_paid": null,
-    "fwci": 12.7095,
+    "fwci": 3.7332,
     "has_fulltext": false,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.96269566,
+      "value": 0.90809426,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 95,
-      "max": 98
+      "min": 93,
+      "max": 96
     },
     "biblio": {
       "volume": "50",
@@ -2874,12 +2892,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10802",
-      "display_name": "Judicial and Constitutional Studies",
-      "score": 0.987500011920929,
+      "id": "https://openalex.org/T11783",
+      "display_name": "Turkey's Politics and Society",
+      "score": 0.6528000235557556,
       "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -2892,26 +2910,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10802",
-        "display_name": "Judicial and Constitutional Studies",
-        "score": 0.987500011920929,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3308",
-          "display_name": "Law"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T11783",
         "display_name": "Turkey's Politics and Society",
-        "score": 0.9745000004768372,
+        "score": 0.6528000235557556,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -2926,12 +2927,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T12755",
-        "display_name": "Legal Education and Practice Innovations",
-        "score": 0.9352999925613403,
+        "id": "https://openalex.org/T10802",
+        "display_name": "Judicial and Constitutional Studies",
+        "score": 0.14790000021457672,
         "subfield": {
           "id": "https://openalex.org/subfields/3308",
           "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13075",
+        "display_name": "Legal Systems and Judicial Processes",
+        "score": 0.08259999752044678,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -2945,69 +2963,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/autocracy",
-        "display_name": "Autocracy",
-        "score": 0.8999061584472656
+        "id": "https://openalex.org/keywords/autocratic-legalism",
+        "display_name": "autocratic legalism",
+        "score": 0.9900000095367432
       },
       {
-        "id": "https://openalex.org/keywords/legalism",
-        "display_name": "Legalism (Western philosophy)",
-        "score": 0.8640786409378052
+        "id": "https://openalex.org/keywords/autocratization",
+        "display_name": "autocratization",
+        "score": 0.8119999766349792
       },
       {
-        "id": "https://openalex.org/keywords/context",
-        "display_name": "Context (archaeology)",
-        "score": 0.630639374256134
+        "id": "https://openalex.org/keywords/legal-profession",
+        "display_name": "legal profession",
+        "score": 0.9739999771118164
+      },
+      {
+        "id": "https://openalex.org/keywords/lawyers",
+        "display_name": "lawyers",
+        "score": 0.8080000281333923
+      },
+      {
+        "id": "https://openalex.org/keywords/bar-associations",
+        "display_name": "bar associations",
+        "score": 0.9470000267028809
+      },
+      {
+        "id": "https://openalex.org/keywords/populism",
+        "display_name": "populism",
+        "score": 0.781000018119812
       },
       {
         "id": "https://openalex.org/keywords/class",
-        "display_name": "Class (philosophy)",
-        "score": 0.520125687122345
+        "display_name": "class",
+        "score": 0.4449999928474426
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.4112411141395569
+        "id": "https://openalex.org/keywords/professional-status",
+        "display_name": "professional status",
+        "score": 0.7250000238418579
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.34543707966804504
+        "id": "https://openalex.org/keywords/turkey",
+        "display_name": "Turkey",
+        "score": 0.6549999713897705
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.33782559633255005
-      },
-      {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.15960034728050232
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.13564559817314148
-      },
-      {
-        "id": "https://openalex.org/keywords/democracy",
-        "display_name": "Democracy",
-        "score": 0.11397942900657654
-      },
-      {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.11060157418251038
-      },
-      {
-        "id": "https://openalex.org/keywords/epistemology",
-        "display_name": "Epistemology",
-        "score": 0.10787227749824524
-      },
-      {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.1029171347618103
+        "id": "https://openalex.org/keywords/young-lawyers",
+        "display_name": "young lawyers",
+        "score": 0.5019999742507935
       }
     ],
     "concepts": [
@@ -3108,6 +3111,7 @@
     "locations": [
       {
         "id": "doi:10.1017/lsi.2025.22",
+        "doi": "https://doi.org/10.1017/lsi.2025.22",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1017/lsi.2025.22",
         "pdf_url": null,
@@ -3122,6 +3126,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -3144,7 +3157,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -3155,6 +3176,7 @@
     "referenced_works_count": 47,
     "referenced_works": [
       "https://openalex.org/W186936883",
+      "https://openalex.org/W353190738",
       "https://openalex.org/W398449869",
       "https://openalex.org/W1976130904",
       "https://openalex.org/W1979317842",
@@ -3170,6 +3192,7 @@
       "https://openalex.org/W2316998147",
       "https://openalex.org/W2346123633",
       "https://openalex.org/W2514439194",
+      "https://openalex.org/W2612541862",
       "https://openalex.org/W2804118995",
       "https://openalex.org/W2901102792",
       "https://openalex.org/W3124143643",
@@ -3196,23 +3219,21 @@
       "https://openalex.org/W4362648388",
       "https://openalex.org/W4388058343",
       "https://openalex.org/W4388661313",
-      "https://openalex.org/W6611903018",
-      "https://openalex.org/W6737690009",
       "https://openalex.org/W6757924620",
       "https://openalex.org/W6927598086",
       "https://openalex.org/W7057810053"
     ],
     "related_works": [
-      "https://openalex.org/W2623214853",
-      "https://openalex.org/W2064349448",
-      "https://openalex.org/W4294983171",
-      "https://openalex.org/W4379143489",
-      "https://openalex.org/W3092012512",
-      "https://openalex.org/W2363416531",
-      "https://openalex.org/W4392965212",
-      "https://openalex.org/W4283779234",
-      "https://openalex.org/W2039045734",
-      "https://openalex.org/W2393217312"
+      "https://openalex.org/W7220423557",
+      "https://openalex.org/W4409764599",
+      "https://openalex.org/W2418762825",
+      "https://openalex.org/W2289751582",
+      "https://openalex.org/W7110535242",
+      "https://openalex.org/W3188140210",
+      "https://openalex.org/W3177786136",
+      "https://openalex.org/W2046325952",
+      "https://openalex.org/W2121280313",
+      "https://openalex.org/W3139044653"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -3707,8 +3728,8 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-05-21T06:26:12.895304",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-16T09:59:22.235173",
+    "created_date": "2025-05-06T00:00:00"
   },
   {
     "id": "https://openalex.org/W2136297817",
@@ -4584,7 +4605,7 @@
     "doi": "https://doi.org/10.1017/lsi.2025.18",
     "title": "Legal Consciousness and Cultural Intimacy in Turkey\u2019s Intellectual Property Reform",
     "display_name": "Legal Consciousness and Cultural Intimacy in Turkey\u2019s Intellectual Property Reform",
-    "relevance_score": 4.6212044,
+    "relevance_score": 32.373528,
     "publication_year": 2025,
     "publication_date": "2025-04-07",
     "ids": {
@@ -4594,6 +4615,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/lsi.2025.18",
+      "doi": "https://doi.org/10.1017/lsi.2025.18",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/lsi.2025.18",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9098802A2E1C3B3559FC6FE307EDF4AD/S0897654625000188a.pdf/div-class-title-legal-consciousness-and-cultural-intimacy-in-turkey-s-intellectual-property-reform-div.pdf",
@@ -4608,6 +4630,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -4628,6 +4659,7 @@
       "raw_source_name": "Law &amp; Social Inquiry",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -4644,7 +4676,10 @@
         "author": {
           "id": "https://openalex.org/A5050353078",
           "display_name": "Dave Fossum",
-          "orcid": "https://orcid.org/0000-0001-8266-6639"
+          "orcid": "https://orcid.org/0000-0001-8266-6639",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8266-6639"
+          ]
         },
         "institutions": [
           {
@@ -4686,19 +4721,27 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I55732556"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 12.7095,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 6.2593,
     "has_fulltext": true,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.95825314,
+      "value": 0.93098545,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 95,
-      "max": 98
+      "min": 93,
+      "max": 96
     },
     "biblio": {
       "volume": "50",
@@ -4710,9 +4753,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10802",
-      "display_name": "Judicial and Constitutional Studies",
-      "score": 0.9775000214576721,
+      "id": "https://openalex.org/T13842",
+      "display_name": "Intellectual Property Law",
+      "score": 0.9243000149726868,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -4728,9 +4771,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10802",
-        "display_name": "Judicial and Constitutional Studies",
-        "score": 0.9775000214576721,
+        "id": "https://openalex.org/T13842",
+        "display_name": "Intellectual Property Law",
+        "score": 0.9243000149726868,
         "subfield": {
           "id": "https://openalex.org/subfields/3308",
           "display_name": "Law"
@@ -4745,12 +4788,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T12040",
-        "display_name": "International Arbitration and Investment Law",
-        "score": 0.9678999781608582,
+        "id": "https://openalex.org/T11769",
+        "display_name": "Copyright and Intellectual Property",
+        "score": 0.019899999722838402,
         "subfield": {
-          "id": "https://openalex.org/subfields/1408",
-          "display_name": "Strategy and Management"
+          "id": "https://openalex.org/subfields/1406",
+          "display_name": "Marketing"
         },
         "field": {
           "id": "https://openalex.org/fields/14",
@@ -4764,7 +4807,7 @@
       {
         "id": "https://openalex.org/T13877",
         "display_name": "Law in Society and Culture",
-        "score": 0.9398999810218811,
+        "score": 0.009999999776482582,
         "subfield": {
           "id": "https://openalex.org/subfields/3308",
           "display_name": "Law"
@@ -4781,69 +4824,54 @@
     ],
     "keywords": [
       {
+        "id": "https://openalex.org/keywords/intellectual-property-reform",
+        "display_name": "intellectual property reform",
+        "score": 0.8309999704360962
+      },
+      {
+        "id": "https://openalex.org/keywords/copyright-law",
+        "display_name": "copyright law",
+        "score": 0.843999981880188
+      },
+      {
         "id": "https://openalex.org/keywords/legal-consciousness",
-        "display_name": "Legal consciousness",
-        "score": 0.8097435235977173
+        "display_name": "legal consciousness",
+        "score": 0.9259999990463257
       },
       {
-        "id": "https://openalex.org/keywords/cultural-property",
-        "display_name": "Cultural property",
-        "score": 0.6488267183303833
+        "id": "https://openalex.org/keywords/cultural-intimacy",
+        "display_name": "cultural intimacy",
+        "score": 0.8040000200271606
       },
       {
-        "id": "https://openalex.org/keywords/consciousness",
-        "display_name": "Consciousness",
-        "score": 0.6396459341049194
+        "id": "https://openalex.org/keywords/music-industry",
+        "display_name": "music industry",
+        "score": 0.6840000152587891
       },
       {
-        "id": "https://openalex.org/keywords/intellectual-property",
-        "display_name": "Intellectual property",
-        "score": 0.6243865489959717
+        "id": "https://openalex.org/keywords/market-liberalization",
+        "display_name": "market liberalization",
+        "score": 0.859000027179718
       },
       {
-        "id": "https://openalex.org/keywords/property",
-        "display_name": "Property (philosophy)",
-        "score": 0.5680510401725769
+        "id": "https://openalex.org/keywords/trade-agreements",
+        "display_name": "trade agreements",
+        "score": 0.9779999852180481
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.4299986958503723
+        "id": "https://openalex.org/keywords/citizenship",
+        "display_name": "citizenship",
+        "score": 0.45399999618530273
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.3971376419067383
+        "id": "https://openalex.org/keywords/musicians",
+        "display_name": "musicians",
+        "score": 0.367000013589859
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.39661669731140137
-      },
-      {
-        "id": "https://openalex.org/keywords/law-and-economics",
-        "display_name": "Law and economics",
-        "score": 0.38163965940475464
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.37203699350357056
-      },
-      {
-        "id": "https://openalex.org/keywords/cultural-heritage",
-        "display_name": "Cultural heritage",
-        "score": 0.2728421092033386
-      },
-      {
-        "id": "https://openalex.org/keywords/epistemology",
-        "display_name": "Epistemology",
-        "score": 0.1946285367012024
-      },
-      {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.17574480175971985
+        "id": "https://openalex.org/keywords/lawyers",
+        "display_name": "lawyers",
+        "score": 0.75
       }
     ],
     "concepts": [
@@ -4951,6 +4979,7 @@
     "locations": [
       {
         "id": "doi:10.1017/lsi.2025.18",
+        "doi": "https://doi.org/10.1017/lsi.2025.18",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/lsi.2025.18",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9098802A2E1C3B3559FC6FE307EDF4AD/S0897654625000188a.pdf/div-class-title-legal-consciousness-and-cultural-intimacy-in-turkey-s-intellectual-property-reform-div.pdf",
@@ -4965,6 +4994,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -4988,6 +5026,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/lsi.2025.18",
+      "doi": "https://doi.org/10.1017/lsi.2025.18",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/lsi.2025.18",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/9098802A2E1C3B3559FC6FE307EDF4AD/S0897654625000188a.pdf/div-class-title-legal-consciousness-and-cultural-intimacy-in-turkey-s-intellectual-property-reform-div.pdf",
@@ -5002,6 +5041,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -5022,7 +5070,15 @@
       "raw_source_name": "Law &amp; Social Inquiry",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -5093,6 +5149,8 @@
       "https://openalex.org/W2482432801",
       "https://openalex.org/W2484149272",
       "https://openalex.org/W2489559954",
+      "https://openalex.org/W2503696678",
+      "https://openalex.org/W2512345656",
       "https://openalex.org/W2515675849",
       "https://openalex.org/W2581407907",
       "https://openalex.org/W2774562887",
@@ -5100,7 +5158,6 @@
       "https://openalex.org/W2786220596",
       "https://openalex.org/W2801808403",
       "https://openalex.org/W2922479245",
-      "https://openalex.org/W2937071974",
       "https://openalex.org/W2951359472",
       "https://openalex.org/W2956038897",
       "https://openalex.org/W2964289842",
@@ -5110,7 +5167,6 @@
       "https://openalex.org/W3121795469",
       "https://openalex.org/W3123898059",
       "https://openalex.org/W3124131042",
-      "https://openalex.org/W3125404927",
       "https://openalex.org/W3125961812",
       "https://openalex.org/W3139476265",
       "https://openalex.org/W4213345923",
@@ -5128,20 +5184,20 @@
       "https://openalex.org/W6604812141",
       "https://openalex.org/W6608546381",
       "https://openalex.org/W6724676579",
-      "https://openalex.org/W6887888948",
+      "https://openalex.org/W6906710262",
       "https://openalex.org/W7014414609"
     ],
     "related_works": [
-      "https://openalex.org/W1998011869",
-      "https://openalex.org/W4213209802",
-      "https://openalex.org/W4298146316",
-      "https://openalex.org/W2236267847",
-      "https://openalex.org/W631166945",
-      "https://openalex.org/W4282843169",
-      "https://openalex.org/W3021519232",
-      "https://openalex.org/W2391064200",
-      "https://openalex.org/W4407408758",
-      "https://openalex.org/W2381309809"
+      "https://openalex.org/W4399135433",
+      "https://openalex.org/W71410260",
+      "https://openalex.org/W7009442099",
+      "https://openalex.org/W7071766236",
+      "https://openalex.org/W2252589898",
+      "https://openalex.org/W7222832058",
+      "https://openalex.org/W2012263517",
+      "https://openalex.org/W1994116838",
+      "https://openalex.org/W54030629",
+      "https://openalex.org/W4316259343"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -5626,15 +5682,15 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-05-21T06:26:12.895304",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2025-04-09T00:00:00"
   },
   {
     "id": "https://openalex.org/W4413874962",
     "doi": "https://doi.org/10.1017/lsi.2025.10099",
     "title": "Authoritarian Legacies in Law and Democratic Backsliding: The Case of Turkey\u2019s Specially Authorized Courts",
     "display_name": "Authoritarian Legacies in Law and Democratic Backsliding: The Case of Turkey\u2019s Specially Authorized Courts",
-    "relevance_score": 2.9280477,
+    "relevance_score": 29.880255,
     "publication_year": 2025,
     "publication_date": "2025-09-01",
     "ids": {
@@ -5644,6 +5700,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/lsi.2025.10099",
+      "doi": "https://doi.org/10.1017/lsi.2025.10099",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/lsi.2025.10099",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/170E4BF7E97FA6F5081A9D38B624E842/S0897654625100993a.pdf/div-class-title-authoritarian-legacies-in-law-and-democratic-backsliding-the-case-of-turkey-s-specially-authorized-courts-div.pdf",
@@ -5658,6 +5715,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -5678,6 +5744,7 @@
       "raw_source_name": "Law &amp; Social Inquiry",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -5694,19 +5761,12 @@
         "author": {
           "id": "https://openalex.org/A5062634507",
           "display_name": "Defne \u00d6ver",
-          "orcid": "https://orcid.org/0000-0002-0249-330X"
+          "orcid": "https://orcid.org/0000-0002-0249-330X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0249-330X"
+          ]
         },
         "institutions": [
-          {
-            "id": "https://openalex.org/I2801613365",
-            "display_name": "Mitchell Institute",
-            "ror": "https://ror.org/03ds72003",
-            "country_code": "US",
-            "type": "nonprofit",
-            "lineage": [
-              "https://openalex.org/I2801613365"
-            ]
-          },
           {
             "id": "https://openalex.org/I91045830",
             "display_name": "Texas A&M University",
@@ -5732,7 +5792,6 @@
           {
             "raw_affiliation_string": "Texas A&M University",
             "institution_ids": [
-              "https://openalex.org/I2801613365",
               "https://openalex.org/I91045830"
             ]
           },
@@ -5752,22 +5811,29 @@
       "https://openalex.org/A5062634507"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I2801613365",
       "https://openalex.org/I91045830"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 6.7059,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 11.1995,
     "has_fulltext": true,
-    "cited_by_count": 1,
+    "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.95934767,
+      "value": 0.97967584,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 97
     },
     "biblio": {
       "volume": "51",
@@ -5781,7 +5847,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11783",
       "display_name": "Turkey's Politics and Society",
-      "score": 0.9990000128746033,
+      "score": 0.7103999853134155,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -5799,7 +5865,7 @@
       {
         "id": "https://openalex.org/T11783",
         "display_name": "Turkey's Politics and Society",
-        "score": 0.9990000128746033,
+        "score": 0.7103999853134155,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -5814,16 +5880,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13938",
-        "display_name": "Historical and Contemporary Political Dynamics",
-        "score": 0.9611999988555908,
+        "id": "https://openalex.org/T10802",
+        "display_name": "Judicial and Constitutional Studies",
+        "score": 0.11800000071525574,
         "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -5831,12 +5897,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T10749",
-        "display_name": "International Law and Human Rights",
-        "score": 0.9490000009536743,
+        "id": "https://openalex.org/T10070",
+        "display_name": "Political Conflict and Governance",
+        "score": 0.08349999785423279,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -5850,44 +5916,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/authoritarianism",
-        "display_name": "Authoritarianism",
-        "score": 0.849320650100708
+        "id": "https://openalex.org/keywords/democratic-backsliding",
+        "display_name": "democratic backsliding",
+        "score": 0.8889999985694885
       },
       {
-        "id": "https://openalex.org/keywords/democracy",
-        "display_name": "Democracy",
-        "score": 0.7123429775238037
+        "id": "https://openalex.org/keywords/authoritarian-legacy",
+        "display_name": "authoritarian legacy",
+        "score": 0.9169999957084656
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5849411487579346
+        "id": "https://openalex.org/keywords/turkey",
+        "display_name": "Turkey",
+        "score": 0.7260000109672546
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.4372304379940033
+        "id": "https://openalex.org/keywords/akp-government",
+        "display_name": "AKP government",
+        "score": 0.8330000042915344
       },
       {
-        "id": "https://openalex.org/keywords/law-and-economics",
-        "display_name": "Law and economics",
-        "score": 0.3446209132671356
+        "id": "https://openalex.org/keywords/military-dictatorship",
+        "display_name": "military dictatorship",
+        "score": 0.8759999871253967
       },
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.330281138420105
+        "id": "https://openalex.org/keywords/political-repression",
+        "display_name": "political repression",
+        "score": 0.4390000104904175
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.19823086261749268
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.03872266411781311
+        "id": "https://openalex.org/keywords/judicial-reform",
+        "display_name": "judicial reform",
+        "score": 0.44699999690055847
       }
     ],
     "concepts": [
@@ -5953,6 +6014,7 @@
     "locations": [
       {
         "id": "doi:10.1017/lsi.2025.10099",
+        "doi": "https://doi.org/10.1017/lsi.2025.10099",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/lsi.2025.10099",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/170E4BF7E97FA6F5081A9D38B624E842/S0897654625100993a.pdf/div-class-title-authoritarian-legacies-in-law-and-democratic-backsliding-the-case-of-turkey-s-specially-authorized-courts-div.pdf",
@@ -5967,6 +6029,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -5990,6 +6061,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/lsi.2025.10099",
+      "doi": "https://doi.org/10.1017/lsi.2025.10099",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/lsi.2025.10099",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/170E4BF7E97FA6F5081A9D38B624E842/S0897654625100993a.pdf/div-class-title-authoritarian-legacies-in-law-and-democratic-backsliding-the-case-of-turkey-s-specially-authorized-courts-div.pdf",
@@ -6004,6 +6076,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -6024,7 +6105,15 @@
       "raw_source_name": "Law &amp; Social Inquiry",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 1.0
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -6058,6 +6147,7 @@
       "https://openalex.org/W2049812561",
       "https://openalex.org/W2061518727",
       "https://openalex.org/W2095766935",
+      "https://openalex.org/W2098541889",
       "https://openalex.org/W2103298024",
       "https://openalex.org/W2117592571",
       "https://openalex.org/W2121823181",
@@ -6069,11 +6159,13 @@
       "https://openalex.org/W2290395473",
       "https://openalex.org/W2293201281",
       "https://openalex.org/W2296297756",
+      "https://openalex.org/W2298953588",
       "https://openalex.org/W2316776191",
       "https://openalex.org/W2329670365",
       "https://openalex.org/W2337201196",
       "https://openalex.org/W2345030807",
       "https://openalex.org/W2409394804",
+      "https://openalex.org/W2481742949",
       "https://openalex.org/W2554588017",
       "https://openalex.org/W2567288768",
       "https://openalex.org/W2571551474",
@@ -6100,18 +6192,15 @@
       "https://openalex.org/W3043151978",
       "https://openalex.org/W3048656713",
       "https://openalex.org/W3123780753",
-      "https://openalex.org/W3123818811",
       "https://openalex.org/W3124143643",
-      "https://openalex.org/W3124199403",
       "https://openalex.org/W3128295216",
       "https://openalex.org/W3130826367",
       "https://openalex.org/W3131691815",
+      "https://openalex.org/W3138176436",
       "https://openalex.org/W3188254323",
       "https://openalex.org/W3202702395",
       "https://openalex.org/W4205821087",
-      "https://openalex.org/W4206609437",
       "https://openalex.org/W4207004903",
-      "https://openalex.org/W4210755110",
       "https://openalex.org/W4214646269",
       "https://openalex.org/W4237659145",
       "https://openalex.org/W4238403798",
@@ -6140,16 +6229,16 @@
       "https://openalex.org/W4400476990"
     ],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W4391985229",
-      "https://openalex.org/W2027331161",
-      "https://openalex.org/W2010153614",
-      "https://openalex.org/W3125865055",
-      "https://openalex.org/W2149209452",
-      "https://openalex.org/W2025703827",
-      "https://openalex.org/W2519422967",
-      "https://openalex.org/W2089220577",
-      "https://openalex.org/W2125704551"
+      "https://openalex.org/W7083628577",
+      "https://openalex.org/W4321458043",
+      "https://openalex.org/W6920633005",
+      "https://openalex.org/W4401551975",
+      "https://openalex.org/W4400476990",
+      "https://openalex.org/W4402650428",
+      "https://openalex.org/W1870176851",
+      "https://openalex.org/W4229038319",
+      "https://openalex.org/W3202702395",
+      "https://openalex.org/W4225786080"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -6592,11 +6681,15 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 2
+      },
+      {
         "year": 2025,
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-10-22T09:42:04.148104",
     "created_date": "2025-10-10T00:00:00"
   },
   {

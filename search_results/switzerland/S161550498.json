@@ -6172,17 +6172,19 @@
     "doi": "https://doi.org/10.1177/00220094241306985",
     "title": "Mountains of Gold: The Alpine Vaults of the Swiss National Bank, 1939\u201346",
     "display_name": "Mountains of Gold: The Alpine Vaults of the Swiss National Bank, 1939\u201346",
-    "relevance_score": 14.621681,
+    "relevance_score": 30.635876,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
       "openalex": "https://openalex.org/W4407264760",
       "doi": "https://doi.org/10.1177/00220094241306985",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39931668"
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/39931668",
+      "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/11806985"
     },
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00220094241306985",
+      "doi": "https://doi.org/10.1177/00220094241306985",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094241306985",
       "pdf_url": null,
@@ -6197,6 +6199,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -6215,9 +6227,11 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
+      "datacite",
       "pubmed"
     ],
     "open_access": {
@@ -6232,7 +6246,10 @@
         "author": {
           "id": "https://openalex.org/A5098910614",
           "display_name": "Ludo Groen",
-          "orcid": "https://orcid.org/0009-0000-2381-5331"
+          "orcid": "https://orcid.org/0009-0000-2381-5331",
+          "observed_orcids": [
+            "https://orcid.org/0009-0000-2381-5331"
+          ]
         },
         "institutions": [
           {
@@ -6244,6 +6261,18 @@
             "lineage": [
               "https://openalex.org/I2799323385",
               "https://openalex.org/I35440088"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4405258008",
+            "display_name": "Institute for the History and Theory of Architecture",
+            "ror": "https://ror.org/05xw14184",
+            "country_code": "CH",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I2799323385",
+              "https://openalex.org/I35440088",
+              "https://openalex.org/I4405258008"
             ]
           }
         ],
@@ -6260,7 +6289,8 @@
           {
             "raw_affiliation_string": "Institute for the History and Theory of Architecture (gta), ETH Zurich, Zurich, Switzerland",
             "institution_ids": [
-              "https://openalex.org/I35440088"
+              "https://openalex.org/I35440088",
+              "https://openalex.org/I4405258008"
             ]
           }
         ]
@@ -6268,20 +6298,29 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
       "https://openalex.org/A5098910614"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I35440088"
+      "https://openalex.org/I35440088",
+      "https://openalex.org/I4405258008"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.02437047,
+      "value": 0.01909816,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -6296,9 +6335,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12645",
-      "display_name": "European history and politics",
-      "score": 0.8924000263214111,
+      "id": "https://openalex.org/T11971",
+      "display_name": "World Wars: History, Literature, and Impact",
+      "score": 0.7875999808311462,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -6314,9 +6353,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12645",
-        "display_name": "European history and politics",
-        "score": 0.8924000263214111,
+        "id": "https://openalex.org/T11971",
+        "display_name": "World Wars: History, Literature, and Impact",
+        "score": 0.7875999808311462,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -6331,16 +6370,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13641",
-        "display_name": "Historical Studies and Socio-cultural Analysis",
-        "score": 0.8734999895095825,
+        "id": "https://openalex.org/T12645",
+        "display_name": "European history and politics",
+        "score": 0.12610000371932983,
         "subfield": {
-          "id": "https://openalex.org/subfields/1207",
-          "display_name": "History and Philosophy of Science"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -6348,16 +6387,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13342",
-        "display_name": "Art History and Market Analysis",
-        "score": 0.8105999827384949,
+        "id": "https://openalex.org/T13824",
+        "display_name": "National Identity and Symbolism",
+        "score": 0.013899999670684338,
         "subfield": {
-          "id": "https://openalex.org/subfields/1213",
-          "display_name": "Visual Arts and Performing Arts"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -6367,69 +6406,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/nazism",
-        "display_name": "Nazism",
-        "score": 0.5964517593383789
+        "id": "https://openalex.org/keywords/swiss-national-bank",
+        "display_name": "Swiss National Bank",
+        "score": 0.9940000176429749
       },
       {
-        "id": "https://openalex.org/keywords/vault",
-        "display_name": "Vault (architecture)",
-        "score": 0.5706713199615479
+        "id": "https://openalex.org/keywords/gold-reserves",
+        "display_name": "gold reserves",
+        "score": 0.921999990940094
       },
       {
-        "id": "https://openalex.org/keywords/bureaucracy",
-        "display_name": "Bureaucracy",
-        "score": 0.45828595757484436
+        "id": "https://openalex.org/keywords/bernese-alps",
+        "display_name": "Bernese Alps",
+        "score": 0.8769999742507935
       },
       {
-        "id": "https://openalex.org/keywords/economic-history",
-        "display_name": "Economic history",
-        "score": 0.4259190559387207
+        "id": "https://openalex.org/keywords/world-war-ii",
+        "display_name": "World War II",
+        "score": 0.8740000128746033
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.4170646667480469
+        "id": "https://openalex.org/keywords/swiss-neutrality",
+        "display_name": "Swiss neutrality",
+        "score": 0.3889999985694885
       },
       {
-        "id": "https://openalex.org/keywords/economy",
-        "display_name": "Economy",
-        "score": 0.38210949301719666
+        "id": "https://openalex.org/keywords/built-environment",
+        "display_name": "built environment",
+        "score": 0.32600000500679016
       },
       {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.3726307153701782
-      },
-      {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.3504059910774231
-      },
-      {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.32253849506378174
-      },
-      {
-        "id": "https://openalex.org/keywords/german",
-        "display_name": "German",
-        "score": 0.3048367500305176
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.2360379993915558
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.17716112732887268
-      },
-      {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.08640831708908081
+        "id": "https://openalex.org/keywords/banking-history",
+        "display_name": "banking history",
+        "score": 0.38499999046325684
       }
     ],
     "concepts": [
@@ -6526,10 +6535,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 3,
+    "locations_count": 5,
     "locations": [
       {
         "id": "doi:10.1177/00220094241306985",
+        "doi": "https://doi.org/10.1177/00220094241306985",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/00220094241306985",
         "pdf_url": null,
@@ -6544,6 +6554,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -6564,6 +6584,7 @@
       },
       {
         "id": "pmid:39931668",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39931668",
         "pdf_url": null,
@@ -6575,6 +6596,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -6589,10 +6611,11 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "Journal of contemporary history",
-        "raw_type": null
+        "raw_type": "Journal Article"
       },
       {
         "id": "pmh:oai:pubmedcentral.nih.gov:11806985",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11806985",
         "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11806985/pdf/10.1177_00220094241306985.pdf",
@@ -6604,6 +6627,7 @@
           "is_oa": true,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -6619,10 +6643,71 @@
         "is_published": false,
         "raw_source_name": "J Contemp Hist",
         "raw_type": "Text"
+      },
+      {
+        "id": "pmh:oai:www.research-collection.ethz.ch:20.500.11850/721276",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://hdl.handle.net/20.500.11850/721276",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402302",
+          "display_name": "Repository for Publications and Research Data (ETH Zurich)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I35440088",
+          "host_organization_name": "ETH Zurich",
+          "host_organization_lineage": [
+            "https://openalex.org/I35440088"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Journal of Contemporary History, 60 (1)",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "doi:10.3929/ethz-b-000721276",
+        "doi": "https://doi.org/10.3929/ethz-b-000721276",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3929/ethz-b-000721276",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407051236",
+          "display_name": "ETH Z\u00fcrich Research Collection",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Other"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1177/00220094241306985",
+      "doi": "https://doi.org/10.1177/00220094241306985",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094241306985",
       "pdf_url": null,
@@ -6637,6 +6722,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -6655,13 +6750,15 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
+        "display_name": "Industry, innovation and infrastructure",
         "score": 0.44999998807907104,
-        "id": "https://metadata.un.org/sdg/9",
-        "display_name": "Industry, innovation and infrastructure"
+        "id": "https://metadata.un.org/sdg/9"
       }
     ],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G7019394688",
@@ -6704,23 +6801,23 @@
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W1873335674",
-      "https://openalex.org/W3040871996",
-      "https://openalex.org/W2283571154",
-      "https://openalex.org/W3038909169",
-      "https://openalex.org/W2557319790",
-      "https://openalex.org/W2949115720",
-      "https://openalex.org/W2087081988",
-      "https://openalex.org/W2360685388",
-      "https://openalex.org/W2056840011",
-      "https://openalex.org/W2967040666"
+      "https://openalex.org/W7129086423",
+      "https://openalex.org/W3115931458",
+      "https://openalex.org/W6910159571",
+      "https://openalex.org/W2902751502",
+      "https://openalex.org/W626247903",
+      "https://openalex.org/W2332737282",
+      "https://openalex.org/W7159785957",
+      "https://openalex.org/W7037885365",
+      "https://openalex.org/W6989472431",
+      "https://openalex.org/W578428715"
     ],
     "abstract_inverted_index": {
       "It": [
@@ -7177,8 +7274,8 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-06-22T08:00:12.763002",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2025-02-08T00:00:00"
   },
   {
     "id": "https://openalex.org/W2099349193",
@@ -13827,7 +13924,7 @@
     "doi": "https://doi.org/10.1177/00220094251323801",
     "title": "Dictators and Finance: The Argentine Military Regime\u2019s Nationalization of the Italo Electric Company in 1978",
     "display_name": "Dictators and Finance: The Argentine Military Regime\u2019s Nationalization of the Italo Electric Company in 1978",
-    "relevance_score": 7.9425344,
+    "relevance_score": 4.0599227,
     "publication_year": 2025,
     "publication_date": "2025-03-17",
     "ids": {
@@ -13837,6 +13934,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00220094251323801",
+      "doi": "https://doi.org/10.1177/00220094251323801",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094251323801",
       "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251323801?download=true",
@@ -13851,6 +13949,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -13869,6 +13977,7 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -13885,7 +13994,10 @@
         "author": {
           "id": "https://openalex.org/A5025435973",
           "display_name": "Sebasti\u00e1n \u00c1lvarez",
-          "orcid": "https://orcid.org/0000-0003-1077-9882"
+          "orcid": "https://orcid.org/0000-0003-1077-9882",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1077-9882"
+          ]
         },
         "institutions": [
           {
@@ -13927,11 +14039,22 @@
       {
         "author_position": "last",
         "author": {
-          "id": "https://openalex.org/A5076528084",
+          "id": null,
           "display_name": "Isabelle Lucas",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
+          {
+            "id": "https://openalex.org/I173439891",
+            "display_name": "HES-SO University of Applied Sciences and Arts Western Switzerland",
+            "ror": "https://ror.org/01xkakk17",
+            "country_code": "CH",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I173439891"
+            ]
+          },
           {
             "id": "https://openalex.org/I4210088449",
             "display_name": "HES-SO Gen\u00e8ve",
@@ -13958,38 +14081,49 @@
           {
             "raw_affiliation_string": "Dicast\u00e8re Recherche et innovation, Haute \u00e9cole sp\u00e9cialis\u00e9e de Suisse occidentale",
             "institution_ids": [
+              "https://openalex.org/I173439891",
               "https://openalex.org/I4210088449"
             ]
           },
           {
             "raw_affiliation_string": "Dicast\u00e8re Recherche et innovation, Haute \u00e9cole sp\u00e9cialis\u00e9e de Suisse occidentale, Lausanne, Switzerland",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I173439891"
+            ]
           }
         ]
       }
     ],
     "institutions": [],
     "countries_distinct_count": 2,
-    "institutions_distinct_count": 2,
+    "institutions_distinct_count": 3,
     "corresponding_author_ids": [
       "https://openalex.org/A5025435973"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I21067949"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 2.9782,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 6.493,
     "has_fulltext": true,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.88281027,
+      "value": 0.93015128,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 94
     },
     "biblio": {
       "volume": "61",
@@ -14001,12 +14135,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12375",
-      "display_name": "Cuban History and Society",
-      "score": 0.9398000240325928,
+      "id": "https://openalex.org/T12036",
+      "display_name": "Argentine historical studies",
+      "score": 0.7289999723434448,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3316",
+        "display_name": "Cultural Studies"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -14019,12 +14153,46 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12375",
-        "display_name": "Cuban History and Society",
-        "score": 0.9398000240325928,
+        "id": "https://openalex.org/T12036",
+        "display_name": "Argentine historical studies",
+        "score": 0.7289999723434448,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12493",
+        "display_name": "Memory, violence, and history",
+        "score": 0.05559999868273735,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13352",
+        "display_name": "International Relations in Latin America",
+        "score": 0.049300000071525574,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -14038,24 +14206,34 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5191735029220581
+        "id": "https://openalex.org/keywords/argentine-military-dictatorship",
+        "display_name": "Argentine military dictatorship",
+        "score": 0.8050000071525574
       },
       {
-        "id": "https://openalex.org/keywords/economic-history",
-        "display_name": "Economic history",
-        "score": 0.42459094524383545
+        "id": "https://openalex.org/keywords/nationalization",
+        "display_name": "nationalization",
+        "score": 0.7620000243186951
       },
       {
-        "id": "https://openalex.org/keywords/economy",
-        "display_name": "Economy",
-        "score": 0.3616119623184204
+        "id": "https://openalex.org/keywords/foreign-capital",
+        "display_name": "foreign capital",
+        "score": 0.7459999918937683
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.34550976753234863
+        "id": "https://openalex.org/keywords/neoliberalism",
+        "display_name": "neoliberalism",
+        "score": 0.46799999475479126
+      },
+      {
+        "id": "https://openalex.org/keywords/economic-elites",
+        "display_name": "economic elites",
+        "score": 0.4350000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/international-finance",
+        "display_name": "international finance",
+        "score": 0.5759999752044678
       }
     ],
     "concepts": [
@@ -14093,6 +14271,7 @@
     "locations": [
       {
         "id": "doi:10.1177/00220094251323801",
+        "doi": "https://doi.org/10.1177/00220094251323801",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/00220094251323801",
         "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251323801?download=true",
@@ -14107,6 +14286,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -14127,6 +14316,7 @@
       },
       {
         "id": "pmh:oai:repository.graduateinstitute.ch:320187",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "http://repository.graduateinstitute.ch/record/320187",
         "pdf_url": null,
@@ -14138,6 +14328,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I951315",
           "host_organization_name": "Graduate Institute of International and Development Studies",
           "host_organization_lineage": [
@@ -14157,6 +14348,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1177/00220094251323801",
+      "doi": "https://doi.org/10.1177/00220094251323801",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094251323801",
       "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251323801?download=true",
@@ -14171,6 +14363,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -14189,12 +14391,20 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.7297000288963318,
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4408508047.pdf",
@@ -14203,16 +14413,16 @@
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W2899084033",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W1502198272",
-      "https://openalex.org/W2017540542",
-      "https://openalex.org/W2006758266",
-      "https://openalex.org/W2066504725",
-      "https://openalex.org/W1527813328",
-      "https://openalex.org/W2073254488",
-      "https://openalex.org/W2104764082"
+      "https://openalex.org/W7045305438",
+      "https://openalex.org/W7029383306",
+      "https://openalex.org/W4413929805",
+      "https://openalex.org/W2569810286",
+      "https://openalex.org/W2951243583",
+      "https://openalex.org/W3112475176",
+      "https://openalex.org/W7083077325",
+      "https://openalex.org/W2775115722",
+      "https://openalex.org/W4401856067",
+      "https://openalex.org/W3083909588"
     ],
     "abstract_inverted_index": {
       "The": [
@@ -14516,8 +14726,8 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-06-16T07:32:37.131356",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-09-29T14:09:16.559479",
+    "created_date": "2025-03-17T00:00:00"
   },
   {
     "id": "https://openalex.org/W2295388603",
@@ -17726,20 +17936,22 @@
     "doi": "https://doi.org/10.1177/00220094251323798",
     "title": "\u2018No Ski Shoes, Chocolate or Hairsprays\u2019: The (Mis)Adventures of European Companies in China, 1978\u201388",
     "display_name": "\u2018No Ski Shoes, Chocolate or Hairsprays\u2019: The (Mis)Adventures of European Companies in China, 1978\u201388",
-    "relevance_score": 1.7642865,
+    "relevance_score": 3.5885458,
     "publication_year": 2025,
     "publication_date": "2025-03-13",
     "ids": {
       "openalex": "https://openalex.org/W4408395773",
       "doi": "https://doi.org/10.1177/00220094251323798",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40642308"
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40642308",
+      "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/12240485"
     },
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00220094251323798",
+      "doi": "https://doi.org/10.1177/00220094251323798",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094251323798",
-      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251323798",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S161550498",
         "display_name": "Journal of Contemporary History",
@@ -17751,6 +17963,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -17769,6 +17991,7 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -17777,7 +18000,7 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251323798",
+      "oa_url": "https://doi.org/10.1177/00220094251323798",
       "any_repository_has_fulltext": true
     },
     "authorships": [
@@ -17786,7 +18009,10 @@
         "author": {
           "id": "https://openalex.org/A5082978345",
           "display_name": "Ariane Kn\u00fcsel",
-          "orcid": "https://orcid.org/0000-0001-8446-5638"
+          "orcid": "https://orcid.org/0000-0001-8446-5638",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8446-5638"
+          ]
         },
         "institutions": [
           {
@@ -17828,13 +18054,21 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I154338468"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.05521923,
+      "value": 0.04050701,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -17849,16 +18083,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13135",
-      "display_name": "Communism, Protests, Social Movements",
-      "score": 0.9143000245094299,
+      "id": "https://openalex.org/T10415",
+      "display_name": "International Business and FDI",
+      "score": 0.9390000104904175,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/1408",
+        "display_name": "Strategy and Management"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -17867,9 +18101,43 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13135",
-        "display_name": "Communism, Protests, Social Movements",
-        "score": 0.9143000245094299,
+        "id": "https://openalex.org/T10415",
+        "display_name": "International Business and FDI",
+        "score": 0.9390000104904175,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1408",
+          "display_name": "Strategy and Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10628",
+        "display_name": "China's Socioeconomic Reforms and Governance",
+        "score": 0.022199999541044235,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10893",
+        "display_name": "Chinese history and philosophy",
+        "score": 0.009700000286102295,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -17886,59 +18154,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/china",
-        "display_name": "China",
-        "score": 0.8614547252655029
+        "id": "https://openalex.org/keywords/swiss-firms",
+        "display_name": "Swiss companies",
+        "score": 0.6039999723434448
       },
       {
-        "id": "https://openalex.org/keywords/adventure",
-        "display_name": "Adventure",
-        "score": 0.5003824234008789
+        "id": "https://openalex.org/keywords/foreign-direct-investment",
+        "display_name": "foreign direct investment",
+        "score": 0.703000009059906
       },
       {
-        "id": "https://openalex.org/keywords/economy",
-        "display_name": "Economy",
-        "score": 0.4936312437057495
+        "id": "https://openalex.org/keywords/industrial-espionage",
+        "display_name": "industrial espionage",
+        "score": 0.7689999938011169
       },
       {
-        "id": "https://openalex.org/keywords/communism",
-        "display_name": "Communism",
-        "score": 0.47348082065582275
+        "id": "https://openalex.org/keywords/cultural-ignorance",
+        "display_name": "cultural ignorance",
+        "score": 0.6230000257492065
       },
       {
-        "id": "https://openalex.org/keywords/competition",
-        "display_name": "Competition (biology)",
-        "score": 0.45645520091056824
+        "id": "https://openalex.org/keywords/international-competition",
+        "display_name": "international competition",
+        "score": 0.8140000104904175
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.4033905863761902
+        "id": "https://openalex.org/keywords/bilateral-economic-relations",
+        "display_name": "bilateral economic relations",
+        "score": 0.7590000033378601
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.39879441261291504
-      },
-      {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.36368328332901
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.2315538227558136
-      },
-      {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.17038315534591675
-      },
-      {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.16158077120780945
+        "id": "https://openalex.org/keywords/chinese-economic-reform",
+        "display_name": "Chinese economic reform",
+        "score": 0.4099999964237213
       }
     ],
     "concepts": [
@@ -18046,9 +18294,10 @@
     "locations": [
       {
         "id": "doi:10.1177/00220094251323798",
+        "doi": "https://doi.org/10.1177/00220094251323798",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/00220094251323798",
-        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251323798",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S161550498",
           "display_name": "Journal of Contemporary History",
@@ -18060,6 +18309,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -18079,7 +18338,39 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:pubmedcentral.nih.gov:12240485",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12240485",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "J Contemp Hist",
+        "raw_type": "Text"
+      },
+      {
         "id": "pmid:40642308",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40642308",
         "pdf_url": null,
@@ -18091,6 +18382,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -18105,10 +18397,11 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "Journal of contemporary history",
-        "raw_type": null
+        "raw_type": "Journal Article"
       },
       {
         "id": "pmh:oai:freidok.uni-freiburg.de:280765",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://freidok.uni-freiburg.de/data/280765",
         "pdf_url": null,
@@ -18120,6 +18413,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I161046081",
           "host_organization_name": "University of Freiburg",
           "host_organization_lineage": [
@@ -18135,42 +18429,14 @@
         "is_published": false,
         "raw_source_name": "Journal of Contemporary History. - 60, 3 (2025) , 508-530, ISSN: 1461-7250",
         "raw_type": "article"
-      },
-      {
-        "id": "pmh:oai:pubmedcentral.nih.gov:12240485",
-        "is_oa": true,
-        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12240485",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S2764455111",
-          "display_name": "PubMed Central",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": true,
-          "is_in_doaj": false,
-          "is_core": false,
-          "host_organization": "https://openalex.org/I1299303238",
-          "host_organization_name": "National Institutes of Health",
-          "host_organization_lineage": [
-            "https://openalex.org/I1299303238"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": "cc-by",
-        "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": "J Contemp Hist",
-        "raw_type": "Text"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1177/00220094251323798",
+      "doi": "https://doi.org/10.1177/00220094251323798",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094251323798",
-      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/00220094251323798",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S161550498",
         "display_name": "Journal of Contemporary History",
@@ -18182,6 +18448,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -18201,6 +18477,8 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -18210,23 +18488,23 @@
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W2605586341",
-      "https://openalex.org/W1967203325",
-      "https://openalex.org/W4302322097",
-      "https://openalex.org/W1491125066",
-      "https://openalex.org/W2089227341",
-      "https://openalex.org/W2895885147",
-      "https://openalex.org/W207990149",
-      "https://openalex.org/W4406906859",
-      "https://openalex.org/W2377023603",
-      "https://openalex.org/W2381805003"
+      "https://openalex.org/W7213644930",
+      "https://openalex.org/W2147579612",
+      "https://openalex.org/W273028136",
+      "https://openalex.org/W3199674950",
+      "https://openalex.org/W7213623953",
+      "https://openalex.org/W2087386614",
+      "https://openalex.org/W2955368533",
+      "https://openalex.org/W7115983752",
+      "https://openalex.org/W2082741625",
+      "https://openalex.org/W580064456"
     ],
     "abstract_inverted_index": {
       "This": [
@@ -18605,8 +18883,8 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2025-03-14T00:00:00"
   },
   {
     "id": "https://openalex.org/W3192461139",

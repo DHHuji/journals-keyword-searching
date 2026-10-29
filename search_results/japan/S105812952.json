@@ -2007,7 +2007,7 @@
     "doi": "https://doi.org/10.1017/s1742058x25000037",
     "title": "From White Supremacy to a Multiracial Mainstream in Hawai\u2018i",
     "display_name": "From White Supremacy to a Multiracial Mainstream in Hawai\u2018i",
-    "relevance_score": 0.84936726,
+    "relevance_score": 2.4337888,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -2017,6 +2017,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s1742058x25000037",
+      "doi": "https://doi.org/10.1017/s1742058x25000037",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1017/s1742058x25000037",
       "pdf_url": null,
@@ -2031,6 +2032,14 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -2051,6 +2060,7 @@
       "raw_source_name": "Du Bois Review: Social Science Research on Race",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -2067,7 +2077,10 @@
         "author": {
           "id": "https://openalex.org/A5014686784",
           "display_name": "Richard Alba",
-          "orcid": "https://orcid.org/0000-0003-2966-441X"
+          "orcid": "https://orcid.org/0000-0003-2966-441X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2966-441X"
+          ]
         },
         "institutions": [
           {
@@ -2089,6 +2102,7 @@
         "raw_affiliation_strings": [
           "The Graduate Center, CUNY"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "The Graduate Center, CUNY",
@@ -2102,8 +2116,9 @@
         "author_position": "middle",
         "author": {
           "id": "https://openalex.org/A5082642899",
-          "display_name": "John Torpey",
-          "orcid": null
+          "display_name": "John C. Torpey",
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -2125,6 +2140,7 @@
         "raw_affiliation_strings": [
           "The Graduate Center, CUNY"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "The Graduate Center, CUNY",
@@ -2137,9 +2153,12 @@
       {
         "author_position": "last",
         "author": {
-          "id": "https://openalex.org/A5117575524",
-          "display_name": "Juan Dolores Cerna",
-          "orcid": null
+          "id": "https://openalex.org/A5083962635",
+          "display_name": "Juan Dolores",
+          "orcid": "https://orcid.org/0009-0003-4905-6822",
+          "observed_orcids": [
+            "https://orcid.org/0009-0003-4905-6822"
+          ]
         },
         "institutions": [
           {
@@ -2161,6 +2180,7 @@
         "raw_affiliation_strings": [
           "The Graduate Center, CUNY"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "The Graduate Center, CUNY",
@@ -2173,24 +2193,31 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 3,
+    "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5014686784"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I121847817"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
-    "has_fulltext": false,
-    "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.13585831,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
     },
-    "cited_by_percentile_year": null,
+    "apc_paid": null,
+    "fwci": 6.9066,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.94125783,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": "22",
       "issue": "2",
@@ -2203,7 +2230,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12323",
       "display_name": "Asian American and Pacific Histories",
-      "score": 0.9919999837875366,
+      "score": 0.8490999937057495,
       "subfield": {
         "id": "https://openalex.org/subfields/3316",
         "display_name": "Cultural Studies"
@@ -2221,10 +2248,44 @@
       {
         "id": "https://openalex.org/T12323",
         "display_name": "Asian American and Pacific Histories",
-        "score": 0.9919999837875366,
+        "score": 0.8490999937057495,
         "subfield": {
           "id": "https://openalex.org/subfields/3316",
           "display_name": "Cultural Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10652",
+        "display_name": "Racial and Ethnic Identity Research",
+        "score": 0.06449999660253525,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12765",
+        "display_name": "Race, History, and American Society",
+        "score": 0.0406000018119812,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -2239,48 +2300,58 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/white-supremacy",
-        "display_name": "White supremacy",
-        "score": 0.954302191734314
+        "display_name": "white supremacy",
+        "score": 0.8650000095367432
       },
       {
-        "id": "https://openalex.org/keywords/mainstream",
-        "display_name": "Mainstream",
-        "score": 0.8224799036979675
+        "id": "https://openalex.org/keywords/hawaii",
+        "display_name": "Hawaii",
+        "score": 0.6539999842643738
       },
       {
-        "id": "https://openalex.org/keywords/white",
-        "display_name": "White (mutation)",
-        "score": 0.5431628823280334
+        "id": "https://openalex.org/keywords/chinese-americans",
+        "display_name": "Chinese Americans",
+        "score": 0.7680000066757202
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.3532336354255676
+        "id": "https://openalex.org/keywords/japanese-americans",
+        "display_name": "Japanese Americans",
+        "score": 1.0
       },
       {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.3523252010345459
+        "id": "https://openalex.org/keywords/white-ethnics",
+        "display_name": "white ethnics",
+        "score": 0.6909999847412109
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.28836965560913086
+        "id": "https://openalex.org/keywords/racial-mixing",
+        "display_name": "racial mixing",
+        "score": 0.6480000019073486
       },
       {
-        "id": "https://openalex.org/keywords/racism",
-        "display_name": "Racism",
-        "score": 0.2681954503059387
+        "id": "https://openalex.org/keywords/settler-colonialism",
+        "display_name": "settler colonialism",
+        "score": 0.7519999742507935
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.10811108350753784
+        "id": "https://openalex.org/keywords/racial-capitalism",
+        "display_name": "racial capitalism",
+        "score": 0.8190000057220459
       },
       {
-        "id": "https://openalex.org/keywords/biology",
-        "display_name": "Biology",
-        "score": 0.08690983057022095
+        "id": "https://openalex.org/keywords/plantation-society",
+        "display_name": "plantation society",
+        "score": 0.9629999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/educational-attainment",
+        "display_name": "educational attainment",
+        "score": 0.49799999594688416
+      },
+      {
+        "id": "https://openalex.org/keywords/racial-inequality",
+        "display_name": "racial inequality",
+        "score": 0.7419999837875366
       }
     ],
     "concepts": [
@@ -2367,6 +2438,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s1742058x25000037",
+        "doi": "https://doi.org/10.1017/s1742058x25000037",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1017/s1742058x25000037",
         "pdf_url": null,
@@ -2381,6 +2453,14 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -2403,19 +2483,28 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.8974000215530396,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
-    "referenced_works_count": 44,
+    "referenced_works_count": 42,
     "referenced_works": [
-      "https://openalex.org/W571170387",
+      "https://openalex.org/W106155763",
       "https://openalex.org/W1507090913",
       "https://openalex.org/W1516160258",
+      "https://openalex.org/W1537524738",
       "https://openalex.org/W1606136101",
       "https://openalex.org/W1949937452",
       "https://openalex.org/W1989753893",
@@ -2424,6 +2513,7 @@
       "https://openalex.org/W2045766637",
       "https://openalex.org/W2052252887",
       "https://openalex.org/W2097001944",
+      "https://openalex.org/W2131910699",
       "https://openalex.org/W2165021253",
       "https://openalex.org/W2170953612",
       "https://openalex.org/W2280915123",
@@ -2436,26 +2526,22 @@
       "https://openalex.org/W2736462638",
       "https://openalex.org/W2775776286",
       "https://openalex.org/W3179074068",
-      "https://openalex.org/W3206177104",
       "https://openalex.org/W3208188419",
-      "https://openalex.org/W4213279905",
       "https://openalex.org/W4231032673",
       "https://openalex.org/W4231076831",
       "https://openalex.org/W4232907265",
       "https://openalex.org/W4285656014",
       "https://openalex.org/W4285697695",
+      "https://openalex.org/W4288863552",
       "https://openalex.org/W4299816454",
       "https://openalex.org/W4302313776",
       "https://openalex.org/W4302565602",
       "https://openalex.org/W4378187216",
-      "https://openalex.org/W4385886410",
       "https://openalex.org/W4390407890",
       "https://openalex.org/W4394930868",
       "https://openalex.org/W4403128292",
       "https://openalex.org/W4404236545",
       "https://openalex.org/W4408677362",
-      "https://openalex.org/W6640658385",
-      "https://openalex.org/W6873818255",
       "https://openalex.org/W6925486529"
     ],
     "related_works": [
@@ -2920,8 +3006,13 @@
         187
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -3686,5 +3777,1226 @@
     "counts_by_year": [],
     "updated_date": "2025-12-19T19:40:27.379048",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7163175569",
+    "doi": "https://doi.org/10.1017/s1742058x26100149",
+    "title": "Generational Status and Political Participation Among Asian Americans",
+    "display_name": "Generational Status and Political Participation Among Asian Americans",
+    "relevance_score": 1.417733,
+    "publication_year": 2026,
+    "publication_date": "2026-06-02",
+    "ids": {
+      "openalex": "https://openalex.org/W7163175569",
+      "doi": "https://doi.org/10.1017/s1742058x26100149"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s1742058x26100149",
+      "doi": "https://doi.org/10.1017/s1742058x26100149",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s1742058x26100149",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F90558BD31B676A8F8CF8EEAC2D9AA78/S1742058X26100149a.pdf/div-class-title-generational-status-and-political-participation-among-asian-americans-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S105812952",
+        "display_name": "Du Bois Review Social Science Research on Race",
+        "issn_l": "1742-058X",
+        "issn": [
+          "1742-058X",
+          "1742-0598"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Du Bois Review: Social Science Research on Race",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F90558BD31B676A8F8CF8EEAC2D9AA78/S1742058X26100149a.pdf/div-class-title-generational-status-and-political-participation-among-asian-americans-div.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5037281906",
+          "display_name": "Chigon Kim",
+          "orcid": "https://orcid.org/0000-0003-0875-2541",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0875-2541"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I19648265",
+            "display_name": "Wright State University",
+            "ror": "https://ror.org/04qk6pt94",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I19648265"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Chigon Kim",
+        "raw_affiliation_strings": [
+          "Wright State University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Wright State University",
+            "institution_ids": [
+              "https://openalex.org/I19648265"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5037281906"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I19648265"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.40843988,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "25"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10216",
+      "display_name": "Migration, Refugees, and Integration",
+      "score": 0.5776000022888184,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.5776000022888184,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10108",
+        "display_name": "Electoral Systems and Political Participation",
+        "score": 0.2493000030517578,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12323",
+        "display_name": "Asian American and Pacific Histories",
+        "score": 0.0917000025510788,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/asian-americans",
+        "display_name": "Asian Americans",
+        "score": 0.8870000243186951
+      },
+      {
+        "id": "https://openalex.org/keywords/political-participation",
+        "display_name": "political participation",
+        "score": 0.8410000205039978
+      },
+      {
+        "id": "https://openalex.org/keywords/immigrant-generations",
+        "display_name": "immigrant generations",
+        "score": 0.9079999923706055
+      },
+      {
+        "id": "https://openalex.org/keywords/social-integration",
+        "display_name": "social integration",
+        "score": 0.8669999837875366
+      },
+      {
+        "id": "https://openalex.org/keywords/political-incorporation",
+        "display_name": "political incorporation",
+        "score": 0.9359999895095825
+      },
+      {
+        "id": "https://openalex.org/keywords/length-of-residence",
+        "display_name": "length of residence",
+        "score": 0.7319999933242798
+      },
+      {
+        "id": "https://openalex.org/keywords/civic-organizations",
+        "display_name": "civic organizations",
+        "score": 0.6959999799728394
+      },
+      {
+        "id": "https://openalex.org/keywords/campaign-contributions",
+        "display_name": "campaign contributions",
+        "score": 0.843999981880188
+      },
+      {
+        "id": "https://openalex.org/keywords/protest",
+        "display_name": "protest",
+        "score": 0.5680000185966492
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C70036468",
+        "wikidata": "https://www.wikidata.org/wiki/Q131288",
+        "display_name": "Immigration",
+        "level": 2,
+        "score": 0.8554999828338623
+      },
+      {
+        "id": "https://openalex.org/C2776269092",
+        "wikidata": "https://www.wikidata.org/wiki/Q1611074",
+        "display_name": "Residence",
+        "level": 2,
+        "score": 0.7505999803543091
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.7283999919891357
+      },
+      {
+        "id": "https://openalex.org/C520049643",
+        "wikidata": "https://www.wikidata.org/wiki/Q189760",
+        "display_name": "Voting",
+        "level": 3,
+        "score": 0.5771999955177307
+      },
+      {
+        "id": "https://openalex.org/C177324205",
+        "wikidata": "https://www.wikidata.org/wiki/Q2540376",
+        "display_name": "Voting behavior",
+        "level": 4,
+        "score": 0.49459999799728394
+      },
+      {
+        "id": "https://openalex.org/C4249254",
+        "wikidata": "https://www.wikidata.org/wiki/Q3044431",
+        "display_name": "Demographic economics",
+        "level": 1,
+        "score": 0.4675000011920929
+      },
+      {
+        "id": "https://openalex.org/C2778137410",
+        "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+        "display_name": "Government (linguistics)",
+        "level": 2,
+        "score": 0.42570000886917114
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.41519999504089355
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.4099000096321106
+      },
+      {
+        "id": "https://openalex.org/C193521449",
+        "wikidata": "https://www.wikidata.org/wiki/Q4915057",
+        "display_name": "Biology and political orientation",
+        "level": 3,
+        "score": 0.35499998927116394
+      },
+      {
+        "id": "https://openalex.org/C39896193",
+        "wikidata": "https://www.wikidata.org/wiki/Q380344",
+        "display_name": "Descriptive statistics",
+        "level": 2,
+        "score": 0.33250001072883606
+      },
+      {
+        "id": "https://openalex.org/C3019166669",
+        "wikidata": "https://www.wikidata.org/wiki/Q727928",
+        "display_name": "Asian americans",
+        "level": 3,
+        "score": 0.32580000162124634
+      },
+      {
+        "id": "https://openalex.org/C2909145594",
+        "wikidata": "https://www.wikidata.org/wiki/Q2643509",
+        "display_name": "Asian Indian",
+        "level": 3,
+        "score": 0.3165999948978424
+      },
+      {
+        "id": "https://openalex.org/C120936955",
+        "wikidata": "https://www.wikidata.org/wiki/Q2155640",
+        "display_name": "Empirical research",
+        "level": 2,
+        "score": 0.3061000108718872
+      },
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.29989999532699585
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.2930999994277954
+      },
+      {
+        "id": "https://openalex.org/C38180746",
+        "wikidata": "https://www.wikidata.org/wiki/Q1952580",
+        "display_name": "Multivariate analysis",
+        "level": 2,
+        "score": 0.2865999937057495
+      },
+      {
+        "id": "https://openalex.org/C117347162",
+        "wikidata": "https://www.wikidata.org/wiki/Q1376959",
+        "display_name": "European Social Survey",
+        "level": 3,
+        "score": 0.2865999937057495
+      },
+      {
+        "id": "https://openalex.org/C81307892",
+        "wikidata": "https://www.wikidata.org/wiki/Q303132",
+        "display_name": "Political culture",
+        "level": 3,
+        "score": 0.2849000096321106
+      },
+      {
+        "id": "https://openalex.org/C2776431611",
+        "wikidata": "https://www.wikidata.org/wiki/Q4116870",
+        "display_name": "Civic engagement",
+        "level": 3,
+        "score": 0.28130000829696655
+      },
+      {
+        "id": "https://openalex.org/C2778719706",
+        "wikidata": "https://www.wikidata.org/wiki/Q6501447",
+        "display_name": "Local government",
+        "level": 2,
+        "score": 0.26570001244544983
+      },
+      {
+        "id": "https://openalex.org/C2781160424",
+        "wikidata": "https://www.wikidata.org/wiki/Q370735",
+        "display_name": "Social integration",
+        "level": 2,
+        "score": 0.262800008058548
+      },
+      {
+        "id": "https://openalex.org/C2778334786",
+        "wikidata": "https://www.wikidata.org/wiki/Q1586270",
+        "display_name": "Variation (astronomy)",
+        "level": 2,
+        "score": 0.2603999972343445
+      },
+      {
+        "id": "https://openalex.org/C2780781376",
+        "wikidata": "https://www.wikidata.org/wiki/Q42138",
+        "display_name": "Citizenship",
+        "level": 3,
+        "score": 0.2578999996185303
+      },
+      {
+        "id": "https://openalex.org/C50522688",
+        "wikidata": "https://www.wikidata.org/wiki/Q189833",
+        "display_name": "Economic growth",
+        "level": 1,
+        "score": 0.2551000118255615
+      },
+      {
+        "id": "https://openalex.org/C514689293",
+        "wikidata": "https://www.wikidata.org/wiki/Q16147165",
+        "display_name": "American political science",
+        "level": 3,
+        "score": 0.2549000084400177
+      },
+      {
+        "id": "https://openalex.org/C2779101040",
+        "wikidata": "https://www.wikidata.org/wiki/Q3373417",
+        "display_name": "Country of origin",
+        "level": 2,
+        "score": 0.25130000710487366
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1017/s1742058x26100149",
+        "doi": "https://doi.org/10.1017/s1742058x26100149",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1017/s1742058x26100149",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F90558BD31B676A8F8CF8EEAC2D9AA78/S1742058X26100149a.pdf/div-class-title-generational-status-and-political-participation-among-asian-americans-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S105812952",
+          "display_name": "Du Bois Review Social Science Research on Race",
+          "issn_l": "1742-058X",
+          "issn": [
+            "1742-058X",
+            "1742-0598"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "erih-plus",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Du Bois Review: Social Science Research on Race",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1017/s1742058x26100149",
+      "doi": "https://doi.org/10.1017/s1742058x26100149",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s1742058x26100149",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F90558BD31B676A8F8CF8EEAC2D9AA78/S1742058X26100149a.pdf/div-class-title-generational-status-and-political-participation-among-asian-americans-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S105812952",
+        "display_name": "Du Bois Review Social Science Research on Race",
+        "issn_l": "1742-058X",
+        "issn": [
+          "1742-058X",
+          "1742-0598"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "erih-plus",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Du Bois Review: Social Science Research on Race",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.5676000118255615,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.7098948955535889,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "study_designs": [
+      {
+        "display_name": "Observational Study",
+        "id": "https://openalex.org/study-designs/observational-study"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7163175569.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7163175569.grobid-xml"
+    },
+    "referenced_works_count": 47,
+    "referenced_works": [
+      "https://openalex.org/W591668564",
+      "https://openalex.org/W1558286639",
+      "https://openalex.org/W1576258756",
+      "https://openalex.org/W1967136714",
+      "https://openalex.org/W1967370991",
+      "https://openalex.org/W1993326151",
+      "https://openalex.org/W1996066142",
+      "https://openalex.org/W1996846017",
+      "https://openalex.org/W2006504733",
+      "https://openalex.org/W2012592026",
+      "https://openalex.org/W2025724419",
+      "https://openalex.org/W2029447814",
+      "https://openalex.org/W2035012060",
+      "https://openalex.org/W2036241737",
+      "https://openalex.org/W2046542385",
+      "https://openalex.org/W2048727984",
+      "https://openalex.org/W2054007829",
+      "https://openalex.org/W2065762765",
+      "https://openalex.org/W2091878149",
+      "https://openalex.org/W2093368401",
+      "https://openalex.org/W2098293622",
+      "https://openalex.org/W2119538357",
+      "https://openalex.org/W2143475184",
+      "https://openalex.org/W2143573572",
+      "https://openalex.org/W2147812689",
+      "https://openalex.org/W2151544484",
+      "https://openalex.org/W2156246835",
+      "https://openalex.org/W2163869576",
+      "https://openalex.org/W2166752056",
+      "https://openalex.org/W2335084882",
+      "https://openalex.org/W2342030664",
+      "https://openalex.org/W2409585879",
+      "https://openalex.org/W2417241217",
+      "https://openalex.org/W2777679579",
+      "https://openalex.org/W2791296773",
+      "https://openalex.org/W2801919646",
+      "https://openalex.org/W2939412670",
+      "https://openalex.org/W3000574628",
+      "https://openalex.org/W3048587365",
+      "https://openalex.org/W3122635518",
+      "https://openalex.org/W4200236959",
+      "https://openalex.org/W4234492056",
+      "https://openalex.org/W4238042393",
+      "https://openalex.org/W4238819517",
+      "https://openalex.org/W4246137507",
+      "https://openalex.org/W4364356937",
+      "https://openalex.org/W4387474794"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "One": [
+        1
+      ],
+      "way": [
+        2
+      ],
+      "to": [
+        3,
+        14,
+        71,
+        177
+      ],
+      "understand": [
+        4
+      ],
+      "the": [
+        5,
+        39,
+        51,
+        55,
+        58,
+        115,
+        128,
+        134,
+        138,
+        184,
+        210,
+        221,
+        235,
+        248
+      ],
+      "trajectories": [
+        6
+      ],
+      "and": [
+        7,
+        70,
+        86,
+        107,
+        109,
+        121,
+        150,
+        182,
+        202,
+        263
+      ],
+      "outcomes": [
+        8
+      ],
+      "of": [
+        9,
+        25,
+        60,
+        76,
+        81,
+        97,
+        118,
+        164,
+        197,
+        223,
+        237,
+        245,
+        257
+      ],
+      "immigrant": [
+        10,
+        21,
+        35,
+        64,
+        89,
+        204
+      ],
+      "political": [
+        11,
+        18,
+        26,
+        61,
+        77,
+        103,
+        154,
+        166,
+        169,
+        192,
+        224,
+        258
+      ],
+      "incorporation": [
+        12,
+        259
+      ],
+      "is": [
+        13,
+        157
+      ],
+      "examine": [
+        15
+      ],
+      "changes": [
+        16
+      ],
+      "in": [
+        17,
+        57,
+        102,
+        111,
+        114,
+        209,
+        220,
+        231
+      ],
+      "participation": [
+        19,
+        27,
+        62,
+        78,
+        155,
+        193
+      ],
+      "across": [
+        20,
+        34,
+        63,
+        79,
+        87,
+        203
+      ],
+      "generations.": [
+        22,
+        65
+      ],
+      "Yet,": [
+        23
+      ],
+      "patterns": [
+        24,
+        75,
+        120
+      ],
+      "other": [
+        28,
+        122
+      ],
+      "than": [
+        29,
+        242
+      ],
+      "voting": [
+        30
+      ],
+      "among": [
+        31,
+        83,
+        199,
+        260
+      ],
+      "Asian": [
+        32,
+        131,
+        141,
+        145,
+        261
+      ],
+      "Americans": [
+        33
+      ],
+      "generations,": [
+        36,
+        205
+      ],
+      "particularly": [
+        37,
+        100
+      ],
+      "beyond": [
+        38
+      ],
+      "second": [
+        40
+      ],
+      "generation,": [
+        41
+      ],
+      "remain": [
+        42
+      ],
+      "understudied.": [
+        43
+      ],
+      "In": [
+        44
+      ],
+      "addition,": [
+        45
+      ],
+      "little": [
+        46
+      ],
+      "empirical": [
+        47
+      ],
+      "research": [
+        48
+      ],
+      "has": [
+        49
+      ],
+      "examined": [
+        50
+      ],
+      "mechanisms": [
+        52
+      ],
+      "that": [
+        53,
+        191,
+        216
+      ],
+      "generate": [
+        54
+      ],
+      "differences": [
+        56,
+        219
+      ],
+      "extent": [
+        59
+      ],
+      "This": [
+        66
+      ],
+      "study": [
+        67
+      ],
+      "investigates": [
+        68
+      ],
+      "whether,": [
+        69
+      ],
+      "what": [
+        72
+      ],
+      "extent,": [
+        73
+      ],
+      "observed": [
+        74
+      ],
+      "length": [
+        80,
+        196
+      ],
+      "residence": [
+        82,
+        198
+      ],
+      "first-generation": [
+        84,
+        200
+      ],
+      "immigrants": [
+        85,
+        201,
+        239,
+        262
+      ],
+      "successive": [
+        88
+      ],
+      "generations": [
+        90
+      ],
+      "can": [
+        91
+      ],
+      "be": [
+        92
+      ],
+      "accounted": [
+        93
+      ],
+      "for": [
+        94
+      ],
+      "by": [
+        95,
+        159,
+        229
+      ],
+      "indicators": [
+        96,
+        163
+      ],
+      "social": [
+        98,
+        232,
+        251
+      ],
+      "integration,": [
+        99,
+        233
+      ],
+      "engagement": [
+        101
+      ],
+      "discussion": [
+        104
+      ],
+      "with": [
+        105,
+        175,
+        195,
+        234,
+        240
+      ],
+      "family": [
+        106
+      ],
+      "friends": [
+        108
+      ],
+      "involvement": [
+        110
+      ],
+      "civic": [
+        112
+      ],
+      "organizations": [
+        113
+      ],
+      "community,": [
+        116
+      ],
+      "net": [
+        117
+      ],
+      "marriage": [
+        119
+      ],
+      "sociodemographic": [
+        123
+      ],
+      "characteristics.": [
+        124
+      ],
+      "Using": [
+        125
+      ],
+      "data": [
+        126
+      ],
+      "from": [
+        127
+      ],
+      "2008": [
+        129
+      ],
+      "National": [
+        130
+      ],
+      "American": [
+        132,
+        142
+      ],
+      "Survey,": [
+        133
+      ],
+      "analysis": [
+        135
+      ],
+      "focuses": [
+        136
+      ],
+      "on": [
+        137
+      ],
+      "six": [
+        139
+      ],
+      "largest": [
+        140
+      ],
+      "groups:": [
+        143
+      ],
+      "Chinese,": [
+        144
+      ],
+      "Indian,": [
+        146
+      ],
+      "Filipino,": [
+        147
+      ],
+      "Vietnamese,": [
+        148
+      ],
+      "Korean,": [
+        149
+      ],
+      "Japanese.": [
+        151
+      ],
+      "An": [
+        152
+      ],
+      "overall": [
+        153
+      ],
+      "index": [
+        156
+      ],
+      "constructed": [
+        158
+      ],
+      "counting": [
+        160
+      ],
+      "five": [
+        161
+      ],
+      "dichotomous": [
+        162
+      ],
+      "nonvoting": [
+        165
+      ],
+      "activity\u2014campaigning,": [
+        167
+      ],
+      "making": [
+        168
+      ],
+      "donations,": [
+        170
+      ],
+      "contacting": [
+        171
+      ],
+      "government": [
+        172
+      ],
+      "officials,": [
+        173
+      ],
+      "working": [
+        174
+      ],
+      "others": [
+        176
+      ],
+      "solve": [
+        178
+      ],
+      "a": [
+        179,
+        254
+      ],
+      "community": [
+        180
+      ],
+      "problem,": [
+        181
+      ],
+      "protesting\u2014in": [
+        183
+      ],
+      "last": [
+        185
+      ],
+      "twelve": [
+        186
+      ],
+      "months.": [
+        187
+      ],
+      "Descriptive": [
+        188
+      ],
+      "results": [
+        189
+      ],
+      "show": [
+        190
+      ],
+      "increases": [
+        194
+      ],
+      "but": [
+        206
+      ],
+      "tapers": [
+        207
+      ],
+      "off": [
+        208
+      ],
+      "third": [
+        211
+      ],
+      "generation.": [
+        212
+      ],
+      "Multivariate": [
+        213
+      ],
+      "analyses": [
+        214
+      ],
+      "indicate": [
+        215
+      ],
+      "these": [
+        217
+      ],
+      "generational": [
+        218
+      ],
+      "number": [
+        222
+      ],
+      "activities": [
+        225
+      ],
+      "are": [
+        226
+      ],
+      "largely": [
+        227
+      ],
+      "explained": [
+        228
+      ],
+      "variation": [
+        230
+      ],
+      "exception": [
+        236
+      ],
+      "recent": [
+        238
+      ],
+      "fewer": [
+        241
+      ],
+      "ten": [
+        243
+      ],
+      "years": [
+        244
+      ],
+      "residence.": [
+        246
+      ],
+      "Overall,": [
+        247
+      ],
+      "findings": [
+        249
+      ],
+      "highlight": [
+        250
+      ],
+      "integration": [
+        252
+      ],
+      "as": [
+        253
+      ],
+      "key": [
+        255
+      ],
+      "mechanism": [
+        256
+      ],
+      "their": [
+        264
+      ],
+      "descendants.": [
+        265
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2026-06-03T00:00:00"
   }
 ]

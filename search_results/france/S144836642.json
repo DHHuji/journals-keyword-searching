@@ -29451,9 +29451,9 @@
   {
     "id": "https://openalex.org/W4411457741",
     "doi": "https://doi.org/10.1177/17506980251330557",
-    "title": "Intergenerational memory and trauma. From the <i>micro</i> to the <i>macro</i> , and back again: It is not that easy",
-    "display_name": "Intergenerational memory and trauma. From the <i>micro</i> to the <i>macro</i> , and back again: It is not that easy",
-    "relevance_score": 1.9452972,
+    "title": "Intergenerational memory and trauma. From the micro to the macro , and back again: It is not that easy",
+    "display_name": "Intergenerational memory and trauma. From the micro to the macro , and back again: It is not that easy",
+    "relevance_score": 1.3580859,
     "publication_year": 2025,
     "publication_date": "2025-06-01",
     "ids": {
@@ -29463,6 +29463,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/17506980251330557",
+      "doi": "https://doi.org/10.1177/17506980251330557",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/17506980251330557",
       "pdf_url": null,
@@ -29477,6 +29478,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -29495,6 +29506,7 @@
       "raw_source_name": "Memory Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -29511,7 +29523,10 @@
         "author": {
           "id": "https://openalex.org/A5086166992",
           "display_name": "Giorgia Proietti",
-          "orcid": "https://orcid.org/0000-0003-1310-3925"
+          "orcid": "https://orcid.org/0000-0003-1310-3925",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1310-3925"
+          ]
         },
         "institutions": [
           {
@@ -29553,19 +29568,23 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I193223587"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
-    "fwci": 2.1559,
-    "has_fulltext": false,
-    "cited_by_count": 1,
+    "fwci": 23.9899,
+    "has_fulltext": true,
+    "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.86580962,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "value": 0.99150873,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 97
     },
     "biblio": {
       "volume": "18",
@@ -29577,16 +29596,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11104",
-      "display_name": "Memory, Trauma, and Commemoration",
-      "score": 0.9977999925613403,
+      "id": "https://openalex.org/T12927",
+      "display_name": "Memory, History, Trauma, Identity",
+      "score": 0.8535000085830688,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -29595,9 +29614,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T12927",
+        "display_name": "Memory, History, Trauma, Identity",
+        "score": 0.8535000085830688,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11104",
         "display_name": "Memory, Trauma, and Commemoration",
-        "score": 0.9977999925613403,
+        "score": 0.10490000247955322,
         "subfield": {
           "id": "https://openalex.org/subfields/3207",
           "display_name": "Social Psychology"
@@ -29612,33 +29648,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13590",
-        "display_name": "Oral History, Memory, Narrative Analysis",
-        "score": 0.988099992275238,
+        "id": "https://openalex.org/T12493",
+        "display_name": "Memory, violence, and history",
+        "score": 0.018699999898672104,
         "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13070",
-        "display_name": "Cultural Identity and Heritage",
-        "score": 0.9688000082969666,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1204",
-          "display_name": "Archeology"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -29648,84 +29667,69 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/conversation",
-        "display_name": "Conversation",
-        "score": 0.6736272573471069
-      },
-      {
-        "id": "https://openalex.org/keywords/narrative",
-        "display_name": "Narrative",
-        "score": 0.6353877186775208
+        "id": "https://openalex.org/keywords/intergenerational-trauma",
+        "display_name": "intergenerational trauma",
+        "score": 0.9409999847412109
       },
       {
         "id": "https://openalex.org/keywords/collective-memory",
-        "display_name": "Collective memory",
-        "score": 0.5642987489700317
-      },
-      {
-        "id": "https://openalex.org/keywords/context",
-        "display_name": "Context (archaeology)",
-        "score": 0.5215401649475098
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.4939764142036438
+        "display_name": "collective memory",
+        "score": 0.9319999814033508
       },
       {
         "id": "https://openalex.org/keywords/cultural-memory",
-        "display_name": "Cultural memory",
-        "score": 0.46580037474632263
+        "display_name": "cultural memory",
+        "score": 0.8539999723434448
       },
       {
-        "id": "https://openalex.org/keywords/epistemology",
-        "display_name": "Epistemology",
-        "score": 0.4625825881958008
+        "id": "https://openalex.org/keywords/microhistory",
+        "display_name": "microhistory",
+        "score": 0.746999979019165
       },
       {
-        "id": "https://openalex.org/keywords/traumatic-memories",
-        "display_name": "Traumatic memories",
-        "score": 0.45730119943618774
+        "id": "https://openalex.org/keywords/postmemory",
+        "display_name": "postmemory",
+        "score": 0.7419999837875366
       },
       {
-        "id": "https://openalex.org/keywords/conversation-analysis",
-        "display_name": "Conversation analysis",
-        "score": 0.41011059284210205
+        "id": "https://openalex.org/keywords/family-narratives",
+        "display_name": "family narratives",
+        "score": 0.7099999785423279
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.3980661630630493
+        "id": "https://openalex.org/keywords/nazi-collaborators",
+        "display_name": "Nazi collaborators",
+        "score": 0.5669999718666077
       },
       {
-        "id": "https://openalex.org/keywords/linguistics",
-        "display_name": "Linguistics",
-        "score": 0.34506410360336304
+        "id": "https://openalex.org/keywords/world-war-ii",
+        "display_name": "World War II",
+        "score": 0.7710000276565552
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.3092777132987976
+        "id": "https://openalex.org/keywords/epistemic-authority",
+        "display_name": "epistemic authority",
+        "score": 0.7369999885559082
       },
       {
-        "id": "https://openalex.org/keywords/cognitive-psychology",
-        "display_name": "Cognitive psychology",
-        "score": 0.25443750619888306
+        "id": "https://openalex.org/keywords/interactional-sociolinguistics",
+        "display_name": "interactional sociolinguistics",
+        "score": 0.8820000290870667
       },
       {
-        "id": "https://openalex.org/keywords/communication",
-        "display_name": "Communication",
-        "score": 0.12480732798576355
+        "id": "https://openalex.org/keywords/hourglass-model",
+        "display_name": "hourglass model",
+        "score": 0.8100000023841858
       },
       {
-        "id": "https://openalex.org/keywords/anthropology",
-        "display_name": "Anthropology",
-        "score": 0.12117674946784973
+        "id": "https://openalex.org/keywords/assmann",
+        "display_name": "Assmann",
+        "score": 0.5450000166893005
       },
       {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.11869120597839355
+        "id": "https://openalex.org/keywords/maurice-halbwachs",
+        "display_name": "Maurice Halbwachs",
+        "score": 0.9509999752044678
       }
     ],
     "concepts": [
@@ -29861,6 +29865,7 @@
     "locations": [
       {
         "id": "doi:10.1177/17506980251330557",
+        "doi": "https://doi.org/10.1177/17506980251330557",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/17506980251330557",
         "pdf_url": null,
@@ -29875,6 +29880,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -29895,6 +29910,7 @@
       },
       {
         "id": "pmh:oai:iris.unitn.it:11572/450030",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://hdl.handle.net/11572/450030",
         "pdf_url": null,
@@ -29906,6 +29922,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I193223587",
           "host_organization_name": "University of Trento",
           "host_organization_lineage": [
@@ -29924,29 +29941,31 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
+        "display_name": "Quality education",
         "score": 0.4300000071525574,
-        "id": "https://metadata.un.org/sdg/4",
-        "display_name": "Quality Education"
+        "id": "https://metadata.un.org/sdg/4"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
-    "referenced_works_count": 80,
+    "referenced_works_count": 78,
     "referenced_works": [
       "https://openalex.org/W67698254",
       "https://openalex.org/W88798260",
+      "https://openalex.org/W118195208",
       "https://openalex.org/W330974667",
       "https://openalex.org/W377174331",
       "https://openalex.org/W588567757",
       "https://openalex.org/W590388253",
-      "https://openalex.org/W604537462",
       "https://openalex.org/W652229052",
       "https://openalex.org/W776911321",
       "https://openalex.org/W1556340510",
@@ -30005,7 +30024,6 @@
       "https://openalex.org/W4236554878",
       "https://openalex.org/W4237561847",
       "https://openalex.org/W4239113322",
-      "https://openalex.org/W4242902025",
       "https://openalex.org/W4248508712",
       "https://openalex.org/W4253819717",
       "https://openalex.org/W4256709935",
@@ -30018,20 +30036,19 @@
       "https://openalex.org/W4392250198",
       "https://openalex.org/W4393101626",
       "https://openalex.org/W4409976641",
-      "https://openalex.org/W6748372394",
       "https://openalex.org/W7024635668"
     ],
     "related_works": [
-      "https://openalex.org/W70988699",
-      "https://openalex.org/W4386695291",
-      "https://openalex.org/W2332866592",
-      "https://openalex.org/W2802722211",
-      "https://openalex.org/W4251756556",
-      "https://openalex.org/W3112413301",
-      "https://openalex.org/W1510033463",
-      "https://openalex.org/W3130118443",
-      "https://openalex.org/W2029671815",
-      "https://openalex.org/W3168170325"
+      "https://openalex.org/W7106707428",
+      "https://openalex.org/W2897797007",
+      "https://openalex.org/W4248156399",
+      "https://openalex.org/W4410540535",
+      "https://openalex.org/W2807711728",
+      "https://openalex.org/W4406925005",
+      "https://openalex.org/W4395032397",
+      "https://openalex.org/W6999106726",
+      "https://openalex.org/W4244948781",
+      "https://openalex.org/W4310983847"
     ],
     "abstract_inverted_index": {
       "In": [
@@ -30670,11 +30687,15 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 2
+      },
+      {
         "year": 2025,
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -33783,9 +33804,9 @@
   {
     "id": "https://openalex.org/W7117472643",
     "doi": "https://doi.org/10.1177/17506980251397874",
-    "title": "Reinventing the archive in Africa: Mati Diop\u2019s <i>Dahomey</i> (2024)",
-    "display_name": "Reinventing the archive in Africa: Mati Diop\u2019s <i>Dahomey</i> (2024)",
-    "relevance_score": 0.6340161,
+    "title": "Reinventing the archive in Africa: Mati Diop\u2019s Dahomey (2024)",
+    "display_name": "Reinventing the archive in Africa: Mati Diop\u2019s Dahomey (2024)",
+    "relevance_score": 1.795885,
     "publication_year": 2025,
     "publication_date": "2025-12-29",
     "ids": {
@@ -33795,6 +33816,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/17506980251397874",
+      "doi": "https://doi.org/10.1177/17506980251397874",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/17506980251397874",
       "pdf_url": null,
@@ -33809,6 +33831,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -33827,6 +33859,7 @@
       "raw_source_name": "Memory Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -33841,9 +33874,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5121446183",
+          "id": "https://openalex.org/A5033694051",
           "display_name": "Rita Keresztesi",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-1018-5611",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1018-5611"
+          ]
         },
         "institutions": [
           {
@@ -33880,22 +33916,29 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5121446183"
+      "https://openalex.org/A5033694051"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I8692664"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
-    "has_fulltext": false,
-    "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.76697042,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
     },
-    "cited_by_percentile_year": null,
+    "apc_paid": null,
+    "fwci": 4.0682,
+    "has_fulltext": false,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.95205357,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": "19",
       "issue": "1",
@@ -33908,7 +33951,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T13070",
       "display_name": "Cultural Identity and Heritage",
-      "score": 0.18950000405311584,
+      "score": 0.739300012588501,
       "subfield": {
         "id": "https://openalex.org/subfields/1204",
         "display_name": "Archeology"
@@ -33926,7 +33969,7 @@
       {
         "id": "https://openalex.org/T13070",
         "display_name": "Cultural Identity and Heritage",
-        "score": 0.18950000405311584,
+        "score": 0.739300012588501,
         "subfield": {
           "id": "https://openalex.org/subfields/1204",
           "display_name": "Archeology"
@@ -33941,16 +33984,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13162",
-        "display_name": "African Studies and Ethnography",
-        "score": 0.057100001722574234,
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 0.07699999958276749,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -33958,16 +34001,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T14395",
-        "display_name": "African history and culture studies",
-        "score": 0.05559999868273735,
+        "id": "https://openalex.org/T12972",
+        "display_name": "German Colonialism and Identity Studies",
+        "score": 0.05939999967813492,
         "subfield": {
-          "id": "https://openalex.org/subfields/3314",
-          "display_name": "Anthropology"
+          "id": "https://openalex.org/subfields/1208",
+          "display_name": "Literature and Literary Theory"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -33977,44 +34020,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/memorialization",
-        "display_name": "Memorialization",
-        "score": 0.9376000165939331
+        "id": "https://openalex.org/keywords/mati-diop",
+        "display_name": "Mati Diop",
+        "score": 0.8769999742507935
       },
       {
-        "id": "https://openalex.org/keywords/restitution",
-        "display_name": "Restitution",
-        "score": 0.8198999762535095
+        "id": "https://openalex.org/keywords/restitution-of-cultural-property",
+        "display_name": "restitution of cultural property",
+        "score": 0.9309999942779541
       },
       {
-        "id": "https://openalex.org/keywords/conversation",
-        "display_name": "Conversation",
-        "score": 0.5972999930381775
+        "id": "https://openalex.org/keywords/benin",
+        "display_name": "Benin",
+        "score": 0.574999988079071
       },
       {
-        "id": "https://openalex.org/keywords/visual-culture",
-        "display_name": "Visual culture",
-        "score": 0.45669999718666077
+        "id": "https://openalex.org/keywords/looted-artifacts",
+        "display_name": "looted artifacts",
+        "score": 0.5770000219345093
       },
       {
-        "id": "https://openalex.org/keywords/cultural-heritage",
-        "display_name": "Cultural heritage",
-        "score": 0.41760000586509705
+        "id": "https://openalex.org/keywords/decolonization",
+        "display_name": "decolonization",
+        "score": 0.7269999980926514
       },
       {
-        "id": "https://openalex.org/keywords/public-history",
-        "display_name": "Public history",
-        "score": 0.3986000120639801
+        "id": "https://openalex.org/keywords/documentary-film",
+        "display_name": "documentary film",
+        "score": 0.6919999718666077
       },
       {
-        "id": "https://openalex.org/keywords/cultural-artifact",
-        "display_name": "Cultural artifact",
-        "score": 0.375
+        "id": "https://openalex.org/keywords/memory",
+        "display_name": "memory",
+        "score": 0.5450000166893005
       },
       {
-        "id": "https://openalex.org/keywords/corporation",
-        "display_name": "Corporation",
-        "score": 0.3206000030040741
+        "id": "https://openalex.org/keywords/colonialism",
+        "display_name": "colonialism",
+        "score": 0.38499999046325684
+      },
+      {
+        "id": "https://openalex.org/keywords/sacred-objects",
+        "display_name": "sacred objects",
+        "score": 0.49399998784065247
       }
     ],
     "concepts": [
@@ -34192,6 +34240,7 @@
     "locations": [
       {
         "id": "doi:10.1177/17506980251397874",
+        "doi": "https://doi.org/10.1177/17506980251397874",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/17506980251397874",
         "pdf_url": null,
@@ -34206,6 +34255,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -34226,12 +34285,20 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.46149998903274536,
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 8,
@@ -34241,7 +34308,7 @@
       "https://openalex.org/W2032084516",
       "https://openalex.org/W2058372570",
       "https://openalex.org/W2491523636",
-      "https://openalex.org/W4230075832",
+      "https://openalex.org/W2599559014",
       "https://openalex.org/W4395461578",
       "https://openalex.org/W4408693711"
     ],
@@ -34631,8 +34698,3147 @@
         164
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-02-17T06:05:46.635709",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2025-12-29T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7214909581",
+    "doi": "https://doi.org/10.1177/17506980261489066",
+    "title": "Towards a memory justice: Statues as epistemic battlegrounds",
+    "display_name": "Towards a memory justice: Statues as epistemic battlegrounds",
+    "relevance_score": 2.6293056,
+    "publication_year": 2026,
+    "publication_date": "2026-09-29",
+    "ids": {
+      "openalex": "https://openalex.org/W7214909581",
+      "doi": "https://doi.org/10.1177/17506980261489066"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1177/17506980261489066",
+      "doi": "https://doi.org/10.1177/17506980261489066",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/17506980261489066",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S144836642",
+        "display_name": "Memory Studies",
+        "issn_l": "1750-6980",
+        "issn": [
+          "1750-6980",
+          "1750-6999"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Memory Studies",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1177/17506980261489066",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Elizabeth Benjamin",
+          "orcid": "https://orcid.org/0000-0003-0547-0688",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0547-0688"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I73417466",
+            "display_name": "Coventry University",
+            "ror": "https://ror.org/01tgmhj36",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I73417466"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Elizabeth Benjamin",
+        "raw_affiliation_strings": [
+          "Coventry University, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-0547-0688",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Coventry University, UK",
+            "institution_ids": [
+              "https://openalex.org/I73417466"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I73417466"
+    ],
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.78716576,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11104",
+      "display_name": "Memory, Trauma, and Commemoration",
+      "score": 0.9520999789237976,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 0.9520999789237976,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13070",
+        "display_name": "Cultural Identity and Heritage",
+        "score": 0.022700000554323196,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1204",
+          "display_name": "Archeology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12927",
+        "display_name": "Memory, History, Trauma, Identity",
+        "score": 0.014499999582767487,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/epistemic-injustice",
+        "display_name": "epistemic injustice",
+        "score": 0.9629999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/cultural-memory",
+        "display_name": "cultural memory",
+        "score": 0.859000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/heritage-policy",
+        "display_name": "heritage policy",
+        "score": 0.8949999809265137
+      },
+      {
+        "id": "https://openalex.org/keywords/edward-colston-statue",
+        "display_name": "Edward Colston statue",
+        "score": 0.9190000295639038
+      },
+      {
+        "id": "https://openalex.org/keywords/public-monuments",
+        "display_name": "public monuments",
+        "score": 0.550000011920929
+      },
+      {
+        "id": "https://openalex.org/keywords/bristol",
+        "display_name": "Bristol",
+        "score": 0.4729999899864197
+      },
+      {
+        "id": "https://openalex.org/keywords/paris",
+        "display_name": "Paris",
+        "score": 0.8169999718666077
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2779104420",
+        "wikidata": "https://www.wikidata.org/wiki/Q179700",
+        "display_name": "Statue",
+        "level": 2,
+        "score": 0.9438999891281128
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.42160001397132874
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.4124999940395355
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.38690000772476196
+      },
+      {
+        "id": "https://openalex.org/C60671577",
+        "wikidata": "https://www.wikidata.org/wiki/Q210272",
+        "display_name": "Cultural heritage",
+        "level": 2,
+        "score": 0.3862999975681305
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.36579999327659607
+      },
+      {
+        "id": "https://openalex.org/C2776359362",
+        "wikidata": "https://www.wikidata.org/wiki/Q2145286",
+        "display_name": "Representation (politics)",
+        "level": 3,
+        "score": 0.2818000018596649
+      },
+      {
+        "id": "https://openalex.org/C18762648",
+        "wikidata": "https://www.wikidata.org/wiki/Q42213",
+        "display_name": "Work (physics)",
+        "level": 2,
+        "score": 0.2689000070095062
+      },
+      {
+        "id": "https://openalex.org/C39489675",
+        "wikidata": "https://www.wikidata.org/wiki/Q1791882",
+        "display_name": "Culture theory",
+        "level": 2,
+        "score": 0.26339998841285706
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.25380000472068787
+      },
+      {
+        "id": "https://openalex.org/C163258240",
+        "wikidata": "https://www.wikidata.org/wiki/Q25342",
+        "display_name": "Power (physics)",
+        "level": 2,
+        "score": 0.2515999972820282
+      },
+      {
+        "id": "https://openalex.org/C2776786462",
+        "wikidata": "https://www.wikidata.org/wiki/Q574613",
+        "display_name": "Cultural memory",
+        "level": 2,
+        "score": 0.25099998712539673
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1177/17506980261489066",
+        "doi": "https://doi.org/10.1177/17506980261489066",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1177/17506980261489066",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S144836642",
+          "display_name": "Memory Studies",
+          "issn_l": "1750-6980",
+          "issn": [
+            "1750-6980",
+            "1750-6999"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Memory Studies",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:pure.atira.dk:openaire/0776c040-1cbe-4a9e-955f-8c19514ce85c",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://pureportal.coventry.ac.uk/en/publications/0776c040-1cbe-4a9e-955f-8c19514ce85c",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402411",
+          "display_name": "Pure (Coventry University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I73417466",
+          "host_organization_name": "Coventry University",
+          "host_organization_lineage": [
+            "https://openalex.org/I73417466"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Benjamin, E 2026, 'Towards a Memory Justice : Statues as Epistemic Battlegrounds', Memory Studies, vol. (In-Press), pp. (In-Press). https://doi.org/10.1177/17506980261489066",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1177/17506980261489066",
+      "doi": "https://doi.org/10.1177/17506980261489066",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/17506980261489066",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S144836642",
+        "display_name": "Memory Studies",
+        "issn_l": "1750-6980",
+        "issn": [
+          "1750-6980",
+          "1750-6999"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Memory Studies",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.8046000003814697,
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Sustainable cities and communities",
+        "score": 0.42731383442878723,
+        "id": "https://metadata.un.org/sdg/11"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 14,
+    "referenced_works": [
+      "https://openalex.org/W217568072",
+      "https://openalex.org/W2771341122",
+      "https://openalex.org/W2906586343",
+      "https://openalex.org/W2974030123",
+      "https://openalex.org/W3081452742",
+      "https://openalex.org/W3146083582",
+      "https://openalex.org/W4232609519",
+      "https://openalex.org/W4235281224",
+      "https://openalex.org/W4252633962",
+      "https://openalex.org/W4254250854",
+      "https://openalex.org/W4255214960",
+      "https://openalex.org/W4410208446",
+      "https://openalex.org/W4412592749",
+      "https://openalex.org/W4414261801"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "article": [
+        1
+      ],
+      "proposes": [
+        2
+      ],
+      "an": [
+        3,
+        45
+      ],
+      "analysis": [
+        4,
+        46
+      ],
+      "of": [
+        5,
+        16,
+        22,
+        26,
+        47,
+        53,
+        67,
+        78,
+        94,
+        98
+      ],
+      "recent": [
+        6
+      ],
+      "statue": [
+        7,
+        57,
+        71
+      ],
+      "toppling": [
+        8,
+        52
+      ],
+      "events": [
+        9,
+        49
+      ],
+      "and": [
+        10,
+        24,
+        40,
+        61
+      ],
+      "their": [
+        11,
+        79
+      ],
+      "debates": [
+        12
+      ],
+      "through": [
+        13
+      ],
+      "the": [
+        14,
+        37,
+        48,
+        51,
+        54,
+        62,
+        68,
+        84,
+        88,
+        92,
+        95
+      ],
+      "lens": [
+        15
+      ],
+      "epistemic": [
+        17,
+        96
+      ],
+      "injustice,": [
+        18
+      ],
+      "against": [
+        19,
+        75
+      ],
+      "a": [
+        20,
+        76,
+        106
+      ],
+      "background": [
+        21
+      ],
+      "theories": [
+        23
+      ],
+      "modes": [
+        25
+      ],
+      "cultural": [
+        27
+      ],
+      "memory,": [
+        28
+      ],
+      "in": [
+        29,
+        36,
+        42,
+        58,
+        72
+      ],
+      "application": [
+        30
+      ],
+      "to": [
+        31,
+        90,
+        103
+      ],
+      "two": [
+        32
+      ],
+      "case": [
+        33
+      ],
+      "studies,": [
+        34
+      ],
+      "one": [
+        35,
+        41
+      ],
+      "United": [
+        38
+      ],
+      "Kingdom,": [
+        39
+      ],
+      "France.": [
+        43
+      ],
+      "Through": [
+        44
+      ],
+      "surrounding": [
+        50
+      ],
+      "Edward": [
+        55
+      ],
+      "Colston": [
+        56
+      ],
+      "Bristol,": [
+        59
+      ],
+      "UK,": [
+        60
+      ],
+      "defacing,": [
+        63
+      ],
+      "but": [
+        64
+      ],
+      "ultimate": [
+        65
+      ],
+      "non-removal": [
+        66
+      ],
+      "Jean-Baptiste": [
+        69
+      ],
+      "Colbert": [
+        70
+      ],
+      "Paris,": [
+        73
+      ],
+      "France,": [
+        74
+      ],
+      "backdrop": [
+        77
+      ],
+      "respective": [
+        80
+      ],
+      "nations\u2019": [
+        81
+      ],
+      "heritage": [
+        82
+      ],
+      "policies,": [
+        83
+      ],
+      "work": [
+        85
+      ],
+      "will": [
+        86
+      ],
+      "assess": [
+        87
+      ],
+      "extent": [
+        89
+      ],
+      "which": [
+        91
+      ],
+      "exploration": [
+        93
+      ],
+      "battlegrounds": [
+        97
+      ],
+      "statues": [
+        99
+      ],
+      "can": [
+        100
+      ],
+      "be": [
+        101
+      ],
+      "used": [
+        102
+      ],
+      "aim": [
+        104
+      ],
+      "towards": [
+        105
+      ],
+      "memory": [
+        107
+      ],
+      "justice.": [
+        108
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-18T09:31:52.927876",
+    "created_date": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7171531707",
+    "doi": "https://doi.org/10.1177/17506980261460345",
+    "title": "Rethinking just memory: The triple balance of representation, debt, and forgetting in the thought of Paul Ric\u0153ur",
+    "display_name": "Rethinking just memory: The triple balance of representation, debt, and forgetting in the thought of Paul Ric\u0153ur",
+    "relevance_score": 1.6461246,
+    "publication_year": 2026,
+    "publication_date": "2026-07-27",
+    "ids": {
+      "openalex": "https://openalex.org/W7171531707",
+      "doi": "https://doi.org/10.1177/17506980261460345"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1177/17506980261460345",
+      "doi": "https://doi.org/10.1177/17506980261460345",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1177/17506980261460345",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S144836642",
+        "display_name": "Memory Studies",
+        "issn_l": "1750-6980",
+        "issn": [
+          "1750-6980",
+          "1750-6999"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Memory Studies",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5143820680",
+          "display_name": "Na Zhang",
+          "orcid": "https://orcid.org/0009-0003-2277-9342",
+          "observed_orcids": [
+            "https://orcid.org/0009-0003-2277-9342"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I66867065",
+            "display_name": "East China Normal University",
+            "ror": "https://ror.org/02n96ep67",
+            "country_code": "CN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ],
+        "countries": [
+          "CN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Na Zhang",
+        "raw_affiliation_strings": [
+          "School of Foreign Languages, East China Normal University, Shanghai, China"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0003-2277-9342",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Foreign Languages, East China Normal University, Shanghai, China",
+            "institution_ids": [
+              "https://openalex.org/I66867065"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5143820680"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I66867065"
+    ],
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.63044228,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12927",
+      "display_name": "Memory, History, Trauma, Identity",
+      "score": 0.8363999724388123,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12927",
+        "display_name": "Memory, History, Trauma, Identity",
+        "score": 0.8363999724388123,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 0.07349999994039536,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13211",
+        "display_name": "Memory, Trauma, and Testimony",
+        "score": 0.03550000116229057,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3205",
+          "display_name": "Experimental and Cognitive Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/paul-ricoeur",
+        "display_name": "Paul Ricoeur",
+        "score": 0.875
+      },
+      {
+        "id": "https://openalex.org/keywords/memory-work",
+        "display_name": "memory work",
+        "score": 0.8529999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/work-of-mourning",
+        "display_name": "work of mourning",
+        "score": 0.9769999980926514
+      },
+      {
+        "id": "https://openalex.org/keywords/forgetting",
+        "display_name": "forgetting",
+        "score": 0.9760000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/representations-of-the-past",
+        "display_name": "representation of the past",
+        "score": 0.7680000066757202
+      },
+      {
+        "id": "https://openalex.org/keywords/victimhood",
+        "display_name": "victimhood",
+        "score": 0.5879999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/collective-memory",
+        "display_name": "collective memory",
+        "score": 0.6660000085830688
+      },
+      {
+        "id": "https://openalex.org/keywords/personal-testimony",
+        "display_name": "personal testimony",
+        "score": 0.597000002861023
+      },
+      {
+        "id": "https://openalex.org/keywords/historical-writing",
+        "display_name": "historical writing",
+        "score": 0.765999972820282
+      },
+      {
+        "id": "https://openalex.org/keywords/sigmund-freud",
+        "display_name": "Sigmund Freud",
+        "score": 0.5419999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/cosmopolitanism",
+        "display_name": "cosmopolitanism",
+        "score": 0.6729999780654907
+      },
+      {
+        "id": "https://openalex.org/keywords/postwar-france",
+        "display_name": "postwar France",
+        "score": 0.6290000081062317
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C7149132",
+        "wikidata": "https://www.wikidata.org/wiki/Q1377840",
+        "display_name": "Forgetting",
+        "level": 2,
+        "score": 0.9107999801635742
+      },
+      {
+        "id": "https://openalex.org/C2780522230",
+        "wikidata": "https://www.wikidata.org/wiki/Q1140419",
+        "display_name": "Ambiguity",
+        "level": 2,
+        "score": 0.7731999754905701
+      },
+      {
+        "id": "https://openalex.org/C168031717",
+        "wikidata": "https://www.wikidata.org/wiki/Q1530280",
+        "display_name": "Balance (ability)",
+        "level": 2,
+        "score": 0.6330000162124634
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.5695000290870667
+      },
+      {
+        "id": "https://openalex.org/C84269361",
+        "wikidata": "https://www.wikidata.org/wiki/Q179235",
+        "display_name": "Phenomenology (philosophy)",
+        "level": 2,
+        "score": 0.5684999823570251
+      },
+      {
+        "id": "https://openalex.org/C53811970",
+        "wikidata": "https://www.wikidata.org/wiki/Q5062194",
+        "display_name": "Centrality",
+        "level": 2,
+        "score": 0.5604000091552734
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.5299999713897705
+      },
+      {
+        "id": "https://openalex.org/C2776359362",
+        "wikidata": "https://www.wikidata.org/wiki/Q2145286",
+        "display_name": "Representation (politics)",
+        "level": 3,
+        "score": 0.445499986410141
+      },
+      {
+        "id": "https://openalex.org/C67448173",
+        "wikidata": "https://www.wikidata.org/wiki/Q254217",
+        "display_name": "Collective memory",
+        "level": 2,
+        "score": 0.41290000081062317
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.3896999955177307
+      },
+      {
+        "id": "https://openalex.org/C77805123",
+        "wikidata": "https://www.wikidata.org/wiki/Q161272",
+        "display_name": "Social psychology",
+        "level": 1,
+        "score": 0.34790000319480896
+      },
+      {
+        "id": "https://openalex.org/C2779885105",
+        "wikidata": "https://www.wikidata.org/wiki/Q182263",
+        "display_name": "Empathy",
+        "level": 2,
+        "score": 0.328000009059906
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.2989000082015991
+      },
+      {
+        "id": "https://openalex.org/C97508593",
+        "wikidata": "https://www.wikidata.org/wiki/Q1359069",
+        "display_name": "Contingency",
+        "level": 2,
+        "score": 0.2971000075340271
+      },
+      {
+        "id": "https://openalex.org/C120527767",
+        "wikidata": "https://www.wikidata.org/wiki/Q3196867",
+        "display_name": "Debt",
+        "level": 2,
+        "score": 0.296099990606308
+      },
+      {
+        "id": "https://openalex.org/C78022038",
+        "wikidata": "https://www.wikidata.org/wiki/Q7644082",
+        "display_name": "Superordinate goals",
+        "level": 2,
+        "score": 0.27880001068115234
+      },
+      {
+        "id": "https://openalex.org/C180747234",
+        "wikidata": "https://www.wikidata.org/wiki/Q23373",
+        "display_name": "Cognitive psychology",
+        "level": 1,
+        "score": 0.2775999903678894
+      },
+      {
+        "id": "https://openalex.org/C188147891",
+        "wikidata": "https://www.wikidata.org/wiki/Q147638",
+        "display_name": "Cognitive science",
+        "level": 1,
+        "score": 0.271699994802475
+      },
+      {
+        "id": "https://openalex.org/C124969852",
+        "wikidata": "https://www.wikidata.org/wiki/Q1185050",
+        "display_name": "Internalism and externalism",
+        "level": 2,
+        "score": 0.2581000030040741
+      },
+      {
+        "id": "https://openalex.org/C2780764785",
+        "wikidata": "https://www.wikidata.org/wiki/Q842333",
+        "display_name": "Western thought",
+        "level": 2,
+        "score": 0.25699999928474426
+      },
+      {
+        "id": "https://openalex.org/C2777336010",
+        "wikidata": "https://www.wikidata.org/wiki/Q1195509",
+        "display_name": "Sensibility",
+        "level": 2,
+        "score": 0.2533000111579895
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1177/17506980261460345",
+        "doi": "https://doi.org/10.1177/17506980261460345",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1177/17506980261460345",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S144836642",
+          "display_name": "Memory Studies",
+          "issn_l": "1750-6980",
+          "issn": [
+            "1750-6980",
+            "1750-6999"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Memory Studies",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.40785396099090576,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G119550967",
+        "display_name": null,
+        "funder_award_id": "GZC20252555",
+        "funder_id": "https://openalex.org/F4320335443",
+        "funder_display_name": "Postdoctoral Research Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G1352307606",
+        "display_name": null,
+        "funder_award_id": "20&ZD292",
+        "funder_id": "https://openalex.org/F4320335869",
+        "funder_display_name": "National Social Science Fund of China"
+      },
+      {
+        "id": "https://openalex.org/G2393151924",
+        "display_name": null,
+        "funder_award_id": "25CZW019",
+        "funder_id": "https://openalex.org/F4320335869",
+        "funder_display_name": "National Social Science Fund of China"
+      },
+      {
+        "id": "https://openalex.org/G4707480708",
+        "display_name": null,
+        "funder_award_id": "2025M773858",
+        "funder_id": "https://openalex.org/F4320335443",
+        "funder_display_name": "Postdoctoral Research Foundation of China"
+      },
+      {
+        "id": "https://openalex.org/G8312634674",
+        "display_name": null,
+        "funder_award_id": "2024ECNU-YYJ031",
+        "funder_id": "https://openalex.org/F4320335787",
+        "funder_display_name": "Fundamental Research Funds for the Central Universities"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320335443",
+        "display_name": "Postdoctoral Research Foundation of China",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320335787",
+        "display_name": "Fundamental Research Funds for the Central Universities",
+        "ror": null
+      },
+      {
+        "id": "https://openalex.org/F4320335869",
+        "display_name": "National Social Science Fund of China",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 25,
+    "referenced_works": [
+      "https://openalex.org/W636494210",
+      "https://openalex.org/W1458571924",
+      "https://openalex.org/W1600019194",
+      "https://openalex.org/W1613319381",
+      "https://openalex.org/W1945971380",
+      "https://openalex.org/W1967413479",
+      "https://openalex.org/W2006529132",
+      "https://openalex.org/W2046750298",
+      "https://openalex.org/W2050031859",
+      "https://openalex.org/W2053178228",
+      "https://openalex.org/W2070466018",
+      "https://openalex.org/W2083605634",
+      "https://openalex.org/W2084954094",
+      "https://openalex.org/W2512755286",
+      "https://openalex.org/W2567061577",
+      "https://openalex.org/W2904893257",
+      "https://openalex.org/W2970153317",
+      "https://openalex.org/W2974125298",
+      "https://openalex.org/W2991942172",
+      "https://openalex.org/W3134902728",
+      "https://openalex.org/W3180538849",
+      "https://openalex.org/W4232794454",
+      "https://openalex.org/W4232815802",
+      "https://openalex.org/W4247000566",
+      "https://openalex.org/W4254158448"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "The": [
+        0
+      ],
+      "concept": [
+        1
+      ],
+      "of": [
+        2,
+        5,
+        32,
+        50,
+        63,
+        66,
+        72,
+        89,
+        98,
+        105,
+        113,
+        128,
+        167
+      ],
+      "the": [
+        3,
+        15,
+        21,
+        24,
+        64,
+        70,
+        81,
+        86,
+        99,
+        102,
+        111,
+        126,
+        129,
+        168
+      ],
+      "\u201cduty": [
+        4
+      ],
+      "remembrance\u201d": [
+        6
+      ],
+      "acquired": [
+        7
+      ],
+      "significant": [
+        8
+      ],
+      "prominence": [
+        9
+      ],
+      "in": [
+        10,
+        170,
+        179
+      ],
+      "postwar": [
+        11
+      ],
+      "France,": [
+        12
+      ],
+      "coinciding": [
+        13
+      ],
+      "with": [
+        14,
+        118
+      ],
+      "increasing": [
+        16
+      ],
+      "moral": [
+        17,
+        87
+      ],
+      "centrality": [
+        18
+      ],
+      "attributed": [
+        19
+      ],
+      "to": [
+        20,
+        30,
+        79,
+        124
+      ],
+      "victim.": [
+        22
+      ],
+      "However,": [
+        23
+      ],
+      "conceptual": [
+        25
+      ],
+      "ambiguity": [
+        26
+      ],
+      "also": [
+        27
+      ],
+      "gave": [
+        28
+      ],
+      "rise": [
+        29
+      ],
+      "abuses": [
+        31
+      ],
+      "memory,": [
+        33,
+        52,
+        90,
+        138
+      ],
+      "prompting": [
+        34
+      ],
+      "critical": [
+        35
+      ],
+      "reflection.": [
+        36
+      ],
+      "In": [
+        37
+      ],
+      "this": [
+        38
+      ],
+      "context,": [
+        39
+      ],
+      "Paul": [
+        40
+      ],
+      "Ric\u0153ur": [
+        41,
+        68,
+        109
+      ],
+      "offers": [
+        42
+      ],
+      "a": [
+        43,
+        48,
+        55,
+        93,
+        150,
+        157
+      ],
+      "nuanced": [
+        44
+      ],
+      "response": [
+        45
+      ],
+      "by": [
+        46,
+        85
+      ],
+      "articulating": [
+        47
+      ],
+      "theory": [
+        49
+      ],
+      "just": [
+        51
+      ],
+      "structured": [
+        53
+      ],
+      "around": [
+        54
+      ],
+      "tripartite": [
+        56
+      ],
+      "equilibrium.": [
+        57
+      ],
+      "First,": [
+        58
+      ],
+      "drawing": [
+        59
+      ],
+      "on": [
+        60
+      ],
+      "Freud\u2019s": [
+        61
+      ],
+      "conception": [
+        62
+      ],
+      "\u201cwork": [
+        65,
+        71
+      ],
+      "mourning,\u201d": [
+        67
+      ],
+      "introduces": [
+        69
+      ],
+      "memory\u201d": [
+        73
+      ],
+      "as": [
+        74,
+        116,
+        121
+      ],
+      "an": [
+        75,
+        164
+      ],
+      "epistemological": [
+        76
+      ],
+      "detour": [
+        77
+      ],
+      "designed": [
+        78
+      ],
+      "mitigate": [
+        80
+      ],
+      "practical": [
+        82
+      ],
+      "risks": [
+        83
+      ],
+      "posed": [
+        84
+      ],
+      "burden": [
+        88
+      ],
+      "thereby": [
+        91
+      ],
+      "achieving": [
+        92
+      ],
+      "balance": [
+        94,
+        151
+      ],
+      "between": [
+        95,
+        134,
+        141,
+        152
+      ],
+      "faithful": [
+        96
+      ],
+      "representation": [
+        97
+      ],
+      "past": [
+        100,
+        115,
+        120,
+        130
+      ],
+      "and": [
+        101,
+        131,
+        136,
+        144,
+        154,
+        159,
+        174
+      ],
+      "ethical": [
+        103
+      ],
+      "demand": [
+        104
+      ],
+      "debt": [
+        106
+      ],
+      "repayment.": [
+        107
+      ],
+      "Second,": [
+        108
+      ],
+      "replaces": [
+        110
+      ],
+      "idea": [
+        112
+      ],
+      "\u201cthe": [
+        114,
+        119
+      ],
+      "history\u201d": [
+        117
+      ],
+      "memory,\u201d": [
+        122
+      ],
+      "aiming": [
+        123
+      ],
+      "transform": [
+        125
+      ],
+      "otherness": [
+        127
+      ],
+      "foster": [
+        132
+      ],
+      "communication": [
+        133
+      ],
+      "individual": [
+        135
+      ],
+      "collective": [
+        137
+      ],
+      "thus": [
+        139
+      ],
+      "mediating": [
+        140
+      ],
+      "personal": [
+        142
+      ],
+      "testimony": [
+        143
+      ],
+      "historical": [
+        145
+      ],
+      "writing.": [
+        146
+      ],
+      "Third,": [
+        147
+      ],
+      "he": [
+        148
+      ],
+      "proposes": [
+        149
+      ],
+      "memory": [
+        153,
+        173
+      ],
+      "forgetting": [
+        155,
+        176
+      ],
+      "from": [
+        156
+      ],
+      "de-collectivized": [
+        158
+      ],
+      "cosmopolitan": [
+        160
+      ],
+      "perspective,": [
+        161
+      ],
+      "turning": [
+        162
+      ],
+      "toward": [
+        163
+      ],
+      "open": [
+        165
+      ],
+      "phenomenology": [
+        166
+      ],
+      "future": [
+        169
+      ],
+      "which": [
+        171
+      ],
+      "excessive": [
+        172
+      ],
+      "active": [
+        175
+      ],
+      "are": [
+        177
+      ],
+      "held": [
+        178
+      ],
+      "productive": [
+        180
+      ],
+      "tension.": [
+        181
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2026-07-29T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4411457763",
+    "doi": "https://doi.org/10.1177/17506980251330547",
+    "title": "Epilogue: An assured disclosure of uncertainty",
+    "display_name": "Epilogue: An assured disclosure of uncertainty",
+    "relevance_score": 1.137443,
+    "publication_year": 2025,
+    "publication_date": "2025-06-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4411457763",
+      "doi": "https://doi.org/10.1177/17506980251330547"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1177/17506980251330547",
+      "doi": "https://doi.org/10.1177/17506980251330547",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/17506980251330547",
+      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/17506980251330547?download=true",
+      "source": {
+        "id": "https://openalex.org/S144836642",
+        "display_name": "Memory Studies",
+        "issn_l": "1750-6980",
+        "issn": [
+          "1750-6980",
+          "1750-6999"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Memory Studies",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/17506980251330547?download=true",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5013941808",
+          "display_name": "Aline Cordonnier",
+          "orcid": "https://orcid.org/0000-0003-4101-1948",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4101-1948"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I95674353",
+            "display_name": "UCLouvain",
+            "ror": "https://ror.org/02495e989",
+            "country_code": "BE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I95674353"
+            ]
+          }
+        ],
+        "countries": [
+          "BE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Aline Cordonnier",
+        "raw_affiliation_strings": [
+          "UCLouvain, Belgium"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-4101-1948",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "UCLouvain, Belgium",
+            "institution_ids": [
+              "https://openalex.org/I95674353"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5013941808"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I95674353"
+    ],
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": null,
+    "fwci": 3.5037,
+    "has_fulltext": true,
+    "cited_by_count": 2,
+    "citation_normalized_percentile": {
+      "value": 0.91872743,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "18",
+      "issue": "3",
+      "first_page": "738",
+      "last_page": "743"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11981",
+      "display_name": "Qualitative Research Methods and Ethics",
+      "score": 0.5996000170707703,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11981",
+        "display_name": "Qualitative Research Methods and Ethics",
+        "score": 0.5996000170707703,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13590",
+        "display_name": "Oral History, Memory, Narrative Analysis",
+        "score": 0.2410999983549118,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10383",
+        "display_name": "Language, Discourse, Communication Strategies",
+        "score": 0.0568000003695488,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1203",
+          "display_name": "Language and Linguistics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/decontextualization",
+        "display_name": "decontextualization",
+        "score": 0.7400000095367432
+      },
+      {
+        "id": "https://openalex.org/keywords/scientific-uncertainty",
+        "display_name": "scientific uncertainty",
+        "score": 0.3869999945163727
+      },
+      {
+        "id": "https://openalex.org/keywords/collective-memory",
+        "display_name": "collective memory",
+        "score": 0.5120000243186951
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.4419359564781189
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.4205649793148041
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.3468901515007019
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.16718745231628418
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1177/17506980251330547",
+        "doi": "https://doi.org/10.1177/17506980251330547",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1177/17506980251330547",
+        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/17506980251330547?download=true",
+        "source": {
+          "id": "https://openalex.org/S144836642",
+          "display_name": "Memory Studies",
+          "issn_l": "1750-6980",
+          "issn": [
+            "1750-6980",
+            "1750-6999"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320017",
+          "host_organization_name": "SAGE Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320017"
+          ],
+          "host_organization_lineage_names": [
+            "SAGE Publishing"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Memory Studies",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:dial.uclouvain.be:boreal:295655",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://hdl.handle.net/2078.1/295655",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401902",
+          "display_name": "Digital Access to Libraries (Universit\u00e9 catholique de Louvain (UCL), l'Universit\u00e9 de Namur (UNamur) and the Universit\u00e9 Saint-Louis (USL-B))",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I95674353",
+          "host_organization_name": "UCLouvain",
+          "host_organization_lineage": [
+            "https://openalex.org/I95674353"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Memory Studies, (2025)",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:dial.uclouvain.be:boreal:304716",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "http://hdl.handle.net/2078.1/304716",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401902",
+          "display_name": "Digital Access to Libraries (Universit\u00e9 catholique de Louvain (UCL), l'Universit\u00e9 de Namur (UNamur) and the Universit\u00e9 Saint-Louis (USL-B))",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I95674353",
+          "host_organization_name": "UCLouvain",
+          "host_organization_lineage": [
+            "https://openalex.org/I95674353"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Memory Studies, Vol. 18, no.3, p. 738-743 (2025)",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1177/17506980251330547",
+      "doi": "https://doi.org/10.1177/17506980251330547",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/17506980251330547",
+      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/17506980251330547?download=true",
+      "source": {
+        "id": "https://openalex.org/S144836642",
+        "display_name": "Memory Studies",
+        "issn_l": "1750-6980",
+        "issn": [
+          "1750-6980",
+          "1750-6999"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Memory Studies",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Gender equality",
+        "score": 0.5799999833106995,
+        "id": "https://metadata.un.org/sdg/5"
+      }
+    ],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G320200553",
+        "display_name": null,
+        "funder_award_id": "ARC 20/25-110",
+        "funder_id": "https://openalex.org/F4320321584",
+        "funder_display_name": "F\u00e9d\u00e9ration Wallonie-Bruxelles"
+      },
+      {
+        "id": "https://openalex.org/G7289987420",
+        "display_name": "COBECORE-2: Upgrading of archived eco-climatic data from the Kong basin",
+        "funder_award_id": "BR/175/A3",
+        "funder_id": "https://openalex.org/F4320321454",
+        "funder_display_name": "Belgian Federal Science Policy Office"
+      },
+      {
+        "id": "https://openalex.org/G8904565029",
+        "display_name": null,
+        "funder_award_id": "PDR 40007917",
+        "funder_id": "https://openalex.org/F4320321390",
+        "funder_display_name": "Fonds De La Recherche Scientifique - FNRS"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320309729",
+        "display_name": "Universit\u00e9 Catholique de Louvain",
+        "ror": "https://ror.org/02495e989"
+      },
+      {
+        "id": "https://openalex.org/F4320321390",
+        "display_name": "Fonds De La Recherche Scientifique - FNRS",
+        "ror": "https://ror.org/03q83t159"
+      },
+      {
+        "id": "https://openalex.org/F4320321454",
+        "display_name": "Belgian Federal Science Policy Office",
+        "ror": "https://ror.org/01fapfv42"
+      },
+      {
+        "id": "https://openalex.org/F4320321584",
+        "display_name": "F\u00e9d\u00e9ration Wallonie-Bruxelles",
+        "ror": "https://ror.org/04q01pf08"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4411457763.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4411457763.grobid-xml"
+    },
+    "referenced_works_count": 3,
+    "referenced_works": [
+      "https://openalex.org/W2111143102",
+      "https://openalex.org/W4404832990",
+      "https://openalex.org/W4411457818"
+    ],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W3013226710",
+      "https://openalex.org/W2949263084",
+      "https://openalex.org/W2098269760",
+      "https://openalex.org/W2743539335",
+      "https://openalex.org/W2048944901",
+      "https://openalex.org/W594353338",
+      "https://openalex.org/W4254774684"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "article": [
+        1
+      ],
+      "is": [
+        2,
+        239
+      ],
+      "part": [
+        3,
+        376
+      ],
+      "of": [
+        4,
+        41,
+        87,
+        101,
+        105,
+        142,
+        149,
+        151,
+        156,
+        175,
+        250,
+        272,
+        282,
+        296,
+        304,
+        343,
+        354,
+        377
+      ],
+      "the": [
+        5,
+        22,
+        25,
+        31,
+        50,
+        66,
+        88,
+        92,
+        99,
+        102,
+        116,
+        121,
+        194,
+        196,
+        202,
+        211,
+        219,
+        224,
+        270,
+        276,
+        283,
+        297,
+        302,
+        305,
+        314,
+        329,
+        340,
+        355,
+        363
+      ],
+      "special": [
+        6,
+        26,
+        107,
+        252,
+        324,
+        345
+      ],
+      "issue": [
+        7,
+        27,
+        108
+      ],
+      "Micro-Memories,": [
+        8
+      ],
+      "edited": [
+        9
+      ],
+      "by": [
+        10,
+        184,
+        229,
+        278
+      ],
+      "Thomas": [
+        11,
+        185
+      ],
+      "Van": [
+        12,
+        186
+      ],
+      "de": [
+        13,
+        187
+      ],
+      "Putte": [
+        14,
+        188
+      ],
+      "and": [
+        15,
+        70,
+        123,
+        167,
+        189,
+        226,
+        260,
+        274,
+        389,
+        398
+      ],
+      "William": [
+        16
+      ],
+      "Hirst.Readers": [
+        17
+      ],
+      "are": [
+        18
+      ],
+      "advised": [
+        19
+      ],
+      "to": [
+        20,
+        24,
+        29,
+        37,
+        63,
+        79,
+        90,
+        114,
+        128,
+        207,
+        215,
+        221,
+        243,
+        267,
+        322,
+        339,
+        362
+      ],
+      "read": [
+        21,
+        350
+      ],
+      "introduction": [
+        23
+      ],
+      "first": [
+        28,
+        57
+      ],
+      "understand": [
+        30
+      ],
+      "exercise": [
+        32,
+        148,
+        357
+      ],
+      "individual": [
+        33
+      ],
+      "contributors": [
+        34
+      ],
+      "were": [
+        35,
+        290
+      ],
+      "asked": [
+        36,
+        214
+      ],
+      "conduct.'An": [
+        38
+      ],
+      "assured": [
+        39
+      ],
+      "disclosure": [
+        40,
+        141
+      ],
+      "uncertainty'": [
+        42
+      ],
+      "was": [
+        43,
+        61,
+        146,
+        160,
+        168,
+        206,
+        213,
+        333,
+        371,
+        386
+      ],
+      "a": [
+        44,
+        154,
+        157,
+        164,
+        179,
+        352,
+        360,
+        378,
+        399,
+        404
+      ],
+      "phrase": [
+        45
+      ],
+      "that": [
+        46,
+        72,
+        82,
+        159,
+        247,
+        320
+      ],
+      "stood": [
+        47
+      ],
+      "out": [
+        48
+      ],
+      "during": [
+        49,
+        301
+      ],
+      "data-session": [
+        51
+      ],
+      "organised": [
+        52,
+        316
+      ],
+      "in": [
+        53,
+        177,
+        193,
+        199,
+        317,
+        373
+      ],
+      "Trento": [
+        54,
+        318
+      ],
+      "where": [
+        55
+      ],
+      "we": [
+        56,
+        119,
+        133
+      ],
+      "discussed": [
+        58
+      ],
+      "this": [
+        59,
+        95,
+        106,
+        130,
+        145,
+        251,
+        262,
+        323,
+        331,
+        344
+      ],
+      "excerpt.It": [
+        60
+      ],
+      "meant": [
+        62
+      ],
+      "represent": [
+        64
+      ],
+      "how": [
+        65
+      ],
+      "interviewee": [
+        67
+      ],
+      "claimed": [
+        68
+      ],
+      "over": [
+        69,
+        71
+      ],
+      "she": [
+        73,
+        83
+      ],
+      "'didn't": [
+        74
+      ],
+      "know',": [
+        75
+      ],
+      "while": [
+        76
+      ],
+      "it": [
+        77,
+        112,
+        137,
+        347
+      ],
+      "appeared": [
+        78
+      ],
+      "external": [
+        80
+      ],
+      "viewers": [
+        81
+      ],
+      "held": [
+        84
+      ],
+      "enough": [
+        85
+      ],
+      "pieces": [
+        86
+      ],
+      "puzzle": [
+        89
+      ],
+      "see": [
+        91
+      ],
+      "bigger": [
+        93
+      ],
+      "picture.But": [
+        94
+      ],
+      "sentence": [
+        96
+      ],
+      "also": [
+        97,
+        255
+      ],
+      "reflects": [
+        98
+      ],
+      "state": [
+        100
+      ],
+      "different": [
+        103
+      ],
+      "authors": [
+        104
+      ],
+      "-including": [
+        109
+      ],
+      "me": [
+        110,
+        327
+      ],
+      "-when": [
+        111
+      ],
+      "came": [
+        113
+      ],
+      "completing": [
+        115
+      ],
+      "exercise.Even": [
+        117
+      ],
+      "though": [
+        118
+      ],
+      "applied": [
+        120
+      ],
+      "tools": [
+        122
+      ],
+      "expertise": [
+        124
+      ],
+      "at": [
+        125,
+        153,
+        218
+      ],
+      "our": [
+        126
+      ],
+      "disposal": [
+        127
+      ],
+      "analyse": [
+        129
+      ],
+      "short": [
+        131
+      ],
+      "segment,": [
+        132
+      ],
+      "could": [
+        134
+      ],
+      "only": [
+        135
+      ],
+      "do": [
+        136,
+        244
+      ],
+      "with": [
+        138
+      ],
+      "an": [
+        139,
+        147,
+        280,
+        387
+      ],
+      "'assured": [
+        140
+      ],
+      "uncertainty'.After": [
+        143
+      ],
+      "all,": [
+        144
+      ],
+      "decontextualisation,": [
+        150
+      ],
+      "looking": [
+        152
+      ],
+      "fragment": [
+        155
+      ],
+      "story": [
+        158,
+        299
+      ],
+      "originally": [
+        161
+      ],
+      "embedded": [
+        162
+      ],
+      "within": [
+        163
+      ],
+      "research": [
+        165,
+        284,
+        368,
+        380
+      ],
+      "context": [
+        166,
+        259
+      ],
+      "selected": [
+        169
+      ],
+      "among": [
+        170
+      ],
+      "many": [
+        171,
+        237
+      ],
+      "others": [
+        172
+      ],
+      "as": [
+        173,
+        182,
+        201,
+        232,
+        234,
+        292,
+        294,
+        328,
+        351,
+        375
+      ],
+      "'worthy'": [
+        174
+      ],
+      "analysis": [
+        176
+      ],
+      "such": [
+        178
+      ],
+      "data": [
+        180,
+        289
+      ],
+      "session": [
+        181
+      ],
+      "described": [
+        183
+      ],
+      "Hirst": [
+        190
+      ],
+      "(this": [
+        191
+      ],
+      "issue)": [
+        192,
+        325
+      ],
+      "introduction.During": [
+        195
+      ],
+      "initial": [
+        197,
+        356
+      ],
+      "workshop": [
+        198
+      ],
+      "Trento,": [
+        200
+      ],
+      "data-bringer,": [
+        203
+      ],
+      "my": [
+        204,
+        230
+      ],
+      "role": [
+        205
+      ],
+      "remain": [
+        208
+      ],
+      "silent": [
+        209
+      ],
+      "throughout": [
+        210
+      ],
+      "discussion.I": [
+        212
+      ],
+      "come": [
+        216
+      ],
+      "back": [
+        217,
+        298
+      ],
+      "end": [
+        220
+      ],
+      "reflect": [
+        222,
+        309
+      ],
+      "on": [
+        223,
+        310
+      ],
+      "thoughts": [
+        225
+      ],
+      "hypotheses": [
+        227
+      ],
+      "provided": [
+        228
+      ],
+      "colleagues,": [
+        231
+      ],
+      "well": [
+        233,
+        293
+      ],
+      "answer": [
+        235
+      ],
+      "their": [
+        236
+      ],
+      "questions.This": [
+        238
+      ],
+      "what": [
+        240,
+        311
+      ],
+      "I": [
+        241,
+        264,
+        336
+      ],
+      "wish": [
+        242
+      ],
+      "here": [
+        245
+      ],
+      "so": [
+        246
+      ],
+      "you,": [
+        248
+      ],
+      "reader": [
+        249
+      ],
+      "issue,": [
+        253,
+        346
+      ],
+      "can": [
+        254
+      ],
+      "finally": [
+        256
+      ],
+      "receive": [
+        257
+      ],
+      "some": [
+        258,
+        295
+      ],
+      "clarification.In": [
+        261
+      ],
+      "epilogue,": [
+        263
+      ],
+      "thus": [
+        265
+      ],
+      "intend": [
+        266
+      ],
+      "slightly": [
+        268
+      ],
+      "lift": [
+        269
+      ],
+      "veil": [
+        271
+      ],
+      "uncertainty": [
+        273
+      ],
+      "re-contextualise": [
+        275
+      ],
+      "excerpt": [
+        277
+      ],
+      "providing": [
+        279
+      ],
+      "overview": [
+        281
+      ],
+      "project": [
+        285,
+        381
+      ],
+      "for": [
+        286
+      ],
+      "which": [
+        287
+      ],
+      "these": [
+        288
+      ],
+      "collected,": [
+        291
+      ],
+      "collected": [
+        300
+      ],
+      "rest": [
+        303
+      ],
+      "interview.I": [
+        306
+      ],
+      "will": [
+        307
+      ],
+      "then": [
+        308
+      ],
+      "exercises": [
+        312
+      ],
+      "like": [
+        313
+      ],
+      "one": [
+        315
+      ],
+      "(and": [
+        319
+      ],
+      "led": [
+        321
+      ],
+      "taught": [
+        326
+      ],
+      "databringer.As": [
+        330
+      ],
+      "epilogue": [
+        332
+      ],
+      "written": [
+        334
+      ],
+      "before": [
+        335
+      ],
+      "had": [
+        337
+      ],
+      "access": [
+        338
+      ],
+      "other": [
+        341
+      ],
+      "articles": [
+        342
+      ],
+      "should": [
+        348
+      ],
+      "be": [
+        349
+      ],
+      "reflection": [
+        353
+      ],
+      "rather": [
+        358
+      ],
+      "than": [
+        359
+      ],
+      "response": [
+        361
+      ],
+      "papers": [
+        364
+      ],
+      "presented": [
+        365
+      ],
+      "here.": [
+        366
+      ],
+      "The": [
+        367
+      ],
+      "contextThis": [
+        369
+      ],
+      "interview": [
+        370
+      ],
+      "conducted": [
+        372
+      ],
+      "2019,": [
+        374
+      ],
+      "2-year": [
+        379
+      ],
+      "called": [
+        382
+      ],
+      "Transmemo.": [
+        383
+      ],
+      "1": [
+        384
+      ],
+      "Transmemo": [
+        385
+      ],
+      "interdisciplinary": [
+        388
+      ],
+      "interinstitutional": [
+        390
+      ],
+      "project,": [
+        391
+      ],
+      "including": [
+        392
+      ],
+      "historians,": [
+        393
+      ],
+      "cognitive": [
+        394
+      ],
+      "psychologists,": [
+        395
+      ],
+      "social": [
+        396
+      ],
+      "psychologists": [
+        397
+      ],
+      "political": [
+        400
+      ],
+      "scientist,": [
+        401
+      ],
+      "coming": [
+        402
+      ],
+      "from": [
+        403
+      ],
+      "French-speaking": [
+        405
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2025-10-10T00:00:00"
   }
 ]

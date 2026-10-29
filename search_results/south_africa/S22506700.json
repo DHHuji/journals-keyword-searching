@@ -10690,7 +10690,7 @@
     "doi": "https://doi.org/10.14506/ca40.4.01",
     "title": "Heads in the Stars, Feet on the Ground",
     "display_name": "Heads in the Stars, Feet on the Ground",
-    "relevance_score": 0.66536623,
+    "relevance_score": 1.3342311,
     "publication_year": 2025,
     "publication_date": "2025-11-18",
     "ids": {
@@ -10700,6 +10700,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.14506/ca40.4.01",
+      "doi": "https://doi.org/10.14506/ca40.4.01",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.14506/ca40.4.01",
       "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5558/1030",
@@ -10714,6 +10715,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -10732,6 +10745,7 @@
       "raw_source_name": "Cultural Anthropology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -10749,7 +10763,10 @@
         "author": {
           "id": "https://openalex.org/A5014123807",
           "display_name": "Hanna Nieber",
-          "orcid": "https://orcid.org/0000-0002-3192-5327"
+          "orcid": "https://orcid.org/0000-0002-3192-5327",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3192-5327"
+          ]
         },
         "institutions": [
           {
@@ -10767,7 +10784,7 @@
         "countries": [
           "DE"
         ],
-        "is_corresponding": true,
+        "is_corresponding": false,
         "raw_author_name": "Hanna Nieber",
         "raw_affiliation_strings": [
           "Max Planck Institute for Social Anthropology"
@@ -10787,7 +10804,10 @@
         "author": {
           "id": "https://openalex.org/A5075746085",
           "display_name": "Davide Chinig\u00f2",
-          "orcid": "https://orcid.org/0000-0002-6683-6615"
+          "orcid": "https://orcid.org/0000-0002-6683-6615",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6683-6615"
+          ]
         },
         "institutions": [
           {
@@ -10823,19 +10843,15 @@
     "institutions": [],
     "countries_distinct_count": 2,
     "institutions_distinct_count": 2,
-    "corresponding_author_ids": [
-      "https://openalex.org/A5014123807"
-    ],
-    "corresponding_institution_ids": [
-      "https://openalex.org/I4210121704"
-    ],
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.23093197,
+      "value": 0.14394904,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -10850,9 +10866,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12836",
-      "display_name": "History and Developments in Astronomy",
-      "score": 0.47859999537467957,
+      "id": "https://openalex.org/T12450",
+      "display_name": "Radio Astronomy Observations and Technology",
+      "score": 0.3034999966621399,
       "subfield": {
         "id": "https://openalex.org/subfields/3103",
         "display_name": "Astronomy and Astrophysics"
@@ -10868,26 +10884,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12836",
-        "display_name": "History and Developments in Astronomy",
-        "score": 0.47859999537467957,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3103",
-          "display_name": "Astronomy and Astrophysics"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/31",
-          "display_name": "Physics and Astronomy"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T12450",
         "display_name": "Radio Astronomy Observations and Technology",
-        "score": 0.14579999446868896,
+        "score": 0.3034999966621399,
         "subfield": {
           "id": "https://openalex.org/subfields/3103",
           "display_name": "Astronomy and Astrophysics"
@@ -10902,12 +10901,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T12717",
-        "display_name": "Space exploration and regulation",
-        "score": 0.08259999752044678,
+        "id": "https://openalex.org/T12836",
+        "display_name": "History and Developments in Astronomy",
+        "score": 0.22519999742507935,
         "subfield": {
           "id": "https://openalex.org/subfields/3103",
           "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "score": 0.062300000339746475,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
         },
         "field": {
           "id": "https://openalex.org/fields/31",
@@ -10921,34 +10937,34 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/astronomer",
-        "display_name": "Astronomer",
-        "score": 0.8235999941825867
-      },
-      {
-        "id": "https://openalex.org/keywords/space",
-        "display_name": "Space (punctuation)",
-        "score": 0.6187000274658203
-      },
-      {
-        "id": "https://openalex.org/keywords/key",
-        "display_name": "Key (lock)",
-        "score": 0.5087000131607056
+        "id": "https://openalex.org/keywords/radio-astronomy",
+        "display_name": "radio astronomy",
+        "score": 0.9919999837875366
       },
       {
         "id": "https://openalex.org/keywords/scale",
-        "display_name": "Scale (ratio)",
-        "score": 0.45879998803138733
+        "display_name": "scale",
+        "score": 0.8790000081062317
       },
       {
-        "id": "https://openalex.org/keywords/core",
-        "display_name": "Core (optical fiber)",
-        "score": 0.4399999976158142
+        "id": "https://openalex.org/keywords/ground",
+        "display_name": "ground",
+        "score": 0.46299999952316284
       },
       {
-        "id": "https://openalex.org/keywords/cape",
-        "display_name": "Cape",
-        "score": 0.4056999981403351
+        "id": "https://openalex.org/keywords/square-kilometre-array",
+        "display_name": "Square Kilometre Array",
+        "score": 0.7900000214576721
+      },
+      {
+        "id": "https://openalex.org/keywords/space-research",
+        "display_name": "space research",
+        "score": 0.7400000095367432
+      },
+      {
+        "id": "https://openalex.org/keywords/infrastructure",
+        "display_name": "infrastructure",
+        "score": 0.35899999737739563
       }
     ],
     "concepts": [
@@ -11070,6 +11086,7 @@
     "locations": [
       {
         "id": "doi:10.14506/ca40.4.01",
+        "doi": "https://doi.org/10.14506/ca40.4.01",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.14506/ca40.4.01",
         "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5558/1030",
@@ -11084,6 +11101,18 @@
           "is_oa": true,
           "is_in_doaj": true,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -11104,6 +11133,7 @@
       },
       {
         "id": "pmh:oai:cris.unibo.it:11585/1029371",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://journal.culanth.org/index.php/ca/article/view/5558",
         "pdf_url": null,
@@ -11115,6 +11145,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I4210117483",
           "host_organization_name": "Istituto di Ematologia di Bologna",
           "host_organization_lineage": [
@@ -11134,6 +11165,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.14506/ca40.4.01",
+      "doi": "https://doi.org/10.14506/ca40.4.01",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.14506/ca40.4.01",
       "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5558/1030",
@@ -11148,6 +11180,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -11167,6 +11211,8 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -11545,7 +11591,816 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-03-13T14:20:09.374765",
+    "updated_date": "2026-08-22T07:34:49.880490",
+    "created_date": "2025-11-19T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7105987714",
+    "doi": "https://doi.org/10.14506/ca40.4",
+    "title": null,
+    "display_name": null,
+    "relevance_score": 0.8567343,
+    "publication_year": 2025,
+    "publication_date": "2025-11-18",
+    "ids": {
+      "openalex": "https://openalex.org/W7105987714",
+      "doi": "https://doi.org/10.14506/ca40.4"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.14506/ca40.4",
+      "doi": "https://doi.org/10.14506/ca40.4",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.14506/ca40.4",
+      "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5558/1030/26996",
+      "source": {
+        "id": "https://openalex.org/S22506700",
+        "display_name": "Cultural Anthropology",
+        "issn_l": "0886-7356",
+        "issn": [
+          "0886-7356",
+          "1548-1360"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Cultural Anthropology",
+      "raw_type": "journal-issue"
+    },
+    "volume": null,
+    "type": "paratext",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://journal.culanth.org/index.php/ca/article/download/5558/1030/26996",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "40",
+      "issue": "4",
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": true,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11695",
+      "display_name": "South African History and Culture",
+      "score": 0.15150000154972076,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11695",
+        "display_name": "South African History and Culture",
+        "score": 0.15150000154972076,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12836",
+        "display_name": "History and Developments in Astronomy",
+        "score": 0.09070000052452087,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3103",
+          "display_name": "Astronomy and Astrophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12917",
+        "display_name": "Astronomy and Astrophysical Research",
+        "score": 0.08070000261068344,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3105",
+          "display_name": "Instrumentation"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/31",
+          "display_name": "Physics and Astronomy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/karoo",
+        "display_name": "Karoo",
+        "score": 0.7590000033378601
+      },
+      {
+        "id": "https://openalex.org/keywords/poverty-and-unemployment",
+        "display_name": "poverty and unemployment",
+        "score": 0.6259999871253967
+      },
+      {
+        "id": "https://openalex.org/keywords/social-responsibility-of-science",
+        "display_name": "social responsibility of science",
+        "score": 0.5920000076293945
+      },
+      {
+        "id": "https://openalex.org/keywords/science-communication",
+        "display_name": "science communication",
+        "score": 0.4410000145435333
+      },
+      {
+        "id": "https://openalex.org/keywords/public-engagement-with-science",
+        "display_name": "public engagement with science",
+        "score": 0.48500001430511475
+      }
+    ],
+    "concepts": [],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.14506/ca40.4",
+        "doi": "https://doi.org/10.14506/ca40.4",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.14506/ca40.4",
+        "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5558/1030/26996",
+        "source": {
+          "id": "https://openalex.org/S22506700",
+          "display_name": "Cultural Anthropology",
+          "issn_l": "0886-7356",
+          "issn": [
+            "0886-7356",
+            "1548-1360"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Cultural Anthropology",
+        "raw_type": "journal-issue"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.14506/ca40.4",
+      "doi": "https://doi.org/10.14506/ca40.4",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.14506/ca40.4",
+      "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5558/1030/26996",
+      "source": {
+        "id": "https://openalex.org/S22506700",
+        "display_name": "Cultural Anthropology",
+        "issn_l": "0886-7356",
+        "issn": [
+          "0886-7356",
+          "1548-1360"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Cultural Anthropology",
+      "raw_type": "journal-issue"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320671",
+        "display_name": "National Research Foundation",
+        "ror": "https://ror.org/05s0g1g46"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7105987714.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7105987714.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "We": [
+        0
+      ],
+      "sometimes": [
+        1
+      ],
+      "have": [
+        2,
+        14
+      ],
+      "our": [
+        3,
+        15,
+        121
+      ],
+      "heads": [
+        4
+      ],
+      "in": [
+        5,
+        33,
+        74,
+        138,
+        153,
+        172
+      ],
+      "the": [
+        6,
+        20,
+        27,
+        47,
+        77,
+        96,
+        105,
+        112,
+        118,
+        146,
+        149,
+        173,
+        192,
+        201,
+        204
+      ],
+      "stars,": [
+        7
+      ],
+      "but": [
+        8
+      ],
+      "we": [
+        9,
+        151,
+        157
+      ],
+      "really": [
+        10
+      ],
+      "do": [
+        11
+      ],
+      "need": [
+        12
+      ],
+      "to": [
+        13,
+        46,
+        69,
+        133,
+        191
+      ],
+      "feet": [
+        16
+      ],
+      "firmly": [
+        17
+      ],
+      "planted": [
+        18
+      ],
+      "on": [
+        19,
+        26,
+        117
+      ],
+      "ground.\"This": [
+        21
+      ],
+      "is": [
+        22,
+        42
+      ],
+      "how": [
+        23
+      ],
+      "Vanessa": [
+        24
+      ],
+      "comments": [
+        25
+      ],
+      "challenge": [
+        28
+      ],
+      "of": [
+        29,
+        93,
+        108,
+        115,
+        120,
+        148,
+        162,
+        169,
+        195,
+        203
+      ],
+      "being": [
+        30
+      ],
+      "an": [
+        31
+      ],
+      "astronomer": [
+        32,
+        73
+      ],
+      "South": [
+        34,
+        75,
+        175
+      ],
+      "Africa": [
+        35
+      ],
+      "during": [
+        36
+      ],
+      "a": [
+        37,
+        63,
+        71,
+        154,
+        185
+      ],
+      "podcast": [
+        38,
+        98
+      ],
+      "interview.1": [
+        39
+      ],
+      "Vanessa's": [
+        40
+      ],
+      "voice": [
+        41
+      ],
+      "calm;": [
+        43
+      ],
+      "she": [
+        44,
+        59,
+        128
+      ],
+      "listens": [
+        45
+      ],
+      "questions,": [
+        48
+      ],
+      "considers": [
+        49
+      ],
+      "them": [
+        50
+      ],
+      "carefully,": [
+        51
+      ],
+      "and": [
+        52,
+        84,
+        111,
+        164
+      ],
+      "gives": [
+        53
+      ],
+      "responses": [
+        54
+      ],
+      "that": [
+        55,
+        58,
+        125,
+        188
+      ],
+      "clearly": [
+        56
+      ],
+      "show": [
+        57
+      ],
+      "has": [
+        60
+      ],
+      "been": [
+        61
+      ],
+      "thinking": [
+        62
+      ],
+      "lot": [
+        64
+      ],
+      "about": [
+        65
+      ],
+      "what": [
+        66
+      ],
+      "it": [
+        67,
+        199
+      ],
+      "means": [
+        68
+      ],
+      "be": [
+        70,
+        80,
+        131
+      ],
+      "white": [
+        72
+      ],
+      "Africa.While": [
+        76
+      ],
+      "topics": [
+        78
+      ],
+      "shift": [
+        79
+      ],
+      "tween": [
+        81
+      ],
+      "astrophysical": [
+        82
+      ],
+      "research": [
+        83
+      ],
+      "local": [
+        85
+      ],
+      "conditions": [
+        86,
+        114
+      ],
+      "for": [
+        87
+      ],
+      "doing": [
+        88
+      ],
+      "this": [
+        89
+      ],
+      "research,": [
+        90
+      ],
+      "her": [
+        91
+      ],
+      "sense": [
+        92
+      ],
+      "responsibility": [
+        94
+      ],
+      "permeates": [
+        95
+      ],
+      "entire": [
+        97
+      ],
+      "conversation.Vanessa": [
+        99
+      ],
+      "com": [
+        100
+      ],
+      "bines": [
+        101
+      ],
+      "astronomy's": [
+        102
+      ],
+      "preoccupation": [
+        103
+      ],
+      "with": [
+        104
+      ],
+      "immense": [
+        106
+      ],
+      "vastness": [
+        107
+      ],
+      "outer": [
+        109
+      ],
+      "space": [
+        110
+      ],
+      "socioeconomic": [
+        113
+      ],
+      "people": [
+        116
+      ],
+      "surface": [
+        119
+      ],
+      "planet.The": [
+        122
+      ],
+      "excite": [
+        123
+      ],
+      "ment": [
+        124
+      ],
+      "astronomy": [
+        126
+      ],
+      "elicits,": [
+        127
+      ],
+      "contends,": [
+        129
+      ],
+      "should": [
+        130
+      ],
+      "tailored": [
+        132
+      ],
+      "\"improv[e]": [
+        134
+      ],
+      "peo": [
+        135
+      ],
+      "ple's": [
+        136
+      ],
+      "lives": [
+        137
+      ],
+      "some": [
+        139
+      ],
+      "way": [
+        140
+      ],
+      ".": [
+        141,
+        142
+      ],
+      ".,": [
+        143
+      ],
+      "because": [
+        144
+      ],
+      "at": [
+        145
+      ],
+      "end": [
+        147
+      ],
+      "day,": [
+        150
+      ],
+      "are": [
+        152,
+        158
+      ],
+      "country": [
+        155
+      ],
+      "where": [
+        156
+      ],
+      "facing": [
+        159
+      ],
+      "these": [
+        160
+      ],
+      "challenges": [
+        161
+      ],
+      "poverty": [
+        163
+      ],
+      "unemployment.\"About": [
+        165
+      ],
+      "700": [
+        166
+      ],
+      "kilometers": [
+        167
+      ],
+      "northeast": [
+        168
+      ],
+      "Cape": [
+        170
+      ],
+      "Town,": [
+        171
+      ],
+      "semi-arid": [
+        174
+      ],
+      "Afri": [
+        176
+      ],
+      "can": [
+        177
+      ],
+      "Karoo,": [
+        178
+      ],
+      "I,": [
+        179
+      ],
+      "Davide,": [
+        180
+      ],
+      "find": [
+        181
+      ],
+      "myself": [
+        182
+      ],
+      "standing": [
+        183
+      ],
+      "before": [
+        184
+      ],
+      "large": [
+        186
+      ],
+      "billboard": [
+        187
+      ],
+      "welcomes": [
+        189
+      ],
+      "visitors": [
+        190
+      ],
+      "small": [
+        193
+      ],
+      "town": [
+        194
+      ],
+      "Carnarvon,": [
+        196
+      ],
+      "proudly": [
+        197
+      ],
+      "declaring": [
+        198
+      ],
+      "as": [
+        200
+      ],
+      "\"home": [
+        202
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-11-19T00:00:00"
   }
 ]

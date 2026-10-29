@@ -42578,7 +42578,7 @@
     "doi": "https://doi.org/10.1111/ajps.70013",
     "title": "The electoral politics of immigration and crime",
     "display_name": "The electoral politics of immigration and crime",
-    "relevance_score": 4.1311083,
+    "relevance_score": 2.4164243,
     "publication_year": 2025,
     "publication_date": "2025-09-30",
     "ids": {
@@ -42588,6 +42588,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/ajps.70013",
+      "doi": "https://doi.org/10.1111/ajps.70013",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/ajps.70013",
       "pdf_url": null,
@@ -42602,6 +42603,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -42620,6 +42632,7 @@
       "raw_source_name": "American Journal of Political Science",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -42636,7 +42649,10 @@
         "author": {
           "id": null,
           "display_name": "Jeyhun Alizade",
-          "orcid": "https://orcid.org/0000-0002-3218-8939"
+          "orcid": "https://orcid.org/0000-0002-3218-8939",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3218-8939"
+          ]
         },
         "institutions": [
           {
@@ -42678,43 +42694,43 @@
       "https://openalex.org/I2801702882"
     ],
     "apc_list": {
-      "value": 3860,
+      "value": 4100,
       "currency": "USD",
-      "value_usd": 3860
+      "value_usd": 4100
     },
     "apc_paid": {
-      "value": 3860,
+      "value": 4100,
       "currency": "USD",
-      "value_usd": 3860
+      "value_usd": 4100
     },
-    "fwci": 7.4463,
+    "fwci": 7.8532,
     "has_fulltext": true,
     "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.9694384,
+      "value": 0.96949045,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 98
+      "min": 90,
+      "max": 96
     },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "70",
+      "issue": "4",
+      "first_page": "1334",
+      "last_page": "1351"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10216",
-      "display_name": "Migration, Refugees, and Integration",
-      "score": 0.9988999962806702,
+      "id": "https://openalex.org/T10108",
+      "display_name": "Electoral Systems and Political Participation",
+      "score": 0.6586999893188477,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -42727,26 +42743,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10216",
-        "display_name": "Migration, Refugees, and Integration",
-        "score": 0.9988999962806702,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T11397",
-        "display_name": "Populism, Right-Wing Movements",
-        "score": 0.9843000173568726,
+        "id": "https://openalex.org/T10108",
+        "display_name": "Electoral Systems and Political Participation",
+        "score": 0.6586999893188477,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -42761,16 +42760,33 @@
         }
       },
       {
-        "id": "https://openalex.org/T10762",
-        "display_name": "Migration, Health and Trauma",
-        "score": 0.9681000113487244,
+        "id": "https://openalex.org/T11397",
+        "display_name": "Populism, Right-Wing Movements",
+        "score": 0.18850000202655792,
         "subfield": {
-          "id": "https://openalex.org/subfields/3203",
-          "display_name": "Clinical Psychology"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.1445000022649765,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -42780,39 +42796,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/left-wing-politics",
-        "display_name": "Left-wing politics",
-        "score": 0.932699978351593
+        "id": "https://openalex.org/keywords/immigration-attitudes",
+        "display_name": "immigration attitudes",
+        "score": 0.8330000042915344
       },
       {
-        "id": "https://openalex.org/keywords/immigration",
-        "display_name": "Immigration",
-        "score": 0.8442999720573425
+        "id": "https://openalex.org/keywords/immigrant-crime",
+        "display_name": "immigrant crime",
+        "score": 0.6299999952316284
       },
       {
-        "id": "https://openalex.org/keywords/german",
-        "display_name": "German",
-        "score": 0.6826000213623047
+        "id": "https://openalex.org/keywords/electoral-politics",
+        "display_name": "electoral politics",
+        "score": 0.8479999899864197
       },
       {
-        "id": "https://openalex.org/keywords/voting",
-        "display_name": "Voting",
-        "score": 0.5644999742507935
+        "id": "https://openalex.org/keywords/cosmopolitanism",
+        "display_name": "cosmopolitanism",
+        "score": 0.574999988079071
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.5460000038146973
+        "id": "https://openalex.org/keywords/left-right-divide",
+        "display_name": "left-right divide",
+        "score": 0.5740000009536743
       },
       {
-        "id": "https://openalex.org/keywords/survey-data-collection",
-        "display_name": "Survey data collection",
-        "score": 0.4246000051498413
+        "id": "https://openalex.org/keywords/political-party-positions",
+        "display_name": "party positions",
+        "score": 0.4020000100135803
       },
       {
-        "id": "https://openalex.org/keywords/voting-behavior",
-        "display_name": "Voting behavior",
-        "score": 0.3644999861717224
+        "id": "https://openalex.org/keywords/green-party",
+        "display_name": "Green Party",
+        "score": 0.5559999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/voter-defection",
+        "display_name": "voter defection",
+        "score": 0.5839999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/western-europe",
+        "display_name": "Western Europe",
+        "score": 0.4909999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/germany",
+        "display_name": "Germany",
+        "score": 0.9490000009536743
       }
     ],
     "concepts": [
@@ -42948,6 +42979,7 @@
     "locations": [
       {
         "id": "doi:10.1111/ajps.70013",
+        "doi": "https://doi.org/10.1111/ajps.70013",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/ajps.70013",
         "pdf_url": null,
@@ -42962,6 +42994,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -42982,6 +43025,7 @@
       },
       {
         "id": "pmh:oai:econstor.eu:10419/331901",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://hdl.handle.net/10419/331901",
         "pdf_url": "https://www.econstor.eu/bitstream/10419/331901/1/Full-text-article-Alizade-The-electoral-politics.pdf",
@@ -42993,6 +43037,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -43010,6 +43055,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1111/ajps.70013",
+      "doi": "https://doi.org/10.1111/ajps.70013",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/ajps.70013",
       "pdf_url": null,
@@ -43024,6 +43070,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -43042,12 +43099,25 @@
       "raw_source_name": "American Journal of Political Science",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "display_name": "Observational Study",
+        "id": "https://openalex.org/study-designs/observational-study"
+      }
+    ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 112,
@@ -43066,6 +43136,7 @@
       "https://openalex.org/W2003884344",
       "https://openalex.org/W2014098616",
       "https://openalex.org/W2017184608",
+      "https://openalex.org/W2021948138",
       "https://openalex.org/W2027315681",
       "https://openalex.org/W2029922801",
       "https://openalex.org/W2035440204",
@@ -43144,14 +43215,13 @@
       "https://openalex.org/W3132975649",
       "https://openalex.org/W3137392527",
       "https://openalex.org/W3147394217",
-      "https://openalex.org/W3202919119",
+      "https://openalex.org/W3171335423",
       "https://openalex.org/W3216307858",
       "https://openalex.org/W4210991290",
       "https://openalex.org/W4212765250",
       "https://openalex.org/W4221019060",
       "https://openalex.org/W4226022150",
       "https://openalex.org/W4229067131",
-      "https://openalex.org/W4230800371",
       "https://openalex.org/W4240450146",
       "https://openalex.org/W4249718351",
       "https://openalex.org/W4283749958",
@@ -43550,7 +43620,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -45772,7 +45842,7 @@
     "doi": "https://doi.org/10.1111/ajps.12951",
     "title": "Why parties can benefit from promoting occupational diversity in legislatures: Experimental evidence from three countries",
     "display_name": "Why parties can benefit from promoting occupational diversity in legislatures: Experimental evidence from three countries",
-    "relevance_score": 0.65060395,
+    "relevance_score": 1.8228883,
     "publication_year": 2025,
     "publication_date": "2025-02-24",
     "ids": {
@@ -45782,9 +45852,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/ajps.12951",
+      "doi": "https://doi.org/10.1111/ajps.12951",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/ajps.12951",
-      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ajps.12951",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S90314269",
         "display_name": "American Journal of Political Science",
@@ -45796,6 +45867,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -45814,6 +45896,7 @@
       "raw_source_name": "American Journal of Political Science",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -45821,8 +45904,8 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ajps.12951",
-      "any_repository_has_fulltext": false
+      "oa_url": "https://doi.org/10.1111/ajps.12951",
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -45830,7 +45913,10 @@
         "author": {
           "id": "https://openalex.org/A5077905415",
           "display_name": "Mia Costa",
-          "orcid": "https://orcid.org/0000-0003-0365-9882"
+          "orcid": "https://orcid.org/0000-0003-0365-9882",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0365-9882"
+          ]
         },
         "institutions": [
           {
@@ -45867,7 +45953,10 @@
         "author": {
           "id": "https://openalex.org/A5052514094",
           "display_name": "Miguel M. Pereira",
-          "orcid": "https://orcid.org/0000-0001-6621-9863"
+          "orcid": "https://orcid.org/0000-0001-6621-9863",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6621-9863"
+          ]
         },
         "institutions": [
           {
@@ -45911,20 +46000,20 @@
       "https://openalex.org/I909854389"
     ],
     "apc_list": {
-      "value": 3860,
+      "value": 4100,
       "currency": "USD",
-      "value_usd": 3860
+      "value_usd": 4100
     },
     "apc_paid": {
-      "value": 3860,
+      "value": 4100,
       "currency": "USD",
-      "value_usd": 3860
+      "value_usd": 4100
     },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.04620628,
+      "value": 0.02897255,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -45939,12 +46028,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11432",
-      "display_name": "Gender Politics and Representation",
-      "score": 0.9976000189781189,
+      "id": "https://openalex.org/T10108",
+      "display_name": "Electoral Systems and Political Participation",
+      "score": 0.9491999745368958,
       "subfield": {
-        "id": "https://openalex.org/subfields/3318",
-        "display_name": "Gender Studies"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -45957,26 +46046,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11432",
-        "display_name": "Gender Politics and Representation",
-        "score": 0.9976000189781189,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3318",
-          "display_name": "Gender Studies"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T10108",
         "display_name": "Electoral Systems and Political Participation",
-        "score": 0.9968000054359436,
+        "score": 0.9491999745368958,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -45991,9 +46063,26 @@
         }
       },
       {
-        "id": "https://openalex.org/T10443",
-        "display_name": "Social Policy and Reform Studies",
-        "score": 0.9902999997138977,
+        "id": "https://openalex.org/T11432",
+        "display_name": "Gender Politics and Representation",
+        "score": 0.025800000876188278,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13291",
+        "display_name": "Political Theory and Democracy",
+        "score": 0.00430000014603138,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -46010,39 +46099,34 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/legislature",
-        "display_name": "Legislature",
-        "score": 0.8417878150939941
+        "id": "https://openalex.org/keywords/occupational-diversity",
+        "display_name": "occupational diversity",
+        "score": 0.8270000219345093
       },
       {
-        "id": "https://openalex.org/keywords/diversity",
-        "display_name": "Diversity (politics)",
-        "score": 0.7478224635124207
+        "id": "https://openalex.org/keywords/legislators",
+        "display_name": "legislators",
+        "score": 0.5580000281333923
       },
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.39866501092910767
+        "id": "https://openalex.org/keywords/descriptive-representation",
+        "display_name": "descriptive representation",
+        "score": 0.8190000057220459
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.3755830228328705
+        "id": "https://openalex.org/keywords/political-parties",
+        "display_name": "political parties",
+        "score": 0.5770000219345093
       },
       {
-        "id": "https://openalex.org/keywords/demographic-economics",
-        "display_name": "Demographic economics",
-        "score": 0.3347332179546356
+        "id": "https://openalex.org/keywords/voter-persuasion",
+        "display_name": "voter persuasion",
+        "score": 0.48500001430511475
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.2235652506351471
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.06498843431472778
+        "id": "https://openalex.org/keywords/political-credibility",
+        "display_name": "political credibility",
+        "score": 0.3230000138282776
       }
     ],
     "concepts": [
@@ -46097,13 +46181,14 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 5,
     "locations": [
       {
         "id": "doi:10.1111/ajps.12951",
+        "doi": "https://doi.org/10.1111/ajps.12951",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/ajps.12951",
-        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ajps.12951",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S90314269",
           "display_name": "American Journal of Political Science",
@@ -46115,6 +46200,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -46134,18 +46230,35 @@
         "raw_type": "journal-article"
       },
       {
-        "id": "pmh:oai:researchonline.lse.ac.uk:124319",
+        "id": "doi:10.31219/osf.io/9vbfz",
+        "doi": "https://doi.org/10.31219/osf.io/9vbfz",
+        "is_oa": true,
+        "landing_page_url": "http://dx.doi.org/10.31219/osf.io/9vbfz",
+        "pdf_url": "https://osf.io/9vbfz/download",
+        "source": null,
+        "license": "public-domain",
+        "license_id": "https://openalex.org/licenses/public-domain",
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      },
+      {
+        "id": "pmh:oai:eprints.lse.ac.uk:124319",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://orcid.org/0000-0001-6621-9863>",
         "pdf_url": null,
         "source": {
-          "id": "https://openalex.org/S4306401594",
+          "id": "https://openalex.org/S4306401593",
           "display_name": "London School of Economics and Political Science Research Online (London School of Economics and Political Science)",
           "issn_l": null,
           "issn": null,
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I909854389",
           "host_organization_name": "London School of Economics and Political Science",
           "host_organization_lineage": [
@@ -46160,14 +46273,77 @@
         "is_accepted": true,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "PeerReviewed"
+        "raw_type": "Article"
+      },
+      {
+        "id": "pmh:oai:researchonline.lse.ac.uk:124319",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://orcid.org/0000-0001-6621-9863>",
+        "pdf_url": "https://researchonline.lse.ac.uk/id/eprint/124319/3/American_J_Political_Sci_-_2025_-_Costa_-_Why_parties_can_benefit_from_promoting_occupational_diversity_in_legislatures_.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306400050",
+          "display_name": "London School of Economics and Political Science Theses Online (London School of Economics and Political Science)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I909854389",
+          "host_organization_name": "London School of Economics and Political Science",
+          "host_organization_lineage": [
+            "https://openalex.org/I909854389"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      },
+      {
+        "id": "pmh:oai:share.osf.io:57564c18-dd0a-4dcc-8d55-d9e179cf8482",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://osf.io/9vbfz",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401127",
+          "display_name": "OSF Preprints (OSF Preprints)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I2799848540",
+          "host_organization_name": "Center for Open Science",
+          "host_organization_lineage": [
+            "https://openalex.org/I2799848540"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "public-domain",
+        "license_id": "https://openalex.org/licenses/public-domain",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Preprint"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1111/ajps.12951",
+      "doi": "https://doi.org/10.1111/ajps.12951",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/ajps.12951",
-      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ajps.12951",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S90314269",
         "display_name": "American Journal of Political Science",
@@ -46179,6 +46355,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -46197,17 +46384,23 @@
       "raw_source_name": "American Journal of Political Science",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.7297000288963318
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
-    "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4407981710.pdf"
-    },
-    "referenced_works_count": 82,
+    "content_urls": null,
+    "referenced_works_count": 86,
     "referenced_works": [
       "https://openalex.org/W211437167",
       "https://openalex.org/W574777937",
@@ -46216,6 +46409,7 @@
       "https://openalex.org/W1910267356",
       "https://openalex.org/W1926477254",
       "https://openalex.org/W1980890871",
+      "https://openalex.org/W2018400246",
       "https://openalex.org/W2056426645",
       "https://openalex.org/W2062082414",
       "https://openalex.org/W2066863134",
@@ -46223,6 +46417,7 @@
       "https://openalex.org/W2093882932",
       "https://openalex.org/W2110337601",
       "https://openalex.org/W2114915098",
+      "https://openalex.org/W2114986694",
       "https://openalex.org/W2116800951",
       "https://openalex.org/W2119207686",
       "https://openalex.org/W2124747959",
@@ -46260,7 +46455,6 @@
       "https://openalex.org/W3107739262",
       "https://openalex.org/W3108806961",
       "https://openalex.org/W3122368890",
-      "https://openalex.org/W3124105495",
       "https://openalex.org/W3125797819",
       "https://openalex.org/W3131308526",
       "https://openalex.org/W3152789655",
@@ -46275,7 +46469,6 @@
       "https://openalex.org/W3207462122",
       "https://openalex.org/W3209006926",
       "https://openalex.org/W3215023791",
-      "https://openalex.org/W4205818072",
       "https://openalex.org/W4211061932",
       "https://openalex.org/W4211109441",
       "https://openalex.org/W4213261070",
@@ -46290,19 +46483,23 @@
       "https://openalex.org/W4313856417",
       "https://openalex.org/W4322765933",
       "https://openalex.org/W4380610319",
-      "https://openalex.org/W4387459191"
+      "https://openalex.org/W4387459191",
+      "https://openalex.org/W6732266559",
+      "https://openalex.org/W6742536486",
+      "https://openalex.org/W6758431898",
+      "https://openalex.org/W6789873179"
     ],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W2899084033",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W2318218736",
-      "https://openalex.org/W4376616602",
-      "https://openalex.org/W1555028051",
-      "https://openalex.org/W2087233771",
-      "https://openalex.org/W1564016688",
-      "https://openalex.org/W2187255152",
-      "https://openalex.org/W3109360064"
+      "https://openalex.org/W3118847245",
+      "https://openalex.org/W4410166421",
+      "https://openalex.org/W4387459191",
+      "https://openalex.org/W4391100505",
+      "https://openalex.org/W4239427133",
+      "https://openalex.org/W2313503884",
+      "https://openalex.org/W4220681295",
+      "https://openalex.org/W2910475278",
+      "https://openalex.org/W2967734492",
+      "https://openalex.org/W7128441999"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -46664,7 +46861,1119 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-09T13:55:54.758798",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2025-02-27T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7220423862",
+    "doi": "https://doi.org/10.1111/ajps.70083",
+    "title": "Correction to \u201cComparative Politics and the Synthetic Control Method\u201d",
+    "display_name": "Correction to \u201cComparative Politics and the Synthetic Control Method\u201d",
+    "relevance_score": 2.8314137,
+    "publication_year": 2026,
+    "publication_date": "2026-10-05",
+    "ids": {
+      "openalex": "https://openalex.org/W7220423862",
+      "doi": "https://doi.org/10.1111/ajps.70083"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1111/ajps.70083",
+      "doi": "https://doi.org/10.1111/ajps.70083",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/ajps.70083",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ajps.70083",
+      "source": {
+        "id": "https://openalex.org/S90314269",
+        "display_name": "American Journal of Political Science",
+        "issn_l": "0092-5853",
+        "issn": [
+          "0092-5853",
+          "1540-5907"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "American Journal of Political Science",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "erratum",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ajps.70083",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 4100,
+      "currency": "USD",
+      "value_usd": 4100
+    },
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10845",
+      "display_name": "Advanced Causal Inference Techniques",
+      "score": 0.7616999745368958,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10845",
+        "display_name": "Advanced Causal Inference Techniques",
+        "score": 0.7616999745368958,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2613",
+          "display_name": "Statistics and Probability"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/26",
+          "display_name": "Mathematics"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13051",
+        "display_name": "Qualitative Comparative Analysis Research",
+        "score": 0.09889999777078629,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13721",
+        "display_name": "Political Science Research and Education",
+        "score": 0.062300000339746475,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/synthetic-control-method",
+        "display_name": "synthetic control method",
+        "score": 0.9729999899864197
+      },
+      {
+        "id": "https://openalex.org/keywords/comparative-politics",
+        "display_name": "comparative politics",
+        "score": 0.859000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/causal-inference",
+        "display_name": "causal inference",
+        "score": 0.7649999856948853
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.82669997215271
+      },
+      {
+        "id": "https://openalex.org/C2775924081",
+        "wikidata": "https://www.wikidata.org/wiki/Q55608371",
+        "display_name": "Control (management)",
+        "level": 2,
+        "score": 0.7031999826431274
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.5182999968528748
+      },
+      {
+        "id": "https://openalex.org/C190253527",
+        "wikidata": "https://www.wikidata.org/wiki/Q295354",
+        "display_name": "Law and economics",
+        "level": 1,
+        "score": 0.4277999997138977
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.4235000014305115
+      },
+      {
+        "id": "https://openalex.org/C3116431",
+        "wikidata": "https://www.wikidata.org/wiki/Q31728",
+        "display_name": "Public administration",
+        "level": 1,
+        "score": 0.29910001158714294
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.2924000024795532
+      },
+      {
+        "id": "https://openalex.org/C118084267",
+        "wikidata": "https://www.wikidata.org/wiki/Q26110",
+        "display_name": "Positive economics",
+        "level": 1,
+        "score": 0.2694999873638153
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.2556000053882599
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.25369998812675476
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1111/ajps.70083",
+        "doi": "https://doi.org/10.1111/ajps.70083",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/ajps.70083",
+        "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ajps.70083",
+        "source": {
+          "id": "https://openalex.org/S90314269",
+          "display_name": "American Journal of Political Science",
+          "issn_l": "0092-5853",
+          "issn": [
+            "0092-5853",
+            "1540-5907"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "American Journal of Political Science",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1111/ajps.70083",
+      "doi": "https://doi.org/10.1111/ajps.70083",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/ajps.70083",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/ajps.70083",
+      "source": {
+        "id": "https://openalex.org/S90314269",
+        "display_name": "American Journal of Political Science",
+        "issn_l": "0092-5853",
+        "issn": [
+          "0092-5853",
+          "1540-5907"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "American Journal of Political Science",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7220423862.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7220423862.grobid-xml"
+    },
+    "referenced_works_count": 1,
+    "referenced_works": [
+      "https://openalex.org/W2331253396"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "We": [
+        0
+      ],
+      "thank": [
+        1
+      ],
+      "Joseph": [
+        2
+      ],
+      "Francis": [
+        3
+      ],
+      "for": [
+        4,
+        116,
+        212,
+        231,
+        308
+      ],
+      "pointing": [
+        5
+      ],
+      "out": [
+        6
+      ],
+      "the": [
+        7,
+        10,
+        16,
+        32,
+        40,
+        52,
+        59,
+        62,
+        67,
+        70,
+        73,
+        120,
+        125,
+        137,
+        157,
+        163,
+        177,
+        190,
+        200,
+        208,
+        213,
+        232,
+        237,
+        247,
+        250,
+        255,
+        265,
+        269,
+        281,
+        286,
+        292,
+        299,
+        312,
+        329,
+        338,
+        345
+      ],
+      "mislabeling": [
+        8,
+        41
+      ],
+      "of": [
+        9,
+        19,
+        61,
+        69,
+        72,
+        108,
+        159,
+        203,
+        249,
+        254,
+        272,
+        285,
+        288,
+        314,
+        317,
+        332,
+        341
+      ],
+      "per": [
+        11,
+        79,
+        131,
+        168
+      ],
+      "capita": [
+        12,
+        80,
+        132,
+        169
+      ],
+      "GDP": [
+        13,
+        26,
+        35,
+        81,
+        110,
+        145,
+        170
+      ],
+      "variable": [
+        14
+      ],
+      "in": [
+        15,
+        27,
+        36,
+        54,
+        78,
+        92,
+        146,
+        189,
+        199,
+        236,
+        246,
+        259,
+        280,
+        294,
+        337,
+        354
+      ],
+      "empirical": [
+        17,
+        74
+      ],
+      "application": [
+        18
+      ],
+      "Abadie": [
+        20
+      ],
+      "et": [
+        21,
+        322
+      ],
+      "al.": [
+        22
+      ],
+      "(2015).The": [
+        23
+      ],
+      "article": [
+        24
+      ],
+      "reported": [
+        25,
+        188
+      ],
+      "PPP-adjusted": [
+        28,
+        37,
+        93
+      ],
+      "2002": [
+        29,
+        99
+      ],
+      "USD,": [
+        30
+      ],
+      "whereas": [
+        31
+      ],
+      "analysis": [
+        33
+      ],
+      "used": [
+        34
+      ],
+      "current": [
+        38,
+        94,
+        148
+      ],
+      "USD;": [
+        39
+      ],
+      "reflects": [
+        42
+      ],
+      "language": [
+        43
+      ],
+      "carried": [
+        44
+      ],
+      "over": [
+        45,
+        124
+      ],
+      "from": [
+        46,
+        180
+      ],
+      "an": [
+        47,
+        195
+      ],
+      "earlier": [
+        48
+      ],
+      "draft.": [
+        49
+      ],
+      "1": [
+        50
+      ],
+      "While": [
+        51
+      ],
+      "change": [
+        53
+      ],
+      "units": [
+        55,
+        114,
+        158
+      ],
+      "does": [
+        56,
+        65
+      ],
+      "not": [
+        57,
+        97,
+        276
+      ],
+      "affect": [
+        58
+      ],
+      "validity": [
+        60
+      ],
+      "analysis,": [
+        63
+      ],
+      "it": [
+        64
+      ],
+      "alter": [
+        66
+      ],
+      "interpretation": [
+        68
+      ],
+      "results": [
+        71,
+        287,
+        293
+      ],
+      "application.Specifically,": [
+        75
+      ],
+      "absolute": [
+        76
+      ],
+      "differences": [
+        77
+      ],
+      "between": [
+        82
+      ],
+      "West": [
+        83,
+        117,
+        138,
+        301,
+        309
+      ],
+      "Germany": [
+        84,
+        118,
+        139,
+        302,
+        310
+      ],
+      "and": [
+        85,
+        119,
+        140,
+        151,
+        186,
+        275
+      ],
+      "its": [
+        86
+      ],
+      "synthetic": [
+        87,
+        141,
+        178,
+        300
+      ],
+      "control": [
+        88,
+        142
+      ],
+      "should": [
+        89
+      ],
+      "be": [
+        90,
+        172
+      ],
+      "interpreted": [
+        91
+      ],
+      "USD": [
+        95,
+        100
+      ],
+      "prices,": [
+        96
+      ],
+      "constant": [
+        98,
+        112
+      ],
+      "prices.To": [
+        101
+      ],
+      "our": [
+        102,
+        315
+      ],
+      "knowledge,": [
+        103
+      ],
+      "no": [
+        104
+      ],
+      "off-the-shelf": [
+        105
+      ],
+      "harmonized": [
+        106
+      ],
+      "series": [
+        107
+      ],
+      "real": [
+        109,
+        130
+      ],
+      "at": [
+        111
+      ],
+      "PPP": [
+        113,
+        147
+      ],
+      "exists": [
+        115
+      ],
+      "full": [
+        121
+      ],
+      "donor": [
+        122,
+        215,
+        238
+      ],
+      "pool": [
+        123,
+        216
+      ],
+      "relevant": [
+        126
+      ],
+      "sample": [
+        127,
+        316
+      ],
+      "period.To": [
+        128
+      ],
+      "approximate": [
+        129
+      ],
+      "GDP,": [
+        133
+      ],
+      "we": [
+        134,
+        197
+      ],
+      "divide": [
+        135
+      ],
+      "both": [
+        136,
+        181
+      ],
+      "series-measured": [
+        143
+      ],
+      "as": [
+        144,
+        226
+      ],
+      "USD-by": [
+        149
+      ],
+      "population": [
+        150
+      ],
+      "a": [
+        152,
+        228,
+        243,
+        304
+      ],
+      "common": [
+        153
+      ],
+      "deflator.This": [
+        154
+      ],
+      "transformation": [
+        155
+      ],
+      "changes": [
+        156
+      ],
+      "measurement": [
+        160
+      ],
+      "but": [
+        161,
+        240
+      ],
+      "leaves": [
+        162
+      ],
+      "estimated": [
+        164
+      ],
+      "percentage": [
+        165
+      ],
+      "effects": [
+        166
+      ],
+      "unchanged.Alternatively,": [
+        167
+      ],
+      "can": [
+        171
+      ],
+      "deflated": [
+        173
+      ],
+      "prior": [
+        174,
+        217
+      ],
+      "to": [
+        175,
+        218
+      ],
+      "constructing": [
+        176
+      ],
+      "control.Results": [
+        179
+      ],
+      "approaches": [
+        182
+      ],
+      "are": [
+        183,
+        187
+      ],
+      "nearly": [
+        184
+      ],
+      "identical": [
+        185
+      ],
+      "Online": [
+        191
+      ],
+      "Appendix.We": [
+        192
+      ],
+      "also": [
+        193
+      ],
+      "correct": [
+        194
+      ],
+      "error": [
+        196,
+        245
+      ],
+      "detected": [
+        198
+      ],
+      "third": [
+        201,
+        330
+      ],
+      "column": [
+        202,
+        225,
+        271,
+        331,
+        340
+      ],
+      "Table": [
+        204,
+        260,
+        273,
+        289,
+        295,
+        333,
+        342,
+        355
+      ],
+      "2,": [
+        205,
+        274,
+        290
+      ],
+      "which": [
+        206
+      ],
+      "reports": [
+        207
+      ],
+      "average": [
+        209,
+        230,
+        313
+      ],
+      "predictor": [
+        210
+      ],
+      "values": [
+        211
+      ],
+      "OECD": [
+        214,
+        234,
+        319
+      ],
+      "German": [
+        219
+      ],
+      "reunification.The": [
+        220
+      ],
+      "original": [
+        221,
+        283
+      ],
+      "text": [
+        222
+      ],
+      "described": [
+        223
+      ],
+      "this": [
+        224
+      ],
+      "presenting": [
+        227
+      ],
+      "population-weighted": [
+        229
+      ],
+      "16": [
+        233
+      ],
+      "countries": [
+        235
+      ],
+      "pool,": [
+        239
+      ],
+      "there": [
+        241
+      ],
+      "was": [
+        242
+      ],
+      "coding": [
+        244
+      ],
+      "calculation": [
+        248
+      ],
+      "averages.The": [
+        251
+      ],
+      "corrected": [
+        252,
+        350
+      ],
+      "version": [
+        253,
+        351
+      ],
+      "table": [
+        256
+      ],
+      "is": [
+        257,
+        335,
+        352
+      ],
+      "shown": [
+        258
+      ],
+      "1.The": [
+        261
+      ],
+      "correction": [
+        262,
+        347
+      ],
+      "affects": [
+        263
+      ],
+      "only": [
+        264
+      ],
+      "descriptive": [
+        266
+      ],
+      "statistics": [
+        267
+      ],
+      "on": [
+        268
+      ],
+      "last": [
+        270,
+        339
+      ],
+      "any": [
+        277
+      ],
+      "other": [
+        278,
+        318
+      ],
+      "result": [
+        279
+      ],
+      "study.The": [
+        282
+      ],
+      "description": [
+        284
+      ],
+      "\"Overall,": [
+        291
+      ],
+      "2": [
+        296,
+        334
+      ],
+      "suggest": [
+        297
+      ],
+      "that": [
+        298,
+        328
+      ],
+      "provides": [
+        303
+      ],
+      "much": [
+        305
+      ],
+      "better": [
+        306
+      ],
+      "comparison": [
+        307
+      ],
+      "than": [
+        311
+      ],
+      "countries\"": [
+        320
+      ],
+      "(Abadie": [
+        321
+      ],
+      "al.,": [
+        323
+      ],
+      "2015,": [
+        324
+      ],
+      "pp.502-503),": [
+        325
+      ],
+      "stays": [
+        326
+      ],
+      "unchanged.Note": [
+        327
+      ],
+      "reproduced": [
+        336
+      ],
+      "4;": [
+        343
+      ],
+      "accordingly,": [
+        344
+      ],
+      "same": [
+        346
+      ],
+      "applies": [
+        348
+      ],
+      "there.The": [
+        349
+      ],
+      "presented": [
+        353
+      ],
+      "2.": [
+        356
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-07T09:51:55.459714",
+    "created_date": "2026-10-06T00:00:00"
   }
 ]

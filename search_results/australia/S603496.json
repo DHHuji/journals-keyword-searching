@@ -31736,7 +31736,7 @@
     "doi": "https://doi.org/10.1080/13504630.2025.2587018",
     "title": "Academic freedom and the politics of silencing: a critical autoethnography of race and belonging in Australia",
     "display_name": "Academic freedom and the politics of silencing: a critical autoethnography of race and belonging in Australia",
-    "relevance_score": 30.617218,
+    "relevance_score": 18.884092,
     "publication_year": 2025,
     "publication_date": "2025-11-18",
     "ids": {
@@ -31746,6 +31746,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/13504630.2025.2587018",
+      "doi": "https://doi.org/10.1080/13504630.2025.2587018",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1080/13504630.2025.2587018",
       "pdf_url": null,
@@ -31760,13 +31761,24 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
@@ -31778,6 +31790,7 @@
       "raw_source_name": "Social Identities",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -31794,7 +31807,10 @@
         "author": {
           "id": "https://openalex.org/A5050901754",
           "display_name": "Hyacinth Udah",
-          "orcid": "https://orcid.org/0000-0002-2681-5596"
+          "orcid": "https://orcid.org/0000-0002-2681-5596",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2681-5596"
+          ]
         },
         "institutions": [
           {
@@ -31838,12 +31854,12 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 7.4463,
+    "fwci": 18.6659,
     "has_fulltext": false,
-    "cited_by_count": 2,
+    "cited_by_count": 5,
     "citation_normalized_percentile": {
-      "value": 0.97090019,
-      "is_in_top_1_percent": false,
+      "value": 0.99040887,
+      "is_in_top_1_percent": true,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
@@ -31851,21 +31867,21 @@
       "max": 99
     },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": "1",
-      "last_page": "23"
+      "volume": "32",
+      "issue": "6",
+      "first_page": "549",
+      "last_page": "571"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11384",
-      "display_name": "Critical Race Theory in Education",
-      "score": 0.1451999992132187,
+      "id": "https://openalex.org/T14181",
+      "display_name": "Academic Freedom and Politics",
+      "score": 0.4650999903678894,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -31878,43 +31894,43 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T14181",
+        "display_name": "Academic Freedom and Politics",
+        "score": 0.4650999903678894,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14123",
+        "display_name": "Decolonial Thought and Epistemologies",
+        "score": 0.4350999891757965,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11384",
         "display_name": "Critical Race Theory in Education",
-        "score": 0.1451999992132187,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10348",
-        "display_name": "Indigenous Health, Education, and Rights",
-        "score": 0.048900000751018524,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3306",
-          "display_name": "Health"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T14176",
-        "display_name": "Interdisciplinary Cultural and Social Studies",
-        "score": 0.03480000048875809,
+        "score": 0.07989999651908875,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -31931,39 +31947,74 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/autoethnography",
-        "display_name": "Autoethnography",
-        "score": 0.838100016117096
+        "id": "https://openalex.org/keywords/academic-freedom",
+        "display_name": "academic freedom",
+        "score": 1.0
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.7034000158309937
+        "id": "https://openalex.org/keywords/whiteness",
+        "display_name": "whiteness",
+        "score": 0.7409999966621399
       },
       {
-        "id": "https://openalex.org/keywords/race",
-        "display_name": "Race (biology)",
-        "score": 0.6775000095367432
+        "id": "https://openalex.org/keywords/coloniality",
+        "display_name": "coloniality",
+        "score": 0.9739999771118164
       },
       {
-        "id": "https://openalex.org/keywords/ethnography",
-        "display_name": "Ethnography",
+        "id": "https://openalex.org/keywords/decolonization",
+        "display_name": "decolonization",
+        "score": 0.8939999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/settler-colonialism",
+        "display_name": "settler colonialism",
+        "score": 0.8429999947547913
+      },
+      {
+        "id": "https://openalex.org/keywords/sense-of-belonging",
+        "display_name": "sense of belonging",
+        "score": 0.5419999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/silencing",
+        "display_name": "silencing",
+        "score": 0.6069999933242798
+      },
+      {
+        "id": "https://openalex.org/keywords/mccarthyism",
+        "display_name": "McCarthyism",
+        "score": 0.7950000166893005
+      },
+      {
+        "id": "https://openalex.org/keywords/epistemic-control",
+        "display_name": "epistemic control",
+        "score": 0.9900000095367432
+      },
+      {
+        "id": "https://openalex.org/keywords/national-identity",
+        "display_name": "national identity",
+        "score": 0.8019999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/institutional-exclusion",
+        "display_name": "institutional exclusion",
+        "score": 0.4869999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/australia",
+        "display_name": "Australia",
         "score": 0.37400001287460327
       },
       {
-        "id": "https://openalex.org/keywords/identity",
-        "display_name": "Identity (music)",
-        "score": 0.3700000047683716
+        "id": "https://openalex.org/keywords/racial-justice",
+        "display_name": "racial justice",
+        "score": 0.4749999940395355
       },
       {
-        "id": "https://openalex.org/keywords/academic-freedom",
-        "display_name": "Academic freedom",
-        "score": 0.36489999294281006
-      },
-      {
-        "id": "https://openalex.org/keywords/identity-politics",
-        "display_name": "Identity politics",
-        "score": 0.3109000027179718
+        "id": "https://openalex.org/keywords/knowledge-production",
+        "display_name": "knowledge production",
+        "score": 0.460999995470047
       }
     ],
     "concepts": [
@@ -32088,10 +32139,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 2,
     "locations": [
       {
         "id": "doi:10.1080/13504630.2025.2587018",
+        "doi": "https://doi.org/10.1080/13504630.2025.2587018",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1080/13504630.2025.2587018",
         "pdf_url": null,
@@ -32106,13 +32158,24 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
@@ -32123,10 +32186,49 @@
         "is_published": true,
         "raw_source_name": "Social Identities",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:researchonline.jcu.edu.au:89994",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://researchonline.jcu.edu.au/89994/1/89994.pdf",
+        "pdf_url": "https://researchonline.jcu.edu.au/89994/1/89994.pdf",
+        "source": {
+          "id": "https://openalex.org/S4377196350",
+          "display_name": "ResearchOnline - JCU (James Cook University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I86467917",
+          "host_organization_name": "James Cook University",
+          "host_organization_lineage": [
+            "https://openalex.org/I86467917"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.7578999996185303,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -32136,7 +32238,9 @@
     "content_urls": null,
     "referenced_works_count": 52,
     "referenced_works": [
+      "https://openalex.org/W46302826",
       "https://openalex.org/W349347974",
+      "https://openalex.org/W590119127",
       "https://openalex.org/W1488973119",
       "https://openalex.org/W1977214969",
       "https://openalex.org/W1989030672",
@@ -32159,13 +32263,11 @@
       "https://openalex.org/W2963240202",
       "https://openalex.org/W2981352028",
       "https://openalex.org/W3043646685",
-      "https://openalex.org/W3124630312",
       "https://openalex.org/W3134444980",
       "https://openalex.org/W4205954925",
       "https://openalex.org/W4206234605",
       "https://openalex.org/W4210801946",
       "https://openalex.org/W4230147251",
-      "https://openalex.org/W4231297444",
       "https://openalex.org/W4236832443",
       "https://openalex.org/W4242053761",
       "https://openalex.org/W4242325658",
@@ -32189,15 +32291,426 @@
       "https://openalex.org/W4415014350",
       "https://openalex.org/W4415650079"
     ],
-    "related_works": [],
-    "abstract_inverted_index": null,
+    "related_works": [
+      "https://openalex.org/W7134038686",
+      "https://openalex.org/W3122482589",
+      "https://openalex.org/W7214404249",
+      "https://openalex.org/W4401746656",
+      "https://openalex.org/W4410643174",
+      "https://openalex.org/W606193458",
+      "https://openalex.org/W3209104565",
+      "https://openalex.org/W4400661720",
+      "https://openalex.org/W7097495393",
+      "https://openalex.org/W4310609962"
+    ],
+    "abstract_inverted_index": {
+      "Critical": [
+        0
+      ],
+      "engagement": [
+        1
+      ],
+      "with": [
+        2,
+        98
+      ],
+      "race,": [
+        3
+      ],
+      "coloniality,": [
+        4
+      ],
+      "and": [
+        5,
+        61,
+        69,
+        79,
+        92,
+        119,
+        124,
+        136,
+        148
+      ],
+      "belonging": [
+        6
+      ],
+      "remains": [
+        7
+      ],
+      "deeply": [
+        8
+      ],
+      "contested": [
+        9
+      ],
+      "across": [
+        10
+      ],
+      "the": [
+        11,
+        14,
+        20,
+        149
+      ],
+      "globe.": [
+        12
+      ],
+      "In": [
+        13
+      ],
+      "Australian": [
+        15
+      ],
+      "context,": [
+        16
+      ],
+      "scholars": [
+        17
+      ],
+      "who": [
+        18
+      ],
+      "challenge": [
+        19
+      ],
+      "nation\u2019s": [
+        21
+      ],
+      "colonial": [
+        22
+      ],
+      "legacies": [
+        23
+      ],
+      "are": [
+        24
+      ],
+      "often": [
+        25
+      ],
+      "branded": [
+        26
+      ],
+      "as": [
+        27,
+        104,
+        131
+      ],
+      "divisive": [
+        28,
+        115
+      ],
+      "and,": [
+        29
+      ],
+      "accused": [
+        30
+      ],
+      "of": [
+        31,
+        77,
+        90,
+        134,
+        151
+      ],
+      "engaging": [
+        32
+      ],
+      "in": [
+        33,
+        154
+      ],
+      "academic": [
+        34,
+        45,
+        145
+      ],
+      "terrorism.": [
+        35
+      ],
+      "Using": [
+        36
+      ],
+      "a": [
+        37
+      ],
+      "critical": [
+        38,
+        99,
+        129
+      ],
+      "autoethnographic": [
+        39
+      ],
+      "approach,": [
+        40
+      ],
+      "this": [
+        41,
+        138
+      ],
+      "article": [
+        42,
+        107,
+        139
+      ],
+      "examines": [
+        43
+      ],
+      "how": [
+        44,
+        59,
+        96
+      ],
+      "freedom": [
+        46
+      ],
+      "is": [
+        47,
+        102,
+        113
+      ],
+      "differentially": [
+        48
+      ],
+      "constrained": [
+        49
+      ],
+      "for": [
+        50,
+        122
+      ],
+      "racialised": [
+        51
+      ],
+      "scholars.": [
+        52
+      ],
+      "Drawing": [
+        53
+      ],
+      "on": [
+        54,
+        144
+      ],
+      "lived": [
+        55
+      ],
+      "experience,": [
+        56
+      ],
+      "it": [
+        57
+      ],
+      "interrogates": [
+        58
+      ],
+      "whiteness": [
+        60
+      ],
+      "coloniality": [
+        62
+      ],
+      "shape": [
+        63
+      ],
+      "national": [
+        64
+      ],
+      "identity,": [
+        65
+      ],
+      "institutional": [
+        66
+      ],
+      "cultures,": [
+        67
+      ],
+      "curricula,": [
+        68
+      ],
+      "research": [
+        70
+      ],
+      "priorities,": [
+        71
+      ],
+      "producing": [
+        72
+      ],
+      "subtle": [
+        73
+      ],
+      "yet": [
+        74
+      ],
+      "persistent": [
+        75
+      ],
+      "forms": [
+        76
+      ],
+      "exclusion": [
+        78
+      ],
+      "silencing.": [
+        80
+      ],
+      "The": [
+        81,
+        106
+      ],
+      "analysis": [
+        82
+      ],
+      "situates": [
+        83
+      ],
+      "these": [
+        84
+      ],
+      "experiences": [
+        85
+      ],
+      "within": [
+        86
+      ],
+      "broader": [
+        87
+      ],
+      "global": [
+        88
+      ],
+      "currents": [
+        89
+      ],
+      "McCarthyism": [
+        91
+      ],
+      "epistemic": [
+        93
+      ],
+      "control,": [
+        94
+      ],
+      "highlighting": [
+        95
+      ],
+      "discomfort": [
+        97
+      ],
+      "race": [
+        100
+      ],
+      "scholarship": [
+        101,
+        130
+      ],
+      "reframed": [
+        103
+      ],
+      "danger.": [
+        105
+      ],
+      "argues": [
+        108
+      ],
+      "that": [
+        109
+      ],
+      "resisting": [
+        110
+      ],
+      "historical": [
+        111
+      ],
+      "amnesia": [
+        112
+      ],
+      "not": [
+        114
+      ],
+      "but": [
+        116
+      ],
+      "an": [
+        117,
+        132
+      ],
+      "ethical": [
+        118
+      ],
+      "intellectual": [
+        120
+      ],
+      "imperative": [
+        121
+      ],
+      "racial": [
+        123
+      ],
+      "social": [
+        125
+      ],
+      "justice.": [
+        126
+      ],
+      "By": [
+        127
+      ],
+      "positioning": [
+        128
+      ],
+      "act": [
+        133
+      ],
+      "resistance": [
+        135
+      ],
+      "reclamation,": [
+        137
+      ],
+      "contributes": [
+        140
+      ],
+      "to": [
+        141
+      ],
+      "ongoing": [
+        142
+      ],
+      "debates": [
+        143
+      ],
+      "freedom,": [
+        146
+      ],
+      "decolonisation,": [
+        147
+      ],
+      "politics": [
+        150
+      ],
+      "knowledge": [
+        152
+      ],
+      "production": [
+        153
+      ],
+      "settler-colonial": [
+        155
+      ],
+      "contexts.": [
+        156
+      ]
+    },
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 2
+        "cited_by_count": 5
       }
     ],
-    "updated_date": "2025-11-28T10:50:10.521929",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-11-18T00:00:00"
   },
   {
@@ -32205,7 +32718,7 @@
     "doi": "https://doi.org/10.1080/13504630.2025.2570261",
     "title": "Transformative leadership: bridging racial and ethnic divisions in multicultural Australia",
     "display_name": "Transformative leadership: bridging racial and ethnic divisions in multicultural Australia",
-    "relevance_score": 30.584068,
+    "relevance_score": 20.025711,
     "publication_year": 2025,
     "publication_date": "2025-10-09",
     "ids": {
@@ -32215,9 +32728,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/13504630.2025.2570261",
-      "is_oa": false,
+      "doi": "https://doi.org/10.1080/13504630.2025.2570261",
+      "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/13504630.2025.2570261",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2025.2570261?needAccess=true",
       "source": {
         "id": "https://openalex.org/S603496",
         "display_name": "Social Identities",
@@ -32229,32 +32743,44 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Social Identities",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
       "is_oa": true,
-      "oa_status": "green",
-      "oa_url": "https://researchonline.jcu.edu.au/89148/1/89148.pdf",
+      "oa_status": "hybrid",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2025.2570261?needAccess=true",
       "any_repository_has_fulltext": true
     },
     "authorships": [
@@ -32263,7 +32789,10 @@
         "author": {
           "id": "https://openalex.org/A5050901754",
           "display_name": "Hyacinth Udah",
-          "orcid": "https://orcid.org/0000-0002-2681-5596"
+          "orcid": "https://orcid.org/0000-0002-2681-5596",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2681-5596"
+          ]
         },
         "institutions": [
           {
@@ -32285,6 +32814,7 @@
         "raw_affiliation_strings": [
           "James Cook University"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "James Cook University",
@@ -32299,7 +32829,10 @@
         "author": {
           "id": "https://openalex.org/A5012553134",
           "display_name": "Parlo Singh",
-          "orcid": "https://orcid.org/0000-0001-6757-2167"
+          "orcid": "https://orcid.org/0000-0001-6757-2167",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6757-2167"
+          ]
         },
         "institutions": [
           {
@@ -32321,6 +32854,7 @@
         "raw_affiliation_strings": [
           "Griffith University"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Griffith University",
@@ -32335,7 +32869,10 @@
         "author": {
           "id": "https://openalex.org/A5116455396",
           "display_name": "Chinyere Udah",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0009-2504-4716",
+          "observed_orcids": [
+            "https://orcid.org/0009-0009-2504-4716"
+          ]
         },
         "institutions": [
           {
@@ -32357,6 +32894,7 @@
         "raw_affiliation_strings": [
           "Chukwuemeka Odumegwu Ojukwu University, Ihiala, Nigeria"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Chukwuemeka Odumegwu Ojukwu University, Ihiala, Nigeria",
@@ -32378,31 +32916,31 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 4.0097,
+    "fwci": 1.7518,
     "has_fulltext": true,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.94395032,
+      "value": 0.87792037,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 94
     },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": "1",
-      "last_page": "21"
+      "volume": "32",
+      "issue": "5",
+      "first_page": "453",
+      "last_page": "473"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11474",
-      "display_name": "Sport and Mega-Event Impacts",
-      "score": 0.9986000061035156,
+      "id": "https://openalex.org/T10216",
+      "display_name": "Migration, Refugees, and Integration",
+      "score": 0.5717999935150146,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -32418,9 +32956,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11474",
-        "display_name": "Sport and Mega-Event Impacts",
-        "score": 0.9986000061035156,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.5717999935150146,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -32435,12 +32973,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T13839",
-        "display_name": "Tourism, Volunteerism, and Development",
-        "score": 0.9914000034332275,
+        "id": "https://openalex.org/T13982",
+        "display_name": "Social Movements and Cultural Identity",
+        "score": 0.31029999256134033,
         "subfield": {
-          "id": "https://openalex.org/subfields/3317",
-          "display_name": "Demography"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -32452,9 +32990,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T11120",
-        "display_name": "Nonprofit Sector and Volunteering",
-        "score": 0.9797999858856201,
+        "id": "https://openalex.org/T10652",
+        "display_name": "Racial and Ethnic Identity Research",
+        "score": 0.015599999576807022,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -32471,34 +33009,69 @@
     ],
     "keywords": [
       {
+        "id": "https://openalex.org/keywords/transformative-leadership",
+        "display_name": "transformative leadership",
+        "score": 1.0
+      },
+      {
+        "id": "https://openalex.org/keywords/racial-and-ethnic-divisions",
+        "display_name": "racial and ethnic divisions",
+        "score": 0.875
+      },
+      {
         "id": "https://openalex.org/keywords/multiculturalism",
-        "display_name": "Multiculturalism",
-        "score": 0.7656000256538391
+        "display_name": "multiculturalism",
+        "score": 0.8799999952316284
       },
       {
-        "id": "https://openalex.org/keywords/bridging",
-        "display_name": "Bridging (networking)",
-        "score": 0.7166000008583069
+        "id": "https://openalex.org/keywords/whiteness",
+        "display_name": "whiteness",
+        "score": 0.7239999771118164
       },
       {
-        "id": "https://openalex.org/keywords/ethnic-group",
-        "display_name": "Ethnic group",
-        "score": 0.6585999727249146
+        "id": "https://openalex.org/keywords/antiracism",
+        "display_name": "anti-racism",
+        "score": 0.8220000267028809
       },
       {
-        "id": "https://openalex.org/keywords/transformative-learning",
-        "display_name": "Transformative learning",
-        "score": 0.6277999877929688
+        "id": "https://openalex.org/keywords/sense-of-belonging",
+        "display_name": "sense of belonging",
+        "score": 0.8050000071525574
       },
       {
-        "id": "https://openalex.org/keywords/ethnic-studies",
-        "display_name": "Ethnic studies",
-        "score": 0.3260999917984009
+        "id": "https://openalex.org/keywords/national-identity",
+        "display_name": "national identity",
+        "score": 0.7570000290870667
       },
       {
-        "id": "https://openalex.org/keywords/racism",
-        "display_name": "Racism",
-        "score": 0.3140000104904175
+        "id": "https://openalex.org/keywords/settler-colonialism",
+        "display_name": "settler colonialism",
+        "score": 0.8009999990463257
+      },
+      {
+        "id": "https://openalex.org/keywords/equity",
+        "display_name": "equity",
+        "score": 0.6010000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/grassroots-organizations",
+        "display_name": "grassroots organizations",
+        "score": 0.44699999690055847
+      },
+      {
+        "id": "https://openalex.org/keywords/migration",
+        "display_name": "migration",
+        "score": 0.3540000021457672
+      },
+      {
+        "id": "https://openalex.org/keywords/relational-leadership",
+        "display_name": "relational leadership",
+        "score": 0.5189999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/anti-racism-policy",
+        "display_name": "anti-racism policy",
+        "score": 0.609000027179718
       }
     ],
     "concepts": [
@@ -32609,13 +33182,14 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1080/13504630.2025.2570261",
-        "is_oa": false,
+        "doi": "https://doi.org/10.1080/13504630.2025.2570261",
+        "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/13504630.2025.2570261",
-        "pdf_url": null,
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2025.2570261?needAccess=true",
         "source": {
           "id": "https://openalex.org/S603496",
           "display_name": "Social Identities",
@@ -32627,18 +33201,29 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -32647,17 +33232,19 @@
       },
       {
         "id": "pmh:oai:researchonline.jcu.edu.au:89148",
+        "doi": null,
         "is_oa": true,
-        "landing_page_url": null,
+        "landing_page_url": "https://researchonline.jcu.edu.au/89148/1/89148.pdf",
         "pdf_url": "https://researchonline.jcu.edu.au/89148/1/89148.pdf",
         "source": {
-          "id": "https://openalex.org/S4377196350",
-          "display_name": "ResearchOnline - JCU (James Cook University)",
+          "id": "https://openalex.org/S4306400519",
+          "display_name": "ResearchOnline at James Cook University (James Cook University)",
           "issn_l": null,
           "issn": null,
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I86467917",
           "host_organization_name": "James Cook University",
           "host_organization_lineage": [
@@ -32673,40 +33260,99 @@
         "is_published": false,
         "raw_source_name": null,
         "raw_type": "Article"
+      },
+      {
+        "id": "pmh:oai:research-repository.griffith.edu.au:10072/439867",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/10072/439867",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407064376",
+          "display_name": "Griffith Research Online",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Journal article"
       }
     ],
     "best_oa_location": {
-      "id": "pmh:oai:researchonline.jcu.edu.au:89148",
+      "id": "doi:10.1080/13504630.2025.2570261",
+      "doi": "https://doi.org/10.1080/13504630.2025.2570261",
       "is_oa": true,
-      "landing_page_url": null,
-      "pdf_url": "https://researchonline.jcu.edu.au/89148/1/89148.pdf",
+      "landing_page_url": "https://doi.org/10.1080/13504630.2025.2570261",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2025.2570261?needAccess=true",
       "source": {
-        "id": "https://openalex.org/S4377196350",
-        "display_name": "ResearchOnline - JCU (James Cook University)",
-        "issn_l": null,
-        "issn": null,
+        "id": "https://openalex.org/S603496",
+        "display_name": "Social Identities",
+        "issn_l": "1350-4630",
+        "issn": [
+          "1350-4630",
+          "1363-0296"
+        ],
         "is_oa": false,
         "is_in_doaj": false,
-        "is_core": false,
-        "host_organization": "https://openalex.org/I86467917",
-        "host_organization_name": "James Cook University",
-        "host_organization_lineage": [
-          "https://openalex.org/I86467917"
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
         ],
-        "host_organization_lineage_names": [],
-        "type": "repository"
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
       },
-      "license": null,
-      "license_id": null,
-      "version": "submittedVersion",
-      "is_accepted": false,
-      "is_published": false,
-      "raw_source_name": null,
-      "raw_type": "Article"
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Social Identities",
+      "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.8974000215530396,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [
+      {
+        "id": "https://openalex.org/F4320320982",
+        "display_name": "James Cook University",
+        "ror": "https://ror.org/04gsp2c11"
+      },
       {
         "id": "https://openalex.org/F4320337001",
         "display_name": "College of Arts, Society and Education, James Cook University",
@@ -32715,10 +33361,11 @@
     ],
     "has_content": {
       "pdf": true,
-      "grobid_xml": false
+      "grobid_xml": true
     },
     "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4415014350.pdf"
+      "pdf": "https://content.openalex.org/works/W4415014350.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4415014350.grobid-xml"
     },
     "referenced_works_count": 34,
     "referenced_works": [
@@ -33132,7 +33779,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-04-09T08:11:56.329763",
+    "updated_date": "2026-10-27T15:51:10.671819",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -63232,5 +63879,3345 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7220666452",
+    "doi": "https://doi.org/10.1080/13504630.2026.2740749",
+    "title": "Ethnic identity and luxury brand purchase intention among Australian immigrants: Does demography moderate them?",
+    "display_name": "Ethnic identity and luxury brand purchase intention among Australian immigrants: Does demography moderate them?",
+    "relevance_score": 16.242012,
+    "publication_year": 2026,
+    "publication_date": "2026-10-05",
+    "ids": {
+      "openalex": "https://openalex.org/W7220666452",
+      "doi": "https://doi.org/10.1080/13504630.2026.2740749"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/13504630.2026.2740749",
+      "doi": "https://doi.org/10.1080/13504630.2026.2740749",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/13504630.2026.2740749",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2026.2740749?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S603496",
+        "display_name": "Social Identities",
+        "issn_l": "1350-4630",
+        "issn": [
+          "1350-4630",
+          "1363-0296"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Social Identities",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2026.2740749?needAccess=true",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5083028463",
+          "display_name": "Saif Sharif",
+          "orcid": "https://orcid.org/0000-0003-0403-3961",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0403-3961"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185523456",
+            "display_name": "University of Southern Queensland",
+            "ror": "https://ror.org/04sjbnx57",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185523456"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Saif Sharif",
+        "raw_affiliation_strings": [
+          "University of Southern Queensland"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Southern Queensland",
+            "institution_ids": [
+              "https://openalex.org/I185523456"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5042885219",
+          "display_name": "Rakia Ishra",
+          "orcid": "https://orcid.org/0000-0002-7142-2492",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7142-2492"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I103434671",
+            "display_name": "American International University-Bangladesh",
+            "ror": "https://ror.org/02j8ga255",
+            "country_code": "BD",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I103434671"
+            ]
+          }
+        ],
+        "countries": [
+          "BD"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Rakia Ishra",
+        "raw_affiliation_strings": [
+          "American International University \u2013 Bangladesh"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "American International University \u2013 Bangladesh",
+            "institution_ids": [
+              "https://openalex.org/I103434671"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5088810965",
+          "display_name": "Jeffrey Soar",
+          "orcid": "https://orcid.org/0000-0002-4964-7556",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4964-7556"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185523456",
+            "display_name": "University of Southern Queensland",
+            "ror": "https://ror.org/04sjbnx57",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185523456"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jeffrey Soar",
+        "raw_affiliation_strings": [
+          "University of Southern Queensland"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Southern Queensland",
+            "institution_ids": [
+              "https://openalex.org/I185523456"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5074533752",
+          "display_name": "Anne-Marie Sassenberg",
+          "orcid": "https://orcid.org/0000-0003-3404-3570",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3404-3570"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I185523456",
+            "display_name": "University of Southern Queensland",
+            "ror": "https://ror.org/04sjbnx57",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I185523456"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Anne-Marie Sassenberg",
+        "raw_affiliation_strings": [
+          "University of Southern Queensland"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Southern Queensland",
+            "institution_ids": [
+              "https://openalex.org/I185523456"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5083028463"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I185523456"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.88103041,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "19"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10145",
+      "display_name": "Consumer Behavior in Brand Consumption and Identification",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1406",
+        "display_name": "Marketing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10145",
+        "display_name": "Consumer Behavior in Brand Consumption and Identification",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1406",
+          "display_name": "Marketing"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13169",
+        "display_name": "Consumer Perception and Purchasing Behavior",
+        "score": 9.999999747378752e-05,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1406",
+          "display_name": "Marketing"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10652",
+        "display_name": "Racial and Ethnic Identity Research",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/ethnic-identity",
+        "display_name": "ethnic identity",
+        "score": 1.0
+      },
+      {
+        "id": "https://openalex.org/keywords/luxury-brands",
+        "display_name": "luxury brands",
+        "score": 0.9330000281333923
+      },
+      {
+        "id": "https://openalex.org/keywords/purchase-intention",
+        "display_name": "purchase intention",
+        "score": 0.9919999837875366
+      },
+      {
+        "id": "https://openalex.org/keywords/indian-subcontinent-immigrants",
+        "display_name": "Indian subcontinent immigrants",
+        "score": 0.7730000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/first-generation-immigrants",
+        "display_name": "first-generation immigrants",
+        "score": 0.8050000071525574
+      },
+      {
+        "id": "https://openalex.org/keywords/australian-immigrants",
+        "display_name": "Australian immigrants",
+        "score": 0.5249999761581421
+      },
+      {
+        "id": "https://openalex.org/keywords/sociodemographic-moderators",
+        "display_name": "sociodemographic moderators",
+        "score": 0.7630000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/gender-differences",
+        "display_name": "gender differences",
+        "score": 0.8220000267028809
+      },
+      {
+        "id": "https://openalex.org/keywords/length-of-residence",
+        "display_name": "length of residence",
+        "score": 0.9950000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/multicultural-marketing",
+        "display_name": "multicultural marketing",
+        "score": 0.5950000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/customer-segmentation",
+        "display_name": "customer segmentation",
+        "score": 0.9390000104904175
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.8360000252723694
+      },
+      {
+        "id": "https://openalex.org/C93225998",
+        "wikidata": "https://www.wikidata.org/wiki/Q1941972",
+        "display_name": "Moderation",
+        "level": 2,
+        "score": 0.5575000047683716
+      },
+      {
+        "id": "https://openalex.org/C2776269092",
+        "wikidata": "https://www.wikidata.org/wiki/Q1611074",
+        "display_name": "Residence",
+        "level": 2,
+        "score": 0.46709999442100525
+      },
+      {
+        "id": "https://openalex.org/C2778355321",
+        "wikidata": "https://www.wikidata.org/wiki/Q17079427",
+        "display_name": "Identity (music)",
+        "level": 2,
+        "score": 0.46309998631477356
+      },
+      {
+        "id": "https://openalex.org/C70036468",
+        "wikidata": "https://www.wikidata.org/wiki/Q131288",
+        "display_name": "Immigration",
+        "level": 2,
+        "score": 0.4429999887943268
+      },
+      {
+        "id": "https://openalex.org/C112698675",
+        "wikidata": "https://www.wikidata.org/wiki/Q37038",
+        "display_name": "Advertising",
+        "level": 1,
+        "score": 0.423799991607666
+      },
+      {
+        "id": "https://openalex.org/C106399304",
+        "wikidata": "https://www.wikidata.org/wiki/Q868123",
+        "display_name": "Snowball sampling",
+        "level": 2,
+        "score": 0.373199999332428
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.37290000915527344
+      },
+      {
+        "id": "https://openalex.org/C2909145594",
+        "wikidata": "https://www.wikidata.org/wiki/Q2643509",
+        "display_name": "Asian Indian",
+        "level": 3,
+        "score": 0.358599990606308
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.35749998688697815
+      },
+      {
+        "id": "https://openalex.org/C2779101040",
+        "wikidata": "https://www.wikidata.org/wiki/Q3373417",
+        "display_name": "Country of origin",
+        "level": 2,
+        "score": 0.35690000653266907
+      },
+      {
+        "id": "https://openalex.org/C142853389",
+        "wikidata": "https://www.wikidata.org/wiki/Q744778",
+        "display_name": "Association (psychology)",
+        "level": 2,
+        "score": 0.35109999775886536
+      },
+      {
+        "id": "https://openalex.org/C542530943",
+        "wikidata": "https://www.wikidata.org/wiki/Q190656",
+        "display_name": "Multiculturalism",
+        "level": 2,
+        "score": 0.3481000065803528
+      },
+      {
+        "id": "https://openalex.org/C98447023",
+        "wikidata": "https://www.wikidata.org/wiki/Q1540351",
+        "display_name": "Social identity theory",
+        "level": 3,
+        "score": 0.3452000021934509
+      },
+      {
+        "id": "https://openalex.org/C2781121862",
+        "wikidata": "https://www.wikidata.org/wiki/Q256",
+        "display_name": "Turkish",
+        "level": 2,
+        "score": 0.34209999442100525
+      },
+      {
+        "id": "https://openalex.org/C77805123",
+        "wikidata": "https://www.wikidata.org/wiki/Q161272",
+        "display_name": "Social psychology",
+        "level": 1,
+        "score": 0.3407000005245209
+      },
+      {
+        "id": "https://openalex.org/C2992678278",
+        "wikidata": "https://www.wikidata.org/wiki/Q431289",
+        "display_name": "Brand identity",
+        "level": 2,
+        "score": 0.28540000319480896
+      },
+      {
+        "id": "https://openalex.org/C2119116",
+        "wikidata": "https://www.wikidata.org/wiki/Q7181",
+        "display_name": "Globalization",
+        "level": 2,
+        "score": 0.2793999910354614
+      },
+      {
+        "id": "https://openalex.org/C23213687",
+        "wikidata": "https://www.wikidata.org/wiki/Q301468",
+        "display_name": "Consumer behaviour",
+        "level": 2,
+        "score": 0.2777999937534332
+      },
+      {
+        "id": "https://openalex.org/C2781115736",
+        "wikidata": "https://www.wikidata.org/wiki/Q5988346",
+        "display_name": "Identity change",
+        "level": 3,
+        "score": 0.27630001306533813
+      },
+      {
+        "id": "https://openalex.org/C125209646",
+        "wikidata": "https://www.wikidata.org/wiki/Q1338878",
+        "display_name": "Cultural diversity",
+        "level": 2,
+        "score": 0.2736000120639801
+      },
+      {
+        "id": "https://openalex.org/C152877465",
+        "wikidata": "https://www.wikidata.org/wiki/Q208042",
+        "display_name": "Regression analysis",
+        "level": 2,
+        "score": 0.2680000066757202
+      },
+      {
+        "id": "https://openalex.org/C125308379",
+        "wikidata": "https://www.wikidata.org/wiki/Q363057",
+        "display_name": "Market segmentation",
+        "level": 2,
+        "score": 0.25429999828338623
+      },
+      {
+        "id": "https://openalex.org/C71104824",
+        "wikidata": "https://www.wikidata.org/wiki/Q1476639",
+        "display_name": "Structural equation modeling",
+        "level": 2,
+        "score": 0.25029999017715454
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/13504630.2026.2740749",
+        "doi": "https://doi.org/10.1080/13504630.2026.2740749",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1080/13504630.2026.2740749",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2026.2740749?needAccess=true",
+        "source": {
+          "id": "https://openalex.org/S603496",
+          "display_name": "Social Identities",
+          "issn_l": "1350-4630",
+          "issn": [
+            "1350-4630",
+            "1363-0296"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Social Identities",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1080/13504630.2026.2740749",
+      "doi": "https://doi.org/10.1080/13504630.2026.2740749",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/13504630.2026.2740749",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2026.2740749?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S603496",
+        "display_name": "Social Identities",
+        "issn_l": "1350-4630",
+        "issn": [
+          "1350-4630",
+          "1363-0296"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Social Identities",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.7578999996185303,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "display_name": "Observational Study",
+        "id": "https://openalex.org/study-designs/observational-study"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7220666452.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7220666452.grobid-xml"
+    },
+    "referenced_works_count": 41,
+    "referenced_works": [
+      "https://openalex.org/W1452429546",
+      "https://openalex.org/W1499858538",
+      "https://openalex.org/W1559139263",
+      "https://openalex.org/W1964160122",
+      "https://openalex.org/W1966626337",
+      "https://openalex.org/W1971553861",
+      "https://openalex.org/W1972433016",
+      "https://openalex.org/W1976891860",
+      "https://openalex.org/W1982261512",
+      "https://openalex.org/W2005707429",
+      "https://openalex.org/W2007260885",
+      "https://openalex.org/W2030143694",
+      "https://openalex.org/W2039088739",
+      "https://openalex.org/W2041563070",
+      "https://openalex.org/W2066774529",
+      "https://openalex.org/W2072386724",
+      "https://openalex.org/W2075716908",
+      "https://openalex.org/W2082896646",
+      "https://openalex.org/W2086524028",
+      "https://openalex.org/W2090820080",
+      "https://openalex.org/W2116308420",
+      "https://openalex.org/W2119721601",
+      "https://openalex.org/W2163923702",
+      "https://openalex.org/W2167190636",
+      "https://openalex.org/W2419703276",
+      "https://openalex.org/W2529055078",
+      "https://openalex.org/W2584820334",
+      "https://openalex.org/W2606982739",
+      "https://openalex.org/W2802115862",
+      "https://openalex.org/W2922274809",
+      "https://openalex.org/W3081775256",
+      "https://openalex.org/W4245197416",
+      "https://openalex.org/W4285587830",
+      "https://openalex.org/W4327723626",
+      "https://openalex.org/W4385261195",
+      "https://openalex.org/W4392436604",
+      "https://openalex.org/W4399283132",
+      "https://openalex.org/W4402339395",
+      "https://openalex.org/W4403734489",
+      "https://openalex.org/W4404190926",
+      "https://openalex.org/W7155363516"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "study": [
+        1
+      ],
+      "examines": [
+        2
+      ],
+      "the": [
+        3,
+        51,
+        75,
+        162,
+        190
+      ],
+      "association": [
+        4,
+        76,
+        194
+      ],
+      "between": [
+        5,
+        77,
+        164
+      ],
+      "ethnic": [
+        6,
+        78,
+        101,
+        165,
+        173,
+        208
+      ],
+      "identity": [
+        7,
+        47,
+        79,
+        102,
+        166,
+        174,
+        209
+      ],
+      "and": [
+        8,
+        20,
+        43,
+        80,
+        124,
+        150,
+        167,
+        199,
+        222
+      ],
+      "luxury": [
+        9,
+        57,
+        81,
+        108,
+        168,
+        179
+      ],
+      "brand": [
+        10,
+        58,
+        82,
+        109,
+        169,
+        180,
+        204
+      ],
+      "purchase": [
+        11,
+        59,
+        83,
+        110,
+        134,
+        170,
+        181
+      ],
+      "intention": [
+        12,
+        60,
+        84,
+        111,
+        182
+      ],
+      "among": [
+        13,
+        35,
+        183
+      ],
+      "first-generation": [
+        14,
+        37
+      ],
+      "Indian": [
+        15,
+        184
+      ],
+      "subcontinent-born": [
+        16,
+        185
+      ],
+      "immigrants": [
+        17,
+        38,
+        186
+      ],
+      "in": [
+        18,
+        39,
+        187,
+        225
+      ],
+      "Australia": [
+        19,
+        40
+      ],
+      "assesses": [
+        21
+      ],
+      "whether": [
+        22
+      ],
+      "sociodemographic": [
+        23,
+        88,
+        211
+      ],
+      "characteristics": [
+        24,
+        212
+      ],
+      "moderate": [
+        25
+      ],
+      "this": [
+        26,
+        193
+      ],
+      "relationship.": [
+        27
+      ],
+      "A": [
+        28
+      ],
+      "quantitative": [
+        29
+      ],
+      "cross-sectional": [
+        30
+      ],
+      "online": [
+        31
+      ],
+      "survey": [
+        32
+      ],
+      "was": [
+        33,
+        48,
+        61,
+        71,
+        93,
+        103,
+        175
+      ],
+      "conducted": [
+        34
+      ],
+      "400": [
+        36
+      ],
+      "using": [
+        41,
+        50,
+        63
+      ],
+      "purposive": [
+        42
+      ],
+      "snowball": [
+        44
+      ],
+      "sampling.": [
+        45
+      ],
+      "Ethnic": [
+        46,
+        53
+      ],
+      "assessed": [
+        49
+      ],
+      "Multigroup": [
+        52
+      ],
+      "Identity": [
+        54
+      ],
+      "Measure,": [
+        55
+      ],
+      "while": [
+        56
+      ],
+      "measured": [
+        62
+      ],
+      "a": [
+        64
+      ],
+      "three-item": [
+        65
+      ],
+      "adapted": [
+        66
+      ],
+      "scale.": [
+        67
+      ],
+      "Multiple": [
+        68
+      ],
+      "linear": [
+        69
+      ],
+      "regression": [
+        70
+      ],
+      "used": [
+        72,
+        95
+      ],
+      "to": [
+        73,
+        96
+      ],
+      "examine": [
+        74
+      ],
+      "after": [
+        85
+      ],
+      "controlling": [
+        86
+      ],
+      "for": [
+        87
+      ],
+      "characteristics.": [
+        89
+      ],
+      "Hayes\u2019": [
+        90
+      ],
+      "PROCESS": [
+        91
+      ],
+      "macro": [
+        92
+      ],
+      "subsequently": [
+        94
+      ],
+      "test": [
+        97
+      ],
+      "moderation": [
+        98
+      ],
+      "effects.": [
+        99
+      ],
+      "Higher": [
+        100
+      ],
+      "significantly": [
+        104,
+        130,
+        160
+      ],
+      "associated": [
+        105,
+        131,
+        176
+      ],
+      "with": [
+        106,
+        132,
+        177
+      ],
+      "greater": [
+        107,
+        133,
+        178
+      ],
+      "(B": [
+        112,
+        137,
+        144,
+        154
+      ],
+      "=": [
+        113,
+        138,
+        141,
+        145,
+        148,
+        155
+      ],
+      "0.303,": [
+        114
+      ],
+      "p": [
+        115,
+        140,
+        147,
+        157
+      ],
+      "<": [
+        116,
+        158
+      ],
+      ".001).": [
+        117
+      ],
+      "Younger": [
+        118
+      ],
+      "age,": [
+        119
+      ],
+      "male": [
+        120
+      ],
+      "gender,": [
+        121,
+        198
+      ],
+      "lower": [
+        122
+      ],
+      "education,": [
+        123,
+        197
+      ],
+      "higher": [
+        125
+      ],
+      "family": [
+        126
+      ],
+      "income": [
+        127
+      ],
+      "were": [
+        128
+      ],
+      "also": [
+        129
+      ],
+      "intention.": [
+        135,
+        171
+      ],
+      "Education": [
+        136
+      ],
+      "0.099,": [
+        139
+      ],
+      ".019),": [
+        142
+      ],
+      "gender": [
+        143
+      ],
+      "0.124,": [
+        146
+      ],
+      ".026),": [
+        149
+      ],
+      "length": [
+        151,
+        200
+      ],
+      "of": [
+        152,
+        192,
+        201
+      ],
+      "residence": [
+        153
+      ],
+      "0.201,": [
+        156
+      ],
+      ".001)": [
+        159
+      ],
+      "moderated": [
+        161
+      ],
+      "relationship": [
+        163
+      ],
+      "Stronger": [
+        172
+      ],
+      "Australia,": [
+        188
+      ],
+      "although": [
+        189
+      ],
+      "strength": [
+        191
+      ],
+      "varied": [
+        195
+      ],
+      "across": [
+        196
+      ],
+      "residence.": [
+        202
+      ],
+      "Luxury": [
+        203
+      ],
+      "marketers": [
+        205
+      ],
+      "should": [
+        206
+      ],
+      "consider": [
+        207
+      ],
+      "alongside": [
+        210
+      ],
+      "when": [
+        213
+      ],
+      "segmenting": [
+        214
+      ],
+      "immigrant": [
+        215
+      ],
+      "consumers,": [
+        216
+      ],
+      "enabling": [
+        217
+      ],
+      "more": [
+        218
+      ],
+      "targeted": [
+        219
+      ],
+      "positioning,": [
+        220
+      ],
+      "communication,": [
+        221
+      ],
+      "marketing": [
+        223
+      ],
+      "strategies": [
+        224
+      ],
+      "multicultural": [
+        226
+      ],
+      "markets.": [
+        227
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-12T09:40:04.860316",
+    "created_date": "2026-10-07T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4412098225",
+    "doi": "https://doi.org/10.1080/13504630.2025.2526665",
+    "title": "(Re)construction of Identity and resilience among Afghan and Hazara adolescents following forced migration",
+    "display_name": "(Re)construction of Identity and resilience among Afghan and Hazara adolescents following forced migration",
+    "relevance_score": 1.8378853,
+    "publication_year": 2025,
+    "publication_date": "2025-07-06",
+    "ids": {
+      "openalex": "https://openalex.org/W4412098225",
+      "doi": "https://doi.org/10.1080/13504630.2025.2526665"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/13504630.2025.2526665",
+      "doi": "https://doi.org/10.1080/13504630.2025.2526665",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/13504630.2025.2526665",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2025.2526665?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S603496",
+        "display_name": "Social Identities",
+        "issn_l": "1350-4630",
+        "issn": [
+          "1350-4630",
+          "1363-0296"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Social Identities",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2025.2526665?needAccess=true",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5043792104",
+          "display_name": "Farnaz Shahimi",
+          "orcid": "https://orcid.org/0000-0001-5250-3126",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5250-3126"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165779595",
+            "display_name": "The University of Melbourne",
+            "ror": "https://ror.org/01ej9dk98",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Farnaz Shahimi",
+        "raw_affiliation_strings": [
+          "University of Melbourne"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Melbourne",
+            "institution_ids": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5053120787",
+          "display_name": "Karen Block",
+          "orcid": "https://orcid.org/0000-0003-0560-4148",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0560-4148"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165779595",
+            "display_name": "The University of Melbourne",
+            "ror": "https://ror.org/01ej9dk98",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Karen Block",
+        "raw_affiliation_strings": [
+          "University of Melbourne"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Melbourne",
+            "institution_ids": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5026717136",
+          "display_name": "Eva Alisic",
+          "orcid": "https://orcid.org/0000-0002-7225-606X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7225-606X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165779595",
+            "display_name": "The University of Melbourne",
+            "ror": "https://ror.org/01ej9dk98",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Eva Alisic",
+        "raw_affiliation_strings": [
+          "University of Melbourne"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Melbourne",
+            "institution_ids": [
+              "https://openalex.org/I165779595"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5043792104"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I165779595"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.17269131,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "32",
+      "issue": "1",
+      "first_page": "40",
+      "last_page": "61"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10762",
+      "display_name": "Migration, Health and Trauma",
+      "score": 0.5127000212669373,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10762",
+        "display_name": "Migration, Health and Trauma",
+        "score": 0.5127000212669373,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3203",
+          "display_name": "Clinical Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13063",
+        "display_name": "Education and experiences of immigrants and refugees",
+        "score": 0.3562000095844269,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.06729999929666519,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/identity-reconstruction",
+        "display_name": "identity reconstruction",
+        "score": 0.8450000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/resilience",
+        "display_name": "resilience",
+        "score": 0.9860000014305115
+      },
+      {
+        "id": "https://openalex.org/keywords/afghan-refugees",
+        "display_name": "Afghan refugees",
+        "score": 0.8939999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/forced-migration",
+        "display_name": "forced migration",
+        "score": 0.8859999775886536
+      },
+      {
+        "id": "https://openalex.org/keywords/sense-of-belonging",
+        "display_name": "sense of belonging",
+        "score": 0.8009999990463257
+      },
+      {
+        "id": "https://openalex.org/keywords/agency",
+        "display_name": "agency",
+        "score": 0.5389999747276306
+      },
+      {
+        "id": "https://openalex.org/keywords/refugee-adaptation",
+        "display_name": "refugee adaptation",
+        "score": 0.4399999976158142
+      },
+      {
+        "id": "https://openalex.org/keywords/cultural-inclusion",
+        "display_name": "cultural inclusion",
+        "score": 0.6899999976158142
+      },
+      {
+        "id": "https://openalex.org/keywords/australia",
+        "display_name": "Australia",
+        "score": 0.3630000054836273
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2778355321",
+        "wikidata": "https://www.wikidata.org/wiki/Q17079427",
+        "display_name": "Identity (music)",
+        "level": 2,
+        "score": 0.6452657580375671
+      },
+      {
+        "id": "https://openalex.org/C2779585090",
+        "wikidata": "https://www.wikidata.org/wiki/Q3457762",
+        "display_name": "Resilience (materials science)",
+        "level": 2,
+        "score": 0.6251865029335022
+      },
+      {
+        "id": "https://openalex.org/C2780587734",
+        "wikidata": "https://www.wikidata.org/wiki/Q383030",
+        "display_name": "Afghan",
+        "level": 2,
+        "score": 0.6023820638656616
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.6015796065330505
+      },
+      {
+        "id": "https://openalex.org/C137176749",
+        "wikidata": "https://www.wikidata.org/wiki/Q4105337",
+        "display_name": "Psychological resilience",
+        "level": 2,
+        "score": 0.5041314363479614
+      },
+      {
+        "id": "https://openalex.org/C541189924",
+        "wikidata": "https://www.wikidata.org/wiki/Q837556",
+        "display_name": "Forced migration",
+        "level": 3,
+        "score": 0.49324125051498413
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.4485251009464264
+      },
+      {
+        "id": "https://openalex.org/C77805123",
+        "wikidata": "https://www.wikidata.org/wiki/Q161272",
+        "display_name": "Social psychology",
+        "level": 1,
+        "score": 0.31446629762649536
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.2423425316810608
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.22136583924293518
+      },
+      {
+        "id": "https://openalex.org/C173145845",
+        "wikidata": "https://www.wikidata.org/wiki/Q131572",
+        "display_name": "Refugee",
+        "level": 2,
+        "score": 0.15363991260528564
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.06631863117218018
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.06429305672645569
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.06294617056846619
+      },
+      {
+        "id": "https://openalex.org/C97355855",
+        "wikidata": "https://www.wikidata.org/wiki/Q11473",
+        "display_name": "Thermodynamics",
+        "level": 1,
+        "score": 0.0
+      },
+      {
+        "id": "https://openalex.org/C121332964",
+        "wikidata": "https://www.wikidata.org/wiki/Q413",
+        "display_name": "Physics",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1080/13504630.2025.2526665",
+        "doi": "https://doi.org/10.1080/13504630.2025.2526665",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1080/13504630.2025.2526665",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2025.2526665?needAccess=true",
+        "source": {
+          "id": "https://openalex.org/S603496",
+          "display_name": "Social Identities",
+          "issn_l": "1350-4630",
+          "issn": [
+            "1350-4630",
+            "1363-0296"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Social Identities",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:jupiter.its.unimelb.edu.au:11343/364233",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/11343/364233",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4377196259",
+          "display_name": "Minerva Access (University of Melbourne)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I165779595",
+          "host_organization_name": "The University of Melbourne",
+          "host_organization_lineage": [
+            "https://openalex.org/I165779595"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Journal Article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1080/13504630.2025.2526665",
+      "doi": "https://doi.org/10.1080/13504630.2025.2526665",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/13504630.2025.2526665",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13504630.2025.2526665?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S603496",
+        "display_name": "Social Identities",
+        "issn_l": "1350-4630",
+        "issn": [
+          "1350-4630",
+          "1363-0296"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Social Identities",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Good health and well-being",
+        "score": 0.46810001134872437,
+        "id": "https://metadata.un.org/sdg/3"
+      },
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.4000000059604645,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.47999998927116394,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G200475588",
+        "display_name": "Young people bereaved by domestic homicide",
+        "funder_award_id": "FT190100255",
+        "funder_id": "https://openalex.org/F4320334704",
+        "funder_display_name": "Australian Research Council"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320334704",
+        "display_name": "Australian Research Council",
+        "ror": "https://ror.org/05mmh0f86"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4412098225.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4412098225.grobid-xml"
+    },
+    "referenced_works_count": 73,
+    "referenced_works": [
+      "https://openalex.org/W29948291",
+      "https://openalex.org/W1512651292",
+      "https://openalex.org/W1611488193",
+      "https://openalex.org/W1709220378",
+      "https://openalex.org/W1737861481",
+      "https://openalex.org/W1785520540",
+      "https://openalex.org/W1979290264",
+      "https://openalex.org/W2014363551",
+      "https://openalex.org/W2018480670",
+      "https://openalex.org/W2054662060",
+      "https://openalex.org/W2063351505",
+      "https://openalex.org/W2081477040",
+      "https://openalex.org/W2107758769",
+      "https://openalex.org/W2125362329",
+      "https://openalex.org/W2135943618",
+      "https://openalex.org/W2164418681",
+      "https://openalex.org/W2289810456",
+      "https://openalex.org/W2542380080",
+      "https://openalex.org/W2552892094",
+      "https://openalex.org/W2577555776",
+      "https://openalex.org/W2591496922",
+      "https://openalex.org/W2593779072",
+      "https://openalex.org/W2606575476",
+      "https://openalex.org/W2613593231",
+      "https://openalex.org/W2738488581",
+      "https://openalex.org/W2769723616",
+      "https://openalex.org/W2781166607",
+      "https://openalex.org/W2794372866",
+      "https://openalex.org/W2888130331",
+      "https://openalex.org/W2896198543",
+      "https://openalex.org/W2899001809",
+      "https://openalex.org/W2899059828",
+      "https://openalex.org/W2902226476",
+      "https://openalex.org/W2902378522",
+      "https://openalex.org/W2903840573",
+      "https://openalex.org/W2904601523",
+      "https://openalex.org/W2942882709",
+      "https://openalex.org/W2942935041",
+      "https://openalex.org/W2947103359",
+      "https://openalex.org/W2950504429",
+      "https://openalex.org/W2970467444",
+      "https://openalex.org/W2984621453",
+      "https://openalex.org/W2992523564",
+      "https://openalex.org/W2995535361",
+      "https://openalex.org/W2997676494",
+      "https://openalex.org/W3004753777",
+      "https://openalex.org/W3005109045",
+      "https://openalex.org/W3014747002",
+      "https://openalex.org/W3024032199",
+      "https://openalex.org/W3035348533",
+      "https://openalex.org/W3038669144",
+      "https://openalex.org/W3092583158",
+      "https://openalex.org/W3093632060",
+      "https://openalex.org/W3113089727",
+      "https://openalex.org/W3117439308",
+      "https://openalex.org/W3119056787",
+      "https://openalex.org/W3136729105",
+      "https://openalex.org/W3216031607",
+      "https://openalex.org/W4200579140",
+      "https://openalex.org/W4214821478",
+      "https://openalex.org/W4225367211",
+      "https://openalex.org/W4249288664",
+      "https://openalex.org/W4249558351",
+      "https://openalex.org/W4252238413",
+      "https://openalex.org/W4283158057",
+      "https://openalex.org/W4292202272",
+      "https://openalex.org/W4293565030",
+      "https://openalex.org/W4317478735",
+      "https://openalex.org/W4389363065",
+      "https://openalex.org/W4390112194",
+      "https://openalex.org/W4402867903",
+      "https://openalex.org/W6630561964",
+      "https://openalex.org/W7000945693"
+    ],
+    "related_works": [
+      "https://openalex.org/W4294622451",
+      "https://openalex.org/W4250802408",
+      "https://openalex.org/W2727227262",
+      "https://openalex.org/W2498645814",
+      "https://openalex.org/W4294577716",
+      "https://openalex.org/W2015504625",
+      "https://openalex.org/W3128310531",
+      "https://openalex.org/W1833003033",
+      "https://openalex.org/W4367723555",
+      "https://openalex.org/W265406534"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "paper": [
+        1
+      ],
+      "explores": [
+        2
+      ],
+      "[re]construction": [
+        3
+      ],
+      "of": [
+        4,
+        7,
+        45,
+        60,
+        66,
+        71,
+        73,
+        78,
+        88,
+        93,
+        105,
+        115,
+        121
+      ],
+      "a": [
+        5,
+        25,
+        43,
+        64,
+        91,
+        112
+      ],
+      "sense": [
+        6,
+        44,
+        65,
+        70,
+        92
+      ],
+      "identity": [
+        8,
+        72
+      ],
+      "and": [
+        9,
+        13,
+        31,
+        47,
+        62,
+        95,
+        100,
+        118,
+        125
+      ],
+      "resilience": [
+        10
+      ],
+      "among": [
+        11
+      ],
+      "Hazara": [
+        12
+      ],
+      "Afghan": [
+        14
+      ],
+      "adolescents": [
+        15,
+        30,
+        37
+      ],
+      "from": [
+        16,
+        108
+      ],
+      "refugee": [
+        17,
+        109
+      ],
+      "backgrounds": [
+        18,
+        110
+      ],
+      "following": [
+        19
+      ],
+      "migration": [
+        20
+      ],
+      "to": [
+        21,
+        50,
+        132
+      ],
+      "Australia.": [
+        22
+      ],
+      "We": [
+        23
+      ],
+      "conducted": [
+        24
+      ],
+      "qualitative": [
+        26
+      ],
+      "study": [
+        27
+      ],
+      "involving": [
+        28
+      ],
+      "ten": [
+        29
+      ],
+      "six": [
+        32
+      ],
+      "parents.": [
+        33
+      ],
+      "Findings": [
+        34
+      ],
+      "demonstrated": [
+        35
+      ],
+      "that": [
+        36,
+        127
+      ],
+      "perceived": [
+        38
+      ],
+      "themselves": [
+        39
+      ],
+      "as": [
+        40
+      ],
+      "resilient": [
+        41
+      ],
+      "with": [
+        42
+      ],
+      "agency": [
+        46
+      ],
+      "determination": [
+        48
+      ],
+      "core": [
+        49
+      ],
+      "this": [
+        51,
+        116
+      ],
+      "identity.": [
+        52
+      ],
+      "Our": [
+        53
+      ],
+      "analysis": [
+        54
+      ],
+      "also": [
+        55
+      ],
+      "showed": [
+        56
+      ],
+      "the": [
+        57,
+        69,
+        76,
+        79,
+        119
+      ],
+      "substantial": [
+        58
+      ],
+      "influence": [
+        59
+      ],
+      "seeking": [
+        61
+      ],
+      "finding": [
+        63,
+        90
+      ],
+      "belonging": [
+        67,
+        94
+      ],
+      "on": [
+        68
+      ],
+      "participants.": [
+        74
+      ],
+      "In": [
+        75
+      ],
+      "context": [
+        77
+      ],
+      "major": [
+        80
+      ],
+      "life": [
+        81
+      ],
+      "challenges": [
+        82
+      ],
+      "experienced": [
+        83
+      ],
+      "by": [
+        84
+      ],
+      "young": [
+        85,
+        106
+      ],
+      "people,": [
+        86
+      ],
+      "reconstruction": [
+        87
+      ],
+      "identity,": [
+        89
+      ],
+      "building": [
+        96
+      ],
+      "resilience,": [
+        97
+      ],
+      "are": [
+        98
+      ],
+      "interrelated": [
+        99
+      ],
+      "ongoing": [
+        101
+      ],
+      "processes.": [
+        102
+      ],
+      "Supporting": [
+        103
+      ],
+      "wellbeing": [
+        104
+      ],
+      "people": [
+        107
+      ],
+      "requires": [
+        111
+      ],
+      "holistic": [
+        113
+      ],
+      "understanding": [
+        114
+      ],
+      "complexity": [
+        117
+      ],
+      "implementation": [
+        120
+      ],
+      "effective": [
+        122
+      ],
+      "social": [
+        123
+      ],
+      "policies": [
+        124
+      ],
+      "practices": [
+        126
+      ],
+      "provide": [
+        128
+      ],
+      "culturally": [
+        129
+      ],
+      "inclusive": [
+        130
+      ],
+      "environments": [
+        131
+      ],
+      "support": [
+        133
+      ],
+      "positive": [
+        134
+      ],
+      "adjustment.": [
+        135
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-16T09:59:22.235173",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7202155464",
+    "doi": "https://doi.org/10.1080/13504630.2026.2716192",
+    "title": "Food, memory and identity among Kashmiri diaspora: women, culinary practices and cultural continuity",
+    "display_name": "Food, memory and identity among Kashmiri diaspora: women, culinary practices and cultural continuity",
+    "relevance_score": 1.4571279,
+    "publication_year": 2026,
+    "publication_date": "2026-08-10",
+    "ids": {
+      "openalex": "https://openalex.org/W7202155464",
+      "doi": "https://doi.org/10.1080/13504630.2026.2716192"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/13504630.2026.2716192",
+      "doi": "https://doi.org/10.1080/13504630.2026.2716192",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/13504630.2026.2716192",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S603496",
+        "display_name": "Social Identities",
+        "issn_l": "1350-4630",
+        "issn": [
+          "1350-4630",
+          "1363-0296"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Social Identities",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5078267347",
+          "display_name": "Farah Qayoom",
+          "orcid": "https://orcid.org/0000-0002-1978-9561",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1978-9561"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I135388327",
+            "display_name": "University of Kashmir",
+            "ror": "https://ror.org/032xfst36",
+            "country_code": "IN",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I135388327"
+            ]
+          }
+        ],
+        "countries": [
+          "IN"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Farah Qayoom",
+        "raw_affiliation_strings": [
+          "University of Kashmir"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Kashmir",
+            "institution_ids": [
+              "https://openalex.org/I135388327"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5078267347"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I135388327"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.59260088,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "20"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11648",
+      "display_name": "Diaspora, migration, transnational identity",
+      "score": 0.711899995803833,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11648",
+        "display_name": "Diaspora, migration, transnational identity",
+        "score": 0.711899995803833,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14124",
+        "display_name": "Food, Nutrition, and Cultural Practices",
+        "score": 0.2467000037431717,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1106",
+          "display_name": "Food Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11925",
+        "display_name": "Culinary Culture and Tourism",
+        "score": 0.033900000154972076,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1106",
+          "display_name": "Food Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/kashmiri-diaspora",
+        "display_name": "Kashmiri diaspora",
+        "score": 0.9940000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/kashmiri-women",
+        "display_name": "Kashmiri women",
+        "score": 0.7400000095367432
+      },
+      {
+        "id": "https://openalex.org/keywords/culinary-practices",
+        "display_name": "culinary practices",
+        "score": 0.8399999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/food-and-memory",
+        "display_name": "food and memory",
+        "score": 0.8560000061988831
+      },
+      {
+        "id": "https://openalex.org/keywords/cultural-identity",
+        "display_name": "cultural identity",
+        "score": 0.6669999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/sense-of-belonging",
+        "display_name": "sense of belonging",
+        "score": 0.828000009059906
+      },
+      {
+        "id": "https://openalex.org/keywords/embodied-knowledge",
+        "display_name": "embodied knowledge",
+        "score": 0.847000002861023
+      },
+      {
+        "id": "https://openalex.org/keywords/cultural-continuity",
+        "display_name": "cultural continuity",
+        "score": 0.5830000042915344
+      },
+      {
+        "id": "https://openalex.org/keywords/language-barriers",
+        "display_name": "language barriers",
+        "score": 0.5680000185966492
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2776828431",
+        "wikidata": "https://www.wikidata.org/wiki/Q33552",
+        "display_name": "Kashmiri",
+        "level": 3,
+        "score": 0.9146000146865845
+      },
+      {
+        "id": "https://openalex.org/C2778611045",
+        "wikidata": "https://www.wikidata.org/wiki/Q133004",
+        "display_name": "Diaspora",
+        "level": 2,
+        "score": 0.7603999972343445
+      },
+      {
+        "id": "https://openalex.org/C100609095",
+        "wikidata": "https://www.wikidata.org/wiki/Q1335050",
+        "display_name": "Embodied cognition",
+        "level": 2,
+        "score": 0.7279999852180481
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.6927000284194946
+      },
+      {
+        "id": "https://openalex.org/C2778355321",
+        "wikidata": "https://www.wikidata.org/wiki/Q17079427",
+        "display_name": "Identity (music)",
+        "level": 2,
+        "score": 0.5412999987602234
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.5304999947547913
+      },
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.5044999718666077
+      },
+      {
+        "id": "https://openalex.org/C189645446",
+        "wikidata": "https://www.wikidata.org/wiki/Q350865",
+        "display_name": "Mirroring",
+        "level": 2,
+        "score": 0.44699999690055847
+      },
+      {
+        "id": "https://openalex.org/C2778880830",
+        "wikidata": "https://www.wikidata.org/wiki/Q16513600",
+        "display_name": "Homeland",
+        "level": 3,
+        "score": 0.4381999969482422
+      },
+      {
+        "id": "https://openalex.org/C199776023",
+        "wikidata": "https://www.wikidata.org/wiki/Q202875",
+        "display_name": "Negotiation",
+        "level": 2,
+        "score": 0.39070001244544983
+      },
+      {
+        "id": "https://openalex.org/C50962388",
+        "wikidata": "https://www.wikidata.org/wiki/Q762018",
+        "display_name": "Invisibility",
+        "level": 2,
+        "score": 0.38420000672340393
+      },
+      {
+        "id": "https://openalex.org/C2779891390",
+        "wikidata": "https://www.wikidata.org/wiki/Q964630",
+        "display_name": "Custodians",
+        "level": 2,
+        "score": 0.3801000118255615
+      },
+      {
+        "id": "https://openalex.org/C71760877",
+        "wikidata": "https://www.wikidata.org/wiki/Q1368367",
+        "display_name": "Cultural identity",
+        "level": 3,
+        "score": 0.3734999895095825
+      },
+      {
+        "id": "https://openalex.org/C2780001913",
+        "wikidata": "https://www.wikidata.org/wiki/Q1516555",
+        "display_name": "Intersectionality",
+        "level": 2,
+        "score": 0.3659000098705292
+      },
+      {
+        "id": "https://openalex.org/C2779367526",
+        "wikidata": "https://www.wikidata.org/wiki/Q1253260",
+        "display_name": "Hybridity",
+        "level": 2,
+        "score": 0.3172000050544739
+      },
+      {
+        "id": "https://openalex.org/C179454799",
+        "wikidata": "https://www.wikidata.org/wiki/Q132151",
+        "display_name": "Ethnography",
+        "level": 2,
+        "score": 0.3043999969959259
+      },
+      {
+        "id": "https://openalex.org/C84269361",
+        "wikidata": "https://www.wikidata.org/wiki/Q179235",
+        "display_name": "Phenomenology (philosophy)",
+        "level": 2,
+        "score": 0.30230000615119934
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.29269999265670776
+      },
+      {
+        "id": "https://openalex.org/C199033989",
+        "wikidata": "https://www.wikidata.org/wiki/Q1318295",
+        "display_name": "Narrative",
+        "level": 2,
+        "score": 0.29269999265670776
+      },
+      {
+        "id": "https://openalex.org/C206440729",
+        "wikidata": "https://www.wikidata.org/wiki/Q4806809",
+        "display_name": "Asian studies",
+        "level": 3,
+        "score": 0.2921000123023987
+      },
+      {
+        "id": "https://openalex.org/C125209646",
+        "wikidata": "https://www.wikidata.org/wiki/Q1338878",
+        "display_name": "Cultural diversity",
+        "level": 2,
+        "score": 0.26820001006126404
+      },
+      {
+        "id": "https://openalex.org/C74196892",
+        "wikidata": "https://www.wikidata.org/wiki/Q7781188",
+        "display_name": "Thematic analysis",
+        "level": 3,
+        "score": 0.26649999618530273
+      },
+      {
+        "id": "https://openalex.org/C19165224",
+        "wikidata": "https://www.wikidata.org/wiki/Q23404",
+        "display_name": "Anthropology",
+        "level": 1,
+        "score": 0.2632000148296356
+      },
+      {
+        "id": "https://openalex.org/C30772137",
+        "wikidata": "https://www.wikidata.org/wiki/Q5164762",
+        "display_name": "Consumption (sociology)",
+        "level": 2,
+        "score": 0.25920000672340393
+      },
+      {
+        "id": "https://openalex.org/C205294977",
+        "wikidata": "https://www.wikidata.org/wiki/Q7237364",
+        "display_name": "Practice theory",
+        "level": 2,
+        "score": 0.25760000944137573
+      },
+      {
+        "id": "https://openalex.org/C190248442",
+        "wikidata": "https://www.wikidata.org/wiki/Q839486",
+        "display_name": "Qualitative research",
+        "level": 2,
+        "score": 0.2567000091075897
+      },
+      {
+        "id": "https://openalex.org/C2778674176",
+        "wikidata": "https://www.wikidata.org/wiki/Q17028966",
+        "display_name": "Identity negotiation",
+        "level": 3,
+        "score": 0.25450000166893005
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/13504630.2026.2716192",
+        "doi": "https://doi.org/10.1080/13504630.2026.2716192",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/13504630.2026.2716192",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S603496",
+          "display_name": "Social Identities",
+          "issn_l": "1350-4630",
+          "issn": [
+            "1350-4630",
+            "1363-0296"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Social Identities",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.4000000059604645,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Gender equality",
+        "score": 0.7041538953781128,
+        "id": "https://metadata.un.org/sdg/5"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 42,
+    "referenced_works": [
+      "https://openalex.org/W608574129",
+      "https://openalex.org/W1506705568",
+      "https://openalex.org/W1832159559",
+      "https://openalex.org/W1993733378",
+      "https://openalex.org/W2003124461",
+      "https://openalex.org/W2007436621",
+      "https://openalex.org/W2016534719",
+      "https://openalex.org/W2019259313",
+      "https://openalex.org/W2024565393",
+      "https://openalex.org/W2026749747",
+      "https://openalex.org/W2029714208",
+      "https://openalex.org/W2034884762",
+      "https://openalex.org/W2043488627",
+      "https://openalex.org/W2047743341",
+      "https://openalex.org/W2055184858",
+      "https://openalex.org/W2067339908",
+      "https://openalex.org/W2074279036",
+      "https://openalex.org/W2074701119",
+      "https://openalex.org/W2080710423",
+      "https://openalex.org/W2087095803",
+      "https://openalex.org/W2111142415",
+      "https://openalex.org/W2112152033",
+      "https://openalex.org/W2138630105",
+      "https://openalex.org/W2161643606",
+      "https://openalex.org/W2169812570",
+      "https://openalex.org/W2199413343",
+      "https://openalex.org/W2754799758",
+      "https://openalex.org/W2760263151",
+      "https://openalex.org/W3046241744",
+      "https://openalex.org/W3157806464",
+      "https://openalex.org/W4231083055",
+      "https://openalex.org/W4238803179",
+      "https://openalex.org/W4242896286",
+      "https://openalex.org/W4249374241",
+      "https://openalex.org/W4253124968",
+      "https://openalex.org/W4290839116",
+      "https://openalex.org/W4301056702",
+      "https://openalex.org/W4306255500",
+      "https://openalex.org/W4386168269",
+      "https://openalex.org/W4412713895",
+      "https://openalex.org/W4414606953",
+      "https://openalex.org/W7124702240"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Diaspora": [
+        0
+      ],
+      "is": [
+        1,
+        216
+      ],
+      "marked": [
+        2
+      ],
+      "by": [
+        3
+      ],
+      "processes": [
+        4
+      ],
+      "of": [
+        5,
+        12,
+        62,
+        110,
+        149,
+        178,
+        198,
+        208
+      ],
+      "displacement,": [
+        6
+      ],
+      "fragmentation": [
+        7
+      ],
+      "and": [
+        8,
+        14,
+        48,
+        68,
+        83,
+        93,
+        115,
+        123,
+        132,
+        139,
+        157,
+        165,
+        182,
+        212,
+        221
+      ],
+      "the": [
+        9,
+        31,
+        60,
+        73,
+        77,
+        80,
+        98,
+        160,
+        168,
+        176
+      ],
+      "continuous": [
+        10
+      ],
+      "negotiation": [
+        11
+      ],
+      "identity": [
+        13,
+        47,
+        200
+      ],
+      "belonging.": [
+        15
+      ],
+      "Within": [
+        16
+      ],
+      "such": [
+        17,
+        172
+      ],
+      "contexts,": [
+        18
+      ],
+      "everyday": [
+        19
+      ],
+      "cultural": [
+        20,
+        42,
+        210
+      ],
+      "practices": [
+        21,
+        143
+      ],
+      "acquire": [
+        22
+      ],
+      "heightened": [
+        23
+      ],
+      "significance": [
+        24
+      ],
+      "as": [
+        25,
+        39,
+        108,
+        145,
+        173,
+        195,
+        204
+      ],
+      "mediums": [
+        26
+      ],
+      "through": [
+        27,
+        44,
+        119,
+        136,
+        162
+      ],
+      "which": [
+        28,
+        45
+      ],
+      "connections": [
+        29
+      ],
+      "to": [
+        30,
+        201
+      ],
+      "homeland": [
+        32
+      ],
+      "are": [
+        33,
+        50
+      ],
+      "sustained.": [
+        34
+      ],
+      "Food,": [
+        35
+      ],
+      "in": [
+        36,
+        65
+      ],
+      "particular,": [
+        37
+      ],
+      "operates": [
+        38
+      ],
+      "an": [
+        40
+      ],
+      "embodied": [
+        41,
+        121,
+        147,
+        179
+      ],
+      "practice": [
+        43,
+        122
+      ],
+      "memory,": [
+        46,
+        150
+      ],
+      "belonging": [
+        49,
+        213
+      ],
+      "actively": [
+        51
+      ],
+      "constructed": [
+        52
+      ],
+      "rather": [
+        53
+      ],
+      "than": [
+        54
+      ],
+      "passively": [
+        55
+      ],
+      "inherited.": [
+        56
+      ],
+      "This": [
+        57
+      ],
+      "paper": [
+        58
+      ],
+      "examines": [
+        59
+      ],
+      "role": [
+        61
+      ],
+      "Kashmiri": [
+        63,
+        74,
+        91,
+        102
+      ],
+      "women": [
+        64,
+        92,
+        103
+      ],
+      "preserving,": [
+        66
+      ],
+      "adapting,": [
+        67
+      ],
+      "transmitting": [
+        69,
+        113
+      ],
+      "culinary": [
+        70,
+        111,
+        180
+      ],
+      "traditions": [
+        71
+      ],
+      "within": [
+        72,
+        129
+      ],
+      "diaspora": [
+        75
+      ],
+      "across": [
+        76,
+        117,
+        219
+      ],
+      "United": [
+        78,
+        81
+      ],
+      "States,": [
+        79
+      ],
+      "Kingdom,": [
+        82
+      ],
+      "Australia.": [
+        84
+      ],
+      "Drawing": [
+        85
+      ],
+      "on": [
+        86
+      ],
+      "qualitative": [
+        87
+      ],
+      "data": [
+        88
+      ],
+      "from": [
+        89,
+        159
+      ],
+      "44": [
+        90
+      ],
+      "adopting": [
+        94
+      ],
+      "a": [
+        95,
+        105,
+        196,
+        205
+      ],
+      "phenomenological": [
+        96
+      ],
+      "approach,": [
+        97
+      ],
+      "study": [
+        99,
+        189
+      ],
+      "reveals": [
+        100
+      ],
+      "that": [
+        101,
+        215
+      ],
+      "occupy": [
+        104
+      ],
+      "central": [
+        106
+      ],
+      "position": [
+        107
+      ],
+      "custodians": [
+        109
+      ],
+      "knowledge": [
+        112
+      ],
+      "recipes": [
+        114
+      ],
+      "techniques": [
+        116
+      ],
+      "generations": [
+        118,
+        220
+      ],
+      "both": [
+        120
+      ],
+      "digital": [
+        124
+      ],
+      "platforms,": [
+        125
+      ],
+      "creatively": [
+        126
+      ],
+      "substituting": [
+        127
+      ],
+      "ingredients": [
+        128
+      ],
+      "host": [
+        130
+      ],
+      "societies,": [
+        131
+      ],
+      "sustaining": [
+        133
+      ],
+      "cross-community": [
+        134
+      ],
+      "bonds": [
+        135
+      ],
+      "shared": [
+        137
+      ],
+      "meals": [
+        138
+      ],
+      "food-centered": [
+        140
+      ],
+      "gatherings.": [
+        141
+      ],
+      "Culinary": [
+        142
+      ],
+      "emerge": [
+        144
+      ],
+      "deeply": [
+        146
+      ],
+      "forms": [
+        148
+      ],
+      "reconnecting": [
+        151
+      ],
+      "participants": [
+        152
+      ],
+      "with": [
+        153
+      ],
+      "particular": [
+        154
+      ],
+      "places,": [
+        155
+      ],
+      "relationships": [
+        156
+      ],
+      "moments": [
+        158
+      ],
+      "past": [
+        161
+      ],
+      "taste,": [
+        163
+      ],
+      "smell": [
+        164
+      ],
+      "cooking.": [
+        166
+      ],
+      "At": [
+        167
+      ],
+      "same": [
+        169
+      ],
+      "time,": [
+        170
+      ],
+      "challenges": [
+        171
+      ],
+      "language": [
+        174
+      ],
+      "barriers,": [
+        175
+      ],
+      "untranslatability": [
+        177
+      ],
+      "knowledge,": [
+        181
+      ],
+      "generational": [
+        183
+      ],
+      "shifts": [
+        184
+      ],
+      "complicate": [
+        185
+      ],
+      "this": [
+        186
+      ],
+      "transmission.": [
+        187
+      ],
+      "The": [
+        188
+      ],
+      "moves": [
+        190
+      ],
+      "beyond": [
+        191
+      ],
+      "viewing": [
+        192
+      ],
+      "food": [
+        193
+      ],
+      "merely": [
+        194
+      ],
+      "marker": [
+        197
+      ],
+      "ethnic": [
+        199
+      ],
+      "reveal": [
+        202
+      ],
+      "it": [
+        203
+      ],
+      "dynamic": [
+        206
+      ],
+      "site": [
+        207
+      ],
+      "agency,": [
+        209
+      ],
+      "reproduction": [
+        211
+      ],
+      "one": [
+        214
+      ],
+      "continuously": [
+        217
+      ],
+      "negotiated": [
+        218
+      ],
+      "geographical": [
+        222
+      ],
+      "boundaries.": [
+        223
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-25T08:18:29.962427",
+    "created_date": "2026-08-12T00:00:00"
   }
 ]

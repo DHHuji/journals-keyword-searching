@@ -9434,7 +9434,7 @@
     "doi": "https://doi.org/10.1353/wp.2026.a987804",
     "title": "The More Things Change: Legacies of Race and Segregation in South Africa's Land Reform",
     "display_name": "The More Things Change: Legacies of Race and Segregation in South Africa's Land Reform",
-    "relevance_score": 0.4243217,
+    "relevance_score": 0.853825,
     "publication_year": 2026,
     "publication_date": "2026-04-01",
     "ids": {
@@ -9444,6 +9444,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1353/wp.2026.a987804",
+      "doi": "https://doi.org/10.1353/wp.2026.a987804",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1353/wp.2026.a987804",
       "pdf_url": null,
@@ -9458,6 +9459,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -9478,6 +9490,7 @@
       "raw_source_name": "World Politics",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -9493,8 +9506,11 @@
         "author_position": "first",
         "author": {
           "id": "https://openalex.org/A5050153097",
-          "display_name": "Alex Dyzenhaus",
-          "orcid": "https://orcid.org/0000-0002-9267-2132"
+          "display_name": "Alex P. Dyzenhaus",
+          "orcid": "https://orcid.org/0000-0002-9267-2132",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9267-2132"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -9507,7 +9523,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5050153097"
     ],
@@ -9518,7 +9534,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.81113392,
+      "value": 0.19880985,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -9535,7 +9551,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11789",
       "display_name": "Land Rights and Reforms",
-      "score": 0.8180000185966492,
+      "score": 0.9731000065803528,
       "subfield": {
         "id": "https://openalex.org/subfields/1111",
         "display_name": "Soil Science"
@@ -9553,7 +9569,7 @@
       {
         "id": "https://openalex.org/T11789",
         "display_name": "Land Rights and Reforms",
-        "score": 0.8180000185966492,
+        "score": 0.9731000065803528,
         "subfield": {
           "id": "https://openalex.org/subfields/1111",
           "display_name": "Soil Science"
@@ -9568,29 +9584,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T11817",
-        "display_name": "Housing, Finance, and Neoliberalism",
-        "score": 0.0203000009059906,
+        "id": "https://openalex.org/T12635",
+        "display_name": "African studies and sociopolitical issues",
+        "score": 0.015699999406933784,
         "subfield": {
-          "id": "https://openalex.org/subfields/2003",
-          "display_name": "Finance"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/20",
-          "display_name": "Economics, Econometrics and Finance"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10239",
-        "display_name": "Urban Planning and Governance",
-        "score": 0.019700000062584877,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3322",
-          "display_name": "Urban Studies"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -9600,48 +9599,75 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T11862",
+        "display_name": "Agriculture, Land Use, Rural Development",
+        "score": 0.00839999970048666,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1100",
+          "display_name": "General Agricultural and Biological Sciences"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/11",
+          "display_name": "Agricultural and Biological Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/1",
+          "display_name": "Life Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/redistribution",
-        "display_name": "Redistribution (election)",
-        "score": 0.8809999823570251
+        "id": "https://openalex.org/keywords/agrarian-reform",
+        "display_name": "land reform",
+        "score": 0.984000027179718
       },
       {
-        "id": "https://openalex.org/keywords/land-reform",
-        "display_name": "Land reform",
-        "score": 0.795199990272522
+        "id": "https://openalex.org/keywords/land-redistribution",
+        "display_name": "land redistribution",
+        "score": 0.9589999914169312
       },
       {
-        "id": "https://openalex.org/keywords/incentive",
-        "display_name": "Incentive",
-        "score": 0.5149999856948853
+        "id": "https://openalex.org/keywords/racial-segregation",
+        "display_name": "racial segregation",
+        "score": 0.9049999713897705
       },
       {
-        "id": "https://openalex.org/keywords/agriculture",
-        "display_name": "Agriculture",
-        "score": 0.4101000130176544
+        "id": "https://openalex.org/keywords/historical-legacy",
+        "display_name": "historical legacy",
+        "score": 0.6830000281333923
       },
       {
-        "id": "https://openalex.org/keywords/white",
-        "display_name": "White (mutation)",
-        "score": 0.40470001101493835
+        "id": "https://openalex.org/keywords/white-farmers",
+        "display_name": "white farmers",
+        "score": 0.7839999794960022
+      },
+      {
+        "id": "https://openalex.org/keywords/black-farmers",
+        "display_name": "Black farmers",
+        "score": 0.9160000085830688
+      },
+      {
+        "id": "https://openalex.org/keywords/spatial-segregation",
+        "display_name": "spatial segregation",
+        "score": 0.7749999761581421
+      },
+      {
+        "id": "https://openalex.org/keywords/economic-segregation",
+        "display_name": "economic segregation",
+        "score": 0.9810000061988831
+      },
+      {
+        "id": "https://openalex.org/keywords/south-africa",
+        "display_name": "South Africa",
+        "score": 0.5139999985694885
       },
       {
         "id": "https://openalex.org/keywords/land-tenure",
-        "display_name": "Land tenure",
-        "score": 0.36579999327659607
-      },
-      {
-        "id": "https://openalex.org/keywords/fell",
-        "display_name": "Fell",
-        "score": 0.36160001158714294
-      },
-      {
-        "id": "https://openalex.org/keywords/race",
-        "display_name": "Race (biology)",
-        "score": 0.3538999855518341
+        "display_name": "land tenure",
+        "score": 0.3059999942779541
       }
     ],
     "concepts": [
@@ -9812,6 +9838,7 @@
     "locations": [
       {
         "id": "doi:10.1353/wp.2026.a987804",
+        "doi": "https://doi.org/10.1353/wp.2026.a987804",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1353/wp.2026.a987804",
         "pdf_url": null,
@@ -9826,6 +9853,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -9848,12 +9886,20 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7390999794006348
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -10268,7 +10314,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-05T08:41:31.759640",
+    "updated_date": "2026-09-22T06:50:58.402377",
     "created_date": "2026-04-17T00:00:00"
   }
 ]

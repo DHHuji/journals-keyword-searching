@@ -22721,7 +22721,7 @@
     "doi": "https://doi.org/10.3751/79.1.308",
     "title": "Jordan",
     "display_name": "Jordan",
-    "relevance_score": 19.835714,
+    "relevance_score": 52.213882,
     "publication_year": 2026,
     "publication_date": "2026-01-01",
     "ids": {
@@ -22731,6 +22731,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.3751/79.1.308",
+      "doi": "https://doi.org/10.3751/79.1.308",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.3751/79.1.308",
       "pdf_url": null,
@@ -22745,6 +22746,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310316716",
         "host_organization_name": "Middle East Institute",
         "host_organization_lineage": [
@@ -22763,6 +22774,7 @@
       "raw_source_name": "The Middle East Journal",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -22777,35 +22789,39 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5125750076",
+          "id": "https://openalex.org/A5025127662",
           "display_name": "Laurie A. Brand",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0000-4989-9940",
+          "observed_orcids": [
+            "https://orcid.org/0009-0000-4989-9940"
+          ]
         },
         "institutions": [
           {
-            "id": "https://openalex.org/I4210091705",
-            "display_name": "School of International Relations",
-            "ror": "https://ror.org/00hvbx079",
-            "country_code": "IR",
+            "id": "https://openalex.org/I1174212",
+            "display_name": "University of Southern California",
+            "ror": "https://ror.org/03taz7m60",
+            "country_code": "US",
             "type": "education",
             "lineage": [
-              "https://openalex.org/I4210091705"
+              "https://openalex.org/I1174212"
             ]
           }
         ],
         "countries": [
-          "IR"
+          "US"
         ],
         "is_corresponding": true,
         "raw_author_name": "Laurie A. Brand",
         "raw_affiliation_strings": [
           "Laurie A. Brand is Professor Emerita of Political Science and International Relations & Middle East Studies at the University of Southern California, Los Angeles"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Laurie A. Brand is Professor Emerita of Political Science and International Relations & Middle East Studies at the University of Southern California, Los Angeles",
             "institution_ids": [
-              "https://openalex.org/I4210091705"
+              "https://openalex.org/I1174212"
             ]
           }
         ]
@@ -22815,17 +22831,21 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5125750076"
+      "https://openalex.org/A5025127662"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I4210091705"
+      "https://openalex.org/I1174212"
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": null,
+    "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": null,
+    "citation_normalized_percentile": {
+      "value": 0.06530377,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "79",
@@ -22836,15 +22856,90 @@
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
-    "primary_topic": null,
-    "topics": [],
-    "keywords": [],
+    "primary_topic": {
+      "id": "https://openalex.org/T13103",
+      "display_name": "Middle East Politics and Society",
+      "score": 0.9976000189781189,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.9976000189781189,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13560",
+        "display_name": "Socioeconomic Development in MENA",
+        "score": 0.000699999975040555,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13634",
+        "display_name": "Middle East and Rwanda Conflicts",
+        "score": 0.00039999998989515007,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/jordan",
+        "display_name": "Jordan",
+        "score": 0.9800000190734863
+      }
+    ],
     "concepts": [],
     "mesh": [],
     "locations_count": 1,
     "locations": [
       {
         "id": "doi:10.3751/79.1.308",
+        "doi": "https://doi.org/10.3751/79.1.308",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.3751/79.1.308",
         "pdf_url": null,
@@ -22859,6 +22954,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310316716",
           "host_organization_name": "Middle East Institute",
           "host_organization_lineage": [
@@ -22880,6 +22985,8 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -22889,10 +22996,20 @@
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W244404343",
+      "https://openalex.org/W2797744160",
+      "https://openalex.org/W2948446402",
+      "https://openalex.org/W7160500915",
+      "https://openalex.org/W127916680",
+      "https://openalex.org/W7110998339",
+      "https://openalex.org/W7111396206",
+      "https://openalex.org/W7128686649",
+      "https://openalex.org/W4239273941"
+    ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-02-13T13:40:29.240086",
+    "updated_date": "2026-09-26T08:19:03.415552",
     "created_date": "2026-02-13T00:00:00"
   },
   {
@@ -22900,7 +23017,7 @@
     "doi": "https://doi.org/10.3751/79.2.303",
     "title": "Jordan: Jordan: Politics in an Accidental Crucible",
     "display_name": "Jordan: Jordan: Politics in an Accidental Crucible",
-    "relevance_score": 19.777733,
+    "relevance_score": 52.187202,
     "publication_year": 2026,
     "publication_date": "2026-01-01",
     "ids": {
@@ -22910,6 +23027,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.3751/79.2.303",
+      "doi": "https://doi.org/10.3751/79.2.303",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.3751/79.2.303",
       "pdf_url": null,
@@ -22924,6 +23042,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310316716",
         "host_organization_name": "Middle East Institute",
         "host_organization_lineage": [
@@ -22942,6 +23070,7 @@
       "raw_source_name": "The Middle East Journal",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -22958,7 +23087,10 @@
         "author": {
           "id": "https://openalex.org/A5103025767",
           "display_name": "Curtis R. Ryan",
-          "orcid": "https://orcid.org/0000-0003-1329-731X"
+          "orcid": "https://orcid.org/0000-0003-1329-731X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1329-731X"
+          ]
         },
         "institutions": [
           {
@@ -23006,9 +23138,9 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.96372312,
+      "value": 0.31164285,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
@@ -23023,7 +23155,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T13103",
       "display_name": "Middle East Politics and Society",
-      "score": 0.1421000063419342,
+      "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -23041,7 +23173,7 @@
       {
         "id": "https://openalex.org/T13103",
         "display_name": "Middle East Politics and Society",
-        "score": 0.1421000063419342,
+        "score": 0.9990000128746033,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -23058,7 +23190,7 @@
       {
         "id": "https://openalex.org/T13634",
         "display_name": "Middle East and Rwanda Conflicts",
-        "score": 0.10369999706745148,
+        "score": 0.000699999975040555,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -23073,9 +23205,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T11203",
-        "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.0340999998152256,
+        "id": "https://openalex.org/T13560",
+        "display_name": "Socioeconomic Development in MENA",
+        "score": 0.0,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -23090,13 +23222,40 @@
         }
       }
     ],
-    "keywords": [],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/jordanian-politics",
+        "display_name": "Jordanian politics",
+        "score": 0.9309999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/political-crisis",
+        "display_name": "political crisis",
+        "score": 0.5809999704360962
+      },
+      {
+        "id": "https://openalex.org/keywords/political-reform",
+        "display_name": "political reform",
+        "score": 0.35100001096725464
+      },
+      {
+        "id": "https://openalex.org/keywords/monarchy",
+        "display_name": "monarchy",
+        "score": 0.42800000309944153
+      },
+      {
+        "id": "https://openalex.org/keywords/arab-spring",
+        "display_name": "Arab Spring",
+        "score": 0.32899999618530273
+      }
+    ],
     "concepts": [],
     "mesh": [],
     "locations_count": 1,
     "locations": [
       {
         "id": "doi:10.3751/79.2.303",
+        "doi": "https://doi.org/10.3751/79.2.303",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.3751/79.2.303",
         "pdf_url": null,
@@ -23111,6 +23270,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310316716",
           "host_organization_name": "Middle East Institute",
           "host_organization_lineage": [
@@ -23132,6 +23301,8 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -23141,7 +23312,18 @@
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W3191491019",
+      "https://openalex.org/W341283979",
+      "https://openalex.org/W244404343",
+      "https://openalex.org/W4237864259",
+      "https://openalex.org/W7128700226",
+      "https://openalex.org/W373187693",
+      "https://openalex.org/W7020080068",
+      "https://openalex.org/W7020151700",
+      "https://openalex.org/W52410622",
+      "https://openalex.org/W6982703877"
+    ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
     "updated_date": "2026-05-08T13:18:25.657630",

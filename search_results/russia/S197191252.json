@@ -827,7 +827,7 @@
     "doi": "https://doi.org/10.1093/jiel/jgaf043",
     "title": "Bank to the world, arm of the state: US sanctions against Russia and the Federal Reserve",
     "display_name": "Bank to the world, arm of the state: US sanctions against Russia and the Federal Reserve",
-    "relevance_score": 10.55458,
+    "relevance_score": 26.98169,
     "publication_year": 2025,
     "publication_date": "2025-11-25",
     "ids": {
@@ -837,6 +837,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/jiel/jgaf043",
+      "doi": "https://doi.org/10.1093/jiel/jgaf043",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1093/jiel/jgaf043",
       "pdf_url": null,
@@ -851,6 +852,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -871,6 +882,7 @@
       "raw_source_name": "Journal Of International Economic Law",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -886,8 +898,11 @@
         "author_position": "first",
         "author": {
           "id": "https://openalex.org/A5091823100",
-          "display_name": "David Zaring",
-          "orcid": "https://orcid.org/0000-0001-6566-0198"
+          "display_name": "David T. Zaring",
+          "orcid": "https://orcid.org/0000-0001-6566-0198",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6566-0198"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -900,22 +915,22 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5091823100"
     ],
     "corresponding_institution_ids": [],
     "apc_list": {
-      "value": 4153,
+      "value": 4535,
       "currency": "USD",
-      "value_usd": 4153
+      "value_usd": 4535
     },
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.41813905,
+      "value": 0.30306399,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -932,7 +947,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T13007",
       "display_name": "Economic Sanctions and International Relations",
-      "score": 0.489300012588501,
+      "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -950,7 +965,7 @@
       {
         "id": "https://openalex.org/T13007",
         "display_name": "Economic Sanctions and International Relations",
-        "score": 0.489300012588501,
+        "score": 0.9994999766349792,
         "subfield": {
           "id": "https://openalex.org/subfields/2002",
           "display_name": "Economics and Econometrics"
@@ -965,16 +980,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T12667",
-        "display_name": "Economic and Technological Developments in Russia",
-        "score": 0.041999999433755875,
+        "id": "https://openalex.org/T10503",
+        "display_name": "Global Financial Crisis and Policies",
+        "score": 0.00019999999494757503,
         "subfield": {
-          "id": "https://openalex.org/subfields/3303",
-          "display_name": "Development"
+          "id": "https://openalex.org/subfields/2003",
+          "display_name": "Finance"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -982,9 +997,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T14282",
-        "display_name": "Security, Politics, and Digital Transformation",
-        "score": 0.03790000081062317,
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 9.999999747378752e-05,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -1001,34 +1016,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/sanctions",
-        "display_name": "Sanctions",
-        "score": 0.9104999899864197
+        "id": "https://openalex.org/keywords/us-sanctions-against-russia",
+        "display_name": "US sanctions against Russia",
+        "score": 0.8529999852180481
       },
       {
-        "id": "https://openalex.org/keywords/economic-sanctions",
-        "display_name": "Economic sanctions",
-        "score": 0.44749999046325684
+        "id": "https://openalex.org/keywords/federal-reserve",
+        "display_name": "Federal Reserve",
+        "score": 0.9819999933242798
       },
       {
-        "id": "https://openalex.org/keywords/central-bank",
-        "display_name": "Central bank",
-        "score": 0.4059999883174896
+        "id": "https://openalex.org/keywords/central-bank-assets",
+        "display_name": "central bank assets",
+        "score": 0.6890000104904175
       },
       {
-        "id": "https://openalex.org/keywords/financial-crisis",
-        "display_name": "Financial crisis",
-        "score": 0.3610999882221222
+        "id": "https://openalex.org/keywords/asset-freezing",
+        "display_name": "asset freezing",
+        "score": 0.5759999752044678
       },
       {
-        "id": "https://openalex.org/keywords/lender-of-last-resort",
-        "display_name": "Lender of last resort",
-        "score": 0.3287999927997589
+        "id": "https://openalex.org/keywords/seizure-of-property",
+        "display_name": "seizure of property",
+        "score": 0.6549999713897705
       },
       {
-        "id": "https://openalex.org/keywords/carry",
-        "display_name": "Carry (investment)",
-        "score": 0.2946000099182129
+        "id": "https://openalex.org/keywords/russia-ukraine-war",
+        "display_name": "Russian invasion of Ukraine",
+        "score": 0.8259999752044678
+      },
+      {
+        "id": "https://openalex.org/keywords/financial-warfare",
+        "display_name": "financial warfare",
+        "score": 0.9589999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/central-bank-independence",
+        "display_name": "central bank independence",
+        "score": 0.8579999804496765
+      },
+      {
+        "id": "https://openalex.org/keywords/international-law",
+        "display_name": "international law",
+        "score": 0.5809999704360962
       }
     ],
     "concepts": [
@@ -1157,6 +1187,7 @@
     "locations": [
       {
         "id": "doi:10.1093/jiel/jgaf043",
+        "doi": "https://doi.org/10.1093/jiel/jgaf043",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1093/jiel/jgaf043",
         "pdf_url": null,
@@ -1171,6 +1202,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -1193,17 +1234,36 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.9595999717712402,
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W4406494622",
+      "https://openalex.org/W4399816691",
+      "https://openalex.org/W4393858292",
+      "https://openalex.org/W7220707756",
+      "https://openalex.org/W7154982926",
+      "https://openalex.org/W4367019676",
+      "https://openalex.org/W2550815528",
+      "https://openalex.org/W2250670285",
+      "https://openalex.org/W4399888586",
+      "https://openalex.org/W4407632494"
+    ],
     "abstract_inverted_index": {
       "Abstract": [
         0
@@ -1473,7 +1533,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-09-22T06:50:58.402377",
     "created_date": "2025-11-25T00:00:00"
   },
   {
@@ -8716,7 +8776,7 @@
     "doi": "https://doi.org/10.1093/jiel/jgaf032",
     "title": "Dollar dominance, de-dollarization, and international law",
     "display_name": "Dollar dominance, de-dollarization, and international law",
-    "relevance_score": 3.348068,
+    "relevance_score": 1.9952842,
     "publication_year": 2025,
     "publication_date": "2025-08-13",
     "ids": {
@@ -8726,6 +8786,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/jiel/jgaf032",
+      "doi": "https://doi.org/10.1093/jiel/jgaf032",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/jiel/jgaf032",
       "pdf_url": "https://academic.oup.com/jiel/advance-article-pdf/doi/10.1093/jiel/jgaf032/64464254/jgaf032.pdf",
@@ -8740,6 +8801,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -8760,6 +8831,7 @@
       "raw_source_name": "Journal of International Economic Law",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -8774,41 +8846,66 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5101924923",
-          "display_name": "Francisco Jos\u00e9 L\u00f3pez Quintana",
-          "orcid": "https://orcid.org/0000-0003-3618-9047"
+          "id": null,
+          "display_name": "Francisco J Quintana",
+          "orcid": "https://orcid.org/0000-0003-3618-9047",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3618-9047"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I98677209",
+            "display_name": "University of Edinburgh",
+            "ror": "https://ror.org/01nrxwf90",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I98677209"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Francisco J Quintana",
-        "raw_affiliation_strings": [],
+        "raw_affiliation_strings": [
+          "Francisco J. Quintana, Lecturer in Global Law, Edinburgh Law School, University of Edinburgh, Edinburgh, UK"
+        ],
         "raw_orcid": "https://orcid.org/0000-0003-3618-9047",
-        "affiliations": []
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Francisco J. Quintana, Lecturer in Global Law, Edinburgh Law School, University of Edinburgh, Edinburgh, UK",
+            "institution_ids": [
+              "https://openalex.org/I98677209"
+            ]
+          }
+        ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
-    "corresponding_author_ids": [
-      "https://openalex.org/A5101924923"
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I98677209"
     ],
-    "corresponding_institution_ids": [],
     "apc_list": {
-      "value": 4153,
+      "value": 4535,
       "currency": "USD",
-      "value_usd": 4153
+      "value_usd": 4535
     },
     "apc_paid": {
-      "value": 4153,
+      "value": 4535,
       "currency": "USD",
-      "value_usd": 4153
+      "value_usd": 4535
     },
-    "fwci": 3.532,
+    "fwci": 5.4851,
     "has_fulltext": true,
-    "cited_by_count": 2,
+    "cited_by_count": 6,
     "citation_normalized_percentile": {
-      "value": 0.931541,
+      "value": 0.95657757,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
@@ -8828,7 +8925,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T10503",
       "display_name": "Global Financial Crisis and Policies",
-      "score": 0.7807000279426575,
+      "score": 0.9208999872207642,
       "subfield": {
         "id": "https://openalex.org/subfields/2003",
         "display_name": "Finance"
@@ -8846,7 +8943,41 @@
       {
         "id": "https://openalex.org/T10503",
         "display_name": "Global Financial Crisis and Policies",
-        "score": 0.7807000279426575,
+        "score": 0.9208999872207642,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2003",
+          "display_name": "Finance"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10053",
+        "display_name": "International Relations and Foreign Policy",
+        "score": 0.020099999383091927,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13074",
+        "display_name": "Global Financial Regulation and Crises",
+        "score": 0.01889999955892563,
         "subfield": {
           "id": "https://openalex.org/subfields/2003",
           "display_name": "Finance"
@@ -8863,39 +8994,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/dominance",
-        "display_name": "Dominance (genetics)",
-        "score": 0.7687000036239624
+        "id": "https://openalex.org/keywords/dollar-hegemony",
+        "display_name": "dollar hegemony",
+        "score": 0.9169999957084656
       },
       {
-        "id": "https://openalex.org/keywords/liberian-dollar",
-        "display_name": "Liberian dollar",
-        "score": 0.732699990272522
-      },
-      {
-        "id": "https://openalex.org/keywords/cognitive-reframing",
-        "display_name": "Cognitive reframing",
-        "score": 0.5871999859809875
-      },
-      {
-        "id": "https://openalex.org/keywords/emerging-markets",
-        "display_name": "Emerging markets",
-        "score": 0.4578000009059906
+        "id": "https://openalex.org/keywords/de-dollarization",
+        "display_name": "de-dollarization",
+        "score": 0.9959999918937683
       },
       {
         "id": "https://openalex.org/keywords/international-law",
-        "display_name": "International law",
-        "score": 0.45500001311302185
+        "display_name": "international law",
+        "score": 0.5199999809265137
       },
       {
-        "id": "https://openalex.org/keywords/liability",
-        "display_name": "Liability",
-        "score": 0.40470001101493835
+        "id": "https://openalex.org/keywords/brics",
+        "display_name": "BRICS",
+        "score": 0.8629999756813049
       },
       {
-        "id": "https://openalex.org/keywords/international-finance",
-        "display_name": "International finance",
-        "score": 0.3878999948501587
+        "id": "https://openalex.org/keywords/economic-autonomy",
+        "display_name": "economic autonomy",
+        "score": 0.4729999899864197
+      },
+      {
+        "id": "https://openalex.org/keywords/emerging-markets",
+        "display_name": "emerging markets",
+        "score": 0.878000020980835
+      },
+      {
+        "id": "https://openalex.org/keywords/legal-institutions",
+        "display_name": "legal institutions",
+        "score": 0.4869999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/global-governance",
+        "display_name": "global governance",
+        "score": 0.5540000200271606
       }
     ],
     "concepts": [
@@ -9066,6 +9202,7 @@
     "locations": [
       {
         "id": "doi:10.1093/jiel/jgaf032",
+        "doi": "https://doi.org/10.1093/jiel/jgaf032",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/jiel/jgaf032",
         "pdf_url": "https://academic.oup.com/jiel/advance-article-pdf/doi/10.1093/jiel/jgaf032/64464254/jgaf032.pdf",
@@ -9080,6 +9217,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -9101,35 +9248,40 @@
         "raw_type": "journal-article"
       },
       {
-        "id": "pmh:oai:pure.ed.ac.uk:publications/b3bb0803-db1f-434a-a5a3-4f93a0991693",
+        "id": "pmh:oai:pure.ed.ac.uk:openaire/b3bb0803-db1f-434a-a5a3-4f93a0991693",
+        "doi": null,
         "is_oa": true,
-        "landing_page_url": "https://www.research.ed.ac.uk/en/publications/b3bb0803-db1f-434a-a5a3-4f93a0991693",
+        "landing_page_url": "https://www.research.ed.ac.uk/files/562485110/QuintanaFJIEL2025DollarDominance.pdf",
         "pdf_url": null,
         "source": {
-          "id": "https://openalex.org/S4406922455",
-          "display_name": "Edinburgh Research Explorer",
+          "id": "https://openalex.org/S4306400321",
+          "display_name": "Edinburgh Research Explorer (University of Edinburgh)",
           "issn_l": null,
           "issn": null,
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "host_organization": null,
-          "host_organization_name": null,
-          "host_organization_lineage": [],
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I98677209",
+          "host_organization_name": "University of Edinburgh",
+          "host_organization_lineage": [
+            "https://openalex.org/I98677209"
+          ],
           "host_organization_lineage_names": [],
           "type": "repository"
         },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
         "raw_source_name": "Quintana, F 2025, 'Dollar dominance, de-Dollarisation, and international law', Journal of International Economic Law, vol. 28, no. 3, jgaf032, pp. 359\u2013381. https://doi.org/10.1093/jiel/jgaf032",
-        "raw_type": "info:eu-repo/semantics/publishedVersion"
+        "raw_type": "info:eu-repo/semantics/article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1093/jiel/jgaf032",
+      "doi": "https://doi.org/10.1093/jiel/jgaf032",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/jiel/jgaf032",
       "pdf_url": "https://academic.oup.com/jiel/advance-article-pdf/doi/10.1093/jiel/jgaf032/64464254/jgaf032.pdf",
@@ -9144,6 +9296,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -9164,19 +9326,39 @@
       "raw_source_name": "Journal of International Economic Law",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.9200000166893005,
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
     },
     "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4414727586.pdf"
+      "pdf": "https://content.openalex.org/works/W4414727586.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4414727586.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W4415684982",
+      "https://openalex.org/W7215628000",
+      "https://openalex.org/W7055823114",
+      "https://openalex.org/W4407752534",
+      "https://openalex.org/W7213458109",
+      "https://openalex.org/W7160395734",
+      "https://openalex.org/W4405218479",
+      "https://openalex.org/W7203583027",
+      "https://openalex.org/W7214579970",
+      "https://openalex.org/W4415314032"
+    ],
     "abstract_inverted_index": {
       "Abstract": [
         0
@@ -9531,10 +9713,10 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 2
+        "cited_by_count": 6
       }
     ],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-10-06T10:28:23.643775",
     "created_date": "2025-10-10T00:00:00"
   },
   {

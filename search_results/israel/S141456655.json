@@ -5742,18 +5742,19 @@
   {
     "id": "https://openalex.org/W7138004803",
     "doi": "https://doi.org/10.5038/1911-9933.19.1.2044",
-    "title": "Arts &amp; Literature: In Gaza, Christmas Was a Time to Mourn: Christians Reflected on Bloodshed and Loss",
-    "display_name": "Arts &amp; Literature: In Gaza, Christmas Was a Time to Mourn: Christians Reflected on Bloodshed and Loss",
-    "relevance_score": 0.83737564,
+    "title": "Arts & Literature: In Gaza, Christmas Was a Time to Mourn: Christians Reflected on Bloodshed and Loss",
+    "display_name": "Arts & Literature: In Gaza, Christmas Was a Time to Mourn: Christians Reflected on Bloodshed and Loss",
+    "relevance_score": 2.3453095,
     "publication_year": 2025,
     "publication_date": "2025-07-01",
     "ids": {
       "openalex": "https://openalex.org/W7138004803",
       "doi": "https://doi.org/10.5038/1911-9933.19.1.2044"
     },
-    "language": null,
+    "language": "en",
     "primary_location": {
       "id": "doi:10.5038/1911-9933.19.1.2044",
+      "doi": "https://doi.org/10.5038/1911-9933.19.1.2044",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.5038/1911-9933.19.1.2044",
       "pdf_url": null,
@@ -5768,6 +5769,11 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "norway-1"
+        ],
         "host_organization": "https://openalex.org/P4310316011",
         "host_organization_name": "International Association of Genocide Scholars",
         "host_organization_lineage": [
@@ -5786,6 +5792,7 @@
       "raw_source_name": "Genocide Studies and Prevention",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -5803,7 +5810,10 @@
         "author": {
           "id": "https://openalex.org/A5075224266",
           "display_name": "Yousef M. Aljamal",
-          "orcid": "https://orcid.org/0000-0003-0199-7159"
+          "orcid": "https://orcid.org/0000-0003-0199-7159",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0199-7159"
+          ]
         },
         "institutions": [
           {
@@ -5825,6 +5835,7 @@
         "raw_affiliation_strings": [
           "The American Friends Service Committee"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "The American Friends Service Committee",
@@ -5850,7 +5861,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.89514057,
+      "value": 0.63809847,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -5867,7 +5878,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11203",
       "display_name": "Jewish and Middle Eastern Studies",
-      "score": 0.1704999953508377,
+      "score": 0.7968999743461609,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -5885,7 +5896,24 @@
       {
         "id": "https://openalex.org/T11203",
         "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.1704999953508377,
+        "score": 0.7968999743461609,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.06830000132322311,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -5902,7 +5930,7 @@
       {
         "id": "https://openalex.org/T14090",
         "display_name": "Health and Conflict Studies",
-        "score": 0.09350000321865082,
+        "score": 0.05660000070929527,
         "subfield": {
           "id": "https://openalex.org/subfields/3600",
           "display_name": "General Health Professions"
@@ -5915,65 +5943,53 @@
           "id": "https://openalex.org/domains/4",
           "display_name": "Health Sciences"
         }
-      },
-      {
-        "id": "https://openalex.org/T13598",
-        "display_name": "Political Developments and Conflicts",
-        "score": 0.03669999912381172,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/siege",
-        "display_name": "Siege",
-        "score": 0.8465999960899353
+        "id": "https://openalex.org/keywords/palestinian-christians",
+        "display_name": "Palestinian Christians",
+        "score": 0.777999997138977
       },
       {
-        "id": "https://openalex.org/keywords/genocide",
-        "display_name": "Genocide",
-        "score": 0.6198999881744385
+        "id": "https://openalex.org/keywords/gaza-strip",
+        "display_name": "Gaza Strip",
+        "score": 0.7749999761581421
       },
       {
-        "id": "https://openalex.org/keywords/the-holocaust",
-        "display_name": "The Holocaust",
-        "score": 0.45509999990463257
+        "id": "https://openalex.org/keywords/christmas",
+        "display_name": "Christmas",
+        "score": 0.9490000009536743
       },
       {
-        "id": "https://openalex.org/keywords/economic-justice",
-        "display_name": "Economic Justice",
-        "score": 0.42480000853538513
+        "id": "https://openalex.org/keywords/destruction-of-churches",
+        "display_name": "church destruction",
+        "score": 0.8389999866485596
       },
       {
-        "id": "https://openalex.org/keywords/the-arts",
-        "display_name": "The arts",
-        "score": 0.41119998693466187
+        "id": "https://openalex.org/keywords/civilian-casualties",
+        "display_name": "civilian casualties",
+        "score": 0.6949999928474426
       },
       {
-        "id": "https://openalex.org/keywords/shot",
-        "display_name": "Shot (pellet)",
-        "score": 0.38909998536109924
+        "id": "https://openalex.org/keywords/mass-displacement",
+        "display_name": "mass displacement",
+        "score": 0.5490000247955322
       },
       {
-        "id": "https://openalex.org/keywords/front",
-        "display_name": "Front (military)",
-        "score": 0.36730000376701355
+        "id": "https://openalex.org/keywords/collective-mourning",
+        "display_name": "collective mourning",
+        "score": 0.8790000081062317
       },
       {
-        "id": "https://openalex.org/keywords/tragedy",
-        "display_name": "Tragedy (event)",
-        "score": 0.32679998874664307
+        "id": "https://openalex.org/keywords/child-testimony",
+        "display_name": "child testimony",
+        "score": 0.6980000138282776
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-traditions",
+        "display_name": "religious traditions",
+        "score": 0.4490000009536743
       }
     ],
     "concepts": [
@@ -6179,6 +6195,7 @@
     "locations": [
       {
         "id": "doi:10.5038/1911-9933.19.1.2044",
+        "doi": "https://doi.org/10.5038/1911-9933.19.1.2044",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5038/1911-9933.19.1.2044",
         "pdf_url": null,
@@ -6193,6 +6210,11 @@
           "is_oa": true,
           "is_in_doaj": true,
           "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "norway-1"
+          ],
           "host_organization": "https://openalex.org/P4310316011",
           "host_organization_name": "International Association of Genocide Scholars",
           "host_organization_lineage": [
@@ -6214,6 +6236,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.5038/1911-9933.19.1.2044",
+      "doi": "https://doi.org/10.5038/1911-9933.19.1.2044",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.5038/1911-9933.19.1.2044",
       "pdf_url": null,
@@ -6228,6 +6251,11 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "norway-1"
+        ],
         "host_organization": "https://openalex.org/P4310316011",
         "host_organization_name": "International Association of Genocide Scholars",
         "host_organization_lineage": [
@@ -6246,13 +6274,15 @@
       "raw_source_name": "Genocide Studies and Prevention",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
+        "score": 0.4887368977069855,
         "id": "https://metadata.un.org/sdg/16",
-        "display_name": "Peace, Justice and strong institutions",
-        "score": 0.4887368977069855
+        "display_name": "Peace, justice, and strong institutions"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -6262,7 +6292,18 @@
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W4394983928",
+      "https://openalex.org/W2283631403",
+      "https://openalex.org/W7066541631",
+      "https://openalex.org/W7125809248",
+      "https://openalex.org/W4414472077",
+      "https://openalex.org/W7223230036",
+      "https://openalex.org/W7130695631",
+      "https://openalex.org/W2342720848",
+      "https://openalex.org/W4367721330",
+      "https://openalex.org/W7127053156"
+    ],
     "abstract_inverted_index": {
       "This": [
         0
@@ -6683,7 +6724,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-03-20T20:47:17.329874",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2026-03-18T00:00:00"
   },
   {
@@ -21033,5 +21074,2029 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7171643801",
+    "doi": "https://doi.org/10.5038/1911-9933.20.1.2083",
+    "title": "Genocide in Gaza? Social Media Discussions of Violence in Israel and Gaza",
+    "display_name": "Genocide in Gaza? Social Media Discussions of Violence in Israel and Gaza",
+    "relevance_score": 35.660248,
+    "publication_year": 2026,
+    "publication_date": "2026-07-01",
+    "ids": {
+      "openalex": "https://openalex.org/W7171643801",
+      "doi": "https://doi.org/10.5038/1911-9933.20.1.2083"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.5038/1911-9933.20.1.2083",
+      "doi": "https://doi.org/10.5038/1911-9933.20.1.2083",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5038/1911-9933.20.1.2083",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S141456655",
+        "display_name": "Genocide Studies and Prevention",
+        "issn_l": "1911-0359",
+        "issn": [
+          "1911-0359",
+          "1911-9933"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316011",
+        "host_organization_name": "International Association of Genocide Scholars",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316011"
+        ],
+        "host_organization_lineage_names": [
+          "International Association of Genocide Scholars"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Genocide Studies and Prevention",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://doi.org/10.5038/1911-9933.20.1.2083",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5060697649",
+          "display_name": "Timothy Williams",
+          "orcid": "https://orcid.org/0000-0002-4163-1998",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4163-1998"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40527276",
+            "display_name": "Universit\u00e4t der Bundeswehr M\u00fcnchen",
+            "ror": "https://ror.org/05kkv3f82",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1315109972",
+              "https://openalex.org/I40527276",
+              "https://openalex.org/I4387152969"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Timothy Williams",
+        "raw_affiliation_strings": [
+          "University of the Bundeswehr Munich"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of the Bundeswehr Munich",
+            "institution_ids": [
+              "https://openalex.org/I40527276"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5042584439",
+          "display_name": "Andreas Dafnos",
+          "orcid": "https://orcid.org/0000-0003-1416-7322",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1416-7322"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40527276",
+            "display_name": "Universit\u00e4t der Bundeswehr M\u00fcnchen",
+            "ror": "https://ror.org/05kkv3f82",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I1315109972",
+              "https://openalex.org/I40527276",
+              "https://openalex.org/I4387152969"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Andreas Dafnos",
+        "raw_affiliation_strings": [
+          "University of the Bundeswehr Munich"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of the Bundeswehr Munich",
+            "institution_ids": [
+              "https://openalex.org/I40527276"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I40527276"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.5636896,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "20",
+      "issue": "1",
+      "first_page": "38",
+      "last_page": "61"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11203",
+      "display_name": "Jewish and Middle Eastern Studies",
+      "score": 0.5145999789237976,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11203",
+        "display_name": "Jewish and Middle Eastern Studies",
+        "score": 0.5145999789237976,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 0.31540000438690186,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13537",
+        "display_name": "German legal, social, and political studies",
+        "score": 0.040800001472234726,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/genocide-discourse",
+        "display_name": "genocide discourse",
+        "score": 0.6470000147819519
+      },
+      {
+        "id": "https://openalex.org/keywords/israel-gaza-conflict",
+        "display_name": "Gaza conflict",
+        "score": 0.6990000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/october-7-attack",
+        "display_name": "October 7 attack",
+        "score": 0.9419999718666077
+      },
+      {
+        "id": "https://openalex.org/keywords/antisemitism",
+        "display_name": "antisemitism",
+        "score": 0.8759999871253967
+      },
+      {
+        "id": "https://openalex.org/keywords/social-media-discourse",
+        "display_name": "social media discourse",
+        "score": 0.6330000162124634
+      },
+      {
+        "id": "https://openalex.org/keywords/twitter",
+        "display_name": "Twitter",
+        "score": 0.7670000195503235
+      },
+      {
+        "id": "https://openalex.org/keywords/representation-of-palestinians",
+        "display_name": "representation of Palestinians",
+        "score": 0.5519999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/german-memory-culture",
+        "display_name": "German memory culture",
+        "score": 0.6790000200271606
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C204342414",
+        "wikidata": "https://www.wikidata.org/wiki/Q41397",
+        "display_name": "Genocide",
+        "level": 2,
+        "score": 0.8697999715805054
+      },
+      {
+        "id": "https://openalex.org/C203133693",
+        "wikidata": "https://www.wikidata.org/wiki/Q7283",
+        "display_name": "Terrorism",
+        "level": 2,
+        "score": 0.6550999879837036
+      },
+      {
+        "id": "https://openalex.org/C154775046",
+        "wikidata": "https://www.wikidata.org/wiki/Q188",
+        "display_name": "German",
+        "level": 2,
+        "score": 0.6513000130653381
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.5633999705314636
+      },
+      {
+        "id": "https://openalex.org/C48103436",
+        "wikidata": "https://www.wikidata.org/wiki/Q599031",
+        "display_name": "State (computer science)",
+        "level": 2,
+        "score": 0.5411999821662903
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.5171999931335449
+      },
+      {
+        "id": "https://openalex.org/C73484699",
+        "wikidata": "https://www.wikidata.org/wiki/Q161733",
+        "display_name": "Criminology",
+        "level": 1,
+        "score": 0.5105000138282776
+      },
+      {
+        "id": "https://openalex.org/C2777162435",
+        "wikidata": "https://www.wikidata.org/wiki/Q3399774",
+        "display_name": "Political violence",
+        "level": 3,
+        "score": 0.4530999958515167
+      },
+      {
+        "id": "https://openalex.org/C518677369",
+        "wikidata": "https://www.wikidata.org/wiki/Q202833",
+        "display_name": "Social media",
+        "level": 2,
+        "score": 0.45100000500679016
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.41780000925064087
+      },
+      {
+        "id": "https://openalex.org/C39389867",
+        "wikidata": "https://www.wikidata.org/wiki/Q380767",
+        "display_name": "Corporate governance",
+        "level": 2,
+        "score": 0.397599995136261
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.3783000111579895
+      },
+      {
+        "id": "https://openalex.org/C3017944768",
+        "wikidata": "https://www.wikidata.org/wiki/Q1450463",
+        "display_name": "Poison control",
+        "level": 2,
+        "score": 0.35429999232292175
+      },
+      {
+        "id": "https://openalex.org/C78359825",
+        "wikidata": "https://www.wikidata.org/wiki/Q22649",
+        "display_name": "Antisemitism",
+        "level": 3,
+        "score": 0.34929999709129333
+      },
+      {
+        "id": "https://openalex.org/C2992826032",
+        "wikidata": "https://www.wikidata.org/wiki/Q17945",
+        "display_name": "Public discourse",
+        "level": 3,
+        "score": 0.3416999876499176
+      },
+      {
+        "id": "https://openalex.org/C110361221",
+        "wikidata": "https://www.wikidata.org/wiki/Q2763",
+        "display_name": "The Holocaust",
+        "level": 2,
+        "score": 0.33709999918937683
+      },
+      {
+        "id": "https://openalex.org/C29595303",
+        "wikidata": "https://www.wikidata.org/wiki/Q165650",
+        "display_name": "Media studies",
+        "level": 1,
+        "score": 0.3138999938964844
+      },
+      {
+        "id": "https://openalex.org/C2776769304",
+        "wikidata": "https://www.wikidata.org/wiki/Q2915311",
+        "display_name": "Jewish state",
+        "level": 3,
+        "score": 0.3125
+      },
+      {
+        "id": "https://openalex.org/C526869908",
+        "wikidata": "https://www.wikidata.org/wiki/Q3298118",
+        "display_name": "Suicide prevention",
+        "level": 3,
+        "score": 0.2978000044822693
+      },
+      {
+        "id": "https://openalex.org/C2779030433",
+        "wikidata": "https://www.wikidata.org/wiki/Q1789511",
+        "display_name": "Critical discourse analysis",
+        "level": 4,
+        "score": 0.2978000044822693
+      },
+      {
+        "id": "https://openalex.org/C195064531",
+        "wikidata": "https://www.wikidata.org/wiki/Q135010",
+        "display_name": "War crime",
+        "level": 3,
+        "score": 0.2896000146865845
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.27469998598098755
+      },
+      {
+        "id": "https://openalex.org/C169437150",
+        "wikidata": "https://www.wikidata.org/wiki/Q8458",
+        "display_name": "Human rights",
+        "level": 2,
+        "score": 0.2727999985218048
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.5038/1911-9933.20.1.2083",
+        "doi": "https://doi.org/10.5038/1911-9933.20.1.2083",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5038/1911-9933.20.1.2083",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S141456655",
+          "display_name": "Genocide Studies and Prevention",
+          "issn_l": "1911-0359",
+          "issn": [
+            "1911-0359",
+            "1911-9933"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310316011",
+          "host_organization_name": "International Association of Genocide Scholars",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316011"
+          ],
+          "host_organization_lineage_names": [
+            "International Association of Genocide Scholars"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Genocide Studies and Prevention",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:digitalcommons.usf.edu:gsp-2083",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://digitalcommons.usf.edu/gsp/vol20/iss1/5",
+        "pdf_url": "https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=2083&context=gsp",
+        "source": {
+          "id": "https://openalex.org/S4377196272",
+          "display_name": "Digital Commons - University of South Florida (University of South Florida)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I2613432",
+          "host_organization_name": "University of South Florida",
+          "host_organization_lineage": [
+            "https://openalex.org/I2613432"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Genocide Studies and Prevention: An International Journal",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.5038/1911-9933.20.1.2083",
+      "doi": "https://doi.org/10.5038/1911-9933.20.1.2083",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5038/1911-9933.20.1.2083",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S141456655",
+        "display_name": "Genocide Studies and Prevention",
+        "issn_l": "1911-0359",
+        "issn": [
+          "1911-0359",
+          "1911-9933"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316011",
+        "host_organization_name": "International Association of Genocide Scholars",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316011"
+        ],
+        "host_organization_lineage_names": [
+          "International Association of Genocide Scholars"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Genocide Studies and Prevention",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.8046000003814697,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.5725798606872559,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320314329",
+        "display_name": "Central European History Society",
+        "ror": "https://ror.org/03wabf907"
+      },
+      {
+        "id": "https://openalex.org/F4320324521",
+        "display_name": "Freie Universit\u00e4t Berlin",
+        "ror": null
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W4410214085",
+      "https://openalex.org/W4399886611",
+      "https://openalex.org/W7160101816",
+      "https://openalex.org/W4402883469",
+      "https://openalex.org/W7080056911",
+      "https://openalex.org/W7114919081",
+      "https://openalex.org/W7167644411",
+      "https://openalex.org/W7096651368",
+      "https://openalex.org/W7170157603",
+      "https://openalex.org/W7222280340"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "article": [
+        1
+      ],
+      "conducts": [
+        2
+      ],
+      "social": [
+        3
+      ],
+      "network": [
+        4
+      ],
+      "and": [
+        5,
+        16,
+        20,
+        32,
+        51,
+        53,
+        57,
+        74,
+        85
+      ],
+      "topic": [
+        6
+      ],
+      "analyses": [
+        7
+      ],
+      "of": [
+        8,
+        100
+      ],
+      "German-language": [
+        9,
+        67
+      ],
+      "posts": [
+        10,
+        68
+      ],
+      "on": [
+        11,
+        39
+      ],
+      "X": [
+        12
+      ],
+      "that": [
+        13
+      ],
+      "discuss": [
+        14,
+        69
+      ],
+      "genocide": [
+        15
+      ],
+      "terrorism": [
+        17
+      ],
+      "in": [
+        18,
+        22,
+        47,
+        63
+      ],
+      "Israel": [
+        19,
+        81
+      ],
+      "Gaza": [
+        21
+      ],
+      "the": [
+        23,
+        28,
+        40,
+        98,
+        101
+      ],
+      "first": [
+        24
+      ],
+      "six": [
+        25
+      ],
+      "months": [
+        26
+      ],
+      "after": [
+        27
+      ],
+      "October": [
+        29
+      ],
+      "7": [
+        30
+      ],
+      "attacks": [
+        31
+      ],
+      "compares": [
+        33
+      ],
+      "these": [
+        34,
+        94
+      ],
+      "to": [
+        35,
+        97
+      ],
+      "broader": [
+        36
+      ],
+      "English-language": [
+        37,
+        90
+      ],
+      "discourses": [
+        38
+      ],
+      "platform.": [
+        41
+      ],
+      "The": [
+        42
+      ],
+      "comparison": [
+        43
+      ],
+      "reveals": [
+        44
+      ],
+      "subtle": [
+        45
+      ],
+      "differences": [
+        46
+      ],
+      "how": [
+        48
+      ],
+      "Israeli": [
+        49
+      ],
+      "violence": [
+        50
+      ],
+      "governance": [
+        52
+      ],
+      "Palestinians": [
+        54
+      ],
+      "are": [
+        55
+      ],
+      "discussed": [
+        56
+      ],
+      "who": [
+        58
+      ],
+      "is": [
+        59
+      ],
+      "seen": [
+        60
+      ],
+      "as": [
+        61,
+        82
+      ],
+      "complicit": [
+        62
+      ],
+      "supporting": [
+        64
+      ],
+      "violence.": [
+        65
+      ],
+      "Markedly,": [
+        66
+      ],
+      "what": [
+        70
+      ],
+      "constitutes": [
+        71
+      ],
+      "antisemitism": [
+        72
+      ],
+      "more": [
+        73,
+        77
+      ],
+      "employ": [
+        75
+      ],
+      "a": [
+        76,
+        83
+      ],
+      "restrained": [
+        78
+      ],
+      "language": [
+        79
+      ],
+      "towards": [
+        80
+      ],
+      "state": [
+        84
+      ],
+      "its": [
+        86
+      ],
+      "political": [
+        87
+      ],
+      "actors": [
+        88
+      ],
+      "than": [
+        89
+      ],
+      "posts.": [
+        91
+      ],
+      "We": [
+        92
+      ],
+      "tie": [
+        93
+      ],
+      "findings": [
+        95
+      ],
+      "back": [
+        96
+      ],
+      "idiosyncrasies": [
+        99
+      ],
+      "German": [
+        102
+      ],
+      "memory": [
+        103
+      ],
+      "culture.": [
+        104
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2026-07-30T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7204148390",
+    "doi": "https://doi.org/10.5038/1911-9933.20.1.2104",
+    "title": "Genocidal Occupation and the Occupier\u2019s Dilemma: From Lemkin\u2019s Axis Rule to 21st Century Palestine",
+    "display_name": "Genocidal Occupation and the Occupier\u2019s Dilemma: From Lemkin\u2019s Axis Rule to 21st Century Palestine",
+    "relevance_score": 3.9818401,
+    "publication_year": 2026,
+    "publication_date": "2026-07-01",
+    "ids": {
+      "openalex": "https://openalex.org/W7204148390",
+      "doi": "https://doi.org/10.5038/1911-9933.20.1.2104"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.5038/1911-9933.20.1.2104",
+      "doi": "https://doi.org/10.5038/1911-9933.20.1.2104",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5038/1911-9933.20.1.2104",
+      "pdf_url": "https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=2104&context=gsp",
+      "source": {
+        "id": "https://openalex.org/S141456655",
+        "display_name": "Genocide Studies and Prevention",
+        "issn_l": "1911-0359",
+        "issn": [
+          "1911-0359",
+          "1911-9933"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316011",
+        "host_organization_name": "International Association of Genocide Scholars",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316011"
+        ],
+        "host_organization_lineage_names": [
+          "International Association of Genocide Scholars"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Genocide Studies and Prevention",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "diamond",
+      "oa_url": "https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=2104&context=gsp",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5071588626",
+          "display_name": "Martin Shaw",
+          "orcid": "https://orcid.org/0000-0001-9727-4603",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9727-4603"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I173713965",
+            "display_name": "Institut Barcelona d'Estudis Internacionals",
+            "ror": "https://ror.org/05rke5d69",
+            "country_code": "ES",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I173713965",
+              "https://openalex.org/I4387153040"
+            ]
+          }
+        ],
+        "countries": [
+          "ES"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Martin Shaw",
+        "raw_affiliation_strings": [
+          "Institut Barcelona d'Estudis Internacionals"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Institut Barcelona d'Estudis Internacionals",
+            "institution_ids": [
+              "https://openalex.org/I173713965"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5071588626"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I173713965"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.65694431,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "20",
+      "issue": "1",
+      "first_page": "62",
+      "last_page": "81"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10749",
+      "display_name": "International Law and Human Rights",
+      "score": 0.5062999725341797,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10749",
+        "display_name": "International Law and Human Rights",
+        "score": 0.5062999725341797,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11203",
+        "display_name": "Jewish and Middle Eastern Studies",
+        "score": 0.4779999852180481,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14492",
+        "display_name": "War, Law, and Justice",
+        "score": 0.006800000090152025,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/raphael-lemkin",
+        "display_name": "Raphael Lemkin",
+        "score": 0.9449999928474426
+      },
+      {
+        "id": "https://openalex.org/keywords/israeli-occupation-of-palestinian-territories",
+        "display_name": "Israeli occupation of Palestine",
+        "score": 0.7350000143051147
+      },
+      {
+        "id": "https://openalex.org/keywords/2023-gaza-war",
+        "display_name": "2023 Gaza war",
+        "score": 0.6510000228881836
+      },
+      {
+        "id": "https://openalex.org/keywords/palestinian-dispossession",
+        "display_name": "Palestinian dispossession",
+        "score": 0.6380000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/west-bank",
+        "display_name": "West Bank",
+        "score": 0.6209999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/international-law-of-occupation",
+        "display_name": "international law of occupation",
+        "score": 0.8270000219345093
+      },
+      {
+        "id": "https://openalex.org/keywords/colonial-genocide",
+        "display_name": "colonial genocide",
+        "score": 0.9049999713897705
+      },
+      {
+        "id": "https://openalex.org/keywords/axis-of-resistance",
+        "display_name": "Axis of Resistance",
+        "score": 0.3019999861717224
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C204342414",
+        "wikidata": "https://www.wikidata.org/wiki/Q41397",
+        "display_name": "Genocide",
+        "level": 2,
+        "score": 0.8840000033378601
+      },
+      {
+        "id": "https://openalex.org/C90734943",
+        "wikidata": "https://www.wikidata.org/wiki/Q17008777",
+        "display_name": "Conceptualization",
+        "level": 2,
+        "score": 0.6955000162124634
+      },
+      {
+        "id": "https://openalex.org/C531593650",
+        "wikidata": "https://www.wikidata.org/wiki/Q7167",
+        "display_name": "Colonialism",
+        "level": 2,
+        "score": 0.5910999774932861
+      },
+      {
+        "id": "https://openalex.org/C154775046",
+        "wikidata": "https://www.wikidata.org/wiki/Q188",
+        "display_name": "German",
+        "level": 2,
+        "score": 0.5891000032424927
+      },
+      {
+        "id": "https://openalex.org/C114362828",
+        "wikidata": "https://www.wikidata.org/wiki/Q23792",
+        "display_name": "Palestine",
+        "level": 2,
+        "score": 0.48809999227523804
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.4772999882698059
+      },
+      {
+        "id": "https://openalex.org/C2993835690",
+        "wikidata": "https://www.wikidata.org/wiki/Q7167",
+        "display_name": "Colonial rule",
+        "level": 3,
+        "score": 0.44850000739097595
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.4424000084400177
+      },
+      {
+        "id": "https://openalex.org/C110361221",
+        "wikidata": "https://www.wikidata.org/wiki/Q2763",
+        "display_name": "The Holocaust",
+        "level": 2,
+        "score": 0.4332999885082245
+      },
+      {
+        "id": "https://openalex.org/C182306322",
+        "wikidata": "https://www.wikidata.org/wiki/Q1779371",
+        "display_name": "Order (exchange)",
+        "level": 2,
+        "score": 0.42329999804496765
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.41510000824928284
+      },
+      {
+        "id": "https://openalex.org/C173145845",
+        "wikidata": "https://www.wikidata.org/wiki/Q131572",
+        "display_name": "Refugee",
+        "level": 2,
+        "score": 0.37059998512268066
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.352400004863739
+      },
+      {
+        "id": "https://openalex.org/C55447825",
+        "wikidata": "https://www.wikidata.org/wiki/Q4394526",
+        "display_name": "International law",
+        "level": 2,
+        "score": 0.30390000343322754
+      },
+      {
+        "id": "https://openalex.org/C47751775",
+        "wikidata": "https://www.wikidata.org/wiki/Q193714",
+        "display_name": "Mandatory Palestine",
+        "level": 3,
+        "score": 0.29190000891685486
+      },
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.289900004863739
+      },
+      {
+        "id": "https://openalex.org/C73484699",
+        "wikidata": "https://www.wikidata.org/wiki/Q161733",
+        "display_name": "Criminology",
+        "level": 1,
+        "score": 0.27090001106262207
+      },
+      {
+        "id": "https://openalex.org/C75291252",
+        "wikidata": "https://www.wikidata.org/wiki/Q1315756",
+        "display_name": "TRACE (psycholinguistics)",
+        "level": 2,
+        "score": 0.2676999866962433
+      },
+      {
+        "id": "https://openalex.org/C4445939",
+        "wikidata": "https://www.wikidata.org/wiki/Q432",
+        "display_name": "Islam",
+        "level": 2,
+        "score": 0.26350000500679016
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.26170000433921814
+      },
+      {
+        "id": "https://openalex.org/C2909322583",
+        "wikidata": "https://www.wikidata.org/wiki/Q154278",
+        "display_name": "Ethnic Cleansing",
+        "level": 3,
+        "score": 0.2596000134944916
+      },
+      {
+        "id": "https://openalex.org/C2993637838",
+        "wikidata": "https://www.wikidata.org/wiki/Q122131",
+        "display_name": "German history",
+        "level": 3,
+        "score": 0.258899986743927
+      },
+      {
+        "id": "https://openalex.org/C2549261",
+        "wikidata": "https://www.wikidata.org/wiki/Q43455",
+        "display_name": "Ethnology",
+        "level": 1,
+        "score": 0.25609999895095825
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.5038/1911-9933.20.1.2104",
+        "doi": "https://doi.org/10.5038/1911-9933.20.1.2104",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5038/1911-9933.20.1.2104",
+        "pdf_url": "https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=2104&context=gsp",
+        "source": {
+          "id": "https://openalex.org/S141456655",
+          "display_name": "Genocide Studies and Prevention",
+          "issn_l": "1911-0359",
+          "issn": [
+            "1911-0359",
+            "1911-9933"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310316011",
+          "host_organization_name": "International Association of Genocide Scholars",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316011"
+          ],
+          "host_organization_lineage_names": [
+            "International Association of Genocide Scholars"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Genocide Studies and Prevention",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:repositori.upf.edu:10230/74505",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/10230/74505",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306402615",
+          "display_name": "Repositori digital de la UPF (Universitat Pompeu Fabra)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I170486558",
+          "host_organization_name": "Universitat Pompeu Fabra",
+          "host_organization_lineage": [
+            "https://openalex.org/I170486558"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.5038/1911-9933.20.1.2104",
+      "doi": "https://doi.org/10.5038/1911-9933.20.1.2104",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5038/1911-9933.20.1.2104",
+      "pdf_url": "https://digitalcommons.usf.edu/cgi/viewcontent.cgi?article=2104&context=gsp",
+      "source": {
+        "id": "https://openalex.org/S141456655",
+        "display_name": "Genocide Studies and Prevention",
+        "issn_l": "1911-0359",
+        "issn": [
+          "1911-0359",
+          "1911-9933"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316011",
+        "host_organization_name": "International Association of Genocide Scholars",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316011"
+        ],
+        "host_organization_lineage_names": [
+          "International Association of Genocide Scholars"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Genocide Studies and Prevention",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.9595999717712402,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.615631639957428,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7204148390.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7204148390.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Following": [
+        0
+      ],
+      "Israel\u2019s": [
+        1
+      ],
+      "campaign": [
+        2
+      ],
+      "in": [
+        3,
+        62,
+        90,
+        105,
+        132,
+        137,
+        181,
+        188,
+        220,
+        253
+      ],
+      "Gaza": [
+        4
+      ],
+      "after": [
+        5
+      ],
+      "October": [
+        6
+      ],
+      "7,": [
+        7
+      ],
+      "2023,": [
+        8
+      ],
+      "which": [
+        9,
+        147,
+        177,
+        221
+      ],
+      "was": [
+        10,
+        85
+      ],
+      "widely": [
+        11
+      ],
+      "recognized": [
+        12
+      ],
+      "as": [
+        13,
+        124,
+        126
+      ],
+      "a": [
+        14,
+        25,
+        70,
+        141,
+        217,
+        249,
+        261
+      ],
+      "genocide,": [
+        15
+      ],
+      "the": [
+        16,
+        22,
+        29,
+        32,
+        44,
+        47,
+        53,
+        63,
+        73,
+        81,
+        94,
+        106,
+        114,
+        119,
+        127,
+        130,
+        133,
+        144,
+        158,
+        164,
+        169,
+        184,
+        199,
+        211,
+        237,
+        267
+      ],
+      "\u201cceasefire\u201d": [
+        17
+      ],
+      "of": [
+        18,
+        24,
+        28,
+        46,
+        56,
+        72,
+        83,
+        93,
+        97,
+        113,
+        122,
+        129,
+        143,
+        163,
+        168,
+        186,
+        202,
+        223
+      ],
+      "late": [
+        19
+      ],
+      "2025": [
+        20
+      ],
+      "introduced": [
+        21,
+        86
+      ],
+      "prospect": [
+        23
+      ],
+      "new": [
+        26,
+        250
+      ],
+      "occupation": [
+        27,
+        61,
+        76,
+        123,
+        187,
+        214,
+        225,
+        252
+      ],
+      "territory": [
+        30
+      ],
+      "by": [
+        31,
+        40,
+        87,
+        246
+      ],
+      "USA": [
+        33
+      ],
+      "and": [
+        34,
+        77,
+        204
+      ],
+      "Israel,": [
+        35
+      ],
+      "leading": [
+        36
+      ],
+      "to": [
+        37,
+        118,
+        139,
+        172,
+        183,
+        193,
+        198,
+        266
+      ],
+      "its": [
+        38
+      ],
+      "redevelopment": [
+        39
+      ],
+      "them": [
+        41
+      ],
+      "rather": [
+        42
+      ],
+      "than": [
+        43
+      ],
+      "restoration": [
+        45
+      ],
+      "pre-2023": [
+        48
+      ],
+      "Palestinian": [
+        49,
+        57
+      ],
+      "society.": [
+        50
+      ],
+      "Together": [
+        51
+      ],
+      "with": [
+        52,
+        196,
+        229
+      ],
+      "parallel": [
+        54
+      ],
+      "accentuation": [
+        55
+      ],
+      "dispossession": [
+        58
+      ],
+      "under": [
+        59
+      ],
+      "Israeli": [
+        60,
+        213
+      ],
+      "West": [
+        64
+      ],
+      "Bank,": [
+        65
+      ],
+      "this": [
+        66,
+        100,
+        256
+      ],
+      "development": [
+        67
+      ],
+      "calls": [
+        68
+      ],
+      "for": [
+        69
+      ],
+      "theorization": [
+        71
+      ],
+      "relationship": [
+        74
+      ],
+      "between": [
+        75
+      ],
+      "genocide.": [
+        78,
+        268
+      ],
+      "Yet,": [
+        79
+      ],
+      "although": [
+        80,
+        195
+      ],
+      "concept": [
+        82,
+        131,
+        142
+      ],
+      "genocide": [
+        84,
+        135
+      ],
+      "Raphael": [
+        88
+      ],
+      "Lemkin": [
+        89
+      ],
+      "his": [
+        91
+      ],
+      "analysis": [
+        92,
+        162
+      ],
+      "German": [
+        95
+      ],
+      "occupations": [
+        96
+      ],
+      "European": [
+        98
+      ],
+      "countries,": [
+        99
+      ],
+      "question": [
+        101
+      ],
+      "has": [
+        102,
+        215,
+        239
+      ],
+      "been": [
+        103,
+        227
+      ],
+      "neglected": [
+        104
+      ],
+      "literature.": [
+        107
+      ],
+      "This": [
+        108
+      ],
+      "article": [
+        109,
+        159,
+        244
+      ],
+      "discusses": [
+        110
+      ],
+      "Lemkin\u2019s": [
+        111,
+        161
+      ],
+      "conceptualization": [
+        112
+      ],
+      "relationship,": [
+        115
+      ],
+      "relating": [
+        116
+      ],
+      "it": [
+        117
+      ],
+      "international": [
+        120
+      ],
+      "law": [
+        121
+      ],
+      "well": [
+        125
+      ],
+      "use": [
+        128
+      ],
+      "colonial": [
+        134
+      ],
+      "literature,": [
+        136
+      ],
+      "order": [
+        138
+      ],
+      "propose": [
+        140,
+        173
+      ],
+      "\u201cgenocidal": [
+        145
+      ],
+      "occupation\u201d": [
+        146
+      ],
+      "can": [
+        148
+      ],
+      "be": [
+        149,
+        257
+      ],
+      "distinguished": [
+        150
+      ],
+      "from": [
+        151,
+        191
+      ],
+      "\u201cnormal\u201d": [
+        152
+      ],
+      "repressive": [
+        153
+      ],
+      "military": [
+        154
+      ],
+      "occupations.": [
+        155,
+        206
+      ],
+      "In": [
+        156
+      ],
+      "particular,": [
+        157
+      ],
+      "uses": [
+        160
+      ],
+      "two": [
+        165
+      ],
+      "main": [
+        166
+      ],
+      "options": [
+        167
+      ],
+      "genocidal": [
+        170,
+        233
+      ],
+      "occupier": [
+        171
+      ],
+      "an": [
+        174,
+        230,
+        264
+      ],
+      "analytical": [
+        175
+      ],
+      "framework,": [
+        176
+      ],
+      "is": [
+        178,
+        208
+      ],
+      "then": [
+        179
+      ],
+      "applied": [
+        180
+      ],
+      "outline": [
+        182
+      ],
+      "history": [
+        185,
+        201
+      ],
+      "Palestine,": [
+        189
+      ],
+      "primarily": [
+        190
+      ],
+      "1967": [
+        192
+      ],
+      "date,": [
+        194
+      ],
+      "reference": [
+        197
+      ],
+      "earlier": [
+        200
+      ],
+      "British": [
+        203
+      ],
+      "Zionist-Israeli": [
+        205
+      ],
+      "It": [
+        207
+      ],
+      "argued": [
+        209
+      ],
+      "that": [
+        210,
+        236
+      ],
+      "post-1967": [
+        212
+      ],
+      "had": [
+        216
+      ],
+      "hybrid": [
+        218
+      ],
+      "form,": [
+        219
+      ],
+      "elements": [
+        222
+      ],
+      "normal": [
+        224
+      ],
+      "have": [
+        226
+      ],
+      "combined": [
+        228
+      ],
+      "eliminatory": [
+        231
+      ],
+      "or": [
+        232,
+        263
+      ],
+      "dynamic,": [
+        234
+      ],
+      "but": [
+        235
+      ],
+      "latter": [
+        238
+      ],
+      "strengthened": [
+        240
+      ],
+      "over": [
+        241
+      ],
+      "time.": [
+        242
+      ],
+      "The": [
+        243
+      ],
+      "concludes": [
+        245
+      ],
+      "asking": [
+        247
+      ],
+      "whether": [
+        248
+      ],
+      "US-Israeli": [
+        251
+      ],
+      "Gaza,": [
+        254
+      ],
+      "should": [
+        255
+      ],
+      "institutionalized,": [
+        258
+      ],
+      "could": [
+        259
+      ],
+      "represent": [
+        260
+      ],
+      "continuation": [
+        262
+      ],
+      "end": [
+        265
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-18T07:38:42.748307",
+    "created_date": "2026-08-25T00:00:00"
   }
 ]

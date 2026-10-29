@@ -1848,18 +1848,19 @@
   {
     "id": "https://openalex.org/W7138393419",
     "doi": "https://doi.org/10.5038/1911-9933.19.1.2045",
-    "title": "Arts &amp; Literature: The Destruction of Smyrna in 1922: A Conversation with Petros Pourliakas, Author of &lt;em&gt;Salty Silk&lt;/em&gt;",
-    "display_name": "Arts &amp; Literature: The Destruction of Smyrna in 1922: A Conversation with Petros Pourliakas, Author of &lt;em&gt;Salty Silk&lt;/em&gt;",
-    "relevance_score": 0.7407949,
+    "title": "Arts & Literature: The Destruction of Smyrna in 1922: A Conversation with Petros Pourliakas, Author of Salty Silk",
+    "display_name": "Arts & Literature: The Destruction of Smyrna in 1922: A Conversation with Petros Pourliakas, Author of Salty Silk",
+    "relevance_score": 2.1075068,
     "publication_year": 2025,
     "publication_date": "2025-07-01",
     "ids": {
       "openalex": "https://openalex.org/W7138393419",
       "doi": "https://doi.org/10.5038/1911-9933.19.1.2045"
     },
-    "language": null,
+    "language": "en",
     "primary_location": {
       "id": "doi:10.5038/1911-9933.19.1.2045",
+      "doi": "https://doi.org/10.5038/1911-9933.19.1.2045",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.5038/1911-9933.19.1.2045",
       "pdf_url": null,
@@ -1874,6 +1875,11 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "norway-1"
+        ],
         "host_organization": "https://openalex.org/P4310316011",
         "host_organization_name": "International Association of Genocide Scholars",
         "host_organization_lineage": [
@@ -1892,6 +1898,7 @@
       "raw_source_name": "Genocide Studies and Prevention",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -1909,56 +1916,41 @@
         "author": {
           "id": "https://openalex.org/A5129714486",
           "display_name": "Petros Pourliakas",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
-        "institutions": [
-          {
-            "id": "https://openalex.org/I53276908",
-            "display_name": "Marymount University",
-            "ror": "https://ror.org/0008kv292",
-            "country_code": "US",
-            "type": "education",
-            "lineage": [
-              "https://openalex.org/I53276908"
-            ]
-          }
-        ],
-        "countries": [
-          "US"
-        ],
+        "institutions": [],
+        "countries": [],
         "is_corresponding": true,
         "raw_author_name": "Petros Pourliakas",
         "raw_affiliation_strings": [
           "Writer"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Writer",
-            "institution_ids": [
-              "https://openalex.org/I53276908"
-            ]
+            "institution_ids": []
           }
         ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 1,
-    "institutions_distinct_count": 1,
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5129714486"
     ],
-    "corresponding_institution_ids": [
-      "https://openalex.org/I53276908"
-    ],
+    "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.96067722,
+      "value": 0.59614386,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
@@ -1971,16 +1963,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12437",
-      "display_name": "Balkans: History, Politics, Society",
-      "score": 0.26489999890327454,
+      "id": "https://openalex.org/T12493",
+      "display_name": "Memory, violence, and history",
+      "score": 0.40700000524520874,
       "subfield": {
-        "id": "https://openalex.org/subfields/3316",
-        "display_name": "Cultural Studies"
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -1989,12 +1981,29 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12437",
-        "display_name": "Balkans: History, Politics, Society",
-        "score": 0.26489999890327454,
+        "id": "https://openalex.org/T12493",
+        "display_name": "Memory, violence, and history",
+        "score": 0.40700000524520874,
         "subfield": {
-          "id": "https://openalex.org/subfields/3316",
-          "display_name": "Cultural Studies"
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11971",
+        "display_name": "World Wars: History, Literature, and Impact",
+        "score": 0.19709999859333038,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -2006,33 +2015,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13900",
-        "display_name": "Contemporary and Historical Greek Studies",
-        "score": 0.148499995470047,
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 0.1785999983549118,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12266",
-        "display_name": "Byzantine Studies and History",
-        "score": 0.026799999177455902,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1205",
-          "display_name": "Classics"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -2042,34 +2034,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/conversation",
-        "display_name": "Conversation",
-        "score": 0.757099986076355
+        "id": "https://openalex.org/keywords/izmir",
+        "display_name": "Izmir",
+        "score": 0.7089999914169312
       },
       {
-        "id": "https://openalex.org/keywords/the-arts",
-        "display_name": "The arts",
-        "score": 0.6590999960899353
+        "id": "https://openalex.org/keywords/greco-turkish-war",
+        "display_name": "Greco-Turkish War",
+        "score": 0.8859999775886536
       },
       {
-        "id": "https://openalex.org/keywords/genocide",
-        "display_name": "Genocide",
-        "score": 0.5133000016212463
+        "id": "https://openalex.org/keywords/collapse-of-the-ottoman-empire",
+        "display_name": "Ottoman Empire collapse",
+        "score": 0.8349999785423279
       },
       {
-        "id": "https://openalex.org/keywords/nazism",
-        "display_name": "Nazism",
-        "score": 0.4413999915122986
+        "id": "https://openalex.org/keywords/humanitarian-aid",
+        "display_name": "humanitarian aid",
+        "score": 0.38100001215934753
       },
       {
-        "id": "https://openalex.org/keywords/spanish-civil-war",
-        "display_name": "Spanish Civil War",
-        "score": 0.39419999718666077
+        "id": "https://openalex.org/keywords/national-trauma",
+        "display_name": "national trauma",
+        "score": 0.7689999938011169
       },
       {
-        "id": "https://openalex.org/keywords/displacement",
-        "display_name": "Displacement (psychology)",
-        "score": 0.3901999890804291
+        "id": "https://openalex.org/keywords/historical-memory",
+        "display_name": "historical memory",
+        "score": 0.5690000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/anatolia",
+        "display_name": "Anatolia",
+        "score": 0.42800000309944153
       }
     ],
     "concepts": [
@@ -2198,6 +2195,7 @@
     "locations": [
       {
         "id": "doi:10.5038/1911-9933.19.1.2045",
+        "doi": "https://doi.org/10.5038/1911-9933.19.1.2045",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.5038/1911-9933.19.1.2045",
         "pdf_url": null,
@@ -2212,6 +2210,11 @@
           "is_oa": true,
           "is_in_doaj": true,
           "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "norway-1"
+          ],
           "host_organization": "https://openalex.org/P4310316011",
           "host_organization_name": "International Association of Genocide Scholars",
           "host_organization_lineage": [
@@ -2233,6 +2236,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.5038/1911-9933.19.1.2045",
+      "doi": "https://doi.org/10.5038/1911-9933.19.1.2045",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.5038/1911-9933.19.1.2045",
       "pdf_url": null,
@@ -2247,6 +2251,11 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "norway-1"
+        ],
         "host_organization": "https://openalex.org/P4310316011",
         "host_organization_name": "International Association of Genocide Scholars",
         "host_organization_lineage": [
@@ -2266,16 +2275,29 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W602450173",
+      "https://openalex.org/W4307532282",
+      "https://openalex.org/W7204200368",
+      "https://openalex.org/W2619557596",
+      "https://openalex.org/W7032885009",
+      "https://openalex.org/W2901973605",
+      "https://openalex.org/W7062301273",
+      "https://openalex.org/W1552415824",
+      "https://openalex.org/W4300823930",
+      "https://openalex.org/W2295270999"
+    ],
     "abstract_inverted_index": {
       "In": [
         0,
@@ -2541,7 +2563,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-03-20T20:47:17.329874",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2026-03-18T00:00:00"
   },
   {

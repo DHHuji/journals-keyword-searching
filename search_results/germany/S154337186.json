@@ -7395,7 +7395,7 @@
     "doi": "https://doi.org/10.1017/s0922156524000591",
     "title": "Wilhelmstra\u00dfe 92, 10117 Berlin: German Memory Culture in the Heart of Empire",
     "display_name": "Wilhelmstra\u00dfe 92, 10117 Berlin: German Memory Culture in the Heart of Empire",
-    "relevance_score": 9.940616,
+    "relevance_score": 25.586895,
     "publication_year": 2025,
     "publication_date": "2025-02-24",
     "ids": {
@@ -7405,9 +7405,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0922156524000591",
+      "doi": "https://doi.org/10.1017/s0922156524000591",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0922156524000591",
-      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/16CAC5551DF91D6BF32504644B60E51C/S0922156524000591a.pdf/div-class-title-wilhelmstrasse-92-10117-berlin-german-memory-culture-in-the-heart-of-empire-div.pdf",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S154337186",
         "display_name": "Leiden Journal of International Law",
@@ -7419,6 +7420,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -7439,6 +7452,7 @@
       "raw_source_name": "Leiden Journal of International Law",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -7446,8 +7460,8 @@
     ],
     "open_access": {
       "is_oa": true,
-      "oa_status": "diamond",
-      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/16CAC5551DF91D6BF32504644B60E51C/S0922156524000591a.pdf/div-class-title-wilhelmstrasse-92-10117-berlin-german-memory-culture-in-the-heart-of-empire-div.pdf",
+      "oa_status": "gold",
+      "oa_url": "https://doi.org/10.1017/s0922156524000591",
       "any_repository_has_fulltext": true
     },
     "authorships": [
@@ -7456,7 +7470,10 @@
         "author": {
           "id": "https://openalex.org/A5024789693",
           "display_name": "Silvia Steininger",
-          "orcid": "https://orcid.org/0000-0003-3396-1054"
+          "orcid": "https://orcid.org/0000-0003-3396-1054",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3396-1054"
+          ]
         },
         "institutions": [
           {
@@ -7509,7 +7526,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
       "https://openalex.org/A5024789693"
     ],
@@ -7517,13 +7534,21 @@
       "https://openalex.org/I24830596",
       "https://openalex.org/I4210141359"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.03431297,
+      "value": 0.0299426,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -7538,16 +7563,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13484",
-      "display_name": "German History and Society",
-      "score": 0.8253999948501587,
+      "id": "https://openalex.org/T11104",
+      "display_name": "Memory, Trauma, and Commemoration",
+      "score": 0.5313000082969666,
       "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -7556,43 +7581,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13484",
-        "display_name": "German History and Society",
-        "score": 0.8253999948501587,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12645",
-        "display_name": "European history and politics",
-        "score": 0.7447999715805054,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T11104",
         "display_name": "Memory, Trauma, and Commemoration",
-        "score": 0.7243000268936157,
+        "score": 0.5313000082969666,
         "subfield": {
           "id": "https://openalex.org/subfields/3207",
           "display_name": "Social Psychology"
@@ -7605,43 +7596,57 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T12972",
+        "display_name": "German Colonialism and Identity Studies",
+        "score": 0.1784999966621399,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1208",
+          "display_name": "Literature and Literary Theory"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13537",
+        "display_name": "German legal, social, and political studies",
+        "score": 0.13899999856948853,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/german",
-        "display_name": "German",
-        "score": 0.7916390895843506
+        "id": "https://openalex.org/keywords/german-memory-culture",
+        "display_name": "German memory culture",
+        "score": 0.7950000166893005
       },
       {
-        "id": "https://openalex.org/keywords/empire",
-        "display_name": "Empire",
-        "score": 0.7045056819915771
+        "id": "https://openalex.org/keywords/nazi-architecture",
+        "display_name": "Nazi-era architecture",
+        "score": 0.33399999141693115
       },
       {
-        "id": "https://openalex.org/keywords/german-culture",
-        "display_name": "German culture",
-        "score": 0.4791104793548584
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.3504730463027954
-      },
-      {
-        "id": "https://openalex.org/keywords/ancient-history",
-        "display_name": "Ancient history",
-        "score": 0.34519538283348083
-      },
-      {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.29810792207717896
-      },
-      {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.08525499701499939
+        "id": "https://openalex.org/keywords/memory-politics",
+        "display_name": "memory politics",
+        "score": 0.3959999978542328
       }
     ],
     "concepts": [
@@ -7700,9 +7705,10 @@
     "locations": [
       {
         "id": "doi:10.1017/s0922156524000591",
+        "doi": "https://doi.org/10.1017/s0922156524000591",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0922156524000591",
-        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/16CAC5551DF91D6BF32504644B60E51C/S0922156524000591a.pdf/div-class-title-wilhelmstrasse-92-10117-berlin-german-memory-culture-in-the-heart-of-empire-div.pdf",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S154337186",
           "display_name": "Leiden Journal of International Law",
@@ -7714,6 +7720,18 @@
           "is_oa": true,
           "is_in_doaj": true,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "erih-plus",
+            "jufo-2",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -7736,6 +7754,7 @@
       },
       {
         "id": "pmh:oai:doaj.org/article:57be4f1d1ae149b1883bfef0545a5236",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://doaj.org/article/57be4f1d1ae149b1883bfef0545a5236",
         "pdf_url": null,
@@ -7747,6 +7766,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -7763,6 +7783,7 @@
       },
       {
         "id": "pmh:oai:kobv.de-opus4-hsog:6129",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://opus4.kobv.de/opus4-hsog/frontdoor/index/index/docId/6129",
         "pdf_url": null,
@@ -7774,6 +7795,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I195893171",
           "host_organization_name": "Zuse Institute Berlin",
           "host_organization_lineage": [
@@ -7788,14 +7810,15 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "doc-type:contributionToPeriodical"
+        "raw_type": "contributiontoperiodical"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0922156524000591",
+      "doi": "https://doi.org/10.1017/s0922156524000591",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0922156524000591",
-      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/16CAC5551DF91D6BF32504644B60E51C/S0922156524000591a.pdf/div-class-title-wilhelmstrasse-92-10117-berlin-german-memory-culture-in-the-heart-of-empire-div.pdf",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S154337186",
         "display_name": "Leiden Journal of International Law",
@@ -7807,6 +7830,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -7827,22 +7862,22 @@
       "raw_source_name": "Leiden Journal of International Law",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "display_name": "Sustainable cities and communities",
+        "id": "https://metadata.un.org/sdg/11",
         "score": 0.5699999928474426,
-        "id": "https://metadata.un.org/sdg/11"
+        "display_name": "Sustainable cities and communities"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
+      "pdf": false,
       "grobid_xml": false
     },
-    "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4407888507.pdf"
-    },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
@@ -7859,7 +7894,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-05-06T08:25:59.206177",
+    "updated_date": "2026-09-11T09:22:31.653822",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -26661,7 +26696,7 @@
     "doi": "https://doi.org/10.1017/s0922156524000645",
     "title": "From Business and Human Rights to entangled accumulation: Making sense of violence along global value chains",
     "display_name": "From Business and Human Rights to entangled accumulation: Making sense of violence along global value chains",
-    "relevance_score": 0.5797804,
+    "relevance_score": 1.6708591,
     "publication_year": 2025,
     "publication_date": "2025-06-02",
     "ids": {
@@ -26671,6 +26706,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0922156524000645",
+      "doi": "https://doi.org/10.1017/s0922156524000645",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0922156524000645",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4D7496242C1E4F9027A14845A6CF30A7/S0922156524000645a.pdf/div-class-title-from-business-and-human-rights-to-entangled-accumulation-making-sense-of-violence-along-global-value-chains-div.pdf",
@@ -26685,6 +26721,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -26705,14 +26753,16 @@
       "raw_source_name": "Leiden Journal of International Law",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
+      "datacite",
       "doaj"
     ],
     "open_access": {
       "is_oa": true,
-      "oa_status": "diamond",
+      "oa_status": "gold",
       "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4D7496242C1E4F9027A14845A6CF30A7/S0922156524000645a.pdf/div-class-title-from-business-and-human-rights-to-entangled-accumulation-making-sense-of-violence-along-global-value-chains-div.pdf",
       "any_repository_has_fulltext": true
     },
@@ -26722,21 +26772,12 @@
         "author": {
           "id": "https://openalex.org/A5013126592",
           "display_name": "Hannah Franzki",
-          "orcid": "https://orcid.org/0000-0003-3883-1056"
+          "orcid": "https://orcid.org/0000-0003-3883-1056",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3883-1056"
+          ]
         },
         "institutions": [
-          {
-            "id": "https://openalex.org/I4210154337",
-            "display_name": "Institute for Legal Studies",
-            "ror": "https://ror.org/05ad0gz88",
-            "country_code": "HU",
-            "type": "facility",
-            "lineage": [
-              "https://openalex.org/I4210137611",
-              "https://openalex.org/I4210154337",
-              "https://openalex.org/I7597260"
-            ]
-          },
           {
             "id": "https://openalex.org/I75951250",
             "display_name": "Freie Universit\u00e4t Berlin",
@@ -26749,8 +26790,7 @@
           }
         ],
         "countries": [
-          "DE",
-          "HU"
+          "DE"
         ],
         "is_corresponding": true,
         "raw_author_name": "Hannah Franzki",
@@ -26768,9 +26808,7 @@
           },
           {
             "raw_affiliation_string": "Institute for Legal Intervention",
-            "institution_ids": [
-              "https://openalex.org/I4210154337"
-            ]
+            "institution_ids": []
           }
         ]
       },
@@ -26779,7 +26817,8 @@
         "author": {
           "id": "https://openalex.org/A5117807662",
           "display_name": "Angela S\u00e1nchez-Alfonso",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -26813,22 +26852,29 @@
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 2,
-    "institutions_distinct_count": 2,
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5013126592"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I4210154337",
       "https://openalex.org/I75951250"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.17531508,
+      "value": 0.12272397,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -26843,12 +26889,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11552",
-      "display_name": "Global trade, sustainability, and social impact",
-      "score": 0.7955999970436096,
+      "id": "https://openalex.org/T13408",
+      "display_name": "Corporate Law and Human Rights",
+      "score": 0.9970999956130981,
       "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
+        "id": "https://openalex.org/subfields/1407",
+        "display_name": "Organizational Behavior and Human Resource Management"
       },
       "field": {
         "id": "https://openalex.org/fields/14",
@@ -26861,9 +26907,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T13408",
+        "display_name": "Corporate Law and Human Rights",
+        "score": 0.9970999956130981,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1407",
+          "display_name": "Organizational Behavior and Human Resource Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11552",
         "display_name": "Global trade, sustainability, and social impact",
-        "score": 0.7955999970436096,
+        "score": 0.0019000000320374966,
         "subfield": {
           "id": "https://openalex.org/subfields/1408",
           "display_name": "Strategy and Management"
@@ -26876,58 +26939,75 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T13773",
+        "display_name": "International Labor and Employment Law",
+        "score": 0.0003000000142492354,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/human-rights",
-        "display_name": "Human rights",
-        "score": 0.6783011555671692
+        "id": "https://openalex.org/keywords/business-and-human-rights",
+        "display_name": "business and human rights",
+        "score": 0.9240000247955322
       },
       {
-        "id": "https://openalex.org/keywords/sense",
-        "display_name": "Sense (electronics)",
-        "score": 0.5779913663864136
+        "id": "https://openalex.org/keywords/violence",
+        "display_name": "violence",
+        "score": 0.5839999914169312
       },
       {
-        "id": "https://openalex.org/keywords/value",
-        "display_name": "Value (mathematics)",
-        "score": 0.5742404460906982
+        "id": "https://openalex.org/keywords/global-value-chains",
+        "display_name": "global value chains",
+        "score": 0.984000027179718
       },
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.4093775749206543
+        "id": "https://openalex.org/keywords/primitive-accumulation",
+        "display_name": "primitive accumulation",
+        "score": 0.9179999828338623
       },
       {
-        "id": "https://openalex.org/keywords/law-and-economics",
-        "display_name": "Law and economics",
-        "score": 0.3936290144920349
+        "id": "https://openalex.org/keywords/supply-chain-due-diligence-act",
+        "display_name": "Supply Chain Due Diligence Act",
+        "score": 0.9539999961853027
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.30030637979507446
+        "id": "https://openalex.org/keywords/global-production-networks",
+        "display_name": "global production networks",
+        "score": 0.6679999828338623
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.21900978684425354
+        "id": "https://openalex.org/keywords/labor-exploitation",
+        "display_name": "labor exploitation",
+        "score": 0.777999997138977
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.21350526809692383
+        "id": "https://openalex.org/keywords/repression",
+        "display_name": "repression",
+        "score": 0.5400000214576721
       },
       {
-        "id": "https://openalex.org/keywords/computer-science",
-        "display_name": "Computer science",
-        "score": 0.14767789840698242
+        "id": "https://openalex.org/keywords/capitalist-accumulation",
+        "display_name": "capitalist accumulation",
+        "score": 0.4909999966621399
       },
       {
-        "id": "https://openalex.org/keywords/chemistry",
-        "display_name": "Chemistry",
-        "score": 0.07499456405639648
+        "id": "https://openalex.org/keywords/future-of-work",
+        "display_name": "future of work",
+        "score": 0.7549999952316284
       }
     ],
     "concepts": [
@@ -27017,10 +27097,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 4,
     "locations": [
       {
         "id": "doi:10.1017/s0922156524000645",
+        "doi": "https://doi.org/10.1017/s0922156524000645",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0922156524000645",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4D7496242C1E4F9027A14845A6CF30A7/S0922156524000645a.pdf/div-class-title-from-business-and-human-rights-to-entangled-accumulation-making-sense-of-violence-along-global-value-chains-div.pdf",
@@ -27035,6 +27116,18 @@
           "is_oa": true,
           "is_in_doaj": true,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "erih-plus",
+            "jufo-2",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -27056,7 +27149,39 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:refubium.fu-berlin.de:fub188/48003",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://refubium.fu-berlin.de/handle/fub188/48003",
+        "pdf_url": "https://refubium.fu-berlin.de/bitstream/fub188/48003/2/from-business-and-human-rights-to-entangled-accumulation-making-sense-of-violence-along-global-value-chains.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402444",
+          "display_name": "Refubium (Universit\u00e4tsbibliothek der Freien Universit\u00e4t Berlin)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I75951250",
+          "host_organization_name": "Freie Universit\u00e4t Berlin",
+          "host_organization_lineage": [
+            "https://openalex.org/I75951250"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "doc-type:article"
+      },
+      {
         "id": "pmh:oai:doaj.org/article:728504cf67f14b6c95101e1ef15eee14",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://doaj.org/article/728504cf67f14b6c95101e1ef15eee14",
         "pdf_url": null,
@@ -27068,6 +27193,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -27081,10 +27207,40 @@
         "is_published": false,
         "raw_source_name": "Leiden Journal of International Law, Vol 38, Pp 433-454 (2025)",
         "raw_type": "article"
+      },
+      {
+        "id": "doi:10.17169/refubium-47721",
+        "doi": "https://doi.org/10.17169/refubium-47721",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.17169/refubium-47721",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407052913",
+          "display_name": "Universit\u00e4tsbibliothek der FU Berlin Hochschulschriftenstelle u. Dokumentenserver",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article-journal"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0922156524000645",
+      "doi": "https://doi.org/10.1017/s0922156524000645",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0922156524000645",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4D7496242C1E4F9027A14845A6CF30A7/S0922156524000645a.pdf/div-class-title-from-business-and-human-rights-to-entangled-accumulation-making-sense-of-violence-along-global-value-chains-div.pdf",
@@ -27099,6 +27255,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -27119,7 +27287,20 @@
       "raw_source_name": "Leiden Journal of International Law",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 1.0,
+        "display_name": "Peace, justice, and strong institutions"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/8",
+        "score": 0.6452000141143799,
+        "display_name": "Decent work and economic growth"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -27612,7 +27793,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-06T08:25:59.206177",
+    "updated_date": "2026-10-12T09:40:04.860316",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -27620,7 +27801,7 @@
     "doi": "https://doi.org/10.1017/s0922156525100472",
     "title": "The indictments against Adolf Hitler, their endorsement by the UNWCC, the IMT judgment and a twenty-first century immunity myth",
     "display_name": "The indictments against Adolf Hitler, their endorsement by the UNWCC, the IMT judgment and a twenty-first century immunity myth",
-    "relevance_score": 0.5517837,
+    "relevance_score": 1.550713,
     "publication_year": 2025,
     "publication_date": "2025-10-06",
     "ids": {
@@ -27630,6 +27811,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0922156525100472",
+      "doi": "https://doi.org/10.1017/s0922156525100472",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0922156525100472",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/183F73D3F2AED50A8DF193638B064DA4/S0922156525100472a.pdf/div-class-title-the-indictments-against-adolf-hitler-their-endorsement-by-the-unwcc-the-imt-judgment-and-a-twenty-first-century-immunity-myth-div.pdf",
@@ -27644,6 +27826,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -27664,6 +27858,7 @@
       "raw_source_name": "Leiden Journal of International Law",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -27671,7 +27866,7 @@
     ],
     "open_access": {
       "is_oa": true,
-      "oa_status": "diamond",
+      "oa_status": "gold",
       "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/183F73D3F2AED50A8DF193638B064DA4/S0922156525100472a.pdf/div-class-title-the-indictments-against-adolf-hitler-their-endorsement-by-the-unwcc-the-imt-judgment-and-a-twenty-first-century-immunity-myth-div.pdf",
       "any_repository_has_fulltext": true
     },
@@ -27681,7 +27876,10 @@
         "author": {
           "id": "https://openalex.org/A5044871101",
           "display_name": "Miguel Manero de Lemos",
-          "orcid": "https://orcid.org/0000-0003-3644-2006"
+          "orcid": "https://orcid.org/0000-0003-3644-2006",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3644-2006"
+          ]
         },
         "institutions": [
           {
@@ -27723,13 +27921,21 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I76903346"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.30989723,
+      "value": 0.26247595,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -27744,9 +27950,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12752",
-      "display_name": "Global Peace and Security Dynamics",
-      "score": 0.9616000056266785,
+      "id": "https://openalex.org/T10749",
+      "display_name": "International Law and Human Rights",
+      "score": 0.9994999766349792,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -27762,9 +27968,43 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12752",
-        "display_name": "Global Peace and Security Dynamics",
-        "score": 0.9616000056266785,
+        "id": "https://openalex.org/T10749",
+        "display_name": "International Law and Human Rights",
+        "score": 0.9994999766349792,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14492",
+        "display_name": "War, Law, and Justice",
+        "score": 0.00019999999494757503,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12767",
+        "display_name": "Conflict of Laws and Jurisdiction",
+        "score": 0.0,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -27781,34 +28021,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/mythology",
-        "display_name": "Mythology",
-        "score": 0.7961999773979187
+        "id": "https://openalex.org/keywords/adolf-hitler",
+        "display_name": "Adolf Hitler",
+        "score": 0.6859999895095825
       },
       {
-        "id": "https://openalex.org/keywords/state",
-        "display_name": "State (computer science)",
-        "score": 0.6840999722480774
+        "id": "https://openalex.org/keywords/head-of-state-immunity",
+        "display_name": "immunity of heads of state",
+        "score": 0.9070000052452087
       },
       {
-        "id": "https://openalex.org/keywords/war-crime",
-        "display_name": "War crime",
-        "score": 0.5187000036239624
+        "id": "https://openalex.org/keywords/international-military-tribunal",
+        "display_name": "International Military Tribunal",
+        "score": 0.7260000109672546
       },
       {
-        "id": "https://openalex.org/keywords/foreign-policy",
-        "display_name": "Foreign policy",
-        "score": 0.4440000057220459
+        "id": "https://openalex.org/keywords/nuremberg-judgment",
+        "display_name": "Nuremberg judgment",
+        "score": 0.7480000257492065
       },
       {
-        "id": "https://openalex.org/keywords/absolute",
-        "display_name": "Absolute (philosophy)",
-        "score": 0.43630000948905945
+        "id": "https://openalex.org/keywords/international-court-of-justice",
+        "display_name": "International Court of Justice",
+        "score": 0.9179999828338623
       },
       {
-        "id": "https://openalex.org/keywords/international-law",
-        "display_name": "International law",
-        "score": 0.3756999969482422
+        "id": "https://openalex.org/keywords/foreign-criminal-jurisdiction",
+        "display_name": "foreign criminal jurisdiction",
+        "score": 0.5299999713897705
+      },
+      {
+        "id": "https://openalex.org/keywords/prosecution-of-heads-of-state",
+        "display_name": "prosecution of heads of state",
+        "score": 0.7889999747276306
+      },
+      {
+        "id": "https://openalex.org/keywords/war-crimes",
+        "display_name": "war crimes",
+        "score": 0.7540000081062317
+      },
+      {
+        "id": "https://openalex.org/keywords/crimes-against-humanity",
+        "display_name": "crimes against humanity",
+        "score": 0.8230000138282776
+      },
+      {
+        "id": "https://openalex.org/keywords/aggression",
+        "display_name": "aggression",
+        "score": 0.46799999475479126
       }
     ],
     "concepts": [
@@ -27937,6 +28197,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s0922156525100472",
+        "doi": "https://doi.org/10.1017/s0922156525100472",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0922156525100472",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/183F73D3F2AED50A8DF193638B064DA4/S0922156525100472a.pdf/div-class-title-the-indictments-against-adolf-hitler-their-endorsement-by-the-unwcc-the-imt-judgment-and-a-twenty-first-century-immunity-myth-div.pdf",
@@ -27951,6 +28212,18 @@
           "is_oa": true,
           "is_in_doaj": true,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "erih-plus",
+            "jufo-2",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -27973,6 +28246,7 @@
       },
       {
         "id": "pmh:oai:doaj.org/article:d1ba534ea3914f4c9ff193c9f1878d78",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://doaj.org/article/d1ba534ea3914f4c9ff193c9f1878d78",
         "pdf_url": null,
@@ -27984,6 +28258,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -28001,6 +28276,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0922156525100472",
+      "doi": "https://doi.org/10.1017/s0922156525100472",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0922156525100472",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/183F73D3F2AED50A8DF193638B064DA4/S0922156525100472a.pdf/div-class-title-the-indictments-against-adolf-hitler-their-endorsement-by-the-unwcc-the-imt-judgment-and-a-twenty-first-century-immunity-myth-div.pdf",
@@ -28015,6 +28291,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -28035,7 +28323,15 @@
       "raw_source_name": "Leiden Journal of International Law",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 1.0,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -28577,7 +28873,1479 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-06T08:25:59.206177",
+    "updated_date": "2026-09-11T09:22:31.653822",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7168349143",
+    "doi": "https://doi.org/10.1017/s0922156526100831",
+    "title": "Land, genocide, and kintsugi in Namibia",
+    "display_name": "Land, genocide, and kintsugi in Namibia",
+    "relevance_score": 3.1148298,
+    "publication_year": 2026,
+    "publication_date": "2026-07-15",
+    "ids": {
+      "openalex": "https://openalex.org/W7168349143",
+      "doi": "https://doi.org/10.1017/s0922156526100831"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s0922156526100831",
+      "doi": "https://doi.org/10.1017/s0922156526100831",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0922156526100831",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D41E7B69966037DF3A5B356E4411E3D9/S0922156526100831a.pdf/div-class-title-land-genocide-and-kintsugi-in-namibia-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S154337186",
+        "display_name": "Leiden Journal of International Law",
+        "issn_l": "0922-1565",
+        "issn": [
+          "0922-1565",
+          "1478-9698"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Leiden Journal of International Law",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "doaj"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "gold",
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D41E7B69966037DF3A5B356E4411E3D9/S0922156526100831a.pdf/div-class-title-land-genocide-and-kintsugi-in-namibia-div.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5024118708",
+          "display_name": "Mark Anthony Drumbl",
+          "orcid": "https://orcid.org/0000-0001-8055-1205",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8055-1205"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I184889055",
+            "display_name": "Washington and Lee University",
+            "ror": "https://ror.org/05r9xgf14",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I184889055"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Mark A. Drumbl",
+        "raw_affiliation_strings": [
+          "Washington and Lee University School of Law"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Washington and Lee University School of Law",
+            "institution_ids": [
+              "https://openalex.org/I184889055"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5055936434",
+          "display_name": "Shannon Fyfe",
+          "orcid": "https://orcid.org/0000-0002-0958-9048",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0958-9048"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I184889055",
+            "display_name": "Washington and Lee University",
+            "ror": "https://ror.org/05r9xgf14",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I184889055"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Shannon Fyfe",
+        "raw_affiliation_strings": [
+          "Washington and Lee University School of Law"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Washington and Lee University School of Law",
+            "institution_ids": [
+              "https://openalex.org/I184889055"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5024118708"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I184889055"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.56360557,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "39",
+      "issue": "3",
+      "first_page": "792",
+      "last_page": "795"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12972",
+      "display_name": "German Colonialism and Identity Studies",
+      "score": 0.9603999853134155,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12972",
+        "display_name": "German Colonialism and Identity Studies",
+        "score": 0.9603999853134155,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1208",
+          "display_name": "Literature and Literary Theory"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 0.016200000420212746,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14395",
+        "display_name": "African history and culture studies",
+        "score": 0.010400000028312206,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/herero-and-nama-genocide",
+        "display_name": "Herero and Nama genocide",
+        "score": 0.8309999704360962
+      },
+      {
+        "id": "https://openalex.org/keywords/german-colonialism",
+        "display_name": "German colonialism",
+        "score": 0.6330000162124634
+      },
+      {
+        "id": "https://openalex.org/keywords/okahandja",
+        "display_name": "Okahandja",
+        "score": 0.8040000200271606
+      },
+      {
+        "id": "https://openalex.org/keywords/kintsugi",
+        "display_name": "kintsugi",
+        "score": 0.6600000262260437
+      },
+      {
+        "id": "https://openalex.org/keywords/land-dispossession",
+        "display_name": "land dispossession",
+        "score": 0.5189999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/colonial-memory",
+        "display_name": "colonial memory",
+        "score": 0.4189999997615814
+      },
+      {
+        "id": "https://openalex.org/keywords/german-missionaries",
+        "display_name": "German missionaries",
+        "score": 0.3319999873638153
+      },
+      {
+        "id": "https://openalex.org/keywords/namibia",
+        "display_name": "Namibia",
+        "score": 0.4950000047683716
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.5651000142097473
+      },
+      {
+        "id": "https://openalex.org/C2780791683",
+        "wikidata": "https://www.wikidata.org/wiki/Q846785",
+        "display_name": "Action (physics)",
+        "level": 2,
+        "score": 0.5264999866485596
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.31349998712539673
+      },
+      {
+        "id": "https://openalex.org/C2778152352",
+        "wikidata": "https://www.wikidata.org/wiki/Q5165061",
+        "display_name": "Content (measure theory)",
+        "level": 2,
+        "score": 0.2793000042438507
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.27459999918937683
+      },
+      {
+        "id": "https://openalex.org/C26517878",
+        "wikidata": "https://www.wikidata.org/wiki/Q228039",
+        "display_name": "Key (lock)",
+        "level": 2,
+        "score": 0.2282000035047531
+      },
+      {
+        "id": "https://openalex.org/C2781313914",
+        "wikidata": "https://www.wikidata.org/wiki/Q6048092",
+        "display_name": "International Action",
+        "level": 2,
+        "score": 0.2273000031709671
+      },
+      {
+        "id": "https://openalex.org/C39549134",
+        "wikidata": "https://www.wikidata.org/wiki/Q133080",
+        "display_name": "Public relations",
+        "level": 1,
+        "score": 0.21320000290870667
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.21199999749660492
+      },
+      {
+        "id": "https://openalex.org/C162446236",
+        "wikidata": "https://www.wikidata.org/wiki/Q653137",
+        "display_name": "Content analysis",
+        "level": 2,
+        "score": 0.20600000023841858
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1017/s0922156526100831",
+        "doi": "https://doi.org/10.1017/s0922156526100831",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1017/s0922156526100831",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D41E7B69966037DF3A5B356E4411E3D9/S0922156526100831a.pdf/div-class-title-land-genocide-and-kintsugi-in-namibia-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S154337186",
+          "display_name": "Leiden Journal of International Law",
+          "issn_l": "0922-1565",
+          "issn": [
+            "0922-1565",
+            "1478-9698"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "erih-plus",
+            "jufo-2",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Leiden Journal of International Law",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:doaj.org/article:6831daea161b433a95180c2b7cf53f9a",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://doaj.org/article/6831daea161b433a95180c2b7cf53f9a",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401280",
+          "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Leiden Journal of International Law, Vol 39, Pp 792-795 (2026)",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1017/s0922156526100831",
+      "doi": "https://doi.org/10.1017/s0922156526100831",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0922156526100831",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/D41E7B69966037DF3A5B356E4411E3D9/S0922156526100831a.pdf/div-class-title-land-genocide-and-kintsugi-in-namibia-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S154337186",
+        "display_name": "Leiden Journal of International Law",
+        "issn_l": "0922-1565",
+        "issn": [
+          "0922-1565",
+          "1478-9698"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Leiden Journal of International Law",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7168349143.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7168349143.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "The": [
+        0
+      ],
+      "first": [
+        1
+      ],
+      "German": [
+        2,
+        34,
+        48,
+        268,
+        313,
+        336,
+        353,
+        389
+      ],
+      "missionaries": [
+        3
+      ],
+      "arrived": [
+        4
+      ],
+      "in": [
+        5,
+        7,
+        19,
+        150,
+        248,
+        252,
+        258,
+        299,
+        311,
+        352,
+        374
+      ],
+      "Namibia": [
+        6,
+        12
+      ],
+      "the": [
+        8,
+        37,
+        40,
+        107,
+        116,
+        134,
+        179,
+        200,
+        231,
+        235,
+        265,
+        273,
+        276,
+        286,
+        293,
+        307,
+        312,
+        321,
+        341,
+        358,
+        375,
+        383,
+        393
+      ],
+      "1820s.German": [
+        9
+      ],
+      "rule": [
+        10
+      ],
+      "over": [
+        11
+      ],
+      "officially": [
+        13
+      ],
+      "began": [
+        14
+      ],
+      "under": [
+        15
+      ],
+      "Otto": [
+        16
+      ],
+      "von": [
+        17,
+        53
+      ],
+      "Bismarck": [
+        18
+      ],
+      "1884.Following": [
+        20
+      ],
+      "a": [
+        21,
+        56,
+        69,
+        140,
+        146,
+        164,
+        190,
+        203,
+        213,
+        218
+      ],
+      "January": [
+        22
+      ],
+      "1904": [
+        23,
+        126,
+        279
+      ],
+      "uprising": [
+        24,
+        128
+      ],
+      "led": [
+        25
+      ],
+      "by": [
+        26,
+        170
+      ],
+      "Herero": [
+        27,
+        41,
+        111,
+        127,
+        236,
+        239,
+        277,
+        333
+      ],
+      "chief": [
+        28
+      ],
+      "Samuel": [
+        29
+      ],
+      "Maharero": [
+        30
+      ],
+      "against": [
+        31,
+        272
+      ],
+      "colonial": [
+        32
+      ],
+      "rule,": [
+        33
+      ],
+      "officials": [
+        35
+      ],
+      "ordered": [
+        36
+      ],
+      "extirpation": [
+        38
+      ],
+      "of": [
+        39,
+        115,
+        122,
+        132,
+        136,
+        142,
+        159,
+        199,
+        267,
+        295,
+        323,
+        325,
+        357
+      ],
+      "and": [
+        42,
+        83,
+        109,
+        166,
+        174,
+        215,
+        226,
+        238,
+        254,
+        275,
+        280,
+        285,
+        290,
+        304,
+        364,
+        402
+      ],
+      "Nama": [
+        43,
+        105,
+        274
+      ],
+      "peoples.On": [
+        44
+      ],
+      "4": [
+        45
+      ],
+      "October": [
+        46,
+        151
+      ],
+      "1904,": [
+        47,
+        317
+      ],
+      "military": [
+        49
+      ],
+      "commander": [
+        50
+      ],
+      "General": [
+        51
+      ],
+      "Lothar": [
+        52
+      ],
+      "Trotha": [
+        54
+      ],
+      "issued": [
+        55
+      ],
+      "chilling": [
+        57
+      ],
+      "extermination": [
+        58
+      ],
+      "order": [
+        59
+      ],
+      "(Vernichtungsbefehl)": [
+        60
+      ],
+      "to": [
+        61,
+        90,
+        207,
+        303,
+        306,
+        320,
+        395
+      ],
+      "his": [
+        62
+      ],
+      "troops:": [
+        63
+      ],
+      "'Every": [
+        64
+      ],
+      "Herero,": [
+        65
+      ],
+      "with": [
+        66,
+        71,
+        212,
+        347,
+        370
+      ],
+      "or": [
+        67,
+        72,
+        93
+      ],
+      "without": [
+        68,
+        73
+      ],
+      "gun,": [
+        70
+      ],
+      "cattle,": [
+        74
+      ],
+      "will": [
+        75,
+        78,
+        86,
+        95
+      ],
+      "be": [
+        76,
+        98
+      ],
+      "shot.I": [
+        77
+      ],
+      "no": [
+        79
+      ],
+      "longer": [
+        80
+      ],
+      "accept": [
+        81
+      ],
+      "women": [
+        82
+      ],
+      "children,": [
+        84
+      ],
+      "I": [
+        85,
+        94
+      ],
+      "drive": [
+        87,
+        157
+      ],
+      "them": [
+        88,
+        97
+      ],
+      "back": [
+        89
+      ],
+      "their": [
+        91,
+        296,
+        406
+      ],
+      "people": [
+        92
+      ],
+      "let": [
+        96
+      ],
+      "shot": [
+        99
+      ],
+      "at'.": [
+        100
+      ],
+      "1": [
+        101
+      ],
+      "Germans": [
+        102,
+        287
+      ],
+      "murdered": [
+        103
+      ],
+      "10,000": [
+        104
+      ],
+      "(half": [
+        106
+      ],
+      "population)": [
+        108
+      ],
+      "65,000": [
+        110
+      ],
+      "(nearly": [
+        112
+      ],
+      "80": [
+        113
+      ],
+      "percent": [
+        114
+      ],
+      "population),": [
+        117
+      ],
+      "as": [
+        118,
+        120
+      ],
+      "well": [
+        119
+      ],
+      "thousands": [
+        121
+      ],
+      "other": [
+        123
+      ],
+      "indigenous": [
+        124
+      ],
+      "peoples.The": [
+        125
+      ],
+      "was": [
+        129,
+        283
+      ],
+      "crushed.The": [
+        130
+      ],
+      "town": [
+        131
+      ],
+      "Okahandja,": [
+        133,
+        253
+      ],
+      "site": [
+        135
+      ],
+      "uprising,": [
+        137
+      ],
+      "is": [
+        138,
+        153,
+        189,
+        202,
+        230,
+        241
+      ],
+      "today": [
+        139
+      ],
+      "scene": [
+        141
+      ],
+      "memory.We": [
+        143
+      ],
+      "visited": [
+        144
+      ],
+      "on": [
+        145
+      ],
+      "sunny": [
+        147
+      ],
+      "Saturday": [
+        148
+      ],
+      "morning": [
+        149
+      ],
+      "2025.Okahandja": [
+        152
+      ],
+      "about": [
+        154
+      ],
+      "an": [
+        155,
+        208,
+        387
+      ],
+      "hour's": [
+        156
+      ],
+      "north": [
+        158
+      ],
+      "Windhoek,": [
+        160
+      ],
+      "Namibia's": [
+        161
+      ],
+      "capital,": [
+        162
+      ],
+      "along": [
+        163
+      ],
+      "major": [
+        165
+      ],
+      "modern": [
+        167
+      ],
+      "highway": [
+        168
+      ],
+      "flanked": [
+        169
+      ],
+      "wildlifeincluding": [
+        171
+      ],
+      "antelopes,": [
+        172
+      ],
+      "ostriches,": [
+        173
+      ],
+      "monkeys.The": [
+        175
+      ],
+      "name": [
+        176
+      ],
+      "Okahandja": [
+        177,
+        260
+      ],
+      "means": [
+        178
+      ],
+      "place": [
+        180
+      ],
+      "where": [
+        181
+      ],
+      "two": [
+        182,
+        223
+      ],
+      "rivers": [
+        183,
+        194
+      ],
+      "flow": [
+        184
+      ],
+      "into": [
+        185
+      ],
+      "each": [
+        186
+      ],
+      "other.Namibia,": [
+        187
+      ],
+      "however,": [
+        188
+      ],
+      "vastly": [
+        191
+      ],
+      "arid": [
+        192
+      ],
+      "space.These": [
+        193
+      ],
+      "run": [
+        195
+      ],
+      "dry": [
+        196
+      ],
+      "for": [
+        197,
+        234,
+        405
+      ],
+      "most": [
+        198
+      ],
+      "year.Okahandja": [
+        201
+      ],
+      "small": [
+        204
+      ],
+      "town,": [
+        205
+      ],
+      "home": [
+        206
+      ],
+      "old": [
+        209,
+        388
+      ],
+      "train": [
+        210
+      ],
+      "station": [
+        211
+      ],
+      "faded": [
+        214
+      ],
+      "failing": [
+        216
+      ],
+      "verandah,": [
+        217
+      ],
+      "brick": [
+        219
+      ],
+      "microwave": [
+        220
+      ],
+      "telecommunications": [
+        221
+      ],
+      "tower,": [
+        222
+      ],
+      "woodcarver": [
+        224
+      ],
+      "markets,": [
+        225
+      ],
+      "several": [
+        227
+      ],
+      "foodserver": [
+        228
+      ],
+      "restaurants.Okahandja": [
+        229
+      ],
+      "administrative": [
+        232
+      ],
+      "center": [
+        233
+      ],
+      "people,": [
+        237
+      ],
+      "Day": [
+        240
+      ],
+      "celebrated": [
+        242
+      ],
+      "here": [
+        243
+      ],
+      "annually.German": [
+        244
+      ],
+      "vestiges": [
+        245
+      ],
+      "persist,": [
+        246
+      ],
+      "including": [
+        247,
+        330
+      ],
+      "many": [
+        249,
+        368
+      ],
+      "street": [
+        250
+      ],
+      "names": [
+        251
+      ],
+      "even": [
+        255
+      ],
+      "more": [
+        256,
+        327,
+        365
+      ],
+      "so": [
+        257
+      ],
+      "Windhoek.The": [
+        259
+      ],
+      "soil,": [
+        261
+      ],
+      "moreover,": [
+        262
+      ],
+      "uniquely": [
+        263
+      ],
+      "cradles": [
+        264
+      ],
+      "bodies": [
+        266,
+        294
+      ],
+      "soldiers": [
+        269
+      ],
+      "who": [
+        270
+      ],
+      "fought": [
+        271
+      ],
+      "between": [
+        278
+      ],
+      "1908.The": [
+        281
+      ],
+      "genocide": [
+        282
+      ],
+      "ugly,": [
+        284
+      ],
+      "were": [
+        288
+      ],
+      "coldly": [
+        289
+      ],
+      "cruelly": [
+        291
+      ],
+      "ruthless.But": [
+        292
+      ],
+      "fallen": [
+        297
+      ],
+      "remain,": [
+        298
+      ],
+      "graves": [
+        300,
+        337
+      ],
+      "still": [
+        301
+      ],
+      "tended": [
+        302
+      ],
+      "accessible": [
+        305
+      ],
+      "public.These": [
+        308
+      ],
+      "bodies,": [
+        309
+      ],
+      "resting": [
+        310
+      ],
+      "Military": [
+        314
+      ],
+      "Cemetery": [
+        315
+      ],
+      "since": [
+        316
+      ],
+      "lie": [
+        318
+      ],
+      "next": [
+        319
+      ],
+      "remains": [
+        322
+      ],
+      "Okahandjans": [
+        324,
+        361
+      ],
+      "far": [
+        326
+      ],
+      "recent": [
+        328
+      ],
+      "times,": [
+        329
+      ],
+      "some": [
+        331
+      ],
+      "contemporary": [
+        332
+      ],
+      "tribal": [
+        334
+      ],
+      "leaders.Two": [
+        335
+      ],
+      "remain": [
+        338
+      ],
+      "unnamed,": [
+        339
+      ],
+      "while": [
+        340,
+        386
+      ],
+      "others": [
+        342
+      ],
+      "have": [
+        343
+      ],
+      "simple,": [
+        344
+      ],
+      "monochrome": [
+        345
+      ],
+      "headstones": [
+        346
+      ],
+      "bare": [
+        348
+      ],
+      "biographical": [
+        349
+      ],
+      "details": [
+        350
+      ],
+      "noted": [
+        351
+      ],
+      "(Figure": [
+        354,
+        378
+      ],
+      "1).The": [
+        355
+      ],
+      "side": [
+        356
+      ],
+      "cemetery": [
+        359
+      ],
+      "hosting": [
+        360
+      ],
+      "has": [
+        362
+      ],
+      "larger": [
+        363
+      ],
+      "ornate": [
+        366
+      ],
+      "markers,": [
+        367
+      ],
+      "inscribed": [
+        369
+      ],
+      "Bible": [
+        371
+      ],
+      "verses": [
+        372
+      ],
+      "written": [
+        373
+      ],
+      "Otjiherero": [
+        376
+      ],
+      "language": [
+        377
+      ],
+      "2).The": [
+        379
+      ],
+      "Rheinische": [
+        380
+      ],
+      "Missionskirche": [
+        381
+      ],
+      "anchors": [
+        382
+      ],
+      "unified": [
+        384
+      ],
+      "site,": [
+        385
+      ],
+      "fort": [
+        390
+      ],
+      "sits": [
+        391
+      ],
+      "around": [
+        392
+      ],
+      "corner.*Thanks": [
+        394
+      ],
+      "Carlyn": [
+        396
+      ],
+      "Kirk,": [
+        397
+      ],
+      "Barbora": [
+        398
+      ],
+      "Hol\u00e1,": [
+        399
+      ],
+      "Jeremy": [
+        400
+      ],
+      "Thompson,": [
+        401
+      ],
+      "Annelies": [
+        403
+      ],
+      "Vredeveldt": [
+        404
+      ],
+      "insights": [
+        407
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-26T08:19:03.415552",
+    "created_date": "2026-07-16T00:00:00"
   }
 ]

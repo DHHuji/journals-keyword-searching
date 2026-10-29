@@ -714,19 +714,22 @@
     "doi": "https://doi.org/10.1093/ojls/gqag015",
     "title": "Of Dark Arts and Dictators\u2014Why the Russian Constitution Matters: The Constitutional Dark Arts by William Partlett",
     "display_name": "Of Dark Arts and Dictators\u2014Why the Russian Constitution Matters: The Constitutional Dark Arts by William Partlett",
-    "relevance_score": 9.929903,
+    "relevance_score": 25.398989,
     "publication_year": 2026,
-    "publication_date": "2026-04-15",
+    "publication_date": "2026-01-01",
     "ids": {
       "openalex": "https://openalex.org/W7160422854",
-      "doi": "https://doi.org/10.1093/ojls/gqag015"
+      "doi": "https://doi.org/10.1093/ojls/gqag015",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42718494",
+      "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/13553199"
     },
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/ojls/gqag015",
+      "doi": "https://doi.org/10.1093/ojls/gqag015",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/ojls/gqag015",
-      "pdf_url": null,
+      "pdf_url": "https://academic.oup.com/ojls/article-pdf/46/3/685/68224577/gqag015.pdf",
       "source": {
         "id": "https://openalex.org/S34110867",
         "display_name": "Oxford Journal of Legal Studies",
@@ -738,6 +741,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -758,15 +770,17 @@
       "raw_source_name": "Oxford Journal of Legal Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
-      "crossref"
+      "crossref",
+      "pubmed"
     ],
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1093/ojls/gqag015",
-      "any_repository_has_fulltext": false
+      "oa_url": "https://academic.oup.com/ojls/article-pdf/46/3/685/68224577/gqag015.pdf",
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -774,59 +788,86 @@
         "author": {
           "id": "https://openalex.org/A5075162893",
           "display_name": "Alasdair McCallum",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0008-2859-9541",
+          "observed_orcids": [
+            "https://orcid.org/0009-0008-2859-9541"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I56590836",
+            "display_name": "Monash University",
+            "ror": "https://ror.org/02bfwt286",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I56590836"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Alasdair McCallum",
-        "raw_affiliation_strings": [],
+        "raw_affiliation_strings": [
+          "Monash University , Australia"
+        ],
         "raw_orcid": "https://orcid.org/0009-0008-2859-9541",
-        "affiliations": []
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Monash University , Australia",
+            "institution_ids": [
+              "https://openalex.org/I56590836"
+            ]
+          }
+        ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5075162893"
     ],
-    "corresponding_institution_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I56590836"
+    ],
     "apc_list": {
-      "value": 2768,
+      "value": 3023,
       "currency": "GBP",
-      "value_usd": 3395
+      "value_usd": 3987
     },
     "apc_paid": {
-      "value": 2768,
+      "value": 3023,
       "currency": "GBP",
-      "value_usd": 3395
+      "value_usd": 3987
     },
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.84542083,
+      "value": 0.26878132,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "46",
+      "issue": "3",
+      "first_page": "685",
+      "last_page": "705"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10802",
-      "display_name": "Judicial and Constitutional Studies",
-      "score": 0.12880000472068787,
+      "id": "https://openalex.org/T12332",
+      "display_name": "Comparative constitutional jurisprudence studies",
+      "score": 0.6786999702453613,
       "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -839,9 +880,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T12332",
+        "display_name": "Comparative constitutional jurisprudence studies",
+        "score": 0.6786999702453613,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T10802",
         "display_name": "Judicial and Constitutional Studies",
-        "score": 0.12880000472068787,
+        "score": 0.10429999977350235,
         "subfield": {
           "id": "https://openalex.org/subfields/3308",
           "display_name": "Law"
@@ -858,7 +916,7 @@
       {
         "id": "https://openalex.org/T14258",
         "display_name": "Legal and Policy Issues",
-        "score": 0.052000001072883606,
+        "score": 0.10289999842643738,
         "subfield": {
           "id": "https://openalex.org/subfields/3308",
           "display_name": "Law"
@@ -871,55 +929,33 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
-      },
-      {
-        "id": "https://openalex.org/T13680",
-        "display_name": "Education, Psychology, and Complexity Research",
-        "score": 0.026799999177455902,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2613",
-          "display_name": "Statistics and Probability"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/26",
-          "display_name": "Mathematics"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/constitution",
-        "display_name": "Constitution",
-        "score": 0.8998000025749207
+        "id": "https://openalex.org/keywords/constitution-of-the-russian-federation",
+        "display_name": "Russian Constitution",
+        "score": 0.8059999942779541
       },
       {
-        "id": "https://openalex.org/keywords/authoritarianism",
-        "display_name": "Authoritarianism",
-        "score": 0.7160999774932861
+        "id": "https://openalex.org/keywords/presidentialism",
+        "display_name": "presidentialism",
+        "score": 0.6809999942779541
       },
       {
-        "id": "https://openalex.org/keywords/democracy",
-        "display_name": "Democracy",
-        "score": 0.7005000114440918
+        "id": "https://openalex.org/keywords/democratic-backsliding",
+        "display_name": "democratic backsliding",
+        "score": 0.8650000095367432
       },
       {
-        "id": "https://openalex.org/keywords/the-arts",
-        "display_name": "The arts",
-        "score": 0.644599974155426
+        "id": "https://openalex.org/keywords/comparative-constitutionalism",
+        "display_name": "comparative constitutionalism",
+        "score": 0.7639999985694885
       },
       {
-        "id": "https://openalex.org/keywords/human-rights",
-        "display_name": "Human rights",
-        "score": 0.4961000084877014
-      },
-      {
-        "id": "https://openalex.org/keywords/great-rift",
-        "display_name": "Great Rift",
-        "score": 0.40529999136924744
+        "id": "https://openalex.org/keywords/post-soviet-constitutionalism",
+        "display_name": "post-Soviet constitutionalism",
+        "score": 0.734000027179718
       }
     ],
     "concepts": [
@@ -1023,13 +1059,14 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1093/ojls/gqag015",
+        "doi": "https://doi.org/10.1093/ojls/gqag015",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/ojls/gqag015",
-        "pdf_url": null,
+        "pdf_url": "https://academic.oup.com/ojls/article-pdf/46/3/685/68224577/gqag015.pdf",
         "source": {
           "id": "https://openalex.org/S34110867",
           "display_name": "Oxford Journal of Legal Studies",
@@ -1041,6 +1078,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -1060,13 +1106,76 @@
         "is_published": true,
         "raw_source_name": "Oxford Journal of Legal Studies",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:42718494",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/42718494",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Oxford journal of legal studies",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:13553199",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13553199/",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13553199/pdf/gqag015.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Oxf J Leg Stud",
+        "raw_type": "Text"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1093/ojls/gqag015",
+      "doi": "https://doi.org/10.1093/ojls/gqag015",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/ojls/gqag015",
-      "pdf_url": null,
+      "pdf_url": "https://academic.oup.com/ojls/article-pdf/46/3/685/68224577/gqag015.pdf",
       "source": {
         "id": "https://openalex.org/S34110867",
         "display_name": "Oxford Journal of Legal Studies",
@@ -1078,6 +1187,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -1100,21 +1218,43 @@
     },
     "sustainable_development_goals": [
       {
-        "display_name": "Peace, Justice and strong institutions",
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
         "id": "https://metadata.un.org/sdg/16",
         "score": 0.7268127799034119
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "pdf": true,
+      "grobid_xml": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7160422854.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7160422854.grobid-xml"
+    },
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W4401948986",
+      "https://openalex.org/W4417089043",
+      "https://openalex.org/W7202245837",
+      "https://openalex.org/W4403736307",
+      "https://openalex.org/W4387506102",
+      "https://openalex.org/W2187999722",
+      "https://openalex.org/W3081069383",
+      "https://openalex.org/W1512989378",
+      "https://openalex.org/W3015278051",
+      "https://openalex.org/W4397003650"
+    ],
     "abstract_inverted_index": {
       "Abstract": [
         0
@@ -1469,7 +1609,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2026-05-07T00:00:00"
   }
 ]

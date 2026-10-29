@@ -12828,7 +12828,7 @@
     "doi": "https://doi.org/10.1080/15325024.2025.2499875",
     "title": "Lessons from Research to Normalize Perinatal Bereavement Photography",
     "display_name": "Lessons from Research to Normalize Perinatal Bereavement Photography",
-    "relevance_score": 0.53135115,
+    "relevance_score": 1.3876256,
     "publication_year": 2025,
     "publication_date": "2025-05-15",
     "ids": {
@@ -12838,9 +12838,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/15325024.2025.2499875",
-      "is_oa": false,
+      "doi": "https://doi.org/10.1080/15325024.2025.2499875",
+      "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/15325024.2025.2499875",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/15325024.2025.2499875?needAccess=true",
       "source": {
         "id": "https://openalex.org/S5866276",
         "display_name": "Journal of Loss and Trauma",
@@ -12852,32 +12853,43 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Journal of Loss and Trauma",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
       "is_oa": true,
-      "oa_status": "green",
-      "oa_url": "https://researchoutput.csu.edu.au/en/publications/e1beb38e-a046-49fe-875b-f05b44fa15cd",
+      "oa_status": "hybrid",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/15325024.2025.2499875?needAccess=true",
       "any_repository_has_fulltext": true
     },
     "authorships": [
@@ -12886,7 +12898,10 @@
         "author": {
           "id": "https://openalex.org/A5080284184",
           "display_name": "Kitty Vivekananda",
-          "orcid": "https://orcid.org/0000-0002-4936-0993"
+          "orcid": "https://orcid.org/0000-0002-4936-0993",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4936-0993"
+          ]
         },
         "institutions": [
           {
@@ -12923,7 +12938,8 @@
         "author": {
           "id": "https://openalex.org/A5092776797",
           "display_name": "Kayleigh Knipe",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -12960,7 +12976,10 @@
         "author": {
           "id": "https://openalex.org/A5090785998",
           "display_name": "Gerald Wurf",
-          "orcid": "https://orcid.org/0000-0003-1459-6223"
+          "orcid": "https://orcid.org/0000-0003-1459-6223",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1459-6223"
+          ]
         },
         "institutions": [
           {
@@ -12995,7 +13014,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 3,
+    "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5080284184"
     ],
@@ -13005,10 +13024,10 @@
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.14123518,
+      "value": 0.10953896,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -13025,7 +13044,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11388",
       "display_name": "Grief, Bereavement, and Mental Health",
-      "score": 1.0,
+      "score": 0.9868000149726868,
       "subfield": {
         "id": "https://openalex.org/subfields/3203",
         "display_name": "Clinical Psychology"
@@ -13043,7 +13062,7 @@
       {
         "id": "https://openalex.org/T11388",
         "display_name": "Grief, Bereavement, and Mental Health",
-        "score": 1.0,
+        "score": 0.9868000149726868,
         "subfield": {
           "id": "https://openalex.org/subfields/3203",
           "display_name": "Clinical Psychology"
@@ -13058,12 +13077,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T10453",
-        "display_name": "Maternal and Perinatal Health Interventions",
-        "score": 0.9897000193595886,
+        "id": "https://openalex.org/T14208",
+        "display_name": "Death, Funerary Practices, and Mourning",
+        "score": 0.003599999938160181,
         "subfield": {
-          "id": "https://openalex.org/subfields/2729",
-          "display_name": "Obstetrics and Gynecology"
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13953",
+        "display_name": "Digital Imaging in Medicine",
+        "score": 0.003000000026077032,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
         },
         "field": {
           "id": "https://openalex.org/fields/27",
@@ -13073,55 +13109,38 @@
           "id": "https://openalex.org/domains/4",
           "display_name": "Health Sciences"
         }
-      },
-      {
-        "id": "https://openalex.org/T10762",
-        "display_name": "Migration, Health and Trauma",
-        "score": 0.9894999861717224,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3203",
-          "display_name": "Clinical Psychology"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/photography",
-        "display_name": "Photography",
-        "score": 0.7492925524711609
+        "id": "https://openalex.org/keywords/perinatal-loss",
+        "display_name": "perinatal loss",
+        "score": 0.9769999980926514
       },
       {
         "id": "https://openalex.org/keywords/grief",
-        "display_name": "Grief",
-        "score": 0.4126780927181244
+        "display_name": "grief",
+        "score": 0.5249999761581421
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.39861994981765747
+        "id": "https://openalex.org/keywords/parental-perceptions",
+        "display_name": "parental attitudes",
+        "score": 0.8700000047683716
       },
       {
-        "id": "https://openalex.org/keywords/visual-arts",
-        "display_name": "Visual arts",
-        "score": 0.3070221543312073
+        "id": "https://openalex.org/keywords/informed-consent",
+        "display_name": "informed consent",
+        "score": 0.5830000042915344
       },
       {
-        "id": "https://openalex.org/keywords/psychotherapist",
-        "display_name": "Psychotherapist",
-        "score": 0.2618780732154846
+        "id": "https://openalex.org/keywords/healthcare-workers",
+        "display_name": "healthcare workers",
+        "score": 0.5139999985694885
       },
       {
-        "id": "https://openalex.org/keywords/art",
-        "display_name": "Art",
-        "score": 0.22565418481826782
+        "id": "https://openalex.org/keywords/death-literacy",
+        "display_name": "death literacy",
+        "score": 0.8159999847412109
       }
     ],
     "concepts": [
@@ -13169,13 +13188,14 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1080/15325024.2025.2499875",
-        "is_oa": false,
+        "doi": "https://doi.org/10.1080/15325024.2025.2499875",
+        "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/15325024.2025.2499875",
-        "pdf_url": null,
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/15325024.2025.2499875?needAccess=true",
         "source": {
           "id": "https://openalex.org/S5866276",
           "display_name": "Journal of Loss and Trauma",
@@ -13187,18 +13207,28 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -13206,7 +13236,39 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:monash.edu:openaire/18dd1e51-c2ed-4c14-9dd3-ec2b47bd1186",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://research.monash.edu/en/publications/18dd1e51-c2ed-4c14-9dd3-ec2b47bd1186",
+        "pdf_url": "https://researchmgt.monash.edu/ws/files/791335006/694671848-oa.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402625",
+          "display_name": "Monash University Research Portal (Monash University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I56590836",
+          "host_organization_name": "Monash University",
+          "host_organization_lineage": [
+            "https://openalex.org/I56590836"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Vivekananda, K, Knipe, K & Wurf, G 2026, 'Lessons from research to normalize perinatal bereavement photography', Journal of Loss and Trauma, vol. 31, no. 1, pp. 48-67. https://doi.org/10.1080/15325024.2025.2499875",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
         "id": "pmh:oai:pure.atira.dk:publications/e1beb38e-a046-49fe-875b-f05b44fa15cd",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://researchoutput.csu.edu.au/en/publications/e1beb38e-a046-49fe-875b-f05b44fa15cd",
         "pdf_url": null,
@@ -13218,6 +13280,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -13230,50 +13293,84 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": "Vivekananda, K, Knipe, K & Wurf, G 2026, 'Lessons from research to normalize perinatal bereavement photography', Journal of Loss and Trauma, vol. 31, no. 1, pp. 48-67. https://doi.org/10.1080/15325024.2025.2499875",
-        "raw_type": "info:eu-repo/semantics/publishedVersion"
+        "raw_type": "info:eu-repo/semantics/article"
       }
     ],
     "best_oa_location": {
-      "id": "pmh:oai:pure.atira.dk:publications/e1beb38e-a046-49fe-875b-f05b44fa15cd",
+      "id": "doi:10.1080/15325024.2025.2499875",
+      "doi": "https://doi.org/10.1080/15325024.2025.2499875",
       "is_oa": true,
-      "landing_page_url": "https://researchoutput.csu.edu.au/en/publications/e1beb38e-a046-49fe-875b-f05b44fa15cd",
-      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1080/15325024.2025.2499875",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/15325024.2025.2499875?needAccess=true",
       "source": {
-        "id": "https://openalex.org/S7407055442",
-        "display_name": "Charles Sturt University Research Output (CRO)",
-        "issn_l": null,
-        "issn": null,
+        "id": "https://openalex.org/S5866276",
+        "display_name": "Journal of Loss and Trauma",
+        "issn_l": "1532-5024",
+        "issn": [
+          "1532-5024",
+          "1532-5032"
+        ],
         "is_oa": false,
         "is_in_doaj": false,
-        "is_core": false,
-        "host_organization": null,
-        "host_organization_name": null,
-        "host_organization_lineage": [],
-        "host_organization_lineage_names": [],
-        "type": "repository"
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
       },
       "license": "cc-by-nc-nd",
       "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
-      "version": "submittedVersion",
-      "is_accepted": false,
-      "is_published": false,
-      "raw_source_name": "Vivekananda, K, Knipe, K & Wurf, G 2026, 'Lessons from research to normalize perinatal bereavement photography', Journal of Loss and Trauma, vol. 31, no. 1, pp. 48-67. https://doi.org/10.1080/15325024.2025.2499875",
-      "raw_type": "info:eu-repo/semantics/publishedVersion"
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Loss and Trauma",
+      "raw_type": "journal-article"
     },
     "sustainable_development_goals": [
       {
+        "score": 0.7246000170707703,
+        "display_name": "Good health and well-being",
+        "id": "https://metadata.un.org/sdg/3"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.5199999809265137,
         "display_name": "Gender equality",
-        "id": "https://metadata.un.org/sdg/5",
-        "score": 0.5199999809265137
+        "id": "https://metadata.un.org/sdg/5"
+      }
+    ],
+    "study_designs": [
+      {
+        "display_name": "Observational Study",
+        "id": "https://openalex.org/study-designs/observational-study"
       }
     ],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": true,
+      "pdf": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4410401445.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4410401445.grobid-xml"
+    },
     "referenced_works_count": 40,
     "referenced_works": [
       "https://openalex.org/W2001647759",
@@ -13899,7 +13996,3649 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-01-03T23:08:47.215875",
+    "updated_date": "2026-09-26T08:19:03.415552",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7213264059",
+    "doi": "https://doi.org/10.1080/15325024.2026.2729048",
+    "title": "Witnessing My Son\u2019s Near-Death Event with a Great White Shark: An Autoethnography",
+    "display_name": "Witnessing My Son\u2019s Near-Death Event with a Great White Shark: An Autoethnography",
+    "relevance_score": 1.3849998,
+    "publication_year": 2026,
+    "publication_date": "2026-09-15",
+    "ids": {
+      "openalex": "https://openalex.org/W7213264059",
+      "doi": "https://doi.org/10.1080/15325024.2026.2729048"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/15325024.2026.2729048",
+      "doi": "https://doi.org/10.1080/15325024.2026.2729048",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/15325024.2026.2729048",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/15325024.2026.2729048?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S5866276",
+        "display_name": "Journal of Loss and Trauma",
+        "issn_l": "1532-5024",
+        "issn": [
+          "1532-5024",
+          "1532-5032"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Loss and Trauma",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/15325024.2026.2729048?needAccess=true",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5044905874",
+          "display_name": "Murray Drummond",
+          "orcid": "https://orcid.org/0000-0002-2321-6803",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2321-6803"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I169541294",
+            "display_name": "Flinders University",
+            "ror": "https://ror.org/01kpzv902",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I169541294"
+            ]
+          }
+        ],
+        "countries": [
+          "AU"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Murray Drummond",
+        "raw_affiliation_strings": [
+          "College of Human Sciences and Culture, Flinders University"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-2321-6803",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "College of Human Sciences and Culture, Flinders University",
+            "institution_ids": [
+              "https://openalex.org/I169541294"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5044905874"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I169541294"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.70254272,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "18"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12448",
+      "display_name": "Paranormal Experiences and Beliefs",
+      "score": 0.8633000254631042,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12448",
+        "display_name": "Paranormal Experiences and Beliefs",
+        "score": 0.8633000254631042,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11388",
+        "display_name": "Grief, Bereavement, and Mental Health",
+        "score": 0.06700000166893005,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3203",
+          "display_name": "Clinical Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12882",
+        "display_name": "Jungian Analytical Psychology",
+        "score": 0.005200000014156103,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/near-death-experiences",
+        "display_name": "near-death experiences",
+        "score": 0.8240000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/white-shark",
+        "display_name": "Carcharodon carcharias",
+        "score": 0.8429999947547913
+      },
+      {
+        "id": "https://openalex.org/keywords/witnessing",
+        "display_name": "witnessing",
+        "score": 0.4169999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/father-son-relationship",
+        "display_name": "father-son relationship",
+        "score": 0.7099999785423279
+      },
+      {
+        "id": "https://openalex.org/keywords/trauma",
+        "display_name": "trauma",
+        "score": 0.39500001072883606
+      },
+      {
+        "id": "https://openalex.org/keywords/loss",
+        "display_name": "loss",
+        "score": 0.5410000085830688
+      },
+      {
+        "id": "https://openalex.org/keywords/autoethnography",
+        "display_name": "autoethnography",
+        "score": 0.6230000257492065
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2776225092",
+        "wikidata": "https://www.wikidata.org/wiki/Q4826265",
+        "display_name": "Autoethnography",
+        "level": 2,
+        "score": 0.7196000218391418
+      },
+      {
+        "id": "https://openalex.org/C2779662365",
+        "wikidata": "https://www.wikidata.org/wiki/Q5416694",
+        "display_name": "Event (particle physics)",
+        "level": 2,
+        "score": 0.6140999794006348
+      },
+      {
+        "id": "https://openalex.org/C56273599",
+        "wikidata": "https://www.wikidata.org/wiki/Q3122841",
+        "display_name": "White (mutation)",
+        "level": 3,
+        "score": 0.5148000121116638
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.5072000026702881
+      },
+      {
+        "id": "https://openalex.org/C199033989",
+        "wikidata": "https://www.wikidata.org/wiki/Q1318295",
+        "display_name": "Narrative",
+        "level": 2,
+        "score": 0.314300000667572
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.30970001220703125
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.3068999946117401
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.29670000076293945
+      },
+      {
+        "id": "https://openalex.org/C2778432050",
+        "wikidata": "https://www.wikidata.org/wiki/Q1790733",
+        "display_name": "Cripple",
+        "level": 2,
+        "score": 0.2858000099658966
+      },
+      {
+        "id": "https://openalex.org/C179454799",
+        "wikidata": "https://www.wikidata.org/wiki/Q132151",
+        "display_name": "Ethnography",
+        "level": 2,
+        "score": 0.2847000062465668
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.2833000123500824
+      },
+      {
+        "id": "https://openalex.org/C12713177",
+        "wikidata": "https://www.wikidata.org/wiki/Q1900281",
+        "display_name": "Perspective (graphical)",
+        "level": 2,
+        "score": 0.2648000121116638
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/15325024.2026.2729048",
+        "doi": "https://doi.org/10.1080/15325024.2026.2729048",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1080/15325024.2026.2729048",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/15325024.2026.2729048?needAccess=true",
+        "source": {
+          "id": "https://openalex.org/S5866276",
+          "display_name": "Journal of Loss and Trauma",
+          "issn_l": "1532-5024",
+          "issn": [
+            "1532-5024",
+            "1532-5032"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Loss and Trauma",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1080/15325024.2026.2729048",
+      "doi": "https://doi.org/10.1080/15325024.2026.2729048",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/15325024.2026.2729048",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/15325024.2026.2729048?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S5866276",
+        "display_name": "Journal of Loss and Trauma",
+        "issn_l": "1532-5024",
+        "issn": [
+          "1532-5024",
+          "1532-5032"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Loss and Trauma",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7213264059.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7213264059.grobid-xml"
+    },
+    "referenced_works_count": 27,
+    "referenced_works": [
+      "https://openalex.org/W85948723",
+      "https://openalex.org/W109695814",
+      "https://openalex.org/W346968880",
+      "https://openalex.org/W1594630019",
+      "https://openalex.org/W1968173895",
+      "https://openalex.org/W1995051506",
+      "https://openalex.org/W2044351994",
+      "https://openalex.org/W2077527610",
+      "https://openalex.org/W2083920194",
+      "https://openalex.org/W2124753008",
+      "https://openalex.org/W2132613605",
+      "https://openalex.org/W2139291088",
+      "https://openalex.org/W2166025087",
+      "https://openalex.org/W2605888835",
+      "https://openalex.org/W2785710423",
+      "https://openalex.org/W2790092585",
+      "https://openalex.org/W2965793291",
+      "https://openalex.org/W3205607332",
+      "https://openalex.org/W4238318591",
+      "https://openalex.org/W4250305994",
+      "https://openalex.org/W4251037585",
+      "https://openalex.org/W4390582795",
+      "https://openalex.org/W4395012159",
+      "https://openalex.org/W4399914209",
+      "https://openalex.org/W4405415953",
+      "https://openalex.org/W4411193784",
+      "https://openalex.org/W4412546554"
+    ],
+    "related_works": [
+      "https://openalex.org/W7162026609",
+      "https://openalex.org/W2268276839",
+      "https://openalex.org/W3041531903",
+      "https://openalex.org/W4403909985",
+      "https://openalex.org/W3030932677",
+      "https://openalex.org/W7026487560",
+      "https://openalex.org/W1561713219",
+      "https://openalex.org/W6983501289",
+      "https://openalex.org/W3201759982",
+      "https://openalex.org/W2128388673"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0,
+        229
+      ],
+      "paper": [
+        1,
+        82,
+        138,
+        204,
+        230
+      ],
+      "uses": [
+        2
+      ],
+      "evocative": [
+        3
+      ],
+      "autoethnography,": [
+        4
+      ],
+      "grounded": [
+        5
+      ],
+      "in": [
+        6,
+        53,
+        155,
+        192,
+        212
+      ],
+      "a": [
+        7,
+        23,
+        67,
+        93,
+        134,
+        158,
+        167
+      ],
+      "phenomenological": [
+        8,
+        135
+      ],
+      "framework,": [
+        9
+      ],
+      "to": [
+        10,
+        48,
+        66,
+        69,
+        110,
+        148,
+        175
+      ],
+      "examine": [
+        11
+      ],
+      "the": [
+        12,
+        33,
+        42,
+        51,
+        54,
+        60,
+        70,
+        88,
+        111,
+        137,
+        176,
+        207,
+        218
+      ],
+      "lived": [
+        13
+      ],
+      "experience": [
+        14
+      ],
+      "of": [
+        15,
+        35,
+        90,
+        113,
+        130,
+        187,
+        209,
+        236
+      ],
+      "witnessing": [
+        16
+      ],
+      "my": [
+        17,
+        169,
+        179,
+        185
+      ],
+      "son\u2019s": [
+        18,
+        180
+      ],
+      "traumatic": [
+        19,
+        103,
+        121
+      ],
+      "near\u2011death": [
+        20,
+        104,
+        150
+      ],
+      "encounter": [
+        21
+      ],
+      "with": [
+        22,
+        84
+      ],
+      "great": [
+        24
+      ],
+      "white": [
+        25
+      ],
+      "shark": [
+        26
+      ],
+      "during": [
+        27
+      ],
+      "an": [
+        28
+      ],
+      "ocean": [
+        29
+      ],
+      "paddling": [
+        30
+      ],
+      "event": [
+        31,
+        52,
+        182
+      ],
+      "off": [
+        32
+      ],
+      "coast": [
+        34
+      ],
+      "Adelaide,": [
+        36
+      ],
+      "South": [
+        37
+      ],
+      "Australia.": [
+        38
+      ],
+      "The": [
+        39,
+        81,
+        203
+      ],
+      "narrative": [
+        40,
+        234
+      ],
+      "traces": [
+        41
+      ],
+      "trajectory": [
+        43
+      ],
+      "from": [
+        44
+      ],
+      "early,": [
+        45
+      ],
+      "unsuccessful": [
+        46
+      ],
+      "attempts": [
+        47
+      ],
+      "write": [
+        49
+      ],
+      "about": [
+        50
+      ],
+      "months": [
+        55
+      ],
+      "immediately": [
+        56
+      ],
+      "following": [
+        57
+      ],
+      "it,": [
+        58
+      ],
+      "when": [
+        59
+      ],
+      "emotional": [
+        61
+      ],
+      "intensity": [
+        62
+      ],
+      "remained": [
+        63
+      ],
+      "too": [
+        64
+      ],
+      "raw,": [
+        65
+      ],
+      "return": [
+        68
+      ],
+      "story": [
+        71
+      ],
+      "three": [
+        72
+      ],
+      "years": [
+        73
+      ],
+      "later,": [
+        74
+      ],
+      "allowing": [
+        75
+      ],
+      "for": [
+        76,
+        96,
+        221
+      ],
+      "time": [
+        77
+      ],
+      "and": [
+        78,
+        127,
+        152,
+        190,
+        225,
+        240
+      ],
+      "deeper": [
+        79
+      ],
+      "reflection.": [
+        80
+      ],
+      "engages": [
+        83
+      ],
+      "ongoing": [
+        85
+      ],
+      "debates": [
+        86
+      ],
+      "surrounding": [
+        87
+      ],
+      "significance": [
+        89,
+        112
+      ],
+      "autoethnography": [
+        91
+      ],
+      "as": [
+        92,
+        102,
+        171
+      ],
+      "methodological": [
+        94
+      ],
+      "approach": [
+        95
+      ],
+      "examining": [
+        97
+      ],
+      "major": [
+        98
+      ],
+      "life": [
+        99
+      ],
+      "events,": [
+        100,
+        216
+      ],
+      "such": [
+        101
+      ],
+      "experiences.": [
+        105,
+        132
+      ],
+      "Particular": [
+        106
+      ],
+      "attention": [
+        107
+      ],
+      "is": [
+        108,
+        145,
+        173
+      ],
+      "given": [
+        109
+      ],
+      "witness": [
+        114,
+        172
+      ],
+      "accounts,": [
+        115
+      ],
+      "arguing": [
+        116
+      ],
+      "that": [
+        117
+      ],
+      "those": [
+        118,
+        222,
+        226
+      ],
+      "who": [
+        119,
+        144,
+        227
+      ],
+      "observe": [
+        120
+      ],
+      "events": [
+        122
+      ],
+      "present": [
+        123
+      ],
+      "their": [
+        124
+      ],
+      "own": [
+        125,
+        201
+      ],
+      "embodied": [
+        126
+      ],
+      "unique": [
+        128
+      ],
+      "set": [
+        129
+      ],
+      "meaningful": [
+        131
+      ],
+      "From": [
+        133
+      ],
+      "perspective,": [
+        136
+      ],
+      "interrogates": [
+        139
+      ],
+      "how": [
+        140
+      ],
+      "meanings": [
+        141
+      ],
+      "are": [
+        142,
+        160
+      ],
+      "constructed,": [
+        143
+      ],
+      "afforded": [
+        146
+      ],
+      "authority": [
+        147
+      ],
+      "define": [
+        149
+      ],
+      "experiences,": [
+        151
+      ],
+      "where": [
+        153
+      ],
+      "witnesses,": [
+        154
+      ],
+      "this": [
+        156
+      ],
+      "instance": [
+        157
+      ],
+      "father,": [
+        159,
+        168
+      ],
+      "positioned": [
+        161
+      ],
+      "within": [
+        162
+      ],
+      "these": [
+        163
+      ],
+      "interpretive": [
+        164
+      ],
+      "frameworks.": [
+        165
+      ],
+      "As": [
+        166
+      ],
+      "role": [
+        170,
+        208
+      ],
+      "central": [
+        174
+      ],
+      "analysis.": [
+        177
+      ],
+      "Watching": [
+        178
+      ],
+      "near-death": [
+        181,
+        215
+      ],
+      "has": [
+        183
+      ],
+      "reshaped": [
+        184
+      ],
+      "sense": [
+        186
+      ],
+      "responsibility,": [
+        188
+      ],
+      "identity,": [
+        189,
+        239
+      ],
+      "care": [
+        191
+      ],
+      "ways": [
+        193
+      ],
+      "distinct": [
+        194
+      ],
+      "from,": [
+        195
+      ],
+      "yet": [
+        196
+      ],
+      "deeply": [
+        197
+      ],
+      "connected": [
+        198
+      ],
+      "to,": [
+        199
+      ],
+      "his": [
+        200
+      ],
+      "experience.": [
+        202
+      ],
+      "also": [
+        205
+      ],
+      "considers": [
+        206
+      ],
+      "contemporary": [
+        210
+      ],
+      "culture": [
+        211
+      ],
+      "sensationalizing": [
+        213
+      ],
+      "particular": [
+        214
+      ],
+      "intensifying": [
+        217
+      ],
+      "psychological": [
+        219
+      ],
+      "burden": [
+        220
+      ],
+      "directly": [
+        223
+      ],
+      "involved": [
+        224
+      ],
+      "witness.": [
+        228
+      ],
+      "offers": [
+        231
+      ],
+      "insight": [
+        232
+      ],
+      "into": [
+        233
+      ],
+      "accounts": [
+        235
+      ],
+      "trauma,": [
+        237
+      ],
+      "witnessing,": [
+        238
+      ],
+      "fatherhood.": [
+        241
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2026-09-16T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7203492369",
+    "doi": "https://doi.org/10.1080/15325024.2026.2737419",
+    "title": "Rural Emerging Adults\u2019 Adjustment Experiences Post-Cumulative Extreme Weather Events",
+    "display_name": "Rural Emerging Adults\u2019 Adjustment Experiences Post-Cumulative Extreme Weather Events",
+    "relevance_score": 1.3191416,
+    "publication_year": 2026,
+    "publication_date": "2026-09-30",
+    "ids": {
+      "openalex": "https://openalex.org/W7203492369",
+      "doi": "https://doi.org/10.1080/15325024.2026.2737419"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/15325024.2026.2737419",
+      "doi": "https://doi.org/10.1080/15325024.2026.2737419",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/15325024.2026.2737419",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S5866276",
+        "display_name": "Journal of Loss and Trauma",
+        "issn_l": "1532-5024",
+        "issn": [
+          "1532-5024",
+          "1532-5032"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Loss and Trauma",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "datacite"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.17605/osf.io/6wn75",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5120408549",
+          "display_name": "Natasha Anne Searles",
+          "orcid": "https://orcid.org/0000-0002-8006-333X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8006-333X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I275799156",
+            "display_name": "University of New England",
+            "ror": "https://ror.org/02n2ava60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I275799156"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I90745801",
+            "display_name": "University of New England",
+            "ror": "https://ror.org/04r659a56",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I90745801"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Natasha A. Searles",
+        "raw_affiliation_strings": [
+          "Faculty of Medicine and Health, School of Psychology, University of New England"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-8006-333X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Medicine and Health, School of Psychology, University of New England",
+            "institution_ids": [
+              "https://openalex.org/I275799156",
+              "https://openalex.org/I90745801"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5028707954",
+          "display_name": "Amy Dianne Lykins",
+          "orcid": "https://orcid.org/0000-0003-2930-3964",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2930-3964"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I275799156",
+            "display_name": "University of New England",
+            "ror": "https://ror.org/02n2ava60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I275799156"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I90745801",
+            "display_name": "University of New England",
+            "ror": "https://ror.org/04r659a56",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I90745801"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Amy D. Lykins",
+        "raw_affiliation_strings": [
+          "Faculty of Medicine and Health, School of Psychology, University of New England"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2930-3964",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Medicine and Health, School of Psychology, University of New England",
+            "institution_ids": [
+              "https://openalex.org/I275799156",
+              "https://openalex.org/I90745801"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5039314452",
+          "display_name": "Cassandra Sundaraja",
+          "orcid": "https://orcid.org/0000-0003-1980-6867",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1980-6867"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I275799156",
+            "display_name": "University of New England",
+            "ror": "https://ror.org/02n2ava60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I275799156"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I90745801",
+            "display_name": "University of New England",
+            "ror": "https://ror.org/04r659a56",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I90745801"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Cassandra Sundaraja",
+        "raw_affiliation_strings": [
+          "Faculty of Medicine and Health, School of Psychology, University of New England"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-1980-6867",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Medicine and Health, School of Psychology, University of New England",
+            "institution_ids": [
+              "https://openalex.org/I275799156",
+              "https://openalex.org/I90745801"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5023483790",
+          "display_name": "Warren John Bartik",
+          "orcid": "https://orcid.org/0000-0001-8344-3306",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8344-3306"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I275799156",
+            "display_name": "University of New England",
+            "ror": "https://ror.org/02n2ava60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I275799156"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I90745801",
+            "display_name": "University of New England",
+            "ror": "https://ror.org/04r659a56",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I90745801"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Warren J. Bartik",
+        "raw_affiliation_strings": [
+          "Faculty of Medicine and Health, School of Psychology, University of New England"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-8344-3306",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Medicine and Health, School of Psychology, University of New England",
+            "institution_ids": [
+              "https://openalex.org/I275799156",
+              "https://openalex.org/I90745801"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5074718354",
+          "display_name": "Suzanne Cosh",
+          "orcid": "https://orcid.org/0000-0002-8003-3704",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8003-3704"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I275799156",
+            "display_name": "University of New England",
+            "ror": "https://ror.org/02n2ava60",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I275799156"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I90745801",
+            "display_name": "University of New England",
+            "ror": "https://ror.org/04r659a56",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I90745801"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Suzanne M. Cosh",
+        "raw_affiliation_strings": [
+          "Faculty of Medicine and Health, School of Psychology, University of New England"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-8003-3704",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Faculty of Medicine and Health, School of Psychology, University of New England",
+            "institution_ids": [
+              "https://openalex.org/I275799156",
+              "https://openalex.org/I90745801"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5074718354"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I275799156",
+      "https://openalex.org/I90745801"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.65745665,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "38"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10242",
+      "display_name": "Posttraumatic Stress Disorder Research",
+      "score": 0.638700008392334,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3203",
+        "display_name": "Clinical Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10242",
+        "display_name": "Posttraumatic Stress Disorder Research",
+        "score": 0.638700008392334,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3203",
+          "display_name": "Clinical Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11761",
+        "display_name": "Resilience and Mental Health",
+        "score": 0.15780000388622284,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3203",
+          "display_name": "Clinical Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10747",
+        "display_name": "Disaster Management and Resilience",
+        "score": 0.13349999487400055,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/adjustment",
+        "display_name": "adjustment",
+        "score": 0.3779999911785126
+      },
+      {
+        "id": "https://openalex.org/keywords/extreme-weather-events",
+        "display_name": "extreme weather events",
+        "score": 0.8140000104904175
+      },
+      {
+        "id": "https://openalex.org/keywords/cumulative-adversity",
+        "display_name": "cumulative adversity",
+        "score": 0.6439999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/rural-youth",
+        "display_name": "rural youth",
+        "score": 0.5170000195503235
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C205537798",
+        "wikidata": "https://www.wikidata.org/wiki/Q1277161",
+        "display_name": "Extreme weather",
+        "level": 3,
+        "score": 0.4726000130176544
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.42239999771118164
+      },
+      {
+        "id": "https://openalex.org/C133462117",
+        "wikidata": "https://www.wikidata.org/wiki/Q4929239",
+        "display_name": "Data collection",
+        "level": 2,
+        "score": 0.3125999867916107
+      },
+      {
+        "id": "https://openalex.org/C107826830",
+        "wikidata": "https://www.wikidata.org/wiki/Q929380",
+        "display_name": "Environmental resource management",
+        "level": 1,
+        "score": 0.29319998621940613
+      },
+      {
+        "id": "https://openalex.org/C153294291",
+        "wikidata": "https://www.wikidata.org/wiki/Q25261",
+        "display_name": "Meteorology",
+        "level": 1,
+        "score": 0.28999999165534973
+      },
+      {
+        "id": "https://openalex.org/C91375879",
+        "wikidata": "https://www.wikidata.org/wiki/Q15473274",
+        "display_name": "Environmental planning",
+        "level": 1,
+        "score": 0.27709999680519104
+      },
+      {
+        "id": "https://openalex.org/C18762648",
+        "wikidata": "https://www.wikidata.org/wiki/Q42213",
+        "display_name": "Work (physics)",
+        "level": 2,
+        "score": 0.26759999990463257
+      },
+      {
+        "id": "https://openalex.org/C132651083",
+        "wikidata": "https://www.wikidata.org/wiki/Q7942",
+        "display_name": "Climate change",
+        "level": 2,
+        "score": 0.26510000228881836
+      },
+      {
+        "id": "https://openalex.org/C108170787",
+        "wikidata": "https://www.wikidata.org/wiki/Q3951828",
+        "display_name": "Agency (philosophy)",
+        "level": 2,
+        "score": 0.26109999418258667
+      },
+      {
+        "id": "https://openalex.org/C2779662365",
+        "wikidata": "https://www.wikidata.org/wiki/Q5416694",
+        "display_name": "Event (particle physics)",
+        "level": 2,
+        "score": 0.2596000134944916
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.2563000023365021
+      }
+    ],
+    "mesh": [],
+    "locations_count": 5,
+    "locations": [
+      {
+        "id": "doi:10.1080/15325024.2026.2737419",
+        "doi": "https://doi.org/10.1080/15325024.2026.2737419",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/15325024.2026.2737419",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S5866276",
+          "display_name": "Journal of Loss and Trauma",
+          "issn_l": "1532-5024",
+          "issn": [
+            "1532-5024",
+            "1532-5032"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Loss and Trauma",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:doi:10.17605/osf.io/6wn75",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://osf.io/6wn75",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Dataset"
+      },
+      {
+        "id": "pmh:oai:rune.une.edu.au:1959.11/74956",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://hdl.handle.net/1959.11/74956",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407055448",
+          "display_name": "RUNE (Research UNE)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:share.osf.io:bd175df4-ce8f-4977-a8c8-7c7bdee21bb7",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://osf.io/6wn75",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401127",
+          "display_name": "OSF Preprints (OSF Preprints)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I2799848540",
+          "host_organization_name": "Center for Open Science",
+          "host_organization_lineage": [
+            "https://openalex.org/I2799848540"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Project"
+      },
+      {
+        "id": "doi:10.17605/osf.io/6wn75",
+        "doi": "https://doi.org/10.17605/osf.io/6wn75",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.17605/osf.io/6wn75",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407050956",
+          "display_name": "Open Science Framework",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I2799848540",
+          "host_organization_name": "Center for Open Science",
+          "host_organization_lineage": [
+            "https://openalex.org/I2799848540"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Dataset"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.17605/osf.io/6wn75",
+      "doi": "https://doi.org/10.17605/osf.io/6wn75",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.17605/osf.io/6wn75",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S7407050956",
+        "display_name": "Open Science Framework",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I2799848540",
+        "host_organization_name": "Center for Open Science",
+        "host_organization_lineage": [
+          "https://openalex.org/I2799848540"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "Dataset"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.5683000087738037,
+        "display_name": "Good health and well-being",
+        "id": "https://metadata.un.org/sdg/3"
+      },
+      {
+        "score": 0.4399999976158142,
+        "display_name": "Climate action",
+        "id": "https://metadata.un.org/sdg/13"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.8419750928878784,
+        "display_name": "Climate action",
+        "id": "https://metadata.un.org/sdg/13"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Emerging": [
+        0
+      ],
+      "adults": [
+        1,
+        56,
+        225
+      ],
+      "are": [
+        2,
+        49
+      ],
+      "at": [
+        3
+      ],
+      "a": [
+        4,
+        197
+      ],
+      "disproportionately": [
+        5
+      ],
+      "high": [
+        6
+      ],
+      "risk": [
+        7
+      ],
+      "of": [
+        8,
+        19,
+        53,
+        66,
+        148,
+        170,
+        182,
+        230,
+        238
+      ],
+      "mental": [
+        9
+      ],
+      "ill-health": [
+        10
+      ],
+      "following": [
+        11,
+        80
+      ],
+      "extreme": [
+        12,
+        82,
+        120,
+        231
+      ],
+      "weather": [
+        13,
+        83,
+        121,
+        232
+      ],
+      "events.": [
+        14,
+        233
+      ],
+      "However,": [
+        15
+      ],
+      "their": [
+        16,
+        28,
+        78
+      ],
+      "lived": [
+        17
+      ],
+      "experiences": [
+        18,
+        52,
+        118
+      ],
+      "cumulative": [
+        20,
+        81
+      ],
+      "exposure": [
+        21
+      ],
+      "to": [
+        22,
+        32,
+        42,
+        61,
+        109,
+        204
+      ],
+      "drought,": [
+        23
+      ],
+      "bushfires,": [
+        24,
+        67
+      ],
+      "and": [
+        25,
+        27,
+        34,
+        92,
+        103,
+        132,
+        172,
+        185,
+        193,
+        208
+      ],
+      "floods,": [
+        26
+      ],
+      "subsequent": [
+        29
+      ],
+      "psychological": [
+        30
+      ],
+      "adjustment": [
+        31,
+        51,
+        79
+      ],
+      "loss": [
+        33,
+        207
+      ],
+      "trauma,": [
+        35
+      ],
+      "remain": [
+        36
+      ],
+      "underinvestigated.": [
+        37
+      ],
+      "Two": [
+        38
+      ],
+      "research": [
+        39
+      ],
+      "questions": [
+        40
+      ],
+      "sought": [
+        41
+      ],
+      "address": [
+        43
+      ],
+      "this": [
+        44
+      ],
+      "knowledge": [
+        45
+      ],
+      "gap:": [
+        46
+      ],
+      "(1)": [
+        47
+      ],
+      "What": [
+        48,
+        72
+      ],
+      "the": [
+        50,
+        155,
+        179,
+        217,
+        228,
+        235
+      ],
+      "rural": [
+        54
+      ],
+      "emerging": [
+        55,
+        201,
+        224
+      ],
+      "who": [
+        57
+      ],
+      "have": [
+        58,
+        74,
+        196
+      ],
+      "been": [
+        59
+      ],
+      "exposed": [
+        60
+      ],
+      "multiple": [
+        62
+      ],
+      "or": [
+        63,
+        76
+      ],
+      "repeated": [
+        64,
+        117
+      ],
+      "events": [
+        65
+      ],
+      "droughts,": [
+        68
+      ],
+      "and/or": [
+        69
+      ],
+      "floods?": [
+        70
+      ],
+      "(2)": [
+        71
+      ],
+      "factors": [
+        73
+      ],
+      "influenced": [
+        75
+      ],
+      "facilitated": [
+        77
+      ],
+      "events?": [
+        84
+      ],
+      "We": [
+        85
+      ],
+      "conducted": [
+        86
+      ],
+      "semi-structured": [
+        87
+      ],
+      "interviews": [
+        88
+      ],
+      "between": [
+        89
+      ],
+      "June": [
+        90
+      ],
+      "2021": [
+        91
+      ],
+      "February": [
+        93
+      ],
+      "2023": [
+        94
+      ],
+      "with": [
+        95,
+        119,
+        227
+      ],
+      "36": [
+        96
+      ],
+      "young": [
+        97
+      ],
+      "Australians": [
+        98
+      ],
+      "(25": [
+        99
+      ],
+      "females,": [
+        100
+      ],
+      "10": [
+        101
+      ],
+      "males,": [
+        102
+      ],
+      "1": [
+        104
+      ],
+      "non-binary": [
+        105
+      ],
+      "person),": [
+        106
+      ],
+      "aged": [
+        107
+      ],
+      "16": [
+        108
+      ],
+      "25": [
+        110
+      ],
+      "(mean": [
+        111
+      ],
+      "=": [
+        112,
+        126,
+        130,
+        135
+      ],
+      "19.86": [
+        113
+      ],
+      "years).": [
+        114
+      ],
+      "Participants": [
+        115
+      ],
+      "reported": [
+        116
+      ],
+      "events,": [
+        122
+      ],
+      "including": [
+        123
+      ],
+      "droughts": [
+        124
+      ],
+      "(n": [
+        125,
+        129,
+        134
+      ],
+      "28),": [
+        127
+      ],
+      "bushfires": [
+        128
+      ],
+      "21),": [
+        131
+      ],
+      "floods": [
+        133
+      ],
+      "27).": [
+        136
+      ],
+      "Interviews": [
+        137
+      ],
+      "were": [
+        138,
+        164
+      ],
+      "analyzed": [
+        139
+      ],
+      "inductively": [
+        140
+      ],
+      "using": [
+        141
+      ],
+      "reflexive": [
+        142
+      ],
+      "thematic": [
+        143
+      ],
+      "analysis.": [
+        144
+      ],
+      "An": [
+        145
+      ],
+      "overarching": [
+        146
+      ],
+      "theme": [
+        147
+      ],
+      "collective": [
+        149
+      ],
+      "mirroring,": [
+        150
+      ],
+      "appraising": [
+        151
+      ],
+      "one\u2019s": [
+        152
+      ],
+      "distress": [
+        153
+      ],
+      "against": [
+        154
+      ],
+      "community\u2019s": [
+        156
+      ],
+      "response,": [
+        157
+      ],
+      "was": [
+        158
+      ],
+      "identified,": [
+        159
+      ],
+      "through": [
+        160
+      ],
+      "which": [
+        161
+      ],
+      "three": [
+        162
+      ],
+      "themes": [
+        163,
+        177
+      ],
+      "enacted:": [
+        165
+      ],
+      "reflective": [
+        166
+      ],
+      "benchmarking,": [
+        167
+      ],
+      "shifting": [
+        168
+      ],
+      "orientation": [
+        169
+      ],
+      "support,": [
+        171
+      ],
+      "communal": [
+        173
+      ],
+      "co-regulation.": [
+        174
+      ],
+      "Together,": [
+        175
+      ],
+      "these": [
+        176
+      ],
+      "encapsulate": [
+        178
+      ],
+      "social": [
+        180
+      ],
+      "aspects": [
+        181
+      ],
+      "post-event": [
+        183
+      ],
+      "recovery": [
+        184
+      ],
+      "resilience,": [
+        186
+      ],
+      "indicating": [
+        187
+      ],
+      "that": [
+        188
+      ],
+      "perceived": [
+        189
+      ],
+      "community": [
+        190
+      ],
+      "views,": [
+        191
+      ],
+      "attitudes,": [
+        192
+      ],
+      "relational": [
+        194
+      ],
+      "support": [
+        195,
+        248
+      ],
+      "profound": [
+        198
+      ],
+      "influence": [
+        199
+      ],
+      "on": [
+        200
+      ],
+      "adults\u2019": [
+        202
+      ],
+      "ability": [
+        203
+      ],
+      "adjust": [
+        205
+      ],
+      "after": [
+        206
+      ],
+      "trauma": [
+        209
+      ],
+      "from": [
+        210
+      ],
+      "environmental": [
+        211,
+        239
+      ],
+      "stressors.": [
+        212
+      ],
+      "The": [
+        213
+      ],
+      "findings": [
+        214
+      ],
+      "also": [
+        215
+      ],
+      "highlight": [
+        216
+      ],
+      "role": [
+        218
+      ],
+      "communities": [
+        219
+      ],
+      "can": [
+        220
+      ],
+      "play": [
+        221
+      ],
+      "in": [
+        222
+      ],
+      "helping": [
+        223
+      ],
+      "cope": [
+        226
+      ],
+      "impacts": [
+        229
+      ],
+      "Notably,": [
+        234
+      ],
+      "psychosocial": [
+        236
+      ],
+      "effects": [
+        237
+      ],
+      "stressors": [
+        240
+      ],
+      "warrant": [
+        241
+      ],
+      "recognition": [
+        242
+      ],
+      "alongside": [
+        243
+      ],
+      "physical": [
+        244
+      ],
+      "losses": [
+        245
+      ],
+      "when": [
+        246
+      ],
+      "determining": [
+        247
+      ],
+      "eligibility.": [
+        249
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-13T10:08:12.033832",
+    "created_date": "2026-08-15T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7171430917",
+    "doi": "https://doi.org/10.1080/15325024.2026.2704749",
+    "title": "End-of-Life Dreams and Visions in Dying Adults and Caregivers: A Systematic Review",
+    "display_name": "End-of-Life Dreams and Visions in Dying Adults and Caregivers: A Systematic Review",
+    "relevance_score": 1.2638137,
+    "publication_year": 2026,
+    "publication_date": "2026-07-27",
+    "ids": {
+      "openalex": "https://openalex.org/W7171430917",
+      "doi": "https://doi.org/10.1080/15325024.2026.2704749"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/15325024.2026.2704749",
+      "doi": "https://doi.org/10.1080/15325024.2026.2704749",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/15325024.2026.2704749",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S5866276",
+        "display_name": "Journal of Loss and Trauma",
+        "issn_l": "1532-5024",
+        "issn": [
+          "1532-5024",
+          "1532-5032"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Loss and Trauma",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "review",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1080/15325024.2026.2704749",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5143726052",
+          "display_name": "Tiago Figueiredo-Sousa",
+          "orcid": "https://orcid.org/0009-0003-5009-4877",
+          "observed_orcids": [
+            "https://orcid.org/0009-0003-5009-4877"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I141596103",
+            "display_name": "University of Lisbon",
+            "ror": "https://ror.org/01c27hj86",
+            "country_code": "PT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I141596103"
+            ]
+          }
+        ],
+        "countries": [
+          "PT"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Tiago Figueiredo-Sousa",
+        "raw_affiliation_strings": [
+          "Center for Palliative Medicine, Faculty of Medicine, University of Lisboa"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0003-5009-4877",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Center for Palliative Medicine, Faculty of Medicine, University of Lisboa",
+            "institution_ids": [
+              "https://openalex.org/I141596103"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5027862692",
+          "display_name": "Paulo Reis-Pina",
+          "orcid": "https://orcid.org/0000-0002-4665-585X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4665-585X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I141596103",
+            "display_name": "University of Lisbon",
+            "ror": "https://ror.org/01c27hj86",
+            "country_code": "PT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I141596103"
+            ]
+          }
+        ],
+        "countries": [
+          "PT"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Paulo Reis-Pina",
+        "raw_affiliation_strings": [
+          "Acute Palliative Care Inpatient Unit, Local Health Unit of Santa Maria",
+          "Center for Palliative Medicine, Faculty of Medicine, University of Lisboa"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-4665-585X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Acute Palliative Care Inpatient Unit, Local Health Unit of Santa Maria",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Center for Palliative Medicine, Faculty of Medicine, University of Lisboa",
+            "institution_ids": [
+              "https://openalex.org/I141596103"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5027862692"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I141596103"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.49425644,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "35"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10177",
+      "display_name": "Palliative Care and End-of-Life Issues",
+      "score": 0.7437000274658203,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10177",
+        "display_name": "Palliative Care and End-of-Life Issues",
+        "score": 0.7437000274658203,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12448",
+        "display_name": "Paranormal Experiences and Beliefs",
+        "score": 0.16699999570846558,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13340",
+        "display_name": "Palliative and Oncologic Care",
+        "score": 0.04780000075697899,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/vision",
+        "display_name": "vision",
+        "score": 0.5559999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/family-caregivers",
+        "display_name": "family caregivers",
+        "score": 0.9860000014305115
+      },
+      {
+        "id": "https://openalex.org/keywords/near-death-experiences",
+        "display_name": "near-death experiences",
+        "score": 0.8080000281333923
+      },
+      {
+        "id": "https://openalex.org/keywords/end-of-life-care",
+        "display_name": "end-of-life care",
+        "score": 0.8169999718666077
+      },
+      {
+        "id": "https://openalex.org/keywords/emotional-impact",
+        "display_name": "emotional impact",
+        "score": 0.6209999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/meaning-of-dreams",
+        "display_name": "meaning of dreams",
+        "score": 0.5210000276565552
+      },
+      {
+        "id": "https://openalex.org/keywords/social-support",
+        "display_name": "social support",
+        "score": 0.5619999766349792
+      },
+      {
+        "id": "https://openalex.org/keywords/life-review",
+        "display_name": "life review",
+        "score": 0.7609999775886536
+      },
+      {
+        "id": "https://openalex.org/keywords/bereavement",
+        "display_name": "bereavement",
+        "score": 0.42100000381469727
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C133979268",
+        "wikidata": "https://www.wikidata.org/wiki/Q1682108",
+        "display_name": "Vision",
+        "level": 2,
+        "score": 0.7459999918937683
+      },
+      {
+        "id": "https://openalex.org/C139265228",
+        "wikidata": "https://www.wikidata.org/wiki/Q5283089",
+        "display_name": "Distress",
+        "level": 2,
+        "score": 0.605400025844574
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.5845000147819519
+      },
+      {
+        "id": "https://openalex.org/C83867959",
+        "wikidata": "https://www.wikidata.org/wiki/Q371467",
+        "display_name": "Scopus",
+        "level": 3,
+        "score": 0.5162000060081482
+      },
+      {
+        "id": "https://openalex.org/C127882523",
+        "wikidata": "https://www.wikidata.org/wiki/Q38066",
+        "display_name": "Existentialism",
+        "level": 2,
+        "score": 0.4876999855041504
+      },
+      {
+        "id": "https://openalex.org/C2779549880",
+        "wikidata": "https://www.wikidata.org/wiki/Q5542226",
+        "display_name": "PsycINFO",
+        "level": 3,
+        "score": 0.4244999885559082
+      },
+      {
+        "id": "https://openalex.org/C95190672",
+        "wikidata": "https://www.wikidata.org/wiki/Q815382",
+        "display_name": "Meta-analysis",
+        "level": 2,
+        "score": 0.40400001406669617
+      },
+      {
+        "id": "https://openalex.org/C189708586",
+        "wikidata": "https://www.wikidata.org/wiki/Q1504425",
+        "display_name": "Systematic review",
+        "level": 3,
+        "score": 0.3873000144958496
+      },
+      {
+        "id": "https://openalex.org/C190248442",
+        "wikidata": "https://www.wikidata.org/wiki/Q839486",
+        "display_name": "Qualitative research",
+        "level": 2,
+        "score": 0.3833000063896179
+      },
+      {
+        "id": "https://openalex.org/C2779473830",
+        "wikidata": "https://www.wikidata.org/wiki/Q1540899",
+        "display_name": "MEDLINE",
+        "level": 2,
+        "score": 0.3652999997138977
+      },
+      {
+        "id": "https://openalex.org/C70410870",
+        "wikidata": "https://www.wikidata.org/wiki/Q199906",
+        "display_name": "Clinical psychology",
+        "level": 1,
+        "score": 0.3610999882221222
+      },
+      {
+        "id": "https://openalex.org/C160284661",
+        "wikidata": "https://www.wikidata.org/wiki/Q1555235",
+        "display_name": "Life review",
+        "level": 3,
+        "score": 0.3549000024795532
+      },
+      {
+        "id": "https://openalex.org/C542102704",
+        "wikidata": "https://www.wikidata.org/wiki/Q183257",
+        "display_name": "Psychotherapist",
+        "level": 1,
+        "score": 0.33169999718666077
+      },
+      {
+        "id": "https://openalex.org/C2780837026",
+        "wikidata": "https://www.wikidata.org/wiki/Q1026040",
+        "display_name": "Grief",
+        "level": 2,
+        "score": 0.3158999979496002
+      },
+      {
+        "id": "https://openalex.org/C3017945913",
+        "wikidata": "https://www.wikidata.org/wiki/Q5283089",
+        "display_name": "Emotional distress",
+        "level": 3,
+        "score": 0.3133000135421753
+      },
+      {
+        "id": "https://openalex.org/C74909509",
+        "wikidata": "https://www.wikidata.org/wiki/Q10387",
+        "display_name": "Gerontology",
+        "level": 1,
+        "score": 0.2994999885559082
+      },
+      {
+        "id": "https://openalex.org/C77805123",
+        "wikidata": "https://www.wikidata.org/wiki/Q161272",
+        "display_name": "Social psychology",
+        "level": 1,
+        "score": 0.2883000075817108
+      },
+      {
+        "id": "https://openalex.org/C71924100",
+        "wikidata": "https://www.wikidata.org/wiki/Q11190",
+        "display_name": "Medicine",
+        "level": 0,
+        "score": 0.2743000090122223
+      },
+      {
+        "id": "https://openalex.org/C162446236",
+        "wikidata": "https://www.wikidata.org/wiki/Q653137",
+        "display_name": "Content analysis",
+        "level": 2,
+        "score": 0.2696000039577484
+      },
+      {
+        "id": "https://openalex.org/C2779951463",
+        "wikidata": "https://www.wikidata.org/wiki/Q7268788",
+        "display_name": "Quality of life (healthcare)",
+        "level": 2,
+        "score": 0.2685000002384186
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/15325024.2026.2704749",
+        "doi": "https://doi.org/10.1080/15325024.2026.2704749",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1080/15325024.2026.2704749",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S5866276",
+          "display_name": "Journal of Loss and Trauma",
+          "issn_l": "1532-5024",
+          "issn": [
+            "1532-5024",
+            "1532-5032"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Loss and Trauma",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1080/15325024.2026.2704749",
+      "doi": "https://doi.org/10.1080/15325024.2026.2704749",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/15325024.2026.2704749",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S5866276",
+        "display_name": "Journal of Loss and Trauma",
+        "issn_l": "1532-5024",
+        "issn": [
+          "1532-5024",
+          "1532-5032"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Loss and Trauma",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 1.0,
+        "display_name": "Good health and well-being",
+        "id": "https://metadata.un.org/sdg/3"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "display_name": "Systematic Review",
+        "id": "https://openalex.org/study-designs/systematic-review"
+      }
+    ],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 35,
+    "referenced_works": [
+      "https://openalex.org/W1177209620",
+      "https://openalex.org/W1651770526",
+      "https://openalex.org/W1975358255",
+      "https://openalex.org/W1976199967",
+      "https://openalex.org/W1999748217",
+      "https://openalex.org/W2063765184",
+      "https://openalex.org/W2077646007",
+      "https://openalex.org/W2123956313",
+      "https://openalex.org/W2125707140",
+      "https://openalex.org/W2134475629",
+      "https://openalex.org/W2160299319",
+      "https://openalex.org/W2190448554",
+      "https://openalex.org/W2329789505",
+      "https://openalex.org/W2395415497",
+      "https://openalex.org/W2522314824",
+      "https://openalex.org/W2767230784",
+      "https://openalex.org/W2784472800",
+      "https://openalex.org/W2784670569",
+      "https://openalex.org/W2794014169",
+      "https://openalex.org/W2956846367",
+      "https://openalex.org/W2972794744",
+      "https://openalex.org/W3035234097",
+      "https://openalex.org/W3042115382",
+      "https://openalex.org/W3081432723",
+      "https://openalex.org/W3095516336",
+      "https://openalex.org/W3141256924",
+      "https://openalex.org/W3205712919",
+      "https://openalex.org/W4289201596",
+      "https://openalex.org/W4313555522",
+      "https://openalex.org/W4317869906",
+      "https://openalex.org/W4353016382",
+      "https://openalex.org/W4380488794",
+      "https://openalex.org/W4391275689",
+      "https://openalex.org/W4407670747",
+      "https://openalex.org/W4410360798"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "End-of-life": [
+        0
+      ],
+      "dreams": [
+        1
+      ],
+      "and": [
+        2,
+        14,
+        34,
+        43,
+        66,
+        168,
+        179,
+        194,
+        214,
+        231,
+        239,
+        242
+      ],
+      "visions": [
+        3
+      ],
+      "(ELDV)": [
+        4
+      ],
+      "are": [
+        5
+      ],
+      "commonly": [
+        6
+      ],
+      "reported": [
+        7,
+        112
+      ],
+      "near": [
+        8
+      ],
+      "death": [
+        9
+      ],
+      "but": [
+        10
+      ],
+      "remain": [
+        11
+      ],
+      "poorly": [
+        12
+      ],
+      "understood": [
+        13
+      ],
+      "inconsistently": [
+        15
+      ],
+      "addressed": [
+        16
+      ],
+      "in": [
+        17,
+        140,
+        199,
+        206
+      ],
+      "clinical": [
+        18
+      ],
+      "care.": [
+        19,
+        38,
+        224
+      ],
+      "This": [
+        20
+      ],
+      "systematic": [
+        21
+      ],
+      "review": [
+        22,
+        181
+      ],
+      "aimed": [
+        23
+      ],
+      "to": [
+        24,
+        47,
+        102,
+        184,
+        217
+      ],
+      "synthesize": [
+        25
+      ],
+      "evidence": [
+        26
+      ],
+      "on": [
+        27,
+        201
+      ],
+      "their": [
+        28
+      ],
+      "prevalence,": [
+        29
+      ],
+      "emotional": [
+        30
+      ],
+      "impact,": [
+        31
+      ],
+      "perceived": [
+        32,
+        189
+      ],
+      "meaning,": [
+        33
+      ],
+      "implications": [
+        35
+      ],
+      "for": [
+        36,
+        51
+      ],
+      "end-of-life": [
+        37,
+        223
+      ],
+      "MEDLINE,": [
+        39
+      ],
+      "Web": [
+        40
+      ],
+      "of": [
+        41,
+        62,
+        117,
+        144,
+        174
+      ],
+      "Science,": [
+        42
+      ],
+      "Scopus": [
+        44
+      ],
+      "were": [
+        45,
+        68,
+        79,
+        182,
+        187
+      ],
+      "searched": [
+        46
+      ],
+      "June": [
+        48
+      ],
+      "5,": [
+        49
+      ],
+      "2025,": [
+        50
+      ],
+      "English-language": [
+        52
+      ],
+      "primary": [
+        53
+      ],
+      "studies": [
+        54,
+        78,
+        226
+      ],
+      "involving": [
+        55
+      ],
+      "dying": [
+        56
+      ],
+      "adults": [
+        57,
+        208
+      ],
+      "and/or": [
+        58
+      ],
+      "family": [
+        59
+      ],
+      "caregivers.": [
+        60
+      ],
+      "Risk": [
+        61
+      ],
+      "bias": [
+        63
+      ],
+      "was": [
+        64,
+        111
+      ],
+      "appraised,": [
+        65
+      ],
+      "findings": [
+        67,
+        162
+      ],
+      "synthesized": [
+        69
+      ],
+      "narratively": [
+        70
+      ],
+      "because": [
+        71
+      ],
+      "methodological": [
+        72
+      ],
+      "heterogeneity": [
+        73
+      ],
+      "precluded": [
+        74
+      ],
+      "meta-analysis.": [
+        75
+      ],
+      "Thirteen": [
+        76
+      ],
+      "moderate-to-high-quality": [
+        77
+      ],
+      "included": [
+        80
+      ],
+      "(Americas,": [
+        81
+      ],
+      "n": [
+        82,
+        86,
+        90,
+        94
+      ],
+      "=": [
+        83,
+        87,
+        91,
+        95
+      ],
+      "6;": [
+        84
+      ],
+      "Europe,": [
+        85
+      ],
+      "4;": [
+        88
+      ],
+      "Asia,": [
+        89
+      ],
+      "2;": [
+        92
+      ],
+      "Australia,": [
+        93
+      ],
+      "1).": [
+        96
+      ],
+      "ELDV": [
+        97,
+        186
+      ],
+      "prevalence": [
+        98
+      ],
+      "ranged": [
+        99
+      ],
+      "from": [
+        100
+      ],
+      "21%": [
+        101
+      ],
+      "90%": [
+        103
+      ],
+      "(unweighted": [
+        104
+      ],
+      "mean": [
+        105,
+        108,
+        116,
+        122,
+        143,
+        149
+      ],
+      "51.6%;": [
+        106
+      ],
+      "sample-size-weighted": [
+        107
+      ],
+      "27.1%).": [
+        109
+      ],
+      "Comfort": [
+        110
+      ],
+      "by": [
+        113,
+        192
+      ],
+      "an": [
+        114,
+        141
+      ],
+      "unweighted": [
+        115,
+        142
+      ],
+      "38.4%": [
+        118
+      ],
+      "(range": [
+        119,
+        146
+      ],
+      "24%\u201357.5%;": [
+        120
+      ],
+      "weighted": [
+        121,
+        148
+      ],
+      "26%),": [
+        123
+      ],
+      "particularly": [
+        124
+      ],
+      "when": [
+        125,
+        131,
+        152
+      ],
+      "deceased": [
+        126
+      ],
+      "loved": [
+        127
+      ],
+      "ones": [
+        128
+      ],
+      "appeared": [
+        129
+      ],
+      "or": [
+        130,
+        135,
+        158,
+        170
+      ],
+      "experiences": [
+        132,
+        219
+      ],
+      "involved": [
+        133
+      ],
+      "journey": [
+        134
+      ],
+      "preparation-for-death": [
+        136
+      ],
+      "motifs.": [
+        137
+      ],
+      "Distress": [
+        138
+      ],
+      "occurred": [
+        139
+      ],
+      "25.3%": [
+        145
+      ],
+      "0%\u201354%;": [
+        147
+      ],
+      "19.4%),": [
+        150
+      ],
+      "especially": [
+        151
+      ],
+      "content": [
+        153
+      ],
+      "revisited": [
+        154
+      ],
+      "trauma,": [
+        155
+      ],
+      "difficult": [
+        156
+      ],
+      "relationships,": [
+        157
+      ],
+      "unresolved": [
+        159
+      ],
+      "concerns.": [
+        160
+      ],
+      "Qualitative": [
+        161
+      ],
+      "identified": [
+        163
+      ],
+      "reassurance,": [
+        164
+      ],
+      "social": [
+        165
+      ],
+      "support,": [
+        166
+      ],
+      "reunion,": [
+        167
+      ],
+      "choice": [
+        169
+      ],
+      "control": [
+        171
+      ],
+      "as": [
+        172,
+        190
+      ],
+      "sources": [
+        173
+      ],
+      "comfort,": [
+        175
+      ],
+      "whereas": [
+        176
+      ],
+      "existential": [
+        177
+      ],
+      "concern": [
+        178
+      ],
+      "life": [
+        180
+      ],
+      "linked": [
+        183
+      ],
+      "distress.": [
+        185
+      ],
+      "generally": [
+        188
+      ],
+      "meaningful": [
+        191
+      ],
+      "patients": [
+        193
+      ],
+      "families.": [
+        195
+      ],
+      "At": [
+        196
+      ],
+      "minimum,": [
+        197
+      ],
+      "one": [
+        198,
+        205
+      ],
+      "five\u2014and": [
+        200
+      ],
+      "average": [
+        202
+      ],
+      "more": [
+        203
+      ],
+      "than": [
+        204
+      ],
+      "four\u2014dying": [
+        207
+      ],
+      "experience": [
+        209
+      ],
+      "ELDV.": [
+        210
+      ],
+      "Routine,": [
+        211
+      ],
+      "nonjudgmental": [
+        212
+      ],
+      "enquiry": [
+        213
+      ],
+      "supportive": [
+        215,
+        245
+      ],
+      "responses": [
+        216
+      ],
+      "distressing": [
+        218
+      ],
+      "may": [
+        220
+      ],
+      "strengthen": [
+        221
+      ],
+      "holistic": [
+        222
+      ],
+      "Future": [
+        225
+      ],
+      "should": [
+        227
+      ],
+      "use": [
+        228
+      ],
+      "standardized": [
+        229
+      ],
+      "definitions": [
+        230
+      ],
+      "measures,": [
+        232
+      ],
+      "include": [
+        233
+      ],
+      "culturally": [
+        234
+      ],
+      "diverse": [
+        235
+      ],
+      "populations,": [
+        236
+      ],
+      "distinguish": [
+        237
+      ],
+      "patient": [
+        238
+      ],
+      "caregiver": [
+        240
+      ],
+      "perspectives,": [
+        241
+      ],
+      "evaluate": [
+        243
+      ],
+      "targeted": [
+        244
+      ],
+      "interventions.": [
+        246
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-26T08:19:03.415552",
+    "created_date": "2026-07-28T00:00:00"
   }
 ]

@@ -41682,9 +41682,9 @@
   {
     "id": "https://openalex.org/W4413966842",
     "doi": "https://doi.org/10.1086/737862",
-    "title": "<i>Xkoltyayaj</i>, \u201cThe One Who Helps\u201d",
-    "display_name": "<i>Xkoltyayaj</i>, \u201cThe One Who Helps\u201d",
-    "relevance_score": 0.6863627,
+    "title": "Xkoltyayaj, \u201cThe One Who Helps\u201d",
+    "display_name": "Xkoltyayaj, \u201cThe One Who Helps\u201d",
+    "relevance_score": 1.9356601,
     "publication_year": 2025,
     "publication_date": "2025-09-03",
     "ids": {
@@ -41694,6 +41694,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/737862",
+      "doi": "https://doi.org/10.1086/737862",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1086/737862",
       "pdf_url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/737862?download=true",
@@ -41708,6 +41709,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -41728,6 +41740,7 @@
       "raw_source_name": "Current Anthropology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -41744,7 +41757,8 @@
         "author": {
           "id": "https://openalex.org/A5119532112",
           "display_name": "Carol Rose Little",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
@@ -41753,6 +41767,7 @@
         "raw_affiliation_strings": [
           ""
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "",
@@ -41763,7 +41778,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5119532112"
     ],
@@ -41774,7 +41789,7 @@
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.31166192,
+      "value": 0.23190579,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -41789,16 +41804,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13029",
-      "display_name": "South Asian Studies and Conflicts",
-      "score": 0.4124999940395355,
+      "id": "https://openalex.org/T10759",
+      "display_name": "Translation Studies and Practices",
+      "score": 0.9785000085830688,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/1203",
+        "display_name": "Language and Linguistics"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -41807,12 +41822,46 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13029",
-        "display_name": "South Asian Studies and Conflicts",
-        "score": 0.4124999940395355,
+        "id": "https://openalex.org/T10759",
+        "display_name": "Translation Studies and Practices",
+        "score": 0.9785000085830688,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/1203",
+          "display_name": "Language and Linguistics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12151",
+        "display_name": "Interpreting and Communication in Healthcare",
+        "score": 0.0066999997943639755,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10265",
+        "display_name": "Multilingual Education and Policy",
+        "score": 0.004000000189989805,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3310",
+          "display_name": "Linguistics and Language"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -41826,14 +41875,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.3465246558189392
+        "id": "https://openalex.org/keywords/court-interpreting",
+        "display_name": "court interpreting",
+        "score": 0.8019999861717224
       },
       {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.3356446921825409
+        "id": "https://openalex.org/keywords/indigenous-languages",
+        "display_name": "indigenous languages",
+        "score": 0.5730000138282776
+      },
+      {
+        "id": "https://openalex.org/keywords/criminal-jury-trials",
+        "display_name": "criminal jury trials",
+        "score": 0.8790000081062317
+      },
+      {
+        "id": "https://openalex.org/keywords/legal-terminology-translation",
+        "display_name": "translation of legal terms",
+        "score": 0.6520000100135803
+      },
+      {
+        "id": "https://openalex.org/keywords/missionary-dictionaries",
+        "display_name": "missionary dictionaries",
+        "score": 0.6470000147819519
+      },
+      {
+        "id": "https://openalex.org/keywords/right-to-an-interpreter",
+        "display_name": "right to an interpreter",
+        "score": 0.7429999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/sexual-assault-of-minors",
+        "display_name": "sexual assault of minors",
+        "score": 0.8460000157356262
+      },
+      {
+        "id": "https://openalex.org/keywords/latin-american-immigrants",
+        "display_name": "Latin American immigrants",
+        "score": 0.7310000061988831
+      },
+      {
+        "id": "https://openalex.org/keywords/linguistic-diversity",
+        "display_name": "linguistic diversity",
+        "score": 0.4000000059604645
+      },
+      {
+        "id": "https://openalex.org/keywords/mayan-languages",
+        "display_name": "Mayan languages",
+        "score": 0.4480000138282776
       }
     ],
     "concepts": [
@@ -41857,6 +41946,7 @@
     "locations": [
       {
         "id": "doi:10.1086/737862",
+        "doi": "https://doi.org/10.1086/737862",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1086/737862",
         "pdf_url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/737862?download=true",
@@ -41871,6 +41961,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -41894,6 +41995,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1086/737862",
+      "doi": "https://doi.org/10.1086/737862",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1086/737862",
       "pdf_url": "https://www.journals.uchicago.edu/doi/pdf/10.1086/737862?download=true",
@@ -41908,6 +42010,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -41928,7 +42041,20 @@
       "raw_source_name": "Current Anthropology",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.8046000003814697
+      },
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities",
+        "score": 0.7578999996185303
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -41950,16 +42076,16 @@
       "https://openalex.org/W2333514939"
     ],
     "related_works": [
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W3120165752",
-      "https://openalex.org/W3158585187",
-      "https://openalex.org/W2344506138",
-      "https://openalex.org/W1964191721",
-      "https://openalex.org/W2503791906",
-      "https://openalex.org/W2485179383",
-      "https://openalex.org/W4211064241",
-      "https://openalex.org/W3195275078",
-      "https://openalex.org/W2073705106"
+      "https://openalex.org/W3110990140",
+      "https://openalex.org/W4401109727",
+      "https://openalex.org/W3191806414",
+      "https://openalex.org/W3026908706",
+      "https://openalex.org/W2491006616",
+      "https://openalex.org/W7006432144",
+      "https://openalex.org/W4403214236",
+      "https://openalex.org/W2803790958",
+      "https://openalex.org/W7046245597",
+      "https://openalex.org/W649999647"
     ],
     "abstract_inverted_index": {
       "In": [
@@ -42352,7 +42478,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-08-23T07:36:19.812096",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -42360,9 +42486,9 @@
     "doi": "https://doi.org/10.1086/741018",
     "title": "Deciphering Sands and Stones",
     "display_name": "Deciphering Sands and Stones",
-    "relevance_score": 0.6119474,
+    "relevance_score": 1.7258537,
     "publication_year": 2026,
-    "publication_date": "2026-04-21",
+    "publication_date": "2026-04-01",
     "ids": {
       "openalex": "https://openalex.org/W7155084390",
       "doi": "https://doi.org/10.1086/741018"
@@ -42370,6 +42496,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/741018",
+      "doi": "https://doi.org/10.1086/741018",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/741018",
       "pdf_url": null,
@@ -42384,6 +42511,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -42404,6 +42542,7 @@
       "raw_source_name": "Current Anthropology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -42418,9 +42557,10 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5134177904",
+          "id": "https://openalex.org/A5093895754",
           "display_name": "Sarah Newman",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
@@ -42440,9 +42580,9 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
-      "https://openalex.org/A5134177904"
+      "https://openalex.org/A5093895754"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
@@ -42451,31 +42591,31 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.95812017,
+      "value": 0.24001185,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": "000",
-      "last_page": "000"
+      "volume": "67",
+      "issue": "2",
+      "first_page": "193",
+      "last_page": "218"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12532",
-      "display_name": "Historical and Cultural Archaeology Studies",
-      "score": 0.02930000051856041,
+      "id": "https://openalex.org/T12283",
+      "display_name": "Latin American history and culture",
+      "score": 0.9945999979972839,
       "subfield": {
-        "id": "https://openalex.org/subfields/3314",
-        "display_name": "Anthropology"
+        "id": "https://openalex.org/subfields/1213",
+        "display_name": "Visual Arts and Performing Arts"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -42484,16 +42624,16 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12532",
-        "display_name": "Historical and Cultural Archaeology Studies",
-        "score": 0.02930000051856041,
+        "id": "https://openalex.org/T12283",
+        "display_name": "Latin American history and culture",
+        "score": 0.9945999979972839,
         "subfield": {
-          "id": "https://openalex.org/subfields/3314",
-          "display_name": "Anthropology"
+          "id": "https://openalex.org/subfields/1213",
+          "display_name": "Visual Arts and Performing Arts"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -42501,80 +42641,80 @@
         }
       },
       {
-        "id": "https://openalex.org/T14160",
-        "display_name": "Water management and technologies",
-        "score": 0.02930000051856041,
+        "id": "https://openalex.org/T13302",
+        "display_name": "Amazonian Archaeology and Ethnohistory",
+        "score": 0.002099999925121665,
         "subfield": {
-          "id": "https://openalex.org/subfields/1105",
-          "display_name": "Ecology, Evolution, Behavior and Systematics"
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
         },
         "field": {
-          "id": "https://openalex.org/fields/11",
-          "display_name": "Agricultural and Biological Sciences"
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
-          "id": "https://openalex.org/domains/1",
-          "display_name": "Life Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       },
       {
-        "id": "https://openalex.org/T10087",
-        "display_name": "Archaeology and ancient environmental studies",
-        "score": 0.014299999922513962,
+        "id": "https://openalex.org/T12471",
+        "display_name": "History of Science and Natural History",
+        "score": 0.0012000000569969416,
         "subfield": {
-          "id": "https://openalex.org/subfields/1911",
-          "display_name": "Paleontology"
+          "id": "https://openalex.org/subfields/1207",
+          "display_name": "History and Philosophy of Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/19",
-          "display_name": "Earth and Planetary Sciences"
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/decipherment",
-        "display_name": "Decipherment",
-        "score": 0.8730000257492065
+        "id": "https://openalex.org/keywords/cadastral-documents",
+        "display_name": "cadastral documents",
+        "score": 0.7070000171661377
       },
       {
-        "id": "https://openalex.org/keywords/cadastre",
-        "display_name": "Cadastre",
-        "score": 0.6287999749183655
+        "id": "https://openalex.org/keywords/sixteenth-century-new-spain",
+        "display_name": "sixteenth-century New Spain",
+        "score": 0.8999999761581421
       },
       {
-        "id": "https://openalex.org/keywords/argument",
-        "display_name": "Argument (complex analysis)",
-        "score": 0.6287000179290771
+        "id": "https://openalex.org/keywords/soil-classification",
+        "display_name": "soil classification",
+        "score": 0.8059999942779541
       },
       {
-        "id": "https://openalex.org/keywords/nahuatl",
-        "display_name": "Nahuatl",
-        "score": 0.44600000977516174
+        "id": "https://openalex.org/keywords/agricultural-land-classification",
+        "display_name": "agricultural land classification",
+        "score": 0.777999997138977
       },
       {
-        "id": "https://openalex.org/keywords/natural",
-        "display_name": "Natural (archaeology)",
-        "score": 0.43860000371932983
+        "id": "https://openalex.org/keywords/cross-cultural-comparison",
+        "display_name": "cross-cultural comparison",
+        "score": 0.5270000100135803
       },
       {
-        "id": "https://openalex.org/keywords/colonialism",
-        "display_name": "Colonialism",
-        "score": 0.4212999939918518
+        "id": "https://openalex.org/keywords/cross-temporal-comparison",
+        "display_name": "cross-temporal comparison",
+        "score": 0.8270000219345093
       },
       {
-        "id": "https://openalex.org/keywords/mesopotamia",
-        "display_name": "Mesopotamia",
-        "score": 0.3896999955177307
+        "id": "https://openalex.org/keywords/colonial-surveying",
+        "display_name": "colonial surveying",
+        "score": 0.4440000057220459
       },
       {
-        "id": "https://openalex.org/keywords/proscription",
-        "display_name": "Proscription",
-        "score": 0.3357999920845032
+        "id": "https://openalex.org/keywords/ethnohistory",
+        "display_name": "ethnohistory",
+        "score": 0.4429999887943268
       }
     ],
     "concepts": [
@@ -42752,6 +42892,7 @@
     "locations": [
       {
         "id": "doi:10.1086/741018",
+        "doi": "https://doi.org/10.1086/741018",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/741018",
         "pdf_url": null,
@@ -42766,6 +42907,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -42788,13 +42940,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "score": 0.6046407222747803,
         "id": "https://metadata.un.org/sdg/13",
-        "display_name": "Climate action"
+        "display_name": "Climate action",
+        "score": 0.6046407222747803
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -42858,7 +43012,18 @@
       "https://openalex.org/W4407261709",
       "https://openalex.org/W4407975090"
     ],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W2318608733",
+      "https://openalex.org/W7058230096",
+      "https://openalex.org/W47920996",
+      "https://openalex.org/W2497796953",
+      "https://openalex.org/W7046158343",
+      "https://openalex.org/W7112224274",
+      "https://openalex.org/W2480229019",
+      "https://openalex.org/W4387140916",
+      "https://openalex.org/W7000240685",
+      "https://openalex.org/W114569211"
+    ],
     "abstract_inverted_index": {
       "The": [
         0,
@@ -43330,7 +43495,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-04-23T06:14:38.165362",
+    "updated_date": "2026-09-25T08:18:29.962427",
     "created_date": "2026-04-22T00:00:00"
   }
 ]

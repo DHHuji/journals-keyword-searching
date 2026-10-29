@@ -3982,7 +3982,7 @@
     "doi": "https://doi.org/10.1093/jiel/jgaf007",
     "title": "Lost in conversion: rethinking investment treaty protection against retroactive regulation in the wake of the \u2018Francogeddon\u2019",
     "display_name": "Lost in conversion: rethinking investment treaty protection against retroactive regulation in the wake of the \u2018Francogeddon\u2019",
-    "relevance_score": 2.9940414,
+    "relevance_score": 2.1513727,
     "publication_year": 2025,
     "publication_date": "2025-03-01",
     "ids": {
@@ -3992,9 +3992,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/jiel/jgaf007",
+      "doi": "https://doi.org/10.1093/jiel/jgaf007",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/jiel/jgaf007",
-      "pdf_url": "https://academic.oup.com/jiel/advance-article-pdf/doi/10.1093/jiel/jgaf007/62573077/jgaf007.pdf",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S197191252",
         "display_name": "Journal of International Economic Law",
@@ -4006,6 +4007,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -4026,15 +4037,17 @@
       "raw_source_name": "Journal of International Economic Law",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
-      "crossref"
+      "crossref",
+      "datacite"
     ],
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://academic.oup.com/jiel/advance-article-pdf/doi/10.1093/jiel/jgaf007/62573077/jgaf007.pdf",
-      "any_repository_has_fulltext": false
+      "oa_url": "https://doi.org/10.1093/jiel/jgaf007",
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -4042,44 +4055,46 @@
         "author": {
           "id": "https://openalex.org/A5054318211",
           "display_name": "Alina Papanastasiou",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
         "is_corresponding": true,
         "raw_author_name": "Alina Papanastasiou",
         "raw_affiliation_strings": [],
+        "raw_orcid": null,
         "affiliations": []
       }
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5054318211"
     ],
     "corresponding_institution_ids": [],
     "apc_list": {
-      "value": 4153,
+      "value": 4535,
       "currency": "USD",
-      "value_usd": 4153
+      "value_usd": 4535
     },
     "apc_paid": {
-      "value": 4153,
+      "value": 4535,
       "currency": "USD",
-      "value_usd": 4153
+      "value_usd": 4535
     },
-    "fwci": 2.3417,
-    "has_fulltext": false,
+    "fwci": 0.8612,
+    "has_fulltext": true,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.87827966,
+      "value": 0.78191864,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
-      "min": 97,
-      "max": 99
+      "min": 93,
+      "max": 96
     },
     "biblio": {
       "volume": "28",
@@ -4093,7 +4108,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12040",
       "display_name": "International Arbitration and Investment Law",
-      "score": 0.9979000091552734,
+      "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/1408",
         "display_name": "Strategy and Management"
@@ -4111,7 +4126,7 @@
       {
         "id": "https://openalex.org/T12040",
         "display_name": "International Arbitration and Investment Law",
-        "score": 0.9979000091552734,
+        "score": 1.0,
         "subfield": {
           "id": "https://openalex.org/subfields/1408",
           "display_name": "Strategy and Management"
@@ -4124,53 +4139,97 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T12156",
+        "display_name": "World Trade Organization Law",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12767",
+        "display_name": "Conflict of Laws and Jurisdiction",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/wake",
-        "display_name": "Wake",
-        "score": 0.851386547088623
+        "id": "https://openalex.org/keywords/swiss-national-bank",
+        "display_name": "Swiss National Bank",
+        "score": 0.7879999876022339
       },
       {
-        "id": "https://openalex.org/keywords/treaty",
-        "display_name": "Treaty",
-        "score": 0.7144428491592407
+        "id": "https://openalex.org/keywords/fixed-exchange-rates",
+        "display_name": "fixed exchange rates",
+        "score": 0.5389999747276306
       },
       {
-        "id": "https://openalex.org/keywords/investment",
-        "display_name": "Investment (military)",
-        "score": 0.5466265678405762
+        "id": "https://openalex.org/keywords/foreign-exchange",
+        "display_name": "foreign exchange",
+        "score": 0.5429999828338623
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.43883076310157776
+        "id": "https://openalex.org/keywords/mortgage",
+        "display_name": "mortgage lending",
+        "score": 0.5239999890327454
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.35443592071533203
+        "id": "https://openalex.org/keywords/fair-and-equitable-treatment",
+        "display_name": "fair and equitable treatment",
+        "score": 0.7929999828338623
       },
       {
-        "id": "https://openalex.org/keywords/law-and-economics",
-        "display_name": "Law and economics",
-        "score": 0.3492242693901062
+        "id": "https://openalex.org/keywords/due-diligence-obligations",
+        "display_name": "due diligence obligations",
+        "score": 0.6399999856948853
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.24579378962516785
+        "id": "https://openalex.org/keywords/financial-restructuring",
+        "display_name": "financial restructuring",
+        "score": 0.5989999771118164
       },
       {
-        "id": "https://openalex.org/keywords/mechanics",
-        "display_name": "Mechanics",
-        "score": 0.1048363447189331
+        "id": "https://openalex.org/keywords/investor-state-disputes",
+        "display_name": "investor-state disputes",
+        "score": 0.5419999957084656
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.04932236671447754
+        "id": "https://openalex.org/keywords/foreign-banks",
+        "display_name": "foreign banks",
+        "score": 0.5180000066757202
+      },
+      {
+        "id": "https://openalex.org/keywords/croatia",
+        "display_name": "Croatia",
+        "score": 0.5559999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/montenegro",
+        "display_name": "Montenegro",
+        "score": 1.0
       }
     ],
     "concepts": [
@@ -4246,13 +4305,14 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 4,
     "locations": [
       {
         "id": "doi:10.1093/jiel/jgaf007",
+        "doi": "https://doi.org/10.1093/jiel/jgaf007",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/jiel/jgaf007",
-        "pdf_url": "https://academic.oup.com/jiel/advance-article-pdf/doi/10.1093/jiel/jgaf007/62573077/jgaf007.pdf",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S197191252",
           "display_name": "Journal of International Economic Law",
@@ -4264,6 +4324,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -4285,7 +4355,39 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:www.repository.cam.ac.uk:1810/380838",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.repository.cam.ac.uk/handle/1810/380838",
+        "pdf_url": "https://www.repository.cam.ac.uk/bitstreams/56a0bd89-a3fa-414e-85bd-5ced26bfdd8b/download",
+        "source": {
+          "id": "https://openalex.org/S4306401777",
+          "display_name": "Apollo (University of Cambridge)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I241749",
+          "host_organization_name": "University of Cambridge",
+          "host_organization_lineage": [
+            "https://openalex.org/I241749"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      },
+      {
         "id": "pmh:oai:RePEc:oup:jieclw:v:28:y:2025:i:1:p:78-100.",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "http://hdl.handle.net/10.1093/jiel/jgaf007",
         "pdf_url": null,
@@ -4297,6 +4399,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I77793887",
           "host_organization_name": "Federal Reserve Bank of St. Louis",
           "host_organization_lineage": [
@@ -4312,13 +4415,43 @@
         "is_published": false,
         "raw_source_name": null,
         "raw_type": "article"
+      },
+      {
+        "id": "doi:10.17863/cam.116303",
+        "doi": "https://doi.org/10.17863/cam.116303",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.17863/cam.116303",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407050737",
+          "display_name": "Apollo",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": null,
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "JournalArticle"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1093/jiel/jgaf007",
+      "doi": "https://doi.org/10.1093/jiel/jgaf007",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/jiel/jgaf007",
-      "pdf_url": "https://academic.oup.com/jiel/advance-article-pdf/doi/10.1093/jiel/jgaf007/62573077/jgaf007.pdf",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S197191252",
         "display_name": "Journal of International Economic Law",
@@ -4330,6 +4463,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -4350,29 +4493,35 @@
       "raw_source_name": "Journal of International Economic Law",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.666700005531311,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
+      "pdf": false,
       "grobid_xml": false
     },
-    "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4408938039.pdf"
-    },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W2757285599",
-      "https://openalex.org/W2376025146",
-      "https://openalex.org/W161151693",
-      "https://openalex.org/W2955635855",
-      "https://openalex.org/W3195741387",
-      "https://openalex.org/W4324257240",
-      "https://openalex.org/W4381570180",
-      "https://openalex.org/W2314669870",
-      "https://openalex.org/W2604916751",
-      "https://openalex.org/W2379898265"
+      "https://openalex.org/W2593673599",
+      "https://openalex.org/W7090198012",
+      "https://openalex.org/W7015601635",
+      "https://openalex.org/W4388071663",
+      "https://openalex.org/W176108264",
+      "https://openalex.org/W1930448767",
+      "https://openalex.org/W2751535357",
+      "https://openalex.org/W7223181026",
+      "https://openalex.org/W1553783133",
+      "https://openalex.org/W3184120073"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -4843,8 +4992,8 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2025-12-28T23:10:05.387466",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2025-03-29T00:00:00"
   },
   {
     "id": "https://openalex.org/W1997763709",
@@ -7649,5 +7798,2300 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4417261738",
+    "doi": "https://doi.org/10.1093/jiel/jgaf039",
+    "title": "Racial Capitalism, Law, and the Making of Global Tax Governance",
+    "display_name": "Racial Capitalism, Law, and the Making of Global Tax Governance",
+    "relevance_score": 1.882784,
+    "publication_year": 2025,
+    "publication_date": "2025-09-13",
+    "ids": {
+      "openalex": "https://openalex.org/W4417261738",
+      "doi": "https://doi.org/10.1093/jiel/jgaf039"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/jiel/jgaf039",
+      "doi": "https://doi.org/10.1093/jiel/jgaf039",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/jiel/jgaf039",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S197191252",
+        "display_name": "Journal of International Economic Law",
+        "issn_l": "1369-3034",
+        "issn": [
+          "1369-3034",
+          "1464-3758"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal Of International Economic Law",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5056759821",
+          "display_name": "Jos\u00e9 Atiles",
+          "orcid": "https://orcid.org/0000-0001-5711-7101",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5711-7101"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I157725225",
+            "display_name": "University of Illinois Urbana-Champaign",
+            "ror": "https://ror.org/047426m28",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I157725225"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jose Atiles",
+        "raw_affiliation_strings": [
+          "Department of Sociology and College of Law (by Courtesy), University of Illinois, Urbana-Champaign, United States Jose Atiles, Associate Professor,",
+          "Department of Sociology and College of Law (by Courtesy), University of Illinois, Urbana-Champaign, United States. Jose Atiles, Associate Professor, . Email: jatiles@illinois.edu ; ORCID: https://orcid.org/0000-0001-5711-7101",
+          "ORCID:"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-5711-7101",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Sociology and College of Law (by Courtesy), University of Illinois, Urbana-Champaign, United States Jose Atiles, Associate Professor,",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Sociology and College of Law (by Courtesy), University of Illinois, Urbana-Champaign, United States. Jose Atiles, Associate Professor, . Email: jatiles@illinois.edu ; ORCID: https://orcid.org/0000-0001-5711-7101",
+            "institution_ids": [
+              "https://openalex.org/I157725225"
+            ]
+          },
+          {
+            "raw_affiliation_string": "ORCID:",
+            "institution_ids": []
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5056759821"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I157725225"
+    ],
+    "apc_list": {
+      "value": 4535,
+      "currency": "USD",
+      "value_usd": 4535
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.3774173,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "28",
+      "issue": "4",
+      "first_page": "774",
+      "last_page": "777"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T14030",
+      "display_name": "Taxation and Legal Issues",
+      "score": 0.43309998512268066,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1402",
+        "display_name": "Accounting"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/14",
+        "display_name": "Business, Management and Accounting"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T14030",
+        "display_name": "Taxation and Legal Issues",
+        "score": 0.43309998512268066,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1402",
+          "display_name": "Accounting"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11508",
+        "display_name": "Corporate Taxation and Avoidance",
+        "score": 0.32589998841285706,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1402",
+          "display_name": "Accounting"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13074",
+        "display_name": "Global Financial Regulation and Crises",
+        "score": 0.048500001430511475,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2003",
+          "display_name": "Finance"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/racial-capitalism",
+        "display_name": "racial capitalism",
+        "score": 0.9449999928474426
+      },
+      {
+        "id": "https://openalex.org/keywords/harmful-tax-practices",
+        "display_name": "harmful tax practices",
+        "score": 0.7409999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/global-south",
+        "display_name": "Global South",
+        "score": 0.6000000238418579
+      },
+      {
+        "id": "https://openalex.org/keywords/colonial-hierarchies",
+        "display_name": "colonial hierarchies",
+        "score": 0.6470000147819519
+      },
+      {
+        "id": "https://openalex.org/keywords/offshore-financial-centers",
+        "display_name": "offshore financial centers",
+        "score": 0.8109999895095825
+      },
+      {
+        "id": "https://openalex.org/keywords/tax-evasion",
+        "display_name": "tax evasion",
+        "score": 0.5519999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/tax-avoidance",
+        "display_name": "tax avoidance",
+        "score": 0.7919999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/money-laundering",
+        "display_name": "money laundering",
+        "score": 0.6499999761581421
+      },
+      {
+        "id": "https://openalex.org/keywords/oecd",
+        "display_name": "OECD",
+        "score": 0.5870000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/financial-action-task-force",
+        "display_name": "Financial Action Task Force",
+        "score": 0.9869999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/caribbean-countries",
+        "display_name": "Caribbean countries",
+        "score": 0.46399998664855957
+      },
+      {
+        "id": "https://openalex.org/keywords/african-states",
+        "display_name": "African countries",
+        "score": 0.800000011920929
+      },
+      {
+        "id": "https://openalex.org/keywords/international-tax-governance",
+        "display_name": "international tax governance",
+        "score": 0.5170000195503235
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2777769502",
+        "wikidata": "https://www.wikidata.org/wiki/Q1464369",
+        "display_name": "Making-of",
+        "level": 2,
+        "score": 0.6460999846458435
+      },
+      {
+        "id": "https://openalex.org/C39389867",
+        "wikidata": "https://www.wikidata.org/wiki/Q380767",
+        "display_name": "Corporate governance",
+        "level": 2,
+        "score": 0.6319000124931335
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.5691999793052673
+      },
+      {
+        "id": "https://openalex.org/C3020009124",
+        "wikidata": "https://www.wikidata.org/wiki/Q1156854",
+        "display_name": "Policy making",
+        "level": 2,
+        "score": 0.3986999988555908
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.3515999913215637
+      },
+      {
+        "id": "https://openalex.org/C2992988558",
+        "wikidata": "https://www.wikidata.org/wiki/Q12055115",
+        "display_name": "Economic governance",
+        "level": 3,
+        "score": 0.323199987411499
+      },
+      {
+        "id": "https://openalex.org/C51303962",
+        "wikidata": "https://www.wikidata.org/wiki/Q1242836",
+        "display_name": "Double taxation",
+        "level": 2,
+        "score": 0.3052000105381012
+      },
+      {
+        "id": "https://openalex.org/C105639569",
+        "wikidata": "https://www.wikidata.org/wiki/Q582577",
+        "display_name": "Economic policy",
+        "level": 1,
+        "score": 0.2987000048160553
+      },
+      {
+        "id": "https://openalex.org/C551662922",
+        "wikidata": "https://www.wikidata.org/wiki/Q2346630",
+        "display_name": "Tax reform",
+        "level": 2,
+        "score": 0.2874000072479248
+      },
+      {
+        "id": "https://openalex.org/C18547055",
+        "wikidata": "https://www.wikidata.org/wiki/Q47417",
+        "display_name": "International economics",
+        "level": 1,
+        "score": 0.2637999951839447
+      },
+      {
+        "id": "https://openalex.org/C100001284",
+        "wikidata": "https://www.wikidata.org/wiki/Q2248246",
+        "display_name": "Public economics",
+        "level": 1,
+        "score": 0.26269999146461487
+      },
+      {
+        "id": "https://openalex.org/C193681711",
+        "wikidata": "https://www.wikidata.org/wiki/Q926871",
+        "display_name": "Direct tax",
+        "level": 3,
+        "score": 0.26179999113082886
+      },
+      {
+        "id": "https://openalex.org/C155202549",
+        "wikidata": "https://www.wikidata.org/wiki/Q178803",
+        "display_name": "International trade",
+        "level": 1,
+        "score": 0.25119999051094055
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1093/jiel/jgaf039",
+        "doi": "https://doi.org/10.1093/jiel/jgaf039",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1093/jiel/jgaf039",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S197191252",
+          "display_name": "Journal of International Economic Law",
+          "issn_l": "1369-3034",
+          "issn": [
+            "1369-3034",
+            "1464-3758"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal Of International Economic Law",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.9595999717712402,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      },
+      {
+        "score": 0.7578999996185303,
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W7115699302",
+      "https://openalex.org/W7126410275",
+      "https://openalex.org/W4412961557",
+      "https://openalex.org/W6985884219",
+      "https://openalex.org/W4417443446",
+      "https://openalex.org/W4361803719",
+      "https://openalex.org/W3217599403",
+      "https://openalex.org/W4310022030",
+      "https://openalex.org/W4412961521",
+      "https://openalex.org/W3155552380"
+    ],
+    "abstract_inverted_index": {
+      "Every": [
+        0
+      ],
+      "so": [
+        1
+      ],
+      "often,": [
+        2
+      ],
+      "international": [
+        3,
+        124,
+        149,
+        152
+      ],
+      "organizations": [
+        4
+      ],
+      "such": [
+        5
+      ],
+      "as": [
+        6,
+        39
+      ],
+      "the": [
+        7,
+        15,
+        21,
+        89,
+        101,
+        207
+      ],
+      "Organisation": [
+        8
+      ],
+      "for": [
+        9,
+        42,
+        120,
+        126,
+        133
+      ],
+      "Economic": [
+        10
+      ],
+      "Co-operation": [
+        11
+      ],
+      "and": [
+        12,
+        20,
+        25,
+        48,
+        58,
+        85,
+        100,
+        130,
+        141,
+        151,
+        165,
+        176,
+        197,
+        213,
+        222,
+        238
+      ],
+      "Development": [
+        13
+      ],
+      "(OECD),": [
+        14
+      ],
+      "Financial": [
+        16
+      ],
+      "Action": [
+        17
+      ],
+      "Task": [
+        18
+      ],
+      "Force,": [
+        19
+      ],
+      "European": [
+        22
+      ],
+      "Union": [
+        23
+      ],
+      "compile": [
+        24
+      ],
+      "publish": [
+        26
+      ],
+      "lists": [
+        27
+      ],
+      "of": [
+        28,
+        148,
+        173,
+        190,
+        200,
+        230,
+        236
+      ],
+      "countries": [
+        29,
+        117
+      ],
+      "alleged": [
+        30
+      ],
+      "to": [
+        31,
+        67,
+        122,
+        205
+      ],
+      "engage": [
+        32
+      ],
+      "in": [
+        33
+      ],
+      "\u2018harmful": [
+        34
+      ],
+      "tax": [
+        35,
+        43,
+        128,
+        185
+      ],
+      "practices\u2019": [
+        36
+      ],
+      "or": [
+        37,
+        75,
+        80,
+        132,
+        187
+      ],
+      "designated": [
+        38
+      ],
+      "\u2018non-cooperative": [
+        40
+      ],
+      "jurisdictions": [
+        41,
+        69
+      ],
+      "purposes\u2019.": [
+        44
+      ],
+      "These": [
+        45
+      ],
+      "so-called": [
+        46
+      ],
+      "blacklists": [
+        47
+      ],
+      "greylists": [
+        49
+      ],
+      "are": [
+        50,
+        71,
+        118,
+        161,
+        226,
+        233
+      ],
+      "strikingly": [
+        51
+      ],
+      "repetitive,": [
+        52
+      ],
+      "almost": [
+        53
+      ],
+      "always": [
+        54
+      ],
+      "topped": [
+        55
+      ],
+      "by": [
+        56
+      ],
+      "Caribbean": [
+        57
+      ],
+      "African": [
+        59
+      ],
+      "states.": [
+        60
+      ],
+      "Over": [
+        61
+      ],
+      "time,": [
+        62
+      ],
+      "it": [
+        63,
+        193
+      ],
+      "has": [
+        64
+      ],
+      "become": [
+        65
+      ],
+      "routine": [
+        66
+      ],
+      "see": [
+        68
+      ],
+      "that": [
+        70,
+        76,
+        114,
+        137,
+        158
+      ],
+      "either": [
+        72
+      ],
+      "recently": [
+        73
+      ],
+      "independent": [
+        74
+      ],
+      "remain": [
+        77
+      ],
+      "under": [
+        78
+      ],
+      "colonial": [
+        79,
+        223
+      ],
+      "quasi-sovereign": [
+        81
+      ],
+      "status": [
+        82
+      ],
+      "singled": [
+        83
+      ],
+      "out": [
+        84
+      ],
+      "blacklisted.": [
+        86
+      ],
+      "In": [
+        87
+      ],
+      "contrast,": [
+        88
+      ],
+      "world\u2019s": [
+        90
+      ],
+      "most": [
+        91
+      ],
+      "important": [
+        92
+      ],
+      "offshore": [
+        93
+      ],
+      "financial": [
+        94,
+        135
+      ],
+      "centres\u2014New": [
+        95
+      ],
+      "York,": [
+        96
+      ],
+      "London,": [
+        97
+      ],
+      "Ireland,": [
+        98
+      ],
+      "Switzerland,": [
+        99
+      ],
+      "Netherlands\u2014are": [
+        102
+      ],
+      "rarely,": [
+        103
+      ],
+      "if": [
+        104
+      ],
+      "ever,": [
+        105
+      ],
+      "mentioned": [
+        106
+      ],
+      "on": [
+        107,
+        220
+      ],
+      "these": [
+        108,
+        159
+      ],
+      "lists.1": [
+        109
+      ],
+      "The": [
+        110,
+        170
+      ],
+      "official": [
+        111
+      ],
+      "narrative": [
+        112
+      ],
+      "claims": [
+        113
+      ],
+      "Global": [
+        115,
+        177,
+        208
+      ],
+      "South": [
+        116,
+        178
+      ],
+      "blacklisted": [
+        119
+      ],
+      "failing": [
+        121
+      ],
+      "meet": [
+        123
+      ],
+      "standards,": [
+        125
+      ],
+      "enabling": [
+        127
+      ],
+      "evasion": [
+        129
+      ],
+      "avoidance,": [
+        131
+      ],
+      "tolerating": [
+        134
+      ],
+      "opacity": [
+        136
+      ],
+      "facilitates": [
+        138
+      ],
+      "money": [
+        139
+      ],
+      "laundering": [
+        140
+      ],
+      "other": [
+        142
+      ],
+      "criminogenic": [
+        143
+      ],
+      "practices.": [
+        144
+      ],
+      "Yet,": [
+        145
+      ],
+      "critical": [
+        146
+      ],
+      "scholars": [
+        147
+      ],
+      "law": [
+        150
+      ],
+      "political": [
+        153
+      ],
+      "economy": [
+        154
+      ],
+      "have": [
+        155
+      ],
+      "systematically": [
+        156
+      ],
+      "shown": [
+        157
+      ],
+      "explanations": [
+        160
+      ],
+      "at": [
+        162,
+        166
+      ],
+      "best": [
+        163
+      ],
+      "incomplete": [
+        164
+      ],
+      "worst": [
+        167
+      ],
+      "deliberately": [
+        168
+      ],
+      "misleading.2": [
+        169
+      ],
+      "persistent": [
+        171
+      ],
+      "blacklisting": [
+        172
+      ],
+      "Caribbean,": [
+        174
+      ],
+      "African,": [
+        175
+      ],
+      "states": [
+        179
+      ],
+      "is": [
+        180,
+        194
+      ],
+      "not": [
+        181,
+        227
+      ],
+      "simply": [
+        182
+      ],
+      "about": [
+        183
+      ],
+      "weak": [
+        184
+      ],
+      "systems": [
+        186
+      ],
+      "fragile": [
+        188
+      ],
+      "rule": [
+        189
+      ],
+      "law.": [
+        191
+      ],
+      "Instead,": [
+        192
+      ],
+      "a": [
+        195,
+        203,
+        215
+      ],
+      "late-twentieth-": [
+        196
+      ],
+      "twenty-first-century": [
+        198
+      ],
+      "form": [
+        199
+      ],
+      "fiscal": [
+        201
+      ],
+      "imperialism,": [
+        202
+      ],
+      "strategy": [
+        204
+      ],
+      "discipline": [
+        206
+      ],
+      "South,": [
+        209
+      ],
+      "protect": [
+        210
+      ],
+      "corporate": [
+        211
+      ],
+      "capital,": [
+        212
+      ],
+      "entrench": [
+        214
+      ],
+      "global": [
+        216
+      ],
+      "economic": [
+        217
+      ],
+      "order": [
+        218
+      ],
+      "built": [
+        219
+      ],
+      "racial": [
+        221,
+        237
+      ],
+      "hierarchies.": [
+        224
+      ],
+      "Blacklists": [
+        225
+      ],
+      "neutral": [
+        228
+      ],
+      "instruments": [
+        229
+      ],
+      "transparency;": [
+        231
+      ],
+      "they": [
+        232
+      ],
+      "contemporary": [
+        234
+      ],
+      "tools": [
+        235
+      ],
+      "geopolitical": [
+        239
+      ],
+      "exclusion.3": [
+        240
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-12-12T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4408163776",
+    "doi": "https://doi.org/10.1093/jiel/jgaf001",
+    "title": "Data governance and international trade law: exploring paths towards convergence",
+    "display_name": "Data governance and international trade law: exploring paths towards convergence",
+    "relevance_score": 1.7121396,
+    "publication_year": 2025,
+    "publication_date": "2025-03-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4408163776",
+      "doi": "https://doi.org/10.1093/jiel/jgaf001"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/jiel/jgaf001",
+      "doi": "https://doi.org/10.1093/jiel/jgaf001",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/jiel/jgaf001",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S197191252",
+        "display_name": "Journal of International Economic Law",
+        "issn_l": "1369-3034",
+        "issn": [
+          "1369-3034",
+          "1464-3758"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of International Economic Law",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "book-review",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://doi.org/10.2139/ssrn.5050528",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": null,
+          "display_name": "Mira Burri",
+          "orcid": "https://orcid.org/0000-0001-9224-3568",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9224-3568"
+          ]
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Mira Burri",
+        "raw_affiliation_strings": [],
+        "raw_orcid": "https://orcid.org/0000-0001-9224-3568",
+        "affiliations": []
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 0,
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [],
+    "apc_list": {
+      "value": 4535,
+      "currency": "USD",
+      "value_usd": 4535
+    },
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "28",
+      "issue": "1",
+      "first_page": "128",
+      "last_page": "132"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13364",
+      "display_name": "Digitalization, Law, and Regulation",
+      "score": 0.8901000022888184,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3308",
+        "display_name": "Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13364",
+        "display_name": "Digitalization, Law, and Regulation",
+        "score": 0.8901000022888184,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12156",
+        "display_name": "World Trade Organization Law",
+        "score": 0.09870000183582306,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14362",
+        "display_name": "Diverse Legal and Medical Studies",
+        "score": 0.002099999925121665,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1408",
+          "display_name": "Strategy and Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/data-governance",
+        "display_name": "data governance",
+        "score": 0.9929999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/international-trade-law",
+        "display_name": "international trade law",
+        "score": 0.9710000157356262
+      },
+      {
+        "id": "https://openalex.org/keywords/cross-border-data-flows",
+        "display_name": "cross-border data flows",
+        "score": 0.9369999766349792
+      },
+      {
+        "id": "https://openalex.org/keywords/data-sovereignty",
+        "display_name": "data sovereignty",
+        "score": 0.9229999780654907
+      },
+      {
+        "id": "https://openalex.org/keywords/data-localization",
+        "display_name": "data localization",
+        "score": 0.7689999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/trade-barriers",
+        "display_name": "trade barriers",
+        "score": 0.796999990940094
+      },
+      {
+        "id": "https://openalex.org/keywords/digital-economy",
+        "display_name": "digital economy",
+        "score": 0.6610000133514404
+      },
+      {
+        "id": "https://openalex.org/keywords/artificial-intelligence",
+        "display_name": "artificial intelligence",
+        "score": 0.652999997138977
+      },
+      {
+        "id": "https://openalex.org/keywords/privacy-protection",
+        "display_name": "privacy preservation",
+        "score": 0.7059999704360962
+      },
+      {
+        "id": "https://openalex.org/keywords/national-security",
+        "display_name": "national security",
+        "score": 0.8840000033378601
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2777303404",
+        "wikidata": "https://www.wikidata.org/wiki/Q759757",
+        "display_name": "Convergence (economics)",
+        "level": 2,
+        "score": 0.7307165861129761
+      },
+      {
+        "id": "https://openalex.org/C39389867",
+        "wikidata": "https://www.wikidata.org/wiki/Q380767",
+        "display_name": "Corporate governance",
+        "level": 2,
+        "score": 0.6439669132232666
+      },
+      {
+        "id": "https://openalex.org/C190253527",
+        "wikidata": "https://www.wikidata.org/wiki/Q295354",
+        "display_name": "Law and economics",
+        "level": 1,
+        "score": 0.4466905891895294
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.438810795545578
+      },
+      {
+        "id": "https://openalex.org/C155202549",
+        "wikidata": "https://www.wikidata.org/wiki/Q178803",
+        "display_name": "International trade",
+        "level": 1,
+        "score": 0.4385423958301544
+      },
+      {
+        "id": "https://openalex.org/C2777626329",
+        "wikidata": "https://www.wikidata.org/wiki/Q1946268",
+        "display_name": "International trade law",
+        "level": 2,
+        "score": 0.41690167784690857
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.4080166816711426
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.39817631244659424
+      },
+      {
+        "id": "https://openalex.org/C18547055",
+        "wikidata": "https://www.wikidata.org/wiki/Q47417",
+        "display_name": "International economics",
+        "level": 1,
+        "score": 0.34131038188934326
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.3336641490459442
+      },
+      {
+        "id": "https://openalex.org/C139719470",
+        "wikidata": "https://www.wikidata.org/wiki/Q39680",
+        "display_name": "Macroeconomics",
+        "level": 1,
+        "score": 0.09536400437355042
+      },
+      {
+        "id": "https://openalex.org/C10138342",
+        "wikidata": "https://www.wikidata.org/wiki/Q43015",
+        "display_name": "Finance",
+        "level": 1,
+        "score": 0.04886496067047119
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1093/jiel/jgaf001",
+        "doi": "https://doi.org/10.1093/jiel/jgaf001",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1093/jiel/jgaf001",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S197191252",
+          "display_name": "Journal of International Economic Law",
+          "issn_l": "1369-3034",
+          "issn": [
+            "1369-3034",
+            "1464-3758"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of International Economic Law",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "doi:10.2139/ssrn.5050528",
+        "doi": "https://doi.org/10.2139/ssrn.5050528",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.2139/ssrn.5050528",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210172589",
+          "display_name": "SSRN Electronic Journal",
+          "issn_l": "1556-5068",
+          "issn": [
+            "1556-5068"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1318003438",
+          "host_organization_name": "RELX Group (Netherlands)",
+          "host_organization_lineage": [
+            "https://openalex.org/I1318003438"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      },
+      {
+        "id": "pmh:oai:RePEc:oup:jieclw:v:28:y:2025:i:1:p:128-132.",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "http://hdl.handle.net/10.1093/jiel/jgaf001",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401271",
+          "display_name": "RePEc: Research Papers in Economics",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I77793887",
+          "host_organization_name": "Federal Reserve Bank of St. Louis",
+          "host_organization_lineage": [
+            "https://openalex.org/I77793887"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.2139/ssrn.5050528",
+      "doi": "https://doi.org/10.2139/ssrn.5050528",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.2139/ssrn.5050528",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210172589",
+        "display_name": "SSRN Electronic Journal",
+        "issn_l": "1556-5068",
+        "issn": [
+          "1556-5068"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1318003438",
+        "host_organization_name": "RELX Group (Netherlands)",
+        "host_organization_lineage": [
+          "https://openalex.org/I1318003438"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    },
+    "sustainable_development_goals": [
+      {
+        "score": 0.6601999998092651,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 1,
+    "referenced_works": [
+      "https://openalex.org/W4405524657"
+    ],
+    "related_works": [
+      "https://openalex.org/W4404719042",
+      "https://openalex.org/W4391163311",
+      "https://openalex.org/W4407096043",
+      "https://openalex.org/W7216427678",
+      "https://openalex.org/W4245036058",
+      "https://openalex.org/W7069017285",
+      "https://openalex.org/W7059966095",
+      "https://openalex.org/W7219927428",
+      "https://openalex.org/W2785246450",
+      "https://openalex.org/W4393256077"
+    ],
+    "abstract_inverted_index": {
+      "Data": [
+        0,
+        309
+      ],
+      "have": [
+        1,
+        91,
+        200,
+        258
+      ],
+      "become": [
+        2,
+        92,
+        259
+      ],
+      "so": [
+        3
+      ],
+      "essential": [
+        4
+      ],
+      "to": [
+        5,
+        12,
+        94,
+        172,
+        202,
+        274
+      ],
+      "economic": [
+        6,
+        46,
+        256
+      ],
+      "processes": [
+        7
+      ],
+      "that": [
+        8,
+        89,
+        214,
+        288
+      ],
+      "it": [
+        9,
+        25
+      ],
+      "is": [
+        10,
+        19,
+        128,
+        266,
+        284
+      ],
+      "said": [
+        11
+      ],
+      "be": [
+        13
+      ],
+      "the": [
+        14,
+        28,
+        56,
+        63,
+        81,
+        84,
+        101,
+        111,
+        132,
+        135,
+        163,
+        180,
+        186,
+        203,
+        216,
+        219,
+        223,
+        276,
+        281,
+        294
+      ],
+      "\u2018new": [
+        15
+      ],
+      "oil\u2019.1": [
+        16
+      ],
+      "While": [
+        17
+      ],
+      "this": [
+        18,
+        262,
+        285
+      ],
+      "not": [
+        20,
+        117
+      ],
+      "entirely": [
+        21
+      ],
+      "a": [
+        22,
+        206,
+        236,
+        243,
+        291
+      ],
+      "valid": [
+        23
+      ],
+      "statement,2": [
+        24
+      ],
+      "illustrates": [
+        26
+      ],
+      "well": [
+        27
+      ],
+      "centrality": [
+        29
+      ],
+      "of": [
+        30,
+        36,
+        58,
+        66,
+        80,
+        83,
+        103,
+        113,
+        137,
+        165,
+        188,
+        205,
+        208,
+        222,
+        231
+      ],
+      "data,": [
+        31
+      ],
+      "as": [
+        32,
+        39,
+        99,
+        162
+      ],
+      "with": [
+        33
+      ],
+      "other": [
+        34,
+        193
+      ],
+      "factors": [
+        35
+      ],
+      "production": [
+        37
+      ],
+      "such": [
+        38,
+        98
+      ],
+      "natural": [
+        40
+      ],
+      "resources": [
+        41
+      ],
+      "and": [
+        42,
+        49,
+        60,
+        87,
+        106,
+        125,
+        152,
+        184,
+        192,
+        196,
+        230,
+        240,
+        247,
+        254,
+        264,
+        279,
+        307,
+        313
+      ],
+      "human": [
+        43
+      ],
+      "capital,": [
+        44
+      ],
+      "modern": [
+        45
+      ],
+      "activity,": [
+        47
+      ],
+      "innovation,": [
+        48
+      ],
+      "growth": [
+        50
+      ],
+      "cannot": [
+        51
+      ],
+      "occur": [
+        52
+      ],
+      "without": [
+        53
+      ],
+      "data.3": [
+        54
+      ],
+      "In": [
+        55
+      ],
+      "context": [
+        57
+      ],
+      "trade": [
+        59,
+        61,
+        148,
+        210
+      ],
+      "policies,": [
+        62
+      ],
+      "growing": [
+        64
+      ],
+      "importance": [
+        65
+      ],
+      "data": [
+        67,
+        73,
+        85,
+        123,
+        143,
+        166,
+        173,
+        182,
+        217,
+        238,
+        252
+      ],
+      "has": [
+        68
+      ],
+      "had": [
+        69
+      ],
+      "one": [
+        70
+      ],
+      "crucial": [
+        71
+      ],
+      "implication:": [
+        72
+      ],
+      "must": [
+        74
+      ],
+      "flow": [
+        75
+      ],
+      "across": [
+        76
+      ],
+      "borders.": [
+        77
+      ],
+      "Otherwise,": [
+        78
+      ],
+      "many": [
+        79,
+        168
+      ],
+      "innovations": [
+        82
+      ],
+      "economy": [
+        86,
+        239
+      ],
+      "things": [
+        88
+      ],
+      "we": [
+        90
+      ],
+      "accustomed": [
+        93
+      ],
+      "in": [
+        95,
+        218,
+        261,
+        301
+      ],
+      "everyday": [
+        96
+      ],
+      "life,": [
+        97
+      ],
+      "apps,": [
+        100
+      ],
+      "provision": [
+        102
+      ],
+      "digital": [
+        104,
+        126
+      ],
+      "products": [
+        105
+      ],
+      "services,": [
+        107
+      ],
+      "cloud": [
+        108
+      ],
+      "computing,": [
+        109
+      ],
+      "or": [
+        110
+      ],
+      "Internet": [
+        112
+      ],
+      "Things,": [
+        114
+      ],
+      "would": [
+        115
+      ],
+      "plainly": [
+        116
+      ],
+      "function.4": [
+        118
+      ],
+      "The": [
+        119,
+        249
+      ],
+      "interdependence": [
+        120,
+        146
+      ],
+      "between": [
+        121,
+        251
+      ],
+      "cross-border": [
+        122
+      ],
+      "flows": [
+        124
+      ],
+      "innovation": [
+        127
+      ],
+      "critical": [
+        129,
+        260
+      ],
+      "also": [
+        130
+      ],
+      "for": [
+        131,
+        245,
+        270
+      ],
+      "future\u2014for": [
+        133
+      ],
+      "instance,": [
+        134
+      ],
+      "development": [
+        136
+      ],
+      "artificial": [
+        138
+      ],
+      "intelligence": [
+        139
+      ],
+      "(AI)": [
+        140
+      ],
+      "hinges": [
+        141
+      ],
+      "on": [
+        142
+      ],
+      "inputs.5": [
+        144
+      ],
+      "This": [
+        145
+      ],
+      "puts": [
+        147
+      ],
+      "policy": [
+        149
+      ],
+      "under": [
+        150
+      ],
+      "pressure": [
+        151
+      ],
+      "demands": [
+        153
+      ],
+      "solutions.": [
+        154
+      ],
+      "These": [
+        155,
+        198,
+        225
+      ],
+      "are": [
+        156
+      ],
+      "by": [
+        157
+      ],
+      "no": [
+        158
+      ],
+      "means": [
+        159
+      ],
+      "easy,": [
+        160
+      ],
+      "however,": [
+        161
+      ],
+      "use": [
+        164
+      ],
+      "opens": [
+        167
+      ],
+      "regulatory": [
+        169,
+        272
+      ],
+      "questions": [
+        170
+      ],
+      "pertaining": [
+        171
+      ],
+      "sovereignty\u2014that": [
+        174
+      ],
+      "is,": [
+        175
+      ],
+      "how": [
+        176
+      ],
+      "different": [
+        177
+      ],
+      "states": [
+        178
+      ],
+      "navigate": [
+        179
+      ],
+      "fluid": [
+        181
+      ],
+      "environment6": [
+        183
+      ],
+      "ensure": [
+        185
+      ],
+      "protection": [
+        187
+      ],
+      "privacy,": [
+        189
+      ],
+      "national": [
+        190
+      ],
+      "security,": [
+        191
+      ],
+      "domestic": [
+        194
+      ],
+      "values": [
+        195
+      ],
+      "interests.7": [
+        197
+      ],
+      "concerns": [
+        199
+      ],
+      "led": [
+        201
+      ],
+      "erection": [
+        204
+      ],
+      "palette": [
+        207
+      ],
+      "diverse": [
+        209
+      ],
+      "barriers,": [
+        211
+      ],
+      "including": [
+        212
+      ],
+      "measures": [
+        213
+      ],
+      "localize": [
+        215
+      ],
+      "territorial": [
+        220
+      ],
+      "bounds": [
+        221
+      ],
+      "state.8": [
+        224
+      ],
+      "measures,": [
+        226
+      ],
+      "even": [
+        227
+      ],
+      "if": [
+        228
+      ],
+      "justified": [
+        229
+      ],
+      "non-discriminatory": [
+        232
+      ],
+      "nature,": [
+        233
+      ],
+      "do": [
+        234
+      ],
+      "impede": [
+        235
+      ],
+      "seamless": [
+        237
+      ],
+      "come": [
+        241
+      ],
+      "at": [
+        242,
+        293
+      ],
+      "cost": [
+        244
+      ],
+      "businesses": [
+        246
+      ],
+      "countries.9": [
+        248
+      ],
+      "interfaces": [
+        250
+      ],
+      "governance": [
+        253
+      ],
+      "international": [
+        255
+      ],
+      "law": [
+        257
+      ],
+      "sense,": [
+        263
+      ],
+      "there": [
+        265
+      ],
+      "an": [
+        267
+      ],
+      "urgent": [
+        268
+      ],
+      "need": [
+        269
+      ],
+      "apt": [
+        271
+      ],
+      "toolboxes": [
+        273
+      ],
+      "manage": [
+        275
+      ],
+      "inherent": [
+        277
+      ],
+      "tensions": [
+        278
+      ],
+      "balance": [
+        280
+      ],
+      "trade-offs.": [
+        282
+      ],
+      "It": [
+        283
+      ],
+      "daunting": [
+        286
+      ],
+      "task": [
+        287
+      ],
+      "Neha": [
+        289
+      ],
+      "Mishra,": [
+        290
+      ],
+      "professor": [
+        292
+      ],
+      "Geneva": [
+        295
+      ],
+      "Graduate": [
+        296
+      ],
+      "Institute,": [
+        297
+      ],
+      "Switzerland,": [
+        298
+      ],
+      "takes": [
+        299
+      ],
+      "up": [
+        300
+      ],
+      "her": [
+        302
+      ],
+      "book": [
+        303
+      ],
+      "International": [
+        304
+      ],
+      "Trade": [
+        305
+      ],
+      "Law": [
+        306
+      ],
+      "Global": [
+        308
+      ],
+      "Governance:": [
+        310
+      ],
+      "Aligning": [
+        311
+      ],
+      "Perspectives": [
+        312
+      ],
+      "Practices.10": [
+        314
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2025-03-05T00:00:00"
   }
 ]

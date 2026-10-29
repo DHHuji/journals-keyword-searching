@@ -108975,7 +108975,7 @@
     "doi": "https://doi.org/10.1111/1468-4446.13216",
     "title": "Review of \u201cWork Pray Code: When Work Becomes Religion in Silicon Valley\u201d. By CarolynChen, Princeton, New Jersey, USA: Princeton University Press, 2022. 272 pp. $18.95/\u00a315.99",
     "display_name": "Review of \u201cWork Pray Code: When Work Becomes Religion in Silicon Valley\u201d. By CarolynChen, Princeton, New Jersey, USA: Princeton University Press, 2022. 272 pp. $18.95/\u00a315.99",
-    "relevance_score": 2.1852245,
+    "relevance_score": 4.4022274,
     "publication_year": 2025,
     "publication_date": "2025-04-13",
     "ids": {
@@ -108985,6 +108985,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1468-4446.13216",
+      "doi": "https://doi.org/10.1111/1468-4446.13216",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.13216",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.13216",
@@ -108999,6 +109000,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -109017,7 +109032,8 @@
       "raw_source_name": "The British Journal of Sociology",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -109033,7 +109049,10 @@
         "author": {
           "id": "https://openalex.org/A5033019834",
           "display_name": "Rebecca C. Franklin",
-          "orcid": "https://orcid.org/0009-0007-7054-0685"
+          "orcid": "https://orcid.org/0009-0007-7054-0685",
+          "observed_orcids": [
+            "https://orcid.org/0009-0007-7054-0685"
+          ]
         },
         "institutions": [
           {
@@ -109055,6 +109074,7 @@
         "raw_affiliation_strings": [
           "University of California San Diego  La Jolla California USA"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "University of California San Diego  La Jolla California USA",
@@ -109075,19 +109095,15 @@
       "https://openalex.org/I36258959"
     ],
     "apc_list": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": true,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.09844953,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "76",
@@ -109099,12 +109115,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12501",
-      "display_name": "Digital Economy and Work Transformation",
-      "score": 0.8420000076293945,
+      "id": "https://openalex.org/T12393",
+      "display_name": "Workplace Spirituality and Leadership",
+      "score": 0.6470000147819519,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -109117,9 +109133,26 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12501",
-        "display_name": "Digital Economy and Work Transformation",
-        "score": 0.8420000076293945,
+        "id": "https://openalex.org/T12393",
+        "display_name": "Workplace Spirituality and Leadership",
+        "score": 0.6470000147819519,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11507",
+        "display_name": "Religion and Society Interactions",
+        "score": 0.10419999808073044,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -109132,73 +109165,45 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T13277",
+        "display_name": "Media, Religion, Digital Communication",
+        "score": 0.0843999981880188,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/work",
-        "display_name": "Work (physics)",
-        "score": 0.6871957778930664
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.5907533764839172
-      },
-      {
-        "id": "https://openalex.org/keywords/code",
-        "display_name": "Code (set theory)",
-        "score": 0.5201133489608765
-      },
-      {
         "id": "https://openalex.org/keywords/silicon-valley",
-        "display_name": "Silicon valley",
-        "score": 0.45632198452949524
+        "display_name": "Silicon Valley",
+        "score": 0.5720000267028809
       },
       {
-        "id": "https://openalex.org/keywords/media-studies",
-        "display_name": "Media studies",
-        "score": 0.33993738889694214
+        "id": "https://openalex.org/keywords/technology-industry",
+        "display_name": "technology industry",
+        "score": 0.4790000021457672
       },
       {
-        "id": "https://openalex.org/keywords/religious-studies",
-        "display_name": "Religious studies",
-        "score": 0.3394297957420349
+        "id": "https://openalex.org/keywords/religion-and-work",
+        "display_name": "religion and work",
+        "score": 0.5699999928474426
       },
       {
-        "id": "https://openalex.org/keywords/engineering",
-        "display_name": "Engineering",
-        "score": 0.1886361539363861
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.17318150401115417
-      },
-      {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.15008950233459473
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.11405947804450989
-      },
-      {
-        "id": "https://openalex.org/keywords/computer-science",
-        "display_name": "Computer science",
-        "score": 0.06667357683181763
-      },
-      {
-        "id": "https://openalex.org/keywords/mechanical-engineering",
-        "display_name": "Mechanical engineering",
-        "score": 0.0514732301235199
-      },
-      {
-        "id": "https://openalex.org/keywords/programming-language",
-        "display_name": "Programming language",
-        "score": 0.025670379400253296
+        "id": "https://openalex.org/keywords/workplace-spirituality",
+        "display_name": "workplace spirituality",
+        "score": 0.5210000276565552
       }
     ],
     "concepts": [
@@ -109313,6 +109318,7 @@
     "locations": [
       {
         "id": "doi:10.1111/1468-4446.13216",
+        "doi": "https://doi.org/10.1111/1468-4446.13216",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/1468-4446.13216",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.13216",
@@ -109327,6 +109333,20 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-3",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -109348,6 +109368,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1111/1468-4446.13216",
+      "doi": "https://doi.org/10.1111/1468-4446.13216",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.13216",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.13216",
@@ -109362,6 +109383,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -109380,18 +109415,20 @@
       "raw_source_name": "The British Journal of Sociology",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "display_name": "Decent work and economic growth",
+        "id": "https://metadata.un.org/sdg/8",
         "score": 0.4099999964237213,
-        "id": "https://metadata.un.org/sdg/8"
+        "display_name": "Decent work and economic growth"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": true
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4409402490.pdf",
@@ -109432,7 +109469,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-03-11T06:11:40.159057",
+    "updated_date": "2026-08-23T07:36:19.812096",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -132993,17 +133030,19 @@
     "doi": "https://doi.org/10.1111/1468-4446.70008",
     "title": "What is the Liberalizing Potential of Higher Education? An Analysis of Academic Fields and Anti\u2010Immigrant Sentiment Across 32 Countries",
     "display_name": "What is the Liberalizing Potential of Higher Education? An Analysis of Academic Fields and Anti\u2010Immigrant Sentiment Across 32 Countries",
-    "relevance_score": 1.5289488,
+    "relevance_score": 0.7653945,
     "publication_year": 2025,
     "publication_date": "2025-07-08",
     "ids": {
       "openalex": "https://openalex.org/W4412116425",
       "doi": "https://doi.org/10.1111/1468-4446.70008",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/41324570"
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/41324570",
+      "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/12668234"
     },
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1468-4446.70008",
+      "doi": "https://doi.org/10.1111/1468-4446.70008",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.70008",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.70008",
@@ -133018,6 +133057,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -133036,6 +133089,7 @@
       "raw_source_name": "The British Journal of Sociology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -133053,19 +133107,12 @@
         "author": {
           "id": "https://openalex.org/A5086516623",
           "display_name": "Maureen A. Eger",
-          "orcid": "https://orcid.org/0000-0001-9023-7316"
+          "orcid": "https://orcid.org/0000-0001-9023-7316",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9023-7316"
+          ]
         },
         "institutions": [
-          {
-            "id": "https://openalex.org/I40036882",
-            "display_name": "Institute for Advanced Study",
-            "ror": "https://ror.org/00f809463",
-            "country_code": "US",
-            "type": "facility",
-            "lineage": [
-              "https://openalex.org/I40036882"
-            ]
-          },
           {
             "id": "https://openalex.org/I90267481",
             "display_name": "Ume\u00e5 University",
@@ -133102,7 +133149,6 @@
           {
             "raw_affiliation_string": "Center for Advanced Study in the Behavioral Sciences Stanford University  Stanford California USA",
             "institution_ids": [
-              "https://openalex.org/I40036882",
               "https://openalex.org/I97018004"
             ]
           },
@@ -133119,7 +133165,10 @@
         "author": {
           "id": "https://openalex.org/A5046975645",
           "display_name": "Mikael Hjerm",
-          "orcid": "https://orcid.org/0000-0003-4203-5394"
+          "orcid": "https://orcid.org/0000-0003-4203-5394",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4203-5394"
+          ]
         },
         "institutions": [
           {
@@ -133156,7 +133205,10 @@
         "author": {
           "id": "https://openalex.org/A5025052700",
           "display_name": "Paolo Vel\u00e1squez",
-          "orcid": "https://orcid.org/0000-0001-5525-468X"
+          "orcid": "https://orcid.org/0000-0001-5525-468X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5525-468X"
+          ]
         },
         "institutions": [
           {
@@ -133189,8 +133241,8 @@
         "raw_affiliation_strings": [
           "Centre on Migration Policy and Society University of Oxford  Oxford UK",
           "Institute for Future Studies  Stockholm Sweden",
-          "Institute for Future Studies, Stockholm, Sweden",
-          "Centre on Migration, Policy and Society, University of Oxford, Oxford, UK"
+          "Centre on Migration, Policy and Society, University of Oxford, Oxford, UK",
+          "Institute for Future Studies, Stockholm, Sweden"
         ],
         "raw_orcid": "https://orcid.org/0000-0001-5525-468X",
         "affiliations": [
@@ -133207,15 +133259,15 @@
             ]
           },
           {
-            "raw_affiliation_string": "Institute for Future Studies, Stockholm, Sweden",
-            "institution_ids": [
-              "https://openalex.org/I4210099977"
-            ]
-          },
-          {
             "raw_affiliation_string": "Centre on Migration, Policy and Society, University of Oxford, Oxford, UK",
             "institution_ids": [
               "https://openalex.org/I40120149"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute for Future Studies, Stockholm, Sweden",
+            "institution_ids": [
+              "https://openalex.org/I4210099977"
             ]
           }
         ]
@@ -133223,35 +133275,34 @@
     ],
     "institutions": [],
     "countries_distinct_count": 3,
-    "institutions_distinct_count": 3,
+    "institutions_distinct_count": 4,
     "corresponding_author_ids": [
       "https://openalex.org/A5086516623"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I40036882",
       "https://openalex.org/I90267481",
       "https://openalex.org/I97018004"
     ],
     "apc_list": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
     "apc_paid": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
-    "fwci": 3.4272,
+    "fwci": 5.2271,
     "has_fulltext": true,
-    "cited_by_count": 1,
+    "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.91228275,
+      "value": 0.94756242,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 96,
+      "min": 97,
       "max": 98
     },
     "biblio": {
@@ -133264,12 +133315,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10907",
-      "display_name": "International Student and Expatriate Challenges",
-      "score": 0.9248999953269958,
+      "id": "https://openalex.org/T10216",
+      "display_name": "Migration, Refugees, and Integration",
+      "score": 0.5121999979019165,
       "subfield": {
-        "id": "https://openalex.org/subfields/3315",
-        "display_name": "Communication"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -133282,12 +133333,12 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10907",
-        "display_name": "International Student and Expatriate Challenges",
-        "score": 0.9248999953269958,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.5121999979019165,
         "subfield": {
-          "id": "https://openalex.org/subfields/3315",
-          "display_name": "Communication"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -133299,9 +133350,26 @@
         }
       },
       {
-        "id": "https://openalex.org/T10546",
-        "display_name": "Higher Education Governance and Development",
-        "score": 0.9182000160217285,
+        "id": "https://openalex.org/T10314",
+        "display_name": "Social and Intergroup Psychology",
+        "score": 0.4113999903202057,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10108",
+        "display_name": "Electoral Systems and Political Participation",
+        "score": 0.009399999864399433,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -133318,39 +133386,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/immigration",
-        "display_name": "Immigration",
-        "score": 0.7503585815429688
+        "id": "https://openalex.org/keywords/higher-education",
+        "display_name": "higher education",
+        "score": 0.7870000004768372
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.5431444048881531
+        "id": "https://openalex.org/keywords/anti-immigrant-sentiment",
+        "display_name": "anti-immigrant sentiment",
+        "score": 0.8059999942779541
       },
       {
-        "id": "https://openalex.org/keywords/demographic-economics",
-        "display_name": "Demographic economics",
-        "score": 0.4299895763397217
+        "id": "https://openalex.org/keywords/field-of-study",
+        "display_name": "field of study",
+        "score": 0.8489999771118164
       },
       {
-        "id": "https://openalex.org/keywords/social-science",
-        "display_name": "Social science",
-        "score": 0.3389071822166443
+        "id": "https://openalex.org/keywords/educational-attainment",
+        "display_name": "educational attainment",
+        "score": 0.9610000252723694
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.29986149072647095
+        "id": "https://openalex.org/keywords/arts-and-humanities",
+        "display_name": "arts and humanities",
+        "score": 0.7089999914169312
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.22031375765800476
+        "id": "https://openalex.org/keywords/cross-national-comparison",
+        "display_name": "cross-national comparison",
+        "score": 0.5590000152587891
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.18672436475753784
+        "id": "https://openalex.org/keywords/european-social-survey",
+        "display_name": "European Social Survey",
+        "score": 0.7590000033378601
       }
     ],
     "concepts": [
@@ -133700,10 +133768,11 @@
         "is_major_topic": true
       }
     ],
-    "locations_count": 4,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1111/1468-4446.70008",
+        "doi": "https://doi.org/10.1111/1468-4446.70008",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/1468-4446.70008",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.70008",
@@ -133718,6 +133787,20 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-3",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -133738,6 +133821,7 @@
       },
       {
         "id": "pmid:41324570",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41324570",
         "pdf_url": null,
@@ -133749,6 +133833,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -133763,12 +133848,13 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "The British journal of sociology",
-        "raw_type": null
+        "raw_type": "Journal Article"
       },
       {
         "id": "pmh:oai:DiVA.org:umu-241419",
+        "doi": null,
         "is_oa": true,
-        "landing_page_url": "http://urn.kb.se/resolve?urn=urn:nbn:se:umu:diva-241419",
+        "landing_page_url": "https://umu.diva-portal.org/smash/get/diva2:1976439/FULLTEXT02",
         "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S4306400361",
@@ -133778,6 +133864,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I90267481",
           "host_organization_name": "Ume\u00e5 University",
           "host_organization_lineage": [
@@ -133792,40 +133879,12 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "text"
-      },
-      {
-        "id": "pmh:oai:ora.ox.ac.uk:uuid:e5013dda-7926-4e2b-a79f-6a878d8e593f",
-        "is_oa": false,
-        "landing_page_url": null,
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4306402636",
-          "display_name": "Oxford University Research Archive (ORA) (University of Oxford)",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "host_organization": "https://openalex.org/I40120149",
-          "host_organization_name": "University of Oxford",
-          "host_organization_lineage": [
-            "https://openalex.org/I40120149"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": "Jisc Publications Router",
-        "raw_type": "http://purl.org/coar/resource_type/c_dcae04bc"
+        "raw_type": "info:eu-repo/semantics/article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1111/1468-4446.70008",
+      "doi": "https://doi.org/10.1111/1468-4446.70008",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.70008",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.70008",
@@ -133840,6 +133899,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -133858,19 +133931,30 @@
       "raw_source_name": "The British Journal of Sociology",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/4",
+        "score": 0.9235000014305115,
+        "display_name": "Quality education"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7578999996185303,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "id": "https://openalex.org/study-designs/observational-study",
+        "display_name": "Observational Study"
+      }
+    ],
     "awards": [
       {
         "id": "https://openalex.org/G5872213015",
-        "display_name": null,
+        "display_name": "Examining the liberalizing effect of higher education: A longitudinal cohort study of a university student population",
         "funder_award_id": "2019-02996",
-        "funder_id": "https://openalex.org/F4320322581",
-        "funder_display_name": "Vetenskapsr\u00e5det"
-      },
-      {
-        "id": "https://openalex.org/G8805631652",
-        "display_name": null,
-        "funder_award_id": "2019\u201002996",
         "funder_id": "https://openalex.org/F4320322581",
         "funder_display_name": "Vetenskapsr\u00e5det"
       }
@@ -133883,8 +133967,8 @@
       }
     ],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": true
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4412116425.pdf",
@@ -133916,16 +134000,16 @@
       "https://openalex.org/W4403530874"
     ],
     "related_works": [
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W117615249",
-      "https://openalex.org/W2117752611",
-      "https://openalex.org/W2154128110",
-      "https://openalex.org/W1526100476",
-      "https://openalex.org/W2036142968",
-      "https://openalex.org/W1606538926",
-      "https://openalex.org/W2189242000",
-      "https://openalex.org/W3124423939",
-      "https://openalex.org/W2111226875"
+      "https://openalex.org/W4229018469",
+      "https://openalex.org/W2972726632",
+      "https://openalex.org/W2521469528",
+      "https://openalex.org/W4415818524",
+      "https://openalex.org/W2162006724",
+      "https://openalex.org/W4406035465",
+      "https://openalex.org/W4399883385",
+      "https://openalex.org/W4386859596",
+      "https://openalex.org/W4392294825",
+      "https://openalex.org/W4379536330"
     ],
     "abstract_inverted_index": {
       "The": [
@@ -134361,10 +134445,10 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 1
+        "cited_by_count": 3
       }
     ],
-    "updated_date": "2026-03-27T05:58:40.876381",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -138048,7 +138132,7 @@
     "doi": "https://doi.org/10.1111/1468-4446.13197",
     "title": "Physical Fit: The Role of Sports in Elite Hiring in Norway",
     "display_name": "Physical Fit: The Role of Sports in Elite Hiring in Norway",
-    "relevance_score": 1.4714766,
+    "relevance_score": 0.6140555,
     "publication_year": 2025,
     "publication_date": "2025-02-14",
     "ids": {
@@ -138059,6 +138143,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1468-4446.13197",
+      "doi": "https://doi.org/10.1111/1468-4446.13197",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.13197",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.13197",
@@ -138073,6 +138158,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -138091,6 +138190,7 @@
       "raw_source_name": "The British Journal of Sociology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -138106,9 +138206,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5091120781",
-          "display_name": "Lisa M. B. S\u00f8lvberg",
-          "orcid": null
+          "id": "https://openalex.org/A5042042907",
+          "display_name": "Lisa MB S\u00f8lvberg",
+          "orcid": "https://orcid.org/0000-0002-6084-1958",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6084-1958"
+          ]
         },
         "institutions": [
           {
@@ -138152,7 +138255,10 @@
         "author": {
           "id": "https://openalex.org/A5010644797",
           "display_name": "Lauren A. Rivera",
-          "orcid": "https://orcid.org/0000-0003-2733-3641"
+          "orcid": "https://orcid.org/0000-0003-2733-3641",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2733-3641"
+          ]
         },
         "institutions": [
           {
@@ -138196,32 +138302,32 @@
     "countries_distinct_count": 2,
     "institutions_distinct_count": 2,
     "corresponding_author_ids": [
-      "https://openalex.org/A5091120781"
+      "https://openalex.org/A5042042907"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I4432739"
     ],
     "apc_list": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
     "apc_paid": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
-    "fwci": 7.4463,
+    "fwci": 7.1845,
     "has_fulltext": true,
-    "cited_by_count": 2,
+    "cited_by_count": 4,
     "citation_normalized_percentile": {
-      "value": 0.95391114,
+      "value": 0.95898077,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 95,
-      "max": 96
+      "min": 93,
+      "max": 97
     },
     "biblio": {
       "volume": "76",
@@ -138233,9 +138339,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11474",
-      "display_name": "Sport and Mega-Event Impacts",
-      "score": 0.9980000257492065,
+      "id": "https://openalex.org/T11895",
+      "display_name": "Social and Cultural Dynamics",
+      "score": 0.5830000042915344,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -138251,9 +138357,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11474",
-        "display_name": "Sport and Mega-Event Impacts",
-        "score": 0.9980000257492065,
+        "id": "https://openalex.org/T11895",
+        "display_name": "Social and Cultural Dynamics",
+        "score": 0.5830000042915344,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -138268,12 +138374,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T10942",
-        "display_name": "Sports, Gender, and Society",
-        "score": 0.9940000176429749,
+        "id": "https://openalex.org/T14140",
+        "display_name": "Elite Sociology and Global Capitalism",
+        "score": 0.38089999556541443,
         "subfield": {
-          "id": "https://openalex.org/subfields/3318",
-          "display_name": "Gender Studies"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -138285,9 +138391,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T11895",
-        "display_name": "Social and Cultural Dynamics",
-        "score": 0.9732000231742859,
+        "id": "https://openalex.org/T13296",
+        "display_name": "Physical Education and Sports Studies",
+        "score": 0.012000000104308128,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -138304,29 +138410,24 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/elite",
-        "display_name": "Elite",
-        "score": 0.9035136699676514
+        "id": "https://openalex.org/keywords/sports-participation",
+        "display_name": "sports participation",
+        "score": 0.7080000042915344
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.6521451473236084
+        "id": "https://openalex.org/keywords/physical-capital",
+        "display_name": "physical capital",
+        "score": 0.7020000219345093
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.23114562034606934
+        "id": "https://openalex.org/keywords/hiring-criteria",
+        "display_name": "hiring criteria",
+        "score": 0.49300000071525574
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.15790212154388428
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.036832571029663086
+        "id": "https://openalex.org/keywords/cultural-elites",
+        "display_name": "cultural elites",
+        "score": 0.6340000033378601
       }
     ],
     "concepts": [
@@ -138526,6 +138627,7 @@
     "locations": [
       {
         "id": "doi:10.1111/1468-4446.13197",
+        "doi": "https://doi.org/10.1111/1468-4446.13197",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/1468-4446.13197",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.13197",
@@ -138540,6 +138642,20 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-3",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -138560,6 +138676,7 @@
       },
       {
         "id": "pmid:39949299",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/39949299",
         "pdf_url": null,
@@ -138571,6 +138688,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -138585,11 +138703,12 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "The British journal of sociology",
-        "raw_type": null
+        "raw_type": "Journal Article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1111/1468-4446.13197",
+      "doi": "https://doi.org/10.1111/1468-4446.13197",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.13197",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.13197",
@@ -138604,6 +138723,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -138624,11 +138757,24 @@
     },
     "sustainable_development_goals": [
       {
-        "display_name": "Decent work and economic growth",
-        "score": 0.5600000023841858,
-        "id": "https://metadata.un.org/sdg/8"
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7578999996185303,
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/8",
+        "score": 0.7257999777793884,
+        "display_name": "Decent work and economic growth"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/8",
+        "score": 0.5600000023841858,
+        "display_name": "Decent work and economic growth"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -138648,13 +138794,14 @@
       }
     ],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": false
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4407560157.pdf"
+      "pdf": "https://content.openalex.org/works/W4407560157.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4407560157.grobid-xml"
     },
-    "referenced_works_count": 89,
+    "referenced_works_count": 86,
     "referenced_works": [
       "https://openalex.org/W1215260153",
       "https://openalex.org/W1498822692",
@@ -138662,6 +138809,7 @@
       "https://openalex.org/W1541009479",
       "https://openalex.org/W1541960790",
       "https://openalex.org/W1573433511",
+      "https://openalex.org/W1580626384",
       "https://openalex.org/W1601803849",
       "https://openalex.org/W1797402740",
       "https://openalex.org/W1963671501",
@@ -138684,7 +138832,6 @@
       "https://openalex.org/W2117235095",
       "https://openalex.org/W2123149622",
       "https://openalex.org/W2127080691",
-      "https://openalex.org/W2133144791",
       "https://openalex.org/W2141504175",
       "https://openalex.org/W2141708772",
       "https://openalex.org/W2147504979",
@@ -138693,6 +138840,7 @@
       "https://openalex.org/W2165468268",
       "https://openalex.org/W2171648128",
       "https://openalex.org/W2192923298",
+      "https://openalex.org/W2279689082",
       "https://openalex.org/W2281979523",
       "https://openalex.org/W2289678093",
       "https://openalex.org/W2323845619",
@@ -138709,9 +138857,9 @@
       "https://openalex.org/W2919601344",
       "https://openalex.org/W3023410280",
       "https://openalex.org/W3111316124",
+      "https://openalex.org/W3124515015",
       "https://openalex.org/W3176017790",
       "https://openalex.org/W3176563913",
-      "https://openalex.org/W4205450981",
       "https://openalex.org/W4233135909",
       "https://openalex.org/W4237327899",
       "https://openalex.org/W4242161550",
@@ -138731,17 +138879,13 @@
       "https://openalex.org/W4396851722",
       "https://openalex.org/W4399871470",
       "https://openalex.org/W6628148674",
-      "https://openalex.org/W6629714622",
       "https://openalex.org/W6632025762",
       "https://openalex.org/W6662393160",
       "https://openalex.org/W6676825501",
       "https://openalex.org/W6680069530",
-      "https://openalex.org/W6695105344",
-      "https://openalex.org/W6744188533",
       "https://openalex.org/W6817839100",
       "https://openalex.org/W6825502754",
       "https://openalex.org/W6826267512",
-      "https://openalex.org/W6850985598",
       "https://openalex.org/W6903221018",
       "https://openalex.org/W7010286062",
       "https://openalex.org/W7082828368"
@@ -139388,11 +139532,15 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
         "year": 2025,
-        "cited_by_count": 2
+        "cited_by_count": 3
       }
     ],
-    "updated_date": "2026-03-11T06:11:40.159057",
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -227089,7 +227237,7 @@
     "doi": "https://doi.org/10.1111/1468-4446.70009",
     "title": "Intellectual Solidarity and Reflexive Dislocation: Sociology in the Age of Global Authoritarianism",
     "display_name": "Intellectual Solidarity and Reflexive Dislocation: Sociology in the Age of Global Authoritarianism",
-    "relevance_score": 0.43023872,
+    "relevance_score": 0.85296607,
     "publication_year": 2025,
     "publication_date": "2025-06-26",
     "ids": {
@@ -227100,6 +227248,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1468-4446.70009",
+      "doi": "https://doi.org/10.1111/1468-4446.70009",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.70009",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.70009",
@@ -227114,6 +227263,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -227132,6 +227295,7 @@
       "raw_source_name": "The British Journal of Sociology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -227149,7 +227313,10 @@
         "author": {
           "id": "https://openalex.org/A5024590691",
           "display_name": "Salvador Santino F. Regilme",
-          "orcid": "https://orcid.org/0000-0001-6597-2642"
+          "orcid": "https://orcid.org/0000-0001-6597-2642",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6597-2642"
+          ]
         },
         "institutions": [
           {
@@ -227160,16 +227327,6 @@
             "type": "education",
             "lineage": [
               "https://openalex.org/I121797337"
-            ]
-          },
-          {
-            "id": "https://openalex.org/I4210157907",
-            "display_name": "International Institute for Asian Studies",
-            "ror": "https://ror.org/04tz9fd40",
-            "country_code": "NL",
-            "type": "facility",
-            "lineage": [
-              "https://openalex.org/I4210157907"
             ]
           }
         ],
@@ -227193,7 +227350,6 @@
           {
             "raw_affiliation_string": "Faculty of Humanities Leiden University, History and International Studies, Institute for History, Leiden, the Netherlands",
             "institution_ids": [
-              "https://openalex.org/I4210157907",
               "https://openalex.org/I121797337"
             ]
           }
@@ -227207,28 +227363,30 @@
       "https://openalex.org/A5024590691"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I121797337",
-      "https://openalex.org/I4210157907"
+      "https://openalex.org/I121797337"
     ],
     "apc_list": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
     "apc_paid": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
-    "fwci": 0.0,
+    "fwci": 1.7783,
     "has_fulltext": true,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.19443217,
+      "value": 0.85754338,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": null,
       "issue": null,
@@ -227241,7 +227399,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12231",
       "display_name": "Contemporary Sociological Theory and Practice",
-      "score": 0.9994000196456909,
+      "score": 0.9916999936103821,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -227259,7 +227417,7 @@
       {
         "id": "https://openalex.org/T12231",
         "display_name": "Contemporary Sociological Theory and Practice",
-        "score": 0.9994000196456909,
+        "score": 0.9916999936103821,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -227274,29 +227432,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T13721",
-        "display_name": "Political Science Research and Education",
-        "score": 0.9825000166893005,
+        "id": "https://openalex.org/T11981",
+        "display_name": "Qualitative Research Methods and Ethics",
+        "score": 0.002899999963119626,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14181",
+        "display_name": "Academic Freedom and Politics",
+        "score": 0.0015999999595806003,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T11895",
-        "display_name": "Social and Cultural Dynamics",
-        "score": 0.9704999923706055,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -227310,59 +227468,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/reflexivity",
-        "display_name": "Reflexivity",
-        "score": 0.81272292137146
+        "id": "https://openalex.org/keywords/intellectual-solidarity",
+        "display_name": "intellectual solidarity",
+        "score": 1.0
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.7222762703895569
+        "id": "https://openalex.org/keywords/academic-migration",
+        "display_name": "academic migration",
+        "score": 0.8650000095367432
       },
       {
-        "id": "https://openalex.org/keywords/scholarship",
-        "display_name": "Scholarship",
-        "score": 0.6631314754486084
+        "id": "https://openalex.org/keywords/marketization-of-higher-education",
+        "display_name": "marketization of higher education",
+        "score": 0.8489999771118164
       },
       {
-        "id": "https://openalex.org/keywords/solidarity",
-        "display_name": "Solidarity",
-        "score": 0.6548309326171875
+        "id": "https://openalex.org/keywords/surveillance-governance",
+        "display_name": "surveillance governance",
+        "score": 0.9829999804496765
       },
       {
-        "id": "https://openalex.org/keywords/authoritarianism",
-        "display_name": "Authoritarianism",
-        "score": 0.5264242887496948
+        "id": "https://openalex.org/keywords/epistemic-humility",
+        "display_name": "epistemic humility",
+        "score": 0.9710000157356262
       },
       {
-        "id": "https://openalex.org/keywords/austerity",
-        "display_name": "Austerity",
-        "score": 0.47454652190208435
+        "id": "https://openalex.org/keywords/public-accountability",
+        "display_name": "public accountability",
+        "score": 0.9020000100135803
       },
       {
-        "id": "https://openalex.org/keywords/praxis",
-        "display_name": "Praxis",
-        "score": 0.4585975408554077
+        "id": "https://openalex.org/keywords/engaged-scholarship",
+        "display_name": "engaged scholarship",
+        "score": 0.7179999947547913
       },
       {
-        "id": "https://openalex.org/keywords/social-science",
-        "display_name": "Social science",
-        "score": 0.35147953033447266
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.22616717219352722
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.211722731590271
-      },
-      {
-        "id": "https://openalex.org/keywords/democracy",
-        "display_name": "Democracy",
-        "score": 0.13054683804512024
+        "id": "https://openalex.org/keywords/institutional-erosion",
+        "display_name": "institutional erosion",
+        "score": 0.5049999952316284
       }
     ],
     "concepts": [
@@ -227452,10 +227595,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 3,
+    "locations_count": 4,
     "locations": [
       {
         "id": "doi:10.1111/1468-4446.70009",
+        "doi": "https://doi.org/10.1111/1468-4446.70009",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/1468-4446.70009",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.70009",
@@ -227470,6 +227614,20 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-3",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -227490,6 +227648,7 @@
       },
       {
         "id": "pmid:40569953",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40569953",
         "pdf_url": null,
@@ -227501,6 +227660,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -227515,10 +227675,42 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "The British journal of sociology",
-        "raw_type": null
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:alma.31UKB_LEU:9940746557102711",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/1887/4252023",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400850",
+          "display_name": "Leiden Repository (Leiden University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I121797337",
+          "host_organization_name": "Leiden University",
+          "host_organization_lineage": [
+            "https://openalex.org/I121797337"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The British Journal of Sociology, No. 2025",
+        "raw_type": "http://purl.org/coar/resource_type/c_6501"
       },
       {
         "id": "pmh:oai:scholarlypublications.universiteitleiden.nl:item_4252023",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://hdl.handle.net/1887/4252023",
         "pdf_url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A4252024/view",
@@ -227530,6 +227722,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I121797337",
           "host_organization_name": "Leiden University",
           "host_organization_lineage": [
@@ -227544,11 +227737,12 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": "The British Journal of Sociology",
-        "raw_type": "Text"
+        "raw_type": "Article / Letter to editor"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1111/1468-4446.70009",
+      "doi": "https://doi.org/10.1111/1468-4446.70009",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.70009",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1468-4446.70009",
@@ -227563,6 +227757,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -227583,22 +227791,30 @@
     },
     "sustainable_development_goals": [
       {
-        "display_name": "Reduced inequalities",
-        "score": 0.8199999928474426,
-        "id": "https://metadata.un.org/sdg/10"
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.5473999977111816,
+        "display_name": "Peace, justice, and strong institutions"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.8199999928474426,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": true
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4411689124.pdf",
       "grobid_xml": "https://content.openalex.org/works/W4411689124.grobid-xml"
     },
-    "referenced_works_count": 36,
+    "referenced_works_count": 31,
     "referenced_works": [
       "https://openalex.org/W22606120",
       "https://openalex.org/W42032803",
@@ -227627,12 +227843,7 @@
       "https://openalex.org/W4403180601",
       "https://openalex.org/W4408498068",
       "https://openalex.org/W4409687270",
-      "https://openalex.org/W6600919800",
-      "https://openalex.org/W6680566811",
-      "https://openalex.org/W6731683882",
-      "https://openalex.org/W6770227473",
       "https://openalex.org/W6822748816",
-      "https://openalex.org/W6848654394",
       "https://openalex.org/W6903221018",
       "https://openalex.org/W7019137808",
       "https://openalex.org/W7036302047"
@@ -228022,8 +228233,13 @@
         154
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-17T09:40:24.721904",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -247088,17 +247304,19 @@
     "doi": "https://doi.org/10.1111/1468-4446.70119",
     "title": "Ficto\u2010Primitive Capital: What Wellness Seekers Gain From Practicing Shamanism and Other Healing Traditions",
     "display_name": "Ficto\u2010Primitive Capital: What Wellness Seekers Gain From Practicing Shamanism and Other Healing Traditions",
-    "relevance_score": 0.37105376,
+    "relevance_score": 0.73415554,
     "publication_year": 2026,
     "publication_date": "2026-04-11",
     "ids": {
       "openalex": "https://openalex.org/W7153521468",
       "doi": "https://doi.org/10.1111/1468-4446.70119",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/41964340"
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/41964340",
+      "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/13536518"
     },
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1468-4446.70119",
+      "doi": "https://doi.org/10.1111/1468-4446.70119",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.70119",
       "pdf_url": null,
@@ -247113,6 +247331,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -247131,16 +247363,17 @@
       "raw_source_name": "The British Journal of Sociology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
       "pubmed"
     ],
     "open_access": {
-      "is_oa": false,
-      "oa_status": "closed",
-      "oa_url": null,
-      "any_repository_has_fulltext": false
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13536518/pdf/BJOS-77-743.pdf",
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -247148,7 +247381,10 @@
         "author": {
           "id": "https://openalex.org/A5047637458",
           "display_name": "Catherine Tan",
-          "orcid": "https://orcid.org/0000-0002-0027-7742"
+          "orcid": "https://orcid.org/0000-0002-0027-7742",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0027-7742"
+          ]
         },
         "institutions": [
           {
@@ -247191,40 +247427,40 @@
       "https://openalex.org/I126820664"
     ],
     "apc_list": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
     "apc_paid": null,
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.854797,
+      "value": 0.22305568,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "77",
+      "issue": "4",
+      "first_page": "743",
+      "last_page": "754"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12553",
-      "display_name": "Psychedelics and Drug Studies",
-      "score": 0.23880000412464142,
+      "id": "https://openalex.org/T10149",
+      "display_name": "Anthropological Studies and Insights",
+      "score": 0.5238999724388123,
       "subfield": {
-        "id": "https://openalex.org/subfields/3203",
-        "display_name": "Clinical Psychology"
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -247233,16 +247469,16 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12553",
-        "display_name": "Psychedelics and Drug Studies",
-        "score": 0.23880000412464142,
+        "id": "https://openalex.org/T10149",
+        "display_name": "Anthropological Studies and Insights",
+        "score": 0.5238999724388123,
         "subfield": {
-          "id": "https://openalex.org/subfields/3203",
-          "display_name": "Clinical Psychology"
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
         },
         "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -247250,16 +247486,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T12448",
-        "display_name": "Paranormal Experiences and Beliefs",
-        "score": 0.056299999356269836,
+        "id": "https://openalex.org/T13005",
+        "display_name": "Religious Studies and Spiritual Practices",
+        "score": 0.336899995803833,
         "subfield": {
-          "id": "https://openalex.org/subfields/3207",
-          "display_name": "Social Psychology"
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
         },
         "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -247267,12 +247503,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T10348",
-        "display_name": "Indigenous Health, Education, and Rights",
-        "score": 0.04690000042319298,
+        "id": "https://openalex.org/T13266",
+        "display_name": "Indigenous Studies in Latin America",
+        "score": 0.02419999986886978,
         "subfield": {
-          "id": "https://openalex.org/subfields/3306",
-          "display_name": "Health"
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -247287,43 +247523,43 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/shamanism",
-        "display_name": "Shamanism",
-        "score": 0.9265999794006348
+        "display_name": "shamanism",
+        "score": 0.8790000081062317
       },
       {
-        "id": "https://openalex.org/keywords/ethnography",
-        "display_name": "Ethnography",
-        "score": 0.784600019454956
+        "id": "https://openalex.org/keywords/wellness-industry",
+        "display_name": "wellness industry",
+        "score": 0.8489999771118164
       },
       {
-        "id": "https://openalex.org/keywords/indigenous",
-        "display_name": "Indigenous",
-        "score": 0.7077000141143799
+        "id": "https://openalex.org/keywords/cultural-imperialism",
+        "display_name": "cultural imperialism",
+        "score": 0.7710000276565552
       },
       {
-        "id": "https://openalex.org/keywords/seekers",
-        "display_name": "Seekers",
-        "score": 0.6728000044822693
+        "id": "https://openalex.org/keywords/commodification-of-spirituality",
+        "display_name": "commodification of spirituality",
+        "score": 0.5550000071525574
       },
       {
-        "id": "https://openalex.org/keywords/popularity",
-        "display_name": "Popularity",
-        "score": 0.5715000033378601
+        "id": "https://openalex.org/keywords/sami",
+        "display_name": "Sami",
+        "score": 0.8050000071525574
       },
       {
-        "id": "https://openalex.org/keywords/feeling",
-        "display_name": "Feeling",
-        "score": 0.5396999716758728
+        "id": "https://openalex.org/keywords/spiritual-healers",
+        "display_name": "spiritual healers",
+        "score": 0.6570000052452087
       },
       {
-        "id": "https://openalex.org/keywords/capital",
-        "display_name": "Capital (architecture)",
-        "score": 0.4544999897480011
+        "id": "https://openalex.org/keywords/modernity",
+        "display_name": "modernity",
+        "score": 0.5550000071525574
       },
       {
-        "id": "https://openalex.org/keywords/cultural-capital",
-        "display_name": "Cultural capital",
-        "score": 0.3903000056743622
+        "id": "https://openalex.org/keywords/global-inequality",
+        "display_name": "global inequality",
+        "score": 0.41200000047683716
       }
     ],
     "concepts": [
@@ -247510,11 +247746,181 @@
         "score": 0.26429998874664307
       }
     ],
-    "mesh": [],
-    "locations_count": 2,
+    "mesh": [
+      {
+        "descriptor_ui": "D000095083",
+        "descriptor_name": "Traditional Medicine Practitioners",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000095083",
+        "descriptor_name": "Traditional Medicine Practitioners",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000095083",
+        "descriptor_name": "Traditional Medicine Practitioners",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000884",
+        "descriptor_name": "Anthropology, Cultural",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000884",
+        "descriptor_name": "Anthropology, Cultural",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D000884",
+        "descriptor_name": "Anthropology, Cultural",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D005260",
+        "descriptor_name": "Female",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D006801",
+        "descriptor_name": "Humans",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008297",
+        "descriptor_name": "Male",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D008519",
+        "descriptor_name": "Medicine, Traditional",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008519",
+        "descriptor_name": "Medicine, Traditional",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D008519",
+        "descriptor_name": "Medicine, Traditional",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D014481",
+        "descriptor_name": "United States",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D014481",
+        "descriptor_name": "United States",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D014481",
+        "descriptor_name": "United States",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": false
+      },
+      {
+        "descriptor_ui": "D019423",
+        "descriptor_name": "Shamanism",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D019423",
+        "descriptor_name": "Shamanism",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      },
+      {
+        "descriptor_ui": "D019423",
+        "descriptor_name": "Shamanism",
+        "qualifier_ui": null,
+        "qualifier_name": null,
+        "is_major_topic": true
+      }
+    ],
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1111/1468-4446.70119",
+        "doi": "https://doi.org/10.1111/1468-4446.70119",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1111/1468-4446.70119",
         "pdf_url": null,
@@ -247529,6 +247935,20 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-3",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -247549,6 +247969,7 @@
       },
       {
         "id": "pmid:41964340",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41964340",
         "pdf_url": null,
@@ -247560,6 +247981,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -247574,11 +247996,74 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "The British journal of sociology",
-        "raw_type": null
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pubmedcentral.nih.gov:13536518",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13536518/",
+        "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13536518/pdf/BJOS-77-743.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Br J Sociol",
+        "raw_type": "Text"
       }
     ],
-    "best_oa_location": null,
+    "best_oa_location": {
+      "id": "pmh:oai:pubmedcentral.nih.gov:13536518",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13536518/",
+      "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13536518/pdf/BJOS-77-743.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Br J Sociol",
+      "raw_type": "Text"
+    },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -247588,10 +248073,13 @@
       }
     ],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": true,
+      "pdf": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7153521468.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7153521468.grobid-xml"
+    },
     "referenced_works_count": 32,
     "referenced_works": [
       "https://openalex.org/W1995295431",
@@ -247627,7 +248115,18 @@
       "https://openalex.org/W4411130309",
       "https://openalex.org/W4413519343"
     ],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W1546977907",
+      "https://openalex.org/W2479708291",
+      "https://openalex.org/W4402966578",
+      "https://openalex.org/W4214487871",
+      "https://openalex.org/W845290231",
+      "https://openalex.org/W4253866506",
+      "https://openalex.org/W3083427171",
+      "https://openalex.org/W2469766885",
+      "https://openalex.org/W7008129255",
+      "https://openalex.org/W3202834748"
+    ],
     "abstract_inverted_index": {
       "Behind": [
         0
@@ -248099,7 +248598,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-04-12T06:10:36.643156",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2026-04-12T00:00:00"
   },
   {
@@ -254171,7 +254670,7 @@
     "doi": "https://doi.org/10.1111/1468-4446.70036",
     "title": "Staying Apart for the Kids? Older American Daters and the Preservation of Family Wealth",
     "display_name": "Staying Apart for the Kids? Older American Daters and the Preservation of Family Wealth",
-    "relevance_score": 0.3346522,
+    "relevance_score": 0.6660499,
     "publication_year": 2025,
     "publication_date": "2025-10-08",
     "ids": {
@@ -254182,6 +254681,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1468-4446.70036",
+      "doi": "https://doi.org/10.1111/1468-4446.70036",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.70036",
       "pdf_url": null,
@@ -254196,6 +254696,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -254214,6 +254728,7 @@
       "raw_source_name": "The British Journal of Sociology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -254231,7 +254746,10 @@
         "author": {
           "id": "https://openalex.org/A5077203786",
           "display_name": "Cassandra Cotton",
-          "orcid": "https://orcid.org/0000-0002-1242-2089"
+          "orcid": "https://orcid.org/0000-0002-1242-2089",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1242-2089"
+          ]
         },
         "institutions": [
           {
@@ -254275,7 +254793,10 @@
         "author": {
           "id": "https://openalex.org/A5008071990",
           "display_name": "Rapha\u00ebl Charron\u2010Ch\u00e9nier",
-          "orcid": "https://orcid.org/0000-0002-5254-9332"
+          "orcid": "https://orcid.org/0000-0002-5254-9332",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5254-9332"
+          ]
         },
         "institutions": [
           {
@@ -254317,7 +254838,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 2,
+    "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5077203786"
     ],
@@ -254325,20 +254846,23 @@
       "https://openalex.org/I55732556"
     ],
     "apc_list": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": 2.2943,
     "has_fulltext": false,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.36144728,
+      "value": 0.9059483,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "is_in_top_10_percent": true
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": null,
       "issue": null,
@@ -254349,12 +254873,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11712",
-      "display_name": "Intergenerational Family Dynamics and Caregiving",
-      "score": 0.9998000264167786,
+      "id": "https://openalex.org/T10585",
+      "display_name": "Family Dynamics and Relationships",
+      "score": 0.5249000191688538,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -254367,9 +254891,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T10585",
+        "display_name": "Family Dynamics and Relationships",
+        "score": 0.5249000191688538,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11712",
         "display_name": "Intergenerational Family Dynamics and Caregiving",
-        "score": 0.9998000264167786,
+        "score": 0.16329999268054962,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -254384,33 +254925,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T10585",
-        "display_name": "Family Dynamics and Relationships",
-        "score": 0.9923999905586243,
+        "id": "https://openalex.org/T10517",
+        "display_name": "Financial Literacy, Pension, Retirement Analysis",
+        "score": 0.06509999930858612,
         "subfield": {
-          "id": "https://openalex.org/subfields/3317",
-          "display_name": "Demography"
+          "id": "https://openalex.org/subfields/1402",
+          "display_name": "Accounting"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12783",
-        "display_name": "Migration, Aging, and Tourism Studies",
-        "score": 0.9872999787330627,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3317",
-          "display_name": "Demography"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -254420,44 +254944,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/romance",
-        "display_name": "Romance",
-        "score": 0.7217000126838684
+        "id": "https://openalex.org/keywords/older-adults",
+        "display_name": "older adults",
+        "score": 0.7760000228881836
       },
       {
-        "id": "https://openalex.org/keywords/government",
-        "display_name": "Government (linguistics)",
-        "score": 0.5648000240325928
+        "id": "https://openalex.org/keywords/family-wealth",
+        "display_name": "family wealth",
+        "score": 0.4970000088214874
       },
       {
-        "id": "https://openalex.org/keywords/welfare",
-        "display_name": "Welfare",
-        "score": 0.5489000082015991
+        "id": "https://openalex.org/keywords/intergenerational-wealth-transfer",
+        "display_name": "intergenerational wealth transfer",
+        "score": 0.7139999866485596
       },
       {
-        "id": "https://openalex.org/keywords/population",
-        "display_name": "Population",
-        "score": 0.4957999885082245
+        "id": "https://openalex.org/keywords/living-apart-together",
+        "display_name": "living apart together",
+        "score": 0.7979999780654907
       },
       {
-        "id": "https://openalex.org/keywords/balance",
-        "display_name": "Balance (ability)",
-        "score": 0.491100013256073
+        "id": "https://openalex.org/keywords/informal-relationships",
+        "display_name": "informal relationships",
+        "score": 0.5529999732971191
       },
       {
-        "id": "https://openalex.org/keywords/control",
-        "display_name": "Control (management)",
-        "score": 0.4336000084877014
+        "id": "https://openalex.org/keywords/marriage-avoidance",
+        "display_name": "marriage avoidance",
+        "score": 0.5789999961853027
       },
       {
-        "id": "https://openalex.org/keywords/family-life",
-        "display_name": "Family life",
-        "score": 0.38499999046325684
+        "id": "https://openalex.org/keywords/relationship-strategies",
+        "display_name": "relational strategies",
+        "score": 0.5289999842643738
       },
       {
-        "id": "https://openalex.org/keywords/population-ageing",
-        "display_name": "Population ageing",
-        "score": 0.35839998722076416
+        "id": "https://openalex.org/keywords/population-aging",
+        "display_name": "population aging",
+        "score": 0.41100001335144043
       }
     ],
     "concepts": [
@@ -254628,6 +255152,7 @@
     "locations": [
       {
         "id": "doi:10.1111/1468-4446.70036",
+        "doi": "https://doi.org/10.1111/1468-4446.70036",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1111/1468-4446.70036",
         "pdf_url": null,
@@ -254642,6 +255167,20 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-3",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -254662,6 +255201,7 @@
       },
       {
         "id": "pmid:41063382",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41063382",
         "pdf_url": null,
@@ -254673,6 +255213,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -254687,16 +255228,18 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "The British journal of sociology",
-        "raw_type": null
+        "raw_type": "Journal Article"
       }
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 42,
@@ -255327,8 +255870,13 @@
         249
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -328841,7 +329389,7 @@
     "doi": "https://doi.org/10.1111/1468-4446.13189",
     "title": "Holding It Together: How Women Became America\u2019s Safety Net. By Calarco, J., Portfolio Penguin, 2024. 336 pp. \u00a324.00 (hardback). ISBN: 9780593538128",
     "display_name": "Holding It Together: How Women Became America\u2019s Safety Net. By Calarco, J., Portfolio Penguin, 2024. 336 pp. \u00a324.00 (hardback). ISBN: 9780593538128",
-    "relevance_score": 0.115439296,
+    "relevance_score": 0.22885144,
     "publication_year": 2025,
     "publication_date": "2025-01-18",
     "ids": {
@@ -328851,6 +329399,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1468-4446.13189",
+      "doi": "https://doi.org/10.1111/1468-4446.13189",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.13189",
       "pdf_url": null,
@@ -328865,6 +329414,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -328883,7 +329446,8 @@
       "raw_source_name": "The British Journal of Sociology",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -328898,8 +329462,11 @@
         "author_position": "first",
         "author": {
           "id": "https://openalex.org/A5019290285",
-          "display_name": "Tristan Bridges",
-          "orcid": "https://orcid.org/0000-0003-2856-1494"
+          "display_name": "Tristan S. Bridges",
+          "orcid": "https://orcid.org/0000-0003-2856-1494",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2856-1494"
+          ]
         },
         "institutions": [
           {
@@ -328949,19 +329516,15 @@
       "https://openalex.org/I154570441"
     ],
     "apc_list": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.00989482,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "76",
@@ -328973,16 +329536,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13025",
-      "display_name": "American History and Culture",
-      "score": 0.7595000267028809,
+      "id": "https://openalex.org/T10722",
+      "display_name": "Work-Family Balance Challenges",
+      "score": 0.45019999146461487,
       "subfield": {
-        "id": "https://openalex.org/subfields/1406",
-        "display_name": "Marketing"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -328991,26 +329554,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13025",
-        "display_name": "American History and Culture",
-        "score": 0.7595000267028809,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1406",
-          "display_name": "Marketing"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/14",
-          "display_name": "Business, Management and Accounting"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12765",
-        "display_name": "Race, History, and American Society",
-        "score": 0.694599986076355,
+        "id": "https://openalex.org/T10722",
+        "display_name": "Work-Family Balance Challenges",
+        "score": 0.45019999146461487,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -329025,16 +329571,33 @@
         }
       },
       {
-        "id": "https://openalex.org/T13332",
-        "display_name": "Historical Studies on Reproduction, Gender, Health, and Societal Changes",
-        "score": 0.6780999898910522,
+        "id": "https://openalex.org/T11544",
+        "display_name": "Gender, Labor, and Family Dynamics",
+        "score": 0.4332999885082245,
         "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13888",
+        "display_name": "Social Policies and Family",
+        "score": 0.050599999725818634,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -329044,49 +329607,79 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/safety-net",
-        "display_name": "Safety net",
-        "score": 0.6924736499786377
+        "id": "https://openalex.org/keywords/gendered-caregiving",
+        "display_name": "gendered caregiving",
+        "score": 0.597000002861023
       },
       {
-        "id": "https://openalex.org/keywords/portfolio",
-        "display_name": "Portfolio",
-        "score": 0.5969125628471375
+        "id": "https://openalex.org/keywords/social-safety-nets",
+        "display_name": "social safety nets",
+        "score": 0.7670000195503235
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.5867906212806702
+        "id": "https://openalex.org/keywords/female-caregivers",
+        "display_name": "women caregivers",
+        "score": 0.5210000276565552
       },
       {
-        "id": "https://openalex.org/keywords/net",
-        "display_name": "Net (polyhedron)",
-        "score": 0.533078670501709
+        "id": "https://openalex.org/keywords/family-caregiving",
+        "display_name": "family caregiving",
+        "score": 0.4350000023841858
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.18335402011871338
+        "id": "https://openalex.org/keywords/covid-19",
+        "display_name": "COVID-19 pandemic",
+        "score": 0.6299999952316284
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.16391867399215698
+        "id": "https://openalex.org/keywords/work-family-conflict",
+        "display_name": "work-family conflict",
+        "score": 0.5189999938011169
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.15827801823616028
+        "id": "https://openalex.org/keywords/gender-inequality",
+        "display_name": "gender inequality",
+        "score": 0.35199999809265137
       },
       {
-        "id": "https://openalex.org/keywords/financial-economics",
-        "display_name": "Financial economics",
-        "score": 0.0992327630519867
+        "id": "https://openalex.org/keywords/social-policy-reform",
+        "display_name": "social policy reform",
+        "score": 0.42399999499320984
       },
       {
-        "id": "https://openalex.org/keywords/mathematics",
-        "display_name": "Mathematics",
-        "score": 0.0716409683227539
+        "id": "https://openalex.org/keywords/american-families",
+        "display_name": "American families",
+        "score": 0.32600000500679016
+      },
+      {
+        "id": "https://openalex.org/keywords/black-mothers",
+        "display_name": "Black mothers",
+        "score": 0.39899998903274536
+      },
+      {
+        "id": "https://openalex.org/keywords/low-income-households",
+        "display_name": "low-income households",
+        "score": 0.44699999690055847
+      },
+      {
+        "id": "https://openalex.org/keywords/home-health-aides",
+        "display_name": "home health aides",
+        "score": 0.3889999985694885
+      },
+      {
+        "id": "https://openalex.org/keywords/opioid-use-disorder",
+        "display_name": "opioid use disorder",
+        "score": 0.35100001096725464
+      },
+      {
+        "id": "https://openalex.org/keywords/personal-narrative",
+        "display_name": "personal narrative",
+        "score": 0.3059999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/gender-division-of-labor",
+        "display_name": "gender division of labor",
+        "score": 0.46700000762939453
       }
     ],
     "concepts": [
@@ -329166,6 +329759,7 @@
     "locations": [
       {
         "id": "doi:10.1111/1468-4446.13189",
+        "doi": "https://doi.org/10.1111/1468-4446.13189",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1111/1468-4446.13189",
         "pdf_url": null,
@@ -329180,6 +329774,20 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-3",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -329200,12 +329808,30 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.9629999995231628,
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/5",
+        "score": 0.7307999730110168,
+        "display_name": "Gender equality"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/1",
+        "score": 0.41670000553131104,
+        "display_name": "No poverty"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -331621,7 +332247,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-01T08:54:57.152042",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -371421,7 +372047,7 @@
     "doi": "https://doi.org/10.1111/1468-4446.70103",
     "title": "When Universities Turn Carceral: Between Academic Freedom and Elimination",
     "display_name": "When Universities Turn Carceral: Between Academic Freedom and Elimination",
-    "relevance_score": 0.033571422,
+    "relevance_score": 0.06652784,
     "publication_year": 2026,
     "publication_date": "2026-03-19",
     "ids": {
@@ -371432,6 +372058,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1468-4446.70103",
+      "doi": "https://doi.org/10.1111/1468-4446.70103",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.70103",
       "pdf_url": null,
@@ -371446,6 +372073,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -371464,6 +372105,7 @@
       "raw_source_name": "The British Journal of Sociology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -371481,7 +372123,10 @@
         "author": {
           "id": "https://openalex.org/A5010012247",
           "display_name": "Gil Rothschild\u2010Elyassi",
-          "orcid": "https://orcid.org/0000-0001-5188-7615"
+          "orcid": "https://orcid.org/0000-0001-5188-7615",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-5188-7615"
+          ]
         },
         "institutions": [
           {
@@ -371531,20 +372176,20 @@
       "https://openalex.org/I91203450"
     ],
     "apc_list": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
     "apc_paid": {
-      "value": 3660,
+      "value": 3840,
       "currency": "USD",
-      "value_usd": 3660
+      "value_usd": 3840
     },
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.58057363,
+      "value": 0.15063742,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -371561,7 +372206,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T14181",
       "display_name": "Academic Freedom and Politics",
-      "score": 0.18479999899864197,
+      "score": 0.9916999936103821,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -371579,7 +372224,7 @@
       {
         "id": "https://openalex.org/T14181",
         "display_name": "Academic Freedom and Politics",
-        "score": 0.18479999899864197,
+        "score": 0.9916999936103821,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -371594,12 +372239,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T10546",
-        "display_name": "Higher Education Governance and Development",
-        "score": 0.05939999967813492,
+        "id": "https://openalex.org/T13368",
+        "display_name": "University Challenges and Reforms",
+        "score": 0.0027000000700354576,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -371611,9 +372256,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T12231",
-        "display_name": "Contemporary Sociological Theory and Practice",
-        "score": 0.04479999840259552,
+        "id": "https://openalex.org/T14288",
+        "display_name": "Law, Rights, and Freedoms",
+        "score": 0.0020000000949949026,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -371631,13 +372276,63 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/academic-freedom",
-        "display_name": "Academic freedom",
-        "score": 0.7283999919891357
+        "display_name": "academic freedom",
+        "score": 0.9039999842643738
       },
       {
-        "id": "https://openalex.org/keywords/turn",
-        "display_name": "Turn (biochemistry)",
-        "score": 0.5501999855041504
+        "id": "https://openalex.org/keywords/liberal-institutions",
+        "display_name": "liberal institutions",
+        "score": 0.3790000081062317
+      },
+      {
+        "id": "https://openalex.org/keywords/israeli-higher-education",
+        "display_name": "Israeli higher education",
+        "score": 0.6309999823570251
+      },
+      {
+        "id": "https://openalex.org/keywords/surveillance",
+        "display_name": "surveillance",
+        "score": 0.40400001406669617
+      },
+      {
+        "id": "https://openalex.org/keywords/censorship",
+        "display_name": "censorship",
+        "score": 0.46799999475479126
+      },
+      {
+        "id": "https://openalex.org/keywords/antisemitism",
+        "display_name": "antisemitism",
+        "score": 0.5210000276565552
+      },
+      {
+        "id": "https://openalex.org/keywords/higher-education-policy",
+        "display_name": "higher education policy",
+        "score": 0.3059999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/american-universities",
+        "display_name": "American universities",
+        "score": 0.640999972820282
+      },
+      {
+        "id": "https://openalex.org/keywords/digital-surveillance",
+        "display_name": "digital surveillance",
+        "score": 0.37299999594688416
+      },
+      {
+        "id": "https://openalex.org/keywords/expulsion-of-students",
+        "display_name": "expulsion of students",
+        "score": 0.31200000643730164
+      },
+      {
+        "id": "https://openalex.org/keywords/zionism",
+        "display_name": "Zionism",
+        "score": 0.3970000147819519
+      },
+      {
+        "id": "https://openalex.org/keywords/decolonisation-of-higher-education",
+        "display_name": "decolonisation of higher education",
+        "score": 0.4490000009536743
       }
     ],
     "concepts": [
@@ -371724,6 +372419,7 @@
     "locations": [
       {
         "id": "doi:10.1111/1468-4446.70103",
+        "doi": "https://doi.org/10.1111/1468-4446.70103",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/1468-4446.70103",
         "pdf_url": null,
@@ -371738,6 +372434,20 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-3",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -371758,6 +372468,7 @@
       },
       {
         "id": "pmid:41858044",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41858044",
         "pdf_url": null,
@@ -371769,6 +372480,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -371783,11 +372495,12 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "The British journal of sociology",
-        "raw_type": null
+        "raw_type": "Journal Article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1111/1468-4446.70103",
+      "doi": "https://doi.org/10.1111/1468-4446.70103",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1468-4446.70103",
       "pdf_url": null,
@@ -371802,6 +372515,20 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -371822,16 +372549,24 @@
     },
     "sustainable_development_goals": [
       {
-        "display_name": "Peace, Justice and strong institutions",
-        "score": 0.42931926250457764,
-        "id": "https://metadata.un.org/sdg/16"
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402,
+        "display_name": "Peace, justice, and strong institutions"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.42931926250457764,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 23,
@@ -377307,7 +378042,2788 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-03-21T06:30:42.041108",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2026-03-20T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7169512717",
+    "doi": "https://doi.org/10.1111/1468-4446.70154",
+    "title": "How the Radical Right Has Changed Capitalism and Welfare in Europe and the USA. By PhilipRathgeb, Oxford: Oxford University Press, 2024. 232 pp. \u00a384. ISBN: 9780192866332",
+    "display_name": "How the Radical Right Has Changed Capitalism and Welfare in Europe and the USA. By PhilipRathgeb, Oxford: Oxford University Press, 2024. 232 pp. \u00a384. ISBN: 9780192866332",
+    "relevance_score": 4.8130865,
+    "publication_year": 2026,
+    "publication_date": "2026-07-16",
+    "ids": {
+      "openalex": "https://openalex.org/W7169512717",
+      "doi": "https://doi.org/10.1111/1468-4446.70154"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1111/1468-4446.70154",
+      "doi": "https://doi.org/10.1111/1468-4446.70154",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/1468-4446.70154",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S173252385",
+        "display_name": "British Journal of Sociology",
+        "issn_l": "0007-1315",
+        "issn": [
+          "0007-1315",
+          "1468-4446"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The British Journal of Sociology",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "book-review",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5061614501",
+          "display_name": "Vladimir Bortun",
+          "orcid": "https://orcid.org/0000-0002-7677-0584",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7677-0584"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40120149",
+            "display_name": "University of Oxford",
+            "ror": "https://ror.org/052gg0110",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I40120149"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Vladimir Bortun",
+        "raw_affiliation_strings": [
+          "University of Oxford  Oxford UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-7677-0584",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Oxford  Oxford UK",
+            "institution_ids": [
+              "https://openalex.org/I40120149"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5061614501"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I40120149"
+    ],
+    "apc_list": {
+      "value": 3840,
+      "currency": "USD",
+      "value_usd": 3840
+    },
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10443",
+      "display_name": "Social Policy and Reform Studies",
+      "score": 0.5874000191688538,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10443",
+        "display_name": "Social Policy and Reform Studies",
+        "score": 0.5874000191688538,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11397",
+        "display_name": "Populism, Right-Wing Movements",
+        "score": 0.3684000074863434,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11743",
+        "display_name": "Political Economy and Marxism",
+        "score": 0.013500000350177288,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/radical-right",
+        "display_name": "radical right",
+        "score": 0.968999981880188
+      },
+      {
+        "id": "https://openalex.org/keywords/conservatism",
+        "display_name": "conservatism",
+        "score": 0.5230000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/capitalism",
+        "display_name": "capitalism",
+        "score": 0.8389999866485596
+      },
+      {
+        "id": "https://openalex.org/keywords/welfare-state",
+        "display_name": "welfare state",
+        "score": 0.9089999794960022
+      },
+      {
+        "id": "https://openalex.org/keywords/right-wing-populism",
+        "display_name": "right-wing populism",
+        "score": 0.6660000085830688
+      },
+      {
+        "id": "https://openalex.org/keywords/political-ideology",
+        "display_name": "political ideology",
+        "score": 0.42100000381469727
+      },
+      {
+        "id": "https://openalex.org/keywords/economic-policy",
+        "display_name": "economic policy",
+        "score": 0.5009999871253967
+      },
+      {
+        "id": "https://openalex.org/keywords/europe",
+        "display_name": "Europe",
+        "score": 0.41600000858306885
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C514928085",
+        "wikidata": "https://www.wikidata.org/wiki/Q6206",
+        "display_name": "Capitalism",
+        "level": 3,
+        "score": 0.8353000283241272
+      },
+      {
+        "id": "https://openalex.org/C100243477",
+        "wikidata": "https://www.wikidata.org/wiki/Q12002092",
+        "display_name": "Welfare",
+        "level": 2,
+        "score": 0.7196999788284302
+      },
+      {
+        "id": "https://openalex.org/C196013401",
+        "wikidata": "https://www.wikidata.org/wiki/Q488399",
+        "display_name": "Welfare capitalism",
+        "level": 4,
+        "score": 0.6582000255584717
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.5249999761581421
+      },
+      {
+        "id": "https://openalex.org/C138921699",
+        "wikidata": "https://www.wikidata.org/wiki/Q47555",
+        "display_name": "Political economy",
+        "level": 1,
+        "score": 0.5103999972343445
+      },
+      {
+        "id": "https://openalex.org/C6303427",
+        "wikidata": "https://www.wikidata.org/wiki/Q47398",
+        "display_name": "Economic history",
+        "level": 1,
+        "score": 0.4404999911785126
+      },
+      {
+        "id": "https://openalex.org/C129603779",
+        "wikidata": "https://www.wikidata.org/wiki/Q192451",
+        "display_name": "Welfare state",
+        "level": 3,
+        "score": 0.41769999265670776
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.35679998993873596
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.35190001130104065
+      },
+      {
+        "id": "https://openalex.org/C136264566",
+        "wikidata": "https://www.wikidata.org/wiki/Q159810",
+        "display_name": "Economy",
+        "level": 1,
+        "score": 0.24230000376701355
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1111/1468-4446.70154",
+        "doi": "https://doi.org/10.1111/1468-4446.70154",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1111/1468-4446.70154",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S173252385",
+          "display_name": "British Journal of Sociology",
+          "issn_l": "0007-1315",
+          "issn": [
+            "0007-1315",
+            "1468-4446"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-3",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The British Journal of Sociology",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.4399999976158142,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 5,
+    "referenced_works": [
+      "https://openalex.org/W1976130904",
+      "https://openalex.org/W2133666122",
+      "https://openalex.org/W4237710071",
+      "https://openalex.org/W4299574924",
+      "https://openalex.org/W4303648214"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": null,
+    "counts_by_year": [],
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2026-07-18T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7168361443",
+    "doi": "https://doi.org/10.1111/1468-4446.70148",
+    "title": "Democracy From Within: A Democratic Cultural Schema in the US Public",
+    "display_name": "Democracy From Within: A Democratic Cultural Schema in the US Public",
+    "relevance_score": 0.8483415,
+    "publication_year": 2026,
+    "publication_date": "2026-07-14",
+    "ids": {
+      "openalex": "https://openalex.org/W7168361443",
+      "doi": "https://doi.org/10.1111/1468-4446.70148",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42449538"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1111/1468-4446.70148",
+      "doi": "https://doi.org/10.1111/1468-4446.70148",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/1468-4446.70148",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S173252385",
+        "display_name": "British Journal of Sociology",
+        "issn_l": "0007-1315",
+        "issn": [
+          "0007-1315",
+          "1468-4446"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The British Journal of Sociology",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1111/1468-4446.70148",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5071956273",
+          "display_name": "Johan G\u00f8tzsche\u2010Astrup",
+          "orcid": "https://orcid.org/0000-0001-7514-1375",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7514-1375"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204337017",
+            "display_name": "Aarhus University",
+            "ror": "https://ror.org/01aj84f44",
+            "country_code": "DK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204337017"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Johan G\u00f8tzsche\u2010Astrup",
+        "raw_affiliation_strings": [
+          "Department of Political Science Aarhus University  Aarhus Denmark"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0001-7514-1375",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Political Science Aarhus University  Aarhus Denmark",
+            "institution_ids": [
+              "https://openalex.org/I204337017"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5025759367",
+          "display_name": "Oluf G\u00f8tzsche\u2010Astrup",
+          "orcid": "https://orcid.org/0000-0001-7996-0423",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7996-0423"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204337017",
+            "display_name": "Aarhus University",
+            "ror": "https://ror.org/01aj84f44",
+            "country_code": "DK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204337017"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Oluf G\u00f8tzsche\u2010Astrup",
+        "raw_affiliation_strings": [
+          "Department of Psychology and Behavioural Sciences Aarhus University  Aarhus Denmark"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Psychology and Behavioural Sciences Aarhus University  Aarhus Denmark",
+            "institution_ids": [
+              "https://openalex.org/I204337017"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5071956273"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I204337017"
+    ],
+    "apc_list": {
+      "value": 3840,
+      "currency": "USD",
+      "value_usd": 3840
+    },
+    "apc_paid": {
+      "value": 3840,
+      "currency": "USD",
+      "value_usd": 3840
+    },
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.5343178,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13291",
+      "display_name": "Political Theory and Democracy",
+      "score": 0.9916999936103821,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13291",
+        "display_name": "Political Theory and Democracy",
+        "score": 0.9916999936103821,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10108",
+        "display_name": "Electoral Systems and Political Participation",
+        "score": 0.007499999832361937,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13721",
+        "display_name": "Political Science Research and Education",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/democracy",
+        "display_name": "democracy",
+        "score": 0.7609999775886536
+      },
+      {
+        "id": "https://openalex.org/keywords/civil-sphere-theory",
+        "display_name": "civil sphere theory",
+        "score": 0.8980000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/cultural-sociology",
+        "display_name": "sociology of culture",
+        "score": 0.3440000116825104
+      },
+      {
+        "id": "https://openalex.org/keywords/political-cognition",
+        "display_name": "political cognition",
+        "score": 0.4699999988079071
+      },
+      {
+        "id": "https://openalex.org/keywords/partisan-divide",
+        "display_name": "partisan divide",
+        "score": 0.5389999747276306
+      },
+      {
+        "id": "https://openalex.org/keywords/democratic-backsliding",
+        "display_name": "democratic backsliding",
+        "score": 0.6850000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/concept-association",
+        "display_name": "concept association",
+        "score": 0.6660000085830688
+      },
+      {
+        "id": "https://openalex.org/keywords/public-opinion",
+        "display_name": "public opinion",
+        "score": 0.40400001406669617
+      },
+      {
+        "id": "https://openalex.org/keywords/united-states",
+        "display_name": "United States",
+        "score": 0.6589999794960022
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C555826173",
+        "wikidata": "https://www.wikidata.org/wiki/Q7174",
+        "display_name": "Democracy",
+        "level": 3,
+        "score": 0.8065000176429749
+      },
+      {
+        "id": "https://openalex.org/C52146309",
+        "wikidata": "https://www.wikidata.org/wiki/Q7431116",
+        "display_name": "Schema (genetic algorithms)",
+        "level": 2,
+        "score": 0.6922000050544739
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.6625000238418579
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.6596999764442444
+      },
+      {
+        "id": "https://openalex.org/C2779610281",
+        "wikidata": "https://www.wikidata.org/wiki/Q17945",
+        "display_name": "Public sphere",
+        "level": 3,
+        "score": 0.5968000292778015
+      },
+      {
+        "id": "https://openalex.org/C513891491",
+        "wikidata": "https://www.wikidata.org/wiki/Q181865",
+        "display_name": "Civil society",
+        "level": 3,
+        "score": 0.4738999903202057
+      },
+      {
+        "id": "https://openalex.org/C12713177",
+        "wikidata": "https://www.wikidata.org/wiki/Q1900281",
+        "display_name": "Perspective (graphical)",
+        "level": 2,
+        "score": 0.46560001373291016
+      },
+      {
+        "id": "https://openalex.org/C138921699",
+        "wikidata": "https://www.wikidata.org/wiki/Q47555",
+        "display_name": "Political economy",
+        "level": 1,
+        "score": 0.3926999866962433
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.35850000381469727
+      },
+      {
+        "id": "https://openalex.org/C81307892",
+        "wikidata": "https://www.wikidata.org/wiki/Q303132",
+        "display_name": "Political culture",
+        "level": 3,
+        "score": 0.35740000009536743
+      },
+      {
+        "id": "https://openalex.org/C39489675",
+        "wikidata": "https://www.wikidata.org/wiki/Q1791882",
+        "display_name": "Culture theory",
+        "level": 2,
+        "score": 0.34689998626708984
+      },
+      {
+        "id": "https://openalex.org/C2992346504",
+        "wikidata": "https://www.wikidata.org/wiki/Q7174",
+        "display_name": "Democratic theory",
+        "level": 4,
+        "score": 0.3416999876499176
+      },
+      {
+        "id": "https://openalex.org/C125209646",
+        "wikidata": "https://www.wikidata.org/wiki/Q1338878",
+        "display_name": "Cultural diversity",
+        "level": 2,
+        "score": 0.30640000104904175
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.30219998955726624
+      },
+      {
+        "id": "https://openalex.org/C36289849",
+        "wikidata": "https://www.wikidata.org/wiki/Q34749",
+        "display_name": "Social science",
+        "level": 1,
+        "score": 0.298799991607666
+      },
+      {
+        "id": "https://openalex.org/C145261411",
+        "wikidata": "https://www.wikidata.org/wiki/Q2920592",
+        "display_name": "Binary opposition",
+        "level": 2,
+        "score": 0.29649999737739563
+      },
+      {
+        "id": "https://openalex.org/C100776233",
+        "wikidata": "https://www.wikidata.org/wiki/Q2532492",
+        "display_name": "Bridge (graph theory)",
+        "level": 2,
+        "score": 0.263700008392334
+      },
+      {
+        "id": "https://openalex.org/C2984138521",
+        "wikidata": "https://www.wikidata.org/wiki/Q194112",
+        "display_name": "Cultural values",
+        "level": 2,
+        "score": 0.25780001282691956
+      },
+      {
+        "id": "https://openalex.org/C159176650",
+        "wikidata": "https://www.wikidata.org/wiki/Q43261",
+        "display_name": "Horizon",
+        "level": 2,
+        "score": 0.25769999623298645
+      },
+      {
+        "id": "https://openalex.org/C79841651",
+        "wikidata": "https://www.wikidata.org/wiki/Q179805",
+        "display_name": "Political philosophy",
+        "level": 3,
+        "score": 0.25459998846054077
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.25360000133514404
+      }
+    ],
+    "mesh": [],
+    "locations_count": 3,
+    "locations": [
+      {
+        "id": "doi:10.1111/1468-4446.70148",
+        "doi": "https://doi.org/10.1111/1468-4446.70148",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/1468-4446.70148",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S173252385",
+          "display_name": "British Journal of Sociology",
+          "issn_l": "0007-1315",
+          "issn": [
+            "0007-1315",
+            "1468-4446"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-3",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc",
+        "license_id": "https://openalex.org/licenses/cc-by-nc",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The British Journal of Sociology",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:42449538",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/42449538",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The British journal of sociology",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "pmh:oai:pure.atira.dk:openaire/ac3e83eb-ddfa-4f02-802c-cd8ddd7a1e98",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.scopus.com/pages/publications/105044543446",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400063",
+          "display_name": "Scopus (Elsevier)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "repository"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "G\u00f8tzsche-Astrup, J & G\u00f8tzsche-Astrup, O 2026, 'Democracy From Within : A Democratic Cultural Schema in the US Public', British Journal of Sociology. https://doi.org/10.1111/1468-4446.70148",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1111/1468-4446.70148",
+      "doi": "https://doi.org/10.1111/1468-4446.70148",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/1468-4446.70148",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S173252385",
+        "display_name": "British Journal of Sociology",
+        "issn_l": "0007-1315",
+        "issn": [
+          "0007-1315",
+          "1468-4446"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The British Journal of Sociology",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.7297000288963318,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.8221017718315125,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "study_designs": [
+      {
+        "id": "https://openalex.org/study-designs/observational-study",
+        "display_name": "Observational Study"
+      }
+    ],
+    "awards": [
+      {
+        "id": "https://openalex.org/G1032824836",
+        "display_name": null,
+        "funder_award_id": "CF22-0129",
+        "funder_id": "https://openalex.org/F4320321504",
+        "funder_display_name": "Carlsbergfondet"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320321504",
+        "display_name": "Carlsbergfondet",
+        "ror": "https://ror.org/01kpjmx04"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 54,
+    "referenced_works": [
+      "https://openalex.org/W1964864190",
+      "https://openalex.org/W2017099446",
+      "https://openalex.org/W2064726704",
+      "https://openalex.org/W2084202985",
+      "https://openalex.org/W2111211407",
+      "https://openalex.org/W2135754493",
+      "https://openalex.org/W2139076143",
+      "https://openalex.org/W2142142596",
+      "https://openalex.org/W2150375089",
+      "https://openalex.org/W2153469952",
+      "https://openalex.org/W2475843659",
+      "https://openalex.org/W2559970435",
+      "https://openalex.org/W2772696116",
+      "https://openalex.org/W2833564285",
+      "https://openalex.org/W2889569851",
+      "https://openalex.org/W2909314084",
+      "https://openalex.org/W2942478274",
+      "https://openalex.org/W2973847650",
+      "https://openalex.org/W3025001010",
+      "https://openalex.org/W3025451956",
+      "https://openalex.org/W3040046313",
+      "https://openalex.org/W3067505370",
+      "https://openalex.org/W3107956736",
+      "https://openalex.org/W3156458201",
+      "https://openalex.org/W3179754146",
+      "https://openalex.org/W3184051373",
+      "https://openalex.org/W4205960611",
+      "https://openalex.org/W4231707764",
+      "https://openalex.org/W4235763390",
+      "https://openalex.org/W4235908526",
+      "https://openalex.org/W4240450146",
+      "https://openalex.org/W4246335843",
+      "https://openalex.org/W4248116152",
+      "https://openalex.org/W4249313097",
+      "https://openalex.org/W4250952580",
+      "https://openalex.org/W4256066332",
+      "https://openalex.org/W4285728922",
+      "https://openalex.org/W4293088518",
+      "https://openalex.org/W4310576795",
+      "https://openalex.org/W4311197838",
+      "https://openalex.org/W4311707461",
+      "https://openalex.org/W4312062150",
+      "https://openalex.org/W4312116058",
+      "https://openalex.org/W4320483153",
+      "https://openalex.org/W4352978079",
+      "https://openalex.org/W4378215977",
+      "https://openalex.org/W4392053882",
+      "https://openalex.org/W4393159697",
+      "https://openalex.org/W4400961322",
+      "https://openalex.org/W4402854195",
+      "https://openalex.org/W4406105073",
+      "https://openalex.org/W4408539977",
+      "https://openalex.org/W4413367330",
+      "https://openalex.org/W4415731638"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Are": [
+        0
+      ],
+      "members": [
+        1,
+        14
+      ],
+      "of": [
+        2,
+        15,
+        41,
+        51,
+        83,
+        103,
+        109,
+        117
+      ],
+      "the": [
+        3,
+        16,
+        49,
+        57,
+        84,
+        115,
+        123
+      ],
+      "public": [
+        4,
+        17
+      ],
+      "still": [
+        5
+      ],
+      "committed": [
+        6
+      ],
+      "to": [
+        7,
+        79
+      ],
+      "democracy?": [
+        8
+      ],
+      "Existing": [
+        9
+      ],
+      "studies": [
+        10
+      ],
+      "often": [
+        11
+      ],
+      "ask": [
+        12
+      ],
+      "whether": [
+        13
+      ],
+      "sanction": [
+        18
+      ],
+      "political": [
+        19,
+        104
+      ],
+      "actors": [
+        20
+      ],
+      "who": [
+        21
+      ],
+      "break": [
+        22
+      ],
+      "institutional": [
+        23
+      ],
+      "or": [
+        24
+      ],
+      "procedural": [
+        25
+      ],
+      "norms.": [
+        26
+      ],
+      "In": [
+        27
+      ],
+      "contrast,": [
+        28
+      ],
+      "we": [
+        29,
+        55,
+        87
+      ],
+      "study": [
+        30
+      ],
+      "a": [
+        31,
+        39,
+        60,
+        68,
+        74,
+        80,
+        89,
+        118
+      ],
+      "shared": [
+        32,
+        96,
+        119
+      ],
+      "cultural": [
+        33,
+        69,
+        120,
+        141
+      ],
+      "horizon,": [
+        34
+      ],
+      "which": [
+        35,
+        63,
+        94
+      ],
+      "grounds": [
+        36
+      ],
+      "democracy": [
+        37
+      ],
+      "as": [
+        38,
+        59,
+        67
+      ],
+      "way": [
+        40
+      ],
+      "living.": [
+        42
+      ],
+      "Drawing": [
+        43
+      ],
+      "on": [
+        44,
+        130
+      ],
+      "Civil": [
+        45,
+        131
+      ],
+      "Sphere": [
+        46,
+        132
+      ],
+      "Theory": [
+        47
+      ],
+      "and": [
+        48,
+        53,
+        100,
+        134
+      ],
+      "sociology": [
+        50
+      ],
+      "culture": [
+        52
+      ],
+      "cognition,": [
+        54
+      ],
+      "conceptualise": [
+        56
+      ],
+      "horizon": [
+        58,
+        121
+      ],
+      "binary": [
+        61
+      ],
+      "discourse,": [
+        62
+      ],
+      "can": [
+        64
+      ],
+      "be": [
+        65
+      ],
+      "internalised": [
+        66,
+        91
+      ],
+      "schema": [
+        70
+      ],
+      "by": [
+        71
+      ],
+      "individuals.": [
+        72
+      ],
+      "Through": [
+        73
+      ],
+      "concept": [
+        75
+      ],
+      "association": [
+        76
+      ],
+      "task": [
+        77
+      ],
+      "administered": [
+        78
+      ],
+      "representative": [
+        81
+      ],
+      "sample": [
+        82
+      ],
+      "US": [
+        85
+      ],
+      "public,": [
+        86
+      ],
+      "uncover": [
+        88
+      ],
+      "widely": [
+        90
+      ],
+      "democratic": [
+        92,
+        110
+      ],
+      "schema,": [
+        93
+      ],
+      "is": [
+        95
+      ],
+      "across": [
+        97
+      ],
+      "partisan": [
+        98
+      ],
+      "divides": [
+        99
+      ],
+      "predicts": [
+        101
+      ],
+      "evaluations": [
+        102
+      ],
+      "actors.": [
+        105
+      ],
+      "We": [
+        106
+      ],
+      "temper": [
+        107
+      ],
+      "fears": [
+        108
+      ],
+      "decline,": [
+        111
+      ],
+      "at": [
+        112,
+        114
+      ],
+      "least": [
+        113
+      ],
+      "level": [
+        116
+      ],
+      "in": [
+        122,
+        140
+      ],
+      "United": [
+        124
+      ],
+      "States,": [
+        125
+      ],
+      "provide": [
+        126
+      ],
+      "an": [
+        127
+      ],
+      "individual-level": [
+        128
+      ],
+      "perspective": [
+        129
+      ],
+      "Theory,": [
+        133
+      ],
+      "bridge": [
+        135
+      ],
+      "two": [
+        136
+      ],
+      "sometimes": [
+        137
+      ],
+      "conflicting": [
+        138
+      ],
+      "traditions": [
+        139
+      ],
+      "sociology.": [
+        142
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-26T08:19:03.415552",
+    "created_date": "2026-07-16T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7164848166",
+    "doi": "https://doi.org/10.1111/1468-4446.70139",
+    "title": "Education, Skills, and Intergenerational Inequality in Status Attainment: Causal Mediation Analysis and Typology of 23 OECD Countries",
+    "display_name": "Education, Skills, and Intergenerational Inequality in Status Attainment: Causal Mediation Analysis and Typology of 23 OECD Countries",
+    "relevance_score": 0.4833852,
+    "publication_year": 2026,
+    "publication_date": "2026-06-15",
+    "ids": {
+      "openalex": "https://openalex.org/W7164848166",
+      "doi": "https://doi.org/10.1111/1468-4446.70139",
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/42298303"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1111/1468-4446.70139",
+      "doi": "https://doi.org/10.1111/1468-4446.70139",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/1468-4446.70139",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S173252385",
+        "display_name": "British Journal of Sociology",
+        "issn_l": "0007-1315",
+        "issn": [
+          "0007-1315",
+          "1468-4446"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The British Journal of Sociology",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref",
+      "pubmed"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://doi.org/10.1111/1468-4446.70139",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5055213292",
+          "display_name": "Satoshi Araki",
+          "orcid": "https://orcid.org/0000-0003-0302-959X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0302-959X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I889458895",
+            "display_name": "University of Hong Kong",
+            "ror": "https://ror.org/02zhqgq86",
+            "country_code": "HK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ],
+        "countries": [
+          "HK"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Satoshi Araki",
+        "raw_affiliation_strings": [
+          "Department of Sociology The University of Hong Kong  Pok Fu Lam Hong Kong",
+          "James M. and Cathleen D. Stone Centre on Socio\u2010Economic Inequality in Asia The University of Hong Kong  Pok Fu Lam Hong Kong",
+          "Research Hub of Population Studies The University of Hong Kong  Pok Fu Lam Hong Kong"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-0302-959X",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Department of Sociology The University of Hong Kong  Pok Fu Lam Hong Kong",
+            "institution_ids": [
+              "https://openalex.org/I889458895"
+            ]
+          },
+          {
+            "raw_affiliation_string": "James M. and Cathleen D. Stone Centre on Socio\u2010Economic Inequality in Asia The University of Hong Kong  Pok Fu Lam Hong Kong",
+            "institution_ids": [
+              "https://openalex.org/I889458895"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Research Hub of Population Studies The University of Hong Kong  Pok Fu Lam Hong Kong",
+            "institution_ids": [
+              "https://openalex.org/I889458895"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5055213292"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I889458895"
+    ],
+    "apc_list": {
+      "value": 3840,
+      "currency": "USD",
+      "value_usd": 3840
+    },
+    "apc_paid": {
+      "value": 3840,
+      "currency": "USD",
+      "value_usd": 3840
+    },
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.45003533,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12088",
+      "display_name": "Intergenerational and Educational Inequality Studies",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12088",
+        "display_name": "Intergenerational and Educational Inequality Studies",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11895",
+        "display_name": "Social and Cultural Dynamics",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10259",
+        "display_name": "Sociology and Education Studies",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/intergenerational-inequality",
+        "display_name": "intergenerational inequality",
+        "score": 0.9909999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/status-attainment",
+        "display_name": "status attainment",
+        "score": 0.9110000133514404
+      },
+      {
+        "id": "https://openalex.org/keywords/educational-attainment",
+        "display_name": "educational attainment",
+        "score": 0.7850000262260437
+      },
+      {
+        "id": "https://openalex.org/keywords/social-background",
+        "display_name": "social background",
+        "score": 0.5199999809265137
+      },
+      {
+        "id": "https://openalex.org/keywords/occupational-outcomes",
+        "display_name": "occupational outcomes",
+        "score": 0.7730000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/counterfactual-framework",
+        "display_name": "counterfactual framework",
+        "score": 0.5820000171661377
+      },
+      {
+        "id": "https://openalex.org/keywords/meritocracy",
+        "display_name": "meritocracy",
+        "score": 0.7799999713897705
+      },
+      {
+        "id": "https://openalex.org/keywords/credentialism",
+        "display_name": "credentialism",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/cross-national-comparison",
+        "display_name": "cross-national comparison",
+        "score": 0.7580000162124634
+      },
+      {
+        "id": "https://openalex.org/keywords/oecd-countries",
+        "display_name": "OECD countries",
+        "score": 0.4869999885559082
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C38377331",
+        "wikidata": "https://www.wikidata.org/wiki/Q178079",
+        "display_name": "Meritocracy",
+        "level": 2,
+        "score": 0.8043000102043152
+      },
+      {
+        "id": "https://openalex.org/C2780623907",
+        "wikidata": "https://www.wikidata.org/wiki/Q106394435",
+        "display_name": "Disadvantaged",
+        "level": 2,
+        "score": 0.6790000200271606
+      },
+      {
+        "id": "https://openalex.org/C108650721",
+        "wikidata": "https://www.wikidata.org/wiki/Q1783253",
+        "display_name": "Counterfactual thinking",
+        "level": 2,
+        "score": 0.6092000007629395
+      },
+      {
+        "id": "https://openalex.org/C75795011",
+        "wikidata": "https://www.wikidata.org/wiki/Q917904",
+        "display_name": "Typology",
+        "level": 2,
+        "score": 0.6008999943733215
+      },
+      {
+        "id": "https://openalex.org/C179420905",
+        "wikidata": "https://www.wikidata.org/wiki/Q223871",
+        "display_name": "Mediation",
+        "level": 2,
+        "score": 0.5641999840736389
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.5547000169754028
+      },
+      {
+        "id": "https://openalex.org/C45555294",
+        "wikidata": "https://www.wikidata.org/wiki/Q28113351",
+        "display_name": "Inequality",
+        "level": 2,
+        "score": 0.5175999999046326
+      },
+      {
+        "id": "https://openalex.org/C198477413",
+        "wikidata": "https://www.wikidata.org/wiki/Q7647069",
+        "display_name": "Survey data collection",
+        "level": 2,
+        "score": 0.4521999955177307
+      },
+      {
+        "id": "https://openalex.org/C169900460",
+        "wikidata": "https://www.wikidata.org/wiki/Q2200417",
+        "display_name": "Cognition",
+        "level": 2,
+        "score": 0.4390000104904175
+      },
+      {
+        "id": "https://openalex.org/C146804397",
+        "wikidata": "https://www.wikidata.org/wiki/Q4118918",
+        "display_name": "General Social Survey",
+        "level": 2,
+        "score": 0.38839998841285706
+      },
+      {
+        "id": "https://openalex.org/C77805123",
+        "wikidata": "https://www.wikidata.org/wiki/Q161272",
+        "display_name": "Social psychology",
+        "level": 1,
+        "score": 0.3621000051498413
+      },
+      {
+        "id": "https://openalex.org/C165148211",
+        "wikidata": "https://www.wikidata.org/wiki/Q5431887",
+        "display_name": "Social inequality",
+        "level": 3,
+        "score": 0.3553999960422516
+      },
+      {
+        "id": "https://openalex.org/C2779297142",
+        "wikidata": "https://www.wikidata.org/wiki/Q3276412",
+        "display_name": "Educational attainment",
+        "level": 2,
+        "score": 0.3458999991416931
+      },
+      {
+        "id": "https://openalex.org/C37129596",
+        "wikidata": "https://www.wikidata.org/wiki/Q194417",
+        "display_name": "Social mobility",
+        "level": 2,
+        "score": 0.3416000008583069
+      },
+      {
+        "id": "https://openalex.org/C2777673361",
+        "wikidata": "https://www.wikidata.org/wiki/Q5281228",
+        "display_name": "Disadvantage",
+        "level": 2,
+        "score": 0.3393000066280365
+      },
+      {
+        "id": "https://openalex.org/C134290984",
+        "wikidata": "https://www.wikidata.org/wiki/Q5141241",
+        "display_name": "Cognitive skill",
+        "level": 3,
+        "score": 0.3244999945163727
+      },
+      {
+        "id": "https://openalex.org/C163258240",
+        "wikidata": "https://www.wikidata.org/wiki/Q25342",
+        "display_name": "Power (physics)",
+        "level": 2,
+        "score": 0.3174000084400177
+      },
+      {
+        "id": "https://openalex.org/C202269582",
+        "wikidata": "https://www.wikidata.org/wiki/Q2644277",
+        "display_name": "Complementarity (molecular biology)",
+        "level": 2,
+        "score": 0.3093000054359436
+      },
+      {
+        "id": "https://openalex.org/C145472048",
+        "wikidata": "https://www.wikidata.org/wiki/Q829367",
+        "display_name": "Sociology of Education",
+        "level": 2,
+        "score": 0.30390000343322754
+      },
+      {
+        "id": "https://openalex.org/C15744967",
+        "wikidata": "https://www.wikidata.org/wiki/Q9418",
+        "display_name": "Psychology",
+        "level": 0,
+        "score": 0.2915000021457672
+      },
+      {
+        "id": "https://openalex.org/C142853389",
+        "wikidata": "https://www.wikidata.org/wiki/Q744778",
+        "display_name": "Association (psychology)",
+        "level": 2,
+        "score": 0.2903999984264374
+      },
+      {
+        "id": "https://openalex.org/C4249254",
+        "wikidata": "https://www.wikidata.org/wiki/Q3044431",
+        "display_name": "Demographic economics",
+        "level": 1,
+        "score": 0.28790000081062317
+      },
+      {
+        "id": "https://openalex.org/C2777363581",
+        "wikidata": "https://www.wikidata.org/wiki/Q15098235",
+        "display_name": "Harm",
+        "level": 2,
+        "score": 0.2840000092983246
+      },
+      {
+        "id": "https://openalex.org/C201770970",
+        "wikidata": "https://www.wikidata.org/wiki/Q17143093",
+        "display_name": "Socio-cognitive",
+        "level": 3,
+        "score": 0.27619999647140503
+      },
+      {
+        "id": "https://openalex.org/C11671645",
+        "wikidata": "https://www.wikidata.org/wiki/Q5054567",
+        "display_name": "Causal model",
+        "level": 2,
+        "score": 0.27320000529289246
+      },
+      {
+        "id": "https://openalex.org/C134659438",
+        "wikidata": "https://www.wikidata.org/wiki/Q5853064",
+        "display_name": "Social exclusion",
+        "level": 2,
+        "score": 0.26930001378059387
+      },
+      {
+        "id": "https://openalex.org/C2778061430",
+        "wikidata": "https://www.wikidata.org/wiki/Q188823",
+        "display_name": "Scholarship",
+        "level": 2,
+        "score": 0.26260000467300415
+      },
+      {
+        "id": "https://openalex.org/C2778783286",
+        "wikidata": "https://www.wikidata.org/wiki/Q861360",
+        "display_name": "Educational inequality",
+        "level": 3,
+        "score": 0.2578999996185303
+      },
+      {
+        "id": "https://openalex.org/C138496976",
+        "wikidata": "https://www.wikidata.org/wiki/Q175002",
+        "display_name": "Developmental psychology",
+        "level": 1,
+        "score": 0.2574000060558319
+      },
+      {
+        "id": "https://openalex.org/C178895491",
+        "wikidata": "https://www.wikidata.org/wiki/Q211606",
+        "display_name": "Social structure",
+        "level": 3,
+        "score": 0.2549999952316284
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1111/1468-4446.70139",
+        "doi": "https://doi.org/10.1111/1468-4446.70139",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1111/1468-4446.70139",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S173252385",
+          "display_name": "British Journal of Sociology",
+          "issn_l": "0007-1315",
+          "issn": [
+            "0007-1315",
+            "1468-4446"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-3",
+            "medline",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320595",
+          "host_organization_name": "Wiley",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320595"
+          ],
+          "host_organization_lineage_names": [
+            "Wiley"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The British Journal of Sociology",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmid:42298303",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/42298303",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306525036",
+          "display_name": "PubMed",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The British journal of sociology",
+        "raw_type": "Journal Article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1111/1468-4446.70139",
+      "doi": "https://doi.org/10.1111/1468-4446.70139",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1111/1468-4446.70139",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S173252385",
+        "display_name": "British Journal of Sociology",
+        "issn_l": "0007-1315",
+        "issn": [
+          "0007-1315",
+          "1468-4446"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-3",
+          "medline",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The British Journal of Sociology",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.9629999995231628,
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/4",
+        "score": 0.6164000034332275,
+        "display_name": "Quality education"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3563594154",
+        "display_name": null,
+        "funder_award_id": "000250635",
+        "funder_id": "https://openalex.org/F4320322170",
+        "funder_display_name": "University of Hong Kong"
+      },
+      {
+        "id": "https://openalex.org/G526287287",
+        "display_name": null,
+        "funder_award_id": "200011610",
+        "funder_id": "https://openalex.org/F4320322170",
+        "funder_display_name": "University of Hong Kong"
+      },
+      {
+        "id": "https://openalex.org/G6539024638",
+        "display_name": null,
+        "funder_award_id": "000250719",
+        "funder_id": "https://openalex.org/F4320322170",
+        "funder_display_name": "University of Hong Kong"
+      },
+      {
+        "id": "https://openalex.org/G8884892768",
+        "display_name": null,
+        "funder_award_id": "109001104",
+        "funder_id": "https://openalex.org/F4320322170",
+        "funder_display_name": "University of Hong Kong"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320322170",
+        "display_name": "University of Hong Kong",
+        "ror": "https://ror.org/02zhqgq86"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 107,
+    "referenced_works": [
+      "https://openalex.org/W154894500",
+      "https://openalex.org/W822829741",
+      "https://openalex.org/W1580804840",
+      "https://openalex.org/W1600300577",
+      "https://openalex.org/W1884571572",
+      "https://openalex.org/W1908991493",
+      "https://openalex.org/W1937592784",
+      "https://openalex.org/W1963562210",
+      "https://openalex.org/W1973424936",
+      "https://openalex.org/W1985422330",
+      "https://openalex.org/W1991818273",
+      "https://openalex.org/W1993211119",
+      "https://openalex.org/W2009090633",
+      "https://openalex.org/W2010143351",
+      "https://openalex.org/W2022256544",
+      "https://openalex.org/W2026824330",
+      "https://openalex.org/W2039692704",
+      "https://openalex.org/W2055016858",
+      "https://openalex.org/W2063685363",
+      "https://openalex.org/W2068158060",
+      "https://openalex.org/W2073517112",
+      "https://openalex.org/W2075664771",
+      "https://openalex.org/W2078387192",
+      "https://openalex.org/W2079007828",
+      "https://openalex.org/W2083418069",
+      "https://openalex.org/W2101626831",
+      "https://openalex.org/W2109416443",
+      "https://openalex.org/W2128062278",
+      "https://openalex.org/W2130299652",
+      "https://openalex.org/W2132159797",
+      "https://openalex.org/W2132617827",
+      "https://openalex.org/W2132700370",
+      "https://openalex.org/W2144514757",
+      "https://openalex.org/W2149235628",
+      "https://openalex.org/W2150853164",
+      "https://openalex.org/W2159548544",
+      "https://openalex.org/W2162075074",
+      "https://openalex.org/W2250131611",
+      "https://openalex.org/W2271272931",
+      "https://openalex.org/W2272741259",
+      "https://openalex.org/W2298819017",
+      "https://openalex.org/W2318582098",
+      "https://openalex.org/W2320654032",
+      "https://openalex.org/W2340036417",
+      "https://openalex.org/W2362244753",
+      "https://openalex.org/W2414134408",
+      "https://openalex.org/W2494698586",
+      "https://openalex.org/W2509434597",
+      "https://openalex.org/W2589519267",
+      "https://openalex.org/W2593160432",
+      "https://openalex.org/W2605715437",
+      "https://openalex.org/W2610234072",
+      "https://openalex.org/W2618731924",
+      "https://openalex.org/W2731955757",
+      "https://openalex.org/W2764087743",
+      "https://openalex.org/W2786425587",
+      "https://openalex.org/W2788404057",
+      "https://openalex.org/W2791325506",
+      "https://openalex.org/W2794568715",
+      "https://openalex.org/W2805703727",
+      "https://openalex.org/W2838825199",
+      "https://openalex.org/W2890548139",
+      "https://openalex.org/W2890752983",
+      "https://openalex.org/W2892316848",
+      "https://openalex.org/W2900607085",
+      "https://openalex.org/W2914274646",
+      "https://openalex.org/W2920039906",
+      "https://openalex.org/W2921283446",
+      "https://openalex.org/W2940571355",
+      "https://openalex.org/W2943421593",
+      "https://openalex.org/W2955698382",
+      "https://openalex.org/W2981085316",
+      "https://openalex.org/W2981331076",
+      "https://openalex.org/W2982092285",
+      "https://openalex.org/W2984996373",
+      "https://openalex.org/W2998274343",
+      "https://openalex.org/W3003302078",
+      "https://openalex.org/W3027769937",
+      "https://openalex.org/W3033501614",
+      "https://openalex.org/W3088019192",
+      "https://openalex.org/W3091931057",
+      "https://openalex.org/W3122286906",
+      "https://openalex.org/W3124634111",
+      "https://openalex.org/W3125864288",
+      "https://openalex.org/W3128588226",
+      "https://openalex.org/W3140330301",
+      "https://openalex.org/W3153856044",
+      "https://openalex.org/W3185742273",
+      "https://openalex.org/W4200565174",
+      "https://openalex.org/W4206961362",
+      "https://openalex.org/W4212849457",
+      "https://openalex.org/W4213069710",
+      "https://openalex.org/W4223972564",
+      "https://openalex.org/W4239205629",
+      "https://openalex.org/W4245619513",
+      "https://openalex.org/W4283031721",
+      "https://openalex.org/W4289337240",
+      "https://openalex.org/W4298003050",
+      "https://openalex.org/W4319843373",
+      "https://openalex.org/W4322007942",
+      "https://openalex.org/W4323317204",
+      "https://openalex.org/W4353044654",
+      "https://openalex.org/W4388722033",
+      "https://openalex.org/W4392105131",
+      "https://openalex.org/W4404505898",
+      "https://openalex.org/W4405409761",
+      "https://openalex.org/W4411990314"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Scholars": [
+        0
+      ],
+      "have": [
+        1
+      ],
+      "long": [
+        2
+      ],
+      "investigated": [
+        3
+      ],
+      "intergenerational": [
+        4,
+        58,
+        161
+      ],
+      "inequality,": [
+        5,
+        162
+      ],
+      "with": [
+        6,
+        185
+      ],
+      "attention": [
+        7
+      ],
+      "to": [
+        8,
+        52,
+        136,
+        174
+      ],
+      "the": [
+        9,
+        18,
+        55,
+        72,
+        80,
+        115,
+        140,
+        156,
+        182
+      ],
+      "associations": [
+        10
+      ],
+      "among": [
+        11,
+        155
+      ],
+      "social": [
+        12
+      ],
+      "origins,": [
+        13
+      ],
+      "education,": [
+        14,
+        48,
+        131
+      ],
+      "and": [
+        15,
+        30,
+        50,
+        60,
+        102,
+        180
+      ],
+      "socio-economic": [
+        16
+      ],
+      "destinations:": [
+        17
+      ],
+      "so-called": [
+        19
+      ],
+      "OED": [
+        20
+      ],
+      "triangle.": [
+        21
+      ],
+      "Meanwhile,": [
+        22
+      ],
+      "recent": [
+        23
+      ],
+      "research": [
+        24
+      ],
+      "highlights": [
+        25
+      ],
+      "distinct": [
+        26
+      ],
+      "roles": [
+        27
+      ],
+      "of": [
+        28,
+        57,
+        83,
+        130,
+        139,
+        189
+      ],
+      "education": [
+        29,
+        112
+      ],
+      "skills": [
+        31,
+        123,
+        154
+      ],
+      "in": [
+        32,
+        90,
+        118,
+        145
+      ],
+      "status": [
+        33
+      ],
+      "attainment.": [
+        34
+      ],
+      "Extending": [
+        35
+      ],
+      "these": [
+        36,
+        171
+      ],
+      "studies,": [
+        37
+      ],
+      "this": [
+        38
+      ],
+      "article": [
+        39
+      ],
+      "proposes": [
+        40
+      ],
+      "a": [
+        41,
+        126,
+        186,
+        192
+      ],
+      "new": [
+        42
+      ],
+      "framework-the": [
+        43
+      ],
+      "OESD": [
+        44
+      ],
+      "quadrangle-that": [
+        45
+      ],
+      "incorporates": [
+        46
+      ],
+      "origin,": [
+        47
+      ],
+      "skills,": [
+        49,
+        101
+      ],
+      "destination": [
+        51
+      ],
+      "better": [
+        53
+      ],
+      "understand": [
+        54
+      ],
+      "structure": [
+        56
+      ],
+      "inequality": [
+        59
+      ],
+      "its": [
+        61,
+        164
+      ],
+      "cross-national": [
+        62,
+        172
+      ],
+      "patterns.": [
+        63
+      ],
+      "As": [
+        64
+      ],
+      "an": [
+        65
+      ],
+      "application,": [
+        66
+      ],
+      "causal": [
+        67
+      ],
+      "mediation": [
+        68
+      ],
+      "analysis": [
+        69
+      ],
+      "based": [
+        70
+      ],
+      "on": [
+        71
+      ],
+      "counterfactual": [
+        73
+      ],
+      "framework": [
+        74
+      ],
+      "is": [
+        75
+      ],
+      "performed": [
+        76
+      ],
+      "using": [
+        77
+      ],
+      "data": [
+        78
+      ],
+      "from": [
+        79,
+        133,
+        191
+      ],
+      "OECD": [
+        81
+      ],
+      "Survey": [
+        82
+      ],
+      "Adult": [
+        84
+      ],
+      "Skills": [
+        85
+      ],
+      "(PIAAC)": [
+        86
+      ],
+      "for": [
+        87
+      ],
+      "27,812": [
+        88
+      ],
+      "individuals": [
+        89
+      ],
+      "23": [
+        91
+      ],
+      "countries,": [
+        92
+      ],
+      "encompassing": [
+        93
+      ],
+      "parental": [
+        94
+      ],
+      "status,": [
+        95
+      ],
+      "respondents'": [
+        96
+      ],
+      "educational": [
+        97
+      ],
+      "attainment,": [
+        98
+      ],
+      "adult": [
+        99,
+        122
+      ],
+      "cognitive": [
+        100,
+        153
+      ],
+      "occupational": [
+        103
+      ],
+      "outcomes.": [
+        104
+      ],
+      "The": [
+        105
+      ],
+      "findings": [
+        106
+      ],
+      "corroborate": [
+        107
+      ],
+      "prior": [
+        108
+      ],
+      "research,": [
+        109
+      ],
+      "demonstrating": [
+        110
+      ],
+      "that": [
+        111,
+        151
+      ],
+      "significantly": [
+        113
+      ],
+      "mediates": [
+        114
+      ],
+      "origin-destination": [
+        116
+      ],
+      "association": [
+        117
+      ],
+      "all": [
+        119
+      ],
+      "cases.": [
+        120
+      ],
+      "Importantly,": [
+        121
+      ],
+      "also": [
+        124
+      ],
+      "exert": [
+        125
+      ],
+      "mediating": [
+        127
+      ],
+      "power": [
+        128
+      ],
+      "net": [
+        129
+      ],
+      "ranging": [
+        132
+      ],
+      "4%": [
+        134
+      ],
+      "(Sweden)": [
+        135
+      ],
+      "25%": [
+        137
+      ],
+      "(USA)": [
+        138
+      ],
+      "total": [
+        141
+      ],
+      "origin": [
+        142
+      ],
+      "effect": [
+        143
+      ],
+      "estimates": [
+        144
+      ],
+      "conservative": [
+        146
+      ],
+      "models.": [
+        147
+      ],
+      "These": [
+        148
+      ],
+      "results": [
+        149
+      ],
+      "suggest": [
+        150
+      ],
+      "fostering": [
+        152
+      ],
+      "disadvantaged": [
+        157
+      ],
+      "may": [
+        158
+      ],
+      "help": [
+        159
+      ],
+      "mitigate": [
+        160
+      ],
+      "although": [
+        163
+      ],
+      "magnitude": [
+        165
+      ],
+      "varies": [
+        166
+      ],
+      "across": [
+        167
+      ],
+      "societies.": [
+        168
+      ],
+      "By": [
+        169
+      ],
+      "linking": [
+        170
+      ],
+      "differences": [
+        173
+      ],
+      "fundamental": [
+        175
+      ],
+      "concepts": [
+        176
+      ],
+      "such": [
+        177
+      ],
+      "as": [
+        178
+      ],
+      "meritocracy": [
+        179
+      ],
+      "credentialism,": [
+        181
+      ],
+      "study": [
+        183
+      ],
+      "concludes": [
+        184
+      ],
+      "preliminary": [
+        187
+      ],
+      "typology": [
+        188
+      ],
+      "societies": [
+        190
+      ],
+      "comparative": [
+        193
+      ],
+      "perspective.": [
+        194
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2026-06-16T00:00:00"
   }
 ]

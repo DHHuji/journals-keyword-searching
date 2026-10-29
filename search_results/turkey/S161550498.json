@@ -13210,7 +13210,7 @@
     "doi": "https://doi.org/10.1177/00220094261432962",
     "title": "\u2018A Purely Cultural Mission\u2019: The British Council and Turkey 1940\u20137",
     "display_name": "\u2018A Purely Cultural Mission\u2019: The British Council and Turkey 1940\u20137",
-    "relevance_score": 16.155516,
+    "relevance_score": 32.386814,
     "publication_year": 2026,
     "publication_date": "2026-04-03",
     "ids": {
@@ -13220,6 +13220,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00220094261432962",
+      "doi": "https://doi.org/10.1177/00220094261432962",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094261432962",
       "pdf_url": null,
@@ -13234,6 +13235,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -13252,6 +13263,7 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -13266,11 +13278,24 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5075987019",
+          "id": null,
           "display_name": "Eve Lacey",
-          "orcid": "https://orcid.org/0000-0002-1496-5386"
+          "orcid": "https://orcid.org/0000-0002-1496-5386",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1496-5386"
+          ]
         },
         "institutions": [
+          {
+            "id": "https://openalex.org/I241749",
+            "display_name": "University of Cambridge",
+            "ror": "https://ror.org/013meh722",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I241749"
+            ]
+          },
           {
             "id": "https://openalex.org/I2801409761",
             "display_name": "Newham College",
@@ -13278,7 +13303,6 @@
             "country_code": "GB",
             "type": "education",
             "lineage": [
-              "https://openalex.org/I126193024",
               "https://openalex.org/I2801409761"
             ]
           }
@@ -13296,6 +13320,7 @@
           {
             "raw_affiliation_string": "Skilliter Centre for Ottoman Studies, Newnham College, University of Cambridge",
             "institution_ids": [
+              "https://openalex.org/I241749",
               "https://openalex.org/I2801409761"
             ]
           }
@@ -13304,20 +13329,27 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 1,
-    "corresponding_author_ids": [
-      "https://openalex.org/A5075987019"
-    ],
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [],
     "corresponding_institution_ids": [
+      "https://openalex.org/I241749",
       "https://openalex.org/I2801409761"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.58479541,
+      "value": 0.18225644,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -13332,9 +13364,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11971",
-      "display_name": "World Wars: History, Literature, and Impact",
-      "score": 0.572700023651123,
+      "id": "https://openalex.org/T13210",
+      "display_name": "Historical Turkish Studies",
+      "score": 0.92330002784729,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -13350,9 +13382,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11971",
-        "display_name": "World Wars: History, Literature, and Impact",
-        "score": 0.572700023651123,
+        "id": "https://openalex.org/T13210",
+        "display_name": "Historical Turkish Studies",
+        "score": 0.92330002784729,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -13367,12 +13399,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T13576",
-        "display_name": "Cyprus History, Politics, Society",
-        "score": 0.11249999701976776,
+        "id": "https://openalex.org/T14032",
+        "display_name": "History and International Relations",
+        "score": 0.051500000059604645,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -13384,9 +13416,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T13210",
-        "display_name": "Historical Turkish Studies",
-        "score": 0.0608999989926815,
+        "id": "https://openalex.org/T11971",
+        "display_name": "World Wars: History, Literature, and Impact",
+        "score": 0.00800000037997961,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -13403,34 +13435,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/generosity",
-        "display_name": "Generosity",
-        "score": 0.9053999781608582
+        "id": "https://openalex.org/keywords/british-council",
+        "display_name": "British Council",
+        "score": 0.9959999918937683
       },
       {
-        "id": "https://openalex.org/keywords/neutrality",
-        "display_name": "Neutrality",
-        "score": 0.7494999766349792
+        "id": "https://openalex.org/keywords/cultural-diplomacy",
+        "display_name": "cultural diplomacy",
+        "score": 0.9039999842643738
       },
       {
-        "id": "https://openalex.org/keywords/work",
-        "display_name": "Work (physics)",
-        "score": 0.5766000151634216
+        "id": "https://openalex.org/keywords/halkevi",
+        "display_name": "Halkevi",
+        "score": 0.6150000095367432
       },
       {
-        "id": "https://openalex.org/keywords/period",
-        "display_name": "Period (music)",
-        "score": 0.4848000109195709
+        "id": "https://openalex.org/keywords/people-s-houses",
+        "display_name": "People's Houses",
+        "score": 0.8119999766349792
       },
       {
-        "id": "https://openalex.org/keywords/cultural-issues",
-        "display_name": "Cultural issues",
-        "score": 0.3212999999523163
+        "id": "https://openalex.org/keywords/british-turkish-relations",
+        "display_name": "British-Turkish relations",
+        "score": 0.7490000128746033
       },
       {
-        "id": "https://openalex.org/keywords/first-world-war",
-        "display_name": "First world war",
-        "score": 0.29159998893737793
+        "id": "https://openalex.org/keywords/world-war-ii",
+        "display_name": "World War II",
+        "score": 0.9509999752044678
+      },
+      {
+        "id": "https://openalex.org/keywords/postwar-relations",
+        "display_name": "postwar relations",
+        "score": 0.6449999809265137
+      },
+      {
+        "id": "https://openalex.org/keywords/british-cultural-policy",
+        "display_name": "British cultural policy",
+        "score": 0.3190000057220459
       }
     ],
     "concepts": [
@@ -13552,6 +13594,7 @@
     "locations": [
       {
         "id": "doi:10.1177/00220094261432962",
+        "doi": "https://doi.org/10.1177/00220094261432962",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/00220094261432962",
         "pdf_url": null,
@@ -13566,6 +13609,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -13586,6 +13639,7 @@
       },
       {
         "id": "pmh:oai:www.repository.cam.ac.uk:1810/401146",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://www.repository.cam.ac.uk/handle/1810/401146",
         "pdf_url": "https://www.repository.cam.ac.uk/bitstreams/c60f274c-e298-4176-9773-9d01f9445d79/download",
@@ -13597,6 +13651,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I241749",
           "host_organization_name": "University of Cambridge",
           "host_organization_lineage": [
@@ -13616,6 +13671,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1177/00220094261432962",
+      "doi": "https://doi.org/10.1177/00220094261432962",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094261432962",
       "pdf_url": null,
@@ -13630,6 +13686,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -13649,16 +13715,29 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W2724684874",
+      "https://openalex.org/W4285449490",
+      "https://openalex.org/W3167135052",
+      "https://openalex.org/W4414068104",
+      "https://openalex.org/W3127014070",
+      "https://openalex.org/W2490166955",
+      "https://openalex.org/W4393358928",
+      "https://openalex.org/W1857353336",
+      "https://openalex.org/W1590550603",
+      "https://openalex.org/W6999050664"
+    ],
     "abstract_inverted_index": {
       "This": [
         0
@@ -14054,7 +14133,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2026-04-04T00:00:00"
   },
   {
@@ -15806,7 +15885,7 @@
     "doi": "https://doi.org/10.1177/00220094251401604",
     "title": "Colonial and Imperial Legacies, National Transformations: Jewish Minorities in 1950s to 1970s Morocco and Turkey",
     "display_name": "Colonial and Imperial Legacies, National Transformations: Jewish Minorities in 1950s to 1970s Morocco and Turkey",
-    "relevance_score": 14.056936,
+    "relevance_score": 28.13246,
     "publication_year": 2025,
     "publication_date": "2025-12-09",
     "ids": {
@@ -15816,6 +15895,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00220094251401604",
+      "doi": "https://doi.org/10.1177/00220094251401604",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094251401604",
       "pdf_url": null,
@@ -15830,6 +15910,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -15848,6 +15938,7 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -15862,9 +15953,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5093331991",
+          "id": "https://openalex.org/A5019273210",
           "display_name": "\u00d6vg\u00fc \u00dclgen",
-          "orcid": "https://orcid.org/0009-0009-0502-9287"
+          "orcid": "https://orcid.org/0009-0009-0502-9287",
+          "observed_orcids": [
+            "https://orcid.org/0009-0009-0502-9287"
+          ]
         },
         "institutions": [
           {
@@ -15923,21 +16017,29 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
-      "https://openalex.org/A5093331991"
+      "https://openalex.org/A5019273210"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I43406934",
       "https://openalex.org/I70931966"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.3986341,
+      "value": 0.34918816,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -15952,12 +16054,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11783",
-      "display_name": "Turkey's Politics and Society",
-      "score": 0.46480000019073486,
+      "id": "https://openalex.org/T13784",
+      "display_name": "Jewish Identity and Society",
+      "score": 0.415800005197525,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -15970,12 +16072,12 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11783",
-        "display_name": "Turkey's Politics and Society",
-        "score": 0.46480000019073486,
+        "id": "https://openalex.org/T13784",
+        "display_name": "Jewish Identity and Society",
+        "score": 0.415800005197525,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -15989,7 +16091,7 @@
       {
         "id": "https://openalex.org/T11203",
         "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.17509999871253967,
+        "score": 0.31470000743865967,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -16004,16 +16106,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T14343",
-        "display_name": "Hispanic-African Historical Relations",
-        "score": 0.0406000018119812,
+        "id": "https://openalex.org/T11648",
+        "display_name": "Diaspora, migration, transnational identity",
+        "score": 0.17630000412464142,
         "subfield": {
-          "id": "https://openalex.org/subfields/1212",
-          "display_name": "Religious studies"
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -16023,39 +16125,69 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/judaism",
-        "display_name": "Judaism",
-        "score": 0.7946000099182129
+        "id": "https://openalex.org/keywords/jewish-minority",
+        "display_name": "Jewish minority",
+        "score": 0.8240000009536743
       },
       {
-        "id": "https://openalex.org/keywords/emigration",
-        "display_name": "Emigration",
-        "score": 0.6764000058174133
+        "id": "https://openalex.org/keywords/moroccan-jews",
+        "display_name": "Moroccan Jews",
+        "score": 0.9760000109672546
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.6574000120162964
+        "id": "https://openalex.org/keywords/turkish-jews",
+        "display_name": "Turkish Jews",
+        "score": 0.9950000047683716
       },
       {
-        "id": "https://openalex.org/keywords/identity",
-        "display_name": "Identity (music)",
-        "score": 0.599399983882904
+        "id": "https://openalex.org/keywords/jewish-identity",
+        "display_name": "Jewish identity",
+        "score": 0.6949999928474426
       },
       {
-        "id": "https://openalex.org/keywords/colonialism",
-        "display_name": "Colonialism",
-        "score": 0.593500018119812
+        "id": "https://openalex.org/keywords/identity-negotiation",
+        "display_name": "identity negotiation",
+        "score": 0.6430000066757202
+      },
+      {
+        "id": "https://openalex.org/keywords/postcolonial-nation-building",
+        "display_name": "postcolonial nation-building",
+        "score": 0.7680000066757202
+      },
+      {
+        "id": "https://openalex.org/keywords/colonial-legacy",
+        "display_name": "colonial legacy",
+        "score": 0.6629999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/israeli-palestinian-conflict",
+        "display_name": "Israeli-Palestinian conflict",
+        "score": 0.796999990940094
       },
       {
         "id": "https://openalex.org/keywords/decolonization",
-        "display_name": "Decolonization",
-        "score": 0.5860999822616577
+        "display_name": "decolonization",
+        "score": 0.7559999823570251
       },
       {
-        "id": "https://openalex.org/keywords/turkish",
-        "display_name": "Turkish",
-        "score": 0.5608999729156494
+        "id": "https://openalex.org/keywords/emigration",
+        "display_name": "emigration",
+        "score": 0.7919999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/social-class",
+        "display_name": "social class",
+        "score": 0.8360000252723694
+      },
+      {
+        "id": "https://openalex.org/keywords/educational-inequality",
+        "display_name": "educational inequality",
+        "score": 0.5889999866485596
+      },
+      {
+        "id": "https://openalex.org/keywords/1950s-1970s",
+        "display_name": "1950s-1970s",
+        "score": 0.8420000076293945
       }
     ],
     "concepts": [
@@ -16219,6 +16351,7 @@
     "locations": [
       {
         "id": "doi:10.1177/00220094251401604",
+        "doi": "https://doi.org/10.1177/00220094251401604",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/00220094251401604",
         "pdf_url": null,
@@ -16233,6 +16366,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -16254,6 +16397,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1177/00220094251401604",
+      "doi": "https://doi.org/10.1177/00220094251401604",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/00220094251401604",
       "pdf_url": null,
@@ -16268,6 +16412,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -16286,7 +16440,20 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7578999996185303,
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.6601999998092651,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -16296,13 +16463,24 @@
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W2067739731",
+      "https://openalex.org/W2963757521",
+      "https://openalex.org/W1574845592",
+      "https://openalex.org/W2508042745",
+      "https://openalex.org/W2963304284",
+      "https://openalex.org/W6982514883",
+      "https://openalex.org/W2984067510",
+      "https://openalex.org/W7117967632",
+      "https://openalex.org/W7161998805",
+      "https://openalex.org/W2964040397"
+    ],
     "abstract_inverted_index": {
       "This": [
         0
@@ -16697,7 +16875,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-06-12T06:20:11.936012",
+    "updated_date": "2026-09-27T08:07:27.782135",
     "created_date": "2025-12-09T00:00:00"
   },
   {
@@ -28035,7 +28213,7 @@
     "doi": "https://doi.org/10.1177/00220094261429083",
     "title": "Echoes of a Revolution: T\u00fcrkiye's Modernization Experiment in the 1930s Chinese Press",
     "display_name": "Echoes of a Revolution: T\u00fcrkiye's Modernization Experiment in the 1930s Chinese Press",
-    "relevance_score": 1.6422453,
+    "relevance_score": 3.28872,
     "publication_year": 2026,
     "publication_date": "2026-04-01",
     "ids": {
@@ -28045,6 +28223,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/00220094261429083",
+      "doi": "https://doi.org/10.1177/00220094261429083",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/00220094261429083",
       "pdf_url": null,
@@ -28059,6 +28238,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -28077,6 +28266,7 @@
       "raw_source_name": "Journal of Contemporary History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -28093,7 +28283,10 @@
         "author": {
           "id": "https://openalex.org/A5107821864",
           "display_name": "Serdar Yurt\u00e7i\u00e7ek",
-          "orcid": "https://orcid.org/0000-0003-2391-8319"
+          "orcid": "https://orcid.org/0000-0003-2391-8319",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2391-8319"
+          ]
         },
         "institutions": [
           {
@@ -28130,7 +28323,10 @@
         "author": {
           "id": "https://openalex.org/A5122940972",
           "display_name": "Emrah Alan",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-1913-241X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1913-241X"
+          ]
         },
         "institutions": [
           {
@@ -28167,7 +28363,10 @@
         "author": {
           "id": "https://openalex.org/A5122947893",
           "display_name": "Shaoxuan Yi",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0006-2550-3044",
+          "observed_orcids": [
+            "https://orcid.org/0009-0006-2550-3044"
+          ]
         },
         "institutions": [
           {
@@ -28204,17 +28403,20 @@
         "author": {
           "id": "https://openalex.org/A5014492019",
           "display_name": "Efe Can G\u00fcrcan",
-          "orcid": "https://orcid.org/0000-0002-5415-3163"
+          "orcid": "https://orcid.org/0000-0002-5415-3163",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5415-3163"
+          ]
         },
         "institutions": [
           {
-            "id": "https://openalex.org/I4210101260",
-            "display_name": "T\u00fcrkisch-Deutsche Universit\u00e4t",
-            "ror": "https://ror.org/017bbc354",
+            "id": "https://openalex.org/I282159120",
+            "display_name": "\u0130stanbul Ni\u015fanta\u015f\u0131 \u00dcniversitesi",
+            "ror": "https://ror.org/04tah3159",
             "country_code": "TR",
             "type": "education",
             "lineage": [
-              "https://openalex.org/I4210101260"
+              "https://openalex.org/I282159120"
             ]
           }
         ],
@@ -28231,7 +28433,7 @@
           {
             "raw_affiliation_string": "Department of International Relations, Istanbul Ni\u015fanta\u015f\u0131 University, Istanbul, T\u00fcrkiye",
             "institution_ids": [
-              "https://openalex.org/I4210101260"
+              "https://openalex.org/I282159120"
             ]
           }
         ]
@@ -28239,24 +28441,27 @@
       {
         "author_position": "last",
         "author": {
-          "id": "https://openalex.org/A5132567219",
-          "display_name": "Zhiqiang Zou",
-          "orcid": null
+          "id": "https://openalex.org/A5018332466",
+          "display_name": "Zhiqiang ZOU",
+          "orcid": "https://orcid.org/0009-0000-8181-998X",
+          "observed_orcids": [
+            "https://orcid.org/0009-0000-8181-998X"
+          ]
         },
         "institutions": [
           {
-            "id": "https://openalex.org/I905180023",
-            "display_name": "Eastern University",
-            "ror": "https://ror.org/04txhk134",
-            "country_code": "US",
+            "id": "https://openalex.org/I24943067",
+            "display_name": "Fudan University",
+            "ror": "https://ror.org/013q1eq08",
+            "country_code": "CN",
             "type": "education",
             "lineage": [
-              "https://openalex.org/I905180023"
+              "https://openalex.org/I24943067"
             ]
           }
         ],
         "countries": [
-          "US"
+          "CN"
         ],
         "is_corresponding": false,
         "raw_author_name": "Zhiqiang Zou",
@@ -28268,28 +28473,32 @@
           {
             "raw_affiliation_string": "Center for Middle Eastern Studies of Fudan University",
             "institution_ids": [
-              "https://openalex.org/I905180023"
+              "https://openalex.org/I24943067"
             ]
           }
         ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 3,
-    "institutions_distinct_count": 5,
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 4,
     "corresponding_author_ids": [
       "https://openalex.org/A5107821864"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I113940042"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.56424996,
+      "value": 0.17607694,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -28304,9 +28513,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11783",
-      "display_name": "Turkey's Politics and Society",
-      "score": 0.3215000033378601,
+      "id": "https://openalex.org/T13210",
+      "display_name": "Historical Turkish Studies",
+      "score": 0.9990000128746033,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -28322,26 +28531,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11783",
-        "display_name": "Turkey's Politics and Society",
-        "score": 0.3215000033378601,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T13210",
         "display_name": "Historical Turkish Studies",
-        "score": 0.27480000257492065,
+        "score": 0.9990000128746033,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -28356,16 +28548,33 @@
         }
       },
       {
-        "id": "https://openalex.org/T10794",
-        "display_name": "Islamic Studies and History",
-        "score": 0.037300001829862595,
+        "id": "https://openalex.org/T13231",
+        "display_name": "History, Culture, and Diplomacy",
+        "score": 0.00019999999494757503,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13766",
+        "display_name": "Media, Journalism, and Communication History",
+        "score": 0.00019999999494757503,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -28375,44 +28584,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/modernization-theory",
-        "display_name": "Modernization theory",
-        "score": 0.7914000153541565
+        "id": "https://openalex.org/keywords/chinese-newspapers",
+        "display_name": "Chinese newspapers",
+        "score": 0.5799999833106995
       },
       {
-        "id": "https://openalex.org/keywords/newspaper",
-        "display_name": "Newspaper",
-        "score": 0.685699999332428
+        "id": "https://openalex.org/keywords/mustafa-kemal-ataturk",
+        "display_name": "Mustafa Kemal Atat\u00fcrk",
+        "score": 0.8040000200271606
       },
       {
-        "id": "https://openalex.org/keywords/china",
-        "display_name": "China",
-        "score": 0.6800000071525574
+        "id": "https://openalex.org/keywords/turkish-modernization",
+        "display_name": "Turkish modernization",
+        "score": 0.7760000228881836
       },
       {
-        "id": "https://openalex.org/keywords/ideology",
-        "display_name": "Ideology",
-        "score": 0.657800018787384
+        "id": "https://openalex.org/keywords/turkish-war-of-independence",
+        "display_name": "Turkish War of Independence",
+        "score": 0.8330000042915344
       },
       {
-        "id": "https://openalex.org/keywords/historiography",
-        "display_name": "Historiography",
-        "score": 0.6563000082969666
+        "id": "https://openalex.org/keywords/kuomintang",
+        "display_name": "Kuomintang",
+        "score": 0.8709999918937683
       },
       {
-        "id": "https://openalex.org/keywords/modernity",
-        "display_name": "Modernity",
-        "score": 0.5856000185012817
+        "id": "https://openalex.org/keywords/chinese-intellectuals",
+        "display_name": "Chinese intellectuals",
+        "score": 0.8090000152587891
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.5188999772071838
+        "id": "https://openalex.org/keywords/anti-imperialism",
+        "display_name": "anti-imperialism",
+        "score": 0.7039999961853027
       },
       {
-        "id": "https://openalex.org/keywords/turkish",
-        "display_name": "Turkish",
-        "score": 0.45989999175071716
+        "id": "https://openalex.org/keywords/national-revival",
+        "display_name": "national awakening",
+        "score": 0.6119999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/legal-nationalism",
+        "display_name": "legal nationalism",
+        "score": 0.5239999890327454
+      },
+      {
+        "id": "https://openalex.org/keywords/chinese-republican-era",
+        "display_name": "Chinese Republican era",
+        "score": 0.5540000200271606
+      },
+      {
+        "id": "https://openalex.org/keywords/1930s-china",
+        "display_name": "1930s China",
+        "score": 0.7799999713897705
       }
     ],
     "concepts": [
@@ -28618,6 +28842,7 @@
     "locations": [
       {
         "id": "doi:10.1177/00220094261429083",
+        "doi": "https://doi.org/10.1177/00220094261429083",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/00220094261429083",
         "pdf_url": null,
@@ -28632,6 +28857,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -28652,23 +28887,36 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "display_name": "Peace, Justice and strong institutions",
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.43893903493881226
+        "score": 0.43893903493881226,
+        "display_name": "Peace, justice, and strong institutions"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W7168029710",
+      "https://openalex.org/W7123669584",
+      "https://openalex.org/W7212138369",
+      "https://openalex.org/W7127788816",
+      "https://openalex.org/W7161041839",
+      "https://openalex.org/W7066454170",
+      "https://openalex.org/W4403777312",
+      "https://openalex.org/W2997543072",
+      "https://openalex.org/W4407807188",
+      "https://openalex.org/W7065607809"
+    ],
     "abstract_inverted_index": {
       "This": [
         0
@@ -29109,7 +29357,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2026-04-02T00:00:00"
   }
 ]

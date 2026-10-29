@@ -12772,9 +12772,9 @@
   {
     "id": "https://openalex.org/W4414327712",
     "doi": "https://doi.org/10.1086/737055",
-    "title": ":<i>Disarming Intelligence: Proust, Val\u00e9ry, and Modern French Criticism</i>",
-    "display_name": ":<i>Disarming Intelligence: Proust, Val\u00e9ry, and Modern French Criticism</i>",
-    "relevance_score": 9.218638,
+    "title": ":Disarming Intelligence: Proust, Val\u00e9ry, and Modern French Criticism",
+    "display_name": ":Disarming Intelligence: Proust, Val\u00e9ry, and Modern French Criticism",
+    "relevance_score": 25.982828,
     "publication_year": 2025,
     "publication_date": "2025-09-01",
     "ids": {
@@ -12784,6 +12784,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/737055",
+      "doi": "https://doi.org/10.1086/737055",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/737055",
       "pdf_url": null,
@@ -12798,6 +12799,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -12818,7 +12828,8 @@
       "raw_source_name": "Critical Inquiry",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -12834,33 +12845,40 @@
         "author": {
           "id": "https://openalex.org/A5032694036",
           "display_name": "B\u00e9cquer Segu\u00edn",
-          "orcid": "https://orcid.org/0000-0003-4990-3799"
+          "orcid": "https://orcid.org/0000-0003-4990-3799",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4990-3799"
+          ]
         },
         "institutions": [],
         "countries": [],
         "is_corresponding": true,
         "raw_author_name": "B\u00e9cquer Segu\u00edn",
-        "raw_affiliation_strings": [],
-        "affiliations": []
+        "raw_affiliation_strings": [
+          ""
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "",
+            "institution_ids": []
+          }
+        ]
       }
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5032694036"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.26641884,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "52",
@@ -12872,9 +12890,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13667",
-      "display_name": "French Literature and Criticism",
-      "score": 0.7509999871253967,
+      "id": "https://openalex.org/T12559",
+      "display_name": "French Literature and Critical Theory",
+      "score": 0.9193999767303467,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -12890,9 +12908,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13667",
-        "display_name": "French Literature and Criticism",
-        "score": 0.7509999871253967,
+        "id": "https://openalex.org/T12559",
+        "display_name": "French Literature and Critical Theory",
+        "score": 0.9193999767303467,
         "subfield": {
           "id": "https://openalex.org/subfields/1208",
           "display_name": "Literature and Literary Theory"
@@ -12907,9 +12925,26 @@
         }
       },
       {
-        "id": "https://openalex.org/T12559",
-        "display_name": "French Literature and Critical Theory",
-        "score": 0.6679999828338623,
+        "id": "https://openalex.org/T13667",
+        "display_name": "French Literature and Criticism",
+        "score": 0.04800000041723251,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1208",
+          "display_name": "Literature and Literary Theory"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12974",
+        "display_name": "Modernist Literature and Criticism",
+        "score": 0.022299999371170998,
         "subfield": {
           "id": "https://openalex.org/subfields/1208",
           "display_name": "Literature and Literary Theory"
@@ -12926,14 +12961,29 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/french",
-        "display_name": "French",
-        "score": 0.2596000134944916
+        "id": "https://openalex.org/keywords/marcel-proust",
+        "display_name": "Marcel Proust",
+        "score": 0.996999979019165
       },
       {
-        "id": "https://openalex.org/keywords/french-literature",
-        "display_name": "French literature",
-        "score": 0.164900004863739
+        "id": "https://openalex.org/keywords/paul-valery",
+        "display_name": "Paul Val\u00e9ry",
+        "score": 0.871999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/french-literary-criticism",
+        "display_name": "French literary criticism",
+        "score": 0.6759999990463257
+      },
+      {
+        "id": "https://openalex.org/keywords/intelligence",
+        "display_name": "intelligence",
+        "score": 0.421999990940094
+      },
+      {
+        "id": "https://openalex.org/keywords/disarming",
+        "display_name": "disarming",
+        "score": 0.3889999985694885
       }
     ],
     "concepts": [
@@ -13013,6 +13063,7 @@
     "locations": [
       {
         "id": "doi:10.1086/737055",
+        "doi": "https://doi.org/10.1086/737055",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/737055",
         "pdf_url": null,
@@ -13027,6 +13078,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -13050,27 +13110,40 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W2083080652",
+      "https://openalex.org/W2801785616",
+      "https://openalex.org/W2002151909",
+      "https://openalex.org/W4255158754",
+      "https://openalex.org/W2788250312",
+      "https://openalex.org/W1997446639",
+      "https://openalex.org/W7011185734",
+      "https://openalex.org/W2054658842",
+      "https://openalex.org/W4296251605",
+      "https://openalex.org/W2320981533"
+    ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-03-07T16:01:11.037858",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-10-10T00:00:00"
   },
   {
     "id": "https://openalex.org/W7118555108",
     "doi": "https://doi.org/10.1086/738421",
-    "title": ": <i>Repair the World: French Literature in the Twenty-First Century</i>",
-    "display_name": ": <i>Repair the World: French Literature in the Twenty-First Century</i>",
-    "relevance_score": 9.196605,
+    "title": ": Repair the World: French Literature in the Twenty-First Century",
+    "display_name": ": Repair the World: French Literature in the Twenty-First Century",
+    "relevance_score": 25.92886,
     "publication_year": 2026,
     "publication_date": "2026-01-01",
     "ids": {
@@ -13080,6 +13153,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/738421",
+      "doi": "https://doi.org/10.1086/738421",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/738421",
       "pdf_url": null,
@@ -13094,6 +13168,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -13114,7 +13197,8 @@
       "raw_source_name": "Critical Inquiry",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -13128,17 +13212,19 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5122189398",
-          "display_name": "Bogdan Vi\u015fan",
-          "orcid": null
+          "id": "https://openalex.org/A5092615130",
+          "display_name": "Bogdan Vi\u0219an",
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
-        "is_corresponding": true,
+        "is_corresponding": false,
         "raw_author_name": "Bogdan Vi\u015fan",
         "raw_affiliation_strings": [
           ""
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "",
@@ -13151,7 +13237,8 @@
         "author": {
           "id": "https://openalex.org/A5119729765",
           "display_name": "Ioana DANIELESCU",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
@@ -13160,6 +13247,7 @@
         "raw_affiliation_strings": [
           ""
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "",
@@ -13170,21 +13258,15 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 2,
-    "corresponding_author_ids": [
-      "https://openalex.org/A5122189398"
-    ],
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [],
     "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.0651192,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "52",
@@ -13196,9 +13278,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13667",
-      "display_name": "French Literature and Criticism",
-      "score": 0.0892999991774559,
+      "id": "https://openalex.org/T12559",
+      "display_name": "French Literature and Critical Theory",
+      "score": 0.9833999872207642,
       "subfield": {
         "id": "https://openalex.org/subfields/1208",
         "display_name": "Literature and Literary Theory"
@@ -13214,9 +13296,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T12559",
+        "display_name": "French Literature and Critical Theory",
+        "score": 0.9833999872207642,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1208",
+          "display_name": "Literature and Literary Theory"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T13667",
         "display_name": "French Literature and Criticism",
-        "score": 0.0892999991774559,
+        "score": 0.015300000086426735,
         "subfield": {
           "id": "https://openalex.org/subfields/1208",
           "display_name": "Literature and Literary Theory"
@@ -13231,29 +13330,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T13778",
-        "display_name": "Comparative and World Literature",
-        "score": 0.07509999722242355,
+        "id": "https://openalex.org/T13704",
+        "display_name": "French Literature and Poetry",
+        "score": 0.0003000000142492354,
         "subfield": {
           "id": "https://openalex.org/subfields/1208",
           "display_name": "Literature and Literary Theory"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12470",
-        "display_name": "Caribbean and African Literature and Culture",
-        "score": 0.07450000196695328,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1212",
-          "display_name": "Religious studies"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -13269,17 +13351,17 @@
       {
         "id": "https://openalex.org/keywords/french-literature",
         "display_name": "French literature",
-        "score": 0.6363000273704529
+        "score": 0.9710000157356262
       },
       {
-        "id": "https://openalex.org/keywords/french",
-        "display_name": "French",
-        "score": 0.3508000075817108
+        "id": "https://openalex.org/keywords/21st-century-literature",
+        "display_name": "21st-century literature",
+        "score": 0.7889999747276306
       },
       {
-        "id": "https://openalex.org/keywords/world-literature",
-        "display_name": "World literature",
-        "score": 0.2232999950647354
+        "id": "https://openalex.org/keywords/contemporary-french-fiction",
+        "display_name": "contemporary French fiction",
+        "score": 0.652999997138977
       }
     ],
     "concepts": [
@@ -13359,6 +13441,7 @@
     "locations": [
       {
         "id": "doi:10.1086/738421",
+        "doi": "https://doi.org/10.1086/738421",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/738421",
         "pdf_url": null,
@@ -13373,6 +13456,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -13395,29 +13487,31 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "id": "https://metadata.un.org/sdg/4",
-        "display_name": "Quality Education",
-        "score": 0.48866504430770874
+        "score": 0.48866504430770874,
+        "display_name": "Quality education",
+        "id": "https://metadata.un.org/sdg/4"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 2,
     "referenced_works": [
-      "https://openalex.org/W3097594817",
-      "https://openalex.org/W4248433497"
+      "https://openalex.org/W2344967523",
+      "https://openalex.org/W3097594817"
     ],
     "related_works": [],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-01-09T23:09:53.351390",
+    "updated_date": "2026-10-23T09:35:12.469056",
     "created_date": "2026-01-08T00:00:00"
   },
   {
@@ -13760,9 +13854,9 @@
   {
     "id": "https://openalex.org/W7139950241",
     "doi": "https://doi.org/10.1086/739690",
-    "title": ": <i>The Rise of Office Literature: Bureaucratization and Aesthetics in Britain and France, 1810\u20131900</i>",
-    "display_name": ": <i>The Rise of Office Literature: Bureaucratization and Aesthetics in Britain and France, 1810\u20131900</i>",
-    "relevance_score": 8.443587,
+    "title": ": The Rise of Office Literature: Bureaucratization and Aesthetics in Britain and France, 1810\u20131900",
+    "display_name": ": The Rise of Office Literature: Bureaucratization and Aesthetics in Britain and France, 1810\u20131900",
+    "relevance_score": 23.678385,
     "publication_year": 2026,
     "publication_date": "2026-03-01",
     "ids": {
@@ -13772,6 +13866,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/739690",
+      "doi": "https://doi.org/10.1086/739690",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/739690",
       "pdf_url": null,
@@ -13786,6 +13881,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -13806,7 +13910,8 @@
       "raw_source_name": "Critical Inquiry",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -13820,9 +13925,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5130219159",
+          "id": "https://openalex.org/A5018847844",
           "display_name": "Alexandra Irimia",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-1903-6607",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1903-6607"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -13831,6 +13939,7 @@
         "raw_affiliation_strings": [
           ""
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "",
@@ -13841,21 +13950,17 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
-      "https://openalex.org/A5130219159"
+      "https://openalex.org/A5018847844"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.96998332,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "52",
@@ -13867,12 +13972,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12454",
-      "display_name": "European Political History Analysis",
-      "score": 0.08489999920129776,
+      "id": "https://openalex.org/T13028",
+      "display_name": "Literature and Culture Studies",
+      "score": 0.5878999829292297,
       "subfield": {
-        "id": "https://openalex.org/subfields/1202",
-        "display_name": "History"
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
       },
       "field": {
         "id": "https://openalex.org/fields/12",
@@ -13885,26 +13990,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12454",
-        "display_name": "European Political History Analysis",
-        "score": 0.08489999920129776,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T13028",
         "display_name": "Literature and Culture Studies",
-        "score": 0.0608999989926815,
+        "score": 0.5878999829292297,
         "subfield": {
           "id": "https://openalex.org/subfields/1208",
           "display_name": "Literature and Literary Theory"
@@ -13919,12 +14007,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T13922",
-        "display_name": "Historical Art and Culture Studies",
-        "score": 0.0544000007212162,
+        "id": "https://openalex.org/T14386",
+        "display_name": "Libraries, Manuscripts, and Books",
+        "score": 0.19949999451637268,
         "subfield": {
-          "id": "https://openalex.org/subfields/1209",
-          "display_name": "Museology"
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14149",
+        "display_name": "Historical and Literary Analyses",
+        "score": 0.06620000302791595,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1208",
+          "display_name": "Literature and Literary Theory"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -13938,14 +14043,34 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/bureaucracy",
-        "display_name": "Bureaucracy",
-        "score": 0.7994999885559082
+        "id": "https://openalex.org/keywords/bureaucratization",
+        "display_name": "bureaucratization",
+        "score": 0.8040000200271606
       },
       {
-        "id": "https://openalex.org/keywords/capitalism",
-        "display_name": "Capitalism",
-        "score": 0.21629999577999115
+        "id": "https://openalex.org/keywords/aesthetics",
+        "display_name": "aesthetics",
+        "score": 0.8930000066757202
+      },
+      {
+        "id": "https://openalex.org/keywords/british-literature",
+        "display_name": "British literature",
+        "score": 0.5009999871253967
+      },
+      {
+        "id": "https://openalex.org/keywords/french-literature",
+        "display_name": "French literature",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/nineteenth-century-literature",
+        "display_name": "19th-century literature",
+        "score": 0.8230000138282776
+      },
+      {
+        "id": "https://openalex.org/keywords/organizational-culture",
+        "display_name": "organizational culture",
+        "score": 0.35100001096725464
       }
     ],
     "concepts": [
@@ -14025,6 +14150,7 @@
     "locations": [
       {
         "id": "doi:10.1086/739690",
+        "doi": "https://doi.org/10.1086/739690",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/739690",
         "pdf_url": null,
@@ -14039,6 +14165,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -14062,11 +14197,13 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -14074,7 +14211,7 @@
     "related_works": [],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-03-22T06:25:25.174409",
+    "updated_date": "2026-10-09T09:14:12.587421",
     "created_date": "2026-03-21T00:00:00"
   },
   {
@@ -85674,7 +85811,7 @@
     "doi": "https://doi.org/10.1086/738418",
     "title": "What Is an Imaginary?",
     "display_name": "What Is an Imaginary?",
-    "relevance_score": 0.8861687,
+    "relevance_score": 2.4902308,
     "publication_year": 2026,
     "publication_date": "2026-01-01",
     "ids": {
@@ -85684,6 +85821,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/738418",
+      "doi": "https://doi.org/10.1086/738418",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/738418",
       "pdf_url": null,
@@ -85698,6 +85836,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -85718,6 +85865,7 @@
       "raw_source_name": "Critical Inquiry",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -85734,7 +85882,10 @@
         "author": {
           "id": "https://openalex.org/A5051446588",
           "display_name": "Yves Winter",
-          "orcid": "https://orcid.org/0000-0002-4562-7881"
+          "orcid": "https://orcid.org/0000-0002-4562-7881",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4562-7881"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -85743,6 +85894,7 @@
         "raw_affiliation_strings": [
           ""
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "",
@@ -85753,22 +85905,25 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5051446588"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": 58.8672,
     "has_fulltext": false,
-    "cited_by_count": 0,
+    "cited_by_count": 6,
     "citation_normalized_percentile": {
-      "value": 0.09182973,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "value": 0.9980793,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 99
+    },
     "biblio": {
       "volume": "52",
       "issue": "2",
@@ -85779,16 +85934,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13005",
-      "display_name": "Religious Studies and Spiritual Practices",
-      "score": 0.030899999663233757,
+      "id": "https://openalex.org/T12397",
+      "display_name": "Critical Theory and Philosophy",
+      "score": 0.30219998955726624,
       "subfield": {
-        "id": "https://openalex.org/subfields/1211",
-        "display_name": "Philosophy"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -85797,9 +85952,26 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13005",
-        "display_name": "Religious Studies and Spiritual Practices",
-        "score": 0.030899999663233757,
+        "id": "https://openalex.org/T12397",
+        "display_name": "Critical Theory and Philosophy",
+        "score": 0.30219998955726624,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14278",
+        "display_name": "Marxism and Critical Theory",
+        "score": 0.11620000004768372,
         "subfield": {
           "id": "https://openalex.org/subfields/1211",
           "display_name": "Philosophy"
@@ -85814,33 +85986,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13545",
-        "display_name": "Philosophical and Theoretical Analysis",
-        "score": 0.026499999687075615,
+        "id": "https://openalex.org/T12231",
+        "display_name": "Contemporary Sociological Theory and Practice",
+        "score": 0.11590000241994858,
         "subfield": {
-          "id": "https://openalex.org/subfields/1211",
-          "display_name": "Philosophy"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
+          "id": "https://openalex.org/fields/33",
           "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13667",
-        "display_name": "French Literature and Criticism",
-        "score": 0.0210999995470047,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1208",
-          "display_name": "Literature and Literary Theory"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -85851,38 +86006,53 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/the-imaginary",
-        "display_name": "The Imaginary",
-        "score": 0.9783999919891357
+        "display_name": "imaginary",
+        "score": 0.8870000243186951
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.5947999954223633
+        "id": "https://openalex.org/keywords/social-imaginary",
+        "display_name": "social imaginary",
+        "score": 0.9750000238418579
+      },
+      {
+        "id": "https://openalex.org/keywords/political-imaginary",
+        "display_name": "political imaginary",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/collective-imagination",
+        "display_name": "collective imaginary",
+        "score": 0.6919999718666077
+      },
+      {
+        "id": "https://openalex.org/keywords/phenomenological-psychology",
+        "display_name": "phenomenological psychology",
+        "score": 0.7289999723434448
+      },
+      {
+        "id": "https://openalex.org/keywords/political-theory",
+        "display_name": "political theory",
+        "score": 0.7409999966621399
       },
       {
         "id": "https://openalex.org/keywords/ideology",
-        "display_name": "Ideology",
-        "score": 0.5266000032424927
+        "display_name": "ideology",
+        "score": 0.8650000095367432
       },
       {
         "id": "https://openalex.org/keywords/utopia",
-        "display_name": "Utopia",
-        "score": 0.4523000121116638
+        "display_name": "utopia",
+        "score": 1.0
       },
       {
-        "id": "https://openalex.org/keywords/jargon",
-        "display_name": "Jargon",
-        "score": 0.42340001463890076
+        "id": "https://openalex.org/keywords/culturalism",
+        "display_name": "culturalism",
+        "score": 0.8019999861717224
       },
       {
-        "id": "https://openalex.org/keywords/hyperbole",
-        "display_name": "Hyperbole",
-        "score": 0.38659998774528503
-      },
-      {
-        "id": "https://openalex.org/keywords/vernacular",
-        "display_name": "Vernacular",
-        "score": 0.35359999537467957
+        "id": "https://openalex.org/keywords/concept-history",
+        "display_name": "conceptual history",
+        "score": 0.6029999852180481
       }
     ],
     "concepts": [
@@ -86011,6 +86181,7 @@
     "locations": [
       {
         "id": "doi:10.1086/738418",
+        "doi": "https://doi.org/10.1086/738418",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/738418",
         "pdf_url": null,
@@ -86025,6 +86196,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -86047,18 +86227,20 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
-        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.6311367750167847,
         "display_name": "Reduced inequalities",
-        "score": 0.6311367750167847
+        "id": "https://metadata.un.org/sdg/10"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 12,
@@ -86448,8 +86630,17 @@
         160
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-01-09T23:09:53.351390",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-25T09:29:13.331239",
     "created_date": "2026-01-08T00:00:00"
   },
   {

@@ -123421,7 +123421,7 @@
     "doi": "https://doi.org/10.1017/ajil.2025.10083",
     "title": "Internationale Humanit\u00e4re Hilfsorganisation v. Germany. Judgment",
     "display_name": "Internationale Humanit\u00e4re Hilfsorganisation v. Germany. Judgment",
-    "relevance_score": 11.506854,
+    "relevance_score": 29.617708,
     "publication_year": 2025,
     "publication_date": "2025-07-01",
     "ids": {
@@ -123431,6 +123431,7 @@
     "language": "de",
     "primary_location": {
       "id": "doi:10.1017/ajil.2025.10083",
+      "doi": "https://doi.org/10.1017/ajil.2025.10083",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/ajil.2025.10083",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/774626D5DDD842A01B2957CADE30BA29/S0002930025100833a.pdf/div-class-title-internationale-humanitare-hilfsorganisation-v-germany-judgment-div.pdf",
@@ -123445,6 +123446,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -123465,6 +123476,7 @@
       "raw_source_name": "American Journal of International Law",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -123481,7 +123493,10 @@
         "author": {
           "id": "https://openalex.org/A5059824379",
           "display_name": "Eleni Polymenopoulou",
-          "orcid": "https://orcid.org/0000-0003-4331-933X"
+          "orcid": "https://orcid.org/0000-0003-4331-933X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4331-933X"
+          ]
         },
         "institutions": [
           {
@@ -123503,6 +123518,7 @@
         "raw_affiliation_strings": [
           "Hamad Bin Khalifa University (HBKU)"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Hamad Bin Khalifa University (HBKU)",
@@ -123522,13 +123538,21 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I4210144839"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.31439946,
+      "value": 0.23095868,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -123543,9 +123567,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T14515",
-      "display_name": "International Law and Aviation",
-      "score": 0.9560999870300293,
+      "id": "https://openalex.org/T10749",
+      "display_name": "International Law and Human Rights",
+      "score": 0.9404000043869019,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -123561,9 +123585,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T14515",
-        "display_name": "International Law and Aviation",
-        "score": 0.9560999870300293,
+        "id": "https://openalex.org/T10749",
+        "display_name": "International Law and Human Rights",
+        "score": 0.9404000043869019,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -123578,9 +123602,26 @@
         }
       },
       {
-        "id": "https://openalex.org/T10749",
-        "display_name": "International Law and Human Rights",
-        "score": 0.9229999780654907,
+        "id": "https://openalex.org/T14259",
+        "display_name": "Legal Rights and Human Rights",
+        "score": 0.009700000286102295,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12767",
+        "display_name": "Conflict of Laws and Jurisdiction",
+        "score": 0.00800000037997961,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -123597,9 +123638,19 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.3928954005241394
+        "id": "https://openalex.org/keywords/humanitarian-aid",
+        "display_name": "humanitarian aid",
+        "score": 0.4860000014305115
+      },
+      {
+        "id": "https://openalex.org/keywords/international-humanitarian-law",
+        "display_name": "international humanitarian law",
+        "score": 0.5389999747276306
+      },
+      {
+        "id": "https://openalex.org/keywords/humanitarian-organizations",
+        "display_name": "humanitarian organizations",
+        "score": 0.38499999046325684
       }
     ],
     "concepts": [
@@ -123616,6 +123667,7 @@
     "locations": [
       {
         "id": "doi:10.1017/ajil.2025.10083",
+        "doi": "https://doi.org/10.1017/ajil.2025.10083",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/ajil.2025.10083",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/774626D5DDD842A01B2957CADE30BA29/S0002930025100833a.pdf/div-class-title-internationale-humanitare-hilfsorganisation-v-germany-judgment-div.pdf",
@@ -123630,6 +123682,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -123653,6 +123715,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/ajil.2025.10083",
+      "doi": "https://doi.org/10.1017/ajil.2025.10083",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/ajil.2025.10083",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/774626D5DDD842A01B2957CADE30BA29/S0002930025100833a.pdf/div-class-title-internationale-humanitare-hilfsorganisation-v-germany-judgment-div.pdf",
@@ -123667,6 +123730,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -123687,12 +123760,20 @@
       "raw_source_name": "American Journal of International Law",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 1.0,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": true
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4414026271.pdf",
@@ -123797,7 +123878,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-09-11T09:22:31.653822",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -198799,7 +198880,7 @@
     "doi": "https://doi.org/10.1017/ajil.2024.71",
     "title": "The United States, the European Union, France, Germany, and the United Kingdom Take Measures Against Iran for Transferring Ballistic Missiles to Russia",
     "display_name": "The United States, the European Union, France, Germany, and the United Kingdom Take Measures Against Iran for Transferring Ballistic Missiles to Russia",
-    "relevance_score": 7.524349,
+    "relevance_score": 19.442871,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -198809,6 +198890,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/ajil.2024.71",
+      "doi": "https://doi.org/10.1017/ajil.2024.71",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/ajil.2024.71",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A5944FCF9DEA09D0B4971EC74ED6796B/S000293002400071Xa.pdf/div-class-title-the-united-states-the-european-union-france-germany-and-the-united-kingdom-take-measures-against-iran-for-transferring-ballistic-missiles-to-russia-div.pdf",
@@ -198823,6 +198905,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -198843,6 +198935,7 @@
       "raw_source_name": "American Journal of International Law",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -198859,13 +198952,17 @@
     "institutions_distinct_count": 0,
     "corresponding_author_ids": [],
     "corresponding_institution_ids": [],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.0358391,
+      "value": 0.02112594,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -198882,7 +198979,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T13007",
       "display_name": "Economic Sanctions and International Relations",
-      "score": 0.9929999709129333,
+      "score": 0.9940999746322632,
       "subfield": {
         "id": "https://openalex.org/subfields/2002",
         "display_name": "Economics and Econometrics"
@@ -198900,7 +198997,7 @@
       {
         "id": "https://openalex.org/T13007",
         "display_name": "Economic Sanctions and International Relations",
-        "score": 0.9929999709129333,
+        "score": 0.9940999746322632,
         "subfield": {
           "id": "https://openalex.org/subfields/2002",
           "display_name": "Economics and Econometrics"
@@ -198915,9 +199012,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T13120",
-        "display_name": "Nuclear Issues and Defense",
-        "score": 0.9847999811172485,
+        "id": "https://openalex.org/T10749",
+        "display_name": "International Law and Human Rights",
+        "score": 0.0020000000949949026,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -198932,9 +199029,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T14282",
-        "display_name": "Security, Politics, and Digital Transformation",
-        "score": 0.9075000286102295,
+        "id": "https://openalex.org/T13120",
+        "display_name": "Nuclear Issues and Defense",
+        "score": 0.0006000000284984708,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -198951,79 +199048,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/kingdom",
-        "display_name": "Kingdom",
-        "score": 0.7486205101013184
+        "id": "https://openalex.org/keywords/iran-sanctions",
+        "display_name": "sanctions against Iran",
+        "score": 0.8029999732971191
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.6821431517601013
+        "id": "https://openalex.org/keywords/iran-russia-relations",
+        "display_name": "Russian-Iranian relations",
+        "score": 0.777999997138977
       },
       {
-        "id": "https://openalex.org/keywords/ballistic-missile",
-        "display_name": "Ballistic missile",
-        "score": 0.6274896860122681
+        "id": "https://openalex.org/keywords/us-sanctions",
+        "display_name": "US sanctions",
+        "score": 0.5210000276565552
       },
       {
-        "id": "https://openalex.org/keywords/european-union",
-        "display_name": "European union",
-        "score": 0.48216623067855835
+        "id": "https://openalex.org/keywords/eu-sanctions",
+        "display_name": "EU sanctions",
+        "score": 0.9769999980926514
       },
       {
-        "id": "https://openalex.org/keywords/soviet-union",
-        "display_name": "Soviet union",
-        "score": 0.4370410740375519
+        "id": "https://openalex.org/keywords/france",
+        "display_name": "France",
+        "score": 0.578000009059906
       },
       {
-        "id": "https://openalex.org/keywords/economic-history",
-        "display_name": "Economic history",
-        "score": 0.40567636489868164
+        "id": "https://openalex.org/keywords/germany",
+        "display_name": "Germany",
+        "score": 1.0
       },
       {
-        "id": "https://openalex.org/keywords/international-trade",
-        "display_name": "International trade",
-        "score": 0.3308243155479431
+        "id": "https://openalex.org/keywords/united-kingdom",
+        "display_name": "United Kingdom",
+        "score": 0.8960000276565552
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.27449873089790344
-      },
-      {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.2530069947242737
-      },
-      {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.21420976519584656
-      },
-      {
-        "id": "https://openalex.org/keywords/missile",
-        "display_name": "Missile",
-        "score": 0.11286690831184387
-      },
-      {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.08088958263397217
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.07807156443595886
-      },
-      {
-        "id": "https://openalex.org/keywords/geology",
-        "display_name": "Geology",
-        "score": 0.07393565773963928
-      },
-      {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.0594840943813324
+        "id": "https://openalex.org/keywords/arms-trade",
+        "display_name": "arms trade",
+        "score": 0.3919999897480011
       }
     ],
     "concepts": [
@@ -199145,6 +199207,7 @@
     "locations": [
       {
         "id": "doi:10.1017/ajil.2024.71",
+        "doi": "https://doi.org/10.1017/ajil.2024.71",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/ajil.2024.71",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A5944FCF9DEA09D0B4971EC74ED6796B/S000293002400071Xa.pdf/div-class-title-the-united-states-the-european-union-france-germany-and-the-united-kingdom-take-measures-against-iran-for-transferring-ballistic-missiles-to-russia-div.pdf",
@@ -199159,6 +199222,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -199182,6 +199255,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/ajil.2024.71",
+      "doi": "https://doi.org/10.1017/ajil.2024.71",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/ajil.2024.71",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A5944FCF9DEA09D0B4971EC74ED6796B/S000293002400071Xa.pdf/div-class-title-the-united-states-the-european-union-france-germany-and-the-united-kingdom-take-measures-against-iran-for-transferring-ballistic-missiles-to-russia-div.pdf",
@@ -199196,6 +199270,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -199216,7 +199300,15 @@
       "raw_source_name": "American Journal of International Law",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.8046000003814697,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -199241,10 +199333,29 @@
       "https://openalex.org/W4367539255",
       "https://openalex.org/W2087082847"
     ],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "Plans": [
+        0
+      ],
+      "for": [
+        1
+      ],
+      "Iranian-Designed": [
+        2
+      ],
+      "Drone": [
+        3
+      ],
+      "Facility": [
+        4
+      ],
+      "in": [
+        5
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2026-03-09T07:00:12.390032",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2025-02-11T00:00:00"
   },
   {
     "id": "https://openalex.org/W2316730847",
@@ -238946,359 +239057,6 @@
         "id": "https://metadata.un.org/sdg/16",
         "display_name": "Peace, Justice and strong institutions",
         "score": 0.7400000095367432
-      }
-    ],
-    "awards": [],
-    "funders": [],
-    "has_content": {
-      "grobid_xml": false,
-      "pdf": false
-    },
-    "content_urls": null,
-    "referenced_works_count": 0,
-    "referenced_works": [],
-    "related_works": [
-      "https://openalex.org/W2367006824",
-      "https://openalex.org/W4313395313",
-      "https://openalex.org/W4255201945",
-      "https://openalex.org/W4236460429",
-      "https://openalex.org/W2917911077",
-      "https://openalex.org/W2523326622",
-      "https://openalex.org/W4231714701",
-      "https://openalex.org/W4231469115",
-      "https://openalex.org/W4206452199",
-      "https://openalex.org/W2360685716"
-    ],
-    "abstract_inverted_index": {
-      "An": [
-        0
-      ],
-      "abstract": [
-        1
-      ],
-      "is": [
-        2
-      ],
-      "not": [
-        3
-      ],
-      "available": [
-        4
-      ],
-      "for": [
-        5,
-        21
-      ],
-      "this": [
-        6,
-        27
-      ],
-      "content": [
-        7
-      ],
-      "so": [
-        8
-      ],
-      "a": [
-        9
-      ],
-      "preview": [
-        10
-      ],
-      "has": [
-        11
-      ],
-      "been": [
-        12
-      ],
-      "provided.": [
-        13
-      ],
-      "Please": [
-        14
-      ],
-      "use": [
-        15
-      ],
-      "the": [
-        16
-      ],
-      "Get": [
-        17
-      ],
-      "access": [
-        18,
-        26
-      ],
-      "link": [
-        19
-      ],
-      "above": [
-        20
-      ],
-      "information": [
-        22
-      ],
-      "on": [
-        23
-      ],
-      "how": [
-        24
-      ],
-      "to": [
-        25
-      ],
-      "content.": [
-        28
-      ]
-    },
-    "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
-    "created_date": "2022-05-12T00:00:00"
-  },
-  {
-    "id": "https://openalex.org/W4252492495",
-    "doi": "https://doi.org/10.1017/s0002930000011842",
-    "title": "German Yearbook of International Law 1988. Vol. 31. Edited by Jost Delbr\u00fcck, Wilhelm A. Kewenig and R\u00fcdiger Wolfrum. (Berlin: Duncker &amp; Humblot, 1989. Pp. 741. DM 248.)",
-    "display_name": "German Yearbook of International Law 1988. Vol. 31. Edited by Jost Delbr\u00fcck, Wilhelm A. Kewenig and R\u00fcdiger Wolfrum. (Berlin: Duncker &amp; Humblot, 1989. Pp. 741. DM 248.)",
-    "relevance_score": 6.08134,
-    "publication_year": 1991,
-    "publication_date": "1991-01-01",
-    "ids": {
-      "openalex": "https://openalex.org/W4252492495",
-      "doi": "https://doi.org/10.1017/s0002930000011842"
-    },
-    "language": "en",
-    "primary_location": {
-      "id": "doi:10.1017/s0002930000011842",
-      "is_oa": false,
-      "landing_page_url": "https://doi.org/10.1017/s0002930000011842",
-      "pdf_url": null,
-      "source": {
-        "id": "https://openalex.org/S160097506",
-        "display_name": "American Journal of International Law",
-        "issn_l": "0002-9300",
-        "issn": [
-          "0002-9300",
-          "2161-7953"
-        ],
-        "is_oa": false,
-        "is_in_doaj": false,
-        "is_core": false,
-        "host_organization": "https://openalex.org/P4310311721",
-        "host_organization_name": "Cambridge University Press",
-        "host_organization_lineage": [
-          "https://openalex.org/P4310311721",
-          "https://openalex.org/P4310311702"
-        ],
-        "host_organization_lineage_names": [
-          "Cambridge University Press",
-          "University of Cambridge"
-        ],
-        "type": "journal"
-      },
-      "license": null,
-      "license_id": null,
-      "version": "publishedVersion",
-      "is_accepted": true,
-      "is_published": true,
-      "raw_source_name": "American Journal of International Law",
-      "raw_type": "journal-article"
-    },
-    "type": "article",
-    "indexed_in": [
-      "crossref"
-    ],
-    "open_access": {
-      "is_oa": false,
-      "oa_status": "closed",
-      "oa_url": null,
-      "any_repository_has_fulltext": false
-    },
-    "authorships": [],
-    "institutions": [],
-    "countries_distinct_count": 0,
-    "institutions_distinct_count": 0,
-    "corresponding_author_ids": [],
-    "corresponding_institution_ids": [],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
-    "has_fulltext": false,
-    "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.63492196,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
-    "cited_by_percentile_year": null,
-    "biblio": {
-      "volume": "85",
-      "issue": "1",
-      "first_page": "252",
-      "last_page": "252"
-    },
-    "is_retracted": false,
-    "is_paratext": false,
-    "is_xpac": false,
-    "primary_topic": {
-      "id": "https://openalex.org/T13710",
-      "display_name": "European and International Law Studies",
-      "score": 0.33379998803138733,
-      "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
-      },
-      "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
-      },
-      "domain": {
-        "id": "https://openalex.org/domains/2",
-        "display_name": "Social Sciences"
-      }
-    },
-    "topics": [
-      {
-        "id": "https://openalex.org/T13710",
-        "display_name": "European and International Law Studies",
-        "score": 0.33379998803138733,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      }
-    ],
-    "keywords": [
-      {
-        "id": "https://openalex.org/keywords/yearbook",
-        "display_name": "Yearbook",
-        "score": 0.9243140816688538
-      },
-      {
-        "id": "https://openalex.org/keywords/german",
-        "display_name": "German",
-        "score": 0.6362864375114441
-      },
-      {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.265036404132843
-      },
-      {
-        "id": "https://openalex.org/keywords/library-science",
-        "display_name": "Library science",
-        "score": 0.1261442005634308
-      },
-      {
-        "id": "https://openalex.org/keywords/computer-science",
-        "display_name": "Computer science",
-        "score": 0.08048996329307556
-      },
-      {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.07870593667030334
-      }
-    ],
-    "concepts": [
-      {
-        "id": "https://openalex.org/C2777501827",
-        "wikidata": "https://www.wikidata.org/wiki/Q10283140",
-        "display_name": "Yearbook",
-        "level": 2,
-        "score": 0.9243140816688538
-      },
-      {
-        "id": "https://openalex.org/C154775046",
-        "wikidata": "https://www.wikidata.org/wiki/Q188",
-        "display_name": "German",
-        "level": 2,
-        "score": 0.6362864375114441
-      },
-      {
-        "id": "https://openalex.org/C95457728",
-        "wikidata": "https://www.wikidata.org/wiki/Q309",
-        "display_name": "History",
-        "level": 0,
-        "score": 0.265036404132843
-      },
-      {
-        "id": "https://openalex.org/C161191863",
-        "wikidata": "https://www.wikidata.org/wiki/Q199655",
-        "display_name": "Library science",
-        "level": 1,
-        "score": 0.1261442005634308
-      },
-      {
-        "id": "https://openalex.org/C41008148",
-        "wikidata": "https://www.wikidata.org/wiki/Q21198",
-        "display_name": "Computer science",
-        "level": 0,
-        "score": 0.08048996329307556
-      },
-      {
-        "id": "https://openalex.org/C166957645",
-        "wikidata": "https://www.wikidata.org/wiki/Q23498",
-        "display_name": "Archaeology",
-        "level": 1,
-        "score": 0.07870593667030334
-      }
-    ],
-    "mesh": [],
-    "locations_count": 1,
-    "locations": [
-      {
-        "id": "doi:10.1017/s0002930000011842",
-        "is_oa": false,
-        "landing_page_url": "https://doi.org/10.1017/s0002930000011842",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S160097506",
-          "display_name": "American Journal of International Law",
-          "issn_l": "0002-9300",
-          "issn": [
-            "0002-9300",
-            "2161-7953"
-          ],
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "host_organization": "https://openalex.org/P4310311721",
-          "host_organization_name": "Cambridge University Press",
-          "host_organization_lineage": [
-            "https://openalex.org/P4310311721",
-            "https://openalex.org/P4310311702"
-          ],
-          "host_organization_lineage_names": [
-            "Cambridge University Press",
-            "University of Cambridge"
-          ],
-          "type": "journal"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "publishedVersion",
-        "is_accepted": true,
-        "is_published": true,
-        "raw_source_name": "American Journal of International Law",
-        "raw_type": "journal-article"
-      }
-    ],
-    "best_oa_location": null,
-    "sustainable_development_goals": [
-      {
-        "score": 0.7400000095367432,
-        "id": "https://metadata.un.org/sdg/16",
-        "display_name": "Peace, Justice and strong institutions"
       }
     ],
     "awards": [],
@@ -321877,7 +321635,7 @@
     "doi": "https://doi.org/10.1017/ajil.2025.10077",
     "title": "Reparations for Colonialism Beyond Legal Responsibility",
     "display_name": "Reparations for Colonialism Beyond Legal Responsibility",
-    "relevance_score": 0.91032434,
+    "relevance_score": 2.5956078,
     "publication_year": 2025,
     "publication_date": "2025-07-01",
     "ids": {
@@ -321887,6 +321645,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/ajil.2025.10077",
+      "doi": "https://doi.org/10.1017/ajil.2025.10077",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/ajil.2025.10077",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/56788BA7081BEF85434052D0F6EC2E21/S0002930025100778a.pdf/div-class-title-reparations-for-colonialism-beyond-legal-responsibility-div.pdf",
@@ -321901,6 +321660,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -321921,6 +321690,7 @@
       "raw_source_name": "American Journal of International Law",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -321937,30 +321707,85 @@
         "author": {
           "id": "https://openalex.org/A5019154642",
           "display_name": "Steven R. Ratner",
-          "orcid": "https://orcid.org/0000-0002-3269-2801"
+          "orcid": "https://orcid.org/0000-0002-3269-2801",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3269-2801"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I27837315",
+            "display_name": "University of Michigan",
+            "ror": "https://ror.org/00jmfr291",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I27837315"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I874792244",
+            "display_name": "European University Institute",
+            "ror": "https://ror.org/0031wrj91",
+            "country_code": "IT",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I874792244"
+            ]
+          }
+        ],
+        "countries": [
+          "IT",
+          "US"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Steven Ratner",
-        "raw_affiliation_strings": [],
-        "affiliations": []
+        "raw_affiliation_strings": [
+          "Collegiate Professor of Law , University of Michigan Law School , Ann Arbor , Michigan , United States",
+          "European University Institute"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Collegiate Professor of Law , University of Michigan Law School , Ann Arbor , Michigan , United States",
+            "institution_ids": [
+              "https://openalex.org/I27837315"
+            ]
+          },
+          {
+            "raw_affiliation_string": "European University Institute",
+            "institution_ids": [
+              "https://openalex.org/I874792244"
+            ]
+          }
+        ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
       "https://openalex.org/A5019154642"
     ],
-    "corresponding_institution_ids": [],
-    "apc_list": null,
-    "apc_paid": null,
+    "corresponding_institution_ids": [
+      "https://openalex.org/I27837315",
+      "https://openalex.org/I874792244"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.27966271,
+      "value": 0.22825353,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -321975,9 +321800,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12956",
-      "display_name": "Asian Geopolitics and Ethnography",
-      "score": 0.7609000205993652,
+      "id": "https://openalex.org/T10749",
+      "display_name": "International Law and Human Rights",
+      "score": 0.7099999785423279,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -321993,43 +321818,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12956",
-        "display_name": "Asian Geopolitics and Ethnography",
-        "score": 0.7609000205993652,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12752",
-        "display_name": "Global Peace and Security Dynamics",
-        "score": 0.733299970626831,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T10749",
         "display_name": "International Law and Human Rights",
-        "score": 0.680400013923645,
+        "score": 0.7099999785423279,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -322037,6 +321828,40 @@
         "field": {
           "id": "https://openalex.org/fields/33",
           "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14492",
+        "display_name": "War, Law, and Justice",
+        "score": 0.1282999962568283,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12972",
+        "display_name": "German Colonialism and Identity Studies",
+        "score": 0.02539999969303608,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1208",
+          "display_name": "Literature and Literary Theory"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -322046,19 +321871,34 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/colonialism",
-        "display_name": "Colonialism",
-        "score": 0.6927083730697632
+        "id": "https://openalex.org/keywords/reparations-for-colonialism",
+        "display_name": "reparations for colonialism",
+        "score": 0.9739999771118164
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5060200095176697
+        "id": "https://openalex.org/keywords/restitution-of-cultural-property",
+        "display_name": "restitution of cultural property",
+        "score": 0.7739999890327454
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.4309142827987671
+        "id": "https://openalex.org/keywords/herero-and-nama-genocide",
+        "display_name": "Herero and Nama genocide",
+        "score": 0.8679999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/inter-american-court-of-human-rights",
+        "display_name": "Inter-American Court of Human Rights",
+        "score": 0.8880000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/legal-responsibility",
+        "display_name": "legal responsibility",
+        "score": 0.6079999804496765
+      },
+      {
+        "id": "https://openalex.org/keywords/global-south",
+        "display_name": "Global South",
+        "score": 0.8650000095367432
       }
     ],
     "concepts": [
@@ -322085,10 +321925,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1017/ajil.2025.10077",
+        "doi": "https://doi.org/10.1017/ajil.2025.10077",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/ajil.2025.10077",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/56788BA7081BEF85434052D0F6EC2E21/S0002930025100778a.pdf/div-class-title-reparations-for-colonialism-beyond-legal-responsibility-div.pdf",
@@ -322103,6 +321944,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -322125,22 +321976,22 @@
       },
       {
         "id": "pmh:oai:repository.law.umich.edu:articles-4141",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://repository.law.umich.edu/articles/3137",
         "pdf_url": null,
         "source": {
-          "id": "https://openalex.org/S4306401049",
-          "display_name": "eYLS (Yale Law School)",
+          "id": "https://openalex.org/S7407064349",
+          "display_name": "bepress Legal Repository",
           "issn_l": null,
           "issn": null,
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "host_organization": "https://openalex.org/I32971472",
-          "host_organization_name": "Yale University",
-          "host_organization_lineage": [
-            "https://openalex.org/I32971472"
-          ],
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
           "host_organization_lineage_names": [],
           "type": "repository"
         },
@@ -322151,10 +322002,42 @@
         "is_published": false,
         "raw_source_name": "Articles",
         "raw_type": "text"
+      },
+      {
+        "id": "pmh:oai:repository.law.umich.edu:pub_law_archive-1011",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://papers.ssrn.com/sol3/Delivery.cfm/5458294.pdf?abstractid=5458294&mirid=1",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401049",
+          "display_name": "eYLS (Yale Law School)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I32971472",
+          "host_organization_name": "Yale University",
+          "host_organization_lineage": [
+            "https://openalex.org/I32971472"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Public Law & Legal Theory Working Papers",
+        "raw_type": "text"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1017/ajil.2025.10077",
+      "doi": "https://doi.org/10.1017/ajil.2025.10077",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/ajil.2025.10077",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/56788BA7081BEF85434052D0F6EC2E21/S0002930025100778a.pdf/div-class-title-reparations-for-colonialism-beyond-legal-responsibility-div.pdf",
@@ -322169,6 +322052,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -322189,12 +322082,20 @@
       "raw_source_name": "American Journal of International Law",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.833299994468689,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": true
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4414026243.pdf",
@@ -322220,24 +322121,24 @@
       ],
       "for": [
         1,
-        63,
-        73,
-        94,
-        134
+        62,
+        71,
+        90,
+        129
       ],
       "colonialism": [
         2,
-        135
+        130
       ],
       "and": [
         3,
         15,
-        58,
-        66,
-        105,
-        113,
-        116,
-        139
+        57,
+        64,
+        101,
+        109,
+        112,
+        134
       ],
       "colonial-era": [
         4
@@ -322268,9 +322169,9 @@
         12,
         36,
         49,
-        54,
-        103,
-        120
+        53,
+        99,
+        116
       ],
       "citizens,": [
         13
@@ -322285,24 +322186,24 @@
         17,
         27,
         42,
-        81,
-        110
+        79,
+        106
       ],
       "the": [
         18,
         28,
         34,
         43,
-        52,
-        55,
-        74,
-        78,
-        86,
-        111,
-        114,
-        117,
-        125,
-        130
+        51,
+        54,
+        72,
+        76,
+        82,
+        107,
+        110,
+        113,
+        120,
+        125
       ],
       "Global": [
         19,
@@ -322323,8 +322224,8 @@
       ],
       "with": [
         24,
-        69,
-        85
+        67,
+        81
       ],
       "some": [
         25
@@ -322367,201 +322268,186 @@
       ],
       "their": [
         47,
-        98
+        94
       ],
       "countries": [
         48
       ],
-      "origin;": [
+      "origin;1": [
         50
       ],
-      "1": [
-        51
-      ],
       "release": [
-        53
+        52
       ],
       "Caribbean": [
-        56
+        55
       ],
       "Community": [
-        57
+        56
       ],
       "Common": [
-        59
+        58
       ],
       "Market\u2019s": [
-        60
+        59
       ],
       "(CARICOM)": [
-        61
+        60
       ],
       "proposal": [
-        62
+        61
       ],
-      "reparations;": [
-        64
-      ],
-      "2": [
-        65
+      "reparations;2": [
+        63
       ],
       "Namibia\u2019s": [
-        67
+        65
       ],
       "agreement": [
-        68
+        66
       ],
       "Germany": [
-        70
+        68
       ],
       "on": [
-        71
+        69
       ],
       "compensation": [
-        72
+        70
       ],
       "German": [
-        75
+        73
       ],
       "genocide": [
-        76
+        74
       ],
       "against": [
-        77
+        75
       ],
       "Herero": [
-        79
+        77
       ],
       "people": [
+        78
+      ],
+      "1904\u2013083\u2014along": [
         80
       ],
-      "1904\u201308": [
-        82
-      ],
-      "3": [
+      "resultant": [
         83
       ],
-      "\u2014along": [
+      "controversy.": [
         84
       ],
-      "resultant": [
-        87
-      ],
-      "controversy.": [
-        88
-      ],
       "These": [
-        89
+        85
       ],
       "developments": [
-        90
+        86
       ],
       "follow": [
-        91
+        87
       ],
       "earlier": [
-        92
+        88
       ],
       "claims": [
-        93
+        89
       ],
       "reparations": [
-        95,
-        133
-      ],
-      "directed": [
-        96
-      ],
-      "to\u2014and": [
-        97
-      ],
-      "eventual": [
-        99
-      ],
-      "acceptance": [
-        100
-      ],
-      "by\u2014the": [
-        101
-      ],
-      "governments": [
-        102
-      ],
-      "Canada": [
-        104
-      ],
-      "New": [
-        106
-      ],
-      "Zealand,": [
-        107
-      ],
-      "domestic": [
-        108
-      ],
-      "courts": [
-        109
-      ],
-      "Netherlands": [
-        112
-      ],
-      "UK,": [
-        115
-      ],
-      "Inter-American": [
-        118
-      ],
-      "Court": [
-        119
-      ],
-      "Human": [
-        121
-      ],
-      "Rights.": [
-        122
-      ],
-      "4": [
-        123
-      ],
-      "At": [
-        124
-      ],
-      "same": [
-        126
-      ],
-      "time,": [
-        127
-      ],
-      "it": [
+        91,
         128
       ],
+      "directed": [
+        92
+      ],
+      "to\u2014and": [
+        93
+      ],
+      "eventual": [
+        95
+      ],
+      "acceptance": [
+        96
+      ],
+      "by\u2014the": [
+        97
+      ],
+      "governments": [
+        98
+      ],
+      "Canada": [
+        100
+      ],
+      "New": [
+        102
+      ],
+      "Zealand,": [
+        103
+      ],
+      "domestic": [
+        104
+      ],
+      "courts": [
+        105
+      ],
+      "Netherlands": [
+        108
+      ],
+      "UK,": [
+        111
+      ],
+      "Inter-American": [
+        114
+      ],
+      "Court": [
+        115
+      ],
+      "Human": [
+        117
+      ],
+      "Rights.4": [
+        118
+      ],
+      "At": [
+        119
+      ],
+      "same": [
+        121
+      ],
+      "time,": [
+        122
+      ],
+      "it": [
+        123
+      ],
       "remains": [
-        129
+        124
       ],
       "case": [
-        131
+        126
       ],
       "that": [
-        132
+        127
       ],
       "are": [
-        136
+        131
       ],
       "overall": [
-        137
+        132
       ],
       "few": [
-        138
+        133
       ],
       "far": [
-        140
+        135
       ],
       "between.": [
-        141
+        136
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-04-04T16:13:02.066488",
+    "updated_date": "2026-10-27T15:51:10.671819",
     "created_date": "2025-10-10T00:00:00"
   },
   {

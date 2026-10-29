@@ -4427,7 +4427,7 @@
     "doi": "https://doi.org/10.1080/00141844.2026.2650458",
     "title": "Lives and Futures from Ruination: The Search for Viability among Syrians Displaced to Jordan, Lebanon and Turkey",
     "display_name": "Lives and Futures from Ruination: The Search for Viability among Syrians Displaced to Jordan, Lebanon and Turkey",
-    "relevance_score": 9.448797,
+    "relevance_score": 26.660347,
     "publication_year": 2026,
     "publication_date": "2026-05-04",
     "ids": {
@@ -4437,9 +4437,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/00141844.2026.2650458",
+      "doi": "https://doi.org/10.1080/00141844.2026.2650458",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/00141844.2026.2650458",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2650458?needAccess=true",
       "source": {
         "id": "https://openalex.org/S43131466",
         "display_name": "Ethnos",
@@ -4451,13 +4452,26 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -4469,6 +4483,7 @@
       "raw_source_name": "Ethnos",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -4476,16 +4491,19 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1080/00141844.2026.2650458",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2650458?needAccess=true",
       "any_repository_has_fulltext": false
     },
     "authorships": [
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5135272722",
-          "display_name": "Birgitte S. Holst",
-          "orcid": "https://orcid.org/0000-0003-4340-717X"
+          "id": "https://openalex.org/A5058771687",
+          "display_name": "Birgitte Stampe Holst",
+          "orcid": "https://orcid.org/0000-0003-4340-717X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4340-717X"
+          ]
         },
         "institutions": [
           {
@@ -4523,7 +4541,7 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5135272722"
+      "https://openalex.org/A5058771687"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I2801953415"
@@ -4531,27 +4549,27 @@
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.95200342,
+      "value": 0.30011536,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": "1",
-      "last_page": "14"
+      "volume": "91",
+      "issue": "3",
+      "first_page": "336",
+      "last_page": "349"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13103",
-      "display_name": "Middle East Politics and Society",
-      "score": 0.4156999886035919,
+      "id": "https://openalex.org/T14062",
+      "display_name": "Migration and Exile Studies",
+      "score": 0.47290000319480896,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -4567,9 +4585,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13103",
-        "display_name": "Middle East Politics and Society",
-        "score": 0.4156999886035919,
+        "id": "https://openalex.org/T14062",
+        "display_name": "Migration and Exile Studies",
+        "score": 0.47290000319480896,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -4584,12 +4602,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T11783",
-        "display_name": "Turkey's Politics and Society",
-        "score": 0.028599999845027924,
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.45730000734329224,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -4601,9 +4619,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T11203",
-        "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.02590000070631504,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.04500000178813934,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -4620,29 +4638,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/futures-contract",
-        "display_name": "Futures contract",
-        "score": 0.6904000043869019
+        "id": "https://openalex.org/keywords/syrian-refugees",
+        "display_name": "Syrian refugees",
+        "score": 0.8019999861717224
       },
       {
-        "id": "https://openalex.org/keywords/precarity",
-        "display_name": "Precarity",
-        "score": 0.35910001397132874
+        "id": "https://openalex.org/keywords/ruination",
+        "display_name": "ruination",
+        "score": 0.7300000190734863
       },
       {
-        "id": "https://openalex.org/keywords/southeast-asia",
-        "display_name": "Southeast asia",
-        "score": 0.30820000171661377
+        "id": "https://openalex.org/keywords/displacement",
+        "display_name": "displacement",
+        "score": 0.4490000009536743
       },
       {
-        "id": "https://openalex.org/keywords/ethnography",
-        "display_name": "Ethnography",
-        "score": 0.2924000024795532
+        "id": "https://openalex.org/keywords/viability",
+        "display_name": "viability",
+        "score": 0.5120000243186951
       },
       {
-        "id": "https://openalex.org/keywords/government",
-        "display_name": "Government (linguistics)",
-        "score": 0.26089999079704285
+        "id": "https://openalex.org/keywords/syrian-refugees-in-lebanon",
+        "display_name": "Syrian refugees in Lebanon",
+        "score": 0.9879999756813049
+      },
+      {
+        "id": "https://openalex.org/keywords/syrian-refugees-in-turkey",
+        "display_name": "Syrian refugees in Turkey",
+        "score": 0.996999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/syrian-civil-war",
+        "display_name": "Syrian civil war",
+        "score": 0.3490000069141388
       }
     ],
     "concepts": [
@@ -4750,9 +4778,10 @@
     "locations": [
       {
         "id": "doi:10.1080/00141844.2026.2650458",
+        "doi": "https://doi.org/10.1080/00141844.2026.2650458",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/00141844.2026.2650458",
-        "pdf_url": null,
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2650458?needAccess=true",
         "source": {
           "id": "https://openalex.org/S43131466",
           "display_name": "Ethnos",
@@ -4764,13 +4793,26 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -4785,9 +4827,10 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1080/00141844.2026.2650458",
+      "doi": "https://doi.org/10.1080/00141844.2026.2650458",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/00141844.2026.2650458",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2650458?needAccess=true",
       "source": {
         "id": "https://openalex.org/S43131466",
         "display_name": "Ethnos",
@@ -4799,13 +4842,26 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -4818,6 +4874,8 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G1072186308",
@@ -4834,16 +4892,24 @@
         "ror": "https://ror.org/035b05819"
       },
       {
+        "id": "https://openalex.org/F4320322436",
+        "display_name": "Novo Nordisk",
+        "ror": "https://ror.org/0435rc536"
+      },
+      {
         "id": "https://openalex.org/F4320325957",
         "display_name": "Novo Nordisk Fonden",
         "ror": "https://ror.org/04txyc737"
       }
     ],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "pdf": true,
+      "grobid_xml": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7160138812.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7160138812.grobid-xml"
+    },
     "referenced_works_count": 24,
     "referenced_works": [
       "https://openalex.org/W1660984842",
@@ -4871,10 +4937,377 @@
       "https://openalex.org/W4396698984",
       "https://openalex.org/W4399577020"
     ],
-    "related_works": [],
-    "abstract_inverted_index": null,
+    "related_works": [
+      "https://openalex.org/W3168684596",
+      "https://openalex.org/W7134415496",
+      "https://openalex.org/W2799440741",
+      "https://openalex.org/W7058003446",
+      "https://openalex.org/W7214882573",
+      "https://openalex.org/W2890052133",
+      "https://openalex.org/W4409218982",
+      "https://openalex.org/W7150951652",
+      "https://openalex.org/W2948489241",
+      "https://openalex.org/W7110551781"
+    ],
+    "abstract_inverted_index": {
+      "Through": [
+        0
+      ],
+      "an": [
+        1
+      ],
+      "ethnographic": [
+        2
+      ],
+      "account": [
+        3
+      ],
+      "of": [
+        4,
+        8,
+        24,
+        45,
+        61,
+        68,
+        84,
+        101,
+        123,
+        142
+      ],
+      "the": [
+        5,
+        19,
+        22,
+        39,
+        50,
+        58,
+        77,
+        91,
+        99,
+        121,
+        130,
+        140
+      ],
+      "various": [
+        6
+      ],
+      "forms": [
+        7
+      ],
+      "ruination": [
+        9
+      ],
+      "experienced": [
+        10
+      ],
+      "by": [
+        11
+      ],
+      "Syrians": [
+        12,
+        87
+      ],
+      "displaced": [
+        13
+      ],
+      "to": [
+        14,
+        27,
+        81,
+        89
+      ],
+      "Jordan,": [
+        15
+      ],
+      "Lebanon": [
+        16
+      ],
+      "and": [
+        17,
+        31,
+        52,
+        72,
+        79,
+        108,
+        115,
+        132,
+        146
+      ],
+      "Turkey,": [
+        18
+      ],
+      "article": [
+        20
+      ],
+      "investigates": [
+        21
+      ],
+      "stakes": [
+        23
+      ],
+      "Syrians\u2019": [
+        25
+      ],
+      "attempts": [
+        26
+      ],
+      "forge": [
+        28
+      ],
+      "worthwhile": [
+        29
+      ],
+      "lives": [
+        30
+      ],
+      "futures": [
+        32
+      ],
+      "in": [
+        33,
+        43,
+        65,
+        96,
+        103
+      ],
+      "refuge.": [
+        34
+      ],
+      "Against": [
+        35
+      ],
+      "perspectives": [
+        36
+      ],
+      "that": [
+        37,
+        56
+      ],
+      "centre": [
+        38
+      ],
+      "biographical": [
+        40,
+        131
+      ],
+      "or": [
+        41
+      ],
+      "political": [
+        42,
+        133
+      ],
+      "critiques": [
+        44
+      ],
+      "humanitarianism\u2019s": [
+        46
+      ],
+      "exclusive": [
+        47
+      ],
+      "focus": [
+        48
+      ],
+      "on": [
+        49
+      ],
+      "biological": [
+        51
+      ],
+      "survival,": [
+        53
+      ],
+      "it": [
+        54
+      ],
+      "argues": [
+        55
+      ],
+      "recovering": [
+        57
+      ],
+      "viable": [
+        59
+      ],
+      "parts": [
+        60
+      ],
+      "one\u2019s": [
+        62
+      ],
+      "previous": [
+        63
+      ],
+      "existence": [
+        64
+      ],
+      "a": [
+        66,
+        82,
+        144,
+        147
+      ],
+      "context": [
+        67
+      ],
+      "ongoing": [
+        69
+      ],
+      "social,": [
+        70
+      ],
+      "economic": [
+        71
+      ],
+      "legal": [
+        73
+      ],
+      "dispossession": [
+        74
+      ],
+      "is": [
+        75
+      ],
+      "exactly": [
+        76
+      ],
+      "challenge": [
+        78
+      ],
+      "amounts": [
+        80
+      ],
+      "form": [
+        83
+      ],
+      "ruination.": [
+        85
+      ],
+      "As": [
+        86
+      ],
+      "attempted": [
+        88
+      ],
+      "reconcile": [
+        90
+      ],
+      "standards": [
+        92
+      ],
+      "they": [
+        93
+      ],
+      "had": [
+        94
+      ],
+      "established": [
+        95
+      ],
+      "Syria": [
+        97
+      ],
+      "with": [
+        98
+      ],
+      "realities": [
+        100
+      ],
+      "life": [
+        102,
+        145
+      ],
+      "displacement": [
+        104
+      ],
+      "during": [
+        105
+      ],
+      "conflict,": [
+        106
+      ],
+      "hesitations": [
+        107
+      ],
+      "doubts": [
+        109
+      ],
+      "about": [
+        110
+      ],
+      "what": [
+        111,
+        117
+      ],
+      "was": [
+        112
+      ],
+      "worth": [
+        113
+      ],
+      "salvaging": [
+        114
+      ],
+      "at": [
+        116,
+        120
+      ],
+      "price": [
+        118
+      ],
+      "were": [
+        119,
+        134
+      ],
+      "forefront": [
+        122
+      ],
+      "their": [
+        124
+      ],
+      "contemplations.": [
+        125
+      ],
+      "Hence,": [
+        126
+      ],
+      "for": [
+        127
+      ],
+      "my": [
+        128
+      ],
+      "interlocutors,": [
+        129
+      ],
+      "questions": [
+        135
+      ],
+      "rather": [
+        136
+      ],
+      "than": [
+        137
+      ],
+      "answers": [
+        138
+      ],
+      "regarding": [
+        139
+      ],
+      "issue": [
+        141
+      ],
+      "forging": [
+        143
+      ],
+      "future.": [
+        148
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2026-05-05T06:12:25.323381",
+    "updated_date": "2026-10-27T15:51:10.671819",
     "created_date": "2026-05-05T00:00:00"
   },
   {
@@ -15005,5 +15438,815 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2022-05-12T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7155187815",
+    "doi": "https://doi.org/10.1080/00141844.2026.2657947",
+    "title": "Logistics Culture: How Maritime Shipping Scales Up in a Port City",
+    "display_name": "Logistics Culture: How Maritime Shipping Scales Up in a Port City",
+    "relevance_score": 2.2881863,
+    "publication_year": 2026,
+    "publication_date": "2026-04-22",
+    "ids": {
+      "openalex": "https://openalex.org/W7155187815",
+      "doi": "https://doi.org/10.1080/00141844.2026.2657947"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/00141844.2026.2657947",
+      "doi": "https://doi.org/10.1080/00141844.2026.2657947",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/00141844.2026.2657947",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S43131466",
+        "display_name": "Ethnos",
+        "issn_l": "0014-1844",
+        "issn": [
+          "0014-1844",
+          "1469-588X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnos",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5004229030",
+          "display_name": "Canay \u00d6zden\u2010Schilling",
+          "orcid": "https://orcid.org/0000-0002-3440-309X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3440-309X"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I165932596",
+            "display_name": "National University of Singapore",
+            "ror": "https://ror.org/01tgyzw49",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ],
+        "countries": [
+          "SG"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Canay \u00d6zden-Schilling",
+        "raw_affiliation_strings": [
+          "National University of Singapore"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "National University of Singapore",
+            "institution_ids": [
+              "https://openalex.org/I165932596"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5004229030"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I165932596"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.2056491,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "15"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11223",
+      "display_name": "Maritime Ports and Logistics",
+      "score": 0.9556000232696533,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2209",
+        "display_name": "Industrial and Manufacturing Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11223",
+        "display_name": "Maritime Ports and Logistics",
+        "score": 0.9556000232696533,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12984",
+        "display_name": "Transport and Logistics Innovations",
+        "score": 0.007799999788403511,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2209",
+          "display_name": "Industrial and Manufacturing Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13215",
+        "display_name": "Global Maritime and Colonial Histories",
+        "score": 0.007300000172108412,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/carriage-of-goods-by-sea",
+        "display_name": "carriage of goods by sea",
+        "score": 0.9890000224113464
+      },
+      {
+        "id": "https://openalex.org/keywords/port-cities",
+        "display_name": "port cities",
+        "score": 0.9769999980926514
+      },
+      {
+        "id": "https://openalex.org/keywords/scale-up",
+        "display_name": "scale-up",
+        "score": 0.4519999921321869
+      },
+      {
+        "id": "https://openalex.org/keywords/port-logistics",
+        "display_name": "port logistics",
+        "score": 0.40700000524520874
+      },
+      {
+        "id": "https://openalex.org/keywords/city-logistics",
+        "display_name": "urban logistics",
+        "score": 0.35600000619888306
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C32802771",
+        "wikidata": "https://www.wikidata.org/wiki/Q2443617",
+        "display_name": "Port (circuit theory)",
+        "level": 2,
+        "score": 0.6137999892234802
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.5986999869346619
+      },
+      {
+        "id": "https://openalex.org/C2778755073",
+        "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+        "display_name": "Scale (ratio)",
+        "level": 2,
+        "score": 0.32919999957084656
+      },
+      {
+        "id": "https://openalex.org/C108713360",
+        "wikidata": "https://www.wikidata.org/wiki/Q1824206",
+        "display_name": "Supply chain",
+        "level": 2,
+        "score": 0.2824999988079071
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.26440000534057617
+      },
+      {
+        "id": "https://openalex.org/C133462117",
+        "wikidata": "https://www.wikidata.org/wiki/Q4929239",
+        "display_name": "Data collection",
+        "level": 2,
+        "score": 0.2635999917984009
+      },
+      {
+        "id": "https://openalex.org/C91375879",
+        "wikidata": "https://www.wikidata.org/wiki/Q15473274",
+        "display_name": "Environmental planning",
+        "level": 1,
+        "score": 0.23749999701976776
+      },
+      {
+        "id": "https://openalex.org/C18762648",
+        "wikidata": "https://www.wikidata.org/wiki/Q42213",
+        "display_name": "Work (physics)",
+        "level": 2,
+        "score": 0.23420000076293945
+      },
+      {
+        "id": "https://openalex.org/C148383697",
+        "wikidata": "https://www.wikidata.org/wiki/Q1781695",
+        "display_name": "Regional science",
+        "level": 1,
+        "score": 0.23019999265670776
+      },
+      {
+        "id": "https://openalex.org/C10138342",
+        "wikidata": "https://www.wikidata.org/wiki/Q43015",
+        "display_name": "Finance",
+        "level": 1,
+        "score": 0.22169999778270721
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/00141844.2026.2657947",
+        "doi": "https://doi.org/10.1080/00141844.2026.2657947",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/00141844.2026.2657947",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S43131466",
+          "display_name": "Ethnos",
+          "issn_l": "0014-1844",
+          "issn": [
+            "0014-1844",
+            "1469-588X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Ethnos",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320308340",
+        "display_name": "American Research Institute in Turkey",
+        "ror": "https://ror.org/05hs3x327"
+      },
+      {
+        "id": "https://openalex.org/F4320320698",
+        "display_name": "National University of Singapore",
+        "ror": "https://ror.org/01tgyzw49"
+      }
+    ],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 30,
+    "referenced_works": [
+      "https://openalex.org/W1556152307",
+      "https://openalex.org/W1967610023",
+      "https://openalex.org/W1997885649",
+      "https://openalex.org/W2010944334",
+      "https://openalex.org/W2013018431",
+      "https://openalex.org/W2043745634",
+      "https://openalex.org/W2140035013",
+      "https://openalex.org/W2143565257",
+      "https://openalex.org/W2169365388",
+      "https://openalex.org/W2489466905",
+      "https://openalex.org/W2495753478",
+      "https://openalex.org/W2757617855",
+      "https://openalex.org/W2809582886",
+      "https://openalex.org/W2887708251",
+      "https://openalex.org/W2893002841",
+      "https://openalex.org/W2923215051",
+      "https://openalex.org/W2988503827",
+      "https://openalex.org/W3025246822",
+      "https://openalex.org/W3129872230",
+      "https://openalex.org/W3133300904",
+      "https://openalex.org/W3157554505",
+      "https://openalex.org/W3159772269",
+      "https://openalex.org/W3170849682",
+      "https://openalex.org/W3176928505",
+      "https://openalex.org/W4221000687",
+      "https://openalex.org/W4224241521",
+      "https://openalex.org/W4240597763",
+      "https://openalex.org/W4403462337",
+      "https://openalex.org/W4405504052",
+      "https://openalex.org/W7134985006"
+    ],
+    "related_works": [
+      "https://openalex.org/W2046660748",
+      "https://openalex.org/W1535435647",
+      "https://openalex.org/W4300465371",
+      "https://openalex.org/W2619707005",
+      "https://openalex.org/W1899061563",
+      "https://openalex.org/W597104128",
+      "https://openalex.org/W2520969884",
+      "https://openalex.org/W6992606294",
+      "https://openalex.org/W4403088434",
+      "https://openalex.org/W2968384587"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "article": [
+        1
+      ],
+      "explores": [
+        2
+      ],
+      "the": [
+        3,
+        38,
+        42,
+        73,
+        79,
+        103,
+        105,
+        118,
+        141,
+        146
+      ],
+      "conditions": [
+        4
+      ],
+      "of": [
+        5,
+        59,
+        71,
+        99,
+        108,
+        117,
+        135
+      ],
+      "scaling": [
+        6
+      ],
+      "in": [
+        7,
+        14,
+        132,
+        148
+      ],
+      "maritime": [
+        8,
+        123
+      ],
+      "shipping": [
+        9
+      ],
+      "based": [
+        10
+      ],
+      "on": [
+        11,
+        47,
+        55
+      ],
+      "ethnographic": [
+        12
+      ],
+      "research": [
+        13
+      ],
+      "Mersin": [
+        15,
+        24
+      ],
+      "(Turkey)": [
+        16
+      ],
+      "\u2013": [
+        17
+      ],
+      "host": [
+        18
+      ],
+      "to": [
+        19,
+        37,
+        45,
+        64,
+        67,
+        77,
+        110,
+        137
+      ],
+      "a": [
+        20,
+        26,
+        56,
+        129
+      ],
+      "privatised,": [
+        21
+      ],
+      "Singaporean-administered": [
+        22
+      ],
+      "port.": [
+        23
+      ],
+      "is": [
+        25,
+        128
+      ],
+      "historical": [
+        27
+      ],
+      "confluence": [
+        28
+      ],
+      "for": [
+        29,
+        145
+      ],
+      "small-scale": [
+        30
+      ],
+      "logistics": [
+        31
+      ],
+      "providers,": [
+        32
+      ],
+      "who": [
+        33
+      ],
+      "connect": [
+        34
+      ],
+      "hinterland": [
+        35
+      ],
+      "industrialists": [
+        36
+      ],
+      "port,": [
+        39,
+        104
+      ],
+      "while": [
+        40
+      ],
+      "absorbing": [
+        41
+      ],
+      "occasional": [
+        43
+      ],
+      "shocks": [
+        44
+      ],
+      "trade": [
+        46
+      ],
+      "their": [
+        48
+      ],
+      "clients\u2019": [
+        49
+      ],
+      "behalf.": [
+        50
+      ],
+      "In": [
+        51
+      ],
+      "that,": [
+        52
+      ],
+      "they": [
+        53
+      ],
+      "draw": [
+        54
+      ],
+      "diverse": [
+        57
+      ],
+      "repertoire": [
+        58
+      ],
+      "resources,": [
+        60
+      ],
+      "from": [
+        61,
+        122
+      ],
+      "family": [
+        62
+      ],
+      "connections": [
+        63
+      ],
+      "language": [
+        65
+      ],
+      "skills": [
+        66
+      ],
+      "equipment": [
+        68
+      ],
+      "access,": [
+        69
+      ],
+      "all": [
+        70
+      ],
+      "which": [
+        72
+      ],
+      "locals": [
+        74
+      ],
+      "broadly": [
+        75
+      ],
+      "refer": [
+        76
+      ],
+      "as": [
+        78
+      ],
+      "city\u2019s": [
+        80,
+        119
+      ],
+      "\u2018logistics": [
+        81
+      ],
+      "culture\u2019.": [
+        82
+      ],
+      "Exploring": [
+        83
+      ],
+      "this": [
+        84,
+        133
+      ],
+      "emic": [
+        85
+      ],
+      "concept": [
+        86
+      ],
+      "ethnographically,": [
+        87
+      ],
+      "I": [
+        88
+      ],
+      "argue": [
+        89
+      ],
+      "that": [
+        90
+      ],
+      "these": [
+        91
+      ],
+      "providers\u2019": [
+        92
+      ],
+      "small": [
+        93,
+        142
+      ],
+      "size,": [
+        94
+      ],
+      "transient": [
+        95
+      ],
+      "nature,": [
+        96
+      ],
+      "and": [
+        97,
+        114
+      ],
+      "lack": [
+        98
+      ],
+      "collective": [
+        100
+      ],
+      "voice": [
+        101
+      ],
+      "allow": [
+        102
+      ],
+      "regional": [
+        106
+      ],
+      "custodian": [
+        107
+      ],
+      "shipping,": [
+        109
+      ],
+      "receive": [
+        111
+      ],
+      "an": [
+        112
+      ],
+      "outsized": [
+        113
+      ],
+      "growing": [
+        115
+      ],
+      "share": [
+        116
+      ],
+      "overall": [
+        120
+      ],
+      "revenue": [
+        121
+      ],
+      "shipping.": [
+        124
+      ],
+      "For": [
+        125
+      ],
+      "anthropologists,": [
+        126
+      ],
+      "there": [
+        127
+      ],
+      "renewed": [
+        130
+      ],
+      "opportunity": [
+        131
+      ],
+      "interpretation": [
+        134
+      ],
+      "culture": [
+        136
+      ],
+      "better": [
+        138
+      ],
+      "grasp": [
+        139
+      ],
+      "how": [
+        140
+      ],
+      "make": [
+        143
+      ],
+      "way": [
+        144
+      ],
+      "big": [
+        147
+      ],
+      "contemporary": [
+        149
+      ],
+      "capitalism.": [
+        150
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2026-04-23T00:00:00"
   }
 ]

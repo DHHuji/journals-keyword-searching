@@ -10378,7 +10378,7 @@
     "doi": "https://doi.org/10.1177/10575677241313466",
     "title": "Psychometric Properties of the Coping Strategy Indicator (CSI) in a South African Male Incarcerated Offender Sample",
     "display_name": "Psychometric Properties of the Coping Strategy Indicator (CSI) in a South African Male Incarcerated Offender Sample",
-    "relevance_score": 5.6046724,
+    "relevance_score": 10.510551,
     "publication_year": 2025,
     "publication_date": "2025-01-22",
     "ids": {
@@ -10388,6 +10388,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/10575677241313466",
+      "doi": "https://doi.org/10.1177/10575677241313466",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/10575677241313466",
       "pdf_url": null,
@@ -10402,6 +10403,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -10420,6 +10430,7 @@
       "raw_source_name": "International Criminal Justice Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -10436,7 +10447,10 @@
         "author": {
           "id": "https://openalex.org/A5009476719",
           "display_name": "Jacques Jordaan",
-          "orcid": "https://orcid.org/0000-0003-3931-7091"
+          "orcid": "https://orcid.org/0000-0003-3931-7091",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3931-7091"
+          ]
         },
         "institutions": [
           {
@@ -10473,7 +10487,10 @@
         "author": {
           "id": "https://openalex.org/A5064992086",
           "display_name": "Matthew Cronj\u00e9",
-          "orcid": "https://orcid.org/0000-0002-2849-4853"
+          "orcid": "https://orcid.org/0000-0002-2849-4853",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-2849-4853"
+          ]
         },
         "institutions": [
           {
@@ -10508,24 +10525,31 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 2,
+    "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5009476719"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I26999989"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3400,
+      "currency": "USD",
+      "value_usd": 3400
+    },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": 1.5584,
     "has_fulltext": false,
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.01390291,
+      "value": 0.81745157,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 97
+    },
     "biblio": {
       "volume": "35",
       "issue": "4",
@@ -10536,16 +10560,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11761",
-      "display_name": "Resilience and Mental Health",
-      "score": 0.9987999796867371,
+      "id": "https://openalex.org/T10467",
+      "display_name": "Psychometric Methodologies and Testing",
+      "score": 0.7979000210762024,
       "subfield": {
-        "id": "https://openalex.org/subfields/3203",
-        "display_name": "Clinical Psychology"
+        "id": "https://openalex.org/subfields/1803",
+        "display_name": "Management Science and Operations Research"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -10554,9 +10578,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T10467",
+        "display_name": "Psychometric Methodologies and Testing",
+        "score": 0.7979000210762024,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1803",
+          "display_name": "Management Science and Operations Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11761",
         "display_name": "Resilience and Mental Health",
-        "score": 0.9987999796867371,
+        "score": 0.056299999356269836,
         "subfield": {
           "id": "https://openalex.org/subfields/3203",
           "display_name": "Clinical Psychology"
@@ -10571,70 +10612,78 @@
         }
       },
       {
-        "id": "https://openalex.org/T10426",
-        "display_name": "Child Abuse and Trauma",
-        "score": 0.9977999925613403,
+        "id": "https://openalex.org/T14040",
+        "display_name": "Problem Solving Skills Development",
+        "score": 0.03420000150799751,
         "subfield": {
-          "id": "https://openalex.org/subfields/3203",
-          "display_name": "Clinical Psychology"
+          "id": "https://openalex.org/subfields/3616",
+          "display_name": "Speech and Hearing"
         },
         "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
         },
         "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10318",
-        "display_name": "Criminal Justice and Corrections Analysis",
-        "score": 0.9921000003814697,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
         }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.6368025541305542
+        "id": "https://openalex.org/keywords/coping-strategies",
+        "display_name": "coping strategies",
+        "score": 0.9480000138282776
       },
       {
-        "id": "https://openalex.org/keywords/clinical-psychology",
-        "display_name": "Clinical psychology",
-        "score": 0.5095748901367188
+        "id": "https://openalex.org/keywords/incarcerated-offenders",
+        "display_name": "incarcerated offenders",
+        "score": 0.8949999809265137
       },
       {
-        "id": "https://openalex.org/keywords/sample",
-        "display_name": "Sample (material)",
-        "score": 0.5092860460281372
+        "id": "https://openalex.org/keywords/male-prisoners",
+        "display_name": "incarcerated men",
+        "score": 0.765999972820282
       },
       {
-        "id": "https://openalex.org/keywords/coping",
-        "display_name": "Coping (psychology)",
-        "score": 0.47926947474479675
+        "id": "https://openalex.org/keywords/psychometric-properties",
+        "display_name": "psychometric properties",
+        "score": 0.8420000076293945
       },
       {
-        "id": "https://openalex.org/keywords/criminology",
-        "display_name": "Criminology",
-        "score": 0.4174264073371887
+        "id": "https://openalex.org/keywords/bifactor-model",
+        "display_name": "bifactor model",
+        "score": 0.984000027179718
       },
       {
-        "id": "https://openalex.org/keywords/social-psychology",
-        "display_name": "Social psychology",
-        "score": 0.38827866315841675
+        "id": "https://openalex.org/keywords/factor-structure",
+        "display_name": "factor structure",
+        "score": 0.7160000205039978
+      },
+      {
+        "id": "https://openalex.org/keywords/problem-solving",
+        "display_name": "problem solving",
+        "score": 0.5870000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/seeking-social-support",
+        "display_name": "social support seeking",
+        "score": 0.8849999904632568
+      },
+      {
+        "id": "https://openalex.org/keywords/avoidance",
+        "display_name": "avoidance",
+        "score": 0.6610000133514404
+      },
+      {
+        "id": "https://openalex.org/keywords/prison-adjustment",
+        "display_name": "prison adjustment",
+        "score": 0.7950000166893005
+      },
+      {
+        "id": "https://openalex.org/keywords/south-africa",
+        "display_name": "South Africa",
+        "score": 0.6039999723434448
       }
     ],
     "concepts": [
@@ -10700,6 +10749,7 @@
     "locations": [
       {
         "id": "doi:10.1177/10575677241313466",
+        "doi": "https://doi.org/10.1177/10575677241313466",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/10575677241313466",
         "pdf_url": null,
@@ -10714,6 +10764,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -10734,7 +10793,25 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.9074000120162964,
+        "display_name": "Good health and well-being",
+        "id": "https://metadata.un.org/sdg/3"
+      },
+      {
+        "score": 0.6601999998092651,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "display_name": "Observational Study",
+        "id": "https://openalex.org/study-designs/observational-study"
+      }
+    ],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -10751,6 +10828,7 @@
       "https://openalex.org/W1576087345",
       "https://openalex.org/W1900491202",
       "https://openalex.org/W1947419121",
+      "https://openalex.org/W1963885963",
       "https://openalex.org/W1964737594",
       "https://openalex.org/W1975709096",
       "https://openalex.org/W1978393894",
@@ -10762,6 +10840,7 @@
       "https://openalex.org/W2000031724",
       "https://openalex.org/W2005489573",
       "https://openalex.org/W2006769385",
+      "https://openalex.org/W2007417151",
       "https://openalex.org/W2010054881",
       "https://openalex.org/W2014543370",
       "https://openalex.org/W2018201949",
@@ -10779,6 +10858,7 @@
       "https://openalex.org/W2074866981",
       "https://openalex.org/W2076719360",
       "https://openalex.org/W2078495098",
+      "https://openalex.org/W2079681508",
       "https://openalex.org/W2081059976",
       "https://openalex.org/W2084777294",
       "https://openalex.org/W2106842422",
@@ -10793,6 +10873,7 @@
       "https://openalex.org/W2147761557",
       "https://openalex.org/W2149608872",
       "https://openalex.org/W2149695418",
+      "https://openalex.org/W2165167678",
       "https://openalex.org/W2168749348",
       "https://openalex.org/W2212401464",
       "https://openalex.org/W2249595199",
@@ -10802,7 +10883,6 @@
       "https://openalex.org/W2343184075",
       "https://openalex.org/W2344772883",
       "https://openalex.org/W2468551303",
-      "https://openalex.org/W2550662560",
       "https://openalex.org/W2550923725",
       "https://openalex.org/W2567316014",
       "https://openalex.org/W2572926294",
@@ -10825,18 +10905,14 @@
       "https://openalex.org/W3111703806",
       "https://openalex.org/W3126814001",
       "https://openalex.org/W3134382043",
-      "https://openalex.org/W3216026679",
       "https://openalex.org/W4205108827",
       "https://openalex.org/W4205649695",
       "https://openalex.org/W4206663667",
       "https://openalex.org/W4214756639",
       "https://openalex.org/W4234542464",
-      "https://openalex.org/W4243666150",
       "https://openalex.org/W4244728594",
-      "https://openalex.org/W4256558850",
       "https://openalex.org/W4280568918",
       "https://openalex.org/W4283646428",
-      "https://openalex.org/W4292854730",
       "https://openalex.org/W4294308159",
       "https://openalex.org/W4297983578",
       "https://openalex.org/W4299927410",
@@ -10846,7 +10922,8 @@
       "https://openalex.org/W4386976558",
       "https://openalex.org/W4392002484",
       "https://openalex.org/W4392763910",
-      "https://openalex.org/W4402325152"
+      "https://openalex.org/W4402325152",
+      "https://openalex.org/W7115597217"
     ],
     "related_works": [
       "https://openalex.org/W2748952813",
@@ -11274,8 +11351,13 @@
         175
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-10-22T18:32:59.640997",
     "created_date": "2025-10-10T00:00:00"
   },
   {

@@ -12850,7 +12850,7 @@
     "doi": "https://doi.org/10.1080/00141844.2026.2661348",
     "title": "Learning to Feel Otherwise: Emotional Training and Feminist Counter Tactics Amid Online Misogyny in German-Speaking Disruptive Climate Activism",
     "display_name": "Learning to Feel Otherwise: Emotional Training and Feminist Counter Tactics Amid Online Misogyny in German-Speaking Disruptive Climate Activism",
-    "relevance_score": 7.5327215,
+    "relevance_score": 20.77678,
     "publication_year": 2026,
     "publication_date": "2026-05-12",
     "ids": {
@@ -12860,9 +12860,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/00141844.2026.2661348",
+      "doi": "https://doi.org/10.1080/00141844.2026.2661348",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/00141844.2026.2661348",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2661348?needAccess=true",
       "source": {
         "id": "https://openalex.org/S43131466",
         "display_name": "Ethnos",
@@ -12874,13 +12875,26 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -12892,6 +12906,7 @@
       "raw_source_name": "Ethnos",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -12899,19 +12914,35 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1080/00141844.2026.2661348",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2661348?needAccess=true",
       "any_repository_has_fulltext": false
     },
     "authorships": [
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5135968585",
+          "id": "https://openalex.org/A5026761883",
           "display_name": "Leah Nann",
-          "orcid": "https://orcid.org/0009-0002-6506-6230"
+          "orcid": "https://orcid.org/0009-0002-6506-6230",
+          "observed_orcids": [
+            "https://orcid.org/0009-0002-6506-6230"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I8204097",
+            "display_name": "Ludwig-Maximilians-Universit\u00e4t M\u00fcnchen",
+            "ror": "https://ror.org/05591te55",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I8204097"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Leah Nann",
         "raw_affiliation_strings": [
@@ -12921,27 +12952,31 @@
         "affiliations": [
           {
             "raw_affiliation_string": "Ludwig Maximilians University",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I8204097"
+            ]
           }
         ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5135968585"
+      "https://openalex.org/A5026761883"
     ],
-    "corresponding_institution_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I8204097"
+    ],
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.98052189,
+      "value": 0.31397186,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
@@ -12956,7 +12991,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11540",
       "display_name": "Gender, Feminism, and Media",
-      "score": 0.23690000176429749,
+      "score": 0.9419000148773193,
       "subfield": {
         "id": "https://openalex.org/subfields/3318",
         "display_name": "Gender Studies"
@@ -12974,7 +13009,7 @@
       {
         "id": "https://openalex.org/T11540",
         "display_name": "Gender, Feminism, and Media",
-        "score": 0.23690000176429749,
+        "score": 0.9419000148773193,
         "subfield": {
           "id": "https://openalex.org/subfields/3318",
           "display_name": "Gender Studies"
@@ -12989,16 +13024,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13708",
-        "display_name": "History of Emotions Research",
-        "score": 0.13699999451637268,
+        "id": "https://openalex.org/T12275",
+        "display_name": "Gender and Feminist Studies",
+        "score": 0.016100000590085983,
         "subfield": {
-          "id": "https://openalex.org/subfields/1202",
-          "display_name": "History"
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -13006,9 +13041,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T11863",
-        "display_name": "Gender, Security, and Conflict",
-        "score": 0.030700000002980232,
+        "id": "https://openalex.org/T14315",
+        "display_name": "Feminist Theory and Gender Studies",
+        "score": 0.010099999606609344,
         "subfield": {
           "id": "https://openalex.org/subfields/3318",
           "display_name": "Gender Studies"
@@ -13025,29 +13060,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/training",
-        "display_name": "Training (meteorology)",
-        "score": 0.6083999872207642
+        "id": "https://openalex.org/keywords/online-misogyny",
+        "display_name": "online misogyny",
+        "score": 0.9890000224113464
       },
       {
-        "id": "https://openalex.org/keywords/social-activism",
-        "display_name": "Social activism",
-        "score": 0.3716000020503998
+        "id": "https://openalex.org/keywords/emotional-education",
+        "display_name": "emotional education",
+        "score": 0.6259999871253967
       },
       {
-        "id": "https://openalex.org/keywords/action",
-        "display_name": "Action (physics)",
-        "score": 0.2904999852180481
+        "id": "https://openalex.org/keywords/employee-training",
+        "display_name": "employee training",
+        "score": 0.7739999890327454
       },
       {
-        "id": "https://openalex.org/keywords/climate-change",
-        "display_name": "Climate change",
-        "score": 0.2831000089645386
+        "id": "https://openalex.org/keywords/affective-dispositions",
+        "display_name": "affective dispositions",
+        "score": 0.8920000195503235
       },
       {
-        "id": "https://openalex.org/keywords/government",
-        "display_name": "Government (linguistics)",
-        "score": 0.2761000096797943
+        "id": "https://openalex.org/keywords/activist-experience",
+        "display_name": "activist experience",
+        "score": 0.3019999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/digital-activism",
+        "display_name": "digital activism",
+        "score": 0.36399999260902405
+      },
+      {
+        "id": "https://openalex.org/keywords/germany",
+        "display_name": "Germany",
+        "score": 0.5429999828338623
+      },
+      {
+        "id": "https://openalex.org/keywords/austria",
+        "display_name": "Austria",
+        "score": 0.9990000128746033
       }
     ],
     "concepts": [
@@ -13155,9 +13205,10 @@
     "locations": [
       {
         "id": "doi:10.1080/00141844.2026.2661348",
+        "doi": "https://doi.org/10.1080/00141844.2026.2661348",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/00141844.2026.2661348",
-        "pdf_url": null,
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2661348?needAccess=true",
         "source": {
           "id": "https://openalex.org/S43131466",
           "display_name": "Ethnos",
@@ -13169,13 +13220,26 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -13190,9 +13254,10 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1080/00141844.2026.2661348",
+      "doi": "https://doi.org/10.1080/00141844.2026.2661348",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/00141844.2026.2661348",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2661348?needAccess=true",
       "source": {
         "id": "https://openalex.org/S43131466",
         "display_name": "Ethnos",
@@ -13204,13 +13269,26 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -13224,18 +13302,50 @@
     },
     "sustainable_development_goals": [
       {
-        "score": 0.753433883190155,
-        "id": "https://metadata.un.org/sdg/13",
-        "display_name": "Climate action"
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality",
+        "score": 1.0
+      },
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.6601999998092651
+      },
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities",
+        "score": 0.5
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/13",
+        "display_name": "Climate action",
+        "score": 0.753433883190155
+      }
+    ],
+    "study_designs": [],
     "awards": [],
-    "funders": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320324306",
+        "display_name": "Bayerische Akademie der Wissenschaften",
+        "ror": "https://ror.org/001rdaz60"
+      },
+      {
+        "id": "https://openalex.org/F6581562474",
+        "display_name": "Bayerisches Forschungsinstitut f\u00fcr Digitale Transformation",
+        "ror": "https://ror.org/00h539j16"
+      }
+    ],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "pdf": true,
+      "grobid_xml": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7160960296.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7160960296.grobid-xml"
+    },
     "referenced_works_count": 35,
     "referenced_works": [
       "https://openalex.org/W1567569044",
@@ -13275,9 +13385,375 @@
       "https://openalex.org/W4416722508"
     ],
     "related_works": [],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "article": [
+        1
+      ],
+      "examines": [
+        2
+      ],
+      "the": [
+        3,
+        14,
+        39,
+        43,
+        105,
+        108
+      ],
+      "experiences": [
+        4
+      ],
+      "with": [
+        5,
+        31,
+        82
+      ],
+      "and": [
+        6,
+        26,
+        36,
+        74,
+        88,
+        93,
+        133,
+        145
+      ],
+      "consequences": [
+        7
+      ],
+      "of": [
+        8,
+        13,
+        45,
+        107,
+        131,
+        135
+      ],
+      "online": [
+        9,
+        25,
+        96,
+        112,
+        138
+      ],
+      "misogyny": [
+        10,
+        113
+      ],
+      "towards": [
+        11
+      ],
+      "members": [
+        12
+      ],
+      "disruptive": [
+        15
+      ],
+      "climate": [
+        16
+      ],
+      "justice": [
+        17
+      ],
+      "movement": [
+        18
+      ],
+      "\u2018Letzte": [
+        19
+      ],
+      "Generation\u2019,": [
+        20
+      ],
+      "foregrounding": [
+        21
+      ],
+      "data": [
+        22
+      ],
+      "collection": [
+        23
+      ],
+      "through": [
+        24
+      ],
+      "in-person": [
+        27
+      ],
+      "co-constructed": [
+        28
+      ],
+      "\u2018in-depth\u2019": [
+        29
+      ],
+      "conversations": [
+        30
+      ],
+      "activists": [
+        32,
+        83
+      ],
+      "based": [
+        33
+      ],
+      "in": [
+        34
+      ],
+      "Germany": [
+        35
+      ],
+      "Austria.": [
+        37
+      ],
+      "Firstly,": [
+        38
+      ],
+      "analysis": [
+        40
+      ],
+      "focuses": [
+        41
+      ],
+      "on": [
+        42
+      ],
+      "role": [
+        44
+      ],
+      "ritualised": [
+        46
+      ],
+      "organisational": [
+        47,
+        109
+      ],
+      "training": [
+        48
+      ],
+      "practices.": [
+        49
+      ],
+      "I": [
+        50,
+        99,
+        126
+      ],
+      "conceptualise": [
+        51,
+        127
+      ],
+      "these": [
+        52,
+        128
+      ],
+      "as": [
+        53,
+        67,
+        114,
+        129
+      ],
+      "\u2018emotive": [
+        54
+      ],
+      "institutions\u2019": [
+        55
+      ],
+      "whose": [
+        56
+      ],
+      "socially": [
+        57
+      ],
+      "organised": [
+        58
+      ],
+      "practices": [
+        59
+      ],
+      "cultivate": [
+        60
+      ],
+      "shared": [
+        61
+      ],
+      "emotional": [
+        62
+      ],
+      "dispositions.": [
+        63
+      ],
+      "These": [
+        64
+      ],
+      "dispositions,": [
+        65
+      ],
+      "understood": [
+        66
+      ],
+      "learned": [
+        68
+      ],
+      "capacities": [
+        69
+      ],
+      "to": [
+        70,
+        75,
+        95
+      ],
+      "reinterpret": [
+        71,
+        111
+      ],
+      "violent": [
+        72
+      ],
+      "encounters": [
+        73,
+        87
+      ],
+      "distance": [
+        76
+      ],
+      "oneself": [
+        77
+      ],
+      "from": [
+        78
+      ],
+      "certain": [
+        79
+      ],
+      "emotions,": [
+        80
+      ],
+      "travel": [
+        81
+      ],
+      "into": [
+        84,
+        118
+      ],
+      "their": [
+        85,
+        123
+      ],
+      "digital": [
+        86
+      ],
+      "shape": [
+        89
+      ],
+      "how": [
+        90
+      ],
+      "they": [
+        91
+      ],
+      "interpret": [
+        92
+      ],
+      "respond": [
+        94
+      ],
+      "misogyny.": [
+        97
+      ],
+      "Secondly,": [
+        98
+      ],
+      "propose": [
+        100
+      ],
+      "that": [
+        101
+      ],
+      "some": [
+        102
+      ],
+      "activists,": [
+        103
+      ],
+      "against": [
+        104
+      ],
+      "background": [
+        106
+      ],
+      "training,": [
+        110
+      ],
+      "value,": [
+        115
+      ],
+      "transforming": [
+        116
+      ],
+      "it": [
+        117
+      ],
+      "feminist": [
+        119
+      ],
+      "counter": [
+        120
+      ],
+      "tactics": [
+        121
+      ],
+      "for": [
+        122
+      ],
+      "activist": [
+        124
+      ],
+      "cause.": [
+        125
+      ],
+      "\u2018tactics": [
+        130,
+        134
+      ],
+      "support\u2019": [
+        132
+      ],
+      "validation\u2019": [
+        136
+      ],
+      "where": [
+        137
+      ],
+      "spaces": [
+        139
+      ],
+      "provided": [
+        140
+      ],
+      "by": [
+        141,
+        147
+      ],
+      "misogynists": [
+        142
+      ],
+      "are": [
+        143
+      ],
+      "utilised": [
+        144
+      ],
+      "infiltrated": [
+        146
+      ],
+      "activists.": [
+        148
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2026-05-13T08:25:38.343686",
+    "updated_date": "2026-10-12T09:40:04.860316",
     "created_date": "2026-05-13T00:00:00"
   },
   {
@@ -46337,5 +46813,2806 @@
     "counts_by_year": [],
     "updated_date": "2026-05-05T08:41:31.759640",
     "created_date": "2016-06-24T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7214961123",
+    "doi": "https://doi.org/10.1080/00141844.2026.2737971",
+    "title": "Stretched Familiarity: Movement of Used and Discarded Electronics Between Germany and Ghana",
+    "display_name": "Stretched Familiarity: Movement of Used and Discarded Electronics Between Germany and Ghana",
+    "relevance_score": 26.900896,
+    "publication_year": 2026,
+    "publication_date": "2026-09-29",
+    "ids": {
+      "openalex": "https://openalex.org/W7214961123",
+      "doi": "https://doi.org/10.1080/00141844.2026.2737971"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/00141844.2026.2737971",
+      "doi": "https://doi.org/10.1080/00141844.2026.2737971",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/00141844.2026.2737971",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S43131466",
+        "display_name": "Ethnos",
+        "issn_l": "0014-1844",
+        "issn": [
+          "0014-1844",
+          "1469-588X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnos",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5066533762",
+          "display_name": "Julie Nygaard Solvang",
+          "orcid": "https://orcid.org/0000-0002-5069-4480",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5069-4480"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I124055696",
+            "display_name": "University of Copenhagen",
+            "ror": "https://ror.org/035b05819",
+            "country_code": "DK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I124055696"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Julie Nygaard Solvang",
+        "raw_affiliation_strings": [
+          "University of Copenhagen"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-5069-4480",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Copenhagen",
+            "institution_ids": [
+              "https://openalex.org/I124055696"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5066533762"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I124055696"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.71320063,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "16"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12017",
+      "display_name": "Recycling and Waste Management Techniques",
+      "score": 0.9922000169754028,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2311",
+        "display_name": "Waste Management and Disposal"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12017",
+        "display_name": "Recycling and Waste Management Techniques",
+        "score": 0.9922000169754028,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2311",
+          "display_name": "Waste Management and Disposal"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11552",
+        "display_name": "Global trade, sustainability, and social impact",
+        "score": 0.00419999985024333,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1408",
+          "display_name": "Strategy and Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13669",
+        "display_name": "China's Global Influence and Migration",
+        "score": 0.00139999995008111,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/electronic-waste",
+        "display_name": "electronic waste",
+        "score": 0.9589999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/repair-and-reuse",
+        "display_name": "repair and reuse",
+        "score": 0.6079999804496765
+      },
+      {
+        "id": "https://openalex.org/keywords/material-recovery",
+        "display_name": "material recovery",
+        "score": 0.6380000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/online-platforms",
+        "display_name": "digital platforms",
+        "score": 0.9229999780654907
+      },
+      {
+        "id": "https://openalex.org/keywords/ghana",
+        "display_name": "Ghana",
+        "score": 0.3319999873638153
+      },
+      {
+        "id": "https://openalex.org/keywords/hamburg",
+        "display_name": "Hamburg",
+        "score": 0.7649999856948853
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C138331895",
+        "wikidata": "https://www.wikidata.org/wiki/Q11650",
+        "display_name": "Electronics",
+        "level": 2,
+        "score": 0.6061999797821045
+      },
+      {
+        "id": "https://openalex.org/C2780226923",
+        "wikidata": "https://www.wikidata.org/wiki/Q929848",
+        "display_name": "Movement (music)",
+        "level": 2,
+        "score": 0.5490999817848206
+      },
+      {
+        "id": "https://openalex.org/C194648553",
+        "wikidata": "https://www.wikidata.org/wiki/Q1364774",
+        "display_name": "Spare part",
+        "level": 2,
+        "score": 0.5085999965667725
+      },
+      {
+        "id": "https://openalex.org/C179454799",
+        "wikidata": "https://www.wikidata.org/wiki/Q132151",
+        "display_name": "Ethnography",
+        "level": 2,
+        "score": 0.4514999985694885
+      },
+      {
+        "id": "https://openalex.org/C192097918",
+        "wikidata": "https://www.wikidata.org/wiki/Q917714",
+        "display_name": "Scrap",
+        "level": 2,
+        "score": 0.42410001158714294
+      },
+      {
+        "id": "https://openalex.org/C123307717",
+        "wikidata": "https://www.wikidata.org/wiki/Q1003682",
+        "display_name": "Materiality (auditing)",
+        "level": 2,
+        "score": 0.39149999618530273
+      },
+      {
+        "id": "https://openalex.org/C2776291640",
+        "wikidata": "https://www.wikidata.org/wiki/Q2912517",
+        "display_name": "Value (mathematics)",
+        "level": 2,
+        "score": 0.38679999113082886
+      },
+      {
+        "id": "https://openalex.org/C30772137",
+        "wikidata": "https://www.wikidata.org/wiki/Q5164762",
+        "display_name": "Consumption (sociology)",
+        "level": 2,
+        "score": 0.3716999888420105
+      },
+      {
+        "id": "https://openalex.org/C145912823",
+        "wikidata": "https://www.wikidata.org/wiki/Q113558",
+        "display_name": "Dynamics (music)",
+        "level": 2,
+        "score": 0.34470000863075256
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.3379000127315521
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.335099995136261
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.33250001072883606
+      },
+      {
+        "id": "https://openalex.org/C11111821",
+        "wikidata": "https://www.wikidata.org/wiki/Q205880",
+        "display_name": "Circulation (fluid dynamics)",
+        "level": 2,
+        "score": 0.3206999897956848
+      },
+      {
+        "id": "https://openalex.org/C68991459",
+        "wikidata": "https://www.wikidata.org/wiki/Q11700776",
+        "display_name": "Value proposition",
+        "level": 2,
+        "score": 0.3181999921798706
+      },
+      {
+        "id": "https://openalex.org/C61797465",
+        "wikidata": "https://www.wikidata.org/wiki/Q1188986",
+        "display_name": "Term (time)",
+        "level": 2,
+        "score": 0.29919999837875366
+      },
+      {
+        "id": "https://openalex.org/C2775876903",
+        "wikidata": "https://www.wikidata.org/wiki/Q1203182",
+        "display_name": "Global South",
+        "level": 2,
+        "score": 0.28859999775886536
+      },
+      {
+        "id": "https://openalex.org/C136264566",
+        "wikidata": "https://www.wikidata.org/wiki/Q159810",
+        "display_name": "Economy",
+        "level": 1,
+        "score": 0.2842999994754791
+      },
+      {
+        "id": "https://openalex.org/C54750564",
+        "wikidata": "https://www.wikidata.org/wiki/Q26643",
+        "display_name": "Commerce",
+        "level": 1,
+        "score": 0.27900001406669617
+      },
+      {
+        "id": "https://openalex.org/C4216890",
+        "wikidata": "https://www.wikidata.org/wiki/Q815823",
+        "display_name": "Business model",
+        "level": 2,
+        "score": 0.2703000009059906
+      },
+      {
+        "id": "https://openalex.org/C147675338",
+        "wikidata": "https://www.wikidata.org/wiki/Q421953",
+        "display_name": "Actor\u2013network theory",
+        "level": 2,
+        "score": 0.26660001277923584
+      },
+      {
+        "id": "https://openalex.org/C2778348673",
+        "wikidata": "https://www.wikidata.org/wiki/Q739302",
+        "display_name": "Production (economics)",
+        "level": 2,
+        "score": 0.26420000195503235
+      },
+      {
+        "id": "https://openalex.org/C2778311575",
+        "wikidata": "https://www.wikidata.org/wiki/Q18534",
+        "display_name": "Metaphor",
+        "level": 2,
+        "score": 0.25360000133514404
+      },
+      {
+        "id": "https://openalex.org/C78519656",
+        "wikidata": "https://www.wikidata.org/wiki/Q101333",
+        "display_name": "Mechanical engineering",
+        "level": 1,
+        "score": 0.2535000145435333
+      },
+      {
+        "id": "https://openalex.org/C2164484",
+        "wikidata": "https://www.wikidata.org/wiki/Q5170150",
+        "display_name": "Core (optical fiber)",
+        "level": 2,
+        "score": 0.2533000111579895
+      },
+      {
+        "id": "https://openalex.org/C530175646",
+        "wikidata": "https://www.wikidata.org/wiki/Q11460",
+        "display_name": "Clothing",
+        "level": 2,
+        "score": 0.25290000438690186
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/00141844.2026.2737971",
+        "doi": "https://doi.org/10.1080/00141844.2026.2737971",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/00141844.2026.2737971",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S43131466",
+          "display_name": "Ethnos",
+          "issn_l": "0014-1844",
+          "issn": [
+            "0014-1844",
+            "1469-588X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Ethnos",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/12",
+        "display_name": "Responsible consumption and production",
+        "score": 0.833299994468689
+      },
+      {
+        "id": "https://metadata.un.org/sdg/9",
+        "display_name": "Industry, innovation and infrastructure",
+        "score": 0.4943999946117401
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 55,
+    "referenced_works": [
+      "https://openalex.org/W570141245",
+      "https://openalex.org/W1490208857",
+      "https://openalex.org/W1587229656",
+      "https://openalex.org/W1707378456",
+      "https://openalex.org/W1986260426",
+      "https://openalex.org/W1997885649",
+      "https://openalex.org/W2003239985",
+      "https://openalex.org/W2021230920",
+      "https://openalex.org/W2035091031",
+      "https://openalex.org/W2108825329",
+      "https://openalex.org/W2129874640",
+      "https://openalex.org/W2142274837",
+      "https://openalex.org/W2171962796",
+      "https://openalex.org/W2213581780",
+      "https://openalex.org/W2322828552",
+      "https://openalex.org/W2523821242",
+      "https://openalex.org/W2748191922",
+      "https://openalex.org/W2766577359",
+      "https://openalex.org/W2807655934",
+      "https://openalex.org/W2820685328",
+      "https://openalex.org/W2887147614",
+      "https://openalex.org/W3088864504",
+      "https://openalex.org/W3108306186",
+      "https://openalex.org/W3130118376",
+      "https://openalex.org/W3185892935",
+      "https://openalex.org/W3192525723",
+      "https://openalex.org/W4200364022",
+      "https://openalex.org/W4207048803",
+      "https://openalex.org/W4220770027",
+      "https://openalex.org/W4230133747",
+      "https://openalex.org/W4236451913",
+      "https://openalex.org/W4237151597",
+      "https://openalex.org/W4237159149",
+      "https://openalex.org/W4238273561",
+      "https://openalex.org/W4241572207",
+      "https://openalex.org/W4242485360",
+      "https://openalex.org/W4242887383",
+      "https://openalex.org/W4243056462",
+      "https://openalex.org/W4244967949",
+      "https://openalex.org/W4247016767",
+      "https://openalex.org/W4256175190",
+      "https://openalex.org/W4283204812",
+      "https://openalex.org/W4283275246",
+      "https://openalex.org/W4293753352",
+      "https://openalex.org/W4387902789",
+      "https://openalex.org/W4388885716",
+      "https://openalex.org/W4390174878",
+      "https://openalex.org/W4391133975",
+      "https://openalex.org/W4392790410",
+      "https://openalex.org/W4396915696",
+      "https://openalex.org/W4409479422",
+      "https://openalex.org/W4411564042",
+      "https://openalex.org/W4414356790",
+      "https://openalex.org/W4414501766",
+      "https://openalex.org/W4416428419"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Based": [
+        0
+      ],
+      "on": [
+        1,
+        35,
+        96
+      ],
+      "ethnographic": [
+        2
+      ],
+      "fieldwork": [
+        3
+      ],
+      "in": [
+        4
+      ],
+      "Accra,": [
+        5
+      ],
+      "Tema": [
+        6
+      ],
+      "and": [
+        7,
+        14,
+        25,
+        66,
+        81,
+        92,
+        119,
+        131,
+        138
+      ],
+      "Hamburg,": [
+        8
+      ],
+      "this": [
+        9
+      ],
+      "article": [
+        10,
+        123
+      ],
+      "examines": [
+        11
+      ],
+      "how": [
+        12,
+        77,
+        106
+      ],
+      "discarded": [
+        13,
+        44,
+        107,
+        142
+      ],
+      "home-used": [
+        15
+      ],
+      "electronics": [
+        16,
+        45,
+        108
+      ],
+      "move": [
+        17,
+        56
+      ],
+      "through": [
+        18,
+        87,
+        134
+      ],
+      "a": [
+        19,
+        31,
+        125
+      ],
+      "transnational": [
+        20
+      ],
+      "trading": [
+        21
+      ],
+      "network": [
+        22
+      ],
+      "connecting": [
+        23
+      ],
+      "Germany": [
+        24
+      ],
+      "Ghana.": [
+        26
+      ],
+      "Against": [
+        27
+      ],
+      "the": [
+        28,
+        36,
+        42,
+        48,
+        70,
+        129
+      ],
+      "backdrop": [
+        29
+      ],
+      "of": [
+        30,
+        51,
+        59,
+        72,
+        100,
+        128,
+        141
+      ],
+      "politicised": [
+        32
+      ],
+      "public": [
+        33
+      ],
+      "debate": [
+        34
+      ],
+      "global": [
+        37,
+        139
+      ],
+      "\u2018e-waste": [
+        38
+      ],
+      "problem\u2019,": [
+        39
+      ],
+      "I": [
+        40,
+        68,
+        103
+      ],
+      "use": [
+        41
+      ],
+      "term": [
+        43
+      ],
+      "to": [
+        46,
+        75
+      ],
+      "foreground": [
+        47
+      ],
+      "open-ended": [
+        49
+      ],
+      "trajectories": [
+        50
+      ],
+      "these": [
+        52
+      ],
+      "goods": [
+        53,
+        143
+      ],
+      "as": [
+        54
+      ],
+      "they": [
+        55
+      ],
+      "between": [
+        57
+      ],
+      "categories": [
+        58
+      ],
+      "commodity,": [
+        60
+      ],
+      "repaired": [
+        61
+      ],
+      "good,": [
+        62
+      ],
+      "spare": [
+        63
+      ],
+      "part,": [
+        64
+      ],
+      "scrap": [
+        65
+      ],
+      "waste.": [
+        67
+      ],
+      "introduce": [
+        69
+      ],
+      "concept": [
+        71
+      ],
+      "stretched": [
+        73
+      ],
+      "familiarity": [
+        74
+      ],
+      "analyse": [
+        76
+      ],
+      "knowledge,": [
+        78
+      ],
+      "skills,": [
+        79
+      ],
+      "contacts": [
+        80
+      ],
+      "trust": [
+        82
+      ],
+      "are": [
+        83,
+        109
+      ],
+      "extended": [
+        84
+      ],
+      "across": [
+        85
+      ],
+      "distance": [
+        86
+      ],
+      "kin-based": [
+        88
+      ],
+      "business": [
+        89
+      ],
+      "set-ups,": [
+        90
+      ],
+      "connections": [
+        91
+      ],
+      "digital": [
+        93
+      ],
+      "platforms.": [
+        94
+      ],
+      "Drawing": [
+        95
+      ],
+      "Jane": [
+        97
+      ],
+      "Guyer\u2019s": [
+        98
+      ],
+      "notion": [
+        99
+      ],
+      "durational": [
+        101
+      ],
+      "assets,": [
+        102
+      ],
+      "further": [
+        104
+      ],
+      "show": [
+        105
+      ],
+      "valued": [
+        110
+      ],
+      "for": [
+        111,
+        115
+      ],
+      "their": [
+        112
+      ],
+      "future": [
+        113
+      ],
+      "capacities": [
+        114
+      ],
+      "repair,": [
+        116
+      ],
+      "reuse,": [
+        117
+      ],
+      "circulation": [
+        118
+      ],
+      "material": [
+        120
+      ],
+      "recovery.": [
+        121
+      ],
+      "The": [
+        122
+      ],
+      "contributes": [
+        124
+      ],
+      "cross-cutting": [
+        126
+      ],
+      "analysis": [
+        127
+      ],
+      "relational": [
+        130
+      ],
+      "temporal": [
+        132
+      ],
+      "dynamics": [
+        133
+      ],
+      "which": [
+        135
+      ],
+      "both": [
+        136
+      ],
+      "value": [
+        137
+      ],
+      "movement": [
+        140
+      ],
+      "is": [
+        144
+      ],
+      "shaped.": [
+        145
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-02T10:15:12.560889",
+    "created_date": "2026-10-01T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4417462492",
+    "doi": "https://doi.org/10.1080/00141844.2025.2597762",
+    "title": "Storing Life in Public Hands: The Problem of Unfulfilled Mobiles in Biobanking",
+    "display_name": "Storing Life in Public Hands: The Problem of Unfulfilled Mobiles in Biobanking",
+    "relevance_score": 1.938896,
+    "publication_year": 2025,
+    "publication_date": "2025-12-18",
+    "ids": {
+      "openalex": "https://openalex.org/W4417462492",
+      "doi": "https://doi.org/10.1080/00141844.2025.2597762"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/00141844.2025.2597762",
+      "doi": "https://doi.org/10.1080/00141844.2025.2597762",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/00141844.2025.2597762",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2025.2597762?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S43131466",
+        "display_name": "Ethnos",
+        "issn_l": "0014-1844",
+        "issn": [
+          "0014-1844",
+          "1469-588X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": "public-domain",
+      "license_id": "https://openalex.org/licenses/public-domain",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnos",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2025.2597762?needAccess=true",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5047882348",
+          "display_name": "Violeta Argudo\u2010Portal",
+          "orcid": "https://orcid.org/0000-0002-6057-2559",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6057-2559"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I71999127",
+            "display_name": "Universitat de Barcelona",
+            "ror": "https://ror.org/021018s57",
+            "country_code": "ES",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I71999127"
+            ]
+          }
+        ],
+        "countries": [
+          "ES"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Violeta Argudo-Portal",
+        "raw_affiliation_strings": [
+          "University of Barcelona",
+          "Department of Social Anthropology, University of Barcelona, Barcelona, Spain"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6057-2559",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Barcelona",
+            "institution_ids": [
+              "https://openalex.org/I71999127"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Department of Social Anthropology, University of Barcelona, Barcelona, Spain",
+            "institution_ids": [
+              "https://openalex.org/I71999127"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5062978852",
+          "display_name": "Ruzana Liburkina",
+          "orcid": "https://orcid.org/0000-0003-0994-3606",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0994-3606"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I114090438",
+            "display_name": "Goethe University Frankfurt",
+            "ror": "https://ror.org/04cvxnb49",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I114090438"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Ruzana Liburkina",
+        "raw_affiliation_strings": [
+          "Goethe University Frankfurt am Main",
+          "Institute of Sociology, Goethe University Frankfurt am Main, Frankfurt, Germany"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-0994-3606",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Goethe University Frankfurt am Main",
+            "institution_ids": [
+              "https://openalex.org/I114090438"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Institute of Sociology, Goethe University Frankfurt am Main, Frankfurt, Germany",
+            "institution_ids": [
+              "https://openalex.org/I114090438"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5047882348",
+      "https://openalex.org/A5062978852"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I114090438",
+      "https://openalex.org/I71999127"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.40555708,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "17"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10582",
+      "display_name": "Ethics in Clinical Research",
+      "score": 0.4542999863624573,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2739",
+        "display_name": "Public Health, Environmental and Occupational Health"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10582",
+        "display_name": "Ethics in Clinical Research",
+        "score": 0.4542999863624573,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2739",
+          "display_name": "Public Health, Environmental and Occupational Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14307",
+        "display_name": "Bioethics and Human Rights Issues",
+        "score": 0.12330000102519989,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1710",
+          "display_name": "Information Systems"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13417",
+        "display_name": "Biomedical Ethics and Regulation",
+        "score": 0.10409999638795853,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2737",
+          "display_name": "Physiology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/27",
+          "display_name": "Medicine"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/biobanking",
+        "display_name": "biobanking",
+        "score": 0.949999988079071
+      },
+      {
+        "id": "https://openalex.org/keywords/human-biological-material",
+        "display_name": "human biological material",
+        "score": 0.5720000267028809
+      },
+      {
+        "id": "https://openalex.org/keywords/cryopreservation",
+        "display_name": "cryopreservation",
+        "score": 0.5
+      },
+      {
+        "id": "https://openalex.org/keywords/moral-economy",
+        "display_name": "moral economy",
+        "score": 0.5379999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/social-order",
+        "display_name": "social order",
+        "score": 0.6399999856948853
+      },
+      {
+        "id": "https://openalex.org/keywords/spain",
+        "display_name": "Spain",
+        "score": 0.4729999899864197
+      },
+      {
+        "id": "https://openalex.org/keywords/germany",
+        "display_name": "Germany",
+        "score": 1.0
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C116567970",
+        "wikidata": "https://www.wikidata.org/wiki/Q864217",
+        "display_name": "Biobank",
+        "level": 2,
+        "score": 0.5764999985694885
+      },
+      {
+        "id": "https://openalex.org/C39549134",
+        "wikidata": "https://www.wikidata.org/wiki/Q133080",
+        "display_name": "Public relations",
+        "level": 1,
+        "score": 0.5645999908447266
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.4429999887943268
+      },
+      {
+        "id": "https://openalex.org/C108827166",
+        "wikidata": "https://www.wikidata.org/wiki/Q175975",
+        "display_name": "Internet privacy",
+        "level": 1,
+        "score": 0.4399000108242035
+      },
+      {
+        "id": "https://openalex.org/C3116431",
+        "wikidata": "https://www.wikidata.org/wiki/Q31728",
+        "display_name": "Public administration",
+        "level": 1,
+        "score": 0.41659998893737793
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.3578999936580658
+      },
+      {
+        "id": "https://openalex.org/C2991942024",
+        "wikidata": "https://www.wikidata.org/wiki/Q51844591",
+        "display_name": "Public life",
+        "level": 3,
+        "score": 0.3465000092983246
+      },
+      {
+        "id": "https://openalex.org/C2778137410",
+        "wikidata": "https://www.wikidata.org/wiki/Q2732820",
+        "display_name": "Government (linguistics)",
+        "level": 2,
+        "score": 0.3434999883174896
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.2985000014305115
+      },
+      {
+        "id": "https://openalex.org/C38652104",
+        "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+        "display_name": "Computer security",
+        "level": 1,
+        "score": 0.2768000066280365
+      },
+      {
+        "id": "https://openalex.org/C2776475305",
+        "wikidata": "https://www.wikidata.org/wiki/Q29627",
+        "display_name": "Public interest",
+        "level": 2,
+        "score": 0.2667999863624573
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.2522999942302704
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/00141844.2025.2597762",
+        "doi": "https://doi.org/10.1080/00141844.2025.2597762",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1080/00141844.2025.2597762",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2025.2597762?needAccess=true",
+        "source": {
+          "id": "https://openalex.org/S43131466",
+          "display_name": "Ethnos",
+          "issn_l": "0014-1844",
+          "issn": [
+            "0014-1844",
+            "1469-588X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": "public-domain",
+        "license_id": "https://openalex.org/licenses/public-domain",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Ethnos",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1080/00141844.2025.2597762",
+      "doi": "https://doi.org/10.1080/00141844.2025.2597762",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/00141844.2025.2597762",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2025.2597762?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S43131466",
+        "display_name": "Ethnos",
+        "issn_l": "0014-1844",
+        "issn": [
+          "0014-1844",
+          "1469-588X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": "public-domain",
+      "license_id": "https://openalex.org/licenses/public-domain",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnos",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G2262748287",
+        "display_name": null,
+        "funder_award_id": "501100011033",
+        "funder_id": "https://openalex.org/F4320335598",
+        "funder_display_name": "Agencia Estatal de Investigaci\u00f3n"
+      },
+      {
+        "id": "https://openalex.org/G2800170656",
+        "display_name": "Suspended Life: Exploring Cryopreservation Practices in Contemporary Societies",
+        "funder_award_id": "788196",
+        "funder_id": "https://openalex.org/F4320338335",
+        "funder_display_name": "H2020 European Research Council"
+      },
+      {
+        "id": "https://openalex.org/G3480869486",
+        "display_name": null,
+        "funder_award_id": "13039",
+        "funder_id": "https://openalex.org/F4320335598",
+        "funder_display_name": "Agencia Estatal de Investigaci\u00f3n"
+      },
+      {
+        "id": "https://openalex.org/G3681454997",
+        "display_name": null,
+        "funder_award_id": "13039/501100011033",
+        "funder_id": "https://openalex.org/F4320320300",
+        "funder_display_name": "European Commission"
+      },
+      {
+        "id": "https://openalex.org/G4042783231",
+        "display_name": null,
+        "funder_award_id": "501100011033",
+        "funder_id": "https://openalex.org/F4320320300",
+        "funder_display_name": "European Commission"
+      },
+      {
+        "id": "https://openalex.org/G425668148",
+        "display_name": null,
+        "funder_award_id": ".13039/501100011033",
+        "funder_id": "https://openalex.org/F4320335598",
+        "funder_display_name": "Agencia Estatal de Investigaci\u00f3n"
+      },
+      {
+        "id": "https://openalex.org/G7169023097",
+        "display_name": null,
+        "funder_award_id": "13039/501100011033",
+        "funder_id": "https://openalex.org/F4320332999",
+        "funder_display_name": "Horizon 2020 Framework Programme"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320300",
+        "display_name": "European Commission",
+        "ror": "https://ror.org/00k4n6c32"
+      },
+      {
+        "id": "https://openalex.org/F4320332999",
+        "display_name": "Horizon 2020 Framework Programme",
+        "ror": "https://ror.org/00k4n6c32"
+      },
+      {
+        "id": "https://openalex.org/F4320335598",
+        "display_name": "Agencia Estatal de Investigaci\u00f3n",
+        "ror": "https://ror.org/003x0zc53"
+      },
+      {
+        "id": "https://openalex.org/F4320338335",
+        "display_name": "H2020 European Research Council",
+        "ror": "https://ror.org/0472cxd90"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4417462492.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4417462492.grobid-xml"
+    },
+    "referenced_works_count": 65,
+    "referenced_works": [
+      "https://openalex.org/W1540563904",
+      "https://openalex.org/W1941317936",
+      "https://openalex.org/W1967022296",
+      "https://openalex.org/W1973989109",
+      "https://openalex.org/W1981310173",
+      "https://openalex.org/W2001500967",
+      "https://openalex.org/W2019599952",
+      "https://openalex.org/W2044283053",
+      "https://openalex.org/W2059912345",
+      "https://openalex.org/W2083646605",
+      "https://openalex.org/W2091210221",
+      "https://openalex.org/W2121025082",
+      "https://openalex.org/W2121679873",
+      "https://openalex.org/W2124577055",
+      "https://openalex.org/W2128150392",
+      "https://openalex.org/W2135629239",
+      "https://openalex.org/W2141380920",
+      "https://openalex.org/W2152821292",
+      "https://openalex.org/W2153919312",
+      "https://openalex.org/W2171414636",
+      "https://openalex.org/W2219036113",
+      "https://openalex.org/W2238612353",
+      "https://openalex.org/W2265001065",
+      "https://openalex.org/W2287908689",
+      "https://openalex.org/W2299949726",
+      "https://openalex.org/W2301539345",
+      "https://openalex.org/W2326503953",
+      "https://openalex.org/W2432636951",
+      "https://openalex.org/W2462826484",
+      "https://openalex.org/W2767865720",
+      "https://openalex.org/W2769532448",
+      "https://openalex.org/W2780664461",
+      "https://openalex.org/W2901148277",
+      "https://openalex.org/W2973869903",
+      "https://openalex.org/W3004496244",
+      "https://openalex.org/W3026467529",
+      "https://openalex.org/W3046551175",
+      "https://openalex.org/W3091035066",
+      "https://openalex.org/W3091848059",
+      "https://openalex.org/W3129767370",
+      "https://openalex.org/W3215453861",
+      "https://openalex.org/W4200504564",
+      "https://openalex.org/W4214578300",
+      "https://openalex.org/W4220742362",
+      "https://openalex.org/W4221050572",
+      "https://openalex.org/W4238525135",
+      "https://openalex.org/W4239305149",
+      "https://openalex.org/W4245666542",
+      "https://openalex.org/W4252643091",
+      "https://openalex.org/W4283708213",
+      "https://openalex.org/W4285326753",
+      "https://openalex.org/W4293099279",
+      "https://openalex.org/W4296558830",
+      "https://openalex.org/W4306630575",
+      "https://openalex.org/W4313405064",
+      "https://openalex.org/W4313546930",
+      "https://openalex.org/W4323975759",
+      "https://openalex.org/W4328024674",
+      "https://openalex.org/W4367318124",
+      "https://openalex.org/W4378193627",
+      "https://openalex.org/W4382073220",
+      "https://openalex.org/W4394721281",
+      "https://openalex.org/W4403716445",
+      "https://openalex.org/W4407182034",
+      "https://openalex.org/W4411249102"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Cryotechnologies": [
+        0
+      ],
+      "and": [
+        1,
+        52,
+        103,
+        105,
+        123
+      ],
+      "the": [
+        2,
+        8,
+        19,
+        63,
+        83,
+        108
+      ],
+      "molecularisation": [
+        3
+      ],
+      "of": [
+        4,
+        10,
+        14,
+        65,
+        111
+      ],
+      "life": [
+        5
+      ],
+      "have": [
+        6,
+        16
+      ],
+      "prompted": [
+        7
+      ],
+      "storage": [
+        9,
+        112
+      ],
+      "human-based": [
+        11
+      ],
+      "biologicals,": [
+        12
+      ],
+      "many": [
+        13
+      ],
+      "which": [
+        15
+      ],
+      "been": [
+        17
+      ],
+      "in": [
+        18,
+        50,
+        87
+      ],
+      "spotlight": [
+        20
+      ],
+      "due": [
+        21
+      ],
+      "to": [
+        22,
+        38,
+        82
+      ],
+      "how": [
+        23,
+        124
+      ],
+      "their": [
+        24,
+        40
+      ],
+      "flows": [
+        25
+      ],
+      "are": [
+        26
+      ],
+      "facilitated": [
+        27
+      ],
+      "for": [
+        28,
+        117
+      ],
+      "commercial": [
+        29
+      ],
+      "stakes.": [
+        30
+      ],
+      "But": [
+        31
+      ],
+      "what": [
+        32
+      ],
+      "about": [
+        33
+      ],
+      "biostorage": [
+        34
+      ],
+      "arrangements": [
+        35
+      ],
+      "that": [
+        36,
+        58,
+        78
+      ],
+      "struggle": [
+        37
+      ],
+      "release": [
+        39
+      ],
+      "stored": [
+        41,
+        67
+      ],
+      "biologicals?": [
+        42
+      ],
+      "Drawing": [
+        43
+      ],
+      "on": [
+        44,
+        47,
+        99
+      ],
+      "ethnographic": [
+        45
+      ],
+      "research": [
+        46
+      ],
+      "non-commercial": [
+        48
+      ],
+      "biostorages": [
+        49
+      ],
+      "Spain": [
+        51
+      ],
+      "Germany,": [
+        53
+      ],
+      "we": [
+        54,
+        85
+      ],
+      "address": [
+        55
+      ],
+      "a": [
+        56,
+        114
+      ],
+      "phenomenon": [
+        57
+      ],
+      "looks": [
+        59
+      ],
+      "like": [
+        60
+      ],
+      "looming": [
+        61
+      ],
+      "failure:": [
+        62
+      ],
+      "difficulty": [
+        64
+      ],
+      "making": [
+        66
+      ],
+      "human": [
+        68
+      ],
+      "biologicals": [
+        69
+      ],
+      "circulate,": [
+        70
+      ],
+      "turning": [
+        71
+      ],
+      "them": [
+        72
+      ],
+      "into": [
+        73
+      ],
+      "\u2018unfulfilled": [
+        74
+      ],
+      "mobiles\u2019.": [
+        75
+      ],
+      "We": [
+        76
+      ],
+      "argue": [
+        77
+      ],
+      "there": [
+        79
+      ],
+      "is": [
+        80
+      ],
+      "more": [
+        81
+      ],
+      "situation": [
+        84
+      ],
+      "observed": [
+        86
+      ],
+      "both": [
+        88
+      ],
+      "fields": [
+        89
+      ],
+      "than": [
+        90
+      ],
+      "merely": [
+        91
+      ],
+      "unmet": [
+        92
+      ],
+      "promises.": [
+        93
+      ],
+      "Our": [
+        94
+      ],
+      "findings": [
+        95
+      ],
+      "challenge": [
+        96
+      ],
+      "mainstream": [
+        97
+      ],
+      "views": [
+        98
+      ],
+      "biomedical": [
+        100
+      ],
+      "achievement,": [
+        101
+      ],
+      "progress,": [
+        102
+      ],
+      "mobility": [
+        104
+      ],
+      "point": [
+        106,
+        116
+      ],
+      "out": [
+        107
+      ],
+      "critical": [
+        109
+      ],
+      "role": [
+        110
+      ],
+      "as": [
+        113
+      ],
+      "starting": [
+        115
+      ],
+      "studying": [
+        118
+      ],
+      "social": [
+        119
+      ],
+      "orders,": [
+        120
+      ],
+      "moral": [
+        121
+      ],
+      "economies,": [
+        122
+      ],
+      "things": [
+        125
+      ],
+      "could": [
+        126,
+        128
+      ],
+      "or": [
+        127
+      ],
+      "not": [
+        129
+      ],
+      "be": [
+        130
+      ],
+      "otherwise.": [
+        131
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2025-12-18T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7128435508",
+    "doi": "https://doi.org/10.1080/00141844.2026.2626394",
+    "title": "Remoteness on a Vertical Axis \u2013 Social Dynamics of Ski Touring in the Alps",
+    "display_name": "Remoteness on a Vertical Axis \u2013 Social Dynamics of Ski Touring in the Alps",
+    "relevance_score": 1.8815205,
+    "publication_year": 2026,
+    "publication_date": "2026-02-09",
+    "ids": {
+      "openalex": "https://openalex.org/W7128435508",
+      "doi": "https://doi.org/10.1080/00141844.2026.2626394"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/00141844.2026.2626394",
+      "doi": "https://doi.org/10.1080/00141844.2026.2626394",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/00141844.2026.2626394",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2626394?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S43131466",
+        "display_name": "Ethnos",
+        "issn_l": "0014-1844",
+        "issn": [
+          "0014-1844",
+          "1469-588X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnos",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2626394?needAccess=true",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5125414884",
+          "display_name": "Anna-Maria Walter",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I62916508",
+            "display_name": "Technical University of Munich",
+            "ror": "https://ror.org/02kkvpp62",
+            "country_code": "DE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I62916508"
+            ]
+          }
+        ],
+        "countries": [
+          "DE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Anna-Maria Walter",
+        "raw_affiliation_strings": [
+          "Technical University Munich (TUM)"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Technical University Munich (TUM)",
+            "institution_ids": [
+              "https://openalex.org/I62916508"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5125414884"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I62916508"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.07056196,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "19"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13060",
+      "display_name": "Adventure Sports and Sensation Seeking",
+      "score": 0.9301999807357788,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13060",
+        "display_name": "Adventure Sports and Sensation Seeking",
+        "score": 0.9301999807357788,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11793",
+        "display_name": "Recreation, Leisure, Wilderness Management",
+        "score": 0.04699999839067459,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13296",
+        "display_name": "Physical Education and Sports Studies",
+        "score": 0.008100000210106373,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/ski-touring",
+        "display_name": "ski touring",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/remoteness",
+        "display_name": "remoteness",
+        "score": 0.9380000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/verticality",
+        "display_name": "verticality",
+        "score": 0.6290000081062317
+      },
+      {
+        "id": "https://openalex.org/keywords/social-distinction",
+        "display_name": "social distinction",
+        "score": 0.7099999785423279
+      },
+      {
+        "id": "https://openalex.org/keywords/authenticity",
+        "display_name": "authenticity",
+        "score": 0.6200000047683716
+      },
+      {
+        "id": "https://openalex.org/keywords/isolation",
+        "display_name": "isolation",
+        "score": 0.5239999890327454
+      },
+      {
+        "id": "https://openalex.org/keywords/social-hierarchy",
+        "display_name": "social hierarchy",
+        "score": 0.7059999704360962
+      },
+      {
+        "id": "https://openalex.org/keywords/sustainable-tourism",
+        "display_name": "sustainable tourism",
+        "score": 0.527999997138977
+      },
+      {
+        "id": "https://openalex.org/keywords/rural-urban-continuum",
+        "display_name": "rural-urban continuum",
+        "score": 0.7440000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/center-periphery-relations",
+        "display_name": "center-periphery relations",
+        "score": 0.796999990940094
+      },
+      {
+        "id": "https://openalex.org/keywords/mobility",
+        "display_name": "mobility",
+        "score": 0.652999997138977
+      },
+      {
+        "id": "https://openalex.org/keywords/german-alps",
+        "display_name": "German Alps",
+        "score": 0.628000020980835
+      },
+      {
+        "id": "https://openalex.org/keywords/mountain-tourism",
+        "display_name": "mountain tourism",
+        "score": 0.30799999833106995
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C127313418",
+        "wikidata": "https://www.wikidata.org/wiki/Q1069",
+        "display_name": "Geology",
+        "level": 0,
+        "score": 0.5570999979972839
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.44920000433921814
+      },
+      {
+        "id": "https://openalex.org/C67469775",
+        "wikidata": "https://www.wikidata.org/wiki/Q304922",
+        "display_name": "Social dynamics",
+        "level": 2,
+        "score": 0.3853999972343445
+      },
+      {
+        "id": "https://openalex.org/C2994321696",
+        "wikidata": "https://www.wikidata.org/wiki/Q62912",
+        "display_name": "Vertical axis",
+        "level": 2,
+        "score": 0.3328000009059906
+      },
+      {
+        "id": "https://openalex.org/C9652623",
+        "wikidata": "https://www.wikidata.org/wiki/Q190109",
+        "display_name": "Field (mathematics)",
+        "level": 2,
+        "score": 0.30230000615119934
+      },
+      {
+        "id": "https://openalex.org/C145912823",
+        "wikidata": "https://www.wikidata.org/wiki/Q113558",
+        "display_name": "Dynamics (music)",
+        "level": 2,
+        "score": 0.30149999260902405
+      },
+      {
+        "id": "https://openalex.org/C26271046",
+        "wikidata": "https://www.wikidata.org/wiki/Q187097",
+        "display_name": "Economic geography",
+        "level": 1,
+        "score": 0.2773999869823456
+      },
+      {
+        "id": "https://openalex.org/C13280743",
+        "wikidata": "https://www.wikidata.org/wiki/Q131089",
+        "display_name": "Geodesy",
+        "level": 1,
+        "score": 0.25940001010894775
+      },
+      {
+        "id": "https://openalex.org/C2908647359",
+        "wikidata": "https://www.wikidata.org/wiki/Q2625603",
+        "display_name": "Population",
+        "level": 2,
+        "score": 0.24740000069141388
+      },
+      {
+        "id": "https://openalex.org/C59218005",
+        "wikidata": "https://www.wikidata.org/wiki/Q17027571",
+        "display_name": "Horizontal and vertical",
+        "level": 2,
+        "score": 0.24729999899864197
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/00141844.2026.2626394",
+        "doi": "https://doi.org/10.1080/00141844.2026.2626394",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1080/00141844.2026.2626394",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2626394?needAccess=true",
+        "source": {
+          "id": "https://openalex.org/S43131466",
+          "display_name": "Ethnos",
+          "issn_l": "0014-1844",
+          "issn": [
+            "0014-1844",
+            "1469-588X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Ethnos",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1080/00141844.2026.2626394",
+      "doi": "https://doi.org/10.1080/00141844.2026.2626394",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/00141844.2026.2626394",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2626394?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S43131466",
+        "display_name": "Ethnos",
+        "issn_l": "0014-1844",
+        "issn": [
+          "0014-1844",
+          "1469-588X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnos",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities",
+        "score": 0.4921365976333618
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320328467",
+        "display_name": "Rachel Carson Center for Environment and Society",
+        "ror": "https://ror.org/01h2vtb84"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7128435508.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7128435508.grobid-xml"
+    },
+    "referenced_works_count": 50,
+    "referenced_works": [
+      "https://openalex.org/W1599390572",
+      "https://openalex.org/W1974127125",
+      "https://openalex.org/W1980335388",
+      "https://openalex.org/W1984807423",
+      "https://openalex.org/W1996407592",
+      "https://openalex.org/W2006770623",
+      "https://openalex.org/W2019108537",
+      "https://openalex.org/W2063262925",
+      "https://openalex.org/W2078222474",
+      "https://openalex.org/W2126132919",
+      "https://openalex.org/W2126698132",
+      "https://openalex.org/W2133733692",
+      "https://openalex.org/W2175110160",
+      "https://openalex.org/W2228152602",
+      "https://openalex.org/W2233982365",
+      "https://openalex.org/W2242036949",
+      "https://openalex.org/W2326415474",
+      "https://openalex.org/W2398612032",
+      "https://openalex.org/W2415625223",
+      "https://openalex.org/W2476662052",
+      "https://openalex.org/W2734564461",
+      "https://openalex.org/W2756308670",
+      "https://openalex.org/W2885031558",
+      "https://openalex.org/W2885628871",
+      "https://openalex.org/W2903549116",
+      "https://openalex.org/W2954554033",
+      "https://openalex.org/W2965725687",
+      "https://openalex.org/W2971102410",
+      "https://openalex.org/W2977433902",
+      "https://openalex.org/W2980842639",
+      "https://openalex.org/W3047072105",
+      "https://openalex.org/W3095927134",
+      "https://openalex.org/W3183332370",
+      "https://openalex.org/W4210262934",
+      "https://openalex.org/W4213072465",
+      "https://openalex.org/W4213124492",
+      "https://openalex.org/W4226396619",
+      "https://openalex.org/W4233945510",
+      "https://openalex.org/W4239886417",
+      "https://openalex.org/W4294580138",
+      "https://openalex.org/W4301056702",
+      "https://openalex.org/W4381149245",
+      "https://openalex.org/W4383377649",
+      "https://openalex.org/W4385747796",
+      "https://openalex.org/W4388205379",
+      "https://openalex.org/W4389408745",
+      "https://openalex.org/W4391606952",
+      "https://openalex.org/W4396985469",
+      "https://openalex.org/W4401457468",
+      "https://openalex.org/W7083705622"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "paper": [
+        1,
+        116
+      ],
+      "examines": [
+        2
+      ],
+      "the": [
+        3,
+        12,
+        17,
+        21,
+        33,
+        43,
+        51,
+        61,
+        72,
+        91,
+        104,
+        115,
+        118,
+        133,
+        144,
+        148
+      ],
+      "relationship": [
+        4
+      ],
+      "between": [
+        5
+      ],
+      "nature-based": [
+        6
+      ],
+      "winter": [
+        7,
+        106
+      ],
+      "sports,": [
+        8
+      ],
+      "social": [
+        9,
+        53,
+        62
+      ],
+      "distinction": [
+        10
+      ],
+      "and": [
+        11,
+        40,
+        54,
+        86,
+        97,
+        125,
+        143
+      ],
+      "concept": [
+        13
+      ],
+      "of": [
+        14,
+        20,
+        32,
+        57,
+        93,
+        121,
+        127,
+        135
+      ],
+      "remoteness": [
+        15
+      ],
+      "along": [
+        16
+      ],
+      "vertical": [
+        18
+      ],
+      "axis": [
+        19
+      ],
+      "German": [
+        22
+      ],
+      "Alps.": [
+        23,
+        149
+      ],
+      "It": [
+        24
+      ],
+      "explores": [
+        25
+      ],
+      "how": [
+        26
+      ],
+      "ski": [
+        27,
+        58,
+        94
+      ],
+      "tourers,": [
+        28
+      ],
+      "through": [
+        29
+      ],
+      "their": [
+        30
+      ],
+      "ascent": [
+        31
+      ],
+      "mountains,": [
+        34
+      ],
+      "actively": [
+        35
+      ],
+      "labour": [
+        36
+      ],
+      "to": [
+        37,
+        45,
+        70,
+        89,
+        103,
+        139
+      ],
+      "achieve": [
+        38
+      ],
+      "isolation": [
+        39
+      ],
+      "authenticity,": [
+        41
+      ],
+      "despite": [
+        42
+      ],
+      "proximity": [
+        44
+      ],
+      "urban": [
+        46
+      ],
+      "centres.": [
+        47
+      ],
+      "The": [
+        48
+      ],
+      "study": [
+        49
+      ],
+      "highlights": [
+        50
+      ],
+      "physical,": [
+        52
+      ],
+      "ecological": [
+        55
+      ],
+      "aspects": [
+        56
+      ],
+      "touring,": [
+        59
+      ],
+      "emphasising": [
+        60
+      ],
+      "hierarchies": [
+        63
+      ],
+      "that": [
+        64
+      ],
+      "emerge": [
+        65
+      ],
+      "based": [
+        66
+      ],
+      "on": [
+        67,
+        141
+      ],
+      "one's": [
+        68
+      ],
+      "ability": [
+        69
+      ],
+      "navigate": [
+        71
+      ],
+      "demanding": [
+        73
+      ],
+      "landscape.": [
+        74,
+        107
+      ],
+      "A": [
+        75
+      ],
+      "patchwork": [
+        76
+      ],
+      "ethnographic": [
+        77
+      ],
+      "approach": [
+        78
+      ],
+      "ties": [
+        79
+      ],
+      "together": [
+        80
+      ],
+      "field": [
+        81
+      ],
+      "visits,": [
+        82
+      ],
+      "interviews,": [
+        83
+      ],
+      "online": [
+        84
+      ],
+      "media": [
+        85
+      ],
+      "historic": [
+        87
+      ],
+      "sources": [
+        88
+      ],
+      "explore": [
+        90
+      ],
+      "nuances": [
+        92
+      ],
+      "touring": [
+        95
+      ],
+      "culture": [
+        96
+      ],
+      "its": [
+        98
+      ],
+      "broader": [
+        99
+      ],
+      "implications": [
+        100
+      ],
+      "for": [
+        101
+      ],
+      "access": [
+        102
+      ],
+      "mountainous": [
+        105
+      ],
+      "As": [
+        108
+      ],
+      "an": [
+        109
+      ],
+      "anthropological": [
+        110
+      ],
+      "intervention": [
+        111
+      ],
+      "in": [
+        112,
+        147
+      ],
+      "tourism": [
+        113
+      ],
+      "studies,": [
+        114
+      ],
+      "confronts": [
+        117
+      ],
+      "inner": [
+        119
+      ],
+      "paradoxes": [
+        120
+      ],
+      "sustainable": [
+        122
+      ],
+      "leisure": [
+        123
+      ],
+      "activities": [
+        124
+      ],
+      "ideas": [
+        126
+      ],
+      "authentic": [
+        128
+      ],
+      "nature": [
+        129
+      ],
+      "experience.": [
+        130
+      ],
+      "By": [
+        131
+      ],
+      "analysing": [
+        132
+      ],
+      "verticality": [
+        134
+      ],
+      "remoteness,": [
+        136
+      ],
+      "it": [
+        137
+      ],
+      "adds": [
+        138
+      ],
+      "discussions": [
+        140
+      ],
+      "mobility": [
+        142
+      ],
+      "rural-urban/centre-periphery": [
+        145
+      ],
+      "continuum": [
+        146
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-24T07:57:37.273135",
+    "created_date": "2026-02-10T00:00:00"
   }
 ]

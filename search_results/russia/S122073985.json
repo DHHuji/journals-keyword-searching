@@ -43859,7 +43859,7 @@
     "doi": "https://doi.org/10.1017/s0022050725100909",
     "title": "Financing Late Industrialization: Evidence from the State Bank of the Russian Empire",
     "display_name": "Financing Late Industrialization: Evidence from the State Bank of the Russian Empire",
-    "relevance_score": 10.755371,
+    "relevance_score": 27.834372,
     "publication_year": 2025,
     "publication_date": "2025-12-01",
     "ids": {
@@ -43869,6 +43869,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0022050725100909",
+      "doi": "https://doi.org/10.1017/s0022050725100909",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725100909",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F7AB6F2E7D24458D031531BF01610F0E/S0022050725100909a.pdf/div-class-title-financing-late-industrialization-evidence-from-the-state-bank-of-the-russian-empire-div.pdf",
@@ -43883,6 +43884,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -43903,7 +43917,8 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
-    "type": "preprint",
+    "volume": null,
+    "type": "article",
     "indexed_in": [
       "crossref",
       "datacite"
@@ -43920,7 +43935,10 @@
         "author": {
           "id": "https://openalex.org/A5035596418",
           "display_name": "Marvin Suesse",
-          "orcid": "https://orcid.org/0000-0002-4190-9419"
+          "orcid": "https://orcid.org/0000-0002-4190-9419",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4190-9419"
+          ]
         },
         "institutions": [
           {
@@ -43964,7 +43982,10 @@
         "author": {
           "id": "https://openalex.org/A5061395583",
           "display_name": "Theocharis Grigoriadis",
-          "orcid": "https://orcid.org/0000-0003-2639-2391"
+          "orcid": "https://orcid.org/0000-0003-2639-2391",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2639-2391"
+          ]
         },
         "institutions": [
           {
@@ -44006,17 +44027,28 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I205274468"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 0.9236,
     "has_fulltext": true,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.29736377,
+      "value": 0.81206411,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": "85",
       "issue": "4",
@@ -44027,16 +44059,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13186",
-      "display_name": "Russia and Soviet political economy",
-      "score": 0.8909000158309937,
+      "id": "https://openalex.org/T10605",
+      "display_name": "Historical Economic and Social Studies",
+      "score": 0.9940999746322632,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -44045,9 +44077,43 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T10605",
+        "display_name": "Historical Economic and Social Studies",
+        "score": 0.9940999746322632,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10007",
+        "display_name": "Monetary Policy and Economic Impact",
+        "score": 0.001500000013038516,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2000",
+          "display_name": "General Economics, Econometrics and Finance"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T13186",
         "display_name": "Russia and Soviet political economy",
-        "score": 0.8909000158309937,
+        "score": 0.0007999999797903001,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -44064,34 +44130,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/assertion",
-        "display_name": "Assertion",
-        "score": 0.7073000073432922
+        "id": "https://openalex.org/keywords/late-industrialization",
+        "display_name": "late industrialization",
+        "score": 0.9520000219345093
       },
       {
-        "id": "https://openalex.org/keywords/state",
-        "display_name": "State (computer science)",
-        "score": 0.6938999891281128
+        "id": "https://openalex.org/keywords/public-banking",
+        "display_name": "public banking",
+        "score": 0.9300000071525574
       },
       {
-        "id": "https://openalex.org/keywords/empire",
-        "display_name": "Empire",
-        "score": 0.6791999936103821
+        "id": "https://openalex.org/keywords/access-to-credit",
+        "display_name": "access to credit",
+        "score": 0.7799999713897705
       },
       {
-        "id": "https://openalex.org/keywords/bank-credit",
-        "display_name": "Bank credit",
-        "score": 0.47360000014305115
+        "id": "https://openalex.org/keywords/industrialization-financing",
+        "display_name": "industrialization financing",
+        "score": 0.6230000257492065
       },
       {
-        "id": "https://openalex.org/keywords/factory",
-        "display_name": "Factory (object-oriented programming)",
-        "score": 0.44440001249313354
+        "id": "https://openalex.org/keywords/mechanization",
+        "display_name": "mechanization",
+        "score": 0.9319999814033508
       },
       {
-        "id": "https://openalex.org/keywords/identification",
-        "display_name": "Identification (biology)",
-        "score": 0.3813000023365021
+        "id": "https://openalex.org/keywords/labor-productivity",
+        "display_name": "labor productivity",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/commercial-banks",
+        "display_name": "commercial banks",
+        "score": 0.8240000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/market-size",
+        "display_name": "market size",
+        "score": 0.7269999980926514
+      },
+      {
+        "id": "https://openalex.org/keywords/russian-empire",
+        "display_name": "Russian Empire",
+        "score": 0.5019999742507935
       }
     ],
     "concepts": [
@@ -44223,10 +44304,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 5,
+    "locations_count": 7,
     "locations": [
       {
         "id": "doi:10.1017/s0022050725100909",
+        "doi": "https://doi.org/10.1017/s0022050725100909",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0022050725100909",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F7AB6F2E7D24458D031531BF01610F0E/S0022050725100909a.pdf/div-class-title-financing-late-industrialization-evidence-from-the-state-bank-of-the-russian-empire-div.pdf",
@@ -44241,6 +44323,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -44262,66 +44357,11 @@
         "raw_type": "journal-article"
       },
       {
-        "id": "pmh:oai:econstor.eu:10419/315202",
-        "is_oa": true,
-        "landing_page_url": "https://hdl.handle.net/10419/315202",
-        "pdf_url": "https://www.econstor.eu/bitstream/10419/315202/1/1921646764.pdf",
-        "source": {
-          "id": "https://openalex.org/S4306401696",
-          "display_name": "Econstor (Econstor)",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "host_organization": null,
-          "host_organization_name": null,
-          "host_organization_lineage": [],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": null,
-        "raw_type": "doc-type:workingPaper"
-      },
-      {
-        "id": "pmh:oai:refubium.fu-berlin.de:fub188/47040",
-        "is_oa": true,
-        "landing_page_url": "https://refubium.fu-berlin.de/handle/fub188/47040",
-        "pdf_url": "https://refubium.fu-berlin.de/bitstream/fub188/47040/1/discpaper2025_02.pdf",
-        "source": {
-          "id": "https://openalex.org/S4306402444",
-          "display_name": "Refubium (Universit\u00e4tsbibliothek der Freien Universit\u00e4t Berlin)",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "host_organization": "https://openalex.org/I75951250",
-          "host_organization_name": "Freie Universit\u00e4t Berlin",
-          "host_organization_lineage": [
-            "https://openalex.org/I75951250"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": null,
-        "raw_type": "doc-type:book"
-      },
-      {
         "id": "pmh:oai:RePEc:tcd:tcduee:tep0225",
+        "doi": null,
         "is_oa": false,
-        "landing_page_url": null,
-        "pdf_url": null,
+        "landing_page_url": "https://www.tcd.ie/Economics/TEP/2025/TEP0225.pdf",
+        "pdf_url": "https://www.tcd.ie/Economics/TEP/2025/TEP0225.pdf",
         "source": {
           "id": "https://openalex.org/S4306401271",
           "display_name": "RePEc: Research Papers in Economics",
@@ -44330,6 +44370,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I77793887",
           "host_organization_name": "Federal Reserve Bank of St. Louis",
           "host_organization_lineage": [
@@ -44347,7 +44388,114 @@
         "raw_type": "preprint"
       },
       {
+        "id": "pmh:oai:RePEc:zbw:fubsbe:315202",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://www.econstor.eu/bitstream/10419/315202/1/1921646764.pdf",
+        "pdf_url": "https://www.econstor.eu/bitstream/10419/315202/1/1921646764.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306401271",
+          "display_name": "RePEc: Research Papers in Economics",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I77793887",
+          "host_organization_name": "Federal Reserve Bank of St. Louis",
+          "host_organization_lineage": [
+            "https://openalex.org/I77793887"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "preprint"
+      },
+      {
+        "id": "pmh:oai:econstor.eu:10419/315202",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/10419/315202",
+        "pdf_url": "https://www.econstor.eu/bitstream/10419/315202/1/1921646764.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306401696",
+          "display_name": "Econstor (Econstor)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "doc-type:workingPaper"
+      },
+      {
+        "id": "pmh:oai:refubium.fu-berlin.de:fub188/47040",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://refubium.fu-berlin.de/handle/fub188/47040",
+        "pdf_url": "https://refubium.fu-berlin.de/bitstream/fub188/47040/1/discpaper2025_02.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306402444",
+          "display_name": "Refubium (Universit\u00e4tsbibliothek der Freien Universit\u00e4t Berlin)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I75951250",
+          "host_organization_name": "Freie Universit\u00e4t Berlin",
+          "host_organization_lineage": [
+            "https://openalex.org/I75951250"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "doc-type:book"
+      },
+      {
+        "id": "pmh:oai:aleph.bib-bvb.de:BVB01-035559563",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://refubium.fu-berlin.de/handle/fub188/47040",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "text"
+      },
+      {
         "id": "doi:10.17169/refubium-46757",
+        "doi": "https://doi.org/10.17169/refubium-46757",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.17169/refubium-46757",
         "pdf_url": null,
@@ -44355,10 +44503,11 @@
           "id": "https://openalex.org/S7407052913",
           "display_name": "Universit\u00e4tsbibliothek der FU Berlin Hochschulschriftenstelle u. Dokumentenserver",
           "issn_l": null,
-          "issn": [],
+          "issn": null,
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -44369,13 +44518,14 @@
         "license_id": null,
         "version": null,
         "is_accepted": false,
-        "is_published": null,
+        "is_published": false,
         "raw_source_name": null,
-        "raw_type": "article"
+        "raw_type": "Book"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0022050725100909",
+      "doi": "https://doi.org/10.1017/s0022050725100909",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725100909",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F7AB6F2E7D24458D031531BF01610F0E/S0022050725100909a.pdf/div-class-title-financing-late-industrialization-evidence-from-the-state-bank-of-the-russian-empire-div.pdf",
@@ -44390,6 +44540,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -44410,12 +44573,25 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.8970999717712402,
+        "id": "https://metadata.un.org/sdg/9",
+        "display_name": "Industry, innovation and infrastructure"
+      },
+      {
+        "score": 0.7825999855995178,
+        "id": "https://metadata.un.org/sdg/8",
+        "display_name": "Decent work and economic growth"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": true
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4414697214.pdf",
@@ -44423,7 +44599,18 @@
     },
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W2739541801",
+      "https://openalex.org/W3091284035",
+      "https://openalex.org/W3148239973",
+      "https://openalex.org/W2593391297",
+      "https://openalex.org/W6941595276",
+      "https://openalex.org/W1744207557",
+      "https://openalex.org/W2054391425",
+      "https://openalex.org/W1970543841",
+      "https://openalex.org/W1544487762",
+      "https://openalex.org/W2171361518"
+    ],
     "abstract_inverted_index": {
       "Gerschenkron": [
         0
@@ -44685,8 +44872,13 @@
         96
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-09-29T14:09:16.559479",
     "created_date": "2025-10-01T00:00:00"
   },
   {
@@ -48363,7 +48555,7 @@
     "doi": "https://doi.org/10.1017/s0022050725101071",
     "title": "How Extractive Was Russian Serfdom? Income Inequality in Moscow Province in the Early Nineteenth Century",
     "display_name": "How Extractive Was Russian Serfdom? Income Inequality in Moscow Province in the Early Nineteenth Century",
-    "relevance_score": 9.157193,
+    "relevance_score": 25.401073,
     "publication_year": 2026,
     "publication_date": "2026-01-16",
     "ids": {
@@ -48373,6 +48565,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0022050725101071",
+      "doi": "https://doi.org/10.1017/s0022050725101071",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725101071",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C068F77B2724E68C4C10E259983F6395/S0022050725101071a.pdf/div-class-title-how-extractive-was-russian-serfdom-income-inequality-in-moscow-province-in-the-early-nineteenth-century-div.pdf",
@@ -48387,6 +48580,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -48407,6 +48613,7 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -48421,9 +48628,12 @@
       {
         "author_position": "first",
         "author": {
-          "id": null,
+          "id": "https://openalex.org/A5062683029",
           "display_name": "Elena Korchmina",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-0985-9527",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0985-9527"
+          ]
         },
         "institutions": [
           {
@@ -48458,9 +48668,12 @@
       {
         "author_position": "last",
         "author": {
-          "id": null,
+          "id": "https://openalex.org/A5016296710",
           "display_name": "Miko\u0142aj Malinowski",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3655-4331",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3655-4331"
+          ]
         },
         "institutions": [
           {
@@ -48496,17 +48709,27 @@
     "institutions": [],
     "countries_distinct_count": 2,
     "institutions_distinct_count": 2,
-    "corresponding_author_ids": [],
+    "corresponding_author_ids": [
+      "https://openalex.org/A5062683029"
+    ],
     "corresponding_institution_ids": [
       "https://openalex.org/I9360294"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.00404909,
+      "value": 0.00972451,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -48521,16 +48744,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12312",
-      "display_name": "Culture, Economy, and Development Studies",
-      "score": 0.7785999774932861,
+      "id": "https://openalex.org/T10605",
+      "display_name": "Historical Economic and Social Studies",
+      "score": 0.9976000189781189,
       "subfield": {
-        "id": "https://openalex.org/subfields/3317",
-        "display_name": "Demography"
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -48539,26 +48762,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12312",
-        "display_name": "Culture, Economy, and Development Studies",
-        "score": 0.7785999774932861,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3317",
-          "display_name": "Demography"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T10605",
         "display_name": "Historical Economic and Social Studies",
-        "score": 0.11980000138282776,
+        "score": 0.9976000189781189,
         "subfield": {
           "id": "https://openalex.org/subfields/2002",
           "display_name": "Economics and Econometrics"
@@ -48573,9 +48779,26 @@
         }
       },
       {
-        "id": "https://openalex.org/T12088",
-        "display_name": "Intergenerational and Educational Inequality Studies",
-        "score": 0.011800000444054604,
+        "id": "https://openalex.org/T11070",
+        "display_name": "Soviet and Russian History",
+        "score": 0.0013000000035390258,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10446",
+        "display_name": "Income, Poverty, and Inequality",
+        "score": 0.0005000000237487257,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -48592,34 +48815,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.44510000944137573
+        "id": "https://openalex.org/keywords/russian-serfdom",
+        "display_name": "Russian serfdom",
+        "score": 0.9610000252723694
       },
       {
-        "id": "https://openalex.org/keywords/commission",
-        "display_name": "Commission",
-        "score": 0.42500001192092896
+        "id": "https://openalex.org/keywords/income-inequality",
+        "display_name": "income inequality",
+        "score": 0.8019999861717224
       },
       {
-        "id": "https://openalex.org/keywords/european-commission",
-        "display_name": "European commission",
-        "score": 0.3978999853134155
+        "id": "https://openalex.org/keywords/moscow-province",
+        "display_name": "Moscow Province",
+        "score": 0.9419999718666077
       },
       {
-        "id": "https://openalex.org/keywords/abu-dhabi",
-        "display_name": "Abu dhabi",
-        "score": 0.3734999895095825
+        "id": "https://openalex.org/keywords/early-19th-century",
+        "display_name": "early 19th century",
+        "score": 0.8830000162124634
       },
       {
-        "id": "https://openalex.org/keywords/economic-inequality",
-        "display_name": "Economic inequality",
-        "score": 0.3691999912261963
+        "id": "https://openalex.org/keywords/land-tenure",
+        "display_name": "land tenure",
+        "score": 0.35199999809265137
       },
       {
-        "id": "https://openalex.org/keywords/frontier",
-        "display_name": "Frontier",
-        "score": 0.3594000041484833
+        "id": "https://openalex.org/keywords/peasant-economy",
+        "display_name": "peasant economy",
+        "score": 0.3070000112056732
+      },
+      {
+        "id": "https://openalex.org/keywords/social-stratification",
+        "display_name": "social stratification",
+        "score": 0.4309999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/historical-political-economy",
+        "display_name": "historical political economy",
+        "score": 0.46700000762939453
       }
     ],
     "concepts": [
@@ -48727,6 +48960,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s0022050725101071",
+        "doi": "https://doi.org/10.1017/s0022050725101071",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0022050725101071",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C068F77B2724E68C4C10E259983F6395/S0022050725101071a.pdf/div-class-title-how-extractive-was-russian-serfdom-income-inequality-in-moscow-province-in-the-early-nineteenth-century-div.pdf",
@@ -48741,6 +48975,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -48763,6 +49010,7 @@
       },
       {
         "id": "pmh:oai:pure.rug.nl:openaire/5a7df7ee-1c33-41cc-bc1c-df267a941660",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://research.rug.nl/en/publications/5a7df7ee-1c33-41cc-bc1c-df267a941660",
         "pdf_url": null,
@@ -48774,6 +49022,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I169381384",
           "host_organization_name": "University of Groningen",
           "host_organization_lineage": [
@@ -48788,10 +49037,11 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "Korchmina, E & Malinowski, M 2026, 'How extractive was Russian Serfdom? Income inequality in Moscow Province in the early 19th century', Journal of Economic History, vol. 86, no. 1, pp. 67-108. https://doi.org/10.1017/S0022050725101071",
-        "raw_type": "info:eu-repo/semantics/publishedVersion"
+        "raw_type": "info:eu-repo/semantics/article"
       },
       {
         "id": "pmh:oai:cris.unibo.it:11585/1032787",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://hdl.handle.net/11585/1032787",
         "pdf_url": null,
@@ -48803,6 +49053,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I4210117483",
           "host_organization_name": "Istituto di Ematologia di Bologna",
           "host_organization_lineage": [
@@ -48820,9 +49071,10 @@
         "raw_type": "info:eu-repo/semantics/article"
       },
       {
-        "id": "pmh:oai:pure.rug.nl:openaire_cris_publications/5a7df7ee-1c33-41cc-bc1c-df267a941660",
+        "id": "pmh:oai:pure.rug.nl:openaire/80cc7894-056f-442c-bf4d-36f82017779a",
+        "doi": null,
         "is_oa": true,
-        "landing_page_url": "https://hdl.handle.net/11370/5a7df7ee-1c33-41cc-bc1c-df267a941660",
+        "landing_page_url": "https://research.rug.nl/en/publications/80cc7894-056f-442c-bf4d-36f82017779a",
         "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S4306400420",
@@ -48832,6 +49084,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I169381384",
           "host_organization_name": "University of Groningen",
           "host_organization_lineage": [
@@ -48845,12 +49098,13 @@
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
-        "raw_source_name": "Korchmina, E & Malinowski, M 2026, 'How extractive was Russian Serfdom? Income inequality in Moscow Province in the early 19th century', Journal of Economic History, vol. 86, no. 1, pp. 67-108. https://doi.org/10.1017/S0022050725101071",
-        "raw_type": "info:eu-repo/semantics/publishedVersion"
+        "raw_source_name": "Korchmina, E & Malinowski, M 2026, 'How Extractive Was Russian Serfdom? Income Inequality in Moscow Province in the Early Nineteenth Century', Journal of Economic History, vol. 86, no. 1, pp. 67-108. https://doi.org/10.1017/S0022050725101071",
+        "raw_type": "info:eu-repo/semantics/article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0022050725101071",
+      "doi": "https://doi.org/10.1017/s0022050725101071",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725101071",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/C068F77B2724E68C4C10E259983F6395/S0022050725101071a.pdf/div-class-title-how-extractive-was-russian-serfdom-income-inequality-in-moscow-province-in-the-early-nineteenth-century-div.pdf",
@@ -48865,6 +49119,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -48887,16 +49154,36 @@
     },
     "sustainable_development_goals": [
       {
+        "score": 0.8974000215530396,
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "score": 0.666700005531311,
+        "id": "https://metadata.un.org/sdg/1",
+        "display_name": "No poverty"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
         "score": 0.7221034169197083,
         "id": "https://metadata.un.org/sdg/1",
         "display_name": "No poverty"
       }
     ],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G2338391383",
         "display_name": "Denmark and Russia: Why two Arctic empires developed so differently and continue to diverge?\u201d",
         "funder_award_id": "101027432",
+        "funder_id": "https://openalex.org/F4320320300",
+        "funder_display_name": "European Commission"
+      },
+      {
+        "id": "https://openalex.org/G434337789",
+        "display_name": null,
+        "funder_award_id": "HORIZON2020",
         "funder_id": "https://openalex.org/F4320320300",
         "funder_display_name": "European Commission"
       }
@@ -48909,8 +49196,8 @@
       }
     ],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": true
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W7115698479.pdf",
@@ -48918,386 +49205,337 @@
     },
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W7019628738",
+      "https://openalex.org/W3114401501",
+      "https://openalex.org/W4389690050",
+      "https://openalex.org/W1504405223",
+      "https://openalex.org/W184465293",
+      "https://openalex.org/W7118793883",
+      "https://openalex.org/W7095788538",
+      "https://openalex.org/W6961108486",
+      "https://openalex.org/W4256647198",
+      "https://openalex.org/W4220700114"
+    ],
     "abstract_inverted_index": {
-      "This": [
-        0
-      ],
-      "paper": [
-        1
-      ],
-      "is": [
-        2,
-        20
-      ],
-      "a": [
-        3
-      ],
-      "part": [
-        4
-      ],
-      "of": [
-        5,
-        29,
-        32,
-        68,
-        87,
-        93,
-        99,
-        108,
-        121,
-        129
-      ],
-      "the": [
-        6,
-        10,
-        14,
-        27,
-        30,
-        33,
-        37,
-        50,
-        66,
-        69,
-        85,
-        91,
-        97,
-        106,
-        109,
-        114,
-        127
-      ],
-      "project": [
-        7
-      ],
-      "supported": [
-        8
-      ],
-      "by": [
-        9,
-        140
-      ],
-      "European": [
-        11,
-        51
-      ],
-      "Commission": [
-        12
-      ],
-      "under": [
-        13
-      ],
-      "Horizon": [
-        15
-      ],
-      "2020": [
-        16
-      ],
-      "call": [
-        17
-      ],
-      "(project": [
-        18
-      ],
-      "ID": [
-        19
-      ],
-      "101027432).": [
-        21
-      ],
       "We": [
-        22,
-        101,
-        124,
-        135
+        0,
+        12,
+        28,
+        92
       ],
-      "would": [
-        23
-      ],
-      "like": [
-        24
-      ],
-      "to": [
-        25,
-        105
-      ],
-      "acknowledge": [
-        26,
-        137
-      ],
-      "contributions": [
-        28
-      ],
-      "participants": [
-        31,
-        67,
-        86,
-        107
-      ],
-      "sessions": [
-        34
-      ],
-      "organized": [
-        35
-      ],
-      "at": [
-        36,
-        90
-      ],
-      "World": [
-        38,
-        45
-      ],
-      "Economic": [
-        39,
-        115
-      ],
-      "History": [
-        40,
-        116
-      ],
-      "Congress": [
-        41
-      ],
-      "in": [
-        42,
-        47,
-        56,
-        61,
-        72,
-        113
-      ],
-      "Paris,": [
-        43
-      ],
-      "CLIO": [
-        44
-      ],
-      "Conference": [
-        46,
-        60
-      ],
-      "Dublin,": [
-        48
-      ],
-      "and": [
-        49,
-        82,
-        96,
-        117,
-        158
-      ],
-      "Historical": [
-        52,
-        118
-      ],
-      "Economics": [
-        53
-      ],
-      "Society": [
-        54
-      ],
-      "meeting": [
+      "measure": [
+        1,
         55
       ],
-      "Groningen,": [
-        57,
-        74
+      "pre-": [
+        2
       ],
-      "WEast": [
-        58
-      ],
-      "2023": [
-        59,
-        110
-      ],
-      "Prague,": [
-        62
-      ],
-      "as": [
-        63,
-        65
-      ],
-      "well": [
-        64
-      ],
-      "seminar": [
-        70
-      ],
-      "series": [
-        71
-      ],
-      "Utrecht,": [
-        73
-      ],
-      "Abu": [
-        75
-      ],
-      "Dhabi": [
-        76
-      ],
-      "(NYU),": [
-        77
-      ],
-      "London": [
-        78
-      ],
-      "(LSE),": [
-        79
-      ],
-      "Odense": [
-        80
-      ],
-      "(SDU),": [
-        81
-      ],
-      "Berlin": [
-        83
-      ],
-      "(Humboldt),": [
-        84
-      ],
-      "internal": [
-        88
-      ],
-      "seminars": [
-        89
-      ],
-      "University": [
-        92,
-        98
-      ],
-      "Southern": [
-        94
-      ],
-      "Denmark": [
-        95
-      ],
-      "Bologna.": [
-        100
-      ],
-      "are": [
-        102
-      ],
-      "especially": [
-        103,
-        125
-      ],
-      "thankful": [
-        104
-      ],
-      "Summer": [
-        111
-      ],
-      "Workshop": [
-        112
-      ],
-      "Political": [
-        119
-      ],
-      "Economy": [
-        120
-      ],
-      "Eurasia": [
+      "and": [
+        3,
+        26,
+        43,
+        54,
+        61,
+        74,
+        100,
         122
       ],
-      "(Paris).": [
+      "post-tax": [
+        4
+      ],
+      "income": [
+        5,
+        57
+      ],
+      "inequality": [
+        6,
+        73,
+        107,
+        127
+      ],
+      "in": [
+        7,
+        10,
+        71,
+        103,
+        129
+      ],
+      "Moscow": [
+        8
+      ],
+      "Province": [
+        9
+      ],
+      "1811.": [
+        11
+      ],
+      "collect": [
+        13
+      ],
+      "new": [
+        14
+      ],
+      "data": [
+        15
+      ],
+      "on": [
+        16
+      ],
+      "incomes": [
+        17,
+        32
+      ],
+      "for": [
+        18,
+        98
+      ],
+      "7,399": [
+        19
+      ],
+      "asset-holding": [
+        20
+      ],
+      "households,": [
+        21
+      ],
+      "including": [
+        22
+      ],
+      "all": [
+        23
+      ],
+      "registered": [
+        24
+      ],
+      "aristocrats": [
+        25
+      ],
+      "merchants.": [
+        27
+      ],
+      "estimate": [
+        29
+      ],
+      "the": [
+        30,
+        62,
+        90,
+        111,
         123
       ],
-      "appreciate": [
+      "average": [
+        31
+      ],
+      "of": [
+        33,
+        84,
+        87,
+        105,
+        118,
+        125
+      ],
+      "21": [
+        34
+      ],
+      "additional": [
+        35
+      ],
+      "social": [
+        36,
+        52,
+        81
+      ],
+      "groups": [
+        37
+      ],
+      "using": [
+        38
+      ],
+      "financial": [
+        39
+      ],
+      "records": [
+        40
+      ],
+      "from": [
+        41
+      ],
+      "government": [
+        42
+      ],
+      "private": [
+        44
+      ],
+      "businesses.": [
+        45
+      ],
+      "Combining": [
+        46
+      ],
+      "this": [
+        47
+      ],
+      "data,": [
+        48
+      ],
+      "we": [
+        49
+      ],
+      "construct": [
+        50
+      ],
+      "a": [
+        51
+      ],
+      "table": [
+        53
+      ],
+      "top-tier": [
+        56
+      ],
+      "concentration,": [
+        58
+      ],
+      "Gini": [
+        59
+      ],
+      "coefficient,": [
+        60
+      ],
+      "Extraction": [
+        63
+      ],
+      "Ratio.": [
+        64
+      ],
+      "Our": [
+        65
+      ],
+      "findings": [
+        66,
+        115
+      ],
+      "reveal": [
+        67
+      ],
+      "that": [
+        68
+      ],
+      "serfdom": [
+        69
+      ],
+      "resulted": [
+        70
+      ],
+      "high": [
+        72,
+        109,
         126
       ],
-      "help": [
+      "extraction": [
+        75
+      ],
+      "levels": [
+        76,
+        86,
         128
       ],
-      "Dmitrii": [
-        130
+      "as": [
+        77,
+        79
       ],
-      "Khitrov": [
-        131
+      "well": [
+        78
+      ],
+      "low": [
+        80,
+        85
+      ],
+      "mobility": [
+        82
+      ],
+      "despite": [
+        83
+      ],
+      "enforcement": [
+        88
+      ],
+      "by": [
+        89
+      ],
+      "state.": [
+        91
+      ],
+      "compare": [
+        93
+      ],
+      "our": [
+        94
+      ],
+      "results": [
+        95
       ],
       "with": [
-        132
+        96
       ],
-      "map": [
-        133
+      "those": [
+        97
       ],
-      "design.": [
-        134
+      "1904": [
+        99
       ],
-      "also": [
-        136
+      "find": [
+        101
       ],
-      "substantive": [
-        138
+      "that,": [
+        102
       ],
-      "comments": [
-        139
+      "spite": [
+        104
       ],
-      "Jutta": [
-        141
+      "emancipation,": [
+        106
       ],
-      "Bolt,": [
-        142
+      "remained": [
+        108
       ],
-      "Jonathan": [
-        143
+      "during": [
+        110
       ],
-      "Chapman,": [
-        144
+      "nineteenth": [
+        112
       ],
-      "Herman": [
-        145
+      "century.": [
+        113
       ],
-      "de": [
-        146
+      "Those": [
+        114
       ],
-      "Jong,": [
-        147
+      "are": [
+        116
       ],
-      "Steven": [
-        148,
-        152
+      "emblematic": [
+        117
       ],
-      "Hoch,": [
-        149
+      "deep": [
+        119
       ],
-      "Andrei": [
-        150
+      "historical": [
+        120
       ],
-      "Markevich,": [
-        151
+      "roots": [
+        121
       ],
-      "Nafziger,": [
-        153
+      "persistence": [
+        124
       ],
-      "Paul": [
-        154
-      ],
-      "Sharp,": [
-        155
-      ],
-      "Alessandro": [
-        156
-      ],
-      "Stanziani,": [
-        157
-      ],
-      "Jan": [
-        159
-      ],
-      "Luiten": [
-        160
-      ],
-      "van": [
-        161
-      ],
-      "Zanden.": [
-        162
+      "Russia.": [
+        130
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-23T08:51:43.019350",
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2025-12-17T00:00:00"
   },
   {
@@ -79843,7 +80081,7 @@
     "doi": "https://doi.org/10.1017/s0022050725101228",
     "title": "Fuel and Power: Energy, Trade, and Russian Foreign Relations from Lenin to Putin. By Jeronim Perovi\u0107. Cambridge: Cambridge University Press, 2024. Pp. x, 250. \u00a380.00, hardcover.",
     "display_name": "Fuel and Power: Energy, Trade, and Russian Foreign Relations from Lenin to Putin. By Jeronim Perovi\u0107. Cambridge: Cambridge University Press, 2024. Pp. x, 250. \u00a380.00, hardcover.",
-    "relevance_score": 6.286436,
+    "relevance_score": 16.469254,
     "publication_year": 2025,
     "publication_date": "2025-12-01",
     "ids": {
@@ -79853,6 +80091,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0022050725101228",
+      "doi": "https://doi.org/10.1017/s0022050725101228",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1017/s0022050725101228",
       "pdf_url": null,
@@ -79867,6 +80106,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -79887,7 +80139,8 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -79903,7 +80156,10 @@
         "author": {
           "id": "https://openalex.org/A5016301020",
           "display_name": "Marina Chuchko",
-          "orcid": "https://orcid.org/0000-0002-5864-7806"
+          "orcid": "https://orcid.org/0000-0002-5864-7806",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5864-7806"
+          ]
         },
         "institutions": [
           {
@@ -79925,6 +80181,7 @@
         "raw_affiliation_strings": [
           "Vienna University of Economics and Business"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Vienna University of Economics and Business",
@@ -79944,16 +80201,16 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I102248843"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.5203933,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "85",
@@ -79965,44 +80222,27 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12129",
-      "display_name": "Global Energy Security and Policy",
-      "score": 0.2888999879360199,
+      "id": "https://openalex.org/T13186",
+      "display_name": "Russia and Soviet political economy",
+      "score": 0.44020000100135803,
       "subfield": {
-        "id": "https://openalex.org/subfields/2100",
-        "display_name": "General Energy"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
-        "id": "https://openalex.org/fields/21",
-        "display_name": "Energy"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12129",
-        "display_name": "Global Energy Security and Policy",
-        "score": 0.2888999879360199,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2100",
-          "display_name": "General Energy"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/21",
-          "display_name": "Energy"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T13186",
         "display_name": "Russia and Soviet political economy",
-        "score": 0.03869999945163727,
+        "score": 0.44020000100135803,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -80019,7 +80259,7 @@
       {
         "id": "https://openalex.org/T11070",
         "display_name": "Soviet and Russian History",
-        "score": 0.032099999487400055,
+        "score": 0.29760000109672546,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -80032,23 +80272,70 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T12129",
+        "display_name": "Global Energy Security and Policy",
+        "score": 0.23469999432563782,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2100",
+          "display_name": "General Energy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/21",
+          "display_name": "Energy"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/foreign-relations",
-        "display_name": "Foreign relations",
-        "score": 0.570900022983551
+        "id": "https://openalex.org/keywords/energy",
+        "display_name": "energy",
+        "score": 0.4480000138282776
       },
       {
-        "id": "https://openalex.org/keywords/international-relations",
-        "display_name": "International relations",
-        "score": 0.3043999969959259
+        "id": "https://openalex.org/keywords/energy-trading",
+        "display_name": "energy trade",
+        "score": 0.746999979019165
       },
       {
-        "id": "https://openalex.org/keywords/foreign-policy",
-        "display_name": "Foreign policy",
-        "score": 0.299699991941452
+        "id": "https://openalex.org/keywords/russian-foreign-relations",
+        "display_name": "Russian foreign relations",
+        "score": 0.9660000205039978
+      },
+      {
+        "id": "https://openalex.org/keywords/fuels",
+        "display_name": "fuels",
+        "score": 0.3160000145435333
+      },
+      {
+        "id": "https://openalex.org/keywords/soviet-union",
+        "display_name": "Soviet Union",
+        "score": 0.5299999713897705
+      },
+      {
+        "id": "https://openalex.org/keywords/russia",
+        "display_name": "Russia",
+        "score": 0.5600000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/energy-security",
+        "display_name": "energy security",
+        "score": 0.5109999775886536
+      },
+      {
+        "id": "https://openalex.org/keywords/energy-geopolitics",
+        "display_name": "energy geopolitics",
+        "score": 0.45899999141693115
+      },
+      {
+        "id": "https://openalex.org/keywords/vladimir-putin",
+        "display_name": "Vladimir Putin",
+        "score": 0.9620000123977661
       }
     ],
     "concepts": [
@@ -80128,6 +80415,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s0022050725101228",
+        "doi": "https://doi.org/10.1017/s0022050725101228",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1017/s0022050725101228",
         "pdf_url": null,
@@ -80142,6 +80430,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -80164,6 +80465,7 @@
       },
       {
         "id": "pmh:oai:research.wu.ac.at:openaire_cris_publications/ee5a03ec-dc73-4398-ac79-33177d28461a",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://research.wu.ac.at/de/publications/ee5a03ec-dc73-4398-ac79-33177d28461a",
         "pdf_url": null,
@@ -80175,6 +80477,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": null,
           "host_organization_name": null,
           "host_organization_lineage": [],
@@ -80191,7 +80494,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.47620001435279846,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -80201,10 +80512,21 @@
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W4413740357",
+      "https://openalex.org/W6884308590",
+      "https://openalex.org/W7218239078",
+      "https://openalex.org/W1886738534",
+      "https://openalex.org/W4383956066",
+      "https://openalex.org/W82745804",
+      "https://openalex.org/W1570113230",
+      "https://openalex.org/W7027983106",
+      "https://openalex.org/W2790640117",
+      "https://openalex.org/W2289664093"
+    ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-03-17T09:09:15.849793",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2025-12-01T00:00:00"
   },
   {

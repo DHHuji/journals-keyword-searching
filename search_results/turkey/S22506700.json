@@ -14337,7 +14337,7 @@
     "doi": "https://doi.org/10.14506/ca40.3.01",
     "title": "Waste Donations",
     "display_name": "Waste Donations",
-    "relevance_score": 2.3365488,
+    "relevance_score": 1.6288346,
     "publication_year": 2025,
     "publication_date": "2025-08-14",
     "ids": {
@@ -14347,9 +14347,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.14506/ca40.3.01",
+      "doi": "https://doi.org/10.14506/ca40.3.01",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.14506/ca40.3.01",
-      "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5718/1004",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S22506700",
         "display_name": "Cultural Anthropology",
@@ -14361,6 +14362,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -14379,6 +14392,7 @@
       "raw_source_name": "Cultural Anthropology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -14387,7 +14401,7 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "diamond",
-      "oa_url": "https://journal.culanth.org/index.php/ca/article/download/5718/1004",
+      "oa_url": "https://doi.org/10.14506/ca40.3.01",
       "any_repository_has_fulltext": false
     },
     "authorships": [
@@ -14396,7 +14410,10 @@
         "author": {
           "id": "https://openalex.org/A5102317630",
           "display_name": "Kevin Yildirim",
-          "orcid": "https://orcid.org/0009-0002-8696-016X"
+          "orcid": "https://orcid.org/0009-0002-8696-016X",
+          "observed_orcids": [
+            "https://orcid.org/0009-0002-8696-016X"
+          ]
         },
         "institutions": [
           {
@@ -14440,17 +14457,17 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 1.4982,
+    "fwci": 1.9114,
     "has_fulltext": false,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.84213314,
+      "value": 0.8720374,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
-      "min": 95,
-      "max": 98
+      "min": 93,
+      "max": 96
     },
     "biblio": {
       "volume": "40",
@@ -14462,56 +14479,105 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11163",
-      "display_name": "Organ Donation and Transplantation",
-      "score": 0.5842000246047974,
+      "id": "https://openalex.org/T13343",
+      "display_name": "Turkish Urban and Social Issues",
+      "score": 0.4580000042915344,
       "subfield": {
-        "id": "https://openalex.org/subfields/2739",
-        "display_name": "Public Health, Environmental and Occupational Health"
+        "id": "https://openalex.org/subfields/3322",
+        "display_name": "Urban Studies"
       },
       "field": {
-        "id": "https://openalex.org/fields/27",
-        "display_name": "Medicine"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/4",
-        "display_name": "Health Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11163",
-        "display_name": "Organ Donation and Transplantation",
-        "score": 0.5842000246047974,
+        "id": "https://openalex.org/T13343",
+        "display_name": "Turkish Urban and Social Issues",
+        "score": 0.4580000042915344,
         "subfield": {
-          "id": "https://openalex.org/subfields/2739",
-          "display_name": "Public Health, Environmental and Occupational Health"
+          "id": "https://openalex.org/subfields/3322",
+          "display_name": "Urban Studies"
         },
         "field": {
-          "id": "https://openalex.org/fields/27",
-          "display_name": "Medicine"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
-          "id": "https://openalex.org/domains/4",
-          "display_name": "Health Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.26440000534057617,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14062",
+        "display_name": "Migration and Exile Studies",
+        "score": 0.0877000018954277,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.4198983609676361
+        "id": "https://openalex.org/keywords/irregular-migrants",
+        "display_name": "irregular migrants",
+        "score": 0.5839999914169312
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.34062933921813965
+        "id": "https://openalex.org/keywords/asylum-seekers",
+        "display_name": "asylum seekers",
+        "score": 0.9490000009536743
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.3347790837287903
+        "id": "https://openalex.org/keywords/shopkeepers",
+        "display_name": "shopkeepers",
+        "score": 0.8349999785423279
+      },
+      {
+        "id": "https://openalex.org/keywords/host-guest-relations",
+        "display_name": "host-guest relations",
+        "score": 0.7620000243186951
+      },
+      {
+        "id": "https://openalex.org/keywords/moral-authority",
+        "display_name": "moral authority",
+        "score": 0.6850000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/istanbul",
+        "display_name": "Istanbul",
+        "score": 0.49900001287460327
       }
     ],
     "concepts": [
@@ -14542,9 +14608,10 @@
     "locations": [
       {
         "id": "doi:10.14506/ca40.3.01",
+        "doi": "https://doi.org/10.14506/ca40.3.01",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.14506/ca40.3.01",
-        "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5718/1004",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S22506700",
           "display_name": "Cultural Anthropology",
@@ -14556,6 +14623,18 @@
           "is_oa": true,
           "is_in_doaj": true,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -14577,9 +14656,10 @@
     ],
     "best_oa_location": {
       "id": "doi:10.14506/ca40.3.01",
+      "doi": "https://doi.org/10.14506/ca40.3.01",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.14506/ca40.3.01",
-      "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5718/1004",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S22506700",
         "display_name": "Cultural Anthropology",
@@ -14591,6 +14671,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -14609,29 +14701,45 @@
       "raw_source_name": "Cultural Anthropology",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.7811999917030334,
+        "id": "https://metadata.un.org/sdg/12",
+        "display_name": "Responsible consumption and production"
+      },
+      {
+        "score": 0.7297000288963318,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      },
+      {
+        "score": 0.5142999887466431,
+        "id": "https://metadata.un.org/sdg/11",
+        "display_name": "Sustainable cities and communities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
+      "pdf": false,
       "grobid_xml": false
     },
-    "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4413304909.pdf"
-    },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W2899084033",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W2949263084",
-      "https://openalex.org/W2743539335",
-      "https://openalex.org/W594353338",
-      "https://openalex.org/W2765153054",
-      "https://openalex.org/W2922049016",
-      "https://openalex.org/W4404596741",
-      "https://openalex.org/W4390697879"
+      "https://openalex.org/W6887924194",
+      "https://openalex.org/W7165619160",
+      "https://openalex.org/W6982548065",
+      "https://openalex.org/W7104371016",
+      "https://openalex.org/W7125420500",
+      "https://openalex.org/W7110487282",
+      "https://openalex.org/W2795633165",
+      "https://openalex.org/W2272684476",
+      "https://openalex.org/W2586062088",
+      "https://openalex.org/W3162561882"
     ],
     "abstract_inverted_index": {
       "In": [
@@ -15293,7 +15401,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-08-18T07:49:30.821534",
     "created_date": "2025-08-19T00:00:00"
   },
   {
@@ -16892,7 +17000,7 @@
     "doi": "https://doi.org/10.14506/ca40.3.02",
     "title": "Morally Immunizing Debts: Wage Bank, Gendered Credit Access, and Intimacy in the Soma Coal Basin",
     "display_name": "Morally Immunizing Debts: Wage Bank, Gendered Credit Access, and Intimacy in the Soma Coal Basin",
-    "relevance_score": 0.7947024,
+    "relevance_score": 3.0290453,
     "publication_year": 2025,
     "publication_date": "2025-08-14",
     "ids": {
@@ -16902,6 +17010,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.14506/ca40.3.02",
+      "doi": "https://doi.org/10.14506/ca40.3.02",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.14506/ca40.3.02",
       "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5753/1018",
@@ -16916,6 +17025,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -16934,6 +17055,7 @@
       "raw_source_name": "Cultural Anthropology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -16951,7 +17073,10 @@
         "author": {
           "id": "https://openalex.org/A5116533748",
           "display_name": "Ferda Nur Demirci",
-          "orcid": "https://orcid.org/0000-0002-5034-8991"
+          "orcid": "https://orcid.org/0000-0002-5034-8991",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5034-8991"
+          ]
         },
         "institutions": [
           {
@@ -16999,7 +17124,7 @@
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.21347503,
+      "value": 0.19257856,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -17014,111 +17139,125 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11933",
-      "display_name": "Mining and Resource Management",
-      "score": 0.9598000049591064,
+      "id": "https://openalex.org/T10149",
+      "display_name": "Anthropological Studies and Insights",
+      "score": 0.7567999958992004,
       "subfield": {
-        "id": "https://openalex.org/subfields/2215",
-        "display_name": "Building and Construction"
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
       },
       "field": {
-        "id": "https://openalex.org/fields/22",
-        "display_name": "Engineering"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
-        "id": "https://openalex.org/domains/3",
-        "display_name": "Physical Sciences"
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
       }
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11933",
-        "display_name": "Mining and Resource Management",
-        "score": 0.9598000049591064,
+        "id": "https://openalex.org/T10149",
+        "display_name": "Anthropological Studies and Insights",
+        "score": 0.7567999958992004,
         "subfield": {
-          "id": "https://openalex.org/subfields/2215",
-          "display_name": "Building and Construction"
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
         },
         "field": {
-          "id": "https://openalex.org/fields/22",
-          "display_name": "Engineering"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12275",
+        "display_name": "Gender and Feminist Studies",
+        "score": 0.07720000296831131,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11888",
+        "display_name": "Gender Roles and Identity Studies",
+        "score": 0.04410000145435333,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       }
     ],
     "keywords": [
       {
+        "id": "https://openalex.org/keywords/moral-immunity",
+        "display_name": "moral immunity",
+        "score": 0.6959999799728394
+      },
+      {
         "id": "https://openalex.org/keywords/debt",
-        "display_name": "Debt",
-        "score": 0.6280875205993652
-      },
-      {
-        "id": "https://openalex.org/keywords/morality",
-        "display_name": "Morality",
-        "score": 0.6008108854293823
-      },
-      {
-        "id": "https://openalex.org/keywords/structural-basin",
-        "display_name": "Structural basin",
-        "score": 0.5283939242362976
+        "display_name": "debt",
+        "score": 0.6660000085830688
       },
       {
         "id": "https://openalex.org/keywords/masculinity",
-        "display_name": "Masculinity",
-        "score": 0.5095715522766113
+        "display_name": "masculinity",
+        "score": 0.609000027179718
       },
       {
-        "id": "https://openalex.org/keywords/soma",
-        "display_name": "Soma",
-        "score": 0.5050972104072571
+        "id": "https://openalex.org/keywords/coal-miners",
+        "display_name": "coal miners",
+        "score": 0.531000018119812
       },
       {
-        "id": "https://openalex.org/keywords/wage",
-        "display_name": "Wage",
-        "score": 0.45255720615386963
+        "id": "https://openalex.org/keywords/consumer-credit",
+        "display_name": "consumer credit",
+        "score": 0.5910000205039978
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.41287779808044434
+        "id": "https://openalex.org/keywords/intimate-relationships",
+        "display_name": "intimate relationships",
+        "score": 0.6460000276565552
       },
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.3364189863204956
+        "id": "https://openalex.org/keywords/nuclear-family",
+        "display_name": "nuclear family",
+        "score": 0.7110000252723694
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.2747512459754944
+        "id": "https://openalex.org/keywords/financial-liabilities",
+        "display_name": "financial liabilities",
+        "score": 0.4740000069141388
       },
       {
-        "id": "https://openalex.org/keywords/finance",
-        "display_name": "Finance",
-        "score": 0.26619893312454224
+        "id": "https://openalex.org/keywords/gender-and-morality",
+        "display_name": "gender and morality",
+        "score": 0.33899998664855957
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.24834150075912476
-      },
-      {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.21378710865974426
-      },
-      {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.17825058102607727
-      },
-      {
-        "id": "https://openalex.org/keywords/biology",
-        "display_name": "Biology",
-        "score": 0.0955992341041565
+        "id": "https://openalex.org/keywords/lignite-mining",
+        "display_name": "lignite mining",
+        "score": 0.42100000381469727
       }
     ],
     "concepts": [
@@ -17240,6 +17379,7 @@
     "locations": [
       {
         "id": "doi:10.14506/ca40.3.02",
+        "doi": "https://doi.org/10.14506/ca40.3.02",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.14506/ca40.3.02",
         "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5753/1018",
@@ -17254,6 +17394,18 @@
           "is_oa": true,
           "is_in_doaj": true,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "doaj",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -17275,6 +17427,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.14506/ca40.3.02",
+      "doi": "https://doi.org/10.14506/ca40.3.02",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.14506/ca40.3.02",
       "pdf_url": "https://journal.culanth.org/index.php/ca/article/download/5753/1018",
@@ -17289,6 +17442,18 @@
         "is_oa": true,
         "is_in_doaj": true,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "doaj",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -17309,33 +17474,52 @@
     },
     "sustainable_development_goals": [
       {
-        "display_name": "Decent work and economic growth",
-        "score": 0.5600000023841858,
-        "id": "https://metadata.un.org/sdg/8"
+        "score": 0.7578999996185303,
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
+      },
+      {
+        "score": 0.6025999784469604,
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality"
+      },
+      {
+        "score": 0.48510000109672546,
+        "id": "https://metadata.un.org/sdg/8",
+        "display_name": "Decent work and economic growth"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.5600000023841858,
+        "id": "https://metadata.un.org/sdg/8",
+        "display_name": "Decent work and economic growth"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
       "pdf": true,
-      "grobid_xml": false
+      "grobid_xml": true
     },
     "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4413467984.pdf"
+      "pdf": "https://content.openalex.org/works/W4413467984.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4413467984.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W4381924898",
-      "https://openalex.org/W2101180249",
-      "https://openalex.org/W2904963758",
-      "https://openalex.org/W2040277507",
-      "https://openalex.org/W2388256261",
-      "https://openalex.org/W3195003574",
-      "https://openalex.org/W2912536360",
-      "https://openalex.org/W3126354413",
-      "https://openalex.org/W3197259833",
-      "https://openalex.org/W2362311513"
+      "https://openalex.org/W7212947033",
+      "https://openalex.org/W4408176087",
+      "https://openalex.org/W2761210720",
+      "https://openalex.org/W2078469033",
+      "https://openalex.org/W623381512",
+      "https://openalex.org/W602583736",
+      "https://openalex.org/W6999717664",
+      "https://openalex.org/W611521849",
+      "https://openalex.org/W3082259535",
+      "https://openalex.org/W2410757952"
     ],
     "abstract_inverted_index": {
       "This": [
@@ -17694,7 +17878,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-08-22T07:34:49.880490",
     "created_date": "2025-10-10T00:00:00"
   }
 ]

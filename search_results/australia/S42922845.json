@@ -9895,7 +9895,7 @@
     "doi": "https://doi.org/10.1093/pastj/gtaf035",
     "title": "The Jewish Refugee Family and Concerns Over Intermarriage in Australia After 1945",
     "display_name": "The Jewish Refugee Family and Concerns Over Intermarriage in Australia After 1945",
-    "relevance_score": 7.242117,
+    "relevance_score": 18.905968,
     "publication_year": 2025,
     "publication_date": "2025-12-02",
     "ids": {
@@ -9905,6 +9905,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/pastj/gtaf035",
+      "doi": "https://doi.org/10.1093/pastj/gtaf035",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/pastj/gtaf035",
       "pdf_url": null,
@@ -9919,6 +9920,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "fnege-4",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -9939,6 +9951,7 @@
       "raw_source_name": "Past &amp; Present",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -9955,7 +9968,10 @@
         "author": {
           "id": "https://openalex.org/A5072285566",
           "display_name": "Ruth Balint",
-          "orcid": "https://orcid.org/0000-0001-7592-3449"
+          "orcid": "https://orcid.org/0000-0001-7592-3449",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7592-3449"
+          ]
         },
         "institutions": [
           {
@@ -9998,20 +10014,20 @@
       "https://openalex.org/I31746571"
     ],
     "apc_list": {
-      "value": 3057,
+      "value": 3338,
       "currency": "GBP",
-      "value_usd": 3749
+      "value_usd": 4402
     },
     "apc_paid": {
-      "value": 3057,
+      "value": 3338,
       "currency": "GBP",
-      "value_usd": 3749
+      "value_usd": 4402
     },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.73578668,
+      "value": 0.50976212,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -10026,12 +10042,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12525",
-      "display_name": "Australian History and Society",
-      "score": 0.20800000429153442,
+      "id": "https://openalex.org/T13784",
+      "display_name": "Jewish Identity and Society",
+      "score": 0.9901999831199646,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -10044,43 +10060,43 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12525",
-        "display_name": "Australian History and Society",
-        "score": 0.20800000429153442,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13994",
-        "display_name": "The Impact of Diversity and Innovation on Society",
-        "score": 0.08829999715089798,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T13784",
         "display_name": "Jewish Identity and Society",
-        "score": 0.052299998700618744,
+        "score": 0.9901999831199646,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.004399999976158142,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11648",
+        "display_name": "Diaspora, migration, transnational identity",
+        "score": 0.0020000000949949026,
         "subfield": {
           "id": "https://openalex.org/subfields/3317",
           "display_name": "Demography"
@@ -10097,29 +10113,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/judaism",
-        "display_name": "Judaism",
-        "score": 0.9211000204086304
+        "id": "https://openalex.org/keywords/jewish-intermarriage",
+        "display_name": "Jewish intermarriage",
+        "score": 0.9459999799728394
+      },
+      {
+        "id": "https://openalex.org/keywords/jewish-refugees",
+        "display_name": "Jewish refugees",
+        "score": 0.8040000200271606
+      },
+      {
+        "id": "https://openalex.org/keywords/jewish-families",
+        "display_name": "Jewish families",
+        "score": 0.5630000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/displacement-camps",
+        "display_name": "displaced persons camps",
+        "score": 0.8299999833106995
+      },
+      {
+        "id": "https://openalex.org/keywords/assimilation",
+        "display_name": "assimilation",
+        "score": 0.8429999947547913
       },
       {
         "id": "https://openalex.org/keywords/emancipation",
-        "display_name": "Emancipation",
-        "score": 0.5705000162124634
+        "display_name": "emancipation",
+        "score": 0.9020000100135803
       },
       {
-        "id": "https://openalex.org/keywords/refugee",
-        "display_name": "Refugee",
-        "score": 0.5389999747276306
+        "id": "https://openalex.org/keywords/gender-and-family",
+        "display_name": "gender and family",
+        "score": 0.6499999761581421
       },
       {
-        "id": "https://openalex.org/keywords/welfare",
-        "display_name": "Welfare",
-        "score": 0.49779999256134033
+        "id": "https://openalex.org/keywords/jewish-press",
+        "display_name": "Jewish press",
+        "score": 0.6880000233650208
       },
       {
-        "id": "https://openalex.org/keywords/anti-zionism",
-        "display_name": "Anti-Zionism",
-        "score": 0.48570001125335693
+        "id": "https://openalex.org/keywords/jewish-literature",
+        "display_name": "Jewish literature",
+        "score": 0.9419999718666077
+      },
+      {
+        "id": "https://openalex.org/keywords/post-world-war-ii-migration",
+        "display_name": "post-World War II migration",
+        "score": 0.6790000200271606
       }
     ],
     "concepts": [
@@ -10234,6 +10275,7 @@
     "locations": [
       {
         "id": "doi:10.1093/pastj/gtaf035",
+        "doi": "https://doi.org/10.1093/pastj/gtaf035",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/pastj/gtaf035",
         "pdf_url": null,
@@ -10248,6 +10290,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "fnege-4",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -10270,6 +10323,7 @@
       },
       {
         "id": "pmh:oai:unsworks.library.unsw.edu.au:1959.4/106953",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "http://hdl.handle.net/1959.4/106953",
         "pdf_url": "https://unsworks.unsw.edu.au/bitstreams/348b0699-92f7-4e6b-8048-fe65cfcc66c9/download",
@@ -10281,6 +10335,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I40053085",
           "host_organization_name": "Australian Defence Force Academy",
           "host_organization_lineage": [
@@ -10300,6 +10355,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1093/pastj/gtaf035",
+      "doi": "https://doi.org/10.1093/pastj/gtaf035",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/pastj/gtaf035",
       "pdf_url": null,
@@ -10314,6 +10370,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "fnege-4",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -10334,13 +10401,15 @@
       "raw_source_name": "Past &amp; Present",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
         "score": 0.8073070645332336,
         "display_name": "Reduced inequalities",
         "id": "https://metadata.un.org/sdg/10"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -10678,7 +10747,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-05T08:41:31.759640",
+    "updated_date": "2026-09-16T18:09:00.828671",
     "created_date": "2025-12-23T00:00:00"
   },
   {

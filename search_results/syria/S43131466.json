@@ -2927,7 +2927,7 @@
     "doi": "https://doi.org/10.1080/00141844.2026.2650458",
     "title": "Lives and Futures from Ruination: The Search for Viability among Syrians Displaced to Jordan, Lebanon and Turkey",
     "display_name": "Lives and Futures from Ruination: The Search for Viability among Syrians Displaced to Jordan, Lebanon and Turkey",
-    "relevance_score": 11.767925,
+    "relevance_score": 33.94485,
     "publication_year": 2026,
     "publication_date": "2026-05-04",
     "ids": {
@@ -2937,9 +2937,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/00141844.2026.2650458",
+      "doi": "https://doi.org/10.1080/00141844.2026.2650458",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/00141844.2026.2650458",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2650458?needAccess=true",
       "source": {
         "id": "https://openalex.org/S43131466",
         "display_name": "Ethnos",
@@ -2951,13 +2952,26 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -2969,6 +2983,7 @@
       "raw_source_name": "Ethnos",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -2976,16 +2991,19 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1080/00141844.2026.2650458",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2650458?needAccess=true",
       "any_repository_has_fulltext": false
     },
     "authorships": [
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5135272722",
-          "display_name": "Birgitte S. Holst",
-          "orcid": "https://orcid.org/0000-0003-4340-717X"
+          "id": "https://openalex.org/A5058771687",
+          "display_name": "Birgitte Stampe Holst",
+          "orcid": "https://orcid.org/0000-0003-4340-717X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4340-717X"
+          ]
         },
         "institutions": [
           {
@@ -3023,7 +3041,7 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5135272722"
+      "https://openalex.org/A5058771687"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I2801953415"
@@ -3031,27 +3049,27 @@
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.95200342,
+      "value": 0.30194972,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": null,
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": "1",
-      "last_page": "14"
+      "volume": "91",
+      "issue": "3",
+      "first_page": "336",
+      "last_page": "349"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13103",
-      "display_name": "Middle East Politics and Society",
-      "score": 0.4156999886035919,
+      "id": "https://openalex.org/T14062",
+      "display_name": "Migration and Exile Studies",
+      "score": 0.47290000319480896,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -3067,9 +3085,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13103",
-        "display_name": "Middle East Politics and Society",
-        "score": 0.4156999886035919,
+        "id": "https://openalex.org/T14062",
+        "display_name": "Migration and Exile Studies",
+        "score": 0.47290000319480896,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -3084,12 +3102,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T11783",
-        "display_name": "Turkey's Politics and Society",
-        "score": 0.028599999845027924,
+        "id": "https://openalex.org/T13103",
+        "display_name": "Middle East Politics and Society",
+        "score": 0.45730000734329224,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -3101,9 +3119,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T11203",
-        "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.02590000070631504,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.04500000178813934,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -3120,29 +3138,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/futures-contract",
-        "display_name": "Futures contract",
-        "score": 0.6904000043869019
+        "id": "https://openalex.org/keywords/syrian-refugees",
+        "display_name": "Syrian refugees",
+        "score": 0.8019999861717224
       },
       {
-        "id": "https://openalex.org/keywords/precarity",
-        "display_name": "Precarity",
-        "score": 0.35910001397132874
+        "id": "https://openalex.org/keywords/ruination",
+        "display_name": "ruination",
+        "score": 0.7300000190734863
       },
       {
-        "id": "https://openalex.org/keywords/southeast-asia",
-        "display_name": "Southeast asia",
-        "score": 0.30820000171661377
+        "id": "https://openalex.org/keywords/displacement",
+        "display_name": "displacement",
+        "score": 0.4490000009536743
       },
       {
-        "id": "https://openalex.org/keywords/ethnography",
-        "display_name": "Ethnography",
-        "score": 0.2924000024795532
+        "id": "https://openalex.org/keywords/viability",
+        "display_name": "viability",
+        "score": 0.5120000243186951
       },
       {
-        "id": "https://openalex.org/keywords/government",
-        "display_name": "Government (linguistics)",
-        "score": 0.26089999079704285
+        "id": "https://openalex.org/keywords/syrian-refugees-in-lebanon",
+        "display_name": "Syrian refugees in Lebanon",
+        "score": 0.9879999756813049
+      },
+      {
+        "id": "https://openalex.org/keywords/syrian-refugees-in-turkey",
+        "display_name": "Syrian refugees in Turkey",
+        "score": 0.996999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/syrian-civil-war",
+        "display_name": "Syrian civil war",
+        "score": 0.3490000069141388
       }
     ],
     "concepts": [
@@ -3250,9 +3278,10 @@
     "locations": [
       {
         "id": "doi:10.1080/00141844.2026.2650458",
+        "doi": "https://doi.org/10.1080/00141844.2026.2650458",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/00141844.2026.2650458",
-        "pdf_url": null,
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2650458?needAccess=true",
         "source": {
           "id": "https://openalex.org/S43131466",
           "display_name": "Ethnos",
@@ -3264,13 +3293,26 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -3285,9 +3327,10 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1080/00141844.2026.2650458",
+      "doi": "https://doi.org/10.1080/00141844.2026.2650458",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/00141844.2026.2650458",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2026.2650458?needAccess=true",
       "source": {
         "id": "https://openalex.org/S43131466",
         "display_name": "Ethnos",
@@ -3299,13 +3342,26 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -3318,6 +3374,8 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G1072186308",
@@ -3334,16 +3392,24 @@
         "ror": "https://ror.org/035b05819"
       },
       {
+        "id": "https://openalex.org/F4320322436",
+        "display_name": "Novo Nordisk",
+        "ror": "https://ror.org/0435rc536"
+      },
+      {
         "id": "https://openalex.org/F4320325957",
         "display_name": "Novo Nordisk Fonden",
         "ror": "https://ror.org/04txyc737"
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "grobid_xml": true,
+      "pdf": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7160138812.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7160138812.grobid-xml"
+    },
     "referenced_works_count": 24,
     "referenced_works": [
       "https://openalex.org/W1660984842",
@@ -3372,9 +3438,365 @@
       "https://openalex.org/W4399577020"
     ],
     "related_works": [],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "Through": [
+        0
+      ],
+      "an": [
+        1
+      ],
+      "ethnographic": [
+        2
+      ],
+      "account": [
+        3
+      ],
+      "of": [
+        4,
+        8,
+        24,
+        45,
+        61,
+        68,
+        84,
+        101,
+        123,
+        142
+      ],
+      "the": [
+        5,
+        19,
+        22,
+        39,
+        50,
+        58,
+        77,
+        91,
+        99,
+        121,
+        130,
+        140
+      ],
+      "various": [
+        6
+      ],
+      "forms": [
+        7
+      ],
+      "ruination": [
+        9
+      ],
+      "experienced": [
+        10
+      ],
+      "by": [
+        11
+      ],
+      "Syrians": [
+        12,
+        87
+      ],
+      "displaced": [
+        13
+      ],
+      "to": [
+        14,
+        27,
+        81,
+        89
+      ],
+      "Jordan,": [
+        15
+      ],
+      "Lebanon": [
+        16
+      ],
+      "and": [
+        17,
+        31,
+        52,
+        72,
+        79,
+        108,
+        115,
+        132,
+        146
+      ],
+      "Turkey,": [
+        18
+      ],
+      "article": [
+        20
+      ],
+      "investigates": [
+        21
+      ],
+      "stakes": [
+        23
+      ],
+      "Syrians\u2019": [
+        25
+      ],
+      "attempts": [
+        26
+      ],
+      "forge": [
+        28
+      ],
+      "worthwhile": [
+        29
+      ],
+      "lives": [
+        30
+      ],
+      "futures": [
+        32
+      ],
+      "in": [
+        33,
+        43,
+        65,
+        96,
+        103
+      ],
+      "refuge.": [
+        34
+      ],
+      "Against": [
+        35
+      ],
+      "perspectives": [
+        36
+      ],
+      "that": [
+        37,
+        56
+      ],
+      "centre": [
+        38
+      ],
+      "biographical": [
+        40,
+        131
+      ],
+      "or": [
+        41
+      ],
+      "political": [
+        42,
+        133
+      ],
+      "critiques": [
+        44
+      ],
+      "humanitarianism\u2019s": [
+        46
+      ],
+      "exclusive": [
+        47
+      ],
+      "focus": [
+        48
+      ],
+      "on": [
+        49
+      ],
+      "biological": [
+        51
+      ],
+      "survival,": [
+        53
+      ],
+      "it": [
+        54
+      ],
+      "argues": [
+        55
+      ],
+      "recovering": [
+        57
+      ],
+      "viable": [
+        59
+      ],
+      "parts": [
+        60
+      ],
+      "one\u2019s": [
+        62
+      ],
+      "previous": [
+        63
+      ],
+      "existence": [
+        64
+      ],
+      "a": [
+        66,
+        82,
+        144,
+        147
+      ],
+      "context": [
+        67
+      ],
+      "ongoing": [
+        69
+      ],
+      "social,": [
+        70
+      ],
+      "economic": [
+        71
+      ],
+      "legal": [
+        73
+      ],
+      "dispossession": [
+        74
+      ],
+      "is": [
+        75
+      ],
+      "exactly": [
+        76
+      ],
+      "challenge": [
+        78
+      ],
+      "amounts": [
+        80
+      ],
+      "form": [
+        83
+      ],
+      "ruination.": [
+        85
+      ],
+      "As": [
+        86
+      ],
+      "attempted": [
+        88
+      ],
+      "reconcile": [
+        90
+      ],
+      "standards": [
+        92
+      ],
+      "they": [
+        93
+      ],
+      "had": [
+        94
+      ],
+      "established": [
+        95
+      ],
+      "Syria": [
+        97
+      ],
+      "with": [
+        98
+      ],
+      "realities": [
+        100
+      ],
+      "life": [
+        102,
+        145
+      ],
+      "displacement": [
+        104
+      ],
+      "during": [
+        105
+      ],
+      "conflict,": [
+        106
+      ],
+      "hesitations": [
+        107
+      ],
+      "doubts": [
+        109
+      ],
+      "about": [
+        110
+      ],
+      "what": [
+        111,
+        117
+      ],
+      "was": [
+        112
+      ],
+      "worth": [
+        113
+      ],
+      "salvaging": [
+        114
+      ],
+      "at": [
+        116,
+        120
+      ],
+      "price": [
+        118
+      ],
+      "were": [
+        119,
+        134
+      ],
+      "forefront": [
+        122
+      ],
+      "their": [
+        124
+      ],
+      "contemplations.": [
+        125
+      ],
+      "Hence,": [
+        126
+      ],
+      "for": [
+        127
+      ],
+      "my": [
+        128
+      ],
+      "interlocutors,": [
+        129
+      ],
+      "questions": [
+        135
+      ],
+      "rather": [
+        136
+      ],
+      "than": [
+        137
+      ],
+      "answers": [
+        138
+      ],
+      "regarding": [
+        139
+      ],
+      "issue": [
+        141
+      ],
+      "forging": [
+        143
+      ],
+      "future.": [
+        148
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2026-05-05T06:12:25.323381",
+    "updated_date": "2026-10-27T15:51:10.671819",
     "created_date": "2026-05-05T00:00:00"
   },
   {
@@ -3382,7 +3804,7 @@
     "doi": "https://doi.org/10.1080/00141844.2025.2465528",
     "title": "Resilience for Whom? Resiliency Humanitarianism and Everyday Resistance in a Carceral Camp",
     "display_name": "Resilience for Whom? Resiliency Humanitarianism and Everyday Resistance in a Carceral Camp",
-    "relevance_score": 6.9383883,
+    "relevance_score": 3.0152423,
     "publication_year": 2025,
     "publication_date": "2025-02-19",
     "ids": {
@@ -3392,9 +3814,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/00141844.2025.2465528",
-      "is_oa": false,
+      "doi": "https://doi.org/10.1080/00141844.2025.2465528",
+      "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/00141844.2025.2465528",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2025.2465528?needAccess=true",
       "source": {
         "id": "https://openalex.org/S43131466",
         "display_name": "Ethnos",
@@ -3406,32 +3829,46 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Ethnos",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
       "is_oa": true,
-      "oa_status": "green",
-      "oa_url": null,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2025.2465528?needAccess=true",
       "any_repository_has_fulltext": true
     },
     "authorships": [
@@ -3440,7 +3877,10 @@
         "author": {
           "id": "https://openalex.org/A5045988440",
           "display_name": "Melissa Gatter",
-          "orcid": "https://orcid.org/0000-0002-8423-9347"
+          "orcid": "https://orcid.org/0000-0002-8423-9347",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8423-9347"
+          ]
         },
         "institutions": [
           {
@@ -3484,12 +3924,12 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 22.339,
-    "has_fulltext": false,
-    "cited_by_count": 6,
+    "fwci": 13.9389,
+    "has_fulltext": true,
+    "cited_by_count": 8,
     "citation_normalized_percentile": {
-      "value": 0.99220379,
-      "is_in_top_1_percent": true,
+      "value": 0.98531786,
+      "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
@@ -3506,9 +3946,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10318",
-      "display_name": "Criminal Justice and Corrections Analysis",
-      "score": 0.9936000108718872,
+      "id": "https://openalex.org/T14062",
+      "display_name": "Migration and Exile Studies",
+      "score": 0.9951000213623047,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -3524,9 +3964,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10318",
-        "display_name": "Criminal Justice and Corrections Analysis",
-        "score": 0.9936000108718872,
+        "id": "https://openalex.org/T14062",
+        "display_name": "Migration and Exile Studies",
+        "score": 0.9951000213623047,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -3541,9 +3981,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T13525",
-        "display_name": "Cambodian History and Society",
-        "score": 0.9521999955177307,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.0008999999845400453,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -3558,12 +3998,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T13055",
-        "display_name": "Global Security and Public Health",
-        "score": 0.9463000297546387,
+        "id": "https://openalex.org/T10149",
+        "display_name": "Anthropological Studies and Insights",
+        "score": 0.000699999975040555,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -3577,39 +4017,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/resistance",
-        "display_name": "Resistance (ecology)",
-        "score": 0.7611477375030518
-      },
-      {
         "id": "https://openalex.org/keywords/resilience",
-        "display_name": "Resilience (materials science)",
-        "score": 0.758961021900177
+        "display_name": "resilience",
+        "score": 0.9559999704360962
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.5223513841629028
+        "id": "https://openalex.org/keywords/everyday-resistance",
+        "display_name": "everyday resistance",
+        "score": 0.7689999938011169
       },
       {
-        "id": "https://openalex.org/keywords/criminology",
-        "display_name": "Criminology",
-        "score": 0.5113627314567566
+        "id": "https://openalex.org/keywords/refugee-camps",
+        "display_name": "refugee camps",
+        "score": 0.8209999799728394
       },
       {
-        "id": "https://openalex.org/keywords/environmental-ethics",
-        "display_name": "Environmental ethics",
-        "score": 0.3677675127983093
+        "id": "https://openalex.org/keywords/syrian-refugees",
+        "display_name": "Syrian refugees",
+        "score": 0.8629999756813049
       },
       {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.12177476286888123
+        "id": "https://openalex.org/keywords/neoliberalism",
+        "display_name": "neoliberalism",
+        "score": 0.5600000023841858
       },
       {
-        "id": "https://openalex.org/keywords/ecology",
-        "display_name": "Ecology",
-        "score": 0.09805521368980408
+        "id": "https://openalex.org/keywords/responsibilization",
+        "display_name": "responsibilization",
+        "score": 0.7839999794960022
+      },
+      {
+        "id": "https://openalex.org/keywords/autonomy",
+        "display_name": "autonomy",
+        "score": 0.48399999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/displacement",
+        "display_name": "displacement",
+        "score": 0.5590000152587891
+      },
+      {
+        "id": "https://openalex.org/keywords/securitization",
+        "display_name": "securitization",
+        "score": 0.6600000262260437
+      },
+      {
+        "id": "https://openalex.org/keywords/power",
+        "display_name": "power",
+        "score": 0.30799999833106995
       }
     ],
     "concepts": [
@@ -3689,9 +4144,10 @@
     "locations": [
       {
         "id": "doi:10.1080/00141844.2025.2465528",
-        "is_oa": false,
+        "doi": "https://doi.org/10.1080/00141844.2025.2465528",
+        "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/00141844.2025.2465528",
-        "pdf_url": null,
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2025.2465528?needAccess=true",
         "source": {
           "id": "https://openalex.org/S43131466",
           "display_name": "Ethnos",
@@ -3703,18 +4159,31 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -3723,8 +4192,9 @@
       },
       {
         "id": "pmh:oai:figshare.com:article/28368722",
+        "doi": null,
         "is_oa": true,
-        "landing_page_url": null,
+        "landing_page_url": "https://figshare.com/articles/journal_contribution/Resilience_for_whom_resiliency_humanitarianism_and_everyday_resistance_in_a_carceral_camp/28368722",
         "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S4377196282",
@@ -3734,6 +4204,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I4210132348",
           "host_organization_name": "Figshare (United Kingdom)",
           "host_organization_lineage": [
@@ -3748,47 +4219,71 @@
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
-        "raw_type": "Journal contribution"
+        "raw_type": "Text"
       }
     ],
     "best_oa_location": {
-      "id": "pmh:oai:figshare.com:article/28368722",
+      "id": "doi:10.1080/00141844.2025.2465528",
+      "doi": "https://doi.org/10.1080/00141844.2025.2465528",
       "is_oa": true,
-      "landing_page_url": null,
-      "pdf_url": null,
+      "landing_page_url": "https://doi.org/10.1080/00141844.2025.2465528",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/00141844.2025.2465528?needAccess=true",
       "source": {
-        "id": "https://openalex.org/S4377196282",
-        "display_name": "Figshare",
-        "issn_l": null,
-        "issn": null,
+        "id": "https://openalex.org/S43131466",
+        "display_name": "Ethnos",
+        "issn_l": "0014-1844",
+        "issn": [
+          "0014-1844",
+          "1469-588X"
+        ],
         "is_oa": false,
         "is_in_doaj": false,
-        "is_core": false,
-        "host_organization": "https://openalex.org/I4210132348",
-        "host_organization_name": "Figshare (United Kingdom)",
-        "host_organization_lineage": [
-          "https://openalex.org/I4210132348"
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
         ],
-        "host_organization_lineage_names": [],
-        "type": "repository"
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
       },
       "license": "cc-by-nc-nd",
       "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
-      "version": "submittedVersion",
-      "is_accepted": false,
-      "is_published": false,
-      "raw_source_name": null,
-      "raw_type": "Journal contribution"
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Ethnos",
+      "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "grobid_xml": true,
+      "pdf": true
     },
-    "content_urls": null,
-    "referenced_works_count": 72,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4407722194.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4407722194.grobid-xml"
+    },
+    "referenced_works_count": 71,
     "referenced_works": [
       "https://openalex.org/W133664784",
       "https://openalex.org/W316671780",
@@ -3860,385 +4355,379 @@
       "https://openalex.org/W4317702703",
       "https://openalex.org/W4323352714",
       "https://openalex.org/W4387044650",
-      "https://openalex.org/W4401142183",
-      "https://openalex.org/W6751486046"
+      "https://openalex.org/W4401142183"
     ],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W2284759612",
-      "https://openalex.org/W4402320089",
-      "https://openalex.org/W4407154879",
-      "https://openalex.org/W4378555281",
-      "https://openalex.org/W2953081822",
-      "https://openalex.org/W2752145644",
-      "https://openalex.org/W4404656008",
-      "https://openalex.org/W1494866366"
+      "https://openalex.org/W2180962077",
+      "https://openalex.org/W4283832703",
+      "https://openalex.org/W4283725752",
+      "https://openalex.org/W2975365755",
+      "https://openalex.org/W3124817789",
+      "https://openalex.org/W3194604561",
+      "https://openalex.org/W3125390388",
+      "https://openalex.org/W2899387407",
+      "https://openalex.org/W2952321962",
+      "https://openalex.org/W4317702703"
     ],
     "abstract_inverted_index": {
-      "<p": [
-        0
-      ],
-      "dir=\"ltr\">This": [
-        1
+      "This": [
+        0,
+        124
       ],
       "article": [
-        2,
-        49,
-        126
+        1,
+        48,
+        125
       ],
       "pushes": [
-        3
+        2
       ],
       "beyond": [
-        4
+        3
       ],
       "critiques": [
-        5
+        4
       ],
       "of": [
-        6,
-        21,
-        37,
-        56,
-        73,
-        85,
-        98,
-        109,
-        120
+        5,
+        20,
+        36,
+        55,
+        72,
+        84,
+        97,
+        108,
+        119
       ],
       "resilience": [
-        7,
-        29,
-        51,
-        110,
-        135,
-        139
+        6,
+        28,
+        50,
+        109,
+        134,
+        138
       ],
       "as": [
-        8,
-        17
-      ],
-      "a": [
-        9,
-        57,
-        96,
-        128
-      ],
-      "neoliberal": [
-        10
-      ],
-      "object": [
-        11
-      ],
-      "and": [
-        12,
-        30,
-        47,
-        92,
-        142
-      ],
-      "descriptor,": [
-        13
-      ],
-      "approaching": [
-        14
-      ],
-      "the": [
-        15,
-        41,
-        71,
-        83,
-        117
-      ],
-      "term": [
+        7,
         16
       ],
+      "a": [
+        8,
+        56,
+        95,
+        127
+      ],
+      "neoliberal": [
+        9
+      ],
+      "object": [
+        10
+      ],
+      "and": [
+        11,
+        29,
+        46,
+        91,
+        141
+      ],
+      "descriptor,": [
+        12
+      ],
+      "approaching": [
+        13
+      ],
+      "the": [
+        14,
+        40,
+        70,
+        82,
+        116
+      ],
+      "term": [
+        15
+      ],
       "an": [
-        18
+        17
       ],
       "analytical": [
-        19
+        18
       ],
       "diagnostic": [
-        20
+        19
       ],
       "power": [
-        22
+        21
       ],
       "to": [
-        23,
-        114,
-        116,
-        145
+        22,
+        113,
+        115,
+        144
       ],
       "open": [
-        24
+        23
       ],
       "new": [
-        25,
-        129
+        24,
+        128
       ],
       "anthropological": [
-        26
+        25
       ],
       "query": [
-        27
+        26
       ],
       "around": [
-        28
+        27
       ],
       "resistance": [
-        31
+        30
       ],
       "in": [
-        32,
-        40,
-        65,
-        111
+        31,
+        39,
+        64,
+        110
       ],
       "refugee": [
-        33,
-        60
+        32,
+        59
       ],
       "camps.": [
-        34
+        33
       ],
       "The": [
-        35
+        34
       ],
       "rise": [
-        36
+        35
       ],
       "resiliency": [
+        37,
+        85
+      ],
+      "humanitarianism": [
         38,
         86
       ],
-      "humanitarianism": [
-        39,
-        87
-      ],
       "past": [
-        42
+        41
       ],
       "decade": [
-        43
+        42
       ],
       "has": [
-        44
+        43
       ],
       "responsibilised": [
-        45
+        44
       ],
       "refugees,": [
-        46
+        45
       ],
       "this": [
-        48
+        47
       ],
       "analyses": [
-        50
+        49
       ],
       "narratives": [
-        52
+        51
       ],
       "surrounding": [
-        53
+        52
       ],
       "two": [
-        54
+        53
       ],
       "residents": [
-        55,
-        80
-      ],
-      "securitised": [
-        58
-      ],
-      "Syrian": [
-        59
-      ],
-      "camp": [
-        61,
+        54,
         79
       ],
+      "securitised": [
+        57
+      ],
+      "Syrian": [
+        58
+      ],
+      "camp": [
+        60,
+        78
+      ],
       "who": [
-        62,
-        138,
-        143
+        61,
+        137,
+        142
       ],
       "are": [
-        63
+        62
       ],
       "featured": [
-        64
+        63
       ],
       "humanitarian": [
-        66,
-        107
-      ],
-      "\u2018success": [
-        67
-      ],
-      "stories\u2019.": [
-        68
-      ],
-      "Peering": [
-        69
-      ],
-      "behind": [
-        70
-      ],
-      "scenes": [
-        72
-      ],
-      "these": [
-        74
-      ],
-      "stories,": [
-        75
-      ],
-      "it": [
-        76
-      ],
-      "argues": [
-        77
-      ],
-      "that": [
-        78,
-        136
-      ],
-      "quietly": [
-        81
-      ],
-      "resist": [
-        82
-      ],
-      "logic": [
-        84
-      ],
-      "by": [
-        88
-      ],
-      "reclaiming": [
-        89
-      ],
-      "temporal,": [
-        90
-      ],
-      "spatial,": [
-        91
-      ],
-      "imaginative": [
-        93
-      ],
-      "autonomy": [
-        94
-      ],
-      "within": [
-        95
-      ],
-      "context": [
-        97
-      ],
-      "limited": [
-        99
-      ],
-      "choice.": [
-        100
-      ],
-      "Acting": [
-        101
-      ],
-      "on": [
-        102
-      ],
-      "opportune": [
-        103
-      ],
-      "moments,": [
-        104
-      ],
-      "refugees": [
-        105
-      ],
-      "disrupt": [
+        65,
         106
       ],
+      "\u2018success": [
+        66
+      ],
+      "stories\u2019.": [
+        67
+      ],
+      "Peering": [
+        68
+      ],
+      "behind": [
+        69
+      ],
+      "scenes": [
+        71
+      ],
+      "these": [
+        73
+      ],
+      "stories,": [
+        74
+      ],
+      "it": [
+        75
+      ],
+      "argues": [
+        76
+      ],
+      "that": [
+        77,
+        135
+      ],
+      "quietly": [
+        80
+      ],
+      "resist": [
+        81
+      ],
+      "logic": [
+        83
+      ],
+      "by": [
+        87
+      ],
+      "reclaiming": [
+        88
+      ],
+      "temporal,": [
+        89
+      ],
+      "spatial,": [
+        90
+      ],
+      "imaginative": [
+        92
+      ],
+      "autonomy": [
+        93
+      ],
+      "within": [
+        94
+      ],
+      "context": [
+        96
+      ],
+      "limited": [
+        98
+      ],
+      "choice.": [
+        99
+      ],
+      "Acting": [
+        100
+      ],
+      "on": [
+        101
+      ],
+      "opportune": [
+        102
+      ],
+      "moments,": [
+        103
+      ],
+      "refugees": [
+        104
+      ],
+      "disrupt": [
+        105
+      ],
       "notions": [
-        108
+        107
       ],
       "their": [
-        112
+        111
       ],
       "refusal": [
-        113
+        112
       ],
       "subscribe": [
-        115
+        114
       ],
       "singular": [
-        118
+        117
       ],
       "vision": [
-        119
+        118
       ],
       "displacement": [
-        121
+        120
       ],
       "dictated": [
-        122
+        121
       ],
       "for": [
-        123,
-        131,
-        141
-      ],
-      "them.": [
-        124
-      ],
-      "This": [
-        125
-      ],
-      "proposes": [
-        127
-      ],
-      "avenue": [
-        130
-      ],
-      "critical": [
-        132
-      ],
-      "engagement": [
-        133
-      ],
-      "with": [
-        134
-      ],
-      "interrogates": [
-        137
-      ],
-      "is": [
+        122,
+        130,
         140
       ],
+      "them.": [
+        123
+      ],
+      "proposes": [
+        126
+      ],
+      "avenue": [
+        129
+      ],
+      "critical": [
+        131
+      ],
+      "engagement": [
+        132
+      ],
+      "with": [
+        133
+      ],
+      "interrogates": [
+        136
+      ],
+      "is": [
+        139
+      ],
       "gets": [
-        144
+        143
       ],
       "decide.": [
-        146
+        145
       ]
     },
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 2
+        "cited_by_count": 4
       },
       {
         "year": 2025,
         "cited_by_count": 4
       }
     ],
-    "updated_date": "2026-02-11T14:41:00.668223",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2025-02-19T00:00:00"
   }
 ]

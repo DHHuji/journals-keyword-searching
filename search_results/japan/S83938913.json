@@ -9620,7 +9620,7 @@
     "doi": "https://doi.org/10.64590/xtz",
     "title": "Old Wine in New Bottles",
     "display_name": "Old Wine in New Bottles",
-    "relevance_score": 3.4925952,
+    "relevance_score": 2.465485,
     "publication_year": 2025,
     "publication_date": "2025-07-31",
     "ids": {
@@ -9630,26 +9630,38 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.64590/xtz",
+      "doi": "https://doi.org/10.64590/xtz",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.64590/xtz",
       "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S83938913",
-        "display_name": "New left review",
+        "display_name": "New Left Review",
         "issn_l": "0028-6060",
         "issn": [
-          "0028-6060"
+          "0028-6060",
+          "2044-0480"
         ],
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -9661,6 +9673,7 @@
       "raw_source_name": "New Left Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -9675,38 +9688,40 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5119611066",
+          "id": "https://openalex.org/A5143434291",
           "display_name": "Kevin Gray",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
         "is_corresponding": true,
         "raw_author_name": "Kevin Gray",
         "raw_affiliation_strings": [],
+        "raw_orcid": null,
         "affiliations": []
       }
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
-      "https://openalex.org/A5119611066"
+      "https://openalex.org/A5143434291"
     ],
     "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 4.7137,
+    "fwci": 7.8532,
     "has_fulltext": false,
-    "cited_by_count": 1,
+    "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.94959575,
+      "value": 0.96881285,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 96
     },
     "biblio": {
       "volume": "2",
@@ -9718,12 +9733,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13337",
-      "display_name": "Korean Peninsula Historical and Political Studies",
-      "score": 0.26409998536109924,
+      "id": "https://openalex.org/T11397",
+      "display_name": "Populism, Right-Wing Movements",
+      "score": 0.79830002784729,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -9736,9 +9751,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T11397",
+        "display_name": "Populism, Right-Wing Movements",
+        "score": 0.79830002784729,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T13337",
         "display_name": "Korean Peninsula Historical and Political Studies",
-        "score": 0.26409998536109924,
+        "score": 0.17090000212192535,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -9755,24 +9787,7 @@
       {
         "id": "https://openalex.org/T13303",
         "display_name": "Asian Culture and Media Studies",
-        "score": 0.19200000166893005,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3316",
-          "display_name": "Cultural Studies"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T11198",
-        "display_name": "Japanese History and Culture",
-        "score": 0.1274999976158142,
+        "score": 0.004800000227987766,
         "subfield": {
           "id": "https://openalex.org/subfields/3316",
           "display_name": "Cultural Studies"
@@ -9789,19 +9804,39 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/nationalism",
-        "display_name": "Nationalism",
-        "score": 0.6477000117301941
+        "id": "https://openalex.org/keywords/nationalist-mobilization",
+        "display_name": "nationalist mobilization",
+        "score": 0.7950000166893005
       },
       {
-        "id": "https://openalex.org/keywords/wine",
-        "display_name": "Wine",
-        "score": 0.5781999826431274
+        "id": "https://openalex.org/keywords/new-right",
+        "display_name": "New Right",
+        "score": 0.4269999861717224
       },
       {
-        "id": "https://openalex.org/keywords/lineage",
-        "display_name": "Lineage (genetic)",
-        "score": 0.3709999918937683
+        "id": "https://openalex.org/keywords/south-korea",
+        "display_name": "South Korea",
+        "score": 0.5379999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/japanese-imperialism",
+        "display_name": "Japanese imperialism",
+        "score": 0.5360000133514404
+      },
+      {
+        "id": "https://openalex.org/keywords/american-imperialism",
+        "display_name": "American imperialism",
+        "score": 0.7820000052452087
+      },
+      {
+        "id": "https://openalex.org/keywords/collaboration",
+        "display_name": "collaboration",
+        "score": 0.3529999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/right-wing-populism",
+        "display_name": "right-wing populism",
+        "score": 0.6389999985694885
       }
     ],
     "concepts": [
@@ -9888,26 +9923,38 @@
     "locations": [
       {
         "id": "doi:10.64590/xtz",
+        "doi": "https://doi.org/10.64590/xtz",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.64590/xtz",
         "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S83938913",
-          "display_name": "New left review",
+          "display_name": "New Left Review",
           "issn_l": "0028-6060",
           "issn": [
-            "0028-6060"
+            "0028-6060",
+            "2044-0480"
           ],
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-2",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -9921,7 +9968,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.9595999717712402,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -10093,11 +10148,15 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 1
+      },
+      {
         "year": 2025,
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-03-07T16:01:11.037858",
+    "updated_date": "2026-09-24T07:57:37.273135",
     "created_date": "2025-10-10T00:00:00"
   },
   {

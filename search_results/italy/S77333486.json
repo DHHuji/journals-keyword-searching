@@ -19431,7 +19431,7 @@
     "doi": "https://doi.org/10.1177/02632764251334548",
     "title": "Life Deactivated: Philosophies on the End of the World",
     "display_name": "Life Deactivated: Philosophies on the End of the World",
-    "relevance_score": 0.7447114,
+    "relevance_score": 2.1233265,
     "publication_year": 2025,
     "publication_date": "2025-05-30",
     "ids": {
@@ -19441,9 +19441,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/02632764251334548",
-      "is_oa": false,
+      "doi": "https://doi.org/10.1177/02632764251334548",
+      "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/02632764251334548",
-      "pdf_url": null,
+      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/02632764251334548?download=true",
       "source": {
         "id": "https://openalex.org/S77333486",
         "display_name": "Theory Culture & Society",
@@ -19455,6 +19456,18 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -19473,14 +19486,15 @@
       "raw_source_name": "Theory, Culture &amp; Society",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
-      "is_oa": false,
-      "oa_status": "closed",
-      "oa_url": null,
+      "is_oa": true,
+      "oa_status": "bronze",
+      "oa_url": "https://journals.sagepub.com/doi/pdf/10.1177/02632764251334548?download=true",
       "any_repository_has_fulltext": false
     },
     "authorships": [
@@ -19489,7 +19503,10 @@
         "author": {
           "id": "https://openalex.org/A5031559980",
           "display_name": "Paolo Bartoloni",
-          "orcid": "https://orcid.org/0000-0003-4892-4328"
+          "orcid": "https://orcid.org/0000-0003-4892-4328",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4892-4328"
+          ]
         },
         "institutions": [
           {
@@ -19526,7 +19543,10 @@
         "author": {
           "id": "https://openalex.org/A5011727952",
           "display_name": "Enea Bianchi",
-          "orcid": "https://orcid.org/0000-0001-9756-7182"
+          "orcid": "https://orcid.org/0000-0001-9756-7182",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9756-7182"
+          ]
         },
         "institutions": [
           {
@@ -19568,13 +19588,17 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I17974374"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.12036925,
+      "value": 0.10184838,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -19589,9 +19613,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12366",
-      "display_name": "Philosophy, Ethics, and Existentialism",
-      "score": 0.9836999773979187,
+      "id": "https://openalex.org/T12726",
+      "display_name": "Philosophical and Cultural Analysis",
+      "score": 0.5249000191688538,
       "subfield": {
         "id": "https://openalex.org/subfields/1211",
         "display_name": "Philosophy"
@@ -19607,9 +19631,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12366",
-        "display_name": "Philosophy, Ethics, and Existentialism",
-        "score": 0.9836999773979187,
+        "id": "https://openalex.org/T12726",
+        "display_name": "Philosophical and Cultural Analysis",
+        "score": 0.5249000191688538,
         "subfield": {
           "id": "https://openalex.org/subfields/1211",
           "display_name": "Philosophy"
@@ -19624,12 +19648,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T12311",
-        "display_name": "Political Theology and Sovereignty",
-        "score": 0.982200026512146,
+        "id": "https://openalex.org/T10738",
+        "display_name": "Posthumanist Ethics and Activism",
+        "score": 0.13459999859333038,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -19641,16 +19665,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T12723",
-        "display_name": "Hannah Arendt's Political Philosophy",
-        "score": 0.9593999981880188,
+        "id": "https://openalex.org/T12457",
+        "display_name": "Ecocriticism and Environmental Literature",
+        "score": 0.10140000283718109,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/1208",
+          "display_name": "Literature and Literary Theory"
         },
         "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -19660,59 +19684,84 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.46508970856666565
+        "id": "https://openalex.org/keywords/apocalyptic-scenarios",
+        "display_name": "apocalyptic scenarios",
+        "score": 0.8989999890327454
       },
       {
-        "id": "https://openalex.org/keywords/end-of-history",
-        "display_name": "End of history",
-        "score": 0.4416577219963074
+        "id": "https://openalex.org/keywords/end-of-the-world",
+        "display_name": "end of the world",
+        "score": 0.8460000157356262
       },
       {
-        "id": "https://openalex.org/keywords/dead-end",
-        "display_name": "Dead end",
-        "score": 0.4281241297721863
+        "id": "https://openalex.org/keywords/giorgio-agamben",
+        "display_name": "Giorgio Agamben",
+        "score": 0.9850000143051147
       },
       {
-        "id": "https://openalex.org/keywords/aesthetics",
-        "display_name": "Aesthetics",
-        "score": 0.41314762830734253
+        "id": "https://openalex.org/keywords/inoperativity",
+        "display_name": "inoperativity",
+        "score": 0.9959999918937683
       },
       {
-        "id": "https://openalex.org/keywords/environmental-ethics",
-        "display_name": "Environmental ethics",
-        "score": 0.4020555019378662
+        "id": "https://openalex.org/keywords/technological-utopianism",
+        "display_name": "technological utopia",
+        "score": 0.8500000238418579
       },
       {
-        "id": "https://openalex.org/keywords/epistemology",
-        "display_name": "Epistemology",
-        "score": 0.3478485941886902
+        "id": "https://openalex.org/keywords/primitivism",
+        "display_name": "primitivism",
+        "score": 0.9800000190734863
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.3052910566329956
+        "id": "https://openalex.org/keywords/human-nature-relationship",
+        "display_name": "human-nature relationship",
+        "score": 0.7080000042915344
       },
       {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.2985151410102844
+        "id": "https://openalex.org/keywords/post-anthropocentrism",
+        "display_name": "post-anthropocentrism",
+        "score": 0.9739999771118164
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.18074843287467957
+        "id": "https://openalex.org/keywords/the-last-of-us",
+        "display_name": "The Last of Us",
+        "score": 0.9449999928474426
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.16324183344841003
+        "id": "https://openalex.org/keywords/video-games",
+        "display_name": "video games",
+        "score": 0.9200000166893005
       },
       {
-        "id": "https://openalex.org/keywords/meaning",
-        "display_name": "Meaning (existential)",
-        "score": 0.1007218062877655
+        "id": "https://openalex.org/keywords/anthropocene",
+        "display_name": "Anthropocene",
+        "score": 0.734000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/human-subjectivity",
+        "display_name": "human subjectivity",
+        "score": 0.8209999799728394
+      },
+      {
+        "id": "https://openalex.org/keywords/agency",
+        "display_name": "agency",
+        "score": 0.6499999761581421
+      },
+      {
+        "id": "https://openalex.org/keywords/intentionality",
+        "display_name": "intentionality",
+        "score": 0.9279999732971191
+      },
+      {
+        "id": "https://openalex.org/keywords/ethics",
+        "display_name": "ethics",
+        "score": 0.8320000171661377
+      },
+      {
+        "id": "https://openalex.org/keywords/global-crisis",
+        "display_name": "global crisis",
+        "score": 0.5360000133514404
       }
     ],
     "concepts": [
@@ -19799,9 +19848,10 @@
     "locations": [
       {
         "id": "doi:10.1177/02632764251334548",
-        "is_oa": false,
+        "doi": "https://doi.org/10.1177/02632764251334548",
+        "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/02632764251334548",
-        "pdf_url": null,
+        "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/02632764251334548?download=true",
         "source": {
           "id": "https://openalex.org/S77333486",
           "display_name": "Theory Culture & Society",
@@ -19813,6 +19863,18 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "fnege-3",
+            "jufo-2",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -19832,15 +19894,80 @@
         "raw_type": "journal-article"
       }
     ],
-    "best_oa_location": null,
-    "sustainable_development_goals": [],
-    "awards": [],
-    "funders": [],
-    "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+    "best_oa_location": {
+      "id": "doi:10.1177/02632764251334548",
+      "doi": "https://doi.org/10.1177/02632764251334548",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1177/02632764251334548",
+      "pdf_url": "https://journals.sagepub.com/doi/pdf/10.1177/02632764251334548?download=true",
+      "source": {
+        "id": "https://openalex.org/S77333486",
+        "display_name": "Theory Culture & Society",
+        "issn_l": "0263-2764",
+        "issn": [
+          "0263-2764",
+          "1460-3616"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "fnege-3",
+          "jufo-2",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320017",
+        "host_organization_name": "SAGE Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320017"
+        ],
+        "host_organization_lineage_names": [
+          "SAGE Publishing"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Theory, Culture &amp; Society",
+      "raw_type": "journal-article"
     },
-    "content_urls": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
+      {
+        "id": "https://openalex.org/G3833939491",
+        "display_name": null,
+        "funder_award_id": "2024/09224-3",
+        "funder_id": "https://openalex.org/F4320320997",
+        "funder_display_name": "Funda\u00e7\u00e3o de Amparo \u00e0 Pesquisa do Estado de S\u00e3o Paulo"
+      }
+    ],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320997",
+        "display_name": "Funda\u00e7\u00e3o de Amparo \u00e0 Pesquisa do Estado de S\u00e3o Paulo",
+        "ror": "https://ror.org/02ddkpn78"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4410884173.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4410884173.grobid-xml"
+    },
     "referenced_works_count": 30,
     "referenced_works": [
       "https://openalex.org/W642903206",
@@ -19875,16 +20002,16 @@
       "https://openalex.org/W4401631379"
     ],
     "related_works": [
-      "https://openalex.org/W3016188207",
-      "https://openalex.org/W649898653",
-      "https://openalex.org/W2059054068",
-      "https://openalex.org/W2063498374",
-      "https://openalex.org/W2952784947",
-      "https://openalex.org/W2070676488",
-      "https://openalex.org/W2361511668",
-      "https://openalex.org/W2227643758",
-      "https://openalex.org/W3118453067",
-      "https://openalex.org/W4382464999"
+      "https://openalex.org/W4293466628",
+      "https://openalex.org/W4401736383",
+      "https://openalex.org/W7008521427",
+      "https://openalex.org/W3182684848",
+      "https://openalex.org/W2741884632",
+      "https://openalex.org/W6998622294",
+      "https://openalex.org/W4292696099",
+      "https://openalex.org/W4388845779",
+      "https://openalex.org/W4327519279",
+      "https://openalex.org/W4241967359"
     ],
     "abstract_inverted_index": {
       "This": [
@@ -20199,7 +20326,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-10-10T00:00:00"
   }
 ]

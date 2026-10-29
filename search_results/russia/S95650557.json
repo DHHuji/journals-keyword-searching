@@ -27878,7 +27878,7 @@
     "doi": "https://doi.org/10.1086/736025",
     "title": "Professorial Silence: Academic Freedom, Domination, and Self-Censorship in Contemporary Russia",
     "display_name": "Professorial Silence: Academic Freedom, Domination, and Self-Censorship in Contemporary Russia",
-    "relevance_score": 9.931721,
+    "relevance_score": 26.150742,
     "publication_year": 2025,
     "publication_date": "2025-04-03",
     "ids": {
@@ -27888,6 +27888,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/736025",
+      "doi": "https://doi.org/10.1086/736025",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/736025",
       "pdf_url": null,
@@ -27902,6 +27903,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -27922,6 +27934,7 @@
       "raw_source_name": "The Journal of Politics",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -27938,32 +27951,24 @@
         "author": {
           "id": "https://openalex.org/A5026290754",
           "display_name": "Evgeny Roshchin",
-          "orcid": "https://orcid.org/0000-0002-5481-8348"
+          "orcid": "https://orcid.org/0000-0002-5481-8348",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5481-8348"
+          ]
         },
         "institutions": [
           {
-            "id": "https://openalex.org/I4210086988",
-            "display_name": "Centre for European Policy Studies",
-            "ror": "https://ror.org/000a2sx58",
-            "country_code": "BE",
+            "id": "https://openalex.org/I4210133699",
+            "display_name": "Center for European Policy Analysis",
+            "ror": "https://ror.org/03fy1q357",
+            "country_code": "US",
             "type": "nonprofit",
             "lineage": [
-              "https://openalex.org/I4210086988"
-            ]
-          },
-          {
-            "id": "https://openalex.org/I4210122455",
-            "display_name": "Policy Analysis (United States)",
-            "ror": "https://ror.org/02jxrxr40",
-            "country_code": "US",
-            "type": "company",
-            "lineage": [
-              "https://openalex.org/I4210122455"
+              "https://openalex.org/I4210133699"
             ]
           }
         ],
         "countries": [
-          "BE",
           "US"
         ],
         "is_corresponding": true,
@@ -27971,43 +27976,45 @@
         "raw_affiliation_strings": [
           "Center for European Policy Analysis"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Center for European Policy Analysis",
             "institution_ids": [
-              "https://openalex.org/I4210086988",
-              "https://openalex.org/I4210122455"
+              "https://openalex.org/I4210133699"
             ]
           }
         ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 2,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5026290754"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I4210086988",
-      "https://openalex.org/I4210122455"
+      "https://openalex.org/I4210133699"
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": 3.7332,
     "has_fulltext": false,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.07652448,
+      "value": 0.90291584,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "is_in_top_10_percent": true
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": "000",
-      "last_page": "000"
+      "volume": "88",
+      "issue": "3",
+      "first_page": "1162",
+      "last_page": "1174"
     },
     "is_retracted": false,
     "is_paratext": false,
@@ -28015,7 +28022,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T14181",
       "display_name": "Academic Freedom and Politics",
-      "score": 0.9994000196456909,
+      "score": 0.98580002784729,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -28033,7 +28040,7 @@
       {
         "id": "https://openalex.org/T14181",
         "display_name": "Academic Freedom and Politics",
-        "score": 0.9994000196456909,
+        "score": 0.98580002784729,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -28048,12 +28055,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T12231",
-        "display_name": "Contemporary Sociological Theory and Practice",
-        "score": 0.9211999773979187,
+        "id": "https://openalex.org/T13747",
+        "display_name": "Sociopolitical Dynamics in Russia",
+        "score": 0.007899999618530273,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11070",
+        "display_name": "Soviet and Russian History",
+        "score": 0.0017000000225380063,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -28067,54 +28091,34 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/silence",
-        "display_name": "Silence",
-        "score": 0.9442345499992371
+        "id": "https://openalex.org/keywords/academic-freedom",
+        "display_name": "academic freedom",
+        "score": 0.9739999771118164
+      },
+      {
+        "id": "https://openalex.org/keywords/self-censorship",
+        "display_name": "self-censorship",
+        "score": 0.8939999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/professors",
+        "display_name": "professors",
+        "score": 0.597000002861023
       },
       {
         "id": "https://openalex.org/keywords/censorship",
-        "display_name": "Censorship",
-        "score": 0.8947489857673645
-      },
-      {
-        "id": "https://openalex.org/keywords/academic-freedom",
-        "display_name": "Academic freedom",
-        "score": 0.8060429692268372
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5562319755554199
-      },
-      {
-        "id": "https://openalex.org/keywords/media-studies",
-        "display_name": "Media studies",
-        "score": 0.33387982845306396
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.32066693902015686
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.3166285753250122
-      },
-      {
-        "id": "https://openalex.org/keywords/art",
-        "display_name": "Art",
-        "score": 0.23786145448684692
+        "display_name": "censorship",
+        "score": 0.4020000100135803
       },
       {
         "id": "https://openalex.org/keywords/higher-education",
-        "display_name": "Higher education",
-        "score": 0.18758803606033325
+        "display_name": "higher education",
+        "score": 0.41200000047683716
       },
       {
-        "id": "https://openalex.org/keywords/aesthetics",
-        "display_name": "Aesthetics",
-        "score": 0.1608506143093109
+        "id": "https://openalex.org/keywords/political-repression",
+        "display_name": "political repression",
+        "score": 0.42399999499320984
       }
     ],
     "concepts": [
@@ -28194,6 +28198,7 @@
     "locations": [
       {
         "id": "doi:10.1086/736025",
+        "doi": "https://doi.org/10.1086/736025",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/736025",
         "pdf_url": null,
@@ -28208,6 +28213,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -28232,11 +28248,19 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
-        "display_name": "Peace, Justice and strong institutions",
         "id": "https://metadata.un.org/sdg/16",
-        "score": 0.5400000214576721
+        "score": 0.6601999998092651,
+        "display_name": "Peace, justice, and strong institutions"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.5400000214576721,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -28258,21 +28282,26 @@
       "https://openalex.org/W4319587508"
     ],
     "related_works": [
-      "https://openalex.org/W2140535326",
-      "https://openalex.org/W2048123072",
-      "https://openalex.org/W1607271848",
-      "https://openalex.org/W4251121070",
-      "https://openalex.org/W2734809835",
-      "https://openalex.org/W2547217810",
-      "https://openalex.org/W2184961913",
-      "https://openalex.org/W4235117662",
-      "https://openalex.org/W2773095179",
-      "https://openalex.org/W1965764303"
+      "https://openalex.org/W7046962303",
+      "https://openalex.org/W4394791622",
+      "https://openalex.org/W384926932",
+      "https://openalex.org/W7066010274",
+      "https://openalex.org/W6987304934",
+      "https://openalex.org/W2598615234",
+      "https://openalex.org/W7025036169",
+      "https://openalex.org/W6979726357",
+      "https://openalex.org/W4255819798",
+      "https://openalex.org/W2946752818"
     ],
     "abstract_inverted_index": null,
-    "counts_by_year": [],
-    "updated_date": "2026-03-14T06:41:57.775601",
-    "created_date": "2025-10-10T00:00:00"
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-08-29T07:29:34.045763",
+    "created_date": "2025-04-04T00:00:00"
   },
   {
     "id": "https://openalex.org/W2513949516",
@@ -49935,5 +49964,809 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4407733696",
+    "doi": "https://doi.org/10.1086/735457",
+    "title": "Do External Threats Reduce Affective Polarization? An Experiment on Russia\u2019s Invasion of Ukraine",
+    "display_name": "Do External Threats Reduce Affective Polarization? An Experiment on Russia\u2019s Invasion of Ukraine",
+    "relevance_score": 27.147326,
+    "publication_year": 2025,
+    "publication_date": "2025-02-19",
+    "ids": {
+      "openalex": "https://openalex.org/W4407733696",
+      "doi": "https://doi.org/10.1086/735457"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1086/735457",
+      "doi": "https://doi.org/10.1086/735457",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1086/735457",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S95650557",
+        "display_name": "The Journal of Politics",
+        "issn_l": "0022-3816",
+        "issn": [
+          "0022-3816",
+          "1468-2508"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310315672",
+        "host_organization_name": "University of Chicago Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315672",
+          "https://openalex.org/P4310315690"
+        ],
+        "host_organization_lineage_names": [
+          "University of Chicago Press",
+          "University of Chicago"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Journal of Politics",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5007050425",
+          "display_name": "Jonas Kaiser",
+          "orcid": "https://orcid.org/0000-0001-9252-7448",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9252-7448"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204337017",
+            "display_name": "Aarhus University",
+            "ror": "https://ror.org/01aj84f44",
+            "country_code": "DK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204337017"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Jonas Pilgaard Kaiser",
+        "raw_affiliation_strings": [
+          "Aarhus University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Aarhus University",
+            "institution_ids": [
+              "https://openalex.org/I204337017"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5060557175",
+          "display_name": "Markus Seier",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I204337017",
+            "display_name": "Aarhus University",
+            "ror": "https://ror.org/01aj84f44",
+            "country_code": "DK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I204337017"
+            ]
+          }
+        ],
+        "countries": [
+          "DK"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Markus Seier",
+        "raw_affiliation_strings": [
+          "Aarhus University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Aarhus University",
+            "institution_ids": [
+              "https://openalex.org/I204337017"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I204337017"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.02487408,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "88",
+      "issue": "2",
+      "first_page": "526",
+      "last_page": "540"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10108",
+      "display_name": "Electoral Systems and Political Participation",
+      "score": 0.9355000257492065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10108",
+        "display_name": "Electoral Systems and Political Participation",
+        "score": 0.9355000257492065,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10314",
+        "display_name": "Social and Intergroup Psychology",
+        "score": 0.027000000700354576,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10646",
+        "display_name": "Experimental Behavioral Economics Studies",
+        "score": 0.004600000102072954,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3311",
+          "display_name": "Safety Research"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/affective-polarization",
+        "display_name": "affective polarization",
+        "score": 0.9980000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/external-threats",
+        "display_name": "external threats",
+        "score": 0.8870000243186951
+      },
+      {
+        "id": "https://openalex.org/keywords/russia-ukraine-war",
+        "display_name": "Russian invasion of Ukraine",
+        "score": 0.9210000038146973
+      },
+      {
+        "id": "https://openalex.org/keywords/priming",
+        "display_name": "priming",
+        "score": 0.7879999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/cooperation",
+        "display_name": "cooperation",
+        "score": 0.4970000088214874
+      },
+      {
+        "id": "https://openalex.org/keywords/coordination-games",
+        "display_name": "coordination games",
+        "score": 0.8339999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/global-power-distribution",
+        "display_name": "global power distribution",
+        "score": 0.5720000267028809
+      },
+      {
+        "id": "https://openalex.org/keywords/partisanship",
+        "display_name": "partisanship",
+        "score": 0.597000002861023
+      },
+      {
+        "id": "https://openalex.org/keywords/united-states",
+        "display_name": "United States",
+        "score": 0.7509999871253967
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C205049153",
+        "wikidata": "https://www.wikidata.org/wiki/Q2698605",
+        "display_name": "Polarization (electrochemistry)",
+        "level": 2,
+        "score": 0.6618314981460571
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.503314197063446
+      },
+      {
+        "id": "https://openalex.org/C205649164",
+        "wikidata": "https://www.wikidata.org/wiki/Q1071",
+        "display_name": "Geography",
+        "level": 0,
+        "score": 0.3380003273487091
+      },
+      {
+        "id": "https://openalex.org/C185592680",
+        "wikidata": "https://www.wikidata.org/wiki/Q2329",
+        "display_name": "Chemistry",
+        "level": 0,
+        "score": 0.08723673224449158
+      },
+      {
+        "id": "https://openalex.org/C147789679",
+        "wikidata": "https://www.wikidata.org/wiki/Q11372",
+        "display_name": "Physical chemistry",
+        "level": 1,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1086/735457",
+        "doi": "https://doi.org/10.1086/735457",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1086/735457",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S95650557",
+          "display_name": "The Journal of Politics",
+          "issn_l": "0022-3816",
+          "issn": [
+            "0022-3816",
+            "1468-2508"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310315672",
+          "host_organization_name": "University of Chicago Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310315672",
+            "https://openalex.org/P4310315690"
+          ],
+          "host_organization_lineage_names": [
+            "University of Chicago Press",
+            "University of Chicago"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Journal of Politics",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:pure.atira.dk:publications/ce945d7e-a625-4ad2-929d-f2873d010b94",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pure.au.dk/portal/en/publications/ce945d7e-a625-4ad2-929d-f2873d010b94",
+        "pdf_url": null,
+        "source": null,
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Kaiser, J P & Pedersen, M S 2026, 'Do External Threats Reduce Affective Polarization? An Experiment on Russia's Invasion of Ukraine', The Journal of Politics, vol. 88, no. 2, pp. 526-540. https://doi.org/10.1086/735457",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.833299994468689,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 5,
+    "referenced_works": [
+      "https://openalex.org/W2608004703",
+      "https://openalex.org/W4235402841",
+      "https://openalex.org/W4251184559",
+      "https://openalex.org/W4300854084",
+      "https://openalex.org/W4317546846"
+    ],
+    "related_works": [
+      "https://openalex.org/W6944357358",
+      "https://openalex.org/W4407924432",
+      "https://openalex.org/W4413325837",
+      "https://openalex.org/W7037332743",
+      "https://openalex.org/W3153959403",
+      "https://openalex.org/W6986379972",
+      "https://openalex.org/W4395467669",
+      "https://openalex.org/W4300003029",
+      "https://openalex.org/W3080787539",
+      "https://openalex.org/W3209192870"
+    ],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "many": [
+        1,
+        39
+      ],
+      "countries,": [
+        2
+      ],
+      "partisans": [
+        3
+      ],
+      "have": [
+        4
+      ],
+      "become": [
+        5
+      ],
+      "increasingly": [
+        6
+      ],
+      "biased": [
+        7
+      ],
+      "in": [
+        8,
+        22,
+        26,
+        32,
+        71,
+        80,
+        98,
+        104,
+        110
+      ],
+      "how": [
+        9,
+        64
+      ],
+      "they": [
+        10
+      ],
+      "evaluate": [
+        11
+      ],
+      "others": [
+        12
+      ],
+      "based": [
+        13
+      ],
+      "on": [
+        14,
+        126
+      ],
+      "political": [
+        15
+      ],
+      "affiliation.": [
+        16
+      ],
+      "We": [
+        17,
+        84
+      ],
+      "suggest": [
+        18,
+        135
+      ],
+      "that": [
+        19,
+        37,
+        86,
+        136
+      ],
+      "this": [
+        20
+      ],
+      "increase": [
+        21,
+        103
+      ],
+      "affective": [
+        23,
+        76,
+        99
+      ],
+      "polarization": [
+        24,
+        77,
+        100,
+        146
+      ],
+      "may": [
+        25
+      ],
+      "part": [
+        27
+      ],
+      "be": [
+        28
+      ],
+      "caused": [
+        29,
+        38
+      ],
+      "by": [
+        30,
+        108
+      ],
+      "changes": [
+        31
+      ],
+      "the": [
+        33,
+        52,
+        81,
+        116,
+        131
+      ],
+      "global": [
+        34
+      ],
+      "power": [
+        35
+      ],
+      "distribution": [
+        36
+      ],
+      "countries": [
+        40
+      ],
+      "to": [
+        41,
+        62,
+        94,
+        143,
+        149
+      ],
+      "experience": [
+        42
+      ],
+      "a": [
+        43,
+        59,
+        95
+      ],
+      "long": [
+        44
+      ],
+      "period": [
+        45
+      ],
+      "without": [
+        46
+      ],
+      "external": [
+        47,
+        55
+      ],
+      "(military)": [
+        48
+      ],
+      "threats.": [
+        49
+      ],
+      "To": [
+        50
+      ],
+      "study": [
+        51
+      ],
+      "importance": [
+        53
+      ],
+      "of": [
+        54,
+        69,
+        118
+      ],
+      "threats,": [
+        56
+      ],
+      "we": [
+        57
+      ],
+      "conduct": [
+        58
+      ],
+      "priming": [
+        60,
+        87
+      ],
+      "experiment": [
+        61
+      ],
+      "examine": [
+        63
+      ],
+      "making": [
+        65,
+        119
+      ],
+      "Russia\u2019s": [
+        66,
+        90,
+        120
+      ],
+      "full-scale": [
+        67
+      ],
+      "invasion": [
+        68,
+        121
+      ],
+      "Ukraine": [
+        70
+      ],
+      "2022": [
+        72
+      ],
+      "salient": [
+        73,
+        122
+      ],
+      "causally": [
+        74
+      ],
+      "influences": [
+        75
+      ],
+      "and": [
+        78,
+        101,
+        147
+      ],
+      "collaboration": [
+        79
+      ],
+      "United": [
+        82
+      ],
+      "States.": [
+        83
+      ],
+      "find": [
+        85
+      ],
+      "Americans": [
+        88
+      ],
+      "with": [
+        89
+      ],
+      "military": [
+        91
+      ],
+      "aggression": [
+        92
+      ],
+      "leads": [
+        93
+      ],
+      "modest": [
+        96
+      ],
+      "reduction": [
+        97
+      ],
+      "an": [
+        102,
+        111
+      ],
+      "cooperativeness": [
+        105
+      ],
+      "as": [
+        106
+      ],
+      "measured": [
+        107
+      ],
+      "behavior": [
+        109
+      ],
+      "incentivized": [
+        112
+      ],
+      "coordination": [
+        113
+      ],
+      "game.": [
+        114
+      ],
+      "Surprisingly,": [
+        115
+      ],
+      "effect": [
+        117
+      ],
+      "does": [
+        123
+      ],
+      "not": [
+        124
+      ],
+      "depend": [
+        125
+      ],
+      "perceived": [
+        127
+      ],
+      "cross-party": [
+        128
+      ],
+      "disagreement": [
+        129
+      ],
+      "about": [
+        130
+      ],
+      "conflict.": [
+        132
+      ],
+      "These": [
+        133
+      ],
+      "results": [
+        134
+      ],
+      "researchers": [
+        137
+      ],
+      "should": [
+        138
+      ],
+      "also": [
+        139
+      ],
+      "consider": [
+        140
+      ],
+      "international": [
+        141
+      ],
+      "relations": [
+        142
+      ],
+      "understand": [
+        144
+      ],
+      "within-country": [
+        145
+      ],
+      "willingness": [
+        148
+      ],
+      "collaborate.": [
+        150
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-24T07:57:37.273135",
+    "created_date": "2025-02-20T00:00:00"
   }
 ]

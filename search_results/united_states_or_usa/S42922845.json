@@ -33077,7 +33077,7 @@
     "doi": "https://doi.org/10.1093/pastj/gtaf024",
     "title": "Secrecy and sovereignty in the Age of Revolutions",
     "display_name": "Secrecy and sovereignty in the Age of Revolutions",
-    "relevance_score": 0.33471447,
+    "relevance_score": 0.69758403,
     "publication_year": 2025,
     "publication_date": "2025-08-31",
     "ids": {
@@ -33087,6 +33087,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/pastj/gtaf024",
+      "doi": "https://doi.org/10.1093/pastj/gtaf024",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1093/pastj/gtaf024",
       "pdf_url": null,
@@ -33101,6 +33102,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "fnege-4",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -33121,6 +33133,7 @@
       "raw_source_name": "Past &amp; Present",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -33135,9 +33148,10 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5014583543",
+          "id": "https://openalex.org/A5098770444",
           "display_name": "Katlyn Marie Carter",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -33160,6 +33174,7 @@
           "University of Notre Dame , South Bend,",
           "University of Notre Dame, South Bend, USA"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "University of Notre Dame , South Bend,",
@@ -33180,22 +33195,22 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5014583543"
+      "https://openalex.org/A5098770444"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I107639228"
     ],
     "apc_list": {
-      "value": 3057,
+      "value": 3338,
       "currency": "GBP",
-      "value_usd": 3749
+      "value_usd": 4402
     },
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.30402139,
+      "value": 0.21862635,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -33210,9 +33225,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10749",
-      "display_name": "International Law and Human Rights",
-      "score": 0.4578999876976013,
+      "id": "https://openalex.org/T13445",
+      "display_name": "American Constitutional Law and Politics",
+      "score": 0.4909999966621399,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -33228,9 +33243,43 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10749",
-        "display_name": "International Law and Human Rights",
-        "score": 0.4578999876976013,
+        "id": "https://openalex.org/T13445",
+        "display_name": "American Constitutional Law and Politics",
+        "score": 0.4909999966621399,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12454",
+        "display_name": "European Political History Analysis",
+        "score": 0.4154999852180481,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13291",
+        "display_name": "Political Theory and Democracy",
+        "score": 0.08179999887943268,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -33248,38 +33297,48 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/secrecy",
-        "display_name": "Secrecy",
-        "score": 0.8647953867912292
+        "display_name": "secrecy",
+        "score": 0.7940000295639038
       },
       {
-        "id": "https://openalex.org/keywords/sovereignty",
-        "display_name": "Sovereignty",
-        "score": 0.8128551244735718
+        "id": "https://openalex.org/keywords/transparency",
+        "display_name": "transparency",
+        "score": 0.5799999833106995
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.43896743655204773
+        "id": "https://openalex.org/keywords/popular-sovereignty",
+        "display_name": "popular sovereignty",
+        "score": 0.7620000243186951
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.36769723892211914
+        "id": "https://openalex.org/keywords/political-representation",
+        "display_name": "political representation",
+        "score": 0.6349999904632568
       },
       {
-        "id": "https://openalex.org/keywords/genealogy",
-        "display_name": "Genealogy",
-        "score": 0.3221674859523773
+        "id": "https://openalex.org/keywords/legislative-deliberation",
+        "display_name": "legislative deliberation",
+        "score": 0.6570000052452087
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.17110365629196167
+        "id": "https://openalex.org/keywords/french-national-assembly",
+        "display_name": "French National Assembly",
+        "score": 0.9190000295639038
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.06656566262245178
+        "id": "https://openalex.org/keywords/american-revolution",
+        "display_name": "American Revolution",
+        "score": 0.5690000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/french-revolution",
+        "display_name": "French Revolution",
+        "score": 0.9959999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/political-legitimacy",
+        "display_name": "political legitimacy",
+        "score": 0.5659999847412109
       }
     ],
     "concepts": [
@@ -33338,6 +33397,7 @@
     "locations": [
       {
         "id": "doi:10.1093/pastj/gtaf024",
+        "doi": "https://doi.org/10.1093/pastj/gtaf024",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1093/pastj/gtaf024",
         "pdf_url": null,
@@ -33352,6 +33412,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "fnege-4",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -33374,27 +33445,35 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.9595999717712402,
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W2899084033",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W2493929861",
-      "https://openalex.org/W2016567611",
-      "https://openalex.org/W2475541339",
-      "https://openalex.org/W565335793",
-      "https://openalex.org/W2363071176",
-      "https://openalex.org/W2107199751",
-      "https://openalex.org/W4243812570"
+      "https://openalex.org/W4398235044",
+      "https://openalex.org/W4402145119",
+      "https://openalex.org/W4415241101",
+      "https://openalex.org/W4398234990",
+      "https://openalex.org/W4388774772",
+      "https://openalex.org/W4398234970",
+      "https://openalex.org/W4411245570",
+      "https://openalex.org/W4398235011",
+      "https://openalex.org/W3082734731",
+      "https://openalex.org/W3032468310"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -33983,7 +34062,954 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-09-26T08:19:03.415552",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7203459178",
+    "doi": "https://doi.org/10.1093/pastj/gtag024",
+    "title": "Black-on-Black Makeup and the History of Blackface",
+    "display_name": "Black-on-Black Makeup and the History of Blackface",
+    "relevance_score": 0.7356571,
+    "publication_year": 2026,
+    "publication_date": "2026-07-17",
+    "ids": {
+      "openalex": "https://openalex.org/W7203459178",
+      "doi": "https://doi.org/10.1093/pastj/gtag024"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/pastj/gtag024",
+      "doi": "https://doi.org/10.1093/pastj/gtag024",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/pastj/gtag024",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S42922845",
+        "display_name": "Past & Present",
+        "issn_l": "0031-2746",
+        "issn": [
+          "0031-2746",
+          "1477-464X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "fnege-4",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Past &amp; Present",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5050904078",
+          "display_name": "Ezequiel Adamovsky",
+          "orcid": "https://orcid.org/0000-0002-0288-7165",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0288-7165"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I151201029",
+            "display_name": "Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas",
+            "ror": "https://ror.org/03cqe8w59",
+            "country_code": "AR",
+            "type": "government",
+            "lineage": [
+              "https://openalex.org/I151201029",
+              "https://openalex.org/I4210123736",
+              "https://openalex.org/I4387155568"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I228664971",
+            "display_name": "National University of General San Mart\u00edn",
+            "ror": "https://ror.org/00v29jp57",
+            "country_code": "AR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I228664971"
+            ]
+          }
+        ],
+        "countries": [
+          "AR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Ezequiel Adamovsky",
+        "raw_affiliation_strings": [
+          "Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas , Buenos Aires, and ,",
+          "Universidad Nacional de San Mart\u00edn , Buenos Aires, and ,"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Consejo Nacional de Investigaciones Cient\u00edficas y T\u00e9cnicas , Buenos Aires, and ,",
+            "institution_ids": [
+              "https://openalex.org/I151201029"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Universidad Nacional de San Mart\u00edn , Buenos Aires, and ,",
+            "institution_ids": [
+              "https://openalex.org/I228664971"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5050904078"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I151201029",
+      "https://openalex.org/I228664971"
+    ],
+    "apc_list": {
+      "value": 3338,
+      "currency": "GBP",
+      "value_usd": 4402
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.62938833,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": null,
+      "last_page": null
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13860",
+      "display_name": "Arts and Performance Studies",
+      "score": 0.5938000082969666,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1213",
+        "display_name": "Visual Arts and Performing Arts"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13860",
+        "display_name": "Arts and Performance Studies",
+        "score": 0.5938000082969666,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1213",
+          "display_name": "Visual Arts and Performing Arts"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13330",
+        "display_name": "Theater, Performance, and Music History",
+        "score": 0.14820000529289246,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1210",
+          "display_name": "Music"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13868",
+        "display_name": "Afro-Latin American Studies",
+        "score": 0.09830000251531601,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/blackface",
+        "display_name": "blackface",
+        "score": 0.8190000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/black-mask",
+        "display_name": "Black Mask",
+        "score": 0.9049999713897705
+      },
+      {
+        "id": "https://openalex.org/keywords/transnational-history",
+        "display_name": "transnational history",
+        "score": 0.6570000052452087
+      },
+      {
+        "id": "https://openalex.org/keywords/holiday-traditions",
+        "display_name": "holiday traditions",
+        "score": 0.8130000233650208
+      },
+      {
+        "id": "https://openalex.org/keywords/racist-stereotypes",
+        "display_name": "racist stereotypes",
+        "score": 0.7760000228881836
+      },
+      {
+        "id": "https://openalex.org/keywords/racial-pride",
+        "display_name": "racial pride",
+        "score": 0.8859999775886536
+      },
+      {
+        "id": "https://openalex.org/keywords/atlantic-world",
+        "display_name": "Atlantic world",
+        "score": 0.7720000147819519
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2781009331",
+        "wikidata": "https://www.wikidata.org/wiki/Q880808",
+        "display_name": "Blackface",
+        "level": 3,
+        "score": 0.9955000281333923
+      },
+      {
+        "id": "https://openalex.org/C2777425269",
+        "wikidata": "https://www.wikidata.org/wiki/Q5468194",
+        "display_name": "Foregrounding",
+        "level": 2,
+        "score": 0.9294000267982483
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.5482000112533569
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.4749999940395355
+      },
+      {
+        "id": "https://openalex.org/C76509639",
+        "wikidata": "https://www.wikidata.org/wiki/Q918036",
+        "display_name": "Race (biology)",
+        "level": 2,
+        "score": 0.41260001063346863
+      },
+      {
+        "id": "https://openalex.org/C179454799",
+        "wikidata": "https://www.wikidata.org/wiki/Q132151",
+        "display_name": "Ethnography",
+        "level": 2,
+        "score": 0.3917999863624573
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.38940000534057617
+      },
+      {
+        "id": "https://openalex.org/C107038049",
+        "wikidata": "https://www.wikidata.org/wiki/Q35986",
+        "display_name": "Aesthetics",
+        "level": 1,
+        "score": 0.38940000534057617
+      },
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.3822999894618988
+      },
+      {
+        "id": "https://openalex.org/C2778325511",
+        "wikidata": "https://www.wikidata.org/wiki/Q698752",
+        "display_name": "White supremacy",
+        "level": 3,
+        "score": 0.373199999332428
+      },
+      {
+        "id": "https://openalex.org/C57473165",
+        "wikidata": "https://www.wikidata.org/wiki/Q7315604",
+        "display_name": "Resistance (ecology)",
+        "level": 2,
+        "score": 0.36320000886917114
+      },
+      {
+        "id": "https://openalex.org/C56273599",
+        "wikidata": "https://www.wikidata.org/wiki/Q3122841",
+        "display_name": "White (mutation)",
+        "level": 3,
+        "score": 0.358599990606308
+      },
+      {
+        "id": "https://openalex.org/C2909534802",
+        "wikidata": "https://www.wikidata.org/wiki/Q3244280",
+        "display_name": "Black British",
+        "level": 2,
+        "score": 0.27559998631477356
+      },
+      {
+        "id": "https://openalex.org/C19165224",
+        "wikidata": "https://www.wikidata.org/wiki/Q23404",
+        "display_name": "Anthropology",
+        "level": 1,
+        "score": 0.2711000144481659
+      },
+      {
+        "id": "https://openalex.org/C2776095079",
+        "wikidata": "https://www.wikidata.org/wiki/Q489538",
+        "display_name": "The Symbolic",
+        "level": 2,
+        "score": 0.26739999651908875
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1093/pastj/gtag024",
+        "doi": "https://doi.org/10.1093/pastj/gtag024",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1093/pastj/gtag024",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S42922845",
+          "display_name": "Past & Present",
+          "issn_l": "0031-2746",
+          "issn": [
+            "0031-2746",
+            "1477-464X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "fnege-4",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Past &amp; Present",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.4000000059604645,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.6289048194885254,
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W4414531228",
+      "https://openalex.org/W2983829164",
+      "https://openalex.org/W2889912549",
+      "https://openalex.org/W4415885319",
+      "https://openalex.org/W4409285565",
+      "https://openalex.org/W7220662493",
+      "https://openalex.org/W7133538878",
+      "https://openalex.org/W4207067870",
+      "https://openalex.org/W2955745686",
+      "https://openalex.org/W1979501950"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "This": [
+        1
+      ],
+      "article": [
+        2,
+        56,
+        182
+      ],
+      "contributes": [
+        3,
+        183
+      ],
+      "to": [
+        4,
+        105,
+        119,
+        121,
+        141,
+        156,
+        184
+      ],
+      "transnational": [
+        5,
+        63,
+        158
+      ],
+      "perspectives": [
+        6
+      ],
+      "on": [
+        7,
+        23,
+        50
+      ],
+      "blackface": [
+        8,
+        82,
+        93,
+        144,
+        193
+      ],
+      "by": [
+        9
+      ],
+      "examining": [
+        10
+      ],
+      "evidence": [
+        11,
+        136
+      ],
+      "of": [
+        12,
+        26,
+        91,
+        125,
+        130,
+        160,
+        163,
+        173,
+        192
+      ],
+      "Black": [
+        13
+      ],
+      "individuals": [
+        14
+      ],
+      "and": [
+        15,
+        52,
+        62,
+        128,
+        149,
+        188,
+        194
+      ],
+      "communities": [
+        16
+      ],
+      "employing": [
+        17
+      ],
+      "darkening": [
+        18
+      ],
+      "make-up": [
+        19
+      ],
+      "or": [
+        20,
+        39,
+        86
+      ],
+      "black": [
+        21,
+        43
+      ],
+      "masks": [
+        22
+      ],
+      "both": [
+        24
+      ],
+      "sides": [
+        25
+      ],
+      "the": [
+        27,
+        31,
+        46,
+        55,
+        89,
+        111,
+        122,
+        135,
+        139,
+        157,
+        171,
+        181,
+        198
+      ],
+      "Atlantic.": [
+        28
+      ],
+      "It": [
+        29
+      ],
+      "challenges": [
+        30
+      ],
+      "assumption": [
+        32
+      ],
+      "that": [
+        33
+      ],
+      "all": [
+        34
+      ],
+      "such": [
+        35
+      ],
+      "practices": [
+        36
+      ],
+      "derive": [
+        37
+      ],
+      "from,": [
+        38
+      ],
+      "are": [
+        40
+      ],
+      "analogous": [
+        41
+      ],
+      "to,": [
+        42
+      ],
+      "minstrelsy": [
+        44
+      ],
+      "in": [
+        45,
+        69,
+        95,
+        168,
+        197
+      ],
+      "United": [
+        47
+      ],
+      "States.": [
+        48
+      ],
+      "Drawing": [
+        49
+      ],
+      "historical": [
+        51,
+        148
+      ],
+      "ethnographic": [
+        53
+      ],
+      "sources,": [
+        54
+      ],
+      "situates": [
+        57
+      ],
+      "these": [
+        58,
+        178
+      ],
+      "performances": [
+        59
+      ],
+      "within": [
+        60,
+        145
+      ],
+      "local": [
+        61
+      ],
+      "festive": [
+        64
+      ],
+      "traditions,": [
+        65
+      ],
+      "particularly": [
+        66
+      ],
+      "those": [
+        67
+      ],
+      "rooted": [
+        68
+      ],
+      "Afro-Iberian": [
+        70,
+        161
+      ],
+      "cultural": [
+        71,
+        150
+      ],
+      "practices,": [
+        72
+      ],
+      "with": [
+        73,
+        88
+      ],
+      "many": [
+        74
+      ],
+      "pre-dating": [
+        75
+      ],
+      "US": [
+        76,
+        106,
+        174
+      ],
+      "minstrelsy.": [
+        77,
+        175
+      ],
+      "In": [
+        78
+      ],
+      "some": [
+        79
+      ],
+      "instances,": [
+        80
+      ],
+      "black-on-black": [
+        81,
+        143
+      ],
+      "reproduces": [
+        83
+      ],
+      "racist": [
+        84
+      ],
+      "stereotypes": [
+        85,
+        120
+      ],
+      "engages": [
+        87
+      ],
+      "codes": [
+        90
+      ],
+      "White": [
+        92
+      ],
+      "minstrelsy;": [
+        94
+      ],
+      "others,": [
+        96
+      ],
+      "it": [
+        97,
+        153
+      ],
+      "functions": [
+        98
+      ],
+      "as": [
+        99
+      ],
+      "a": [
+        100,
+        185
+      ],
+      "racially": [
+        101
+      ],
+      "affirmative": [
+        102
+      ],
+      "practice": [
+        103
+      ],
+      "unrelated": [
+        104
+      ],
+      "traditions.": [
+        107
+      ],
+      "Cases": [
+        108
+      ],
+      "from": [
+        109,
+        117
+      ],
+      "across": [
+        110
+      ],
+      "world": [
+        112
+      ],
+      "reveal": [
+        113
+      ],
+      "multiple": [
+        114
+      ],
+      "meanings,": [
+        115
+      ],
+      "ranging": [
+        116
+      ],
+      "resistance": [
+        118
+      ],
+      "symbolic": [
+        123
+      ],
+      "restoration": [
+        124
+      ],
+      "ancestral": [
+        126
+      ],
+      "blackness": [
+        127
+      ],
+      "affirmation": [
+        129
+      ],
+      "racial": [
+        131,
+        164
+      ],
+      "pride.": [
+        132
+      ],
+      "Taken": [
+        133
+      ],
+      "together,": [
+        134
+      ],
+      "makes": [
+        137
+      ],
+      "plain": [
+        138
+      ],
+      "need": [
+        140
+      ],
+      "interpret": [
+        142
+      ],
+      "its": [
+        146
+      ],
+      "specific": [
+        147
+      ],
+      "contexts.": [
+        151
+      ],
+      "Furthermore,": [
+        152
+      ],
+      "calls": [
+        154
+      ],
+      "attention": [
+        155
+      ],
+      "circulation": [
+        159
+      ],
+      "traditions": [
+        162
+      ],
+      "impersonation,": [
+        165
+      ],
+      "largely": [
+        166
+      ],
+      "overlooked": [
+        167
+      ],
+      "scholarship,": [
+        169
+      ],
+      "alongside": [
+        170
+      ],
+      "diffusion": [
+        172
+      ],
+      "By": [
+        176
+      ],
+      "foregrounding": [
+        177
+      ],
+      "alternative": [
+        179
+      ],
+      "genealogies,": [
+        180
+      ],
+      "more": [
+        186
+      ],
+      "nuanced": [
+        187
+      ],
+      "globally": [
+        189
+      ],
+      "informed": [
+        190
+      ],
+      "understanding": [
+        191
+      ],
+      "ethnic": [
+        195
+      ],
+      "impersonation": [
+        196
+      ],
+      "Atlantic": [
+        199
+      ],
+      "world.": [
+        200
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-26T08:19:03.415552",
+    "created_date": "2026-08-15T00:00:00"
   }
 ]

@@ -12792,7 +12792,7 @@
     "doi": "https://doi.org/10.1080/1369183x.2026.2676754",
     "title": "Dreaming the West: how migration imaginaries are constructed and transformed among middle-class Iranians",
     "display_name": "Dreaming the West: how migration imaginaries are constructed and transformed among middle-class Iranians",
-    "relevance_score": 13.107986,
+    "relevance_score": 26.552141,
     "publication_year": 2026,
     "publication_date": "2026-06-01",
     "ids": {
@@ -12802,6 +12802,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/1369183x.2026.2676754",
+      "doi": "https://doi.org/10.1080/1369183x.2026.2676754",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/1369183x.2026.2676754",
       "pdf_url": null,
@@ -12816,6 +12817,18 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
@@ -12836,6 +12849,7 @@
       "raw_source_name": "Journal of Ethnic and Migration Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -12852,7 +12866,10 @@
         "author": {
           "id": "https://openalex.org/A5093413809",
           "display_name": "Sara Hormozinejad",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0009-2750-873X",
+          "observed_orcids": [
+            "https://orcid.org/0009-0009-2750-873X"
+          ]
         },
         "institutions": [
           {
@@ -12896,31 +12913,34 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": 29.7164,
     "has_fulltext": false,
-    "cited_by_count": 0,
+    "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.58220169,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "value": 0.99423631,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 96,
+      "max": 97
+    },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": "1",
-      "last_page": "20"
+      "volume": "52",
+      "issue": "19",
+      "first_page": "4905",
+      "last_page": "4924"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10794",
-      "display_name": "Islamic Studies and History",
-      "score": 0.23250000178813934,
+      "id": "https://openalex.org/T11648",
+      "display_name": "Diaspora, migration, transnational identity",
+      "score": 0.8314999938011169,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -12933,26 +12953,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T10794",
-        "display_name": "Islamic Studies and History",
-        "score": 0.23250000178813934,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T11648",
         "display_name": "Diaspora, migration, transnational identity",
-        "score": 0.04500000178813934,
+        "score": 0.8314999938011169,
         "subfield": {
           "id": "https://openalex.org/subfields/3317",
           "display_name": "Demography"
@@ -12967,12 +12970,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T12550",
-        "display_name": "Politics and Conflicts in Afghanistan, Pakistan, and Middle East",
-        "score": 0.028300000354647636,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.13439999520778656,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10349",
+        "display_name": "Migration and Labor Dynamics",
+        "score": 0.006000000052154064,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -12986,49 +13006,29 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/immigration",
-        "display_name": "Immigration",
-        "score": 0.43369999527931213
+        "id": "https://openalex.org/keywords/migration-imaginaries",
+        "display_name": "migration imaginaries",
+        "score": 0.9549999833106995
       },
       {
-        "id": "https://openalex.org/keywords/ethnic-group",
-        "display_name": "Ethnic group",
-        "score": 0.3644999861717224
+        "id": "https://openalex.org/keywords/iranian-immigrants",
+        "display_name": "Iranian immigrants",
+        "score": 0.656000018119812
       },
       {
-        "id": "https://openalex.org/keywords/race",
-        "display_name": "Race (biology)",
-        "score": 0.3619999885559082
+        "id": "https://openalex.org/keywords/middle-class",
+        "display_name": "middle class",
+        "score": 0.8859999775886536
       },
       {
-        "id": "https://openalex.org/keywords/identity",
-        "display_name": "Identity (music)",
-        "score": 0.3490999937057495
+        "id": "https://openalex.org/keywords/transnational-migration",
+        "display_name": "transnational migration",
+        "score": 0.5260000228881836
       },
       {
-        "id": "https://openalex.org/keywords/narrative",
-        "display_name": "Narrative",
-        "score": 0.3384999930858612
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.32109999656677246
-      },
-      {
-        "id": "https://openalex.org/keywords/perspective",
-        "display_name": "Perspective (graphical)",
-        "score": 0.3183000087738037
-      },
-      {
-        "id": "https://openalex.org/keywords/refugee",
-        "display_name": "Refugee",
-        "score": 0.30640000104904175
-      },
-      {
-        "id": "https://openalex.org/keywords/racialization",
-        "display_name": "Racialization",
-        "score": 0.3061000108718872
+        "id": "https://openalex.org/keywords/identity-development",
+        "display_name": "identity construction",
+        "score": 0.49799999594688416
       }
     ],
     "concepts": [
@@ -13227,6 +13227,7 @@
     "locations": [
       {
         "id": "doi:10.1080/1369183x.2026.2676754",
+        "doi": "https://doi.org/10.1080/1369183x.2026.2676754",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/1369183x.2026.2676754",
         "pdf_url": null,
@@ -13241,6 +13242,18 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
@@ -13264,6 +13277,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1080/1369183x.2026.2676754",
+      "doi": "https://doi.org/10.1080/1369183x.2026.2676754",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/1369183x.2026.2676754",
       "pdf_url": null,
@@ -13278,6 +13292,18 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
@@ -13298,13 +13324,15 @@
       "raw_source_name": "Journal of Ethnic and Migration Studies",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
+        "display_name": "Reduced inequalities",
         "score": 0.7757070064544678,
-        "id": "https://metadata.un.org/sdg/10",
-        "display_name": "Reduced inequalities"
+        "id": "https://metadata.un.org/sdg/10"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -13327,12 +13355,12 @@
       "https://openalex.org/W2082783984",
       "https://openalex.org/W2098150149",
       "https://openalex.org/W2105364939",
+      "https://openalex.org/W2168557858",
       "https://openalex.org/W2209324368",
       "https://openalex.org/W2766544112",
       "https://openalex.org/W2775313948",
       "https://openalex.org/W2801852481",
       "https://openalex.org/W2804758561",
-      "https://openalex.org/W3124779217",
       "https://openalex.org/W3134083113",
       "https://openalex.org/W3183741874",
       "https://openalex.org/W4210353215",
@@ -13354,10 +13382,26 @@
       "https://openalex.org/W4417242531",
       "https://openalex.org/W7131090600"
     ],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W2888117079",
+      "https://openalex.org/W2133790967",
+      "https://openalex.org/W7065373227",
+      "https://openalex.org/W6981043858",
+      "https://openalex.org/W1571430695",
+      "https://openalex.org/W3200397350",
+      "https://openalex.org/W3099442590",
+      "https://openalex.org/W4401036592",
+      "https://openalex.org/W2981148314",
+      "https://openalex.org/W7096683997"
+    ],
     "abstract_inverted_index": null,
-    "counts_by_year": [],
-    "updated_date": "2026-08-15T07:11:24.734988",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 2
+      }
+    ],
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2026-06-02T00:00:00"
   },
   {
@@ -15449,5 +15493,1174 @@
     ],
     "updated_date": "2026-08-15T07:11:24.734988",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7222680905",
+    "doi": "https://doi.org/10.1080/1369183x.2026.2742036",
+    "title": "Multi-scalar home: collective care practices as connecting to and making home/lands",
+    "display_name": "Multi-scalar home: collective care practices as connecting to and making home/lands",
+    "relevance_score": 1.954026,
+    "publication_year": 2026,
+    "publication_date": "2026-10-16",
+    "ids": {
+      "openalex": "https://openalex.org/W7222680905",
+      "doi": "https://doi.org/10.1080/1369183x.2026.2742036"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/1369183x.2026.2742036",
+      "doi": "https://doi.org/10.1080/1369183x.2026.2742036",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/1369183x.2026.2742036",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2026.2742036?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S149872823",
+        "display_name": "Journal of Ethnic and Migration Studies",
+        "issn_l": "1369-183X",
+        "issn": [
+          "1369-183X",
+          "1469-9451"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Ethnic and Migration Studies",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2026.2742036?needAccess=true",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5058822246",
+          "display_name": "J\u00e9an\u2010Louise Olivier",
+          "orcid": "https://orcid.org/0009-0008-5300-8731",
+          "observed_orcids": [
+            "https://orcid.org/0009-0008-5300-8731"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78757542",
+            "display_name": "University of Newcastle Australia",
+            "ror": "https://ror.org/00eae9z71",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78757542"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I84884186",
+            "display_name": "Newcastle University",
+            "ror": "https://ror.org/01kj2bm70",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I84884186"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "J\u00e9an-Louise Olivier",
+        "raw_affiliation_strings": [
+          "Refugees and Partners Incorporated (Zara's House)",
+          "University of Newcastle, University Drive"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Refugees and Partners Incorporated (Zara's House)",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "University of Newcastle, University Drive",
+            "institution_ids": [
+              "https://openalex.org/I78757542",
+              "https://openalex.org/I84884186"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5116265913",
+          "display_name": "Hamidah Rezaie",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Hamidah Rezaie",
+        "raw_affiliation_strings": [
+          "Newcastle Hazara Community",
+          "Refugees and Partners Incorporated (Zara's House)"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Newcastle Hazara Community",
+            "institution_ids": []
+          },
+          {
+            "raw_affiliation_string": "Refugees and Partners Incorporated (Zara's House)",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "middle",
+        "author": {
+          "id": "https://openalex.org/A5040858622",
+          "display_name": "Saeedeh Allahyari",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": false,
+        "raw_author_name": "Saeedeh Allahyari",
+        "raw_affiliation_strings": [
+          "Refugees and Partners Incorporated (Zara's House)"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Refugees and Partners Incorporated (Zara's House)",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5158914606",
+          "display_name": "Kathy Mee",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I78757542",
+            "display_name": "University of Newcastle Australia",
+            "ror": "https://ror.org/00eae9z71",
+            "country_code": "AU",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I78757542"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I84884186",
+            "display_name": "Newcastle University",
+            "ror": "https://ror.org/01kj2bm70",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I84884186"
+            ]
+          }
+        ],
+        "countries": [
+          "AU",
+          "GB"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Kathy Mee",
+        "raw_affiliation_strings": [
+          "University of Newcastle, University Drive"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Newcastle, University Drive",
+            "institution_ids": [
+              "https://openalex.org/I78757542",
+              "https://openalex.org/I84884186"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5058822246"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I78757542",
+      "https://openalex.org/I84884186"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.90746764,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "22"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T14062",
+      "display_name": "Migration and Exile Studies",
+      "score": 0.5121999979019165,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T14062",
+        "display_name": "Migration and Exile Studies",
+        "score": 0.5121999979019165,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11648",
+        "display_name": "Diaspora, migration, transnational identity",
+        "score": 0.4140999913215637,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.014499999582767487,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/collective-care",
+        "display_name": "collective care",
+        "score": 0.6299999952316284
+      },
+      {
+        "id": "https://openalex.org/keywords/refugee-women",
+        "display_name": "refugee women",
+        "score": 0.6980000138282776
+      },
+      {
+        "id": "https://openalex.org/keywords/migrant-women",
+        "display_name": "migrant women",
+        "score": 0.9679999947547913
+      },
+      {
+        "id": "https://openalex.org/keywords/afghan-women",
+        "display_name": "Afghan women",
+        "score": 0.9169999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/iranian-women",
+        "display_name": "Iranian women",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/diaspora",
+        "display_name": "diaspora",
+        "score": 0.6359999775886536
+      },
+      {
+        "id": "https://openalex.org/keywords/affect",
+        "display_name": "affect",
+        "score": 0.4000000059604645
+      },
+      {
+        "id": "https://openalex.org/keywords/embodied-experience",
+        "display_name": "embodied experience",
+        "score": 0.7200000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/arts-based-research",
+        "display_name": "arts-based research",
+        "score": 0.8569999933242798
+      },
+      {
+        "id": "https://openalex.org/keywords/feminist-geography",
+        "display_name": "feminist geography",
+        "score": 0.6380000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/migration",
+        "display_name": "migration",
+        "score": 0.3269999921321869
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2777425269",
+        "wikidata": "https://www.wikidata.org/wiki/Q5468194",
+        "display_name": "Foregrounding",
+        "level": 2,
+        "score": 0.7035999894142151
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.6270999908447266
+      },
+      {
+        "id": "https://openalex.org/C2778061430",
+        "wikidata": "https://www.wikidata.org/wiki/Q188823",
+        "display_name": "Scholarship",
+        "level": 2,
+        "score": 0.6173999905586243
+      },
+      {
+        "id": "https://openalex.org/C2778611045",
+        "wikidata": "https://www.wikidata.org/wiki/Q133004",
+        "display_name": "Diaspora",
+        "level": 2,
+        "score": 0.5856999754905701
+      },
+      {
+        "id": "https://openalex.org/C199776023",
+        "wikidata": "https://www.wikidata.org/wiki/Q202875",
+        "display_name": "Negotiation",
+        "level": 2,
+        "score": 0.5717999935150146
+      },
+      {
+        "id": "https://openalex.org/C100609095",
+        "wikidata": "https://www.wikidata.org/wiki/Q1335050",
+        "display_name": "Embodied cognition",
+        "level": 2,
+        "score": 0.49059998989105225
+      },
+      {
+        "id": "https://openalex.org/C148609458",
+        "wikidata": "https://www.wikidata.org/wiki/Q7021281",
+        "display_name": "Nexus (standard)",
+        "level": 2,
+        "score": 0.450300008058548
+      },
+      {
+        "id": "https://openalex.org/C56995899",
+        "wikidata": "https://www.wikidata.org/wiki/Q1126687",
+        "display_name": "Focus group",
+        "level": 2,
+        "score": 0.42489999532699585
+      },
+      {
+        "id": "https://openalex.org/C190248442",
+        "wikidata": "https://www.wikidata.org/wiki/Q839486",
+        "display_name": "Qualitative research",
+        "level": 2,
+        "score": 0.41290000081062317
+      },
+      {
+        "id": "https://openalex.org/C199033989",
+        "wikidata": "https://www.wikidata.org/wiki/Q1318295",
+        "display_name": "Narrative",
+        "level": 2,
+        "score": 0.40610000491142273
+      },
+      {
+        "id": "https://openalex.org/C194995250",
+        "wikidata": "https://www.wikidata.org/wiki/Q531136",
+        "display_name": "Affordance",
+        "level": 2,
+        "score": 0.3682999908924103
+      },
+      {
+        "id": "https://openalex.org/C102003337",
+        "wikidata": "https://www.wikidata.org/wiki/Q5038877",
+        "display_name": "Care work",
+        "level": 3,
+        "score": 0.3440999984741211
+      },
+      {
+        "id": "https://openalex.org/C179454799",
+        "wikidata": "https://www.wikidata.org/wiki/Q132151",
+        "display_name": "Ethnography",
+        "level": 2,
+        "score": 0.32690000534057617
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.30630001425743103
+      },
+      {
+        "id": "https://openalex.org/C39549134",
+        "wikidata": "https://www.wikidata.org/wiki/Q133080",
+        "display_name": "Public relations",
+        "level": 1,
+        "score": 0.30219998955726624
+      },
+      {
+        "id": "https://openalex.org/C192209626",
+        "wikidata": "https://www.wikidata.org/wiki/Q190909",
+        "display_name": "Focus (optics)",
+        "level": 2,
+        "score": 0.2892000079154968
+      },
+      {
+        "id": "https://openalex.org/C173145845",
+        "wikidata": "https://www.wikidata.org/wiki/Q131572",
+        "display_name": "Refugee",
+        "level": 2,
+        "score": 0.2865000069141388
+      },
+      {
+        "id": "https://openalex.org/C59462968",
+        "wikidata": "https://www.wikidata.org/wiki/Q10361123",
+        "display_name": "Dichotomy",
+        "level": 2,
+        "score": 0.2851000130176544
+      },
+      {
+        "id": "https://openalex.org/C2779136266",
+        "wikidata": "https://www.wikidata.org/wiki/Q604007",
+        "display_name": "Relational view",
+        "level": 2,
+        "score": 0.28060001134872437
+      },
+      {
+        "id": "https://openalex.org/C2776614217",
+        "wikidata": "https://www.wikidata.org/wiki/Q1568324",
+        "display_name": "Transnationalism",
+        "level": 3,
+        "score": 0.2502000033855438
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/1369183x.2026.2742036",
+        "doi": "https://doi.org/10.1080/1369183x.2026.2742036",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1080/1369183x.2026.2742036",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2026.2742036?needAccess=true",
+        "source": {
+          "id": "https://openalex.org/S149872823",
+          "display_name": "Journal of Ethnic and Migration Studies",
+          "issn_l": "1369-183X",
+          "issn": [
+            "1369-183X",
+            "1469-9451"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310320547",
+          "host_organization_name": "Taylor & Francis",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
+          ],
+          "host_organization_lineage_names": [
+            "Taylor & Francis",
+            "Informa"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Ethnic and Migration Studies",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1080/1369183x.2026.2742036",
+      "doi": "https://doi.org/10.1080/1369183x.2026.2742036",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/1369183x.2026.2742036",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2026.2742036?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S149872823",
+        "display_name": "Journal of Ethnic and Migration Studies",
+        "issn_l": "1369-183X",
+        "issn": [
+          "1369-183X",
+          "1469-9451"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Ethnic and Migration Studies",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.7307999730110168,
+        "id": "https://metadata.un.org/sdg/10"
+      },
+      {
+        "display_name": "Gender equality",
+        "score": 0.6025999784469604,
+        "id": "https://metadata.un.org/sdg/5"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320310739",
+        "display_name": "Australian Coal Research Limited",
+        "ror": "https://ror.org/00ygteq35"
+      },
+      {
+        "id": "https://openalex.org/F4320315885",
+        "display_name": "Australian Government",
+        "ror": "https://ror.org/0314h5y94"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7222680905.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7222680905.grobid-xml"
+    },
+    "referenced_works_count": 37,
+    "referenced_works": [
+      "https://openalex.org/W1915585428",
+      "https://openalex.org/W2014160745",
+      "https://openalex.org/W2028010932",
+      "https://openalex.org/W2134138459",
+      "https://openalex.org/W2165902783",
+      "https://openalex.org/W2279287187",
+      "https://openalex.org/W2749463495",
+      "https://openalex.org/W2778580398",
+      "https://openalex.org/W2794274569",
+      "https://openalex.org/W2896392421",
+      "https://openalex.org/W3108673126",
+      "https://openalex.org/W3109931374",
+      "https://openalex.org/W3127525143",
+      "https://openalex.org/W3129946865",
+      "https://openalex.org/W3130656682",
+      "https://openalex.org/W3194086730",
+      "https://openalex.org/W3205128728",
+      "https://openalex.org/W3217723857",
+      "https://openalex.org/W4200258694",
+      "https://openalex.org/W4224108328",
+      "https://openalex.org/W4235180164",
+      "https://openalex.org/W4237407181",
+      "https://openalex.org/W4250807223",
+      "https://openalex.org/W4294912246",
+      "https://openalex.org/W4323268453",
+      "https://openalex.org/W4387190763",
+      "https://openalex.org/W4387362271",
+      "https://openalex.org/W4390339599",
+      "https://openalex.org/W4390746289",
+      "https://openalex.org/W4391130458",
+      "https://openalex.org/W4391353357",
+      "https://openalex.org/W4391408228",
+      "https://openalex.org/W4403519508",
+      "https://openalex.org/W4407562013",
+      "https://openalex.org/W4410466328",
+      "https://openalex.org/W4414656297",
+      "https://openalex.org/W7138982741"
+    ],
+    "related_works": [
+      "https://openalex.org/W3213337577",
+      "https://openalex.org/W2233799822",
+      "https://openalex.org/W4379744601",
+      "https://openalex.org/W2898592952",
+      "https://openalex.org/W7020718105",
+      "https://openalex.org/W2981919440",
+      "https://openalex.org/W4297362576",
+      "https://openalex.org/W7053330996",
+      "https://openalex.org/W4205300399",
+      "https://openalex.org/W4411500687"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "article": [
+        1
+      ],
+      "examines": [
+        2
+      ],
+      "how": [
+        3,
+        45,
+        107
+      ],
+      "women": [
+        4,
+        36
+      ],
+      "from": [
+        5,
+        57
+      ],
+      "refugee": [
+        6
+      ],
+      "and": [
+        7,
+        34,
+        53,
+        75,
+        88,
+        99,
+        124,
+        137,
+        154,
+        169,
+        177
+      ],
+      "migrant": [
+        8
+      ],
+      "backgrounds": [
+        9
+      ],
+      "negotiate": [
+        10
+      ],
+      "home": [
+        11,
+        46,
+        78,
+        117,
+        159,
+        182
+      ],
+      "across": [
+        12,
+        49,
+        97,
+        120,
+        183
+      ],
+      "multiple": [
+        13
+      ],
+      "scales": [
+        14,
+        184
+      ],
+      "through": [
+        15
+      ],
+      "creative": [
+        16,
+        23
+      ],
+      "collective": [
+        17,
+        67,
+        187
+      ],
+      "care": [
+        18,
+        24,
+        188
+      ],
+      "practices.": [
+        19
+      ],
+      "Drawing": [
+        20
+      ],
+      "on": [
+        21
+      ],
+      "relational": [
+        22,
+        52,
+        100,
+        153,
+        178
+      ],
+      "workshops": [
+        25,
+        59
+      ],
+      "as": [
+        26,
+        110,
+        118,
+        189
+      ],
+      "a": [
+        27,
+        138
+      ],
+      "form": [
+        28
+      ],
+      "of": [
+        29,
+        115,
+        133,
+        140,
+        145,
+        157,
+        180
+      ],
+      "qualitative": [
+        30
+      ],
+      "methodology": [
+        31,
+        139
+      ],
+      "with": [
+        32
+      ],
+      "Afghan": [
+        33
+      ],
+      "Iranian": [
+        35
+      ],
+      "at": [
+        37
+      ],
+      "Zara\u2019s": [
+        38,
+        111
+      ],
+      "House": [
+        39,
+        112
+      ],
+      "in": [
+        40,
+        79
+      ],
+      "Muloobinba/Newcastle,": [
+        41
+      ],
+      "Australia,": [
+        42
+      ],
+      "we": [
+        43
+      ],
+      "explore": [
+        44
+      ],
+      "is": [
+        47
+      ],
+      "reconstituted": [
+        48
+      ],
+      "spatial,": [
+        50,
+        151
+      ],
+      "temporal,": [
+        51,
+        152
+      ],
+      "affective": [
+        54
+      ],
+      "terrains.": [
+        55
+      ],
+      "Findings": [
+        56
+      ],
+      "these": [
+        58,
+        150,
+        192
+      ],
+      "centred": [
+        60
+      ],
+      "around": [
+        61
+      ],
+      "three": [
+        62
+      ],
+      "interrelated": [
+        63
+      ],
+      "themes:": [
+        64
+      ],
+      "(1)": [
+        65
+      ],
+      "crafting": [
+        66
+      ],
+      "homelands,": [
+        68,
+        121
+      ],
+      "(2)": [
+        69
+      ],
+      "maintaining": [
+        70
+      ],
+      "connections": [
+        71
+      ],
+      "to": [
+        72,
+        167,
+        191
+      ],
+      "homelands": [
+        73
+      ],
+      "elsewhere,": [
+        74
+      ],
+      "(3)": [
+        76
+      ],
+      "making": [
+        77,
+        116,
+        181
+      ],
+      "the": [
+        80,
+        122,
+        131,
+        164,
+        175
+      ],
+      "present.": [
+        81
+      ],
+      "These": [
+        82
+      ],
+      "themes": [
+        83
+      ],
+      "illustrate": [
+        84
+      ],
+      "that": [
+        85,
+        94,
+        142,
+        148
+      ],
+      "both": [
+        86
+      ],
+      "\u2018home\u2019": [
+        87
+      ],
+      "\u2018making": [
+        89
+      ],
+      "home\u2019": [
+        90
+      ],
+      "are": [
+        91
+      ],
+      "multi-scalar": [
+        92,
+        104,
+        158
+      ],
+      "experiences": [
+        93,
+        156
+      ],
+      "simultaneously": [
+        95
+      ],
+      "interplay": [
+        96
+      ],
+      "interconnected": [
+        98
+      ],
+      "scales.": [
+        101
+      ],
+      "Additionally,": [
+        102
+      ],
+      "this": [
+        103,
+        128
+      ],
+      "focus": [
+        105
+      ],
+      "highlights": [
+        106
+      ],
+      "spaces": [
+        108
+      ],
+      "such": [
+        109
+      ],
+      "support": [
+        113
+      ],
+      "practices": [
+        114
+      ],
+      "connected": [
+        119
+      ],
+      "diaspora": [
+        123
+      ],
+      "new": [
+        125
+      ],
+      "home(s).": [
+        126
+      ],
+      "Methodologically,": [
+        127
+      ],
+      "paper": [
+        129,
+        165
+      ],
+      "demonstrates": [
+        130
+      ],
+      "significance": [
+        132
+      ],
+      "arts-based": [
+        134
+      ],
+      "research": [
+        135
+      ],
+      "methods": [
+        136
+      ],
+      "researching-with": [
+        141
+      ],
+      "enables": [
+        143
+      ],
+      "forms": [
+        144
+      ],
+      "knowledge": [
+        146
+      ],
+      "production": [
+        147
+      ],
+      "reflect": [
+        149
+      ],
+      "embodied": [
+        155,
+        176
+      ],
+      "making.": [
+        160
+      ],
+      "In": [
+        161
+      ],
+      "doing": [
+        162
+      ],
+      "so,": [
+        163
+      ],
+      "contributes": [
+        166
+      ],
+      "migration": [
+        168
+      ],
+      "feminist": [
+        170
+      ],
+      "geographic": [
+        171
+      ],
+      "scholarship": [
+        172
+      ],
+      "by": [
+        173
+      ],
+      "emphasising": [
+        174
+      ],
+      "dimensions": [
+        179
+      ],
+      "while": [
+        185
+      ],
+      "foregrounding": [
+        186
+      ],
+      "central": [
+        190
+      ],
+      "processes.": [
+        193
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-18T09:31:52.927876",
+    "created_date": "2026-10-17T00:00:00"
   }
 ]

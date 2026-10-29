@@ -108532,9 +108532,9 @@
   {
     "id": "https://openalex.org/W4414318369",
     "doi": "https://doi.org/10.1093/ahr/rhaf241",
-    "title": "Oz Frankel. <i>Coca-Cola, Black Panthers, and Phantom Jets: Israel in the American Orbit, 1967\u20131973</i>.",
-    "display_name": "Oz Frankel. <i>Coca-Cola, Black Panthers, and Phantom Jets: Israel in the American Orbit, 1967\u20131973</i>.",
-    "relevance_score": 9.350101,
+    "title": "Oz Frankel. Coca-Cola, Black Panthers, and Phantom Jets: Israel in the American Orbit, 1967\u20131973.",
+    "display_name": "Oz Frankel. Coca-Cola, Black Panthers, and Phantom Jets: Israel in the American Orbit, 1967\u20131973.",
+    "relevance_score": 29.393845,
     "publication_year": 2025,
     "publication_date": "2025-09-01",
     "ids": {
@@ -108544,6 +108544,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/ahr/rhaf241",
+      "doi": "https://doi.org/10.1093/ahr/rhaf241",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1093/ahr/rhaf241",
       "pdf_url": null,
@@ -108558,6 +108559,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -108578,6 +108588,7 @@
       "raw_source_name": "The American Historical Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -108594,7 +108605,10 @@
         "author": {
           "id": "https://openalex.org/A5085144495",
           "display_name": "Mira Sucharov",
-          "orcid": "https://orcid.org/0000-0001-8974-9875"
+          "orcid": "https://orcid.org/0000-0001-8974-9875",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8974-9875"
+          ]
         },
         "institutions": [
           {
@@ -108616,6 +108630,7 @@
         "raw_affiliation_strings": [
           "Carleton University ,"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Carleton University ,",
@@ -108636,16 +108651,16 @@
       "https://openalex.org/I67031392"
     ],
     "apc_list": {
-      "value": 4400,
+      "value": 4620,
       "currency": "USD",
-      "value_usd": 4400
+      "value_usd": 4620
     },
     "apc_paid": null,
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.32637661,
+      "value": 0.24200465,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -108660,16 +108675,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13641",
-      "display_name": "Historical Studies and Socio-cultural Analysis",
-      "score": 0.9994999766349792,
+      "id": "https://openalex.org/T13784",
+      "display_name": "Jewish Identity and Society",
+      "score": 0.5077999830245972,
       "subfield": {
-        "id": "https://openalex.org/subfields/1207",
-        "display_name": "History and Philosophy of Science"
+        "id": "https://openalex.org/subfields/3317",
+        "display_name": "Demography"
       },
       "field": {
-        "id": "https://openalex.org/fields/12",
-        "display_name": "Arts and Humanities"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -108678,12 +108693,46 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13641",
-        "display_name": "Historical Studies and Socio-cultural Analysis",
-        "score": 0.9994999766349792,
+        "id": "https://openalex.org/T13784",
+        "display_name": "Jewish Identity and Society",
+        "score": 0.5077999830245972,
         "subfield": {
-          "id": "https://openalex.org/subfields/1207",
-          "display_name": "History and Philosophy of Science"
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11203",
+        "display_name": "Jewish and Middle Eastern Studies",
+        "score": 0.4643999934196472,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13333",
+        "display_name": "American Political and Social Dynamics",
+        "score": 0.002300000051036477,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
         },
         "field": {
           "id": "https://openalex.org/fields/12",
@@ -108693,47 +108742,43 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
-      },
-      {
-        "id": "https://openalex.org/T13802",
-        "display_name": "Vietnamese History and Culture Studies",
-        "score": 0.9868000149726868,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13135",
-        "display_name": "Communism, Protests, Social Movements",
-        "score": 0.9585999846458435,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/imaging-phantom",
-        "display_name": "Imaging phantom",
-        "score": 0.637499988079071
+        "id": "https://openalex.org/keywords/us-israel-relations",
+        "display_name": "US-Israel relations",
+        "score": 0.8159999847412109
+      },
+      {
+        "id": "https://openalex.org/keywords/consumerism",
+        "display_name": "consumerism",
+        "score": 0.7429999709129333
+      },
+      {
+        "id": "https://openalex.org/keywords/race-and-ethnicity",
+        "display_name": "race and ethnicity",
+        "score": 0.9020000100135803
+      },
+      {
+        "id": "https://openalex.org/keywords/meir-kahane",
+        "display_name": "Meir Kahane",
+        "score": 0.9100000262260437
+      },
+      {
+        "id": "https://openalex.org/keywords/black-panther-party",
+        "display_name": "Black Panther Party",
+        "score": 0.5400000214576721
+      },
+      {
+        "id": "https://openalex.org/keywords/yom-kippur-war",
+        "display_name": "Yom Kippur War",
+        "score": 0.7480000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/six-day-war",
+        "display_name": "Six-Day War",
+        "score": 0.8849999904632568
       }
     ],
     "concepts": [
@@ -108813,6 +108858,7 @@
     "locations": [
       {
         "id": "doi:10.1093/ahr/rhaf241",
+        "doi": "https://doi.org/10.1093/ahr/rhaf241",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1093/ahr/rhaf241",
         "pdf_url": null,
@@ -108827,6 +108873,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -108850,19 +108905,662 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "Oz": [
+        0
+      ],
+      "Frankel\u2019s": [
+        1,
+        195
+      ],
+      "book": [
+        2
+      ],
+      "Coca-Cola,": [
+        3
+      ],
+      "Black": [
+        4,
+        141
+      ],
+      "Panthers,": [
+        5
+      ],
+      "and": [
+        6,
+        18,
+        24,
+        54,
+        62,
+        71,
+        73,
+        78,
+        106,
+        120,
+        125,
+        131,
+        147,
+        224,
+        250
+      ],
+      "Phantom": [
+        7
+      ],
+      "Jets:": [
+        8
+      ],
+      "Israel": [
+        9,
+        155,
+        231
+      ],
+      "in": [
+        10,
+        47,
+        168,
+        194,
+        234
+      ],
+      "the": [
+        11,
+        33,
+        48,
+        66,
+        81,
+        95,
+        101,
+        116,
+        128,
+        135,
+        140,
+        145,
+        162,
+        169,
+        189,
+        207,
+        216,
+        239,
+        251,
+        266
+      ],
+      "American": [
+        12,
+        96
+      ],
+      "Orbit,": [
+        13
+      ],
+      "1967\u20131973": [
+        14
+      ],
+      "is": [
+        15,
+        37
+      ],
+      "a": [
+        16,
+        38,
+        59,
+        151,
+        198
+      ],
+      "sprawling": [
+        17
+      ],
+      "exciting": [
+        19
+      ],
+      "work": [
+        20
+      ],
+      "of": [
+        21,
+        29,
+        41,
+        52,
+        68,
+        113,
+        127,
+        164,
+        180,
+        200,
+        209,
+        220
+      ],
+      "social,": [
+        22
+      ],
+      "economic,": [
+        23
+      ],
+      "political": [
+        25
+      ],
+      "history.": [
+        26
+      ],
+      "The": [
+        27,
+        182,
+        236
+      ],
+      "breadth": [
+        28
+      ],
+      "topics": [
+        30,
+        103
+      ],
+      "to": [
+        31,
+        45,
+        176,
+        226,
+        228
+      ],
+      "which": [
+        32,
+        187
+      ],
+      "unwieldy": [
+        34
+      ],
+      "title": [
+        35
+      ],
+      "gestures": [
+        36
+      ],
+      "mere": [
+        39
+      ],
+      "fraction": [
+        40
+      ],
+      "what": [
+        42,
+        74,
+        210,
+        230,
+        262
+      ],
+      "Frankel": [
+        43,
+        57
+      ],
+      "manages": [
+        44
+      ],
+      "cover": [
+        46
+      ],
+      "nearly": [
+        49
+      ],
+      "400": [
+        50
+      ],
+      "pages": [
+        51
+      ],
+      "smart": [
+        53
+      ],
+      "engaging": [
+        55
+      ],
+      "prose.": [
+        56
+      ],
+      "delivers": [
+        58
+      ],
+      "keen,": [
+        60
+      ],
+      "critical,": [
+        61
+      ],
+      "affectionate": [
+        63
+      ],
+      "take": [
+        64
+      ],
+      "on": [
+        65,
+        115
+      ],
+      "themes": [
+        67
+      ],
+      "consumerism,": [
+        69
+      ],
+      "race": [
+        70
+      ],
+      "ethnicity,": [
+        72
+      ],
+      "he": [
+        75
+      ],
+      "calls": [
+        76
+      ],
+      "\u201cambivalence": [
+        77
+      ],
+      "resistance\u201d": [
+        79
+      ],
+      "(10),": [
+        80
+      ],
+      "latter": [
+        82
+      ],
+      "being": [
+        83
+      ],
+      "represented": [
+        84,
+        197
+      ],
+      "by": [
+        85,
+        139,
+        213
+      ],
+      "fears": [
+        86
+      ],
+      "over": [
+        87
+      ],
+      "\u201cbeing": [
+        88
+      ],
+      "drawn": [
+        89
+      ],
+      "too": [
+        90,
+        92
+      ],
+      "far,": [
+        91
+      ],
+      "quickly": [
+        93
+      ],
+      "into": [
+        94
+      ],
+      "orbit\u201d": [
+        97
+      ],
+      "(11).": [
+        98
+      ],
+      "Included": [
+        99
+      ],
+      "among": [
+        100
+      ],
+      "many": [
+        102
+      ],
+      "are": [
+        104
+      ],
+      "things": [
+        105
+      ],
+      "people": [
+        107
+      ],
+      "both": [
+        108
+      ],
+      "delightful": [
+        109
+      ],
+      "(the": [
+        110,
+        122
+      ],
+      "all-Hebrew": [
+        111
+      ],
+      "version": [
+        112
+      ],
+      "Fiddler": [
+        114
+      ],
+      "Roof,": [
+        117
+      ],
+      "professional": [
+        118
+      ],
+      "basketball)": [
+        119
+      ],
+      "hateful": [
+        121
+      ],
+      "racist": [
+        123
+      ],
+      "ideologue": [
+        124
+      ],
+      "founder": [
+        126
+      ],
+      "Kach": [
+        129
+      ],
+      "party": [
+        130
+      ],
+      "movement,": [
+        132
+      ],
+      "Meir": [
+        133
+      ],
+      "Kahane,": [
+        134
+      ],
+      "prejudicial": [
+        136
+      ],
+      "treatment": [
+        137
+      ],
+      "encountered": [
+        138
+      ],
+      "Hebrew": [
+        142
+      ],
+      "Israelites).": [
+        143
+      ],
+      "Certainly,": [
+        144
+      ],
+      "1960s": [
+        146
+      ],
+      "early": [
+        148
+      ],
+      "1970s": [
+        149
+      ],
+      "was": [
+        150,
+        205,
+        242
+      ],
+      "fertile": [
+        152
+      ],
+      "period": [
+        153,
+        191
+      ],
+      "for": [
+        154
+      ],
+      "adopting": [
+        156
+      ],
+      "US": [
+        157
+      ],
+      "cultural": [
+        158
+      ],
+      "reference": [
+        159
+      ],
+      "points.": [
+        160
+      ],
+      "On": [
+        161
+      ],
+      "heels": [
+        163
+      ],
+      "Israel\u2019s": [
+        165
+      ],
+      "stunning": [
+        166
+      ],
+      "victory": [
+        167
+      ],
+      "Six-Day": [
+        170,
+        240
+      ],
+      "War": [
+        171,
+        185,
+        241
+      ],
+      "(1967),": [
+        172
+      ],
+      "Israelis": [
+        173
+      ],
+      "were": [
+        174
+      ],
+      "primed": [
+        175
+      ],
+      "consider": [
+        177
+      ],
+      "new": [
+        178
+      ],
+      "ways": [
+        179
+      ],
+      "living.": [
+        181
+      ],
+      "Yom": [
+        183
+      ],
+      "Kippur": [
+        184
+      ],
+      "(1973),": [
+        186
+      ],
+      "concludes": [
+        188
+      ],
+      "formal": [
+        190
+      ],
+      "under": [
+        192,
+        206
+      ],
+      "investigation": [
+        193
+      ],
+      "book,": [
+        196
+      ],
+      "failure": [
+        199
+      ],
+      "imagination": [
+        201
+      ],
+      "(Israel\u2019s": [
+        202
+      ],
+      "security": [
+        203
+      ],
+      "establishment": [
+        204
+      ],
+      "spell": [
+        208
+      ],
+      "became": [
+        211,
+        254
+      ],
+      "known": [
+        212
+      ],
+      "analysts": [
+        214
+      ],
+      "as": [
+        215
+      ],
+      "conceptzia\u2014a": [
+        217
+      ],
+      "false": [
+        218
+      ],
+      "conception": [
+        219
+      ],
+      "their": [
+        221
+      ],
+      "enemies\u2019": [
+        222
+      ],
+      "resolve": [
+        223
+      ],
+      "capabi\u00ad\u00adlities": [
+        225
+      ],
+      "try": [
+        227
+      ],
+      "undo": [
+        229
+      ],
+      "had": [
+        232
+      ],
+      "gained": [
+        233
+      ],
+      "1967).": [
+        235
+      ],
+      "months": [
+        237
+      ],
+      "after": [
+        238
+      ],
+      "also": [
+        243
+      ],
+      "when": [
+        244
+      ],
+      "France": [
+        245
+      ],
+      "turned": [
+        246
+      ],
+      "away": [
+        247
+      ],
+      "from": [
+        248
+      ],
+      "Israel,": [
+        249
+      ],
+      "United": [
+        252
+      ],
+      "States": [
+        253
+      ],
+      "its": [
+        255
+      ],
+      "main": [
+        256
+      ],
+      "arms": [
+        257
+      ],
+      "supplier.": [
+        258
+      ],
+      "All": [
+        259
+      ],
+      "this": [
+        260
+      ],
+      "solidified": [
+        261
+      ],
+      "we": [
+        263
+      ],
+      "today": [
+        264
+      ],
+      "call": [
+        265
+      ],
+      "Israeli-American": [
+        267
+      ],
+      "\u201cspecial": [
+        268
+      ],
+      "relationship.\u201d": [
+        269
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2026-03-07T16:01:11.037858",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -305341,5 +306039,4817 @@
     "counts_by_year": [],
     "updated_date": "2025-11-06T03:46:38.306776",
     "created_date": "2019-04-11T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4408403560",
+    "doi": "https://doi.org/10.1093/ahr/rhae533",
+    "title": "Arieh Saposnik. Zionism\u2019s Redemptions: Images of the Past and Visions of the Future in Jewish Nationalism.",
+    "display_name": "Arieh Saposnik. Zionism\u2019s Redemptions: Images of the Past and Visions of the Future in Jewish Nationalism.",
+    "relevance_score": 3.249773,
+    "publication_year": 2025,
+    "publication_date": "2025-03-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4408403560",
+      "doi": "https://doi.org/10.1093/ahr/rhae533"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/ahr/rhae533",
+      "doi": "https://doi.org/10.1093/ahr/rhae533",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/ahr/rhae533",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S197437610",
+        "display_name": "The American Historical Review",
+        "issn_l": "0002-8762",
+        "issn": [
+          "0002-8762",
+          "1937-5239"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The American Historical Review",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "book-review",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5017681885",
+          "display_name": "Ori Yehudai",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I52357470",
+            "display_name": "The Ohio State University",
+            "ror": "https://ror.org/00rs6vg23",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I52357470"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Ori Yehudai",
+        "raw_affiliation_strings": [
+          "The Ohio State University ,"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "The Ohio State University ,",
+            "institution_ids": [
+              "https://openalex.org/I52357470"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5017681885"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I52357470"
+    ],
+    "apc_list": {
+      "value": 4620,
+      "currency": "USD",
+      "value_usd": 4620
+    },
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "130",
+      "issue": "1",
+      "first_page": "400",
+      "last_page": "401"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11203",
+      "display_name": "Jewish and Middle Eastern Studies",
+      "score": 0.9872999787330627,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11203",
+        "display_name": "Jewish and Middle Eastern Studies",
+        "score": 0.9872999787330627,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13784",
+        "display_name": "Jewish Identity and Society",
+        "score": 0.010200000368058681,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10794",
+        "display_name": "Islamic Studies and History",
+        "score": 0.00039999998989515007,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/zionism",
+        "display_name": "Zionism",
+        "score": 1.0
+      },
+      {
+        "id": "https://openalex.org/keywords/redemption-narratives",
+        "display_name": "redemption narratives",
+        "score": 0.7789999842643738
+      },
+      {
+        "id": "https://openalex.org/keywords/national-liberation",
+        "display_name": "national liberation",
+        "score": 0.5860000252723694
+      },
+      {
+        "id": "https://openalex.org/keywords/yishuv",
+        "display_name": "Yishuv",
+        "score": 0.7639999985694885
+      },
+      {
+        "id": "https://openalex.org/keywords/jewish-diaspora",
+        "display_name": "Jewish diaspora",
+        "score": 0.6850000023841858
+      },
+      {
+        "id": "https://openalex.org/keywords/palestine",
+        "display_name": "Palestine",
+        "score": 0.45899999141693115
+      },
+      {
+        "id": "https://openalex.org/keywords/israel",
+        "display_name": "Israel",
+        "score": 0.7300000190734863
+      },
+      {
+        "id": "https://openalex.org/keywords/historical-memory",
+        "display_name": "historical memory",
+        "score": 0.38199999928474426
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C133979268",
+        "wikidata": "https://www.wikidata.org/wiki/Q1682108",
+        "display_name": "Vision",
+        "level": 2,
+        "score": 0.920670747756958
+      },
+      {
+        "id": "https://openalex.org/C58041660",
+        "wikidata": "https://www.wikidata.org/wiki/Q42388",
+        "display_name": "Zionism",
+        "level": 3,
+        "score": 0.894914984703064
+      },
+      {
+        "id": "https://openalex.org/C150152722",
+        "wikidata": "https://www.wikidata.org/wiki/Q9268",
+        "display_name": "Judaism",
+        "level": 2,
+        "score": 0.8129544854164124
+      },
+      {
+        "id": "https://openalex.org/C521449643",
+        "wikidata": "https://www.wikidata.org/wiki/Q6235",
+        "display_name": "Nationalism",
+        "level": 3,
+        "score": 0.7755787372589111
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.397053599357605
+      },
+      {
+        "id": "https://openalex.org/C24667770",
+        "wikidata": "https://www.wikidata.org/wiki/Q34187",
+        "display_name": "Religious studies",
+        "level": 1,
+        "score": 0.3418414294719696
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.2775641977787018
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.20194000005722046
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.14246290922164917
+      },
+      {
+        "id": "https://openalex.org/C27206212",
+        "wikidata": "https://www.wikidata.org/wiki/Q34178",
+        "display_name": "Theology",
+        "level": 1,
+        "score": 0.1401103138923645
+      },
+      {
+        "id": "https://openalex.org/C166957645",
+        "wikidata": "https://www.wikidata.org/wiki/Q23498",
+        "display_name": "Archaeology",
+        "level": 1,
+        "score": 0.10526254773139954
+      },
+      {
+        "id": "https://openalex.org/C94625758",
+        "wikidata": "https://www.wikidata.org/wiki/Q7163",
+        "display_name": "Politics",
+        "level": 2,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1093/ahr/rhae533",
+        "doi": "https://doi.org/10.1093/ahr/rhae533",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1093/ahr/rhae533",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S197437610",
+          "display_name": "The American Historical Review",
+          "issn_l": "0002-8762",
+          "issn": [
+            "0002-8762",
+            "1937-5239"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The American Historical Review",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.5199999809265137,
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W1548557026",
+      "https://openalex.org/W1975110180",
+      "https://openalex.org/W1989187808",
+      "https://openalex.org/W4377008908",
+      "https://openalex.org/W2370324859",
+      "https://openalex.org/W2055126100",
+      "https://openalex.org/W952658419",
+      "https://openalex.org/W2059221673",
+      "https://openalex.org/W2304357349",
+      "https://openalex.org/W2013378996"
+    ],
+    "abstract_inverted_index": {
+      "Like": [
+        0
+      ],
+      "other": [
+        1,
+        109,
+        127
+      ],
+      "projects": [
+        2
+      ],
+      "of": [
+        3,
+        23,
+        28,
+        35,
+        69,
+        100,
+        121,
+        131,
+        145
+      ],
+      "national": [
+        4,
+        8
+      ],
+      "liberation,": [
+        5
+      ],
+      "Zionism\u2014the": [
+        6
+      ],
+      "Jewish": [
+        7,
+        156
+      ],
+      "movement": [
+        9
+      ],
+      "that": [
+        10,
+        86
+      ],
+      "emerged": [
+        11
+      ],
+      "in": [
+        12,
+        14,
+        25,
+        72,
+        103,
+        115,
+        126,
+        148,
+        154,
+        158,
+        163
+      ],
+      "Europe": [
+        13
+      ],
+      "the": [
+        15,
+        21,
+        70,
+        119,
+        129,
+        149,
+        155,
+        164,
+        172
+      ],
+      "late": [
+        16
+      ],
+      "nineteenth": [
+        17
+      ],
+      "century": [
+        18
+      ],
+      "and": [
+        19,
+        66,
+        78,
+        95,
+        111,
+        114,
+        123,
+        137
+      ],
+      "founded": [
+        20
+      ],
+      "State": [
+        22
+      ],
+      "Israel": [
+        24
+      ],
+      "1948\u2014spent": [
+        26
+      ],
+      "much": [
+        27
+      ],
+      "its": [
+        29,
+        40
+      ],
+      "intellectual": [
+        30,
+        133
+      ],
+      "energy": [
+        31
+      ],
+      "on": [
+        32,
+        135,
+        143
+      ],
+      "devising": [
+        33
+      ],
+      "images": [
+        34
+      ],
+      "a": [
+        36,
+        44,
+        47,
+        51,
+        55,
+        61,
+        167
+      ],
+      "better": [
+        37
+      ],
+      "future": [
+        38
+      ],
+      "for": [
+        39,
+        46
+      ],
+      "people.": [
+        41
+      ],
+      "Conceived": [
+        42
+      ],
+      "as": [
+        43,
+        50
+      ],
+      "remedy": [
+        45
+      ],
+      "distressful": [
+        48
+      ],
+      "present\u2014sometimes": [
+        49
+      ],
+      "metaphorical": [
+        52
+      ],
+      "return": [
+        53
+      ],
+      "to": [
+        54,
+        92,
+        117,
+        171
+      ],
+      "glorious": [
+        56
+      ],
+      "past\u2014these": [
+        57
+      ],
+      "visions": [
+        58
+      ],
+      "often": [
+        59
+      ],
+      "assumed": [
+        60
+      ],
+      "redemptive": [
+        62,
+        87
+      ],
+      "quality,": [
+        63
+      ],
+      "offering": [
+        64
+      ],
+      "collective": [
+        65
+      ],
+      "individual": [
+        67
+      ],
+      "regeneration": [
+        68
+      ],
+      "Jews": [
+        71
+      ],
+      "their": [
+        73
+      ],
+      "homeland.": [
+        74
+      ],
+      "In": [
+        75
+      ],
+      "this": [
+        76
+      ],
+      "penetrating": [
+        77
+      ],
+      "well-conceived": [
+        79
+      ],
+      "book,": [
+        80
+      ],
+      "Zionism\u2019s": [
+        81,
+        93
+      ],
+      "Redemptions,": [
+        82
+      ],
+      "Arieh": [
+        83
+      ],
+      "Saposnik": [
+        84
+      ],
+      "argues": [
+        85
+      ],
+      "ideas": [
+        88,
+        102
+      ],
+      "are": [
+        89
+      ],
+      "indeed": [
+        90
+      ],
+      "central": [
+        91
+      ],
+      "self-understanding": [
+        94
+      ],
+      "goals.": [
+        96
+      ],
+      "He": [
+        97
+      ],
+      "investigates": [
+        98
+      ],
+      "expressions": [
+        99
+      ],
+      "these": [
+        101
+      ],
+      "texts,": [
+        104
+      ],
+      "political": [
+        105,
+        110
+      ],
+      "debates,": [
+        106
+      ],
+      "relations": [
+        107
+      ],
+      "with": [
+        108,
+        166
+      ],
+      "religious": [
+        112
+      ],
+      "entities,": [
+        113
+      ],
+      "attempts": [
+        116
+      ],
+      "reshape": [
+        118
+      ],
+      "landscape": [
+        120
+      ],
+      "Palestine": [
+        122,
+        159
+      ],
+      "later": [
+        124
+      ],
+      "Israel\u2014or,": [
+        125
+      ],
+      "words,": [
+        128
+      ],
+      "impact": [
+        130
+      ],
+      "an": [
+        132
+      ],
+      "discourse": [
+        134
+      ],
+      "historical": [
+        136
+      ],
+      "cultural": [
+        138
+      ],
+      "realities.": [
+        139
+      ],
+      "His": [
+        140
+      ],
+      "study": [
+        141
+      ],
+      "concentrates": [
+        142
+      ],
+      "narratives": [
+        144
+      ],
+      "redemption": [
+        146
+      ],
+      "developed": [
+        147
+      ],
+      "period": [
+        150
+      ],
+      "before": [
+        151
+      ],
+      "1948,": [
+        152
+      ],
+      "mainly": [
+        153
+      ],
+      "community": [
+        157
+      ],
+      "(Yishuv)": [
+        160
+      ],
+      "but": [
+        161
+      ],
+      "also": [
+        162
+      ],
+      "diaspora,": [
+        165
+      ],
+      "few": [
+        168
+      ],
+      "brief": [
+        169
+      ],
+      "references": [
+        170
+      ],
+      "post-statehood": [
+        173
+      ],
+      "period.": [
+        174
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2025-03-14T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4411224178",
+    "doi": "https://doi.org/10.1093/ahr/rhaf036",
+    "title": "Reflecting on the Holocaust for Today",
+    "display_name": "Reflecting on the Holocaust for Today",
+    "relevance_score": 2.0589757,
+    "publication_year": 2025,
+    "publication_date": "2025-06-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4411224178",
+      "doi": "https://doi.org/10.1093/ahr/rhaf036"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/ahr/rhaf036",
+      "doi": "https://doi.org/10.1093/ahr/rhaf036",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/ahr/rhaf036",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S197437610",
+        "display_name": "The American Historical Review",
+        "issn_l": "0002-8762",
+        "issn": [
+          "0002-8762",
+          "1937-5239"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The American Historical Review",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5085372959",
+          "display_name": "Kees Ribbens",
+          "orcid": "https://orcid.org/0000-0003-0266-5877",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0266-5877"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I175771706",
+            "display_name": "NIOD Institute for War, Holocaust and Genocide Studies",
+            "ror": "https://ror.org/05he87q93",
+            "country_code": "NL",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I1322597698",
+              "https://openalex.org/I175771706"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I913958620",
+            "display_name": "Erasmus University Rotterdam",
+            "ror": "https://ror.org/057w15z03",
+            "country_code": "NL",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I913958620"
+            ]
+          }
+        ],
+        "countries": [
+          "NL"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Kees Ribbens",
+        "raw_affiliation_strings": [
+          "NIOD Institute for War, Holocaust and Genocide Studies; Erasmus University Rotterdam ,",
+          "Erasmus University Rotterdam, Netherlands"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "NIOD Institute for War, Holocaust and Genocide Studies; Erasmus University Rotterdam ,",
+            "institution_ids": [
+              "https://openalex.org/I175771706",
+              "https://openalex.org/I913958620"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Erasmus University Rotterdam, Netherlands",
+            "institution_ids": [
+              "https://openalex.org/I913958620"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5085372959"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I175771706",
+      "https://openalex.org/I913958620"
+    ],
+    "apc_list": {
+      "value": 4620,
+      "currency": "USD",
+      "value_usd": 4620
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.12390543,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "130",
+      "issue": "2",
+      "first_page": "811",
+      "last_page": "814"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11104",
+      "display_name": "Memory, Trauma, and Commemoration",
+      "score": 0.9955999851226807,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3207",
+        "display_name": "Social Psychology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/32",
+        "display_name": "Psychology"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11104",
+        "display_name": "Memory, Trauma, and Commemoration",
+        "score": 0.9955999851226807,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13225",
+        "display_name": "Polish-Jewish Holocaust Memory Studies",
+        "score": 0.0034000000450760126,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12493",
+        "display_name": "Memory, violence, and history",
+        "score": 0.00019999999494757503,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3207",
+          "display_name": "Social Psychology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/32",
+          "display_name": "Psychology"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/holocaust-memory",
+        "display_name": "Holocaust memory",
+        "score": 0.828000009059906
+      },
+      {
+        "id": "https://openalex.org/keywords/anne-frank-house",
+        "display_name": "Anne Frank House",
+        "score": 0.625
+      },
+      {
+        "id": "https://openalex.org/keywords/holocaust-museums",
+        "display_name": "Holocaust museums",
+        "score": 0.4059999883174896
+      },
+      {
+        "id": "https://openalex.org/keywords/anne-frank",
+        "display_name": "Anne Frank",
+        "score": 0.625
+      },
+      {
+        "id": "https://openalex.org/keywords/memory-culture",
+        "display_name": "memory culture",
+        "score": 0.5569999814033508
+      },
+      {
+        "id": "https://openalex.org/keywords/world-war-ii",
+        "display_name": "World War II",
+        "score": 0.5770000219345093
+      },
+      {
+        "id": "https://openalex.org/keywords/israel-gaza-conflict",
+        "display_name": "Gaza conflict",
+        "score": 0.5609999895095825
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C110361221",
+        "wikidata": "https://www.wikidata.org/wiki/Q2763",
+        "display_name": "The Holocaust",
+        "level": 2,
+        "score": 0.85091233253479
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.4433594048023224
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.2504056990146637
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.07556173205375671
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1093/ahr/rhaf036",
+        "doi": "https://doi.org/10.1093/ahr/rhaf036",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1093/ahr/rhaf036",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S197437610",
+          "display_name": "The American Historical Review",
+          "issn_l": "0002-8762",
+          "issn": [
+            "0002-8762",
+            "1937-5239"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The American Historical Review",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:pure.knaw.nl:openaire_cris_publications/f41451c3-cd1b-4534-81f9-13b360eb5c49",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://pure.knaw.nl/portal/en/publications/f41451c3-cd1b-4534-81f9-13b360eb5c49",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400439",
+          "display_name": "KNAW Research Portal (The Royal Netherlands Academy of Arts and Sciences)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1322597698",
+          "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+          "host_organization_lineage": [
+            "https://openalex.org/I1322597698"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Ribbens , C R 2025 , ' Reflecting on the Holocaust for Today : A Review of the National Holocaust Museum, Amsterdam ' , American Historical Review , vol. 130 , no. 2 , pp. 811-814 . https://doi.org/10.1093/ahr/rhaf036",
+        "raw_type": "article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "score": 0.5473999977111816,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W2323091091",
+      "https://openalex.org/W4220882337",
+      "https://openalex.org/W4230171796",
+      "https://openalex.org/W4391964038",
+      "https://openalex.org/W3187273137",
+      "https://openalex.org/W4283511064",
+      "https://openalex.org/W2747242397",
+      "https://openalex.org/W2247952262",
+      "https://openalex.org/W644159018",
+      "https://openalex.org/W610821120"
+    ],
+    "abstract_inverted_index": {
+      "After": [
+        0
+      ],
+      "more": [
+        1,
+        98,
+        117
+      ],
+      "than": [
+        2,
+        104,
+        118
+      ],
+      "a": [
+        3,
+        79,
+        174,
+        214,
+        233,
+        239
+      ],
+      "decade": [
+        4
+      ],
+      "of": [
+        5,
+        21,
+        55,
+        60,
+        66,
+        106,
+        142,
+        154,
+        156,
+        177,
+        235,
+        246
+      ],
+      "preparations,": [
+        6
+      ],
+      "the": [
+        7,
+        19,
+        22,
+        29,
+        46,
+        53,
+        84,
+        88,
+        95,
+        102,
+        113,
+        123,
+        140,
+        152,
+        157,
+        162,
+        166,
+        171,
+        185,
+        207,
+        227,
+        236,
+        244
+      ],
+      "National": [
+        8
+      ],
+      "Holocaust": [
+        9,
+        103,
+        167,
+        237
+      ],
+      "Museum": [
+        10
+      ],
+      "opened": [
+        11
+      ],
+      "in": [
+        12,
+        18,
+        62,
+        87,
+        94,
+        170,
+        173,
+        213,
+        224,
+        238
+      ],
+      "Amsterdam": [
+        13,
+        225
+      ],
+      "on": [
+        14,
+        39,
+        184,
+        197
+      ],
+      "March": [
+        15
+      ],
+      "10,": [
+        16
+      ],
+      "2024,": [
+        17
+      ],
+      "presence": [
+        20
+      ],
+      "Dutch": [
+        23,
+        240
+      ],
+      "king": [
+        24
+      ],
+      "and": [
+        25,
+        31,
+        68,
+        187,
+        226
+      ],
+      "other": [
+        26,
+        108
+      ],
+      "dignitaries,": [
+        27
+      ],
+      "including": [
+        28
+      ],
+      "Austrian": [
+        30
+      ],
+      "Israeli": [
+        32
+      ],
+      "presidents.": [
+        33
+      ],
+      "The": [
+        34,
+        64,
+        91,
+        220
+      ],
+      "event": [
+        35
+      ],
+      "was": [
+        36,
+        97
+      ],
+      "broadcast": [
+        37
+      ],
+      "live": [
+        38
+      ],
+      "national": [
+        40,
+        192,
+        216
+      ],
+      "television": [
+        41
+      ],
+      "while": [
+        42
+      ],
+      "pro-Palestinian": [
+        43
+      ],
+      "demonstrators": [
+        44
+      ],
+      "near": [
+        45
+      ],
+      "museum": [
+        47
+      ],
+      "loudly": [
+        48
+      ],
+      "voiced": [
+        49
+      ],
+      "their": [
+        50,
+        126,
+        247
+      ],
+      "discontent": [
+        51
+      ],
+      "with": [
+        52,
+        206
+      ],
+      "attendance": [
+        54
+      ],
+      "President": [
+        56
+      ],
+      "Isaac": [
+        57
+      ],
+      "Herzog,": [
+        58
+      ],
+      "accused": [
+        59
+      ],
+      "genocide": [
+        61
+      ],
+      "Gaza.": [
+        63
+      ],
+      "confrontation": [
+        65
+      ],
+      "past": [
+        67
+      ],
+      "present": [
+        69
+      ],
+      "made": [
+        70
+      ],
+      "emotions": [
+        71
+      ],
+      "run": [
+        72
+      ],
+      "high,": [
+        73
+      ],
+      "even": [
+        74
+      ],
+      "before": [
+        75
+      ],
+      "anyone": [
+        76
+      ],
+      "had": [
+        77,
+        78
+      ],
+      "chance": [
+        80
+      ],
+      "to": [
+        81,
+        151,
+        165
+      ],
+      "actually": [
+        82
+      ],
+      "visit": [
+        83
+      ],
+      "brand-new": [
+        85
+      ],
+      "exhibition": [
+        86
+      ],
+      "city": [
+        89
+      ],
+      "center.": [
+        90
+      ],
+      "Jewish": [
+        92,
+        115,
+        159
+      ],
+      "community": [
+        93
+      ],
+      "Netherlands": [
+        96
+      ],
+      "severely": [
+        99
+      ],
+      "affected": [
+        100
+      ],
+      "during": [
+        101
+      ],
+      "that": [
+        105,
+        181
+      ],
+      "any": [
+        107
+      ],
+      "Western": [
+        109
+      ],
+      "European": [
+        110
+      ],
+      "country.": [
+        111
+      ],
+      "Of": [
+        112
+      ],
+      "140,000": [
+        114
+      ],
+      "citizens,": [
+        116
+      ],
+      "102,000": [
+        119
+      ],
+      "would": [
+        120
+      ],
+      "not": [
+        121,
+        129
+      ],
+      "survive": [
+        122
+      ],
+      "war.": [
+        124
+      ],
+      "That": [
+        125
+      ],
+      "fate": [
+        127
+      ],
+      "has": [
+        128,
+        168
+      ],
+      "been": [
+        130
+      ],
+      "forgotten": [
+        131
+      ],
+      "is": [
+        132
+      ],
+      "evidenced": [
+        133
+      ],
+      "by": [
+        134
+      ],
+      "Anne": [
+        135,
+        221
+      ],
+      "Frank\u2019s": [
+        136
+      ],
+      "iconic": [
+        137
+      ],
+      "status.": [
+        138
+      ],
+      "However,": [
+        139
+      ],
+      "legacy": [
+        141
+      ],
+      "Frank": [
+        143,
+        222
+      ],
+      "as": [
+        144,
+        210
+      ],
+      "an": [
+        145,
+        211
+      ],
+      "individual": [
+        146
+      ],
+      "cannot": [
+        147
+      ],
+      "possibly": [
+        148
+      ],
+      "do": [
+        149
+      ],
+      "justice": [
+        150
+      ],
+      "diversity": [
+        153
+      ],
+      "experiences": [
+        155
+      ],
+      "multifaceted": [
+        158
+      ],
+      "community.": [
+        160
+      ],
+      "Since": [
+        161
+      ],
+      "1960s,": [
+        163
+      ],
+      "attention": [
+        164
+      ],
+      "grown": [
+        169
+      ],
+      "Netherlands,": [
+        172
+      ],
+      "memory": [
+        175
+      ],
+      "culture": [
+        176
+      ],
+      "World": [
+        178
+      ],
+      "War": [
+        179,
+        201
+      ],
+      "II": [
+        180
+      ],
+      "initially": [
+        182
+      ],
+      "focused": [
+        183
+      ],
+      "military": [
+        186
+      ],
+      "heroism": [
+        188
+      ],
+      "and,": [
+        189
+      ],
+      "longing": [
+        190
+      ],
+      "for": [
+        191
+      ],
+      "unity,": [
+        193
+      ],
+      "dwelled": [
+        194
+      ],
+      "too": [
+        195
+      ],
+      "little": [
+        196
+      ],
+      "civilian": [
+        198
+      ],
+      "victim": [
+        199
+      ],
+      "groups.": [
+        200
+      ],
+      "museums": [
+        202
+      ],
+      "nowadays": [
+        203
+      ],
+      "invariably": [
+        204
+      ],
+      "engage": [
+        205
+      ],
+      "Holocaust,": [
+        208
+      ],
+      "mostly": [
+        209
+      ],
+      "element": [
+        212
+      ],
+      "broader": [
+        215
+      ],
+      "or": [
+        217
+      ],
+      "regional": [
+        218
+      ],
+      "story.": [
+        219
+      ],
+      "House": [
+        223
+      ],
+      "Memorial": [
+        228
+      ],
+      "Center": [
+        229
+      ],
+      "Camp": [
+        230
+      ],
+      "Westerbork": [
+        231
+      ],
+      "offer": [
+        232
+      ],
+      "view": [
+        234
+      ],
+      "context,": [
+        241
+      ],
+      "but": [
+        242
+      ],
+      "from": [
+        243
+      ],
+      "perspective": [
+        245
+      ],
+      "own": [
+        248
+      ],
+      "historical": [
+        249
+      ],
+      "location.": [
+        250
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-06-12T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7117356740",
+    "doi": "https://doi.org/10.1093/ahr/rhaf555",
+    "title": "Paula Fredriksen. Ancient Christianities: The First Five Hundred Years",
+    "display_name": "Paula Fredriksen. Ancient Christianities: The First Five Hundred Years",
+    "relevance_score": 2.0491474,
+    "publication_year": 2025,
+    "publication_date": "2025-10-16",
+    "ids": {
+      "openalex": "https://openalex.org/W7117356740",
+      "doi": "https://doi.org/10.1093/ahr/rhaf555"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/ahr/rhaf555",
+      "doi": "https://doi.org/10.1093/ahr/rhaf555",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/ahr/rhaf555",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S197437610",
+        "display_name": "The American Historical Review",
+        "issn_l": "0002-8762",
+        "issn": [
+          "0002-8762",
+          "1937-5239"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The American Historical Review",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5046274949",
+          "display_name": "Dana Robinson",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I179651463",
+            "display_name": "George Fox University",
+            "ror": "https://ror.org/00w641b14",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I179651463"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Dana Robinson",
+        "raw_affiliation_strings": [
+          "George Fox University ,"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "George Fox University ,",
+            "institution_ids": [
+              "https://openalex.org/I179651463"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5046274949"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I179651463"
+    ],
+    "apc_list": {
+      "value": 4620,
+      "currency": "USD",
+      "value_usd": 4620
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.69158763,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "130",
+      "issue": "4",
+      "first_page": "1748",
+      "last_page": "1750"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10362",
+      "display_name": "Biblical Studies and Interpretation",
+      "score": 0.8812999725341797,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1212",
+        "display_name": "Religious studies"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10362",
+        "display_name": "Biblical Studies and Interpretation",
+        "score": 0.8812999725341797,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1212",
+          "display_name": "Religious studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10165",
+        "display_name": "Classical Antiquity Studies",
+        "score": 0.07509999722242355,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14451",
+        "display_name": "Historical and Religious Studies of Rome",
+        "score": 0.01810000091791153,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/early-christianity",
+        "display_name": "early Christianity",
+        "score": 0.9629999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/late-antiquity",
+        "display_name": "late antiquity",
+        "score": 0.7239999771118164
+      },
+      {
+        "id": "https://openalex.org/keywords/ancient-christianity",
+        "display_name": "ancient Christianity",
+        "score": 0.6940000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/paul-the-apostle",
+        "display_name": "Paul the Apostle",
+        "score": 0.6320000290870667
+      },
+      {
+        "id": "https://openalex.org/keywords/augustine-of-hippo",
+        "display_name": "Augustine of Hippo",
+        "score": 0.9549999833106995
+      },
+      {
+        "id": "https://openalex.org/keywords/jewish-christian-relations",
+        "display_name": "Jewish-Christian relations",
+        "score": 0.5989999771118164
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-identity",
+        "display_name": "religious identity",
+        "score": 0.460999995470047
+      },
+      {
+        "id": "https://openalex.org/keywords/persecution-of-christians",
+        "display_name": "persecution of Christians",
+        "score": 0.8119999766349792
+      },
+      {
+        "id": "https://openalex.org/keywords/martyrdom",
+        "display_name": "martyrdom",
+        "score": 0.9549999833106995
+      },
+      {
+        "id": "https://openalex.org/keywords/apocalyptic-eschatology",
+        "display_name": "apocalyptic eschatology",
+        "score": 0.9890000224113464
+      },
+      {
+        "id": "https://openalex.org/keywords/asceticism",
+        "display_name": "asceticism",
+        "score": 0.9959999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/sin-and-salvation",
+        "display_name": "sin and salvation",
+        "score": 0.8629999756813049
+      },
+      {
+        "id": "https://openalex.org/keywords/roman-mediterranean",
+        "display_name": "Roman Mediterranean",
+        "score": 0.36500000953674316
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.44359999895095825
+      },
+      {
+        "id": "https://openalex.org/C142362112",
+        "wikidata": "https://www.wikidata.org/wiki/Q735",
+        "display_name": "Art",
+        "level": 0,
+        "score": 0.3637999892234802
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.1907999962568283
+      },
+      {
+        "id": "https://openalex.org/C195244886",
+        "wikidata": "https://www.wikidata.org/wiki/Q41493",
+        "display_name": "Ancient history",
+        "level": 1,
+        "score": 0.17190000414848328
+      },
+      {
+        "id": "https://openalex.org/C41008148",
+        "wikidata": "https://www.wikidata.org/wiki/Q21198",
+        "display_name": "Computer science",
+        "level": 0,
+        "score": 0.1573999971151352
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.15209999680519104
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.14990000426769257
+      },
+      {
+        "id": "https://openalex.org/C52119013",
+        "wikidata": "https://www.wikidata.org/wiki/Q50637",
+        "display_name": "Art history",
+        "level": 1,
+        "score": 0.1492999941110611
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.14900000393390656
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.12470000237226486
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1093/ahr/rhaf555",
+        "doi": "https://doi.org/10.1093/ahr/rhaf555",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1093/ahr/rhaf555",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S197437610",
+          "display_name": "The American Historical Review",
+          "issn_l": "0002-8762",
+          "issn": [
+            "0002-8762",
+            "1937-5239"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The American Historical Review",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Ancient": [
+        0
+      ],
+      "Christianities": [
+        1
+      ],
+      "is": [
+        2
+      ],
+      "exactly": [
+        3
+      ],
+      "the": [
+        4,
+        10,
+        52,
+        82,
+        97,
+        127,
+        133,
+        136,
+        143,
+        163,
+        177,
+        181
+      ],
+      "kind": [
+        5
+      ],
+      "of": [
+        6,
+        9,
+        36,
+        54,
+        81,
+        88,
+        100,
+        109,
+        124,
+        138,
+        167,
+        174,
+        180,
+        209,
+        239
+      ],
+      "general": [
+        7
+      ],
+      "account": [
+        8
+      ],
+      "early": [
+        11
+      ],
+      "Christian": [
+        12
+      ],
+      "centuries": [
+        13
+      ],
+      "that": [
+        14,
+        71,
+        102,
+        141
+      ],
+      "we": [
+        15,
+        145
+      ],
+      "would": [
+        16
+      ],
+      "expect": [
+        17
+      ],
+      "from": [
+        18
+      ],
+      "Paula": [
+        19
+      ],
+      "Fredriksen:": [
+        20
+      ],
+      "elegantly": [
+        21
+      ],
+      "written,": [
+        22
+      ],
+      "theologically": [
+        23
+      ],
+      "rich,": [
+        24
+      ],
+      "socially": [
+        25
+      ],
+      "nuanced.": [
+        26
+      ],
+      "Paul": [
+        27
+      ],
+      "and": [
+        28,
+        42,
+        57,
+        76,
+        90,
+        126,
+        130,
+        162,
+        192,
+        195,
+        201,
+        211,
+        223
+      ],
+      "Augustine": [
+        29
+      ],
+      "loom": [
+        30
+      ],
+      "large,": [
+        31
+      ],
+      "as": [
+        32,
+        61,
+        67,
+        93,
+        95,
+        232
+      ],
+      "do": [
+        33
+      ],
+      "intellectual": [
+        34
+      ],
+      "histories": [
+        35
+      ],
+      "concepts": [
+        37
+      ],
+      "like": [
+        38,
+        206
+      ],
+      "sin,": [
+        39
+      ],
+      "salvation,": [
+        40
+      ],
+      "god,": [
+        41
+      ],
+      "body.": [
+        43
+      ],
+      "We": [
+        44
+      ],
+      "are": [
+        45
+      ],
+      "treated": [
+        46
+      ],
+      "to": [
+        47,
+        85,
+        96
+      ],
+      "Fredriksen\u2019s": [
+        48
+      ],
+      "cogent": [
+        49
+      ],
+      "insights": [
+        50
+      ],
+      "into": [
+        51
+      ],
+      "construction": [
+        53
+      ],
+      "\u201cJewish,\u201d": [
+        55
+      ],
+      "\u201cChristian,\u201d": [
+        56
+      ],
+      "\u201cpagan\u201d": [
+        58
+      ],
+      "labels,": [
+        59
+      ],
+      "not": [
+        60
+      ],
+      "fixed": [
+        62
+      ],
+      "identities": [
+        63
+      ],
+      "or": [
+        64
+      ],
+      "groups,": [
+        65
+      ],
+      "but": [
+        66,
+        213
+      ],
+      "powerful": [
+        68
+      ],
+      "rhetorical": [
+        69
+      ],
+      "strategies": [
+        70
+      ],
+      "shift": [
+        72
+      ],
+      "with": [
+        73,
+        135
+      ],
+      "time,": [
+        74
+      ],
+      "situation,": [
+        75
+      ],
+      "audience.": [
+        77
+      ],
+      "The": [
+        78,
+        106,
+        119,
+        184
+      ],
+      "plural": [
+        79
+      ],
+      "\u201cChristianities\u201d": [
+        80
+      ],
+      "title": [
+        83
+      ],
+      "refers": [
+        84
+      ],
+      "diverse": [
+        86,
+        98
+      ],
+      "modes": [
+        87
+      ],
+      "religion": [
+        89,
+        179
+      ],
+      "discourse": [
+        91
+      ],
+      "just": [
+        92
+      ],
+      "much": [
+        94
+      ],
+      "groups": [
+        99
+      ],
+      "Christ-followers": [
+        101
+      ],
+      "populate": [
+        103
+      ],
+      "these": [
+        104
+      ],
+      "centuries.": [
+        105
+      ],
+      "book": [
+        107,
+        134
+      ],
+      "consists": [
+        108
+      ],
+      "seven": [
+        110
+      ],
+      "thematic": [
+        111
+      ],
+      "chapters,": [
+        112
+      ],
+      "organized": [
+        113
+      ],
+      "more-or-less": [
+        114
+      ],
+      "chronologically": [
+        115
+      ],
+      "within": [
+        116
+      ],
+      "each": [
+        117,
+        230
+      ],
+      "chapter.": [
+        118
+      ],
+      "first": [
+        120
+      ],
+      "chapter,": [
+        121
+      ],
+      "\u201cThe": [
+        122
+      ],
+      "Idea": [
+        123
+      ],
+      "Israel,\u201d": [
+        125
+      ],
+      "last,": [
+        128
+      ],
+      "\u201cPagan": [
+        129
+      ],
+      "Christian,\u201d": [
+        131
+      ],
+      "frame": [
+        132
+      ],
+      "questions": [
+        137
+      ],
+      "religious": [
+        139
+      ],
+      "transformation": [
+        140
+      ],
+      "shape": [
+        142
+      ],
+      "period": [
+        144
+      ],
+      "call": [
+        146
+      ],
+      "late": [
+        147
+      ],
+      "antiquity.": [
+        148
+      ],
+      "In": [
+        149
+      ],
+      "what": [
+        150
+      ],
+      "ways": [
+        151
+      ],
+      "does": [
+        152,
+        170
+      ],
+      "Christianity": [
+        153,
+        175
+      ],
+      "grow": [
+        154
+      ],
+      "out": [
+        155
+      ],
+      "of,": [
+        156
+      ],
+      "appropriate,": [
+        157
+      ],
+      "and/or": [
+        158
+      ],
+      "reject": [
+        159
+      ],
+      "both": [
+        160
+      ],
+      "Judaism": [
+        161
+      ],
+      "traditional": [
+        164
+      ],
+      "Mediterranean": [
+        165
+      ],
+      "religions": [
+        166
+      ],
+      "antiquity?": [
+        168
+      ],
+      "How": [
+        169
+      ],
+      "a": [
+        171,
+        207,
+        216,
+        233,
+        237
+      ],
+      "particular": [
+        172
+      ],
+      "form": [
+        173
+      ],
+      "become": [
+        176
+      ],
+      "dominant": [
+        178
+      ],
+      "Roman": [
+        182
+      ],
+      "Mediterranean?": [
+        183
+      ],
+      "middle": [
+        185
+      ],
+      "chapters": [
+        186
+      ],
+      "address": [
+        187
+      ],
+      "theological": [
+        188
+      ],
+      "diversity": [
+        189
+      ],
+      "(aka": [
+        190
+      ],
+      "heresy": [
+        191
+      ],
+      "orthodoxy),": [
+        193
+      ],
+      "persecution": [
+        194
+      ],
+      "martyrdom,": [
+        196
+      ],
+      "apocalyptic": [
+        197
+      ],
+      "eschatology,": [
+        198
+      ],
+      "imperial": [
+        199
+      ],
+      "Christology,": [
+        200
+      ],
+      "asceticism.": [
+        202
+      ],
+      "This": [
+        203
+      ],
+      "may": [
+        204
+      ],
+      "sound": [
+        205
+      ],
+      "lot": [
+        208
+      ],
+      "-isms": [
+        210
+      ],
+      "-ologies,": [
+        212
+      ],
+      "Fredriksen": [
+        214
+      ],
+      "has": [
+        215
+      ],
+      "knack": [
+        217
+      ],
+      "for": [
+        218,
+        236
+      ],
+      "making": [
+        219
+      ],
+      "complex": [
+        220
+      ],
+      "ideas": [
+        221
+      ],
+      "clear": [
+        222
+      ],
+      "grounded": [
+        224
+      ],
+      "in": [
+        225
+      ],
+      "social": [
+        226
+      ],
+      "realities.": [
+        227
+      ],
+      "She": [
+        228
+      ],
+      "treats": [
+        229
+      ],
+      "category": [
+        231
+      ],
+      "capacious": [
+        234
+      ],
+      "net": [
+        235
+      ],
+      "variety": [
+        238
+      ],
+      "interrelated": [
+        240
+      ],
+      "sub-topics.": [
+        241
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-08-21T09:56:20.448147",
+    "created_date": "2025-12-27T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4414318496",
+    "doi": "https://doi.org/10.1093/ahr/rhaf225",
+    "title": "Daniel Widener. Third Worlds Within: Multiethnic Movements and Transnational Solidarity",
+    "display_name": "Daniel Widener. Third Worlds Within: Multiethnic Movements and Transnational Solidarity",
+    "relevance_score": 2.0457284,
+    "publication_year": 2025,
+    "publication_date": "2025-09-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4414318496",
+      "doi": "https://doi.org/10.1093/ahr/rhaf225"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/ahr/rhaf225",
+      "doi": "https://doi.org/10.1093/ahr/rhaf225",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/ahr/rhaf225",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S197437610",
+        "display_name": "The American Historical Review",
+        "issn_l": "0002-8762",
+        "issn": [
+          "0002-8762",
+          "1937-5239"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The American Historical Review",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "book-review",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5034586773",
+          "display_name": "Rachel Ida Buff",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I43579087",
+            "display_name": "University of Wisconsin\u2013Milwaukee",
+            "ror": "https://ror.org/031q21x57",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I43579087"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Rachel Ida Buff",
+        "raw_affiliation_strings": [
+          "University of Wisconsin-Milwaukee , US"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University of Wisconsin-Milwaukee , US",
+            "institution_ids": [
+              "https://openalex.org/I43579087"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5034586773"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I43579087"
+    ],
+    "apc_list": {
+      "value": 4620,
+      "currency": "USD",
+      "value_usd": 4620
+    },
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "130",
+      "issue": "3",
+      "first_page": "1324",
+      "last_page": "1326"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T12765",
+      "display_name": "Race, History, and American Society",
+      "score": 0.9678000211715698,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T12765",
+        "display_name": "Race, History, and American Society",
+        "score": 0.9678000211715698,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12323",
+        "display_name": "Asian American and Pacific Histories",
+        "score": 0.012199999764561653,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12242",
+        "display_name": "Latin American and Latino Studies",
+        "score": 0.008299999870359898,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/transnational-solidarity",
+        "display_name": "transnational solidarity",
+        "score": 0.9990000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/los-angeles",
+        "display_name": "Los Angeles",
+        "score": 0.5569999814033508
+      },
+      {
+        "id": "https://openalex.org/keywords/black-panther-party",
+        "display_name": "Black Panther Party",
+        "score": 0.8209999799728394
+      },
+      {
+        "id": "https://openalex.org/keywords/communist-left",
+        "display_name": "communist left",
+        "score": 0.40400001406669617
+      },
+      {
+        "id": "https://openalex.org/keywords/anti-imperialism",
+        "display_name": "anti-imperialism",
+        "score": 0.48899999260902405
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.4235999882221222
+      },
+      {
+        "id": "https://openalex.org/C107993555",
+        "wikidata": "https://www.wikidata.org/wiki/Q1662673",
+        "display_name": "Gender studies",
+        "level": 1,
+        "score": 0.4230000078678131
+      },
+      {
+        "id": "https://openalex.org/C29595303",
+        "wikidata": "https://www.wikidata.org/wiki/Q165650",
+        "display_name": "Media studies",
+        "level": 1,
+        "score": 0.3151000142097473
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.30140000581741333
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.27410000562667847
+      },
+      {
+        "id": "https://openalex.org/C19165224",
+        "wikidata": "https://www.wikidata.org/wiki/Q23404",
+        "display_name": "Anthropology",
+        "level": 1,
+        "score": 0.2703000009059906
+      },
+      {
+        "id": "https://openalex.org/C137403100",
+        "wikidata": "https://www.wikidata.org/wiki/Q41710",
+        "display_name": "Ethnic group",
+        "level": 2,
+        "score": 0.19290000200271606
+      },
+      {
+        "id": "https://openalex.org/C2780226923",
+        "wikidata": "https://www.wikidata.org/wiki/Q929848",
+        "display_name": "Movement (music)",
+        "level": 2,
+        "score": 0.18520000576972961
+      },
+      {
+        "id": "https://openalex.org/C53553401",
+        "wikidata": "https://www.wikidata.org/wiki/Q47307",
+        "display_name": "Genealogy",
+        "level": 1,
+        "score": 0.17550000548362732
+      },
+      {
+        "id": "https://openalex.org/C2985059025",
+        "wikidata": "https://www.wikidata.org/wiki/Q4430254",
+        "display_name": "Social worlds",
+        "level": 2,
+        "score": 0.17110000550746918
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1093/ahr/rhaf225",
+        "doi": "https://doi.org/10.1093/ahr/rhaf225",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1093/ahr/rhaf225",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S197437610",
+          "display_name": "The American Historical Review",
+          "issn_l": "0002-8762",
+          "issn": [
+            "0002-8762",
+            "1937-5239"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The American Historical Review",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Around": [
+        0
+      ],
+      "the": [
+        1,
+        5,
+        43,
+        54,
+        60,
+        64,
+        84,
+        97,
+        104,
+        120,
+        139,
+        173,
+        185,
+        192,
+        196
+      ],
+      "one-year": [
+        2
+      ],
+      "anniversary": [
+        3
+      ],
+      "of": [
+        4,
+        63,
+        73,
+        128,
+        146,
+        172,
+        195
+      ],
+      "endless": [
+        6
+      ],
+      "Israeli": [
+        7
+      ],
+      "genocide": [
+        8
+      ],
+      "in": [
+        9,
+        81,
+        114,
+        138
+      ],
+      "Gaza,": [
+        10
+      ],
+      "I": [
+        11,
+        32,
+        39,
+        46
+      ],
+      "began": [
+        12
+      ],
+      "reading": [
+        13,
+        48
+      ],
+      "Daniel": [
+        14
+      ],
+      "Widener\u2019s": [
+        15
+      ],
+      "Third": [
+        16,
+        156
+      ],
+      "Worlds": [
+        17,
+        157
+      ],
+      "Within:": [
+        18
+      ],
+      "Multiethnic": [
+        19
+      ],
+      "Movements": [
+        20
+      ],
+      "and": [
+        21,
+        35,
+        141,
+        152,
+        199,
+        219
+      ],
+      "Transnational": [
+        22
+      ],
+      "Solidarity": [
+        23
+      ],
+      "to": [
+        24,
+        27,
+        93,
+        102,
+        215
+      ],
+      "prepare": [
+        25
+      ],
+      "myself": [
+        26
+      ],
+      "write": [
+        28
+      ],
+      "this": [
+        29,
+        49
+      ],
+      "review.": [
+        30
+      ],
+      "Admittedly,": [
+        31
+      ],
+      "was": [
+        33,
+        187
+      ],
+      "disconsolate": [
+        34
+      ],
+      "distracted,": [
+        36
+      ],
+      "resentful": [
+        37
+      ],
+      "that": [
+        38,
+        58,
+        89,
+        164
+      ],
+      "had": [
+        40
+      ],
+      "taken": [
+        41
+      ],
+      "on": [
+        42
+      ],
+      "work.": [
+        44
+      ],
+      "Then": [
+        45
+      ],
+      "started": [
+        47
+      ],
+      "beautiful": [
+        50
+      ],
+      "book.": [
+        51
+      ],
+      "Blowing": [
+        52
+      ],
+      "by": [
+        53
+      ],
+      "still-entrenched": [
+        55
+      ],
+      "historiographical": [
+        56
+      ],
+      "boundaries": [
+        57
+      ],
+      "resist": [
+        59
+      ],
+      "enduring": [
+        61
+      ],
+      "influence": [
+        62
+      ],
+      "communist": [
+        65
+      ],
+      "\u201cold": [
+        66
+      ],
+      "left,\u201d": [
+        67
+      ],
+      "Widener": [
+        68,
+        108
+      ],
+      "presents": [
+        69
+      ],
+      "a": [
+        70,
+        110,
+        148,
+        160,
+        188,
+        213
+      ],
+      "dazzling": [
+        71
+      ],
+      "panoply": [
+        72
+      ],
+      "20th-century": [
+        74
+      ],
+      "movement": [
+        75
+      ],
+      "history.": [
+        76
+      ],
+      "As": [
+        77
+      ],
+      "Vijay": [
+        78
+      ],
+      "Prashad": [
+        79
+      ],
+      "comments": [
+        80
+      ],
+      "his": [
+        82,
+        125,
+        135,
+        143,
+        210
+      ],
+      "forward,": [
+        83
+      ],
+      "book": [
+        85,
+        105,
+        117
+      ],
+      "\u201cbristles": [
+        86
+      ],
+      "with": [
+        87,
+        209
+      ],
+      "stories": [
+        88
+      ],
+      "we": [
+        90
+      ],
+      "are": [
+        91
+      ],
+      "told": [
+        92
+      ],
+      "forget\u201d": [
+        94
+      ],
+      "(11).": [
+        95
+      ],
+      "Like": [
+        96
+      ],
+      "late,": [
+        98
+      ],
+      "great": [
+        99
+      ],
+      "Mike": [
+        100
+      ],
+      "Davis,": [
+        101
+      ],
+      "whom": [
+        103
+      ],
+      "is": [
+        106,
+        109,
+        212
+      ],
+      "dedicated,": [
+        107
+      ],
+      "writer": [
+        111
+      ],
+      "deeply": [
+        112
+      ],
+      "rooted": [
+        113
+      ],
+      "place.": [
+        115
+      ],
+      "His": [
+        116
+      ],
+      "beautifully": [
+        118
+      ],
+      "historicizes": [
+        119
+      ],
+      "autobiographical,": [
+        121
+      ],
+      "as": [
+        122,
+        131,
+        181
+      ],
+      "he": [
+        123
+      ],
+      "recounts": [
+        124
+      ],
+      "personal": [
+        126
+      ],
+      "understanding": [
+        127
+      ],
+      "Los": [
+        129,
+        193
+      ],
+      "Angeles": [
+        130,
+        194
+      ],
+      "it": [
+        132
+      ],
+      "develops": [
+        133
+      ],
+      "through": [
+        134,
+        142
+      ],
+      "family\u2019s": [
+        136
+      ],
+      "history": [
+        137,
+        163
+      ],
+      "city": [
+        140,
+        211
+      ],
+      "own": [
+        144
+      ],
+      "experience": [
+        145
+      ],
+      "being": [
+        147
+      ],
+      "young": [
+        149
+      ],
+      "Black": [
+        150,
+        197
+      ],
+      "person": [
+        151
+      ],
+      "an": [
+        153
+      ],
+      "organizer": [
+        154
+      ],
+      "there.": [
+        155
+      ],
+      "Within": [
+        158
+      ],
+      "traces": [
+        159
+      ],
+      "rich,": [
+        161
+      ],
+      "radical": [
+        162
+      ],
+      "reverberates": [
+        165
+      ],
+      "from": [
+        166
+      ],
+      "older,": [
+        167
+      ],
+      "communist-adjacent": [
+        168
+      ],
+      "formations\u2014Frank": [
+        169
+      ],
+      "Carlson,": [
+        170
+      ],
+      "one": [
+        171
+      ],
+      "Terminal": [
+        174
+      ],
+      "Island": [
+        175
+      ],
+      "Four,": [
+        176
+      ],
+      "organizers": [
+        177
+      ],
+      "targeted": [
+        178
+      ],
+      "for": [
+        179
+      ],
+      "deportation": [
+        180
+      ],
+      "political": [
+        182
+      ],
+      "subversives": [
+        183
+      ],
+      "during": [
+        184
+      ],
+      "1950s,": [
+        186
+      ],
+      "close": [
+        189
+      ],
+      "family": [
+        190
+      ],
+      "friend\u2014through": [
+        191
+      ],
+      "Panthers": [
+        198
+      ],
+      "Brown": [
+        200
+      ],
+      "Berets,": [
+        201
+      ],
+      "down": [
+        202
+      ],
+      "into": [
+        203
+      ],
+      "contemporary": [
+        204
+      ],
+      "movements.": [
+        205
+      ],
+      "The": [
+        206
+      ],
+      "author\u2019s": [
+        207
+      ],
+      "familiarity": [
+        208
+      ],
+      "portal": [
+        214
+      ],
+      "exploring": [
+        216
+      ],
+      "its": [
+        217
+      ],
+      "painful": [
+        218
+      ],
+      "generative": [
+        220
+      ],
+      "contradictions.": [
+        221
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4411224123",
+    "doi": "https://doi.org/10.1093/ahr/rhaf058",
+    "title": "Immanuel Etkes. The Invention of a Tradition: The Messianic Zionism of the Gaon of Vilna, Trans. Saadya Sternberg.",
+    "display_name": "Immanuel Etkes. The Invention of a Tradition: The Messianic Zionism of the Gaon of Vilna, Trans. Saadya Sternberg.",
+    "relevance_score": 1.7767322,
+    "publication_year": 2025,
+    "publication_date": "2025-06-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4411224123",
+      "doi": "https://doi.org/10.1093/ahr/rhaf058"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1093/ahr/rhaf058",
+      "doi": "https://doi.org/10.1093/ahr/rhaf058",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/ahr/rhaf058",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S197437610",
+        "display_name": "The American Historical Review",
+        "issn_l": "0002-8762",
+        "issn": [
+          "0002-8762",
+          "1937-5239"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The American Historical Review",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5036740653",
+          "display_name": "Olga Litvak",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I205783295",
+            "display_name": "Cornell University",
+            "ror": "https://ror.org/05bnh6r87",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Olga Litvak",
+        "raw_affiliation_strings": [
+          "Cornell University ,",
+          "Cornell University, US"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Cornell University ,",
+            "institution_ids": [
+              "https://openalex.org/I205783295"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Cornell University, US",
+            "institution_ids": [
+              "https://openalex.org/I205783295"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5036740653"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I205783295"
+    ],
+    "apc_list": {
+      "value": 4620,
+      "currency": "USD",
+      "value_usd": 4620
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.12976114,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "130",
+      "issue": "2",
+      "first_page": "920",
+      "last_page": "921"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T14441",
+      "display_name": "Religion, Theology, History, Judaism, Christianity",
+      "score": 0.37229999899864197,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T14441",
+        "display_name": "Religion, Theology, History, Judaism, Christianity",
+        "score": 0.37229999899864197,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11203",
+        "display_name": "Jewish and Middle Eastern Studies",
+        "score": 0.30469998717308044,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13784",
+        "display_name": "Jewish Identity and Society",
+        "score": 0.0608999989926815,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3317",
+          "display_name": "Demography"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/origins-of-zionism",
+        "display_name": "origins of Zionism",
+        "score": 0.7900000214576721
+      },
+      {
+        "id": "https://openalex.org/keywords/historical-revisionism",
+        "display_name": "historical revisionism",
+        "score": 0.5920000076293945
+      },
+      {
+        "id": "https://openalex.org/keywords/family-myths",
+        "display_name": "family myths",
+        "score": 0.5920000076293945
+      },
+      {
+        "id": "https://openalex.org/keywords/zionism",
+        "display_name": "Zionism",
+        "score": 0.5199999809265137
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.5377654433250427
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1093/ahr/rhaf058",
+        "doi": "https://doi.org/10.1093/ahr/rhaf058",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1093/ahr/rhaf058",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S197437610",
+          "display_name": "The American Historical Review",
+          "issn_l": "0002-8762",
+          "issn": [
+            "0002-8762",
+            "1937-5239"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1"
+          ],
+          "host_organization": "https://openalex.org/P4310311648",
+          "host_organization_name": "Oxford University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311648",
+            "https://openalex.org/P4310311647"
+          ],
+          "host_organization_lineage_names": [
+            "Oxford University Press",
+            "University of Oxford"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The American Historical Review",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W4391375266",
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2912137438",
+      "https://openalex.org/W2803307177",
+      "https://openalex.org/W1494974852",
+      "https://openalex.org/W1030430500",
+      "https://openalex.org/W2346533055",
+      "https://openalex.org/W3214635344",
+      "https://openalex.org/W3166162583"
+    ],
+    "abstract_inverted_index": {
+      "The": [
+        0,
+        8,
+        13,
+        269
+      ],
+      "principal": [
+        1
+      ],
+      "object": [
+        2
+      ],
+      "of": [
+        3,
+        10,
+        16,
+        19,
+        24,
+        30,
+        47,
+        52,
+        71,
+        88,
+        104,
+        124,
+        127,
+        165,
+        170,
+        186,
+        197,
+        202,
+        220,
+        246,
+        255,
+        271,
+        279,
+        289,
+        298,
+        302
+      ],
+      "Immanuel": [
+        4
+      ],
+      "Etkes\u2019s": [
+        5,
+        143,
+        244,
+        276
+      ],
+      "inquiry": [
+        6
+      ],
+      "in": [
+        7,
+        58,
+        142,
+        214,
+        300
+      ],
+      "Invention": [
+        9,
+        270
+      ],
+      "a": [
+        11,
+        31,
+        80,
+        139,
+        149,
+        272,
+        313
+      ],
+      "Tradition:": [
+        12
+      ],
+      "Messianic": [
+        14
+      ],
+      "Zionism": [
+        15,
+        299
+      ],
+      "the": [
+        17,
+        22,
+        48,
+        53,
+        84,
+        101,
+        122,
+        125,
+        163,
+        168,
+        174,
+        184,
+        187,
+        194,
+        200,
+        218,
+        221,
+        228,
+        235,
+        240,
+        250,
+        253,
+        264,
+        287,
+        290,
+        294
+      ],
+      "Gaon": [
+        18,
+        201,
+        222
+      ],
+      "Vilna": [
+        20,
+        203
+      ],
+      "is": [
+        21,
+        172,
+        274
+      ],
+      "\u201cimagination\u201d": [
+        23
+      ],
+      "Shlomo": [
+        25,
+        309
+      ],
+      "Zalman": [
+        26,
+        310
+      ],
+      "Rivlin": [
+        27,
+        38,
+        74,
+        114,
+        311
+      ],
+      "(1884\u20131962),": [
+        28
+      ],
+      "scion": [
+        29
+      ],
+      "prominent": [
+        32
+      ],
+      "Jerusalem": [
+        33
+      ],
+      "clan,": [
+        34
+      ],
+      "whose": [
+        35
+      ],
+      "father,": [
+        36
+      ],
+      "Joseph": [
+        37
+      ],
+      "(1837\u20131896),": [
+        39
+      ],
+      "was": [
+        40,
+        65,
+        154,
+        190
+      ],
+      "\u201can": [
+        41
+      ],
+      "articulate": [
+        42
+      ],
+      "and": [
+        43,
+        121,
+        225
+      ],
+      "passionate": [
+        44
+      ],
+      "spokesman\u201d": [
+        45
+      ],
+      "(38)": [
+        46
+      ],
+      "pious": [
+        49,
+        314
+      ],
+      "Jewish": [
+        50,
+        175
+      ],
+      "community": [
+        51
+      ],
+      "Old": [
+        54
+      ],
+      "Yishuv,": [
+        55
+      ],
+      "long": [
+        56
+      ],
+      "settled": [
+        57
+      ],
+      "Ottoman": [
+        59
+      ],
+      "Palestine.": [
+        60
+      ],
+      "According": [
+        61
+      ],
+      "to": [
+        62,
+        67,
+        78,
+        83,
+        96,
+        138,
+        162,
+        209,
+        223,
+        260,
+        307
+      ],
+      "Etkes,": [
+        63
+      ],
+      "it": [
+        64,
+        94,
+        153,
+        207
+      ],
+      "thanks": [
+        66
+      ],
+      "his": [
+        68
+      ],
+      "prodigious": [
+        69
+      ],
+      "faculty": [
+        70
+      ],
+      "invention": [
+        72
+      ],
+      "that": [
+        73,
+        158,
+        173
+      ],
+      "fils": [
+        75
+      ],
+      "single-handedly": [
+        76
+      ],
+      "managed": [
+        77
+      ],
+      "concoct": [
+        79
+      ],
+      "credible": [
+        81
+      ],
+      "alternative": [
+        82
+      ],
+      "well-established": [
+        85
+      ],
+      "consensus": [
+        86
+      ],
+      "narrative": [
+        87
+      ],
+      "Zionist": [
+        89
+      ],
+      "origins\u2014a": [
+        90
+      ],
+      "tale": [
+        91
+      ],
+      "convincing": [
+        92
+      ],
+      "enough,": [
+        93
+      ],
+      "seems,": [
+        95
+      ],
+      "enter": [
+        97
+      ],
+      "scholarly": [
+        98
+      ],
+      "literature": [
+        99
+      ],
+      "under": [
+        100
+      ],
+      "unimpeachable": [
+        102
+      ],
+      "imprint": [
+        103
+      ],
+      "Oxford": [
+        105
+      ],
+      "University": [
+        106
+      ],
+      "Press.": [
+        107
+      ],
+      "Based": [
+        108
+      ],
+      "largely": [
+        109
+      ],
+      "on": [
+        110
+      ],
+      "material": [
+        111
+      ],
+      "authored": [
+        112
+      ],
+      "by": [
+        113,
+        180,
+        193
+      ],
+      "himself,": [
+        115
+      ],
+      "Arie": [
+        116
+      ],
+      "Morgenstern\u2019s": [
+        117,
+        155
+      ],
+      "Hastening": [
+        118
+      ],
+      "Redemption:": [
+        119
+      ],
+      "Messianism": [
+        120
+      ],
+      "Resettlement": [
+        123
+      ],
+      "Land": [
+        126
+      ],
+      "Israel,": [
+        128
+      ],
+      "trans.": [
+        129
+      ],
+      "Joel": [
+        130
+      ],
+      "A.": [
+        131
+      ],
+      "Linsider": [
+        132
+      ],
+      "(2006),": [
+        133
+      ],
+      "has": [
+        134,
+        305
+      ],
+      "lent": [
+        135
+      ],
+      "institutional": [
+        136
+      ],
+      "credibility": [
+        137
+      ],
+      "fiction": [
+        140
+      ],
+      "that,": [
+        141
+      ],
+      "trenchant": [
+        144
+      ],
+      "retelling,": [
+        145
+      ],
+      "began": [
+        146
+      ],
+      "life": [
+        147
+      ],
+      "as": [
+        148,
+        312
+      ],
+      "family": [
+        150
+      ],
+      "myth.": [
+        151
+      ],
+      "For": [
+        152
+      ],
+      "academic": [
+        156
+      ],
+      "imprimatur": [
+        157
+      ],
+      "elevated": [
+        159
+      ],
+      "Rivlin\u2019s": [
+        160,
+        210,
+        247,
+        280
+      ],
+      "fable": [
+        161
+      ],
+      "status": [
+        164
+      ],
+      "\u201crevisionist\u201d": [
+        166
+      ],
+      "history,": [
+        167
+      ],
+      "upshot": [
+        169
+      ],
+      "which": [
+        171,
+        303
+      ],
+      "national": [
+        176
+      ],
+      "movement": [
+        177
+      ],
+      "ostensibly": [
+        178
+      ],
+      "fathered": [
+        179
+      ],
+      "Theodor": [
+        181
+      ],
+      "Herzl": [
+        182
+      ],
+      "at": [
+        183
+      ],
+      "beginning": [
+        185
+      ],
+      "twentieth": [
+        188
+      ],
+      "century": [
+        189
+      ],
+      "really": [
+        191
+      ],
+      "inspired": [
+        192
+      ],
+      "messianic": [
+        195
+      ],
+      "\u201cdoctrine\u201d": [
+        196
+      ],
+      "R.": [
+        198
+      ],
+      "Elijah,": [
+        199
+      ],
+      "(1720\u20131797),": [
+        204
+      ],
+      "who": [
+        205
+      ],
+      "imparted": [
+        206
+      ],
+      "directly": [
+        208
+      ],
+      "own": [
+        211
+      ],
+      "ancestors,": [
+        212
+      ],
+      "who,": [
+        213
+      ],
+      "their": [
+        215
+      ],
+      "turn,": [
+        216
+      ],
+      "mobilized": [
+        217
+      ],
+      "students": [
+        219
+      ],
+      "emigrate": [
+        224
+      ],
+      "thus": [
+        226
+      ],
+      "\u201claid": [
+        227
+      ],
+      "foundations": [
+        229
+      ],
+      "for": [
+        230,
+        282
+      ],
+      "Zionism\u201d": [
+        231,
+        284
+      ],
+      "(1)": [
+        232
+      ],
+      "decades": [
+        233
+      ],
+      "before": [
+        234
+      ],
+      "first": [
+        236,
+        251
+      ],
+      "secular": [
+        237,
+        296
+      ],
+      "\u201cpioneers\u201d": [
+        238
+      ],
+      "established": [
+        239
+      ],
+      "New": [
+        241
+      ],
+      "Yishuv.": [
+        242
+      ],
+      "In": [
+        243
+      ],
+      "dissection": [
+        245
+      ],
+      "oeuvre,": [
+        248
+      ],
+      "neither": [
+        249
+      ],
+      "nor": [
+        252
+      ],
+      "second": [
+        254
+      ],
+      "these": [
+        256
+      ],
+      "propositions": [
+        257
+      ],
+      "stands": [
+        258
+      ],
+      "up": [
+        259
+      ],
+      "serious": [
+        261
+      ],
+      "scrutiny;": [
+        262
+      ],
+      "however,": [
+        263
+      ],
+      "most": [
+        265
+      ],
+      "remarkable": [
+        266
+      ],
+      "thing": [
+        267
+      ],
+      "about": [
+        268,
+        293
+      ],
+      "Tradition": [
+        273
+      ],
+      "not": [
+        275
+      ],
+      "painstaking": [
+        277
+      ],
+      "anatomy": [
+        278
+      ],
+      "case": [
+        281
+      ],
+      "\u201cmessianic": [
+        283
+      ],
+      "but": [
+        285
+      ],
+      "what": [
+        286
+      ],
+      "nature": [
+        288
+      ],
+      "evidence": [
+        291
+      ],
+      "suggests": [
+        292
+      ],
+      "standard": [
+        295
+      ],
+      "account": [
+        297
+      ],
+      "defense": [
+        301
+      ],
+      "Etkes": [
+        304
+      ],
+      "undertaken": [
+        306
+      ],
+      "expose": [
+        308
+      ],
+      "fraud.": [
+        315
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-09-25T08:18:29.962427",
+    "created_date": "2025-10-10T00:00:00"
   }
 ]

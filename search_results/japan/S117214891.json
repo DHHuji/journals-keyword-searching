@@ -9470,7 +9470,7 @@
     "doi": "https://doi.org/10.1177/10575677261446940",
     "title": "Caring to Death: Characteristics of Eldercide by Family Caregivers in Japan",
     "display_name": "Caring to Death: Characteristics of Eldercide by Family Caregivers in Japan",
-    "relevance_score": 11.222868,
+    "relevance_score": 29.062143,
     "publication_year": 2026,
     "publication_date": "2026-05-05",
     "ids": {
@@ -9480,6 +9480,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/10575677261446940",
+      "doi": "https://doi.org/10.1177/10575677261446940",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/10575677261446940",
       "pdf_url": null,
@@ -9494,6 +9495,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -9512,6 +9522,7 @@
       "raw_source_name": "International Criminal Justice Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -9520,7 +9531,7 @@
       "is_oa": true,
       "oa_status": "hybrid",
       "oa_url": "https://doi.org/10.1177/10575677261446940",
-      "any_repository_has_fulltext": false
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -9528,7 +9539,10 @@
         "author": {
           "id": "https://openalex.org/A5081789378",
           "display_name": "Masahiro Suzuki",
-          "orcid": "https://orcid.org/0000-0002-7925-2141"
+          "orcid": "https://orcid.org/0000-0002-7925-2141",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7925-2141"
+          ]
         },
         "institutions": [
           {
@@ -9565,7 +9579,10 @@
         "author": {
           "id": "https://openalex.org/A5061586240",
           "display_name": "Sho Sagara",
-          "orcid": "https://orcid.org/0000-0002-5095-7893"
+          "orcid": "https://orcid.org/0000-0002-5095-7893",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5095-7893"
+          ]
         },
         "institutions": [
           {
@@ -9602,7 +9619,10 @@
         "author": {
           "id": "https://openalex.org/A5130294955",
           "display_name": "Akinori Otani",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3304-0052",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3304-0052"
+          ]
         },
         "institutions": [
           {
@@ -9644,22 +9664,33 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I143804889"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
+    "apc_list": {
+      "value": 3400,
+      "currency": "USD",
+      "value_usd": 3400
+    },
+    "apc_paid": {
+      "value": 3400,
+      "currency": "USD",
+      "value_usd": 3400
+    },
+    "fwci": 44.5746,
     "has_fulltext": false,
-    "cited_by_count": 0,
+    "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.9583217,
-      "is_in_top_1_percent": false,
+      "value": 0.99714914,
+      "is_in_top_1_percent": true,
       "is_in_top_10_percent": true
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 97,
+      "max": 98
+    },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "36",
+      "issue": "4",
+      "first_page": "437",
+      "last_page": "456"
     },
     "is_retracted": false,
     "is_paratext": false,
@@ -9667,7 +9698,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12462",
       "display_name": "Elder Abuse and Neglect",
-      "score": 0.932699978351593,
+      "score": 0.6220999956130981,
       "subfield": {
         "id": "https://openalex.org/subfields/3317",
         "display_name": "Demography"
@@ -9685,7 +9716,7 @@
       {
         "id": "https://openalex.org/T12462",
         "display_name": "Elder Abuse and Neglect",
-        "score": 0.932699978351593,
+        "score": 0.6220999956130981,
         "subfield": {
           "id": "https://openalex.org/subfields/3317",
           "display_name": "Demography"
@@ -9702,7 +9733,7 @@
       {
         "id": "https://openalex.org/T13605",
         "display_name": "Homicide, Infanticide, and Child Abuse",
-        "score": 0.04089999943971634,
+        "score": 0.36820000410079956,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -9717,12 +9748,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T11712",
-        "display_name": "Intergenerational Family Dynamics and Caregiving",
-        "score": 0.0052999998442828655,
+        "id": "https://openalex.org/T10380",
+        "display_name": "Intimate Partner and Family Violence",
+        "score": 0.0044999998062849045,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3306",
+          "display_name": "Health"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -9737,43 +9768,53 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/family-caregivers",
-        "display_name": "Family caregivers",
-        "score": 0.7502999901771545
+        "display_name": "family caregivers",
+        "score": 0.8230000138282776
       },
       {
         "id": "https://openalex.org/keywords/homicide",
-        "display_name": "Homicide",
-        "score": 0.7240999937057495
-      },
-      {
-        "id": "https://openalex.org/keywords/scholarship",
-        "display_name": "Scholarship",
-        "score": 0.5705000162124634
+        "display_name": "homicide",
+        "score": 0.5559999942779541
       },
       {
         "id": "https://openalex.org/keywords/elder-abuse",
-        "display_name": "Elder abuse",
-        "score": 0.5392000079154968
+        "display_name": "elder abuse",
+        "score": 0.8349999785423279
       },
       {
-        "id": "https://openalex.org/keywords/qualitative-research",
-        "display_name": "Qualitative research",
-        "score": 0.5314000248908997
+        "id": "https://openalex.org/keywords/caregiver-burnout",
+        "display_name": "caregiver burnout",
+        "score": 0.9610000252723694
       },
       {
-        "id": "https://openalex.org/keywords/newspaper",
-        "display_name": "Newspaper",
-        "score": 0.4546999931335449
+        "id": "https://openalex.org/keywords/economic-hardship",
+        "display_name": "economic hardship",
+        "score": 0.7630000114440918
       },
       {
-        "id": "https://openalex.org/keywords/primary-caregiver",
-        "display_name": "Primary caregiver",
-        "score": 0.41290000081062317
+        "id": "https://openalex.org/keywords/family-relationships",
+        "display_name": "family relationships",
+        "score": 0.5720000267028809
       },
       {
-        "id": "https://openalex.org/keywords/construct",
-        "display_name": "Construct (python library)",
-        "score": 0.399399995803833
+        "id": "https://openalex.org/keywords/aging-society",
+        "display_name": "aging society",
+        "score": 0.5870000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/caregiving-expectations",
+        "display_name": "caregiving expectations",
+        "score": 0.6520000100135803
+      },
+      {
+        "id": "https://openalex.org/keywords/institutional-support",
+        "display_name": "institutional support",
+        "score": 0.6859999895095825
+      },
+      {
+        "id": "https://openalex.org/keywords/japan",
+        "display_name": "Japan",
+        "score": 0.3490000069141388
       }
     ],
     "concepts": [
@@ -9926,10 +9967,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 2,
     "locations": [
       {
         "id": "doi:10.1177/10575677261446940",
+        "doi": "https://doi.org/10.1177/10575677261446940",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/10575677261446940",
         "pdf_url": null,
@@ -9944,6 +9986,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -9961,10 +10012,44 @@
         "is_published": true,
         "raw_source_name": "International Criminal Justice Review",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "doi:10.2139/ssrn.6717663",
+        "doi": "https://doi.org/10.2139/ssrn.6717663",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.2139/ssrn.6717663",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210172589",
+          "display_name": "SSRN Electronic Journal",
+          "issn_l": "1556-5068",
+          "issn": [
+            "1556-5068"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1318003438",
+          "host_organization_name": "RELX Group (Netherlands)",
+          "host_organization_lineage": [
+            "https://openalex.org/I1318003438"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1177/10575677261446940",
+      "doi": "https://doi.org/10.1177/10575677261446940",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/10575677261446940",
       "pdf_url": null,
@@ -9979,6 +10064,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -9999,11 +10093,24 @@
     },
     "sustainable_development_goals": [
       {
-        "display_name": "Gender equality",
-        "id": "https://metadata.un.org/sdg/5",
-        "score": 0.6091923713684082
+        "score": 0.9595999717712402,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      },
+      {
+        "score": 0.504800021648407,
+        "id": "https://metadata.un.org/sdg/3",
+        "display_name": "Good health and well-being"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.6091923713684082,
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -10052,9 +10159,20 @@
       "https://openalex.org/W4392004224",
       "https://openalex.org/W4397022033",
       "https://openalex.org/W4406992040",
-      "https://openalex.org/W7153450304"
+      "https://openalex.org/W7139985213"
     ],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W7139985213",
+      "https://openalex.org/W7165665945",
+      "https://openalex.org/W7096385015",
+      "https://openalex.org/W2775388296",
+      "https://openalex.org/W2168464481",
+      "https://openalex.org/W4415265152",
+      "https://openalex.org/W1519485631",
+      "https://openalex.org/W1989761241",
+      "https://openalex.org/W2528286406",
+      "https://openalex.org/W2530367802"
+    ],
     "abstract_inverted_index": {
       "Eldercide": [
         0
@@ -10436,8 +10554,13 @@
         152
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-05-06T06:10:43.113611",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 3
+      }
+    ],
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2026-05-06T00:00:00"
   },
   {
@@ -13236,7 +13359,7 @@
     "doi": "https://doi.org/10.1177/10575677251405837",
     "title": "Impact of Antitheft Nudging Signage on Bicycle Owners\u2019 Locking Behavior: A Quasi-Experimental Study in Rural Japan",
     "display_name": "Impact of Antitheft Nudging Signage on Bicycle Owners\u2019 Locking Behavior: A Quasi-Experimental Study in Rural Japan",
-    "relevance_score": 8.750896,
+    "relevance_score": 22.356125,
     "publication_year": 2025,
     "publication_date": "2025-12-15",
     "ids": {
@@ -13246,6 +13369,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/10575677251405837",
+      "doi": "https://doi.org/10.1177/10575677251405837",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/10575677251405837",
       "pdf_url": null,
@@ -13260,6 +13384,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -13278,6 +13411,7 @@
       "raw_source_name": "International Criminal Justice Review",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -13294,7 +13428,10 @@
         "author": {
           "id": "https://openalex.org/A5085453107",
           "display_name": "Ai Suzuki",
-          "orcid": "https://orcid.org/0000-0001-9131-1880"
+          "orcid": "https://orcid.org/0000-0001-9131-1880",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9131-1880"
+          ]
         },
         "institutions": [
           {
@@ -13338,7 +13475,10 @@
         "author": {
           "id": "https://openalex.org/A5031039379",
           "display_name": "Takahito Shimada",
-          "orcid": "https://orcid.org/0000-0001-9969-2147"
+          "orcid": "https://orcid.org/0000-0001-9969-2147",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9969-2147"
+          ]
         },
         "institutions": [
           {
@@ -13387,37 +13527,44 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I58089638"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3400,
+      "currency": "USD",
+      "value_usd": 3400
+    },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": 0.9845,
     "has_fulltext": false,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.47920066,
+      "value": 0.79948586,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "36",
+      "issue": "3",
+      "first_page": "269",
+      "last_page": "293"
     },
     "is_retracted": false,
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10574",
-      "display_name": "Crime Patterns and Interventions",
-      "score": 0.34940001368522644,
+      "id": "https://openalex.org/T10315",
+      "display_name": "Decision-Making and Behavioral Economics",
+      "score": 0.4180000126361847,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/1800",
+        "display_name": "General Decision Sciences"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/18",
+        "display_name": "Decision Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -13426,9 +13573,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T10315",
+        "display_name": "Decision-Making and Behavioral Economics",
+        "score": 0.4180000126361847,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1800",
+          "display_name": "General Decision Sciences"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/18",
+          "display_name": "Decision Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T10574",
         "display_name": "Crime Patterns and Interventions",
-        "score": 0.34940001368522644,
+        "score": 0.4154999852180481,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -13443,80 +13607,68 @@
         }
       },
       {
-        "id": "https://openalex.org/T14056",
-        "display_name": "Safety Warnings and Signage",
-        "score": 0.16660000383853912,
+        "id": "https://openalex.org/T10298",
+        "display_name": "Urban Transport and Accessibility",
+        "score": 0.056699998676776886,
         "subfield": {
-          "id": "https://openalex.org/subfields/3207",
-          "display_name": "Social Psychology"
+          "id": "https://openalex.org/subfields/3313",
+          "display_name": "Transportation"
         },
         "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
-      },
-      {
-        "id": "https://openalex.org/T11824",
-        "display_name": "Injury Epidemiology and Prevention",
-        "score": 0.08389999717473984,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2739",
-          "display_name": "Public Health, Environmental and Occupational Health"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/27",
-          "display_name": "Medicine"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/4",
-          "display_name": "Health Sciences"
-        }
       }
     ],
     "keywords": [
       {
+        "id": "https://openalex.org/keywords/bicycle-theft",
+        "display_name": "bicycle theft",
+        "score": 0.7919999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/nudge-interventions",
+        "display_name": "nudge interventions",
+        "score": 0.7450000047683716
+      },
+      {
         "id": "https://openalex.org/keywords/signage",
-        "display_name": "Signage",
-        "score": 0.8852999806404114
+        "display_name": "signage",
+        "score": 0.6029999852180481
       },
       {
-        "id": "https://openalex.org/keywords/psychological-intervention",
-        "display_name": "Psychological intervention",
-        "score": 0.5616000294685364
+        "id": "https://openalex.org/keywords/social-proof",
+        "display_name": "social validation",
+        "score": 0.9409999847412109
       },
       {
-        "id": "https://openalex.org/keywords/suicide-prevention",
-        "display_name": "Suicide prevention",
-        "score": 0.42899999022483826
+        "id": "https://openalex.org/keywords/reciprocity",
+        "display_name": "reciprocity",
+        "score": 0.9079999923706055
       },
       {
-        "id": "https://openalex.org/keywords/poison-control",
-        "display_name": "Poison control",
-        "score": 0.41499999165534973
+        "id": "https://openalex.org/keywords/crime-prevention",
+        "display_name": "crime prevention",
+        "score": 0.8650000095367432
       },
       {
-        "id": "https://openalex.org/keywords/intervention",
-        "display_name": "Intervention (counseling)",
-        "score": 0.4122999906539917
+        "id": "https://openalex.org/keywords/rural-areas",
+        "display_name": "rural areas",
+        "score": 0.7450000047683716
       },
       {
-        "id": "https://openalex.org/keywords/injury-prevention",
-        "display_name": "Injury prevention",
-        "score": 0.387800008058548
+        "id": "https://openalex.org/keywords/behavior-change",
+        "display_name": "behavior change",
+        "score": 0.6069999933242798
       },
       {
-        "id": "https://openalex.org/keywords/rural-area",
-        "display_name": "Rural area",
-        "score": 0.3546000123023987
-      },
-      {
-        "id": "https://openalex.org/keywords/human-factors-and-ergonomics",
-        "display_name": "Human factors and ergonomics",
-        "score": 0.33799999952316284
+        "id": "https://openalex.org/keywords/fukushima-prefecture",
+        "display_name": "Fukushima Prefecture",
+        "score": 0.6890000104904175
       }
     ],
     "concepts": [
@@ -13666,6 +13818,7 @@
     "locations": [
       {
         "id": "doi:10.1177/10575677251405837",
+        "doi": "https://doi.org/10.1177/10575677251405837",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/10575677251405837",
         "pdf_url": null,
@@ -13680,6 +13833,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -13700,7 +13862,25 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.9595999717712402,
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions"
+      },
+      {
+        "score": 0.8787999749183655,
+        "id": "https://metadata.un.org/sdg/11",
+        "display_name": "Sustainable cities and communities"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [
+      {
+        "id": "https://openalex.org/study-designs/clinical-trial",
+        "display_name": "Clinical Trial"
+      }
+    ],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -14168,8 +14348,13 @@
         144
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2025-12-16T23:43:54.943958",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-13T10:08:12.033832",
     "created_date": "2025-12-15T00:00:00"
   },
   {

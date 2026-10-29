@@ -25806,17 +25806,19 @@
     "doi": "https://doi.org/10.1093/ojls/gqaf001",
     "title": "Who Reads the Trade Marks Register?",
     "display_name": "Who Reads the Trade Marks Register?",
-    "relevance_score": 0.64146924,
+    "relevance_score": 1.6710217,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
       "openalex": "https://openalex.org/W4407120104",
       "doi": "https://doi.org/10.1093/ojls/gqaf001",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40521420"
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/40521420",
+      "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/12163110"
     },
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/ojls/gqaf001",
+      "doi": "https://doi.org/10.1093/ojls/gqaf001",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/ojls/gqaf001",
       "pdf_url": "https://academic.oup.com/ojls/article-pdf/45/2/272/61753018/gqaf001.pdf",
@@ -25831,6 +25833,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -25851,6 +25862,7 @@
       "raw_source_name": "Oxford Journal of Legal Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -25866,56 +25878,87 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5060287872",
+          "id": null,
           "display_name": "Robert Burrell",
-          "orcid": "https://orcid.org/0000-0003-0210-8536"
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [],
         "countries": [],
         "is_corresponding": true,
         "raw_author_name": "Robert Burrell",
-        "raw_affiliation_strings": [],
+        "raw_affiliation_strings": [
+          "Professor , Melbourne Law School ,"
+        ],
         "raw_orcid": null,
-        "affiliations": []
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Professor , Melbourne Law School ,",
+            "institution_ids": []
+          }
+        ]
       },
       {
         "author_position": "last",
         "author": {
           "id": "https://openalex.org/A5090637818",
           "display_name": "Michael Handler",
-          "orcid": "https://orcid.org/0000-0001-8980-5099"
+          "orcid": "https://orcid.org/0000-0001-8980-5099",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-8980-5099"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I40120149",
+            "display_name": "University of Oxford",
+            "ror": "https://ror.org/052gg0110",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I40120149"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
         "is_corresponding": false,
         "raw_author_name": "Michael Handler",
-        "raw_affiliation_strings": [],
+        "raw_affiliation_strings": [
+          "Information Technology Law , Faculty of Law , University of Oxford ;"
+        ],
         "raw_orcid": "https://orcid.org/0000-0001-8980-5099",
-        "affiliations": []
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Information Technology Law , Faculty of Law , University of Oxford ;",
+            "institution_ids": [
+              "https://openalex.org/I40120149"
+            ]
+          }
+        ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
-    "institutions_distinct_count": 2,
-    "corresponding_author_ids": [
-      "https://openalex.org/A5060287872"
-    ],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [],
     "corresponding_institution_ids": [],
     "apc_list": {
-      "value": 2768,
+      "value": 3023,
       "currency": "GBP",
-      "value_usd": 3395
+      "value_usd": 3987
     },
     "apc_paid": {
-      "value": 2768,
+      "value": 3023,
       "currency": "GBP",
-      "value_usd": 3395
+      "value_usd": 3987
     },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.0313878,
+      "value": 0.02106845,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -25932,7 +25975,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T13842",
       "display_name": "Intellectual Property Law",
-      "score": 0.9790999889373779,
+      "score": 0.9970999956130981,
       "subfield": {
         "id": "https://openalex.org/subfields/3308",
         "display_name": "Law"
@@ -25950,10 +25993,44 @@
       {
         "id": "https://openalex.org/T13842",
         "display_name": "Intellectual Property Law",
-        "score": 0.9790999889373779,
+        "score": 0.9970999956130981,
         "subfield": {
           "id": "https://openalex.org/subfields/3308",
           "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12374",
+        "display_name": "European and International Contract Law",
+        "score": 0.00039999998989515007,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14457",
+        "display_name": "Intellectual Property Rights and Media",
+        "score": 0.00019999999494757503,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -25967,69 +26044,29 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/register",
-        "display_name": "Register (sociolinguistics)",
-        "score": 0.759131908416748
+        "id": "https://openalex.org/keywords/nonalcoholic-beverages",
+        "display_name": "non-alcoholic beverages",
+        "score": 0.7960000038146973
       },
       {
-        "id": "https://openalex.org/keywords/notional-amount",
-        "display_name": "Notional amount",
-        "score": 0.637826681137085
+        "id": "https://openalex.org/keywords/common-terminology",
+        "display_name": "common terminology",
+        "score": 0.5450000166893005
       },
       {
-        "id": "https://openalex.org/keywords/terminology",
-        "display_name": "Terminology",
-        "score": 0.5436252355575562
+        "id": "https://openalex.org/keywords/trademark-law",
+        "display_name": "trademark law",
+        "score": 0.503000020980835
       },
       {
-        "id": "https://openalex.org/keywords/perspective",
-        "display_name": "Perspective (graphical)",
-        "score": 0.45818227529525757
+        "id": "https://openalex.org/keywords/legal-reasoning",
+        "display_name": "legal reasoning",
+        "score": 0.6019999980926514
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.3943465054035187
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.38332632184028625
-      },
-      {
-        "id": "https://openalex.org/keywords/law-and-economics",
-        "display_name": "Law and economics",
-        "score": 0.37555307149887085
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.3131858706474304
-      },
-      {
-        "id": "https://openalex.org/keywords/linguistics",
-        "display_name": "Linguistics",
-        "score": 0.24772217869758606
-      },
-      {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.23456481099128723
-      },
-      {
-        "id": "https://openalex.org/keywords/computer-science",
-        "display_name": "Computer science",
-        "score": 0.14373892545700073
-      },
-      {
-        "id": "https://openalex.org/keywords/artificial-intelligence",
-        "display_name": "Artificial intelligence",
-        "score": 0.09796777367591858
-      },
-      {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.07724398374557495
+        "id": "https://openalex.org/keywords/australia",
+        "display_name": "Australia",
+        "score": 0.5019999742507935
       }
     ],
     "concepts": [
@@ -26137,6 +26174,7 @@
     "locations": [
       {
         "id": "doi:10.1093/ojls/gqaf001",
+        "doi": "https://doi.org/10.1093/ojls/gqaf001",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/ojls/gqaf001",
         "pdf_url": "https://academic.oup.com/ojls/article-pdf/45/2/272/61753018/gqaf001.pdf",
@@ -26151,6 +26189,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -26172,7 +26219,39 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:pubmedcentral.nih.gov:12163110",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12163110",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764455111",
+          "display_name": "PubMed Central",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1299303238",
+          "host_organization_name": "National Institutes of Health",
+          "host_organization_lineage": [
+            "https://openalex.org/I1299303238"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Oxf J Leg Stud",
+        "raw_type": "Text"
+      },
+      {
         "id": "pmid:40521420",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/40521420",
         "pdf_url": null,
@@ -26184,6 +26263,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -26198,10 +26278,11 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "Oxford journal of legal studies",
-        "raw_type": null
+        "raw_type": "Journal Article"
       },
       {
         "id": "pmh:oai:europepmc.org:10974566",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/12163110",
         "pdf_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12163110/pdf/gqaf001.pdf",
@@ -26213,6 +26294,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1303153112",
           "host_organization_name": "European Bioinformatics Institute",
           "host_organization_lineage": [
@@ -26230,36 +26312,8 @@
         "raw_type": "Text"
       },
       {
-        "id": "pmh:oai:ora.ox.ac.uk:uuid:dec69448-e7f2-4608-acb2-0c7cf913f517",
-        "is_oa": false,
-        "landing_page_url": "https://ora.ox.ac.uk/objects/uuid:dec69448-e7f2-4608-acb2-0c7cf913f517",
-        "pdf_url": null,
-        "source": {
-          "id": "https://openalex.org/S4306402636",
-          "display_name": "Oxford University Research Archive (ORA) (University of Oxford)",
-          "issn_l": null,
-          "issn": null,
-          "is_oa": false,
-          "is_in_doaj": false,
-          "is_core": false,
-          "host_organization": "https://openalex.org/I40120149",
-          "host_organization_name": "University of Oxford",
-          "host_organization_lineage": [
-            "https://openalex.org/I40120149"
-          ],
-          "host_organization_lineage_names": [],
-          "type": "repository"
-        },
-        "license": null,
-        "license_id": null,
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
-        "raw_source_name": "Symplectic Elements",
-        "raw_type": "Journal article"
-      },
-      {
         "id": "pmh:oai:unsworks.library.unsw.edu.au:1959.4/107296",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "http://hdl.handle.net/1959.4/107296",
         "pdf_url": null,
@@ -26271,6 +26325,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I40053085",
           "host_organization_name": "Australian Defence Force Academy",
           "host_organization_lineage": [
@@ -26290,6 +26345,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1093/ojls/gqaf001",
+      "doi": "https://doi.org/10.1093/ojls/gqaf001",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/ojls/gqaf001",
       "pdf_url": "https://academic.oup.com/ojls/article-pdf/45/2/272/61753018/gqaf001.pdf",
@@ -26304,6 +26360,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -26325,11 +26390,13 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": true,
-      "pdf": true
+      "pdf": true,
+      "grobid_xml": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4407120104.pdf",
@@ -26338,16 +26405,16 @@
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W2899084033",
-      "https://openalex.org/W4409947296",
-      "https://openalex.org/W4300185858",
-      "https://openalex.org/W1593635781",
-      "https://openalex.org/W3143683079",
-      "https://openalex.org/W4229444016",
-      "https://openalex.org/W4389831142",
-      "https://openalex.org/W1524721630",
-      "https://openalex.org/W1499627774",
-      "https://openalex.org/W2233221338"
+      "https://openalex.org/W2779642400",
+      "https://openalex.org/W7057293355",
+      "https://openalex.org/W1984469661",
+      "https://openalex.org/W7216685959",
+      "https://openalex.org/W2748243491",
+      "https://openalex.org/W2977318326",
+      "https://openalex.org/W2975345984",
+      "https://openalex.org/W2893965909",
+      "https://openalex.org/W3124624741",
+      "https://openalex.org/W2158285570"
     ],
     "abstract_inverted_index": {
       "This": [
@@ -26754,7 +26821,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-03-14T06:41:57.775601",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2025-02-04T00:00:00"
   }
 ]

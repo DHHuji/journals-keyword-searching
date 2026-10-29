@@ -5120,9 +5120,9 @@
   {
     "id": "https://openalex.org/W4408893635",
     "doi": "https://doi.org/10.1086/733637",
-    "title": ":<i>Hayonim Cave: From the Early to the Middle Palaeolithic in the Levant (Israel)</i>",
-    "display_name": ":<i>Hayonim Cave: From the Early to the Middle Palaeolithic in the Levant (Israel)</i>",
-    "relevance_score": 11.375213,
+    "title": ":Hayonim Cave: From the Early to the Middle Palaeolithic in the Levant (Israel)",
+    "display_name": ":Hayonim Cave: From the Early to the Middle Palaeolithic in the Levant (Israel)",
+    "relevance_score": 32.770935,
     "publication_year": 2025,
     "publication_date": "2025-03-01",
     "ids": {
@@ -5132,20 +5132,33 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/733637",
+      "doi": "https://doi.org/10.1086/733637",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/733637",
       "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S30381306",
         "display_name": "Journal of Anthropological Research",
-        "issn_l": "0091-7710",
+        "issn_l": "0038-4801",
         "issn": [
+          "0038-4801",
           "0091-7710",
-          "2153-3806"
+          "2153-3806",
+          "2328-1839"
         ],
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-2",
+          "norway-1",
+          "poland-70",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -5166,7 +5179,8 @@
       "raw_source_name": "Journal of Anthropological Research",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -5181,8 +5195,11 @@
         "author_position": "first",
         "author": {
           "id": "https://openalex.org/A5079950096",
-          "display_name": "Ariel Malinsky\u2010Buller",
-          "orcid": "https://orcid.org/0000-0003-0447-6949"
+          "display_name": "Ariel Malinsky Buller",
+          "orcid": "https://orcid.org/0000-0003-0447-6949",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0447-6949"
+          ]
         },
         "institutions": [
           {
@@ -5204,6 +5221,7 @@
         "raw_affiliation_strings": [
           "Hebrew University Jerusalem"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Hebrew University Jerusalem",
@@ -5225,14 +5243,10 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.08087939,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "81",
@@ -5246,7 +5260,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T10421",
       "display_name": "Pleistocene-Era Hominins and Archaeology",
-      "score": 0.9948999881744385,
+      "score": 0.9970999956130981,
       "subfield": {
         "id": "https://openalex.org/subfields/3314",
         "display_name": "Anthropology"
@@ -5264,7 +5278,7 @@
       {
         "id": "https://openalex.org/T10421",
         "display_name": "Pleistocene-Era Hominins and Archaeology",
-        "score": 0.9948999881744385,
+        "score": 0.9970999956130981,
         "subfield": {
           "id": "https://openalex.org/subfields/3314",
           "display_name": "Anthropology"
@@ -5279,12 +5293,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T14047",
-        "display_name": "Marine and environmental studies",
-        "score": 0.9754999876022339,
+        "id": "https://openalex.org/T10087",
+        "display_name": "Archaeology and ancient environmental studies",
+        "score": 0.00039999998989515007,
         "subfield": {
-          "id": "https://openalex.org/subfields/1910",
-          "display_name": "Oceanography"
+          "id": "https://openalex.org/subfields/1911",
+          "display_name": "Paleontology"
         },
         "field": {
           "id": "https://openalex.org/fields/19",
@@ -5296,16 +5310,16 @@
         }
       },
       {
-        "id": "https://openalex.org/T13831",
-        "display_name": "Archaeological and Geological Studies",
-        "score": 0.9721999764442444,
+        "id": "https://openalex.org/T13256",
+        "display_name": "Archaeology and Rock Art Studies",
+        "score": 0.0003000000142492354,
         "subfield": {
-          "id": "https://openalex.org/subfields/1204",
+          "id": "https://openalex.org/subfields/3302",
           "display_name": "Archeology"
         },
         "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -5315,44 +5329,29 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/cave",
-        "display_name": "Cave",
-        "score": 0.8954784870147705
+        "id": "https://openalex.org/keywords/early-paleolithic",
+        "display_name": "Early Paleolithic",
+        "score": 0.8939999938011169
       },
       {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.7067028284072876
+        "id": "https://openalex.org/keywords/middle-paleolithic",
+        "display_name": "Middle Palaeolithic",
+        "score": 1.0
       },
       {
-        "id": "https://openalex.org/keywords/southern-levant",
-        "display_name": "Southern Levant",
-        "score": 0.7057408094406128
+        "id": "https://openalex.org/keywords/levant",
+        "display_name": "Levant",
+        "score": 0.796999990940094
       },
       {
-        "id": "https://openalex.org/keywords/ancient-history",
-        "display_name": "Ancient history",
-        "score": 0.6133102774620056
+        "id": "https://openalex.org/keywords/cave-sites",
+        "display_name": "cave sites",
+        "score": 0.34200000762939453
       },
       {
-        "id": "https://openalex.org/keywords/middle-east",
-        "display_name": "Middle East",
-        "score": 0.49715712666511536
-      },
-      {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.4481654167175293
-      },
-      {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.2568676471710205
-      },
-      {
-        "id": "https://openalex.org/keywords/bronze-age",
-        "display_name": "Bronze Age",
-        "score": 0.08057114481925964
+        "id": "https://openalex.org/keywords/prehistoric-archaeology",
+        "display_name": "prehistoric archaeology",
+        "score": 0.6320000290870667
       }
     ],
     "concepts": [
@@ -5418,20 +5417,33 @@
     "locations": [
       {
         "id": "doi:10.1086/733637",
+        "doi": "https://doi.org/10.1086/733637",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/733637",
         "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S30381306",
           "display_name": "Journal of Anthropological Research",
-          "issn_l": "0091-7710",
+          "issn_l": "0038-4801",
           "issn": [
+            "0038-4801",
             "0091-7710",
-            "2153-3806"
+            "2153-3806",
+            "2328-1839"
           ],
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-2",
+            "norway-1",
+            "poland-70",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -5455,11 +5467,13 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -5478,7 +5492,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-01-24T23:23:39.755997",
+    "updated_date": "2026-09-24T07:57:37.273135",
     "created_date": "2025-10-10T00:00:00"
   },
   {

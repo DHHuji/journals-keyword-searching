@@ -1875,7 +1875,7 @@
     "doi": "https://doi.org/10.1080/13642987.2025.2474999",
     "title": "Japanese homoexceptionalism",
     "display_name": "Japanese homoexceptionalism",
-    "relevance_score": 54.361137,
+    "relevance_score": 37.70734,
     "publication_year": 2025,
     "publication_date": "2025-03-31",
     "ids": {
@@ -1885,6 +1885,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/13642987.2025.2474999",
+      "doi": "https://doi.org/10.1080/13642987.2025.2474999",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1080/13642987.2025.2474999",
       "pdf_url": null,
@@ -1899,13 +1900,25 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -1917,15 +1930,16 @@
       "raw_source_name": "The International Journal of Human Rights",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
-      "is_oa": false,
-      "oa_status": "closed",
-      "oa_url": null,
-      "any_repository_has_fulltext": false
+      "is_oa": true,
+      "oa_status": "green",
+      "oa_url": "https://hdl.handle.net/10486/734360",
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -1933,7 +1947,10 @@
         "author": {
           "id": "https://openalex.org/A5020310060",
           "display_name": "Ivan Gonz\u00e1lez-Pujol",
-          "orcid": "https://orcid.org/0000-0001-6465-508X"
+          "orcid": "https://orcid.org/0000-0001-6465-508X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6465-508X"
+          ]
         },
         "institutions": [
           {
@@ -1977,17 +1994,17 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 2.1559,
+    "fwci": 1.8055,
     "has_fulltext": false,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.8472766,
+      "value": 0.84298839,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 94
     },
     "biblio": {
       "volume": "29",
@@ -1999,16 +2016,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10156",
-      "display_name": "LGBTQ Health, Identity, and Policy",
-      "score": 0.9142000079154968,
+      "id": "https://openalex.org/T13843",
+      "display_name": "African Sexualities and LGBTQ+ Issues",
+      "score": 0.8320000171661377,
       "subfield": {
-        "id": "https://openalex.org/subfields/3207",
-        "display_name": "Social Psychology"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
-        "id": "https://openalex.org/fields/32",
-        "display_name": "Psychology"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -2017,9 +2034,43 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T13843",
+        "display_name": "African Sexualities and LGBTQ+ Issues",
+        "score": 0.8320000171661377,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12275",
+        "display_name": "Gender and Feminist Studies",
+        "score": 0.07590000331401825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3318",
+          "display_name": "Gender Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T10156",
         "display_name": "LGBTQ Health, Identity, and Policy",
-        "score": 0.9142000079154968,
+        "score": 0.054499998688697815,
         "subfield": {
           "id": "https://openalex.org/subfields/3207",
           "display_name": "Social Psychology"
@@ -2032,40 +2083,43 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
-      },
-      {
-        "id": "https://openalex.org/T11198",
-        "display_name": "Japanese History and Culture",
-        "score": 0.9060999751091003,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3316",
-          "display_name": "Cultural Studies"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5483366847038269
+        "id": "https://openalex.org/keywords/lgbt-rights",
+        "display_name": "LGBT rights",
+        "score": 0.9890000224113464
+      },
+      {
+        "id": "https://openalex.org/keywords/japan",
+        "display_name": "Japan",
+        "score": 0.5519999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/political-discourse",
+        "display_name": "political discourse",
+        "score": 0.8169999718666077
       },
       {
         "id": "https://openalex.org/keywords/human-rights",
-        "display_name": "Human rights",
-        "score": 0.5451369881629944
+        "display_name": "human rights",
+        "score": 0.6169999837875366
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.3338344097137451
+        "id": "https://openalex.org/keywords/national-identity",
+        "display_name": "national identity",
+        "score": 0.7409999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/cultural-exceptionalism",
+        "display_name": "cultural exceptionalism",
+        "score": 0.621999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/japanese-foreign-policy",
+        "display_name": "Japanese foreign policy",
+        "score": 0.6899999976158142
       }
     ],
     "concepts": [
@@ -2092,10 +2146,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 2,
     "locations": [
       {
         "id": "doi:10.1080/13642987.2025.2474999",
+        "doi": "https://doi.org/10.1080/13642987.2025.2474999",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1080/13642987.2025.2474999",
         "pdf_url": null,
@@ -2110,13 +2165,25 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -2127,15 +2194,89 @@
         "is_published": true,
         "raw_source_name": "The International Journal of Human Rights",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:repositorio.uam.es:10486/734360",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/10486/734360",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306400964",
+          "display_name": "Biblos-e Archivo (Universidad Aut\u00f3noma de Madrid)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I63634437",
+          "host_organization_name": "Universidad Aut\u00f3noma de Madrid",
+          "host_organization_lineage": [
+            "https://openalex.org/I63634437"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "public-domain",
+        "license_id": "https://openalex.org/licenses/public-domain",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "research article"
       }
     ],
-    "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "best_oa_location": {
+      "id": "pmh:oai:repositorio.uam.es:10486/734360",
+      "doi": null,
+      "is_oa": true,
+      "landing_page_url": "https://hdl.handle.net/10486/734360",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400964",
+        "display_name": "Biblos-e Archivo (Universidad Aut\u00f3noma de Madrid)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I63634437",
+        "host_organization_name": "Universidad Aut\u00f3noma de Madrid",
+        "host_organization_lineage": [
+          "https://openalex.org/I63634437"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "public-domain",
+      "license_id": "https://openalex.org/licenses/public-domain",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "research article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.7297000288963318,
+        "id": "https://metadata.un.org/sdg/16"
+      },
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.4000000059604645,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 38,
@@ -2191,14 +2332,328 @@
       "https://openalex.org/W2991682369",
       "https://openalex.org/W2411803830"
     ],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "paper": [
+        1
+      ],
+      "examines": [
+        2
+      ],
+      "Japan\u2019s": [
+        3,
+        66,
+        98
+      ],
+      "mainstream": [
+        4
+      ],
+      "political": [
+        5,
+        63,
+        110
+      ],
+      "discourse": [
+        6,
+        64,
+        83,
+        111
+      ],
+      "on": [
+        7,
+        56,
+        124,
+        133
+      ],
+      "the": [
+        8,
+        44,
+        47,
+        62,
+        106,
+        109,
+        115,
+        125,
+        131
+      ],
+      "protection": [
+        9
+      ],
+      "of": [
+        10,
+        75,
+        117
+      ],
+      "lesbian,": [
+        11
+      ],
+      "gay,": [
+        12
+      ],
+      "bisexual": [
+        13
+      ],
+      "and": [
+        14,
+        21,
+        46,
+        68,
+        79,
+        90,
+        101,
+        114
+      ],
+      "transgender": [
+        15
+      ],
+      "(LGBT)": [
+        16
+      ],
+      "rights.": [
+        17,
+        138
+      ],
+      "While": [
+        18
+      ],
+      "international": [
+        19,
+        102
+      ],
+      "organisations": [
+        20
+      ],
+      "Western": [
+        22
+      ],
+      "nations": [
+        23
+      ],
+      "often": [
+        24
+      ],
+      "frame": [
+        25
+      ],
+      "LGBT": [
+        26,
+        94,
+        118,
+        134
+      ],
+      "rights": [
+        27,
+        95,
+        135
+      ],
+      "as": [
+        28,
+        86,
+        136
+      ],
+      "human": [
+        29,
+        137
+      ],
+      "rights,": [
+        30,
+        119
+      ],
+      "this": [
+        31,
+        57,
+        82,
+        91,
+        120
+      ],
+      "perspective": [
+        32
+      ],
+      "is": [
+        33
+      ],
+      "met": [
+        34
+      ],
+      "with": [
+        35
+      ],
+      "scepticism": [
+        36
+      ],
+      "in": [
+        37,
+        72,
+        112
+      ],
+      "non-Western": [
+        38
+      ],
+      "nations.": [
+        39
+      ],
+      "By": [
+        40,
+        104
+      ],
+      "placing": [
+        41
+      ],
+      "itself": [
+        42
+      ],
+      "between": [
+        43,
+        108
+      ],
+      "West": [
+        45
+      ],
+      "non-West,": [
+        48
+      ],
+      "Japan": [
+        49,
+        85,
+        113,
+        129
+      ],
+      "has": [
+        50
+      ],
+      "largely": [
+        51
+      ],
+      "managed": [
+        52
+      ],
+      "to": [
+        53,
+        96
+      ],
+      "avoid": [
+        54
+      ],
+      "criticism": [
+        55
+      ],
+      "issue.": [
+        58
+      ],
+      "The": [
+        59
+      ],
+      "analysis": [
+        60
+      ],
+      "explores": [
+        61
+      ],
+      "surrounding": [
+        65
+      ],
+      "domestic": [
+        67
+      ],
+      "foreign": [
+        69
+      ],
+      "policies.": [
+        70
+      ],
+      "Rooted": [
+        71
+      ],
+      "a": [
+        73,
+        87
+      ],
+      "narrative": [
+        74
+      ],
+      "distinct": [
+        76
+      ],
+      "cultural": [
+        77
+      ],
+      "values": [
+        78
+      ],
+      "national": [
+        80,
+        99
+      ],
+      "identity,": [
+        81
+      ],
+      "positions": [
+        84
+      ],
+      "homoexceptional": [
+        88
+      ],
+      "country,": [
+        89
+      ],
+      "rhetoric": [
+        92
+      ],
+      "leverages": [
+        93
+      ],
+      "advance": [
+        97
+      ],
+      "interests": [
+        100
+      ],
+      "influence.": [
+        103
+      ],
+      "examining": [
+        105
+      ],
+      "contradictions": [
+        107
+      ],
+      "promotion": [
+        116
+      ],
+      "research": [
+        121
+      ],
+      "sheds": [
+        122
+      ],
+      "light": [
+        123
+      ],
+      "mechanisms": [
+        126
+      ],
+      "through": [
+        127
+      ],
+      "which": [
+        128
+      ],
+      "navigates": [
+        130
+      ],
+      "debate": [
+        132
+      ]
+    },
     "counts_by_year": [
       {
         "year": 2025,
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-03-27T05:58:40.876381",
+    "updated_date": "2026-09-11T09:22:31.653822",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -33455,6 +33910,1861 @@
       }
     ],
     "updated_date": "2025-11-06T03:46:38.306776",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7221149633",
+    "doi": "https://doi.org/10.1080/13642987.2026.2738940",
+    "title": "\u2018Why did our ancestors have to leave home?\u2019 Revisionist and decolonial histories of the 1875\u20131876 forced relocation of Karafuto Ainu and the struggle for human dignity and rights",
+    "display_name": "\u2018Why did our ancestors have to leave home?\u2019 Revisionist and decolonial histories of the 1875\u20131876 forced relocation of Karafuto Ainu and the struggle for human dignity and rights",
+    "relevance_score": 2.4738069,
+    "publication_year": 2026,
+    "publication_date": "2026-10-09",
+    "ids": {
+      "openalex": "https://openalex.org/W7221149633",
+      "doi": "https://doi.org/10.1080/13642987.2026.2738940"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/13642987.2026.2738940",
+      "doi": "https://doi.org/10.1080/13642987.2026.2738940",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1080/13642987.2026.2738940",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S139935717",
+        "display_name": "The International Journal of Human Rights",
+        "issn_l": "1364-2987",
+        "issn": [
+          "1364-2987",
+          "1744-053X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The International Journal of Human Rights",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5158172367",
+          "display_name": "Olivia Doyle",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [],
+        "countries": [],
+        "is_corresponding": true,
+        "raw_author_name": "Olivia Doyle",
+        "raw_affiliation_strings": [
+          "Independent Researcher"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Independent Researcher",
+            "institution_ids": []
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5063280077",
+          "display_name": "Hiroshi Maruyama",
+          "orcid": "https://orcid.org/0000-0001-7100-5800",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-7100-5800"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I41725924",
+            "display_name": "Muroran Institute of Technology",
+            "ror": "https://ror.org/04rymkk69",
+            "country_code": "JP",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I41725924"
+            ]
+          }
+        ],
+        "countries": [
+          "JP"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Hiroshi Maruyama",
+        "raw_affiliation_strings": [
+          "Muroran Institute of Technology"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Muroran Institute of Technology",
+            "institution_ids": [
+              "https://openalex.org/I41725924"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5158172367"
+    ],
+    "corresponding_institution_ids": [],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.94713894,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "19"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13864",
+      "display_name": "Indigenous Cultures and History",
+      "score": 0.8939999938011169,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13864",
+        "display_name": "Indigenous Cultures and History",
+        "score": 0.8939999938011169,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11198",
+        "display_name": "Japanese History and Culture",
+        "score": 0.0714000016450882,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3316",
+          "display_name": "Cultural Studies"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10348",
+        "display_name": "Indigenous Health, Education, and Rights",
+        "score": 0.00860000029206276,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3306",
+          "display_name": "Health"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/forced-relocation",
+        "display_name": "forced relocation",
+        "score": 0.8859999775886536
+      },
+      {
+        "id": "https://openalex.org/keywords/northern-territories-dispute",
+        "display_name": "Northern Territories dispute",
+        "score": 0.9390000104904175
+      },
+      {
+        "id": "https://openalex.org/keywords/decolonial-historiography",
+        "display_name": "decolonial historiography",
+        "score": 0.9539999961853027
+      },
+      {
+        "id": "https://openalex.org/keywords/historical-revisionism",
+        "display_name": "historical revisionism",
+        "score": 0.8730000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/indigenous-rights",
+        "display_name": "indigenous rights",
+        "score": 0.8539999723434448
+      },
+      {
+        "id": "https://openalex.org/keywords/human-dignity",
+        "display_name": "human dignity",
+        "score": 0.8690000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/family-history",
+        "display_name": "family history",
+        "score": 0.5720000267028809
+      },
+      {
+        "id": "https://openalex.org/keywords/hokkaido",
+        "display_name": "Hokkaido",
+        "score": 0.7390000224113464
+      },
+      {
+        "id": "https://openalex.org/keywords/settler-colonial-violence",
+        "display_name": "settler colonial violence",
+        "score": 0.7480000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/cultural-resurgence",
+        "display_name": "cultural resurgence",
+        "score": 0.8289999961853027
+      },
+      {
+        "id": "https://openalex.org/keywords/japan-russia-relations",
+        "display_name": "Japanese-Russian relations",
+        "score": 0.42500001192092896
+      },
+      {
+        "id": "https://openalex.org/keywords/colonial-legacy",
+        "display_name": "colonial legacy",
+        "score": 0.5910000205039978
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2779019381",
+        "wikidata": "https://www.wikidata.org/wiki/Q3499564",
+        "display_name": "Relocation",
+        "level": 2,
+        "score": 0.9101999998092651
+      },
+      {
+        "id": "https://openalex.org/C2779306362",
+        "wikidata": "https://www.wikidata.org/wiki/Q1331684",
+        "display_name": "Repatriation",
+        "level": 2,
+        "score": 0.7534999847412109
+      },
+      {
+        "id": "https://openalex.org/C531593650",
+        "wikidata": "https://www.wikidata.org/wiki/Q7167",
+        "display_name": "Colonialism",
+        "level": 2,
+        "score": 0.7430999875068665
+      },
+      {
+        "id": "https://openalex.org/C2778745096",
+        "wikidata": "https://www.wikidata.org/wiki/Q274782",
+        "display_name": "Dignity",
+        "level": 2,
+        "score": 0.7021999955177307
+      },
+      {
+        "id": "https://openalex.org/C55958113",
+        "wikidata": "https://www.wikidata.org/wiki/Q169480",
+        "display_name": "Indigenous",
+        "level": 2,
+        "score": 0.6895999908447266
+      },
+      {
+        "id": "https://openalex.org/C169437150",
+        "wikidata": "https://www.wikidata.org/wiki/Q8458",
+        "display_name": "Human rights",
+        "level": 2,
+        "score": 0.6157000064849854
+      },
+      {
+        "id": "https://openalex.org/C2779343474",
+        "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+        "display_name": "Context (archaeology)",
+        "level": 2,
+        "score": 0.5921000242233276
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.48260000348091125
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.47850000858306885
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.44940000772476196
+      },
+      {
+        "id": "https://openalex.org/C2779010840",
+        "wikidata": "https://www.wikidata.org/wiki/Q131569",
+        "display_name": "Treaty",
+        "level": 2,
+        "score": 0.42590001225471497
+      },
+      {
+        "id": "https://openalex.org/C541189924",
+        "wikidata": "https://www.wikidata.org/wiki/Q837556",
+        "display_name": "Forced migration",
+        "level": 3,
+        "score": 0.40049999952316284
+      },
+      {
+        "id": "https://openalex.org/C2549261",
+        "wikidata": "https://www.wikidata.org/wiki/Q43455",
+        "display_name": "Ethnology",
+        "level": 1,
+        "score": 0.39809998869895935
+      },
+      {
+        "id": "https://openalex.org/C173145845",
+        "wikidata": "https://www.wikidata.org/wiki/Q131572",
+        "display_name": "Refugee",
+        "level": 2,
+        "score": 0.3149000108242035
+      },
+      {
+        "id": "https://openalex.org/C95457728",
+        "wikidata": "https://www.wikidata.org/wiki/Q309",
+        "display_name": "History",
+        "level": 0,
+        "score": 0.3084999918937683
+      },
+      {
+        "id": "https://openalex.org/C157660682",
+        "wikidata": "https://www.wikidata.org/wiki/Q419793",
+        "display_name": "Accommodation",
+        "level": 2,
+        "score": 0.2994999885559082
+      },
+      {
+        "id": "https://openalex.org/C70036468",
+        "wikidata": "https://www.wikidata.org/wiki/Q131288",
+        "display_name": "Immigration",
+        "level": 2,
+        "score": 0.2671999931335449
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/13642987.2026.2738940",
+        "doi": "https://doi.org/10.1080/13642987.2026.2738940",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1080/13642987.2026.2738940",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S139935717",
+          "display_name": "The International Journal of Human Rights",
+          "issn_l": "1364-2987",
+          "issn": [
+            "1364-2987",
+            "1744-053X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The International Journal of Human Rights",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.8046000003814697,
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": false,
+      "grobid_xml": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 12,
+    "referenced_works": [
+      "https://openalex.org/W1481933321",
+      "https://openalex.org/W1993714182",
+      "https://openalex.org/W2008700977",
+      "https://openalex.org/W2018276495",
+      "https://openalex.org/W2018294548",
+      "https://openalex.org/W2070421816",
+      "https://openalex.org/W2200465315",
+      "https://openalex.org/W2973051598",
+      "https://openalex.org/W3027343013",
+      "https://openalex.org/W3183884878",
+      "https://openalex.org/W4327624545",
+      "https://openalex.org/W4412495410"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Under": [
+        0
+      ],
+      "the": [
+        1,
+        33,
+        58,
+        67,
+        79,
+        96,
+        101,
+        106,
+        118,
+        128,
+        150
+      ],
+      "Treaty": [
+        2
+      ],
+      "of": [
+        3,
+        29,
+        82,
+        110,
+        152
+      ],
+      "St.": [
+        4
+      ],
+      "Petersburg": [
+        5
+      ],
+      "in": [
+        6,
+        16,
+        22,
+        149
+      ],
+      "1875\u20131876,": [
+        7
+      ],
+      "841": [
+        8
+      ],
+      "Ainu": [
+        9,
+        27,
+        54,
+        86,
+        122,
+        132
+      ],
+      "were": [
+        10
+      ],
+      "forcibly": [
+        11
+      ],
+      "removed": [
+        12
+      ],
+      "from": [
+        13,
+        52,
+        113
+      ],
+      "their": [
+        14,
+        89,
+        140
+      ],
+      "homes": [
+        15
+      ],
+      "KarafutoFootnote1": [
+        17
+      ],
+      "and": [
+        18,
+        41,
+        70,
+        115,
+        134,
+        146
+      ],
+      "relocated": [
+        19
+      ],
+      "to": [
+        20,
+        56,
+        99,
+        117,
+        125,
+        138,
+        142
+      ],
+      "Tsuishikari": [
+        21
+      ],
+      "Hokkaid\u014d.": [
+        23
+      ],
+      "This": [
+        24,
+        103
+      ],
+      "article": [
+        25,
+        129
+      ],
+      "centres": [
+        26
+      ],
+      "experiences": [
+        28
+      ],
+      "relocation": [
+        30,
+        69
+      ],
+      "when": [
+        31
+      ],
+      "narrating": [
+        32
+      ],
+      "so-called": [
+        34
+      ],
+      "\u2018Northern": [
+        35
+      ],
+      "Territories\u2019": [
+        36
+      ],
+      "dispute": [
+        37
+      ],
+      "between": [
+        38
+      ],
+      "imperial": [
+        39
+      ],
+      "Japan": [
+        40
+      ],
+      "Russia.": [
+        42
+      ],
+      "It": [
+        43
+      ],
+      "offers": [
+        44
+      ],
+      "a": [
+        45
+      ],
+      "decolonial": [
+        46
+      ],
+      "historiography,": [
+        47
+      ],
+      "including": [
+        48
+      ],
+      "unpublished": [
+        49
+      ],
+      "family": [
+        50
+      ],
+      "histories": [
+        51
+      ],
+      "Karafuto": [
+        53,
+        85,
+        121,
+        131
+      ],
+      "descendants,": [
+        55
+      ],
+      "counteract": [
+        57
+      ],
+      "prevailing": [
+        59
+      ],
+      "historiography's": [
+        60
+      ],
+      "over-reliance": [
+        61
+      ],
+      "on": [
+        62
+      ],
+      "colonial": [
+        63,
+        108
+      ],
+      "sources,": [
+        64
+      ],
+      "which": [
+        65
+      ],
+      "minimise": [
+        66
+      ],
+      "forced": [
+        68
+      ],
+      "its": [
+        71
+      ],
+      "consequences": [
+        72
+      ],
+      "for": [
+        73
+      ],
+      "descendants.": [
+        74
+      ],
+      "One": [
+        75
+      ],
+      "such": [
+        76
+      ],
+      "consequence": [
+        77
+      ],
+      "is": [
+        78
+      ],
+      "contested": [
+        80
+      ],
+      "repatriation": [
+        81
+      ],
+      "ancestral": [
+        83
+      ],
+      "remains.": [
+        84
+      ],
+      "descendants": [
+        87
+      ],
+      "demand": [
+        88
+      ],
+      "return,": [
+        90
+      ],
+      "while": [
+        91
+      ],
+      "Japanese": [
+        92
+      ],
+      "public": [
+        93
+      ],
+      "institutions": [
+        94
+      ],
+      "resist": [
+        95
+      ],
+      "descendants\u2019": [
+        97
+      ],
+      "authority": [
+        98
+      ],
+      "make": [
+        100
+      ],
+      "demand.": [
+        102
+      ],
+      "conflict": [
+        104
+      ],
+      "exemplifies": [
+        105
+      ],
+      "broader": [
+        107
+      ],
+      "legacy": [
+        109
+      ],
+      "institutions,": [
+        111
+      ],
+      "ranging": [
+        112
+      ],
+      "universities": [
+        114
+      ],
+      "museums": [
+        116
+      ],
+      "legislature,": [
+        119
+      ],
+      "disregarding": [
+        120
+      ],
+      "rights.": [
+        123
+      ],
+      "Responding": [
+        124
+      ],
+      "this": [
+        126
+      ],
+      "erasure,": [
+        127
+      ],
+      "amplifies": [
+        130
+      ],
+      "leadership": [
+        133
+      ],
+      "challenges": [
+        135
+      ],
+      "historical": [
+        136
+      ],
+      "revisionism": [
+        137
+      ],
+      "support": [
+        139
+      ],
+      "claims": [
+        141
+      ],
+      "dignity,": [
+        143
+      ],
+      "Indigenous": [
+        144
+      ],
+      "rights": [
+        145
+      ],
+      "cultural": [
+        147
+      ],
+      "resurgence": [
+        148
+      ],
+      "context": [
+        151
+      ],
+      "settler-colonial": [
+        153
+      ],
+      "violence.": [
+        154
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-12T09:40:04.860316",
+    "created_date": "2026-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4411384048",
+    "doi": "https://doi.org/10.1080/13642987.2025.2501574",
+    "title": "Non-member migrants in spaceless zones: the spatial membership frame of embassies and consulates in the European Court of Human Rights",
+    "display_name": "Non-member migrants in spaceless zones: the spatial membership frame of embassies and consulates in the European Court of Human Rights",
+    "relevance_score": 1.6979542,
+    "publication_year": 2025,
+    "publication_date": "2025-06-17",
+    "ids": {
+      "openalex": "https://openalex.org/W4411384048",
+      "doi": "https://doi.org/10.1080/13642987.2025.2501574"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1080/13642987.2025.2501574",
+      "doi": "https://doi.org/10.1080/13642987.2025.2501574",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/13642987.2025.2501574",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13642987.2025.2501574?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S139935717",
+        "display_name": "The International Journal of Human Rights",
+        "issn_l": "1364-2987",
+        "issn": [
+          "1364-2987",
+          "1744-053X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The International Journal of Human Rights",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/13642987.2025.2501574?needAccess=true",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5077059182",
+          "display_name": "Nurbanu Hay\u0131r",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I124055696",
+            "display_name": "University of Copenhagen",
+            "ror": "https://ror.org/035b05819",
+            "country_code": "DK",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I124055696"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I32971472",
+            "display_name": "Yale University",
+            "ror": "https://ror.org/03v76x132",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I32971472"
+            ]
+          }
+        ],
+        "countries": [
+          "DK",
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Nurbanu Hay\u0131r",
+        "raw_affiliation_strings": [
+          "Yale University Fox Fellow, University of Copenhagen",
+          "University of Copenhagen",
+          "Yale University Fox Fellow"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Yale University Fox Fellow, University of Copenhagen",
+            "institution_ids": [
+              "https://openalex.org/I124055696",
+              "https://openalex.org/I32971472"
+            ]
+          },
+          {
+            "raw_affiliation_string": "University of Copenhagen",
+            "institution_ids": [
+              "https://openalex.org/I124055696"
+            ]
+          },
+          {
+            "raw_affiliation_string": "Yale University Fox Fellow",
+            "institution_ids": [
+              "https://openalex.org/I32971472"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5077059182"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I124055696",
+      "https://openalex.org/I32971472"
+    ],
+    "apc_list": null,
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.13677195,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "30",
+      "issue": "2",
+      "first_page": "379",
+      "last_page": "401"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13710",
+      "display_name": "European and International Law Studies",
+      "score": 0.6455000042915344,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13710",
+        "display_name": "European and International Law Studies",
+        "score": 0.6455000042915344,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14259",
+        "display_name": "Legal Rights and Human Rights",
+        "score": 0.15219999849796295,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13948",
+        "display_name": "Gender and Women's Rights",
+        "score": 0.06870000064373016,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/european-court-of-human-rights",
+        "display_name": "European Court of Human Rights",
+        "score": 0.8740000128746033
+      },
+      {
+        "id": "https://openalex.org/keywords/embassies-and-consulates",
+        "display_name": "embassies and consulates",
+        "score": 0.8579999804496765
+      },
+      {
+        "id": "https://openalex.org/keywords/consular-jurisdiction",
+        "display_name": "consular jurisdiction",
+        "score": 0.8339999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/extraterritorial-jurisdiction",
+        "display_name": "extraterritorial jurisdiction",
+        "score": 0.9290000200271606
+      },
+      {
+        "id": "https://openalex.org/keywords/european-human-rights-law",
+        "display_name": "European human rights law",
+        "score": 0.5389999747276306
+      },
+      {
+        "id": "https://openalex.org/keywords/european-colonialism",
+        "display_name": "European colonialism",
+        "score": 0.39899998903274536
+      },
+      {
+        "id": "https://openalex.org/keywords/ottoman-empire",
+        "display_name": "Ottoman Empire",
+        "score": 0.7250000238418579
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C169437150",
+        "wikidata": "https://www.wikidata.org/wiki/Q8458",
+        "display_name": "Human rights",
+        "level": 2,
+        "score": 0.6736583113670349
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.6573517918586731
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.48220527172088623
+      },
+      {
+        "id": "https://openalex.org/C3019422483",
+        "wikidata": "https://www.wikidata.org/wiki/Q1646605",
+        "display_name": "Member states",
+        "level": 3,
+        "score": 0.4461440443992615
+      },
+      {
+        "id": "https://openalex.org/C126042441",
+        "wikidata": "https://www.wikidata.org/wiki/Q1324888",
+        "display_name": "Frame (networking)",
+        "level": 2,
+        "score": 0.42955905199050903
+      },
+      {
+        "id": "https://openalex.org/C2910001868",
+        "wikidata": "https://www.wikidata.org/wiki/Q458",
+        "display_name": "European union",
+        "level": 2,
+        "score": 0.35323864221572876
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.20709660649299622
+      },
+      {
+        "id": "https://openalex.org/C155202549",
+        "wikidata": "https://www.wikidata.org/wiki/Q178803",
+        "display_name": "International trade",
+        "level": 1,
+        "score": 0.20048612356185913
+      },
+      {
+        "id": "https://openalex.org/C76155785",
+        "wikidata": "https://www.wikidata.org/wiki/Q418",
+        "display_name": "Telecommunications",
+        "level": 1,
+        "score": 0.09876441955566406
+      },
+      {
+        "id": "https://openalex.org/C127413603",
+        "wikidata": "https://www.wikidata.org/wiki/Q11023",
+        "display_name": "Engineering",
+        "level": 0,
+        "score": 0.09310364723205566
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1080/13642987.2025.2501574",
+        "doi": "https://doi.org/10.1080/13642987.2025.2501574",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1080/13642987.2025.2501574",
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13642987.2025.2501574?needAccess=true",
+        "source": {
+          "id": "https://openalex.org/S139935717",
+          "display_name": "The International Journal of Human Rights",
+          "issn_l": "1364-2987",
+          "issn": [
+            "1364-2987",
+            "1744-053X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310319847",
+          "host_organization_name": "Routledge",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
+          ],
+          "host_organization_lineage_names": [
+            "Routledge",
+            "Taylor & Francis"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The International Journal of Human Rights",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1080/13642987.2025.2501574",
+      "doi": "https://doi.org/10.1080/13642987.2025.2501574",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1080/13642987.2025.2501574",
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/13642987.2025.2501574?needAccess=true",
+      "source": {
+        "id": "https://openalex.org/S139935717",
+        "display_name": "The International Journal of Human Rights",
+        "issn_l": "1364-2987",
+        "issn": [
+          "1364-2987",
+          "1744-053X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310319847",
+        "host_organization_name": "Routledge",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
+        ],
+        "host_organization_lineage_names": [
+          "Routledge",
+          "Taylor & Francis"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The International Journal of Human Rights",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.9595999717712402,
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.5699999928474426,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320882",
+        "display_name": "Volkswagen Foundation",
+        "ror": "https://ror.org/03bsmfz84"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4411384048.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4411384048.grobid-xml"
+    },
+    "referenced_works_count": 42,
+    "referenced_works": [
+      "https://openalex.org/W168145299",
+      "https://openalex.org/W657322861",
+      "https://openalex.org/W1486297934",
+      "https://openalex.org/W1504202973",
+      "https://openalex.org/W1819629569",
+      "https://openalex.org/W1964201209",
+      "https://openalex.org/W2037404736",
+      "https://openalex.org/W2065903669",
+      "https://openalex.org/W2066006515",
+      "https://openalex.org/W2070761252",
+      "https://openalex.org/W2146254763",
+      "https://openalex.org/W2486561808",
+      "https://openalex.org/W2494384212",
+      "https://openalex.org/W2498985045",
+      "https://openalex.org/W2501079204",
+      "https://openalex.org/W2579813295",
+      "https://openalex.org/W2626654403",
+      "https://openalex.org/W2884295076",
+      "https://openalex.org/W2911722359",
+      "https://openalex.org/W2921866797",
+      "https://openalex.org/W2940303734",
+      "https://openalex.org/W3015458635",
+      "https://openalex.org/W3121875968",
+      "https://openalex.org/W3143175199",
+      "https://openalex.org/W3167207957",
+      "https://openalex.org/W3195701848",
+      "https://openalex.org/W3201518607",
+      "https://openalex.org/W3209485115",
+      "https://openalex.org/W4230443522",
+      "https://openalex.org/W4238933500",
+      "https://openalex.org/W4240592404",
+      "https://openalex.org/W4247120392",
+      "https://openalex.org/W4249512173",
+      "https://openalex.org/W4255023384",
+      "https://openalex.org/W4256215640",
+      "https://openalex.org/W4299402866",
+      "https://openalex.org/W4322501050",
+      "https://openalex.org/W4380878453",
+      "https://openalex.org/W4381332900",
+      "https://openalex.org/W4411296580",
+      "https://openalex.org/W6642785147",
+      "https://openalex.org/W6946169890"
+    ],
+    "related_works": [
+      "https://openalex.org/W2748952813",
+      "https://openalex.org/W2336463163",
+      "https://openalex.org/W1999705868",
+      "https://openalex.org/W2530922031",
+      "https://openalex.org/W2135499325",
+      "https://openalex.org/W2738194665",
+      "https://openalex.org/W650817667",
+      "https://openalex.org/W3123477648",
+      "https://openalex.org/W3035592885",
+      "https://openalex.org/W4248283822"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "article": [
+        1,
+        74
+      ],
+      "discusses": [
+        2
+      ],
+      "the": [
+        3,
+        20,
+        28,
+        39,
+        57,
+        73,
+        76,
+        79,
+        84,
+        87,
+        90,
+        98,
+        117,
+        125,
+        134,
+        141,
+        156,
+        185
+      ],
+      "two": [
+        4
+      ],
+      "competing": [
+        5,
+        21
+      ],
+      "frames": [
+        6
+      ],
+      "of": [
+        7,
+        31,
+        36,
+        49,
+        59,
+        78,
+        86,
+        119,
+        143,
+        158
+      ],
+      "human": [
+        8,
+        47,
+        110,
+        193
+      ],
+      "rights": [
+        9,
+        35,
+        48,
+        111,
+        157,
+        194
+      ],
+      "in": [
+        10,
+        27,
+        83,
+        97,
+        107,
+        122,
+        129,
+        192
+      ],
+      "European": [
+        11,
+        29,
+        40,
+        91,
+        109,
+        120,
+        145,
+        159
+      ],
+      "legal": [
+        12
+      ],
+      "and": [
+        13,
+        68,
+        89,
+        128,
+        138,
+        164,
+        190
+      ],
+      "political": [
+        14
+      ],
+      "thoughts": [
+        15
+      ],
+      "that": [
+        16,
+        154
+      ],
+      "continue": [
+        17
+      ],
+      "to": [
+        18,
+        100,
+        103,
+        188
+      ],
+      "undergird": [
+        19
+      ],
+      "claims": [
+        22
+      ],
+      "on": [
+        23,
+        113,
+        140,
+        178
+      ],
+      "externalised": [
+        24
+      ],
+      "migration": [
+        25
+      ],
+      "control": [
+        26
+      ],
+      "Court": [
+        30
+      ],
+      "Human": [
+        32
+      ],
+      "Rights": [
+        33
+      ],
+      "(ECtHR):": [
+        34
+      ],
+      "humans": [
+        37
+      ],
+      "against": [
+        38
+      ],
+      "state": [
+        41
+      ],
+      "power": [
+        42
+      ],
+      "(a": [
+        43,
+        51
+      ],
+      "relational": [
+        44
+      ],
+      "frame)": [
+        45
+      ],
+      "versus": [
+        46
+      ],
+      "Europeans": [
+        50
+      ],
+      "spatial": [
+        52,
+        80,
+        151,
+        181
+      ],
+      "membership": [
+        53,
+        81,
+        152,
+        182
+      ],
+      "frame).": [
+        54
+      ],
+      "Drawing": [
+        55
+      ],
+      "from": [
+        56,
+        169
+      ],
+      "case": [
+        58
+      ],
+      "asylum-seeking": [
+        60
+      ],
+      "visa": [
+        61
+      ],
+      "applicants": [
+        62
+      ],
+      "at": [
+        63,
+        162
+      ],
+      "a": [
+        64,
+        150
+      ],
+      "Belgian": [
+        65
+      ],
+      "embassy,": [
+        66
+      ],
+      "M.N.": [
+        67
+      ],
+      "Others": [
+        69
+      ],
+      "v.": [
+        70
+      ],
+      "Belgium": [
+        71
+      ],
+      "(2020),": [
+        72
+      ],
+      "traces": [
+        75
+      ],
+      "prevalence": [
+        77
+      ],
+      "frame": [
+        82,
+        153,
+        183
+      ],
+      "history": [
+        85
+      ],
+      "ECtHR": [
+        88
+      ],
+      "consular": [
+        92
+      ],
+      "jurisdiction": [
+        93
+      ],
+      "under": [
+        94
+      ],
+      "capitulation": [
+        95
+      ],
+      "treaties": [
+        96
+      ],
+      "eighteenth": [
+        99
+      ],
+      "nineteenth": [
+        101
+      ],
+      "century": [
+        102
+      ],
+      "capturing": [
+        104
+      ],
+      "its": [
+        105
+      ],
+      "recurrence": [
+        106
+      ],
+      "contemporary": [
+        108
+      ],
+      "thinking": [
+        112
+      ],
+      "migration.": [
+        114
+      ],
+      "It": [
+        115,
+        175
+      ],
+      "explores": [
+        116
+      ],
+      "influence": [
+        118
+      ],
+      "interests": [
+        121,
+        148
+      ],
+      "colonies": [
+        123
+      ],
+      "during": [
+        124
+      ],
+      "Convention": [
+        126
+      ],
+      "drafting": [
+        127
+      ],
+      "\u2018semi-civilised'": [
+        130
+      ],
+      "regions": [
+        131
+      ],
+      "such": [
+        132
+      ],
+      "as": [
+        133
+      ],
+      "Ottoman": [
+        135
+      ],
+      "Empire,": [
+        136
+      ],
+      "Japan": [
+        137
+      ],
+      "China": [
+        139
+      ],
+      "development": [
+        142
+      ],
+      "extraterritorial": [
+        144
+      ],
+      "jurisdiction.": [
+        146
+      ],
+      "These": [
+        147
+      ],
+      "shaped": [
+        149
+      ],
+      "prioritised": [
+        155
+      ],
+      "nationals,": [
+        160
+      ],
+      "both": [
+        161
+      ],
+      "home": [
+        163
+      ],
+      "abroad,": [
+        165
+      ],
+      "while": [
+        166
+      ],
+      "excluding": [
+        167
+      ],
+      "non-nationals": [
+        168
+      ],
+      "protection": [
+        170
+      ],
+      "despite": [
+        171
+      ],
+      "Europe's": [
+        172
+      ],
+      "expansive": [
+        173
+      ],
+      "sovereignty.": [
+        174
+      ],
+      "then": [
+        176
+      ],
+      "reflects": [
+        177
+      ],
+      "how": [
+        179
+      ],
+      "this": [
+        180
+      ],
+      "influences": [
+        184
+      ],
+      "ECtHR\u2019s": [
+        186
+      ],
+      "approach": [
+        187
+      ],
+      "embassies": [
+        189
+      ],
+      "consulates": [
+        191
+      ],
+      "law.": [
+        195
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2025-10-10T00:00:00"
   }
 ]

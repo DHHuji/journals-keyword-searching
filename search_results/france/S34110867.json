@@ -15622,17 +15622,19 @@
     "doi": "https://doi.org/10.1093/ojls/gqaf022",
     "title": "Law, Philosophy and the Susceptible Skins of Living Beings",
     "display_name": "Law, Philosophy and the Susceptible Skins of Living Beings",
-    "relevance_score": 0.6548948,
+    "relevance_score": 1.81006,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
       "openalex": "https://openalex.org/W4411722056",
       "doi": "https://doi.org/10.1093/ojls/gqaf022",
-      "pmid": "https://pubmed.ncbi.nlm.nih.gov/41378093"
+      "pmid": "https://pubmed.ncbi.nlm.nih.gov/41378093",
+      "pmcid": "https://www.ncbi.nlm.nih.gov/pmc/articles/12688659"
     },
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/ojls/gqaf022",
+      "doi": "https://doi.org/10.1093/ojls/gqaf022",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/ojls/gqaf022",
       "pdf_url": "https://academic.oup.com/ojls/advance-article-pdf/doi/10.1093/ojls/gqaf022/63537654/gqaf022.pdf",
@@ -15647,6 +15649,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -15667,6 +15678,7 @@
       "raw_source_name": "Oxford Journal of Legal Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref",
@@ -15684,42 +15696,49 @@
         "author": {
           "id": "https://openalex.org/A5061590693",
           "display_name": "David Enoch",
-          "orcid": "https://orcid.org/0000-0001-9529-9110"
+          "orcid": "https://orcid.org/0000-0001-9529-9110",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-9529-9110"
+          ]
         },
         "institutions": [],
         "countries": [],
         "is_corresponding": true,
         "raw_author_name": "David Enoch",
         "raw_affiliation_strings": [],
+        "raw_orcid": null,
         "affiliations": []
       }
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 0,
     "corresponding_author_ids": [
       "https://openalex.org/A5061590693"
     ],
     "corresponding_institution_ids": [],
     "apc_list": {
-      "value": 2768,
+      "value": 3023,
       "currency": "GBP",
-      "value_usd": 3395
+      "value_usd": 3987
     },
     "apc_paid": {
-      "value": 2768,
+      "value": 3023,
       "currency": "GBP",
-      "value_usd": 3395
+      "value_usd": 3987
     },
-    "fwci": 0.0,
+    "fwci": 1.7424,
     "has_fulltext": true,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.23852686,
+      "value": 0.85451515,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": "45",
       "issue": "4",
@@ -15730,12 +15749,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13877",
-      "display_name": "Law in Society and Culture",
-      "score": 0.5701000094413757,
+      "id": "https://openalex.org/T14300",
+      "display_name": "Legal and Social Philosophy",
+      "score": 0.6934000253677368,
       "subfield": {
-        "id": "https://openalex.org/subfields/3308",
-        "display_name": "Law"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -15748,9 +15767,43 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13877",
-        "display_name": "Law in Society and Culture",
-        "score": 0.5701000094413757,
+        "id": "https://openalex.org/T14300",
+        "display_name": "Legal and Social Philosophy",
+        "score": 0.6934000253677368,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12332",
+        "display_name": "Comparative constitutional jurisprudence studies",
+        "score": 0.1469999998807907,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14259",
+        "display_name": "Legal Rights and Human Rights",
+        "score": 0.0478999987244606,
         "subfield": {
           "id": "https://openalex.org/subfields/3308",
           "display_name": "Law"
@@ -15767,24 +15820,19 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.48324713110923767
+        "id": "https://openalex.org/keywords/philosophy-of-law",
+        "display_name": "philosophy of law",
+        "score": 0.9879999756813049
       },
       {
-        "id": "https://openalex.org/keywords/philosophy",
-        "display_name": "Philosophy",
-        "score": 0.4254460036754608
+        "id": "https://openalex.org/keywords/catherine-ii-of-russia",
+        "display_name": "Catherine II",
+        "score": 0.6790000200271606
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.370008647441864
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.3338032364845276
+        "id": "https://openalex.org/keywords/denis-diderot",
+        "display_name": "Denis Diderot",
+        "score": 0.9319999814033508
       }
     ],
     "concepts": [
@@ -15822,6 +15870,7 @@
     "locations": [
       {
         "id": "doi:10.1093/ojls/gqaf022",
+        "doi": "https://doi.org/10.1093/ojls/gqaf022",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/ojls/gqaf022",
         "pdf_url": "https://academic.oup.com/ojls/advance-article-pdf/doi/10.1093/ojls/gqaf022/63537654/gqaf022.pdf",
@@ -15836,6 +15885,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "abdc-a",
+            "anvur-class-a",
+            "anvur-scientific",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -15858,6 +15916,7 @@
       },
       {
         "id": "pmid:41378093",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/41378093",
         "pdf_url": null,
@@ -15869,6 +15928,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -15883,10 +15943,11 @@
         "is_accepted": true,
         "is_published": true,
         "raw_source_name": "Oxford journal of legal studies",
-        "raw_type": null
+        "raw_type": "Journal Article"
       },
       {
         "id": "pmh:oai:pubmedcentral.nih.gov:12688659",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12688659/",
         "pdf_url": null,
@@ -15898,6 +15959,7 @@
           "is_oa": true,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I1299303238",
           "host_organization_name": "National Institutes of Health",
           "host_organization_lineage": [
@@ -15908,15 +15970,16 @@
         },
         "license": "cc-by",
         "license_id": "https://openalex.org/licenses/cc-by",
-        "version": "submittedVersion",
-        "is_accepted": false,
-        "is_published": false,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
         "raw_source_name": "Oxf J Leg Stud",
         "raw_type": "Text"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1093/ojls/gqaf022",
+      "doi": "https://doi.org/10.1093/ojls/gqaf022",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/ojls/gqaf022",
       "pdf_url": "https://academic.oup.com/ojls/advance-article-pdf/doi/10.1093/ojls/gqaf022/63537654/gqaf022.pdf",
@@ -15931,6 +15994,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a",
+          "anvur-class-a",
+          "anvur-scientific",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -15952,6 +16024,8 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -15965,16 +16039,16 @@
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W2899084033",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W2912137438",
-      "https://openalex.org/W2803307177",
-      "https://openalex.org/W1494974852",
-      "https://openalex.org/W1030430500",
-      "https://openalex.org/W2346533055",
-      "https://openalex.org/W3214635344",
-      "https://openalex.org/W3166162583"
+      "https://openalex.org/W2525871981",
+      "https://openalex.org/W2595865099",
+      "https://openalex.org/W3195211467",
+      "https://openalex.org/W4240020657",
+      "https://openalex.org/W2761885366",
+      "https://openalex.org/W3144950538",
+      "https://openalex.org/W4405861199",
+      "https://openalex.org/W3213059556",
+      "https://openalex.org/W3119787558",
+      "https://openalex.org/W7002068673"
     ],
     "abstract_inverted_index": {
       "Catherine": [
@@ -16315,8 +16389,13 @@
         158
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-04-21T08:09:41.155169",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-06-28T00:00:00"
   }
 ]

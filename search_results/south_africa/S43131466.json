@@ -10019,7 +10019,7 @@
     "doi": "https://doi.org/10.1080/00141844.2026.2635488",
     "title": "Rubbish Deaths: Violence and the Environment in Durban, South Africa",
     "display_name": "Rubbish Deaths: Violence and the Environment in Durban, South Africa",
-    "relevance_score": 6.47463,
+    "relevance_score": 12.978881,
     "publication_year": 2026,
     "publication_date": "2026-03-17",
     "ids": {
@@ -10029,6 +10029,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/00141844.2026.2635488",
+      "doi": "https://doi.org/10.1080/00141844.2026.2635488",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/00141844.2026.2635488",
       "pdf_url": null,
@@ -10043,13 +10044,26 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -10061,6 +10075,7 @@
       "raw_source_name": "Ethnos",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -10077,7 +10092,10 @@
         "author": {
           "id": "https://openalex.org/A5114762958",
           "display_name": "Emily Ragus",
-          "orcid": "https://orcid.org/0009-0005-1565-9697"
+          "orcid": "https://orcid.org/0009-0005-1565-9697",
+          "observed_orcids": [
+            "https://orcid.org/0009-0005-1565-9697"
+          ]
         },
         "institutions": [
           {
@@ -10099,6 +10117,7 @@
         "raw_affiliation_strings": [
           "University of Amsterdam"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "University of Amsterdam",
@@ -10113,7 +10132,10 @@
         "author": {
           "id": "https://openalex.org/A5018530048",
           "display_name": "Linda Musariri",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-6004-6380",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6004-6380"
+          ]
         },
         "institutions": [
           {
@@ -10135,6 +10157,7 @@
         "raw_affiliation_strings": [
           "University of Amsterdam"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "University of Amsterdam",
@@ -10148,8 +10171,11 @@
         "author_position": "last",
         "author": {
           "id": "https://openalex.org/A5039934786",
-          "display_name": "Eileen Moyer",
-          "orcid": "https://orcid.org/0000-0002-1233-6041"
+          "display_name": "Eileen M. Moyer",
+          "orcid": "https://orcid.org/0000-0002-1233-6041",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1233-6041"
+          ]
         },
         "institutions": [
           {
@@ -10171,6 +10197,7 @@
         "raw_affiliation_strings": [
           "University of Amsterdam"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "University of Amsterdam",
@@ -10183,7 +10210,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 3,
+    "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5114762958"
     ],
@@ -10196,7 +10223,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.59774876,
+      "value": 0.14114048,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -10211,9 +10238,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11695",
-      "display_name": "South African History and Culture",
-      "score": 0.08389999717473984,
+      "id": "https://openalex.org/T10747",
+      "display_name": "Disaster Management and Resilience",
+      "score": 0.8560000061988831,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -10229,9 +10256,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11695",
-        "display_name": "South African History and Culture",
-        "score": 0.08389999717473984,
+        "id": "https://openalex.org/T10747",
+        "display_name": "Disaster Management and Resilience",
+        "score": 0.8560000061988831,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -10246,12 +10273,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T12248",
-        "display_name": "Water Governance and Infrastructure",
-        "score": 0.027899999171495438,
+        "id": "https://openalex.org/T10149",
+        "display_name": "Anthropological Studies and Insights",
+        "score": 0.05590000003576279,
         "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -10263,33 +10290,88 @@
         }
       },
       {
-        "id": "https://openalex.org/T12965",
-        "display_name": "Wildlife Conservation and Criminology Analyses",
-        "score": 0.026499999687075615,
+        "id": "https://openalex.org/T11695",
+        "display_name": "South African History and Culture",
+        "score": 0.019600000232458115,
         "subfield": {
-          "id": "https://openalex.org/subfields/2309",
-          "display_name": "Nature and Landscape Conservation"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/23",
-          "display_name": "Environmental Science"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/ethnography",
-        "display_name": "Ethnography",
-        "score": 0.2632000148296356
+        "id": "https://openalex.org/keywords/environmental-violence",
+        "display_name": "environmental violence",
+        "score": 0.9399999976158142
       },
       {
-        "id": "https://openalex.org/keywords/environmental-degradation",
-        "display_name": "Environmental degradation",
-        "score": 0.22769999504089355
+        "id": "https://openalex.org/keywords/masculinity",
+        "display_name": "masculinity",
+        "score": 0.7250000238418579
+      },
+      {
+        "id": "https://openalex.org/keywords/2022-floods",
+        "display_name": "2022 floods",
+        "score": 0.8529999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/durban",
+        "display_name": "Durban",
+        "score": 0.8029999732971191
+      },
+      {
+        "id": "https://openalex.org/keywords/disasters",
+        "display_name": "disasters",
+        "score": 0.33399999141693115
+      },
+      {
+        "id": "https://openalex.org/keywords/precarity",
+        "display_name": "precarity",
+        "score": 0.7170000076293945
+      },
+      {
+        "id": "https://openalex.org/keywords/waste",
+        "display_name": "waste",
+        "score": 0.6320000290870667
+      },
+      {
+        "id": "https://openalex.org/keywords/structural-violence",
+        "display_name": "structural violence",
+        "score": 0.6769999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/urban-marginalization",
+        "display_name": "urban marginalization",
+        "score": 0.527999997138977
+      },
+      {
+        "id": "https://openalex.org/keywords/race-and-class",
+        "display_name": "race and class",
+        "score": 0.7210000157356262
+      },
+      {
+        "id": "https://openalex.org/keywords/disaster-responders",
+        "display_name": "disaster responders",
+        "score": 0.6909999847412109
+      },
+      {
+        "id": "https://openalex.org/keywords/conservation",
+        "display_name": "conservation",
+        "score": 0.3529999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/everyday-life",
+        "display_name": "everyday life",
+        "score": 0.43299999833106995
       }
     ],
     "concepts": [
@@ -10369,6 +10451,7 @@
     "locations": [
       {
         "id": "doi:10.1080/00141844.2026.2635488",
+        "doi": "https://doi.org/10.1080/00141844.2026.2635488",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/00141844.2026.2635488",
         "pdf_url": null,
@@ -10383,13 +10466,26 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310319847",
           "host_organization_name": "Routledge",
           "host_organization_lineage": [
-            "https://openalex.org/P4310319847"
+            "https://openalex.org/P4310319847",
+            "https://openalex.org/P4310320547"
           ],
           "host_organization_lineage_names": [
-            "Routledge"
+            "Routledge",
+            "Taylor & Francis"
           ],
           "type": "journal"
         },
@@ -10404,6 +10500,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1080/00141844.2026.2635488",
+      "doi": "https://doi.org/10.1080/00141844.2026.2635488",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/00141844.2026.2635488",
       "pdf_url": null,
@@ -10418,13 +10515,26 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310319847",
         "host_organization_name": "Routledge",
         "host_organization_lineage": [
-          "https://openalex.org/P4310319847"
+          "https://openalex.org/P4310319847",
+          "https://openalex.org/P4310320547"
         ],
         "host_organization_lineage_names": [
-          "Routledge"
+          "Routledge",
+          "Taylor & Francis"
         ],
         "type": "journal"
       },
@@ -10436,7 +10546,35 @@
       "raw_source_name": "Ethnos",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/10",
+        "display_name": "Reduced inequalities",
+        "score": 0.7578999996185303
+      },
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.666700005531311
+      },
+      {
+        "id": "https://metadata.un.org/sdg/5",
+        "display_name": "Gender equality",
+        "score": 0.6025999784469604
+      },
+      {
+        "id": "https://metadata.un.org/sdg/12",
+        "display_name": "Responsible consumption and production",
+        "score": 0.5171999931335449
+      },
+      {
+        "id": "https://metadata.un.org/sdg/11",
+        "display_name": "Sustainable cities and communities",
+        "score": 0.5142999887466431
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G4141031393",
@@ -10460,7 +10598,7 @@
       {
         "id": "https://openalex.org/F4320329707",
         "display_name": "General Sir John Monash Foundation",
-        "ror": null
+        "ror": "https://ror.org/03k36ry62"
       }
     ],
     "has_content": {
@@ -10495,10 +10633,10 @@
       "https://openalex.org/W2993922578",
       "https://openalex.org/W3111716947",
       "https://openalex.org/W3157297004",
+      "https://openalex.org/W3185892935",
       "https://openalex.org/W4214773366",
       "https://openalex.org/W4214867812",
       "https://openalex.org/W4244620107",
-      "https://openalex.org/W4254274555",
       "https://openalex.org/W4255127427",
       "https://openalex.org/W4256205872",
       "https://openalex.org/W4309608346",
@@ -10514,9 +10652,361 @@
       "https://openalex.org/W4413624887"
     ],
     "related_works": [],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "Based": [
+        0
+      ],
+      "on": [
+        1,
+        40
+      ],
+      "ethnographic": [
+        2
+      ],
+      "fieldwork": [
+        3
+      ],
+      "in": [
+        4,
+        18
+      ],
+      "Durban,": [
+        5,
+        66
+      ],
+      "South": [
+        6
+      ],
+      "Africa,": [
+        7
+      ],
+      "this": [
+        8
+      ],
+      "article": [
+        9
+      ],
+      "examines": [
+        10
+      ],
+      "how": [
+        11,
+        51,
+        96,
+        140
+      ],
+      "environmental": [
+        12,
+        125
+      ],
+      "violence,": [
+        13
+      ],
+      "masculinity,": [
+        14
+      ],
+      "and": [
+        15,
+        44,
+        55,
+        59,
+        106,
+        114,
+        126,
+        145
+      ],
+      "inequality": [
+        16
+      ],
+      "intersect": [
+        17
+      ],
+      "the": [
+        19,
+        22,
+        26,
+        41,
+        62,
+        81,
+        89,
+        131
+      ],
+      "context": [
+        20
+      ],
+      "of": [
+        21,
+        28,
+        65,
+        91,
+        104,
+        133
+      ],
+      "2022": [
+        23
+      ],
+      "floods.": [
+        24
+      ],
+      "Through": [
+        25,
+        61
+      ],
+      "stories": [
+        27
+      ],
+      "three": [
+        29
+      ],
+      "men:": [
+        30
+      ],
+      "Barry,": [
+        31
+      ],
+      "an": [
+        32
+      ],
+      "unlikely": [
+        33
+      ],
+      "conservationist;": [
+        34
+      ],
+      "Peace,": [
+        35
+      ],
+      "a": [
+        36,
+        46,
+        73,
+        77,
+        112,
+        121
+      ],
+      "young": [
+        37
+      ],
+      "man": [
+        38
+      ],
+      "living": [
+        39
+      ],
+      "urban": [
+        42
+      ],
+      "margins;": [
+        43
+      ],
+      "Roland,": [
+        45
+      ],
+      "disaster": [
+        47,
+        70
+      ],
+      "responder,": [
+        48
+      ],
+      "we": [
+        49,
+        67
+      ],
+      "trace": [
+        50,
+        139
+      ],
+      "crises": [
+        52
+      ],
+      "are": [
+        53,
+        98,
+        129
+      ],
+      "lived": [
+        54
+      ],
+      "gendered": [
+        56
+      ],
+      "across": [
+        57
+      ],
+      "race": [
+        58
+      ],
+      "class.": [
+        60
+      ],
+      "case": [
+        63
+      ],
+      "study": [
+        64
+      ],
+      "argue": [
+        68
+      ],
+      "that": [
+        69,
+        79
+      ],
+      "is": [
+        71
+      ],
+      "not": [
+        72
+      ],
+      "discrete": [
+        74
+      ],
+      "event": [
+        75
+      ],
+      "but": [
+        76
+      ],
+      "condition": [
+        78
+      ],
+      "reveals": [
+        80
+      ],
+      "social": [
+        82
+      ],
+      "hierarchies": [
+        83
+      ],
+      "sustaining": [
+        84
+      ],
+      "everyday": [
+        85,
+        143
+      ],
+      "precarity.": [
+        86
+      ],
+      "We": [
+        87
+      ],
+      "introduce": [
+        88
+      ],
+      "concept": [
+        90,
+        132
+      ],
+      "rubbish": [
+        92,
+        134
+      ],
+      "deaths": [
+        93,
+        135
+      ],
+      "to": [
+        94,
+        138
+      ],
+      "highlight": [
+        95
+      ],
+      "lives": [
+        97,
+        144
+      ],
+      "rendered": [
+        99
+      ],
+      "disposable,": [
+        100
+      ],
+      "within": [
+        101
+      ],
+      "overlapping": [
+        102
+      ],
+      "systems": [
+        103
+      ],
+      "neglect": [
+        105
+      ],
+      "where": [
+        107
+      ],
+      "waste": [
+        108
+      ],
+      "operates": [
+        109
+      ],
+      "as": [
+        110,
+        120
+      ],
+      "both": [
+        111
+      ],
+      "material": [
+        113
+      ],
+      "symbolic": [
+        115
+      ],
+      "category.": [
+        116
+      ],
+      "By": [
+        117
+      ],
+      "foregrounding": [
+        118
+      ],
+      "masculinity": [
+        119
+      ],
+      "marker": [
+        122
+      ],
+      "through": [
+        123
+      ],
+      "which": [
+        124
+      ],
+      "structural": [
+        127
+      ],
+      "violence": [
+        128
+      ],
+      "embodied,": [
+        130
+      ],
+      "allows": [
+        136
+      ],
+      "us": [
+        137
+      ],
+      "crisis": [
+        141
+      ],
+      "shapes": [
+        142
+      ],
+      "socialities.": [
+        146
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2026-04-09T08:11:56.329763",
+    "updated_date": "2026-10-17T09:40:24.721904",
     "created_date": "2026-03-18T00:00:00"
   },
   {

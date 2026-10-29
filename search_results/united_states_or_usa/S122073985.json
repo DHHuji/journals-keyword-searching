@@ -398386,7 +398386,7 @@
     "doi": "https://doi.org/10.1017/s0022050725000014",
     "title": "The Model T",
     "display_name": "The Model T",
-    "relevance_score": 3.8535626,
+    "relevance_score": 1.3986508,
     "publication_year": 2025,
     "publication_date": "2025-01-21",
     "ids": {
@@ -398396,6 +398396,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0022050725000014",
+      "doi": "https://doi.org/10.1017/s0022050725000014",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725000014",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A783993184F1741EDC6F6A76B9D6D98D/S0022050725000014a.pdf/div-class-title-the-model-t-div.pdf",
@@ -398410,6 +398411,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -398430,6 +398444,7 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -398445,8 +398460,11 @@
         "author_position": "first",
         "author": {
           "id": "https://openalex.org/A5059354767",
-          "display_name": "Shari Eli",
-          "orcid": "https://orcid.org/0000-0002-0409-1996"
+          "display_name": "Shari J. Eli",
+          "orcid": "https://orcid.org/0000-0002-0409-1996",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0409-1996"
+          ]
         },
         "institutions": [
           {
@@ -398483,7 +398501,8 @@
         "author": {
           "id": "https://openalex.org/A5025602182",
           "display_name": "Joshua K. Hausman",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -398520,7 +398539,10 @@
         "author": {
           "id": "https://openalex.org/A5086843245",
           "display_name": "Paul W. Rhode",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3803-7805",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3803-7805"
+          ]
         },
         "institutions": [
           {
@@ -398555,26 +398577,34 @@
     ],
     "institutions": [],
     "countries_distinct_count": 2,
-    "institutions_distinct_count": 3,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
       "https://openalex.org/A5025602182"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I27837315"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 8.2599,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 1.8938,
     "has_fulltext": true,
-    "cited_by_count": 3,
+    "cited_by_count": 2,
     "citation_normalized_percentile": {
-      "value": 0.96474264,
+      "value": 0.85044225,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
-      "min": 95,
-      "max": 98
+      "min": 90,
+      "max": 96
     },
     "biblio": {
       "volume": "85",
@@ -398586,12 +398616,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11742",
-      "display_name": "Economic Theory and Policy",
-      "score": 0.6934000253677368,
+      "id": "https://openalex.org/T10605",
+      "display_name": "Historical Economic and Social Studies",
+      "score": 0.9434000253677368,
       "subfield": {
-        "id": "https://openalex.org/subfields/2000",
-        "display_name": "General Economics, Econometrics and Finance"
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
       },
       "field": {
         "id": "https://openalex.org/fields/20",
@@ -398604,43 +398634,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11742",
-        "display_name": "Economic Theory and Policy",
-        "score": 0.6934000253677368,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2000",
-          "display_name": "General Economics, Econometrics and Finance"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/20",
-          "display_name": "Economics, Econometrics and Finance"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T11810",
-        "display_name": "Complex Systems and Decision Making",
-        "score": 0.6496000289916992,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1803",
-          "display_name": "Management Science and Operations Research"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/18",
-          "display_name": "Decision Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12137",
-        "display_name": "Economic theories and models",
-        "score": 0.6194999814033508,
+        "id": "https://openalex.org/T10605",
+        "display_name": "Historical Economic and Social Studies",
+        "score": 0.9434000253677368,
         "subfield": {
           "id": "https://openalex.org/subfields/2002",
           "display_name": "Economics and Econometrics"
@@ -398653,13 +398649,82 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T13025",
+        "display_name": "American History and Culture",
+        "score": 0.0471000000834465,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1406",
+          "display_name": "Marketing"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13641",
+        "display_name": "Historical Studies and Socio-cultural Analysis",
+        "score": 0.0031999999191612005,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1207",
+          "display_name": "History and Philosophy of Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/geology",
-        "display_name": "Geology",
-        "score": 0.3107231855392456
+        "id": "https://openalex.org/keywords/model-t-ford",
+        "display_name": "Ford Model T",
+        "score": 0.984000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/mass-production",
+        "display_name": "mass production",
+        "score": 0.8560000061988831
+      },
+      {
+        "id": "https://openalex.org/keywords/fordism",
+        "display_name": "Fordism",
+        "score": 0.593999981880188
+      },
+      {
+        "id": "https://openalex.org/keywords/history-of-the-automobile-industry",
+        "display_name": "automotive industry history",
+        "score": 0.5479999780654907
+      },
+      {
+        "id": "https://openalex.org/keywords/luxury-goods",
+        "display_name": "luxury goods",
+        "score": 0.7229999899864197
+      },
+      {
+        "id": "https://openalex.org/keywords/tariffs",
+        "display_name": "tariffs",
+        "score": 0.7480000257492065
+      },
+      {
+        "id": "https://openalex.org/keywords/cross-national-comparison",
+        "display_name": "cross-national comparison",
+        "score": 0.3499999940395355
+      },
+      {
+        "id": "https://openalex.org/keywords/united-states",
+        "display_name": "United States",
+        "score": 0.5899999737739563
       }
     ],
     "concepts": [
@@ -398676,6 +398741,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s0022050725000014",
+        "doi": "https://doi.org/10.1017/s0022050725000014",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0022050725000014",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A783993184F1741EDC6F6A76B9D6D98D/S0022050725000014a.pdf/div-class-title-the-model-t-div.pdf",
@@ -398690,6 +398756,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -398713,6 +398792,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0022050725000014",
+      "doi": "https://doi.org/10.1017/s0022050725000014",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725000014",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/A783993184F1741EDC6F6A76B9D6D98D/S0022050725000014a.pdf/div-class-title-the-model-t-div.pdf",
@@ -398727,6 +398807,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -398748,17 +398841,19 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": true
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4406685997.pdf",
       "grobid_xml": "https://content.openalex.org/works/W4406685997.grobid-xml"
     },
-    "referenced_works_count": 39,
+    "referenced_works_count": 38,
     "referenced_works": [
       "https://openalex.org/W596103592",
       "https://openalex.org/W607560721",
@@ -398783,12 +398878,12 @@
       "https://openalex.org/W2502265546",
       "https://openalex.org/W2575810636",
       "https://openalex.org/W2796081640",
+      "https://openalex.org/W2889607641",
       "https://openalex.org/W3082186358",
       "https://openalex.org/W3118156537",
-      "https://openalex.org/W3125923493",
       "https://openalex.org/W3135122946",
       "https://openalex.org/W3142329199",
-      "https://openalex.org/W4235716472",
+      "https://openalex.org/W4239380315",
       "https://openalex.org/W4243868585",
       "https://openalex.org/W4256154489",
       "https://openalex.org/W4281736384",
@@ -398796,8 +398891,7 @@
       "https://openalex.org/W4298789133",
       "https://openalex.org/W4299933976",
       "https://openalex.org/W6632054008",
-      "https://openalex.org/W6724719294",
-      "https://openalex.org/W6928918319",
+      "https://openalex.org/W6966315677",
       "https://openalex.org/W6998981981"
     ],
     "related_works": [
@@ -399031,10 +399125,10 @@
       },
       {
         "year": 2025,
-        "cited_by_count": 2
+        "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-04-25T08:17:42.794288",
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2025-01-22T00:00:00"
   },
   {
@@ -430244,7 +430338,7 @@
     "doi": "https://doi.org/10.1017/s002205072510123x",
     "title": "Coffee Nation: How One Commodity Transformed the Early United States. By Michelle Craig McDonald. Philadelphia: University of Pennsylvania Press, 2025. Pp. 271. $45.00, hardcover; $45.00, eBook.",
     "display_name": "Coffee Nation: How One Commodity Transformed the Early United States. By Michelle Craig McDonald. Philadelphia: University of Pennsylvania Press, 2025. Pp. 271. $45.00, hardcover; $45.00, eBook.",
-    "relevance_score": 3.642663,
+    "relevance_score": 7.211479,
     "publication_year": 2025,
     "publication_date": "2025-12-01",
     "ids": {
@@ -430254,6 +430348,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s002205072510123x",
+      "doi": "https://doi.org/10.1017/s002205072510123x",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1017/s002205072510123x",
       "pdf_url": null,
@@ -430268,6 +430363,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -430288,7 +430396,8 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -430302,9 +430411,10 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5031821299",
-          "display_name": "J. Michael Harrison",
-          "orcid": "https://orcid.org/0000-0002-3657-2639"
+          "id": null,
+          "display_name": "James Harrison",
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -430328,6 +430438,7 @@
         "raw_affiliation_strings": [
           "United States Naval Academy"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "United States Naval Academy",
@@ -430341,22 +430452,20 @@
     "institutions": [],
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
-    "corresponding_author_ids": [
-      "https://openalex.org/A5031821299"
-    ],
+    "corresponding_author_ids": [],
     "corresponding_institution_ids": [
       "https://openalex.org/I189158971"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.49501101,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "85",
@@ -430368,16 +430477,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13025",
-      "display_name": "American History and Culture",
-      "score": 0.21699999272823334,
+      "id": "https://openalex.org/T12144",
+      "display_name": "Colonialism, slavery, and trade",
+      "score": 0.5708000063896179,
       "subfield": {
-        "id": "https://openalex.org/subfields/1406",
-        "display_name": "Marketing"
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -430386,9 +430495,43 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T12144",
+        "display_name": "Colonialism, slavery, and trade",
+        "score": 0.5708000063896179,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10605",
+        "display_name": "Historical Economic and Social Studies",
+        "score": 0.375,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T13025",
         "display_name": "American History and Culture",
-        "score": 0.21699999272823334,
+        "score": 0.03500000014901161,
         "subfield": {
           "id": "https://openalex.org/subfields/1406",
           "display_name": "Marketing"
@@ -430401,52 +430544,43 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
-      },
-      {
-        "id": "https://openalex.org/T13641",
-        "display_name": "Historical Studies and Socio-cultural Analysis",
-        "score": 0.15940000116825104,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1207",
-          "display_name": "History and Philosophy of Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T14517",
-        "display_name": "Diverse Historical and Scientific Studies",
-        "score": 0.09950000047683716,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1207",
-          "display_name": "History and Philosophy of Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/12",
-          "display_name": "Arts and Humanities"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/commodity",
-        "display_name": "Commodity",
-        "score": 0.821399986743927
+        "id": "https://openalex.org/keywords/coffee",
+        "display_name": "coffee",
+        "score": 0.7239999771118164
       },
       {
-        "id": "https://openalex.org/keywords/commodity-market",
-        "display_name": "Commodity market",
-        "score": 0.19689999520778656
+        "id": "https://openalex.org/keywords/commodity-history",
+        "display_name": "commodity history",
+        "score": 0.5879999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/early-american-history",
+        "display_name": "early American history",
+        "score": 0.7210000157356262
+      },
+      {
+        "id": "https://openalex.org/keywords/coffee-trade",
+        "display_name": "coffee trade",
+        "score": 0.6489999890327454
+      },
+      {
+        "id": "https://openalex.org/keywords/coffee-plantations",
+        "display_name": "coffee plantations",
+        "score": 0.4569999873638153
+      },
+      {
+        "id": "https://openalex.org/keywords/plantation-economy",
+        "display_name": "plantation economy",
+        "score": 0.5870000123977661
+      },
+      {
+        "id": "https://openalex.org/keywords/american-economic-history",
+        "display_name": "American economic history",
+        "score": 0.4880000054836273
       }
     ],
     "concepts": [
@@ -430526,6 +430660,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s002205072510123x",
+        "doi": "https://doi.org/10.1017/s002205072510123x",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1017/s002205072510123x",
         "pdf_url": null,
@@ -430540,6 +430675,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -430563,11 +430711,13 @@
     ],
     "best_oa_location": null,
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": false,
-      "grobid_xml": false
+      "grobid_xml": false,
+      "pdf": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -430575,7 +430725,7 @@
     "related_works": [],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2026-03-07T16:01:11.037858",
+    "updated_date": "2026-09-29T14:09:16.559479",
     "created_date": "2025-12-01T00:00:00"
   },
   {
@@ -455547,7 +455697,7 @@
     "doi": "https://doi.org/10.1017/s0022050725000166",
     "title": "Bank Lending and Deposit Crunches during the Great Depression",
     "display_name": "Bank Lending and Deposit Crunches during the Great Depression",
-    "relevance_score": 3.297224,
+    "relevance_score": 1.0459567,
     "publication_year": 2025,
     "publication_date": "2025-04-15",
     "ids": {
@@ -455557,6 +455707,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0022050725000166",
+      "doi": "https://doi.org/10.1017/s0022050725000166",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725000166",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F9DA0315FD5555D25E8C774352BF0596/S0022050725000166a.pdf/div-class-title-bank-lending-and-deposit-crunches-during-the-great-depression-div.pdf",
@@ -455571,6 +455722,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -455591,6 +455755,7 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -455607,7 +455772,10 @@
         "author": {
           "id": "https://openalex.org/A5113674102",
           "display_name": "Kris James Mitchener",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0002-3917-1769",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-3917-1769"
+          ]
         },
         "institutions": [
           {
@@ -455644,9 +455812,22 @@
         "author": {
           "id": "https://openalex.org/A5062430557",
           "display_name": "Gary Richardson",
-          "orcid": "https://orcid.org/0000-0002-8362-6388"
+          "orcid": "https://orcid.org/0000-0002-8362-6388",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8362-6388"
+          ]
         },
         "institutions": [
+          {
+            "id": "https://openalex.org/I1321305853",
+            "display_name": "National Bureau of Economic Research",
+            "ror": "https://ror.org/04grmx538",
+            "country_code": "US",
+            "type": "nonprofit",
+            "lineage": [
+              "https://openalex.org/I1321305853"
+            ]
+          },
           {
             "id": "https://openalex.org/I204250578",
             "display_name": "University of California, Irvine",
@@ -455671,6 +455852,7 @@
           {
             "raw_affiliation_string": "Professor, Department of Economics, 3151 Social Science Plaza, University of California, Irvine, CA 92697 and NBER, 1050 Massachusetts Ave, Cambridge, MA 02138",
             "institution_ids": [
+              "https://openalex.org/I1321305853",
               "https://openalex.org/I204250578"
             ]
           }
@@ -455679,25 +455861,34 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 2,
+    "institutions_distinct_count": 3,
     "corresponding_author_ids": [
       "https://openalex.org/A5062430557"
     ],
     "corresponding_institution_ids": [
+      "https://openalex.org/I1321305853",
       "https://openalex.org/I204250578"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 9.4342,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 5.6341,
     "has_fulltext": true,
-    "cited_by_count": 5,
+    "cited_by_count": 7,
     "citation_normalized_percentile": {
-      "value": 0.97787628,
+      "value": 0.95349175,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 96,
+      "min": 88,
       "max": 99
     },
     "biblio": {
@@ -455712,7 +455903,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T10127",
       "display_name": "Banking stability, regulation, efficiency",
-      "score": 0.9983999729156494,
+      "score": 0.9829000234603882,
       "subfield": {
         "id": "https://openalex.org/subfields/2003",
         "display_name": "Finance"
@@ -455730,7 +455921,7 @@
       {
         "id": "https://openalex.org/T10127",
         "display_name": "Banking stability, regulation, efficiency",
-        "score": 0.9983999729156494,
+        "score": 0.9829000234603882,
         "subfield": {
           "id": "https://openalex.org/subfields/2003",
           "display_name": "Finance"
@@ -455745,29 +455936,29 @@
         }
       },
       {
-        "id": "https://openalex.org/T10503",
-        "display_name": "Global Financial Crisis and Policies",
-        "score": 0.9872000217437744,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2003",
-          "display_name": "Finance"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/20",
-          "display_name": "Economics, Econometrics and Finance"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T11742",
-        "display_name": "Economic Theory and Policy",
-        "score": 0.9865999817848206,
+        "id": "https://openalex.org/T10007",
+        "display_name": "Monetary Policy and Economic Impact",
+        "score": 0.008999999612569809,
         "subfield": {
           "id": "https://openalex.org/subfields/2000",
           "display_name": "General Economics, Econometrics and Finance"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10605",
+        "display_name": "Historical Economic and Social Studies",
+        "score": 0.004699999932199717,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
         },
         "field": {
           "id": "https://openalex.org/fields/20",
@@ -455781,44 +455972,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/depression",
-        "display_name": "Depression (economics)",
-        "score": 0.5416377782821655
-      },
-      {
         "id": "https://openalex.org/keywords/great-depression",
         "display_name": "Great Depression",
-        "score": 0.5368239283561707
+        "score": 0.8190000057220459
       },
       {
-        "id": "https://openalex.org/keywords/financial-system",
-        "display_name": "Financial system",
-        "score": 0.4908950924873352
+        "id": "https://openalex.org/keywords/bank-lending",
+        "display_name": "bank lending",
+        "score": 0.8679999709129333
       },
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.46000009775161743
+        "id": "https://openalex.org/keywords/banking-panics",
+        "display_name": "banking panics",
+        "score": 0.8849999904632568
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.32817840576171875
+        "id": "https://openalex.org/keywords/bank-failures",
+        "display_name": "bank failures",
+        "score": 0.7179999947547913
       },
       {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.15222609043121338
+        "id": "https://openalex.org/keywords/commercial-bank-lending",
+        "display_name": "commercial bank lending",
+        "score": 0.6549999713897705
       },
       {
-        "id": "https://openalex.org/keywords/macroeconomics",
-        "display_name": "Macroeconomics",
-        "score": 0.08867350220680237
+        "id": "https://openalex.org/keywords/deposit-withdrawals",
+        "display_name": "deposit withdrawals",
+        "score": 0.6330000162124634
       },
       {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.07448840141296387
+        "id": "https://openalex.org/keywords/bank-distress",
+        "display_name": "bank distress",
+        "score": 0.6669999957084656
+      },
+      {
+        "id": "https://openalex.org/keywords/banking-history",
+        "display_name": "banking history",
+        "score": 0.39100000262260437
       }
     ],
     "concepts": [
@@ -455884,6 +456075,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s0022050725000166",
+        "doi": "https://doi.org/10.1017/s0022050725000166",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0022050725000166",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F9DA0315FD5555D25E8C774352BF0596/S0022050725000166a.pdf/div-class-title-bank-lending-and-deposit-crunches-during-the-great-depression-div.pdf",
@@ -455898,6 +456090,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -455921,6 +456126,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0022050725000166",
+      "doi": "https://doi.org/10.1017/s0022050725000166",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0022050725000166",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/F9DA0315FD5555D25E8C774352BF0596/S0022050725000166a.pdf/div-class-title-bank-lending-and-deposit-crunches-during-the-great-depression-div.pdf",
@@ -455935,6 +456141,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -455956,19 +456175,22 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": true
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4409456675.pdf",
       "grobid_xml": "https://content.openalex.org/works/W4409456675.grobid-xml"
     },
-    "referenced_works_count": 38,
+    "referenced_works_count": 36,
     "referenced_works": [
       "https://openalex.org/W118672119",
+      "https://openalex.org/W1599733345",
       "https://openalex.org/W1916708137",
       "https://openalex.org/W1951625793",
       "https://openalex.org/W1968450183",
@@ -455982,13 +456204,13 @@
       "https://openalex.org/W2057009456",
       "https://openalex.org/W2073575615",
       "https://openalex.org/W2134784685",
+      "https://openalex.org/W2144356890",
       "https://openalex.org/W2157509893",
       "https://openalex.org/W2164915156",
       "https://openalex.org/W2168967186",
       "https://openalex.org/W2174189139",
       "https://openalex.org/W2240018184",
       "https://openalex.org/W2323266160",
-      "https://openalex.org/W2475628782",
       "https://openalex.org/W2796635882",
       "https://openalex.org/W2800301215",
       "https://openalex.org/W2885522325",
@@ -455997,15 +456219,12 @@
       "https://openalex.org/W3123449319",
       "https://openalex.org/W3124382117",
       "https://openalex.org/W3125000257",
-      "https://openalex.org/W3125717059",
       "https://openalex.org/W4407915144",
       "https://openalex.org/W4409456675",
       "https://openalex.org/W6635906665",
       "https://openalex.org/W6640105375",
-      "https://openalex.org/W6642454316",
-      "https://openalex.org/W6681400812",
       "https://openalex.org/W6775237970",
-      "https://openalex.org/W6928865978"
+      "https://openalex.org/W6948023190"
     ],
     "related_works": [
       "https://openalex.org/W4391375266",
@@ -456218,14 +456437,18 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 2
+        "cited_by_count": 4
       },
       {
         "year": 2025,
-        "cited_by_count": 3
+        "cited_by_count": 2
+      },
+      {
+        "year": 2020,
+        "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-05-08T15:41:06.802602",
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -506517,7 +506740,7 @@
     "doi": "https://doi.org/10.1017/s002205072510082x",
     "title": "Creating American Farmland: Governance Institutions and Investment in Agricultural Drainage",
     "display_name": "Creating American Farmland: Governance Institutions and Investment in Agricultural Drainage",
-    "relevance_score": 1.8954448,
+    "relevance_score": 0.9642741,
     "publication_year": 2025,
     "publication_date": "2025-07-10",
     "ids": {
@@ -506527,6 +506750,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s002205072510082x",
+      "doi": "https://doi.org/10.1017/s002205072510082x",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s002205072510082x",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E80F50F27F2A29B86FF35EE782E826C0/S002205072510082Xa.pdf/div-class-title-creating-american-farmland-governance-institutions-and-investment-in-agricultural-drainage-div.pdf",
@@ -506541,6 +506765,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -506561,6 +506798,7 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -506577,7 +506815,10 @@
         "author": {
           "id": "https://openalex.org/A5050696433",
           "display_name": "Eric C. Edwards",
-          "orcid": "https://orcid.org/0000-0002-0433-0635"
+          "orcid": "https://orcid.org/0000-0002-0433-0635",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0433-0635"
+          ]
         },
         "institutions": [
           {
@@ -506614,7 +506855,10 @@
         "author": {
           "id": "https://openalex.org/A5066861306",
           "display_name": "Walter N. Thurman",
-          "orcid": "https://orcid.org/0000-0002-6106-7685"
+          "orcid": "https://orcid.org/0000-0002-6106-7685",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6106-7685"
+          ]
         },
         "institutions": [
           {
@@ -506656,19 +506900,27 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I2803209242"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 1.04,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 2.8986,
     "has_fulltext": true,
-    "cited_by_count": 1,
+    "cited_by_count": 3,
     "citation_normalized_percentile": {
-      "value": 0.78892911,
+      "value": 0.90050116,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 95
+      "min": 90,
+      "max": 97
     },
     "biblio": {
       "volume": "85",
@@ -506680,145 +506932,125 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11789",
-      "display_name": "Land Rights and Reforms",
-      "score": 0.9912999868392944,
+      "id": "https://openalex.org/T12837",
+      "display_name": "American Environmental and Regional History",
+      "score": 0.5404999852180481,
       "subfield": {
-        "id": "https://openalex.org/subfields/1111",
-        "display_name": "Soil Science"
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
       },
       "field": {
-        "id": "https://openalex.org/fields/11",
-        "display_name": "Agricultural and Biological Sciences"
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
       },
       "domain": {
-        "id": "https://openalex.org/domains/1",
-        "display_name": "Life Sciences"
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
       }
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11789",
-        "display_name": "Land Rights and Reforms",
-        "score": 0.9912999868392944,
+        "id": "https://openalex.org/T12837",
+        "display_name": "American Environmental and Regional History",
+        "score": 0.5404999852180481,
         "subfield": {
-          "id": "https://openalex.org/subfields/1111",
-          "display_name": "Soil Science"
+          "id": "https://openalex.org/subfields/2308",
+          "display_name": "Management, Monitoring, Policy and Law"
         },
         "field": {
-          "id": "https://openalex.org/fields/11",
-          "display_name": "Agricultural and Biological Sciences"
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
         },
         "domain": {
-          "id": "https://openalex.org/domains/1",
-          "display_name": "Life Sciences"
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
         }
       },
       {
-        "id": "https://openalex.org/T12033",
-        "display_name": "Agricultural Economics and Policy",
-        "score": 0.9778000116348267,
+        "id": "https://openalex.org/T10605",
+        "display_name": "Historical Economic and Social Studies",
+        "score": 0.25949999690055847,
         "subfield": {
-          "id": "https://openalex.org/subfields/1100",
-          "display_name": "General Agricultural and Biological Sciences"
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
         },
         "field": {
-          "id": "https://openalex.org/fields/11",
-          "display_name": "Agricultural and Biological Sciences"
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
         },
         "domain": {
-          "id": "https://openalex.org/domains/1",
-          "display_name": "Life Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       },
       {
-        "id": "https://openalex.org/T11862",
-        "display_name": "Agriculture, Land Use, Rural Development",
-        "score": 0.9713000059127808,
+        "id": "https://openalex.org/T11805",
+        "display_name": "Agricultural economics and policies",
+        "score": 0.06920000165700912,
         "subfield": {
-          "id": "https://openalex.org/subfields/1100",
-          "display_name": "General Agricultural and Biological Sciences"
+          "id": "https://openalex.org/subfields/3311",
+          "display_name": "Safety Research"
         },
         "field": {
-          "id": "https://openalex.org/fields/11",
-          "display_name": "Agricultural and Biological Sciences"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
-          "id": "https://openalex.org/domains/1",
-          "display_name": "Life Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/corporate-governance",
-        "display_name": "Corporate governance",
-        "score": 0.7080653309822083
+        "id": "https://openalex.org/keywords/agricultural-drainage",
+        "display_name": "agricultural drainage",
+        "score": 0.9309999942779541
       },
       {
-        "id": "https://openalex.org/keywords/investment",
-        "display_name": "Investment (military)",
-        "score": 0.6471954584121704
+        "id": "https://openalex.org/keywords/wetland-conversion",
+        "display_name": "wetland conversion",
+        "score": 0.5640000104904175
       },
       {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.6195839047431946
+        "id": "https://openalex.org/keywords/land-value",
+        "display_name": "land value",
+        "score": 0.7289999723434448
       },
       {
-        "id": "https://openalex.org/keywords/agriculture",
-        "display_name": "Agriculture",
-        "score": 0.600669264793396
+        "id": "https://openalex.org/keywords/corn-belt",
+        "display_name": "Corn Belt",
+        "score": 0.5630000233650208
       },
       {
-        "id": "https://openalex.org/keywords/drainage",
-        "display_name": "Drainage",
-        "score": 0.5063763856887817
+        "id": "https://openalex.org/keywords/institutional-innovation",
+        "display_name": "institutional innovation",
+        "score": 0.640999972820282
       },
       {
-        "id": "https://openalex.org/keywords/agricultural-land",
-        "display_name": "Agricultural land",
-        "score": 0.4771953523159027
+        "id": "https://openalex.org/keywords/agricultural-investment",
+        "display_name": "agricultural investment",
+        "score": 0.5820000171661377
       },
       {
-        "id": "https://openalex.org/keywords/agricultural-economics",
-        "display_name": "Agricultural economics",
-        "score": 0.39323917031288147
+        "id": "https://openalex.org/keywords/farmland-development",
+        "display_name": "farmland development",
+        "score": 0.6100000143051147
       },
       {
-        "id": "https://openalex.org/keywords/natural-resource-economics",
-        "display_name": "Natural resource economics",
-        "score": 0.32346421480178833
+        "id": "https://openalex.org/keywords/wetlands",
+        "display_name": "wetlands",
+        "score": 0.4429999887943268
       },
       {
-        "id": "https://openalex.org/keywords/finance",
-        "display_name": "Finance",
-        "score": 0.31263452768325806
+        "id": "https://openalex.org/keywords/agricultural-productivity",
+        "display_name": "agricultural productivity",
+        "score": 0.6269999742507935
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.2727278470993042
-      },
-      {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.1958438754081726
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.13785400986671448
-      },
-      {
-        "id": "https://openalex.org/keywords/ecology",
-        "display_name": "Ecology",
-        "score": 0.06192195415496826
-      },
-      {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.0526500940322876
+        "id": "https://openalex.org/keywords/land-reclamation",
+        "display_name": "land reclamation",
+        "score": 0.43799999356269836
       }
     ],
     "concepts": [
@@ -506947,6 +507179,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s002205072510082x",
+        "doi": "https://doi.org/10.1017/s002205072510082x",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s002205072510082x",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E80F50F27F2A29B86FF35EE782E826C0/S002205072510082Xa.pdf/div-class-title-creating-american-farmland-governance-institutions-and-investment-in-agricultural-drainage-div.pdf",
@@ -506961,6 +507194,19 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -506984,6 +507230,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s002205072510082x",
+      "doi": "https://doi.org/10.1017/s002205072510082x",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s002205072510082x",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/E80F50F27F2A29B86FF35EE782E826C0/S002205072510082Xa.pdf/div-class-title-creating-american-farmland-governance-institutions-and-investment-in-agricultural-drainage-div.pdf",
@@ -506998,6 +507245,19 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -507018,22 +507278,31 @@
       "raw_source_name": "The Journal of Economic History",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Zero hunger",
+        "score": 0.40450000762939453,
+        "id": "https://metadata.un.org/sdg/2"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": true
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
       "pdf": "https://content.openalex.org/works/W4412166089.pdf",
       "grobid_xml": "https://content.openalex.org/works/W4412166089.grobid-xml"
     },
-    "referenced_works_count": 39,
+    "referenced_works_count": 38,
     "referenced_works": [
       "https://openalex.org/W84238798",
       "https://openalex.org/W588074734",
       "https://openalex.org/W644654844",
+      "https://openalex.org/W653508426",
       "https://openalex.org/W1189952762",
       "https://openalex.org/W1500856259",
       "https://openalex.org/W1578208692",
@@ -507054,12 +507323,11 @@
       "https://openalex.org/W2317134566",
       "https://openalex.org/W2330362707",
       "https://openalex.org/W2337748763",
-      "https://openalex.org/W2480066782",
       "https://openalex.org/W2754674055",
       "https://openalex.org/W2791859701",
       "https://openalex.org/W2979586175",
       "https://openalex.org/W3036692229",
-      "https://openalex.org/W3121948532",
+      "https://openalex.org/W3113269512",
       "https://openalex.org/W3203070655",
       "https://openalex.org/W4220880658",
       "https://openalex.org/W4233654598",
@@ -507068,20 +507336,19 @@
       "https://openalex.org/W4391672818",
       "https://openalex.org/W4392767482",
       "https://openalex.org/W4412166089",
-      "https://openalex.org/W6627746577",
-      "https://openalex.org/W6634787233"
+      "https://openalex.org/W6627746577"
     ],
     "related_works": [
-      "https://openalex.org/W2096301345",
-      "https://openalex.org/W1995863915",
-      "https://openalex.org/W2790581298",
-      "https://openalex.org/W3177530372",
-      "https://openalex.org/W2139315275",
-      "https://openalex.org/W2563532211",
-      "https://openalex.org/W3122489185",
-      "https://openalex.org/W3121957552",
-      "https://openalex.org/W2528627664",
-      "https://openalex.org/W1549397341"
+      "https://openalex.org/W4246206193",
+      "https://openalex.org/W6981768592",
+      "https://openalex.org/W7135354686",
+      "https://openalex.org/W2624102055",
+      "https://openalex.org/W2884450751",
+      "https://openalex.org/W6889018205",
+      "https://openalex.org/W2286273029",
+      "https://openalex.org/W7009867312",
+      "https://openalex.org/W2208863126",
+      "https://openalex.org/W3009361326"
     ],
     "abstract_inverted_index": {
       "The": [
@@ -507346,11 +507613,15 @@
     },
     "counts_by_year": [
       {
+        "year": 2026,
+        "cited_by_count": 2
+      },
+      {
         "year": 2025,
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-28T10:33:24.094632",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -559978,5 +560249,3139 @@
     "counts_by_year": [],
     "updated_date": "2025-10-10T17:16:08.811792",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7223960000",
+    "doi": "https://doi.org/10.1017/s0022050726101570",
+    "title": "The Impact of Early Investments in Urban School Systems in the United States",
+    "display_name": "The Impact of Early Investments in Urban School Systems in the United States",
+    "relevance_score": 12.307332,
+    "publication_year": 2026,
+    "publication_date": "2026-10-27",
+    "ids": {
+      "openalex": "https://openalex.org/W7223960000",
+      "doi": "https://doi.org/10.1017/s0022050726101570"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s0022050726101570",
+      "doi": "https://doi.org/10.1017/s0022050726101570",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1017/s0022050726101570",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S122073985",
+        "display_name": "The Journal of Economic History",
+        "issn_l": "0022-0507",
+        "issn": [
+          "0022-0507",
+          "1471-6372"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Journal of Economic History",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5019077033",
+          "display_name": "Ethan Schmick",
+          "orcid": "https://orcid.org/0000-0003-2925-8446",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2925-8446"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I102461120",
+            "display_name": "Marquette University",
+            "ror": "https://ror.org/04gr4te78",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I102461120"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Ethan Schmick",
+        "raw_affiliation_strings": [
+          "Marquette University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Marquette University",
+            "institution_ids": [
+              "https://openalex.org/I102461120"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5084213811",
+          "display_name": "Allison Shertzer",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I57502794",
+            "display_name": "Federal Reserve Bank of Philadelphia",
+            "ror": "https://ror.org/02gsb6172",
+            "country_code": "US",
+            "type": "other",
+            "lineage": [
+              "https://openalex.org/I1317239608",
+              "https://openalex.org/I57502794"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Allison Shertzer",
+        "raw_affiliation_strings": [
+          "Philadelphia Federal Reserve"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Philadelphia Federal Reserve",
+            "institution_ids": [
+              "https://openalex.org/I57502794"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5084213811"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I57502794"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": null,
+    "fwci": 0.0,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.96699117,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": null,
+      "issue": null,
+      "first_page": "1",
+      "last_page": "38"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10674",
+      "display_name": "School Choice and Performance",
+      "score": 0.4255000054836273,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3304",
+        "display_name": "Education"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10674",
+        "display_name": "School Choice and Performance",
+        "score": 0.4255000054836273,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3304",
+          "display_name": "Education"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10605",
+        "display_name": "Historical Economic and Social Studies",
+        "score": 0.301800012588501,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13387",
+        "display_name": "Politics, Economics, and Education Policy",
+        "score": 0.09489999711513519,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2779297142",
+        "wikidata": "https://www.wikidata.org/wiki/Q3276412",
+        "display_name": "Educational attainment",
+        "level": 2,
+        "score": 0.6460000276565552
+      },
+      {
+        "id": "https://openalex.org/C50522688",
+        "wikidata": "https://www.wikidata.org/wiki/Q189833",
+        "display_name": "Economic growth",
+        "level": 1,
+        "score": 0.5411999821662903
+      },
+      {
+        "id": "https://openalex.org/C2983413640",
+        "wikidata": "https://www.wikidata.org/wiki/Q1080794",
+        "display_name": "Public education",
+        "level": 2,
+        "score": 0.5095999836921692
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.49900001287460327
+      },
+      {
+        "id": "https://openalex.org/C137355542",
+        "wikidata": "https://www.wikidata.org/wiki/Q362",
+        "display_name": "World War II",
+        "level": 2,
+        "score": 0.4661000072956085
+      },
+      {
+        "id": "https://openalex.org/C4249254",
+        "wikidata": "https://www.wikidata.org/wiki/Q3044431",
+        "display_name": "Demographic economics",
+        "level": 1,
+        "score": 0.41999998688697815
+      },
+      {
+        "id": "https://openalex.org/C81631423",
+        "wikidata": "https://www.wikidata.org/wiki/Q10859",
+        "display_name": "Spanish Civil War",
+        "level": 2,
+        "score": 0.391400009393692
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.38499999046325684
+      },
+      {
+        "id": "https://openalex.org/C2991833021",
+        "wikidata": "https://www.wikidata.org/wiki/Q361",
+        "display_name": "First world war",
+        "level": 2,
+        "score": 0.3587999939918518
+      },
+      {
+        "id": "https://openalex.org/C2992832460",
+        "wikidata": "https://www.wikidata.org/wiki/Q861654",
+        "display_name": "American education",
+        "level": 2,
+        "score": 0.3321000039577484
+      },
+      {
+        "id": "https://openalex.org/C2992462468",
+        "wikidata": "https://www.wikidata.org/wiki/Q398141",
+        "display_name": "School district",
+        "level": 2,
+        "score": 0.3310999870300293
+      },
+      {
+        "id": "https://openalex.org/C109986646",
+        "wikidata": "https://www.wikidata.org/wiki/Q546113",
+        "display_name": "Public policy",
+        "level": 2,
+        "score": 0.32760000228881836
+      },
+      {
+        "id": "https://openalex.org/C198477413",
+        "wikidata": "https://www.wikidata.org/wiki/Q7647069",
+        "display_name": "Survey data collection",
+        "level": 2,
+        "score": 0.32600000500679016
+      },
+      {
+        "id": "https://openalex.org/C67141207",
+        "wikidata": "https://www.wikidata.org/wiki/Q452348",
+        "display_name": "Education policy",
+        "level": 3,
+        "score": 0.32339999079704285
+      },
+      {
+        "id": "https://openalex.org/C134698397",
+        "wikidata": "https://www.wikidata.org/wiki/Q17946",
+        "display_name": "Public opinion",
+        "level": 3,
+        "score": 0.3073999881744385
+      },
+      {
+        "id": "https://openalex.org/C47768531",
+        "wikidata": "https://www.wikidata.org/wiki/Q1127188",
+        "display_name": "Development economics",
+        "level": 1,
+        "score": 0.305400013923645
+      },
+      {
+        "id": "https://openalex.org/C527016502",
+        "wikidata": "https://www.wikidata.org/wiki/Q861689",
+        "display_name": "Education economics",
+        "level": 4,
+        "score": 0.2976999878883362
+      },
+      {
+        "id": "https://openalex.org/C2992029382",
+        "wikidata": "https://www.wikidata.org/wiki/Q1080794",
+        "display_name": "School system",
+        "level": 2,
+        "score": 0.2912999987602234
+      },
+      {
+        "id": "https://openalex.org/C2993622102",
+        "wikidata": "https://www.wikidata.org/wiki/Q1161355",
+        "display_name": "Public support",
+        "level": 2,
+        "score": 0.2750999927520752
+      },
+      {
+        "id": "https://openalex.org/C160050368",
+        "wikidata": "https://www.wikidata.org/wiki/Q132453",
+        "display_name": "Developed country",
+        "level": 3,
+        "score": 0.2639000117778778
+      },
+      {
+        "id": "https://openalex.org/C2777394604",
+        "wikidata": "https://www.wikidata.org/wiki/Q173318",
+        "display_name": "Pupil",
+        "level": 2,
+        "score": 0.257999986410141
+      },
+      {
+        "id": "https://openalex.org/C2778136243",
+        "wikidata": "https://www.wikidata.org/wiki/Q2248822",
+        "display_name": "School choice",
+        "level": 2,
+        "score": 0.2540000081062317
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1017/s0022050726101570",
+        "doi": "https://doi.org/10.1017/s0022050726101570",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1017/s0022050726101570",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S122073985",
+          "display_name": "The Journal of Economic History",
+          "issn_l": "0022-0507",
+          "issn": [
+            "0022-0507",
+            "1471-6372"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Journal of Economic History",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Cities": [
+        0
+      ],
+      "in": [
+        1,
+        38,
+        49,
+        68,
+        76,
+        87,
+        100,
+        124,
+        169,
+        182
+      ],
+      "the": [
+        2,
+        14,
+        31,
+        84,
+        102,
+        119,
+        125,
+        132,
+        161,
+        165,
+        171,
+        175,
+        184
+      ],
+      "United": [
+        3,
+        103,
+        120
+      ],
+      "States": [
+        4,
+        104,
+        121,
+        185
+      ],
+      "dramatically": [
+        5
+      ],
+      "expanded": [
+        6
+      ],
+      "spending": [
+        7,
+        51
+      ],
+      "on": [
+        8
+      ],
+      "public": [
+        9,
+        39,
+        173
+      ],
+      "education": [
+        10,
+        40,
+        135
+      ],
+      "after": [
+        11
+      ],
+      "WWI,": [
+        12
+      ],
+      "with": [
+        13
+      ],
+      "average": [
+        15
+      ],
+      "urban": [
+        16
+      ],
+      "school": [
+        17,
+        50,
+        59
+      ],
+      "district": [
+        18
+      ],
+      "increasing": [
+        19
+      ],
+      "per": [
+        20
+      ],
+      "pupil": [
+        21
+      ],
+      "expenditures": [
+        22,
+        77
+      ],
+      "by": [
+        23,
+        27,
+        53,
+        112
+      ],
+      "over": [
+        24
+      ],
+      "70": [
+        25
+      ],
+      "percent": [
+        26,
+        82
+      ],
+      "1924.": [
+        28
+      ],
+      "We": [
+        29,
+        56
+      ],
+      "provide": [
+        30
+      ],
+      "first": [
+        32
+      ],
+      "evaluation": [
+        33
+      ],
+      "of": [
+        34,
+        83,
+        90,
+        115,
+        141,
+        157,
+        177,
+        198
+      ],
+      "these": [
+        35
+      ],
+      "unprecedented": [
+        36
+      ],
+      "investments": [
+        37
+      ],
+      "using": [
+        41
+      ],
+      "a": [
+        42,
+        107
+      ],
+      "new": [
+        43
+      ],
+      "dataset": [
+        44
+      ],
+      "and": [
+        45,
+        65,
+        95,
+        150,
+        181
+      ],
+      "plausibly": [
+        46
+      ],
+      "exogenous": [
+        47
+      ],
+      "growth": [
+        48
+      ],
+      "generated": [
+        52
+      ],
+      "anti-German": [
+        54
+      ],
+      "sentiment.": [
+        55
+      ],
+      "find": [
+        57
+      ],
+      "that": [
+        58
+      ],
+      "resources": [
+        60
+      ],
+      "significantly": [
+        61
+      ],
+      "increased": [
+        62
+      ],
+      "educational": [
+        63,
+        88,
+        113,
+        179,
+        191
+      ],
+      "attainment": [
+        64,
+        89
+      ],
+      "wages": [
+        66
+      ],
+      "later": [
+        67
+      ],
+      "life,": [
+        69
+      ],
+      "particularly": [
+        70
+      ],
+      "for": [
+        71
+      ],
+      "less": [
+        72,
+        128
+      ],
+      "advantaged": [
+        73
+      ],
+      "children.": [
+        74
+      ],
+      "Increases": [
+        75
+      ],
+      "can": [
+        78
+      ],
+      "explain": [
+        79
+      ],
+      "about": [
+        80
+      ],
+      "40": [
+        81
+      ],
+      "sizable": [
+        85
+      ],
+      "increase": [
+        86
+      ],
+      "cohorts": [
+        91
+      ],
+      "born": [
+        92
+      ],
+      "between": [
+        93
+      ],
+      "1895": [
+        94
+      ],
+      "1913.": [
+        96
+      ],
+      "\u201cEvery": [
+        97
+      ],
+      "great": [
+        98
+      ],
+      "war": [
+        99
+      ],
+      "which": [
+        101
+      ],
+      "has": [
+        105,
+        109
+      ],
+      "played": [
+        106
+      ],
+      "part": [
+        108
+      ],
+      "been": [
+        110
+      ],
+      "followed": [
+        111
+      ],
+      "developments": [
+        114
+      ],
+      "supreme": [
+        116
+      ],
+      "national": [
+        117
+      ],
+      "importance\u2026Although": [
+        118
+      ],
+      "was": [
+        122,
+        164
+      ],
+      "engaged": [
+        123
+      ],
+      "World": [
+        126,
+        162
+      ],
+      "War": [
+        127,
+        163
+      ],
+      "than": [
+        129
+      ],
+      "two": [
+        130
+      ],
+      "years,": [
+        131
+      ],
+      "effects": [
+        133
+      ],
+      "upon": [
+        134
+      ],
+      "resulting": [
+        136
+      ],
+      "from": [
+        137
+      ],
+      "this": [
+        138
+      ],
+      "brief": [
+        139
+      ],
+      "period": [
+        140
+      ],
+      "warfare": [
+        142
+      ],
+      "will": [
+        143
+      ],
+      "perhaps": [
+        144
+      ],
+      "prove": [
+        145
+      ],
+      "to": [
+        146,
+        174,
+        186,
+        189
+      ],
+      "be": [
+        147
+      ],
+      "as": [
+        148,
+        151,
+        153
+      ],
+      "far-reaching": [
+        149
+      ],
+      "important": [
+        152,
+        167
+      ],
+      "those": [
+        154
+      ],
+      "growing": [
+        155
+      ],
+      "out": [
+        156
+      ],
+      "any": [
+        158
+      ],
+      "previous": [
+        159
+      ],
+      "war\u2026Undoubtedly": [
+        160
+      ],
+      "most": [
+        166
+      ],
+      "factor": [
+        168
+      ],
+      "awakening": [
+        170
+      ],
+      "American": [
+        172
+      ],
+      "inadequacy": [
+        176
+      ],
+      "its": [
+        178
+      ],
+      "provisions": [
+        180
+      ],
+      "arousing": [
+        183
+      ],
+      "vigorous": [
+        187
+      ],
+      "efforts": [
+        188
+      ],
+      "improve": [
+        190
+      ],
+      "conditions.\u201d": [
+        192
+      ],
+      "\u2014Fletcher": [
+        193
+      ],
+      "Harper": [
+        194
+      ],
+      "Swift,": [
+        195
+      ],
+      "Biennial": [
+        196
+      ],
+      "Survey": [
+        197
+      ],
+      "Education": [
+        199
+      ],
+      "1920\u20131922,": [
+        200
+      ],
+      "Volume": [
+        201
+      ],
+      "1,": [
+        202
+      ],
+      "(1924,": [
+        203
+      ],
+      "pp.": [
+        204
+      ],
+      "1\u20132).": [
+        205
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-28T10:33:24.094632",
+    "created_date": "2026-10-28T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4386691781",
+    "doi": "https://doi.org/10.1017/s002205072610148x",
+    "title": "Economic Conditions and Incarceration in the United States: Evidence from Missouri, 1850\u20131930",
+    "display_name": "Economic Conditions and Incarceration in the United States: Evidence from Missouri, 1850\u20131930",
+    "relevance_score": 11.269704,
+    "publication_year": 2026,
+    "publication_date": "2026-08-10",
+    "ids": {
+      "openalex": "https://openalex.org/W4386691781",
+      "doi": "https://doi.org/10.1017/s002205072610148x"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s002205072610148x",
+      "doi": "https://doi.org/10.1017/s002205072610148x",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s002205072610148x",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/75137433A3B039DAE74735D8651E7D23/S002205072610148Xa.pdf/div-class-title-economic-conditions-and-incarceration-in-the-united-states-evidence-from-missouri-1850-1930-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S122073985",
+        "display_name": "The Journal of Economic History",
+        "issn_l": "0022-0507",
+        "issn": [
+          "0022-0507",
+          "1471-6372"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Journal of Economic History",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/75137433A3B039DAE74735D8651E7D23/S002205072610148Xa.pdf/div-class-title-economic-conditions-and-incarceration-in-the-united-states-evidence-from-missouri-1850-1930-div.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5100592538",
+          "display_name": "Jing Wu",
+          "orcid": "https://orcid.org/0009-0008-4443-1829",
+          "observed_orcids": [
+            "https://orcid.org/0009-0008-4443-1829",
+            "https://orcid.org/0009-0001-6702-8978"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I20089843",
+            "display_name": "Princeton University",
+            "ror": "https://ror.org/00hx57361",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I20089843"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Jing Wu",
+        "raw_affiliation_strings": [
+          "Princeton University"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0008-4443-1829",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Princeton University",
+            "institution_ids": [
+              "https://openalex.org/I20089843"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5100592538"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I20089843"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.00148744,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "86",
+      "issue": "3",
+      "first_page": "840",
+      "last_page": "880"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10318",
+      "display_name": "Criminal Justice and Corrections Analysis",
+      "score": 0.9589999914169312,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10318",
+        "display_name": "Criminal Justice and Corrections Analysis",
+        "score": 0.9589999914169312,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10605",
+        "display_name": "Historical Economic and Social Studies",
+        "score": 0.02319999970495701,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12736",
+        "display_name": "Criminal Justice and Penology",
+        "score": 0.012299999594688416,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/incarceration",
+        "display_name": "incarceration",
+        "score": 0.9610000252723694
+      },
+      {
+        "id": "https://openalex.org/keywords/economic-shocks",
+        "display_name": "economic shocks",
+        "score": 0.8270000219345093
+      },
+      {
+        "id": "https://openalex.org/keywords/racial-disparities-in-incarceration",
+        "display_name": "racial disparities in incarceration",
+        "score": 0.9269999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/black-incarceration",
+        "display_name": "Black incarceration",
+        "score": 0.6439999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/missouri",
+        "display_name": "Missouri",
+        "score": 0.6869999766349792
+      },
+      {
+        "id": "https://openalex.org/keywords/crime",
+        "display_name": "crime",
+        "score": 0.3970000147819519
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C2777978526",
+        "wikidata": "https://www.wikidata.org/wiki/Q1459937",
+        "display_name": "Mass incarceration",
+        "level": 3,
+        "score": 0.5564560890197754
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.48108217120170593
+      },
+      {
+        "id": "https://openalex.org/C73484699",
+        "wikidata": "https://www.wikidata.org/wiki/Q161733",
+        "display_name": "Criminology",
+        "level": 1,
+        "score": 0.33202946186065674
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.32947832345962524
+      },
+      {
+        "id": "https://openalex.org/C2780656516",
+        "wikidata": "https://www.wikidata.org/wiki/Q40357",
+        "display_name": "Prison",
+        "level": 2,
+        "score": 0.22443506121635437
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.2197059690952301
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.13925614953041077
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1017/s002205072610148x",
+        "doi": "https://doi.org/10.1017/s002205072610148x",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1017/s002205072610148x",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/75137433A3B039DAE74735D8651E7D23/S002205072610148Xa.pdf/div-class-title-economic-conditions-and-incarceration-in-the-united-states-evidence-from-missouri-1850-1930-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S122073985",
+          "display_name": "The Journal of Economic History",
+          "issn_l": "0022-0507",
+          "issn": [
+            "0022-0507",
+            "1471-6372"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Journal of Economic History",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "doi:10.2139/ssrn.4569615",
+        "doi": "https://doi.org/10.2139/ssrn.4569615",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.2139/ssrn.4569615",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210172589",
+          "display_name": "SSRN Electronic Journal",
+          "issn_l": "1556-5068",
+          "issn": [
+            "1556-5068"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1318003438",
+          "host_organization_name": "RELX Group (Netherlands)",
+          "host_organization_lineage": [
+            "https://openalex.org/I1318003438"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1017/s002205072610148x",
+      "doi": "https://doi.org/10.1017/s002205072610148x",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s002205072610148x",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/75137433A3B039DAE74735D8651E7D23/S002205072610148Xa.pdf/div-class-title-economic-conditions-and-incarceration-in-the-united-states-evidence-from-missouri-1850-1930-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S122073985",
+        "display_name": "The Journal of Economic History",
+        "issn_l": "0022-0507",
+        "issn": [
+          "0022-0507",
+          "1471-6372"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Journal of Economic History",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.7578999996185303,
+        "id": "https://metadata.un.org/sdg/10"
+      },
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.666700005531311,
+        "id": "https://metadata.un.org/sdg/16"
+      },
+      {
+        "display_name": "Decent work and economic growth",
+        "score": 0.6452000141143799,
+        "id": "https://metadata.un.org/sdg/8"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Reduced inequalities",
+        "score": 0.699999988079071,
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320309292",
+        "display_name": "Princeton University",
+        "ror": "https://ror.org/00hx57361"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4386691781.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4386691781.grobid-xml"
+    },
+    "referenced_works_count": 68,
+    "referenced_works": [
+      "https://openalex.org/W1480736671",
+      "https://openalex.org/W1485348453",
+      "https://openalex.org/W1517239725",
+      "https://openalex.org/W1527811851",
+      "https://openalex.org/W1594793171",
+      "https://openalex.org/W1780647134",
+      "https://openalex.org/W1811788923",
+      "https://openalex.org/W1992465642",
+      "https://openalex.org/W2013466600",
+      "https://openalex.org/W2020160226",
+      "https://openalex.org/W2022171393",
+      "https://openalex.org/W2036478672",
+      "https://openalex.org/W2043818276",
+      "https://openalex.org/W2070939565",
+      "https://openalex.org/W2099660735",
+      "https://openalex.org/W2101154499",
+      "https://openalex.org/W2112885947",
+      "https://openalex.org/W2132195258",
+      "https://openalex.org/W2136796718",
+      "https://openalex.org/W2154018197",
+      "https://openalex.org/W2166528627",
+      "https://openalex.org/W2189821821",
+      "https://openalex.org/W2258273310",
+      "https://openalex.org/W2319038287",
+      "https://openalex.org/W2320274715",
+      "https://openalex.org/W2322235673",
+      "https://openalex.org/W2529320828",
+      "https://openalex.org/W2561956873",
+      "https://openalex.org/W2570595386",
+      "https://openalex.org/W2577695494",
+      "https://openalex.org/W2594084844",
+      "https://openalex.org/W2605515928",
+      "https://openalex.org/W2618379012",
+      "https://openalex.org/W2742601671",
+      "https://openalex.org/W2749794710",
+      "https://openalex.org/W2750419261",
+      "https://openalex.org/W2804060436",
+      "https://openalex.org/W2885802861",
+      "https://openalex.org/W2891943110",
+      "https://openalex.org/W2896335211",
+      "https://openalex.org/W2902157068",
+      "https://openalex.org/W2918533554",
+      "https://openalex.org/W2944796136",
+      "https://openalex.org/W2947458038",
+      "https://openalex.org/W2948408488",
+      "https://openalex.org/W2993486072",
+      "https://openalex.org/W3022397957",
+      "https://openalex.org/W3121423326",
+      "https://openalex.org/W3122343733",
+      "https://openalex.org/W3122722471",
+      "https://openalex.org/W3123183734",
+      "https://openalex.org/W3124516231",
+      "https://openalex.org/W3135122946",
+      "https://openalex.org/W3159704029",
+      "https://openalex.org/W3205415671",
+      "https://openalex.org/W4225713920",
+      "https://openalex.org/W4230939062",
+      "https://openalex.org/W4238041994",
+      "https://openalex.org/W4243868585",
+      "https://openalex.org/W4245517333",
+      "https://openalex.org/W4249192556",
+      "https://openalex.org/W4281652594",
+      "https://openalex.org/W4286375046",
+      "https://openalex.org/W4300200240",
+      "https://openalex.org/W4301018526",
+      "https://openalex.org/W4302367210",
+      "https://openalex.org/W4384569788",
+      "https://openalex.org/W4386452582"
+    ],
+    "related_works": [
+      "https://openalex.org/W2899084033",
+      "https://openalex.org/W1568285852",
+      "https://openalex.org/W2761144947",
+      "https://openalex.org/W2581668658",
+      "https://openalex.org/W2322463909",
+      "https://openalex.org/W78268511",
+      "https://openalex.org/W3123509027",
+      "https://openalex.org/W2788859530",
+      "https://openalex.org/W3121207348",
+      "https://openalex.org/W2116826906"
+    ],
+    "abstract_inverted_index": {
+      "This": [
+        0
+      ],
+      "paper": [
+        1
+      ],
+      "investigates": [
+        2
+      ],
+      "the": [
+        3,
+        11,
+        27,
+        59
+      ],
+      "relationship": [
+        4,
+        60
+      ],
+      "between": [
+        5
+      ],
+      "economic": [
+        6,
+        41,
+        89
+      ],
+      "conditions": [
+        7,
+        90
+      ],
+      "and": [
+        8,
+        26,
+        51
+      ],
+      "incarceration": [
+        9,
+        69
+      ],
+      "in": [
+        10,
+        20,
+        68
+      ],
+      "postbellum": [
+        12
+      ],
+      "United": [
+        13
+      ],
+      "States.": [
+        14
+      ],
+      "Leveraging": [
+        15
+      ],
+      "unique": [
+        16
+      ],
+      "administrative": [
+        17
+      ],
+      "prison": [
+        18,
+        44,
+        55,
+        75,
+        92
+      ],
+      "records": [
+        19
+      ],
+      "Missouri": [
+        21
+      ],
+      "from": [
+        22
+      ],
+      "1850": [
+        23
+      ],
+      "to": [
+        24,
+        30
+      ],
+      "1931": [
+        25
+      ],
+      "differential": [
+        28
+      ],
+      "exposure": [
+        29
+      ],
+      "national": [
+        31
+      ],
+      "agricultural": [
+        32
+      ],
+      "price": [
+        33
+      ],
+      "changes": [
+        34
+      ],
+      "across": [
+        35,
+        96
+      ],
+      "counties,": [
+        36
+      ],
+      "I": [
+        37,
+        84
+      ],
+      "find": [
+        38,
+        85
+      ],
+      "that": [
+        39,
+        88
+      ],
+      "positive": [
+        40
+      ],
+      "shocks": [
+        42,
+        53
+      ],
+      "reduce": [
+        43
+      ],
+      "admission": [
+        45,
+        56,
+        76,
+        93
+      ],
+      "rates": [
+        46,
+        77,
+        94
+      ],
+      "for": [
+        47,
+        62
+      ],
+      "all": [
+        48
+      ],
+      "crime": [
+        49
+      ],
+      "categories,": [
+        50
+      ],
+      "negative": [
+        52,
+        63
+      ],
+      "increase": [
+        54
+      ],
+      "rates,": [
+        57,
+        83
+      ],
+      "with": [
+        58,
+        73
+      ],
+      "larger": [
+        61
+      ],
+      "shocks.": [
+        64
+      ],
+      "Although": [
+        65
+      ],
+      "racial": [
+        66,
+        97
+      ],
+      "disparities": [
+        67
+      ],
+      "emerged": [
+        70
+      ],
+      "after": [
+        71
+      ],
+      "Reconstruction,": [
+        72
+      ],
+      "Black": [
+        74
+      ],
+      "five": [
+        78
+      ],
+      "times": [
+        79
+      ],
+      "higher": [
+        80
+      ],
+      "than": [
+        81
+      ],
+      "white": [
+        82
+      ],
+      "no": [
+        86
+      ],
+      "evidence": [
+        87
+      ],
+      "affected": [
+        91
+      ],
+      "differently": [
+        95
+      ],
+      "groups.": [
+        98
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-16T09:59:22.235173",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7221306996",
+    "doi": "https://doi.org/10.1017/s0022050726101624",
+    "title": "Capital in Banking: The Role of Capital in Banking in the 19th and 20th Century: The United Kingdom, the United States and Switzerland. By Simon Amrein. Cambridge: Cambridge University Press, 2025. Pp. i\u2013xii, 208. \uff04110, hardcover; open access (digital) available from Cambridge University Press.",
+    "display_name": "Capital in Banking: The Role of Capital in Banking in the 19th and 20th Century: The United Kingdom, the United States and Switzerland. By Simon Amrein. Cambridge: Cambridge University Press, 2025. Pp. i\u2013xii, 208. \uff04110, hardcover; open access (digital) available from Cambridge University Press.",
+    "relevance_score": 5.536604,
+    "publication_year": 2026,
+    "publication_date": "2026-09-01",
+    "ids": {
+      "openalex": "https://openalex.org/W7221306996",
+      "doi": "https://doi.org/10.1017/s0022050726101624"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s0022050726101624",
+      "doi": "https://doi.org/10.1017/s0022050726101624",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1017/s0022050726101624",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S122073985",
+        "display_name": "The Journal of Economic History",
+        "issn_l": "0022-0507",
+        "issn": [
+          "0022-0507",
+          "1471-6372"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Journal of Economic History",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "book-review",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": false,
+      "oa_status": "closed",
+      "oa_url": null,
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5053125005",
+          "display_name": "Alexis Drach",
+          "orcid": "https://orcid.org/0000-0003-2359-5468",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2359-5468"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I48825208",
+            "display_name": "Universit\u00e9 Paris 8",
+            "ror": "https://ror.org/04wez5e68",
+            "country_code": "FR",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I48825208"
+            ]
+          }
+        ],
+        "countries": [
+          "FR"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Alexis Drach",
+        "raw_affiliation_strings": [
+          "University Paris 8 Vincennes \u2013 Saint-Denis"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0003-2359-5468",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "University Paris 8 Vincennes \u2013 Saint-Denis",
+            "institution_ids": [
+              "https://openalex.org/I48825208"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5053125005"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I48825208"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": null,
+    "fwci": null,
+    "has_fulltext": false,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": null,
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "86",
+      "issue": "3",
+      "first_page": "965",
+      "last_page": "966"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10127",
+      "display_name": "Banking stability, regulation, efficiency",
+      "score": 0.8105000257492065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2003",
+        "display_name": "Finance"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10127",
+        "display_name": "Banking stability, regulation, efficiency",
+        "score": 0.8105000257492065,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2003",
+          "display_name": "Finance"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10605",
+        "display_name": "Historical Economic and Social Studies",
+        "score": 0.1680999994277954,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14419",
+        "display_name": "Banking Systems and Strategies",
+        "score": 0.00930000003427267,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1402",
+          "display_name": "Accounting"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/bank-capital",
+        "display_name": "bank capital",
+        "score": 0.8870000243186951
+      },
+      {
+        "id": "https://openalex.org/keywords/banking-history",
+        "display_name": "banking history",
+        "score": 0.8980000019073486
+      },
+      {
+        "id": "https://openalex.org/keywords/19th-century",
+        "display_name": "19th century",
+        "score": 0.8059999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/20th-century",
+        "display_name": "20th century",
+        "score": 0.9909999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/united-kingdom",
+        "display_name": "United Kingdom",
+        "score": 0.734000027179718
+      },
+      {
+        "id": "https://openalex.org/keywords/united-states",
+        "display_name": "United States",
+        "score": 1.0
+      },
+      {
+        "id": "https://openalex.org/keywords/switzerland",
+        "display_name": "Switzerland",
+        "score": 0.9959999918937683
+      },
+      {
+        "id": "https://openalex.org/keywords/capital-regulation",
+        "display_name": "capital regulation",
+        "score": 0.3889999985694885
+      },
+      {
+        "id": "https://openalex.org/keywords/financial-history",
+        "display_name": "financial history",
+        "score": 0.42399999499320984
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C83646750",
+        "wikidata": "https://www.wikidata.org/wiki/Q193893",
+        "display_name": "Capital (architecture)",
+        "level": 2,
+        "score": 0.7771999835968018
+      },
+      {
+        "id": "https://openalex.org/C162324750",
+        "wikidata": "https://www.wikidata.org/wiki/Q8134",
+        "display_name": "Economics",
+        "level": 0,
+        "score": 0.6134999990463257
+      },
+      {
+        "id": "https://openalex.org/C6303427",
+        "wikidata": "https://www.wikidata.org/wiki/Q47398",
+        "display_name": "Economic history",
+        "level": 1,
+        "score": 0.4855000078678131
+      },
+      {
+        "id": "https://openalex.org/C44750222",
+        "wikidata": "https://www.wikidata.org/wiki/Q1897397",
+        "display_name": "Financial capital",
+        "level": 3,
+        "score": 0.37689998745918274
+      },
+      {
+        "id": "https://openalex.org/C167562979",
+        "wikidata": "https://www.wikidata.org/wiki/Q271857",
+        "display_name": "Classical economics",
+        "level": 1,
+        "score": 0.3370000123977661
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.3018999993801117
+      },
+      {
+        "id": "https://openalex.org/C58202505",
+        "wikidata": "https://www.wikidata.org/wiki/Q5035700",
+        "display_name": "Capital formation",
+        "level": 4,
+        "score": 0.27649998664855957
+      },
+      {
+        "id": "https://openalex.org/C136264566",
+        "wikidata": "https://www.wikidata.org/wiki/Q159810",
+        "display_name": "Economy",
+        "level": 1,
+        "score": 0.2533000111579895
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.2522999942302704
+      },
+      {
+        "id": "https://openalex.org/C560292",
+        "wikidata": "https://www.wikidata.org/wiki/Q1113011",
+        "display_name": "Fixed capital",
+        "level": 5,
+        "score": 0.251800000667572
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1017/s0022050726101624",
+        "doi": "https://doi.org/10.1017/s0022050726101624",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1017/s0022050726101624",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S122073985",
+          "display_name": "The Journal of Economic History",
+          "issn_l": "0022-0507",
+          "issn": [
+            "0022-0507",
+            "1471-6372"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Journal of Economic History",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": null,
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "grobid_xml": false,
+      "pdf": false
+    },
+    "content_urls": null,
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "Capital": [
+        0,
+        6
+      ],
+      "in": [
+        1,
+        7,
+        9
+      ],
+      "Banking:": [
+        2
+      ],
+      "The": [
+        3,
+        15
+      ],
+      "Role": [
+        4
+      ],
+      "of": [
+        5
+      ],
+      "Banking": [
+        8
+      ],
+      "the": [
+        10,
+        18
+      ],
+      "19th": [
+        11
+      ],
+      "and": [
+        12,
+        21
+      ],
+      "20th": [
+        13
+      ],
+      "Century:": [
+        14
+      ],
+      "United": [
+        16,
+        19
+      ],
+      "Kingdom,": [
+        17
+      ],
+      "States": [
+        20
+      ],
+      "Switzerland.": [
+        22
+      ],
+      "By": [
+        23
+      ],
+      "Simon": [
+        24
+      ],
+      "Amrein.": [
+        25
+      ],
+      "Cambridge:": [
+        26
+      ],
+      "Cambridge": [
+        27,
+        41
+      ],
+      "University": [
+        28,
+        42
+      ],
+      "Press,": [
+        29
+      ],
+      "2025.": [
+        30
+      ],
+      "Pp.": [
+        31
+      ],
+      "i\u2013xii,": [
+        32
+      ],
+      "208.": [
+        33
+      ],
+      "\uff04110,": [
+        34
+      ],
+      "hardcover;": [
+        35
+      ],
+      "open": [
+        36
+      ],
+      "access": [
+        37
+      ],
+      "(digital)": [
+        38
+      ],
+      "available": [
+        39
+      ],
+      "from": [
+        40
+      ],
+      "Press.": [
+        43
+      ],
+      "-": [
+        44
+      ],
+      "Volume": [
+        45
+      ],
+      "86": [
+        46
+      ],
+      "Issue": [
+        47
+      ],
+      "3": [
+        48
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-24T09:50:30.924529",
+    "created_date": "2026-10-11T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W7197028530",
+    "doi": "https://doi.org/10.1017/s0022050726101508",
+    "title": "The Progressive Era War on Vice: Public Health Consequences of Closing Red-Light Districts",
+    "display_name": "The Progressive Era War on Vice: Public Health Consequences of Closing Red-Light Districts",
+    "relevance_score": 0.9513232,
+    "publication_year": 2026,
+    "publication_date": "2026-08-06",
+    "ids": {
+      "openalex": "https://openalex.org/W7197028530",
+      "doi": "https://doi.org/10.1017/s0022050726101508"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s0022050726101508",
+      "doi": "https://doi.org/10.1017/s0022050726101508",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0022050726101508",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5A0E03CD12309E95CBE52F57C9243393/S0022050726101508a.pdf/div-class-title-the-progressive-era-war-on-vice-public-health-consequences-of-closing-red-light-districts-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S122073985",
+        "display_name": "The Journal of Economic History",
+        "issn_l": "0022-0507",
+        "issn": [
+          "0022-0507",
+          "1471-6372"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Journal of Economic History",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5A0E03CD12309E95CBE52F57C9243393/S0022050726101508a.pdf/div-class-title-the-progressive-era-war-on-vice-public-health-consequences-of-closing-red-light-districts-div.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5098877917",
+          "display_name": "Grant Goehring",
+          "orcid": null,
+          "observed_orcids": []
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I111088046",
+            "display_name": "Boston University",
+            "ror": "https://ror.org/05qwgg493",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I111088046"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Grant Goehring",
+        "raw_affiliation_strings": [
+          "Boston University"
+        ],
+        "raw_orcid": null,
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Boston University",
+            "institution_ids": [
+              "https://openalex.org/I111088046"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5098877917"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I111088046"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 0.0,
+    "has_fulltext": true,
+    "cited_by_count": 0,
+    "citation_normalized_percentile": {
+      "value": 0.6295852,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": false
+    },
+    "cited_by_percentile_year": null,
+    "biblio": {
+      "volume": "86",
+      "issue": "3",
+      "first_page": "925",
+      "last_page": "961"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T11350",
+      "display_name": "Sex work and related issues",
+      "score": 0.7523999810218811,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T11350",
+        "display_name": "Sex work and related issues",
+        "score": 0.7523999810218811,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13332",
+        "display_name": "Historical Studies on Reproduction, Gender, Health, and Societal Changes",
+        "score": 0.07909999787807465,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1202",
+          "display_name": "History"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10605",
+        "display_name": "Historical Economic and Social Studies",
+        "score": 0.06949999928474426,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/red-light-district",
+        "display_name": "red-light districts",
+        "score": 0.9509999752044678
+      },
+      {
+        "id": "https://openalex.org/keywords/prostitution",
+        "display_name": "prostitution",
+        "score": 0.7149999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/progressive-era-reform",
+        "display_name": "Progressive Era reform",
+        "score": 0.8619999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/public-health",
+        "display_name": "public health",
+        "score": 0.7799999713897705
+      },
+      {
+        "id": "https://openalex.org/keywords/infant-mortality",
+        "display_name": "infant mortality",
+        "score": 0.8500000238418579
+      },
+      {
+        "id": "https://openalex.org/keywords/congenital-syphilis",
+        "display_name": "congenital syphilis",
+        "score": 0.9520000219345093
+      },
+      {
+        "id": "https://openalex.org/keywords/preterm-birth",
+        "display_name": "preterm birth",
+        "score": 0.6119999885559082
+      },
+      {
+        "id": "https://openalex.org/keywords/congenital-malformations",
+        "display_name": "congenital malformations",
+        "score": 0.9440000057220459
+      },
+      {
+        "id": "https://openalex.org/keywords/homicide",
+        "display_name": "homicide",
+        "score": 0.9490000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/neighborhood-composition",
+        "display_name": "neighborhood composition",
+        "score": 0.9110000133514404
+      },
+      {
+        "id": "https://openalex.org/keywords/urban-reform",
+        "display_name": "urban reform",
+        "score": 0.3089999854564667
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C3018058062",
+        "wikidata": "https://www.wikidata.org/wiki/Q2635158",
+        "display_name": "Progressive era",
+        "level": 3,
+        "score": 0.8371000289916992
+      },
+      {
+        "id": "https://openalex.org/C2778775528",
+        "wikidata": "https://www.wikidata.org/wiki/Q5135432",
+        "display_name": "Closing (real estate)",
+        "level": 2,
+        "score": 0.8309000134468079
+      },
+      {
+        "id": "https://openalex.org/C138816342",
+        "wikidata": "https://www.wikidata.org/wiki/Q189603",
+        "display_name": "Public health",
+        "level": 2,
+        "score": 0.6391000151634216
+      },
+      {
+        "id": "https://openalex.org/C525541732",
+        "wikidata": "https://www.wikidata.org/wiki/Q149086",
+        "display_name": "Homicide",
+        "level": 4,
+        "score": 0.5557000041007996
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.5370000004768372
+      },
+      {
+        "id": "https://openalex.org/C50522688",
+        "wikidata": "https://www.wikidata.org/wiki/Q189833",
+        "display_name": "Economic growth",
+        "level": 1,
+        "score": 0.511900007724762
+      },
+      {
+        "id": "https://openalex.org/C146834321",
+        "wikidata": "https://www.wikidata.org/wiki/Q2979672",
+        "display_name": "Closure (psychology)",
+        "level": 2,
+        "score": 0.41359999775886536
+      },
+      {
+        "id": "https://openalex.org/C112299071",
+        "wikidata": "https://www.wikidata.org/wiki/Q835884",
+        "display_name": "Infant mortality",
+        "level": 3,
+        "score": 0.4043000042438507
+      },
+      {
+        "id": "https://openalex.org/C81631423",
+        "wikidata": "https://www.wikidata.org/wiki/Q10859",
+        "display_name": "Spanish Civil War",
+        "level": 2,
+        "score": 0.3790999948978424
+      },
+      {
+        "id": "https://openalex.org/C47768531",
+        "wikidata": "https://www.wikidata.org/wiki/Q1127188",
+        "display_name": "Development economics",
+        "level": 1,
+        "score": 0.35839998722076416
+      },
+      {
+        "id": "https://openalex.org/C2991833021",
+        "wikidata": "https://www.wikidata.org/wiki/Q361",
+        "display_name": "First world war",
+        "level": 2,
+        "score": 0.3346000015735626
+      },
+      {
+        "id": "https://openalex.org/C137355542",
+        "wikidata": "https://www.wikidata.org/wiki/Q362",
+        "display_name": "World War II",
+        "level": 2,
+        "score": 0.3125999867916107
+      },
+      {
+        "id": "https://openalex.org/C99454951",
+        "wikidata": "https://www.wikidata.org/wiki/Q932068",
+        "display_name": "Environmental health",
+        "level": 1,
+        "score": 0.2791000008583069
+      },
+      {
+        "id": "https://openalex.org/C526869908",
+        "wikidata": "https://www.wikidata.org/wiki/Q3298118",
+        "display_name": "Suicide prevention",
+        "level": 3,
+        "score": 0.25060001015663147
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1017/s0022050726101508",
+        "doi": "https://doi.org/10.1017/s0022050726101508",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1017/s0022050726101508",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5A0E03CD12309E95CBE52F57C9243393/S0022050726101508a.pdf/div-class-title-the-progressive-era-war-on-vice-public-health-consequences-of-closing-red-light-districts-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S122073985",
+          "display_name": "The Journal of Economic History",
+          "issn_l": "0022-0507",
+          "issn": [
+            "0022-0507",
+            "1471-6372"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-2",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Journal of Economic History",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1017/s0022050726101508",
+      "doi": "https://doi.org/10.1017/s0022050726101508",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0022050726101508",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/5A0E03CD12309E95CBE52F57C9243393/S0022050726101508a.pdf/div-class-title-the-progressive-era-war-on-vice-public-health-consequences-of-closing-red-light-districts-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S122073985",
+        "display_name": "The Journal of Economic History",
+        "issn_l": "0022-0507",
+        "issn": [
+          "0022-0507",
+          "1471-6372"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Journal of Economic History",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "display_name": "Good health and well-being",
+        "score": 0.8560000061988831,
+        "id": "https://metadata.un.org/sdg/3"
+      },
+      {
+        "display_name": "Sustainable cities and communities",
+        "score": 0.5142999887466431,
+        "id": "https://metadata.un.org/sdg/11"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Gender equality",
+        "score": 0.46542128920555115,
+        "id": "https://metadata.un.org/sdg/5"
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320306137",
+        "display_name": "Bill and Melinda Gates Foundation",
+        "ror": "https://ror.org/0456r8d26"
+      }
+    ],
+    "has_content": {
+      "grobid_xml": true,
+      "pdf": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W7197028530.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W7197028530.grobid-xml"
+    },
+    "referenced_works_count": 42,
+    "referenced_works": [
+      "https://openalex.org/W1481224739",
+      "https://openalex.org/W1518572822",
+      "https://openalex.org/W1564274392",
+      "https://openalex.org/W1631879131",
+      "https://openalex.org/W1813275538",
+      "https://openalex.org/W1975185365",
+      "https://openalex.org/W1981597504",
+      "https://openalex.org/W2003724124",
+      "https://openalex.org/W2029806139",
+      "https://openalex.org/W2045331654",
+      "https://openalex.org/W2050323284",
+      "https://openalex.org/W2064979653",
+      "https://openalex.org/W2097286857",
+      "https://openalex.org/W2132124509",
+      "https://openalex.org/W2144209603",
+      "https://openalex.org/W2149648772",
+      "https://openalex.org/W2150313152",
+      "https://openalex.org/W2169150938",
+      "https://openalex.org/W2172255359",
+      "https://openalex.org/W2343135765",
+      "https://openalex.org/W2431687448",
+      "https://openalex.org/W2886076452",
+      "https://openalex.org/W2891074336",
+      "https://openalex.org/W2945038904",
+      "https://openalex.org/W3087071621",
+      "https://openalex.org/W3113269512",
+      "https://openalex.org/W3122437549",
+      "https://openalex.org/W3125900386",
+      "https://openalex.org/W3131020221",
+      "https://openalex.org/W3136780922",
+      "https://openalex.org/W3202490679",
+      "https://openalex.org/W4212954329",
+      "https://openalex.org/W4281381815",
+      "https://openalex.org/W4283387379",
+      "https://openalex.org/W4296768583",
+      "https://openalex.org/W4312626731",
+      "https://openalex.org/W4321448438",
+      "https://openalex.org/W4367396771",
+      "https://openalex.org/W4385462542",
+      "https://openalex.org/W4399035619",
+      "https://openalex.org/W4399663052",
+      "https://openalex.org/W4410706841"
+    ],
+    "related_works": [],
+    "abstract_inverted_index": {
+      "In": [
+        0
+      ],
+      "the": [
+        1,
+        7,
+        29,
+        36,
+        76,
+        85
+      ],
+      "late": [
+        2
+      ],
+      "1800s,": [
+        3
+      ],
+      "city": [
+        4
+      ],
+      "leaders": [
+        5
+      ],
+      "in": [
+        6,
+        28,
+        64,
+        72
+      ],
+      "United": [
+        8
+      ],
+      "States": [
+        9
+      ],
+      "established": [
+        10
+      ],
+      "red-light": [
+        11,
+        37
+      ],
+      "districts": [
+        12,
+        21,
+        38,
+        77
+      ],
+      "to": [
+        13
+      ],
+      "contain": [
+        14
+      ],
+      "prostitution.": [
+        15
+      ],
+      "Progressive": [
+        16
+      ],
+      "Era": [
+        17
+      ],
+      "reformers": [
+        18,
+        91
+      ],
+      "argued": [
+        19
+      ],
+      "these": [
+        20
+      ],
+      "harmed": [
+        22
+      ],
+      "public": [
+        23,
+        43,
+        86
+      ],
+      "health,": [
+        24
+      ],
+      "prompting": [
+        25
+      ],
+      "their": [
+        26
+      ],
+      "closure": [
+        27
+      ],
+      "1910s.": [
+        30
+      ],
+      "This": [
+        31
+      ],
+      "paper": [
+        32
+      ],
+      "analyzes": [
+        33
+      ],
+      "how": [
+        34
+      ],
+      "closing": [
+        35
+      ],
+      "affected": [
+        39
+      ],
+      "neighborhood": [
+        40
+      ],
+      "composition": [
+        41
+      ],
+      "and": [
+        42,
+        52
+      ],
+      "health.": [
+        44
+      ],
+      "I": [
+        45
+      ],
+      "find": [
+        46
+      ],
+      "infant": [
+        47
+      ],
+      "mortality": [
+        48
+      ],
+      "from": [
+        49
+      ],
+      "premature": [
+        50
+      ],
+      "births": [
+        51
+      ],
+      "congenital": [
+        53,
+        65
+      ],
+      "defects": [
+        54
+      ],
+      "increased": [
+        55
+      ],
+      "after": [
+        56
+      ],
+      "closure,": [
+        57
+      ],
+      "which": [
+        58
+      ],
+      "is": [
+        59
+      ],
+      "consistent": [
+        60
+      ],
+      "with": [
+        61
+      ],
+      "an": [
+        62
+      ],
+      "increase": [
+        63,
+        71,
+        80
+      ],
+      "syphilis.": [
+        66
+      ],
+      "There": [
+        67
+      ],
+      "was": [
+        68
+      ],
+      "also": [
+        69
+      ],
+      "no": [
+        70
+      ],
+      "homicide": [
+        73
+      ],
+      "deaths,": [
+        74
+      ],
+      "suggesting": [
+        75
+      ],
+      "did": [
+        78
+      ],
+      "not": [
+        79
+      ],
+      "crime.": [
+        81
+      ],
+      "These": [
+        82
+      ],
+      "findings": [
+        83
+      ],
+      "suggest": [
+        84
+      ],
+      "health": [
+        87
+      ],
+      "concerns": [
+        88
+      ],
+      "raised": [
+        89
+      ],
+      "by": [
+        90
+      ],
+      "were": [
+        92
+      ],
+      "likely": [
+        93
+      ],
+      "overstated.": [
+        94
+      ]
+    },
+    "counts_by_year": [],
+    "updated_date": "2026-10-12T09:40:04.860316",
+    "created_date": "2026-08-07T00:00:00"
   }
 ]

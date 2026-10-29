@@ -94421,9 +94421,9 @@
   {
     "id": "https://openalex.org/W4411543932",
     "doi": "https://doi.org/10.1086/734097",
-    "title": ":<i>Forever 17: Coming of Age in the German Asylum System</i>",
-    "display_name": ":<i>Forever 17: Coming of Age in the German Asylum System</i>",
-    "relevance_score": 9.950543,
+    "title": ":Forever 17: Coming of Age in the German Asylum System",
+    "display_name": ":Forever 17: Coming of Age in the German Asylum System",
+    "relevance_score": 28.15662,
     "publication_year": 2025,
     "publication_date": "2025-05-01",
     "ids": {
@@ -94433,6 +94433,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/734097",
+      "doi": "https://doi.org/10.1086/734097",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/734097",
       "pdf_url": null,
@@ -94447,6 +94448,18 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "fnege-1",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -94467,7 +94480,8 @@
       "raw_source_name": "American Journal of Sociology",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -94483,7 +94497,10 @@
         "author": {
           "id": "https://openalex.org/A5026235621",
           "display_name": "Laura Scholaske",
-          "orcid": "https://orcid.org/0000-0002-4813-2673"
+          "orcid": "https://orcid.org/0000-0002-4813-2673",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-4813-2673"
+          ]
         },
         "institutions": [
           {
@@ -94505,6 +94522,7 @@
         "raw_affiliation_strings": [
           "MSB Medical University Berlin"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "MSB Medical University Berlin",
@@ -94526,14 +94544,10 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.18990593,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "130",
@@ -94545,12 +94559,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12645",
-      "display_name": "European history and politics",
-      "score": 0.4174000024795532,
+      "id": "https://openalex.org/T10216",
+      "display_name": "Migration, Refugees, and Integration",
+      "score": 0.4722000062465668,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -94563,26 +94577,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12645",
-        "display_name": "European history and politics",
-        "score": 0.4174000024795532,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10259",
-        "display_name": "Sociology and Education Studies",
-        "score": 0.4147999882698059,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.4722000062465668,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -94597,43 +94594,60 @@
         }
       },
       {
-        "id": "https://openalex.org/T14118",
-        "display_name": "Social and Demographic Issues in Germany",
-        "score": 0.3603000044822693,
+        "id": "https://openalex.org/T11380",
+        "display_name": "Child Welfare and Adoption",
+        "score": 0.07569999992847443,
         "subfield": {
-          "id": "https://openalex.org/subfields/3600",
-          "display_name": "General Health Professions"
+          "id": "https://openalex.org/subfields/3311",
+          "display_name": "Safety Research"
         },
         "field": {
-          "id": "https://openalex.org/fields/36",
-          "display_name": "Health Professions"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
-          "id": "https://openalex.org/domains/4",
-          "display_name": "Health Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14062",
+        "display_name": "Migration and Exile Studies",
+        "score": 0.07289999723434448,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/german",
-        "display_name": "German",
-        "score": 0.860543429851532
+        "id": "https://openalex.org/keywords/asylum-seekers",
+        "display_name": "asylum seekers",
+        "score": 0.6039999723434448
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.5157352089881897
+        "id": "https://openalex.org/keywords/coming-of-age",
+        "display_name": "coming of age",
+        "score": 0.699999988079071
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.23563289642333984
+        "id": "https://openalex.org/keywords/refugee-youth",
+        "display_name": "refugee youth",
+        "score": 0.5960000157356262
       },
       {
-        "id": "https://openalex.org/keywords/archaeology",
-        "display_name": "Archaeology",
-        "score": 0.053260087966918945
+        "id": "https://openalex.org/keywords/social-integration",
+        "display_name": "social integration",
+        "score": 0.3370000123977661
       }
     ],
     "concepts": [
@@ -94671,6 +94685,7 @@
     "locations": [
       {
         "id": "doi:10.1086/734097",
+        "doi": "https://doi.org/10.1086/734097",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/734097",
         "pdf_url": null,
@@ -94685,6 +94700,18 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "fnege-1",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -94707,18 +94734,20 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [
+    "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [
       {
         "score": 0.6200000047683716,
         "display_name": "Reduced inequalities",
         "id": "https://metadata.un.org/sdg/10"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -94737,7 +94766,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-04T09:36:47.201465",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -102529,9 +102558,9 @@
   {
     "id": "https://openalex.org/W4413751088",
     "doi": "https://doi.org/10.1086/737316",
-    "title": ":<i>The Price of Freedom: Criminalization and the Management of Outsiders in Germany and the United States</i>",
-    "display_name": ":<i>The Price of Freedom: Criminalization and the Management of Outsiders in Germany and the United States</i>",
-    "relevance_score": 9.516413,
+    "title": ":The Price of Freedom: Criminalization and the Management of Outsiders in Germany and the United States",
+    "display_name": ":The Price of Freedom: Criminalization and the Management of Outsiders in Germany and the United States",
+    "relevance_score": 26.810532,
     "publication_year": 2025,
     "publication_date": "2025-08-26",
     "ids": {
@@ -102541,6 +102570,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/737316",
+      "doi": "https://doi.org/10.1086/737316",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/737316",
       "pdf_url": null,
@@ -102555,6 +102585,18 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "fnege-1",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -102575,7 +102617,8 @@
       "raw_source_name": "American Journal of Sociology",
       "raw_type": "journal-article"
     },
-    "type": "article",
+    "volume": null,
+    "type": "book-review",
     "indexed_in": [
       "crossref"
     ],
@@ -102590,8 +102633,11 @@
         "author_position": "first",
         "author": {
           "id": "https://openalex.org/A5072831625",
-          "display_name": "Sandra M. Bucerius",
-          "orcid": "https://orcid.org/0000-0002-7742-3103"
+          "display_name": "Sandra Meike Bucerius",
+          "orcid": "https://orcid.org/0000-0002-7742-3103",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7742-3103"
+          ]
         },
         "institutions": [
           {
@@ -102613,6 +102659,7 @@
         "raw_affiliation_strings": [
           "University of Alberta"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "University of Alberta",
@@ -102634,14 +102681,10 @@
     ],
     "apc_list": null,
     "apc_paid": null,
-    "fwci": 0.0,
+    "fwci": null,
     "has_fulltext": false,
     "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.3448967,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
-    },
+    "citation_normalized_percentile": null,
     "cited_by_percentile_year": null,
     "biblio": {
       "volume": "131",
@@ -102653,9 +102696,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13376",
-      "display_name": "Criminal Law and Policy",
-      "score": 0.27790001034736633,
+      "id": "https://openalex.org/T10216",
+      "display_name": "Migration, Refugees, and Integration",
+      "score": 0.31859999895095825,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -102671,9 +102714,43 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13376",
-        "display_name": "Criminal Law and Policy",
-        "score": 0.27790001034736633,
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.31859999895095825,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12736",
+        "display_name": "Criminal Justice and Penology",
+        "score": 0.3034999966621399,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13728",
+        "display_name": "Crime, Deviance, and Social Control",
+        "score": 0.21480000019073486,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -102691,38 +102768,38 @@
     "keywords": [
       {
         "id": "https://openalex.org/keywords/criminalization",
-        "display_name": "Criminalization",
-        "score": 0.9573502540588379
+        "display_name": "criminalization",
+        "score": 0.9779999852180481
       },
       {
-        "id": "https://openalex.org/keywords/law-and-economics",
-        "display_name": "Law and economics",
-        "score": 0.48496007919311523
+        "id": "https://openalex.org/keywords/outsiders",
+        "display_name": "outsiders",
+        "score": 0.7680000066757202
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.44375884532928467
+        "id": "https://openalex.org/keywords/social-exclusion",
+        "display_name": "social exclusion",
+        "score": 0.5220000147819519
       },
       {
-        "id": "https://openalex.org/keywords/criminology",
-        "display_name": "Criminology",
-        "score": 0.38640499114990234
+        "id": "https://openalex.org/keywords/border-control",
+        "display_name": "border control",
+        "score": 0.3449999988079071
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.35138997435569763
+        "id": "https://openalex.org/keywords/germany",
+        "display_name": "Germany",
+        "score": 0.37299999594688416
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.3302026391029358
+        "id": "https://openalex.org/keywords/united-states",
+        "display_name": "United States",
+        "score": 0.9829999804496765
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.23457017540931702
+        "id": "https://openalex.org/keywords/comparative-criminology",
+        "display_name": "comparative criminology",
+        "score": 0.6039999723434448
       }
     ],
     "concepts": [
@@ -102781,6 +102858,7 @@
     "locations": [
       {
         "id": "doi:10.1086/737316",
+        "doi": "https://doi.org/10.1086/737316",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/737316",
         "pdf_url": null,
@@ -102795,6 +102873,18 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "fnege-1",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -102819,21 +102909,29 @@
     "best_oa_location": null,
     "sustainable_development_goals": [
       {
+        "score": 0.9200000166893005,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
         "score": 0.5299999713897705,
         "display_name": "Reduced inequalities",
         "id": "https://metadata.un.org/sdg/10"
       },
       {
         "score": 0.4699999988079071,
-        "display_name": "Peace, Justice and strong institutions",
+        "display_name": "Peace, justice, and strong institutions",
         "id": "https://metadata.un.org/sdg/16"
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 0,
@@ -102852,7 +102950,7 @@
     ],
     "abstract_inverted_index": null,
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-03T13:16:28.481748",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -203093,7 +203191,7 @@
     "doi": "https://doi.org/10.1086/739687",
     "title": "Local Communities, Distant Origins: How Cultural Distance and Local Context Shape Immigrant Ethnoreligious Infrastructures",
     "display_name": "Local Communities, Distant Origins: How Cultural Distance and Local Context Shape Immigrant Ethnoreligious Infrastructures",
-    "relevance_score": 0.580366,
+    "relevance_score": 1.7717307,
     "publication_year": 2025,
     "publication_date": "2025-11-22",
     "ids": {
@@ -203103,6 +203201,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1086/739687",
+      "doi": "https://doi.org/10.1086/739687",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1086/739687",
       "pdf_url": null,
@@ -203117,6 +203216,18 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "fnege-1",
+          "jufo-3",
+          "norway-2",
+          "poland-200",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310315672",
         "host_organization_name": "University of Chicago Press",
         "host_organization_lineage": [
@@ -203137,6 +203248,7 @@
       "raw_source_name": "American Journal of Sociology",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -203153,11 +203265,14 @@
         "author": {
           "id": "https://openalex.org/A5038020341",
           "display_name": "Jonas Wiedner",
-          "orcid": "https://orcid.org/0000-0002-1394-9456"
+          "orcid": "https://orcid.org/0000-0002-1394-9456",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1394-9456"
+          ]
         },
         "institutions": [],
         "countries": [],
-        "is_corresponding": true,
+        "is_corresponding": false,
         "raw_author_name": "Jonas Wiedner",
         "raw_affiliation_strings": [
           ""
@@ -203175,7 +203290,10 @@
         "author": {
           "id": "https://openalex.org/A5013956789",
           "display_name": "Merlin Schaeffer",
-          "orcid": "https://orcid.org/0000-0003-1969-8974"
+          "orcid": "https://orcid.org/0000-0003-1969-8974",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1969-8974"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -203197,7 +203315,10 @@
         "author": {
           "id": "https://openalex.org/A5018774992",
           "display_name": "Sarah Carol",
-          "orcid": "https://orcid.org/0000-0002-5403-8931"
+          "orcid": "https://orcid.org/0000-0002-5403-8931",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5403-8931"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -203219,7 +203340,10 @@
         "author": {
           "id": "https://openalex.org/A5120420115",
           "display_name": "Susanne B\u00f6ller",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0003-6826-1370",
+          "observed_orcids": [
+            "https://orcid.org/0009-0003-6826-1370"
+          ]
         },
         "institutions": [],
         "countries": [],
@@ -203239,10 +203363,8 @@
     ],
     "institutions": [],
     "countries_distinct_count": 0,
-    "institutions_distinct_count": 4,
-    "corresponding_author_ids": [
-      "https://openalex.org/A5038020341"
-    ],
+    "institutions_distinct_count": 0,
+    "corresponding_author_ids": [],
     "corresponding_institution_ids": [],
     "apc_list": null,
     "apc_paid": null,
@@ -203250,7 +203372,7 @@
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.56654714,
+      "value": 0.31432387,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -203265,12 +203387,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11648",
-      "display_name": "Diaspora, migration, transnational identity",
-      "score": 0.0723000019788742,
+      "id": "https://openalex.org/T12693",
+      "display_name": "Migration, Ethnicity, and Economy",
+      "score": 0.34940001368522644,
       "subfield": {
-        "id": "https://openalex.org/subfields/3317",
-        "display_name": "Demography"
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -203283,46 +203405,46 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T12693",
+        "display_name": "Migration, Ethnicity, and Economy",
+        "score": 0.34940001368522644,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10216",
+        "display_name": "Migration, Refugees, and Integration",
+        "score": 0.30000001192092896,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11648",
         "display_name": "Diaspora, migration, transnational identity",
-        "score": 0.0723000019788742,
+        "score": 0.23080000281333923,
         "subfield": {
           "id": "https://openalex.org/subfields/3317",
           "display_name": "Demography"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12798",
-        "display_name": "Religious Tourism and Spaces",
-        "score": 0.031599998474121094,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3305",
-          "display_name": "Geography, Planning and Development"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10149",
-        "display_name": "Anthropological Studies and Insights",
-        "score": 0.027899999171495438,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3314",
-          "display_name": "Anthropology"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -203336,24 +203458,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/context",
-        "display_name": "Context (archaeology)",
-        "score": 0.6933000087738037
+        "id": "https://openalex.org/keywords/immigrant-communities",
+        "display_name": "immigrant communities",
+        "score": 0.7730000019073486
       },
       {
-        "id": "https://openalex.org/keywords/immigration",
-        "display_name": "Immigration",
-        "score": 0.6646000146865845
+        "id": "https://openalex.org/keywords/cultural-distance",
+        "display_name": "cultural distance",
+        "score": 0.9139999747276306
       },
       {
-        "id": "https://openalex.org/keywords/social-distance",
-        "display_name": "Social distance",
-        "score": 0.36419999599456787
+        "id": "https://openalex.org/keywords/organizational-ecology",
+        "display_name": "organizational ecology",
+        "score": 0.6259999871253967
       },
       {
-        "id": "https://openalex.org/keywords/cultural-diversity",
-        "display_name": "Cultural diversity",
-        "score": 0.2727000117301941
+        "id": "https://openalex.org/keywords/immigrant-minorities",
+        "display_name": "immigrant minorities",
+        "score": 0.48899999260902405
+      },
+      {
+        "id": "https://openalex.org/keywords/local-context",
+        "display_name": "local context",
+        "score": 0.5849999785423279
+      },
+      {
+        "id": "https://openalex.org/keywords/community-homogeneity",
+        "display_name": "community homogeneity",
+        "score": 0.7409999966621399
+      },
+      {
+        "id": "https://openalex.org/keywords/religious-buildings",
+        "display_name": "religious buildings",
+        "score": 0.7799999713897705
+      },
+      {
+        "id": "https://openalex.org/keywords/immigrant-organizations",
+        "display_name": "immigrant associations",
+        "score": 0.5559999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/germany",
+        "display_name": "Germany",
+        "score": 0.6610000133514404
       }
     ],
     "concepts": [
@@ -203450,10 +203597,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1086/739687",
+        "doi": "https://doi.org/10.1086/739687",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1086/739687",
         "pdf_url": null,
@@ -203468,6 +203616,18 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "fnege-1",
+            "jufo-3",
+            "norway-2",
+            "poland-200",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310315672",
           "host_organization_name": "University of Chicago Press",
           "host_organization_lineage": [
@@ -203490,6 +203650,7 @@
       },
       {
         "id": "pmh:oai:pure.atira.dk:openaire_cris_publications/8b2d096c-bc6b-4145-a8f0-19d121992666",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://researchprofiles.ku.dk/da/publications/8b2d096c-bc6b-4145-a8f0-19d121992666",
         "pdf_url": null,
@@ -203501,6 +203662,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I124055696",
           "host_organization_name": "University of Copenhagen",
           "host_organization_lineage": [
@@ -203511,20 +203673,57 @@
         },
         "license": null,
         "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Wiedner, J, Schaeffer, M, Carol, S & B\u00f6ller, S 2026, 'Local Communities, Distant Origins : How Cultural Distance and Local Context Shape Immigrant Ethno-Religious Infrastructures', American Journal of Sociology. https://doi.org/10.1086/739687",
+        "raw_type": "info:eu-repo/semantics/article"
+      },
+      {
+        "id": "pmh:oai:econstor.eu:10419/341523",
+        "doi": null,
+        "is_oa": false,
+        "landing_page_url": "https://hdl.handle.net/10419/341523",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401696",
+          "display_name": "Econstor (Econstor)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
         "version": "submittedVersion",
         "is_accepted": false,
         "is_published": false,
-        "raw_source_name": "Wiedner , J , Schaeffer , M , Carol , S & B\u00f6ller , S 2026 , ' Local Communities, Distant Origins : How Cultural Distance and Local Context Shape Immigrant Ethno-Religious Infrastructures ' , American Journal of Sociology . https://doi.org/10.1086/739687",
-        "raw_type": "article"
+        "raw_source_name": null,
+        "raw_type": "doc-type:article"
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.4000000059604645,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 69,
@@ -203544,6 +203743,7 @@
       "https://openalex.org/W2037632861",
       "https://openalex.org/W2051587524",
       "https://openalex.org/W2066819586",
+      "https://openalex.org/W2072212190",
       "https://openalex.org/W2074493610",
       "https://openalex.org/W2075436472",
       "https://openalex.org/W2077543425",
@@ -203558,6 +203758,7 @@
       "https://openalex.org/W2119190621",
       "https://openalex.org/W2119538357",
       "https://openalex.org/W2121070217",
+      "https://openalex.org/W2122307065",
       "https://openalex.org/W2128385390",
       "https://openalex.org/W2131607348",
       "https://openalex.org/W2135366029",
@@ -203586,14 +203787,12 @@
       "https://openalex.org/W3010067766",
       "https://openalex.org/W3027282910",
       "https://openalex.org/W3032945319",
-      "https://openalex.org/W3125345175",
       "https://openalex.org/W3130192816",
       "https://openalex.org/W3153634829",
       "https://openalex.org/W3172879605",
       "https://openalex.org/W3208188419",
       "https://openalex.org/W4210884505",
       "https://openalex.org/W4231515326",
-      "https://openalex.org/W4231949091",
       "https://openalex.org/W4236989913",
       "https://openalex.org/W4288711157",
       "https://openalex.org/W4352978122",
@@ -203601,254 +203800,250 @@
     ],
     "related_works": [],
     "abstract_inverted_index": {
-      "Why": [
+      "Vibrant": [
         0
       ],
-      "do": [
+      "ethnoreligious": [
         1,
-        11
-      ],
-      "some": [
-        2
-      ],
-      "immigrant": [
-        3,
-        19,
-        48,
-        158
-      ],
-      "communities": [
-        4,
-        55,
-        63
-      ],
-      "establish": [
-        5
-      ],
-      "dense": [
-        6
-      ],
-      "ethno-religious": [
-        7,
-        41
-      ],
-      "infrastructures,": [
-        8
-      ],
-      "while": [
-        9
-      ],
-      "others": [
-        10
-      ],
-      "not?": [
-        12
-      ],
-      "This": [
-        13
-      ],
-      "study": [
-        14
-      ],
-      "investigates": [
-        15
-      ],
-      "organizational": [
-        16,
-        72,
-        107,
-        134
-      ],
-      "infrastructures": [
-        17
-      ],
-      "in": [
-        18,
-        56
-      ],
-      "communities,": [
-        20
-      ],
-      "employing": [
-        21
-      ],
-      "a": [
-        22
-      ],
-      "framework": [
-        23
-      ],
-      "that": [
-        24,
-        61
-      ],
-      "examines": [
-        25
-      ],
-      "the": [
-        26,
-        58,
-        102,
-        143
-      ],
-      "full": [
-        27
-      ],
-      "spectrum": [
-        28
-      ],
-      "of": [
-        29,
-        95,
-        116,
-        146
-      ],
-      "ethnic": [
-        30
-      ],
-      "groupness,": [
-        31
-      ],
-      "from": [
-        32
-      ],
-      "nominal": [
-        33
-      ],
-      "co-nationals": [
-        34
-      ],
-      "to": [
-        35,
-        46,
-        75,
-        124
-      ],
-      "highly": [
-        36
-      ],
-      "institutionalized": [
-        37
-      ],
-      "communities.": [
-        38
-      ],
-      "Analyzing": [
-        39
-      ],
-      "25,117": [
-        40
-      ],
-      "businesses": [
         42
       ],
+      "infrastructures": [
+        2
+      ],
+      "of": [
+        3,
+        8,
+        13,
+        95,
+        115,
+        124,
+        135
+      ],
+      "businesses,": [
+        4
+      ],
+      "associations,": [
+        5
+      ],
       "and": [
-        43,
+        6,
+        20,
+        81,
         101,
-        149,
-        153
+        127
+      ],
+      "places": [
+        7
+      ],
+      "worship": [
+        9
+      ],
+      "are": [
+        10
+      ],
+      "key": [
+        11
+      ],
+      "elements": [
+        12
+      ],
+      "immigrant": [
+        14,
+        30,
+        47,
+        139
+      ],
+      "community": [
+        15,
+        82
+      ],
+      "life,": [
+        16
+      ],
+      "providing": [
+        17
+      ],
+      "crucial": [
+        18
+      ],
+      "social": [
+        19
+      ],
+      "economic": [
+        21
+      ],
+      "support": [
+        22,
+        112
+      ],
+      "for": [
+        23,
+        113,
+        138
+      ],
+      "its": [
+        24
+      ],
+      "members.": [
+        25
+      ],
+      "But": [
+        26
+      ],
+      "why": [
+        27
+      ],
+      "do": [
+        28,
+        38,
+        84
+      ],
+      "some": [
+        29
+      ],
+      "communities": [
+        31,
+        54,
+        62
+      ],
+      "establish": [
+        32
+      ],
+      "dense": [
+        33
+      ],
+      "organizational": [
+        34,
+        71,
+        107
+      ],
+      "ecologies,": [
+        35
+      ],
+      "while": [
+        36
+      ],
+      "others": [
+        37
+      ],
+      "not?": [
+        39
+      ],
+      "Analyzing": [
+        40
+      ],
+      "25,117": [
+        41
       ],
       "organizations": [
-        44
+        43
       ],
       "catering": [
-        45
+        44
+      ],
+      "to": [
+        45,
+        74
       ],
       "54": [
-        47
+        46
       ],
       "minorities": [
-        49
+        48
       ],
       "across": [
-        50,
-        109
+        49
       ],
       "more": [
-        51,
+        50,
         89
       ],
       "than": [
-        52
+        51
       ],
       "4,900": [
-        53
+        52
       ],
       "local": [
-        54,
-        78,
-        128
+        53,
+        77,
+        136
+      ],
+      "in": [
+        55
       ],
       "Germany,": [
-        57
+        56
+      ],
+      "the": [
+        57,
+        102,
+        122,
+        132
       ],
       "authors": [
-        59
+        58
       ],
       "show": [
+        59
+      ],
+      "that": [
         60
       ],
       "minority": [
-        62
+        61
       ],
       "with": [
-        64,
-        88,
-        114,
-        133
+        63,
+        88
       ],
       "similar": [
-        65
+        64
       ],
       "population": [
-        66
+        65
       ],
       "sizes": [
-        67
+        66
       ],
       "can": [
-        68
+        67
       ],
       "exhibit": [
-        69
+        68
       ],
       "vastly": [
-        70
+        69
       ],
       "different": [
-        71
+        70
       ],
       "ecologies.": [
-        73
+        72
       ],
       "Contrary": [
-        74
+        73
       ],
       "claims": [
-        76
+        75
       ],
       "emphasizing": [
-        77
+        76,
+        131
       ],
       "context,": [
-        79
-      ],
-      "neither": [
-        80
+        78
       ],
       "category": [
-        81
+        79
       ],
       "consolidation": [
-        82
-      ],
-      "nor": [
-        83
-      ],
-      "within-community": [
-        84
+        80
       ],
       "homogeneity": [
+        83
+      ],
+      "not": [
         85
       ],
       "go": [
@@ -203874,10 +204069,11 @@
       ],
       "cultural": [
         96,
-        147
+        125
       ],
       "distance": [
-        97
+        97,
+        126
       ],
       "between": [
         98
@@ -203900,127 +204096,65 @@
       "predict": [
         106
       ],
-      "density": [
+      "densities.": [
         108
       ],
-      "diverse": [
+      "Analyses": [
+        109
+      ],
+      "produce": [
         110
       ],
-      "localities.": [
+      "mixed": [
         111
       ],
-      "In": [
-        112
-      ],
-      "line": [
-        113
-      ],
       "theories": [
-        115
+        114
       ],
       "reactive": [
-        117
+        116
       ],
       "group": [
-        118,
-        159
-      ],
-      "formation,": [
-        119
-      ],
-      "secure": [
-        120
-      ],
-      "legal": [
-        121
-      ],
-      "status": [
-        122
-      ],
-      "relates": [
-        123
-      ],
-      "sparser": [
-        125
-      ],
-      "infrastructures.": [
-        126
-      ],
-      "However,": [
-        127
-      ],
-      "anti-immigrant": [
-        129
-      ],
-      "mobilization": [
-        130
-      ],
-      "correlates": [
-        131
-      ],
-      "negatively": [
-        132
-      ],
-      "presence,": [
-        135
-      ],
-      "too,": [
-        136
-      ],
-      "complicating": [
-        137
-      ],
-      "such": [
-        138
-      ],
-      "theories.": [
-        139
-      ],
-      "These": [
+        117,
         140
       ],
-      "findings": [
+      "formation.": [
+        118,
         141
       ],
-      "highlight": [
-        142
+      "These": [
+        119
       ],
-      "consistent": [
-        144
+      "findings": [
+        120
+      ],
+      "highlight": [
+        121
       ],
       "importance": [
-        145
-      ],
-      "distance,": [
-        148
+        123
       ],
       "challenge": [
-        150
+        128
       ],
-      "both": [
-        151
-      ],
-      "essentialist": [
-        152
-      ],
-      "location-focused": [
-        154
-      ],
-      "constructivist": [
-        155
+      "prevailing": [
+        129
       ],
       "perspectives": [
-        156
+        130
       ],
-      "on": [
-        157
+      "primary": [
+        133
       ],
-      "formation.": [
-        160
+      "role": [
+        134
+      ],
+      "context": [
+        137
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-05T06:06:40.768181",
+    "updated_date": "2026-10-15T10:00:46.086208",
     "created_date": "2025-11-23T00:00:00"
   },
   {

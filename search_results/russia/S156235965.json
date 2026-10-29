@@ -15886,7 +15886,7 @@
     "doi": "https://doi.org/10.1017/s0020589325000028",
     "title": "State Immunity from Non-Judicial Measures of Constraint",
     "display_name": "State Immunity from Non-Judicial Measures of Constraint",
-    "relevance_score": 2.4805114,
+    "relevance_score": 2.4612863,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -15896,9 +15896,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0020589325000028",
+      "doi": "https://doi.org/10.1017/s0020589325000028",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0020589325000028",
-      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4F75108B189FFA35F94BC45D9DA8F4E1/S0020589325000028a.pdf/div-class-title-state-immunity-from-non-judicial-measures-of-constraint-div.pdf",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S156235965",
         "display_name": "International and Comparative Law Quarterly",
@@ -15910,6 +15911,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -15930,6 +15942,7 @@
       "raw_source_name": "International and Comparative Law Quarterly",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -15937,8 +15950,8 @@
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4F75108B189FFA35F94BC45D9DA8F4E1/S0020589325000028a.pdf/div-class-title-state-immunity-from-non-judicial-measures-of-constraint-div.pdf",
-      "any_repository_has_fulltext": false
+      "oa_url": "https://doi.org/10.1017/s0020589325000028",
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -15946,7 +15959,10 @@
         "author": {
           "id": "https://openalex.org/A5000971444",
           "display_name": "Philipp Janig",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-0188-7670",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0188-7670"
+          ]
         },
         "institutions": [
           {
@@ -15990,19 +16006,27 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I40527276"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 2.5594,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 3.7332,
     "has_fulltext": false,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.89433258,
+      "value": 0.90233161,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 95,
-      "max": 98
+      "min": 93,
+      "max": 96
     },
     "biblio": {
       "volume": "74",
@@ -16014,16 +16038,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11762",
-      "display_name": "Law, Economics, and Judicial Systems",
-      "score": 0.7932000160217285,
+      "id": "https://openalex.org/T10749",
+      "display_name": "International Law and Human Rights",
+      "score": 0.9688000082969666,
       "subfield": {
-        "id": "https://openalex.org/subfields/2002",
-        "display_name": "Economics and Econometrics"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
-        "id": "https://openalex.org/fields/20",
-        "display_name": "Economics, Econometrics and Finance"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -16032,9 +16056,26 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T11762",
-        "display_name": "Law, Economics, and Judicial Systems",
-        "score": 0.7932000160217285,
+        "id": "https://openalex.org/T10749",
+        "display_name": "International Law and Human Rights",
+        "score": 0.9688000082969666,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13007",
+        "display_name": "Economic Sanctions and International Relations",
+        "score": 0.02410000003874302,
         "subfield": {
           "id": "https://openalex.org/subfields/2002",
           "display_name": "Economics and Econometrics"
@@ -16049,26 +16090,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T13138",
-        "display_name": "Legal and Constitutional Studies",
-        "score": 0.7809000015258789,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2002",
-          "display_name": "Economics and Econometrics"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/20",
-          "display_name": "Economics, Econometrics and Finance"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T14515",
-        "display_name": "International Law and Aviation",
-        "score": 0.7095999717712402,
+        "id": "https://openalex.org/T12767",
+        "display_name": "Conflict of Laws and Jurisdiction",
+        "score": 0.001500000013038516,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -16085,69 +16109,54 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/constraint",
-        "display_name": "Constraint (computer-aided design)",
-        "score": 0.6037244200706482
+        "id": "https://openalex.org/keywords/state-immunity",
+        "display_name": "state immunity",
+        "score": 0.9679999947547913
       },
       {
-        "id": "https://openalex.org/keywords/state",
-        "display_name": "State (computer science)",
-        "score": 0.587135374546051
+        "id": "https://openalex.org/keywords/unilateral-sanctions",
+        "display_name": "unilateral sanctions",
+        "score": 0.7480000257492065
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5327190160751343
+        "id": "https://openalex.org/keywords/confiscation",
+        "display_name": "confiscation",
+        "score": 0.5730000138282776
       },
       {
-        "id": "https://openalex.org/keywords/immunity",
-        "display_name": "Immunity",
-        "score": 0.48039036989212036
+        "id": "https://openalex.org/keywords/windfall-profits",
+        "display_name": "windfall profits",
+        "score": 0.7630000114440918
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.3449130654335022
+        "id": "https://openalex.org/keywords/bank-of-russia",
+        "display_name": "Bank of Russia",
+        "score": 0.7649999856948853
       },
       {
-        "id": "https://openalex.org/keywords/law-and-economics",
-        "display_name": "Law and economics",
-        "score": 0.32159772515296936
+        "id": "https://openalex.org/keywords/russia-ukraine-war",
+        "display_name": "Russian invasion of Ukraine",
+        "score": 0.6919999718666077
       },
       {
-        "id": "https://openalex.org/keywords/computer-science",
-        "display_name": "Computer science",
-        "score": 0.30260318517684937
+        "id": "https://openalex.org/keywords/customary-international-law",
+        "display_name": "customary international law",
+        "score": 0.9010000228881836
       },
       {
-        "id": "https://openalex.org/keywords/mathematics",
-        "display_name": "Mathematics",
-        "score": 0.2711159884929657
+        "id": "https://openalex.org/keywords/public-policy",
+        "display_name": "public policy",
+        "score": 0.6819999814033508
       },
       {
-        "id": "https://openalex.org/keywords/medicine",
-        "display_name": "Medicine",
-        "score": 0.1768266260623932
+        "id": "https://openalex.org/keywords/opinio-juris",
+        "display_name": "opinio juris",
+        "score": 0.5410000085830688
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.14742687344551086
-      },
-      {
-        "id": "https://openalex.org/keywords/immunology",
-        "display_name": "Immunology",
-        "score": 0.11162570118904114
-      },
-      {
-        "id": "https://openalex.org/keywords/programming-language",
-        "display_name": "Programming language",
-        "score": 0.11145466566085815
-      },
-      {
-        "id": "https://openalex.org/keywords/immune-system",
-        "display_name": "Immune system",
-        "score": 0.07560890913009644
+        "id": "https://openalex.org/keywords/state-practice",
+        "display_name": "state practice",
+        "score": 0.3630000054836273
       }
     ],
     "concepts": [
@@ -16251,13 +16260,14 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 2,
     "locations": [
       {
         "id": "doi:10.1017/s0020589325000028",
+        "doi": "https://doi.org/10.1017/s0020589325000028",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0020589325000028",
-        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4F75108B189FFA35F94BC45D9DA8F4E1/S0020589325000028a.pdf/div-class-title-state-immunity-from-non-judicial-measures-of-constraint-div.pdf",
+        "pdf_url": null,
         "source": {
           "id": "https://openalex.org/S156235965",
           "display_name": "International and Comparative Law Quarterly",
@@ -16269,6 +16279,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -16288,13 +16309,47 @@
         "is_published": true,
         "raw_source_name": "International and Comparative Law Quarterly",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "doi:10.2139/ssrn.5199196",
+        "doi": "https://doi.org/10.2139/ssrn.5199196",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.2139/ssrn.5199196",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210172589",
+          "display_name": "SSRN Electronic Journal",
+          "issn_l": "1556-5068",
+          "issn": [
+            "1556-5068"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I1318003438",
+          "host_organization_name": "RELX Group (Netherlands)",
+          "host_organization_lineage": [
+            "https://openalex.org/I1318003438"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "acceptedVersion",
+        "is_accepted": true,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "posted-content"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0020589325000028",
+      "doi": "https://doi.org/10.1017/s0020589325000028",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0020589325000028",
-      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/4F75108B189FFA35F94BC45D9DA8F4E1/S0020589325000028a.pdf/div-class-title-state-immunity-from-non-judicial-measures-of-constraint-div.pdf",
+      "pdf_url": null,
       "source": {
         "id": "https://openalex.org/S156235965",
         "display_name": "International and Comparative Law Quarterly",
@@ -16306,6 +16361,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -16326,29 +16392,35 @@
       "raw_source_name": "International and Comparative Law Quarterly",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.9595999717712402
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "pdf": true,
+      "pdf": false,
       "grobid_xml": false
     },
-    "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4408992272.pdf"
-    },
+    "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W2084906504",
-      "https://openalex.org/W2369491922",
-      "https://openalex.org/W2807251790",
-      "https://openalex.org/W2799406489",
-      "https://openalex.org/W2074899272",
-      "https://openalex.org/W2049792449",
-      "https://openalex.org/W1966984067",
-      "https://openalex.org/W2349651061",
-      "https://openalex.org/W986251431",
-      "https://openalex.org/W2884465220"
+      "https://openalex.org/W7217476054",
+      "https://openalex.org/W7153957525",
+      "https://openalex.org/W4388276996",
+      "https://openalex.org/W6981955420",
+      "https://openalex.org/W2802201200",
+      "https://openalex.org/W4388277002",
+      "https://openalex.org/W4392716792",
+      "https://openalex.org/W7143909964",
+      "https://openalex.org/W2346296591",
+      "https://openalex.org/W2056826118"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -16373,14 +16445,14 @@
         138,
         149,
         163,
-        178
+        177
       ],
       "immunity": [
         5,
         29,
         139,
         150,
-        179
+        178
       ],
       "has": [
         6,
@@ -16403,19 +16475,19 @@
         12,
         16,
         67,
-        180,
-        199
+        179,
+        198
       ],
       "judicial": [
         13,
-        202
+        201
       ],
       "proceedings.": [
         14
       ],
       "However,": [
         15,
-        183
+        182
       ],
       "recent": [
         17,
@@ -16440,7 +16512,7 @@
         107,
         122,
         140,
-        201
+        200
       ],
       "address": [
         23,
@@ -16464,16 +16536,16 @@
         131,
         135,
         142,
-        184,
-        189,
-        192,
-        205,
-        212
+        183,
+        188,
+        191,
+        204,
+        211
       ],
       "law": [
         26,
         136,
-        174
+        173
       ],
       "also": [
         30
@@ -16513,7 +16585,7 @@
       ],
       "territorial": [
         42,
-        213
+        212
       ],
       "State's": [
         43
@@ -16572,9 +16644,9 @@
         148,
         154,
         161,
-        191,
-        207,
-        211
+        190,
+        206,
+        210
       ],
       "States.": [
         61
@@ -16668,7 +16740,7 @@
       ],
       "further": [
         108,
-        186
+        185
       ],
       "steps,": [
         109
@@ -16714,7 +16786,7 @@
       ],
       "article": [
         129,
-        185
+        184
       ],
       "revisits": [
         130
@@ -16755,90 +16827,87 @@
       "opinio": [
         166
       ],
-      "juris": [
+      "juris,": [
         167
       ],
-      ",": [
+      "it": [
         168
       ],
-      "it": [
+      "argues": [
         169
       ],
-      "argues": [
-        170
-      ],
       "that": [
-        171,
-        188
-      ],
-      "customary": [
-        172
-      ],
-      "international": [
-        173
-      ],
-      "does": [
-        175
-      ],
-      "provide": [
-        176
-      ],
-      "for": [
-        177
-      ],
-      "this": [
-        181
-      ],
-      "context.": [
-        182
-      ],
-      "contends": [
+        170,
         187
       ],
+      "customary": [
+        171
+      ],
+      "international": [
+        172
+      ],
+      "does": [
+        174
+      ],
+      "provide": [
+        175
+      ],
+      "for": [
+        176
+      ],
+      "this": [
+        180
+      ],
+      "context.": [
+        181
+      ],
+      "contends": [
+        186
+      ],
       "content": [
-        190
+        189
       ],
       "norm": [
-        193
+        192
       ],
       "should": [
-        194
+        193
       ],
       "be": [
-        195
+        194
       ],
       "construed": [
-        196
+        195
       ],
       "differently": [
-        197
+        196
       ],
       "than": [
-        198
+        197
       ],
       "relation": [
-        200
+        199
       ],
       "proceedings,": [
-        203
+        202
       ],
       "recognizing": [
-        204
+        203
       ],
       "weight": [
-        206
+        205
       ],
       "public": [
-        208
+        207
       ],
       "policy": [
-        209
+        208
       ],
       "concerns": [
-        210
+        209
       ],
       "State.": [
-        214
+        213
       ]
     },
     "counts_by_year": [
@@ -16847,8 +16916,8 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-05-23T08:51:43.019350",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-12T09:40:04.860316",
+    "created_date": "2025-03-31T00:00:00"
   },
   {
     "id": "https://openalex.org/W4323846322",
@@ -18007,7 +18076,7 @@
     "doi": "https://doi.org/10.1017/s0020589325100924",
     "title": "Modern Slavery in Armed Conflict: Foreign \u2018Forced Fighters\u2019 in Ukraine",
     "display_name": "Modern Slavery in Armed Conflict: Foreign \u2018Forced Fighters\u2019 in Ukraine",
-    "relevance_score": 1.1940141,
+    "relevance_score": 3.4000359,
     "publication_year": 2025,
     "publication_date": "2025-07-01",
     "ids": {
@@ -18017,6 +18086,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0020589325100924",
+      "doi": "https://doi.org/10.1017/s0020589325100924",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0020589325100924",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1D0028BC9208968FF6A5D50F0C26F008/S0020589325100924a.pdf/div-class-title-modern-slavery-in-armed-conflict-foreign-forced-fighters-in-ukraine-div.pdf",
@@ -18031,6 +18101,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -18051,6 +18132,7 @@
       "raw_source_name": "International and Comparative Law Quarterly",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -18067,19 +18149,12 @@
         "author": {
           "id": "https://openalex.org/A5112287710",
           "display_name": "Matilda Gillis",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-4667-066X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-4667-066X"
+          ]
         },
         "institutions": [
-          {
-            "id": "https://openalex.org/I113979032",
-            "display_name": "Twitter (United States)",
-            "ror": "https://ror.org/04wt43v05",
-            "country_code": "US",
-            "type": "company",
-            "lineage": [
-              "https://openalex.org/I113979032"
-            ]
-          },
           {
             "id": "https://openalex.org/I241749",
             "display_name": "University of Cambridge",
@@ -18092,8 +18167,7 @@
           }
         ],
         "countries": [
-          "GB",
-          "US"
+          "GB"
         ],
         "is_corresponding": true,
         "raw_author_name": "Matilda Gillis",
@@ -18112,33 +18186,43 @@
           {
             "raw_affiliation_string": "Corpus Christi College, https://ror.org/013meh722University of Cambridge, Cambridge, UK",
             "institution_ids": [
-              "https://openalex.org/I113979032"
+              "https://openalex.org/I241749"
             ]
           }
         ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 2,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5112287710"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I113979032",
       "https://openalex.org/I241749"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
-    "has_fulltext": true,
-    "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.26847355,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
     },
-    "cited_by_percentile_year": null,
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 3.7332,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.9287902,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": "74",
       "issue": "3",
@@ -18151,7 +18235,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T10749",
       "display_name": "International Law and Human Rights",
-      "score": 0.9785000085830688,
+      "score": 0.9696999788284302,
       "subfield": {
         "id": "https://openalex.org/subfields/3320",
         "display_name": "Political Science and International Relations"
@@ -18169,7 +18253,7 @@
       {
         "id": "https://openalex.org/T10749",
         "display_name": "International Law and Human Rights",
-        "score": 0.9785000085830688,
+        "score": 0.9696999788284302,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -18184,12 +18268,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T11863",
-        "display_name": "Gender, Security, and Conflict",
-        "score": 0.9429000020027161,
+        "id": "https://openalex.org/T14492",
+        "display_name": "War, Law, and Justice",
+        "score": 0.011300000362098217,
         "subfield": {
-          "id": "https://openalex.org/subfields/3318",
-          "display_name": "Gender Studies"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -18201,9 +18285,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T12752",
-        "display_name": "Global Peace and Security Dynamics",
-        "score": 0.9379000067710876,
+        "id": "https://openalex.org/T13773",
+        "display_name": "International Labor and Employment Law",
+        "score": 0.00430000014603138,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -18220,34 +18304,44 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/repatriation",
-        "display_name": "Repatriation",
-        "score": 0.9301999807357788
+        "id": "https://openalex.org/keywords/modern-slavery",
+        "display_name": "modern slavery",
+        "score": 0.8690000176429749
       },
       {
-        "id": "https://openalex.org/keywords/position",
-        "display_name": "Position (finance)",
-        "score": 0.5859000086784363
+        "id": "https://openalex.org/keywords/mercenary-recruitment",
+        "display_name": "mercenary recruitment",
+        "score": 0.5839999914169312
+      },
+      {
+        "id": "https://openalex.org/keywords/russia-ukraine-war",
+        "display_name": "Russian invasion of Ukraine",
+        "score": 0.8519999980926514
       },
       {
         "id": "https://openalex.org/keywords/international-humanitarian-law",
-        "display_name": "International humanitarian law",
-        "score": 0.499099999666214
+        "display_name": "international humanitarian law",
+        "score": 0.8579999804496765
       },
       {
-        "id": "https://openalex.org/keywords/human-rights",
-        "display_name": "Human rights",
-        "score": 0.3716000020503998
+        "id": "https://openalex.org/keywords/repatriation",
+        "display_name": "repatriation",
+        "score": 0.8809999823570251
       },
       {
-        "id": "https://openalex.org/keywords/international-law",
-        "display_name": "International law",
-        "score": 0.3695000112056732
+        "id": "https://openalex.org/keywords/human-trafficking",
+        "display_name": "human trafficking",
+        "score": 0.7879999876022339
       },
       {
-        "id": "https://openalex.org/keywords/armed-conflict",
-        "display_name": "Armed conflict",
-        "score": 0.33959999680519104
+        "id": "https://openalex.org/keywords/easements",
+        "display_name": "servitude",
+        "score": 0.9359999895095825
+      },
+      {
+        "id": "https://openalex.org/keywords/foreign-fighters",
+        "display_name": "foreign fighters",
+        "score": 0.35199999809265137
       }
     ],
     "concepts": [
@@ -18341,6 +18435,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s0020589325100924",
+        "doi": "https://doi.org/10.1017/s0020589325100924",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0020589325100924",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1D0028BC9208968FF6A5D50F0C26F008/S0020589325100924a.pdf/div-class-title-modern-slavery-in-armed-conflict-foreign-forced-fighters-in-ukraine-div.pdf",
@@ -18355,6 +18450,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -18378,6 +18484,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0020589325100924",
+      "doi": "https://doi.org/10.1017/s0020589325100924",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0020589325100924",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1D0028BC9208968FF6A5D50F0C26F008/S0020589325100924a.pdf/div-class-title-modern-slavery-in-armed-conflict-foreign-forced-fighters-in-ukraine-div.pdf",
@@ -18392,6 +18499,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -18412,7 +18530,15 @@
       "raw_source_name": "International and Comparative Law Quarterly",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 1.0
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -18426,16 +18552,16 @@
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W4391375266",
-      "https://openalex.org/W2899084033",
-      "https://openalex.org/W2748952813",
-      "https://openalex.org/W2739734629",
-      "https://openalex.org/W4400267834",
-      "https://openalex.org/W2383337799",
-      "https://openalex.org/W2896370222",
-      "https://openalex.org/W2362258892",
-      "https://openalex.org/W2387139366",
-      "https://openalex.org/W2388784220"
+      "https://openalex.org/W4400200746",
+      "https://openalex.org/W4414103597",
+      "https://openalex.org/W2891750417",
+      "https://openalex.org/W4390614630",
+      "https://openalex.org/W4407566102",
+      "https://openalex.org/W7208828162",
+      "https://openalex.org/W4405129179",
+      "https://openalex.org/W6962662265",
+      "https://openalex.org/W4310796993",
+      "https://openalex.org/W6929670908"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -18947,8 +19073,13 @@
         227
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-13T10:08:12.033832",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -19480,7 +19611,7 @@
     "doi": "https://doi.org/10.1017/s0020589325100808",
     "title": "Third-Party Countermeasures: Making Custom Out of Ambiguous Practice?",
     "display_name": "Third-Party Countermeasures: Making Custom Out of Ambiguous Practice?",
-    "relevance_score": 0.6386894,
+    "relevance_score": 2.622108,
     "publication_year": 2025,
     "publication_date": "2025-04-01",
     "ids": {
@@ -19490,6 +19621,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0020589325100808",
+      "doi": "https://doi.org/10.1017/s0020589325100808",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0020589325100808",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/000F60E7CB4D514B7699983E47F28F0D/S0020589325100808a.pdf/div-class-title-third-party-countermeasures-making-custom-out-of-ambiguous-practice-div.pdf",
@@ -19504,6 +19636,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -19524,6 +19667,7 @@
       "raw_source_name": "International and Comparative Law Quarterly",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -19540,7 +19684,10 @@
         "author": {
           "id": "https://openalex.org/A5052527663",
           "display_name": "Alexandra Hofer",
-          "orcid": "https://orcid.org/0000-0003-0041-277X"
+          "orcid": "https://orcid.org/0000-0003-0041-277X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0041-277X"
+          ]
         },
         "institutions": [
           {
@@ -19582,17 +19729,28 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I193662353"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
-    "has_fulltext": true,
-    "cited_by_count": 0,
-    "citation_normalized_percentile": {
-      "value": 0.29487654,
-      "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
     },
-    "cited_by_percentile_year": null,
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 44.7981,
+    "has_fulltext": true,
+    "cited_by_count": 12,
+    "citation_normalized_percentile": {
+      "value": 0.99771619,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
     "biblio": {
       "volume": "74",
       "issue": "2",
@@ -19603,16 +19761,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12040",
-      "display_name": "International Arbitration and Investment Law",
-      "score": 0.9860000014305115,
+      "id": "https://openalex.org/T10749",
+      "display_name": "International Law and Human Rights",
+      "score": 0.9848999977111816,
       "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -19621,26 +19779,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12040",
-        "display_name": "International Arbitration and Investment Law",
-        "score": 0.9860000014305115,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1408",
-          "display_name": "Strategy and Management"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/14",
-          "display_name": "Business, Management and Accounting"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T10749",
         "display_name": "International Law and Human Rights",
-        "score": 0.9800999760627747,
+        "score": 0.9848999977111816,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -19655,88 +19796,80 @@
         }
       },
       {
-        "id": "https://openalex.org/T13756",
-        "display_name": "International Environmental Law and Policies",
-        "score": 0.9679999947547913,
+        "id": "https://openalex.org/T13007",
+        "display_name": "Economic Sanctions and International Relations",
+        "score": 0.011500000022351742,
         "subfield": {
-          "id": "https://openalex.org/subfields/2308",
-          "display_name": "Management, Monitoring, Policy and Law"
+          "id": "https://openalex.org/subfields/2002",
+          "display_name": "Economics and Econometrics"
         },
         "field": {
-          "id": "https://openalex.org/fields/23",
-          "display_name": "Environmental Science"
+          "id": "https://openalex.org/fields/20",
+          "display_name": "Economics, Econometrics and Finance"
         },
         "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13086",
+        "display_name": "Post-Soviet Geopolitical Dynamics",
+        "score": 0.0003000000142492354,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/sanctions",
-        "display_name": "Sanctions",
-        "score": 0.7766803503036499
-      },
-      {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.6578735709190369
-      },
-      {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.6322205066680908
-      },
-      {
-        "id": "https://openalex.org/keywords/obligation",
-        "display_name": "Obligation",
-        "score": 0.6294718980789185
+        "id": "https://openalex.org/keywords/unilateral-sanctions",
+        "display_name": "unilateral sanctions",
+        "score": 0.7770000100135803
       },
       {
         "id": "https://openalex.org/keywords/customary-international-law",
-        "display_name": "Customary international law",
-        "score": 0.5714433789253235
+        "display_name": "customary international law",
+        "score": 0.8080000281333923
+      },
+      {
+        "id": "https://openalex.org/keywords/opinio-juris",
+        "display_name": "opinio juris",
+        "score": 0.9559999704360962
+      },
+      {
+        "id": "https://openalex.org/keywords/international-law-commission",
+        "display_name": "International Law Commission",
+        "score": 0.8690000176429749
+      },
+      {
+        "id": "https://openalex.org/keywords/russia-ukraine-war",
+        "display_name": "Russian invasion of Ukraine",
+        "score": 0.6439999938011169
+      },
+      {
+        "id": "https://openalex.org/keywords/breach-of-international-obligations",
+        "display_name": "breach of international obligations",
+        "score": 0.527999997138977
+      },
+      {
+        "id": "https://openalex.org/keywords/erga-omnes-obligations",
+        "display_name": "erga omnes obligations",
+        "score": 0.8640000224113464
       },
       {
         "id": "https://openalex.org/keywords/state-responsibility",
-        "display_name": "State responsibility",
-        "score": 0.5121033191680908
-      },
-      {
-        "id": "https://openalex.org/keywords/international-law",
-        "display_name": "International law",
-        "score": 0.5092088580131531
-      },
-      {
-        "id": "https://openalex.org/keywords/commission",
-        "display_name": "Commission",
-        "score": 0.4905818998813629
-      },
-      {
-        "id": "https://openalex.org/keywords/third-party",
-        "display_name": "Third party",
-        "score": 0.4734439551830292
-      },
-      {
-        "id": "https://openalex.org/keywords/context",
-        "display_name": "Context (archaeology)",
-        "score": 0.4521799087524414
-      },
-      {
-        "id": "https://openalex.org/keywords/state",
-        "display_name": "State (computer science)",
-        "score": 0.4236582815647125
-      },
-      {
-        "id": "https://openalex.org/keywords/public-international-law",
-        "display_name": "Public international law",
-        "score": 0.29627951979637146
-      },
-      {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.08018338680267334
+        "display_name": "state responsibility",
+        "score": 0.3580000102519989
       }
     ],
     "concepts": [
@@ -19865,6 +19998,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s0020589325100808",
+        "doi": "https://doi.org/10.1017/s0020589325100808",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0020589325100808",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/000F60E7CB4D514B7699983E47F28F0D/S0020589325100808a.pdf/div-class-title-third-party-countermeasures-making-custom-out-of-ambiguous-practice-div.pdf",
@@ -19879,6 +20013,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -19901,6 +20046,7 @@
       },
       {
         "id": "pmh:oai:dspace.library.uu.nl:1874/478264",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://dspace.library.uu.nl/handle/1874/478264",
         "pdf_url": null,
@@ -19912,6 +20058,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I193662353",
           "host_organization_name": "Utrecht University",
           "host_organization_lineage": [
@@ -19931,6 +20078,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0020589325100808",
+      "doi": "https://doi.org/10.1017/s0020589325100808",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0020589325100808",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/000F60E7CB4D514B7699983E47F28F0D/S0020589325100808a.pdf/div-class-title-third-party-countermeasures-making-custom-out-of-ambiguous-practice-div.pdf",
@@ -19945,6 +20093,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -19967,11 +20126,19 @@
     },
     "sustainable_development_goals": [
       {
-        "display_name": "Peace, Justice and strong institutions",
         "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.9595999717712402
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
         "score": 0.800000011920929
       }
     ],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -19996,16 +20163,16 @@
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W4205097449",
-      "https://openalex.org/W4312853923",
-      "https://openalex.org/W2131002065",
-      "https://openalex.org/W2134752262",
-      "https://openalex.org/W2914379536",
-      "https://openalex.org/W3122591316",
-      "https://openalex.org/W4214739161",
-      "https://openalex.org/W2888832978",
-      "https://openalex.org/W3022056688",
-      "https://openalex.org/W3122994950"
+      "https://openalex.org/W4414993469",
+      "https://openalex.org/W2619903369",
+      "https://openalex.org/W2620510963",
+      "https://openalex.org/W2618868901",
+      "https://openalex.org/W7119335940",
+      "https://openalex.org/W4253386205",
+      "https://openalex.org/W3081011243",
+      "https://openalex.org/W2620062715",
+      "https://openalex.org/W2620300753",
+      "https://openalex.org/W4230603995"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -20475,8 +20642,13 @@
         201
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 12
+      }
+    ],
+    "updated_date": "2026-09-26T08:19:03.415552",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -20484,7 +20656,7 @@
     "doi": "https://doi.org/10.1017/s0020589325100742",
     "title": "Provisional Measures and the End of Prima Facie Jurisdiction",
     "display_name": "Provisional Measures and the End of Prima Facie Jurisdiction",
-    "relevance_score": 0.61983246,
+    "relevance_score": 1.7287002,
     "publication_year": 2025,
     "publication_date": "2025-04-01",
     "ids": {
@@ -20494,6 +20666,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1017/s0020589325100742",
+      "doi": "https://doi.org/10.1017/s0020589325100742",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0020589325100742",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3D2032076BF96649168BB05F632D7971/S0020589325100742a.pdf/div-class-title-provisional-measures-and-the-end-of-prima-facie-jurisdiction-div.pdf",
@@ -20508,6 +20681,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -20528,6 +20712,7 @@
       "raw_source_name": "International and Comparative Law Quarterly",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -20544,9 +20729,32 @@
         "author": {
           "id": "https://openalex.org/A5081531647",
           "display_name": "Massimo Lando",
-          "orcid": "https://orcid.org/0000-0002-5223-4840"
+          "orcid": "https://orcid.org/0000-0002-5223-4840",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-5223-4840"
+          ]
         },
         "institutions": [
+          {
+            "id": "https://openalex.org/I165932596",
+            "display_name": "National University of Singapore",
+            "ror": "https://ror.org/01tgyzw49",
+            "country_code": "SG",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I165932596"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I4405276909",
+            "display_name": "Centre for International Law",
+            "ror": "https://ror.org/00s2qr322",
+            "country_code": "SG",
+            "type": "facility",
+            "lineage": [
+              "https://openalex.org/I4405276909"
+            ]
+          },
           {
             "id": "https://openalex.org/I889458895",
             "display_name": "University of Hong Kong",
@@ -20559,7 +20767,8 @@
           }
         ],
         "countries": [
-          "HK"
+          "HK",
+          "SG"
         ],
         "is_corresponding": true,
         "raw_author_name": "Massimo Lando",
@@ -20571,6 +20780,8 @@
           {
             "raw_affiliation_string": "University of Hong Kong, Hong Kong SAR and Centre for International Law, National University of Singapore",
             "institution_ids": [
+              "https://openalex.org/I165932596",
+              "https://openalex.org/I4405276909",
               "https://openalex.org/I889458895"
             ]
           }
@@ -20578,21 +20789,31 @@
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 1,
-    "institutions_distinct_count": 1,
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 3,
     "corresponding_author_ids": [
       "https://openalex.org/A5081531647"
     ],
     "corresponding_institution_ids": [
+      "https://openalex.org/I165932596",
+      "https://openalex.org/I4405276909",
       "https://openalex.org/I889458895"
     ],
-    "apc_list": null,
-    "apc_paid": null,
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
     "fwci": 0.0,
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.29483822,
+      "value": 0.20277244,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -20607,16 +20828,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T12040",
-      "display_name": "International Arbitration and Investment Law",
-      "score": 0.9914000034332275,
+      "id": "https://openalex.org/T10749",
+      "display_name": "International Law and Human Rights",
+      "score": 0.9731000065803528,
       "subfield": {
-        "id": "https://openalex.org/subfields/1408",
-        "display_name": "Strategy and Management"
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
       },
       "field": {
-        "id": "https://openalex.org/fields/14",
-        "display_name": "Business, Management and Accounting"
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -20625,43 +20846,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T12040",
-        "display_name": "International Arbitration and Investment Law",
-        "score": 0.9914000034332275,
-        "subfield": {
-          "id": "https://openalex.org/subfields/1408",
-          "display_name": "Strategy and Management"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/14",
-          "display_name": "Business, Management and Accounting"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T12652",
-        "display_name": "International Maritime Law Issues",
-        "score": 0.9861999750137329,
-        "subfield": {
-          "id": "https://openalex.org/subfields/2308",
-          "display_name": "Management, Monitoring, Policy and Law"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/23",
-          "display_name": "Environmental Science"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T10749",
         "display_name": "International Law and Human Rights",
-        "score": 0.9697999954223633,
+        "score": 0.9731000065803528,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
@@ -20674,68 +20861,67 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T12767",
+        "display_name": "Conflict of Laws and Jurisdiction",
+        "score": 0.008899999782443047,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12040",
+        "display_name": "International Arbitration and Investment Law",
+        "score": 0.007799999788403511,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1408",
+          "display_name": "Strategy and Management"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/prima-facie",
-        "display_name": "Prima facie",
-        "score": 0.8239704370498657
+        "id": "https://openalex.org/keywords/provisional-measures",
+        "display_name": "provisional measures",
+        "score": 0.9890000224113464
       },
       {
-        "id": "https://openalex.org/keywords/jurisdiction",
-        "display_name": "Jurisdiction",
-        "score": 0.8068379163742065
+        "id": "https://openalex.org/keywords/international-court-of-justice",
+        "display_name": "International Court of Justice",
+        "score": 0.8240000009536743
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.62995445728302
+        "id": "https://openalex.org/keywords/state-sovereignty",
+        "display_name": "state sovereignty",
+        "score": 0.7960000038146973
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.610328733921051
+        "id": "https://openalex.org/keywords/judicial-role",
+        "display_name": "judicial role",
+        "score": 0.41600000858306885
       },
       {
-        "id": "https://openalex.org/keywords/sovereignty",
-        "display_name": "Sovereignty",
-        "score": 0.5675724148750305
-      },
-      {
-        "id": "https://openalex.org/keywords/international-court",
-        "display_name": "International court",
-        "score": 0.5045911073684692
-      },
-      {
-        "id": "https://openalex.org/keywords/interlocutory",
-        "display_name": "Interlocutory",
-        "score": 0.48184025287628174
-      },
-      {
-        "id": "https://openalex.org/keywords/test",
-        "display_name": "Test (biology)",
-        "score": 0.4420672059059143
-      },
-      {
-        "id": "https://openalex.org/keywords/state",
-        "display_name": "State (computer science)",
-        "score": 0.41345149278640747
-      },
-      {
-        "id": "https://openalex.org/keywords/international-law",
-        "display_name": "International law",
-        "score": 0.3424392640590668
-      },
-      {
-        "id": "https://openalex.org/keywords/public-international-law",
-        "display_name": "Public international law",
-        "score": 0.2689405083656311
-      },
-      {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.24241504073143005
+        "id": "https://openalex.org/keywords/international-dispute-settlement",
+        "display_name": "international dispute settlement",
+        "score": 0.6430000066757202
       }
     ],
     "concepts": [
@@ -20864,6 +21050,7 @@
     "locations": [
       {
         "id": "doi:10.1017/s0020589325100742",
+        "doi": "https://doi.org/10.1017/s0020589325100742",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1017/s0020589325100742",
         "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3D2032076BF96649168BB05F632D7971/S0020589325100742a.pdf/div-class-title-provisional-measures-and-the-end-of-prima-facie-jurisdiction-div.pdf",
@@ -20878,6 +21065,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310311721",
           "host_organization_name": "Cambridge University Press",
           "host_organization_lineage": [
@@ -20900,6 +21098,7 @@
       },
       {
         "id": "pmh:oai:hub.hku.hk:10722/367061",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "http://hdl.handle.net/10722/367061",
         "pdf_url": null,
@@ -20911,6 +21110,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I889458895",
           "host_organization_name": "University of Hong Kong",
           "host_organization_lineage": [
@@ -20930,6 +21130,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1017/s0020589325100742",
+      "doi": "https://doi.org/10.1017/s0020589325100742",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1017/s0020589325100742",
       "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/3D2032076BF96649168BB05F632D7971/S0020589325100742a.pdf/div-class-title-provisional-measures-and-the-end-of-prima-facie-jurisdiction-div.pdf",
@@ -20944,6 +21145,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310311721",
         "host_organization_name": "Cambridge University Press",
         "host_organization_lineage": [
@@ -20964,29 +21176,38 @@
       "raw_source_name": "International and Comparative Law Quarterly",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.9595999717712402
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
       "pdf": true,
-      "grobid_xml": false
+      "grobid_xml": true
     },
     "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4413254220.pdf"
+      "pdf": "https://content.openalex.org/works/W4413254220.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4413254220.grobid-xml"
     },
     "referenced_works_count": 0,
     "referenced_works": [],
     "related_works": [
-      "https://openalex.org/W2210819217",
-      "https://openalex.org/W2903903507",
-      "https://openalex.org/W4361011737",
-      "https://openalex.org/W2004663209",
-      "https://openalex.org/W186032101",
-      "https://openalex.org/W3216827810",
-      "https://openalex.org/W4390117730",
-      "https://openalex.org/W2089076596",
-      "https://openalex.org/W2893105243",
-      "https://openalex.org/W4249531736"
+      "https://openalex.org/W4205945438",
+      "https://openalex.org/W2487661013",
+      "https://openalex.org/W2886934974",
+      "https://openalex.org/W2936934668",
+      "https://openalex.org/W2805241294",
+      "https://openalex.org/W604198780",
+      "https://openalex.org/W7075267649",
+      "https://openalex.org/W4353041367",
+      "https://openalex.org/W2461014928",
+      "https://openalex.org/W3216354633"
     ],
     "abstract_inverted_index": {
       "Abstract": [
@@ -20995,11 +21216,11 @@
       "This": [
         1,
         34,
-        65
+        64
       ],
       "article": [
         2,
-        66
+        65
       ],
       "argues": [
         3
@@ -21012,23 +21233,23 @@
         49,
         53,
         59,
-        96,
-        125,
-        131,
-        204
+        95,
+        124,
+        130,
+        203
       ],
       "provisional": [
         6,
         56,
-        91,
-        126,
-        161
+        90,
+        125,
+        160
       ],
       "measures": [
         7,
         57,
-        92,
-        127
+        91,
+        126
       ],
       "cases,": [
         8
@@ -21037,34 +21258,34 @@
         9,
         41,
         54,
-        72,
-        82,
-        97,
-        108,
-        112,
-        116,
-        121,
-        132,
-        136,
-        152,
-        169,
-        174,
-        195
+        71,
+        81,
+        96,
+        107,
+        111,
+        115,
+        120,
+        131,
+        135,
+        151,
+        168,
+        173,
+        194
       ],
       "International": [
         10
       ],
       "Court": [
         11,
-        175
+        174
       ],
       "of": [
         12,
-        74,
-        111,
-        123,
-        138,
-        194
+        73,
+        110,
+        122,
+        137,
+        193
       ],
       "Justice": [
         13
@@ -21080,12 +21301,12 @@
       ],
       "jurisdiction": [
         17,
-        124,
-        183
+        123,
+        182
       ],
       "by": [
         18,
-        89
+        88
       ],
       "assessing": [
         19
@@ -21108,8 +21329,8 @@
       ],
       "for": [
         25,
-        71,
-        160
+        70,
+        159
       ],
       "jurisdiction,": [
         26
@@ -21119,13 +21340,13 @@
       ],
       "also": [
         28,
-        189
+        188
       ],
       "a": [
         29,
-        75,
-        157,
-        191
+        74,
+        156,
+        190
       ],
       "respondent\u2019s": [
         30
@@ -21138,8 +21359,8 @@
       ],
       "more": [
         35,
-        76,
-        117
+        75,
+        116
       ],
       "granular": [
         36
@@ -21149,8 +21370,8 @@
       ],
       "is": [
         38,
-        81,
-        107
+        80,
+        106
       ],
       "different": [
         39
@@ -21160,8 +21381,8 @@
       ],
       "ICJ\u2019s": [
         42,
-        83,
-        133
+        82,
+        132
       ],
       "traditional": [
         43
@@ -21174,24 +21395,24 @@
       ],
       "test.": [
         46,
-        78
+        77
       ],
       "The": [
         47,
-        79,
-        105,
-        186
+        78,
+        104,
+        185
       ],
       "change": [
         48
       ],
       "approach": [
         50,
-        119,
-        140,
-        149,
-        166,
-        188
+        118,
+        139,
+        148,
+        165,
+        187
       ],
       "was": [
         51
@@ -21214,272 +21435,2897 @@
       "Russian": [
         62
       ],
-      "Federation": [
+      "Federation.": [
         63
       ],
-      ".": [
-        64
-      ],
       "suggests": [
-        67
+        66
       ],
       "two": [
-        68
+        67
       ],
       "likely": [
-        69
+        68
       ],
       "explanations": [
-        70
+        69
       ],
       "development": [
-        73
+        72
       ],
       "detailed": [
-        77,
-        118
+        76,
+        117
       ],
       "first": [
-        80
+        79
       ],
       "reluctance": [
-        84
+        83
       ],
       "to": [
-        85,
-        120,
-        177
+        84,
+        119,
+        176
       ],
       "limit": [
-        86
+        85
       ],
       "State": [
-        87
+        86
       ],
       "sovereignty": [
-        88
+        87
       ],
       "imposing": [
-        90
+        89
       ],
       "since": [
-        93
+        92
       ],
       "it": [
-        94,
-        181
+        93,
+        180
       ],
       "held,": [
-        95
+        94
       ],
       "2001": [
-        98
+        97
       ],
       "LaGrand": [
-        99
+        98
       ],
       "judgment,": [
-        100
+        99
       ],
       "that": [
-        101
+        100
       ],
       "they": [
-        102
+        101
       ],
       "are": [
-        103
+        102
       ],
       "binding.": [
-        104
+        103
       ],
       "second": [
-        106
+        105
       ],
       "political": [
-        109
+        108
       ],
       "sensitivity": [
-        110
+        109
       ],
       "particular": [
-        113
+        112
       ],
       "dispute.": [
-        114
+        113
       ],
       "However,": [
-        115
+        114
       ],
       "question": [
-        122
+        121
       ],
       "has": [
-        128,
-        182
+        127,
+        181
       ],
       "generated": [
-        129
+        128
       ],
       "inconsistency": [
-        130
+        129
       ],
       "jurisprudence:": [
-        134
+        133
       ],
       "first,": [
-        135
+        134
       ],
       "malleability": [
-        137
+        136
       ],
       "this": [
-        139,
-        148,
-        165
+        138,
+        147,
+        164
       ],
       "risks": [
-        141
+        140
       ],
       "like": [
-        142
+        141
       ],
       "cases": [
-        143
+        142
       ],
       "being": [
-        144
+        143
       ],
       "treated": [
-        145
+        144
       ],
       "differently;": [
-        146
+        145
       ],
       "second,": [
-        147
+        146
       ],
       "overlaps": [
+        149,
+        166
+      ],
+      "with": [
         150,
         167
       ],
-      "with": [
-        151,
-        168
-      ],
       "plausibility": [
-        153
+        152
       ],
       "test,": [
+        153,
+        171
+      ],
+      "which": [
         154,
         172
       ],
-      "which": [
-        155,
-        173
-      ],
       "concerns": [
-        156
+        155
       ],
       "separate": [
-        158
+        157
       ],
       "requirement": [
-        159
+        158
       ],
       "measures;": [
-        162
+        161
       ],
       "and,": [
-        163
+        162
       ],
       "third,": [
-        164
+        163
       ],
       "Oil": [
-        170
+        169
       ],
       "Platforms": [
-        171
+        170
       ],
       "uses": [
-        176
+        175
       ],
       "determine": [
-        178
+        177
       ],
       "definitively": [
-        179
+        178
       ],
       "whether": [
-        180
+        179
       ],
       "ratione": [
-        184
+        183
       ],
       "materiae.": [
-        185
+        184
       ],
       "new": [
-        187
+        186
       ],
       "promotes": [
-        190
+        189
       ],
       "dispute-settlement": [
-        192
+        191
       ],
       "conception": [
-        193
+        192
       ],
       "Court\u2019s": [
-        196
+        195
       ],
       "judicial": [
-        197
+        196
       ],
       "function,": [
-        198
+        197
       ],
       "rather": [
-        199
+        198
       ],
       "than": [
-        200
+        199
       ],
       "acknowledging": [
-        201
+        200
       ],
       "its": [
-        202
+        201
       ],
       "role": [
-        203
+        202
       ],
       "developing": [
-        205
+        204
       ],
       "international": [
-        206
+        205
       ],
       "law": [
-        207
+        206
       ],
       "or": [
-        208
+        207
       ],
       "maintaining": [
-        209
+        208
       ],
       "public": [
-        210
+        209
       ],
       "order.": [
-        211
+        210
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-09-22T17:25:34.749102",
     "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4409112894",
+    "doi": "https://doi.org/10.1017/s0020589325000077",
+    "title": "Council of Europe Expulsion and the European Convention on Human Rights: The Foundations of Involuntary Treaty Withdrawal",
+    "display_name": "Council of Europe Expulsion and the European Convention on Human Rights: The Foundations of Involuntary Treaty Withdrawal",
+    "relevance_score": 2.109719,
+    "publication_year": 2025,
+    "publication_date": "2025-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4409112894",
+      "doi": "https://doi.org/10.1017/s0020589325000077"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s0020589325000077",
+      "doi": "https://doi.org/10.1017/s0020589325000077",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0020589325000077",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1BAE996DE522306853D08EADCC3E8B35/S0020589325000077a.pdf/div-class-title-council-of-europe-expulsion-and-the-european-convention-on-human-rights-the-foundations-of-involuntary-treaty-withdrawal-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S156235965",
+        "display_name": "International and Comparative Law Quarterly",
+        "issn_l": "0020-5893",
+        "issn": [
+          "0020-5893",
+          "1471-6895"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International and Comparative Law Quarterly",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1BAE996DE522306853D08EADCC3E8B35/S0020589325000077a.pdf/div-class-title-council-of-europe-expulsion-and-the-european-convention-on-human-rights-the-foundations-of-involuntary-treaty-withdrawal-div.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5031246626",
+          "display_name": "Frederick Cowell",
+          "orcid": "https://orcid.org/0000-0002-0724-1638",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0724-1638"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I124357947",
+            "display_name": "University of London",
+            "ror": "https://ror.org/04cw6st05",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I124357947"
+            ]
+          },
+          {
+            "id": "https://openalex.org/I98259816",
+            "display_name": "Birkbeck, University of London",
+            "ror": "https://ror.org/02mb95055",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I124357947",
+              "https://openalex.org/I98259816"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Frederick Cowell",
+        "raw_affiliation_strings": [
+          "Birkbeck Law School, Birkbeck, University of London, London, UK"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-0724-1638",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Birkbeck Law School, Birkbeck, University of London, London, UK",
+            "institution_ids": [
+              "https://openalex.org/I124357947",
+              "https://openalex.org/I98259816"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5031246626"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I124357947",
+      "https://openalex.org/I98259816"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 3.7332,
+    "has_fulltext": true,
+    "cited_by_count": 1,
+    "citation_normalized_percentile": {
+      "value": 0.90277421,
+      "is_in_top_1_percent": false,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
+    "biblio": {
+      "volume": "74",
+      "issue": "1",
+      "first_page": "147",
+      "last_page": "177"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T13710",
+      "display_name": "European and International Law Studies",
+      "score": 0.8838000297546387,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T13710",
+        "display_name": "European and International Law Studies",
+        "score": 0.8838000297546387,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T10749",
+        "display_name": "International Law and Human Rights",
+        "score": 0.08020000159740448,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14259",
+        "display_name": "Legal Rights and Human Rights",
+        "score": 0.02969999983906746,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3308",
+          "display_name": "Law"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/council-of-europe",
+        "display_name": "Council of Europe",
+        "score": 0.6660000085830688
+      },
+      {
+        "id": "https://openalex.org/keywords/european-convention-on-human-rights",
+        "display_name": "European Convention on Human Rights",
+        "score": 0.9120000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/regional-human-rights-systems",
+        "display_name": "regional human rights systems",
+        "score": 0.906000018119812
+      },
+      {
+        "id": "https://openalex.org/keywords/treaty-withdrawal",
+        "display_name": "treaty withdrawal",
+        "score": 0.6909999847412109
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.7377017736434937
+      },
+      {
+        "id": "https://openalex.org/C169437150",
+        "wikidata": "https://www.wikidata.org/wiki/Q8458",
+        "display_name": "Human rights",
+        "level": 2,
+        "score": 0.6714854836463928
+      },
+      {
+        "id": "https://openalex.org/C2779010840",
+        "wikidata": "https://www.wikidata.org/wiki/Q131569",
+        "display_name": "Treaty",
+        "level": 2,
+        "score": 0.6602797508239746
+      },
+      {
+        "id": "https://openalex.org/C2780608745",
+        "wikidata": "https://www.wikidata.org/wiki/Q367293",
+        "display_name": "Convention",
+        "level": 2,
+        "score": 0.6032979488372803
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.5782153606414795
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1017/s0020589325000077",
+        "doi": "https://doi.org/10.1017/s0020589325000077",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1017/s0020589325000077",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1BAE996DE522306853D08EADCC3E8B35/S0020589325000077a.pdf/div-class-title-council-of-europe-expulsion-and-the-european-convention-on-human-rights-the-foundations-of-involuntary-treaty-withdrawal-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S156235965",
+          "display_name": "International and Comparative Law Quarterly",
+          "issn_l": "0020-5893",
+          "issn": [
+            "0020-5893",
+            "1471-6895"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International and Comparative Law Quarterly",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:eprints.bbk.ac.uk.oai2:55616",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://eprints.bbk.ac.uk/id/eprint/55616/3/55616a.pdf",
+        "pdf_url": "https://eprints.bbk.ac.uk/id/eprint/55616/3/55616a.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306400465",
+          "display_name": "BIROn (Birkbeck, University of London)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I98259816",
+          "host_organization_name": "Birkbeck, University of London",
+          "host_organization_lineage": [
+            "https://openalex.org/I98259816"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1017/s0020589325000077",
+      "doi": "https://doi.org/10.1017/s0020589325000077",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0020589325000077",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1BAE996DE522306853D08EADCC3E8B35/S0020589325000077a.pdf/div-class-title-council-of-europe-expulsion-and-the-european-convention-on-human-rights-the-foundations-of-involuntary-treaty-withdrawal-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S156235965",
+        "display_name": "International and Comparative Law Quarterly",
+        "issn_l": "0020-5893",
+        "issn": [
+          "0020-5893",
+          "1471-6895"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International and Comparative Law Quarterly",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.9595999717712402
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320320273",
+        "display_name": "University of Cambridge",
+        "ror": "https://ror.org/013meh722"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4409112894.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4409112894.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W6962748016",
+      "https://openalex.org/W4414513408",
+      "https://openalex.org/W4407717346",
+      "https://openalex.org/W4414512888",
+      "https://openalex.org/W2895334900",
+      "https://openalex.org/W4387602903",
+      "https://openalex.org/W7160375685",
+      "https://openalex.org/W7043106540",
+      "https://openalex.org/W4312495311",
+      "https://openalex.org/W4281664081"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "Article": [
+        1
+      ],
+      "58": [
+        2
+      ],
+      "of": [
+        3,
+        22,
+        43,
+        57,
+        70,
+        76,
+        85,
+        91,
+        97,
+        114
+      ],
+      "the": [
+        4,
+        17,
+        26,
+        41,
+        51,
+        83,
+        86,
+        89,
+        92,
+        98
+      ],
+      "European": [
+        5
+      ],
+      "Convention": [
+        6
+      ],
+      "on": [
+        7,
+        102,
+        125
+      ],
+      "Human": [
+        8
+      ],
+      "Rights": [
+        9
+      ],
+      "(ECHR)": [
+        10
+      ],
+      "contains": [
+        11
+      ],
+      "a": [
+        12,
+        23,
+        38,
+        68,
+        74,
+        111,
+        132
+      ],
+      "provision": [
+        13
+      ],
+      "which": [
+        14,
+        103
+      ],
+      "allows": [
+        15
+      ],
+      "for": [
+        16,
+        137
+      ],
+      "involuntary": [
+        18,
+        65,
+        104
+      ],
+      "withdrawal,": [
+        19
+      ],
+      "or": [
+        20,
+        34,
+        88
+      ],
+      "expulsion,": [
+        21
+      ],
+      "State": [
+        24
+      ],
+      "from": [
+        25,
+        50
+      ],
+      "ECHR": [
+        27,
+        52,
+        87
+      ],
+      "if": [
+        28
+      ],
+      "it": [
+        29,
+        77
+      ],
+      "has": [
+        30
+      ],
+      "been": [
+        31,
+        80
+      ],
+      "expelled": [
+        32
+      ],
+      "from,": [
+        33
+      ],
+      "ceased": [
+        35
+      ],
+      "to": [
+        36,
+        130
+      ],
+      "be": [
+        37
+      ],
+      "member": [
+        39
+      ],
+      "of,": [
+        40
+      ],
+      "Council": [
+        42
+      ],
+      "Europe": [
+        44
+      ],
+      "(CoE).": [
+        45
+      ],
+      "By": [
+        46
+      ],
+      "comparing": [
+        47
+      ],
+      "Russia's": [
+        48
+      ],
+      "exit": [
+        49
+      ],
+      "in": [
+        53,
+        59,
+        128
+      ],
+      "2022": [
+        54
+      ],
+      "with": [
+        55
+      ],
+      "that": [
+        56,
+        64
+      ],
+      "Greece": [
+        58
+      ],
+      "1969,": [
+        60
+      ],
+      "this": [
+        61
+      ],
+      "article": [
+        62,
+        108
+      ],
+      "demonstrates": [
+        63
+      ],
+      "withdrawal": [
+        66,
+        105,
+        127
+      ],
+      "poses": [
+        67
+      ],
+      "number": [
+        69
+      ],
+      "legal": [
+        71,
+        135
+      ],
+      "problems\u2014partly": [
+        72
+      ],
+      "as": [
+        73
+      ],
+      "result": [
+        75
+      ],
+      "not": [
+        78
+      ],
+      "having": [
+        79
+      ],
+      "considered": [
+        81
+      ],
+      "during": [
+        82
+      ],
+      "drafting": [
+        84
+      ],
+      "Statute": [
+        90
+      ],
+      "CoE,": [
+        93
+      ],
+      "and": [
+        94,
+        120
+      ],
+      "partly": [
+        95
+      ],
+      "because": [
+        96
+      ],
+      "highly": [
+        99
+      ],
+      "unclear": [
+        100
+      ],
+      "basis": [
+        101
+      ],
+      "operates.": [
+        106
+      ],
+      "The": [
+        107
+      ],
+      "then": [
+        109
+      ],
+      "conducts": [
+        110
+      ],
+      "comparative": [
+        112
+      ],
+      "analysis": [
+        113
+      ],
+      "other": [
+        115
+      ],
+      "regional": [
+        116
+      ],
+      "human": [
+        117
+      ],
+      "rights": [
+        118
+      ],
+      "systems": [
+        119
+      ],
+      "public": [
+        121
+      ],
+      "international": [
+        122
+      ],
+      "law": [
+        123
+      ],
+      "principles": [
+        124
+      ],
+      "treaty": [
+        126
+      ],
+      "order": [
+        129
+      ],
+      "suggest": [
+        131
+      ],
+      "more": [
+        133
+      ],
+      "comprehensive": [
+        134
+      ],
+      "foundation": [
+        136
+      ],
+      "expulsion.": [
+        138
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-09-16T18:09:00.828671",
+    "created_date": "2025-04-03T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4413254344",
+    "doi": "https://doi.org/10.1017/s0020589325100754",
+    "title": "A New Era for the OSCE Moscow Mechanism Following the 2022 Invasion of Ukraine",
+    "display_name": "A New Era for the OSCE Moscow Mechanism Following the 2022 Invasion of Ukraine",
+    "relevance_score": 2.0264843,
+    "publication_year": 2025,
+    "publication_date": "2025-04-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4413254344",
+      "doi": "https://doi.org/10.1017/s0020589325100754"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s0020589325100754",
+      "doi": "https://doi.org/10.1017/s0020589325100754",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0020589325100754",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EA806389CDE700EAECA746007D6DBE89/S0020589325100754a.pdf/div-class-title-a-new-era-for-the-osce-moscow-mechanism-following-the-2022-invasion-of-ukraine-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S156235965",
+        "display_name": "International and Comparative Law Quarterly",
+        "issn_l": "0020-5893",
+        "issn": [
+          "0020-5893",
+          "1471-6895"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International and Comparative Law Quarterly",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EA806389CDE700EAECA746007D6DBE89/S0020589325100754a.pdf/div-class-title-a-new-era-for-the-osce-moscow-mechanism-following-the-2022-invasion-of-ukraine-div.pdf",
+      "any_repository_has_fulltext": true
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5058970525",
+          "display_name": "Veronika B\u00edlkov\u00e1",
+          "orcid": "https://orcid.org/0000-0002-6298-9630",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-6298-9630"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I21250087",
+            "display_name": "Charles University",
+            "ror": "https://ror.org/024d6js02",
+            "country_code": "CZ",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I21250087"
+            ]
+          }
+        ],
+        "countries": [
+          "CZ"
+        ],
+        "is_corresponding": false,
+        "raw_author_name": "Veronika B\u00edlkov\u00e1",
+        "raw_affiliation_strings": [
+          "Charles University"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-6298-9630",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Charles University",
+            "institution_ids": [
+              "https://openalex.org/I21250087"
+            ]
+          }
+        ]
+      },
+      {
+        "author_position": "last",
+        "author": {
+          "id": "https://openalex.org/A5091309242",
+          "display_name": "El\u012bna \u0160teinerte",
+          "orcid": "https://orcid.org/0009-0009-1463-6900",
+          "observed_orcids": [
+            "https://orcid.org/0009-0009-1463-6900"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I36234482",
+            "display_name": "University of Bristol",
+            "ror": "https://ror.org/0524sp257",
+            "country_code": "GB",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ],
+        "countries": [
+          "GB"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "El\u012bna \u0160teinerte",
+        "raw_affiliation_strings": [
+          "Law School, University of Bristol"
+        ],
+        "raw_orcid": "https://orcid.org/0009-0009-1463-6900",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "Law School, University of Bristol",
+            "institution_ids": [
+              "https://openalex.org/I36234482"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 2,
+    "institutions_distinct_count": 2,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5091309242"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I36234482"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 37.3317,
+    "has_fulltext": true,
+    "cited_by_count": 10,
+    "citation_normalized_percentile": {
+      "value": 0.99685754,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 99,
+      "max": 100
+    },
+    "biblio": {
+      "volume": "74",
+      "issue": "2",
+      "first_page": "485",
+      "last_page": "501"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10749",
+      "display_name": "International Law and Human Rights",
+      "score": 0.9398999810218811,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10749",
+        "display_name": "International Law and Human Rights",
+        "score": 0.9398999810218811,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14492",
+        "display_name": "War, Law, and Justice",
+        "score": 0.024299999698996544,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13086",
+        "display_name": "Post-Soviet Geopolitical Dynamics",
+        "score": 0.008899999782443047,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/objective-structured-clinical-examination",
+        "display_name": "OSCE",
+        "score": 0.746999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/russia-ukraine-war",
+        "display_name": "Russian invasion of Ukraine",
+        "score": 0.6660000085830688
+      },
+      {
+        "id": "https://openalex.org/keywords/violations-of-international-humanitarian-law",
+        "display_name": "international humanitarian law violations",
+        "score": 0.6330000162124634
+      },
+      {
+        "id": "https://openalex.org/keywords/human-rights-violations",
+        "display_name": "human rights violations",
+        "score": 0.9769999980926514
+      },
+      {
+        "id": "https://openalex.org/keywords/rapid-response-mechanism",
+        "display_name": "rapid response mechanism",
+        "score": 0.4779999852180481
+      },
+      {
+        "id": "https://openalex.org/keywords/international-accountability",
+        "display_name": "international accountability",
+        "score": 0.7260000109672546
+      },
+      {
+        "id": "https://openalex.org/keywords/international-justice",
+        "display_name": "international justice",
+        "score": 0.9330000281333923
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C89611455",
+        "wikidata": "https://www.wikidata.org/wiki/Q6804646",
+        "display_name": "Mechanism (biology)",
+        "level": 2,
+        "score": 0.7382854223251343
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.6510297060012817
+      },
+      {
+        "id": "https://openalex.org/C2776007630",
+        "wikidata": "https://www.wikidata.org/wiki/Q2798912",
+        "display_name": "Accountability",
+        "level": 2,
+        "score": 0.5354189276695251
+      },
+      {
+        "id": "https://openalex.org/C169437150",
+        "wikidata": "https://www.wikidata.org/wiki/Q8458",
+        "display_name": "Human rights",
+        "level": 2,
+        "score": 0.48184001445770264
+      },
+      {
+        "id": "https://openalex.org/C139621336",
+        "wikidata": "https://www.wikidata.org/wiki/Q3190382",
+        "display_name": "Economic Justice",
+        "level": 2,
+        "score": 0.4545930027961731
+      },
+      {
+        "id": "https://openalex.org/C55447825",
+        "wikidata": "https://www.wikidata.org/wiki/Q4394526",
+        "display_name": "International law",
+        "level": 2,
+        "score": 0.4496607184410095
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.42777904868125916
+      },
+      {
+        "id": "https://openalex.org/C190253527",
+        "wikidata": "https://www.wikidata.org/wiki/Q295354",
+        "display_name": "Law and economics",
+        "level": 1,
+        "score": 0.35779279470443726
+      },
+      {
+        "id": "https://openalex.org/C144024400",
+        "wikidata": "https://www.wikidata.org/wiki/Q21201",
+        "display_name": "Sociology",
+        "level": 0,
+        "score": 0.2799001932144165
+      },
+      {
+        "id": "https://openalex.org/C111472728",
+        "wikidata": "https://www.wikidata.org/wiki/Q9471",
+        "display_name": "Epistemology",
+        "level": 1,
+        "score": 0.12792262434959412
+      },
+      {
+        "id": "https://openalex.org/C138885662",
+        "wikidata": "https://www.wikidata.org/wiki/Q5891",
+        "display_name": "Philosophy",
+        "level": 0,
+        "score": 0.0
+      }
+    ],
+    "mesh": [],
+    "locations_count": 2,
+    "locations": [
+      {
+        "id": "doi:10.1017/s0020589325100754",
+        "doi": "https://doi.org/10.1017/s0020589325100754",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1017/s0020589325100754",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EA806389CDE700EAECA746007D6DBE89/S0020589325100754a.pdf/div-class-title-a-new-era-for-the-osce-moscow-mechanism-following-the-2022-invasion-of-ukraine-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S156235965",
+          "display_name": "International and Comparative Law Quarterly",
+          "issn_l": "0020-5893",
+          "issn": [
+            "0020-5893",
+            "1471-6895"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International and Comparative Law Quarterly",
+        "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:research-information.bris.ac.uk:openaire/910fe741-14d2-47ce-a0c9-119d01caf6a1",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://research-information.bris.ac.uk/en/publications/910fe741-14d2-47ce-a0c9-119d01caf6a1",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S7407055359",
+          "display_name": "Explore Bristol Research",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": null,
+          "host_organization_name": null,
+          "host_organization_lineage": [],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "B\u00edlkov\u00e1, V & \u0160teinerte, E 2025, 'A New Era for the OSCE Moscow Mechanism Following the 2022 Invasion of Ukraine', International and Comparative Law Quarterly, vol. 74, no. 2, pp. 485-501. https://doi.org/10.1017/S0020589325100754",
+        "raw_type": "info:eu-repo/semantics/article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1017/s0020589325100754",
+      "doi": "https://doi.org/10.1017/s0020589325100754",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0020589325100754",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/EA806389CDE700EAECA746007D6DBE89/S0020589325100754a.pdf/div-class-title-a-new-era-for-the-osce-moscow-mechanism-following-the-2022-invasion-of-ukraine-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S156235965",
+        "display_name": "International and Comparative Law Quarterly",
+        "issn_l": "0020-5893",
+        "issn": [
+          "0020-5893",
+          "1471-6895"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International and Comparative Law Quarterly",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 1.0
+      }
+    ],
+    "sustainable_development_goals_aurora": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.7699999809265137
+      }
+    ],
+    "study_designs": [],
+    "awards": [],
+    "funders": [
+      {
+        "id": "https://openalex.org/F4320309755",
+        "display_name": "Univerzita Karlova v Praze",
+        "ror": "https://ror.org/024d6js02"
+      }
+    ],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4413254344.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4413254344.grobid-xml"
+    },
+    "referenced_works_count": 0,
+    "referenced_works": [],
+    "related_works": [
+      "https://openalex.org/W4387602927",
+      "https://openalex.org/W4321377166",
+      "https://openalex.org/W4240251466",
+      "https://openalex.org/W4380837443",
+      "https://openalex.org/W7114163440",
+      "https://openalex.org/W3001203692",
+      "https://openalex.org/W4394862435",
+      "https://openalex.org/W4297619562",
+      "https://openalex.org/W7140301459",
+      "https://openalex.org/W4297618926"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "This": [
+        1
+      ],
+      "article": [
+        2,
+        89,
+        117
+      ],
+      "provides": [
+        3
+      ],
+      "a": [
+        4,
+        11,
+        41,
+        91,
+        105
+      ],
+      "critical": [
+        5
+      ],
+      "examination": [
+        6
+      ],
+      "of": [
+        7,
+        35,
+        47,
+        57,
+        65,
+        108,
+        114,
+        124
+      ],
+      "the": [
+        8,
+        15,
+        37,
+        75,
+        79,
+        88,
+        95,
+        116,
+        120,
+        125
+      ],
+      "Moscow": [
+        9,
+        126
+      ],
+      "Mechanism,": [
+        10,
+        127
+      ],
+      "rapid-response": [
+        12
+      ],
+      "tool": [
+        13
+      ],
+      "within": [
+        14
+      ],
+      "Organization": [
+        16
+      ],
+      "for": [
+        17,
+        141
+      ],
+      "Security": [
+        18
+      ],
+      "and": [
+        19,
+        27,
+        69,
+        99,
+        122,
+        145
+      ],
+      "Co-operation": [
+        20
+      ],
+      "in": [
+        21,
+        25,
+        49,
+        60,
+        84,
+        112
+      ],
+      "Europe.": [
+        22
+      ],
+      "Originally": [
+        23
+      ],
+      "established": [
+        24
+      ],
+      "1991": [
+        26
+      ],
+      "rarely": [
+        28
+      ],
+      "invoked": [
+        29
+      ],
+      "during": [
+        30,
+        74
+      ],
+      "its": [
+        31,
+        101,
+        109,
+        135
+      ],
+      "first": [
+        32
+      ],
+      "three": [
+        33
+      ],
+      "decades": [
+        34
+      ],
+      "existence,": [
+        36
+      ],
+      "Mechanism": [
+        38
+      ],
+      "has": [
+        39
+      ],
+      "experienced": [
+        40
+      ],
+      "reinvigoration": [
+        42
+      ],
+      "since": [
+        43
+      ],
+      "Russia\u2019s": [
+        44
+      ],
+      "full-scale": [
+        45
+      ],
+      "invasion": [
+        46
+      ],
+      "Ukraine": [
+        48
+      ],
+      "2022,": [
+        50
+      ],
+      "having": [
+        51
+      ],
+      "been": [
+        52
+      ],
+      "triggered": [
+        53
+      ],
+      "six": [
+        54
+      ],
+      "times,": [
+        55
+      ],
+      "four": [
+        56,
+        86
+      ],
+      "which": [
+        58
+      ],
+      "were": [
+        59
+      ],
+      "response": [
+        61
+      ],
+      "to": [
+        62
+      ],
+      "alleged": [
+        63
+      ],
+      "violations": [
+        64
+      ],
+      "international": [
+        66,
+        70,
+        143
+      ],
+      "humanitarian": [
+        67
+      ],
+      "law": [
+        68,
+        73
+      ],
+      "human": [
+        71
+      ],
+      "rights": [
+        72
+      ],
+      "conflict.": [
+        76
+      ],
+      "Drawing": [
+        77
+      ],
+      "on": [
+        78
+      ],
+      "authors\u2019": [
+        80
+      ],
+      "experience": [
+        81
+      ],
+      "as": [
+        82,
+        138
+      ],
+      "experts": [
+        83
+      ],
+      "these": [
+        85
+      ],
+      "missions,": [
+        87
+      ],
+      "offers": [
+        90
+      ],
+      "historical": [
+        92
+      ],
+      "overview,": [
+        93
+      ],
+      "explains": [
+        94
+      ],
+      "Mechanism\u2019s": [
+        96
+      ],
+      "procedural": [
+        97
+      ],
+      "dynamics": [
+        98
+      ],
+      "assesses": [
+        100
+      ],
+      "unique": [
+        102
+      ],
+      "features.": [
+        103
+      ],
+      "Through": [
+        104
+      ],
+      "comprehensive": [
+        106
+      ],
+      "analysis": [
+        107
+      ],
+      "repeated": [
+        110
+      ],
+      "use": [
+        111
+      ],
+      "respect": [
+        113
+      ],
+      "Ukraine,": [
+        115
+      ],
+      "highlights": [
+        118
+      ],
+      "both": [
+        119
+      ],
+      "strengths": [
+        121
+      ],
+      "limitations": [
+        123
+      ],
+      "ultimately": [
+        128
+      ],
+      "arguing": [
+        129
+      ],
+      "that": [
+        130
+      ],
+      "recent": [
+        131
+      ],
+      "developments": [
+        132
+      ],
+      "have": [
+        133
+      ],
+      "revealed": [
+        134
+      ],
+      "full": [
+        136
+      ],
+      "potential": [
+        137
+      ],
+      "an": [
+        139
+      ],
+      "instrument": [
+        140
+      ],
+      "advancing": [
+        142
+      ],
+      "justice": [
+        144
+      ],
+      "accountability.": [
+        146
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 10
+      }
+    ],
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2025-10-10T00:00:00"
+  },
+  {
+    "id": "https://openalex.org/W4409273555",
+    "doi": "https://doi.org/10.1017/s0020589325000107",
+    "title": "The Impact of the War in Ukraine on the Enlargement of the European Union: \u2018Securing the Blessings of Liberty\u2019 and its Challenges",
+    "display_name": "The Impact of the War in Ukraine on the Enlargement of the European Union: \u2018Securing the Blessings of Liberty\u2019 and its Challenges",
+    "relevance_score": 1.87971,
+    "publication_year": 2025,
+    "publication_date": "2025-01-01",
+    "ids": {
+      "openalex": "https://openalex.org/W4409273555",
+      "doi": "https://doi.org/10.1017/s0020589325000107"
+    },
+    "language": "en",
+    "primary_location": {
+      "id": "doi:10.1017/s0020589325000107",
+      "doi": "https://doi.org/10.1017/s0020589325000107",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0020589325000107",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/89B820D68F7A09296E28CDD37DBB467A/S0020589325000107a.pdf/div-class-title-the-impact-of-the-war-in-ukraine-on-the-enlargement-of-the-european-union-securing-the-blessings-of-liberty-and-its-challenges-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S156235965",
+        "display_name": "International and Comparative Law Quarterly",
+        "issn_l": "0020-5893",
+        "issn": [
+          "0020-5893",
+          "1471-6895"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International and Comparative Law Quarterly",
+      "raw_type": "journal-article"
+    },
+    "volume": null,
+    "type": "article",
+    "indexed_in": [
+      "crossref"
+    ],
+    "open_access": {
+      "is_oa": true,
+      "oa_status": "hybrid",
+      "oa_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/89B820D68F7A09296E28CDD37DBB467A/S0020589325000107a.pdf/div-class-title-the-impact-of-the-war-in-ukraine-on-the-enlargement-of-the-european-union-securing-the-blessings-of-liberty-and-its-challenges-div.pdf",
+      "any_repository_has_fulltext": false
+    },
+    "authorships": [
+      {
+        "author_position": "first",
+        "author": {
+          "id": "https://openalex.org/A5084157883",
+          "display_name": "Federico Fabbrini",
+          "orcid": "https://orcid.org/0000-0002-9214-9210",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-9214-9210"
+          ]
+        },
+        "institutions": [
+          {
+            "id": "https://openalex.org/I42934936",
+            "display_name": "Dublin City University",
+            "ror": "https://ror.org/04a1a1e81",
+            "country_code": "IE",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I42934936"
+            ]
+          }
+        ],
+        "countries": [
+          "IE"
+        ],
+        "is_corresponding": true,
+        "raw_author_name": "Federico Fabbrini",
+        "raw_affiliation_strings": [
+          "School of Law and Government, Dublin City University (DCU) and DCU Brexit Institute & Dublin European Law Institute, Dublin, Republic of Ireland"
+        ],
+        "raw_orcid": "https://orcid.org/0000-0002-9214-9210",
+        "affiliations": [
+          {
+            "raw_affiliation_string": "School of Law and Government, Dublin City University (DCU) and DCU Brexit Institute & Dublin European Law Institute, Dublin, Republic of Ireland",
+            "institution_ids": [
+              "https://openalex.org/I42934936"
+            ]
+          }
+        ]
+      }
+    ],
+    "institutions": [],
+    "countries_distinct_count": 1,
+    "institutions_distinct_count": 1,
+    "corresponding_author_ids": [
+      "https://openalex.org/A5084157883"
+    ],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I42934936"
+    ],
+    "apc_list": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "apc_paid": {
+      "value": 3550,
+      "currency": "USD",
+      "value_usd": 3550
+    },
+    "fwci": 22.399,
+    "has_fulltext": true,
+    "cited_by_count": 6,
+    "citation_normalized_percentile": {
+      "value": 0.99148439,
+      "is_in_top_1_percent": true,
+      "is_in_top_10_percent": true
+    },
+    "cited_by_percentile_year": {
+      "min": 90,
+      "max": 99
+    },
+    "biblio": {
+      "volume": "74",
+      "issue": "1",
+      "first_page": "123",
+      "last_page": "146"
+    },
+    "is_retracted": false,
+    "is_paratext": false,
+    "is_xpac": false,
+    "primary_topic": {
+      "id": "https://openalex.org/T10289",
+      "display_name": "European Union Policy and Governance",
+      "score": 0.5386000275611877,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3320",
+        "display_name": "Political Science and International Relations"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    "topics": [
+      {
+        "id": "https://openalex.org/T10289",
+        "display_name": "European Union Policy and Governance",
+        "score": 0.5386000275611877,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T14302",
+        "display_name": "European Politics and Security",
+        "score": 0.45509999990463257,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13710",
+        "display_name": "European and International Law Studies",
+        "score": 0.0044999998062849045,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      }
+    ],
+    "keywords": [
+      {
+        "id": "https://openalex.org/keywords/russia-ukraine-war",
+        "display_name": "Russian invasion of Ukraine",
+        "score": 0.8610000014305115
+      },
+      {
+        "id": "https://openalex.org/keywords/eu-enlargement",
+        "display_name": "EU enlargement",
+        "score": 0.8650000095367432
+      },
+      {
+        "id": "https://openalex.org/keywords/european-integration",
+        "display_name": "European integration",
+        "score": 0.5270000100135803
+      },
+      {
+        "id": "https://openalex.org/keywords/european-political-community",
+        "display_name": "European Political Community",
+        "score": 0.9710000157356262
+      },
+      {
+        "id": "https://openalex.org/keywords/council-of-europe",
+        "display_name": "Council of Europe",
+        "score": 0.9629999995231628
+      },
+      {
+        "id": "https://openalex.org/keywords/nato",
+        "display_name": "NATO",
+        "score": 0.8019999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/uk-eu-relations",
+        "display_name": "UK-EU relations",
+        "score": 0.6449999809265137
+      },
+      {
+        "id": "https://openalex.org/keywords/transnational-cooperation",
+        "display_name": "transnational cooperation",
+        "score": 0.7929999828338623
+      },
+      {
+        "id": "https://openalex.org/keywords/eu-reform",
+        "display_name": "EU reform",
+        "score": 0.8410000205039978
+      },
+      {
+        "id": "https://openalex.org/keywords/russia-s-aggression-against-ukraine",
+        "display_name": "Russia's aggression against Ukraine",
+        "score": 0.6660000085830688
+      }
+    ],
+    "concepts": [
+      {
+        "id": "https://openalex.org/C56281022",
+        "wikidata": "https://www.wikidata.org/wiki/Q11308039",
+        "display_name": "Resizing",
+        "level": 3,
+        "score": 0.8821651339530945
+      },
+      {
+        "id": "https://openalex.org/C17744445",
+        "wikidata": "https://www.wikidata.org/wiki/Q36442",
+        "display_name": "Political science",
+        "level": 0,
+        "score": 0.6452369093894958
+      },
+      {
+        "id": "https://openalex.org/C2910001868",
+        "wikidata": "https://www.wikidata.org/wiki/Q458",
+        "display_name": "European union",
+        "level": 2,
+        "score": 0.6133412718772888
+      },
+      {
+        "id": "https://openalex.org/C155202549",
+        "wikidata": "https://www.wikidata.org/wiki/Q178803",
+        "display_name": "International trade",
+        "level": 1,
+        "score": 0.3237994611263275
+      },
+      {
+        "id": "https://openalex.org/C199539241",
+        "wikidata": "https://www.wikidata.org/wiki/Q7748",
+        "display_name": "Law",
+        "level": 1,
+        "score": 0.32337531447410583
+      },
+      {
+        "id": "https://openalex.org/C144133560",
+        "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+        "display_name": "Business",
+        "level": 0,
+        "score": 0.2509869933128357
+      }
+    ],
+    "mesh": [],
+    "locations_count": 1,
+    "locations": [
+      {
+        "id": "doi:10.1017/s0020589325000107",
+        "doi": "https://doi.org/10.1017/s0020589325000107",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1017/s0020589325000107",
+        "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/89B820D68F7A09296E28CDD37DBB467A/S0020589325000107a.pdf/div-class-title-the-impact-of-the-war-in-ukraine-on-the-enlargement-of-the-european-union-securing-the-blessings-of-liberty-and-its-challenges-div.pdf",
+        "source": {
+          "id": "https://openalex.org/S156235965",
+          "display_name": "International and Comparative Law Quarterly",
+          "issn_l": "0020-5893",
+          "issn": [
+            "0020-5893",
+            "1471-6895"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [
+            "abdc-a-star",
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
+          "host_organization": "https://openalex.org/P4310311721",
+          "host_organization_name": "Cambridge University Press",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310311721",
+            "https://openalex.org/P4310311702"
+          ],
+          "host_organization_lineage_names": [
+            "Cambridge University Press",
+            "University of Cambridge"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "International and Comparative Law Quarterly",
+        "raw_type": "journal-article"
+      }
+    ],
+    "best_oa_location": {
+      "id": "doi:10.1017/s0020589325000107",
+      "doi": "https://doi.org/10.1017/s0020589325000107",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1017/s0020589325000107",
+      "pdf_url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/89B820D68F7A09296E28CDD37DBB467A/S0020589325000107a.pdf/div-class-title-the-impact-of-the-war-in-ukraine-on-the-enlargement-of-the-european-union-securing-the-blessings-of-liberty-and-its-challenges-div.pdf",
+      "source": {
+        "id": "https://openalex.org/S156235965",
+        "display_name": "International and Comparative Law Quarterly",
+        "issn_l": "0020-5893",
+        "issn": [
+          "0020-5893",
+          "1471-6895"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "abdc-a-star",
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International and Comparative Law Quarterly",
+      "raw_type": "journal-article"
+    },
+    "sustainable_development_goals": [
+      {
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.8999999761581421
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [],
+    "funders": [],
+    "has_content": {
+      "pdf": true,
+      "grobid_xml": true
+    },
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4409273555.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4409273555.grobid-xml"
+    },
+    "referenced_works_count": 1,
+    "referenced_works": [
+      "https://openalex.org/W4398247582"
+    ],
+    "related_works": [
+      "https://openalex.org/W4408646789",
+      "https://openalex.org/W4367849911",
+      "https://openalex.org/W4386043530",
+      "https://openalex.org/W6921397325",
+      "https://openalex.org/W7204012601",
+      "https://openalex.org/W4409456811",
+      "https://openalex.org/W7155633480",
+      "https://openalex.org/W4409456725",
+      "https://openalex.org/W4409370526",
+      "https://openalex.org/W4414588951"
+    ],
+    "abstract_inverted_index": {
+      "Abstract": [
+        0
+      ],
+      "This": [
+        1
+      ],
+      "article": [
+        2,
+        154
+      ],
+      "examines": [
+        3
+      ],
+      "how": [
+        4
+      ],
+      "the": [
+        5,
+        14,
+        17,
+        36,
+        51,
+        68,
+        73,
+        79,
+        86,
+        92,
+        96,
+        100,
+        110,
+        113,
+        126,
+        129,
+        145,
+        149,
+        159,
+        164,
+        168,
+        172,
+        181,
+        184,
+        189
+      ],
+      "war": [
+        6,
+        185
+      ],
+      "in": [
+        7,
+        24,
+        29,
+        176,
+        186
+      ],
+      "Ukraine": [
+        8,
+        187
+      ],
+      "has": [
+        9,
+        38,
+        106
+      ],
+      "had": [
+        10
+      ],
+      "an": [
+        11
+      ],
+      "impact": [
+        12,
+        182
+      ],
+      "upon": [
+        13
+      ],
+      "enlargement": [
+        15,
+        41,
+        190
+      ],
+      "of": [
+        16,
+        53,
+        70,
+        88,
+        102,
+        112,
+        118,
+        128,
+        136,
+        174,
+        183
+      ],
+      "European": [
+        18,
+        56,
+        93,
+        130
+      ],
+      "Union": [
+        19
+      ],
+      "(EU)": [
+        20
+      ],
+      "and": [
+        21,
+        59,
+        72,
+        78,
+        122,
+        124,
+        148,
+        167
+      ],
+      "transnational": [
+        22
+      ],
+      "cooperation": [
+        23
+      ],
+      "Europe.": [
+        25
+      ],
+      "It": [
+        26,
+        82
+      ],
+      "explains": [
+        27
+      ],
+      "how,": [
+        28
+      ],
+      "response": [
+        30
+      ],
+      "to": [
+        31,
+        91,
+        108,
+        157,
+        178
+      ],
+      "Russia's": [
+        32
+      ],
+      "aggression": [
+        33
+      ],
+      "against": [
+        34
+      ],
+      "Ukraine,": [
+        35
+      ],
+      "EU": [
+        37,
+        114,
+        162
+      ],
+      "relaunched": [
+        39
+      ],
+      "its": [
+        40,
+        61
+      ],
+      "process": [
+        42
+      ],
+      "(notably,": [
+        43
+      ],
+      "by": [
+        44
+      ],
+      "opening": [
+        45
+      ],
+      "accession": [
+        46
+      ],
+      "negotiations": [
+        47
+      ],
+      "with": [
+        48,
+        63
+      ],
+      "Ukraine),": [
+        49
+      ],
+      "promoted": [
+        50
+      ],
+      "establishment": [
+        52
+      ],
+      "a": [
+        54,
+        116,
+        134
+      ],
+      "new": [
+        55
+      ],
+      "Political": [
+        57
+      ],
+      "Community": [
+        58
+      ],
+      "deepened": [
+        60
+      ],
+      "ties": [
+        62
+      ],
+      "other": [
+        64
+      ],
+      "regional": [
+        65
+      ],
+      "organisations,": [
+        66
+      ],
+      "like": [
+        67
+      ],
+      "Council": [
+        69
+      ],
+      "Europe": [
+        71,
+        175
+      ],
+      "North": [
+        74
+      ],
+      "Atlantic": [
+        75
+      ],
+      "Treaty": [
+        76
+      ],
+      "Organization,": [
+        77
+      ],
+      "United": [
+        80
+      ],
+      "Kingdom.": [
+        81
+      ],
+      "is": [
+        83
+      ],
+      "argued": [
+        84
+      ],
+      "that": [
+        85
+      ],
+      "return": [
+        87
+      ],
+      "large-scale": [
+        89
+      ],
+      "warfare": [
+        90
+      ],
+      "continent": [
+        94
+      ],
+      "for": [
+        95
+      ],
+      "first": [
+        97
+      ],
+      "time": [
+        98
+      ],
+      "since": [
+        99
+      ],
+      "end": [
+        101
+      ],
+      "World": [
+        103
+      ],
+      "War": [
+        104
+      ],
+      "II": [
+        105
+      ],
+      "contributed": [
+        107
+      ],
+      "reaffirming": [
+        109
+      ],
+      "role": [
+        111
+      ],
+      "as": [
+        115
+      ],
+      "beacon": [
+        117
+      ],
+      "liberty,": [
+        119
+      ],
+      "peace,": [
+        120
+      ],
+      "security": [
+        121
+      ],
+      "prosperity,": [
+        123
+      ],
+      "highlighted": [
+        125
+      ],
+      "dynamism": [
+        127
+      ],
+      "integration": [
+        131
+      ],
+      "project.": [
+        132,
+        191
+      ],
+      "Nevertheless,": [
+        133
+      ],
+      "number": [
+        135
+      ],
+      "challenges": [
+        137
+      ],
+      "lie": [
+        138
+      ],
+      "ahead,": [
+        139
+      ],
+      "especially": [
+        140
+      ],
+      "regarding": [
+        141
+      ],
+      "enlargement,": [
+        142
+      ],
+      "including": [
+        143
+      ],
+      "both": [
+        144
+      ],
+      "candidates\u2019": [
+        146
+      ],
+      "preparation": [
+        147
+      ],
+      "EU's": [
+        150
+      ],
+      "own": [
+        151
+      ],
+      "readiness.": [
+        152
+      ],
+      "The": [
+        153
+      ],
+      "therefore": [
+        155
+      ],
+      "proceeds": [
+        156
+      ],
+      "map": [
+        158
+      ],
+      "debate": [
+        160
+      ],
+      "about": [
+        161
+      ],
+      "reform,": [
+        163
+      ],
+      "ongoing": [
+        165
+      ],
+      "stalemate": [
+        166
+      ],
+      "open": [
+        169
+      ],
+      "questions": [
+        170
+      ],
+      "concerning": [
+        171
+      ],
+      "future": [
+        173
+      ],
+      "order": [
+        177
+      ],
+      "illustrate": [
+        179
+      ],
+      "fully": [
+        180
+      ],
+      "on": [
+        188
+      ]
+    },
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 5
+      },
+      {
+        "year": 2025,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-14T16:39:01.820549",
+    "created_date": "2025-04-09T00:00:00"
   }
 ]

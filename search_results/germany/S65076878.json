@@ -3277,7 +3277,7 @@
     "doi": "https://doi.org/10.1080/14754835.2025.2477495",
     "title": "Perceptions of human rights complaint mechanisms: The case of German international development cooperation",
     "display_name": "Perceptions of human rights complaint mechanisms: The case of German international development cooperation",
-    "relevance_score": 9.500586,
+    "relevance_score": 26.064425,
     "publication_year": 2025,
     "publication_date": "2025-03-15",
     "ids": {
@@ -3287,9 +3287,10 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/14754835.2025.2477495",
+      "doi": "https://doi.org/10.1080/14754835.2025.2477495",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/14754835.2025.2477495",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/14754835.2025.2477495?needAccess=true",
       "source": {
         "id": "https://openalex.org/S65076878",
         "display_name": "Journal of Human Rights",
@@ -3301,33 +3302,47 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
-      "license": "cc-by",
-      "license_id": "https://openalex.org/licenses/cc-by",
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Journal of Human Rights",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
-      "crossref"
+      "crossref",
+      "datacite"
     ],
     "open_access": {
       "is_oa": true,
       "oa_status": "hybrid",
-      "oa_url": "https://doi.org/10.1080/14754835.2025.2477495",
-      "any_repository_has_fulltext": false
+      "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/14754835.2025.2477495?needAccess=true",
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -3335,19 +3350,12 @@
         "author": {
           "id": "https://openalex.org/A5090290338",
           "display_name": "Christoph Steinert",
-          "orcid": "https://orcid.org/0000-0003-1760-3214"
+          "orcid": "https://orcid.org/0000-0003-1760-3214",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1760-3214"
+          ]
         },
         "institutions": [
-          {
-            "id": "https://openalex.org/I144428437",
-            "display_name": "German Institute of Development and Sustainability",
-            "ror": "https://ror.org/01t3zke88",
-            "country_code": "DE",
-            "type": "facility",
-            "lineage": [
-              "https://openalex.org/I144428437"
-            ]
-          },
           {
             "id": "https://openalex.org/I202963720",
             "display_name": "University of St.Gallen",
@@ -3362,7 +3370,7 @@
             "id": "https://openalex.org/I4387156203",
             "display_name": "DEval \u2013 Deutsches Evaluierungsinstitut der Entwicklungszusammenarbeit",
             "ror": "https://ror.org/04tmban63",
-            "country_code": null,
+            "country_code": "DE",
             "type": "facility",
             "lineage": [
               "https://openalex.org/I4387156203"
@@ -3384,7 +3392,6 @@
           {
             "raw_affiliation_string": "German Institute for Development Evaluation (DEval)",
             "institution_ids": [
-              "https://openalex.org/I144428437",
               "https://openalex.org/I4387156203"
             ]
           },
@@ -3401,24 +3408,17 @@
         "author": {
           "id": "https://openalex.org/A5045095285",
           "display_name": "Angela Heucher",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0006-7454-7481",
+          "observed_orcids": [
+            "https://orcid.org/0009-0006-7454-7481"
+          ]
         },
         "institutions": [
-          {
-            "id": "https://openalex.org/I144428437",
-            "display_name": "German Institute of Development and Sustainability",
-            "ror": "https://ror.org/01t3zke88",
-            "country_code": "DE",
-            "type": "facility",
-            "lineage": [
-              "https://openalex.org/I144428437"
-            ]
-          },
           {
             "id": "https://openalex.org/I4387156203",
             "display_name": "DEval \u2013 Deutsches Evaluierungsinstitut der Entwicklungszusammenarbeit",
             "ror": "https://ror.org/04tmban63",
-            "country_code": null,
+            "country_code": "DE",
             "type": "facility",
             "lineage": [
               "https://openalex.org/I4387156203"
@@ -3438,7 +3438,6 @@
           {
             "raw_affiliation_string": "German Institute for Development Evaluation (DEval)",
             "institution_ids": [
-              "https://openalex.org/I144428437",
               "https://openalex.org/I4387156203"
             ]
           }
@@ -3447,26 +3446,19 @@
       {
         "author_position": "middle",
         "author": {
-          "id": "https://openalex.org/A5099006532",
-          "display_name": "Tobias Polak",
-          "orcid": null
+          "id": "https://openalex.org/A5002668152",
+          "display_name": "Jan Tobias Polak",
+          "orcid": "https://orcid.org/0009-0005-3237-4554",
+          "observed_orcids": [
+            "https://orcid.org/0009-0005-3237-4554"
+          ]
         },
         "institutions": [
-          {
-            "id": "https://openalex.org/I144428437",
-            "display_name": "German Institute of Development and Sustainability",
-            "ror": "https://ror.org/01t3zke88",
-            "country_code": "DE",
-            "type": "facility",
-            "lineage": [
-              "https://openalex.org/I144428437"
-            ]
-          },
           {
             "id": "https://openalex.org/I4387156203",
             "display_name": "DEval \u2013 Deutsches Evaluierungsinstitut der Entwicklungszusammenarbeit",
             "ror": "https://ror.org/04tmban63",
-            "country_code": null,
+            "country_code": "DE",
             "type": "facility",
             "lineage": [
               "https://openalex.org/I4387156203"
@@ -3486,7 +3478,6 @@
           {
             "raw_affiliation_string": "German Institute for Development Evaluation (DEval)",
             "institution_ids": [
-              "https://openalex.org/I144428437",
               "https://openalex.org/I4387156203"
             ]
           }
@@ -3497,7 +3488,10 @@
         "author": {
           "id": "https://openalex.org/A5023859906",
           "display_name": "Lea Smidt",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0006-0752-8563",
+          "observed_orcids": [
+            "https://orcid.org/0009-0006-0752-8563"
+          ]
         },
         "institutions": [
           {
@@ -3532,26 +3526,19 @@
       {
         "author_position": "middle",
         "author": {
-          "id": "https://openalex.org/A5095322523",
+          "id": "https://openalex.org/A5077691562",
           "display_name": "Lena Taube",
-          "orcid": null
+          "orcid": "https://orcid.org/0009-0002-7644-1411",
+          "observed_orcids": [
+            "https://orcid.org/0009-0002-7644-1411"
+          ]
         },
         "institutions": [
-          {
-            "id": "https://openalex.org/I144428437",
-            "display_name": "German Institute of Development and Sustainability",
-            "ror": "https://ror.org/01t3zke88",
-            "country_code": "DE",
-            "type": "facility",
-            "lineage": [
-              "https://openalex.org/I144428437"
-            ]
-          },
           {
             "id": "https://openalex.org/I4387156203",
             "display_name": "DEval \u2013 Deutsches Evaluierungsinstitut der Entwicklungszusammenarbeit",
             "ror": "https://ror.org/04tmban63",
-            "country_code": null,
+            "country_code": "DE",
             "type": "facility",
             "lineage": [
               "https://openalex.org/I4387156203"
@@ -3571,7 +3558,6 @@
           {
             "raw_affiliation_string": "German Institute for Development Evaluation (DEval)",
             "institution_ids": [
-              "https://openalex.org/I144428437",
               "https://openalex.org/I4387156203"
             ]
           }
@@ -3582,24 +3568,17 @@
         "author": {
           "id": "https://openalex.org/A5004629580",
           "display_name": "Martin Bruder",
-          "orcid": "https://orcid.org/0000-0003-0966-4551"
+          "orcid": "https://orcid.org/0000-0003-0966-4551",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-0966-4551"
+          ]
         },
         "institutions": [
-          {
-            "id": "https://openalex.org/I144428437",
-            "display_name": "German Institute of Development and Sustainability",
-            "ror": "https://ror.org/01t3zke88",
-            "country_code": "DE",
-            "type": "facility",
-            "lineage": [
-              "https://openalex.org/I144428437"
-            ]
-          },
           {
             "id": "https://openalex.org/I4387156203",
             "display_name": "DEval \u2013 Deutsches Evaluierungsinstitut der Entwicklungszusammenarbeit",
             "ror": "https://ror.org/04tmban63",
-            "country_code": null,
+            "country_code": "DE",
             "type": "facility",
             "lineage": [
               "https://openalex.org/I4387156203"
@@ -3619,7 +3598,6 @@
           {
             "raw_affiliation_string": "German Institute for Development Evaluation (DEval)",
             "institution_ids": [
-              "https://openalex.org/I144428437",
               "https://openalex.org/I4387156203"
             ]
           }
@@ -3628,22 +3606,21 @@
     ],
     "institutions": [],
     "countries_distinct_count": 2,
-    "institutions_distinct_count": 6,
+    "institutions_distinct_count": 3,
     "corresponding_author_ids": [
       "https://openalex.org/A5090290338"
     ],
     "corresponding_institution_ids": [
-      "https://openalex.org/I144428437",
       "https://openalex.org/I202963720",
       "https://openalex.org/I4387156203"
     ],
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.08273842,
+      "value": 0.05737153,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -3660,7 +3637,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T13035",
       "display_name": "Human Rights and Development",
-      "score": 0.9972000122070312,
+      "score": 0.9810000061988831,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -3678,7 +3655,7 @@
       {
         "id": "https://openalex.org/T13035",
         "display_name": "Human Rights and Development",
-        "score": 0.9972000122070312,
+        "score": 0.9810000061988831,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -3695,7 +3672,7 @@
       {
         "id": "https://openalex.org/T11168",
         "display_name": "International Development and Aid",
-        "score": 0.9860000014305115,
+        "score": 0.007199999876320362,
         "subfield": {
           "id": "https://openalex.org/subfields/3303",
           "display_name": "Development"
@@ -3712,7 +3689,7 @@
       {
         "id": "https://openalex.org/T13938",
         "display_name": "Historical and Contemporary Political Dynamics",
-        "score": 0.9801999926567078,
+        "score": 0.004399999976158142,
         "subfield": {
           "id": "https://openalex.org/subfields/1202",
           "display_name": "History"
@@ -3729,49 +3706,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/german",
-        "display_name": "German",
-        "score": 0.8717430830001831
+        "id": "https://openalex.org/keywords/complaint-mechanisms",
+        "display_name": "complaint mechanisms",
+        "score": 0.9369999766349792
       },
       {
-        "id": "https://openalex.org/keywords/complaint",
-        "display_name": "Complaint",
-        "score": 0.8651840686798096
+        "id": "https://openalex.org/keywords/accountability",
+        "display_name": "accountability",
+        "score": 0.6610000133514404
       },
       {
-        "id": "https://openalex.org/keywords/perception",
-        "display_name": "Perception",
-        "score": 0.6463455557823181
+        "id": "https://openalex.org/keywords/development-cooperation",
+        "display_name": "development cooperation",
+        "score": 0.8970000147819519
       },
       {
-        "id": "https://openalex.org/keywords/human-rights",
-        "display_name": "Human rights",
-        "score": 0.5981501340866089
+        "id": "https://openalex.org/keywords/german-development-cooperation",
+        "display_name": "German development cooperation",
+        "score": 0.824999988079071
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.5203503966331482
+        "id": "https://openalex.org/keywords/project-affected-communities",
+        "display_name": "project-affected communities",
+        "score": 0.9319999814033508
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.41480764746665955
+        "id": "https://openalex.org/keywords/transparency",
+        "display_name": "transparency",
+        "score": 0.3310000002384186
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.3869923949241638
+        "id": "https://openalex.org/keywords/rights-holders",
+        "display_name": "rights holders",
+        "score": 0.6850000023841858
       },
       {
-        "id": "https://openalex.org/keywords/history",
-        "display_name": "History",
-        "score": 0.11132532358169556
+        "id": "https://openalex.org/keywords/india",
+        "display_name": "India",
+        "score": 0.777999997138977
       },
       {
-        "id": "https://openalex.org/keywords/neuroscience",
-        "display_name": "Neuroscience",
-        "score": 0.0638427734375
+        "id": "https://openalex.org/keywords/nigeria",
+        "display_name": "Nigeria",
+        "score": 1.0
       }
     ],
     "concepts": [
@@ -3847,13 +3824,14 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1080/14754835.2025.2477495",
+        "doi": "https://doi.org/10.1080/14754835.2025.2477495",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/14754835.2025.2477495",
-        "pdf_url": null,
+        "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/14754835.2025.2477495?needAccess=true",
         "source": {
           "id": "https://openalex.org/S65076878",
           "display_name": "Journal of Human Rights",
@@ -3865,18 +3843,30 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
-        "license": "cc-by",
-        "license_id": "https://openalex.org/licenses/cc-by",
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -3884,27 +3874,62 @@
         "raw_type": "journal-article"
       },
       {
-        "id": "pmh:doi:10.5167/uzh-290497",
-        "is_oa": false,
-        "landing_page_url": null,
+        "id": "pmh:oai:www.zora.uzh.ch:20.500.14742/243420",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://www.zora.uzh.ch/handle/20.500.14742/243420",
         "pdf_url": null,
         "source": {
-          "id": "https://openalex.org/S4406922384",
-          "display_name": "Open MIND",
+          "id": "https://openalex.org/S4306401281",
+          "display_name": "Zurich Open Repository and Archive (University of Zurich)",
           "issn_l": null,
           "issn": null,
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
-          "host_organization": null,
-          "host_organization_name": null,
-          "host_organization_lineage": [],
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I202697423",
+          "host_organization_name": "University of Zurich",
+          "host_organization_lineage": [
+            "https://openalex.org/I202697423"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": "Steinert, C. V., Heucher, A., Polak, T., Smidt, L., Taube, L., & Bruder, M. (2025). Perceptions of human rights complaint mechanisms: The case of German international development cooperation. Journal of Human Rights, 24, 217\u2013235. https://doi.org/10.1080/14754835.2025.2477495",
+        "raw_type": "Journal Article"
+      },
+      {
+        "id": "doi:10.5167/uzh-290497",
+        "doi": "https://doi.org/10.5167/uzh-290497",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.5167/uzh-290497",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4306401281",
+          "display_name": "Zurich Open Repository and Archive (University of Zurich)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I202697423",
+          "host_organization_name": "University of Zurich",
+          "host_organization_lineage": [
+            "https://openalex.org/I202697423"
+          ],
           "host_organization_lineage_names": [],
           "type": "repository"
         },
         "license": null,
         "license_id": null,
-        "version": "submittedVersion",
+        "version": null,
         "is_accepted": false,
         "is_published": false,
         "raw_source_name": null,
@@ -3913,9 +3938,10 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1080/14754835.2025.2477495",
+      "doi": "https://doi.org/10.1080/14754835.2025.2477495",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/14754835.2025.2477495",
-      "pdf_url": null,
+      "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/14754835.2025.2477495?needAccess=true",
       "source": {
         "id": "https://openalex.org/S65076878",
         "display_name": "Journal of Human Rights",
@@ -3927,32 +3953,60 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
-      "license": "cc-by",
-      "license_id": "https://openalex.org/licenses/cc-by",
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Journal of Human Rights",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 1.0,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      },
+      {
+        "score": 0.5217000246047974,
+        "display_name": "Partnerships for the goals",
+        "id": "https://metadata.un.org/sdg/17"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "grobid_xml": true,
+      "pdf": true
     },
-    "content_urls": null,
+    "content_urls": {
+      "pdf": "https://content.openalex.org/works/W4409157672.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4409157672.grobid-xml"
+    },
     "referenced_works_count": 46,
     "referenced_works": [
       "https://openalex.org/W13554670",
@@ -3961,11 +4015,12 @@
       "https://openalex.org/W1976497826",
       "https://openalex.org/W1979509884",
       "https://openalex.org/W1979525705",
+      "https://openalex.org/W1996098966",
       "https://openalex.org/W1999893550",
-      "https://openalex.org/W2019305031",
       "https://openalex.org/W2083690364",
       "https://openalex.org/W2111938797",
       "https://openalex.org/W2132293474",
+      "https://openalex.org/W2144188763",
       "https://openalex.org/W2330126678",
       "https://openalex.org/W2510529043",
       "https://openalex.org/W2577880347",
@@ -3986,20 +4041,19 @@
       "https://openalex.org/W3092135400",
       "https://openalex.org/W3095185576",
       "https://openalex.org/W3112263371",
-      "https://openalex.org/W3124321814",
       "https://openalex.org/W3154845113",
       "https://openalex.org/W3162088632",
       "https://openalex.org/W3176404817",
       "https://openalex.org/W4200419219",
       "https://openalex.org/W4210287801",
       "https://openalex.org/W4231733887",
+      "https://openalex.org/W4239243828",
       "https://openalex.org/W4380266321",
       "https://openalex.org/W4393202704",
       "https://openalex.org/W4399314035",
       "https://openalex.org/W4402276992",
       "https://openalex.org/W4402882462",
       "https://openalex.org/W6755351929",
-      "https://openalex.org/W6805587381",
       "https://openalex.org/W7071047160"
     ],
     "related_works": [
@@ -4014,10 +4068,516 @@
       "https://openalex.org/W2072761933",
       "https://openalex.org/W4327644547"
     ],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "Complaint": [
+        0,
+        63
+      ],
+      "mechanisms": [
+        1,
+        13,
+        48,
+        64,
+        90,
+        111,
+        154,
+        169,
+        183,
+        217
+      ],
+      "are": [
+        2,
+        155,
+        184
+      ],
+      "an": [
+        3,
+        202
+      ],
+      "important": [
+        4,
+        35,
+        203
+      ],
+      "element": [
+        5
+      ],
+      "of": [
+        6,
+        37,
+        46,
+        75,
+        100,
+        109,
+        138,
+        167,
+        215
+      ],
+      "human": [
+        7
+      ],
+      "rights-based": [
+        8
+      ],
+      "approaches": [
+        9
+      ],
+      "to": [
+        10,
+        16,
+        21,
+        27,
+        73,
+        96,
+        118
+      ],
+      "development.": [
+        11
+      ],
+      "Such": [
+        12
+      ],
+      "empower": [
+        14
+      ],
+      "people": [
+        15
+      ],
+      "voice": [
+        17
+      ],
+      "their": [
+        18,
+        120,
+        126
+      ],
+      "grievances,": [
+        19
+      ],
+      "seeking": [
+        20
+      ],
+      "hold": [
+        22
+      ],
+      "international": [
+        23,
+        60,
+        222
+      ],
+      "development": [
+        24,
+        61,
+        113,
+        141,
+        223
+      ],
+      "actors": [
+        25
+      ],
+      "accountable": [
+        26
+      ],
+      "rights-holders": [
+        28
+      ],
+      "in": [
+        29,
+        59,
+        112,
+        122,
+        159,
+        176,
+        188,
+        218
+      ],
+      "project-affected": [
+        30,
+        189
+      ],
+      "communities.": [
+        31
+      ],
+      "Although": [
+        32
+      ],
+      "acknowledging": [
+        33
+      ],
+      "the": [
+        34,
+        44,
+        98,
+        107,
+        136
+      ],
+      "potential": [
+        36
+      ],
+      "complaint": [
+        38,
+        89,
+        110,
+        153,
+        168,
+        182,
+        216
+      ],
+      "mechanisms,": [
+        39
+      ],
+      "this": [
+        40
+      ],
+      "study": [
+        41
+      ],
+      "highlights": [
+        42
+      ],
+      "that": [
+        43,
+        88,
+        152,
+        181,
+        192
+      ],
+      "availability": [
+        45
+      ],
+      "such": [
+        47,
+        78
+      ],
+      "is": [
+        49,
+        207
+      ],
+      "a": [
+        50,
+        54
+      ],
+      "necessary": [
+        51
+      ],
+      "but": [
+        52
+      ],
+      "not": [
+        53,
+        157,
+        186
+      ],
+      "sufficient": [
+        55
+      ],
+      "condition": [
+        56
+      ],
+      "for": [
+        57,
+        205,
+        212
+      ],
+      "accountability": [
+        58,
+        69,
+        77,
+        206
+      ],
+      "cooperation.": [
+        62,
+        142,
+        224
+      ],
+      "can": [
+        65
+      ],
+      "only": [
+        66
+      ],
+      "effectively": [
+        67
+      ],
+      "create": [
+        68
+      ],
+      "if": [
+        70
+      ],
+      "they": [
+        71,
+        198
+      ],
+      "adhere": [
+        72
+      ],
+      "principles": [
+        74
+      ],
+      "citizen-driven": [
+        76
+      ],
+      "as": [
+        79
+      ],
+      "being": [
+        80
+      ],
+      "accessible,": [
+        81
+      ],
+      "independent,": [
+        82
+      ],
+      "and": [
+        83,
+        125,
+        131,
+        145,
+        173,
+        178,
+        191
+      ],
+      "transparent.": [
+        84
+      ],
+      "We": [
+        85,
+        105,
+        133
+      ],
+      "further": [
+        86
+      ],
+      "argue": [
+        87
+      ],
+      "must": [
+        91
+      ],
+      "include": [
+        92
+      ],
+      "safeguards": [
+        93
+      ],
+      "against": [
+        94,
+        103
+      ],
+      "reprisals": [
+        95
+      ],
+      "address": [
+        97
+      ],
+      "risk": [
+        99
+      ],
+      "retaliatory": [
+        101
+      ],
+      "repression": [
+        102
+      ],
+      "complainants.": [
+        104
+      ],
+      "examine": [
+        106
+      ],
+      "implementation": [
+        108
+      ],
+      "cooperation": [
+        114
+      ],
+      "practice": [
+        115
+      ],
+      "with": [
+        116
+      ],
+      "respect": [
+        117
+      ],
+      "both": [
+        119
+      ],
+      "inclusion": [
+        121
+      ],
+      "planning": [
+        123
+      ],
+      "documents": [
+        124
+      ],
+      "perception": [
+        127
+      ],
+      "by": [
+        128
+      ],
+      "project": [
+        129
+      ],
+      "staff": [
+        130
+      ],
+      "rights-holders.": [
+        132
+      ],
+      "draw": [
+        134
+      ],
+      "on": [
+        135,
+        164,
+        171
+      ],
+      "case": [
+        137
+      ],
+      "bilateral": [
+        139
+      ],
+      "German": [
+        140,
+        219
+      ],
+      "Using": [
+        143
+      ],
+      "qualitative": [
+        144
+      ],
+      "quantitative": [
+        146
+      ],
+      "content": [
+        147
+      ],
+      "analysis,": [
+        148
+      ],
+      "our": [
+        149
+      ],
+      "results": [
+        150,
+        210
+      ],
+      "show": [
+        151
+      ],
+      "often": [
+        156
+      ],
+      "included": [
+        158
+      ],
+      "project-planning": [
+        160
+      ],
+      "documents.": [
+        161
+      ],
+      "Further": [
+        162
+      ],
+      "evidence": [
+        163
+      ],
+      "local": [
+        165
+      ],
+      "perceptions": [
+        166
+      ],
+      "based": [
+        170
+      ],
+      "interviews": [
+        172
+      ],
+      "focus": [
+        174
+      ],
+      "groups": [
+        175
+      ],
+      "India": [
+        177
+      ],
+      "Nigeria": [
+        179
+      ],
+      "demonstrates": [
+        180
+      ],
+      "frequently": [
+        185
+      ],
+      "known": [
+        187
+      ],
+      "communities": [
+        190
+      ],
+      "right-holders": [
+        193
+      ],
+      "refrain": [
+        194
+      ],
+      "from": [
+        195
+      ],
+      "participation": [
+        196
+      ],
+      "because": [
+        197
+      ],
+      "fear": [
+        199
+      ],
+      "reprisals.": [
+        200
+      ],
+      "Hence,": [
+        201
+      ],
+      "prerequisite": [
+        204
+      ],
+      "missing.": [
+        208
+      ],
+      "The": [
+        209
+      ],
+      "call": [
+        211
+      ],
+      "substantial": [
+        213
+      ],
+      "improvements": [
+        214
+      ],
+      "and,": [
+        220
+      ],
+      "potentially,": [
+        221
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2025-11-06T03:46:38.306776",
-    "created_date": "2025-10-10T00:00:00"
+    "updated_date": "2026-10-27T15:51:10.671819",
+    "created_date": "2025-04-05T00:00:00"
   },
   {
     "id": "https://openalex.org/W1965937680",

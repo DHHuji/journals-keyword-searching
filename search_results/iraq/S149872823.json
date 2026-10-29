@@ -11241,7 +11241,7 @@
     "doi": "https://doi.org/10.1080/1369183x.2025.2482840",
     "title": "Migration industries bringing physicians to Sweden: Polish and Iraqi cases",
     "display_name": "Migration industries bringing physicians to Sweden: Polish and Iraqi cases",
-    "relevance_score": 12.95156,
+    "relevance_score": 35.721104,
     "publication_year": 2025,
     "publication_date": "2025-03-26",
     "ids": {
@@ -11251,6 +11251,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1080/1369183x.2025.2482840",
+      "doi": "https://doi.org/10.1080/1369183x.2025.2482840",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/1369183x.2025.2482840",
       "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2025.2482840?needAccess=true",
@@ -11265,31 +11266,46 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
       "raw_source_name": "Journal of Ethnic and Migration Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
     ],
     "open_access": {
       "is_oa": true,
-      "oa_status": "bronze",
+      "oa_status": "hybrid",
       "oa_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2025.2482840?needAccess=true",
       "any_repository_has_fulltext": false
     },
@@ -11297,12 +11313,28 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5116820249",
+          "id": "https://openalex.org/A5085589811",
           "display_name": "Selma Hedlund",
-          "orcid": "https://orcid.org/0009-0000-3061-7229"
+          "orcid": "https://orcid.org/0009-0000-3061-7229",
+          "observed_orcids": [
+            "https://orcid.org/0009-0000-3061-7229"
+          ]
         },
-        "institutions": [],
-        "countries": [],
+        "institutions": [
+          {
+            "id": "https://openalex.org/I111088046",
+            "display_name": "Boston University",
+            "ror": "https://ror.org/05qwgg493",
+            "country_code": "US",
+            "type": "education",
+            "lineage": [
+              "https://openalex.org/I111088046"
+            ]
+          }
+        ],
+        "countries": [
+          "US"
+        ],
         "is_corresponding": true,
         "raw_author_name": "Selma Hedlund",
         "raw_affiliation_strings": [
@@ -11312,25 +11344,29 @@
         "affiliations": [
           {
             "raw_affiliation_string": "Boston University",
-            "institution_ids": []
+            "institution_ids": [
+              "https://openalex.org/I111088046"
+            ]
           }
         ]
       }
     ],
     "institutions": [],
-    "countries_distinct_count": 0,
+    "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5116820249"
+      "https://openalex.org/A5085589811"
     ],
-    "corresponding_institution_ids": [],
+    "corresponding_institution_ids": [
+      "https://openalex.org/I111088046"
+    ],
     "apc_list": null,
     "apc_paid": null,
     "fwci": 0.0,
-    "has_fulltext": false,
+    "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.09385899,
+      "value": 0.07702949,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -11347,7 +11383,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11990",
       "display_name": "Global Health Workforce Issues",
-      "score": 0.9821000099182129,
+      "score": 0.9140999913215637,
       "subfield": {
         "id": "https://openalex.org/subfields/3604",
         "display_name": "Emergency Medical Services"
@@ -11365,7 +11401,7 @@
       {
         "id": "https://openalex.org/T11990",
         "display_name": "Global Health Workforce Issues",
-        "score": 0.9821000099182129,
+        "score": 0.9140999913215637,
         "subfield": {
           "id": "https://openalex.org/subfields/3604",
           "display_name": "Emergency Medical Services"
@@ -11378,48 +11414,87 @@
           "id": "https://openalex.org/domains/4",
           "display_name": "Health Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T10349",
+        "display_name": "Migration and Labor Dynamics",
+        "score": 0.050599999725818634,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13534",
+        "display_name": "Migration, Identity, and Health",
+        "score": 0.009100000374019146,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/irregular-migration",
-        "display_name": "Irregular migration",
-        "score": 0.6100549101829529
+        "id": "https://openalex.org/keywords/physician-migration",
+        "display_name": "physician migration",
+        "score": 0.7490000128746033
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.44968998432159424
+        "id": "https://openalex.org/keywords/migration-intermediaries",
+        "display_name": "migration intermediaries",
+        "score": 0.7670000195503235
       },
       {
-        "id": "https://openalex.org/keywords/demographic-economics",
-        "display_name": "Demographic economics",
-        "score": 0.40570810437202454
+        "id": "https://openalex.org/keywords/physician-shortage",
+        "display_name": "physician shortage",
+        "score": 0.5659999847412109
       },
       {
-        "id": "https://openalex.org/keywords/family-medicine",
-        "display_name": "Family medicine",
-        "score": 0.3454896807670593
+        "id": "https://openalex.org/keywords/polish-physicians",
+        "display_name": "Polish physicians",
+        "score": 0.6869999766349792
       },
       {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.3355768322944641
+        "id": "https://openalex.org/keywords/refugee-physicians",
+        "display_name": "refugee physicians",
+        "score": 0.7419999837875366
       },
       {
-        "id": "https://openalex.org/keywords/economic-geography",
-        "display_name": "Economic geography",
-        "score": 0.31230488419532776
+        "id": "https://openalex.org/keywords/smuggling",
+        "display_name": "smuggling",
+        "score": 0.45399999618530273
       },
       {
-        "id": "https://openalex.org/keywords/medicine",
-        "display_name": "Medicine",
-        "score": 0.3065623342990875
+        "id": "https://openalex.org/keywords/intra-european-mobility",
+        "display_name": "intra-European mobility",
+        "score": 0.5950000286102295
       },
       {
-        "id": "https://openalex.org/keywords/economics",
-        "display_name": "Economics",
-        "score": 0.12661004066467285
+        "id": "https://openalex.org/keywords/credential-recognition",
+        "display_name": "credential recognition",
+        "score": 0.597000002861023
+      },
+      {
+        "id": "https://openalex.org/keywords/race-relations",
+        "display_name": "race relations",
+        "score": 0.49399998784065247
       }
     ],
     "concepts": [
@@ -11485,6 +11560,7 @@
     "locations": [
       {
         "id": "doi:10.1080/1369183x.2025.2482840",
+        "doi": "https://doi.org/10.1080/1369183x.2025.2482840",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1080/1369183x.2025.2482840",
         "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2025.2482840?needAccess=true",
@@ -11499,18 +11575,32 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "ki-jl-1",
+            "norway-1",
+            "poland-140",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320547",
           "host_organization_name": "Taylor & Francis",
           "host_organization_lineage": [
-            "https://openalex.org/P4310320547"
+            "https://openalex.org/P4310320547",
+            "https://openalex.org/P4310320449"
           ],
           "host_organization_lineage_names": [
-            "Taylor & Francis"
+            "Taylor & Francis",
+            "Informa"
           ],
           "type": "journal"
         },
-        "license": null,
-        "license_id": null,
+        "license": "cc-by-nc-nd",
+        "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
         "version": "publishedVersion",
         "is_accepted": true,
         "is_published": true,
@@ -11520,6 +11610,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1080/1369183x.2025.2482840",
+      "doi": "https://doi.org/10.1080/1369183x.2025.2482840",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1080/1369183x.2025.2482840",
       "pdf_url": "https://www.tandfonline.com/doi/pdf/10.1080/1369183X.2025.2482840?needAccess=true",
@@ -11534,18 +11625,32 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-1",
+          "poland-140",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320547",
         "host_organization_name": "Taylor & Francis",
         "host_organization_lineage": [
-          "https://openalex.org/P4310320547"
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
         ],
         "host_organization_lineage_names": [
-          "Taylor & Francis"
+          "Taylor & Francis",
+          "Informa"
         ],
         "type": "journal"
       },
-      "license": null,
-      "license_id": null,
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
       "version": "publishedVersion",
       "is_accepted": true,
       "is_published": true,
@@ -11554,11 +11659,34 @@
     },
     "sustainable_development_goals": [
       {
-        "score": 0.7900000214576721,
+        "display_name": "Reduced inequalities",
         "id": "https://metadata.un.org/sdg/10",
-        "display_name": "Reduced inequalities"
+        "score": 0.7578999996185303
+      },
+      {
+        "display_name": "Decent work and economic growth",
+        "id": "https://metadata.un.org/sdg/8",
+        "score": 0.7257999777793884
+      },
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.47620001435279846
+      },
+      {
+        "display_name": "Good health and well-being",
+        "id": "https://metadata.un.org/sdg/3",
+        "score": 0.4043000042438507
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10",
+        "score": 0.7900000214576721
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -11568,11 +11696,12 @@
       }
     ],
     "has_content": {
-      "pdf": true,
-      "grobid_xml": false
+      "grobid_xml": true,
+      "pdf": true
     },
     "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4408896604.pdf"
+      "pdf": "https://content.openalex.org/works/W4408896604.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4408896604.grobid-xml"
     },
     "referenced_works_count": 63,
     "referenced_works": [
@@ -11652,9 +11781,459 @@
       "https://openalex.org/W2997164270",
       "https://openalex.org/W2793429434"
     ],
-    "abstract_inverted_index": null,
+    "abstract_inverted_index": {
+      "Sweden": [
+        0,
+        72,
+        156
+      ],
+      "has": [
+        1,
+        115
+      ],
+      "come": [
+        2
+      ],
+      "rely": [
+        3
+      ],
+      "on": [
+        4
+      ],
+      "and": [
+        5,
+        29,
+        36,
+        84,
+        91,
+        123,
+        125,
+        140,
+        147,
+        152
+      ],
+      "fuel": [
+        6
+      ],
+      "migration": [
+        7,
+        23,
+        86,
+        138
+      ],
+      "industries": [
+        8
+      ],
+      "to": [
+        9,
+        50,
+        71,
+        74,
+        104,
+        119,
+        175,
+        178
+      ],
+      "alleviate": [
+        10
+      ],
+      "their": [
+        11,
+        105
+      ],
+      "physician": [
+        12,
+        145,
+        185
+      ],
+      "shortfall,": [
+        13
+      ],
+      "predominately": [
+        14
+      ],
+      "through": [
+        15
+      ],
+      "international": [
+        16
+      ],
+      "recruitment": [
+        17
+      ],
+      "of": [
+        18,
+        63,
+        171
+      ],
+      "European": [
+        19,
+        106,
+        120,
+        151
+      ],
+      "physicians.": [
+        20
+      ],
+      "Recruiters": [
+        21
+      ],
+      "are": [
+        22,
+        46
+      ],
+      "intermediaries": [
+        24,
+        141
+      ],
+      "who": [
+        25
+      ],
+      "offer": [
+        26
+      ],
+      "job": [
+        27
+      ],
+      "opportunities": [
+        28
+      ],
+      "comprehensive": [
+        30
+      ],
+      "service": [
+        31
+      ],
+      "packages": [
+        32
+      ],
+      "that": [
+        33,
+        88,
+        160
+      ],
+      "create": [
+        34
+      ],
+      "hypermobility": [
+        35
+      ],
+      "advantage": [
+        37
+      ],
+      "among": [
+        38
+      ],
+      "already": [
+        39
+      ],
+      "mobile": [
+        40
+      ],
+      "EU/EEA": [
+        41
+      ],
+      "physicians": [
+        42,
+        173,
+        177
+      ],
+      "whose": [
+        43
+      ],
+      "medical": [
+        44,
+        100
+      ],
+      "credentials": [
+        45
+      ],
+      "automatically": [
+        47
+      ],
+      "recognised.": [
+        48
+      ],
+      "Next": [
+        49
+      ],
+      "intra-European": [
+        51
+      ],
+      "recruitment,": [
+        52
+      ],
+      "Swedish": [
+        53,
+        99,
+        165
+      ],
+      "healthcare": [
+        54
+      ],
+      "delivery": [
+        55
+      ],
+      "is": [
+        56,
+        89,
+        111
+      ],
+      "also": [
+        57
+      ],
+      "increasingly": [
+        58
+      ],
+      "benefitting": [
+        59
+      ],
+      "from": [
+        60
+      ],
+      "the": [
+        61,
+        82,
+        98,
+        130,
+        169,
+        183
+      ],
+      "labour": [
+        62
+      ],
+      "non-EU/EEA": [
+        64
+      ],
+      "doctors": [
+        65,
+        154
+      ],
+      "with": [
+        66
+      ],
+      "refugee": [
+        67
+      ],
+      "backgrounds.": [
+        68
+      ],
+      "Their": [
+        69
+      ],
+      "pathways": [
+        70
+      ],
+      "tend": [
+        73
+      ],
+      "be": [
+        75
+      ],
+      "brokered": [
+        76
+      ],
+      "in": [
+        77,
+        102,
+        117,
+        155,
+        157,
+        164
+      ],
+      "whole": [
+        78
+      ],
+      "or": [
+        79
+      ],
+      "part": [
+        80
+      ],
+      "by": [
+        81,
+        129
+      ],
+      "covert": [
+        83
+      ],
+      "illicit": [
+        85
+      ],
+      "industry": [
+        87,
+        110
+      ],
+      "smuggling,": [
+        90
+      ],
+      "they": [
+        92
+      ],
+      "receive": [
+        93
+      ],
+      "less": [
+        94
+      ],
+      "support": [
+        95
+      ],
+      "breaking": [
+        96
+      ],
+      "into": [
+        97
+      ],
+      "field": [
+        101
+      ],
+      "comparison": [
+        103
+      ],
+      "colleagues.": [
+        107
+      ],
+      "While": [
+        108
+      ],
+      "this": [
+        109,
+        180
+      ],
+      "not": [
+        112
+      ],
+      "state-sanctioned,": [
+        113
+      ],
+      "it": [
+        114
+      ],
+      "grown": [
+        116
+      ],
+      "response": [
+        118
+      ],
+      "border": [
+        121
+      ],
+      "securitisation": [
+        122
+      ],
+      "externalisation": [
+        124
+      ],
+      "as": [
+        126
+      ],
+      "such,": [
+        127
+      ],
+      "nurtured": [
+        128
+      ],
+      "state.": [
+        131
+      ],
+      "This": [
+        132
+      ],
+      "qualitative": [
+        133
+      ],
+      "study": [
+        134
+      ],
+      "shows": [
+        135
+      ],
+      "how": [
+        136
+      ],
+      "these": [
+        137
+      ],
+      "paths": [
+        139
+      ],
+      "effectively": [
+        142
+      ],
+      "differentiates": [
+        143
+      ],
+      "immigrant": [
+        144,
+        184
+      ],
+      "experiences": [
+        146
+      ],
+      "reproduces": [
+        148
+      ],
+      "hierarchies": [
+        149
+      ],
+      "between": [
+        150
+      ],
+      "non-European": [
+        153
+      ],
+      "a": [
+        158
+      ],
+      "manner": [
+        159
+      ],
+      "mirrors": [
+        161
+      ],
+      "race": [
+        162
+      ],
+      "relations": [
+        163
+      ],
+      "society.": [
+        166
+      ],
+      "I": [
+        167
+      ],
+      "use": [
+        168
+      ],
+      "case": [
+        170
+      ],
+      "Polish": [
+        172
+      ],
+      "compared": [
+        174
+      ],
+      "Iraqi": [
+        176
+      ],
+      "illustrate": [
+        179
+      ],
+      "inequality": [
+        181
+      ],
+      "within": [
+        182
+      ],
+      "workforce.": [
+        186
+      ]
+    },
     "counts_by_year": [],
-    "updated_date": "2026-03-07T13:37:22.277990",
+    "updated_date": "2026-10-13T10:08:12.033832",
     "created_date": "2025-10-10T00:00:00"
   },
   {

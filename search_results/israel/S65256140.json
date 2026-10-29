@@ -24482,7 +24482,7 @@
     "doi": "https://doi.org/10.1111/1467-9655.14321",
     "title": "Reasoning without consensus: grassroots experiments in radical inclusion in Israel/Palestine",
     "display_name": "Reasoning without consensus: grassroots experiments in radical inclusion in Israel/Palestine",
-    "relevance_score": 12.748617,
+    "relevance_score": 32.865513,
     "publication_year": 2025,
     "publication_date": "2025-09-12",
     "ids": {
@@ -24492,6 +24492,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1467-9655.14321",
+      "doi": "https://doi.org/10.1111/1467-9655.14321",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1467-9655.14321",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-9655.14321",
@@ -24506,6 +24507,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -24524,6 +24536,7 @@
       "raw_source_name": "Journal of the Royal Anthropological Institute",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -24540,7 +24553,10 @@
         "author": {
           "id": "https://openalex.org/A5076899110",
           "display_name": "Erica Weiss",
-          "orcid": "https://orcid.org/0000-0002-7047-6712"
+          "orcid": "https://orcid.org/0000-0002-7047-6712",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7047-6712"
+          ]
         },
         "institutions": [
           {
@@ -24562,6 +24578,7 @@
         "raw_affiliation_strings": [
           "Tel Aviv University"
         ],
+        "raw_orcid": null,
         "affiliations": [
           {
             "raw_affiliation_string": "Tel Aviv University",
@@ -24595,7 +24612,7 @@
     "has_fulltext": true,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.34719066,
+      "value": 0.24446568,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -24612,7 +24629,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11203",
       "display_name": "Jewish and Middle Eastern Studies",
-      "score": 0.9990000128746033,
+      "score": 0.8163999915122986,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -24630,10 +24647,27 @@
       {
         "id": "https://openalex.org/T11203",
         "display_name": "Jewish and Middle Eastern Studies",
-        "score": 0.9990000128746033,
+        "score": 0.8163999915122986,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13291",
+        "display_name": "Political Theory and Democracy",
+        "score": 0.05719999969005585,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -24647,24 +24681,7 @@
       {
         "id": "https://openalex.org/T13103",
         "display_name": "Middle East Politics and Society",
-        "score": 0.9858999848365784,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13634",
-        "display_name": "Middle East and Rwanda Conflicts",
-        "score": 0.9854000210762024,
+        "score": 0.029600000008940697,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -24681,44 +24698,49 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/grassroots",
-        "display_name": "Grassroots",
-        "score": 0.8759999871253967
+        "id": "https://openalex.org/keywords/radical-inclusion",
+        "display_name": "radical inclusion",
+        "score": 0.7540000081062317
       },
       {
-        "id": "https://openalex.org/keywords/mainstream",
-        "display_name": "Mainstream",
-        "score": 0.6542999744415283
+        "id": "https://openalex.org/keywords/consensus",
+        "display_name": "consensus",
+        "score": 0.5440000295639038
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.5860999822616577
+        "id": "https://openalex.org/keywords/ultra-orthodox-jews",
+        "display_name": "ultra-Orthodox Jews",
+        "score": 0.9120000004768372
       },
       {
-        "id": "https://openalex.org/keywords/inclusion",
-        "display_name": "Inclusion (mineral)",
-        "score": 0.5846999883651733
+        "id": "https://openalex.org/keywords/muslims",
+        "display_name": "Muslims",
+        "score": 0.6710000038146973
       },
       {
-        "id": "https://openalex.org/keywords/context",
-        "display_name": "Context (archaeology)",
-        "score": 0.5662000179290771
+        "id": "https://openalex.org/keywords/israeli-palestinian-conflict",
+        "display_name": "Israeli-Palestinian conflict",
+        "score": 0.8140000104904175
       },
       {
-        "id": "https://openalex.org/keywords/political-radicalism",
-        "display_name": "Political radicalism",
-        "score": 0.491100013256073
+        "id": "https://openalex.org/keywords/cosmology",
+        "display_name": "cosmology",
+        "score": 0.4449999928474426
       },
       {
-        "id": "https://openalex.org/keywords/judaism",
-        "display_name": "Judaism",
-        "score": 0.39579999446868896
+        "id": "https://openalex.org/keywords/public-sphere",
+        "display_name": "public sphere",
+        "score": 0.4860000014305115
       },
       {
-        "id": "https://openalex.org/keywords/shalom",
-        "display_name": "Shalom",
-        "score": 0.3614000082015991
+        "id": "https://openalex.org/keywords/communication-technology",
+        "display_name": "communication technology",
+        "score": 0.36500000953674316
+      },
+      {
+        "id": "https://openalex.org/keywords/social-change",
+        "display_name": "social change",
+        "score": 0.37400001287460327
       }
     ],
     "concepts": [
@@ -24924,6 +24946,7 @@
     "locations": [
       {
         "id": "doi:10.1111/1467-9655.14321",
+        "doi": "https://doi.org/10.1111/1467-9655.14321",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/1467-9655.14321",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-9655.14321",
@@ -24938,6 +24961,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -24959,6 +24993,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1111/1467-9655.14321",
+      "doi": "https://doi.org/10.1111/1467-9655.14321",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1467-9655.14321",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-9655.14321",
@@ -24973,6 +25008,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -24991,15 +25037,16 @@
       "raw_source_name": "Journal of the Royal Anthropological Institute",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
-    "awards": [
+    "sustainable_development_goals": [
       {
-        "id": "https://openalex.org/G3902445002",
-        "display_name": "The Praxis of Coexistence: A Comparative and Inductive Approach to the Challenges of Diversity",
-        "funder_award_id": "101087502",
-        "funder_id": "https://openalex.org/F4320320300",
-        "funder_display_name": "European Commission"
-      },
+        "id": "https://metadata.un.org/sdg/16",
+        "display_name": "Peace, justice, and strong institutions",
+        "score": 0.9200000166893005
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
+    "awards": [
       {
         "id": "https://openalex.org/G7286530014",
         "display_name": null,
@@ -25021,11 +25068,12 @@
       }
     ],
     "has_content": {
-      "grobid_xml": false,
+      "grobid_xml": true,
       "pdf": true
     },
     "content_urls": {
-      "pdf": "https://content.openalex.org/works/W4414598025.pdf"
+      "pdf": "https://content.openalex.org/works/W4414598025.pdf",
+      "grobid_xml": "https://content.openalex.org/works/W4414598025.grobid-xml"
     },
     "referenced_works_count": 55,
     "referenced_works": [
@@ -25041,6 +25089,7 @@
       "https://openalex.org/W1991771658",
       "https://openalex.org/W1992251986",
       "https://openalex.org/W2003838939",
+      "https://openalex.org/W2006962930",
       "https://openalex.org/W2036128480",
       "https://openalex.org/W2045154352",
       "https://openalex.org/W2061751702",
@@ -25073,7 +25122,6 @@
       "https://openalex.org/W4206949104",
       "https://openalex.org/W4214537080",
       "https://openalex.org/W4229957575",
-      "https://openalex.org/W4231732583",
       "https://openalex.org/W4232037086",
       "https://openalex.org/W4234789913",
       "https://openalex.org/W4254052152",
@@ -25509,7 +25557,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-04-10T15:06:20.359241",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -34082,7 +34130,7 @@
     "doi": "https://doi.org/10.1111/1467-9655.14264",
     "title": "Complaint culture: the non\u2010market economy and moral disappointment in a late\u2010socialist kibbutz",
     "display_name": "Complaint culture: the non\u2010market economy and moral disappointment in a late\u2010socialist kibbutz",
-    "relevance_score": 4.4589496,
+    "relevance_score": 3.1357293,
     "publication_year": 2025,
     "publication_date": "2025-02-26",
     "ids": {
@@ -34092,6 +34140,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1467-9655.14264",
+      "doi": "https://doi.org/10.1111/1467-9655.14264",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1467-9655.14264",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-9655.14264",
@@ -34106,6 +34155,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -34124,6 +34184,7 @@
       "raw_source_name": "Journal of the Royal Anthropological Institute",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -34138,9 +34199,10 @@
       {
         "author_position": "first",
         "author": {
-          "id": "https://openalex.org/A5116584617",
+          "id": "https://openalex.org/A5092926133",
           "display_name": "Omri Senderowicz",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -34177,7 +34239,7 @@
     "countries_distinct_count": 1,
     "institutions_distinct_count": 1,
     "corresponding_author_ids": [
-      "https://openalex.org/A5116584617"
+      "https://openalex.org/A5092926133"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I146416000"
@@ -34192,17 +34254,17 @@
       "currency": "USD",
       "value_usd": 4120
     },
-    "fwci": 3.5352,
+    "fwci": 5.0325,
     "has_fulltext": true,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.89509488,
+      "value": 0.92835882,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 96,
-      "max": 98
+      "min": 93,
+      "max": 96
     },
     "biblio": {
       "volume": "31",
@@ -34214,12 +34276,12 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13428",
-      "display_name": "Anarchism and Radical Politics",
-      "score": 0.8529999852180481,
+      "id": "https://openalex.org/T10149",
+      "display_name": "Anthropological Studies and Insights",
+      "score": 0.6786999702453613,
       "subfield": {
-        "id": "https://openalex.org/subfields/3312",
-        "display_name": "Sociology and Political Science"
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
       },
       "field": {
         "id": "https://openalex.org/fields/33",
@@ -34232,12 +34294,12 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13428",
-        "display_name": "Anarchism and Radical Politics",
-        "score": 0.8529999852180481,
+        "id": "https://openalex.org/T10149",
+        "display_name": "Anthropological Studies and Insights",
+        "score": 0.6786999702453613,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -34249,12 +34311,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T11743",
-        "display_name": "Political Economy and Marxism",
-        "score": 0.00860000029206276,
+        "id": "https://openalex.org/T13741",
+        "display_name": "Cross-Cultural and Social Analysis",
+        "score": 0.0982000008225441,
         "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3314",
+          "display_name": "Anthropology"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -34266,63 +34328,83 @@
         }
       },
       {
-        "id": "https://openalex.org/T11862",
-        "display_name": "Agriculture, Land Use, Rural Development",
-        "score": 0.007499999832361937,
+        "id": "https://openalex.org/T12121",
+        "display_name": "Cooperative Studies and Economics",
+        "score": 0.09480000287294388,
         "subfield": {
-          "id": "https://openalex.org/subfields/1100",
-          "display_name": "General Agricultural and Biological Sciences"
+          "id": "https://openalex.org/subfields/1408",
+          "display_name": "Strategy and Management"
         },
         "field": {
-          "id": "https://openalex.org/fields/11",
-          "display_name": "Agricultural and Biological Sciences"
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
         },
         "domain": {
-          "id": "https://openalex.org/domains/1",
-          "display_name": "Life Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/disappointment",
-        "display_name": "Disappointment",
-        "score": 0.9704642295837402
+        "id": "https://openalex.org/keywords/kibbutz",
+        "display_name": "kibbutz",
+        "score": 0.968999981880188
       },
       {
-        "id": "https://openalex.org/keywords/complaint",
-        "display_name": "Complaint",
-        "score": 0.8401312828063965
+        "id": "https://openalex.org/keywords/non-market-economy",
+        "display_name": "non-market economy",
+        "score": 0.8190000057220459
       },
       {
-        "id": "https://openalex.org/keywords/socialist-market-economy",
-        "display_name": "Socialist market economy",
-        "score": 0.49756792187690735
+        "id": "https://openalex.org/keywords/moral-sanctions",
+        "display_name": "moral sanctions",
+        "score": 0.875
       },
       {
-        "id": "https://openalex.org/keywords/moral-economy",
-        "display_name": "Moral economy",
-        "score": 0.45389270782470703
+        "id": "https://openalex.org/keywords/moral-incentives",
+        "display_name": "moral incentives",
+        "score": 0.6949999928474426
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.373543918132782
+        "id": "https://openalex.org/keywords/late-socialism",
+        "display_name": "late socialism",
+        "score": 0.6349999904632568
       },
       {
-        "id": "https://openalex.org/keywords/psychology",
-        "display_name": "Psychology",
-        "score": 0.26248979568481445
+        "id": "https://openalex.org/keywords/anthropology-of-ethics",
+        "display_name": "anthropology of ethics",
+        "score": 0.6150000095367432
       },
       {
-        "id": "https://openalex.org/keywords/social-psychology",
-        "display_name": "Social psychology",
-        "score": 0.2352478802204132
+        "id": "https://openalex.org/keywords/metaethics",
+        "display_name": "metaethics",
+        "score": 0.9179999828338623
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.09720703959465027
+        "id": "https://openalex.org/keywords/political-economy",
+        "display_name": "political economy",
+        "score": 0.7680000066757202
+      },
+      {
+        "id": "https://openalex.org/keywords/anarchism",
+        "display_name": "anarchism",
+        "score": 0.6690000295639038
+      },
+      {
+        "id": "https://openalex.org/keywords/post-capitalism",
+        "display_name": "post-capitalism",
+        "score": 0.996999979019165
+      },
+      {
+        "id": "https://openalex.org/keywords/peer-pressure",
+        "display_name": "peer pressure",
+        "score": 0.527999997138977
+      },
+      {
+        "id": "https://openalex.org/keywords/informal-surveillance",
+        "display_name": "informal surveillance",
+        "score": 0.8029999732971191
       }
     ],
     "concepts": [
@@ -34402,6 +34484,7 @@
     "locations": [
       {
         "id": "doi:10.1111/1467-9655.14264",
+        "doi": "https://doi.org/10.1111/1467-9655.14264",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/1467-9655.14264",
         "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-9655.14264",
@@ -34416,6 +34499,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-2",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -34437,6 +34531,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1111/1467-9655.14264",
+      "doi": "https://doi.org/10.1111/1467-9655.14264",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1467-9655.14264",
       "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/1467-9655.14264",
@@ -34451,6 +34546,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-2",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -34470,6 +34576,8 @@
       "raw_type": "journal-article"
     },
     "sustainable_development_goals": [],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G2131024552",
@@ -35014,7 +35122,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-05-08T15:41:06.802602",
+    "updated_date": "2026-09-25T08:18:29.962427",
     "created_date": "2025-10-10T00:00:00"
   },
   {

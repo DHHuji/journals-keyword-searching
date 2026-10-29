@@ -31621,7 +31621,7 @@
     "doi": "https://doi.org/10.1111/1467-8675.70053",
     "title": "Making AI Work: A Critical Theory of AI Production",
     "display_name": "Making AI Work: A Critical Theory of AI Production",
-    "relevance_score": 0.049348235,
+    "relevance_score": 0.13058174,
     "publication_year": 2026,
     "publication_date": "2026-04-06",
     "ids": {
@@ -31631,6 +31631,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1111/1467-8675.70053",
+      "doi": "https://doi.org/10.1111/1467-8675.70053",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1467-8675.70053",
       "pdf_url": null,
@@ -31645,6 +31646,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -31663,6 +31674,7 @@
       "raw_source_name": "Constellations",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -31678,8 +31690,11 @@
         "author_position": "first",
         "author": {
           "id": "https://openalex.org/A5014108137",
-          "display_name": "Rosalie Waelen",
-          "orcid": "https://orcid.org/0000-0003-2812-8244"
+          "display_name": "Rosalie A. Waelen",
+          "orcid": "https://orcid.org/0000-0003-2812-8244",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-2812-8244"
+          ]
         },
         "institutions": [
           {
@@ -31714,9 +31729,12 @@
       {
         "author_position": "last",
         "author": {
-          "id": "https://openalex.org/A5133074197",
+          "id": "https://openalex.org/A5086829345",
           "display_name": "Jean\u2010Philippe Deranty",
-          "orcid": null
+          "orcid": "https://orcid.org/0000-0003-3860-4371",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-3860-4371"
+          ]
         },
         "institutions": [
           {
@@ -31759,29 +31777,32 @@
       "https://openalex.org/I135140700"
     ],
     "apc_list": {
-      "value": 2630,
+      "value": 2900,
       "currency": "USD",
-      "value_usd": 2630
+      "value_usd": 2900
     },
     "apc_paid": {
-      "value": 2630,
+      "value": 2900,
       "currency": "USD",
-      "value_usd": 2630
+      "value_usd": 2900
     },
-    "fwci": 0.0,
+    "fwci": 6.0635,
     "has_fulltext": false,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.79127108,
+      "value": 0.95186765,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": false
+      "is_in_top_10_percent": true
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
-      "volume": null,
-      "issue": null,
-      "first_page": null,
-      "last_page": null
+      "volume": "33",
+      "issue": "2",
+      "first_page": "285",
+      "last_page": "296"
     },
     "is_retracted": false,
     "is_paratext": false,
@@ -31789,7 +31810,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T10883",
       "display_name": "Ethics and Social Impacts of AI",
-      "score": 0.34439998865127563,
+      "score": 0.5752000212669373,
       "subfield": {
         "id": "https://openalex.org/subfields/3311",
         "display_name": "Safety Research"
@@ -31807,7 +31828,7 @@
       {
         "id": "https://openalex.org/T10883",
         "display_name": "Ethics and Social Impacts of AI",
-        "score": 0.34439998865127563,
+        "score": 0.5752000212669373,
         "subfield": {
           "id": "https://openalex.org/subfields/3311",
           "display_name": "Safety Research"
@@ -31824,7 +31845,7 @@
       {
         "id": "https://openalex.org/T12501",
         "display_name": "Digital Economy and Work Transformation",
-        "score": 0.22429999709129333,
+        "score": 0.37059998512268066,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -31839,53 +31860,73 @@
         }
       },
       {
-        "id": "https://openalex.org/T13081",
-        "display_name": "Digital Education and Society",
-        "score": 0.050599999725818634,
+        "id": "https://openalex.org/T13088",
+        "display_name": "Legal and Labor Studies",
+        "score": 0.03099999949336052,
         "subfield": {
-          "id": "https://openalex.org/subfields/1710",
-          "display_name": "Information Systems"
+          "id": "https://openalex.org/subfields/1410",
+          "display_name": "Industrial relations"
         },
         "field": {
-          "id": "https://openalex.org/fields/17",
-          "display_name": "Computer Science"
+          "id": "https://openalex.org/fields/14",
+          "display_name": "Business, Management and Accounting"
         },
         "domain": {
-          "id": "https://openalex.org/domains/3",
-          "display_name": "Physical Sciences"
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
         }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/foundation",
-        "display_name": "Foundation (evidence)",
-        "score": 0.6765999794006348
-      },
-      {
         "id": "https://openalex.org/keywords/critical-theory",
-        "display_name": "Critical theory",
-        "score": 0.5092999935150146
+        "display_name": "critical theory",
+        "score": 0.6970000267028809
       },
       {
-        "id": "https://openalex.org/keywords/production",
-        "display_name": "Production (economics)",
-        "score": 0.5011000037193298
+        "id": "https://openalex.org/keywords/max-horkheimer",
+        "display_name": "Max Horkheimer",
+        "score": 0.9670000076293945
       },
       {
-        "id": "https://openalex.org/keywords/tower",
-        "display_name": "Tower",
-        "score": 0.45410001277923584
+        "id": "https://openalex.org/keywords/misrecognition",
+        "display_name": "misrecognition",
+        "score": 0.6949999928474426
       },
       {
-        "id": "https://openalex.org/keywords/social-theory",
-        "display_name": "Social theory",
-        "score": 0.3285999894142151
+        "id": "https://openalex.org/keywords/precarious-work",
+        "display_name": "precarious employment",
+        "score": 0.6259999871253967
       },
       {
-        "id": "https://openalex.org/keywords/industrial-revolution",
-        "display_name": "Industrial Revolution",
-        "score": 0.2867000102996826
+        "id": "https://openalex.org/keywords/labor-exploitation",
+        "display_name": "labor exploitation",
+        "score": 0.7870000004768372
+      },
+      {
+        "id": "https://openalex.org/keywords/data-annotation",
+        "display_name": "data annotation",
+        "score": 0.5009999871253967
+      },
+      {
+        "id": "https://openalex.org/keywords/content-moderation",
+        "display_name": "content moderation",
+        "score": 0.9649999737739563
+      },
+      {
+        "id": "https://openalex.org/keywords/microwork",
+        "display_name": "microwork",
+        "score": 0.9490000009536743
+      },
+      {
+        "id": "https://openalex.org/keywords/ai-ethics",
+        "display_name": "AI ethics",
+        "score": 0.37299999594688416
+      },
+      {
+        "id": "https://openalex.org/keywords/labor-theory-of-value",
+        "display_name": "labor theory of value",
+        "score": 0.4480000138282776
       }
     ],
     "concepts": [
@@ -31993,6 +32034,7 @@
     "locations": [
       {
         "id": "doi:10.1111/1467-8675.70053",
+        "doi": "https://doi.org/10.1111/1467-8675.70053",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1111/1467-8675.70053",
         "pdf_url": null,
@@ -32007,6 +32049,16 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "jufo-1",
+            "norway-1",
+            "poland-40",
+            "russia-white-list-2",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320595",
           "host_organization_name": "Wiley",
           "host_organization_lineage": [
@@ -32028,6 +32080,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1111/1467-8675.70053",
+      "doi": "https://doi.org/10.1111/1467-8675.70053",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1111/1467-8675.70053",
       "pdf_url": null,
@@ -32042,6 +32095,16 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "jufo-1",
+          "norway-1",
+          "poland-40",
+          "russia-white-list-2",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320595",
         "host_organization_name": "Wiley",
         "host_organization_lineage": [
@@ -32062,11 +32125,19 @@
     },
     "sustainable_development_goals": [
       {
-        "display_name": "No poverty",
-        "id": "https://metadata.un.org/sdg/1",
-        "score": 0.4768707752227783
+        "score": 0.7257999777793884,
+        "id": "https://metadata.un.org/sdg/8",
+        "display_name": "Decent work and economic growth"
       }
     ],
+    "sustainable_development_goals_aurora": [
+      {
+        "score": 0.4768707752227783,
+        "id": "https://metadata.un.org/sdg/1",
+        "display_name": "No poverty"
+      }
+    ],
+    "study_designs": [],
     "awards": [],
     "funders": [
       {
@@ -32076,12 +32147,13 @@
       }
     ],
     "has_content": {
-      "grobid_xml": false,
-      "pdf": false
+      "pdf": false,
+      "grobid_xml": false
     },
     "content_urls": null,
     "referenced_works_count": 45,
     "referenced_works": [
+      "https://openalex.org/W106244647",
       "https://openalex.org/W178437142",
       "https://openalex.org/W1531940348",
       "https://openalex.org/W2028301568",
@@ -32090,6 +32162,7 @@
       "https://openalex.org/W2147603330",
       "https://openalex.org/W2236114613",
       "https://openalex.org/W2775453164",
+      "https://openalex.org/W2795038878",
       "https://openalex.org/W2799513409",
       "https://openalex.org/W2889167909",
       "https://openalex.org/W2889315866",
@@ -32097,7 +32170,7 @@
       "https://openalex.org/W2903975937",
       "https://openalex.org/W2928410803",
       "https://openalex.org/W2938204290",
-      "https://openalex.org/W2963809228",
+      "https://openalex.org/W2948223045",
       "https://openalex.org/W2990520658",
       "https://openalex.org/W3000872675",
       "https://openalex.org/W3018104257",
@@ -32108,8 +32181,6 @@
       "https://openalex.org/W3137791568",
       "https://openalex.org/W3162173425",
       "https://openalex.org/W3195178614",
-      "https://openalex.org/W3212368439",
-      "https://openalex.org/W4230357500",
       "https://openalex.org/W4246724237",
       "https://openalex.org/W4280610530",
       "https://openalex.org/W4307826958",
@@ -37688,8 +37759,13 @@
         742
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-04-08T06:07:18.267832",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2026-04-08T00:00:00"
   }
 ]

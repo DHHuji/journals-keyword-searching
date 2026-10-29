@@ -32114,7 +32114,7 @@
     "doi": "https://doi.org/10.1093/hgs/dcaf041",
     "title": "Those Who Stayed: Polish Jews Who Remained in the Soviet Union after the Second World War",
     "display_name": "Those Who Stayed: Polish Jews Who Remained in the Soviet Union after the Second World War",
-    "relevance_score": 0.5852024,
+    "relevance_score": 1.633281,
     "publication_year": 2025,
     "publication_date": "2025-01-01",
     "ids": {
@@ -32124,6 +32124,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1093/hgs/dcaf041",
+      "doi": "https://doi.org/10.1093/hgs/dcaf041",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/hgs/dcaf041",
       "pdf_url": null,
@@ -32138,6 +32139,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -32158,6 +32168,7 @@
       "raw_source_name": "Holocaust and Genocide Studies",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -32166,7 +32177,7 @@
       "is_oa": true,
       "oa_status": "hybrid",
       "oa_url": "https://doi.org/10.1093/hgs/dcaf041",
-      "any_repository_has_fulltext": false
+      "any_repository_has_fulltext": true
     },
     "authorships": [
       {
@@ -32174,7 +32185,10 @@
         "author": {
           "id": "https://openalex.org/A5074068111",
           "display_name": "Mark Edele",
-          "orcid": "https://orcid.org/0000-0002-1783-7662"
+          "orcid": "https://orcid.org/0000-0002-1783-7662",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-1783-7662"
+          ]
         },
         "institutions": [
           {
@@ -32218,7 +32232,8 @@
         "author": {
           "id": "https://openalex.org/A5120165063",
           "display_name": "Aleksandra Riabichenko",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -32262,7 +32277,8 @@
         "author": {
           "id": "https://openalex.org/A5030078716",
           "display_name": "John Goldlust",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -32304,7 +32320,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 3,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
       "https://openalex.org/A5074068111"
     ],
@@ -32312,20 +32328,20 @@
       "https://openalex.org/I165779595"
     ],
     "apc_list": {
-      "value": 3105,
+      "value": 3390,
       "currency": "USD",
-      "value_usd": 3105
+      "value_usd": 3390
     },
     "apc_paid": {
-      "value": 3105,
+      "value": 3390,
       "currency": "USD",
-      "value_usd": 3105
+      "value_usd": 3390
     },
     "fwci": 0.0,
     "has_fulltext": false,
     "cited_by_count": 0,
     "citation_normalized_percentile": {
-      "value": 0.33904095,
+      "value": 0.25881967,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
@@ -32340,16 +32356,16 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T11070",
-      "display_name": "Soviet and Russian History",
-      "score": 0.3158999979496002,
+      "id": "https://openalex.org/T13225",
+      "display_name": "Polish-Jewish Holocaust Memory Studies",
+      "score": 0.9980000257492065,
       "subfield": {
-        "id": "https://openalex.org/subfields/3320",
-        "display_name": "Political Science and International Relations"
+        "id": "https://openalex.org/subfields/1211",
+        "display_name": "Philosophy"
       },
       "field": {
-        "id": "https://openalex.org/fields/33",
-        "display_name": "Social Sciences"
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
       },
       "domain": {
         "id": "https://openalex.org/domains/2",
@@ -32358,46 +32374,46 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T13225",
+        "display_name": "Polish-Jewish Holocaust Memory Studies",
+        "score": 0.9980000257492065,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1211",
+          "display_name": "Philosophy"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T12764",
+        "display_name": "Polish Historical and Cultural Studies",
+        "score": 0.0006000000284984708,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T11070",
         "display_name": "Soviet and Russian History",
-        "score": 0.3158999979496002,
+        "score": 0.0003000000142492354,
         "subfield": {
           "id": "https://openalex.org/subfields/3320",
           "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13993",
-        "display_name": "Historical Geopolitical and Social Dynamics",
-        "score": 0.17470000684261322,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3320",
-          "display_name": "Political Science and International Relations"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T13784",
-        "display_name": "Jewish Identity and Society",
-        "score": 0.11749999970197678,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3317",
-          "display_name": "Demography"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -32411,44 +32427,64 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/emigration",
-        "display_name": "Emigration",
-        "score": 0.8410999774932861
+        "id": "https://openalex.org/keywords/polish-jews",
+        "display_name": "Polish Jews",
+        "score": 0.9800000190734863
       },
       {
-        "id": "https://openalex.org/keywords/repatriation",
-        "display_name": "Repatriation",
-        "score": 0.8123000264167786
-      },
-      {
-        "id": "https://openalex.org/keywords/the-holocaust",
-        "display_name": "The Holocaust",
-        "score": 0.7879999876022339
-      },
-      {
-        "id": "https://openalex.org/keywords/world-war-ii",
-        "display_name": "World War II",
-        "score": 0.78329998254776
-      },
-      {
-        "id": "https://openalex.org/keywords/nazism",
-        "display_name": "Nazism",
-        "score": 0.7235999703407288
+        "id": "https://openalex.org/keywords/holocaust-survivors",
+        "display_name": "Holocaust survivors",
+        "score": 0.8149999976158142
       },
       {
         "id": "https://openalex.org/keywords/soviet-union",
-        "display_name": "Soviet union",
-        "score": 0.6333000063896179
+        "display_name": "Soviet Union",
+        "score": 0.6769999861717224
       },
       {
-        "id": "https://openalex.org/keywords/judaism",
-        "display_name": "Judaism",
-        "score": 0.5813999772071838
+        "id": "https://openalex.org/keywords/postwar-emigration",
+        "display_name": "postwar emigration",
+        "score": 0.6940000057220459
       },
       {
-        "id": "https://openalex.org/keywords/antisemitism",
-        "display_name": "Antisemitism",
-        "score": 0.557699978351593
+        "id": "https://openalex.org/keywords/repatriation",
+        "display_name": "repatriation",
+        "score": 0.753000020980835
+      },
+      {
+        "id": "https://openalex.org/keywords/holocaust-testimony",
+        "display_name": "Holocaust testimony",
+        "score": 0.5540000200271606
+      },
+      {
+        "id": "https://openalex.org/keywords/usc-shoah-foundation",
+        "display_name": "USC Shoah Foundation",
+        "score": 0.8080000281333923
+      },
+      {
+        "id": "https://openalex.org/keywords/soviet-citizenship",
+        "display_name": "Soviet citizenship",
+        "score": 0.5059999823570251
+      },
+      {
+        "id": "https://openalex.org/keywords/jewish-diaspora",
+        "display_name": "Jewish diaspora",
+        "score": 0.5559999942779541
+      },
+      {
+        "id": "https://openalex.org/keywords/soviet-republics",
+        "display_name": "Soviet republics",
+        "score": 0.38600000739097595
+      },
+      {
+        "id": "https://openalex.org/keywords/russia",
+        "display_name": "Russia",
+        "score": 0.42399999499320984
+      },
+      {
+        "id": "https://openalex.org/keywords/ukraine",
+        "display_name": "Ukraine",
+        "score": 0.7870000004768372
       }
     ],
     "concepts": [
@@ -32629,10 +32665,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 1,
+    "locations_count": 2,
     "locations": [
       {
         "id": "doi:10.1093/hgs/dcaf041",
+        "doi": "https://doi.org/10.1093/hgs/dcaf041",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1093/hgs/dcaf041",
         "pdf_url": null,
@@ -32647,6 +32684,15 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "erih-plus",
+            "jufo-2",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-2"
+          ],
           "host_organization": "https://openalex.org/P4310311648",
           "host_organization_name": "Oxford University Press",
           "host_organization_lineage": [
@@ -32666,10 +32712,42 @@
         "is_published": true,
         "raw_source_name": "Holocaust and Genocide Studies",
         "raw_type": "journal-article"
+      },
+      {
+        "id": "pmh:oai:jupiter.its.unimelb.edu.au:11343/369975",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://hdl.handle.net/11343/369975",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4377196259",
+          "display_name": "Minerva Access (University of Melbourne)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I165779595",
+          "host_organization_name": "The University of Melbourne",
+          "host_organization_lineage": [
+            "https://openalex.org/I165779595"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Journal Article"
       }
     ],
     "best_oa_location": {
       "id": "doi:10.1093/hgs/dcaf041",
+      "doi": "https://doi.org/10.1093/hgs/dcaf041",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1093/hgs/dcaf041",
       "pdf_url": null,
@@ -32684,6 +32762,15 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "erih-plus",
+          "jufo-2",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-2"
+        ],
         "host_organization": "https://openalex.org/P4310311648",
         "host_organization_name": "Oxford University Press",
         "host_organization_lineage": [
@@ -32704,11 +32791,19 @@
       "raw_source_name": "Holocaust and Genocide Studies",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16",
+        "score": 0.47620001435279846
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G393110876",
-        "display_name": null,
+        "display_name": "Aftermaths of War: Violence, Trauma, Displacement, 1815-1950",
         "funder_award_id": "DP200101777",
         "funder_id": "https://openalex.org/F4320334704",
         "funder_display_name": "Australian Research Council"
@@ -32728,7 +32823,18 @@
     "content_urls": null,
     "referenced_works_count": 0,
     "referenced_works": [],
-    "related_works": [],
+    "related_works": [
+      "https://openalex.org/W4205334519",
+      "https://openalex.org/W4388291526",
+      "https://openalex.org/W4309601423",
+      "https://openalex.org/W2935690003",
+      "https://openalex.org/W7220834459",
+      "https://openalex.org/W2981954091",
+      "https://openalex.org/W4252711334",
+      "https://openalex.org/W7074580131",
+      "https://openalex.org/W2068447354",
+      "https://openalex.org/W2350728668"
+    ],
     "abstract_inverted_index": {
       "Abstract": [
         0
@@ -33279,7 +33385,7 @@
       ]
     },
     "counts_by_year": [],
-    "updated_date": "2026-05-21T06:26:12.895304",
+    "updated_date": "2026-09-11T09:22:31.653822",
     "created_date": "2025-10-29T00:00:00"
   },
   {

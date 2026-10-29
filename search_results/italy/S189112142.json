@@ -12652,7 +12652,7 @@
     "doi": "https://doi.org/10.1177/14687968251331961",
     "title": "Roma housing deprivation and segregation in Italy: An intersectional analysis of social navigation strategies of Romanian Roma migrant women and men",
     "display_name": "Roma housing deprivation and segregation in Italy: An intersectional analysis of social navigation strategies of Romanian Roma migrant women and men",
-    "relevance_score": 53.498207,
+    "relevance_score": 23.233294,
     "publication_year": 2025,
     "publication_date": "2025-04-13",
     "ids": {
@@ -12662,6 +12662,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/14687968251331961",
+      "doi": "https://doi.org/10.1177/14687968251331961",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251331961",
       "pdf_url": null,
@@ -12676,6 +12677,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -12694,6 +12706,7 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -12710,7 +12723,10 @@
         "author": {
           "id": "https://openalex.org/A5059702541",
           "display_name": "Gaja Maestri",
-          "orcid": "https://orcid.org/0000-0002-7935-0358"
+          "orcid": "https://orcid.org/0000-0002-7935-0358",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7935-0358"
+          ]
         },
         "institutions": [
           {
@@ -12747,7 +12763,10 @@
         "author": {
           "id": "https://openalex.org/A5023886407",
           "display_name": "Claudia Mantovan",
-          "orcid": "https://orcid.org/0000-0003-1482-8936"
+          "orcid": "https://orcid.org/0000-0003-1482-8936",
+          "observed_orcids": [
+            "https://orcid.org/0000-0003-1482-8936"
+          ]
         },
         "institutions": [
           {
@@ -12789,19 +12808,27 @@
     "corresponding_institution_ids": [
       "https://openalex.org/I169199633"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 9.9015,
-    "has_fulltext": false,
-    "cited_by_count": 4,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 6.8576,
+    "has_fulltext": true,
+    "cited_by_count": 6,
     "citation_normalized_percentile": {
-      "value": 0.97738009,
+      "value": 0.96636618,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 99,
-      "max": 100
+      "min": 98,
+      "max": 99
     },
     "biblio": {
       "volume": "25",
@@ -12815,7 +12842,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T12595",
       "display_name": "Romani and Gypsy Studies",
-      "score": 0.9998000264167786,
+      "score": 1.0,
       "subfield": {
         "id": "https://openalex.org/subfields/3600",
         "display_name": "General Health Professions"
@@ -12833,7 +12860,41 @@
       {
         "id": "https://openalex.org/T12595",
         "display_name": "Romani and Gypsy Studies",
-        "score": 0.9998000264167786,
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3600",
+          "display_name": "General Health Professions"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/36",
+          "display_name": "Health Professions"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/4",
+          "display_name": "Health Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11645",
+        "display_name": "Urban, Neighborhood, and Segregation Studies",
+        "score": 0.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T11464",
+        "display_name": "Homelessness and Social Issues",
+        "score": 0.0,
         "subfield": {
           "id": "https://openalex.org/subfields/3600",
           "display_name": "General Health Professions"
@@ -12850,54 +12911,69 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/romanian",
-        "display_name": "Romanian",
-        "score": 0.7545529007911682
+        "id": "https://openalex.org/keywords/roma-migrants",
+        "display_name": "Roma migrants",
+        "score": 0.9049999713897705
       },
       {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.6396169066429138
+        "id": "https://openalex.org/keywords/housing-deprivation",
+        "display_name": "housing deprivation",
+        "score": 0.9660000205039978
+      },
+      {
+        "id": "https://openalex.org/keywords/residential-segregation",
+        "display_name": "residential segregation",
+        "score": 0.7200000286102295
+      },
+      {
+        "id": "https://openalex.org/keywords/social-navigation",
+        "display_name": "social navigation",
+        "score": 0.843999981880188
       },
       {
         "id": "https://openalex.org/keywords/intersectionality",
-        "display_name": "Intersectionality",
-        "score": 0.6198526620864868
+        "display_name": "intersectionality",
+        "score": 0.9919999837875366
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.5460240840911865
+        "id": "https://openalex.org/keywords/gender",
+        "display_name": "gender",
+        "score": 0.5460000038146973
       },
       {
-        "id": "https://openalex.org/keywords/social-exclusion",
-        "display_name": "Social exclusion",
-        "score": 0.4935716390609741
+        "id": "https://openalex.org/keywords/informal-settlements",
+        "display_name": "informal settlements",
+        "score": 0.7139999866485596
       },
       {
-        "id": "https://openalex.org/keywords/migrant-workers",
-        "display_name": "Migrant workers",
-        "score": 0.422426700592041
+        "id": "https://openalex.org/keywords/forced-eviction",
+        "display_name": "forced eviction",
+        "score": 0.8740000128746033
       },
       {
-        "id": "https://openalex.org/keywords/social-deprivation",
-        "display_name": "Social deprivation",
-        "score": 0.4208762049674988
+        "id": "https://openalex.org/keywords/roma-women",
+        "display_name": "Roma women",
+        "score": 0.7039999961853027
       },
       {
-        "id": "https://openalex.org/keywords/demographic-economics",
-        "display_name": "Demographic economics",
-        "score": 0.3988172709941864
+        "id": "https://openalex.org/keywords/domesticity",
+        "display_name": "domesticity",
+        "score": 0.5659999847412109
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.36633777618408203
+        "id": "https://openalex.org/keywords/parental-responsibility",
+        "display_name": "parental responsibility",
+        "score": 0.6119999885559082
       },
       {
-        "id": "https://openalex.org/keywords/economic-growth",
-        "display_name": "Economic growth",
-        "score": 0.19489562511444092
+        "id": "https://openalex.org/keywords/informal-economy",
+        "display_name": "informal economy",
+        "score": 0.4560000002384186
+      },
+      {
+        "id": "https://openalex.org/keywords/labour-market-exclusion",
+        "display_name": "labour market exclusion",
+        "score": 0.5600000023841858
       }
     ],
     "concepts": [
@@ -13001,10 +13077,11 @@
       }
     ],
     "mesh": [],
-    "locations_count": 2,
+    "locations_count": 3,
     "locations": [
       {
         "id": "doi:10.1177/14687968251331961",
+        "doi": "https://doi.org/10.1177/14687968251331961",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/14687968251331961",
         "pdf_url": null,
@@ -13019,6 +13096,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -13038,7 +13126,39 @@
         "raw_type": "journal-article"
       },
       {
+        "id": "pmh:oai:publications.aston.ac.uk:47472",
+        "doi": null,
+        "is_oa": true,
+        "landing_page_url": "https://publications.aston.ac.uk/view/author/0a8c0d9658e24796277992764c9a72e1.html>",
+        "pdf_url": "https://publications.aston.ac.uk/id/eprint/47472/1/maestri-mantovan-2025-roma-housing-deprivation-and-segregation-in-italy-an-intersectional-analysis-of-social-navigation.pdf",
+        "source": {
+          "id": "https://openalex.org/S4306400483",
+          "display_name": "Aston Publications Explorer (Aston University)",
+          "issn_l": null,
+          "issn": null,
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "listed_in": [],
+          "host_organization": "https://openalex.org/I169199633",
+          "host_organization_name": "Aston University",
+          "host_organization_lineage": [
+            "https://openalex.org/I169199633"
+          ],
+          "host_organization_lineage_names": [],
+          "type": "repository"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "submittedVersion",
+        "is_accepted": false,
+        "is_published": false,
+        "raw_source_name": null,
+        "raw_type": "Article"
+      },
+      {
         "id": "pmh:oai:www.research.unipd.it:11577/3562463",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://journals.sagepub.com/doi/10.1177/14687968251331961?int.sj-full-text.similar-articles.10",
         "pdf_url": null,
@@ -13050,6 +13170,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I138689650",
           "host_organization_name": "University of Padua",
           "host_organization_lineage": [
@@ -13069,6 +13190,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1177/14687968251331961",
+      "doi": "https://doi.org/10.1177/14687968251331961",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251331961",
       "pdf_url": null,
@@ -13083,6 +13205,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -13101,11 +13234,34 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 1.0,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      },
+      {
+        "score": 0.875,
+        "display_name": "Sustainable cities and communities",
+        "id": "https://metadata.un.org/sdg/11"
+      },
+      {
+        "score": 0.6025999784469604,
+        "display_name": "Gender equality",
+        "id": "https://metadata.un.org/sdg/5"
+      },
+      {
+        "score": 0.41670000553131104,
+        "display_name": "No poverty",
+        "id": "https://metadata.un.org/sdg/1"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [
       {
         "id": "https://openalex.org/G7806573431",
-        "display_name": null,
+        "display_name": "Marginalization/Inclusion : Regulatory Policies Effects in the Long Run. The Case of Romanian Roma Migrants",
         "funder_award_id": "ANR-15-CE28-0006",
         "funder_id": "https://openalex.org/F4320320883",
         "funder_display_name": "Agence Nationale de la Recherche"
@@ -13129,6 +13285,7 @@
       "https://openalex.org/W229251135",
       "https://openalex.org/W658606382",
       "https://openalex.org/W800002343",
+      "https://openalex.org/W1569122236",
       "https://openalex.org/W1833933400",
       "https://openalex.org/W1977034411",
       "https://openalex.org/W1977815027",
@@ -13202,7 +13359,6 @@
       "https://openalex.org/W3211976147",
       "https://openalex.org/W4220961544",
       "https://openalex.org/W4235450986",
-      "https://openalex.org/W4240061616",
       "https://openalex.org/W4249292692",
       "https://openalex.org/W4251994401",
       "https://openalex.org/W4254076060",
@@ -13906,10 +14062,10 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 4
+        "cited_by_count": 6
       }
     ],
-    "updated_date": "2025-11-06T03:46:38.306776",
+    "updated_date": "2026-10-24T09:50:30.924529",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -13917,7 +14073,7 @@
     "doi": "https://doi.org/10.1177/14687968251364357",
     "title": "From firearms to facemasks: The visual securitization of migration in Italy, Malta, Libya and Niger",
     "display_name": "From firearms to facemasks: The visual securitization of migration in Italy, Malta, Libya and Niger",
-    "relevance_score": 41.372196,
+    "relevance_score": 26.584686,
     "publication_year": 2025,
     "publication_date": "2025-08-11",
     "ids": {
@@ -13927,6 +14083,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/14687968251364357",
+      "doi": "https://doi.org/10.1177/14687968251364357",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/14687968251364357",
       "pdf_url": null,
@@ -13941,6 +14098,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -13959,6 +14127,7 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -13975,7 +14144,8 @@
         "author": {
           "id": "https://openalex.org/A5093825126",
           "display_name": "Diego Caballero-V\u00e9lez",
-          "orcid": null
+          "orcid": null,
+          "observed_orcids": []
         },
         "institutions": [
           {
@@ -14019,7 +14189,10 @@
         "author": {
           "id": "https://openalex.org/A5058278999",
           "display_name": "Eugenio Cusumano",
-          "orcid": "https://orcid.org/0000-0002-7349-6639"
+          "orcid": "https://orcid.org/0000-0002-7349-6639",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7349-6639"
+          ]
         },
         "institutions": [
           {
@@ -14063,7 +14236,10 @@
         "author": {
           "id": "https://openalex.org/A5025940844",
           "display_name": "Chiara Loschi",
-          "orcid": "https://orcid.org/0000-0002-7782-5583"
+          "orcid": "https://orcid.org/0000-0002-7782-5583",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-7782-5583"
+          ]
         },
         "institutions": [
           {
@@ -14107,7 +14283,10 @@
         "author": {
           "id": "https://openalex.org/A5024482817",
           "display_name": "Luca Raineri",
-          "orcid": "https://orcid.org/0000-0001-6107-0019"
+          "orcid": "https://orcid.org/0000-0001-6107-0019",
+          "observed_orcids": [
+            "https://orcid.org/0000-0001-6107-0019"
+          ]
         },
         "institutions": [
           {
@@ -14149,26 +14328,30 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 4,
+    "institutions_distinct_count": 3,
     "corresponding_author_ids": [
       "https://openalex.org/A5058278999"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I112862951"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
-    "fwci": 3.7232,
+    "fwci": 1.8055,
     "has_fulltext": false,
     "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.93023071,
+      "value": 0.86986325,
       "is_in_top_1_percent": false,
-      "is_in_top_10_percent": true
+      "is_in_top_10_percent": false
     },
     "cited_by_percentile_year": {
-      "min": 96,
-      "max": 98
+      "min": 93,
+      "max": 96
     },
     "biblio": {
       "volume": "26",
@@ -14180,9 +14363,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T13055",
-      "display_name": "Global Security and Public Health",
-      "score": 0.9993000030517578,
+      "id": "https://openalex.org/T10216",
+      "display_name": "Migration, Refugees, and Integration",
+      "score": 0.37380000948905945,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -14198,26 +14381,9 @@
     },
     "topics": [
       {
-        "id": "https://openalex.org/T13055",
-        "display_name": "Global Security and Public Health",
-        "score": 0.9993000030517578,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
         "id": "https://openalex.org/T10216",
         "display_name": "Migration, Refugees, and Integration",
-        "score": 0.9850000143051147,
+        "score": 0.37380000948905945,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -14232,16 +14398,33 @@
         }
       },
       {
-        "id": "https://openalex.org/T10762",
-        "display_name": "Migration, Health and Trauma",
-        "score": 0.96670001745224,
+        "id": "https://openalex.org/T14062",
+        "display_name": "Migration and Exile Studies",
+        "score": 0.26980000734329224,
         "subfield": {
-          "id": "https://openalex.org/subfields/3203",
-          "display_name": "Clinical Psychology"
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
         },
         "field": {
-          "id": "https://openalex.org/fields/32",
-          "display_name": "Psychology"
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
+        "id": "https://openalex.org/T13055",
+        "display_name": "Global Security and Public Health",
+        "score": 0.0706000030040741,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
         },
         "domain": {
           "id": "https://openalex.org/domains/2",
@@ -14251,59 +14434,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/securitization",
-        "display_name": "Securitization",
-        "score": 0.6827030777931213
+        "id": "https://openalex.org/keywords/migration",
+        "display_name": "migration",
+        "score": 0.5910000205039978
+      },
+      {
+        "id": "https://openalex.org/keywords/central-mediterranean-route",
+        "display_name": "Central Mediterranean route",
+        "score": 0.6769999861717224
+      },
+      {
+        "id": "https://openalex.org/keywords/border-security",
+        "display_name": "border security",
+        "score": 0.675000011920929
+      },
+      {
+        "id": "https://openalex.org/keywords/firearms",
+        "display_name": "firearms",
+        "score": 0.6690000295639038
+      },
+      {
+        "id": "https://openalex.org/keywords/media-framing",
+        "display_name": "media framing",
+        "score": 0.46399998664855957
       },
       {
         "id": "https://openalex.org/keywords/irregular-migration",
-        "display_name": "Irregular migration",
-        "score": 0.5611149668693542
+        "display_name": "irregular migration",
+        "score": 0.6100000143051147
       },
       {
-        "id": "https://openalex.org/keywords/border-crossing",
-        "display_name": "Border crossing",
-        "score": 0.430192232131958
+        "id": "https://openalex.org/keywords/newspaper-photographs",
+        "display_name": "newspaper photographs",
+        "score": 0.36399999260902405
       },
       {
-        "id": "https://openalex.org/keywords/geography",
-        "display_name": "Geography",
-        "score": 0.41783928871154785
+        "id": "https://openalex.org/keywords/italy",
+        "display_name": "Italy",
+        "score": 0.46700000762939453
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.39559927582740784
+        "id": "https://openalex.org/keywords/malta",
+        "display_name": "Malta",
+        "score": 0.9929999709129333
       },
       {
-        "id": "https://openalex.org/keywords/criminology",
-        "display_name": "Criminology",
-        "score": 0.352370023727417
+        "id": "https://openalex.org/keywords/libya",
+        "display_name": "Libya",
+        "score": 0.9980000257492065
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.26889681816101074
-      },
-      {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.24056339263916016
-      },
-      {
-        "id": "https://openalex.org/keywords/ethnology",
-        "display_name": "Ethnology",
-        "score": 0.22171136736869812
-      },
-      {
-        "id": "https://openalex.org/keywords/business",
-        "display_name": "Business",
-        "score": 0.21683505177497864
-      },
-      {
-        "id": "https://openalex.org/keywords/immigration",
-        "display_name": "Immigration",
-        "score": 0.1995251178741455
+        "id": "https://openalex.org/keywords/niger",
+        "display_name": "Niger",
+        "score": 0.9990000128746033
       }
     ],
     "concepts": [
@@ -14397,6 +14580,7 @@
     "locations": [
       {
         "id": "doi:10.1177/14687968251364357",
+        "doi": "https://doi.org/10.1177/14687968251364357",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/14687968251364357",
         "pdf_url": null,
@@ -14411,6 +14595,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -14431,6 +14626,7 @@
       },
       {
         "id": "pmh:oai:cris.unibo.it:11585/1021531",
+        "doi": null,
         "is_oa": true,
         "landing_page_url": "https://journals.sagepub.com/doi/10.1177/14687968251364357",
         "pdf_url": null,
@@ -14442,6 +14638,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I4210117483",
           "host_organization_name": "Istituto di Ematologia di Bologna",
           "host_organization_lineage": [
@@ -14460,6 +14657,7 @@
       },
       {
         "id": "pmh:oai:www.iris.sssup.it:11382/585774",
+        "doi": null,
         "is_oa": false,
         "landing_page_url": "https://hdl.handle.net/11382/585774",
         "pdf_url": null,
@@ -14471,6 +14669,7 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": false,
+          "listed_in": [],
           "host_organization": "https://openalex.org/I162290304",
           "host_organization_name": "Scuola Superiore Sant'Anna",
           "host_organization_lineage": [
@@ -14490,6 +14689,7 @@
     ],
     "best_oa_location": {
       "id": "pmh:oai:cris.unibo.it:11585/1021531",
+      "doi": null,
       "is_oa": true,
       "landing_page_url": "https://journals.sagepub.com/doi/10.1177/14687968251364357",
       "pdf_url": null,
@@ -14501,6 +14701,7 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": false,
+        "listed_in": [],
         "host_organization": "https://openalex.org/I4210117483",
         "host_organization_name": "Istituto di Ematologia di Bologna",
         "host_organization_lineage": [
@@ -14517,7 +14718,15 @@
       "raw_source_name": null,
       "raw_type": "info:eu-repo/semantics/article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.6601999998092651,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -15057,7 +15266,7 @@
         "cited_by_count": 1
       }
     ],
-    "updated_date": "2026-03-17T06:59:57.516163",
+    "updated_date": "2026-08-21T09:56:20.448147",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -22740,7 +22949,7 @@
     "doi": "https://doi.org/10.1177/14687968251362253",
     "title": "Liminalis voces: Migrant identity construction and positionality in a Balkan Route digital messaging research group",
     "display_name": "Liminalis voces: Migrant identity construction and positionality in a Balkan Route digital messaging research group",
-    "relevance_score": 3.282298,
+    "relevance_score": 1.9773117,
     "publication_year": 2025,
     "publication_date": "2025-07-15",
     "ids": {
@@ -22750,6 +22959,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/14687968251362253",
+      "doi": "https://doi.org/10.1177/14687968251362253",
       "is_oa": false,
       "landing_page_url": "https://doi.org/10.1177/14687968251362253",
       "pdf_url": null,
@@ -22764,6 +22974,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -22782,6 +23003,7 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -22798,7 +23020,10 @@
         "author": {
           "id": "https://openalex.org/A5057841403",
           "display_name": "Fabio Ind\u00eco Massimo Poppi",
-          "orcid": "https://orcid.org/0000-0002-0731-3099"
+          "orcid": "https://orcid.org/0000-0002-0731-3099",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-0731-3099"
+          ]
         },
         "institutions": [
           {
@@ -22858,7 +23083,7 @@
     ],
     "institutions": [],
     "countries_distinct_count": 2,
-    "institutions_distinct_count": 1,
+    "institutions_distinct_count": 2,
     "corresponding_author_ids": [
       "https://openalex.org/A5057841403"
     ],
@@ -22866,19 +23091,23 @@
       "https://openalex.org/I167420956",
       "https://openalex.org/I34250744"
     ],
-    "apc_list": null,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
     "apc_paid": null,
-    "fwci": 8.9093,
+    "fwci": 18.3541,
     "has_fulltext": false,
-    "cited_by_count": 2,
+    "cited_by_count": 8,
     "citation_normalized_percentile": {
-      "value": 0.97365598,
-      "is_in_top_1_percent": false,
+      "value": 0.99163932,
+      "is_in_top_1_percent": true,
       "is_in_top_10_percent": true
     },
     "cited_by_percentile_year": {
-      "min": 91,
-      "max": 98
+      "min": 94,
+      "max": 99
     },
     "biblio": {
       "volume": "25",
@@ -22892,7 +23121,7 @@
     "primary_topic": {
       "id": "https://openalex.org/T11648",
       "display_name": "Diaspora, migration, transnational identity",
-      "score": 0.989799976348877,
+      "score": 0.45829999446868896,
       "subfield": {
         "id": "https://openalex.org/subfields/3317",
         "display_name": "Demography"
@@ -22910,7 +23139,7 @@
       {
         "id": "https://openalex.org/T11648",
         "display_name": "Diaspora, migration, transnational identity",
-        "score": 0.989799976348877,
+        "score": 0.45829999446868896,
         "subfield": {
           "id": "https://openalex.org/subfields/3317",
           "display_name": "Demography"
@@ -22925,26 +23154,9 @@
         }
       },
       {
-        "id": "https://openalex.org/T10557",
-        "display_name": "Social Media and Politics",
-        "score": 0.9843999743461609,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3315",
-          "display_name": "Communication"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10216",
-        "display_name": "Migration, Refugees, and Integration",
-        "score": 0.9789999723434448,
+        "id": "https://openalex.org/T12679",
+        "display_name": "Focus Groups and Qualitative Methods",
+        "score": 0.19020000100135803,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -22957,43 +23169,70 @@
           "id": "https://openalex.org/domains/2",
           "display_name": "Social Sciences"
         }
+      },
+      {
+        "id": "https://openalex.org/T10383",
+        "display_name": "Language, Discourse, Communication Strategies",
+        "score": 0.1282999962568283,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1203",
+          "display_name": "Language and Linguistics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/12",
+          "display_name": "Arts and Humanities"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
       }
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/identity",
-        "display_name": "Identity (music)",
-        "score": 0.679556131362915
+        "id": "https://openalex.org/keywords/migrant-identity-construction",
+        "display_name": "migrant identity construction",
+        "score": 0.9860000014305115
       },
       {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.5633451342582703
+        "id": "https://openalex.org/keywords/forced-migration",
+        "display_name": "forced migration",
+        "score": 0.7089999914169312
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.5391019582748413
+        "id": "https://openalex.org/keywords/balkan-route",
+        "display_name": "Balkan route",
+        "score": 0.7879999876022339
       },
       {
-        "id": "https://openalex.org/keywords/text-messaging",
-        "display_name": "Text messaging",
-        "score": 0.45245322585105896
+        "id": "https://openalex.org/keywords/whatsapp-groups",
+        "display_name": "WhatsApp groups",
+        "score": 0.7680000066757202
       },
       {
-        "id": "https://openalex.org/keywords/group",
-        "display_name": "Group (periodic table)",
-        "score": 0.4420154392719269
+        "id": "https://openalex.org/keywords/self-representation",
+        "display_name": "self-representation",
+        "score": 0.7680000066757202
       },
       {
-        "id": "https://openalex.org/keywords/internet-privacy",
-        "display_name": "Internet privacy",
-        "score": 0.31631404161453247
+        "id": "https://openalex.org/keywords/positionality",
+        "display_name": "positionality",
+        "score": 0.6039999723434448
       },
       {
-        "id": "https://openalex.org/keywords/computer-science",
-        "display_name": "Computer science",
-        "score": 0.20856577157974243
+        "id": "https://openalex.org/keywords/researcher-presence",
+        "display_name": "researcher presence",
+        "score": 0.46799999475479126
+      },
+      {
+        "id": "https://openalex.org/keywords/precarity",
+        "display_name": "precarity",
+        "score": 0.7580000162124634
+      },
+      {
+        "id": "https://openalex.org/keywords/digital-ethnography",
+        "display_name": "digital ethnography",
+        "score": 0.47600001096725464
       }
     ],
     "concepts": [
@@ -23080,6 +23319,7 @@
     "locations": [
       {
         "id": "doi:10.1177/14687968251362253",
+        "doi": "https://doi.org/10.1177/14687968251362253",
         "is_oa": false,
         "landing_page_url": "https://doi.org/10.1177/14687968251362253",
         "pdf_url": null,
@@ -23094,6 +23334,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -23114,7 +23365,15 @@
       }
     ],
     "best_oa_location": null,
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.7390999794006348,
+        "display_name": "Reduced inequalities",
+        "id": "https://metadata.un.org/sdg/10"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [],
     "funders": [],
     "has_content": {
@@ -23124,6 +23383,7 @@
     "content_urls": null,
     "referenced_works_count": 52,
     "referenced_works": [
+      "https://openalex.org/W1981902743",
       "https://openalex.org/W1997417218",
       "https://openalex.org/W1999038790",
       "https://openalex.org/W2033165038",
@@ -23162,7 +23422,6 @@
       "https://openalex.org/W4224228546",
       "https://openalex.org/W4226022169",
       "https://openalex.org/W4232074262",
-      "https://openalex.org/W4236519808",
       "https://openalex.org/W4239428536",
       "https://openalex.org/W4241148257",
       "https://openalex.org/W4251683681",
@@ -23583,14 +23842,14 @@
     "counts_by_year": [
       {
         "year": 2026,
-        "cited_by_count": 1
+        "cited_by_count": 6
       },
       {
         "year": 2025,
-        "cited_by_count": 1
+        "cited_by_count": 2
       }
     ],
-    "updated_date": "2026-05-09T13:55:54.758798",
+    "updated_date": "2026-10-14T16:39:01.820549",
     "created_date": "2025-10-10T00:00:00"
   },
   {
@@ -24560,7 +24819,7 @@
     "doi": "https://doi.org/10.1177/14687968251350454",
     "title": "\u2018A tale of two cities\u2019: Migration and resentment through the eyes of shopkeepers in lombardy",
     "display_name": "\u2018A tale of two cities\u2019: Migration and resentment through the eyes of shopkeepers in lombardy",
-    "relevance_score": 0.8653317,
+    "relevance_score": 2.4385304,
     "publication_year": 2025,
     "publication_date": "2025-06-12",
     "ids": {
@@ -24570,6 +24829,7 @@
     "language": "en",
     "primary_location": {
       "id": "doi:10.1177/14687968251350454",
+      "doi": "https://doi.org/10.1177/14687968251350454",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251350454",
       "pdf_url": null,
@@ -24584,6 +24844,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -24602,6 +24873,7 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
+    "volume": null,
     "type": "article",
     "indexed_in": [
       "crossref"
@@ -24618,7 +24890,11 @@
         "author": {
           "id": "https://openalex.org/A5090516364",
           "display_name": "Anna Marino",
-          "orcid": "https://orcid.org/0000-0002-8487-384X"
+          "orcid": "https://orcid.org/0000-0002-8487-384X",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8487-384X",
+            "https://orcid.org/0000-0001-5156-295X"
+          ]
         },
         "institutions": [
           {
@@ -24655,7 +24931,10 @@
         "author": {
           "id": "https://openalex.org/A5041879567",
           "display_name": "Sara de Athouguia Filipe",
-          "orcid": "https://orcid.org/0000-0002-8269-5859"
+          "orcid": "https://orcid.org/0000-0002-8269-5859",
+          "observed_orcids": [
+            "https://orcid.org/0000-0002-8269-5859"
+          ]
         },
         "institutions": [
           {
@@ -24690,24 +24969,35 @@
     ],
     "institutions": [],
     "countries_distinct_count": 1,
-    "institutions_distinct_count": 2,
+    "institutions_distinct_count": 1,
     "corresponding_author_ids": [
       "https://openalex.org/A5090516364"
     ],
     "corresponding_institution_ids": [
       "https://openalex.org/I57825437"
     ],
-    "apc_list": null,
-    "apc_paid": null,
-    "fwci": 0.0,
+    "apc_list": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "apc_paid": {
+      "value": 3650,
+      "currency": "USD",
+      "value_usd": 3650
+    },
+    "fwci": 1.7961,
     "has_fulltext": false,
-    "cited_by_count": 0,
+    "cited_by_count": 1,
     "citation_normalized_percentile": {
-      "value": 0.17253649,
+      "value": 0.85533342,
       "is_in_top_1_percent": false,
       "is_in_top_10_percent": false
     },
-    "cited_by_percentile_year": null,
+    "cited_by_percentile_year": {
+      "min": 93,
+      "max": 96
+    },
     "biblio": {
       "volume": "25",
       "issue": "6",
@@ -24718,9 +25008,9 @@
     "is_paratext": false,
     "is_xpac": false,
     "primary_topic": {
-      "id": "https://openalex.org/T10216",
-      "display_name": "Migration, Refugees, and Integration",
-      "score": 0.9983000159263611,
+      "id": "https://openalex.org/T13692",
+      "display_name": "Italian Social Issues and Migration",
+      "score": 0.8755000233650208,
       "subfield": {
         "id": "https://openalex.org/subfields/3312",
         "display_name": "Sociology and Political Science"
@@ -24736,9 +25026,26 @@
     },
     "topics": [
       {
+        "id": "https://openalex.org/T13692",
+        "display_name": "Italian Social Issues and Migration",
+        "score": 0.8755000233650208,
+        "subfield": {
+          "id": "https://openalex.org/subfields/3312",
+          "display_name": "Sociology and Political Science"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/33",
+          "display_name": "Social Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/2",
+          "display_name": "Social Sciences"
+        }
+      },
+      {
         "id": "https://openalex.org/T10216",
         "display_name": "Migration, Refugees, and Integration",
-        "score": 0.9983000159263611,
+        "score": 0.09589999914169312,
         "subfield": {
           "id": "https://openalex.org/subfields/3312",
           "display_name": "Sociology and Political Science"
@@ -24753,29 +25060,12 @@
         }
       },
       {
-        "id": "https://openalex.org/T11648",
-        "display_name": "Diaspora, migration, transnational identity",
-        "score": 0.9926000237464905,
+        "id": "https://openalex.org/T11397",
+        "display_name": "Populism, Right-Wing Movements",
+        "score": 0.0142000000923872,
         "subfield": {
-          "id": "https://openalex.org/subfields/3317",
-          "display_name": "Demography"
-        },
-        "field": {
-          "id": "https://openalex.org/fields/33",
-          "display_name": "Social Sciences"
-        },
-        "domain": {
-          "id": "https://openalex.org/domains/2",
-          "display_name": "Social Sciences"
-        }
-      },
-      {
-        "id": "https://openalex.org/T10349",
-        "display_name": "Migration and Labor Dynamics",
-        "score": 0.9904000163078308,
-        "subfield": {
-          "id": "https://openalex.org/subfields/3312",
-          "display_name": "Sociology and Political Science"
+          "id": "https://openalex.org/subfields/3320",
+          "display_name": "Political Science and International Relations"
         },
         "field": {
           "id": "https://openalex.org/fields/33",
@@ -24789,39 +25079,59 @@
     ],
     "keywords": [
       {
-        "id": "https://openalex.org/keywords/resentment",
-        "display_name": "Resentment",
-        "score": 0.835010290145874
+        "id": "https://openalex.org/keywords/emigration",
+        "display_name": "emigration",
+        "score": 0.7260000109672546
       },
       {
-        "id": "https://openalex.org/keywords/political-science",
-        "display_name": "Political science",
-        "score": 0.42542245984077454
+        "id": "https://openalex.org/keywords/immigration",
+        "display_name": "immigration",
+        "score": 0.9990000128746033
       },
       {
-        "id": "https://openalex.org/keywords/sociology",
-        "display_name": "Sociology",
-        "score": 0.3798149824142456
+        "id": "https://openalex.org/keywords/shopkeepers",
+        "display_name": "shopkeepers",
+        "score": 0.7739999890327454
       },
       {
-        "id": "https://openalex.org/keywords/criminology",
-        "display_name": "Criminology",
-        "score": 0.3521885275840759
+        "id": "https://openalex.org/keywords/nostalgia",
+        "display_name": "nostalgia",
+        "score": 0.47699999809265137
       },
       {
-        "id": "https://openalex.org/keywords/gender-studies",
-        "display_name": "Gender studies",
-        "score": 0.32604318857192993
+        "id": "https://openalex.org/keywords/distrust",
+        "display_name": "distrust",
+        "score": 0.6620000004768372
       },
       {
-        "id": "https://openalex.org/keywords/law",
-        "display_name": "Law",
-        "score": 0.26262107491493225
+        "id": "https://openalex.org/keywords/discontent",
+        "display_name": "discontent",
+        "score": 0.7089999914169312
       },
       {
-        "id": "https://openalex.org/keywords/politics",
-        "display_name": "Politics",
-        "score": 0.2457273304462433
+        "id": "https://openalex.org/keywords/political-representation",
+        "display_name": "political representation",
+        "score": 0.6340000033378601
+      },
+      {
+        "id": "https://openalex.org/keywords/political-elites",
+        "display_name": "political elites",
+        "score": 0.6629999876022339
+      },
+      {
+        "id": "https://openalex.org/keywords/pavia",
+        "display_name": "Pavia",
+        "score": 0.906000018119812
+      },
+      {
+        "id": "https://openalex.org/keywords/mantua",
+        "display_name": "Mantua",
+        "score": 0.8880000114440918
+      },
+      {
+        "id": "https://openalex.org/keywords/lombardy",
+        "display_name": "Lombardy",
+        "score": 0.9639999866485596
       }
     ],
     "concepts": [
@@ -24880,6 +25190,7 @@
     "locations": [
       {
         "id": "doi:10.1177/14687968251350454",
+        "doi": "https://doi.org/10.1177/14687968251350454",
         "is_oa": true,
         "landing_page_url": "https://doi.org/10.1177/14687968251350454",
         "pdf_url": null,
@@ -24894,6 +25205,17 @@
           "is_oa": false,
           "is_in_doaj": false,
           "is_core": true,
+          "listed_in": [
+            "anvur-class-a",
+            "anvur-scientific",
+            "cwts-core",
+            "erih-plus",
+            "jufo-3",
+            "norway-1",
+            "poland-100",
+            "russia-white-list-1",
+            "vabb-shw"
+          ],
           "host_organization": "https://openalex.org/P4310320017",
           "host_organization_name": "SAGE Publishing",
           "host_organization_lineage": [
@@ -24915,6 +25237,7 @@
     ],
     "best_oa_location": {
       "id": "doi:10.1177/14687968251350454",
+      "doi": "https://doi.org/10.1177/14687968251350454",
       "is_oa": true,
       "landing_page_url": "https://doi.org/10.1177/14687968251350454",
       "pdf_url": null,
@@ -24929,6 +25252,17 @@
         "is_oa": false,
         "is_in_doaj": false,
         "is_core": true,
+        "listed_in": [
+          "anvur-class-a",
+          "anvur-scientific",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "norway-1",
+          "poland-100",
+          "russia-white-list-1",
+          "vabb-shw"
+        ],
         "host_organization": "https://openalex.org/P4310320017",
         "host_organization_name": "SAGE Publishing",
         "host_organization_lineage": [
@@ -24947,19 +25281,27 @@
       "raw_source_name": "Ethnicities",
       "raw_type": "journal-article"
     },
-    "sustainable_development_goals": [],
+    "sustainable_development_goals": [
+      {
+        "score": 0.5473999977111816,
+        "display_name": "Peace, justice, and strong institutions",
+        "id": "https://metadata.un.org/sdg/16"
+      }
+    ],
+    "sustainable_development_goals_aurora": [],
+    "study_designs": [],
     "awards": [
       {
-        "id": "https://openalex.org/G5272960845",
+        "id": "https://openalex.org/G1809564479",
         "display_name": null,
-        "funder_award_id": "51NF40_182897",
+        "funder_award_id": "51NF40 - 205605",
         "funder_id": "https://openalex.org/F4320333325",
         "funder_display_name": "nccr \u2013 on the move"
       },
       {
-        "id": "https://openalex.org/G7560158678",
+        "id": "https://openalex.org/G3001959550",
         "display_name": null,
-        "funder_award_id": "51NF40_205605",
+        "funder_award_id": "51NF40-182897",
         "funder_id": "https://openalex.org/F4320333325",
         "funder_display_name": "nccr \u2013 on the move"
       }
@@ -24968,7 +25310,7 @@
       {
         "id": "https://openalex.org/F4320333325",
         "display_name": "nccr \u2013 on the move",
-        "ror": null
+        "ror": "https://ror.org/055d2j725"
       }
     ],
     "has_content": {
@@ -24976,7 +25318,7 @@
       "grobid_xml": false
     },
     "content_urls": null,
-    "referenced_works_count": 109,
+    "referenced_works_count": 108,
     "referenced_works": [
       "https://openalex.org/W74153968",
       "https://openalex.org/W835949354",
@@ -25037,6 +25379,7 @@
       "https://openalex.org/W3149084145",
       "https://openalex.org/W3160612350",
       "https://openalex.org/W3171504623",
+      "https://openalex.org/W3176563528",
       "https://openalex.org/W3181653514",
       "https://openalex.org/W3194520918",
       "https://openalex.org/W3196344437",
@@ -25082,11 +25425,9 @@
       "https://openalex.org/W4388850751",
       "https://openalex.org/W4390544565",
       "https://openalex.org/W4391868728",
-      "https://openalex.org/W4398200427",
       "https://openalex.org/W4399360247",
       "https://openalex.org/W4410781425",
-      "https://openalex.org/W6603016242",
-      "https://openalex.org/W6681104034"
+      "https://openalex.org/W6603016242"
     ],
     "related_works": [
       "https://openalex.org/W4391375266",
@@ -25602,8 +25943,13 @@
         204
       ]
     },
-    "counts_by_year": [],
-    "updated_date": "2026-03-27T05:58:40.876381",
+    "counts_by_year": [
+      {
+        "year": 2026,
+        "cited_by_count": 1
+      }
+    ],
+    "updated_date": "2026-10-16T09:59:22.235173",
     "created_date": "2025-10-10T00:00:00"
   }
 ]
