@@ -13,11 +13,11 @@ PYTHONPATH=llm_analysis uv run llm_analysis/process.py gptoss sentiment --gpu-co
 PYTHONPATH=llm_analysis uv run llm_analysis/process.py gptoss themes --gpu-count 1
 ```
 
-To run a pilot subset, provide `--work-ids-file` with a UTF-8 text file containing one OpenAlex work ID per line (blank lines and `#` comments are ignored):
+To run a pilot subset, provide `--work-selection-csv` with a UTF-8 CSV containing `id` and `focal_country` columns. The runner selects exact ID/country pairs, so a work that appears under more than one country is run only for the country selected in the CSV. A legacy `keyword` country column is also accepted.
 
 ```bash
-PYTHONPATH=llm_analysis uv run llm_analysis/process.py gptoss sentiment --gpu-count 1 --work-ids-file pilot_ids.txt
-sbatch sbatch/vllm_gptoss_works_theme.sh /absolute/path/pilot_ids.txt
+PYTHONPATH=llm_analysis uv run llm_analysis/process.py gptoss sentiment --gpu-count 1 --work-selection-csv pilot_selection.csv
+sbatch sbatch/vllm_gptoss_works_theme.sh /absolute/path/pilot_selection.csv
 ```
 
 Results are resumable and kept separate:

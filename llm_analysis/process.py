@@ -161,25 +161,31 @@ def _format_record_text(row, focal_country):
     )
 
 
-def _load_work_ids(path):
-    """Read a plain-text allowlist: one OpenAlex work ID per non-empty line."""
+def _load_work_selection(path):
+    """Read a CSV allowlist of exact (OpenAlex work ID, focal country) pairs."""
     if path is None:
         return None
     try:
-        with path.open(encoding="utf-8") as f:
-            work_ids = {
-                line.strip()
-                for line in f
-                if line.strip() and not line.lstrip().startswith("#")
+        with path.open(encoding="utf-8-sig", newline="") as f:
+            reader = csv.DictReader(f)
+            if not reader.fieldnames or "id" not in reader.fieldnames:
+                raise ValueError("must contain an 'id' column")
+            country_column = "focal_country" if "focal_country" in reader.fieldnames else "keyword"
+            if country_column not in reader.fieldnames:
+                raise ValueError("must contain a 'focal_country' column (or legacy 'keyword' column)")
+            selection = {
+                ((row.get("id") or "").strip(), (row.get(country_column) or "").strip())
+                for row in reader
+                if (row.get("id") or "").strip() and (row.get(country_column) or "").strip()
             }
     except OSError as exc:
-        raise ValueError(f"Cannot read work IDs file '{path}': {exc}") from exc
-    if not work_ids:
-        raise ValueError(f"Work IDs file '{path}' contains no IDs")
-    return work_ids
+        raise ValueError(f"Cannot read work selection CSV '{path}': {exc}") from exc
+    if not selection:
+        raise ValueError(f"Work selection CSV '{path}' contains no ID/country pairs")
+    return selection
 
 
-def collect_search_result_works(output_dir, work_ids=None):
+def collect_search_result_works(output_dir, work_selection=None):
     search_dir = Path(SEARCH_RESULTS_DIR).resolve()
     seen = set()
     for csv_path in search_dir.glob(SEARCH_RESULTS_CSV_PATTERN):
@@ -190,7 +196,7 @@ def collect_search_result_works(output_dir, work_ids=None):
                 title = (row.get("title") or "").strip()
                 if not work_id or not title:
                     continue
-                if work_ids is not None and work_id not in work_ids:
+                if work_selection is not None and (work_id, focal_country) not in work_selection:
                     continue
                 task_key = f"{csv_path.stem}_{work_id}"
                 if task_key in seen:
@@ -204,7 +210,7 @@ def collect_search_result_works(output_dir, work_ids=None):
                 }
 
 
-def run_tasks(prompt, llm_gen, output_dir, analysis, work_ids=None):
+def run_tasks(prompt, llm_gen, output_dir, analysis, work_selection=None):
     print("Starting batched processing...\n")
 
     start_time = time.perf_counter()
@@ -213,6 +219,7 @@ def run_tasks(prompt, llm_gen, output_dir, analysis, work_ids=None):
     failed = 0
     found_any = False
     failures = []
+    matched_selection = set()
 
     def iter_batches(tasks):
         nonlocal task_count, successful, found_any
@@ -220,6 +227,10 @@ def run_tasks(prompt, llm_gen, output_dir, analysis, work_ids=None):
         for task in tasks:
             found_any = True
             task_count += 1
+            if work_selection is not None:
+                work_id = task["task_key"].rsplit("_", 1)[-1]
+                focal_country = task["record_text"].rsplit(": ", 1)[-1]
+                matched_selection.add((work_id, focal_country))
             if _output_exists(task):
                 successful += 1
                 print(f"⏭️  Skipping {task['task_label']} (output exists)")
@@ -232,7 +243,7 @@ def run_tasks(prompt, llm_gen, output_dir, analysis, work_ids=None):
             yield batch_tasks
 
     processed_batch_count = 0
-    for batch_items in iter_batches(collect_search_result_works(output_dir, work_ids)):
+    for batch_items in iter_batches(collect_search_result_works(output_dir, work_selection)):
         processed_batch_count += 1
         batch = []
         batch_map = []
@@ -312,6 +323,19 @@ def run_tasks(prompt, llm_gen, output_dir, analysis, work_ids=None):
             for _, task in batch_map:
                 failures.append((task, e))
 
+    if work_selection is not None:
+        unmatched_selection = work_selection - matched_selection
+        if unmatched_selection:
+            preview = ", ".join(
+                f"{work_id}/{country}"
+                for work_id, country in sorted(unmatched_selection)[:10]
+            )
+            suffix = " ..." if len(unmatched_selection) > 10 else ""
+            print(
+                f"⚠️  {len(unmatched_selection)} selected work/country pair(s) were not found "
+                f"in {SEARCH_RESULTS_DIR}: {preview}{suffix}"
+            )
+
     if not found_any:
         print(f"No matching works found in {SEARCH_RESULTS_DIR} from {SEARCH_RESULTS_CSV_PATTERN}")
         return
@@ -348,8 +372,8 @@ def main():
     parser.add_argument("--prompt-file", type=Path, help="Override the prompt file for an experiment.")
     parser.add_argument("--output-dir", type=Path, help="Override the analysis output directory.")
     parser.add_argument(
-        "--work-ids-file", type=Path,
-        help="Optional UTF-8 text file with one OpenAlex work ID per line.",
+        "--work-selection-csv", type=Path,
+        help="Optional CSV with exact 'id' and 'focal_country' pairs (legacy 'keyword' is accepted).",
     )
     args = parser.parse_args()
 
@@ -362,11 +386,11 @@ def main():
     if BATCH_SIZE < 1:
         parser.error("--batch-size must be at least 1")
     try:
-        work_ids = _load_work_ids(args.work_ids_file)
+        work_selection = _load_work_selection(args.work_selection_csv)
     except ValueError as exc:
         parser.error(str(exc))
-    if work_ids is not None:
-        print(f"Filtering to {len(work_ids)} work ID(s) from {args.work_ids_file}")
+    if work_selection is not None:
+        print(f"Filtering to {len(work_selection)} work/country pair(s) from {args.work_selection_csv}")
 
     if DRY_RUN:
         print(f"DRY_RUN enabled. Skipping model load for '{MODEL}'.")
@@ -385,7 +409,7 @@ def main():
         print(f"❌ Error: {e}")
         raise
 
-    run_tasks(prompt, llm_gen, output_dir, args.analysis, work_ids)
+    run_tasks(prompt, llm_gen, output_dir, args.analysis, work_selection)
 
 
 if __name__ == "__main__":
