@@ -1,0 +1,339 @@
+# Sentiment Analysis Prompt: Attitude of an Academic Record Toward a Focal Country
+
+This prompt has two parts. PART 1 sets out how to classify the record. PART 2 sets out the input you receive and the exact output format. Where the two seem to differ, PART 1 governs what you decide and PART 2 governs how you write it down.
+
+
+=====================================================================
+PART 1: CLASSIFICATION GUIDELINES
+=====================================================================
+
+## 1. Your task
+
+You are classifying bibliographic records of academic publications (journal articles, book chapters and book reviews). Each record consists of a title, an abstract and keywords, as provided by OpenAlex, and is paired with one focal country.
+
+For each record you decide, in this order:
+
+1. Relevance: whether the record is relevant to the focal country at all.
+2. Sentiment: the single attitude the record expresses toward the focal country (positive, negative, neutral, or insufficient evidence).
+3. Attitude categories: which of five categories that sentiment is expressed through (the state's national movement, the state as a whole, specific state practices or organs, state-affiliated individuals or groups, an empathetic attitude).
+
+Then you state how confident you are.
+
+### Core principles
+
+These apply to every decision below.
+
+- Focal country only. Classify the attitude toward the focal country and nothing else. Ignore attitudes toward every other country, even when they dominate the text.
+- The record's own stance. Code what the record itself conveys through its evaluations, framing, word choice and conclusions, not the views of people it quotes, reports or reviews unless the author adopts them (section 4.7).
+- The record is the only evidence. Use only the title, abstract and keywords, and the definitions in this prompt. Do not use outside knowledge of the author, the publication or the full text. The only exception is the verdict rule (section 4.6).
+- Topic is not stance. A record about a war, an atrocity or a crisis is not automatically negative toward a country involved in it. Code from how the record portrays the focal country.
+- Objectivity. Do not guess what the person running this analysis hopes to find. Respond analytically.
+
+
+## 2. The focal country
+
+- Each record is one publication paired with one focal country. When a publication discusses several countries, it appears as several records, one per country. Classify each record only for its own focal country.
+- The same sentence can carry different attitudes for different focal countries. For example, "Syrian citizens in the occupied Golan Heights are also conducting a powerful, concentrated and successful campaign of non-violent resistance to the attempts of Israel to impose Israeli law on the Golan Heights" is positive toward Syrian individuals when the focal country is Syria, but bears on Israeli state practices when the focal country is Israel.
+- The focal country may be referred to by its name; its demonym (French, Israeli); its capital used as a stand-in for the government ("Ankara", "Washington"); its leaders ("President George W. Bush"); its institutions ("Wehrmacht", "Knesset", "U.S. Supreme Court"); or historical regimes and earlier forms of the same state (Nazi Germany, the Weimar Republic, Vichy France, Tsarist Russia).
+- If you treat a broader or contested predecessor entity as the focal country (for example, the Soviet Union for Russia, the Ottoman Empire for Turkey, the pre-1948 Zionist movement for Israel), say so in your explanation.
+- Do not conflate religious, ethnic or diaspora groups with a state. Jews are not "Israel", Muslims are not any particular state, and Germans abroad are not the German state, unless the record itself makes that connection. Jews in France are French individuals or groups when the focal country is France.
+
+
+## 3. Step 1: Relevance (decide first)
+
+If the record is not relevant to the focal country, the sentiment is Insufficient evidence and no attitude category is assigned.
+
+A record is relevant when it:
+
+- studies the country directly (for example, its election methods, public health policy, war situation, economy or society);
+- examines the country as one of a group of countries treated alike (for example, a study of election systems in 11 countries is relevant to all 11);
+- concerns the relationship between the country and one or more other countries (for example, US military action in the Iraq War is relevant to Iraq);
+- concerns a subject or entity of the past but links it to the contemporary country (for example, how an archaeological discovery affects a contemporary territorial dispute).
+
+A record is not relevant when:
+
+- it centers on another country and mentions the focal country only peripherally (for example, an article on Ottoman domestic policy that briefly mentions the Russian Empire is not relevant to Russia);
+- the study's location is incidental (for example, a disease study conducted in a country because a dataset happens to be available there);
+- the country appears only through a passing mention of the nationality of a person with no national significance ("Italian author Umberto Eco…"), or by coincidence (an author named "Jordan"; Russian Mennonites described as "German Protestant");
+- the country, or a recognizable reference to it, does not appear in the title, abstract or keywords at all.
+
+
+## 4. Step 2: Sentiment toward the focal country
+
+### 4.1 The four codes
+
+Assign exactly one sentiment toward the focal country for the record as a whole:
+
+- Positive (1): the record expresses a favorable attitude, approval or optimism toward the focal country. This includes praise, legitimacy, achievement, success, strength, beneficial influence, or being supported or admired.
+- Negative (-1): the record expresses an unfavorable attitude, disapproval or pessimism toward the focal country. This includes criticism, condemnation, wrongdoing, harm caused, repression, failure or illegitimacy.
+- Neutral (0): the record addresses the focal country but is factual or descriptive, or its positive and negative elements balance out, so it conveys no overall favorable or unfavorable attitude.
+- Insufficient evidence (99): the record does not give enough relevant or clear information to determine its attitude toward the focal country, for example because it is too short, ambiguous or off-topic, or because there is no abstract and the title and keywords are not enough. A record that is not relevant (Step 1) is also coded 99.
+
+The difference between Neutral and Insufficient evidence matters. Use Neutral when the record clearly addresses the focal country and simply takes no evaluative stance (for example, "Voting Patterns of the United States Supreme Court: Cases in Federalism 1889-1959"). Use Insufficient evidence when you cannot tell what the record's attitude is, or when the country is not really part of what the record is about. Do not fall back on Neutral just because the country is mentioned.
+
+### 4.2 How sentiment is carried
+
+- Framing and word choice can carry sentiment without an explicit verdict. Loaded terms ("repression", "ethnic cleansing", "miracle") and factual statements presented as achievements or as harms can establish a positive or negative attitude. For example, "Germany emerged as Europe's foremost industrial power" is positive; "the state encroached on freedom of speech and the press" is negative.
+- Context and valence: interpret each concept by the valence it carries within the record itself, regardless of the charge the same concept carries in other periods or contexts. For example, a record that celebrates "patriotic sacrifice and national resistance" treats that nationalism favorably, even though "nationalism" is viewed negatively in other contexts. Decide the sentiment from what the record itself conveys.
+
+### 4.3 Mixed sentiment
+
+When a record contains both positive and negative elements toward the focal country, code it Neutral, unless the record shows a clear trend, in which case code the direction of that trend. For example, a record that describes the German Republic positively and the Nazi regime negatively is Negative toward Germany, because it describes a shift toward something viewed more negatively. Always describe the mixed elements in your explanation.
+
+### 4.4 Groups of countries
+
+When the record examines the focal country as one of a group of countries treated alike and no sentiment toward the focal country itself can be inferred, use the record's sentiment toward the group.
+
+### 4.5 Documents and rulings
+
+- Historical documents published as such (for example, the text of a treaty) are Neutral.
+- Judicial rulings are the exception: when a ruling carries sentiment relevant to this research, classify it accordingly. For example, a ruling against a nationalist group is Negative; a ruling defending government policy is Positive.
+
+### 4.6 The verdict rule (concepts only, last resort)
+
+This rule applies only when the record's engagement with the focal country runs through a concept (an ideology, system or practice such as Nazism, racism or colonialism), not through a person, organization or event. Only when the record itself gives insufficient information for determining its stance, code according to the concept's current prevailing perception (for example, Nazism, racism and colonialism are Negative). Whenever you use the verdict rule, say so explicitly in your explanation and mark it in the output. Never use it when the record's own text already makes its stance clear, and never use it for persons, organizations or events.
+
+For example (invented record), a title-only record "Nazism and the Village: Rural Saxony, 1933-1939" with focal country Germany gives no stance of its own, and its engagement with Germany runs through the concept of Nazism. Under the verdict rule it is Negative, with the verdict rule marked as applied.
+
+### 4.7 Whose attitude counts
+
+The core principle is that the record's own stance counts. In practice:
+
+- Quotations: for each quotation, decide whether the author uses it to support their own view of the country or uses it as a tool of criticism, and classify by the author's stance. For example, if the author quotes an official's justification in order to expose it, the attitude is negative, not positive.
+- Reported views: when the record's subject is itself a third party's attitude toward the country (for example, "Many evangelicals … unreservedly approve of Israeli policy") and the author reports it without distancing or rebuttal, the record conveys that portrayal. Code it accordingly, and say in your explanation that the sentiment comes from a reported view.
+- Several viewpoints presented with no discernible authorial stance are Neutral; say so in your explanation.
+- Book reviews convey both the reviewed book's argument (as summarized) and the reviewer's own judgment. Code the attitude the review conveys toward the country. If the reviewer explicitly disputes the book's stance on the country, follow the reviewer and note the disagreement. Praise or criticism of the book's quality (writing, research, sources) is not an attitude toward the country.
+
+### 4.8 Thin or noisy records
+
+- A missing abstract does not by itself mean Insufficient evidence. If the title or keywords make the sentiment apparent, classify accordingly. Many codebook examples are titles alone.
+- Keywords are assigned automatically by OpenAlex, not by the author, and are sometimes wrong or irrelevant (for example, "State (computer science)" on a history article). They can help show what a record is about, but they should not by themselves establish a positive or negative sentiment.
+- Ignore publisher boilerplate in the abstract (for example, "Get access", "Search for other works by this author on…", prices, page counts, series information). It is not evidence.
+- You may silently read past encoding artifacts (for example, "‚Äô" for an apostrophe) and HTML tags (for example, <i>).
+- Use the publication date only as context for interpreting historical references. Do not infer sentiment from the date.
+
+
+## 5. Step 3: Attitude categories
+
+### 5.1 How categories work
+
+- Assign one or more of the five categories below that the record fits. A record may fit several categories (for example, a generalization about the state's nature together with criticism of a specific policy), but all assigned categories share the record's single sentiment from Step 2.
+- Assign the categories through which the record's sentiment is expressed. If one part of the record points in the opposite direction (for example, criticism of a policy alongside praise of a social group), that is a mixed-sentiment question for Step 2 (section 4.3), not a second sentiment. Once the sentiment is settled, assign the categories that carry it, and mention any category that points the other way in your explanation.
+- The categories are not exhaustive. Use them wherever possible. If the record has a sentiment (Positive, Negative or Neutral) but none of the categories fits, say so explicitly for each category.
+- When the sentiment is Insufficient evidence, no category is assigned.
+
+### 5.2 The five categories
+
+The examples below come from the human-coded set. They illustrate category boundaries; they are not templates. Classify each record from its own text.
+
+**A. Attitudes toward the state's national movement**
+Attitudes that engage with the state's nationalism, national project, independence movement or sovereignty as the subject of discussion. This category covers only ideological movements distinct from ordinary politics. A nationalist movement that acted as a distinct political actor, such as the Nazi movement, does not fall into this category; attitudes toward it belong under specific state practices or organs, or under the state as a whole.
+- Positive example: "The second, shorter section explores Petit's afterlife as an icon of patriotic sacrifice and national resistance" (Belgium).
+- Negative examples: "Khashan severely criticizes Western colonialism and Zionism, and-later-Western hegemony allied with Israel" (Israel); "Despite the advance in political consciousness made among the people in the past decades, the movement is today afflicted with contradictions that seriously call into question its future development" (Palestine).
+- Neutral example: "During the first six years of the war of independence, the city's Muslim population almost doubled as Algerians fled from the insecurity of the countryside and the harsh counter-insurgency policies of the French army. Within months of Algerian independence in July 1962, the bulk of the city's European residents left for France, provoking a further massive influx of Muslims" (Algeria).
+
+**B. Attitudes toward the state as a whole**
+Attitudes in which the state itself is the primary subject of discussion, including generalizations about the state's nature, character, identity or overall standing.
+- Positive examples: "In the two generations before World War I, Germany emerged as Europe's foremost industrial power." (Germany); "through modern Belgian society, the present article highlights how this tiny nation stands as a microcosm of Europe's past, present, and potential futures" (Belgium); "The Miracle of France" (France).
+- Negative examples: "Journey Out of Zionism: The Radicalization of An Israeli Pacifist" (Israel); "Israel and Torture" (Israel); "the state encroached on freedom of speech and the press, the right to organize and protest, and lawyer-client relations" (Germany).
+- Neutral examples: "[…] this article explored the identity narrative of three generations of the Hutu Diaspora community living in Belgium" (Belgium); "The Kingdom of Saxony has always been something of an anomaly in Germany during the age of the French Revolution" (France); "Turkey […] finally reached an agreement with the British on Mosul in 1926. Ankara then went on to consolidate its relations with its Balkan neighbors through the Balkan Pact of 1934" (Turkey).
+
+**C. Attitudes toward specific state practices or organs**
+Attitudes toward specific state practices limited in time or place, or toward particular aspects of the state's policies or political conduct, without generalizing about the state's nature as a whole. This category also covers attitudes toward official state organs (government, army, courts, police, agencies), leaders, ruling parties and particular regimes.
+- Positive examples: "a firm amity developing between the Cuban and Israeli governments[…]" (Israel); "Many evangelicals see the 'war against terror' as a war against Islam and unreservedly approve of Israeli policy […]" (Israel); "Positive State Duties to Protect Women from Violence: Recent South African Developments" (South Africa); "Since the 1990s in France, tensions have decreased and Islam has started to be accepted as a component of religious and cultural French society, particularly at the local level. Discriminatory episodes have tended to disappear, even in the aftermath of 9/11" (France); "With the assistance of Adolf Hitler, Hungary made significant territorial gains between 1938 and 1941 at the expense of Czechoslovakia, Romania, and Yugoslavia" (Germany); "Russia's representatives at the Shah's court, and first and foremost A. S. Griboyedov,' were using every means to strengthen the anti-British tendencies evident in the policy of the ruler of Persia and heir to the throne. That unintelligent though energetic statesman and military leader wanted military and political revenge at any cost, to save his country's face after the recent defeat and humiliation" (Russia).
+- Negative examples: "Sparked by Israeli repression and ethnic cleansing campaigns in Jerusalem…" (Israel); "Anti-Semitism and Anti-Black Racism: Nazi Germany and Apartheid South Africa" (Germany); "Currency: Slavery, Capitalism, and Self-Purchase in the United States" (the United States); "the U.S. Supreme Court found that the military commissions established by President George W. Bush were unauthorized by law and inconsistent with both the Uniform Code of Military Justice (UCMJ) and the 1949 Geneva Conventions" (the United States).
+- Neutral examples: "In Search of a Peace Settlement: Egypt and Israel Between the Wars" (Israel); "Seeking Mandela, Peacemaking between Israelis and Palestinians" (Israel); "Voting Patterns of the United States Supreme Court: Cases in Federalism 1889-1959" (the United States); "Treatment of the Conscientious Objector Under the Selective Service Act of 1940" (the United States); "Banning political parties in a democratic constitutional state: the second NPD ban proceedings in a comparative perspective" (Germany); "Dragon and Eagle: United States-China Relations: Past and Future" (the United States).
+
+Boundary between B and C: praise or criticism of a specific policy, institution, leader, period or regime (for example, "Nazi Germany", or one government's policy) belongs in C. It belongs in B only if the record generalizes it into a claim about the state's essential nature or overall character. If the record does both, assign both.
+
+**D. Attitudes toward state-affiliated individuals or groups**
+Attitudes toward individuals or groups of the country's affiliation (for example, Germans, French scholars, Israeli citizens, a minority community within the country, a profession, a party's voters), discussed separately from the state and not as its representatives. Officials, soldiers or agencies acting in their official capacity belong in C, not here. When a group is portrayed mainly as affected by the state (harmed or constrained by it, or defended against unfair condemnation of it), that is an empathetic attitude (E), not D. D covers attitudes toward the group in its own right.
+- Positive examples: "Helping the enemy? Why transnational Jewish philanthropic foundations donate to Palestinian NGOs in Israel" (Israel); "Fascist propaganda was not successful on the home front […] It appears that the Italians would rather lose to the British than to the Germans." (Italy); "I discuss contemporary South African women's writing in Afrikaans, particularly as produced by white women. Long overlooked, this body of work has quickly become the new avant garde of South African writing […]" (South Africa); "Syrian citizens in the occupied Golan Heights are also conducting a powerful, concentrated and successful campaign of non-violent resistance to the attempts of Israel to impose Israeli law on the Golan Heights" (Syria).
+- Negative examples: "German historians who relativize the Holocaust by claiming it is a 'copy' of Soviet atrocities demonstrate deep conceptual confusion" (Germany); "Writing about French lawyers, who implemented anti-Jewish laws with as much conscientiousness as their German counterparts…" (France).
+- Neutral examples: "How group-based emotions are shaped by collective emotions: Evidence for emotional transfer and emotional burden" (regarding Israeli citizens, Israel); "Minority Representation, Empowerment, and Participation" (the United States); "From high camp to post-modern camp: Queering post-Soviet pop music" (regarding queer Russians, Russia); "the more liberal and competitive the Democratic party in a state, the greater the mobilization of lower-class voters" (the United States).
+
+**E. Empathetic attitudes**
+Records that criticize or critically discuss aspects of a state while expressing empathy toward its people. Such records may discuss the state and its citizens or nationals separately, with criticism aimed at the state and empathy aimed at the people as affected by it. Empathetic attitudes are most often associated with negative sentiment, but they can occur with any classifiable sentiment (for example, humanizing a country's people against prejudice, or defending them against unfair condemnation). Assign this category only when empathy toward the people is actually expressed. When the record also criticizes or defends the state, assign the category that holds that criticism or defense as well (usually B or C).
+- Positive examples: "protagonists come to realize that Iraqi refugees, whom they have been taught to view as Other, share values and aspirations that are strongly coded as American" (in the context of the Gulf War, Iraq); "Why, then, hold France to a different standard from her allies, or even her enemies? France was not the sole country to appease Hitler or to experience defeat and ought not to be singled out for condemnation. The French, Nord writes, 'did well enough, in trying circumstances' and who, for that matter, did any better?" (France).
+- Negative examples: "Fertility Policy in Israel: The Politics of Religion, Gender, and Nation […] Israeli women are bombarded with regulations affecting access to contraceptives and abortion procedures and with all sorts of unsubtle massages about the importance of mothering as a factor in the state's continuing vitality and fulfilling its national purpose" (Israel); "Goldfarb shows how domestic violence laws in the United States, governed by the twin cultural principles of patriarchy and privacy, tend to criminalize abusers and offer limited outcomes for the abused" (the United States); "Non-recognition of Post-modern Turkish Socio-legal Reality and the Predicament of Women […] Women suffer because of the State's rigid stand regarding the black-letter law." (Turkey).
+
+
+## 6. Confidence
+
+Give one overall confidence level for your relevance, sentiment and category decisions:
+
+- High: the decisions follow directly from clear text.
+- Medium or Low: explain why, naming what is uncertain. Typical reasons are a title-only record, mixed sentiment, heavy reliance on quoted or reported views, an unclear authorial stance, borderline relevance, use of the verdict rule, an uncertain category boundary (for example, state as a whole versus specific practices), or garbled text.
+
+
+=====================================================================
+PART 2: TECHNICAL SPECIFICATION
+=====================================================================
+
+## 7. Input
+
+You will receive one record with these fields:
+
+- `id`: the record identifier.
+- `title`
+- `publication_date`
+- `keywords`: semicolon-separated topic tags assigned automatically by OpenAlex.
+- `abstract`: may be a full abstract, a fragment, scraped publisher text, or "NA" (no abstract available).
+- `focal_country`: the focal country for this record. Normalize it to its plain English name (for example, "united_states_or_usa" becomes "United States"; "south_africa" becomes "South Africa").
+
+
+## 8. Output format (mandatory)
+
+Your entire response must be one valid JSON object with exactly the structure below.
+
+- No text outside the JSON: no markdown fences, no commentary.
+- Do not add, remove or rename fields.
+- Every `code` is one of the integers 1, 0, -1, 99 (not strings).
+- Within each block, write the fields in the order shown: `evidence` (where present) first, then `explanation`, then the decision (`code`, `applies`). The decision must follow from the explanation.
+
+{
+  "record_id": "",
+  "focal_country": "",
+  "relevance": {
+    "explanation": "",
+    "basis": "direct_study | group_member | relationship_with_other_countries | past_linked_to_present | not_relevant",
+    "is_relevant": true
+  },
+  "sentiment": {
+    "evidence": [
+      { "quote": "", "source": "title | abstract | keywords" }
+    ],
+    "explanation": "",
+    "verdict_rule_applied": false,
+    "code": 99
+  },
+  "attitude_categories": {
+    "national_movement": {
+      "explanation": "",
+      "applies": false,
+      "code": 99
+    },
+    "state_as_a_whole": {
+      "explanation": "",
+      "applies": false,
+      "code": 99
+    },
+    "specific_state_practices_or_organs": {
+      "explanation": "",
+      "applies": false,
+      "code": 99
+    },
+    "state_affiliated_individuals_or_groups": {
+      "explanation": "",
+      "applies": false,
+      "code": 99
+    },
+    "empathetic": {
+      "explanation": "",
+      "applies": false,
+      "code": 99
+    }
+  },
+  "no_category_fits": false,
+  "confidence_and_ambiguity": {
+    "confidence_level": "High | Medium | Low",
+    "uncertainty_explanation": ""
+  }
+}
+
+
+## 9. Field rules
+
+Mapping of PART 1 names to output keys:
+
+| PART 1 name | Output key |
+|---|---|
+| A. The state's national movement | `national_movement` |
+| B. The state as a whole | `state_as_a_whole` |
+| C. Specific state practices or organs | `specific_state_practices_or_organs` |
+| D. State-affiliated individuals or groups | `state_affiliated_individuals_or_groups` |
+| E. Empathetic attitudes | `empathetic` |
+| Positive / Negative / Neutral / Insufficient evidence | 1 / -1 / 0 / 99 |
+
+`record_id`: copy the input `id` exactly.
+
+`focal_country`: the normalized name of the input `focal_country`.
+
+`relevance`:
+- `explanation`: one or two sentences on why the record is or is not relevant to the focal country. If it is not relevant, name the reason (peripheral mention, incidental location, passing or coincidental mention, or not found in the record).
+- `basis`: the main ground for relevance, one of `direct_study`, `group_member`, `relationship_with_other_countries`, `past_linked_to_present`; or `not_relevant`.
+- `is_relevant`: `true` or `false` (JSON booleans). Must be `false` if and only if `basis` is `not_relevant`.
+
+`sentiment`:
+- `evidence`: for codes 1, 0 or -1, one to three items. Each `quote` is copied verbatim from the title, abstract or keywords, is under 25 words, and names its `source` field. For code 99, an empty array `[]`. Never invent quotes, paraphrase inside quotation marks or "repair" a quote; copy quotes as they appear, including encoding artifacts.
+- `explanation`: one to three sentences grounded in the record. Document mixed elements, reported views, reviewer disagreement and use of the verdict rule here.
+- `verdict_rule_applied`: `true` only if the code rests on the verdict rule (section 4.6); otherwise `false`.
+- `code`: 1, 0, -1 or 99.
+
+`attitude_categories` (each of the five):
+- `explanation`: one short sentence. If the category applies, say how the record expresses the sentiment through it. If it does not, say why (for example, "The record does not engage with the country's national movement."). If `no_category_fits` is `true`, each explanation must say that no category fits and briefly why. If this category points in the opposite direction to the record's sentiment, say so here.
+- `applies`: `true` if the record's sentiment is expressed through this category; otherwise `false`.
+- `code`: if `applies` is `true`, the same value as `sentiment.code`. If `applies` is `false`, 99.
+
+`no_category_fits`: `true` only when `sentiment.code` is 1, 0 or -1 and no category applies; otherwise `false`.
+
+`confidence_and_ambiguity`:
+- `confidence_level`: "High", "Medium" or "Low".
+- `uncertainty_explanation`: required for Medium or Low; may be an empty string for High.
+
+
+## 10. Illustrative examples (invented records, not from the dataset)
+
+Example 1
+
+Input:
+- id: X0001
+- title: Policing the Banlieues: State Violence and Everyday Life Among Young French Muslims
+- publication_date: 2019
+- keywords: Police;Sociology;Islam;Political science
+- abstract: Drawing on interviews in three Paris suburbs, this article argues that aggressive stop-and-search practices by the French police have eroded trust among young residents and narrowed their sense of belonging.
+- focal_country: france
+
+Output:
+{"record_id":"X0001","focal_country":"France","relevance":{"explanation":"The record directly studies French policing and its effects on young people in France.","basis":"direct_study","is_relevant":true},"sentiment":{"evidence":[{"quote":"aggressive stop-and-search practices by the French police have eroded trust among young residents","source":"abstract"},{"quote":"State Violence and Everyday Life Among Young French Muslims","source":"title"}],"explanation":"The author frames a French police practice as aggressive and harmful to young residents, which is an unfavorable portrayal with no offsetting positive elements.","verdict_rule_applied":false,"code":-1},"attitude_categories":{"national_movement":{"explanation":"The record does not engage with French nationalism or sovereignty.","applies":false,"code":99},"state_as_a_whole":{"explanation":"The criticism is confined to a specific police practice and is not generalized to the French state's nature.","applies":false,"code":99},"specific_state_practices_or_organs":{"explanation":"The negative sentiment is directed at French police stop-and-search practices.","applies":true,"code":-1},"state_affiliated_individuals_or_groups":{"explanation":"Young residents appear as people affected by the state, which is captured by the empathetic category rather than as a separate attitude toward them.","applies":false,"code":99},"empathetic":{"explanation":"The record expresses empathy toward young residents as harmed by police practices while criticizing the state organ.","applies":true,"code":-1}},"no_category_fits":false,"confidence_and_ambiguity":{"confidence_level":"High","uncertainty_explanation":""}}
+
+Example 2
+
+Input:
+- id: X0002
+- title: Seasonal Influenza Transmission in Primary Schools: Evidence from Danish Registry Data
+- publication_date: 2021
+- keywords: Influenza;Epidemiology;Denmark;Transmission (medicine)
+- abstract: Using national registry data, we estimate household and classroom transmission rates of seasonal influenza among children aged 6 to 12.
+- focal_country: denmark
+
+Output:
+{"record_id":"X0002","focal_country":"Denmark","relevance":{"explanation":"Denmark is only the source of the dataset; the study's location is incidental to an epidemiological question.","basis":"not_relevant","is_relevant":false},"sentiment":{"evidence":[],"explanation":"The record is not relevant to Denmark, so no sentiment can be determined.","verdict_rule_applied":false,"code":99},"attitude_categories":{"national_movement":{"explanation":"Not relevant to the focal country.","applies":false,"code":99},"state_as_a_whole":{"explanation":"Not relevant to the focal country.","applies":false,"code":99},"specific_state_practices_or_organs":{"explanation":"Not relevant to the focal country.","applies":false,"code":99},"state_affiliated_individuals_or_groups":{"explanation":"Not relevant to the focal country.","applies":false,"code":99},"empathetic":{"explanation":"Not relevant to the focal country.","applies":false,"code":99}},"no_category_fits":false,"confidence_and_ambiguity":{"confidence_level":"High","uncertainty_explanation":""}}
+
+
+Example 3 (mixed sentiment)
+
+Input:
+- id: X0003
+- title: From Self-Government to Gleichschaltung: Saxon Municipalities, 1928-1935
+- publication_date: 2015
+- keywords: Local government;History;Political science;Nazism
+- abstract: Saxon municipalities in the late Weimar years sustained a lively culture of local self-government, with elected councils that broadened participation in public life. After 1933 the Nazi regime dismantled these councils, replacing elected officials with party appointees and suppressing local opposition.
+- focal_country: germany
+
+Output:
+{"record_id":"X0003","focal_country":"Germany","relevance":{"explanation":"The record directly studies German local government across the Weimar and Nazi periods.","basis":"direct_study","is_relevant":true},"sentiment":{"evidence":[{"quote":"sustained a lively culture of local self-government","source":"abstract"},{"quote":"the Nazi regime dismantled these councils, replacing elected officials with party appointees and suppressing local opposition","source":"abstract"}],"explanation":"The record portrays Weimar-era local self-government favorably and the Nazi regime's measures unfavorably. Because it traces a shift toward the negatively portrayed regime, the mixed-sentiment trend rule makes the record Negative.","verdict_rule_applied":false,"code":-1},"attitude_categories":{"national_movement":{"explanation":"The record does not engage with German nationalism or sovereignty as an ideological movement.","applies":false,"code":99},"state_as_a_whole":{"explanation":"The evaluations concern particular institutions and a particular regime, not the German state's nature as a whole.","applies":false,"code":99},"specific_state_practices_or_organs":{"explanation":"The negative sentiment is directed at the Nazi regime's dismantling of elected councils; the favorable portrayal of Weimar-era municipalities points the other way within the same category.","applies":true,"code":-1},"state_affiliated_individuals_or_groups":{"explanation":"No attitude is expressed toward a German group in its own right.","applies":false,"code":99},"empathetic":{"explanation":"The record mentions suppressed local opposition but does not express empathy toward the people affected.","applies":false,"code":99}},"no_category_fits":false,"confidence_and_ambiguity":{"confidence_level":"Medium","uncertainty_explanation":"The record contains both positive and negative elements toward German state organs; the Negative code rests on the trend rule."}}
+
+
+## 11. Final checks before you answer
+
+Before you answer, check that your output satisfies all of these:
+
+1. If `relevance.is_relevant` is `false`: `sentiment.code` is 99, `sentiment.evidence` is `[]`, every category has `applies: false` and `code: 99`, and `no_category_fits` is `false`.
+2. If `sentiment.code` is 99: every category has `applies: false` and `code: 99`, and `no_category_fits` is `false`.
+3. Every category with `applies: true` has `code` equal to `sentiment.code`. Every category with `applies: false` has `code: 99`.
+4. If `sentiment.code` is 1, 0 or -1: at least one category applies, or `no_category_fits` is `true`, never both.
+5. If `verdict_rule_applied` is `true`: `sentiment.code` is 1 or -1 and `sentiment.explanation` says the verdict rule was used.
+6. All quotes appear verbatim in the record.
+
+Then return only the JSON object.

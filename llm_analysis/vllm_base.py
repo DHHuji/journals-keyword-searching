@@ -3,7 +3,9 @@ from vllm import LLM, SamplingParams
 sampling_params = SamplingParams(
     temperature=0.3,
     top_p=0.9,
-    max_tokens=4096 * 20,
+    # The v3 tasks return one compact JSON object.  Keeping this bounded avoids
+    # wasting GPU time on a malformed or excessively verbose response.
+    max_tokens=8192,
     repetition_penalty=1.1
 )
 

@@ -1,0 +1,217 @@
+# Theme Analysis Prompt: Themes in an Academic Record as They Relate to a Focal Country
+
+This prompt has two parts. PART 1 sets out how to identify themes. PART 2 sets out the input you receive and the exact output format. Where the two seem to differ, PART 1 governs what you decide and PART 2 governs how you write it down.
+
+
+=====================================================================
+PART 1: CLASSIFICATION GUIDELINES
+=====================================================================
+
+## 1. Your task
+
+You are classifying bibliographic records of academic publications (journal articles, book chapters and book reviews). Each record consists of a title, an abstract and keywords, as provided by OpenAlex, and is paired with one focal country.
+
+For each record you decide which themes from a closed list (section 3.1) are substantively present in the record as it relates to the focal country, and rank them by how central they are. Then you state how confident you are.
+
+Whether the record is relevant to the focal country at all is decided separately, in another task. Do not judge relevance here. Your only question is which themes, if any, the record connects to the focal country.
+
+### Core principles
+
+These apply to every decision below.
+
+- Focal country only. Identify themes as they relate to the focal country. A theme the record discusses only in connection with other countries is not assigned.
+- Subject matter, not attitude. This task is only about what the record is about. The record's attitude toward the focal country is classified separately; do not let any judgment about sentiment shape which themes you identify.
+- The record's framing, not yours. Identify themes the record itself engages with. Do not assign a theme because you would characterize the events that way yourself (section 3.3).
+- The record is the only evidence. Use only the title, abstract and keywords, and the theme definitions in this prompt, exactly as given. Do not use outside knowledge of the author, the publication or the full text.
+- Objectivity. Do not guess what the person running this analysis hopes to find. Respond analytically.
+
+
+## 2. The focal country
+
+- Each record is one publication paired with one focal country. When a publication discusses several countries, it appears as several records, one per country. Classify each record only for its own focal country. The same publication can therefore receive different themes for different focal countries.
+- The focal country may be referred to by its name; its demonym (French, Israeli); its capital used as a stand-in for the government ("Ankara", "Washington"); its leaders ("President George W. Bush"); its institutions ("Wehrmacht", "Knesset", "U.S. Supreme Court"); or historical regimes and earlier forms of the same state (Nazi Germany, the Weimar Republic, Vichy France, Tsarist Russia).
+- If you treat a broader or contested predecessor entity as the focal country (for example, the Soviet Union for Russia, the Ottoman Empire for Turkey, the pre-1948 Zionist movement for Israel), say so in your explanation.
+- Do not conflate religious, ethnic or diaspora groups with a state. Jews are not "Israel", Muslims are not any particular state, and Germans abroad are not the German state, unless the record itself makes that connection. Jews in France are French individuals or groups when the focal country is France.
+
+
+## 3. Identifying themes
+
+### 3.1 Closed theme list
+
+Use only these themes. Each line gives the theme name, a colon, and its definition. The names and definitions are reproduced verbatim from the project's theme definitions file.
+
+- Colonialism: A system of political and economic domination in which an external power subjugates and governs another territory and population, typically extracting resources and reshaping institutions, culture, and social hierarchies.
+- Settler Colonialism: A form of colonialism in which settlers come to stay and seek permanent control of land, often framed in scholarship as an enduring structure oriented toward the replacement or dispossession of Indigenous populations.
+- Apartheid: An institutionalized regime of systematic domination by one racial group over another, maintained through laws and practices that enforce segregation, unequal rights, and political subordination.
+- Genocide: The intentional destruction, in whole or in part, of a protected group (commonly defined as national, political, ethnic, racial, or religious), where intent is the defining analytic and legal feature.
+- Fascism: A family of ultranationalist, authoritarian ideologies and movements characterized by anti-pluralism, mass mobilization, and a politics of national rebirth, often coupled with repression and militarism.
+- Occupation: A condition of effective control by a military power over territory beyond its sovereign domain, analyzed primarily through the law of occupation and the governance structures it produces, and often practiced by colonial regimes.
+- Oppression: Systematic and durable patterns of domination that constrain a group’s rights, opportunities, and life chances through institutional, legal, economic, and cultural mechanisms.
+- Resistance: Collective or individual practices that contest oppression (political, military, economic, or cultural), ranging in the literature from nonviolent mobilization to armed struggle.
+- War Crimes: Serious violations of international humanitarian law that generate individual criminal responsibility, such as unlawful or disproportionate targeting of civilians, mistreatment of detainees, or prohibited methods of warfare.
+- Ethnic Cleansing: Efforts to remove an ethnic or religious group from a territory through coercion (e.g., expulsion, intimidation, or violence), whether or not treated as a distinct legal category.
+- Immigration: Movement into a country to reside, typically studied through the lenses of legal status, integration, labor markets, citizenship, and boundary-making.
+- Refugee: A person outside their country of nationality who cannot return due to a well-founded fear of persecution (classically on specified grounds), a status with both legal and sociological dimensions.
+- Innovation: The creation and implementation of new ideas, technologies, or practices that generate value, commonly analyzed as a process involving diffusion, institutions, incentives, and learning.
+- Democracy: A system of rule in which political authority is derived from the people through meaningful participation and accountability, typically operationalized via elections, civil liberties, and constraints on arbitrary power.
+- Nation Building: State-led and societal processes aimed at constructing national identity and consolidating political institutions, often discussed in post-conflict governance and development literature, as well as in the context of decolonization
+- Liberalism: A political tradition emphasizing individual rights, equal citizenship, democracy, rule of law, and limits on state power, usually paired with commitments to pluralism and toleration.
+- Peace: Conceptualized as negative peace (absence of direct violence) and positive peace (institutions, justice, and social conditions that reduce the drivers of conflict).
+- Tolerance: Principled restraint of power against disapproved beliefs or practices, treated in political theory as a core mechanism of pluralism with defined limits (e.g., harm, rights violations).
+- Agency: The capacity of actors to make choices and act intentionally within constraints, often theorized in relation to structure, power, and social reproduction.
+- Egalitarian: An orientation or principle that treats persons as moral equals and seeks equality in status, rights, or the distribution of resources and opportunities.
+- Ethno-National: A form of nationalism that defines the nation primarily through shared ethnicity/ancestry and often seeks to align state power with that group’s identity and claims.
+- Nazism: National Socialism as an ideology and regime characterized by racial hierarchy, antisemitism, Führer-centered authoritarianism, expansionism, and totalitarian social control, mostly relevant in the historical context of 20th century Germany. Neo-Nazism is a new form of Nazi ideology, separate from the original historical context
+- Holocaust: The Nazi-led genocide of European Jews during World War II, commonly analyzed alongside the broader landscape of Nazi mass violence and state-organized extermination.
+- Religious-Zionist: A strand of Zionism that fuses Jewish religious commitments with Jewish national revival/statehood, often interpreting political sovereignty and settlement through theological categories.
+- Supremacy: A belief system and/or social order claiming inherent superiority of one group and legitimating domination, exclusion, or unequal rights.
+- Racism: Ideologies and practices that produce and reproduce hierarchical racial categories, including both interpersonal prejudice and structural/institutional discrimination.
+- Nakba: A term in Palestinian historiography and collective memory referring to the displacement and dispossession associated with the 1947–49 war and its enduring political and social consequences.
+- Zionism: A political movement advocating Jewish self-determination and a Jewish national home in Palestine/Israel, encompassing diverse currents (e.g., political, cultural, labor, revisionist, religious).
+- Messianism: The belief in an impending redemptive era or savior; in political analysis, projects framed as divinely mandated, inevitable, or world-transforming.
+- Whole-Israel: A political-ideological concept (often linked to territorial maximalism) advocating sovereignty over the entirety of the biblical Land of Israel, frequently discussed in relation to settlement and annexation debates.
+- West Bank: The territory west of the Jordan River, also known as Judea and Samaria, captured by Israel in 1967, a focal site in scholarship on military governance, settlement, sovereignty claims, and the Israeli–Palestinian conflict.
+- Antisemitism: Hostility, prejudice, or discrimination against Jews as Jews, including cultural stereotypes and conspiracy narratives; boundaries with political critique are actively debated in the literature.
+- Anti-Zionism: Opposition to Zionism as a political ideology or project, ranging from critiques of ethnonationalism to rejection of Jewish self-determination; scholars debate when and how it overlaps with antisemitism.
+- Diaspora: A dispersed population that sustains real or imagined ties to a homeland while developing transnational identities, institutions, and political/cultural networks.
+- Islamophobia: Fear, hostility, or discrimination directed at Muslims (or those perceived as Muslim), often theorized as a form of cultural racism and securitized governance.
+- Terrorism: the threat or use of violence by non-state (and sometimes state) actors to achieve political objectives by intimidating or coercing a broader audience beyond the immediate victims. Definitions vary, but most emphasize the strategic targeting of civilians/noncombatants and the communicative, fear-producing function of the act.
+- Occupational Oppression: systematic patterns of domination and rights restriction that arise under military occupation, where an occupying power’s control over territory and population produces durable inequalities through legal, administrative, economic, and coercive mechanisms. The term highlights how occupation can structure everyday life and political agency in ways that exceed isolated abuses, functioning as an ongoing regime of constraint.
+- Liberal Democracy: a political system combining competitive elections and majority rule with liberal constitutional constraints that protect individual rights, rule of law, and limits on arbitrary state power (e.g., independent courts, civil liberties, checks and balances).
+
+### 3.2 When a theme is present
+
+A theme from the list is present when all of the following hold:
+
+1. It plays a meaningful role in the record's subject or argument, not a passing mention.
+2. It is connected to the focal country: the focal country (its state, territory, people, or its relations with other countries) is involved in the theme as the record presents it, whether as an actor, as those affected, as the place where it occurs, or as the subject of study. When the focal country is one of a group of countries treated alike, a theme the record applies to the whole group applies to the focal country too. If the focal country appears only in passing (a peripheral mention, an incidental study location, a person's nationality), no theme is connected to it.
+3. It is supported by the title or abstract. A keyword that matches a theme name is not enough on its own, because OpenAlex assigns keywords automatically and they are sometimes wrong.
+
+### 3.3 The record's framing, not yours
+
+- For most themes, the record engages with a theme when it names it, uses a clear synonym, or describes the phenomenon in the terms the definition uses. For example, a study of how newcomers obtain legal status and enter the labor market engages Immigration even if the word does not appear.
+- Contested or legally loaded labels need more: Genocide, Apartheid, Ethnic Cleansing, War Crimes, Occupation, Occupational Oppression, Settler Colonialism and Terrorism are assigned only when the record itself uses the label or an explicit equivalent. Do not apply these labels on the strength of your own reading of the events described.
+- A theme is present whether the record affirms, rejects, qualifies or debates it. A record arguing that a policy should not be called apartheid still engages the theme of Apartheid.
+- Interpret each concept by the role it plays in the record itself, regardless of the meaning it carries in other periods or contexts.
+
+### 3.4 Overlapping themes
+
+- Some themes on the list are narrower forms of others (for example, Settler Colonialism and Colonialism; Religious-Zionist and Zionism; Liberal Democracy and Democracy; Occupational Oppression, Occupation and Oppression; Holocaust and Genocide).
+- Assign every theme that independently meets the test in 3.2. Do not add a broader theme automatically just because a narrower one applies: add it only if the record also engages with the broader concept in its own terms (for example, by discussing genocide as a general category or comparing the Holocaust with other cases).
+
+### 3.5 Ranking
+
+- Assign between zero and five themes.
+- Rank them by how central each is to the record's treatment of the focal country (1 = most central).
+- If no theme applies, assign none. Do not stretch a definition to fill the list.
+
+### 3.6 Thin or noisy records
+
+- A missing abstract does not by itself mean no themes. A title can be enough to show a theme.
+- Ignore publisher boilerplate in the abstract (for example, "Get access", "Search for other works by this author on…", prices, page counts, series information). It is not evidence.
+- You may silently read past encoding artifacts (for example, "‚Äô" for an apostrophe) and HTML tags (for example, <i>).
+- Use the publication date only as context for interpreting historical references.
+
+
+## 4. Confidence
+
+Give one overall confidence level for your theme decisions:
+
+- High: the decisions follow directly from clear text.
+- Medium or Low: explain why, naming the themes or decisions concerned. Typical reasons are a title-only record, a focal country that appears only briefly, a theme whose connection to the focal country is unclear, a theme close to the threshold of "meaningful role", overlap between neighboring themes, or garbled text.
+
+
+=====================================================================
+PART 2: TECHNICAL SPECIFICATION
+=====================================================================
+
+## 5. Input
+
+You will receive one record with these fields:
+
+- `id`: the record identifier.
+- `title`
+- `publication_date`
+- `keywords`: semicolon-separated topic tags assigned automatically by OpenAlex.
+- `abstract`: may be a full abstract, a fragment, scraped publisher text, or "NA" (no abstract available).
+- `focal_country`: the focal country for this record. Normalize it to its plain English name (for example, "united_states_or_usa" becomes "United States"; "south_africa" becomes "South Africa").
+
+
+## 6. Output format (mandatory)
+
+Your entire response must be one valid JSON object with exactly the structure below.
+
+- No text outside the JSON: no markdown fences, no commentary.
+- Do not add, remove or rename fields.
+- Write the fields in the order shown. `theme_screening` comes before `themes`, so that you weigh the candidates before committing to a list; within each theme, `evidence` and `explanation` come before `rank`.
+
+{
+  "record_id": "",
+  "focal_country": "",
+  "theme_screening": "",
+  "themes": [
+    {
+      "theme_name": "",
+      "evidence": [
+        { "quote": "", "source": "title | abstract | keywords" }
+      ],
+      "explanation": "",
+      "rank": 1
+    }
+  ],
+  "confidence_and_ambiguity": {
+    "confidence_level": "High | Medium | Low",
+    "uncertainty_explanation": ""
+  }
+}
+
+
+## 7. Field rules
+
+`record_id`: copy the input `id` exactly.
+
+`focal_country`: the normalized name of the input `focal_country`.
+
+`theme_screening`: one to three sentences naming the candidate themes you considered, including any you rejected and why (for example, a passing mention, no link to the focal country, or a contested label the record does not use). If the focal country plays no meaningful part in the record, say so here and return no themes.
+
+`themes`: an array of zero to five objects, listed in rank order. If there are none, return `"themes": []`.
+- `theme_name`: exactly one of the names in section 3.1, with the same spelling, capitalization and hyphenation (for example, "Ethno-National", "Whole-Israel", "Religious-Zionist").
+- `evidence`: one to three items. Each `quote` is copied verbatim from the title or abstract (a keyword may be added as a further item but never as the only item), is under 25 words, and names its `source` field. Never invent quotes, paraphrase inside quotation marks or "repair" a quote; copy quotes as they appear, including encoding artifacts.
+- `explanation`: one to three sentences grounded in the record, saying what role the theme plays and how it connects to the focal country.
+- `rank`: consecutive integers starting at 1, in order of centrality.
+
+`confidence_and_ambiguity`:
+- `confidence_level`: "High", "Medium" or "Low".
+- `uncertainty_explanation`: required for Medium or Low; may be an empty string for High.
+
+
+## 8. Illustrative example (invented record, not from the dataset)
+
+The same publication appears twice, once for each focal country, and receives different themes.
+
+Input (copy 1):
+- id: X0003
+- title: Textbook Wars: Teaching the Algerian War of Independence in France and Algeria
+- publication_date: 2018
+- keywords: History;Education;Colonialism;Political science
+- abstract: This article compares how secondary-school history textbooks in France and Algeria have narrated the war of 1954-1962. French textbooks long presented colonial rule as a civilizing project, while Algerian textbooks built a heroic narrative of armed struggle as the foundation of the independent nation.
+- focal_country: france
+
+Output (copy 1):
+{"record_id":"X0003","focal_country":"France","theme_screening":"Colonialism is central to how the record treats France. Resistance and Nation Building concern Algeria, not France, so they are not assigned for this copy.","themes":[{"theme_name":"Colonialism","evidence":[{"quote":"French textbooks long presented colonial rule as a civilizing project","source":"abstract"}],"explanation":"The record examines how French textbooks represent French colonial rule in Algeria, which is the core of its treatment of France.","rank":1}],"confidence_and_ambiguity":{"confidence_level":"High","uncertainty_explanation":""}}
+
+Input (copy 2): the same record with id X0004 and focal_country: algeria
+
+Output (copy 2):
+{"record_id":"X0004","focal_country":"Algeria","theme_screening":"Resistance, Nation Building and Colonialism all concern Algeria directly. No other theme plays a meaningful role in the record.","themes":[{"theme_name":"Resistance","evidence":[{"quote":"Algerian textbooks built a heroic narrative of armed struggle","source":"abstract"}],"explanation":"Algerian textbooks are described as centering on armed struggle against colonial rule.","rank":1},{"theme_name":"Nation Building","evidence":[{"quote":"as the foundation of the independent nation","source":"abstract"}],"explanation":"The record presents the textbook narrative as a foundation of Algerian national identity after independence.","rank":2},{"theme_name":"Colonialism","evidence":[{"quote":"Teaching the Algerian War of Independence in France and Algeria","source":"title"},{"quote":"presented colonial rule as a civilizing project","source":"abstract"}],"explanation":"Algeria appears as the colonized territory whose war of independence ended colonial rule.","rank":3}],"confidence_and_ambiguity":{"confidence_level":"High","uncertainty_explanation":""}}
+
+
+## 9. Final checks before you answer
+
+Check that your output satisfies all of these:
+
+1. No `theme_name` appears twice, and every `theme_name` matches section 3.1 exactly.
+2. Ranks are 1, 2, 3… with no gaps or repeats, and the array has at most five items.
+3. Every theme has at least one quote from the title or abstract, and all quotes appear verbatim in the record.
+
+Then return only the JSON object.

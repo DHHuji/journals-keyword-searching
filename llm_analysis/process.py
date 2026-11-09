@@ -4,7 +4,7 @@ import os
 import time
 import traceback
 from pathlib import Path
-from llm_output_json import has_valid_json_output
+from llm_output_json import extract_json_objects
 
 MODEL = ""
 
@@ -15,9 +15,18 @@ SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 
 SEARCH_RESULTS_DIR = os.path.join(SCRIPT_DIR, "../search_results")
 
-PROMPT_FILE = f"{SCRIPT_DIR}/prompt-v2/prompt.md"
-SEARCH_RESULTS_OUTPUT_DIR = f"{SEARCH_RESULTS_DIR}/llm_outputs"
 SEARCH_RESULTS_CSV_PATTERN = "works_*.csv"
+
+ANALYSES = {
+    "sentiment": {
+        "prompt_file": f"{SCRIPT_DIR}/prompt-v3/sentiment_prompt_v3.txt",
+        "output_dir": f"{SEARCH_RESULTS_DIR}/llm_outputs_v3/sentiment",
+    },
+    "themes": {
+        "prompt_file": f"{SCRIPT_DIR}/prompt-v3/themes_prompt_v3.txt",
+        "output_dir": f"{SEARCH_RESULTS_DIR}/llm_outputs_v3/themes",
+    },
+}
 
 
 def _print_exception(task_label, exc):
@@ -49,6 +58,39 @@ def _load_llm_gen(model_name, gpu_count):
         return _build_llm_gen(gpu_count)
     raise ValueError(
         f"Unknown model '{model_name}'."
+    )
+
+
+def _is_valid_v3_output(output_text, analysis):
+    """Reject valid JSON that belongs to the other v3 task or an old prompt."""
+    objects = extract_json_objects(output_text)
+    if len(objects) != 1 or not isinstance(objects[0], dict):
+        return False
+    obj = objects[0]
+    if analysis == "themes":
+        required = {
+            "record_id", "focal_country", "theme_screening", "themes",
+            "confidence_and_ambiguity",
+        }
+        return required <= obj.keys() and isinstance(obj["themes"], list)
+
+    required = {
+        "record_id", "focal_country", "relevance", "sentiment",
+        "attitude_categories", "no_category_fits", "confidence_and_ambiguity",
+    }
+    if not required <= obj.keys():
+        return False
+    sentiment = obj["sentiment"]
+    categories = obj["attitude_categories"]
+    return (
+        isinstance(sentiment, dict)
+        and sentiment.get("code") in {1, 0, -1, 99}
+        and isinstance(categories, dict)
+        and all(category in categories for category in (
+            "national_movement", "state_as_a_whole",
+            "specific_state_practices_or_organs",
+            "state_affiliated_individuals_or_groups", "empathetic",
+        ))
     )
 
 
@@ -101,7 +143,7 @@ def _keyword_from_search_results_csv(csv_path):
     return csv_path.stem.removeprefix("works_")
 
 
-def _format_record_text(row, keyword):
+def _format_record_text(row, focal_country):
     work_id = (row.get("id") or "").strip()
     title = (row.get("title") or "").strip()
     publication_date = (row.get("publication_date") or "").strip()
@@ -114,21 +156,41 @@ def _format_record_text(row, keyword):
             f"- publication_date: {publication_date}",
             f"- keywords: {keywords}",
             f"- abstract: {abstract}",
-            f"- keyword: {keyword}",
+            f"- focal_country: {focal_country}",
         ]
     )
 
 
-def collect_search_result_works():
+def _load_work_ids(path):
+    """Read a plain-text allowlist: one OpenAlex work ID per non-empty line."""
+    if path is None:
+        return None
+    try:
+        with path.open(encoding="utf-8") as f:
+            work_ids = {
+                line.strip()
+                for line in f
+                if line.strip() and not line.lstrip().startswith("#")
+            }
+    except OSError as exc:
+        raise ValueError(f"Cannot read work IDs file '{path}': {exc}") from exc
+    if not work_ids:
+        raise ValueError(f"Work IDs file '{path}' contains no IDs")
+    return work_ids
+
+
+def collect_search_result_works(output_dir, work_ids=None):
     search_dir = Path(SEARCH_RESULTS_DIR).resolve()
     seen = set()
     for csv_path in search_dir.glob(SEARCH_RESULTS_CSV_PATTERN):
-        keyword = _keyword_from_search_results_csv(csv_path)
+        focal_country = _keyword_from_search_results_csv(csv_path)
         with open(csv_path, "r", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 work_id = (row.get("id") or "").strip()
                 title = (row.get("title") or "").strip()
                 if not work_id or not title:
+                    continue
+                if work_ids is not None and work_id not in work_ids:
                     continue
                 task_key = f"{csv_path.stem}_{work_id}"
                 if task_key in seen:
@@ -137,12 +199,12 @@ def collect_search_result_works():
                 yield {
                     "task_key": task_key,
                     "task_label": f"{csv_path.name}:{work_id}",
-                    "record_text": _format_record_text(row, keyword),
-                    "output_dir": SEARCH_RESULTS_OUTPUT_DIR,
+                    "record_text": _format_record_text(row, focal_country),
+                    "output_dir": output_dir,
                 }
 
 
-def run_tasks(prompt, llm_gen):
+def run_tasks(prompt, llm_gen, output_dir, analysis, work_ids=None):
     print("Starting batched processing...\n")
 
     start_time = time.perf_counter()
@@ -170,7 +232,7 @@ def run_tasks(prompt, llm_gen):
             yield batch_tasks
 
     processed_batch_count = 0
-    for batch_items in iter_batches(collect_search_result_works()):
+    for batch_items in iter_batches(collect_search_result_works(output_dir, work_ids)):
         processed_batch_count += 1
         batch = []
         batch_map = []
@@ -204,7 +266,7 @@ def run_tasks(prompt, llm_gen):
             for batch_idx, output_text in enumerate(outputs):
                 original_idx, task = batch_map[batch_idx]
                 final_text = output_text
-                if not final_text or not final_text.strip() or not has_valid_json_output(final_text):
+                if not final_text or not final_text.strip() or not _is_valid_v3_output(final_text, analysis):
                     retry_batch.append(batch[batch_idx])
                     retry_map.append((original_idx, task))
                     continue
@@ -230,8 +292,8 @@ def run_tasks(prompt, llm_gen):
                         failures.append((task, error))
                         print(f"❌ Error processing {task['task_label']}: Empty model output after retry")
                         continue
-                    if not has_valid_json_output(retry_text):
-                        error = ValueError("Invalid JSON model output after retry")
+                    if not _is_valid_v3_output(retry_text, analysis):
+                        error = ValueError("Invalid or wrong-schema v3 JSON model output after retry")
                         failed += 1
                         failures.append((task, error))
                         _print_invalid_json_output(task["task_label"], retry_text)
@@ -271,13 +333,41 @@ def run_tasks(prompt, llm_gen):
 
 
 def main():
-    global MODEL, llm_gen
-    parser = argparse.ArgumentParser(description="Run vLLM processing.")
+    global MODEL, llm_gen, DRY_RUN, BATCH_SIZE
+    parser = argparse.ArgumentParser(
+        description="Run one independent v3 classification over OpenAlex metadata."
+    )
     parser.add_argument("model", type=str)
+    parser.add_argument(
+        "analysis", choices=ANALYSES,
+        help="Independent v3 task to run: sentiment or themes.",
+    )
     parser.add_argument("--gpu-count", type=int, required=True)
+    parser.add_argument("--dry-run", action="store_true", help="Print prompts without loading a model.")
+    parser.add_argument("--batch-size", type=int, default=BATCH_SIZE)
+    parser.add_argument("--prompt-file", type=Path, help="Override the prompt file for an experiment.")
+    parser.add_argument("--output-dir", type=Path, help="Override the analysis output directory.")
+    parser.add_argument(
+        "--work-ids-file", type=Path,
+        help="Optional UTF-8 text file with one OpenAlex work ID per line.",
+    )
     args = parser.parse_args()
 
     MODEL = args.model
+    DRY_RUN = args.dry_run
+    BATCH_SIZE = args.batch_size
+    analysis_config = ANALYSES[args.analysis]
+    prompt_file = args.prompt_file or Path(analysis_config["prompt_file"])
+    output_dir = str(args.output_dir or Path(analysis_config["output_dir"]))
+    if BATCH_SIZE < 1:
+        parser.error("--batch-size must be at least 1")
+    try:
+        work_ids = _load_work_ids(args.work_ids_file)
+    except ValueError as exc:
+        parser.error(str(exc))
+    if work_ids is not None:
+        print(f"Filtering to {len(work_ids)} work ID(s) from {args.work_ids_file}")
+
     if DRY_RUN:
         print(f"DRY_RUN enabled. Skipping model load for '{MODEL}'.")
         llm_gen = None
@@ -289,13 +379,13 @@ def main():
         print(f"Model '{MODEL}' loaded in {load_elapsed:.2f}s")
 
     try:
-        with open(PROMPT_FILE, 'r', encoding='utf-8') as f:
+        with open(prompt_file, 'r', encoding='utf-8') as f:
             prompt = f.read().strip()
     except FileNotFoundError as e:
         print(f"❌ Error: {e}")
         raise
 
-    run_tasks(prompt, llm_gen)
+    run_tasks(prompt, llm_gen, output_dir, args.analysis, work_ids)
 
 
 if __name__ == "__main__":
